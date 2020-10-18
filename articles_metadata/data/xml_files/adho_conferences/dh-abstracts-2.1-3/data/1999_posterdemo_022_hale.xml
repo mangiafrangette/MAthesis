@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="poster/demo">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Eduprise Solutions for Online Learning</title>
+                <author>
+                    <name>
+                        <forename type="first">Todd</forename>
+                        <surname>Nicolet</surname>
+                        <affiliation>
+                            <name type="org">Eduprise.com</name>
+                            <email/>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Chris</forename>
+                        <surname>Goodson</surname>
+                        <affiliation>
+                            <name type="org">Eduprise.com</name>
+                            <email/>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Kirsten</forename>
+                        <surname>Hale</surname>
+                        <affiliation>
+                            <name type="org">Eduprise.com</name>
+                            <email/>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="1999">1999</date>
+                <publisher>
+                    <name>University of Virginia</name>
+                </publisher>
+                <pubPlace>Charlottesville, VA</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m"/>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first"/>
+                        <surname/>
+                    </name>
+                    <name>
+                        <forename type="first"/>
+                        <forename type="middle"/>
+                        <surname/>
+                    </name>
+                    <name>
+                        <forename type="first"/>
+                        <surname/>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item> </item>
+                        <item> </item>
+                        <item> </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>Eduprise.com provides the educational community with creative solutions for
+                    enhancing instruction as well as techniques for making independent learners more
+                    productive. Our tool suite can be used for a wide range of instructional
+                    support, from enhancing classroom courses to implementing distance education.
+                    The tool suite provides:</p>
+                <p>
+                    <list type="bulleted">
+                        <head>Content Delivery Tools</head>
+                        <item>Course databases</item>
+                        <item>Assessment databases</item>
+                        <item>Media databases</item>
+                        <item>Resource libraries</item>
+                        <item>Web sites</item>
+                        <item>Student home pages</item>
+                    </list>
+                </p>
+                <p>
+                    <list type="bulleted">
+                        <head>Collaborative Communication Tools</head>
+                        <item>Threaded discussion forum</item>
+                        <item>Chat services</item>
+                        <item>Announcement e-mail lists</item>
+                        <item>Faculty in-basket</item>
+                        <item>Class analysis tools</item>
+                    </list>
+                </p>
+                <p>Assessing the value of any technology-based approach to education and training
+                    requires an understanding of objectives, methods, and expected outcomes. For
+                    this reason we discuss with institutions the use of tools in the context of
+                    educational issues and their attendant methodologies. Our approach to the use of
+                    IT is based on the following observations:<list type="bulleted">
+                        <item>Tools need to be designed with educators and students in mind.</item>
+                        <item>Solutions must be scalable, that is, capable of being implemented in a
+                            realistic educational context.</item>
+                    </list></p>
+                <p>Join Eduprise.com instructional professionals in an introduction to their array
+                    of services and rapid application development environment--designed to create a
+                    custom solution for your institution's online learning environment. You'll have
+                    an opportunity to create a course, build a resource library, and take a guest
+                    tour of some online and web-enhanced instructional environments created by
+                    Eduprise clients and professionals.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

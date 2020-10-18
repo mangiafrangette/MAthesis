@@ -1,9 +1,6 @@
 from crossref.restful import Works
 import json
 
-from crossref.restful import Works
-import json
-
 def get_crossref_metadata(file_name):
     # work needs to be defined for crossref
     works = Works()
@@ -14,8 +11,8 @@ def get_crossref_metadata(file_name):
         for object in json_data:
             id_list_research = object["research_articles"]
             # Define the file name for the metadata json final file
-            new_file_name = (f'{object["journal_title"]}_crossref_metadata.json').replace(" ", "_").replace("/", "")
-            with open(f'../data/json_files/{new_file_name}', "a", encoding="utf-8") as fd:
+            new_file_name = (f'{object["journal_title"]}_crossref_metadata.json').replace(" ", "_").replace("/", "").replace(":", "")
+            with open(f'../data/json_files/crossref_api/{new_file_name}', "a", encoding="utf-8") as fd:
                 fd.write("[")
                 # Make api request to crossref for each of the dois present in the list
                 for index, id in enumerate(id_list_research):

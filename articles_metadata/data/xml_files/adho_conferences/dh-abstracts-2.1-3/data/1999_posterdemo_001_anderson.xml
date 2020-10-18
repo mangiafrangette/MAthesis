@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="poster/demo">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Computing in the School of English at the University of
+                    Glasgow</title>
+                <author>
+                    <name>
+                        <forename type="first">Jean</forename>
+                        <surname>Anderson</surname>
+                        <affiliation> STELLA project <name type="org">University of Glasgow</name>
+                            <email/>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Christian</forename>
+                        <surname>Kay</surname>
+                        <affiliation>STELLA project <name type="org">University of Glasgow</name>
+                            <email/>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="1999">1999</date>
+                <publisher>
+                    <name>University of Virginia</name>
+                </publisher>
+                <pubPlace>Charlottesville, VA</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ACH/ALLC 1999</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first"/>
+                        <surname/>
+                    </name>
+                    <name>
+                        <forename type="first"/>
+                        <forename type="middle"/>
+                        <surname/>
+                    </name>
+                    <name>
+                        <forename type="first"/>
+                        <surname/>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item> </item>
+                        <item> </item>
+                        <item> </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <div>
+                    <p>The STELLA project (Software for Teaching English and Scottish Language and
+                        Literature) has served the School of English and Scottish Language and
+                        Literature at the University of Glasgow since 1987. We have produced
+                        teaching packages and brought research databases and other resources into
+                        use in teaching. All the programs have been thoroughly tested in the
+                        classroom, and have been subjected to comment and detailed criticism by
+                        thousands of students at Glasgow and elsewhere, and their teachers, since
+                        their first appearance. The teaching packages combine text, online help, and
+                        exercise materials.</p>
+                </div>
+                <div>
+                    <head>Teaching Packages</head>
+                    <p>The teaching packages to be demonstrated include:<list>
+                            <item>English Grammar: an Introduction;</item>
+                            <item>The Basics of English Metre and The Basics of Scots Metre;</item>
+                            <item>ARIES: Assisted Revision in English Style;</item>
+                            <item>The Essentials of Old English;</item>
+                            <item>A Guide to Scottish Literature;</item>
+                            <item>A Guide to Older Scots;</item>
+                            <item>A Guide to Robert Henryson;</item>
+                            <item>A Guide to Piers Plowman.</item>
+                        </list></p>
+                    <p>Other resources described will include:<list>
+                            <item>a major research database, the Historical Thesaurus of
+                                    English<lb/>&lt;<ptr
+                                    target="http://www.arts.gla.ac.uk/EngLang/thesaur/homepage.htm"
+                                />&gt;;</item>
+                            <item>STARN: the Scots Teaching and Research Network<lb/>&lt;<ptr
+                                    target="http://www.arts.gla.ac.uk/www/english/comet/starn.htm"
+                                />&gt;;</item>
+                            <item>email discussion lists for Scottish Literature and
+                                    Language<lb/>&lt;<ptr
+                                    target="http://www.mailbase.ac.uk/lists/scotlanglit-all/"
+                                />&gt;.</item>
+                        </list></p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

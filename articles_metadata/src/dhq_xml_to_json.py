@@ -102,7 +102,7 @@ def write_new_json():
             filenames.append(filename)
 
     #Create the final json file
-    with open(f"../data/dhq.json", "a", encoding="utf-8") as fd:
+    with open(f"../data/json_files/my_schema/Digital_Humanities_Quarterly.json", "a", encoding="utf-8") as fd:
         fd.write("[")
         for file_xml in filenames: 
             json.dump(xml_to_json(f'{path}/{file_xml}'), fd)

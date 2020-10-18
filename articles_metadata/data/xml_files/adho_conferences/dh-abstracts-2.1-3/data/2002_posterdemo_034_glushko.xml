@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/Users/saraschmidt/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="poster/demo">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Prognostics of English Verb Paradigm Evolution</title>
+                <author>
+                    <name>
+                        <forename type="first">Maria</forename>
+                        <surname>Glushko</surname>
+                        <affiliation>
+                            <name type="org">Voronezh State University</name>, Russia 
+                            <email>maria_glushko@hotmail.com</email>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="2002">2002</date>
+                <publisher>
+                    <name>University of Tübingen</name>
+                </publisher>
+                <pubPlace>Tübingen</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ALLC/ACH 2002</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first">Harald</forename>
+                        <surname>Fuchs</surname>
+                    </name>
+                    <name>
+                        <forename type="first"/>
+                        <forename type="middle"/>
+                        <surname/>
+                    </name>
+                    <name>
+                        <forename type="first"/>
+                        <surname/>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item> </item>
+                        <item> </item>
+                        <item> </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <div>
+                    <epigraph>
+                        <cit rend="block">
+                            <quote>
+                                <emph rend="distinct">Strong verbs are disappearing from English,
+                                    extrapolation points to c.3000 AD as the likely date of almost
+                                    complete disappearance.</emph>
+                            </quote>
+                            <bibl>
+                                <emph rend="italis">Whatmough (1956)</emph>
+                            </bibl>
+                        </cit>
+                    </epigraph>
+                </div>
+                <div>
+                    <head>1. Introduction.</head>
+                    <p>There exists in linguistics a traditionally sceptic view on the possibility
+                        of forecasting the further development of the language. Few isolated
+                        attempts were made in this respect, primarily in phonetics and morphology by
+                        Polivanov (1957, 1991), Shevoroshkin (1973), Whatmough (1956). The main
+                        objectives and methodology of linguistic prognostics were formulated by
+                        Kretov (1992,1993).</p>
+                </div>
+                <div>
+                    <head>2. A brief overview of linguistic prognostics at its present stage of
+                        development.</head>
+                    <p>Linguistic prognostics employs approaches traditionally used in lexicology,
+                        lexicostatistics, mathematic linguistics, linguistic synergetics and corpus
+                        linguistics.</p>
+                    <p>Kretov (1993) divides linguistic prognostics into three major subfields:<list
+                            type="bulleted">
+                            <item><emph rend="italics">ontognostics</emph>, i.e. explication of the
+                                unobserved fragments of the language system at its present
+                                stage;</item>
+                            <item><emph rend="italics">futurognostics</emph>, i.e. extrapolation of
+                                the revealed tendencies of the development of the system into
+                                future;</item>
+                            <item><emph rend="italics">retrognostics</emph>, i.e. reconstruction of
+                                the past stages of the system.</item>
+                        </list></p>
+                    <p>Both semiotic and functional approaches are employed by linguistic
+                        prognostics. Semiotic approach allows to reveal theoretically semantic and
+                        grammatical peculiarities of linguistic units. Here I can mention works by
+                        Karpilovska (1990), Otsaluk (1993), Palmaitis and Toporov (1984). This
+                        approach has been the most productive so far.</p>
+                    <p>Less widespread is the functional approach to the language, which allows to
+                        trace the dynamics of the functioning of linguistic units and then making
+                        conclusions about the future development of the language system. I employed
+                        functional approach in my work.</p>
+                </div>
+                <div>
+                    <head>3. A hypothesis.</head>
+                    <p>The general hypothesis for the research is based on the language law
+                        discovered and described by G.K. Zipf (1935). It states that among the most
+                        frequent words the percentage of old ones is far higher then that of rare or
+                        infrequently used words. Yet, the inverse relationship is also true: the
+                        more frequently used the word is, the better are its chances to remain
+                        unchanged in the language vocabulary, the more stable it is.
+                        Correspondingly, the less frequent word is, the fewer chances it has to
+                        remain unchanged in the vocabulary.</p>
+                    <p>Applying this law to irregular verbs, it has been proposed that irregularity
+                        of past simple and past participle verb forms is caused with the high
+                        frequency of the verb occurrence. It has also been assumed that the
+                        reduction of functional load on the verb leads to its transferring from the
+                        category of irregular to the category of regular verbs.</p>
+                </div>
+                <div>
+                    <head>4. Corpus.</head>
+                    <p>Chronological limits of the period considered are from 1500 until 1998. The
+                        corpora of research is comprised with 140 books, i.e. appr. 8 mnl words. A
+                        choice of texts and constraints imposed will be explained.</p>
+                </div>
+                <div>
+                    <head>5. Sample group.</head>
+                    <p>I studied the dynamics of the functional load on 90 verbs including all their
+                        forms. These were:<list type="bulleted">
+                            <item>30 regular verbs;</item>
+                            <item>30 irregular verbs;</item>
+                            <item>30 verbs possessing both regular and irregular conjurgation
+                                forms.</item>
+                        </list></p>
+                    <p>The choice of verbs picked for the sample group will be grounded with graphs
+                        and tables.</p>
+                </div>
+                <div>
+                    <head>6. Labour saving measures and methodologies.</head>
+                    <p>I made use of the text analyzing program created in Delphi, which provided me
+                        with relative frequencies of the units (i.e. the number of occurrences in
+                        the text divided by the number of words in the text), as well as Mathematica
+                        4.1 application for graphic representations and processing of the
+                        results.</p>
+                </div>
+                <div>
+                    <head>7. Tracing the dynamics.</head>
+                    <p>The dynamics of relative frequency evolution has been studied for each of 90
+                        verbs from the sample group. Afterwards, I divided all frequency of
+                        occurrence data into three classes and summed figures, that referred to each
+                        year. On receiving graphic representation of dynamics, three linear trends
+                        were built, that represent maximally generalized tendencies of evolution of
+                        verb classes we are interested in.</p>
+                </div>
+                <div>
+                    <head>8. Conclusion or VS Whatmough.</head>
+                    <p>Unfortunately neither linguistic prognostics has an apparatus in its disposal
+                        that would allow extrapolating to c.3000 AD, nor Whatmough provides any
+                        grounds for the statement mentioned above. I will show how English verb
+                        paradigm will look in a century and prove that not only irregular verb class
+                        doesn't disappear, but also the functional load on it increases.</p>
+                </div>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>Bibliography</head>
+                <listBibl>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">E.</forename>
+                                    <forename type="middle">A.</forename>
+                                    <surname>Karpilovska</surname>
+                                </name>
+                            </author>
+                            <title level="m">Konstruvannya skladnih slovotvorcheskih edinits</title>
+                            <imprint>
+                                <pubPlace>Kiiv</pubPlace>
+                                <publisher>Naukova dumka</publisher>
+                                <date when="1990">1990</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="bookChapter">
+                        <analytic>
+                            <author><name><forename type="first">A.</forename>
+                                <forename type="middle">A.</forename><surname>Kretov</surname></name></author>
+                            <title level="a">Nauchnii prognoz v leksicheskoi semantike</title>
+                        </analytic>
+                        <monogr>
+                             <title level="m">Funktsionalnaya semantika slova</title>
+                            <imprint>
+                                <pubPlace>Sverdlovsk</pubPlace>
+                                <publisher></publisher>
+                                <date when="1992">1992</date>
+                                <biblScope type="pp">99-110</biblScope>
+                            </imprint>
+                        </monogr></biblStruct>
+                    <biblStruct>
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">A.</forename>
+                                    <forename type="middle">A.</forename>
+                                    <surname>Kretov</surname>
+                                </name>
+                            </author>
+                            <title level="a">Osnovi leksiko-semanticheskoi prognostiki</title>
+                        </analytic>
+                        <monogr>
+                            <edition>Dissertatsia na soiskanie uchenoi stepeni doktora
+                                filologicheskih nauk</edition>
+                            <imprint>
+                                <publisher>Voronezh</publisher>
+                                <date when="1993">1993</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <analytic>
+                            <author><name><forename type="first">S.</forename>
+                                <forename type="middle">I.</forename><surname>Otsaluk</surname></name></author>
+                            <title level="a">Prognozuvannya semantichnoi derivatsii: postanovka problemi</title>
+                        </analytic>
+                        <monogr>
+                            <title level="m">Materiali mezhdunarodnoi naukovoi konferentsii "Semantika movi tekstu"</title>
+                            <imprint>
+                                <pubPlace>Ivano-Frankivsk</pubPlace>
+                                <publisher></publisher>
+                                <date when="1993">1993</date>
+                                <biblScope type="pp">231-232</biblScope>
+                            </imprint>
+                        </monogr></biblStruct>
+                    <biblStruct type="bookChapter">
+                        <analytic>
+                            <author><name><forename type="first">M.</forename>
+                                <forename type="middle">L.</forename><surname>Palmaitis</surname></name></author>
+                            <author><name><forename type="first">V.</forename>
+                                <forename type="middle">N.</forename><surname>Toporov</surname></name></author>
+                            <title level="a">Ot rekonstruktsii 
+                                staroprusskogo do rekriatsii novoprusskogo</title>
+                        </analytic>
+                        <monogr>
+                            <title level="m">Balto-slavyanskie issledovaniya</title>
+                            <imprint>
+                                <pubPlace>Moskva</pubPlace>
+                                <publisher>Nauka</publisher>
+                                <date></date>
+                                <biblScope type="pp">36-63</biblScope>
+                            </imprint>
+                        </monogr></biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author><name><forename type="first">E.</forename>
+                                <forename type="middle">D.</forename><surname>Polivanov</surname></name></author>
+                            <title level="a">Foneticheskie konvergentsii</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Voprosi yazikoznaniya</title>
+                            <imprint>
+                                <biblScope type="vol">3</biblScope>
+                                <biblScope type="issue"></biblScope>
+                                <biblScope type="pp">77-83</biblScope>
+                                <date when="1957">1957</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="bookChapter">
+                        <analytic>
+                            <author><name><forename type="first">V.</forename>
+                                <forename type="middle">V.</forename><surname>Shevoroshkin</surname></name></author>
+                            <title level="a">Distributivnaya fonetika russkogo yazika v sravnitel'no tipologicheskom aspekte</title>
+                        </analytic>
+                        <monogr>
+                            <title level="m">Problemi strukturnoi lingvistiki</title>
+                            <imprint>
+                                <pubPlace>Moskva</pubPlace>
+                                <publisher>Nauka</publisher>
+                                <date when="1973">1973</date>
+                                <biblScope type="pp">575-585</biblScope>
+                            </imprint>
+                        </monogr></biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">J.</forename>
+                                    <surname>Whatmough</surname>
+                                </name>
+                            </author>
+                            <title level="m">Language. A modern Synthesis</title>
+                            <imprint>
+                                <pubPlace>London</pubPlace>
+                                <publisher>Secher and Warburg</publisher>
+                                <date when="1956">1956</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">G.</forename>
+                                    <forename type="middle">K.</forename>
+                                    <surname> Zipf</surname>
+                                </name>
+                            </author>
+                            <title level="m">The Psycho-Biology of Language</title>
+                            <imprint>
+                                <pubPlace>Cambridge, Mass.</pubPlace>
+                                <publisher/>
+                                <date when="1935">1935</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

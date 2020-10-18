@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="paper">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">WebCAPE - Language Placement Testing over the
+                    Web</title>
+                <author>
+                    <name>
+                        <forename type="first">Charles</forename>
+                        <forename type="middle">D.</forename>
+                        <surname>Bush</surname>
+                        <affiliation>
+                            <name type="org">Brigham Young University</name>, USA <email/>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="2000">2000</date>
+                <publisher>
+                    <name>University of Glasgow</name>
+                </publisher>
+                <pubPlace>Glasgow</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ALLC/ACH 2000</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first">Jean</forename>
+                        <surname>Anderson</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Amal</forename>
+                        <surname>Chatterjee</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Christian</forename>
+                        <forename type="middle">J.</forename>
+                        <surname>Kay</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Margaret</forename>
+                        <surname>Scott</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item>The Electronic Classroom</item>
+                        <item> </item>
+                        <item> </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <div>
+                    <p>WebCAPE is a web-based implementation of the BYU Computer-Adaptive Placement
+                        Exam (CAPE) series. These exams use adaptive procedures to assess language
+                        ability, drawing from a large bank of calibrated test items. Tests are
+                        administered from a web server computer through the internet to a browser
+                        application on students' computers. Test security in WebCAPE is maintained
+                        through a combination of application design and standard web methods.</p>
+                </div>
+                <div>
+                    <head>Background</head>
+                    <p>Students entering a university language program come with a wide range of
+                        previous language training and experience. Thus, determining which class
+                        students should enroll in becomes an enormous task for language departments.
+                        A placement exam can be used, but paper-based standardized placement exams
+                        bring their own headaches: students have to be brought in at a fixed time
+                        and place, the test takes a long time to take and everyone has to wade
+                        through all the questions, and then you have to wait while the tests are
+                        sent in for scoring and for the results to come back.</p>
+                    <p>The Humanities Research Center at Brigham Young University has developed a
+                        set of language placement exams that overcome these problems. The exams are
+                        delivered by computer and thus do not require a lock-step controlled
+                        environment. The exams are adaptive, effectively eliminating questions far
+                        above or below the students' ability. And since questions are drawn from a
+                        large bank of test items, each student gets what amounts to a unique test,
+                        thus avoiding problems with test security. The computer-adaptive approach
+                        also means the test need only take long enough to determine a particular
+                        student's ability level and produces a placement score on the spot.</p>
+                    <p>Underlying the BYU CAPE (Computer-Adaptive Placement Exam) application is a
+                        large bank of calibrated test items. Initially, several hundred questions
+                        were written, testing a variety of language skills: vocabulary, grammar,
+                        reading comprehension, etc. These were then statistically calibrated for
+                        difficulty and discrimination among ability levels. Test item banks have
+                        been developed for Spanish, German, French, Russian, and most recently,
+                        English as a Second Language.</p>
+                    <p>Originally CAPE tests were implemented as individual application programs.
+                        But more recently, a new implementation has been developed for an
+                        internet/web environment. This version, called WebCAPE, uses a web server
+                        for the core functionality and test item banks, but administers the actual
+                        tests over the internet through a standard browser application. Thus WebCAPE
+                        tests can be given on any computer with an internet connection and Netscape
+                        4.0 or equivalent.</p>
+                </div>
+                <div>
+                    <head>How It Works</head>
+                    <p>Students enter WebCAPE through their school's menu page. This page is
+                        customized for the school, incorporating their seal or logo, a background
+                        campus scene, and school colors into the page design. Page content includes
+                        a brief explanation of the tests and how the school utilizes their results,
+                        along with basic instructions for taking the test.</p>
+                    <p>When students select their language from the menu page, they go to a
+                        registration page. This page is also specific to the school. Students enter
+                        their identification information in the top section of the page. They may
+                        also enter their e-mail address for an e-mail copy of their test
+                        results.</p>
+                    <p>Clicking the Begin Exam button takes students into the actual exam. After
+                        some initialization, a new browser window opens to the exam environment.
+                        This is served completely from the WebCAPE server and is the same for all
+                        tests. The top frame contains title information. The middle section displays
+                        the current test item. The bottom frame contains the exam control panel
+                        where the students indicate their answer, then click Confirm Response to
+                        register their response.</p>
+                    <p>First, the exam presents six <emph rend="italics">level check</emph>
+                        questions selected from the full difficulty range. Based on these answers,
+                        the algorithm computes a preliminary ability estimate. It then begins to
+                            <emph rend="italics">probe</emph> with questions to fine-tune that
+                        estimate. In essence, it presents harder and easier questions until it can
+                        focus to a statistically reliable value. On average, the entire testing
+                        process takes 20-25 minutes.</p>
+                    <p>When the exam finishes, students are returned to the registration page and
+                        their results are posted in the bottom section of the page. Here their final
+                        ability estimate is mapped to a recommended course by reference to a table
+                        of cut-off points established by the school. Beginning and ending
+                        time-stamps are also posted, for validation and timing purposes. In
+                        addition, the exam returns details of the students' session. These are not
+                        normally displayed for the student to see, but are sent to the school for
+                        analysis.</p>
+                    <p>As a final step, students click Submit Results. This generates an e-mail
+                        message with all of the information to the school/department and a summary
+                        message to the student's e-mail address. A confirmation page is also
+                        generated by this process, which in turn takes them back to the menu page,
+                        ready for the next student.</p>
+                </div>
+                <div>
+                    <head>Security</head>
+                    <p>WebCAPE is designed to be reasonably secure for its intended use. Access
+                        control is maintained through the menu page, registration pages only accept
+                        entrance from a corresponding menu page, and the exam environment can only
+                        be entered from a properly configured registration page. Both are maintained
+                        on the WebCAPE server and isolated from outside access. The host school
+                        controls access to their menu page, typically by either setting up links or
+                        bookmarks in the lab where they administer the exam, or by only giving the
+                        URL to their properly registered students. When needed, the WebCAPE server
+                        can also be configured to restrict access to a particular IP address or
+                        range (a designated lab, for example), or to require a userID and
+                        password.</p>
+                    <p>Test security is maintained mostly by the design of the page set. Test items
+                        are individual html files that do not contain answer information or other
+                        clues. The answer <emph rend="italics">key</emph> is read into the
+                        programming of the control frame when it loads. And should a student manage
+                        to hack into the answer table, there is no way to identify which answer goes
+                        with which question. At the server level, hackers are thwarted by the
+                        built-in resistance of the server and operating system configuration.</p>
+                    <p>Foolproofing security is more problematic. Because it uses a standard
+                        internet browser, WebCAPE cannot keep students from doing things the browser
+                        allows: like closing the window or using the back button or even quitting
+                        the browser program entirely. All that can be done is to write clear
+                        instructions and incorporate warning alerts. This suggests administering
+                        WebCAPE tests in a controlled environment (like a student lab) with a
+                        standardized browser configuration and a proctor to monitor things.</p>
+                    <p>The biggest vulnerability to cheating in WebCAPE comes at the student
+                        workstations. The exam cannot prevent students from using a dictionary,
+                        getting help from friends or even having someone else take the test. This
+                        clearly demands a proctored environment.</p>
+                    <p>WebCAPE test security measures mentioned thus far try to prevent cheating to
+                        get a higher score. But students taking a placement test may also try to get
+                        a lower score. The current version of WebCAPE does not directly address this
+                        problem. However the results message it sends to the department does include
+                        details of the test session, which can be analyzed when needed - an alert
+                        human would immediately suspect a test with all-wrong answers. Other
+                        suspicious patterns like all-one-letter answers or only a few seconds
+                        between answers can also be easily recognized by a human. The next version
+                        of WebCAPE will probably include processing to at least flag patterns such
+                        as these.</p>
+                    <p>Ultimately there may still be a few students that get misplaced, either by
+                        faking out the test or by slipping through the statistical margin of error.
+                        These will still have to be dealt with by human administrative procedures.
+                        But WebCAPE should keep the number small enough to manage.</p>
+                </div>
+                <div>
+                    <head>Implementations</head>
+                    <p>WebCAPE is implemented as a service rather than as a program package. Schools
+                        pay for access for their students to take the tests rather than buy the
+                        program itself. For most schools, the best alternative is a flat fee for
+                        unlimited tests, but a lower-cost option for a fixed number of tests is also
+                        available. In each case there is also a one-time setup fee for creating the
+                        customized menu and registration pages. Planning is underway to also
+                        implement a pay-per-test entrance to WebCAPE. This would allow someone to
+                        take the test on their own initiative to see how they might place into
+                        college-level courses. A third configuration as a high school exit exam has
+                        been proposed. This would be for high school language programs, allowing
+                        students to find out where they would place into college courses.</p>
+                </div>
+                <div>
+                    <head>Future</head>
+                    <p>WebCAPE is currently available for French, German and Spanish, with Russian
+                        to be added shortly. For all four languages, the test items are strictly
+                        text-based questions. While different test items assess different aspects of
+                        language ability, they are still confined to written text. But the latest
+                        CAPE exam under development, English-as-a-Second-Language, goes beyond that
+                        text-only limit. ESL-CAPE incorporates sound clips into many test items and
+                        thus adds listening comprehension to the language skills it assesses.
+                        ESL-CAPE also has an option to calculate separate ability estimate scores
+                        for grammar, reading comprehension, and listening comprehension - the other
+                        exams only give a composite estimate. A stand-alone implementation of
+                        ESL-CAPE is now being piloted. Web implementation will be ready for
+                        production testing next year.</p>
+                </div>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>Selected Bibliography</head>
+                <listBibl>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">Harold</forename>
+                                    <forename type="middle">S.</forename>
+                                    <surname>Madsen</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">Jerry</forename>
+                                    <forename type="middle">W.</forename>
+                                    <surname>Larson</surname>
+                                </name>
+                            </author>
+                            <title level="a">Computerized Adaptive Language Testing: Moving Beyond
+                                Computer Assisted Testing</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">CALICO Journal</title>
+                            <imprint>
+                                <biblScope type="vol">2</biblScope>
+                                <biblScope type="issue">3</biblScope>
+                                <biblScope type="pp">32-36</biblScope>
+                                <date when="1985">March 1985</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="bookChapter">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">Jerry</forename>
+                                    <forename type="middle">W.</forename>
+                                    <surname>Larson</surname>
+                                </name>
+                            </author>
+                            <title level="a">S-CAPE: A Spanish Computerized Adaptive Placement
+                                Exam</title>
+                        </analytic>
+                        <monogr>
+                            <editor>
+                                <name>
+                                    <forename type="first">William</forename>
+                                    <forename type="middle">Flint</forename>
+                                    <surname>Smith</surname>
+                                </name>
+                            </editor>
+                            <title level="m">Modern Technology in Foreign Language Education:
+                                Applications and Projects</title>
+                            <title level="s">ACTFL Foreign Language Education series</title>
+                            <imprint>
+                                <pubPlace>Skokie, IL</pubPlace>
+                                <publisher>National Textbook Co.</publisher>
+                                <date when="1989">1989</date>
+                                <biblScope type="pp">277-289</biblScope>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">Jerry</forename>
+                                    <forename type="middle">W.</forename>
+                                    <surname>Larson</surname>
+                                </name>
+                            </author>
+                            <title level="a">Computerized Adaptive Placement Exams in French,
+                                German, Russian, and Spanish. Foreign Language Notes</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Newsletter of Foreign Language Educators of New
+                                Jersey</title>
+                            <imprint>
+                                <biblScope type="vol">XXXVIII</biblScope>
+                                <biblScope type="issue">2</biblScope>
+                                <biblScope type="pp">13-15</biblScope>
+                                <date when="1996">1996</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">Jerry</forename>
+                                    <forename type="middle">W.</forename>
+                                    <surname>Larsen</surname>
+                                </name>
+                            </author>
+                            <title level="a">An Argument for Computer Adaptive Language
+                                Testing</title>
+                        </analytic>
+                        <monogr>
+                            <title level="m">Methods and Applications of CALL for Foreign Language
+                                Education in Korean Universities. Proceedings of the Conference on
+                                Applications of Computer-Assisted Language Learning (CALL), Dongduck
+                                Women's University. Seoul, Korea, November 29, 1996</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date when="1996">1996</date>
+                                <biblScope type="pp">51-80</biblScope>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

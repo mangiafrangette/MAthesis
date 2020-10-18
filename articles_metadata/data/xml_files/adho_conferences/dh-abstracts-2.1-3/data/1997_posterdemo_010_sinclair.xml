@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="poster/demo">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">L'HyperPo: Exploration des structures lexicales à
+                    l'aide des formes hypertextuelles</title>
+                <author>
+                    <name>
+                        <forename type="first">Stéfan</forename>
+                        <surname>Sinclair</surname>
+                        <affiliation>
+                            <name type="org">Queen's University</name>
+                            <email>4ss42@qsilver.queensu.ca</email>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="1997">1997</date>
+                <publisher>
+                    <name>Queen's University</name>
+                </publisher>
+                <pubPlace>Kingston, Ontario</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ACH/ALLC 1997</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name type="org">the secretarial staff in the Department of French Studies at
+                        Queen's University</name>
+                    <name>
+                        <forename type="first">Greg</forename>
+                        <surname>Lessard</surname>
+                    </name>
+                    <name>
+                        <forename type="first"/>
+                        <surname/>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item>hypertexte</item>
+                        <item>analyse littéraire</item>
+                        <item>OuLiPo</item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <div>
+                    <head>Introduction</head>
+                    <p>L'analyse de texte informatisée représente à la fois un domaine foisonnant de
+                        nouvelles possibilités pour la critique littéraire et une source de
+                        frustration constante pour les chercheurs qui s'y intéressent.
+                        L'automatisation de certaines tâches fastidieuses et enclines aux erreurs
+                        humaines figure sûrement parmi les apports merveilleux de l'informatique --
+                        et pourtant ce caractère machinal, inflexible et somme tout inintelligent
+                        demeure simultanément sa plus importante pierre d'achoppement. C'est
+                        justement un désir de combler le gouffre qui semble exister entre l'univers
+                        souvent rigide, mécanique et ésotérique de l'ordinateur et l'univers plutôt
+                        nuancé et spéculatif de la littérature qui sert d'impulsion pour le système
+                        d'exploration textuelle qui sera présenté ci-dessous. Je précise tout de
+                        suite que l'HyperPo (<emph rend="italics">Hyper</emph>texte <emph
+                            rend="italics">Po</emph>tentiel) est loin de résoudre tous les problèmes
+                        dont souffrent actuellement les recherches en analyse informatisée de texte,
+                        mais ces forces motivantes sont néanmoins des plus pertinentes. En
+                        particulier, l'HyperPo se veut un exemple de logiciel manifestement utile
+                        pour l'analyse informatisée des textes, et en même temps relativement simple
+                        et convivial. À cet égard, il cherche à se rendre accessible aux non-experts
+                        tout en suscitant l'intérêt des experts. Par ailleurs, comme l'évoque son
+                        nom, l'HyperPo s'inspire fortement des principes de l'OuLiPo (<emph
+                            rend="italics">Ou</emph>vroir de <emph rend="italics">li</emph>ttérature
+                            <emph rend="italics">po</emph>tentielle). Rappelons que l'OuLiPo
+                        poursuit une innovation systématique des contraintes dans la production
+                        littéraire. L'HyperPo, pour sa part, facilite l'exploration des formes
+                        potentielles d'un texte et s'engage à des résultats intéressants surtout
+                        lorsque les textes de base s'apparentent aux textes oulipiens.</p>
+                    <p>En somme, l'HyperPo tente de renforcer deux des rapports entre les trois
+                        éléments qui comportent ce qu'il convient d'appeler la trinité de l'analyse
+                        informatisée des textes: l'humain, la machine et le texte. D'une part, grâce
+                        à sa vigilance d'harmoniser sa puissance et sa simplicité, l'HyperPo
+                        travaille le lien entre l'humain et la machine (voir <emph rend="tt"
+                            >A</emph> dans la figure 1). D'autre part, en se concentrant sur des
+                        textes oulipiens qui se prêtent relativement bien à l'analyse informatisée
+                        en raison de leur caractère plutôt algorithmique, l'HyperPo facilite le lien
+                        entre la machine et le texte (voir <emph rend="tt">B</emph> dans la figure
+                        1).</p>
+                    <figure>
+                        <head>figure 1</head>
+                    </figure>
+                </div>
+                <div>
+                    <head>L'Hyperpo</head>
+                    <p>L'HyperPo est un outil d'exploration textuelle qui fonctionne en tant que
+                        page hypertoile (page World Wide Web). Toute personne qui a accès à Netscape
+                        2.x ou plus haut, ou bien un logiciel semblable, peut donc profiter de
+                        l'HyperPo. Cette très grande accessibilité qui permet de l'utiliser sur des
+                        systèmes d'exploitation différents (PC, Mac, Unix, etc.) est encore
+                        relativement rare pour des logiciels d'analyse textuelle (voir cependant
+                        TactWeb pour un exemple avant-coureur du genre d'outil qui sera sans doute
+                        bientôt disponible: <ptr
+                            target="http://tactweb.humanities.mcmaster.ca/tactweb/home.htm"/>).</p>
+                    <p>L'HyperPo tourne grâce à un logiciel écrit dans un langage de programmation
+                        qui s'appelle Perl (Practical Extraction and Report Language -- voir <ptr
+                            target="http://www.perl.com/perl/"/> pour plus d'informations). Sans
+                        trop s'appesantir sur les détails du langage, il vaut la peine de mentionner
+                        que Perl me semble très prometteur pour les humanistes qui s'intéressent à
+                        l'informatique, car il offre un juste milieu entre plusieurs autres langages
+                        de programmation: il est plus puissant que certains langages tels que Basic
+                        et AWK, et moins compliqué que d'autres tels que C et Java. Mais surtout, il
+                        a été conçu pour communiquer avec les pages hypertoiles et pour effectuer
+                        plusieurs sortes de démarches sur des textes.</p>
+                    <p>L'HyperPo tourne grâce à un logiciel écrit dans un langage de programmation
+                        qui s'appelle Perl (Practical Extraction and Report Language -- voir <ptr
+                            target="http://www.perl.com/perl/"/> pour plus d'informations). Sans
+                        trop s'appesantir sur les détails du langage, il vaut la peine de mentionner
+                        que Perl me semble très prometteur pour les humanistes qui s'intéressent à
+                        l'informatique, car il offre un juste milieu entre plusieurs autres langages
+                        de programmation: il est plus puissant que certains langages tels que Basic
+                        et AWK, et moins compliqué que d'autres tels que C et Java. Mais surtout, il
+                        a été conçu pour communiquer avec les pages hypertoiles et pour effectuer
+                        plusieurs sortes de démarches sur des textes.</p>
+                    <p>L'HyperPo comprend quatre parties principales qui se présentent dans trois
+                        fenêtres d'un navigateur tel que Netscape. La fenêtre en haut contient le
+                        texte de base à évaluer et un tableau qui comprend plusieurs options qui
+                        peuvent être configurées selon les besoins de l'individu et les
+                        particularités du texte. La fenêtre en bas à gauche est réservée pour la
+                        version hypertextuelle du texte de base tandis que la fenêtre en bas à
+                        droite est désignée pour les listes fréquences et d'éléments triés (la
+                        notion d'élément deviendra plus claire au fur et à mesure que les options
+                        seront expliquées). La figure 2 montre l'organisation de la page.<figure>
+                            <head>figure 2: L'organisation de l'HyperPo</head>
+                        </figure></p>
+                    <p>En plus d'offrir un aperçu plus concret de son fonctionnement, la section
+                        suivante offre l'occasion de comparer l'HyperPo à d'autres outils communs
+                        pour l'analyse informatisée des textes. Je me limiterai surtout à deux
+                        ensembles d'outils qui recouvrent pourtant les caractéristiques principales
+                        de plusieurs d'autres. Il y a d'une part le progiciel Tact (Text Analysis
+                        Computing Tools -- voir <ptr
+                            target="http://www.chass.utoronto.ca:8080/cch/tact.html"/>) et d'autre
+                        part plusieurs petits logiciels qui fonctionnent à l'intérieur de Unix
+                        (sort, freq, grep, awk, etc.). Un travail plus étendu pourrait sans doute
+                        prendre en considération une gamme beaucoup plus large de logiciels (le
+                        lecteur intéressé profitera sûrement des recueils généraux tels que <title
+                            level="m">The Digital word : text-based computing in the
+                            humanities</title>, des revues consacrées au sujet telles que <title
+                            level="j">Computing in the Humanities</title> et des études du rapport
+                        entre l'informatique et la littérature comme celle d'Alain Vuillemin).</p>
+                    <p>Il va de soi que le texte de base est l'entité primordiale pour l'HyperPo.
+                        Comme tout outil d'analyse textuelle, l'HyperPo a préalablement besoin d'un
+                        sujet contre lequel se heurter. Le choix des <title level="m">Exercices de
+                            style</title> comme texte de base par défaut s'explique aisément à la
+                        lumière des caractéristiques que ce texte partage avec les buts de
+                        l'HyperPo. Son auteur, Raymond Queneau, a entrepris de raconter à peu près
+                        la même suite d'événements en adoptant cent styles différents. En raison de
+                        la similarité sémantique de ces passages, on s'attendrait à un taux de
+                        répétition assez élevé pour certaines formules. Je ne m'engage pas ici à une
+                        étude des <title level="m">Exercices de style</title>, il suffit de dire que
+                        les 5 styles choisis offrent une très grande richesse quant à la répétition
+                        lexicale. Le choix de ce texte dévoile également une présupposition que je
+                        ne tiens pas du tout à cacher: puisque les outils d'analyse textuelle à
+                        notre disposition diffèrent tellement en nature des textes qu'ils sont
+                        censés nous aider à explorer, il vaut mieux privilégier les textes qui se
+                        prêtent le mieux à ces outils. Par la suite, au fur et à mesure que les
+                        outils se raffinent, on pourra tourner notre attention vers un plus grand
+                        corpus de texte. Entre temps, un grand nombre de textes oulipiens me
+                        semblent être de valeur inestimable pour assister au développement des
+                        systèmes d'analyse. À cet égard on consultera avec intérêt <title level="m"
+                            >l'Atlas de la littérature potentielle</title> de l'Oulipo et <title
+                            level="m">La Machine littérature</title> d'Italo Calvino.</p>
+                    <p>Il existe par ailleurs une différence fondamentale entre l'HyperPo et la
+                        plupart des autres outils d'analyse textuelle car il n'est pas du tout
+                        question de la même sorte de permanence pour ce qui est du texte de base. Le
+                        texte de base pour Tact est une base de données spéciale qui doit être créée
+                        et sauvegardée sur un dispositif de mémoire. On peut effectuer un grand
+                        nombre de démarches sur cette base de données mais si l'on veut apporter des
+                        changements au texte de départ il faut recréer la base de données. De même,
+                        les outils de Unix obligent eux aussi la présence d'un texte enregistré qui
+                        doit être sauvegardé de nouveau après chaque modification. En contraste, le
+                        texte de base dans l'HyperPo reste en mémoire vive et offre la plus grande
+                        flexibilité pour son remaniement. Cette distinction entre un document
+                        enregistré et un document en mémoire vive peut paraître sans conséquence
+                        mais elle gagne en intérêt lorsqu'on considère que l'analyse informatisée de
+                        texte cherche implicitement à s'éloigner du concept d'un texte figé,
+                        représenté par excellence sous sa forme imprimée.</p>
+                    <p>À partir du texte de base, L'HyperPo génère plusieurs textes complémentaires.
+                        Le premier, affiché dans la fenêtre en bas à gauche, représente une version
+                        hypertextuelle qui respecte dans un premier temps la suite linéaire des
+                        éléments. Ce qui le distingue vraiment du texte de base c'est la possibilité
+                        de liens hypertextuels entre les éléments qui se répètent (voir la figure
+                        3). L'effet ultime est une surimpression de deux textes: d'une part le texte
+                        de base linéaire et d'autre part les éléments répétés qui sont indiqués par
+                        des liens hypertextuels. Puisque les deux textes occupent le même plan, ils
+                        s'entremêlent de façon inextricable. Bien entendu, le monde textuel de Unix
+                        où habitent les logiciels qui tournent grâce à la ligne de commande n'est
+                        pas du tout accueillant à la sorte de représentation graphique exigée par
+                        les structures surimposées et les liens hypertextuels. Quant à Tact, il
+                        existe la possibilité de faire ressortir certains éléments grâce aux
+                        couleurs, mais il n'est pas non plus conçu pour la navigation
+                        hypertextuelle; les éléments relevés restent donc ancrés dans leur ordre
+                        linéaire. Même les listes KWIC (Key Word In Context) doivent rompre la
+                        fluidité du texte linéaire afin de mettre en évidence les éléments désirés.
+                        Les deux modèles ne peuvent exister simultanément.</p>
+                    <figure>
+                        <head>Figure 3: Le texte de base et une de ses versions
+                            hypertextuelles.</head>
+                    </figure>
+                    <p>La fenêtre en bas à droite a la possibilité d'afficher une liste verticale de
+                        tous les éléments individuels, une liste des fréquences de tous les éléments
+                        individuels, une liste des suites d'éléments répétées et une liste des
+                        fréquences des suites d'éléments répétées. Ce qui est cependant inhabituel à
+                        comparer aux autres outils d'analyse textuelle, c'est la présentation
+                        adjacente de ces listes et du texte de base sous forme hypertextuelle (voir
+                        la figure 4). Ce mode d'affichage permet dans un premier temps une
+                        perspective différente du texte de base; par exemple, quelle est la
+                        différence entre une lecture surtout horizontale et une lecture surtout
+                        verticale d'un texte? En fin de compte, ces listes concurremment affichées
+                        risquent d'encourager une réflexion sur le polymorphisme potentiel d'un
+                        texte, un des buts avoués de l'analyse informatisée. C'est justement ce
+                        genre d'exploration textuelle qui pourrait donner raison à la suggestion que
+                        "l'hypertexte inaugure une ère nouvelle du discours" (Bernard 5). Dans un
+                        deuxième temps, les listes d'éléments et de suites d'éléments répétées
+                        comportent des liens aux occurrences qui correspondent dans la version
+                        hypertextuelle. Ce rapport direct entre les différentes sortes de données
+                        facilite l'exploration du texte entier et du texte décomposé. Ce mécanisme
+                        représente sûrement un des grands atouts de l'HyperPo et le distingue
+                        d'autres outils d'analyse textuelle.</p>
+                    <figure>
+                        <head>Figure 4: Vue adjacente des formes textuelles</head>
+                    </figure>
+                    <p>En fait, Tact et les outils dans Unix sont tout aussi capables de générer des
+                        listes d'éléments et de fréquences de ces éléments même s'ils sont
+                        incapables de les affichés simultanément. Mais il reste à voir si les
+                        démarches à suivre pour arriver à ces listes sont aussi faciles qu'à
+                        l'intérieur de l'HyperPo. Au point de vue de convivialité, l'interface de
+                        Tact a l'avantage de comprendre des menus qui sont faciles à utiliser pourvu
+                        que l'on sache ce que les éléments des menus veulent dire. Toutefois, Tact
+                        est conçu pour faire une sorte d'opération à la fois. Pour aboutir aux mêmes
+                        listes que dans l'HyperPo, l'individu aurait à d'abord créer sa base de
+                        données, à comprendre ensuite comment fonctionne le système de menu afin de
+                        générer, individuellement, chaque liste. Par contre, le système Unix risque
+                        d'être encore plus difficile à utiliser. Non seulement doit-on exécuter des
+                        commandes séparées pour chaque liste voulue, mais on doit aussi savoir la
+                        syntaxe correcte pour les commandes. Pour donner une idée de ce dont il
+                        s'agit, voici quelques commandes Unix qui correspondent grosso modo aux
+                        options de l'HyperPo:<list type="bulleted">
+                            <item>tous les éléments triés:<list>
+                                    <item>wheel +1 exercices.txt | sort | more</item>
+                                </list></item>
+                            <item>les fréquences en ordre décroissant de tous les éléments:<list>
+                                    <item>wheel +1 exercices.txt | sort | uniq -c | sort -r |
+                                        more</item>
+                                </list></item>
+                            <item>le nombre total d'éléments:<list>
+                                    <item>wc exercices.txt</item>
+                                </list></item>
+                            <item>les suites d'éléments répétées:<list>
+                                    <item>wheel +2 exercices.txt | sort | {<emph rend="italics"
+                                            >petit logiciel awk</emph>} | more</item>
+                                </list></item>
+                            <item>les fréquences des suites d'éléments répétés:<list>
+                                    <item>wheel +2 exercices.txt | sort | uniq -c | sort -r |
+                                        more</item>
+                                </list></item>
+                            <item>le nombre total des suites d'éléments répétées:<list>
+                                    <item>wheel +2 exercices.txt | sort | {<emph rend="italics"
+                                            >petit logiciel awk</emph>}</item>
+                                </list></item>
+                        </list></p>
+                    <p>Il est vrai qu'un grand nombre d'informaticiens préfèrent la ligne de
+                        commande aux systèmes de menus et de choix car chaque commande peut
+                        comprendre des arguments (<emph rend="italics">sort -r</emph> au lieu de
+                            <emph rend="italics">sort</emph>, par exemple) et les commandes peuvent
+                        se combiner pour réaliser des buts très spécifiques. En contraste, les
+                        progiciels tels que Tact et l'HyperPo offrent parfois moins de nuances quant
+                        à leur fonctionnement. D'ailleurs, en voulant ajouter de la flexibilité aux
+                        logiciels les programmeurs finissent souvent par les rendre plus compliqués
+                        à utiliser (je ne voudrais pas nier que l'HyperPo peut avoir l'air
+                        intimidant à première vue). Cependant, même l'environnement plutôt flexible
+                        de Unix présentent des obstacles importants à l'individu. Deux exemples
+                        tirés du logiciel <emph rend="italics">wheel</emph> suffiront pour démontrer
+                        les obstacles possibles: 1) le défi des suites de longeur variable puisque
+                            <emph rend="italics">wheel</emph> n'accepte qu'un argument à la fois; 2)
+                        par défaut il n'y que les espaces blancs et les marques de ponctuation
+                        prédeterminées qui peuvent servir de frontière entre les éléments.</p>
+                    <p>La discussion précédente sur l'HyperPo et comment il se compare à d'autres
+                        outils d'analyse informatisée pourrait se résumer dans un tableau comme
+                        celui de la figure 5. Les critères choisies ainsi que les valeurs assignées
+                        sont sans doute discutable mais il reste que l'HyperPo représente un certain
+                        compromis entre les forces et les faiblesses des autres systèmes.</p>
+                    <figure>
+                        <head>Figure 5: Une comparaison entre TACT, les outils dans Unix et
+                            l'HyperPo.</head>
+                    </figure>
+                </div>
+                <div>
+                    <head>Conclusion</head>
+                    <p>En profitant de ce qu'offre les possibilités hypertextuelles dans l'analyse
+                        informatisée des structures lexicales, L'HyperPo confronte la trinité de
+                        l'humain, de la machine et du texte. Il met d'abord en valeur le rapport
+                        entre l'humain et la machine en faisant tout son possible pour harmoniser sa
+                        puissance et sa simplicité. Il met également en valeur le rapport entre la
+                        machine et le texte en conduisant à la réflexion sur les structures
+                        multiples des textes et en invitant l'analyse des textes qui s'apparentent
+                        aux travaux des Oulipiens. Dans son état actuel, l'HyperPo représente plutôt
+                        un intérêt conceptuel que pratique. Entre autres, il fonctionne sans doute
+                        trop lentement pour être utilisé comme outil dans l'analyse des textes de
+                        taille moyenne. On pourrait par ailleurs imaginer un HyperPo qui permettrait
+                        un jour d'explorer les structures sémantiques ainsi que les structures
+                        lexicales. Conforme à son nom, l'HyperPo offre un potentiel énorme pour le
+                        développement futur.</p>
+                </div>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>Références</head>
+                <listBibl>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">Italo</forename>
+                                    <surname>Calvino</surname>
+                                </name>
+                            </author>
+                            <editor role="translator">
+                                <name>
+                                    <forename type="first">Marcel</forename>
+                                    <surname>Orcel</surname>
+                                </name>
+                            </editor>
+                            <editor role="translator">
+                                <name>
+                                    <forename type="first">François</forename>
+                                    <surname>Wahl</surname>
+                                </name>
+                            </editor>
+                            <title level="m">La Machine littérature</title>
+                            <imprint>
+                                <pubPlace>Paris</pubPlace>
+                                <publisher>Seuil</publisher>
+                                <date when="1993">1993</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">Michel</forename>
+                                    <surname>Bernard</surname>
+                                </name>
+                            </author>
+                            <title level="a">Hypertexte: La Troisième dimension du langage</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Texte</title>
+                            <imprint>
+                                <biblScope type="vol"/>
+                                <biblScope type="issue">13/14</biblScope>
+                                <biblScope type="pp">5-20</biblScope>
+                                <date when="1993">1993</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <title level="m">Digital Word: text-based computing in the
+                                humanities</title>
+                            <imprint>
+                                <pubPlace>Cambridge</pubPlace>
+                                <publisher>MIT Press</publisher>
+                                <date when="1993">1993</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>Oulipo</name>
+                            </author>
+                            <title level="m">Atlas de littérature potentielle</title>
+                            <imprint>
+                                <pubPlace>Paris</pubPlace>
+                                <publisher>Gallimard</publisher>
+                                <date when="1988">1998</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <monogr>
+                            <title>The Perl Language Home Page</title>
+                            <imprint>
+                                <date/>
+                            </imprint>
+                        </monogr>
+                        <note>
+                            <ptr target="http://www.perl.com/perl/"/>
+                        </note>
+                    </biblStruct>
+                    <biblStruct>
+                        <monogr>
+                            <title>TACTWeb 0.5 Home Page</title>
+                            <imprint>
+                                <date/>
+                            </imprint>
+                        </monogr>
+                        <note>
+                            <ptr target="http://tactweb.humanities.mcmaster.ca/tactweb/home.htm"/>
+                        </note>
+                    </biblStruct>
+                    <biblStruct>
+                        <monogr>
+                            <title>Text Analysis Computing Tools</title>
+                            <imprint>
+                                <date/>
+                            </imprint>
+                        </monogr>
+                        <note>
+                            <ptr target="http://www.chass.utoronto.ca:8080/cch/tact.html"/>
+                        </note>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">Alain</forename>
+                                    <surname>Vuillemin</surname>
+                                </name>
+                            </author>
+                            <title level="m">Informatique et littérature</title>
+                            <imprint>
+                                <pubPlace>Paris</pubPlace>
+                                <publisher>Champion</publisher>
+                                <date when="1990">1990</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

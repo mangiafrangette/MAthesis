@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="paper">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">The Pragmatics of Publishing a Scholarly Electronic
+                    Journal</title>
+                <author>
+                    <name>
+                        <forename type="first">R.</forename>
+                        <forename type="middle">G.</forename>
+                        <surname>Siemens</surname>
+                        <affiliation>Department of English <name type="org">University of
+                                Alberta</name>
+                            <email>Raymond.Siemens@UAlberta.ca</email>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="1999">1999</date>
+                <publisher>
+                    <name>University of Virginia</name>
+                </publisher>
+                <pubPlace>Charlottesville, VA</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ACH/ALLC 1999</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first"/>
+                        <surname/>
+                    </name>
+                    <name>
+                        <forename type="first"/>
+                        <forename type="middle"/>
+                        <surname/>
+                    </name>
+                    <name>
+                        <forename type="first"/>
+                        <surname/>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item> </item>
+                        <item> </item>
+                        <item> </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>The computer -- specifically, the recent advance in methods of electronic
+                    dissemination brought forth by recent computing technologies -- has been seen by
+                    some as a saviour to the scholarly publishing world. We need only consider the
+                    intellectual milieu that spawned the collection <title level="m">Scholarly
+                        Journals at the Crossroads: A Subversive Proposal for Electronic
+                        Publishing</title> (O'Donnell and Okerson, eds.) some years ago, in 1995, to
+                    recognize this. The idea of the "subversive proposal" around which that
+                    collection was constructed was put forward several years earlier by Stevan
+                    Harnad, editor of the electronic journal <title level="j">Psycholoquy</title>;
+                    given voice by many since its presentation, the subversive proposal is
+                    essentially this: instead of sending articles and book manuscripts to
+                    traditional academic journals and publishers, scholars should distribute their
+                    work free via the internet through electronic journals and scholar-managed
+                    archives.</p>
+                <p>Combined with advances in computing technology and infrastructure, as well as
+                    what we might refer to as the ongoing "technologising of the reader," such
+                    thinking has caused a fundamental shift in focus of discussions surrounding
+                    scholarly publishing in the electronic medium. On the whole, discussion on this
+                    topic is no longer concerned with questioning if such publication will, can, or
+                    should exist, nor does it today look to the future for such publication to
+                    arrive; rather, debate now concerns itself with issues that take for granted
+                    both the existence and the potentially positive role of electronic publications
+                    in the scholarly community. That said, discussion and debate rarely includes a
+                    treatment of the pragmatic necessities involved in establishing and maintaining
+                    those electronic publications.</p>
+                <p>My intention in this paper is, thus, not to map out the history of thoughts and
+                    ideas surrounding electronic publication, nor to provide a statement of its
+                    relevance. Rather, my paper focuses on something that is less often addressed:
+                    the more basic, but absolutely essential, activities necessary for one to
+                    publish electronically.</p>
+                <p>Drawing on my experience as founder (1994) and editor of the electronic journal
+                        <title level="j">Early Modern Literary Studies (EMLS)</title>, my talk will
+                    outline a number of pragmatic concerns and some specific difficulties inherent
+                    in the production of a scholarly electronic journal. Topics to be covered in my
+                    paper include the establishment of the journal; the editorial efforts involved;
+                    distribution of work, and working with a widely-dispersed editorial group;
+                    submissions, peer-review, and publication preparations; the evolution of our
+                    publication and data-management techniques over a 5 year period; markup; how
+                        <title level="j">EMLS</title> monitors readership; how we respond to
+                    readership patterns and reader feedback on the site; the ability to sustain such
+                    an electronic journal, long-term; some impediments to electronic publication, at
+                    the local level and beyond; economic and funding considerations; issues of
+                    indexing and copyright; and others. More generally, I will also address several
+                    concerns that become apparent when one explicitly considers the pragmatic needs
+                    of the scholarly community that such publication seeks, ideally, to serve.</p>
+                <p>The journal, <title level="j">EMLS</title>, has as its focus the literature in
+                    English of the sixteenth and seventeenth centuries. Entering its fifth year of
+                    publication in 1999, it has served well in excess of half a million 'documents'
+                    -- papers, reviews, notes, announcements, and so forth -- to a group consisting
+                    of some 3,500 regular readers and ten times that number in occasional browsers;
+                    readers access the journal via the internet, at , as well as its mirror site at
+                    Oxford U and its archive at the National Library of Canada. <title level="j"
+                        >EMLS</title> is indexed by the <title level="m">MLA International
+                        Bibliography</title>, the Modern Humanities Research Association's <title
+                        level="m">Annual Bibliography of English Language and Literature</title>,
+                    and a number of other services and databases.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">Eyal</forename>
+                                    <surname>Amiran</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">Elaine</forename>
+                                    <surname>Orr</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">John</forename>
+                                    <surname>Unsworth</surname>
+                                </name>
+                            </author>
+                            <title level="a">Refereed Electronic Journals and the Future of
+                                Scholarly Publishing</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Advances in Library Automation and Networking</title>
+                            <imprint>
+                                <biblScope type="vol">4</biblScope>
+                                <biblScope type="issue"/>
+                                <biblScope type="pp">25-54</biblScope>
+                                <date when="1991">1991</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <monogr>
+                            <title level="j">Early Modern Literary Studies</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date/>
+                            </imprint>
+                        </monogr>
+                        <note>&lt;<ptr target="http://purl.oclc.org/emls/emlshome.html"
+                            />&gt;.</note>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">Stevan</forename>
+                                    <surname>Harnad</surname>
+                                </name>
+                            </author>
+                            <title level="a">The PostGutenberg Galaxy</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Times Higher Education Supplement</title>
+                            <imprint>
+                                <biblScope type="vol"/>
+                                <biblScope type="issue"/>
+                                <biblScope type="pp"/>
+                                <date when="1995">May 12, 1995</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">Stevan</forename>
+                                    <surname>Harnad</surname>
+                                </name>
+                            </author>
+                            <title level="a">Post-Gutenberg Galaxy: The Fourth Revolution in the
+                                Means of Production of Knowledge</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Public-Access Computer Systems Review</title>
+                            <imprint>
+                                <biblScope type="vol">2</biblScope>
+                                <biblScope type="issue">1</biblScope>
+                                <biblScope type="pp">39-53</biblScope>
+                                <date when="1991">1991</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">Stevan</forename>
+                                    <surname>Harnad</surname>
+                                </name>
+                            </author>
+                            <title level="a">Publicly Retrievable Ftp Archives for Esoteric Science
+                                and Scholarship: A Subversive Proposal</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j"/>
+                            <imprint>
+                                <biblScope type="vol"/>
+                                <biblScope type="issue"/>
+                                <biblScope type="pp"/>
+                                <date/>
+                            </imprint>
+                        </monogr>
+                        <note>&lt;<ptr
+                                target="ftp://ftp.princeton.edu/pub/harnad/Psycoloquy/Subversive.Proposal/e-print.01.harnad.public-e-print-archives-subversive-proposal"
+                            />&gt; .</note>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">Stevan</forename>
+                                    <surname>Harnad</surname>
+                                </name>
+                            </author>
+                            <title level="a">Scholarly Skywriting and the Prepublication Continuum
+                                of Scientific Inquiry</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Psychological Science</title>
+                            <imprint>
+                                <biblScope type="vol">1</biblScope>
+                                <biblScope type="issue"/>
+                                <biblScope type="pp">342-343</biblScope>
+                                <date when="1990">1990</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Internet Economics</title>
+                        </analytic>
+                        <monogr>
+                            <title level="u">[A special issue of the]</title>
+                            <title level="j">Journal of Electronic Publishing</title>
+                            <imprint>
+                                <biblScope type="vol"/>
+                                <biblScope type="issue"/>
+                                <biblScope type="pp"/>
+                                <date when="1996">1996</date>
+                            </imprint>
+                        </monogr>
+                        <note>&lt;<ptr target="http://www.press.umich.edu/jep/econTOC.html"
+                            />&gt;.</note>
+                    </biblStruct>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">JEP Economics 102: Current Thinking on the Economics of
+                                Electronic Publishing</title>
+                        </analytic>
+                        <monogr>
+                            <title level="u">[A special issue of the]</title>
+                            <title level="j">Journal of Electronic Publishing</title>
+                            <imprint>
+                                <biblScope type="vol"/>
+                                <biblScope type="issue"/>
+                                <biblScope type="pp"/>
+                                <date when="1999">1999</date>
+                            </imprint>
+                        </monogr>
+                        <note>&lt;<ptr target="http://www.press.umich.edu/jep/04-1/index.html"
+                            />&gt;.</note>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">Michael</forename>
+                                    <forename type="middle">L.</forename>
+                                    <surname>O'Donnell</surname>
+                                </name>
+                            </author>
+                            <title level="a">Electronic Journals: Scholarly Invariants in a Changing
+                                Medium</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Scholarly Publishing</title>
+                            <imprint>
+                                <biblScope type="vol">26</biblScope>
+                                <biblScope type="issue"/>
+                                <biblScope type="pp">183-99</biblScope>
+                                <date when="1995">1995</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <editor>
+                                <name>
+                                    <forename type="first">James</forename>
+                                    <forename type="middle">J.</forename>
+                                    <surname>O'Donnell</surname>
+                                </name>
+                            </editor>
+                            <editor>
+                                <name>
+                                    <forename type="first">Ann</forename>
+                                    <surname>Okerson</surname>
+                                </name>
+                            </editor>
+                            <title level="m">Scholarly Journals at the Crossroads: A Subversive
+                                Proposal for Electronic Publishing</title>
+                            <imprint>
+                                <pubPlace>Washington, DC</pubPlace>
+                                <publisher>Association of Research Libraries</publisher>
+                                <date when="1995">1995</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <title level="m">Proceedings of the 1993 International Conference on
+                                Refereed Electronic Journals</title>
+                            <imprint>
+                                <pubPlace>Winnipeg, MB</pubPlace>
+                                <publisher>University of Manitoba Libraries</publisher>
+                                <date when="1994">1994</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">Words from the Wise: Lessons Learned in Electronic
+                                Publishing</title>
+                        </analytic>
+                        <monogr>
+                            <title level="u">[A special issue of the]</title>
+                            <title level="j">Journal of Electronic Publishing</title>
+                            <imprint>
+                                <biblScope type="vol"/>
+                                <biblScope type="issue"/>
+                                <biblScope type="pp"/>
+                                <date when="1997">1997</date>
+                            </imprint>
+                        </monogr>
+                        <note>&lt;<ptr target="http://www.press.umich.edu/jep/03-02/index.html"
+                            />&gt;.</note>
+                    </biblStruct>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

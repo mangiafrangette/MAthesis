@@ -1,0 +1,1026 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="paper">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">The Reliability of Human Disambiguation in Text
+                    Markup</title>
+                <author>
+                    <name>
+                        <forename type="first">Kevin</forename>
+                        <forename type="middle">J.</forename>
+                        <surname>Keen</surname>
+                        <affiliation>Department of Epidemiology and Biostatistics <name type="org"
+                                >Case Western Reserve University</name>
+                            <email>kjkeen@darwin.cwru.edu</email>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Paul</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Fortier</surname>
+                        <affiliation>Department of French, Spanish, and Italian <name type="org"
+                                >University of Manitoba</name>
+                            <email>fortier@cc.umanitoba.ca</email>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="1999">1999</date>
+                <publisher>
+                    <name>University of Virginia</name>
+                </publisher>
+                <pubPlace>Charlottesville, VA</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ACH/ALLC 1999</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first"/>
+                        <surname/>
+                    </name>
+                    <name>
+                        <forename type="first"/>
+                        <forename type="middle"/>
+                        <surname/>
+                    </name>
+                    <name>
+                        <forename type="first"/>
+                        <surname/>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item> </item>
+                        <item> </item>
+                        <item> </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <div>
+                    <head>Semantic Fields</head>
+                    <p>Studying semantic fields or literary themes in texts confronts researchers
+                        with a paradox. A computer string search will produce a list of the
+                        frequencies of words potentially related to the semantic field. But polysemy
+                        implies an un-measurable difference between the potential allusion and the
+                        real allusion. The semantic field of <emph rend="bold">solitude</emph> is
+                        important from sociological and psychological perspectives as an indication
+                        of imperfect adaptation to one's milieu. It is also a frequently occurring
+                        literary theme.</p>
+                    <p>The only practical response is disambiguation by human informants. But the
+                        reliability of such a process is a concern. Singh (1986) and Fokkema (1988)
+                        discuss the matter in a theoretical and speculative mode without systematic
+                        empirical evidence. Nothing bearing directly on the topic can be found in
+                        recent issues of <title level="j">Computers and the Humanities</title> or
+                            <title level="j">Literary and Linguistic Computing</title>.</p>
+                    <p>The correctness of a given choice by an individual informant or rater is
+                        generally unknowable. Usually, such a choice is a matter of degree and
+                        judgment within the cultural context of a language. The consistency of
+                        markup from one informant to another is a likely reasonable touchstone for
+                        assessing the reliability of the disambiguation process.</p>
+                </div>
+                <div>
+                    <head>Data</head>
+                    <p>Nine 20th century novels were chosen for this analysis: Bernanos, <title
+                            level="m">Journal d'un curé de campagne</title>, Camus, <title level="m"
+                            >L'Étranger</title> and <title level="m">La Chute</title>, Céline,
+                            <title level="m">Voyage au bout de la nuit</title>, Gide, <title
+                            level="m">L'Immoraliste</title> and <title level="m">La Porte
+                            étroite</title>, Mauriac, <title level="m">Le Noeud de Vipères</title>,
+                        Proust, <title level="m">La Fugitive</title>, and Sartre, <title level="m"
+                            >La Nausée</title>.</p>
+                    <p>French thesauri identify seventy words (in the sense of lemmata) related to
+                        the concept of solitude. These strings were used to search the texts for
+                        words potentially related to solitude in the ARTFL database. Words centered
+                        in 60 characters of context were given to six informants with minimal
+                        instructions: mark the words, which from a reading of the context, do not
+                        evoke the concept of human solitude and go back to the ARTFL database for
+                        more context in doubtful cases.</p>
+                    <p>Table 1 summarizes the number of allusions to human solitude. Note that the
+                        range of the number of counts of allusions to solitude varies widely
+                        according to the text examined.</p>
+                    <p>To assess the impact of providing a greater amount of context to informants,
+                        300 characters of context from the original text were obtained using the
+                        same set of strings as for 60 characters of context. Identical instructions
+                        were given to six informants--two of whom participated in the first
+                        project.</p>
+                    <p>Table 2 summarizes the number of allusions to human solitude for a context of
+                        300 characters. When a larger context is provided, the range of variability
+                        in the results increases. On the other hand, the consistency of the raters
+                        is slightly improved.</p>
+                </div>
+                <div>
+                    <head>Analysis</head>
+                    <p>The sample intraclass correlation coefficient, denoted as formula ICC(3,1) by
+                        Shrout and Fleiss (1979), has been chosen as the measure of agreement among
+                        the informants. For dichotomous responses, an intraclass correlation
+                        coefficient of one-quarter for a sample consisting of two informants is to
+                        be interpreted to reveal that two informants were in agreement for
+                        twenty-five per cent of the observations after correcting for the
+                        possibility that any agreements of the two informants were entirely due to
+                        chance</p>
+                    <p>The measure of reliability of a sum of responses from a random sample of a
+                        set of a fixed number of raters drawn from a population of raters is known
+                        as the Spearman-Brown prophecy after Spearman (1910) and Brown (1910).
+                        Cronbach's alpha, due to Cronbach (1951), is an estimate of the
+                        Spearman-Brown prophecy.</p>
+                    <p>Both the Spearman-Brown prophecy and Cronbach's alpha are increasing
+                        functions of the intraclass correlation--parameter and statistic,
+                        respectively--and each asymptotically equal 100% in the limit as the number
+                        of raters increases without bound despite the consideration that adding more
+                        raters only increases the chances that everybody will not agree.</p>
+                    <p>Statements made regarding a population based on a sample must be qualified by
+                        a probability clause. The standard choice for a probability clause is such
+                        that the statement be correct in the long run, if the statistical procedure
+                        were to be done unboundedly many times, 95% of the time--or nineteen times
+                        out of twenty. So a measure of the degree of difficulty associated with a
+                        specific text in determining whether there is an allusion to solitude is
+                        given by the minimum number of informants to achieve a value of 95% for
+                        Cronbach's alpha nineteen times out of twenty.</p>
+                </div>
+                <div>
+                    <head>Results</head>
+                    <p>Hypothesis tests revealed statistically significant differences regarding
+                        reliability among the different texts and among the two character-string
+                        lengths. Further exploratory analysis ruled out a particular informant, a
+                        particular part of speech, or a particular class of frequency of use as
+                        being influential.</p>
+                    <p>The 95% confidence intervals for the intraclass correlation coefficient are
+                        given in Table 3 for both 60 character and 300 character groups surrounding
+                        each type. Note that for each novel the confidence interval for rater
+                        reliability is shifted to the left with the 300 character groups compared to
+                        the 60 character groups. With more context, the estimate of reliability
+                        becomes lower.</p>
+                    <p>Note the lack of overlap for the 95% confidence intervals for the two sizes
+                        of character groups for each of the novels by Bernanos, Céline, and Proust.
+                        It is conjectured that as the sample size surrounding each type increases,
+                        there is more opportunity for subjectivity based on personal opinion.</p>
+                    <p>Table 4 presents the number of informants required to achieve 95% for
+                        Cronbach's alpha nineteen times out of twenty for 60 and 300 character
+                        contexts. For each novel, as the size of context increases, the number of
+                        informants required to achieve 95% for Cronbach's alpha increases. Moreover,
+                        the size of a jury to decide whether a word alludes to human solitude with
+                        300 characters of context ought to be no fewer than 45 based on the novels
+                        surveyed.</p>
+                    <p>With respect to literary analysis, note that the novels of Camus have a
+                        greater spread in jury size than those of Gide.</p>
+                </div>
+                <div>
+                    <head>Conclusion</head>
+                    <p>It appears that the use of informants for studying semantic fields, or
+                        literary themes, is justifiable from a statistical perspective. However, the
+                        large numbers of informants or jury members appears prohibitive.
+                        Paradoxically, reliability appears to decrease as the number of characters
+                        of content increases. Further studies are needed to determine whether
+                        increases in reliability can be obtained by changing the focus from a word
+                        to a sentence or longer passage.</p>
+                    <p>These results suggest a high degree of subjectivity when a single individual
+                        scores the semantic content of literary data. The meaning of individual
+                        words in context is a matter of opinion, and cannot be taken as definitive
+                        until a high degree of consensus among a large number of raters or
+                        informants is achieved.</p>
+                </div>
+                <div>
+                    <table rows="10" cols="8">
+                        <head>Table 1<lb/>Scores for Human Solitude with 60 Characters of
+                            Context</head>
+                        <row>
+                            <cell role="label">
+                                <emph rend="bold">Texts</emph>
+                            </cell>
+                            <cell role="label">
+                                <emph rend="bold">raw</emph>
+                            </cell>
+                            <cell role="label">
+                                <emph rend="bold">p1</emph>
+                            </cell>
+                            <cell role="label">
+                                <emph rend="bold">p2</emph>
+                            </cell>
+                            <cell role="label">
+                                <emph rend="bold">s1</emph>
+                            </cell>
+                            <cell role="label">
+                                <emph rend="bold">s2</emph>
+                            </cell>
+                            <cell role="label">
+                                <emph rend="bold">s3</emph>
+                            </cell>
+                            <cell role="label">
+                                <emph rend="bold">s4</emph>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>BJC</cell>
+                            <cell>260</cell>
+                            <cell>68</cell>
+                            <cell>89</cell>
+                            <cell>51</cell>
+                            <cell>44</cell>
+                            <cell>100</cell>
+                            <cell>91</cell>
+                        </row>
+                        <row>
+                            <cell>CET</cell>
+                            <cell>74</cell>
+                            <cell>22</cell>
+                            <cell>19</cell>
+                            <cell>13</cell>
+                            <cell>11</cell>
+                            <cell>23</cell>
+                            <cell>26</cell>
+                        </row>
+                        <row>
+                            <cell>CCH</cell>
+                            <cell>115</cell>
+                            <cell>32</cell>
+                            <cell>41</cell>
+                            <cell>26</cell>
+                            <cell>31</cell>
+                            <cell>36</cell>
+                            <cell>41</cell>
+                        </row>
+                        <row>
+                            <cell>CVN</cell>
+                            <cell>488</cell>
+                            <cell>89</cell>
+                            <cell>133</cell>
+                            <cell>78</cell>
+                            <cell>41</cell>
+                            <cell>127</cell>
+                            <cell>153</cell>
+                        </row>
+                        <row>
+                            <cell>GIM</cell>
+                            <cell>89</cell>
+                            <cell>28</cell>
+                            <cell>42</cell>
+                            <cell>36</cell>
+                            <cell>18</cell>
+                            <cell>47</cell>
+                            <cell>48</cell>
+                        </row>
+                        <row>
+                            <cell>GPE</cell>
+                            <cell>108</cell>
+                            <cell>26</cell>
+                            <cell>41</cell>
+                            <cell>36</cell>
+                            <cell>26</cell>
+                            <cell>37</cell>
+                            <cell>54</cell>
+                        </row>
+                        <row>
+                            <cell>MNV</cell>
+                            <cell>159</cell>
+                            <cell>42</cell>
+                            <cell>70</cell>
+                            <cell>47</cell>
+                            <cell>28</cell>
+                            <cell>92</cell>
+                            <cell>71</cell>
+                        </row>
+                        <row>
+                            <cell>PFU</cell>
+                            <cell>304</cell>
+                            <cell>49</cell>
+                            <cell>80</cell>
+                            <cell>57</cell>
+                            <cell>44</cell>
+                            <cell>82</cell>
+                            <cell>76</cell>
+                        </row>
+                        <row>
+                            <cell>SNA</cell>
+                            <cell>233</cell>
+                            <cell>111</cell>
+                            <cell>113</cell>
+                            <cell>77</cell>
+                            <cell>86</cell>
+                            <cell>95</cell>
+                            <cell>122</cell>
+                        </row>
+                    </table>
+                    <table rows="10" cols="8">
+                        <head>Table 2.<lb/>Scores for Human Solitude with 300 Characters of
+                            Context</head>
+                        <row>
+                            <cell role="label">
+                                <emph rend="bold">Texts</emph>
+                            </cell>
+                            <cell role="label">
+                                <emph rend="bold">raw</emph>
+                            </cell>
+                            <cell role="label">
+                                <emph rend="bold">p3</emph>
+                            </cell>
+                            <cell role="label">
+                                <emph rend="bold">p4</emph>
+                            </cell>
+                            <cell role="label">
+                                <emph rend="bold">p5</emph>
+                            </cell>
+                            <cell role="label">
+                                <emph rend="bold">s5</emph>
+                            </cell>
+                            <cell role="label">
+                                <emph rend="bold">s6</emph>
+                            </cell>
+                            <cell role="label">
+                                <emph rend="bold">s7</emph>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>BJC</cell>
+                            <cell>260</cell>
+                            <cell>98</cell>
+                            <cell>44</cell>
+                            <cell>154</cell>
+                            <cell>45</cell>
+                            <cell>73</cell>
+                            <cell>51</cell>
+                        </row>
+                        <row>
+                            <cell>CET</cell>
+                            <cell>74</cell>
+                            <cell>23</cell>
+                            <cell>11</cell>
+                            <cell>48</cell>
+                            <cell>6</cell>
+                            <cell>14</cell>
+                            <cell>10</cell>
+                        </row>
+                        <row>
+                            <cell>CCH</cell>
+                            <cell>115</cell>
+                            <cell>37</cell>
+                            <cell>34</cell>
+                            <cell>61</cell>
+                            <cell>23</cell>
+                            <cell>30</cell>
+                            <cell>26</cell>
+                        </row>
+                        <row>
+                            <cell>CVN</cell>
+                            <cell>488</cell>
+                            <cell>153</cell>
+                            <cell>64</cell>
+                            <cell>199</cell>
+                            <cell>53</cell>
+                            <cell>85</cell>
+                            <cell>60</cell>
+                        </row>
+                        <row>
+                            <cell>GIM</cell>
+                            <cell>89</cell>
+                            <cell>42</cell>
+                            <cell>29</cell>
+                            <cell>49</cell>
+                            <cell>13</cell>
+                            <cell>25</cell>
+                            <cell>22</cell>
+                        </row>
+                        <row>
+                            <cell>GPE</cell>
+                            <cell>108</cell>
+                            <cell>36</cell>
+                            <cell>29</cell>
+                            <cell>49</cell>
+                            <cell>13</cell>
+                            <cell>25</cell>
+                            <cell>22</cell>
+                        </row>
+                        <row>
+                            <cell>MNV</cell>
+                            <cell>159</cell>
+                            <cell>80</cell>
+                            <cell>32</cell>
+                            <cell>113</cell>
+                            <cell>28</cell>
+                            <cell>41</cell>
+                            <cell>43</cell>
+                        </row>
+                        <row>
+                            <cell>PFU</cell>
+                            <cell>304</cell>
+                            <cell>68</cell>
+                            <cell>53</cell>
+                            <cell>126</cell>
+                            <cell>49</cell>
+                            <cell>69</cell>
+                            <cell>44</cell>
+                        </row>
+                        <row>
+                            <cell>SNA</cell>
+                            <cell>233</cell>
+                            <cell>114</cell>
+                            <cell>96</cell>
+                            <cell>151</cell>
+                            <cell>67</cell>
+                            <cell>70</cell>
+                            <cell>79</cell>
+                        </row>
+                    </table>
+                    <table rows="11" cols="5">
+                        <head>Table 3.<lb/>95% confidence interval: intraclass correlation
+                            coefficient</head>
+                        <row>
+                            <cell role="label">
+                                <emph rend="bold">Texts</emph>
+                            </cell>
+                            <cell role="label">
+                                <emph rend="bold">60 Characters</emph>
+                            </cell>
+                            <cell/>
+                            <cell role="label">
+                                <emph rend="bold">300 characters</emph>
+                            </cell>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell/>
+                            <cell role="label">
+                                <emph rend="bold">Lower</emph>
+                            </cell>
+                            <cell role="label">
+                                <emph rend="bold">Upper</emph>
+                            </cell>
+                            <cell role="label">
+                                <emph rend="bold">Lower</emph>
+                            </cell>
+                            <cell role="label">
+                                <emph rend="bold">Upper</emph>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>BJC</cell>
+                            <cell>0.56</cell>
+                            <cell>0.66</cell>
+                            <cell>0.43</cell>
+                            <cell>0.54</cell>
+                        </row>
+                        <row>
+                            <cell>CET</cell>
+                            <cell>0.48</cell>
+                            <cell>0.68</cell>
+                            <cell>0.29</cell>
+                            <cell>0.51</cell>
+                        </row>
+                        <row>
+                            <cell>CCH</cell>
+                            <cell>0.68</cell>
+                            <cell>0.79</cell>
+                            <cell>0.54</cell>
+                            <cell>0.69</cell>
+                        </row>
+                        <row>
+                            <cell>CVN</cell>
+                            <cell>0.51</cell>
+                            <cell>0.59</cell>
+                            <cell>0.42</cell>
+                            <cell>0.50</cell>
+                        </row>
+                        <row>
+                            <cell>GIM</cell>
+                            <cell>0.40</cell>
+                            <cell>0.59</cell>
+                            <cell>0.28</cell>
+                            <cell>0.48</cell>
+                        </row>
+                        <row>
+                            <cell>GPE</cell>
+                            <cell>0.43</cell>
+                            <cell>0.60</cell>
+                            <cell>0.33</cell>
+                            <cell>0.50</cell>
+                        </row>
+                        <row>
+                            <cell>MNV</cell>
+                            <cell>0.47</cell>
+                            <cell>0.60</cell>
+                            <cell>0.33</cell>
+                            <cell>0.50</cell>
+                        </row>
+                        <row>
+                            <cell>PFU</cell>
+                            <cell>0.63</cell>
+                            <cell>0.71</cell>
+                            <cell>0.49</cell>
+                            <cell>0.59</cell>
+                        </row>
+                        <row>
+                            <cell>SNA</cell>
+                            <cell>0.59</cell>
+                            <cell>0.69</cell>
+                            <cell>0.48</cell>
+                            <cell>0.59</cell>
+                        </row>
+                    </table>
+                </div>
+                <div>
+                    <table rows="10" cols="3">
+                        <head>Table 4.<lb/>Number of informants required for a value of 95% or more
+                            for<lb/> Cronbach's alpha nineteen times out of twenty.</head>
+                        <row>
+                            <cell role="label">
+                                <emph rend="bold">Texts</emph>
+                            </cell>
+                            <cell role="label">
+                                <emph rend="bold">60 Characters</emph>
+                            </cell>
+                            <cell role="label">
+                                <emph rend="bold">300 Characters</emph>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>BJC</cell>
+                            <cell>15</cell>
+                            <cell>25</cell>
+                        </row>
+                        <row>
+                            <cell>CET</cell>
+                            <cell>19</cell>
+                            <cell>43</cell>
+                        </row>
+                        <row>
+                            <cell>CCH</cell>
+                            <cell>9</cell>
+                            <cell>16</cell>
+                        </row>
+                        <row>
+                            <cell>CVN</cell>
+                            <cell>18</cell>
+                            <cell>26</cell>
+                        </row>
+                        <row>
+                            <cell>GIM</cell>
+                            <cell>28</cell>
+                            <cell>45</cell>
+                        </row>
+                        <row>
+                            <cell>GPE</cell>
+                            <cell>25</cell>
+                            <cell>37</cell>
+                        </row>
+                        <row>
+                            <cell>MNV</cell>
+                            <cell>21</cell>
+                            <cell>25</cell>
+                        </row>
+                        <row>
+                            <cell>PFU</cell>
+                            <cell>12</cell>
+                            <cell>19</cell>
+                        </row>
+                        <row>
+                            <cell>SNA</cell>
+                            <cell>14</cell>
+                            <cell>21</cell>
+                        </row>
+                    </table>
+                    <p>Explanation of Symbols used in the Tables Texts:<lb/> BJC: Bernanos, <title
+                            level="m">Journal d'un curé de campagne</title><lb/> CET: Camus, <title
+                            level="m">L'Étranger</title><lb/> CCH: Camus, <title level="m">La
+                            Chute</title><lb/> CVN: Céline, <title level="m">Voyage au bout de la
+                            nuit</title><lb/> GIM: Gide, <title level="m">L'Immoraliste</title><lb/>
+                        GPE: Gide, <title level="m">La Porte étroite</title><lb/> MNV: Mauriac,
+                            <title level="m">Le Noeud de Vipères</title><lb/> PFU: Proust, <title
+                            level="m">La Fugitive</title><lb/> SNA: Sartre, <title level="m">La
+                            Nausée</title>.<lb/>
+                        <lb/> Informants:<lb/> raw: raw solitude data as downloaded from the ARTFL
+                        database<lb/> s(1-7): French Literature Graduate Student<lb/> p(1-5): French
+                        Literature Professor<lb/>
+                    </p>
+                </div>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">W.</forename>
+                                    <surname>Brown</surname>
+                                </name>
+                            </author>
+                            <title level="a">Some experimental results in the correlation of mental
+                                abilities</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">British Journal of Psychology</title>
+                            <imprint>
+                                <biblScope type="vol">3</biblScope>
+                                <biblScope type="issue"/>
+                                <biblScope type="pp">296-322</biblScope>
+                                <date when="1910">1910</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">Georges</forename>
+                                    <surname>Bernanos</surname>
+                                </name>
+                            </author>
+                            <title level="m">Journal d'un curé de campagne</title>
+                            <title level="m">Oeuvres Romanesques</title>
+                            <title level="s">Bibliothèque de la Pléiade</title>
+                            <editor>
+                                <name>
+                                    <forename type="first">Albert</forename>
+                                    <surname>Béguin</surname>
+                                </name>
+                            </editor>
+                            <imprint>
+                                <pubPlace>Paris</pubPlace>
+                                <publisher>Gallimard</publisher>
+                                <date when="1935">1935</date>
+                                <date when="1961">1961</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">Albert</forename>
+                                    <surname>Camus</surname>
+                                </name>
+                            </author>
+                            <title level="m">L'Étranger</title>
+                            <title level="m">Théâtre, Récits, Nouvelles</title>
+                            <title level="s">Bibliothèque de la Pléiade</title>
+                            <editor>
+                                <name>
+                                    <forename type="first">Roger</forename>
+                                    <surname>Quilliot</surname>
+                                </name>
+                            </editor>
+                            <imprint>
+                                <pubPlace>Paris</pubPlace>
+                                <publisher>Gallimard</publisher>
+                                <date when="1945">1945</date>
+                                <date when="1962">1962</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">Albert</forename>
+                                    <surname>Camus</surname>
+                                </name>
+                            </author>
+                            <title level="m">La Chute</title>
+                            <title level="m">Théâtre, Récits, Nouvelles</title>
+                            <title level="s">Bibliothèque de la Pléiade</title>
+                            <editor>
+                                <name>
+                                    <forename type="first">Roger</forename>
+                                    <surname>Quilliot</surname>
+                                </name>
+                            </editor>
+                            <imprint>
+                                <pubPlace>Paris</pubPlace>
+                                <publisher>Gallimard</publisher>
+                                <date when="1956">1956</date>
+                                <date when="1962">1962</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">L.-F.</forename>
+                                    <surname>Céline</surname>
+                                </name>
+                            </author>
+                            <title level="m">Voyage au bout de la nuit</title>
+                            <title level="m">Romans</title>
+                            <title level="s">Bibliothèque de la Pléiade</title>
+                            <editor>
+                                <name>
+                                    <forename type="first">H.</forename>
+                                    <surname>Mondor</surname>
+                                </name>
+                            </editor>
+                            <imprint>
+                                <pubPlace>Paris</pubPlace>
+                                <publisher>Gallimard</publisher>
+                                <date when="1932">1932</date>
+                                <date when="1962">1962</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">J.</forename>
+                                    <surname>Cohen</surname>
+                                </name>
+                            </author>
+                            <title level="a">A coefficient of agreement for nominal scales</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Educational and Psychological Measurement</title>
+                            <imprint>
+                                <biblScope type="vol">20</biblScope>
+                                <biblScope type="issue"/>
+                                <biblScope type="pp">37-46</biblScope>
+                                <date when="1960">1960</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">L.</forename>
+                                    <forename type="middle">J.</forename>
+                                    <surname>Cronbach</surname>
+                                </name>
+                            </author>
+                            <title level="a">Coefficient alpha and the internal structure of
+                                tests</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Psychometrika</title>
+                            <imprint>
+                                <biblScope type="vol">16</biblScope>
+                                <biblScope type="issue"/>
+                                <biblScope type="pp">297-334</biblScope>
+                                <date when="1951">1951</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">Douwe</forename>
+                                    <surname>Fokkema</surname>
+                                </name>
+                            </author>
+                            <title level="a">On the reliability of literary studies</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Poetics Today</title>
+                            <imprint>
+                                <biblScope type="vol">9</biblScope>
+                                <biblScope type="issue"/>
+                                <biblScope type="pp">529-543</biblScope>
+                                <date when="1988">1988</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">André</forename>
+                                    <surname>Gide</surname>
+                                </name>
+                            </author>
+                            <title level="m">L'Immoraliste</title>
+                            <title level="m">Romans, Récits, Soties, Oeuvres lyriques</title>
+                            <title level="s">Bibliothèque de la Pléiade</title>
+                            <editor>
+                                <name>
+                                    <forename type="first">Y.</forename>
+                                    <surname>Davet</surname>
+                                </name>
+                            </editor>
+                            <editor>
+                                <name>
+                                    <forename type="first">J.-J.</forename>
+                                    <surname>Thierry</surname>
+                                </name>
+                            </editor>
+                            <imprint>
+                                <pubPlace>Paris</pubPlace>
+                                <publisher>Gallimard</publisher>
+                                <date when="1902">1902</date>
+                                <date when="1958">1958</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">André</forename>
+                                    <surname>Gide</surname>
+                                </name>
+                            </author>
+                            <title level="m">Porte étroite</title>
+                            <title level="m">Romans, Récits, Soties, Oeuvres lyriques</title>
+                            <title level="m">Bibliothèque de la Pléiade</title>
+                            <editor>
+                                <name>
+                                    <forename type="first">Y.</forename>
+                                    <surname>Davet</surname>
+                                </name>
+                            </editor>
+                            <editor>
+                                <name>
+                                    <forename type="first">J.-J.</forename>
+                                    <surname>Thierry</surname>
+                                </name>
+                            </editor>
+                            <imprint>
+                                <pubPlace>Paris</pubPlace>
+                                <publisher>Gallimard</publisher>
+                                <date when="1909">1909</date>
+                                <date when="1958">1958</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">François</forename>
+                                    <surname>Mauriac</surname>
+                                </name>
+                            </author>
+                            <title level="m">Le Noeud de Vipères</title>
+                            <imprint>
+                                <pubPlace>Paris</pubPlace>
+                                <publisher>Grasset</publisher>
+                                <date when="1932">1932</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">Marcel</forename>
+                                    <surname>Proust</surname>
+                                </name>
+                            </author>
+                            <title level="m">La Fugitive</title>
+                            <title level="m">À la recherche du temps perdu</title>
+                            <title level="s">Bibliothèque de la Pleiade</title>
+                            <editor>
+                                <name>
+                                    <forename type="first">Pierre</forename>
+                                    <surname>Clarac</surname>
+                                </name>
+                            </editor>
+                            <editor>
+                                <name>
+                                    <forename type="first">André</forename>
+                                    <surname>Ferré</surname>
+                                </name>
+                            </editor>
+                            <imprint>
+                                <biblScope type="vol">3 vol.</biblScope>
+                                <pubPlace>Pars</pubPlace>
+                                <publisher>Gallimard</publisher>
+                                <date when="1925">1925</date>
+                                <date when="1954">1954</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">Jean-Paul</forename>
+                                    <surname>Satre</surname>
+                                </name>
+                            </author>
+                            <title level="m">La Nausée</title>
+                            <title level="m">Oeuvres Romanesques</title>
+                            <title level="s">Bibliothèque de la Pléiade</title>
+                            <editor>
+                                <name>
+                                    <forename type="first">Michel</forename>
+                                    <surname>Contat</surname>
+                                </name>
+                            </editor>
+                            <editor>
+                                <name>
+                                    <forename type="first">Michel</forename>
+                                    <surname>Rybalka</surname>
+                                </name>
+                            </editor>
+                            <imprint>
+                                <pubPlace>Paris</pubPlace>
+                                <publisher>Gallimard</publisher>
+                                <date when="1938">1938</date>
+                                <date when="1981">1981</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">P.</forename>
+                                    <forename type="middle">E.</forename>
+                                    <surname>Shrout</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">J.</forename>
+                                    <forename type="middle">L.</forename>
+                                    <surname>Fleiss</surname>
+                                </name>
+                            </author>
+                            <title level="a">Intraclass correlations: uses in assessing rater
+                                reliability</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Psychological Bulletin</title>
+                            <imprint>
+                                <biblScope type="vol">86</biblScope>
+                                <biblScope type="issue"/>
+                                <biblScope type="pp">420-428</biblScope>
+                                <date when="1979">1979</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">Gurbhagat</forename>
+                                    <surname>Singh</surname>
+                                </name>
+                            </author>
+                            <title level="a">The identity of the literary text: Problems and
+                                reliability of reader response: An inquiry into theoretical
+                                positions</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Literary Criterion</title>
+                            <imprint>
+                                <biblScope type="vol">21</biblScope>
+                                <biblScope type="issue">4</biblScope>
+                                <biblScope type="pp">49-57</biblScope>
+                                <date when="1986">1986</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">C.</forename>
+                                    <surname>Spearman</surname>
+                                </name>
+                            </author>
+                            <title level="a">Correlation calculated with faulty data</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">British Journal of Psychology</title>
+                            <imprint>
+                                <biblScope type="vol">3</biblScope>
+                                <biblScope type="issue"/>
+                                <biblScope type="pp">271-295</biblScope>
+                                <date when="1910">1910</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

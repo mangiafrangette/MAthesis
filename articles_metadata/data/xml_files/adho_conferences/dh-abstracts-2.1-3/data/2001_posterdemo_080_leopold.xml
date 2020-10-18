@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="poster/demo">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main"> What can Hyperplane-Classifiers tell us about
+                    Texts?</title>
+                <author>
+                    <name>
+                        <forename type="first">Edda</forename>
+                        <surname>Leopold</surname>
+                        <affiliation>
+                            <name type="org">GMD German National Research Center for Information
+                                Technology</name>
+                            <name type="org">Institute for Autonomous intelligent Systems</name>
+                            <email/>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Jörg</forename>
+                        <surname>Kindermann</surname>
+                        <affiliation>
+                            <name type="org">GMD German National Research Center for Information
+                                Technology</name>
+                            <name type="org">Institute for Autonomous intelligent Systems</name>
+                            <email/>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="2001">2001</date>
+                <publisher>
+                    <name>New York University</name>
+                </publisher>
+                <pubPlace>New York, NY</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m"/>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first"/>
+                        <surname/>
+                    </name>
+                    <name>
+                        <forename type="first"/>
+                        <forename type="middle"/>
+                        <surname/>
+                    </name>
+                    <name>
+                        <forename type="first"/>
+                        <surname/>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item>vector space representation</item>
+                        <item>text classification</item>
+                        <item> </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>We want to report from our results with Support Vector Machines for Text
+                    Classification in order to promote the interdisciplinary dialogue. Our research
+                    group consists mainly of statisticians and computer-scientists, and focusses on
+                    the algorithmic side of text-classifica-tion. We want to discuss our experiences
+                    with researchers working on other fields of linguistic computing and ask for the
+                    implications of our results on linguistic approaches which use vector space
+                    representations as for example "semantic spaces" and "latent semantic
+                    indexing".</p>
+                <p>The algorithm called "Support Vector Machines", can shortly be described as
+                    follows (A more detailed description can be found in (Vapnik 1998)):<list>
+                        <item>1 A set of labeled documents is needed for training. Documents are
+                            mapped to their type-frequency vectors. These vectors span an high
+                            dimensional input space (every type represents one dimension). This kind
+                            of abstraction from syntagmatic structures is often refered to as
+                            "bag-of-words" approach.</item>
+                        <item>2. The algorithm searches for a hyperplane in input space which
+                            optimally separates the training documents.</item>
+                        <item>3. Documents of a test-set are attributed to one of the classes
+                            depending on the side of the hyperplane they are located on. SVM have
+                            proven to provide an effective means for text classification on
+                            different languages (English and German) and textual domains (English
+                            Reuters news; Ohsumed medical abstracts, e-mail newsgroups; German:
+                            newspapers taz, FR, BZ, e-mail newsgroups) and different tasks (topic
+                            identification, Authorship attribution, classification according
+                            newspaper issues of different years). (Joachims 1997; Joachims1998;
+                            Drucker et al.; Dumais et al. 1998; Diederich &amp; Kindermann &amp;
+                            Leopold &amp; Paaþ 2000; Leopold &amp; Kindermann 2001)</item>
+                    </list>
+                </p>
+                <p>The great advantage of SVMs is, that they can manage a very large number of
+                    attributes (in our experiments we have worked with up to half a million
+                    attributes), given that the attribute vectors are sparse. This makes it possible
+                    to perform document-classification directly on the frequency spectra of
+                    documents without any kind of feature selection. This is why we think that
+                    results on the precision/recall performance of Support Vector Machines can be
+                    interpreted as statements about frequency spectra of document collections, and
+                    thus constitute a kind of linguistic evidence.</p>
+                <p>Another advantage of SVMs is, that various kernel functions can be used. Kernel
+                    functions correspond to a mapping of input vectors to a even higer dimensional
+                    feature space and can heuristically interpreted as different geometries in input
+                    space ((hyper)planes may be substituted by e.g. (hyper)spheres).</p>
+                <p>The choice of the kernel function is crucial to most applications of support
+                    vector machines. However in the case of text-classification Kernel functions
+                    only slightly affect performance although they imply completely different
+                    geometries of input space. So from the stand point of retrieval performance it
+                    is nearly irrelevant if topic-boundaries are defined by planes or by
+                    spheres.</p>
+                <p>What does this mean for the bag-of-words approach which represents documents in
+                    the form of type frequency vectors, and what does it mean for the quality of
+                    co-occurrence of types within the context of a document? We will try to give an
+                    answer in terms of stochastical dependency of types.</p>
+                <p>Another observation we made is that lemmatization does not affect performance in
+                    terms of precision and recall. In English our results on the Reuters news corpus
+                    obtained without any linguistic preprocessing do not differ significantly from
+                    those obtained by Joachims (1998) who has used the Porter stemmer. In German
+                    lemmatization also did not yield an improovement of performance, which is
+                    surprising because of the morphological richness of German. However our results
+                    agree with those obtained with neural nets in French news data (Stricker 2000),
+                    neural nets however need a reduction of dimensionality as opposed to SVM. An
+                    explanation of this finding is that lemmatization leads loss of information,
+                    because different word forms are mapped to the same lemma. A surprising result,
+                    is that author identification is also best done on the bases of word-forms
+                    rather than on the basis of bigramms of grammatical tags.</p>
+                <p>We are currently working multi-class classification using Support Vector Machines
+                    (Kindermann et al 2000). The problem here is to group the classes of documents
+                    in an appropriate way. To this end we explore the inter- and intra-class
+                    distance of type-frequency distributions.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <biblStruct type="bookChapter">
+                        <analytic>
+                            <author><name><forename type="first">Joachim</forename>
+                                    <surname>Diederich</surname></name></author>
+                            <author><name><forename type="first">Jörg</forename>
+                                    <surname>Kindermann</surname></name></author>
+                            <author><name><forename type="first">Edda</forename>
+                                    <surname>Leopold</surname></name></author>
+                            <author><name><forename type="first">Gerhard</forename>
+                                    <surname>Paaß</surname></name></author>
+                            <title level="a">Authorship Attribution with Support Vector
+                                Machines</title>
+                        </analytic>
+                        <monogr>
+                            <title level="u">Poster presented at The Learning Workshop; 4 - 7 April,
+                                2000 in Snowbird, Utah</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date when="2000">2000</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author><name><forename type="first">H.</forename>
+                                    <surname>Drucker</surname></name></author>
+                            <author><name><forename type="first">D.</forename>
+                                    <surname>Wu</surname></name></author>
+                            <author><name><forename type="first">V.</forename>
+                                    <surname>Vapnik</surname></name></author>
+                            <title level="a">Support vector machines for spam categorization</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">IEEE Transactions on Neural Networks</title>
+                            <imprint>
+                                <biblScope type="vol">10</biblScope>
+                                <biblScope type="issue">5</biblScope>
+                                <biblScope type="pp">1048-1054</biblScope>
+                                <date when="1999">1999</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="bookChapter">
+                        <analytic>
+                            <author><name><forename type="first">Susan</forename>
+                                    <surname>Dumais</surname></name></author>
+                            <author><name><forename type="first">John</forename>
+                                    <surname>Platt</surname></name></author>
+                            <author><name><forename type="first">David</forename>
+                                    <surname>Heckerman</surname></name></author>
+                            <author><name><forename type="first">Mehran</forename>
+                                    <surname>Sahami</surname></name></author>
+                            <title level="a">Inductive Learning Algorithms and Representations for
+                                Text Categorization</title>
+                        </analytic>
+                        <monogr>
+                            <title level="m">Proceedings of ACM-CIKM-98; 7th International
+                                Conference on Information Retrieval and Knowledge Management</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date when="1998">1998</date>
+                                <biblScope type="pp">148--155</biblScope>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="bookChapter">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">Thorsten</forename>
+                                    <surname>Joachims</surname>
+                                </name>
+                            </author>
+                            <title level="a">Text categorization with support vector machines:
+                                learning with many relevant features</title>
+                        </analytic>
+                        <monogr>
+                            <title level="m">Proceedings of ECML-98, 10th European Conference on
+                                Machine Learning</title>
+                            <title level="s">Lecture Notes in Computer Science, Number 1398</title>
+                            <imprint>
+                                <pubPlace>Heidelberg, DE</pubPlace>
+                                <publisher>Springer Verlag</publisher>
+                                <date when="1998">1998</date>
+                                <biblScope type="pp">137-142</biblScope>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="bookChapter">
+                        <analytic>
+                            <author><name><forename type="first">Jörg</forename>
+                                    <surname>Kindermann</surname></name></author>
+                            <author><name><forename type="first">Edda</forename>
+                                    <surname>Leopold</surname></name></author>
+                            <author><name><forename type="first">Gerhard</forename>
+                                    <surname>Paaß</surname></name></author>
+                            <title level="a">Multiclass Classification with Error Correcting
+                                Codes</title>
+                        </analytic>
+                        <monogr>
+                            <editor>
+                                <name>
+                                    <forename type="first">Edda</forename>
+                                    <surname>Leopold</surname>
+                                </name>
+                            </editor>
+                            <editor>
+                                <name>
+                                    <forename type="first">Mathias</forename>
+                                    <surname>Kirsten</surname>
+                                </name>
+                            </editor>
+                            <title level="m"> Treffen der GI-Fachgruppe 1.1.3 Maschinelles
+                                Lernen</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date when="2000">2000</date>
+                                <biblScope type="pp">56-64</biblScope>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author><name><forename type="first">Edda</forename>
+                                    <surname>Leopold</surname></name></author>
+                            <author><name><forename type="first">Jörg</forename>
+                                    <surname>Kindermann</surname></name></author>
+                            <title level="a">Text Categorization with Support Vector Machines. How
+                                to Represent Texts in Input Space?</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Machine Learning</title>
+                            <imprint>
+                                <biblScope type="vol"/>
+                                <biblScope type="issue"/>
+                                <biblScope type="pp"/>
+                                <date when="2001">accepted for publication</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <analytic>
+                            <author><name><forename type="first"
+                                        >M.</forename><surname>Stricker</surname></name></author>
+                            <title level="a">Réseaux de neurones pour le traitement automatique du
+                                langage : conception et réalisatiion de filtres
+                                d'informations</title>
+                        </analytic>
+                        <monogr>
+                            <edition>Thèse de Doctorat de l'Université Pierre et Marie Curie - Paris
+                                VI</edition>
+                            <imprint>
+                                <publisher>School of Library, Archive and Information Studies,
+                                    University College London</publisher>
+                                <date when="2000">200</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">Vladimir</forename>
+                                    <surname>Vapnik</surname>
+                                </name>
+                            </author>
+                            <title level="m">Statistical Learning Theory</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher>Wiley &amp; sons</publisher>
+                                <date when="1998">1998</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

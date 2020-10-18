@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="paper">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Text Representation and Textual Models</title>
+                <author>
+                    <name>
+                        <forename type="first">Dino</forename>
+                        <surname>Buzzetti</surname>
+                        <affiliation>Department of Philosophy, <name type="org">University of
+                                Bologna</name>
+                            <email>buzzetti@philo.unibo.it</email>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="1999">1999</date>
+                <publisher>
+                    <name>University of Virginia</name>
+                </publisher>
+                <pubPlace>Charlottesville, VA</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ACH/ALLC 1999</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first"/>
+                        <surname/>
+                    </name>
+                    <name>
+                        <forename type="first"/>
+                        <forename type="middle"/>
+                        <surname/>
+                    </name>
+                    <name>
+                        <forename type="first"/>
+                        <surname/>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item> </item>
+                        <item> </item>
+                        <item> </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>The practice of text encoding, based on the Guidelines of the Text Encoding
+                    Initiative,[TEI] has prompted the need of a critical reflection on the adequacy
+                    of current encoding theory.[RMD] In its turn, the debate on the theory of markup
+                    [RTWb, RTWa, BH] has elicited new investigations on markup schemes as document
+                    grammars.[SH] Therefore, one central issue of markup theory seems to reside in
+                    clarifying the relationship between document grammars and textual
+                    structures.</p>
+                <p>A basic ambiguity hovers over the discussion on text encoding--an "inadvertent
+                    shift" from document to textual structures, from textual representation to
+                    textual model.[BR] It seems to lurk in the very definition of "what is markup"
+                    endorsed by the TEI: if markup is defined as "all the information contained in a
+                    computer file other than the 'text' itself," how can "'any' aspect of a text of
+                    importance to a researcher" ever "be signalled by markup"? [BS,2] Either markup
+                    represents that information which "'is not' part of the text"[CRdR,934] and is
+                    'other' than text, or markup represents aspects of that information which "'is'
+                    part of the text, and is 'the same as' text."[BR] But not both, unless 'text' is
+                    taken in two different senses, as information "coded as characters or sequences
+                    of characters,"[D,1] i.e. as a digital expression on the one hand, and as the
+                    "content of the expression"[CRdR,934] on the other. The representation of any
+                    information content is not the information content which is represented by that
+                    representation and one should be wary of identifying textual structures with
+                    document structures or document grammars.</p>
+                <p>Reference seems appropriate here to Hjelmslev's fourfold distinction between
+                    "form" and "substance" respectively of the "expression" and the "content" of
+                    discourse.[H,47-70] Hjelmslev's model bears the stamp of Saussure's notion of
+                    the text as "a two-level signifier-signified construction" in the stress on the
+                    "inseparability of expression and content," but also enables us to distinguish
+                    between the form of the representation and the form of the content represented
+                    thereby.[S,39] If we find "acceptable" a "very broad definition" of textual
+                    structure as "the set of the latent relations among the parts" of a literary
+                    work,[S,34] we should ask ourselves how such relations can be accounted for in
+                    terms of the document grammar enforced by a certain encoding scheme. Is, for
+                    instance, the OHCO model,[dRDMR] or any model appropriately "refining our notion
+                    of text"[RMD] an adequate one? Can it provide a suitable data structure to
+                    process textual information for text critical or interpretational purposes?</p>
+                <p>It has been argued that it is "difficult" for markup "to express structure that
+                    is not a subset of character positions in the text,"[RTWa,9-10] and that it is
+                    so precisely because markup "inherits"[RTWa,2] the "order of text,"[RTWa,10]
+                    defined as the linear order of the string of characters in which it is embedded.
+                    In an SGML-like "strongly embedded" kind of markup, the position within the
+                    character string "is information bearing", whereas a "weakly embedded" kind of
+                    markup is informative regardless its position and it could be placed
+                    "out-of-line."[RTWa,3-4] All this means that SGML-based encoding "reduces the
+                    structural properties of a text to the structural properties of a document,"[BR]
+                    because "the properties" of the structures which this kind of markup can
+                    describe "are largely derivative of the properties of the document," the linear
+                    stream of characters "in which it is embedded."[RTWa,3-4] Again, the form of the
+                    representation cannot be mistaken for the form of the content which is thereby
+                    represented.</p>
+                <p>The structural properties of an encoded document expressed by means of a strongly
+                    embedded markup scheme can therefore be described as essentially 'notational'.
+                    The notational properties of decimal, as opposed to binary or any other form of
+                    numerical notation, do not affect the arithmetical properties of numbers. In
+                    other words, "markup is not a data model, it is a type of data
+                    representation"[RTWa,16] and different forms of text representation should match
+                    data models capable of expressing the set of latent relations constituting
+                    textual structure.</p>
+                <p>Both text critical and interpretational procedures require non-linear models of
+                    the text.[Ba, Bb] Variant readings of a complex textual tradition cannot, in
+                    general, be represented in a linear way, neither can complex specimens of
+                    authorial manuscripts. Competing interpretational perspectives can detect
+                    concurrent textual structures. Also "historical text", or textual information
+                    enabling historical enquiry, can be conceived as multi-layered and demands
+                    non-linear models.[Ta,55-57] An "extended string" data type able to provide
+                    non-linear data models for processing textual information has been introduced
+                    precisely for this purpose.[Tb]</p>
+                <p>The extended string internal representation allows import/export of different
+                    forms of marked-up data for the same data model, of different "formats" for the
+                    same "formalism,"[J,75-76] and makes it possible to use concurrent encoded
+                    representations depending on different interpretations of the same text; or to
+                    combine encoded transcriptions of the several witnesses of a complex textual
+                    tradition into a sort of "logical sum." [Ta,56]</p>
+                <p>The difference between encoding a running text representation and relating its
+                    relevant segments to an external knowledge representation organized as a
+                    database [Ta,55-57] can be related to the distinction between the form of the
+                    expression and the form of the content. But in many cases the form of the
+                    exppression reveals a structural feature of its content. That is why this
+                    distinction is easily overlooked. What is then the conceptual status of markup?
+                    Is it a sort of metalinguistic description, or is it a direct expansion of our
+                    writing system employed to express intrinsic features of textual content? In the
+                    latter case markup is to be thought of as an extension of text representation,
+                    in the former as a separate and external representation of its structure.</p>
+                <p>This question has far-reaching implications, bearing as it does upon the capacity
+                    of language to be self-reflexive, but more significantly here it concerns
+                    directly the status of markup as a formal language and a document grammar.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>Bibliography</head>
+                <listBibl>
+                    <biblStruct n="[Ba]">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">D.</forename>
+                                    <surname>Buzzetti</surname>
+                                </name>
+                            </author>
+                            <title level="a">Il testo "fluido": Sull'uso dell'informatica nella
+                                critica e nell'analisi del testo</title>
+                        </analytic>
+                        <monogr>
+                            <editor>
+                                <name>
+                                    <forename type="first">Luciano</forename>
+                                    <surname>Floridi</surname>
+                                </name>
+                            </editor>
+                            <title level="m">Filosofia &amp; informatica, Convegno Nazionale della
+                                Società Filosofica Italiana: Roma, 23-24 novembre 1995</title>
+                            <imprint>
+                                <pubPlace>Torino</pubPlace>
+                                <publisher>Paravia</publisher>
+                                <date when="1996">1996</date>
+                                <biblScope type="pp">85-93</biblScope>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct n="[Bb]">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">D.</forename>
+                                    <surname>Buzzetti</surname>
+                                </name>
+                            </author>
+                            <title level="a">Digital Editions: Variant readings and
+                                interpretations</title>
+                        </analytic>
+                        <monogr>
+                            <title level="m">ALLC-ACH'96 Conference Abstracts</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher>University of Bergen</publisher>
+                                <date when="1996">1996</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle" n="[BH]">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">M.</forename>
+                                    <surname>Biggs</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">C.</forename>
+                                    <surname>Huitfeldt</surname>
+                                </name>
+                            </author>
+                            <title level="a">Philosophy and Electronic Publishing: Theory and
+                                metatheory in the development of text encoding</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Monist</title>
+                            <imprint>
+                                <biblScope type="vol">80</biblScope>
+                                <biblScope type="issue">3</biblScope>
+                                <biblScope type="pp">348-367</biblScope>
+                                <date when="1997">1997</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct n="[BR]">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">D.</forename>
+                                    <surname>Buzzetti</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">M.</forename>
+                                    <surname>Rehbein</surname>
+                                </name>
+                            </author>
+                            <title level="a">Textual Fluidity and Digital Editions</title>
+                        </analytic>
+                        <monogr>
+                            <editor>
+                                <name>
+                                    <forename type="first">M.</forename>
+                                    <surname>Dobreva</surname>
+                                </name>
+                            </editor>
+                            <title level="m">Text Variety in the Witnesses of Medieval Texts</title>
+                            <title level="s">Proceedings of the International Conference, Sofia
+                                21-23 September 1997</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date when="1997">forthcoming</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct n="[BS]">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">Lou</forename>
+                                    <surname>Burnard</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <forename type="first">C.</forename>
+                                <forename type="middle">M.</forename>
+                                <surname>Sperberg-McQueen</surname>
+                            </author>
+                            <title level="a">Living with the Guidelines: An introduction to TEI
+                                tagging</title>
+                        </analytic>
+                        <monogr>
+                            <title level="s">Text Encoding Initiative, Document Number: TEI
+                                EDW18</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date when="1991">March 13, 1991</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle" n="[CRdR]">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">J.</forename>
+                                    <forename type="middle">H.</forename>
+                                    <surname>Coombs</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">A.</forename>
+                                    <forename type="middle">H.</forename>
+                                    <surname>Renear</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">S.</forename>
+                                    <forename type="middle">J.</forename>
+                                    <surname>DeRose</surname>
+                                </name>
+                            </author>
+                            <title level="a">Markup Systems and the Future of Scholarly Text
+                                Processing</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Communications of the ACM</title>
+                            <imprint>
+                                <biblScope type="vol">30</biblScope>
+                                <biblScope type="issue"/>
+                                <biblScope type="pp">933-47</biblScope>
+                                <date when="1987">1987</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book" n="[D]">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">A.</forename>
+                                    <forename type="middle">C.</forename>
+                                    <surname>Day</surname>
+                                </name>
+                            </author>
+                            <title level="m">Text Processing</title>
+                            <imprint>
+                                <pubPlace>Cambridge</pubPlace>
+                                <publisher>Cambridge University Press</publisher>
+                                <date when="1984">1984</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle" n="[dRDMR]">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">S.</forename>
+                                    <forename type="middle">J.</forename>
+                                    <surname>DeRose</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">D.</forename>
+                                    <forename type="middle">D.</forename>
+                                    <surname>Durand</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">E.</forename>
+                                    <surname>Mylonas</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">A.</forename>
+                                    <forename type="middle">H.</forename>
+                                    <surname>Renear</surname>
+                                </name>
+                            </author>
+                            <title level="a">What is Text, Really?</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Journal of Computing in Higher Education</title>
+                            <imprint>
+                                <biblScope type="vol">1</biblScope>
+                                <biblScope type="issue">2</biblScope>
+                                <biblScope type="pp">3-26</biblScope>
+                                <date when="1990">1990</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book" n="[H]">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">L.</forename>
+                                    <surname>Hjelmslev</surname>
+                                </name>
+                            </author>
+                            <title level="m">Prolegomena to a Theory of Language</title>
+                            <edition>2nd Engl</edition>
+                            <imprint>
+                                <pubPlace>Madison</pubPlace>
+                                <publisher>University of Wisconsin Press</publisher>
+                                <date when="1961">1961</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="bookChapter" n="[J]">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">V.</forename>
+                                    <surname>Joloboff</surname>
+                                </name>
+                            </author>
+                            <title level="a">Document Representations: Concepts and Models</title>
+                        </analytic>
+                        <monogr>
+                            <editor>
+                                <name>
+                                    <forename type="first">J.</forename>
+                                    <surname>André</surname>
+                                </name>
+                            </editor>
+                            <editor>
+                                <name>
+                                    <forename type="first">R.</forename>
+                                    <surname>Furuta</surname>
+                                </name>
+                            </editor>
+                            <editor>
+                                <name>
+                                    <forename type="first">V.</forename>
+                                    <surname>Quint</surname>
+                                </name>
+                            </editor>
+                            <title level="m">Structured Documents</title>
+                            <imprint>
+                                <pubPlace>Cambridge</pubPlace>
+                                <publisher>Cambridge University Press</publisher>
+                                <date when="1989">1989</date>
+                                <biblScope type="pp">75-105</biblScope>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="bookChapter" n="[RMD]">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">A.</forename>
+                                    <forename type="middle">H.</forename>
+                                    <surname>Renear</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">E.</forename>
+                                    <surname>Mylonas</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">D.</forename>
+                                    <surname>Durand</surname>
+                                </name>
+                            </author>
+                            <title level="a">Refining our Notion of What Text Really Is: The problem
+                                of overlapping hierarchies</title>
+                        </analytic>
+                        <monogr>
+                            <title level="m">Research in Humanities Computing</title>
+                            <imprint>
+                                <biblScope type="vol">4</biblScope>
+                                <pubPlace>Oxford</pubPlace>
+                                <publisher>Clarendon Press</publisher>
+                                <date when="1992">1992</date>
+                                <biblScope type="pp">263-280</biblScope>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct n="[RTWa]">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">D.</forename>
+                                    <forename type="middle">R.</forename>
+                                    <surname>Raymond</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">F.</forename>
+                                    <forename type="middle">W.</forename>
+                                    <surname>Tompa</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">D.</forename>
+                                    <surname>Wood</surname>
+                                </name>
+                            </author>
+                            <title level="a">Markup Reconsidered</title>
+                        </analytic>
+                        <monogr>
+                            <title level="u">Paper presented at the First International Workshop on
+                                Principles of Document Processing, Washington DC, October 22-23,
+                                1992</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date when="1992">1992</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle" n="[RTWb]">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">D.</forename>
+                                    <forename type="middle">R.</forename>
+                                    <surname>Raymond</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">F.</forename>
+                                    <forename type="middle">W.</forename>
+                                    <surname>Tompa</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">D.</forename>
+                                    <surname>Wood</surname>
+                                </name>
+                            </author>
+                            <title level="a">From Data Representation to Data Model: Meta-Semantic
+                                Issues in the Evolution of SGML</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Computer Standards and Interfaces</title>
+                            <imprint>
+                                <biblScope type="vol">10</biblScope>
+                                <biblScope type="issue"/>
+                                <biblScope type="pp"/>
+                                <date when="1995">1995</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book" n="[S]">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">C.</forename>
+                                    <surname>Segre</surname>
+                                </name>
+                            </author>
+                            <title level="m">Introduction to the Analysis of Literary Text</title>
+                            <respStmt>
+                                <resp>Engl. transl. by</resp>
+                                <name>
+                                    <forename type="first">J.</forename>
+                                    <surname>Meddemmen</surname>
+                                </name>
+                            </respStmt>
+                            <imprint>
+                                <pubPlace>Bloomington</pubPlace>
+                                <publisher>Indiana University Press</publisher>
+                                <date when="1988">1988</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct n="[SH]">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">C.</forename>
+                                    <forename type="middle">M.</forename>
+                                    <surname>Sperberg-McQueen</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">Claus</forename>
+                                    <surname>Huitfeldt</surname>
+                                </name>
+                            </author>
+                            <title level="a"/>
+                        </analytic>
+                        <monogr>
+                            <title level="m"/>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date>Forthcoming</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct n="[Ta]">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">M.</forename>
+                                    <surname>Thaller</surname>
+                                </name>
+                            </author>
+                            <title level="a">The Processing of Manuscripts</title>
+                        </analytic>
+                        <monogr>
+                            <editor>
+                                <name>
+                                    <forename type="first">M.</forename>
+                                    <surname>Thaller</surname>
+                                </name>
+                            </editor>
+                            <title level="m">Images and Manuscripts in Historical Computing</title>
+                            <title level="s">Halbgraü Reihe zur historischen Fachinformatik,
+                                A14</title>
+                            <imprint>
+                                <pubPlace>St. Katharinen</pubPlace>
+                                <publisher>Max-Planck-Institut für Geschichte in Kommission bei
+                                    Scrpta Mercaturae Verlag</publisher>
+                                <date when="1992">1992</date>
+                                <biblScope type="pp">41-72</biblScope>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct n="[Tb]">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">M.</forename>
+                                    <surname>Thaller</surname>
+                                </name>
+                            </author>
+                            <title level="a">Text as a Data Type</title>
+                        </analytic>
+                        <monogr>
+                            <title level="m">ALLC-ACH'96 Conference Abstracts</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher>University of Bergen</publisher>
+                                <date when="1996">1996</date>
+                                <biblScope type="pp">252-54</biblScope>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct n="[TEI]">
+                        <monogr>
+                            <editor>
+                                <name>
+                                    <forename type="first">C.</forename>
+                                    <forename type="middle">M.</forename>
+                                    <title>Sperberg-McQueen</title>
+                                </name>
+                            </editor>
+                            <editor>
+                                <name>
+                                    <forename type="first">L.</forename>
+                                    <surname>Burnard</surname>
+                                </name>
+                            </editor>
+                            <title level="m">Guidelines for Text Encoding and Interchange</title>
+                            <imprint>
+                                <pubPlace>Chicago and Oxford</pubPlace>
+                                <publisher>Text Encoding Initiative</publisher>
+                                <date when="1994">1994</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

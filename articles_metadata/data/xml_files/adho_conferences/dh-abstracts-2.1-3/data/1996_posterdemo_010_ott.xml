@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="poster/demo">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Tools for Critical Editing </title>
+                <author>
+                    <name>
+                        <forename type="first">Wilhelm</forename>
+                        <surname>Ott</surname>
+                        <affiliation>
+                            <name type="org">Universität Tübingen</name>
+                            <email>ott@zdv.uni-tuebingen.de </email>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="1996">1996</date>
+                <publisher>
+                    <name>University of Bergen</name>
+                </publisher>
+                <pubPlace>Bergen, Norway</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ALLC/ACH 1996</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first">Anne</forename>
+                        <surname>Lindebjerg</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Espen</forename>
+                        <forename type="middle">S.</forename>
+                        <surname>Ore</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Øystein</forename>
+                        <surname>Reigem</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item>collation</item>
+                        <item>critical apparatus</item>
+                        <item>page makeup</item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>To guarantee the reliability of critical editions, electronic tools are
+                    indispensable, not only for publishing (in conventional or electronic form), but
+                    above all for the preparation of text, apparatuses, indexes.</p>
+                <p>The tools to be presented start from automatic collation of different versions of
+                    the same text as presented in the witnesses (manuscripts, typescripts, early
+                    printings); they allow for the integration of the results of conventional
+                    collation (after transcribing them electronically).</p>
+                <p>The demonstration includes a synoptic printout of the text and the different
+                    versions as contained in the witnesses as a first overview over the tradition of
+                    a text.</p>
+                <p>It also includes tools for semi-automatically separating the "minor" variants
+                    (like pure orthograpical variation or differences in punctuation) from
+                    "substantial" ones to be included in the critical apparatuses, and the sorting
+                    and formatting procedures required for automatic generation of apparatus entries
+                    (including reference to the copy text, lemma, variants, manuscript codes,
+                    markup).</p>
+                <p>Though (except for very simple cases) fully automatical generation of critical
+                    apparatuses is neither desired nor possible, these tools can take over much of
+                    the burden of carefully and safely administrating the materials gained from the
+                    witnesses and thus allow the user to concentrate on the editorial problems.</p>
+                <p>The editor has in every stage perfect control over the results of the automatic
+                    steps during the preparation of the text and the different aparatuses. This
+                    includes the possibility both to refine the rules for the automatic process and
+                    to revise the results manually where the rules can not be adapted (e.g. to
+                    ambiguous cases) without unreasonable effort.</p>
+                <p>The demonstration includes the tools to incorporate the apparatus entries into
+                    the text and adding the markup as required for conventional or electronic
+                    publication. Automatic page makeup (for paper edition) and automatic conversion
+                    into a full text retrieval system will conclude the demonstration.</p>
+                <p>The procedures which will be demonstrated have been programmed using the
+                    TUebingen System for TExt Processing TUSTEP, which is a flexible and very
+                    powerful programming environment for handling textual data. It runs under
+                    MS-DOS, VMS (DEC VAX machines), and different UNIX dialects (presently:
+                    Interactive UNIX, LINUX, AIX, ConvexOS, Digital UNIX (OSF/1), HP-UX, IRIX,
+                    SunOS/Solaris). The DOS version does not include the typesetting routines.</p>
+                <p>In addition to the preparation of critical editions (the list of editions
+                    prepared and published with TUSTEP contains over 150 titles), TUSTEP is beeing
+                    successfully used for lexicograpy, bibliographic work (well known examples are
+                    the periodicals "Germanistik" and "Romanische Bibliographie"), concordances, and
+                    literary and linguistic analysis.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="poster/demo">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Using Collaborative Hypermedia to Replace Lectures in
+                    University Teaching.</title>
+                <author>
+                    <name>
+                        <forename type="first">David</forename>
+                        <surname>Skillicorn</surname>
+                        <affiliation>
+                            <name type="org">Queen's University</name>
+                            <email>skill@qucis.queensu.ca </email>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="1997">1997</date>
+                <publisher>
+                    <name>Queen's University</name>
+                </publisher>
+                <pubPlace>Kingston, Ontario</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ACH/ALLC 1997</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name type="org">the secretarial staff in the Department of French Studies at
+                        Queen's University</name>
+                    <name>
+                        <forename type="first">Greg</forename>
+                        <surname>Lessard</surname>
+                    </name>
+                    <name>
+                        <forename type="first"/>
+                        <surname/>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item>courseware</item>
+                        <item>hypermedia</item>
+                        <item>Hyperware</item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <div>
+                    <head>Introduction</head>
+                    <p>Web-based hypermedia and related technologies have attracted great attention,
+                        because they have obvious potential to improve the quality of teaching and
+                        learning at universities. The potential benefits include:<list
+                            type="bulleted">
+                            <item>Increased access for non-traditional students, for whom the
+                                traditional university format is impractical;</item>
+                            <item>Availability of material at all times and in all places;</item>
+                            <item>Responsiveness to students' learning styles by providing material
+                                in different ways and at different levels;</item>
+                            <item>Incentive to `ratchet up' by capturing the best presentations, the
+                                best interactions, the best questions, and preserving them;</item>
+                            <item>Student-directed learning rather than professor-directed
+                                teaching;</item>
+                            <item>Community and interaction based on ideas rather than physical
+                                presence.</item>
+                        </list></p>
+                    <p>Many courses have been developed using web pages as the presentation tool,
+                        and electronic mail and chat systems as the community-building tool. There
+                        are several deficiencies to this approach:<list type="bulleted">
+                            <item>The on-line course material is very often 'extra' material,
+                                increasing the demands on students;</item>
+                            <item>On-line courseware typically costs more, both to develop and to
+                                deliver to students;</item>
+                            <item>Material is not access-protected, causing loss of revenue for
+                                institutions and copyright problems for developers;</item>
+                            <item>The use of multiple tools requires students to learn many
+                                different interfaces, increasingly the cognitive overhead of the
+                                material that they want to learn.</item>
+                        </list></p>
+                    <p>We have developed several courses using the Hyperwave hypermedia system,
+                        developed at the Technical University of Graz in Austria. This system
+                        provides a seamless environment in which students can interact with
+                        hypermedia material, create their own additions, and communicate with one
+                        another and with the instructor. These courses are offered without any
+                        lectures, relying solely on interactions within the hypermedia system to
+                        convey content and create a learning community. Experience so far has shown
+                        that this approach works, and may even produce better learning outcomes than
+                        conventional lecture presentations.</p>
+                </div>
+                <div>
+                    <head>An Introductory Computing Course</head>
+                    <p>We illustrate the use of the system using CISC104, an introductory
+                        programming and computing science background course, taken by students in
+                        all years, and from all departments of the Faculty of Arts and Science. The
+                        approach has also been used in 3rd and 4th year courses in Computing
+                        Science.</p>
+                    <p>Students interact with the course material using an ordinary web browser,
+                        such as Netscape. Pages delivered by the Hyperwave server are enhanced with
+                        a standard set of buttons that allow users to identify themselves to the
+                        system, to create new documents, or to annotate existing documents.</p>
+                    <p>Hyperwave hypermedia is organised in two ways: the standard link paradigm is
+                        supplemented by a hierarchical collection paradigm. This provides extra
+                        context which helps users to avoid the feeling of not knowing where they
+                        are. The top level of the course material consists of the following
+                            collections:<list type="bulleted">
+                            <item>Introductory material about the course,</item>
+                            <item>Course home page,</item>
+                            <item>Core course material,</item>
+                            <item>Announcements,</item>
+                            <item>Questions and Answers,</item>
+                            <item>Assignments,</item>
+                            <item>Exercises,</item>
+                            <item>Social Area.</item>
+                        </list>
+                    </p>
+                    <p>The core course material was organised into three streams, each partitioned
+                        by week. This meant that students could always tell how far they were
+                        supposed to have progressed. Each `lecture' consists of textual material,
+                        enriched with images, and with regular questions added to make it harder to
+                        interact passively with the material.</p>
+                    <p>The question and answer area allowed students to ask questions publicly and
+                        get them answered, usually within a few hours. Because everyone can see the
+                        answers, many students have their questions answered before they were asked.
+                        The assignments collection was used to `hand out' the programming
+                        assignments, and also to provide solutions after the due date. The exercises
+                        collection contained a weekly set of programming exercises and their
+                        solutions, to provide suggestions for reinforcing material. The social area
+                        allowed students to communicate on non-academic matters.</p>
+                    <p>Other aspects of the course were traditional. The instructors had office
+                        hours, and teaching assistants were available at scheduled times in their
+                        offices and in one of the computing laboratories. Assessment was based on
+                        programming assignments, a midterm examination, and a final examination. </p>
+                    <p>Student feedback fell into two categories. Some students, probably the
+                        majority, found no difficulty with the approach and appreciated the
+                        flexibility of delivery. A smaller group felt the absence of lectures
+                        keenly, at least at the beginning of the course. Discussions with some of
+                        them indicated that they believed, at some level, that lectures caused
+                        learning to happen without their active participation. It is easy to see, in
+                        retrospect, how such beliefs tend to be fostered by universities, and
+                        dispelling them may be the major contribution of technology to learning.
+                        Most found it possible to adapt their model of learning and to succeed in
+                        the course. Our experiences have been positive, and several more course are
+                        migrating to the Hyperwave system.</p>
+                </div>
+                <div>
+                    <head>Why Hyperwave?</head>
+                    <p>In the introduction, we indicated several deficiencies of the majority of
+                        hypermedia courseware approaches. We summarize how the Hyperwave system, and
+                        our incremental approach to development, avoid them.</p>
+                    <p>There are three essential aspects to making hypermedia courseware development
+                            cost-effective:<list type="bulleted">
+                            <item>Courseware must save money somewhere else. It is therefore
+                                critical that such courseware <emph rend="italics">replace</emph>
+                                other teaching, rather than supplement it.</item>
+                            <item>Courseware must be developed incrementally, allowing savings from
+                                the very first delivery to be used to fund the next round of
+                                development. This makes it possible to start from modest amounts of
+                                seed money. Our initial offering of CISC104 required about four
+                                months of full-time work by a hypermedia development staff member.
+                                Upper-year and seminar courses are much cheaper to develop, since
+                                courseware provides perspective rather than content.</item>
+                            <item>Courseware does not have to be up to Hollywood standards to be
+                                effective, and does not all have to be developed by instructors.
+                                Students can make their own contributions to courseware, and such
+                                contributions are arguably more useful and impressive to other
+                                students. Seminar courses, in particular, can start from a list of
+                                the issues, the content being created by the discussions of the
+                                participants (which can then be preserved as starting points for
+                                subsequent offerings).</item>
+                        </list></p>
+                    <p>The problems of controlling access are handled extremely well by the
+                        Hyperwave system, which allocates <emph rend="italics">read</emph>,<emph
+                            rend="italics"> </emph>, and <emph rend="italics">delete</emph>
+                        privileges on a per-collection basis. Thus students can create documents,
+                        but not anywhere; and can control whether they are visible to the whole
+                        world, the class, a small group within the class, or are entirely
+                        private.</p>
+                    <p>The Hyperwave system provides a seamless interface with the functionality of
+                        a hypermedia browser, chat group, and electronic mail system. Once students
+                        have absorbed the basic paradigm, they can do everything related to a course
+                        within one environment.</p>
+                    <p>The Hyperwave courseware is available for demonstration purposes using the
+                        url <ptr target="http://hyperg.queensu.ca"/>. A guest userid and password
+                        will be available during the poster sessions.</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

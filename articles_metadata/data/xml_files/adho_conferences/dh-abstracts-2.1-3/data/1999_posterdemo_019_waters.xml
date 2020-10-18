@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="poster/demo">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Humanities Textual Databases Online: The Cases of TACT
+                    and FoxPro in the Digital Library</title>
+                <author>
+                    <name>
+                        <forename type="first">Stacy</forename>
+                        <surname>Waters</surname>
+                        <affiliation>Center for Advanced Research Technology in the Arts and
+                            Humanities <name type="org">University of Washington</name>
+                            <email>stacy@u.washington.edu</email>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="1999">1999</date>
+                <publisher>
+                    <name>University of Virginia</name>
+                </publisher>
+                <pubPlace>Charlottesville, VA</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ACH/ALLC 1999</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first"/>
+                        <surname/>
+                    </name>
+                    <name>
+                        <forename type="first"/>
+                        <forename type="middle"/>
+                        <surname/>
+                    </name>
+                    <name>
+                        <forename type="first"/>
+                        <surname/>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item> </item>
+                        <item> </item>
+                        <item> </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>Much of the work that humanities scholars do is, implicitly or explicitly, the
+                    preparation of textual material as a database. On the one hand, almost any
+                    descriptively tagged text (or text prepared with editing software that allows
+                    the export of tagged files) is, implicitly, a flat, textual database. On the
+                    other hand, the use of proprietary database software to organize textual
+                    materials makes this connection explicit. The advantage of texts in databases is
+                    that they may be queried and searched to reveal information about the text which
+                    may be difficult to obtain in a more traditional manner.</p>
+                <p>Increasingly, the resources prepared by scholars in one or another database
+                    format for their own restricted use are finding their way onto the Internet,
+                    where they may be accessed by the larger scholarly community. Many people in the
+                    possession of such resources, however, are perplexed about how to go about
+                    linking them to the WEB.</p>
+                <p>I propose to organize a poster session that will display two examples of textual
+                    databases, one flat and the other relational, that have been created at the
+                    Center for Advanced Research Technology in the Arts and Humanities (CARTAH) at
+                    the University of Washington to be accessible over the Internet. The poster
+                    session will illustrate the processes whereby existing databases may be made
+                    available online. The methods described are generally applicable and can be
+                    utilized by lots of scholars.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

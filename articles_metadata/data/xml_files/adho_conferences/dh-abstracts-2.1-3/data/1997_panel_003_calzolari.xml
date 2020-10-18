@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="panel">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Towards standards for lexicons and the linguistic
+                    annotation of texts.</title>
+                <author>
+                    <name>
+                        <forename type="first">Nicoletta</forename>
+                        <surname>Calzolari</surname>
+                        <affiliation>
+                            <name type="org">Istituto di Linguistica Computazionale del CNR</name>
+                            <email>glottolo@ilc.pi.cnr.it</email>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Antonio</forename>
+                        <surname>Zampolli</surname>
+                        <affiliation>
+                            <name type="org">Istituto di Linguistica Computazionale del CNR</name>
+                            <email>eagles@ilc.pi.cnr.it</email>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Ulrich</forename>
+                        <surname>Heid</surname>
+                        <affiliation>
+                            <name type="org">IMS-CL, Universitaet Stuttgart</name>
+                            <email>heid@ims.uni-stuttgart.de</email>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Antonio</forename>
+                        <surname>Sanfilippo</surname>
+                        <affiliation>
+                            <name type="org">Oxford University</name>
+                            <email/>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Ralph</forename>
+                        <surname>Grishman</surname>
+                        <affiliation>
+                            <name type="org">New York</name>
+                            <email/>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Catherine</forename>
+                        <surname>McLeod</surname>
+                        <affiliation>
+                            <name type="org">New York</name>
+                            <email/>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="1997">1997</date>
+                <publisher>
+                    <name>Queen's University</name>
+                </publisher>
+                <pubPlace>Kingston, Ontario</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ACH/ALLC 1997</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name type="org">the secretarial staff in the Department of French Studies at
+                        Queen's University</name>
+                    <name>
+                        <forename type="first">Greg</forename>
+                        <surname>Lessard</surname>
+                    </name>
+                    <name>
+                        <forename type="first"/>
+                        <surname/>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item>linguistic annotation of texts</item>
+                        <item>standardization</item>
+                        <item>guidelines</item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <div>
+                    <div>
+                        <head>Motivation</head>
+                        <p>As more and more machine readable text material becomes available, the
+                            importance of linguistic annotation of this material is in steady
+                            increase. This is true not only in the field of Natural Language
+                            Processing (NLP) and Language Engineering, but as well in Humanities
+                            Computing: for example, it is evident that linguistically informed free
+                            text search and text retrieval (especially if these are written in
+                            morphologically richer languages) is more precise (less noise) than
+                            search in texts not linguistically pre-analyzed. Linguistic annotation
+                                includes<list type="bulleted">
+                                <item>the identification and tagging of word, sentence and paragraph
+                                    boundaries;</item>
+                                <item>the identification and tagging of the category (POS, word
+                                    class) of word forms in running text;</item>
+                                <item>the identification and tagging of morphological features
+                                    (tense, number, person, etc.);</item>
+                                <item>the identification and tagging of syntactic properties of
+                                    predicates (syntactic subcategorization);</item>
+                            </list>and many more.</p>
+                        <p>Many corpus Linguistic Engineering companies and projects have designed
+                            their own proprietary annotation schemes; broadly available common
+                            schemes would have a number of advantages (easy availability,
+                            documentation, exchangeability, etc.). The workshop will discuss the
+                            need for standards for the above levels of linguistic description.</p>
+                        <p>For the types of annotation listed above, the EAGLES project has
+                            attempted to prepare annotation schemes and operational tagging
+                            guidelines, to encode these as formal (or formally representable)
+                            specifications, and to validate them in a number of application
+                            experiments. EAGLES (Expert Advisory Groups on Linguistic Engineering
+                            Standards) is an expert group with contributors from both industry and
+                            academia from all over the EU aiming at the design of consensual
+                            standards for key areas of Linguistic Engineering.</p>
+                    </div>
+                    <div>
+                        <head>Workshop objectives</head>
+                        <p>The workshop aims at presenting and discussing recent and ongoing work
+                            towards standards for linguistic classification and annotation of word
+                            forms in texts and lexicons; the second main objective is to gather the
+                            feedback of the Humanities Computing scene with respect to the
+                            standardization work.</p>
+                        <p>Specific objectives include the following:<list>
+                                <item>- Identify and discuss the need for and the problems related
+                                    with standards in the field of linguistic resources (in
+                                    particular lexicons and corpora);</item>
+                                <item>- Discuss questions of the interaction between lexicon and
+                                    corpus: if there is a common underlying classification of
+                                    linguistic material, at the levels indicated above, interesting
+                                    new possibilities for `compound' resources are opened up:
+                                    dynamic links from the lexicon to the corpus, corpus-based
+                                    lexicon validation, new possibilities for linguistic
+                                    acquisition, etc.</item>
+                                <item>- Describe the EAGLES approach to the definition of standards
+                                    proposals, the representations used, and the mechanisms
+                                    available for validation, consistency checking etc.</item>
+                                <item>- Describe the existing proposals for syntactic (and possibly
+                                    semantic) annotation in texts and lexicons, based on efforts in
+                                    EAGLES and in the COMLEX project at NYU;</item>
+                                <item>- Discuss the EAGLES proposals from the point of view of
+                                    `users': if a lexicon design project or a corpus analysis
+                                    project is set up, does the use of annotation standards
+                                    contribute to the efficiency of the project?</item>
+                            </list></p>
+                    </div>
+                </div>
+                <div type="EmbeddedDoc">
+                    <div>
+                        <head>Standards for lexicons and corpora -- Areas, interaction between
+                            lexicon and corpus, current state of EAGLES</head>
+                        <p rend="presenter">Nicoletta Calzolari</p>
+                        <div>
+                            <p> When we highlight the complex structure of the interrelationships
+                                between lexicon and corpus, we have to work on the assumption of an
+                                interdependence between the two views, and we have to take into
+                                account this interdependence in any lexical or corpus analysis or
+                                application.</p>
+                            <p>This was also the approach taken within the LRE EAGLES (see
+                                Calzolari, McNaught, EAGLES Editors' Introduction, 1996) project
+                                towards the development of standards both in Morphosyntax and
+                                Syntax: the awareness of the interdependence between lexical
+                                specifications on the one hand, and corpus tagsets/syntactic
+                                annotations on the other, has guided the formulation of the
+                                proposals for standards and recommendations in both the Corpus and
+                                the Lexicon Work Groups of EAGLES. Corpus tagging/annotating was
+                                considered as the first obvious application of a Computational
+                                Lexicon. Therefore attention was given to the definition of
+                                compatible sets of attributes and values.</p>
+                            <p> The presentation will address problems of the interaction between
+                                the two types of resources, corpora and lexicons, in particular from
+                                the perspective of a standardization project.</p>
+                        </div>
+                    </div>
+                </div>
+                <div type="EmbeddedDoc">
+                    <div>
+                        <head>From specifications to tagsets and coding guidelines: EAGLES
+                            morphosyntax annotations in lexicons and texts</head>
+                        <p rend="presenter">Ulrich Heid</p>
+                        <div>
+                            <p> EAGLES has first established a core set of commonly agreed
+                                annotations for morphosyntax, basically by collecting, comparing and
+                                filtering existing annotation proposals from lexicons and tagsets.
+                                Once the synthesis is available, how can it be put to use in both
+                                lexicon building and text annotation work? This question is
+                                addressed in our contribution.</p>
+                            <p>We want the EAGLES morphosyntax annotation to be applicable in
+                                different usage contexts, especially in both, lexicons for NLP and
+                                text corpora. Moreover, other than in many tagsets for corpus
+                                annotation, the classifications used must be strict: the classes
+                                form a hierarchy, and any item to be described has to fall in one
+                                branch of the hierarchy. Along with this structure, there is need,
+                                however, for support for manual tagging: how can we make sure that
+                                different people will classify the same facts in the same way?</p>
+                            <p>In EAGLES, we have tried to come close to solutions for some of the
+                                requirements stated above. We have defined a typed class hierarchy,
+                                to specify the classifications underlying our language-specific
+                                morphosyntactic coding systems. These hierarchies can be mapped onto
+                                lexicon codes as well as onto corpus tagsets, the latter is even
+                                automatic. For a subset of languages, we have written guidelines for
+                                manual annotation, which contain discussions of borderline cases,
+                                tests and a large collection of examples, to support manual coders.
+                                We have applied the tagset and guidelines to the manual coding of
+                                60.000 word reference corpora for German and Italian.</p>
+                            <p>The contribution will summarize the experiences gained in this
+                                exercise, and we will point to the ressources and tools produced
+                                therein.</p>
+                        </div>
+                    </div>
+                </div>
+                <div type="EmbeddedDoc">
+                    <div>
+                        <head>The Comlex Syntax Lexicon and the Eagles Subcategorization
+                            Standard</head>
+                        <p rend="presenter">Ralph GRISHMAN/Catherine McLEOD</p>
+                        <div>
+                            <p>Comlex Syntax is a broad-coverage English lexicon which was developed
+                                specifically for natural language processing and includes detailed
+                                information on complements for verbs, nouns, and adjectives. The
+                                information we seek to capture is similar to that of EAGLES
+                                syntactic lexicons, but our focus on a single language has allowed
+                                us to define a fixed set of complement classes. These classes are
+                                defined in the dictionary as combinations of standard syntactic
+                                constituents.</p>
+                            <p>Comlex Syntax is accompanied by a corpus with tagged examples of the
+                                subcategorization patterns of various high-frequency verbs. Our
+                                definition mechanism for complement classes allowed us to readily
+                                add new classes for previously unseen and rare complement
+                                structures. The tagging has also required additional features
+                                (besides those in the lexicon) to account for subcategorization
+                                patterns in context.</p>
+                            <p>We are currently extending Comlex Syntax to include information on
+                                nominalizations. This is requiring us for the first time to link
+                                subcategorization frames from different parts of speech.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+
+</TEI>

@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="poster/demo">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">"Hyperlectures": Teaching Postmodern Culture on the
+                    Web</title>
+                <author>
+                    <name>
+                        <forename type="first">Licia</forename>
+                        <surname>Calvi</surname>
+                        <affiliation>
+                            <name type="org">Trinity College Dublin</name>, Eire <email/>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="2000">2000</date>
+                <publisher>
+                    <name>University of Glasgow</name>
+                </publisher>
+                <pubPlace>Glasgow</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ALLC/ACH 2000</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first">Jean</forename>
+                        <surname>Anderson</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Amal</forename>
+                        <surname>Chatterjee</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Christian</forename>
+                        <forename type="middle">J.</forename>
+                        <surname>Kay</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Margaret</forename>
+                        <surname>Scott</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item> </item>
+                        <item> </item>
+                        <item> </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>One of the major didactic difficulties, regardless of the kind of knowledge that
+                    must be learnt, seems to be that of ensuring a correct "transfer" of information
+                    from the teacher to the learner. This "transfer", as Plato already illustrated,
+                    may be problematic because of what happens in the "head" of the learner,
+                    something which ultimately influences what the learner herself can understand -
+                    see also (Ambroso 1999). In order to guarantee a successful information
+                    transfer, it is therefore necessary that the teacher adopts a series of
+                    strategies taking into account how information is processed by learners.
+                    Cognitive science may help in this respect to shed a new light on how
+                    information is received, processed, stored and ultimately retrieved when facing
+                    real-life situations - see, for instance, (Dix et al. 1993). From these
+                    characteristics, it is indeed possible to draw different learner profiles,
+                    different learning models.</p>
+                <p>Traditionally, according to van der Veer (1990), the individual characteristics
+                    that HCI (Human-Computer Interaction) takes into account while conceiving
+                    interfaces and user-friendly systems include:<list>
+                        <item>1. learners' personality, mainly in terms of introvert or extrovert
+                            behaviour;</item>
+                        <item>2. the cognitive styles that students follow while learning, either a
+                            verbal or a visual style;</item>
+                        <item>3. the strategies they exploit for learning, namely a heuristic or
+                            systemic procedure;</item>
+                        <item>4. finally, the structures they use to represent the knowledge they
+                            have acquired. These structures ultimately reflect the different
+                            long-term memory modalities employed to process information, i.e.,
+                            semantic or episodic structures.</item>
+                    </list></p>
+                <p>Once this assumption is accepted, the teacher must satisfy all these requirements
+                    in order to be able to support the learner in gaining the most efficient
+                    learning possible. IT (Information Technologies) take part in this dialogue by
+                    helping the teacher to assume perfectly her role of "learning facilitator
+                    according to the learner's pace and modalities" (Ambroso 1999).</p>
+                <p>It is with this intention in mind that we have started to develop a series of
+                    hyperlectures on postmodern culture and philosophy which are completely taught
+                    online. The term "hyperlectures" was originally coined by Frode Ulvund (1997) to
+                    indicate "a multimedia lecture transferred on the internet" and later rephrased
+                    by Rob van Craenenburg (forthcoming) in his series of online lectures on
+                    culture. In the context of this presentation, it will be used to indicate a
+                    courseware that has two characteristics: conceptually, it is adaptive, and
+                    structurally, it is layered (see below). These hyperlectures originate from the
+                    two separate courses on "Interactive Narrative" and on "Technology and Culture"
+                    which were taught last year within the MSc in Multimedia Systems at TCD. As
+                    such, they have a dual objective: on the one hand, they intend to show the
+                    development of hyperfiction, i.e., of electronic fiction, from its early
+                    attempts still in a paper-based medium to the current computer-based works.
+                    According to some scholars (see, for instance Landow 1997), there is indeed a
+                    strict relationship between the theory of literature and the theory of
+                    hypertext: the former theorises the open work, that the latter ultimately
+                    embodies and tests. In this respect, understanding hyperfiction implies a
+                    definition of both the medium hypertext and the more theoretical narrative
+                    principles implicit in any text: story formation, the notion of the plot, the
+                    role of both author and reader, the mutual actions they are required to play. On
+                    the other hand, since hyperfiction has emerged and imposed itself in recent
+                    years, it becomes important to understand the dominant way of representing and
+                    of thinking of reality, the present major philosophical discourse, what is
+                    referred to as postmodernism.</p>
+                <p>The hyperlectures on postmodern culture build on the expertise acquired through
+                    two previous experiences at developing Internet-based courseware: they include
+                    the development of an adaptive courseware to teach hypertext to MSc students in
+                    Computer Science, which is still in use and has been used by several
+                    universities in Europe, and an adaptive courseware to teach business Italian to
+                    MA students in Romance Philology, which has only been developed for experimental
+                    reasons. Whereas the former experience focused on the setting up of a
+                    methodology for knowledge acquisition on the Web that progressively keeps into
+                    account every student's learning proficiency within the field of a mainly
+                    technology-oriented education (Calvi and De Bra 1997), the other project
+                    examined the validity of this same framework in a more linguistic domain when
+                    combining the "situated" teaching of Italian with the acquisition of a
+                    domain-specific knowledge like the Italian present economic reality (Calvi in
+                    press). What these Web-based courses have in common is the approach that was
+                    used in designing and developing them, i.e., the need to adapt to users. User's
+                    adaptivity and customisation is a sort of number 0 rule to make an efficient use
+                    of the Web and to ensure that results will be significant in terms of learning.
+                    This also means being able to cope with the problems raised by knowledge
+                    globalisation and cultural differences. And still, preserving one's specific
+                    characteristics in the view of the safeguard of minority languages and cultural
+                    heritage that has become so prominent in EU policies. In the investigation of
+                    the educational possibilities of hypertext for learning, these issues have
+                    become relevant (see, for example, (Brusilovsky 1996):<list>
+                        <item>1. the necessity to adapt information to users, i.e., to provide
+                            information according to users' learning needs, level of competence
+                            achieved thus far, goals, and preferences, in order to facilitate
+                            learning (a user-tailored approach to information presentation);</item>
+                        <item>2. the complementary requirement of fostering both textual and
+                            conceptual coherence in structuring information;</item>
+                        <item>3. the subsequent need to limit, if not to avoid completely, cognitive
+                            overload while users process information by appropriately determining
+                            the sequences of nodes and links to be consequently shown to
+                            users.</item>
+                    </list></p>
+                <p>It is a sort of "guided pulling" (Perrin 1998), where it is up to the learner to
+                    choose which further step to take in the acquisition process in an intimately
+                    autonomous way because the system does not hinder in any way his/her exploratory
+                    behaviour. The process of progressively unveiling links does not indeed
+                    correspond to the common notion of "guided tours", although it is always the
+                    teacher/designer who determines not only how the content material can be
+                    presented to students, but also how it can be structured and how its concepts
+                    can be interconnected to one another.</p>
+                <p>The postmodern course is now being followed by two sorts of students: students
+                    enrolled in a Master's programme in Multimedia Systems at TCD, who have a very
+                    heterogeneous academic background (from engineering to biology, from
+                    communication studies to sculpture and painting), although the master is taught
+                    within the Computer Science department; and students enrolled in a Master
+                    programme in Romance Philology at the University of Antwerp, who have therefore
+                    a mainly humanistic background. By the end of the course (in a couple of months,
+                    therefore well before the conference is scheduled) data about their interaction
+                    modalities with be systems will become available for analysis. This will allow
+                    us to verify if the design guidelines that have been chosen have matched onto
+                    actual use.</p>
+                <p>During the presentation we will describe in details the hyperlectures from the
+                    point of view of both its design rationale and objectives and will relate it to
+                    the previously acquired experiences mentioned above in order to outline the
+                    methodological and pedagogical implications behind the use of hypertext in
+                    education.</p>
+                <p>The course can be found at the URL &lt;<ptr
+                        target="http://wwwis.win.tue.nl/~calvi/pmw"/>&gt;.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <author><name><forename type="first">S.</forename>
+                                    <surname>Ambroso</surname></name></author>
+                            <title level="a">Nuovi orientamenti nella didattica dell'italiano come
+                                L2</title>
+                        </analytic>
+                        <monogr>
+                            <title level="m">Proceedings of the conference La didattica
+                                dell'italiano lingua straniera oggi. Realtà e prospettive</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher>VUB Press</publisher>
+                                <date when="1999">1999</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author><name><forename type="first">P.</forename>
+                                    <surname>Brusilovsky</surname></name></author>
+                            <title level="a">Methods and Techniques of Adaptive Hypermedia</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">User Modeling and User-Adapted Interaction</title>
+                            <imprint>
+                                <biblScope type="vol">6</biblScope>
+                                <biblScope type="issue">2-3</biblScope>
+                                <biblScope type="pp">87-129</biblScope>
+                                <date when="1996">1996</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author><name><forename type="first">L.</forename>
+                                    <surname>Calvi</surname></name></author>
+                            <title level="a">Business Italian via a Proficiency-Adapted CALL
+                                System</title>
+                        </analytic>
+                        <monogr>
+                            <editor><name><forename type="first">D.</forename><forename
+                                        type="middle"
+                                    >P.</forename></name><surname>O'Baoill</surname></editor>
+                            <title level="j">Special Issue of TEANGA</title>
+                            <imprint>
+                                <biblScope type="vol">18</biblScope>
+                                <biblScope type="issue"/>
+                                <biblScope type="pp"/>
+                                <date when="1999">1999</date>
+                            </imprint>
+                        </monogr>
+                        <note>(In press)</note>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author><name><forename type="first">L.</forename>
+                                    <surname>Calvi</surname></name></author>
+                            <author><name><forename type="first">P.</forename><surname>De
+                                        Bra</surname></name></author>
+                            <title level="a">A Proficiency-Adapted Framework for Information
+                                Browsing and Filtering in Educational Hypermedia Systems</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">International Journal of User Modelling and
+                                User-Adapted Interactions</title>
+                            <imprint>
+                                <biblScope type="vol">7</biblScope>
+                                <biblScope type="issue"/>
+                                <biblScope type="pp">257-277</biblScope>
+                                <date when="1997">1997</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">A.</forename>
+                                    <surname>Dix</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">J.</forename>
+                                    <surname>Finlay</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">G.</forename>
+                                    <surname>Abowd</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">R.</forename>
+                                    <surname>Beale</surname>
+                                </name>
+                            </author>
+                            <title level="m">Human-Computer Interaction</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher>Prentice Hall</publisher>
+                                <date when="1993">1993</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">G.</forename>
+                                    <surname>Landow</surname>
+                                </name>
+                            </author>
+                            <title level="m">Hypertext 2.0. The Convergence of Contemporary Critical
+                                Theory and Technology</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher>Johns Hopkins University Press</publisher>
+                                <date when="1997">1997</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <analytic>
+                            <author><name><forename type="first">M.</forename>
+                                    <surname>Perrin</surname></name></author>
+                            <title level="a">What Cognitive Science Tells us About the Use of New
+                                Technologies</title>
+                        </analytic>
+                        <monogr>
+                            <title level="u">Paper presented at the Conference Languages for
+                                Specific Purposes and Academic Purposes--Integrating Theory into
+                                Practice, Dublin, 6-8 March 1998</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date when="1998">1998</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">R.</forename>
+                                    <surname>van Craenenburg</surname>
+                                </name>
+                            </author>
+                            <title level="m">Teaching Culture in a multi-linear Environment</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher>Intellect Books</publisher>
+                                <date>(forthcoming)</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">G.</forename>
+                                    <forename type="middle">C.</forename>
+                                    <surname>van der Veer</surname>
+                                </name>
+                            </author>
+                            <title level="m">Human-Computer Interaction. Learning, Individual
+                                Differences, and Design Recommendations</title>
+                            <imprint>
+                                <pubPlace>Alblasserdam</pubPlace>
+                                <publisher>Offsetdrukkerij Haveka B.V.</publisher>
+                                <date when="1990">1990</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <analytic>
+                            <author><name><forename type="first">F.</forename>
+                                    <surname>Ulvund</surname></name></author>
+                            <title level="a">Hyperlectures - Teaching on Demand</title>
+                        </analytic>
+                        <monogr>
+                            <title level="u">Paper originally presented at Cincinnati Symposium on
+                                Computers and History, University of Cincinnati, Cincinnati, OH, May
+                                2-3 1997 and at the XIIth International Conference of the AHC in
+                                Glasgow, UK, June 30 - July 3 1997</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date when="1997">1997</date>
+                            </imprint>
+                        </monogr>
+                        <note>online reference</note>
+                    </biblStruct>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="paper">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Timelines Online: Hypermedia and Information
+                    Architecture in the Representation of Intellectual History</title>
+                <author>
+                    <name>
+                        <forename type="first">John</forename>
+                        <surname>Zuern</surname>
+                        <affiliation>Department of English, <name type="org">University of
+                                Hawai'I</name>
+                            <email>zuern@hawaii.edu</email>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="1999">1999</date>
+                <publisher>
+                    <name>University of Virginia</name>
+                </publisher>
+                <pubPlace>Charlottesville, VA</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ACH/ALLC 1999</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first"/>
+                        <surname/>
+                    </name>
+                    <name>
+                        <forename type="first"/>
+                        <forename type="middle"/>
+                        <surname/>
+                    </name>
+                    <name>
+                        <forename type="first"/>
+                        <surname/>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item> </item>
+                        <item> </item>
+                        <item> </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>My presentation will address the potential--and some of the problems--of applying
+                    the principles of information architecture and graphic design elaborated in the
+                    work of Nielsen [13], Rosenfeld and Morville [15], Tufte [17], and Wurman [19]
+                    to the creation of web-based educational resources that represent the history of
+                    ideas. While my own work is focused on developing instructional materials in the
+                    history of literary theory and criticism, my presentation discusses general
+                    problems in the graphic design of timelines that are relevant to a number of
+                    humanities disciplines.</p>
+                <p>Although careful attention to historical issues is commonplace in courses on
+                    literature, educators who confront the daunting task of teaching literary theory
+                    often find that time constraints and the perceived difficulty of individual
+                    texts preclude sufficient consideration of the historical and institutional
+                    contexts which have shaped the formation of concepts, approaches, and
+                    assumptions. Such consideration is, however, crucial for an understanding of any
+                    theory's contribution. Carefully designed hypermedia systems have the potential
+                    to represent intellectual history as a dynamic, networked process driven by
+                    dialogue and contest, providing students a means of exploring the complexity of
+                    that history and of entering into the conversation that sustains it.</p>
+                <p>In an effort to move beyond an instrumental application of electronic media as a
+                    storage-and-delivery system for learning materials, my project seeks to develop
+                    design strategies that take into account developments in the theory of
+                    historiography (e.g. Foucault [7], White [18], and Ginzburg [8]) that have
+                    important implications for the representation of history in any format. With
+                    reference to recent work in knowledge representation [12] and a series of
+                    concrete examples, my paper will demonstrate some of the theoretical and
+                    methodological challenges that arise when we turn to relatively static spatial
+                    relationships as a means of conveying the dynamic temporal and conceptual
+                    interconnections that characterize intellectual history. Developing solutions
+                    for problems of design is a hermeneutic procedure that engages the designer in a
+                    "dialogue with the design situation" [4] and demands a critical examination of
+                    received frameworks for organizing historical knowledge. In the case of
+                    graphical timelines, the dominant metaphor of the "line" itself tends to
+                    privilege chronology, which presents history as a sequence of events, over
+                    models that emphasize, for example, networks of discourses [7].</p>
+                <p>The scope of my own project in its present form is restricted to the years
+                    1965-1975, a decade in which a number of influential positions articulated
+                    within philosophy, linguistics, and the social sciences began to inform
+                    literary-critical study. In pursuing this project, I have attempted to meet the
+                    following desiderata for resources of this kind:<list type="bulleted">
+                        <item>to make available clear, accurate historical data, such as
+                            biographical dates of important figures, publication dates, and the
+                            dates and rosters of significant seminars and conferences, as well as
+                            references to major historical, social, and cultural events that have an
+                            impact on the development of ideas;</item>
+                        <item>to augment the above data with the kinds of anecdotal material
+                            valorized by the New Historicism in literary criticism as well as
+                            relations of quotidian events, personal habits, and chance occurrences
+                            of which records exists and out of which "microhistories" might be
+                            assembled [8];</item>
+                        <item>to ensure that the system encourages both browsing and known-item
+                            searching;</item>
+                        <item>to allow users to specify the types of information they wish to access
+                            (for example, a chronological bibliography of an individual theorist's
+                            publications or the genealogy of a particular critical term);</item>
+                        <item>to allow users to control the level of granularity (for example,
+                            choosing to access a chronological bibliography of an single theorist's
+                            or of representative texts of an entire school of thought);</item>
+                        <item>to permit multiple forms of access and interpretation (enlisting the
+                            poetics of hypertext fiction to allow users to construct a range of
+                            narratives that tell the multiple stories of the development of
+                            contemporary literary theory).</item>
+                    </list></p>
+                <p>These goals entail a number of conceptual and technical challenges. All
+                    timelines, regardless of their form, write history in the course of displaying
+                    it. As much as the historian, the courseware developer has to interpret the
+                    materials at hand "in order to construct the moving pattern of images in which
+                    the form of the historical process is to be mirrored" [18]. The relative
+                    openness of hypermedia in relation to print documents does little to mitigate
+                    the risk of imposing interpretations upon users; Aarseth [1] has argued that
+                    predetermined paths in hypertext can restrict readers to a greater extent than
+                    the eminently browsable formats of traditional print materials. Developers of
+                    instructional media in all fields, especially those whose subject matter is as
+                    complex and overdetermined as that of intellectual history, must be attuned to
+                    the expressive and interpretative functions of content selection and navigation
+                    design, concerns which cannot be extricated from the resource's overall
+                    architecture and operability. One concern in particular is that of correlation:
+                    how can the system encourage users to correlate historical data without
+                    sacrificing the chronological or otherwise rational organizational structures of
+                    the data?</p>
+                <p>I will illustrate my remarks with demonstrations from my own project as well as
+                    examples of print timelines (Kitts [9], Mann [11], and Davis [5]); interactive
+                    timelines designed for educational kiosks (Skydeck [15]); web-based timelines
+                    that employ HTML (Eckman [6] and Landow [10]), PDF (Bauer et al. [2]) and CGI
+                    programming (Benjamin and Slaughter [3]). I conclude my discussion with
+                    suggestions of how three-dimensional data-management and mapping systems such as
+                    Dynamic Diagrams' MAPA system, Plumb Design's ThinkMap, and can further serve to
+                    accomplish some of the goals outlined in my paper.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <biblStruct type="book" n="1">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">E.</forename>
+                                    <forename type="middle">J.</forename>
+                                    <surname>Aarseth</surname>
+                                </name>
+                            </author>
+                            <title level="m">Cybertext: Perspectives on Ergodic Literature</title>
+                            <imprint>
+                                <pubPlace>Baltimore</pubPlace>
+                                <publisher>Johns Hopkins University Press</publisher>
+                                <date when="1997">1997</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct n="2">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">L.</forename>
+                                    <surname>Bauer</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">B.</forename>
+                                    <surname>Carlson</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">A.</forename>
+                                    <surname>Burgess</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">C.</forename>
+                                    <surname>Miller</surname>
+                                </name>
+                            </author>
+                            <title level="u">Timeline of Computing History</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date when="1998">1998</date>
+                            </imprint>
+                        </monogr>
+                        <note>&lt;<ptr target="http://www.computer.org/computer/timeline/"/>&gt;.
+                            October 18, 1998.</note>
+                    </biblStruct>
+                    <biblStruct n="3">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">B.</forename>
+                                    <surname>Benjamin</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">J.</forename>
+                                    <surname>Slaughter</surname>
+                                </name>
+                            </author>
+                            <title level="u">Literary Contests and Contexts Timelines</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date when="1998">1998</date>
+                            </imprint>
+                        </monogr>
+                        <note>&lt;<ptr
+                                target="http://www.cwrl.utexas.edu/~contests/critical_tools/e314l_fall_1998/archives/timelines/"
+                            />&gt;. October 18, 1998.</note>
+                    </biblStruct>
+                    <biblStruct type="journalArticle" n="4">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">R.</forename>
+                                    <surname>Coyne</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">A.</forename>
+                                    <surname>Snodgrass</surname>
+                                </name>
+                            </author>
+
+                            <title level="a">Is designing mysterious? challenging the dual knowledge
+                                thesis</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Design Studies</title>
+                            <imprint>
+                                <biblScope type="vol">2</biblScope>
+                                <biblScope type="issue">3</biblScope>
+                                <biblScope type="pp">124-131</biblScope>
+                                <date when="1991">1991</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book" n="5">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">C.</forename>
+                                    <forename type="middle">J.</forename>
+                                    <surname>Davis</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">K.</forename>
+                                    <surname>West</surname>
+                                </name>
+                            </author>
+                            <title level="m">Women writers in the United States: a timeline of
+                                literary, cultural, and social history</title>
+                            <imprint>
+                                <pubPlace>New York</pubPlace>
+                                <publisher>Oxford University Press</publisher>
+                                <date when="1996">1996</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct n="6">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">J.</forename>
+                                    <forename type="middle">M.</forename>
+                                    <surname>Eckman</surname>
+                                </name>
+                            </author>
+                            <title level="u">Modernism Timeline, 1890-1940</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date when="1998">1998</date>
+                            </imprint>
+                        </monogr>
+                        <note>&lt;<ptr
+                                target="http://weber.u.washington.edu/~eckman/frames/ftimeline.html"
+                            />&gt;. November 25, 1998.</note>
+                    </biblStruct>
+                    <biblStruct type="book" n="7">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">Michel</forename>
+                                    <surname>Foucault</surname>
+                                </name>
+                            </author>
+                            <title level="m">The Archeology of Knowledge and The Discourse on
+                                Language</title>
+                            <respStmt>
+                                <persName>
+                                    <name>
+                                        <forename type="first">A.</forename>
+                                        <forename type="middle">M.</forename>
+                                        <forename type="middle">S.</forename>
+                                        <surname>Smith</surname>
+                                    </name>
+                                </persName>
+                                <resp>(trans).</resp>
+                            </respStmt>
+                            <imprint>
+                                <pubPlace>New York</pubPlace>
+                                <publisher>Pantheon</publisher>
+                                <date when="1972">1972</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle" n="8">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">Carlo</forename>
+                                    <surname>Ginzburg</surname>
+                                </name>
+                            </author>
+                            <title level="a">Microhistory: Two or Three Things That I Know about
+                                It</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Critical Inquiry</title>
+                            <imprint>
+                                <biblScope type="vol">20</biblScope>
+                                <biblScope type="issue">1</biblScope>
+                                <biblScope type="pp">10-35</biblScope>
+                                <date when="1993">1993</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle" n="9">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">B.</forename>
+                                    <surname>Kitts</surname>
+                                </name>
+                            </author>
+                            <title level="a">Printed Time</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Octavo: An International Journal of Typography</title>
+                            <imprint>
+                                <biblScope type="vol">6</biblScope>
+                                <biblScope type="issue"/>
+                                <biblScope type="pp">6-11</biblScope>
+                                <date when="1988">1988</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct n="10">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">G.</forename>
+                                    <forename type="middle">P.</forename>
+                                    <surname>Landow</surname>
+                                </name>
+                            </author>
+                            <title level="u">The Victorian Web</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date when="1998">1998</date>
+                            </imprint>
+                        </monogr>
+                        <note>&lt;<ptr
+                                target="http://www.stg.brown.edu/projects/hypertext/landow/victorian/victov.html"
+                            />&gt;. November 25, 1998.</note>
+                    </biblStruct>
+                    <biblStruct type="book" n="11">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">W.</forename>
+                                    <surname>Mann</surname>
+                                </name>
+                            </author>
+                            <title level="m">Landscape Architecture: An Illustrated History in
+                                Timelines, Site Plans, and Biography</title>
+                            <imprint>
+                                <pubPlace>New York</pubPlace>
+                                <publisher>John Wiley and Sons</publisher>
+                                <date when="1993">1993</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book" n="12">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">A.</forename>
+                                    <forename type="middle">B.</forename>
+                                    <surname>Markman</surname>
+                                </name>
+                            </author>
+                            <title level="m">Knowledge Representation</title>
+                            <imprint>
+                                <pubPlace>Mahwah, N.J.</pubPlace>
+                                <pubPlace>London</pubPlace>
+                                <publisher>Lawrence Erlbaum</publisher>
+                                <date when="1999">1999</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book" n="13">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">J.</forename>
+                                    <surname>Nielsen</surname>
+                                </name>
+                            </author>
+                            <title level="m">Designing Web Sites with Authority: Secrets of an
+                                Information Architect</title>
+                            <imprint>
+                                <pubPlace>Indianapolis</pubPlace>
+                                <publisher>New Riders</publisher>
+                                <date when="1998">1998</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct n="14">
+                        <monogr>
+                            <title level="u">Skydeck @ Embarcadero Center</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date when="1998">19998</date>
+                            </imprint>
+                        </monogr>
+                        <note>&lt;<ptr target="http://www.sfskydeck.com/edu_hist.html"/>&gt;.
+                            November 25, 1998.</note>
+                    </biblStruct>
+                    <biblStruct type="book" n="15">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">L.</forename>
+                                    <surname>Rosenfeld</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">P.</forename>
+                                    <surname>Morville</surname>
+                                </name>
+                            </author>
+                            <title level="m">Information Architecture for the World Wide Web:
+                                Designing Large-Scale Web Sites</title>
+                            <imprint>
+                                <pubPlace>Cambridge, MA</pubPlace>
+                                <publisher>O'Reilly</publisher>
+                                <date when="1998">1998</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle" n="16">
+                        <analytic>
+                            <author><name><forename type="first">S.</forename>
+                                    <forename type="middle"
+                                    >F.</forename><surname>Roth</surname></name></author>
+                            <author><name><forename type="first">C.</forename>
+                                    <forename type="middle"
+                                    >C.</forename><surname>Mei</surname></name></author>
+                            <author><name><forename type="first">S.</forename>
+                                    <surname>Kerpedijiev</surname></name></author>
+                            <author><name><forename type="first">J.</forename>
+                                    <forename type="middle"
+                                        >A.</forename><surname>Kolojejchick</surname></name></author>
+                            <title level="a">Toward an Information Visualization Workspace:
+                                Combining Multiple Means of Expression</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Human-Computer Interaction</title>
+                            <imprint>
+                                <biblScope type="vol">12</biblScope>
+                                <biblScope type="issue">1</biblScope>
+                                <biblScope type="pp">131-185</biblScope>
+                                <date when="1997">1997</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+
+                    <biblStruct type="book" n="17">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">E.</forename>
+                                    <surname>Tufte</surname>
+                                </name>
+                            </author>
+                            <title level="m">Visual Explanations: Images and Quantities, Evidence
+                                and Narrative</title>
+                            <imprint>
+                                <pubPlace>Cheshire, CT</pubPlace>
+                                <publisher>Graphics Press</publisher>
+                                <date when="1997">1997</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book" n="18">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">Hayden</forename>
+                                    <surname>White</surname>
+                                </name>
+                            </author>
+                            <title level="m">Tropics of Discourse: Essays in Cultural
+                                Criticism</title>
+                            <imprint>
+                                <pubPlace>Baltimore</pubPlace>
+                                <publisher>Johns Hopkins University Press</publisher>
+                                <date when="1978"/>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book" n="19">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">R.</forename>
+                                    <forename type="middle">S.</forename>
+                                    <surname>Wurman</surname>
+                                </name>
+                            </author>
+                            <title level="m">Information Architects</title>
+                            <imprint>
+                                <pubPlace>Zurich</pubPlace>
+                                <publisher>Graphis Press</publisher>
+                                <date when="1996">1996</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

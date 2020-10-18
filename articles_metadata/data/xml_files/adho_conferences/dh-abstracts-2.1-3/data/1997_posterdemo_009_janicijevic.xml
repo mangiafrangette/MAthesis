@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="poster/demo">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">NeoloSearch: Automatic detection of neologisms in
+                    French Internet documents</title>
+                <author>
+                    <name>
+                        <forename type="first">Tatjana</forename>
+                        <surname>Janicijevic</surname>
+                        <affiliation>French Studies, <name type="org">Queen's University at
+                                Kingston</name>
+                            <email>4tj2@qsilver.queensu.ca</email>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Derek</forename>
+                        <surname>Walker</surname>
+                    </name>
+                    <affiliation>Computing and Information Science, <name type="org">Queen's
+                            University at Kingston</name>
+                        <email>walker@qucis.queensu.ca</email>
+                    </affiliation>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="1997">1997</date>
+                <publisher>
+                    <name>Queen's University</name>
+                </publisher>
+                <pubPlace>Kingston, Ontario</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ACH/ALLC 1997</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name type="org">the secretarial staff in the Department of French Studies at
+                        Queen's University</name>
+                    <name>
+                        <forename type="first">Greg</forename>
+                        <surname>Lessard</surname>
+                    </name>
+                    <name>
+                        <forename type="first"/>
+                        <surname/>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item>neologism</item>
+                        <item>French</item>
+                        <item>Internet</item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>Due to the influx of technical terminology, the globalizing effects of the
+                    Internet, and to the natural processes of language change, even the most
+                    reluctant languages are currently being infused with significant numbers of new
+                    words. But since the search for neologisms is a very time consuming and labour
+                    intensive process, automation of the search activity is a highly desirable
+                    goal.</p>
+                <p>Our aim is to identify an efficient and accurate automated method for identifying
+                    neologisms in an open corpus. Baayen and Lieber (p 801) suggest that neologisms
+                    tend to occur as hapax legomena in corpora. We explore this idea in the hope of
+                    making it more general through the use of relative token frequencies. The second
+                    part of the research attempts to deduce what kinds of productive processes are
+                    involved in word production and to identify productive affixes in the retrieved
+                    neologisms. The program which performs all these tasks has been aptly named
+                        <emph rend="italics">NeoloSearch</emph>.</p>
+                <p>The analysis consists of four fully automated phases. In the first phase the
+                    corpus is created from documents collected over the Internet via a specially
+                    developed tool. Because of the difficulties in representing and processing
+                    typographic marks like accents, fewer electronic corpora studies have been
+                    conducted on a language such as French. In response to this trend, French was
+                    used as the basis of our study, though the method should be easily adaptable to
+                    other languages.</p>
+                <p>The second phase performs a statistical analysis on the tokens contained in the
+                    corpus in an attempt to identify neologisms. The third phase weeds out rare
+                    words, proper names, and typographic errors in the neologism candidate list.
+                    Finally, the context of each token in the list is analysed for additional
+                    information and common affixes are identified.</p>
+                <p>The Internet provides a wealth of documents online which can potentially be used
+                    as the basis of a corpus. A fully automated Internet 'robot' was constructed to
+                    speed up the acquisition of documents utilizing a breadth-first-search
+                    algorithm. Retrieved documents are validated according to a predetermined
+                    content heuristic: documents must be of a specified size and be of the correct
+                    language. A simple counting method is used to observe the percentage of tokens
+                    which also appear in an online corpus of inflected forms. Any indecipherable
+                    tokens, for instance those that contain numerals, are thrown away and accents
+                    are converted to a standard format.</p>
+                <p>Baayen and Lieber (p 809) demonstrated that it is possible in several ways to
+                    quantify a measurement of the productivity of an affix with respect to the
+                    productivity of other affixes found in the corpora. The rate at which new
+                    lexemes are created indicates an affix's productivity. If the object of interest
+                    is not the affix but the resultant lexeme, then it follows from their work (and
+                    from common intuition) that while common forms will occur in high frequency,
+                    neologisms will tend to occur with very low frequency.</p>
+                <p>The first phase of the analysis involves calculating the frequency of each token
+                    in the corpora. These values are then tabulated to yield a table of frequencies
+                    of token frequencies. The mean, standard deviation and z-scores for each
+                    occurrence frequency are calculated and tabulated. Only tokens whose z-scores
+                    fall below an arbitrary cut-off point are selected for study. The conversion to
+                    standard units allows the threshold principle to be generalized to any size
+                    corpus.</p>
+                <p>If the corpus is of a minimum size, there is a high probability that the only
+                    tokens occurring in the reduced set will be proper names, rare words,
+                    typographic errors and neologisms. Consequently, the tokens that fall within the
+                    selected group are looked up in a corpus of exclusion which contains common
+                    inflected forms and proper names. Any forms found in the corpus of exclusion are
+                    thrown away. Then a filter which uses approximate string matching techniques
+                    attempts to eliminate any tokens which are the result of typographic errors by
+                    attempting to match the tokens with their closest match in the corpus of
+                    exclusion.</p>
+                <p>To study the production of new words more than just a list of anticipated
+                    neologisms is needed. Consequently, the tokens which pass through all the above
+                    stages are subjected to a simple parsing analysis which attempts to deduce word
+                    type and proximity to productive verbs using a +/- n-word context. Observations
+                    are summed and reported by word type and context and concordances are observed. </p>
+                <p>Finally, string matching techniques are employed to identify commonly occurring
+                    affixes in the list of remaining tokens. This helps the researcher attempt to
+                    deduce the sources of the neologisms and what types of productive forces are at
+                    work. Statistics on all phases of the analysis are also part of the program
+                    output at the end of the run and a +/-1 sentence contexts can be generated for
+                    each neologism retrieved from the corpus using a simple query.</p>
+                <p>There are several important discussions which result from this work. World Wide
+                    Web documents rest somewhere in permanence between spoken language and printed
+                    media and represent a unique means of communication. There are many mass-media
+                    characteristics to the Internet, with millions of subscribers world-wide and a
+                    multitude of on-line resources, including electronic journals and newspapers. It
+                    would be useful to contrast results of this experiment with those resulting from
+                    a closed corpus consisting of a more conventional mixture of spoken language and
+                    printed media.</p>
+                <p>The statistical methods employed make the identification of collocations,
+                    semantic neologisms, and some compound words improbable and future research is
+                    needed to explore these areas. The user, however, can give feedback to the
+                    program after each analysis iteration by adding to the corpus of exclusion and
+                    through the manual retrieval of collocations. The program consequently posesses
+                    a limited amount of flexibility in this area.</p>
+                <p>In summary, <emph rend="italics">NeoloSearch</emph> attempts two goals: to
+                    provide a statistical understanding of neologisms and their relationship to
+                    productivity and to provide an automated neologism retrieval and analysis
+                    system.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>Bibliography</head>
+                <listBibl>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="middle">H.</forename>
+                                    <surname>Baayen</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">R.</forename>
+                                    <surname>Lieber</surname>
+                                </name>
+                            </author>
+                            <title level="a">Productivity and English derivation: a corpus based
+                                study</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Linguistics</title>
+                            <imprint>
+                                <biblScope type="vol">29</biblScope>
+                                <biblScope type="issue"/>
+                                <biblScope type="pp">801-843</biblScope>
+                                <date when="1991">1991</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">Elisabeth</forename>
+                                    <surname>Brandon</surname>
+                                </name>
+                            </author>
+                            <title level="a">Choisir un logiciel de terminologie</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">La Banque de Mots</title>
+                            <imprint>
+                                <biblScope type="vol"/>
+                                <biblScope type="issue">Numéro spécial 4</biblScope>
+                                <biblScope type="pp"/>
+                                <date when="1991">1991</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">Maria</forename>
+                                    <forename type="middle">Teresa</forename>
+                                    <surname>Cabré</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">Lluis</forename>
+                                    <surname>de Yzaguirre</surname>
+                                </name>
+                            </author>
+                            <title level="a">Stratégie pour détection sémi-automatique des
+                                néologismes de presse</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Traduction-Terminologie-Rédaction</title>
+                            <imprint>
+                                <biblScope type="vol">8</biblScope>
+                                <biblScope type="issue">2</biblScope>
+                                <biblScope type="pp">89-100</biblScope>
+                                <date when="1995">1995</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">Gabriel</forename>
+                                    <surname>Otman</surname>
+                                </name>
+                            </author>
+                            <title level="a">Terminologie et intelligence artificielle</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">La Banque des mots</title>
+                            <imprint>
+                                <biblScope type="vol"/>
+                                <biblScope type="issue">Numéro spécial 2</biblScope>
+                                <biblScope type="pp">63-95</biblScope>
+                                <date when="1989">1989</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">Gabriel</forename>
+                                    <surname>Otman</surname>
+                                </name>
+                            </author>
+                            <title level="a">Des ambitions et des performances d'un système de
+                                dépouillement terminologique assisté par ordinateur</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">La Banque des mots</title>
+                            <imprint>
+                                <biblScope type="vol"/>
+                                <biblScope type="issue">Numéro spécial 4</biblScope>
+                                <biblScope type="pp">59-96</biblScope>
+                                <date when="1991">1991</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">Paul</forename>
+                                    <surname>Wijnands</surname>
+                                </name>
+                            </author>
+                            <title level="a">La néonymie et les systèmes experts</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">La Banque des mots</title>
+                            <imprint>
+                                <biblScope type="vol"/>
+                                <biblScope type="issue">42</biblScope>
+                                <biblScope type="pp">15-26</biblScope>
+                                <date when="1992">1992</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="poster/demo">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Subject Specific Search Engines for the
+                    Humanities</title>
+                <author>
+                    <name>
+                        <forename type="first">Brian</forename>
+                        <surname>Hancock</surname>
+                        <affiliation>
+                            <name type="org">Rutgers University</name>, USA <email/>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="2000">2000</date>
+                <publisher>
+                    <name>University of Glasgow</name>
+                </publisher>
+                <pubPlace>Glasgow</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ALLC/ACH 2000</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first">Jean</forename>
+                        <surname>Anderson</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Amal</forename>
+                        <surname>Chatterjee</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Christian</forename>
+                        <forename type="middle">J.</forename>
+                        <surname>Kay</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Margaret</forename>
+                        <surname>Scott</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item> </item>
+                        <item> </item>
+                        <item> </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>The Internet has proven to be a vast and unruly resource. Students are happy to
+                    come to the library and use general engines such as AltaVista and directories
+                    such as Yahoo! to do their research on the Web, but often the results they
+                    generate are extraneous and from unreliable sources. To make matters worse,
+                    recent studies show the major engines index only a portion of the Internet,
+                    although Excite claims its recently-announced search engine will reach all the
+                    Web's pages. On a more modest scale, to help keep users on track with their Web
+                    searches, humanities librarians have begun to use subject-specific engines.</p>
+                <p>Subject-specific engines are a good tool for concentrating a search within the
+                    parameters of a particular discipline. These parameters naturally define a
+                    search and can help users obtain relevant results quickly. To help achieve this,
+                    these engines are set up with a variety of automated software packages such as
+                    Harvest and Ultraseek server.</p>
+                <p>Harvest is an integrated set of tools to gather, extract, organize, search,
+                    cache, and replicate relevant information across the Internet. It was developed
+                    originally at the University of Colorado by the Internet Task Force Group on
+                    Resource Discovery (IRTF-RD) and is maintained by a group of volunteers at the
+                    University of Edinburgh. It is used to gather information from selected sites so
+                    a user will receive only information relevant to the subject searched. For
+                    example, if searched for "Horace," a subject-specific engine for the classics
+                    like Index Antiquus will return results relating to the Roman poet. The users of
+                    this subject-specific system are assured the hits returned will be relevant.</p>
+                <p>Harvest consists of two basic subsystems: the gatherer and the broker. The
+                    gatherer collects the information from sites selected by a person (in the case
+                    of Index Antiquus, sites relevant to the classics as determined by a librarian).
+                    This process is an evaluation using particular criteria - criteria such as
+                    accuracy, appropriateness, authority, organization, currency, and relevancy. To
+                    this list we must add stability. Even though a robot or link checker will help
+                    maintain links to active sites, you don't want the database changing radically
+                    every time it's renewed.</p>
+                <p>Once the information is returned to the local server, it is summarized and
+                    indexed. That is, it is stripped of any HTML code, and a database is created and
+                    indexed. The gatherer does not by itself automatically update the database; this
+                    is done by running the cron command to resend the gatherer. This can be done at
+                    a specified time, every month for instance, and because we are good Net
+                    citizens, early in the morning to keep the load down on host servers. The broker
+                    is basically the mechanism that accesses the database and returns the results;
+                    in other words, the broker is the search engine. The default engine for Harvest
+                    is glimpse, but you can use WAIS or Swish if you wish. Because Harvest is open
+                    source, you can download the source and compile the software yourself.</p>
+                <p>Infoseek has now made its Ultraseek Server port to Linux available. We are
+                    currently running Ultraseek 3.1 on on Red Hat Linux 6.1 and have also run it
+                    successfully on SuSE Linux 6.3. It's extremely easy to install but because it is
+                    a commerical product you are not given the code. It can be used on an Intranet
+                    or to collect documents from Web servers.</p>
+                <p>The Ultraseek Server automatically sends out its robot to selected sites and
+                    creates the index. The search interface is configurable and supports
+                    natural-language queries. Once the database is created, you can manage it
+                    remotely via your browser. The extensive documentation includes installation,
+                    administration, and customization guides. The version for Linux is available in
+                    i386.rpm file or tar ball format.</p>
+                <p>The presenter will demonstrate Index Antiquus running on Harvest and on Ultraseek
+                    server. As indicated, Index Antiquus is a subject-specific search engine for
+                    classical and early latin medieval texts. Interested parties will be invited to
+                    test Index Antiquus and the presenter will be pleased to answer any questions
+                    such as the use of this type of system for other humanities disciplines. The URL
+                    for Index Antiquus is &lt;<ptr target="http://harvest.rutgers.edu:8765"/>&gt;
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

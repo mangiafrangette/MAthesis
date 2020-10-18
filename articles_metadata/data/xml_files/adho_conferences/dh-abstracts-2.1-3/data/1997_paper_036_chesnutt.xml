@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="paper">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">The Model Editions Partnership--Towards a National
+                    Database</title>
+                <author>
+                    <name>
+                        <forename type="first">David</forename>
+                        <forename type="middle">R.</forename>
+                        <surname>Chesnutt</surname>
+                        <affiliation>
+                            <name type="org">University of South Carolina</name>
+                            <email>David.Chesnutt@sc.edu</email>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="1997">1997</date>
+                <publisher>
+                    <name>Queen's University</name>
+                </publisher>
+                <pubPlace>Kingston, Ontario</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ACH/ALLC 1997</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name type="org">the secretarial staff in the Department of French Studies at
+                        Queen's University</name>
+                    <name>
+                        <forename type="first">Greg</forename>
+                        <surname>Lessard</surname>
+                    </name>
+                    <name>
+                        <forename type="first"/>
+                        <surname/>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item>SGML</item>
+                        <item>editing</item>
+                        <item>database</item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <div>
+                    <head>1. Introduction to Model Editions Partnership</head>
+                    <div>
+                        <head>1.1. Purpose and Goals</head>
+                        <p>The Model Editions Partnership is developing a series of sample editions
+                            for delivering historical documents on the World-Wide Web. The
+                            Partnership includes the editors of seven on-going documentary editions
+                            as well as leaders from the Text Encoding Initiative and the Center for
+                            Electronic Text in the Humanities. The project began in July 1995 with
+                            major funding from the National Historical Publications and Records
+                            Commission (U.S.) and the University of South Carolina. The first six
+                            phases will be completed in June 1998. The goals for that three-year
+                            period are:<list type="bulleted">
+                                <item>To help define the scholarly frameworks for tomorrow's
+                                    historical editions.</item>
+                                <item>To develop practical solutions for creating and delivering
+                                    those editions.</item>
+                                <item>To establish sample editions which demonstrate a variety of
+                                    solutions to the first two goals.</item>
+                                <item>To move the editorial community into the mainstream of
+                                    electronic text.</item>
+                                <item>To help lay the foundation for a national database to enhance
+                                    the use of historical editions.</item>
+                            </list></p>
+                    </div>
+                    <div>
+                        <head>1.2. SGML Markup</head>
+                        <p>The Partnership is predicated on the view that SGML markup can be used to
+                            create the scholarly frameworks required and that SGML markup offers a
+                            practical method for preparing and delivering documentary editions. A
+                            close study of the scholarly issues involved in preparing documentary
+                            editions led to the publication of "A Prospectus for Electronic
+                            Historical Editions" in May 1996 (<ptr
+                                target="http://mep.cla.sc.edu/prostoc.htm"/>). The Prospectus set
+                            forth a series of design principles; a typology of the kind of editions
+                            which might be expected to develop; and a discussion of importance of
+                            markup. (A report on the Prospectus was given at the ALLC/ACH conference
+                            in Bergen.)</p>
+                        <p>The Bergen report also noted the Partnership's development of two
+                            Document Type Definitions based on a subset of the TEI Guidelines. The
+                            data-capture DTD<list type="bulleted">
+                                <item>Defines a new MEP header for each historical document.</item>
+                                <item>Redefines &lt;docGroup&gt; and other elements to
+                                    accommodate the way in which scholarly editors typically
+                                    organize material in the editions.</item>
+                                <item>Eliminates many of the TEI prose elements like
+                                    &lt;opener&gt; used to group elements at the beginning
+                                    and end of documents.</item>
+                                <item>Substitutes explicit elements in place of the
+                                    &lt;hi&gt; (highlight) element and its
+                                    attributes.</item>
+                                <item>Defines new elements as appropriate.</item>
+                            </list></p>
+                        <p>The archival DTD retains the MEP header and the redefinition of
+                            &lt;docGroup&gt; and the other elements required for the
+                            structure of historical editions. However, divisional units like
+                            &gt;opener&lt; are restored as is the more familiar highlight
+                            element with its attributes. This transformation is done mechanically.
+                            The premise here is that future migration of the data will be more
+                            easily accomplished if the archival markup of the data conforms more
+                            closely to current TEI markup.</p>
+                    </div>
+                </div>
+                <div>
+                    <head>2. Progress Report on Implementation</head>
+                    <p>As this abstract is being written, the staff is marking up the text of the
+                        sample editions and plans are being made for delivering the sample editions
+                        on the Web in June 1997. One of the major facets of the presentation at
+                        ACHALLC97 will be a progress report on encoding and delivering the samples,
+                        which will take place between November 1996 and the end of May 1997.
+                        Although it is impossible to predict with certainty the details of our
+                        progress at this time, certain aspects of the development of the sample
+                        editions in that period are predictable.</p>
+                    <div>
+                        <head>2.1 Evolution of Markup</head>
+                        <p>Despite the intensive review of documents which provided the basis for
+                            the development of the data-capture DTD, experience shows that markup
+                            systems evolve over time. Some changes may be made for the convenience
+                            of data entry; others, because new textual features are identified; and
+                            still others, because textual features previously ignored assume
+                            importance in the eyes of the scholar. The presentation will review our
+                            experience in these areas with explicit examples of where we chose to
+                            expand the DTD as well as other cases where we chose <emph rend="bold"
+                                >not</emph> to expand the DTD. Beyond the markup questions which
+                            arise from the texts are those which will undoubtedly arise as we move
+                            the data into the delivery environments.</p>
+                    </div>
+                    <div>
+                        <head>2.2 Implementation of Delivery Software</head>
+                        <p>We expect to deliver the sample editions using both SoftQuad's Panorama
+                            and Electronic Book Techology's DynaWeb. At this point, we have created
+                            small mockups with Panorama, but we have no experience with DynaWeb. (We
+                            have been accepted in EBT's Higher Education Grant program and our full
+                            application is currently pending.) Markup issues associated with
+                            implementing the samples in each software package are important and the
+                            ACHALLC97 presentation will summarize our findings in this area. To put
+                            it another way, we will look at the following questions. Which markup is
+                            easier to implement in each of the delivery systems? Are there
+                            adjustments in either DTD which would make it easier? What are the
+                            trade-offs if DTDs are modified to facilitate delivery? Modification of
+                            the DTDs can, of course, be avoided by transforming the existing data to
+                            meet the required formats for the delivery software. This can be
+                            accomplished with macros or filters and is a common practice used in
+                            print publishing. At the same time, we have sometimes found that the
+                            markup we were using could have been modified with no loss of
+                            information and with significant gains in processing--thus reducing
+                            costs.</p>
+                    </div>
+                </div>
+                <div>
+                    <head>3. Towards a National Database</head>
+                    <p>The idea of establishing a national database for American documentary
+                        editions has been implicit from the beginning of the Model Editions
+                        Partnership. A database of American materials which cuts across the
+                        humanities and sciences offers many advantages which cannot be accomplished
+                        easily by piece-meal publication. We have often noted that scholarly
+                        editions are printed on paper designed to last 300 years. If we are to
+                        achieve similar longevity in our electronic editions, we must have the kind
+                        of infrastructure that supports itself and the migration of the editions. A
+                        subscription database can meet those requirements. Further, the gathering of
+                        editions in a digital archives will facilitate cross-edition searching and
+                        cross-edition indexing. And we can expect such a depository to provide the
+                        metadata required by librarians as well as version control. The ACHALLC97
+                        presentation will expand on these themes and describe some of the projects
+                        which are being planned as stepping stones toward the establishment of an
+                        American Documentary Heritage database.</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="panel">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Labour Issues in Humanities Computing</title>
+                <author>
+                    <name>
+                        <forename type="first">Andrea</forename>
+                        <surname>Austin</surname>
+                        <affiliation>
+                            <name type="org">Queen's University</name>
+                            <email>3aja1@qucdn.queensu.ca</email>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">David</forename>
+                        <surname>Halsted</surname>
+                        <affiliation>
+                            <name type="org">Michigan State University</name>
+                            <email>halsted@h-net.msu.edu</email>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Perry</forename>
+                        <surname>Willett</surname>
+                        <affiliation>
+                            <name type="org">Indiana University</name>
+                            <email>pwillett@indiana.edu</email>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="1997">1997</date>
+                <publisher>
+                    <name>Queen's University</name>
+                </publisher>
+                <pubPlace>Kingston, Ontario</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ACH/ALLC 1997</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name type="org">the secretarial staff in the Department of French Studies at
+                        Queen's University</name>
+                    <name>
+                        <forename type="first">Greg</forename>
+                        <surname>Lessard</surname>
+                    </name>
+                    <name>
+                        <forename type="first"/>
+                        <surname/>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item>labour</item>
+                        <item>resources</item>
+                        <item>management</item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <div>
+                    <p>Computing humanists often point to the potential of information technologies
+                        in academia by citing the emerging roles of scholars as creators and
+                        maintainers of vast, digital archives, as facilitators of communication
+                        amongst other scholars, and as innovators in the use of technology in the
+                        teaching process. A central question remains, however: how exactly is all
+                        this work to be accomplished? Labour issues are a key factor in the rate of
+                        the integration of information technologies into humanities teaching and
+                        research. This series of papers explores three aspects of the managing of
+                        labour in humanities computing: the administration of a large, online
+                        distributed project involving humanities e-mail lists; the creation of
+                        quality electronic texts; and the establishment of professional support for
+                        discipline-specific humanities computing. David Halsted details the
+                        management strategies effectively used by H-Net, a project consisting of
+                        over 75 academic e-mail lists and an official web site, and centrally
+                        administrated at Michigan State University. Perry Willett describes the
+                        challenges of creating a collection of electronic texts for the Victorian
+                        Women Writers Project at Indiana University. Andrea Austin discusses hiring
+                        trends and support models that respond to the increasingly specialized
+                        computing needs of separate disciplines within the humanities. Particularly
+                        in the current climate of fiscal restraint, solutions to problems of labour
+                        in humanities computing are critical; these three papers, each from within a
+                        different specific context, describe significant labour problems and present
+                        possible solutions.</p>
+                </div>
+                <div type="EmbeddedDoc">
+                    <div>
+                        <head>Managing Labor and Managing Management in a Distributed Online
+                            Humanities Project: The H-Net Experience</head>
+                        <p rend="presenter">David Halsted</p>
+                        <div>
+                            <p>H-Net is a large online Humanities project with a highly distributed
+                                structure. Our 75 academic e-mail lists reach over 54,000
+                                subscribers around the globe, and our Web site was receiving 200,000
+                                hits weekly as of late September 1996. H-Net's lists are edited by
+                                250 volunteer academics from all over the world. Policy is set by
+                                the H-Net Executive Committee, which meets primarily by e-mail; the
+                                Executive Committee is elected by H-Net editors and staff. Labor,
+                                administration, list maintenance and Web site design and maintenance
+                                are all centralized at Michigan State University. The H-Net project
+                                thus provides an interesting model for large and highly distributed
+                                collaborative online projects in the Humanities. It may be a useful
+                                example for smaller collaborative projects as well.</p>
+                            <p>H-Net began as a relatively small project in 1993 (three e-mail lists
+                                with 500 subscribers and a handful of editors). As we have grown we
+                                have had to develop ways of coping with that growth. One major step
+                                came in the fall of 1995, when H-Net MSU began to hire a large staff
+                                of part-time student workers. This new work force brought a host of
+                                new difficulties (payroll, management, supervision, training, etc.),
+                                each of which has had to be addressed. In the meantime, the growth
+                                of the H-Net editorial community from a few individuals to the
+                                current corps of 250 has meant that we have had to develop
+                                mechanisms for training editors and providing them with technical
+                                help.</p>
+                            <p>Our rapidly-growing subscriber base requires a different form of
+                                technical help from the help we offer our editors, and subscribers
+                                require the academic equivalent of customer service. Individual
+                                projects, such as the H-Net review project and H-Net's Job Guide,
+                                require training, staffing, and their own customer service. Finally,
+                                the establishment of the Gopher and Web sites, which account for the
+                                bulk of our labor costs, has generated new needs in training,
+                                supervision and quality control. The Web site in turn generates
+                                inquiries from new potential subscribers as well as current H-Net
+                                participators, causing us to create yet another level of response to
+                                customer concerns.</p>
+                            <p>My paper will briefly summarize the challenges we face and the
+                                solutions we have reached, in the hope both of providing an example
+                                to others (even if only a negative one) and of learning from other
+                                projects. I will discuss the following major areas:</p>
+                            <p>1) Software</p>
+                            <p>To reduce labor costs, we have found that it is crucial to make the
+                                best use possible of tracking databases and project management
+                                systems. Unlike some other major Humanities computing projects, we
+                                write our own software, which reduces upfront costs and increases
+                                our ability to customize; however, writing the software places an
+                                added burden on our technical staff. It is also important to keep
+                                abreast of potentially labor-saving developments in the commercial
+                                software world; for example, we are moving to using three or four
+                                different programs for different purposes in the mark-up
+                                process.</p>
+                            <p>2) Customer Service</p>
+                            <p>Customer service, or the academic equivalent, is a major concern and
+                                should be taken very seriously from the beginning of any online
+                                project with a potentially large audience, since a large audience
+                                will inevitably include a number of "newbies" who will need help to
+                                use online resources effectively. Large distributed projects will
+                                have to consider providing effective and prompt technical help to
+                                customers (like our subscribers) and collaborators (like our
+                                editors) alike.</p>
+                            <p>3) Equipment</p>
+                            <p>Every Humanities project with which I am familiar faces considerable
+                                challenges when it comes to keeping up equipment. Equipment
+                                purchasing and on-going maintenance must be taken into account in
+                                planning for labor costs. On-going costs are generated by
+                                improvements in technology (students really prefer working on
+                                Pentiums to working on 486 machines; next year, no doubt, they'll
+                                want Pentium Pros), by the ever-increasing memory demands of
+                                contemporary software packages, and by the simple fact that complex,
+                                delicate machines used by a number of users just plain break a
+                                lot.</p>
+                            <p>4) Training and turnover</p>
+                            <p>Training and turnover in a student workforce are also typical
+                                difficulties for online Humanities projects housed in universities.
+                                Students who already know what you need them to know can often
+                                command much higher salaries off-campus than a Humanities project
+                                can muster; students also have an annoying tendency to graduate.
+                                This creates an on-going turnover and training problem. Training a
+                                workforce is a problem that must be addressed early if student
+                                staffers are going to be used. Training for management should also
+                                be considered.</p>
+                            <p>5) Decision-making structures</p>
+                            <p>The clearer the hierarchy and the division of decision-making powers
+                                is, the better a distributed project will work. My guess is that
+                                there will be a certain amount of ambiguity about hierarchy in any
+                                collaborative academic project of any size, even where shared
+                                enthusiasm generates good will among collaborators. Shared
+                                Web-authoring, for example, can lead to conflicts over content,
+                                aesthetics, and the exact scope and purpose of a site or sites.
+                                Since the vision of what Web sites can do is evolving so rapidly, it
+                                may be too much to expect a binding a priori statement for new
+                                projects, but a shared sense of vision and some understanding of the
+                                division of responsibilities will turn out to be crucial as projects
+                                (inevitably) evolve.</p>
+                        </div>
+                    </div>
+                </div>
+                <div type="EmbeddedDoc">
+                    <div>
+                        <head>E-Text Creation as Cottage Industry: The Victorian Women Writers
+                            Project</head>
+                        <p rend="presenter">Perry Willett</p>
+                        <div>
+                            <p>The creation of electronic texts is a labor-intensive process. The
+                                amount of effort and skill required to create accurately transcribed
+                                and encoded electronic texts is not trivial, and may seem daunting
+                                to anyone contemplating such a project. Many projects have large
+                                budgets derived from grants, endowments and other sources, to pay
+                                for work by students or typing agencies. Such projects generally
+                                have a wide scope, looking to create electronic collections from
+                                across period or national boundaries.</p>
+                            <p>The Victorian Women Writers Project at Indiana University has
+                                operated so far with almost no budget, using a number of creative
+                                strategies. By creating undergraduate internships, involving
+                                volunteers, finding small university research grants, and drawing
+                                from hourly budgets, the Project has been able to create a growing
+                                collection of important and scarce works by 19th century British
+                                women writers. This approach, closer in spirit to the cottage
+                                industries of the period rather than industrial production, draws on
+                                enthusiam both for this period and for the WWW.</p>
+                            <p>By focusing only on texts from the Victorian era (1837-1901), the
+                                Project has had more impact with its scant resources, albeit on a
+                                narrow range of scholars, than if its scope had been broader. There
+                                is a large (and seemingly growing) interest in the literature,
+                                history, fashion and culture of Victorian England, involving many
+                                people both inside and outside of the academy. Their enthusiasm has
+                                made the Victorian Women Writers Project site very popular, with
+                                almost 20,000 visits in its first year. By drawing on this interest,
+                                the Project has included the effort of several volunteers who have
+                                donated their time to preserving and making available works by women
+                                of this period. Funds have been found in various parts of the
+                                library's budget to hire part-time students for the typing and
+                                preparation of electronic texts.</p>
+                            <p>The English Department at Indiana University has a strong interest in
+                                Victorian Studies, and in support of the Project has created an
+                                undergraduate internship, similar to its internships for academic
+                                journals. Students who apply for the internship receive credit for
+                                creating, editing and proofreading electronic editions, and in the
+                                process learn about the World Wide Web, SGML and HTML, and women's
+                                writing of the period. One industrious student received a small
+                                university research grant for his work during the summer.</p>
+                            <p>The process of creating an electronic edition is time-consuming. Each
+                                etext is transcribed, encoded and proofed by either students or
+                                volunteers. Some of the participants have been trained in the TEI
+                                Guidelines, while others use a simplified encoding scheme. The
+                                General Editor then verifies the accuracy of the encoding and
+                                transcription by proofing the text again, and creates digital images
+                                of title pages and illustrations. Every step of this process can be
+                                accomplished using relatively inexpensive or free software available
+                                on most university computing networks.</p>
+                            <p>The Project is overseen by an Advisory Board made up of seven
+                                prominent Victorianists from universities across the country. They
+                                volunteer their time and expertise out of their desire to make
+                                literature by women of this period more widely available. Using
+                                e-mail as the primary mode of communication, the board has reached
+                                decisions concerning general direction as well as specific decisions
+                                concerning authors and editions to include. The board plans to meet
+                                at conferences, such as the annual Modern Languages Association
+                                Convention in December 1997 in Washington D.C.</p>
+                            <p>The General Editor has applied for grants for further expansion, but
+                                believes that the model established for this Project can be used by
+                                many other librarians and scholars with few available resources.</p>
+                        </div>
+                    </div>
+                </div>
+                <div type="EmbeddedDoc">
+                    <div>
+                        <head>Discipline-Specific Humanities Computing: Whose Job Is It?</head>
+                        <p rend="presenter">Andrea Austin</p>
+                        <div>
+                            <p>With higher education institutions experiencing unprecedented growth
+                                in distributed computing, pressures to support the needs of
+                                students, faculty, administrators and staff using these systems in
+                                various and diverse ways have also increased substantially. In
+                                particular, there has been an increasing awareness that if faculty
+                                are going to integrate IT into teaching and students to benefit from
+                                the full potential of IT in their individual programs, support for
+                                discipline-specific computing must be implemented and maintained.
+                                The big question for most institutions has been "who is to provide
+                                this support?" This paper presents several models that have been
+                                adopted for providing computing support to humanities faculty, and
+                                focuses on the following key issues as spelling the success or
+                                failure of these models: ability to provide adequate support at the
+                                departmental level, at present and in the future; demand on faculty
+                                time and energy; credentials and range of responsibilities of
+                                professionals providing the support. Examples of models in use at
+                                specific universities are offered where appropriate (in the interest
+                                of brevity, reference to these examples has been omitted from the
+                                abstract). Ultimately, the paper ends with an endorsement of
+                                decentralized support models</p>
+                            <p>While budget restraints have driven a trend towards centralization in
+                                the administration of computing services, an equally influential
+                                trend towards decentralization has been driven by the complexity of
+                                resources required to meet the needs of diverse users. In providing
+                                humanities computing support, many institutions have opted for what
+                                has been called an "intermediary solution" ("Integrating Information
+                                Services in an Academic Setting: The Organizational and Technical
+                                Challenge," <title level="j">CAUSE/EFFECT</title> 17:3, 1994),
+                                either establishing a humanities computing center or delegating to
+                                certain computing center personnel the specific task of responding
+                                to the needs of humanities faculty. These support personnel work
+                                more closely with humanities faculty than has traditionally been the
+                                case with generalized computing services personnel, taking on the
+                                responsibilities of helping faculty to upgrade computing skills,
+                                making faculty aware of computing resources that might be of
+                                specific interest to them, and working with faculty in designing
+                                course materials that take advantage of such resources.</p>
+                            <p>Administrators cite the numerous advantages of such models. They do
+                                more towards getting IT staff out of the office and into the work
+                                environment where the services are actually being used, increasing
+                                the support professional's ability to understand the computing goals
+                                of humanities faculty and interpret requests for help from them.
+                                This semi- centralized support system is also often seen as more
+                                cost effective than allowing each department to establish and
+                                maintain its own computing services system. Hiring only a few
+                                professionals can meet the needs of several departments at once,
+                                both avoiding duplication of services and resources expenditures and
+                                having the likelihood of avoiding expensive interoperability
+                                problems down the road. The combination of enhanced ability to
+                                respond to increasingly complex user demand and at the same time
+                                stay within budget, or even save money, make these models especially
+                                attractive.</p>
+                            <p>Administrators cite the numerous advantages of such models. They do
+                                more towards getting IT staff out of the office and into the work
+                                environment where the services are actually being used, increasing
+                                the support professional's ability to understand the computing goals
+                                of humanities faculty and interpret requests for help from them.
+                                This semi- centralized support system is also often seen as more
+                                cost effective than allowing each department to establish and
+                                maintain its own computing services system. Hiring only a few
+                                professionals can meet the needs of several departments at once,
+                                both avoiding duplication of services and resources expenditures and
+                                having the likelihood of avoiding expensive interoperability
+                                problems down the road. The combination of enhanced ability to
+                                respond to increasingly complex user demand and at the same time
+                                stay within budget, or even save money, make these models especially
+                                attractive.</p>
+                            <p>There are some disadvantages to the semi-centralized approach,
+                                however, most of which stem precisely from its status as an
+                                intermediary solution. In practice, these models often do not go far
+                                enough towards providing the level of discipline-specific support
+                                that enables faculty to develop exciting and innovative use of IT
+                                resources. Similar tendencies as those at work in general computing
+                                services centers exist, primarily a factor of there still being too
+                                few people to meet too large a number of demands. More time is often
+                                spent on basic upgrading of faculty computing skills and on
+                                introducing faculty to resources than it is in developing
+                                discipline-specific applications. At the same time, such models
+                                often tend to draw almost as heavily on un(der)paid student labour
+                                as general computing services centers, with the professional
+                                humanities computing support staff acting as administrators and
+                                coordinators, rather than interacting with faculty at the individual
+                                level. As a result of this still-inadequate human resources supply,
+                                faculty wishing to move beyond more basic applications are
+                                frequently left to muddle along by themselves, shifting the load
+                                back again to also already-overworked faculty. An additional problem
+                                is that currently few departments have developed a defined system
+                                for evaluating and rewarding the activities of faculty who decide to
+                                devote time and energy to such tasks, having the effect of
+                                already-overworked faculty taking on what is therefore tantamount to
+                                extra, unpaid labour. Add to this the suspicion among faculty in
+                                many departments that "real" jobs are somehow being lost to
+                                computers or "techies" ( "Reengineering Teaching and Learning in
+                                Higher Education: Sheltered Groves, Camelot, Windmills, and Malls,"
+                                R. Heterick, Jr., ed., <title level="s">CAUSE Professional Paper
+                                    Series #10</title>) and it is easy to see how, though a
+                                cost-effective solution, the semi-centralized approach can be less
+                                strategically effective than it might seem.</p>
+                            <p>A more thoroughly decentralized approach, and currently the less
+                                common approach, is that of hiring a faculty member who specializes
+                                in humanities computing into each department. Responsibilities could
+                                range from teaching humanties computing courses specifically
+                                focussed for that discipline, to developing discipline-specific
+                                applications and courseware, to maintaining departmental servers and
+                                administrating departmental IT resources; responsiblities could also
+                                involve peer support and encouragement in adopting IT for teaching.
+                                Advantages of this model include the obvious gain of truly
+                                discipline-specific support, putting the needed service as close to
+                                the end user as possible. Economically, the hiring of humanities
+                                computing faculty members for each department may not be as wasteful
+                                as it sounds. When faculty are told that there is not enough money
+                                for both additional IT resources and another faculty member, if
+                                given the choice, they will usually opt for the faculty member
+                                ("Using Information Technology to Enhance Academic Productivity," W.
+                                Massy and R. Zemsky, <title level="u">Educom Conference, June,
+                                    1995</title>). Indeed, these "in-house" humanities computing
+                                specialists could--and at some institutions, do--also teach courses
+                                in the department's main discipline. For the price of one professor,
+                                an English department could, for example, gain both a humanities
+                                computing specialist and an eighteenth-century literature
+                                specialist. With both sets of duties being officially defined as
+                                part of the faculty member's position, professional rewards for work
+                                done and a more equitable workload may be more likely to be
+                                achieved.</p>
+                            <p>Disadvantages of this model consist primarily of interoperability
+                                problems and duplication of services, two of the issues that the
+                                semi-centralized model does address well. These disadvantages are
+                                not inevitable, however; coordinated efforts on the part of
+                                departments, schools or divisions, and computing services, occuring
+                                in the context of an institution-wide general IT strategy, can
+                                eliminate most of these problems. Well-defined roles for each level
+                                of support would then become a crucial issue; computing services
+                                providing skills upgrading and general connectivity support, for
+                                instance, with departments providing the bulk of discipline-specific
+                                support and application development and schools or divisions running
+                                introductory humanities computing courses, possibly team-taught or
+                                taught alternately by faculty members from different departments who
+                                would also teach more discipline-specific computing courses aimed at
+                                upper-year students would be an example of an effective work
+                                arrangement between the different levels. A more serious
+                                disadvantage, at this point in time, is the lack of candidates for
+                                such a position; as department heads have pointed out, finding
+                                Ph.D-ed potential faculty members who are also sufficiently
+                                qualified in humanities computing can be a daunting task ("Jobs for
+                                Computing Humanists," E. Johnson, <title level="j">Computers and the
+                                    Humanities</title>, 27.2,1993). I believe, however, that this is
+                                a problem in the process of righting itself, as more and more
+                                faculty and graduate students become involved--and credentialed,
+                                either by way of degree program or publication--in humanities
+                                computing.</p>
+                            <p>Higher education institutions are currently at a crossroads in
+                                balancing what services they can afford with what services they
+                                really do need. One thing is clear: more and more faculty are going
+                                to move beyond basic computing abilities, and more and more students
+                                thoroughly conversant with information technologies are going to
+                                enroll. Humanities computing support models are going to have to
+                                keep pace with these changes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

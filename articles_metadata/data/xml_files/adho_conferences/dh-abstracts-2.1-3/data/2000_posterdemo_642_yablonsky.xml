@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="poster/demo">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Construction of Russian Corpus-Driven Dictionary Based
+                    and Monitor Corpora</title>
+                <author>
+                    <name>
+                        <forename type="first">Serge</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Yablonsky</surname>
+                        <affiliation>
+                            <name type="org">St. Petersburg University of Transport</name>, <name
+                                type="org">Russicon Company</name>, Russia <email/>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="2000">2000</date>
+                <publisher>
+                    <name>University of Glasgow</name>
+                </publisher>
+                <pubPlace>Glasgow</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ALLC/ACH 2000</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first">Jean</forename>
+                        <surname>Anderson</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Amal</forename>
+                        <surname>Chatterjee</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Christian</forename>
+                        <forename type="middle">J.</forename>
+                        <surname>Kay</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Margaret</forename>
+                        <surname>Scott</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item> </item>
+                        <item> </item>
+                        <item> </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <div>
+                    <head>1. Introduction</head>
+                    <p>Monitor corpora are of interest to lexicographers and language learners who
+                        can trawl a stream of new texts looking for the occurrence of new words, or
+                        for changing meanings of old words (Collins COBUILD, 1995; McEnery T.,
+                        Wilson A., 1996). Their main advantages are that they are not static and
+                        provide for a large and broad sample of language.</p>
+                    <p>The application of language processing technologies for construction of
+                        shareable and multifunctional language corpora led to hopeful results
+                        (Varile G. B., Zampolli A., 1996).</p>
+                    <p>Progress in Russian language processing affords an opportunity for applying
+                        its results for creating Russian monitor corpora strongly connected with the
+                        set of electronic dictionaries by the help of linguistic software. Our
+                        approach is particularly dependent on the language processor Russicon, and
+                        on wide usage of Russicon electronic dictionaries (Yablonsky S.A., 1998).
+                    </p>
+                </div>
+                <div>
+                    <head>2. Composition of the corpora</head>
+                    <p>The main part of the corpus was described in (Yablonsky S.A., 1999 a,b).
+                        Today's corpus is based on wide representation of Russian XIX and XX century
+                        literature, critics, philosophy, religion, newspapers, memoirs, law,
+                        business, computers, historical documents, stenographs, translations,
+                        folklore, Internet literature, "underground" literature etc.</p>
+                    <p>The texts are taken from printed resources, CD - resources and the Internet.
+                        ASCII and Unicode text are the basic text type standards. Additionally SGML,
+                        HTML and XML markup is done by designing C-conversion programs. SGML
+                        configuring of texts is done by the SoftQuad SGML Publishing Suite. The text
+                        collection will continue to grow as resources are created and encoded. The
+                        open-ended (constantly growing) Russian monitor corpus helps in dictionary
+                        building as it enables lexicographers to keep on top of new words entering
+                        the language, or existing words changing their meanings, or the balance of
+                        their use according to genre etc.</p>
+                </div>
+                <div>
+                    <head>3. Corpus-driven dictionary</head>
+                    <p>The chief distinction of the corporus is its strong connection with the set
+                        of Russian electronic dictionaries and language processing tools,
+                        particularly dependent on the language processor Russicon.</p>
+                    <p>Every word of the corpus simultaneously is the entry word of the
+                        corpus-driven dictionary and vice versa. For any form of a Russian word
+                        input, the dictionary outputs:<list type="bulleted">
+                            <item>one or several lemmas (lexical homonyms);</item>
+                            <item>one or several sets (in the case of morphological homonyms) of
+                                such grammatical characteristics: part of speech, case, gender,
+                                number, tense, person, degree of comparison, voice, aspect, mood,
+                                form, type, transitiveness, reflexive, animation;</item>
+                            <item>the synonym row(s);</item>
+                            <item>the antonyms;</item>
+                            <item>the precise definitions;</item>
+                            <item>the explanatory comments;</item>
+                            <item>all or several examples of usage in the corpora;</item>
+                        </list></p>
+                    <p>At the same time users can search for patterns of word combination, check
+                        word frequencies, see examples of all the uses of particular words.</p>
+                    <p>The pilot system is realized on IBM PC using Visual Basic 6.0 and MS SQL
+                        Server 7.0 and works in personal and local net mode.</p>
+                </div>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <biblStruct type="bookChapter">
+                        <analytic>
+                            <author><name><forename type="first">B.</forename>
+                                    <forename type="middle"
+                                    >M.</forename><surname>Belyaev</surname></name></author>
+                            <author><name><forename type="first">A.</forename>
+                                    <forename type="middle"
+                                    >S.</forename><surname>Surcis</surname></name></author>
+                            <author><name><forename type="first">S.</forename>
+                                    <forename type="middle"
+                                        >A.</forename><surname>Yablonsky</surname></name></author>
+                            <title level="a">Russian Language Processor RUSSICON: Design and
+                                Applications</title>
+                        </analytic>
+                        <monogr>
+                            <title level="m">Proceedings of the East-West Artificial Intelligence
+                                Conference (EWAIC-93), Moscow</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date when="1993">1993</date>
+                                <biblScope type="pp">175-180</biblScope>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <monogr>
+                            <title level="m">Collins COBUILD on CD ROM</title>
+                            <imprint>
+                                <pubPlace>London</pubPlace>
+                                <publisher>HarperCollins</publisher>
+                                <date when="1995">1995</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <editor>
+                                <name>
+                                    <forename type="first">T.</forename>
+                                    <surname>McEnery</surname>
+                                </name>
+                            </editor>
+                            <editor>
+                                <name>
+                                    <forename type="first">A></forename>
+                                    <surname>Wilson</surname>
+                                </name>
+                            </editor>
+                            <title level="m">Corpus Linguistics</title>
+                            <imprint>
+                                <pubPlace>Edinburgh</pubPlace>
+                                <publisher>Edinburgh University Press</publisher>
+                                <date when="1996">1996</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">G.</forename>
+                                    <forename type="middle">B.</forename>
+                                    <surname>Varile</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">A.</forename>
+                                    <surname>Zampolli</surname>
+                                </name>
+                            </author>
+                            <title level="m">Survey of the State of Art in Human Language
+                                Technology</title>
+                            <imprint>
+                                <pubPlace>Cambridge</pubPlace>
+                                <publisher>Cambridge University Press</publisher>
+                                <date when="1996">1996</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <analytic>
+                            <author><name><forename type="first">S.</forename>
+                                    <forename type="middle"
+                                        >A.</forename><surname>Yablonsky</surname></name></author>
+                            <title level="a">Russicon Slavonic Language Resources and
+                                Software</title>
+                        </analytic>
+                        <monogr>
+                            <editor>
+                                <name>
+                                    <forename type="first">A.</forename>
+                                    <surname>Rubio</surname>
+                                </name>
+                            </editor>
+                            <editor>
+                                <name>
+                                    <forename type="first">N.</forename>
+                                    <surname>Gallardo</surname>
+                                </name>
+                            </editor>
+                            <editor>
+                                <name>
+                                    <forename type="first">R.</forename>
+                                    <surname>Castro</surname>
+                                </name>
+                            </editor>
+                            <editor>
+                                <name>
+                                    <forename type="first">A.</forename>
+                                    <surname>Tejada</surname>
+                                </name>
+                            </editor>
+                            <title level="m">Proceedings of the First International Conference on
+                                Language Resources &amp; Evaluation, Granada, Spain. </title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date when="1998">1998</date>
+                                <biblScope type="pp">1141-1147</biblScope>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="bookChapter">
+                        <analytic>
+                            <author><name><forename type="first">S.</forename>
+                                    <forename type="middle"
+                                        >A.</forename><surname>Yablonsky</surname></name></author>
+                            <title level="a">Russian Written Language Corpora Development</title>
+                        </analytic>
+                        <monogr>
+                            <title level="m">Proceedings of the International Seminar Dialog99, May
+                                30-June 8, Tarussa, Russia</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date when="1999">1999a</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="bookChapter">
+                        <analytic>
+                            <author><name><forename type="first">S.</forename>
+                                    <forename type="middle"
+                                        >A.</forename><surname>Yablonsky</surname></name></author>
+                            <title level="a">Russian 20th Century Literature Digital Library for
+                                Language Teaching</title>
+                        </analytic>
+                        <monogr>
+                            <title level="m">Proceedings of the International Conference of the
+                                ACH/ALLC Digital Libraries for Humanities Scholarship and Teaching,
+                                JUNE 9-13, 1999, University of Virginia, Charlottesville, Virginia,
+                                USA</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date when="1999">1999b</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

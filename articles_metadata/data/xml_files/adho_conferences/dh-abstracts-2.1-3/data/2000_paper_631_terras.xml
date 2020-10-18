@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="paper">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Border Crossing: Engineers, Papyrologists, and the
+                    Graphical Use Interface</title>
+                <author>
+                    <name>
+                        <forename type="first">Melissa</forename>
+                        <surname>Terras</surname>
+                        <affiliation>
+                            <name type="org">Oxford University</name>, UK <email/>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="2000">2000</date>
+                <publisher>
+                    <name>University of Glasgow</name>
+                </publisher>
+                <pubPlace>Glasgow</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ALLC/ACH 2000</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first">Jean</forename>
+                        <surname>Anderson</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Amal</forename>
+                        <surname>Chatterjee</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Christian</forename>
+                        <forename type="middle">J.</forename>
+                        <surname>Kay</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Margaret</forename>
+                        <surname>Scott</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item>Digital Resources</item>
+                        <item> </item>
+                        <item> </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>The discovery of the writing and stylus tablets from Vindolanda, a Roman Fort
+                    built in the late 80s AD near Hadrian's Wall at modern day Chesterholm, has
+                    provided a unique resource regarding the Roman occupation of northern Britain
+                    and the use and development of Latin around the turn of the first century AD.
+                    However, although papyrologists have been able to transcribe and translate most
+                    of the writing tablets, the meaning of the majority of the stylus tablets
+                    remains obscure. These small wooden plaques with a hollow recess which was once
+                    filled with wax and written on by means of a metal stylus are well preserved;
+                    however, the wax has deteriorated leaving a wooden surface with small strokes
+                    where the stylus pen has occasionally breached the wax covering. Making sense of
+                    such minute indentations by eye alone has proved impossible for papyrologists,
+                    and the problem is compounded by the fact that many tablets were reused again
+                    and again leaving the remains of many texts on the damaged surfaces.</p>
+                <p>An EPSRC funded project at the Department of Engineering Science, University of
+                    Oxford, was initiated two years ago to analyse these tablets and develop new
+                    image processing techniques to retrieve information from small incisions in
+                    damaged surfaces (the techniques developed being applicable to a wide variety of
+                    engineering problems). Some headway has been made using wavelet filtering to
+                    remove woodgrain in images of the stylus tablets, and developing and
+                    appropriating Phase Congruency and Shadow Stereo techniques to identify
+                    candidate writing strokes. However, until some interface is put into place
+                    between these engineering techniques and the papyrologist, the stylus tablets'
+                    texts will not become decipherable because of the complex nature of the
+                    papyrology process and the difficulties encountered in expecting a
+                    non-mathematical user to utilise such algorithms.</p>
+                <p>This paper gives a brief background to the project, before discussing the steps
+                    taken and problems encountered whilst developing the computer application and
+                    user interface for this system. Focussing on the interaction between historians,
+                    papyrologists and the application developer, and the design of the graphical
+                    user interface, the paper discusses the benefits and problems surrounding such a
+                    multi-disciplinary project.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

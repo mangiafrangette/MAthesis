@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="paper">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">In Defense of Invalid SGML</title>
+                <author>
+                    <name>
+                        <forename type="first">David</forename>
+                        <forename type="middle">J.</forename>
+                        <surname>Birnbaum</surname>
+                        <affiliation>
+                            <name type="org">University of Pittsburgh</name>
+                            <email>djbpitt+@pitt.edu</email>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="1997">1997</date>
+                <publisher>
+                    <name>Queen's University</name>
+                </publisher>
+                <pubPlace>Kingston, Ontario</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ACH/ALLC 1997</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name type="org">the secretarial staff in the Department of French Studies at
+                        Queen's University</name>
+                    <name>
+                        <forename type="first">Greg</forename>
+                        <surname>Lessard</surname>
+                    </name>
+                    <name>
+                        <forename type="first"/>
+                        <surname/>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item>SGML</item>
+                        <item>DTD</item>
+                        <item> </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>SGML was developed primarily for encoding new texts, an environment in which the
+                    rigorous adherence to a DTD ensures that the resulting documents will observe a
+                    coherent structure. For example, if a dictionary is divided into, among other
+                    things, lexical entries, which consist of a keyword followed by a phonetic
+                    transcription followed by examples, this structural feature can be represented
+                    partially by the following declaration: <lb/>
+                    <eg>&lt;!ELEMENT entry - - (keyword, phonetic, example+)&gt;</eg></p>
+                <p>Users who create new dictionaries based on this DTD will be required by their
+                    SGML editing and validating tools to include exactly one keyword followed by
+                    exactly one phonetic transcription followed by at least one example. The SGML
+                    software is not, of course, able to ensure that the #PCDATA content of these
+                    component elements is correct, but it can guarantee, for example, that the
+                    element <emph rend="italics">phonetic</emph> will precede, and not follow, the
+                    element <emph rend="italics">example</emph>.</p>
+                <p>This model is appropriate in an environment where SGML tools are used to create
+                    structured documents, but it is far less well suited to a different environment
+                    that happens to be extremely common in humanities computing: producing
+                    electronic versions of preexisting documents. The problem is that preexisting
+                    documents that were created outside SGML editors may, because of the fallability
+                    of human editors, violate the overall logical structure of those documents,
+                    leaving the editor of the electronic edition with three unattractive choices: 1)
+                    "correct" the original text during transcription, 2) create a loose DTD that
+                    does not enforce a strict element order, or 3) create an invalid document that
+                    violates its DTD.</p>
+                <p>The first of these alternatives, "correcting" errors in the original source
+                    document, is unattractive because transcriptions of (to continue the original
+                    example) existing print dictionaries have two essences: they are new and
+                    functional electronic dictionaries and they are electronic records of existing
+                    archaeographic materials, viz. print dictionaries. While "correcting" errors
+                    observes the spirit of the first of these essences, it runs counter to the
+                    second.</p>
+                <p>The second alternative, creating a loose DTD that does not enforce a strict
+                    element order (by, for example, replacing the commas with ampersands in the
+                    content model portion of the element declaration above), is unattractive because
+                    it sacrifices structural information. If the evidence clearly points to the
+                    transgression of a structure involving strict order, rather than to conformity
+                    to a loose structure that does not require strict order, a DTD based on the
+                    latter conceals information about the document, viz. what is regular and what is
+                    exceptional.</p>
+                <p>The solution that best preserves the integrity of the original source while
+                    simultaneously encoding the difference between norm and violation of norm is the
+                    third alternative, the creation of an invalid document that violates its DTD.
+                    This solution is unavailable, and, indeed, almost kinky or subversive in an SGML
+                    context because our perception of SGML as a way of modeling document structure
+                    assumes both that documents may be structured and that if they are structured,
+                    that structure should be represented by the DTD. The weakness in this
+                    perspective is that documents created in obvious conformity to a very explicit
+                    structure (such as dictionaries), but created without the assistance of SGML
+                    tools, may occasionally violate their structure through human error. These
+                    violations are informational, at least from an archaeographic perspective, and
+                    should be preserved. And what should be preserved is not merely that the
+                    offending portions observe a different structure, and certainly not that the
+                    overall document structure is generally loose. What should be preserved is what
+                    document analysis reveals: the document has a highly-structured DTD and the
+                    offending portions are conceptual DTD violations, rather than alternative valid
+                    structures.</p>
+                <p>I do not advocate, of course, that we prepare and publish invalid SGML, or that
+                    SGML processing software be enhanced to react affirmatively not only to valid
+                    SGML events, but also to SGML errors. But I would suggest that when we perform
+                    document analysis on existing texts, we recognize that some oddities may at
+                    least logically (although perhaps not practically) be represented not as
+                    document structure, but as violations of document structure.</p>
+                <p>The requirement that SGML be valid seems in most contexts so obvious that it
+                    would never be questioned, but if document analysis of existing documents
+                    reveals violations of structure, the most appropriate model of this information
+                    in SGML terms involves invalid SGML. If the creation of invalid SGML is
+                    foreclosed for practical reasons, our most honest alternative is to enrich
+                    whatever solution we do adopt with annotations in markup that tell the truth:
+                    what we are encoding are the equivalent of parser error messages, and the fact
+                    that our document violates its basic structure in specific places is
+                    informational.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

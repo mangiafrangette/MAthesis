@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="paper">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">SGML as a vehicle for porting hypertext applications
+                    between systems</title>
+                <author>
+                    <name>
+                        <forename type="first">Eve</forename>
+                        <surname>Wilson</surname>
+                        <affiliation>
+                            <name type="org">University of Kent at Canterbury</name>
+                            <email>E.Wilson@ukc.ac.uk</email>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Peter</forename>
+                        <forename type="middle">D.</forename>
+                        <surname>Shepton</surname>
+                        <affiliation>
+                            <name type="org">University of Kent at Canterbury</name> (at time of
+                            project) </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="1997">1997</date>
+                <publisher>
+                    <name>Queen's University</name>
+                </publisher>
+                <pubPlace>Kingston, Ontario</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ACH/ALLC 1997</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name type="org">the secretarial staff in the Department of French Studies at
+                        Queen's University</name>
+                    <name>
+                        <forename type="first">Greg</forename>
+                        <surname>Lessard</surname>
+                    </name>
+                    <name>
+                        <forename type="first"/>
+                        <surname/>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item>SGML</item>
+                        <item>hypertext conversion</item>
+                        <item>Mark-It</item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <div>
+                    <head>Objective</head>
+                    <p>The objective of this project was to investigate SGML as a vehicle for
+                        porting documents between diverse hypertext systems. The documents were
+                        provided by European Passenger Services (EPS) who issue them in a
+                        traditional printed format. They form two major publications:<list
+                            type="bulleted">
+                            <item>factsheet giving information about EPS and its services. It
+                                consists of text interspersed with images and tables;</item>
+                            <item>an educational package for children at primary school. This
+                                contains a higher proportion of images but also questions to test
+                                reading comprehension and simple mathematics.</item>
+                        </list>
+                    </p>
+                    <p>The two types of material were very different and were treated accordingly.
+                        The aim with the factsheet was merely to improve the accessibility and
+                        browsability of the information through an electronic text while the
+                        teaching material demanded more genuinely interactive features that would
+                        convert it into a Compiler Assisted Learning Package.</p>
+                </div>
+                <div>
+                    <head>Tagging and Parsing</head>
+                    <p>However, the first stage with both data sets was to define a Document Type
+                        Definition (DTD) in terms of the predefined structural components (ie
+                        chapters, sections, paragraphs and sentences) and to tag every occurrence of
+                        each element in the document. Subsequently, the documents were validated
+                        using Mark-It, an SGML parser which reads a DTD and checks that a given
+                        document instance conforms with it. Mark-It can also be used to produce a
+                        canonical form of the document, in which any markup missing owing to tag
+                        minimisation and use of short-refs is replaced. Finally, and most
+                        importantly, it has a generator or link mechanism that will facilitate
+                        systematic replacement of bugs (and content) in the canonical version. This
+                        can be used to replace the SGML tags by formatting instructions to produce a
+                        traditional printed text or, more ambitiously, to produce hypertext versions
+                        of the document. It relies on the introduction into the DTD of a generator
+                        section the application control and link processes that will be used by
+                        Mark-It to transform an EPS document instance from SGML into another
+                        format.</p>
+                </div>
+                <div>
+                    <head>Target Hypertext Systems</head>
+                    <p>In the project, documents were converted to:<list>
+                            <item>1. source format for the Unix Guide hypertext system,</item>
+                            <item>2. HTML format for browsers such as Netscape and Mosaic,
+                                and</item>
+                            <item>3. PC Guide.</item>
+                        </list></p>
+                    <p>Each of these threw up individual problems which demanded independent
+                        solutions and threw doubt on the viability of using a single DTD for
+                        multiple purposes. For example, the Unix Guide markup produced a concise
+                        hypertext document that could be navigated by selecting hypertext buttons
+                        and using the scroll bar. For aesthetic reasons, and to improve
+                        functionality, the Guide file was split into smaller files and linked using
+                        usage buttons, rather than replace buttons. Because Guide naturally uses
+                        expansion buttons, the "contents page" of the original document was
+                        redundant and the contents element was removed from the DTD.</p>
+                    <p>However, HTML needed a "contents" page to implement hypertext links to link
+                        each topic to the relevant section within the document. To maintain DTD
+                        consistency, a contents page was generated automatically together with the
+                        HTML document file. This, while increasing generator complexity, was
+                        inherently pleasing because it meant the contents section did not have to be
+                        manually maintained and updated. Again, functionality was enhanced by the
+                        use of many small files, rather than a single big file.</p>
+                    <p>PC GUIDE offered the most comprehensive markup possibilities, although it
+                        required the use of an intermediary GUIDE Writer in the conversion. Firstly,
+                        Mark-It was used to convert SGML into Hypertext Markup Language (HML). HML,
+                        not to be confused with HTML, is a subset of SGML containing 27 element
+                        tags, that can be used to describe document structure in terms of specific
+                        types of GUIDE objects. GUIDE Write creates and links these hypertext
+                        objects; automatically generating separate files connected by
+                        hyperlinks.</p>
+                </div>
+                <div>
+                    <head>Conversion Comparison</head>
+                    <p>For browsing and navigation, all three hypertext conversions were realisable,
+                        and to that extent, demonstrated the portability of the data through an
+                        accurate and application independent description of the information.
+                        Nevertheless, the project raised issues about the interaction between data
+                        portability and system functionality and the level of portability that can
+                        be achieved. For example, to optimise functionality for each system required
+                        modifications whenever a new system was introduced to match the requirement
+                        of that particular system. Also the conversion is ultimately dependent on
+                        the mechanisms and power of the Mark-It parser and the ingenuity of the user
+                        in writing appropriate link routines.</p>
+                </div>
+                <div>
+                    <head>Multimedia</head>
+                    <p>Multimedia information incorporating sound and video exacerbate these
+                        differences. Whilst the initial focus of SGML was textual data, other media
+                        can be included by one of two mechanisms. The more obvious is through data
+                        entities which provide a detailed and formal description of data. However,
+                        if the main aim is portability between hypertext systems, this method is
+                        cumbersome as it requires an entity and notation declaration must be
+                        modified to conform with the format of the target hypertext system.
+                        Consequently data portability is more easily achieved by using empty
+                        elements to represent different media. In this method the DTD remains
+                        constant (although, of course, commands appropriate to each hypertext format
+                        must be included in the generator section). Only one element name is
+                        declared for each medium; different files are distinguished using Mark-It's
+                        `counter' mechanism.</p>
+                    <p>Comparing the use of sound and video across the three hypertext systems
+                        focuses attention on the role of their respective browsers. While the Unix
+                        Guide interface itself was primarily designed for text and graphics,
+                        multimedia applications can be easily launched by creating usage buttons to
+                        run script commands and there are no restrictions on the use of different
+                        sound and video formats save those arising from the limitations of the
+                        multimedia software on the supporting platform. While web browsers such as
+                        Mosaic and Netscape were specifically designed to process media other than
+                        text and graphics, the browsers must be configured so that they are linked
+                        to the multimedia software via the Multipurpose Internet Mail Extensions
+                        protocol (MIME) which enables documents in varying formats to be transmitted
+                        over the Internet. Consequently the range of sound and video formats
+                        supported by web browsers is more restrictive than with Unix Guide although
+                        the linking method is very straightforward involving only a simple external
+                        hypertext link; the browser then performs all necessary work automatically.
+                        PC Guide has similar restrictions: the sound and video formats that are used
+                        are determined by the MS Windows platform. Again inclusion is not
+                        complicated as the platform via the MCI performed all necessary tasks.</p>
+                </div>
+                <div>
+                    <head>Conclusion</head>
+                    <p>The markup of EPS information was an evolutionary process ie it was not clear
+                        at the start what features should be tagged and continual modification of
+                        the DTD was required to ensure that the same definition could be used
+                        effectively for all three hypertext formats and the question of the optimum
+                        level of mark up for portability is still not wholly resolved. An SGML
+                        document ensures that there is an accurate description of the logical
+                        structure and components, but to achieve maximum functionality from the
+                        target hypertext system, modifications were frequently desirable and much
+                        vital and system dependent work had to be done during the parsing stage.
+                        Data portability is still greatly constrained by the requirements of the
+                        target system.</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

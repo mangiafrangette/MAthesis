@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="poster/demo">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Alignment and browsing of the English-Norwegian
+                    Parallel Corpus</title>
+                <author>
+                    <name>
+                        <forename type="first">Knut</forename>
+                        <surname>Hofland</surname>
+                        <affiliation>The <name type="org">Norwegian Computing Centre for the
+                                Humanities</name>
+                            <email>Knut.Hofland@hd.uib.no</email>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Jarle</forename>
+                        <surname>Ebeling</surname>
+                        <affiliation>Department of British and American Studies, <name type="org"
+                                >University of Oslo</name>
+                            <email>Jarle.Ebeling@iba.uio.no</email>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="1996">1996</date>
+                <publisher>
+                    <name>University of Bergen</name>
+                </publisher>
+                <pubPlace>Bergen, Norway</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ALLC/ACH 1996</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first">Anne</forename>
+                        <surname>Lindebjerg</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Espen</forename>
+                        <forename type="middle">S.</forename>
+                        <surname>Ore</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Øystein</forename>
+                        <surname>Reigem</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item>alignment</item>
+                        <item>browsing</item>
+                        <item>parallel corpus</item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <div>
+                    <head>Project Background</head>
+                    <p>The English-Norwegian Parallel Corpus (ENPC) project was started in the
+                        beginning of 1994 and it is expected to end in 1996. The parallel corpus is
+                        meant to be a research tool for linguists and students interested in
+                        contrastive linguistics. The corpus will contain English and Norwegian
+                        originals and their translations (including both English-to-Norwegian and
+                        Norwegian-to-English translations).</p>
+                    <p>The corpus will only contain written material, but both fiction and
+                        non-fictional texts will be included. To make it possible to include as many
+                        different writers and translators as possible, text extracts of 10,000 -
+                        15,000 words will be selected and not complete books. Each text extract will
+                        start at the beginning of the book, and if possible, end at a chapter
+                        boundary. The finished corpus will consist of 100 pairs of texts with a
+                        total of about 2.5 million words. The texts are marked up according to TEI
+                        P3. As regards the structure of the corpus and the projected uses of the
+                        material, see (Johansson and Hofland, 1994) and (Johansson, Ebeling, and
+                        Hofland 1996).</p>
+                </div>
+                <div>
+                    <head>Alignment program</head>
+                    <p>The alignment program has been written by Knut Hofland. The program makes use
+                        of a simple bilingual lexicon (anchor words), but in addition uses
+                        information like proper nouns, special characters and tags, cognates and
+                        sentence length in characters. Statistics based on half the corpus gives an
+                        error rate of approx 2 per cent. The program has also been used in aligning
+                        texts from other language pairs like French-Norwegian,
+                        English-French/German/Polish/Swedish/Finnish, Swedish-Estonian. The program
+                        gives output in several formats, a TEI recommended format and one format
+                        also suitable for use with ParaConc and WordCruncher for Windows.</p>
+                    <p>Illustration not available</p>
+                </div>
+                <div>
+                    <head>Browsing tool</head>
+                    <p>The browsing tool has been written by Jarle Ebeling. The aligned and
+                        proofread texts are indexed, making it possible to search the text database
+                        for words in one of the languages and retrieve the sentences together with
+                        their translations in the other language. Words in the two languages can be
+                        combined with the <emph rend="italics">and</emph> or the <emph
+                            rend="italics">not</emph> operator so that only pairs of sentences with
+                        a specific word in the first language together with (or not together with)
+                        another word in the second language are found. Words can also be truncated
+                        and a distance (in number of words) between particular words can be
+                        given.</p>
+                </div>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>References</head>
+                <note>Web page with more information and articles: <ptr
+                        target="ttp://www.hd.uib.no/enpc.html"/></note>
+                <listBibl>
+                    <biblStruct type="bookChapter">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">S.</forename>
+                                    <surname>Johansson</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">K.</forename>
+                                    <surname>Hofland</surname>
+                                </name>
+                            </author>
+                            <title level="a">Towards an English-Norwegian parallel corpus</title>
+                        </analytic>
+                        <monogr>
+                            <editor>
+                                <name>
+                                    <forename type="first">U.</forename>
+                                    <surname>Fries</surname>
+                                </name>
+                            </editor>
+                            <editor>
+                                <name>
+                                    <forename type="first">G.</forename>
+                                    <surname>Tottie</surname>
+                                </name>
+                            </editor>
+                            <editor>
+                                <name>
+                                    <forename type="first">P.</forename>
+                                    <surname>Schneider</surname>
+                                </name>
+                            </editor>
+                            <title level="m">Creating and Using English language Corpora</title>
+                            <imprint>
+                                <pubPlace>Amsterdam</pubPlace>
+                                <publisher/>
+                                <date when="1994">1994</date>
+                                <biblScope type="pp">25-37</biblScope>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="bookChapter">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">S.</forename>
+                                    <surname>Johansson</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">J.</forename>
+                                    <surname>Ebeling</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">K.</forename>
+                                    <surname>Hofland</surname>
+                                </name>
+                            </author>
+                            <title level="a">Coding and Aligning the English-Norwegian Parallel
+                                Corpus</title>
+                        </analytic>
+                        <monogr>
+                            <editor>
+                                <name>
+                                    <forename type="first">K.</forename>
+                                    <surname>Aijmer</surname>
+                                </name>
+                            </editor>
+                            <editor>
+                                <name>
+                                    <forename type="first">B.</forename>
+                                    <surname>Altenberg</surname>
+                                </name>
+                            </editor>
+                            <editor>
+                                <name>
+                                    <forename type="first">M.</forename>
+                                    <surname>Johansson</surname>
+                                </name>
+                            </editor>
+                            <title level="m">Papers from Symposium on Text-based Cross-linguistic
+                                Studies</title>
+                            <imprint>
+                                <pubPlace>Lund</pubPlace>
+                                <publisher/>
+                                <date when="1996">1996</date>
+                                <biblScope type="pp">87-112</biblScope>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

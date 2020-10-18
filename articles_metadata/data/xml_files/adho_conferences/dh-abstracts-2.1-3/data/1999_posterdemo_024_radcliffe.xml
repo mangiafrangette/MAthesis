@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="poster/demo">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">English Poetry 1579-1830: The Spenserian Tradition in
+                    Hypertext</title>
+                <author>
+                    <name>
+                        <forename type="first">David</forename>
+                        <forename type="middle">Hill</forename>
+                        <surname>Radcliffe</surname>
+                        <affiliation>Department of English <name type="org">Virginia Tech </name>
+                            <email>drad@vt.edu</email>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="1999">1999</date>
+                <publisher>
+                    <name>University of Virginia</name>
+                </publisher>
+                <pubPlace>Charlottesville, VA</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ACH/ALLC 1999</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first"/>
+                        <surname/>
+                    </name>
+                    <name>
+                        <forename type="first"/>
+                        <forename type="middle"/>
+                        <surname/>
+                    </name>
+                    <name>
+                        <forename type="first"/>
+                        <surname/>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item> </item>
+                        <item> </item>
+                        <item> </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p><title level="m">English Poetry 1579-1830: The Spenserian Tradition</title> is an
+                    interactive database consisting of over 3000 poems and essays supplemented by
+                    6000 author biographies, anecdotes, and critical remarks drawn from pre-1900
+                    publications. Readers can find information on over 800 writers who imitated or
+                    criticized Spenser in the era when literature in English was constituted as
+                    "English Literature." The project includes imitations of Spenser's poems,
+                    imitations of those imitations, poems written in Spenserian stanzas and
+                    variants, and poems that mention Spenser. Since most ambitious poets and critics
+                    are on record about Spenser, the database contains biographies and critical
+                    remarks about the majority of writers in the present literary canon. But it also
+                    includes much ephemeral and topical material--periodical verse, school
+                    exercises, patronage poems--so that researchers can examine the literary system
+                    more broadly conceived, including hundreds of figures omitted in conventional
+                    anthologies, literary histories, and reference books.</p>
+                <p>Users can select records by keywords, genre, topic, bibliographic, or demographic
+                    criteria, and by personal associations. Once records are marked, users can
+                    compile bibliographies, display quantitative data on time lines, and tabulate
+                    demographic information according to a variety of specifications. One can look
+                    at what a given writer has to say about other writers in the database, and what
+                    other writers have to say about a given poet or critic. The project is scripted
+                    so that textual and biographical links can be made "on the fly," allowing users
+                    considerable flexibility in translating historical into hypertextual links.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="paper">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">HyperPo: The Next Generation</title>
+                <author>
+                    <name>
+                        <forename type="first">Stéfan</forename>
+                        <surname>Sinclair</surname>
+                        <affiliation>Department of French <name type="org">Queen's University</name>
+                            <email>4ss42@qsilver.queensu.ca</email>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="1999">1999</date>
+                <publisher>
+                    <name>University of Virginia</name>
+                </publisher>
+                <pubPlace>Charlottesville, VA</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ACH/ALLC 1999</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first"/>
+                        <surname/>
+                    </name>
+                    <name>
+                        <forename type="first"/>
+                        <forename type="middle"/>
+                        <surname/>
+                    </name>
+                    <name>
+                        <forename type="first"/>
+                        <surname/>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item> </item>
+                        <item> </item>
+                        <item> </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <epigraph>
+                    <cit rend="block">
+                        <quote> "Only, perhaps, when hypertext or something like it begins to open
+                            our eyes to startling truths about some body of text, truths that were
+                            totally imperceptible before, may we expect a significant attempt of
+                            synthesis or any substantial shift toward the computer as a major tool
+                            of humanistic study."</quote>
+                        <bibl>(Raben, p. 349)</bibl>
+                    </cit>
+                </epigraph>
+                <p>Since the sophistication and wider implementation of Graphical User Interfaces
+                    (GUI) in the early 1990's, the prodigious diffusion of Hypertext has conduced a
+                    dizzying array of experiments and applications, guides and theories. Granted,
+                    many important foundations date back to prior years, decades centuries and even
+                    millennia - at least as far back as Vannever Bush's description of his Memex
+                    machine (1945) and Ted Nelson's 1965 coining of the word "hypertext" - but the
+                    more recent profusion of hypertextual technology has allowed a great pooling of
+                    resources that has combined the creative and innovative forces of many people
+                    from diverse disciplines. It's of no surprise, then, that hypertext has seen
+                    itself successfully woven into the fabric of objectives as disparate as
+                    pedagogy, retail and literary writing. Literary criticism, however, is one
+                    discipline where the hypertextual paradigm has been almost absent (TACTweb is a
+                    rare notable exception). This is all the more surprising, I think, since
+                    literary criticism stands to benefit substantially from certain possibilities
+                    offered by hypertext. Time and again colleagues have commented on the
+                    regrettable chasm that continues to exist, methodologically, between the text to
+                    be analysed and the data produced to help analyse it (retrospectives on
+                    computing in the humanities such as those by Raben and Potter invariably invoke
+                    this impediment). This paper will present the latest version of HyperPo (<emph
+                        rend="italics"><emph rend="bold">Hyper</emph>texte <emph rend="bold"
+                            >po</emph>tentiel</emph>), a Web-based application intended, among other
+                    things, to bridge the gap between text and data by fully exploiting the
+                    hypertext paradigm (HyperPo is available at <ptr
+                        target="http://qsilver.queensu.ca/QI/HyperPo"/>).</p>
+                <p>It needs to be asserted from the outset that HyperPo is as much a tool for text
+                    exploration as a program for text analysis (a fundamental characteristic
+                    enshrined in its full name "HyperPo: Text Analysis and Exploration Software").
+                    In fact, HyperPo strives to blur the distinction between exploration and
+                    analysis with two related strategies: (1) the superimposition of text and data
+                    through typographical schemes (2) the tight integration of text and data through
+                    hypertextual links. The act of reading the text and the acts of producing and
+                    analysing data are all collapsed into a flexible exploratory and experimental
+                    activity that assumes the modalities desired by the particular
+                    reader/user/researcher (these distinctions are of course also blurred).</p>
+                <p>In essence, HyperPo is an extensible text reading program. The first-time user
+                    can have HyperPo display an electronic text with little or no supplementary
+                    information (in a format that would seem comforting and familiar), and
+                    progressively add types of textual information deemed potentially interesting or
+                    useful. I see this incremental approach to computer-assisted literary criticism
+                    as a crucial step if it is to gain wider acceptance. No longer must the
+                    traditional literary critic make a daunting leap of faith away from her text and
+                    towards a new world of quantitative analytical tools; she can stroll around on
+                    relatively familiar ground and, in time, explore and claim new territories as
+                    she sees fit. Although HyperPo's user-friendliness doesn't come at the expense
+                    of utility and power, it should be conceded that all of its text analysis
+                    functions (frequency, distribution, cooccurrence, KWIC lists, etc.) are
+                    available from other programs. What is novel, and epistemologically significant
+                    (in ways that will be defined and elaborated), is the possibility of dynamically
+                    generating text and data intertwined in a rich web of associated
+                    information.</p>
+                <p>Given that HyperPo is freely available as a web-based program -- which, among
+                    other advantages, eliminates the need for the user to install and update
+                    software other than a browser -- I will forego a detailed description of the
+                    software in favour of a brief account of its major features and a somewhat
+                    hypothetical presentation of it in action with an excerpt of Georges Perec's
+                        <title level="m">La Disparition</title>. (My work on the play between
+                    literary game and violence in <title level="m">La Disparition</title> will be a
+                    secondary preoccupation in this context. Although I heed the warnings of
+                    colleagues to not concentrate on the tools of criticism at the expense of proper
+                    literary scholarship, I think that HyperPo represents a sufficiently significant
+                    shift in methodology that the <emph rend="bold">process</emph> of hypertextually
+                    driven exploration merits full consideration and elaboration. See my ACH-ALLC'97
+                    summary for an apologia of Oulipian texts in my corpus).</p>
+                <p>As one would expect, the absence of the letter 'e' in Perec's lipogrammatical
+                    novel <title level="m">La Disparition</title> severely limits the use of the
+                    primary feminine morphological marker in nouns and adjectives of French. This in
+                    turn further limits an already deleted vocabulary, encouraging recourse to
+                    foreign and unusual words (<emph rend="italics">«la Star»</emph> and <emph
+                        rend="italics">«la Squaw»</emph>), unorthodox paraphrases (<emph
+                        rend="italics">«pli labial»</emph> for <emph rend="italics">une
+                    lèvre</emph>) and aberrant syntactical forms (<emph rend="italics">«un Roman
+                        Jakobson qui nous dirait son structural avis»</emph> -- the strange
+                    anteposition of the adjectif masks how Perec avoids more common forms such as
+                    «structuralisme» or «structuraliste»). In fact, the lipogrammatical constraint
+                    propagates itself through successive textual levels: the graphemic, the
+                    morphemic, the lexical, the syntactical, the textual and the semantic (the
+                    precise meaning and order of these are obviously open to discussion).</p>
+                <p>By representing parts of speech or repetition information directly in the text
+                    (through a chosen colour scheme), by linking together text based on this
+                    information, by providing the means to generate KWIC, distribution and
+                    coocurence lists, and finally, by linking words to outside resources such as the
+                    Altavista search engine and the ARTFL Frequency database, HyperPo provides the
+                    means of exploring different stylistic strategies present in <title level="m">La
+                        Disparition</title> and indeed in any text. Figure 1 shows a screen shot of
+                    HyperPo where the relative frequency of repeating series of two words are shown
+                    in increasing hues of grey in the text of the top left frame, the list of
+                    repeating series of words in alphabetic order are shown in the top right frame,
+                    the distribution of <emph rend="italics">pouvoir</emph> is shown in the bottom
+                    left frame, and other information is indicated in the status bar.</p>
+                <figure>
+                    <head>Figure 1</head>
+                </figure>
+                <p>As always, HyperPo is about making readily available a relatively powerful but
+                    easy-to-use tool for text exploration and analysis; one that fully exploits the
+                    hypertextual paradigm. Despite progress, much frustration has resulted in
+                    Humanities Computing from trying to make computers do things that they can't
+                    (yet?) do. HyperPo recognizes the respective strengths of humans and computers
+                    and attempts to maximise the collaboration through hypertext.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">Vannevar</forename>
+                                    <surname>Bush</surname>
+                                </name>
+                            </author>
+                            <title level="a">As We May Think</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Atlantic Monthly</title>
+                            <imprint>
+                                <biblScope type="vol">176</biblScope>
+                                <biblScope type="issue"/>
+                                <biblScope type="pp">101-108</biblScope>
+                                <date when="1945">1945</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">Georges</forename>
+                                    <surname>Perec</surname>
+                                </name>
+                            </author>
+                            <title level="m">La Disparition</title>
+                            <imprint>
+                                <pubPlace>Paris</pubPlace>
+                                <publisher>Denoël</publisher>
+                                <date when="1969">1969</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">Rosanne</forename>
+                                    <forename type="middle">G.</forename>
+                                    <surname>Potter</surname>
+                                </name>
+                            </author>
+                            <title level="a">Statistical Analysis of Literature: A Retrospective on
+                                Computers and the Humanities, 1966-1990</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Computers and the Humanities</title>
+                            <imprint>
+                                <biblScope type="vol">25</biblScope>
+                                <biblScope type="issue">6</biblScope>
+                                <biblScope type="pp">401-429</biblScope>
+                                <date when="1991">December 1991</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">Joseph</forename>
+                                    <surname>Raben</surname>
+                                </name>
+                            </author>
+                            <title level="a">Humanities Computing 25 Years Later</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Computers and the Humanities</title>
+                            <imprint>
+                                <biblScope type="vol">25</biblScope>
+                                <biblScope type="issue">6</biblScope>
+                                <biblScope type="pp">341-350</biblScope>
+                                <date when="1991">December 1991</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">Stéfan</forename>
+                                    <surname>Sinclair</surname>
+                                </name>
+                            </author>
+                            <title level="a">L'HyperPo: Exploration des structures lexicales à
+                                l'aide des formes hypertextuelles</title>
+                        </analytic>
+                        <monogr>
+                            <editor>
+                                <name>
+                                    <forename type="first">Greg</forename>
+                                    <surname>Lessard</surname>
+                                </name>
+                            </editor>
+                            <editor>
+                                <name>
+                                    <forename type="first">Michael</forename>
+                                    <surname>Levison</surname>
+                                </name>
+                            </editor>
+                            <title level="m">ACH-ALLC '97 Conference Abstracts</title>
+                            <imprint>
+                                <pubPlace>Kingston, ON</pubPlace>
+                                <publisher>Queen's University Press</publisher>
+                                <date when="1997">1997</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

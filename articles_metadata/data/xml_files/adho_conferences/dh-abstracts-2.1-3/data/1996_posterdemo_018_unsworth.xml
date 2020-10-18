@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="poster/demo">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Software for Humanities Computing: Image Annotation,
+                    Unicode, and SGML packages from the Institute for Advanced Technology in the
+                    Humanities</title>
+                <author>
+                    <name>
+                        <forename type="first">John</forename>
+                        <surname>Unsworth</surname>
+                        <affiliation>Institute for Advanced Technology in the Humanities, <name
+                                type="org">University of Virginia</name>
+                            <email/>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="1996">1996</date>
+                <publisher>
+                    <name>University of Bergen</name>
+                </publisher>
+                <pubPlace>Bergen, Norway</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ALLC/ACH 1996</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first">Anne</forename>
+                        <surname>Lindebjerg</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Espen</forename>
+                        <forename type="middle">S.</forename>
+                        <surname>Ore</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Øystein</forename>
+                        <surname>Reigem</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item> </item>
+                        <item> </item>
+                        <item> </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>The Institute for Advanced Technology in the Humanities at the University of
+                    Virginia supports computer-mediated research projects in all disciplines of the
+                    humanities. In the service of these projects, we do some software development.
+                    In this session, John Unsworth, Director of the Institute, will demonstrate some
+                    of the software pack-ages publicly available or under development at the
+                    Institute. Those packages include:</p>
+                <p><emph rend="italics">
+                        <emph rend="bold">Inote</emph>
+                    </emph>: an image annotation program, written in Java. Inote allows a user to
+                    superimpose multiple clear overlays on an image and, without altering the
+                    underlying image, draw details (point, circle, rectangle) on those overlays and
+                    attach annotations (text or image) to the detail. It can load images by http,
+                    and it can be delivered, along with an annotated image, through the web. Inote
+                    also has some special features including automatic overlay generation, in which
+                    the software identifies lines of text in a page image and automatically creates
+                    details for those lines. Inote will also save overlays as client-side ismap
+                    instructions. Planned features include audio annotations and SGML awareness.</p>
+                <p><emph rend="italics">
+                        <emph rend="bold">MU</emph>
+                    </emph>: a perl-based program that will build fill-out forms for SGML editing
+                    through the web, using a simple template of SGML tags as the basis for the form.
+                    MU supports file-locking (for collaborative work over the net), allows one to
+                    save and reload files as they are being edited, provides space for notes and
+                    remarks, and automatically builds a selectable list of SGML files in
+                    progress.</p>
+                <p><emph rend="italics">
+                        <emph rend="bold">Babble</emph>
+                    </emph>: a Unicode-based program that permits synoptic display of many texts in
+                    many different character sets. Babble respects the directionality of different
+                    languages in text-wrapping, allows text display columns to be vertical or
+                    horizontal, permits selective scroll-locking of text columns, and performs
+                    string and mark searches. This software, currently written in Motif and C++, is
+                    being ported to Java, and we expect the Java version to be SGML-aware.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

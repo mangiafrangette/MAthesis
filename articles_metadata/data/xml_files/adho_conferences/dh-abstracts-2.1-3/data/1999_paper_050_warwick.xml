@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="paper">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">English literature, electronic text and computer
+                    analysis: An impossible combination?</title>
+                <author>
+                    <name>
+                        <forename type="first">Claire</forename>
+                        <surname>Warwick</surname>
+                        <affiliation>Department of Information Studies <name type="org">University
+                                of Sheffield</name>
+                            <email>c.warwick@sheffield.ac.uk</email>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="1999">1999</date>
+                <publisher>
+                    <name>University of Virginia</name>
+                </publisher>
+                <pubPlace>Charlottesville, VA</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ACH/ALLC 1999</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first"/>
+                        <surname/>
+                    </name>
+                    <name>
+                        <forename type="first"/>
+                        <forename type="middle"/>
+                        <surname/>
+                    </name>
+                    <name>
+                        <forename type="first"/>
+                        <surname/>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item> </item>
+                        <item> </item>
+                        <item> </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>In 1991 Corns discovered that despite the potential usefulness of computational
+                    text analysis techniques in the study of English Literature, very little work
+                    had been published in the field which showed any evidence of their use. He hoped
+                    that this was due a lack of knowledge on the part of more traditional literary
+                    professionals. Knowledge is now more widespread and electronic text and analysis
+                    tools easier to find and use. However, the application of the same method of
+                    quantitative analysis of the research output in selected journals suggests that
+                    computational analysis of English literary texts is no more common now than it
+                    was eight years ago. This paper will suggest reasons for this, and argue that
+                    the discontinuity between the way that machines and humans read prevents the
+                    more widespread use of electronic texts by literary scholars.</p>
+                <p>Electronic text is still basically defined in terms of its content. (Renear) Thus
+                    the tools which we have at our disposal for analysing electronic literary text
+                    work in terms of information extraction. (eg. how many times does a word occur,
+                    in what collocation?) Even if the text is encoded, the searches we can perform
+                    are more complex versions of a content model. (eg how many times does Hamlet as
+                    speaker of the word Ophelia happen as opposed to the reverse?) Computational and
+                    corpus linguists have been able to produce a great deal of valuable work, based
+                    on this sort of data, yet to date very little has emerged as a result of
+                    applying computer analysis of electronic text in the field of English
+                    literature.</p>
+                <p>Researchers who are interested in tracking cultural or historical patterns in
+                    large amounts of data, or charting textual variants may find computational
+                    techniques a great use. However, most scholars still believe that the core
+                    activity of the literary critic in whatever language is critical analysis and
+                    close reading. Although we have not fully understood what we do when we read a
+                    literary text, we know that we do not simply collect quantitative data. Reading
+                    conflates the activities of information retrieval, (How many times does x
+                    occur?); text analysis, when we examine the significance of the data, (i.e.
+                    having found out how many times a word occurs, in a given writer, is it
+                    different from that of any of his contemporaries, and if so, does it matter to
+                    me?) and the identification of emotional effects (I notice that a character
+                    tends to be presented in such a way, this determines how I as reader perceive
+                    that character and the action in which they are involved). Therefore, while
+                    critics may use quantitative data to support further analysis, the definition of
+                    'close reading' is much less easy. What we do know is that it involves
+                    intangible concepts such as sensibility, originality, creativity and is
+                    predicated upon things that are nuanced and unprovable. These characteristics
+                    can be comprehended by humans. But they are much more difficult to adapt to the
+                    right or wrong, on or off, world of logical hierarchies that are ideal for
+                    computer analysis. Furthermore, unlike linguists, literary scholars often do not
+                    need large quantities of information in order to come to their judgements, which
+                    they admit should not necessarily be absolute or objective. Humanists do not
+                    necessarily expect that a problem can be solved once and for all nor that their
+                    findings must be incontestable. (Watisboone)</p>
+                <p>To make any profitable use of computer techniques of analysis, humans must also
+                    be able to define exactly the problem under investigation, what the nature of
+                    the data is, and why results are significant. This is something that many
+                    English literature scholars find difficult, and this may be a reflection as much
+                    of the nature of the subject as the competence of the researcher. Text encoders
+                    might suggest that the text under analysis is insufficiently well analysed and
+                    marked up for the user's purpose. Perhaps therefore they should spend some time
+                    marking up their text. But what should they mark up? Even if they could define
+                    the sort of literary nuances that they are looking for, or translate them into
+                    an encoding system, would this really be a good use of time? The text would have
+                    to be so heavily marked up that the critic might as well just read it
+                    anyway.</p>
+                <p>Should humanities computing professionals therefore decry the tradition methods
+                    of literary scholars as insufficiently objective and rigorous, and try to
+                    encourage them to use computational methods to improve their standard of proof?
+                    (Smith) We could, but it seems likely to have very little effect on a long
+                    standing and still popular academic discipline. Perhaps computers are not
+                    ideally suited to the complex analysis of literary text, and perhaps we should
+                    accept this. Should we therefore resign ourselves to the terminal disjunction of
+                    literary studies and humanities computing? I think not, but we may need to
+                    accept that computational methods may leave some areas of the discipline changed
+                    and others untouched.</p>
+                <p>For example, the most successful use of computers in English literature has been
+                    in the fields of text creation and editing. This activity is better suited to
+                    the use of electronic text as it relies much more on objectivity, since
+                    manuscript A does or does not include a word that manuscript B lacks. There is
+                    no debate about this, it is a matter of proof. as a central apart of English
+                    studies. This is, in a sense, a move back in the evolution of English literary
+                    studies, since the study, display and analysis of textual variants was perceived
+                    as the essence of the discipline by its founders. Perhaps the use of computers
+                    will redress the balance and re-establish the importance of textual editing.
+                    This means that the main use of computers in English literature is
+                    presentational rather than analytical. Just as Nineteenth century scholars
+                    presented critical editions in print, so a new generation presents them
+                    electronically, and it is now for others to decide what to do with them. This
+                    may be 'simply' to read them.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">T.</forename>
+                                    <forename type="middle">N.</forename>
+                                    <surname>Corns</surname>
+                                </name>
+                            </author>
+                            <title level="a">Computers in the humanities: Methods and Applications
+                                in the study of English Literature</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Literary &amp; Linguistic Computing</title>
+                            <imprint>
+                                <biblScope type="vol">6</biblScope>
+                                <biblScope type="issue">2</biblScope>
+                                <biblScope type="pp">127-131</biblScope>
+                                <date when="1991">1991</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="bookChapter">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">A.</forename>
+                                    <surname>Renear</surname>
+                                </name>
+                            </author>
+                            <title level="a">Out of Praxis: Three (Meta) Theories of
+                                Textuality</title>
+                        </analytic>
+                        <monogr>
+                            <editor>
+                                <name>
+                                    <forename type="first">Katherine</forename>
+                                    <surname>Sutherland</surname>
+                                </name>
+                            </editor>
+                            <title level="m">Electronic Text: Investigations in Method and
+                                Theory</title>
+                            <imprint>
+                                <pubPlace>Oxford</pubPlace>
+                                <publisher>Clarendon Press</publisher>
+                                <date when="1997">1997</date>
+                                <biblScope type="pp">107-124</biblScope>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="bookChapter">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">J.</forename>
+                                    <forename type="middle">B.</forename>
+                                    <surname>Smith</surname>
+                                </name>
+                            </author>
+                            <title level="a">Computer Criticism</title>
+                        </analytic>
+                        <monogr>
+                            <title level="m">Literary Computing and Literary Criticism: Theoretical
+                                and Practical Essays on Theme and Rhetoric</title>
+                            <imprint>
+                                <pubPlace>Philadelphia</pubPlace>
+                                <publisher>University of Pennsylvania Press</publisher>
+                                <date when="1989">1989</date>
+                                <biblScope type="pp">36-49</biblScope>
+                                <biblScope type="pp">39</biblScope>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">R.</forename>
+                                    <surname>Watisboone</surname>
+                                </name>
+                            </author>
+                            <title level="a">The Information Needs and Habits of Humanities
+                                Scholars</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Reference Quarterly</title>
+                            <imprint>
+                                <biblScope type="vol">34</biblScope>
+                                <biblScope type="issue">2</biblScope>
+                                <biblScope type="pp">203-216</biblScope>
+                                <date when="1994">1994</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

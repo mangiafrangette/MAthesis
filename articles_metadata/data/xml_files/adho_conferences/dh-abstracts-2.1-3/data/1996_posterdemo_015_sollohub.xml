@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="poster/demo">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">The Wittgenstein Archives at the University of
+                    Bergen</title>
+                <author>
+                    <name>
+                        <forename type="first">Maria</forename>
+                        <surname>Sollohub</surname>
+                        <affiliation>The <name type="org">Wittgenstein Archives</name> at the <name
+                                type="org">University of Bergen</name>
+                            <email>maria.sollohub@hd.uib.no </email>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="1996">1996</date>
+                <publisher>
+                    <name>University of Bergen</name>
+                </publisher>
+                <pubPlace>Bergen, Norway</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ALLC/ACH 1996</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first">Anne</forename>
+                        <surname>Lindebjerg</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Espen</forename>
+                        <forename type="middle">S.</forename>
+                        <surname>Ore</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Øystein</forename>
+                        <surname>Reigem</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item>SGML</item>
+                        <item>MECS</item>
+                        <item>electronic facsimile</item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <div>
+                    <head>Introduction</head>
+                    <p>The aim of The Wittgenstein Archives at the University of Bergen is to make
+                        the complete writings of the Austrian philosopher, Ludwig Wittgenstein,
+                        available in the form of electronic facsimile and transcriptions.
+                        Specialised software has been developed in order to facilitate the
+                        preparation, presentation and analysis of the texts. At the ALLC/ACH
+                        conference in Bergen in 1996 we would like to take the opportunity to
+                        present our project by means of a poster and software presentation.</p>
+                    <p>In cooperation with Oxford University Press, the Wittgenstein Nachlass will
+                        be published in electronic form. The entire Nachlass will first be published
+                        as an electronic facsimile on CD-ROM. This facsimile may then be
+                        supplemented by transcriptions prepared at The Wittgenstein Archives in
+                        Bergen. By the end of 1995, approximately 9,000 pages had been transcribed,
+                        while transcription of the entire Nachlass is expected to be complete in
+                        1999.</p>
+                    <p>The Wittgenstein Archives was founded by the Senate of the University of
+                        Bergen in 1990 as a research project at the Department of Philosophy. The
+                        project is partly externally financed and has its own budget. The work at
+                        the Archives is made possible through an understanding with the Trustees of
+                        the copyright in the Wittgenstein Papers, Prof. G.E.M. Anscombe (Cambridge),
+                        Sir Anthony Kenny (Oxford), Prof. Peter Winch (Urbana-Champaign, Illinois)
+                        and Prof. Georg Henrik von Wright (Helsingfors).</p>
+                </div>
+                <div>
+                    <head>Poster and software presentation</head>
+                    <p>The Wittgenstein Archives' transcriptions are encoded in a primary format
+                        using a syntax called MECS (Multi-Element Code System). MECS defines the
+                        syntax for the registration standard of The Wittgenstein Archives, MECS-WIT,
+                        while MECS software enables the production of diplomatic and normalised
+                        printouts, word lists, numerical and statistical data.</p>
+                    <p>In identifying a relationship between MECS and SGML, all SGML documents are
+                        formally MECS-conforming, but not vice versa. MECS contains some of the
+                        properties of SGML, but it also contains additional, simpler mechanisms for
+                        representing structures which can be cumbersome in SGML.</p>
+                    <p>In a presentation of the work of The Wittgenstein Archives, we would like to
+                        demonstrate both MECS-WIT as a successfully applied registration standard
+                        and the software facilities provided by MECS. Sample images from the
+                        forthcoming CD-ROM will be made available, together with active links
+                        between the page images and the relevant transcriptions.</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

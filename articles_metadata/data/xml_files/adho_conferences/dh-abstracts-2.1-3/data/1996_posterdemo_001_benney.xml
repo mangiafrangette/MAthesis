@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="poster/demo">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">A ToolBook Application: Using Computer Puzzles To Teach
+                    Critical-Thinking Skills</title>
+                <author>
+                    <name>
+                        <forename type="first">Alfred</forename>
+                        <surname>Benney</surname>
+                        <affiliation>
+                            <name type="org">Fairfield University</name>
+                            <email>Benney@FAIR1.Fairfield.edu </email>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="1996">1996</date>
+                <publisher>
+                    <name>University of Bergen</name>
+                </publisher>
+                <pubPlace>Bergen, Norway</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ALLC/ACH 1996</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first">Anne</forename>
+                        <surname>Lindebjerg</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Espen</forename>
+                        <forename type="middle">S.</forename>
+                        <surname>Ore</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Øystein</forename>
+                        <surname>Reigem</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item>critical-thinking</item>
+                        <item>computer puzzles</item>
+                        <item>teaching strategies</item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <div>
+                    <head>The Problem</head>
+                    <p>Students come to American Universities with critical skills that are
+                        inadequate for college-level scholarship. It is essential not only for their
+                        studies, but for their lives and careers that they learn to do analysis - to
+                        get a clear understanding of the data before they begin to form their
+                        opinions about it. In the preface to their book, <title level="m">Asking the
+                            Right Questions</title>, Neil Browne and Stuart Keeley make the
+                        following observation: <cit rend="block">
+                            <quote>. . . we were dismayed at the degree to which students and
+                                acquaintances showed an increasing dependence on "experts" -
+                                textbook writers, teachers, lawyers, politicians, journalists, and
+                                TV commentators. As the complexity of the world seems to grow at an
+                                accelerating rate, there is a greater tendency to become passive
+                                absorbers of information, uncritically accepting what is seen and
+                                heard.</quote>
+                            <bibl>
+                                <note n="1">M. Neil Browne and Stuart M. Keeley, <title level="m"
+                                        >Asking the Right Questions</title>, Englewood Cliffs, NJ:
+                                    Prentice-Hall, Inc. (1990), p. ix. </note>
+                            </bibl>
+                        </cit></p>
+                    <p>Humanities courses have a distinct advantage in providing an educational
+                        environment for teaching analysis or some form of critical thinking. The
+                        subject is fuzzy and represents the way most humans interact with their
+                        world and with one another. Because of this, analytic skills learned in this
+                        environment have applications in a variety of people-oriented careers such
+                        as teaching, politics, business, mediation/negotiation, criminal law, etc.,
+                        as well as the obvious uses for personal relationships and
+                        communication.</p>
+                    <p>Moreover, in today's world, there is increased pressure to evaluate education
+                        with a "bottom line" mentality. Pressure is on teachers and students alike
+                        to treat education as if it were only training to function in society. The
+                        common comment to students "Oh, what are you going to do with your degree?"
+                        illustrates normative thinking in American society. Unfortunately this has
+                        led to two sorts of fallacies:<list>
+                            <item>1. Humanities courses have little value because their main focus
+                                is not a hands-on application;</item>
+                            <item>2. In this so-called "Information Age" education is reduced to
+                                "getting the answers to the questions."</item>
+                        </list></p>
+                    <p>In the second case, the fallacy is of course, that the questions are
+                        apparent; that there is no skill involved in exploring the problem; and that
+                        there is no need to understand nor evaluate the problem before we apply
+                        solutions (that are expected to bring instantaneous results).</p>
+                    <p>In the first case, the fallacy is that we have lost sight of what humanities
+                        education really is. Without making this the focus of this exercise, let me
+                        suggest that one way of thinking about this is that humanities courses
+                        explore the messy business of learning how to analyze and evaluate the
+                        questions that concern human beings.</p>
+                </div>
+                <div>
+                    <head>The Approach</head>
+                    <p>Gerald Bracey, reporting on the 1991 meeting of the American Psychological
+                        Association, points out that technology has not paid attention to the most
+                        recent findings of cognitive psychology. <cit rend="block">
+                            <quote>. . . cognitive psychologists . . . have come to believe that
+                                `metacognition' plays an enormous role in learning. In general,
+                                metacognition refers to thinking about your own thinking, regulating
+                                it, and directing it according to the changing conditions of your
+                                environment.</quote>
+                            <bibl>
+                                <note n="2">Gerald Bracey, "Educational Technology Should Heed
+                                    Cognitive Psychology," <title level="j">Electronic
+                                        Learning</title>, vol. 11, no. 3, Nov./Dec. 1991, p. 19.
+                                </note>
+                            </bibl>
+                        </cit></p>
+                    <p>At Fairfield University, I introduce my students to the question of analysis
+                        and problem solving by using in class a puzzle exercise which I designed
+                        using ToolBook. By displaying a series of puzzles, I am able to elicit
+                        immediate and direct response from nearly every student in the class and by
+                        interrupting the process at strategic points can call attention to what it
+                        is that they are doing as they attempt to solve these problems
+                        (metacognition). It is easy to demonstrate, for example, how such things as
+                        assumptions, artificial boundaries, distractions, patterns, lack of
+                        information and failure to see the problem prevent us from accurately
+                        analyzing a problem.<note n="3">For an interesting discussion of obstacles
+                            to problem solving see: Rubinstein, Moshe F., <title level="m">Patterns
+                                of Problem Solving</title>. Englewood Cliffs, N. J.: Prentice-Hall,
+                            Inc., 1975.</note></p>
+                    <p>In this exercise, the puzzles are presented on a large screen projection
+                        system and both the type of puzzle as well as the timing of the presentation
+                        is in my control; my objective is:<list>
+                            <item>1. To involve the class/audience in responding to the
+                                problem;</item>
+                            <item>2. to create a competitive environment that rewards those who have
+                                solutions, but keeps those who fail anonymous;</item>
+                            <item>3. to pattern student thinking so that they discover how
+                                distractions, artificial boundaries etc. inhibit their ability to
+                                "think";</item>
+                            <item>4. and to explore with them just what they/their minds are doing
+                                when they are solving/trying to solve these relatively simple
+                                problems.</item>
+                        </list></p>
+                </div>
+                <div>
+                    <head>The "Technique"</head>
+                    <p>It is important to understand that this is not a tutorial which simply
+                        presents Puzzles (ideas/concepts) to the students. Rather it is the use of
+                        technology to create a public event that involves the class in a common
+                        enterprise. The teacher is most assuredly a guide in this enterprise.
+                        Because of the nature of hypertext, it is possible to organize the structure
+                        of the program based on the interaction of the students. The teacher must
+                        learn how to use this strategy to effect the desired outcomes. Milton Glick
+                        and others points out "that it is not what the teacher does but what he or
+                        she gets the students to do that results in learning." <note n="4">Milton
+                            Glick, "Integrating Computing into Higher Education: An Administrator's
+                            View," Educom Review, vol. 25, no. 2 (1990), p. 35.</note></p>
+                    <p>The use of the CRT to create an interactive information environment provides
+                        what I would call "appropriate use," because it ". . . gives the . . .
+                        [teacher] the ability to access and manipulate not just information products
+                        (such as text, graphics, video), but information processes as well."<note
+                            n="5">Katheryn Conway, <title level="m">Master Classrooms: Classroom
+                                Design with Technology in Mind</title>. Research Triangle Park, NC:
+                            Institute for Academic Technology (1990), p. 4.</note></p>
+                </div>
+                <div>
+                    <head>The Payoff</head>
+                    <p>Presenting this project at a poster session makes it possible to discuss this
+                        educational strategy with participants from a variety of disciplines as well
+                        as to demonstrate the actual use of the puzzles to simulate a classroom
+                        situation. In this setting it is also easier to respond to specific
+                        questions about the authoring system (ToolBook 3.0a) as well as the design
+                        of the "books" used. It also becomes possible to tailor the presentation to
+                        the various needs of the participants.</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

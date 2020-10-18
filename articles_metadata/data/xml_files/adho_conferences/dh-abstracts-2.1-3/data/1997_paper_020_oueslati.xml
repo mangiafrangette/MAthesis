@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="paper">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">A corpora-based environment for linguistic knowledge
+                    exploration</title>
+                <author>
+                    <name>
+                        <forename type="first">Rochdi</forename>
+                        <surname>Oueslati</surname>
+                        <affiliation>
+                            <name type="org">ERIC (Equipe de Recherche en Ingenierie des
+                                Connaissances)</name>
+                            <email>rochdi@eric.u-strasbg.fr</email>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="1997">1997</date>
+                <publisher>
+                    <name>Queen's University</name>
+                </publisher>
+                <pubPlace>Kingston, Ontario</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ACH/ALLC 1997</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name type="org">the secretarial staff in the Department of French Studies at Queen's University</name>
+                    <name>
+                        <forename type="first">Greg</forename>
+                        <surname>Lessard</surname>
+                    </name>
+                    <name>
+                        <forename type="first"/>
+                        <surname/>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item>linguistic relations</item>
+                        <item>text analysis</item>
+                        <item>formulation of linguistic quieries</item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <div>
+                    <head>Introduction</head>
+                    <p>The design of linguistic tools can be a helpful aid to a linguist exploring
+                        concepts and relations in texts. Analysing texts and acquiring linguistic
+                        concepts from corpora may be an interactive, successive- refinement process.
+                        A linguist may analyse a domain text and perform a series of experiments (he
+                        may explore a list of domain terms, search for contexts, and then
+                        interpretes the results) to search for linguistic concepts. For such a
+                        research approach to be practical, a linguist needs a user-friendly system
+                        that supports:<list>
+                            <item>- text analysis without requiring the user to be aware of the
+                                storage structures and processing strategies involved</item>
+                            <item>- easy formulation and execution of queries against the
+                                text</item>
+                            <item>- a natural representation of the relationships between words,
+                                terms and linguistic concepts in texts.</item>
+                        </list></p>
+                    <p>To perform text analysis and knowledge exploration we developed an
+                        environment called LEXICA (lexical and linguistic concept acquisition) which
+                        processes texts and allows the user (a linguist or a terminologist) to enter
+                        a query in order to search for linguistic concepts in texts.</p>
+                </div>
+                <div>
+                    <head>1. The major design goals of LEXICA</head>
+                    <p>The process of acquisition and exploitation of linguistic knowledge from
+                        texts is seen as an important issue to help the construction of knowledge
+                        bases (Czap and Nedobity, 1990) , (Meyer, et al., 1992) , (Skuce, 1993). The
+                        major design goals of our system that contibute to its usefulness as an
+                        environment for linguistic knowledge acquisition and structuring are to:<list>
+                            <item>- provide a set of modules to perform text analysis</item>
+                            <item>- provide a query facility to search for linguistic
+                                concepts</item>
+                        </list>
+                    </p>
+                </div>
+                <div>
+                    <head>2. How LEXICA can help a linguist</head>
+                    <p>Consider a linguist charged with studying domain-specific relations. One way
+                        to search for these relations is to formulate a query which search for
+                        co-occuring domain terms. For instance, the linguist can enter the following
+                        formula: art+term+verb+art+term (an article followed by a term followed by a
+                        verb, followed by an article followed by a term) which can be seen as a list
+                        of liguistic constraints performed in order to search for all contexts of
+                        two terms which co-occur in the context of a verb.</p>
+                    <p>First of all this paper discusses methodologies for term and linguistic
+                        knowledge acquisition from texts and describes our system LEXICA (section
+                        3). Then we describe how such a system can be efficient to support tasks of
+                        linguistic knowledge acquisition and exploitation (section 4). Finally, the
+                        paper closes with a brief overview (section 5).</p>
+                </div>
+                <div>
+                    <head>3. System architecture</head>
+                    <div>
+                        <head>3.1 Introduction</head>
+                        <p>Corpora-based techniques have been widely used for term acquisition and
+                            text analysis (Delisle and Szpakowics, 1991) , (Delisle, et al., 1994) ,
+                            (Müller, 1989). Classical methods often use grammars and domain
+                            dictionaries (Mars, et al., 1994). They cannot be used in totally new
+                            domains where domain dictionaries and conceptual hierarchies have not
+                            yet been established. Such a process is time consuming. We propose to
+                            use an original method to text analysis which uses repeated word
+                            sequences to identify terms denoting concept labels and perform term
+                            structuring.</p>
+                    </div>
+                    <div>
+                        <head>3.2. Description of our system</head>
+                        <p>Our system is implemented in Maccintosh Common Lisp on a Mac station. Two
+                            parts of the system have to be differentiated:<list>
+                                <item>1) a preprocessing part (modules: MANTEX, TSTRUCT, VERB) which
+                                    performs text and term processing and structuring
+                                    (identification of words, sentences, collocations, terms). </item>
+                                <item>2) a query part (LEX module) which is a user-friendly langage
+                                    which allow the user to handle a set of predefined linguistic
+                                    categories and search for linguistic relations.</item>
+                            </list></p>
+                        <div>
+                            <head>3.2.1. The preprocessing part</head>
+                            <p>
+                                <eg>- The MANTEX module
+                               
+                                      &lt;Conceptual diagram&gt;:
+                               
+                                      Text --> MANTEX --> term candidates --> term validation
+                                                          (automatic)         (interactive)</eg>
+
+                            </p>
+                            <p>Many term acquisition tools (Enguehard, 1992) , (Smadja, 1993) ,
+                                (Bourrigault and Condamines, 1995) , (Justeson and Katz, 1995)
+                                (Reinert, 1995) use different methods to perform term acquisition
+                                and linguistic knowledge structuring. For instance, Smadja uses
+                                statistical methods to collect relevant pairs of co-occuring words,
+                                which are then used to reconstruct n-word collocations (called
+                                n-grams).</p>
+                            <p>Our approach to term acquisition uses repeated word sequences and
+                                word distributions to help locate meaningful entities in text.
+                                Repeated word sequences (Lebart and Salem, 1994) are n-word strings
+                                (n > 1) occurring at least twice in the text (strings containing
+                                punctuation are not considered). The semantic hypothesis behind
+                                repeated word sequences is based on Harris (Harris, 1968) .
+                                According to Harris, language offers discrete and arbitrary
+                                linguistic units which may be clustered according to linguistic
+                                constraints (i.e., terms are made up of linguistic units chosen to
+                                cluster according to linguistic constraints). MANTEX generates a
+                                list of term candidates which may be validated by a terminologist.</p>
+                            <p>
+                                <eg>- The TSTRUCT module
+                                      
+                                      &lt;Conceptual diagram&gt;:
+                                      Terms --> TSTRUCT module --> term tree
+                                                  (automatic)</eg>
+                            </p>
+                            <p>The TSTRUCT module produces a structured list of terms: generally
+                                terms can occur in texts with different extensions, the main term
+                                can be seen as the head of a tree and extensions as branches. For
+                                instance, in French, the first noun of a noun phrase usually
+                                expresses the main concept, while the rest expresses specification. </p>
+                            <p>While our system has specifically addressed only French terminology
+                                we think it can easily be transported to other languages. For
+                                instance we are working on extracting terms from a genetic
+                                engineering corpus in English. For instance, in "DNA molecules" the
+                                main concept is "DNA" and "molecules" is used to specify the main
+                                concept. example of a term tree:<lb/>
+                                <eg>                  (DNA)
+                                                        !
+                                    --------------------------------------------------
+                                    !                 !        !            !
+                                    (molecules) (markers) (sequences) (strands)</eg>
+                            </p>
+                            <p>In English the problem is that the main noun in a noun phrase is
+                                often the last, as in (DNA STRANDS) but may sometimes be the first
+                                as in (STRANDS OF DNA).</p>
+                            <p>
+                                <eg>- The VERB module
+                                    &lt;Conceptual diagram&gt;:
+                                    Text, morphological rules -->         VERB       --> verbs
+                                                                                     (automatic)</eg>
+                            </p>
+                            <p>To build a list of domain verbs we use a set of morphological rules:
+                                Let (L) = (e, ait, aient, ant, er) be a list of verb endings. If a
+                                word (w) ends with a member (m) of (L) then our system supposes the
+                                string consisting of (w) without (m) is a radical candidate. If this
+                                candidate is also found with another member of (L) then it is
+                                retained as a verb (for example, "montr(ent)" and "montr(ait)" -->
+                                the verb is :"montr(er)").</p>
+                        </div>
+                        <div>
+                            <head>3.2.1. The query part </head>
+                            <p>
+                                <eg>- The LEX module
+                                    &lt;Conceptual diagram&gt;:
+                                    Text, terms, categories, formula -->          LEX -->       contexts
+                                                                                                (automatic)</eg>
+                            </p>
+                            <p>The LEX module handles lexical (words, terms, categories ...) and
+                                morphological data (the different forms of a verb, terms in a
+                                singular/plural form...).</p>
+                            <p>- A personalized dictionary</p>
+                            <p>The linguist may use a personalized dictionary which contains a few
+                                predefined linguistic categories such as: art: for article term: for
+                                term, etc.. In addition, he may interact with the system to create
+                                new categories. For instance, he may create the category: det (as
+                                determinant) which may refer to the following linguistic categories:
+                                article (a, an, the), possessive adjectives (his, her, ...).</p>
+                            <p>The following table resumes the predefined categories: <table
+                                    rows="14" cols="3">
+                                    <row>
+                                        <cell role="label">category</cell>
+                                        <cell role="label">explanation</cell>
+                                        <cell role="label">examples </cell>
+                                    </row>
+                                    <row>
+                                        <cell/>
+                                        <cell/>
+                                        <cell/>
+                                    </row>
+                                    <row>
+                                        <cell>abr</cell>
+                                        <cell>abbreviation</cell>
+                                        <cell>"DNA"</cell>
+                                    </row>
+                                    <row>
+                                        <cell>prep</cell>
+                                        <cell>preposition</cell>
+                                        <cell>to, for, ...</cell>
+                                    </row>
+                                    <row>
+                                        <cell>art</cell>
+                                        <cell>article</cell>
+                                        <cell>a, the, ...</cell>
+                                    </row>
+                                    <row>
+                                        <cell>artd</cell>
+                                        <cell>definite article</cell>
+                                        <cell>the</cell>
+                                    </row>
+                                    <row>
+                                        <cell>arti</cell>
+                                        <cell>indefinite article</cell>
+                                        <cell>a, an</cell>
+                                    </row>
+                                    <row>
+                                        <cell>term</cell>
+                                        <cell>domain term</cell>
+                                        <cell/>
+                                    </row>
+                                    <row>
+                                        <cell>period</cell>
+                                        <cell>!.:;? ...</cell>
+                                        <cell/>
+                                    </row>
+                                    <row>
+                                        <cell>pon</cell>
+                                        <cell>other punctuations</cell>
+                                        <cell/>
+                                    </row>
+                                    <row>
+                                        <cell>comma</cell>
+                                        <cell>,</cell>
+                                        <cell/>
+                                    </row>
+                                    <row>
+                                        <cell>verb</cell>
+                                        <cell>a verb</cell>
+                                        <cell/>
+                                    </row>
+                                    <row>
+                                        <cell>pron</cell>
+                                        <cell>pronoun</cell>
+                                        <cell>he, she, ...</cell>
+                                    </row>
+                                    <row>
+                                        <cell>text</cell>
+                                        <cell>a string of text</cell>
+                                        <cell/>
+                                    </row>
+                                </table>
+                            </p>
+                            <p>- The LEXICA formula</p>
+                            <p>The LEXICA formula is a list of constraints: C1, .., Cn each
+                                constraint of the formula may be a variable, a string of text, or
+                                linguistic category. Variables and categories may be followed by a
+                                list of logical predicates (a Lisp like form). For instance, the
+                                user may specifie that a constraint is the verb "to contain":
+                                verb/(="contain").</p>
+                            <p>Two parts of the system have to be differentiated: - the local
+                                constraints (described above) - the global constraints: they are
+                                specified at the end of the formula (after the sign "&amp;") and
+                                they are applied to the whole formula. For instance the user
+                                executes the formula art+x+verb+y and may describe that the number
+                                of the contexts to be found is equal to the value1. After adding the
+                                global constraints the formula is now: art+x+verb+y &amp;
+                                (context= 1) In order to express local and global constraints, we
+                                developed a set of predefined predicates which may be used in a
+                                formula, for instance: <table rows="10" cols="2">
+                                    <row>
+                                        <cell>predicates</cell>
+                                        <cell>examples</cell>
+                                    </row>
+                                    <row>
+                                        <cell/>
+                                        <cell/>
+                                    </row>
+                                    <row>
+                                        <cell>=</cell>
+                                        <cell>x/(="contain")</cell>
+                                    </row>
+                                    <row>
+                                        <cell/>
+                                        <cell>;; true if the value of x is equal to the</cell>
+                                    </row>
+                                    <row>
+                                        <cell/>
+                                        <cell>word "contain"</cell>
+                                    </row>
+                                    <row>
+                                        <cell>in</cell>
+                                        <cell>x/(in list-of-words)</cell>
+                                    </row>
+                                    <row>
+                                        <cell/>
+                                        <cell>;; true if x belongs to the list-of-words</cell>
+                                    </row>
+                                    <row>
+                                        <cell>context=</cell>
+                                        <cell>(context> 1)</cell>
+                                    </row>
+                                    <row>
+                                        <cell>contex&lt;</cell>
+                                        <cell>;; checks the number of contexts to be found</cell>
+                                    </row>
+                                    <row>
+                                        <cell>contex></cell>
+                                        <cell/>
+                                    </row>
+                                </table>
+                            </p>
+                            <p>- Syntax of the formula: <table rows="14" cols="3">
+                                    <row>
+                                        <cell>&lt;symb&gt;</cell>
+                                        <cell>::=</cell>
+                                        <cell>a Lisp symbol</cell>
+                                    </row>
+                                    <row>
+                                        <cell>&lt;symbp&gt;</cell>
+                                        <cell>::=</cell>
+                                        <cell>a predifined Lisp symbol</cell>
+                                    </row>
+                                    <row>
+                                        <cell>&lt;nombre&gt;</cell>
+                                        <cell>::=</cell>
+                                        <cell>{0|1|2|3|4|5|6|7|8|9}+</cell>
+                                    </row>
+                                    <row>
+                                        <cell>&lt;string&gt;</cell>
+                                        <cell>::=</cell>
+                                        <cell>a string of text</cell>
+                                    </row>
+                                    <row>
+                                        <cell>&lt;variable&gt;</cell>
+                                        <cell>::=</cell>
+                                        <cell>{&lt;symb&gt;}</cell>
+                                    </row>
+                                    <row>
+                                        <cell>&lt;category&gt;</cell>
+                                        <cell>::=</cell>
+                                        <cell>{&lt;symbp&gt;}</cell>
+                                    </row>
+                                    <row>
+                                        <cell/>
+                                        <cell/>
+                                        <cell/>
+                                    </row>
+                                    <row>
+                                        <cell>&lt;element&gt;</cell>
+                                        <cell>::=</cell>
+                                        <cell>&lt;string&gt; | &lt;variable&gt; |
+                                            &lt;category&gt;</cell>
+                                    </row>
+                                    <row>
+                                        <cell>&lt;formula&gt;</cell>
+                                        <cell>::=</cell>
+                                        <cell>{&lt;element&gt;}*</cell>
+                                    </row>
+                                    <row>
+                                        <cell>&lt;predicat&gt;</cell>
+                                        <cell>::=</cell>
+                                        <cell>(&lt;symb&gt;
+                                            {&lt;element&gt;}*)</cell>
+                                    </row>
+                                    <row>
+                                        <cell>&lt;condition&gt;</cell>
+                                        <cell>::=</cell>
+                                        <cell>({&lt;predicat&gt;}) |
+                                            {&lt;operator&gt;
+                                            {&lt;predicat&gt;}+}*</cell>
+                                    </row>
+                                    <row>
+                                        <cell>&lt;selection&gt;</cell>
+                                        <cell>::=</cell>
+                                        <cell> {/&lt;condition&gt;}</cell>
+                                    </row>
+                                    <row>
+                                        <cell>&lt;contraint&gt;</cell>
+                                        <cell>::=</cell>
+                                        <cell>(&lt;element&gt;
+                                            &lt;selection&gt;)</cell>
+                                    </row>
+                                    <row>
+                                        <cell>&lt;operator&gt;</cell>
+                                        <cell>::=</cell>
+                                        <cell>and | or | not</cell>
+                                    </row>
+                            </table></p>
+                            <p>Each symbol handled by a formula is a Lisp symbol. In order to
+                                separate the constraints we use the sign "+".</p>
+                            <p>To express the global constraints we use the sign "&amp;" at the
+                                end of the formula followed by a list of predicates. A
+                                &lt;constraint&gt; of a formula may be described by an
+                                &lt;element&gt; followed by a selection (the sign "/") of a
+                                condition which is a a predicate or a list of predicates connected
+                                by a Lisp &lt;operator&gt;.</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <head>4. Exploring linguistic knowledge</head>
+                    <p>In this section we will describe how the terms can be exploited to handle
+                        relations which hold between terms. We are interested in external relations
+                        which hold between two terms: term1 and term2 . Our main idea is that a verb
+                        occurring with two terms: &lt;term1 verb term2&gt; may describe a
+                        domain-specific relation.</p>
+                    <p>1) example: we apply the following formula: term+verb/(="montrer")+term
+                        &amp; (context> 1). The LEX module collects contexts containing two
+                        terms which co-occur with the verb "montrer" (to show): <table rows="9"
+                            cols="3">
+                            <row>
+                                <cell role="label">term</cell>
+                                <cell role="label">form of the verb</cell>
+                                <cell role="label">term</cell>
+                            </row>
+                            <row>
+                                <cell/>
+                                <cell/>
+                                <cell/>
+                            </row>
+                            <row>
+                                <cell>(coronarographie)</cell>
+                                <cell>montre (present)</cell>
+                                <cell>(stenose)</cell>
+                            </row>
+                            <row>
+                                <cell>(coronarographie)</cell>
+                                <cell>montre (present)</cell>
+                                <cell>(reseau coronaire)</cell>
+                            </row>
+                            <row>
+                                <cell>(coronarographie)</cell>
+                                <cell>montrait (past)</cell>
+                                <cell>(lesions bitronculaires)</cell>
+                            </row>
+                            <row>
+                                <cell>(coronarographie)</cell>
+                                <cell>montre (present)</cell>
+                                <cell>(obliteration de l'IVA)</cell>
+                            </row>
+                            <row>
+                                <cell>(coronarographie)</cell>
+                                <cell>montre (present)</cell>
+                                <cell>(minimes irrégularites)</cell>
+                            </row>
+                            <row>
+                                <cell>(vaisseaux du cou)</cell>
+                                <cell>montraient (past)</cell>
+                                <cell>(occlusion de la carotide)</cell>
+                            </row>
+                            <row>
+                                <cell>(ventriculographie)</cell>
+                                <cell>montre (present)</cell>
+                                <cell>(fuite mitrale minime)</cell>
+                            </row>
+                        </table></p>
+                    <p>2) Then we apply the following formula: "coronarographie"+text+"lesion"
+                        &amp; (context> 1). The LEX module collects other contexts containing
+                        the two terms "coronarographie" and "lesion" which co-occur with other
+                        expressions: <table rows="4" cols="3">
+                            <row>
+                                <cell role="label">term</cell>
+                                <cell role="label">expression</cell>
+                                <cell role="label">term</cell>
+                            </row>
+                            <row>
+                                <cell/>
+                                <cell/>
+                                <cell/>
+                            </row>
+                            <row>
+                                <cell>coronarographie</cell>
+                                <cell>
+                                    <emph rend="bold">met en evidence</emph>
+                                </cell>
+                                <cell>lesion</cell>
+                            </row>
+                            <row>
+                                <cell>coronarographie</cell>
+                                <cell>
+                                    <emph rend="bold">a confirme l'existance</emph>
+                                </cell>
+                                <cell>lesion</cell>
+                            </row>
+                        </table></p>
+                    <p>The linguist may analyse all these structures and may interprete that all
+                        these contexts express a unique relation called "montre" (show). After this,
+                        he may applies the formula: x+ <emph rend="bold">"met en evidence"</emph> +y
+                        &amp; (context> 1) to the corpus in order to collect other contexts
+                        which may contain new terms verifying the current relation.</p>
+                </div>
+                <div>
+                    <head>5. Conclusion</head>
+                    <p>We described in this paper a linguistic environment called LEXICA which is
+                        effective for identifying terms and other linguistic categories. On the
+                        basis of some example texts, we illustrated how terms can be exploited to
+                        identify domain-specific relations. The language used by LEXICA allows the
+                        user to enter a query in the form of a list of linguistic constraints
+                        (described by labels and predicates) in order to search for contexts, and
+                        explore new linguistic concepts in texts.</p>
+                </div>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>6. References</head>
+                <listBibl>
+                    <biblStruct n="(Bourrigault and Condamines, 1995)">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">D.</forename>
+                                    <surname>Bourrigault</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">A.</forename>
+                                    <surname>Condamines</surname>
+                                </name>
+                            </author>
+                            <title level="a">Réflexions sur le concept de Base de Connaissances
+                                Terminologiques</title>
+                        </analytic>
+                        <monogr>
+                            <title level="m">Actes des Journées du PRC-IA</title>
+                            <imprint>
+                                <pubPlace>Nancy</pubPlace>
+                                <publisher/>
+                                <date when="1995">1995</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct n="(Bourrigault and Lepine, 1994)">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">D.</forename>
+                                    <surname>Bourrigault</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">P.</forename>
+                                    <surname>Lepine</surname>
+                                </name>
+                            </author>
+                            <title level="a">Méthodologie d'utilisation de LEXTER pour l'acquisition
+                                des connaissances à partir de textes</title>
+                        </analytic>
+                        <monogr>
+                            <title level="m">Actes de JAVA</title>
+                            <imprint>
+                                <pubPlace>Strasbourg</pubPlace>
+                                <publisher/>
+                                <date when="1994">1994</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct n="(Czap and Nedobity, 1990)">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">H.</forename>
+                                    <surname>Czap</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">W></forename>
+                                    <surname>Nedobity</surname>
+                                </name>
+                            </author>
+                            <title level="a">Terminology and Knowledge Engineering</title>
+                        </analytic>
+                        <monogr>
+                            <title level="m">Proceedings of the 2nd International Congress on
+                                Terminology and Knowledge Engineering</title>
+                            <imprint>
+                                <pubPlace>Frankfurt</pubPlace>
+                                <publisher>Indeks Verlag</publisher>
+                                <date when="1990">1990</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct n="(Delisle, et al., 1994)">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">S.</forename>
+                                    <surname>Delisle</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">K.</forename>
+                                    <surname>Baker</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">J.</forename>
+                                    <forename type="middle">F.</forename>
+                                    <surname>Delannoy</surname>
+                                </name>
+                            </author>
+                            <author><name>
+                                    <forename type="first">S.</forename>
+                                    <surname>Matwin</surname>
+                                </name>, et al</author>
+                            <title level="a">Du texte aux clauses de Horn par combinaison de
+                                l'analyse linguistique et de l'apprentissage symbolique</title>
+                        </analytic>
+                        <monogr>
+                            <title level="m">Actes de JAVA 94 Strasbourg</title>
+                            <imprint>
+                                <pubPlace>Strasbourg</pubPlace>
+                                <publisher/>
+                                <date when="1994">1994</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct n="(Delisle and Szpakowics, 1991)">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">S.</forename>
+                                    <surname>Delisle</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">S.</forename>
+                                    <surname>Szpakowics</surname>
+                                </name>
+                            </author>
+                            <title level="a">A broad coverage parser for knowledge acquisition from
+                                technical texts</title>
+                        </analytic>
+                        <monogr>
+                            <title level="m">Proceedings of 5th International Conference on Symbolic
+                                and Logical Computing ICEBOL5 MAdison SD</title>
+                            <imprint>
+                                <pubPlace>USA</pubPlace>
+                                <publisher/>
+                                <date when="1991">1991</date>
+                                <biblScope type="pp">169-183</biblScope>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct n="(Enguehard, 1992)">
+                        <analytic>
+                            <author><name><forename type="first">C.</forename><surname>Enguehard</surname></name></author>
+                            <title level="a">ANA: Apprentissage Naturel Automatique d'un reseau sémantique</title></analytic>
+                        <monogr>
+                            <edition>Thesis</edition>
+                            <imprint>
+                                <publisher>UTC Compiegne et CEA Cadarache</publisher>
+                                <date when="1992">1992</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book" n="(Harris, 1968)"><monogr>
+                        <author>
+                            <name>
+                                <forename type="first">Z.</forename>
+                                <surname>Harris</surname>
+                            </name>
+                        </author>
+                        <title level="m">Mathematical structure of Language</title>
+                        <imprint>
+                            <pubPlace>New York</pubPlace>
+                            <publisher>Wiley Interscience</publisher>
+                            <date when="1968">1968</date>
+                        </imprint>
+                    </monogr></biblStruct>
+                    <biblStruct type="journalArticle" n="(Justeson and Katz, 1995)">
+                        <analytic>
+                            <author><name><forename type="first">J.</forename>
+                                <forename type="middle">J.</forename><surname>Justeson</surname></name></author>
+                            <author><name><forename type="first">M.</forename><surname>Katz</surname></name></author>
+                            <title level="a">Technical terminology: some linguistic properties and an algorithm for identification in text</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Natural Language Engineering</title>
+                            <imprint>
+                                <biblScope type="vol">1</biblScope>
+                                <biblScope type="issue">1</biblScope>
+                                <biblScope type="pp">9-27</biblScope>
+                                <date when="1995">1995</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book" n="(Lebart and Salem, 1994)"><monogr>
+                        <author>
+                            <name>
+                                <forename type="first">L.</forename>
+                                <surname>Lebart</surname>
+                            </name>
+                        </author>
+                        <author>
+                            <name>
+                                <forename type="first">A.</forename>
+                                <surname>Salem</surname>
+                            </name>
+                        </author>
+                        <title level="m">Statistique textuelle</title>
+                        <imprint>
+                            <pubPlace></pubPlace>
+                            <publisher>Dunod</publisher>
+                            <date when="1994">1994</date>
+                        </imprint>
+                    </monogr></biblStruct >
+                    <biblStruct n="Mars, et al., 1994)">
+                        <analytic>
+                            <author><name><forename type="first">N.</forename>
+                                <surname>Mars</surname></name></author>
+                            <author><name><forename type="first">H.</forename>
+                                <forename type="middle">D.</forename><surname>Jong</surname></name></author>
+                            <author><name><forename type="first">P.</forename>
+                                <forename type="middle">H.</forename><surname>Speel</surname></name></author>
+                            <author><name><forename type="first">G.</forename>
+                                <surname>Wilco</surname></name>, et al</author>
+                            <title level="a">Semi- automatic knowledge acquisition in Plinius: an engineering approach</title>
+                        </analytic>
+                        <monogr>
+                            <title level="m">Proceedings of the 8th Banff Knowledge Acquisition for Knowledge Based Systems Workshop</title>
+                            <imprint>
+                                <pubPlace></pubPlace>
+                                <publisher></publisher>
+                                <date when="1994">1994</date>
+                            </imprint>
+                        </monogr></biblStruct>
+                    <biblStruct n="(Meyer, et al., 1992)">  
+                        <analytic>
+                            <author><name><forename type="first">I.</forename>
+                                <surname>Meyer</surname></name></author>
+                            <author><name><forename type="first">D.</forename>
+                                <surname>Skuce</surname></name></author>
+                            <author><name><forename type="first">L.</forename>
+                                <surname>Bowker</surname></name></author>
+                            <author><name><forename type="first">K.</forename>
+                                <surname>Eck</surname></name></author>
+                            <title level="a">Towards a new generation of terminological resources: an experiment in building a terminological knowledge base</title>
+                        </analytic>
+                        <monogr>
+                            <title level="m">Proceedings of COLING</title>
+                            <imprint>
+                                <pubPlace></pubPlace>
+                                <publisher></publisher>
+                                <date when="1992">1992</date>
+                                <biblScope type="pp">956-960</biblScope>
+                            </imprint>
+                        </monogr>
+                     </biblStruct>
+                    <biblStruct n="(Müller, 1989)">
+                        <analytic>
+                            <author><name><forename type="first">J.</forename>
+                                <forename type="middle">U.</forename><surname>Müller</surname></name></author>
+                            <title level="a">Knowledge acquisition from texts</title>
+                        </analytic>
+                        <monogr>
+                            <title level="m">Proceedings of EKAW88 St Augustin</title>
+                            <imprint>
+                                <pubPlace></pubPlace>
+                                <publisher></publisher>
+                                <date when="1989">1989</date>
+                                <biblScope type="pp">25-1, 25-16</biblScope>
+                            </imprint>
+                        </monogr></biblStruct>
+                    <biblStruct type="book" n="(Reinert, 1995)"><monogr>
+                        <author>
+                            <name>
+                                <forename type="first"></forename>
+                                <surname>Reinert</surname>
+                            </name>
+                        </author>
+                        <title level="m">ADT manuel de l'utilisateur (société Image)</title>
+                        <imprint>
+                            <pubPlace></pubPlace>
+                            <publisher></publisher>
+                            <date when="1995">1995</date>
+                        </imprint>
+                    </monogr></biblStruct>
+                    <biblStruct type="book" n="(Skuce, 1993)"><monogr>
+                        <author>
+                            <name>
+                                <forename type="first">D.</forename>
+                                <surname>Skuce</surname>
+                            </name>
+                        </author>
+                        <title level="m">A multi-functional knowledge management system</title>
+                        <imprint>
+                            <pubPlace></pubPlace>
+                            <publisher>Knowledge Acquisition</publisher>
+                            <date when="1993">1993</date>
+                            <biblScope type="pp">305-346</biblScope>
+                        </imprint>
+                    </monogr></biblStruct>
+                    <biblStruct type="journalArticle" n="(Smadja, 1993)">
+                        <analytic>
+                            <author><name><forename type="first">F.</forename>
+                                <surname>Smadja</surname></name></author>
+                            <title level="a">XTRACT: an Overview. In Computer and the Humanities</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Computers and the Humanities</title>
+                            <imprint>
+                                <biblScope type="vol">26</biblScope>
+                                <biblScope type="issue"></biblScope>
+                                <biblScope type="pp"></biblScope>
+                                <date when="1993">1993</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>  
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

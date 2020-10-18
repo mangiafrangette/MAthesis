@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/Users/saraschmidt/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="paper">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">XML Content Integration: An Example from the Heml
+                    Project</title>
+                <author>
+                    <name>
+                        <forename type="first">Bruce</forename>
+                        <surname>Robertson</surname>
+                        <affiliation>
+                            <name type="org">Mount Allison University</name>, Canada
+                                <email>brobertson@mta.ca</email>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="2002">2002</date>
+                <publisher>
+                    <name>University of Tübingen</name>
+                </publisher>
+                <pubPlace>Tübingen</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ALLC/ACH 2002</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first">Harald</forename>
+                        <surname>Fuchs</surname>
+                    </name>
+                    <name>
+                        <forename type="first"/>
+                        <forename type="middle"/>
+                        <surname/>
+                    </name>
+                    <name>
+                        <forename type="first"/>
+                        <surname/>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item> </item>
+                        <item> </item>
+                        <item> </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <div>
+                    <head>Introduction</head>
+                    <p>This paper illustrates how humanists' XML documents from around the web can
+                        be shared and integrated using careful schema design and simple XSLT
+                        programs.</p>
+                    <p>In the web publishing world, resource sharing and syndication are all the
+                        rage. <note n="[1]">[1] The latest RSS specification, composed in RDF, is
+                            documented at <ptr target="http://www.purl.org/rss/1.0/"/>, and a <ref
+                                target="http://www.oreillynet.com/rss/">portion</ref> of the
+                            O'Reilly network is devoted to the topic.</note> Using XML-based methods
+                        like the RDF Site Summary (RSS) or Channel Definition Format (CDF), sites
+                        can reuse and share their headlines and stories across the web.
+                        oreillynet.com's <ref target="http://www.oreillynet.com/meerkat/"
+                        >Meerkat</ref> is an impressive example of the power of this technology.</p>
+                    <p>Computerists in the humanities have applied less effort to syndication and
+                        document sharing, but as scholarly markup begins to describe realms of
+                        knowledge such as archaeology <note n="[Schloen, 2001]">[Schloen] Schloen,
+                            J. David. "Archaeological Data Models and Web Publication Using XML".
+                                <title level="j">Computers and the Humanities</title> 35.
+                        2001.</note>, <ref
+                            target="http://lists.nonprofit.net/listproc/archives/acra-l/0104/0242.html"
+                            >anthropology</ref> , <ref
+                            target="http://www.cnr.berkeley.edu/~lwang/temp/conference/chen%C2%A0aijun.pdf"
+                            >geography</ref> or history, whose content is impossible to confine, and
+                        as <ref target="http://www.w3.org/XML/%5E#9901names">XML namspaces</ref>
+                        make it possible to blend and reuse documents one within another <note
+                            n="[Bosak,
+                            1999]">[Bosak] Bosak, John. "XML
+                            Ubiquity and the Scholarly Community". <title level="j">Computers and
+                                the Humanities</title> 33. 1999.</note>, it is clear that we need to
+                        build into our markup endeavours the means of integrating resources from
+                        around the web.</p>
+                    <p>As briefly illustrated in a <ref
+                            target="http://www.nyu.edu/its/humanities/ach%C2%A0allc2001/papers/robertson-bruce/"
+                            >paper</ref> at ACH/ALLC 2001, this has been a facet of the research of
+                        the Historical Event Markup and Linking Project (<ref
+                            target="http://www.heml.org/">Heml</ref>) from its inception two years
+                        ago. Heml aims to provide the means to coordinate historical information on
+                        the web though a markup language that describes historical events and
+                        through transformations of conforming documents into historical maps,
+                        timelines and tables. After defining its markup language in XML schemas
+                        (version <ref
+                            target="http://heml.mta.ca/heml-cocoon/schemadoc/2001-07-02/heml">2001
+                            07 02</ref>) and producing conforming documents outlining Roman
+                        Republican history, Heml has turns its attention to exploring the problems
+                        and opportunities offered by a semantic web of disparate documents across
+                        the web <note n="[Berners-Lee 2000]">[Berners-Lee] Berners-Lee, Tim. "The
+                            Semantic Web". <title level="j">Scientific American</title>. May,
+                        2000.</note>. Two conclusions have been drawn from this work: first, rich
+                        scholarly markup like Heml has requirements in content integration that are
+                        more complex than the problems which the current syndication techniques aim
+                        to solve; and that, secondly, these requirements can be met using simple and
+                        ubiquitous computational tools.</p>
+                    <p/>
+                </div>
+                <div>
+                    <head>The Difficulties of Content Integration</head>
+                    <p>The more complex content integration requirements of Heml and similar schemes
+                        can be illustrated with the example of collecting recipes. Syndication
+                        schemes in common use today gather XML content like recipes in a file-box:
+                        documents or links are placed alongside each other creating a larger
+                        document <emph rend="italics">seriatim</emph>. However, as illustrated in
+                        Figure 1, this process fails to recognize the overlapping identities between
+                        documents of richly marked-up content: the <emph rend="distinct">id</emph>
+                        attributes <emph rend="distinct">flour</emph> and <emph rend="distinct"
+                            >apples</emph> appear twice, confusing matters and possibly causing the
+                        document to no longer be valid. </p>
+                    <figure>
+                        <head>Figure 1. Gathering Documents <emph rend="italics"
+                        >Seriatim</emph></head>
+                    </figure>
+                    <p>Figure 2 illustrates the preferred outcome. This process gathers the recipes
+                        as they are in a cookbook, where ingredients are identified properly with
+                        each other and so would, for instance, appear only once in an index.</p>
+                    <figure>
+                        <head>Figure 2. Integrating Content</head>
+                    </figure>
+                    <p>Content integration of Heml documents has to be of the second, more complex
+                        sort because its schema is built largely upon the identification of entities
+                        through <emph rend="distinct">id</emph> and <emph rend="distinct"
+                        >idref</emph> attributes. In brief, Heml markup comprises a series of event
+                        elements; each of these includes information about participants, chronology,
+                        locations, keywords and supporting documents. Example 1 is a Heml fragment
+                        that identifies the location `Rome.' Once defined in this way, subsequent
+                        references to this same location within the document use an XML reference
+                        element , thus: <eg>&lt;LocationRef idref="Rome"&gt;</eg>.</p>
+                    <p>These corresponding <emph rend="italics">
+                            <emph rend="distinct">Concept</emph>
+                        </emph> and <emph rend="bold">
+                            <emph rend="distinct">ConceptRef</emph>
+                        </emph> elements are a design feature of Heml markup: no elements are
+                        defined with names ending in the string <emph rend="distinct">Ref</emph>,
+                        except those that have <emph rend="distinct">idrefs</emph> which are meant
+                        to refer to elements with the corresponding name.</p>
+                    <p>
+                        <emph rend="bold">Example 1. heml:Location element</emph>
+                        <eg> &lt;Location id="Rome"&gt; 
+                            &lt;LocationLabelSet&gt;
+                            &lt;Label xml:lang="en"&gt;Rome&lt;/Label&gt;
+                            &lt;Label xml:lang="la"&gt;Roma&lt;/Label&gt;
+                            &lt;Label xml:lang="el"&gt;&#8172;&#8061;&#956;&#951;&lt;/Label&gt;
+                            &lt;/LocationLabelSet&gt; 
+                            &lt;Latitude&gt;
+                            &lt;GeographicalHourLatitude&gt;41&lt;/GeographicalHourLatitude&gt;
+                            &lt;GeographicalMinute&gt;49&lt;/GeographicalMinute&gt;
+                            &lt;GeographicalSecond&gt;2&lt;/GeographicalSecond&gt;
+                            &lt;/Latitude&gt; 
+                            &lt;Longitude&gt;
+                            &lt;GeographicalHourLongitude&gt;12&lt;/GeographicalHourLongitude&gt;
+                            &lt;GeographicalMinute&gt;19&lt;/GeographicalMinute&gt;
+                            &lt;GeographicalSecond&gt;8&lt;/GeographicalSecond&gt;
+                            &lt;/Longitude&gt; &lt;/Location&gt;</eg>
+                    </p>
+                </div>
+                <div>
+                    <head>Design Goals</head>
+                    <p>There are many ways to approach the problem of integrating such materials;
+                        some approaches have the virtue of not requiring metadata at all. The
+                        following design goals dictated the Heml project's solution:<list>
+                            <item>1. Each constituent document and the resulting integrated document
+                                should be intelligible and valid.</item>
+                            <item>2. It should be possible to refer to constituent documents through
+                                URLs.</item>
+                            <item>3. A third party (that is, someone who is not the creator of any
+                                of the documents and has no influence in their design) should be
+                                able to integrate documents as satisfactorily as their authors.</item>
+                            <item>4. The integrating code should be as portable as possible, ideally
+                                running on clients or servers.</item>
+                            <item>5. The integration process should be recursive so that its results
+                                can be the input of a further integration process.</item>
+                        </list></p>
+                </div>
+                <div>
+                    <head>Solution</head>
+                    <p>The Heml projects has fulfilled these goals through a metadata file and an
+                        algorithm implemented in the <ref target="http://www.w3.org/Style/XSL/"
+                        >XSLT</ref> XML document transformation language. The meta-documents that
+                        control this process have been named 'Jackdaw' documents, since like their
+                        namesakes they gather and put to use disparate materials. <note n="[2]">[2]
+                            A schema has not been prepared for the Jackdaw documents because they
+                            are still experimental. I imagine eventually generalizing the concept
+                            and expressing it in <ref target="http://www.w3.org/RDF"
+                        >RDF</ref></note> Example 2 is a jackdaw file that controls the integration
+                        of documents relating to the history of Rome down to 201 BCE. Reading from
+                        the bottom of the document up, the <emph rend="distinct"
+                            >&lt;filelist&gt;</emph> element collects URLs that refer to
+                        documents whose content this Jackdaw integrates. Further up, <emph
+                            rend="distinct">&lt;IdEquivalence&gt;</emph> elements identify a
+                            <emph rend="distinct">&lt;Master&gt;</emph> element document
+                        with one or more <emph rend="distinct">&lt;Duplicate&gt;</emph>
+                        document elements. In our example the element identified as 'Rome' in the
+                            <emph rend="italics">second punic war.xml</emph> document is listed as
+                        the master of similarly named elements in the other two.</p>
+                    <p>The XSLT code that operates on the Jackdaws can be <ref
+                            target="http://heml.mta.ca/cgi-bin/viewcvs.cgi/heml/web/xslt/external/getDocument.xsl"
+                            >obtained</ref><note n="[3]">[3] This URL corresponds to the directory
+                            path of the file; if the XSLT code is reorganized, the URL will fail. In
+                            that case, follow links from the Heml <ref target="http://www.heml.org/"
+                                >homepage</ref> to the CVS viewer and the <emph rend="distinct"
+                                >getDocument</emph> XSLT file.</note> on the Heml CVS server. Though
+                        the Heml project presently organizes its XSLT transformations using the
+                        server-side <ref target="http://xml.apache.org/cocoon2">Cocoon2</ref> engine
+                        from the Apache group, advanced web browsers -- Microsoft Explorer 5.5 and
+                        greater and most builds of Mozilla 0.9.5 and greater -- perform XSLT
+                        transformations on documents that include the proper XML processing
+                        instruction tags.</p>
+                    <p>The integrating algorithm is simple and based on the assumption that document
+                        URLs are unique and that ids are always unique within their document. A
+                        function that concatenates an input <emph rend="distinct">id</emph> with its
+                        document's URL is therefore also assumed to be unique in the integrated
+                        output document.</p>
+                    <p> The integrating algorithm blindly copies all <emph rend="distinct"
+                            >&lt;Event&gt;</emph> elements and their children from every
+                        document addressed in the <emph rend="distinct">&lt;file&gt;</emph>
+                        elements, except that it generates new id or idref attributes based on the
+                        URL and id of the old ones. Furthermore, if an idref points to an element
+                        whose id is among those listed in as an <emph rend="distinct"
+                            >&lt;IdEquivalence&gt;</emph><emph rend="distinct"
+                            >&lt;Duplicate&gt;</emph>, the new id of the corresponding <emph
+                            rend="distinct">&lt;IdEquivalence&gt;</emph><emph
+                            rend="distinct">&lt;Master&gt;</emph> is output instead. If an
+                        id is among those listed as an <emph rend="distinct"
+                            >&lt;IdEquivalence&gt;</emph><emph rend="distinct"
+                            >&lt;Duplicate&gt;</emph>, the XSLT generates the appropriate
+                            <emph rend="italics">
+                            <emph rend="distinct">ConceptRef</emph>
+                        </emph> element and gives it the idref attribute generated from the
+                            corresponding<emph rend="distinct"
+                            >&lt;IdEquivalence&gt;</emph><emph rend="distinct"
+                            >&lt;Master&gt;</emph>.</p>
+                    <p>
+                        <emph rend="bold">Example 2. `Jackdaw' Metadata file</emph>
+                        <eg> &lt;Jackdaw&gt; 
+                            &lt;IdEquivalences&gt;
+                            &lt;IdEquivalence&gt; 
+                            &lt;Master
+                            id="http://localhost:8080/heml-cocoon/source/second_punic_war.xml#Rome"/&gt; 
+                            &lt;Duplicate
+                            id="http://www.java.utoronto.ca/~brucerob/early_history.xml#Rome"/&gt; 
+                            &lt;Duplicate
+                            id="http://heml.mta.ca/~brucerob/first_punic_war.xml#Rome"/&gt;
+                            &lt;/IdEquivalence&gt;
+                            &lt;IdEquivalence&gt;
+                            &lt;Master 
+                            id="http://localhost:8080/heml-cocoon/source/second_punic_war.xml#Carthage"/&gt; 
+                            &lt;Duplicate
+                            id="http://heml.mta.ca/~brucerob/first_punic_war.xml#Carthage"/&gt;
+                            &lt;/IdEquivalence&gt; 
+                            &lt;/IdEquivalences&gt;
+                            &lt;filelist&gt;
+                            &lt;file&gt;http://localhost:8080/heml-cocoon/source/second_punic_war.xml&lt;/file&gt;
+                            &lt;file&gt;http://heml.mta.ca/~brucerob/first_punic_war.xml&lt;/file&gt;
+                            &lt;file&gt;http://www.java.utoronto.ca/~brucerob/early_history.xml&lt;/file&gt; 
+                            &lt;/filelist&gt;
+                            &lt;/Jackdaw&gt; </eg>
+                    </p>
+                    <p>This process is reasonably speedy. As a functioning example for this paper I
+                        ran the jackdaw file in Example 2 using Apache's <ref
+                            target="http://xml.apache.org/xalan-j">Xalan 2.0</ref> XSLT engine on a
+                        Celeron 400-class machine running RedHat Linux 7.2 and the <ref
+                            target="http://www-106.ibm.com/developerworks/java/jdk/linux130/?dwzone=java"
+                            >IBM 1.3-8.0</ref> Java2 SDK. With all caching switched off, it took
+                        under ten seconds to gather the resulting 35k document; and three of these
+                        seconds appear to be overhead required just to start the java processes. (
+                            <emph rend="distinct">xsltproc</emph>, an XSLT engine written in C,
+                        completes the same task in 1.7 seconds!) Network access seems to be the
+                        limiting factor for these reasonably small files.</p>
+                    <p>Of course, the resulting integrated XML document is usually invisible to the
+                        user, who navigates one or more further transformations of that document
+                        into HTML or images. Among the transformations available for Heml documents
+                        is a dynamic SVG map. (A browser plugin, <ref
+                            target="http://www.adobe.com/svg">available</ref> from Adobe for Windows
+                        and Macintosh, is required to view this image.) Passing the cursor over a
+                        dot on the map will bring up the name of the location and a list of events
+                        that took place at that location. It can be seen that the lists for Rome and
+                        Carthage include events from all periods, as instructed in the Jackdaw file
+                        in Example 2.</p>
+                    <figure/>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="paper">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Multi-Authorship of the <title level="m">Scriptores
+                        Historiae Augustae</title>: How the Use of Subsets Can Win or Lose the
+                    Case.</title>
+                <author>
+                    <name>
+                        <forename type="first">Penelope</forename>
+                        <forename type="middle">J.</forename>
+                        <surname>Gurney</surname>
+                        <affiliation>
+                            <name type="org">University of Ottawa</name>
+                            <email>pgurney@uottawa.ca</email>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Lyman</forename>
+                        <forename type="middle">W.</forename>
+                        <surname>Gurney</surname>
+                        <affiliation>
+                            <name type="org">Themis Research Corporation</name>
+                            <email/>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="1997">1997</date>
+                <publisher>
+                    <name>Queen's University</name>
+                </publisher>
+                <pubPlace>Kingston, Ontario</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ACH/ALLC 1997</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name type="org">the secretarial staff in the Department of French Studies at
+                        Queen's University</name>
+                    <name>
+                        <forename type="first">Greg</forename>
+                        <surname>Lessard</surname>
+                    </name>
+                    <name>
+                        <forename type="first"/>
+                        <surname/>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item>stylometry</item>
+                        <item>statistical analysis</item>
+                        <item>computer methods</item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <div>
+                    <p>This paper describes recent research that we have carried out on the
+                        arbitration of disputed authorship attribution. In an earlier study, we
+                        lemmatized and disambiguated fully the thirty biographies of the <title
+                            level="m">Scriptores Historiae Augustae</title>, and the results of the
+                        analysis of that work have provided us with a benchmark and control group
+                        for further analysis of two major related questions:<list>
+                            <item>* Can statistical analysis be based successfully upon the argument
+                                that "... stylometric theory posits the existence of homogeneity
+                                within a single work by a single author." (Ledger &amp; Merriam,
+                                1994).</item>
+                            <item>* Does such homogeneity imply that stylometric analysis of a
+                                subset can be equivalent to the analysis of the whole?</item>
+                        </list></p>
+                    <p>This paper thus extends the reach of our previous research on the analysis of
+                        fully lemmatized and disambiguated texts, and describes general problems
+                        that occur when subsets of the main text are to be compared in place of the
+                        entire text. It thus attempts to lay out ground rules for application of our
+                        techniques to texts of lengths that are too extensive for complete manual
+                        disambiguation.</p>
+                    <p>The importance of the SHA to historians derives from the simple fact that it
+                        is a critically important "source" of historical information for much of the
+                        tumultuous period leading up to the reign of Constantine the Great, the
+                        first Christian emperor of the Roman Empire. The need for stylometric
+                        analyses of the texts is based upon the understanding that the usefulness of
+                        this set of imperial biographies would be increased greatly if it could be
+                        demonstrated that there was but a single mind, and hence but a single human
+                        frame of reference for the historical information included; and therefore
+                        that the multitude of fabrications and apparently deliberately false
+                        statements that infect this irreplaceable work can be treated and allowed
+                        for as the creations of but one individual mind. A demonstration of multiple
+                        authorship, on the contrary, would imply a disjointed effort of authorship
+                        which would be immeasurably more difficult to integrate into a coherent
+                        history of those turbulent times.</p>
+                    <p>Extensive historical analysis carried out over the past century has resulted
+                        in near complete acceptance of the concept of single authorship of the SHA.
+                        Our recent research, however, described in an earlier paper (Gurney
+                        &amp; Gurney, 1996), and based entirely on internal stylometric methods,
+                        shows, to a rather high degree of statistical confidence, that the
+                        attribution in the manuscripts to the six otherwise unknown authors is
+                        probably based upon historical fact.</p>
+                    <p>The initial lemmatization and disambiguation of the SHA was taken to
+                        completion, since we could find no proof that subsets are equivalent to the
+                        full texts in stylometric analysis. The concept of homogeneity had usually
+                        been stated explicitly or implicitly (Ledger &amp; Merriam, 1994), but
+                        has apparently not actually been put to the test (Kenny, 1986), although the
+                        size of the subsets has been a matter for discussion (Ellegård, 1962;
+                        Burrows &amp; Craig, 1994). Hence we completed this highly
+                        labour-intensive task of full disambiguation of the more than 100,000 words
+                        of text, using techniques described in an earlier conference on the analysis
+                        of frequency of use of vocabulary of different kinds, including function
+                        words, conjunctions, the most frequently used vocabulary, and the rate of
+                        introduction of new lemmas for each 100 words (Gurney &amp; Gurney,
+                        1994).</p>
+                    <p>The importance of the <title level="m">Scriptores Historiae Augustae</title>
+                        for an attempted understanding of the critical years leading to the era of
+                        Constantine and his successors has justified the expenditure of the time and
+                        effort involved in the complete lemmatization and manual disambiguation of
+                        the text. Such effort is impracticable, however, in texts that run to many
+                        hundreds of thousands of words; and for that reason, we have recently
+                        developed a new line of research. In this system, our avenue of approach is
+                        to make repeated random and non-random choices of subsets of target texts,
+                        and to attempt to determine if the results of statistical analyses based
+                        upon these chosen subsets are essentially statistically equivalent to those
+                        produced by the entire texts.</p>
+                    <p>The question of the alternative use of subsets became much more urgent when
+                        we embarked upon the course of TEI-compatible tagging of all parts of speech
+                        in the SHA, and upon the disambiguation and tagging of its earlier model,
+                        the <title level="m">Lives of the Twelve Caesars</title> of Gaius Suetonius
+                        Tranquillus, a work of just under 100,000 words that comprises the
+                        biographies of the first twelve emperors of Rome. This work of Suetonius is
+                        intended to act as a control work to the SHA in our further study of
+                        authorship of imperial biographies.</p>
+                    <p>We therefore began analyses of various subsets of the works, in comparison
+                        with comparable analyses of the entire text, in an attempt to determine if
+                        it is accurate to state that a given text by a given author will be
+                        internally homogeneous to the point that subsets of itself can be
+                        demonstrated to be congruent to it, in the face of stylometric comparison
+                        with other works of the same author, or of other authors, or even with each
+                        other, and with the full text.</p>
+                    <p>The new analysis required production of a new series of subset texts. First
+                        came the reduction of each text to a single sentence per disk record. Each
+                        of these files was created in three different forms, each with a different
+                        combination of sentence-delimiters to determine sentence-length: full stop,
+                        full-stop plus semi-colon, and that pair plus full-colon. In this way, we
+                        attempted to circumvent the problems of the differences of definition of
+                        sentence-length between classical times and the modern, and also between
+                        interpretations of editors from differing modern language groups, such as
+                        the difference in usage of the semi-colon between German and
+                        English-speaking editors (Janson, 1964). Initial analyses demonstrated that
+                        the use of the set of three delimiters gives acceptable results, and hence
+                        all further research was conducted on sentences that were determined by
+                        those three delimiters.</p>
+                    <p>From these files, three new groups of files were created for comparison with
+                        the original 30. First, 120 files consisting of the four quarters of each
+                        text were compiled, in addition to 60 files containing each half. Second, a
+                        set of 30 files containing exactly the first 500 words of text was
+                        developed. And finally, two sets of 30 files were created, each file
+                        containing one-quarter of all sentences of a specific biography of the SHA,
+                        chosen randomly from that text (by the linear congruence method of the ICON
+                        language): in one set, the file consists of sentences selected from the
+                        entire text; and in the other, with sentences chosen in equal numbers from
+                        each individual quarter of the text. These randomly-selected files were
+                        generated as controls for several reasons, one obtaining from the fact that
+                        it is apparent that sentence-length, in general, decreases slightly in each
+                        successive quarter of the biographies.</p>
+                    <p>The 270 new subset biographies, in their logical groups of 30, were then
+                        passed to an application system that generates a large number of matrices of
+                        data in a form suitable for transmission to SAS and SPSS.</p>
+                    <p>The original techniques that had given striking results in analysis of the 30
+                        complete biographies were next applied to the various matrices that had been
+                        created from the subsets.</p>
+                    <p>We also applied the techniques to an analysis of sentence-length
+                        distributions in the SHA, as some previous researchers have attempted to do.
+                        We found, however, that, even in the entire text, there is so little
+                        stylometric information encoded in apparent sentence-length, that scarcely
+                        more than random distribution can be found.</p>
+                    <p>One new type of analysis was also applied, to good effect: that of treating
+                        the 4 one-quarter biographies of each original biography as if they were
+                        fragments of different works of the same attributed author. By this device,
+                        it appears to be possible to ascertain if certain fractions of a work are
+                        functionally equivalent to the whole, and if the whole work is cohesive,
+                        coherent, uniform and stylometrically homogeneous.</p>
+                </div>
+                <div>
+                    <head>Results</head>
+                    <p>The first results demonstrated that the structure of a work, something which
+                        a reader recognizes subjectively, appears to be reflected in the stylometric
+                        analysis: for the various subsets of a work are not necessarily homogeneous;
+                        and the various quarters appear to be incompatible, to various degrees, one
+                        with another. For example, the seven works by Spartianus, studied as
+                        quarter-works, became twenty-eight works, which can be analyzed in the same
+                        manner as the original thirty. The only measure, however, which gives
+                        results even remotely comparable to those of the original text, is the
+                        analysis of the usage of conjunctions, in which the set of final quarters of
+                        the seven texts stands off very clearly from the others. This demonstrates a
+                        major drawback to the use of the subsets, however, since it is clear that
+                        the only means by which the results of the final quarter can be seen to be
+                        relevant and important, is by use of the fully-disambiguated original text
+                        as control: the subsets cannot be used as controls for themselves.</p>
+                    <p>In the half-text analyses, one test, that of the 15 most frequently used
+                        lemmas which appear in each of the 30 segments, gave almost complete
+                        differentiation; but most of the other tests gave very indifferent
+                        results.</p>
+                    <p>In the analysis of function words in the 500-word segments, there was good
+                        differentiation of only three authors: Capitolinus, Spartianus, and
+                        Lampridius.</p>
+                    <p>The various quarter-texts provided mixed results: on one test, quarter #1
+                        provided some differentiation of specific authors; whereas on a different
+                        test, and different quarter, other authors were separated. Hence, it is
+                        clear that no one test on subsets can provide clear discrimination of
+                        authorship, although many do appear to demonstrate a degree of multiple
+                        authorship.</p>
+                </div>
+                <div>
+                    <head>Discussion of Results</head>
+                    <p>As the various analyses were carried out, several points became clear:<list>
+                            <item>* The larger the size of the subset in relation to the full text,
+                                the better the result;</item>
+                            <item>* Any increases above the minimum possible number of key words
+                                used to generate full differentiation of authorship in the full
+                                texts produced only slight increases in the degree of
+                                differentiation. Such increases, when applied to the subsets,
+                                however, generated large increases in differentiating power, but
+                                without reaching anything near the degree of resolution of the full
+                                texts; and in no case was the discrimination clear-cut.</item>
+                        </list></p>
+                    <p>It is very clear from the analysis that, had only small segments of the texts
+                        been chosen for analysis, then a hypothesis of multiple authorship could not
+                        have been confirmed; it is only the full lemmatization and disambiguation of
+                        the entire text which has permitted such a conclusion.</p>
+                    <p>It is further evident from this study that the two questions raised for study
+                        have both been answered in the negative, namely:<list>
+                            <item>* There appears to be no homogeneity within any specific work of
+                                an individual author; rather, each work is suffused with sufficient
+                                variety internally as to maintain the interest of the reader. This
+                                variety may be the fundamental cause for analysis of small subsets
+                                not to be equivalent to analysis of the whole.</item>
+                        </list></p>
+                    <p>A fundamental conclusion of this experiment is, therefore, that, although it
+                        is not permitted to extrapolate, in general, from one experiment on one set
+                        of texts, to the stylometrics of other authors and languages, it
+                        nevertheless appears clearly necessary, for any research project that
+                        intends to use subsets of a text, to ensure that those subsets are
+                        stylometrically homogeneous with the full text - a probability, given the
+                        results of this experiment, which does not appear to be high.</p>
+                </div>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>Bibliography</head>
+                <listBibl>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">J.</forename>
+                                    <forename type="middle">F.</forename>
+                                    <surname>Burrows</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">D.</forename>
+                                    <forename type="middle">H.</forename>
+                                    <surname>Craig</surname>
+                                </name>
+                            </author>
+                            <title level="a">Lyrical Drama and the "Turbid Mountebanks": Styles of
+                                Dialogue in Romantic and Renaissance Tragedy</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Computers and the Humanities</title>
+                            <imprint>
+                                <biblScope type="vol">28</biblScope>
+                                <biblScope type="issue"/>
+                                <biblScope type="pp">63-86</biblScope>
+                                <date when="1994">1994</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">A.</forename>
+                                    <surname>Ellegård</surname>
+                                </name>
+                            </author>
+                            <title level="m">A Statistical Method for Determining Authorship. The
+                                "Junius" Letters, 1769-1772</title>
+                            <title level="s">Acta Universitatis Gothoburgensis</title>
+                            <imprint>
+                                <pubPlace>Göteborg</pubPlace>
+                                <publisher/>
+                                <date when="1962">1962</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">P.</forename>
+                                    <forename type="middle">J.</forename>
+                                    <surname>Gurney</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">L.</forename>
+                                    <forename type="middle">W.</forename>
+                                    <surname>Gurney</surname>
+                                </name>
+                            </author>
+                            <title level="a">Enhanced Content-Analysis of Inflected Languages
+                                Through a System of Computer Assisted Lemmatization</title>
+                        </analytic>
+                        <monogr>
+                            <title level="u">Presented at 'Consensus ex Machina?'. ALLC/ACH, Paris,
+                                19-23 April</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date when="1994">1994</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">P.</forename>
+                                    <forename type="middle">J.</forename>
+                                    <surname>Gurney</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">L.</forename>
+                                    <forename type="middle">W.</forename>
+                                    <surname>Gurney</surname>
+                                </name>
+                            </author>
+                            <title level="a">Disputed Authorship: 30 Biographies and Six Reputed
+                                Authors. A New Analysis by Full-Text Lemmatization of the <title
+                                    level="m">Historia Augusta</title></title>
+                        </analytic>
+                        <monogr>
+                            <title level="u">Presented at ALLC/ACH '96. Bergen, June 25-29</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date when="1996">1996</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">T.</forename>
+                                    <surname>Janson</surname>
+                                </name>
+                            </author>
+                            <title level="a">The Problems of Measuring Sentence-Length in Classical
+                                Texts</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Studia Linguistica </title>
+                            <imprint>
+                                <biblScope type="vol">18</biblScope>
+                                <biblScope type="issue"/>
+                                <biblScope type="pp">26-36</biblScope>
+                                <date when="1964">1964</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">A.</forename>
+                                    <surname>Kenney</surname>
+                                </name>
+                            </author>
+                            <title level="m">A Stylometric Study of the New Testament</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher>Oxford University Press</publisher>
+                                <date when="1986">1986</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">G.</forename>
+                                    <forename type="middle">R.</forename>
+                                    <surname>Ledger</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">T.</forename>
+                                    <forename type="middle">V.</forename>
+                                    <forename type="middle">N.</forename>
+                                    <surname>Merriam</surname>
+                                </name>
+                            </author>
+                            <title level="a">Shakespeare, Fletcher, and the Two Noble
+                                Kinsmen</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Literary and Linguistic Computing</title>
+                            <imprint>
+                                <biblScope type="vol">9</biblScope>
+                                <biblScope type="issue"/>
+                                <biblScope type="pp">235-248</biblScope>
+                                <date when="1994">1994</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

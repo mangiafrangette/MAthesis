@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="poster/demo">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">The Second Version of the ICAME CD-ROM</title>
+                <author>
+                    <name>
+                        <forename type="first">Knut</forename>
+                        <surname>Hofland </surname>
+                        <affiliation>
+                            <name type="org">University of Bergen</name>, Norway <email/>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="2000">2000</date>
+                <publisher>
+                    <name>University of Glasgow</name>
+                </publisher>
+                <pubPlace>Glasgow</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ALLC/ACH 2000</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first">Jean</forename>
+                        <surname>Anderson</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Amal</forename>
+                        <surname>Chatterjee</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Christian</forename>
+                        <forename type="middle">J.</forename>
+                        <surname>Kay</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Margaret</forename>
+                        <surname>Scott</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item> </item>
+                        <item> </item>
+                        <item> </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>The demo will present the second edition of the ICAME CD-ROM. The CD contains 20
+                    corpora, written, spoken and historical texts, with approximately 17 millions
+                    words. The CD-ROM comes with a full version of WordSmith and TACT and the
+                    retrieval component of WordCruncher (for DOS). Most of the material is indexed
+                    with WordCruncher. All the manuals are included in electronic form.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>Reference:</head>
+                <listBibl>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first"/>
+                                    <surname/>
+                                </name>
+                            </author>
+                            <title level="m"/>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date/>
+                            </imprint>
+                        </monogr>
+                        <note>&lt;<ptr target="http://www.hit.uib.no/icame/cd"/>&gt;</note>
+                    </biblStruct>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

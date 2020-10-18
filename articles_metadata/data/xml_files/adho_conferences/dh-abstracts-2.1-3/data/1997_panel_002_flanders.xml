@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="panel">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">The Epistemology of the Electronic Text: Scholarly and
+                    Pedagogical Considerations</title>
+                <author>
+                    <name>
+                        <forename type="first">Julia</forename>
+                        <surname>Flanders</surname>
+                        <affiliation>
+                            <name type="org">Brown University</name>
+                            <email>Julia_Flanders@brown.edu</email>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">John</forename>
+                        <surname>Lavagnino</surname>
+                        <affiliation>
+                            <name type="org">Brown University</name>
+                            <email>John_Lavagnino@brown.edu</email>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Carol</forename>
+                        <surname>Barash</surname>
+                        <affiliation>
+                            <name type="org">Seton Hall University</name>
+                            <email>barashca@pirate.shu.edu</email>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="1997">1997</date>
+                <publisher>
+                    <name>Queen's University</name>
+                </publisher>
+                <pubPlace>Kingston, Ontario</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ACH/ALLC 1997</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name type="org">the secretarial staff in the Department of French Studies at
+                        Queen's University</name>
+                    <name>
+                        <forename type="first">Greg</forename>
+                        <surname>Lessard</surname>
+                    </name>
+                    <name>
+                        <forename type="first"/>
+                        <surname/>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item>edition</item>
+                        <item>image</item>
+                        <item>pedagogy</item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <div>
+                    <p>In invoking "the epistemology of the electronic text" this session means to
+                        open up a set of questions which have to do with how we conceptualize
+                        electronic texts as vehicles for information, and how we imagine their
+                        particular kinds of authority. These issues have important implications for
+                        how we use electronic texts in teaching and research, since they lie at the
+                        heart of the cultural position of the electronic text, both within the
+                        culture of the academy and outside it. We would like to ask not simply what
+                        people want electronic texts to do, or what they want them to provide, but
+                        what drives these desires and how they affect the actual use of the data and
+                        function offered by electronic resources.</p>
+                    <p>The papers in the session approach these questions from several angles, but
+                        also speak to each other's concerns. John Lavagnino's paper on the place of
+                        images in the electronic scholarly edition inquires into the role of the
+                        image as guarantor of textual integrity, and the special emphasis that
+                        images receive in discussions of electronic editions. His argument that
+                        images loom disproportionately large in the imaginations of both creators
+                        and users of electronic texts engages with Carol Barash's paper on the
+                        pedagogical use of electronic texts, based on her work with the Women
+                        Writers Project's textbase and other electronic resources. She investigates
+                        both the actual use of images in teaching early women's writing, and the
+                        methodological context that supports and motivates that use, arguing that
+                        images enable different kinds of textual study and also have significant
+                        pedagogical effects on students' use of the electronic materials. Julia
+                        Flanders' paper addresses the question of the use of images in the context
+                        of attitudes towards the edition: both as a product of human judgement and
+                        taste, and as an accurate point of access to other, epistemologically prior
+                        documents. Her paper undertakes to explicate the function of the electronic
+                        edition in terms of the sociology of the academy, and its ascription of
+                        different kinds of authority to different kinds of textual and physical
+                        evidence: evidence which the electronic edition must offer in unfamiliar or
+                        defamiliarizing ways.</p>
+                    <p>Together, the papers will encourage a more self-conscious discussion of how
+                        we imagine electronic text resources, and their claims to sufficiency and
+                        authority.</p>
+                </div>
+                <div type="EmbeddedDoc">
+                    <div>
+                        <head>Trusting the Electronic Text</head>
+                        <p rend="presenter">Julia Flanders</p>
+                        <div>
+                            <div>
+                                <head>Introduction</head>
+                                <p>The trustworthiness or untrustworthiness of electronic texts and
+                                    electronic editions is a topic of acute concern to those who see
+                                    conventional libraries supplemented by new electronic resources,
+                                    many of which offer unparalleled access to rare materials if
+                                    they can only be relied upon for accuracy and scholarly
+                                    integrity. The public media also finds accuracy and integrity of
+                                    great interest as a way of approaching the issue of electronic
+                                    texts generally. Caveats about lack of depth, shoddiness, and
+                                    unscholarliness have a more than factual force: they express as
+                                    well the intangible concerns about the effects of electronic
+                                    materials on the cultural status of texts, or their intimation
+                                    of some underlying paradigm shift with unforeseeable
+                                    consequences. The trustworthiness of the electronic text thus
+                                    becomes the focus for deeper questions about its cultural
+                                    authority.</p>
+                                <p>As the electronic text, and particularly the electronic edition,
+                                    receives increasing attention and use, expectations about what
+                                    it should look like and do become more specific, ambitious, and
+                                    realistic. We not only have diverse examples before us of
+                                    successful electronic edition projects (the Canterbury Tales
+                                    Project, the electronic edition of Samuel Johnson's Dictionary,
+                                    the Rossetti Archive, the Blake Archive) but we also begin to
+                                    have feedback from users--themselves increasingly
+                                    knowledgeable--about what they expect and desire from the
+                                    electronic edition; we have, in short, the growth of a set of
+                                    common expectations which are even on the verge of becoming
+                                    dogmatically entrenched. The electronic edition, it seems,
+                                    should include some or all of the following: transcriptions of
+                                    most or all of the important witnesses; an edited text which
+                                    represents some sort of "best text" derived by the editor from
+                                    the witnesses; digital images of illustrations, manuscripts, or
+                                    even whole printed texts; annotations and textual notes;
+                                    secondary criticism; facilities for collation of variants; and
+                                    text encoding which identifies the salient components of
+                                    structure and content upon which scholarly study is based.</p>
+                            </div>
+                            <div>
+                                <head>Evaluation Criteria</head>
+                                <p>The criteria by which we judge and value these various possible
+                                    components of the electronic edition vary considerably. For
+                                    transcriptions and other textual material, we apply at least the
+                                    notion of transcriptional accuracy, which is familiar enough
+                                    from the realm of the printed text but takes on additional
+                                    complexity when the text is transcribed using something like
+                                    SGML. Secondary sources and annotations are additionally judged
+                                    for their factuality--the degree to which the statements they
+                                    make are true--and for their scholarly merit, credibility, and
+                                    relevance. Likewise, the edited version of the text will be
+                                    judged by the respectability and credibility of the scholarship
+                                    that produces it. Facilities for textual analysis, which in
+                                    projects like the Canterbury Tales may form a significant part
+                                    of the editedness of the edition, can be judged according to a
+                                    standard of computational accuracy: the capacity of the software
+                                    and encoding to produce correct, usable results to queries and
+                                    collations. Similarly, the encoding of the text may transform
+                                    aspects of the content into a more readily processable form (for
+                                    instance, by encoding punctuation or delimiters as attribute
+                                    values rather than as content) which again would be judged by
+                                    its ability to reconstruct the text accurately and usefully.
+                                    Finally, images are judged by their quantity and quality of data
+                                    (resolution and accuracy) but also by the air of tangible,
+                                    attestable reality which they bring with them.</p>
+                            </div>
+                            <div>
+                                <head>Reality and Models</head>
+                                <p>In the last two cases given above--images and what we might call
+                                    computational features--we see an encapsulation of the
+                                    polarities of the electronic edition. In the case of the image,
+                                    data is provided which is only processable by the human eye, and
+                                    which is nearly impervious (at least at present) to any kind of
+                                    computerized retrieval or analysis. Almost in direct proportion
+                                    to its intractability, the image is seen as substantiating the
+                                    real-world existence of the text which the electronic
+                                    transcription reproduces: without the visual evidence of the
+                                    image, as John Lavagnino has argued, the electronic edition
+                                    seems perversely ungrounded and untrustworthy. In the case of
+                                    computational features, the original text is rendered far more
+                                    accessible, in analytic terms, by the added encoding and the
+                                    tools provided; we might even say that its textuality has been
+                                    enhanced to the degree that the original sprawling data has been
+                                    ordered and preprocessed by the work of encoding. This
+                                    processing or functional modelling of the text, though, has a
+                                    troubled status in relation to the edition's perceived
+                                    authority, where that authority is construed along the axes of
+                                    value which apply to the more familiar aspects of the edition
+                                    derived from the realm of print. For one thing, the introduction
+                                    of computational work into the process of editing the text (as
+                                    for instance in the case of the collational features provided in
+                                    the Canterbury Tales Project) seems to supplant what turns out
+                                    to be a very important--though hard to quantify--component of
+                                    the trustworthiness of the edition as a whole, namely the role
+                                    of the scholarly editor. For another, the replacement of
+                                    recognizable content by a computational model of it draws the
+                                    text away from the realm of the tangibly real that things like
+                                    images or sounds work to substantiate, with their irreducibility
+                                    and untranslatability. These poles define in some sense the
+                                    current parameters of the electronic edition--from unprocessable
+                                    data as a facsimile of reality on the one hand, to highly
+                                    processed data as a functional model of reality on the other.
+                                    They also ask us to think about trustworthiness in the context
+                                    of other criteria such as usefulness.</p>
+                            </div>
+                            <div>
+                                <head>Conclusion</head>
+                                <p>Scholarly and pedagogical use of electronic editions relies on
+                                    the criterion of trustworthiness not simply as a kind of paltry
+                                    intellectual crutch, but at a deeper level as a crucial
+                                    component of the architecture of academic study. To the extent
+                                    that the electronic edition is being assimilated into the
+                                    general work of the academy, it is being naturalized there in a
+                                    form which corresponds most closely to the systems of value
+                                    already operative in that sphere. This paper concludes that
+                                    these systems of value, while not irrelevant, may lead scholars
+                                    away from the more functional analytical aspects of the edition,
+                                    towards those which--though they feel familiar--ultimately have
+                                    very little to do with the electronic medium.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div type="bibliography">
+                        <head>Bibliography</head>
+                        <listBibl>
+                            <biblStruct type="bookChapter">
+                                <analytic>
+                                    <author>
+                                        <name>
+                                            <forename type="first">John</forename>
+                                            <surname>Lavagnino</surname>
+                                        </name>
+                                    </author>
+                                    <title level="a">Completeness and Adequacy in Text
+                                        Encoding</title>
+                                </analytic>
+                                <monogr>
+                                    <editor>
+                                        <name>
+                                            <forename type="first">Richard</forename>
+                                            <forename type="middle">J.</forename>
+                                            <surname>Finneran</surname>
+                                        </name>
+                                    </editor>
+                                    <title level="m">The Literary Text in the Digital Age</title>
+                                    <imprint>
+                                        <pubPlace>Ann Arbor</pubPlace>
+                                        <publisher>University of Michigan Press</publisher>
+                                        <date when="1996">1996</date>
+                                    </imprint>
+                                </monogr>
+                            </biblStruct>
+                            <biblStruct type="bookChapter">
+                                <analytic>
+                                    <author>
+                                        <name>
+                                            <forename type="first">Peter</forename>
+                                            <surname>Robinson</surname>
+                                        </name>
+                                    </author>
+                                    <title level="a">Is there a text in these variants?</title>
+                                </analytic>
+                                <monogr>
+                                    <editor>
+                                        <name>
+                                            <forename type="first">Richard</forename>
+                                            <forename type="middle">J.</forename>
+                                            <surname>Finneran</surname>
+                                        </name>
+                                    </editor>
+                                    <title level="m">The Literary Text in the Digital Age</title>
+                                    <imprint>
+                                        <pubPlace>Ann Arbor</pubPlace>
+                                        <publisher>University of Michigan</publisher>
+                                        <date when="1996">1996</date>
+                                    </imprint>
+                                </monogr>
+                            </biblStruct>
+                            <biblStruct type="bookChapter">
+                                <analytic>
+                                    <author>
+                                        <name>
+                                            <forename type="first">Kathryn</forename>
+                                            <surname>Sutherland</surname>
+                                        </name>
+                                    </author>
+                                    <title level="a">Looking and Knowing: Textual Encounters of a
+                                        Postponed Kind</title>
+                                </analytic>
+                                <monogr>
+                                    <editor>
+                                        <name>
+                                            <forename type="first">Warren</forename>
+                                            <surname>Chernaik</surname>
+                                        </name>
+                                    </editor>
+                                    <editor>
+                                        <name>
+                                            <forename type="first">Marilyn</forename>
+                                            <surname>Deegan</surname>
+                                        </name>
+                                    </editor>
+                                    <editor>
+                                        <name>
+                                            <forename type="first">Andrew</forename>
+                                            <surname>Gibson</surname>
+                                        </name>
+                                    </editor>
+                                    <title level="m">Beyond the Book: Theory, Culture, and the
+                                        Politics of Cyberspace</title>
+                                    <imprint>
+                                        <pubPlace>Oxford</pubPlace>
+                                        <publisher>Office for Humanities Communication
+                                            Publications</publisher>
+                                        <date when="1996">1996</date>
+                                    </imprint>
+                                </monogr>
+                            </biblStruct>
+                        </listBibl>
+                    </div>
+                </div>
+                <div type="EmbeddedDoc">
+                    <div>
+                        <head>The Place of Images in the Electronic Edition</head>
+                        <p rend="presenter">John Lavagnino</p>
+                        <div>
+                            <p>Many of us are currently working on creating scholarly editions in
+                                electronic form, and a few of us have even managed to complete
+                                projects of this sort and make them publicly available. At this
+                                early stage, with so little experience of such
+                                editions---particularly experience with their use by scholars---it
+                                would seem unlikely that we'd be in a good position to issue any
+                                general rules about what an electronic edition should be, apart from
+                                those rules that can be carried over from the long tradition of
+                                scholarly editing for print publication (such as concern for
+                                accuracy of transcription and completeness of documentation).</p>
+                            <p>Yet there is actually one principle that has gained widespread
+                                agreement---a principle which is peculiar for the nearly complete
+                                absence of argument that has been presented in its support. This is
+                                the principle that states that an electronic edition must always
+                                include facsimiles of the sources on which it is based. The fullest
+                                statement of this position that I know is from G. Thomas Tanselle:
+                                    <cit rend="block">
+                                    <quote>the advantages of hypertext as apparatus will not be
+                                        fully exploited unless its capabilities for visual
+                                        reproduction are used. Digitized images of the original
+                                        manuscripts and printed pages should always be provided,
+                                        along with the more manipulable electronic texts (that is,
+                                        keyboarded transcriptions of manuscripts and rekeyboarded or
+                                        optically converted texts of printed pages). Just as a
+                                        scholarly edition in codex form is considered deficient if
+                                        it does not provide a record of variant readings, a
+                                        hypertext edition (or ``archive'') should be regarded as
+                                        inadequate if it does not offer images of the original
+                                        documents, both manuscript and printed. Important physical
+                                        evidence will obviously still be unreproduced, but at least
+                                        the range of paleographical and typographical evidence made
+                                        available will be far greater than has been customary in
+                                        editions of the past---even in ``facsimile'' editions, which
+                                        have usually been limited to single documents.</quote>
+                                    <bibl>[Tanselle 1995, 591]</bibl>
+                                </cit></p>
+                            <p>It is easy to observe in this statement the problem that afflicts
+                                many discussions on this subject: what starts out as a potential
+                                    <emph rend="italics">advantage</emph> of the electronic edition
+                                somehow turns into an absolute <emph rend="italics"
+                                    >requirement</emph>, without any argument to support this
+                                transformation. And yet it seems perfectly clear that all we are
+                                really talking about is a technical possibility whose exploitation
+                                is valuable for many sorts of materials, but is by no means
+                                essential to every scholarly edition. If reproductions of the
+                                sources are really so necessary, then there is no reason apparent
+                                here why the rule applies only to electronic editions: it is
+                                perfectly possible for print editions to contain such information as
+                                well, and if it's really necessary it's necessary for those editions
+                                too. (See also Litz (1996) for another instance of this
+                                position.)</p>
+                            <p>But although no reasons are given for this curious position, it is
+                                possible to infer some. One reason is no doubt the submerged idea
+                                that an electronic edition is somehow not as real as one on paper
+                                (McKenzie 1991 is one publication that actually advances a form of
+                                this argument directly rather than assuming it without discussion).
+                                A variant of this view, and one that does have some reasonable
+                                grounding, is the idea that transcriptions in some kinds of
+                                electronic editions are not terribly reliable because they were
+                                produced by scanning or offshore typists rather than scholars, and
+                                that we therefore need the images to check the transcriptions;
+                                Womersley (1996) seems to have this in the back of his mind, in
+                                reviewing such a production, though he doesn't fully articulate it.
+                                This is a point that only applies to editions created in this
+                                particular way, though, and not to electronic editions in
+                                general.</p>
+                            <p>A larger reason is the lingering strain of positivism that afflicts
+                                both humanities computing and textual editing: in both disciplines
+                                the idea still persists that it could be possible simply to
+                                establish the facts without any element of interpretation, and that
+                                indeed it would be best if we could eliminate all interpretation
+                                from our work. Yet any informed understanding of digital images
+                                involves an awareness of the large number of choices that go into
+                                decisions on just how to do it---on the resolution, color spectrum,
+                                and lighting, for example (see Robinson 1993 for a survey, and
+                                Tanselle 1989 for a general account of the pitfalls of image
+                                reproduction). And, for works produced in the era of print, it is in
+                                general impossible to collect and digitize the entire range of
+                                extant sources: since each copy of a book can be different, a truly
+                                definitive collection of data requires the imaging of every last
+                                copy. The images that go into an electronic edition are necessarily
+                                the product of scholarly selection from a wide range of materials
+                                and ways to reproduce them; such processes of selection are
+                                inescapable in editing, and they are among the ways in which an
+                                edition creates a new representation of the text, rather than simply
+                                transmitting information about it.</p>
+                            <p>A more reliable basis for thought on just what an electronic edition
+                                needs would focus on the particular nature of the texts in question,
+                                and on the representation of them that the edition seeks to create,
+                                rather than on an attempt to raise up general rules applicable to
+                                every edition. For some texts, the importance of reproductions of
+                                original sources has been well argued; their significance for the
+                                study of manuscripts has been made particularly clear in several
+                                cases. For other texts, an editor may well judge that different
+                                kinds of materials are more important than images of sources, such
+                                as annotations or the texts of related works and adaptations. There
+                                are choices involved in doing this, choices with which other
+                                scholars might disagree. But the avoidance of choice is not an
+                                alternative, because it's not possible.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>Works Cited</head>
+                        <listBibl>
+                            <biblStruct>
+                                <analytic>
+                                    <author>
+                                        <name>
+                                            <forename type="first">A.</forename>
+                                            <forename type="middle">Walton</forename>
+                                            <surname>Litz</surname>
+                                        </name>
+                                    </author>
+                                    <title level="a">Afterword</title>
+                                </analytic>
+                                <monogr>
+                                    <author>
+                                        <name>
+                                            <forename type="first">Richard</forename>
+                                            <forename type="middle">J.</forename>
+                                            <surname>Finneran</surname>
+                                        </name>
+                                    </author>
+                                    <title level="m">The Literary Text in the Digital Age</title>
+                                    <imprint>
+                                        <pubPlace>Ann Arbor</pubPlace>
+                                        <publisher>University of Michigan Press</publisher>
+                                        <date when="1996">1996</date>
+                                        <biblScope type="pp">245-248</biblScope>
+                                    </imprint>
+                                </monogr>
+                            </biblStruct>
+                            <biblStruct>
+                                <analytic>
+                                    <author>
+                                        <name>
+                                            <forename type="first">D.</forename>
+                                            <forename type="middle">F.</forename>
+                                            <surname>McKenzie</surname>
+                                        </name>
+                                    </author>
+                                    <title level="a">Computers and the Humanities: a Personal
+                                        Synthesis of Conference Issues</title>
+                                </analytic>
+                                <monogr>
+                                    <editor>
+                                        <name>
+                                            <forename type="first">May</forename>
+                                            <surname>Katzen</surname>
+                                        </name>
+                                    </editor>
+                                    <title level="m">Scholarship and Technology in the Humanities:
+                                        Proceedings of a Conference held at Elvetham Hall,
+                                        Hampshire, U.K., 9th-12th May 1990</title>
+                                    <imprint>
+                                        <pubPlace>London</pubPlace>
+                                        <publisher>Bowker</publisher>
+                                        <date when="1991">1991</date>
+                                        <biblScope type="pp">157-169</biblScope>
+                                    </imprint>
+                                </monogr>
+                            </biblStruct>
+                            <biblStruct type="book">
+                                <monogr>
+                                    <author>
+                                        <name>
+                                            <forename type="first">Peter</forename>
+                                            <surname>Robinson</surname>
+                                        </name>
+                                    </author>
+                                    <title level="m">The Digitization of Primary Textual
+                                        Sources</title>
+                                    <imprint>
+                                        <pubPlace>Oxford</pubPlace>
+                                        <publisher>Office for the Humanities Communications
+                                            Publications</publisher>
+                                        <date when="1993">1993</date>
+                                    </imprint>
+                                </monogr>
+                            </biblStruct>
+                            <biblStruct type="journalArticle">
+                                <analytic>
+                                    <author>
+                                        <name>
+                                            <forename type="first">Thomas</forename>
+                                            <forename type="middle">G.</forename>
+                                            <surname>Tanselle</surname>
+                                        </name>
+                                    </author>
+                                    <title level="a">Critical Editions, Hypertexts, and Genetic
+                                        Criticism</title>
+                                </analytic>
+                                <monogr>
+                                    <title level="j">The Romanic Review</title>
+                                    <imprint>
+                                        <biblScope type="vol">86</biblScope>
+                                        <biblScope type="issue">3</biblScope>
+                                        <biblScope type="pp">581-593</biblScope>
+                                        <date when="1995">May 1995</date>
+                                    </imprint>
+                                </monogr>
+                            </biblStruct>
+                            <biblStruct type="journalArticle">
+                                <analytic>
+                                    <author>
+                                        <name>
+                                            <forename type="first">Thomas</forename>
+                                            <forename type="middle">G.</forename>
+                                            <surname>Tanselle</surname>
+                                        </name>
+                                    </author>
+                                    <title level="a">Reproductions and Scholarship</title>
+                                </analytic>
+                                <monogr>
+                                    <title level="j">Studies in Bibliography</title>
+                                    <imprint>
+                                        <biblScope type="vol">42</biblScope>
+                                        <biblScope type="issue"/>
+                                        <biblScope type="pp">25-54</biblScope>
+                                        <date when="1989">1989</date>
+                                    </imprint>
+                                </monogr>
+                            </biblStruct>
+                            <biblStruct type="journalArticle">
+                                <analytic>
+                                    <author>
+                                        <name>
+                                            <forename type="first">David</forename>
+                                            <surname>Womersley</surname>
+                                        </name>
+                                    </author>
+                                    <title level="a">Delightful ways to cheat learning</title>
+                                </analytic>
+                                <monogr>
+                                    <title level="j">Times Higher Education Supplement</title>
+                                    <imprint>
+                                        <biblScope type="vol"/>
+                                        <biblScope type="issue"/>
+                                        <biblScope type="pp">vii</biblScope>
+                                        <date when="1996">14 June 1996</date>
+                                    </imprint>
+                                </monogr>
+                            </biblStruct>
+                        </listBibl>
+                    </div>
+                </div>
+                <div type="EmbeddedDoc">
+                    <div>
+                        <head>Textual Studies, Cultural Studies: Text, Image and the Production of
+                            Knowledge in the Interdisciplinary Literature Classroom</head>
+                        <p rend="presenter">Carol Barash</p>
+                        <div>
+                            <div>
+                                <head>Introduction</head>
+                                <p>This paper is based on pilot courses using the Brown University
+                                    Women Writers Project (WWP) textbase in basic literature courses
+                                    at Seton Hall University. I will discuss the relationship
+                                    between texts and images in the use of a full-text database to
+                                    teach several aspects of literary study: close reading and
+                                    analysis of the text's language and structure (textual studies),
+                                    the relationship between the text and its historical contexts
+                                    (cultural studies) and literary history, and writing about
+                                    literature. Students are clearly attracted to the visual aspects
+                                    of electronic culture. Do the visual images lead students to a
+                                    better understanding of cultural differences? Can pictures and
+                                    sound, because they seem comfortable and knowable, enable
+                                    students to learn what is different about other cultures and
+                                    other historical periods, and learn to read and understand the
+                                    cultural referents in a literary text? Those questions lead one
+                                    to a complex matrix of assumptions about knowledge, reading, and
+                                    culture, which this paper will develop in relation to teaching
+                                    literary and cultural studies via the electronic medium.</p>
+                            </div>
+                            <div>
+                                <head>Textual Studies</head>
+                                <p>By "textual studies" I mean work with the language and structure
+                                    of a text. The electronic medium greatly enhances close reading
+                                    of the literary text. From easy access to "virtual reference
+                                    room" sources (dictionary, bible, myth, time lines) to textual
+                                    analysis (word counts, collocates, structural analysis),
+                                    electronic texts allow students to work closely with the
+                                    language and structure of a literary text, to analyze local
+                                    structures and meanings, and to study how linguistic patterns
+                                    play out in a longer work. SGML enables students to work
+                                    structurally and formally, and particularly to study the
+                                    relationship between language and structure in a literary work.
+                                    Students are encouraged to test out their own ideas about the
+                                    text, and to see whether and how those ideas are manifest in the
+                                    text's language. It would seem that one does not need images to
+                                    perform strictly "textual" studies in this sense.</p>
+                            </div>
+                            <div>
+                                <head>Writing about Literature</head>
+                                <p>It would also seem that one does not need anything more than
+                                    words to teach students how to write about the language of a
+                                    literary text: take the data they have from close work with the
+                                    text's language and structure and teach them how to translate
+                                    that data into an argument about the text. One can even teach
+                                    them to perform textual analysis on their own work (which words
+                                    and phrases appear repeatedly? what are they close to? what are
+                                    they code for? do key words appear in the key sections of the
+                                    text?), and to think about their own writing as linguistic and
+                                    rhetorical structure. One might imagine that student's writing
+                                    is enhanced by close work with the language of a literary text,
+                                    particularly in the absence of all the hypertext capabilities
+                                    they like so much, but tend to use like a video game. </p>
+                            </div>
+                            <div>
+                                <head>Cultural Studies, Literary History, and Electronic
+                                    Texts</head>
+                                <p>In order to understand why one needs the images--even to teach
+                                    students to perform linguistic and textual analysis--we need to
+                                    think about the electronic text in relationship to other
+                                    historical and cultural variants of the literary text. I take
+                                    cultural studies and literary history to be necessarily
+                                    overlapping domains. By "cultural studies" I mean the
+                                    relationship between the text and its own history, and also its
+                                    relationship with other literary and cultural texts.</p>
+                                <p>Here one begins with the materiality of the text: what it looked
+                                    like, which texts it was responding to, how it was produced (by
+                                    the author, the publisher, the audiences who first read it),
+                                    what other texts (either words or images) appeared close to it
+                                    in its original form, how it changed over time (how the words
+                                    were arranged or packaged differently, what other texts appeared
+                                    near it in new contexts). The cultural history of a literary
+                                    text quickly leads the scholar or teacher to the text as a
+                                    material object, and its relationship to other texts as material
+                                    objects (a bible that fits inside a lady's purse is very
+                                    different from a folio produced for reference in a library; one
+                                    gets a much clearer sense of what Katherine Phillips's poems are
+                                    trying to do when one sees the early 17th-century emblem books
+                                    she was imitating; the allusions in Jane Barker's manuscript
+                                    poems come from anti-Catholic broadsides of the 1680s; etc.).
+                                    Some of this information could be conveyed (and in some cases,
+                                    conveyed better) by verbal description, and some things will
+                                    never be knowable without access to the original text. However,
+                                    images of material included with the published versions of a
+                                    literary text--title page, front matter, engravings--allow the
+                                    student to feel that much closer to the original "text," the
+                                    book that people held in their hands, read to one another, and
+                                    experienced--in some sense--as a physical object. The feeling of
+                                    comfort and proximity associated with printed books, and with
+                                    the way knowledge is conveyed through books, extends to the
+                                    pedagogical situation.</p>
+                            </div>
+                            <div>
+                                <head>Conclusions</head>
+                                <p>We are clearly in a transitional moment, and many of our students
+                                    learn better in the electronic medium than they do by
+                                    traditional means. Images (visual and aural) are crucial to
+                                    teaching what is actually different about literature from
+                                    different historical moments. I do not mean to be offering a
+                                    simple paean to hypertext, or to multimedia, or to electronic
+                                    dazzle of any kind; rather, I wish to suggest that we and our
+                                    students already think about--and inevitably study--literary
+                                    texts as cultural, material, and visual artifacts. We study (and
+                                    teach and produce) layers of textual meaning that work back and
+                                    forth between text as reproducible verbal structure and text as
+                                    multiple, ambiguous and conflicting instances. While much
+                                    crucial cultural information about a text resides outside
+                                    it--and is thus the responsibility of the teacher or scholar,
+                                    but not the textbase editor--those aspects of the text that were
+                                    originally visual ought to be included as part of a textbase
+                                    that is intended as a pedagogical resource. Rather than recreate
+                                    formalism in the electronic medium, I want to argue that we
+                                    should think of this new textual domain as part of cultural and
+                                    interdisciplinary history, and therefore a place in which the
+                                    words of a text always exist in relationship to other verbal and
+                                    visual texts, which ideally one ought to be able to have access
+                                    to for teaching and scholarship.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

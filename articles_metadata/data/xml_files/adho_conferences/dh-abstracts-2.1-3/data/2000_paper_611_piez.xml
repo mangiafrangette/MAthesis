@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="poster/demo">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">XSL - Characteristics, Status, and Potentials for Text
+                    Processing Applications in the Humanities</title>
+                <author>
+                    <name>
+                        <forename type="first">Wendell</forename>
+                        <surname>Piez</surname>
+                        <affiliation>
+                            <name type="org">Mulberry Technologies</name>, USA <email/>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="2000">2000</date>
+                <publisher>
+                    <name>University of Glasgow</name>
+                </publisher>
+                <pubPlace>Glasgow</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ALLC/ACH 2000</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first">Jean</forename>
+                        <surname>Anderson</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Amal</forename>
+                        <surname>Chatterjee</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Christian</forename>
+                        <forename type="middle">J.</forename>
+                        <surname>Kay</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Margaret</forename>
+                        <surname>Scott</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item> </item>
+                        <item> </item>
+                        <item> </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <div>
+                    <head>What XSL Is</head>
+                    <p>The Extensible Style Language (XSL) is a specification currently being
+                        finalized (May 2000) by the W3 Consortium, the vendor consortium that
+                        proposes recommendations for web standards including HTML, CSS and now XML
+                        and its related technologies. XSL's immediate purpose is to support various
+                        kinds of presentation of arbitrarily marked-up documents in XML format. In
+                        an XSL system, any well-formed XML document could be formatted for print,
+                        displayed in hypertext (including on the web), or presented in other media,
+                        more easily and more effectively than is currently the case, and in a
+                        standards-based way. In a networked environment, processing documents for
+                        display on screen could happen on either server or client.</p>
+                    <p>In order to support its task of <emph rend="italics">presenting XML</emph>
+                        (that is, applying to an arbitrary tag set a formatting description for a
+                        user interface such as screen or printer), XSL evidently has to provide for
+                        granular access to markup structures, so as to be able, for example, to
+                        derive tables of contents, text for running heads, indexes, and other common
+                        (presentational) expressions of underlying document architecture. In the
+                        course of working out XSL it became increasingly clear that (as is often the
+                        case with computer data processing problems) this problem was more easily,
+                        and more powerfully, addressed, if it was treated as a special case of a
+                        more general capability, namely the "transformation" of one markup structure
+                        into another.</p>
+                    <p>Accordingly, XSL is formally divided into two parts:<list>
+                            <item><emph rend="underscore">"XSL Transformations" (XSLT):</emph> on a
+                                standalone basis, provides a language to describe many of the kinds
+                                of rearrangement and filtering of markup structures that a
+                                reasonably powerful XML presentation language requires.</item>
+                            <item><emph rend="underscore">"XSL Formatting objects" (XSLFO):</emph>
+                                provides a vocabulary for describing, in a standard and abstract
+                                way, formatting of text for visual display in print or on screen
+                                (and possibly for alternative media presentation).</item>
+                        </list></p>
+                    <p>XSLT was accepted as an "official" W3C recommendation in November 1999. XSLFO
+                        is expected to be completed in mid-2000. The relative maturity of the
+                        specifications is reflected in the tools available: already by the end of
+                        1999 a number of tools supporting XSLT were available on the Net for free.
+                        As of this writing, tools supporting XSLFO (which could, for example,
+                        convert XML via XSL into PDF format) are less mature.</p>
+                    <p>XSLT, on the other hand, was instantly in use by mid-1999, primarily (though
+                        not exclusively) as a way of converting XML into HTML. Because XML becomes
+                        instantly useful as soon as HTML can be reliably created out of it, this has
+                        in effect jump-started the XML presentation industry, at the price of
+                        keeping on-line published versions of XML source documents limited to the
+                        capabilities of HTML, the current state of the art in browsing on the web.
+                        As a result, even before the ink is dry, we are beginning to get a sense of
+                        XSLT's capabilities for processing - while at the same time we are still
+                        unclear as to what XSL's own "design language" (its formatting objects) will
+                        look like.</p>
+                </div>
+                <div>
+                    <head>XSLT's Capabilities</head>
+                    <list>
+                        <item><emph rend="bold">-Presentational XSLT</emph><lb/> XSLT is already
+                            used to convert XML into HTML. In this, it is a ready alternative to a
+                            scripting approach (Perl, Omnimark etc.) or to the ISO standard DSSSL -
+                            and easier to learn than either. It also compares favorably in price:
+                            tools for XSLT conversions are free.</item>
+                        <item><emph rend="bold">-Analytic XSLT</emph><lb/> XSL processing is
+                            dependent on markup in the source text for navigation as opposed to
+                            (say) character offsets or line numbers. While very good at presenting
+                            information encoded in markup, it is not good at recognizing or
+                            construing implicit information such as character patterns. It does no
+                            tokenizing, hence cannot recognize "word" boundaries. By default, string
+                            processing and matching in XSLT is case-sensitive, and cannot readily be
+                            configured otherwise.</item>
+                    </list>
+                    <p>Somewhat surprisingly, however, XSL is nevertheless useful for certain kinds
+                        of analytical functions, including certain kinds of XML validation (cf. Rick
+                        Jelliffe's "Schematron"). For example, one could write an XSL stylesheet
+                        that would check the conformance of an instance of a TEI Header to a certain
+                        model, that went beyond the DTD to specify element dependencies - for
+                        example, reporting a warning (or providing defaults) if the publication
+                        statement were not filled out according to house standards. This could be
+                        done with a stylesheet and would not require altering the DTD.</p>
+                    <p>And because it can perform testing on strings, XSLT can also be used for
+                        generating rudimentary concordances. A concordancer in the form of an XSL
+                        style sheet will be demonstrated as a part of this presentation.</p>
+                    <p>The thing to keep in mind about any computer-facilitated analytic work is
+                        that, without being supported by information from an external source (such
+                        as a thesaurus of terms or a morphological dictionary), no algorithm is able
+                        to reveal something about a text that is not implicit in the text already.
+                        That is, while a computer can rearrange information in a text, and therefore
+                        perform such operations as counting incidences or providing indexes, it
+                        cannot actually add any "knowledge". What it does, is present a text, and
+                        information derived about the text, in such a way that a careful reader can
+                        come to conclusions about it that would otherwise be very difficult to
+                        demonstrate. This is merely to point out that, for example, a concordance is
+                        not an analysis, and by itself makes no argument, although it may facilitate
+                        the development of one.</p>
+                    <p>XSLT-based analytic work is no different, and since XSLT is not designed
+                        specifically with analytic work in mind, it is in some respects an
+                        unexpected benefit if it can support this work at all. Even given its fairly
+                        rudimentary capabilities, however, XSLT has certain incidental advantages:<list>
+                            <item><emph rend="bold">1. It leverages investments made in
+                                    markup:</emph><lb/>Many repositories have XML texts, or texts
+                                readily convertible into XML. These are all ready for XSL
+                                processing, and can be enhanced to support more sophisticated
+                                processing.</item>
+                            <item><emph rend="bold">2. It produces "publishable" results as a
+                                    natural work product:</emph> Since the end result of an XSL
+                                transformation can be HTML or an XML format ready for further
+                                processing, it is easy to generate results in a form that can be
+                                displayed as is.</item>
+                            <item><emph rend="bold">3. An investment in XSL is worth making for
+                                    other reasons:</emph> Since XSLT processors are so inexpensive
+                                (free), the real investment is in time to learn it. And XSLT is so
+                                portable and versatile, it pays off this investment in expertise
+                                fairly quickly.</item>
+                            <item><emph rend="bold">4. It can be combined with other methods:</emph>
+                                An XSLT stylesheet can also be used to prepare XML texts for other
+                                kinds of work. An XSLT stylesheet can generate COCOA encoding from
+                                XML, that can be used to support TACT or another tool that takes
+                                advantage of COCOA markup of events in a text stream (such as
+                                chapter breaks or shifts in narrative voice). [An XSL stylesheet
+                                that creates COCOA markup from an XML TEI source can be
+                                demonstrated.]</item>
+                        </list>
+                    </p>
+                    <p>Or, an XSLT stylesheet can be used to derive SVG (Scaleable Vector Graphics)
+                        files from descriptive XML source. SVG is a graphics format which is
+                        expected, by some, to revolutionize distribution of graphics for certain
+                        kinds of applications on the web. Graphic representations of phenomena
+                        accessible to XSL transformations can be already displayed in prototype SVG
+                        viewers. [SVG frequency distribution graphs of strings in an XML file can be
+                        demonstrated.]</p>
+                    <p>These are only two examples of ways XSLT can be applied to help prepare XML
+                        texts for a variety of further uses. The basic principle being applied is a
+                        layered architecture: the source data is maintained in a stable format, such
+                        as TEI XML, useful over the long term. Applied "on top" of this repository
+                        layer a separate process can expose a "view" or presentation of the source
+                        data (some readers may be familiar with the "model-controller-view" model of
+                        computer application design), ready for the special format requirements of
+                        an arbitrary application.</p>
+                </div>
+                <div>
+                    <head>Role Of XSL/XSLT In The Future</head>
+                    <div>
+                        <head>- Possibilities for XSL extension:</head>
+                        <p>The XSL specification also provides allowance for its extension.
+                            Extension functions, in Java or an alternative scripting language, could
+                            be made available to an XSL processor. Tokenizing functions,
+                            sophisticated string processing and matching, database-integration
+                            services (for retrieving data such as morphological variants or checking
+                            values against an authority list) could all be addressable, given a good
+                            API, from within XSL stylesheets.</p>
+                        <p>It is unlikely, however, that such extensions (at least, those especially
+                            suited for the types of analysis academic humanists are interested in)
+                            would be developed in the private sector - not that they would be
+                            without profitable application there. But academic researchers, with
+                            clear focus on their own functional requirements, have to lead the way.
+                        </p>
+                    </div>
+                    <div>
+                        <head>-An XSL browser as "analytical engine":</head>
+                        <p>XSL's potentials in these respects suggest that it could play a role in
+                            the markup-aware "analytical engine" that many of us keep envisioning
+                            (cf. the ELTA initiative). An XML browser that supported XSL stylesheets
+                            could be integrated with an editing environment allowing on-the-fly
+                            emendation of the stylesheets, and/or the extension functions they call.
+                            Stylesheets and function libraries could be pulled "off the shelf," or
+                            written especially to address local problems and questions. Specialized
+                            functions would have the capability of integrating XSL's
+                            presentation/analytical capabilities with other tools such as databases
+                            or network applications.</p>
+                        <p>Not only would such a system be very versatile; also, in it, research
+                            results could take the form of ready-made publishable material, in HTML
+                            or any other markup-based form. Since it would basically be an XML web
+                            browser, it could also be readily networked, especially as concerns the
+                            XML source text (the text under analysis), which could be located
+                            anywhere on the Internet. Analytical stylesheets in XSL would be
+                            portable and applicable to any text that conformed to the same
+                            (sufficiently constrained) document model.</p>
+                    </div>
+                    <div>
+                        <head>Present Advantages [as of the end of 1999]</head>
+                        <div>
+                            <head>-XSL tools are freely available:</head>
+                            <p>As of this writing, free XSLT processors are available in Java, and
+                                are not difficult to set up and run. Learning the stylesheet
+                                language itself is the biggest barrier to entry, and there are free
+                                and inexpensive resources for this as well.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>-XSL is easy to get going with:</head>
+                        <p>By design, XSL is a declarative language, abstracted at a fairly high
+                            level. As a result, it is not difficult to learn, at least for most
+                            ordinary operations, and is very portable (making it easier to learn
+                            from others' work).</p>
+                    </div>
+                </div>
+                <div>
+                    <head>Present Disadvantages [as of the end of 1999]</head>
+                    <div>
+                        <head>-XSL is somewhat arcane:</head>
+                        <div>
+                            <p>Although the rudiments of XSL are not difficult, some users take to
+                                it less easily than others. It is a "functional" and "declarative"
+                                language unlike most scripting languages, so expertise in other
+                                computer languages is not readily applicable to it. Naïve users seem
+                                to have less trouble learning it than experts. The model of the text
+                                on which it operates, the "document tree," although it leverages
+                                document markup in a very simple and powerful way, is not a
+                                self-evident approach to developers used to looking at text as a
+                                stream of characters.</p>
+                        </div>
+                        <div>
+                            <head>-XSL processing is XML-based; requires well-formed XML to
+                                start:</head>
+                            <p>Obviously, XSL requires an XML text to operate on. Either this is a
+                                problem, or it isn't.</p>
+                        </div>
+                        <div>
+                            <head>-Tools are rudimentary (although improving):</head>
+                            <p>Strong support for internationalization, for example, is envisioned
+                                by the specification but not yet widely implemented in interfaces or
+                                tools.</p>
+                        </div>
+                        <div>
+                            <p>As mentioned above, it is unlikely that the private sector would, on
+                                its own initiative, develop function libraries that would provide
+                                for all the kinds of functions wanted by scholars in the Humanities.
+                                (Some, like support for sorting texts in major European and Asian
+                                languages, can be hoped for, although not necessarily for free.)</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <head>Conclusions</head>
+                    <div>
+                        <head>-What XSL will be good for:</head>
+                        <p>Presentation, filtering/rearrangement, markup-based processing such as
+                            indexing supported by markup. Some kinds of validation. Especially
+                            extended or in combination with other methods, XSL will also be capable
+                            of supporting sophisticated analytical functions on text marked up in
+                            XML.</p>
+                    </div>
+                    <div>
+                        <head>-What the emergence of XSL tells us about our markup projects:</head>
+                        <list>
+                            <item>1. the up-front investment in the text (editorial work) remains
+                                the most difficult, interesting and important phase of work. Much or
+                                most further processing "down stream," and the types of processing
+                                possible, are directly dependent on the features of the text
+                                represented through its markup.</item>
+                            <item>2. investments in valid SGML/XML formats are demonstrating their
+                                resilience through readiness for new applications</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>Web Site </head>
+                        <p>A web presentation of this paper will be made available at &lt;<ptr
+                                target="http://www.mulberrytech.com/papers/achallc2000"/>&gt;</p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

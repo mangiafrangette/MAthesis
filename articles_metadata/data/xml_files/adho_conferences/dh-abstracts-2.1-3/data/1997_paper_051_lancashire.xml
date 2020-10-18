@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="paper">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Adapting Web Electronic Libraries to English
+                    Studies</title>
+                <author>
+                    <name>
+                        <forename type="first">Ian</forename>
+                        <surname>Lancashire</surname>
+                        <affiliation>
+                            <name type="org">University of Toronto</name>
+                            <email>ian@chass.utoronto.ca </email>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Christopher</forename>
+                        <surname>Douglas</surname>
+                        <affiliation>
+                            <name type="org">University of Toronto</name>
+                            <email>cdouglas@chass.utoronto.ca</email>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Dennis</forename>
+                        <forename type="middle">G.</forename>
+                        <surname>Jerz</surname>
+                        <affiliation>
+                            <name type="org">University of Toronto</name>
+                            <email>d.jerz@utoronto.ca</email>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="1997">1997</date>
+                <publisher>
+                    <name>Queen's University</name>
+                </publisher>
+                <pubPlace>Kingston, Ontario</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ACH/ALLC 1997</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name type="org">the secretarial staff in the Department of French Studies at
+                        Queen's University</name>
+                    <name>
+                        <forename type="first">Greg</forename>
+                        <surname>Lessard</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item>web</item>
+                        <item>electronic-library</item>
+                        <item>English</item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <div>
+                    <head>The UTEL Project</head>
+                    <p>We are developing a Web-based University of Toronto English library (named
+                        UTEL) under a development grant from the Provost's office. UTEL aims to
+                        integrate electronic materials into both teaching and research activities of
+                        English faculty and students. Our basic materials come from the CD-ROM
+                        published by the Modern Language Association of America with <title
+                            level="m">Using TACT with Electronic Texts</title> (New York, 1996):
+                        over 3,000 texts from <title level="m">Beowulf</title> to World-War-I
+                        poetry. Many of these texts are donated by Dr. Jeffery Triggs, director of
+                        the North America Reading Program for the Oxford English Dictionary. Many
+                        come from new editions of major English works--based on original editions
+                        and manuscripts--by the project director, Ian Lancashire. Other materials
+                        are contributed by members of the English department especially for UTEL. It
+                        is already partly on the Web in <title level="m">Representative Poetry
+                            On-line</title>, a collection of 1,340 poems by over 215 poets.
+                        Inevitably, current UTEL development emphasizes texts from other genres:
+                        drama, novels, and non-fiction prose.</p>
+                    <p>A full-time faculty member, who works on the project without release time,
+                        directs two graduate assistants from the Department of English Ph.D.
+                        program, who have year-long contracts. Both do research in 20th-century
+                        literature. One is a C++ programmer and Web-site designer for a Faculty of
+                        Engineering Writing Facility. The other has no prior programming experience.
+                        UTEL has very sound infrastructural support from the Faculty of Arts and
+                        Science through its CHASS (Computers in the Humanities and Social Sciences)
+                        facility, the heir to the Centre for Computing in the Humanities (CCH), and
+                        from the University Library through its Information Commons and Web Design
+                        Group.</p>
+                    <p>UTEL project members routinely segment, encode in HTML, document, and index
+                        these texts with <emph rend="italics">TACTweb</emph> and <emph
+                            rend="italics">patterweb</emph>, both local search engines. Users will
+                        be able to read the texts or print them out as well as search them. We use
+                        java, perl, sed, emacs, and other well-known UNIX utilities to design the
+                        Web pages.</p>
+                    <p>We routinely discuss our work with departmental members of differing
+                        professional persuasions. They include postmodernists, deconstructionists,
+                        new historicists, philologists, feminists, diehard new critics,
+                        psychological critics, language teachers, and computer-based and cultural
+                        theorists. Although the university provides all faculty and students with
+                        e-mail addresses and Web access, workstations are at a premium still. Many
+                        find logging on difficult in practice. Most faculty offices are not yet
+                        connected to the university backbone.</p>
+                </div>
+                <div>
+                    <head>The Limits of the Virtual Library</head>
+                    <p>The construction of UTEL-like sites is likely to become common in the near
+                        future because of the availability of good Web browsers and of the resources
+                        of many university e-text sites, including the texts on the MLA CD-ROM.
+                        However, we believe that Web-based virtual libraries need to be
+                        reconceptualized to function well within post-secondary education.</p>
+                    <p>UTEL-like virtual educational sites sometimes depart from discipline
+                        standards. The lack of peer-reviewed material, the instability of sites, and
+                        usability problems with on-line materials for reading, note-taking, and
+                        in-class reference can be swept away by improving technology. Yet inevitably
+                        UTEL-like sites aid a kind of text-based discourse analysis more than
+                        literary studies emphasizing biography, history, and cultural context.
+                        On-line libraries like UTEL match the professional needs of English studies
+                        differently from one type of theoretical approach to another. This
+                        privileging exists partly because on-line UTEL-like sites are
+                        computer-based, partly because they have been modelled by computational
+                        researchers.</p>
+                    <p>UTEL-like sites, if conceived of as information banks, do not yet meet the
+                        needs of the whole profession of English studies. They tend to supply the
+                        needs of librarians, computer scientists, and English researchers at work in
+                        computational text analysis and editing. Current electronic libraries favour
+                        teaching and research methods of those who analyze or edit texts and those
+                        who use a scientific method in doing so. There is nothing inappropriate
+                        about this approach (quite the contrary), but no general-purpose medium for
+                        education, such as the Web, should treat one type of theoretical and
+                        practical work differently from another.</p>
+                    <p>For this reason, a local discipline-based Web site should be re-conceived as
+                        a collection of individual faculty and departmental offices, each occupied
+                        by an on-line double of a faculty member, each drawing on a UTEL-like
+                        library. Sites of this kind would resemble a network of artificial
+                        intelligences that correspond to current faculty members and that can serve
+                        students and indeed the public with their expertise and learning around the
+                        clock.</p>
+                    <p>The pressing issue in on-line educational computing is not etexts or encoding
+                        methods, not computerized classrooms or search engines. The issue is how to
+                        organize UTEL-like sites to enhance the usability of a discipline's
+                        researchers and teachers within the university and within the community.
+                    </p>
+                </div>
+                <div>
+                    <head>Artificial Intelligences and the Web</head>
+                    <p>In 1988 Hans Moravec, a computer scientist at Carnegie- Mellon, forecast that
+                        in 2018 the technology will exist to capture directly in digital form an
+                        individual's thoughts on-line. He wrote only four years after sf- writer
+                        William Gibson's <title level="m">Neuromancer</title>, set at about this
+                        future time, depicted the virtual lives of Henry Case and Dixie Flatline on
+                        a net eventually governed by a joint artificial intelligence code-named
+                        Wintermute and Neuromancer. Ten years later another Nebula-award winner,
+                        Canadian Robert Sawyer, portrayed in <title level="m">The Terminal
+                            Experiment</title> (1995) a psychological case study of immortality
+                        obtained by a Toronto doctor who made three virtual copies of his mind,
+                        released into the Internet.</p>
+                    <p>This speculative fiction is far from today's crude software agents, the
+                        go-bots that conduct intelligent on- line searches for clients and report
+                        back results meeting very selective criteria. Yet the direction of the
+                        marketplace itself is clear enough. Information banks are not sufficient.
+                        Intelligent advice on how to harness them must be in place. Just as
+                        universities place information in libraries and situate the intelligence to
+                        negotiate that knowledge base in faculty members and librarians, so on-line
+                        universities must supplement their Web sites with on-line intelligences. </p>
+                    <p>A faculty member's Web page is potentially his professional double. It can
+                        echo almost the scholar's entire productivity: course descriptions,
+                        bibliographies, schedules, texts, and notes; self-administerable student
+                        tests; lecture notes; curriculum vitae; faq sheets; and interactive
+                        question-answering programs. Most of this technology exists today, but
+                        UTEL-like Web sites in this context must be re-conceptualized as feeding the
+                        needs of on-line simacula of individual teacher-researchers as well as
+                        departmental sites that represent the faculty as a group.</p>
+                    <p>We will discuss how teacher-researchers, no matter what their theoretical
+                        perspective may be, can be linked with UTEL-like sites; and how that step
+                        will both ease the university's transformation by information technology and
+                        re-establish the primacy of faculty in an on-line academe.</p>
+                </div>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">Ian</forename>
+                                    <surname>Lancashire</surname>
+                                </name>
+                            </author>
+                            <respStmt>
+                                <resp>in collaboration with</resp>
+                                <name>
+                                    <forename type="first">John</forename>
+                                    <surname>Bradley</surname>
+                                </name>
+                                <name>
+                                    <forename type="first">Willard</forename>
+                                    <surname>McCarty</surname>
+                                </name>
+                                <name>
+                                    <forename type="first">Michael</forename>
+                                    <surname>Stairs</surname>
+                                </name>
+                                <name>
+                                    <forename type="first">T.</forename>
+                                    <forename type="middle">R.</forename>
+                                    <surname>Wooldridge</surname>
+                                </name>
+                            </respStmt>
+                            <title level="m">Using TACT with Electronic Texts: Text Analysis
+                                Computing Tools Version 2.1</title>
+                            <imprint>
+                                <pubPlace>New York</pubPlace>
+                                <publisher>MLA</publisher>
+                                <date when="1996">1996</date>
+                            </imprint>
+                        </monogr>
+                        <note>With CD-ROM.</note>
+                    </biblStruct>
+                    <biblStruct type="bookChapter">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">Ian</forename>
+                                    <surname>Lancashire</surname>
+                                </name>
+                            </author>
+                            <title level="a">Representative Poetry On-Line: Updating A Historical
+                                English Teaching Anthology</title>
+                        </analytic>
+                        <monogr>
+                            <editor>
+                                <name>
+                                    <forename type="first">R.</forename>
+                                    <forename type="middle">G.</forename>
+                                    <surname>Siemens</surname>
+                                </name>
+                            </editor>
+                            <editor>
+                                <name>
+                                    <forename type="first">William</forename>
+                                    <surname>Winder</surname>
+                                </name>
+                            </editor>
+                            <title level="m">Scholarly Discourse and Computing Technology:
+                                Perspectives on Pedagogy, Research, and Dissemination in the
+                                Humanities</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date/>
+                            </imprint>
+                        </monogr>
+                        <note>Printed in <title level="j">Text Technology</title> and on-line in
+                                <title level="j">Computing in the Humanities Working
+                            Papers</title>.</note>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">Hans</forename>
+                                    <surname>Moravec</surname>
+                                </name>
+                            </author>
+                            <title level="m">Mind Children: The Future of Robot and Human
+                                Intelligence</title>
+                            <imprint>
+                                <pubPlace>Cambridge</pubPlace>
+                                <publisher>Harvard University Press</publisher>
+                                <date when="1988">1988</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <title level="m">
+                                <ref
+                                    target="http://www.library.utoronto.ca/utel/rp/rp.html"
+                                    >Representative Poetry On-line</ref>
+                            </title>
+                            <edition>Version 2.0</edition>
+                            <imprint>
+                                <pubPlace>Toronto</pubPlace>
+                                <publisher>University of Toronto Library</publisher>
+                                <date when="1994">1994-</date>
+                                <date when="1996">1996</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

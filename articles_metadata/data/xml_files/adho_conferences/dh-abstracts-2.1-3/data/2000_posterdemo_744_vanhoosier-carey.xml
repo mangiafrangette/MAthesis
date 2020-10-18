@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="poster/demo">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Griffith in Context: a Multimedia Exploration of <title
+                        level="m">The Birth of a Nation</title></title>
+                <author>
+                    <name>
+                        <forename type="first">Gregory</forename>
+                        <surname>VanHoosier-Carey</surname>
+                        <affiliation>
+                            <name type="org">Georgia Institute of Technology</name>, USA <email/>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Ellen</forename>
+                        <surname>Strain</surname>
+                        <affiliation>
+                            <name type="org">Georgia Institute of Technology</name>, USA <email/>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="2000">2000</date>
+                <publisher>
+                    <name>University of Glasgow</name>
+                </publisher>
+                <pubPlace>Glasgow</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ALLC/ACH 2000</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first">Jean</forename>
+                        <surname>Anderson</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Amal</forename>
+                        <surname>Chatterjee</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Christian</forename>
+                        <forename type="middle">J.</forename>
+                        <surname>Kay</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Margaret</forename>
+                        <surname>Scott</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item> </item>
+                        <item> </item>
+                        <item> </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <div>
+                    <head>Summary:</head>
+                    <p>D.W. Griffith's film <title level="m">The Birth of a Nation</title> has the
+                        distinction of being at once one of the most revered and most criticized
+                        films in cinema's history. This conflicted reputation stems from the film's
+                        combination of pioneering technical innovations and racial propaganda; the
+                        result was a visual epic of the Civil War and Reconstruction that had
+                        far-reaching cultural effects. <title level="m">The Birth of a
+                            Nation</title> helped establish new cinematic conventions as well as
+                        cinema's reputation as a serious artistic medium; at the same time, the film
+                        incited race riots, helped rationalize legal segregation and rampant
+                        lynching, and added momentum to the revitalization of the Ku Klux Klan. </p>
+                    <p>Despite the significance of <title level="m">The Birth of a Nation</title> as
+                        a cultural document, the film is under-utilized as a learning tool within
+                        academic areas to which it is directly relevant: film studies, American
+                        studies, African-American studies, and history. The factors responsible for
+                        the under-representation of <title level="m">Birth</title> in undergraduate
+                        humanities classrooms include the film's length, its political volatility,
+                        and its unwieldiness in terms of contextualization. Our multimedia
+                        application <emph rend="italics">Griffith in Context</emph>, sponsored by
+                        the [American] National Endowment for the Humanities and currently under
+                        development at the Georgia Institute of Technology, addresses these
+                        difficulties by delivering clips from the film and contextualizing corollary
+                        materials in an interactive format that makes the film's impact tangible.
+                            <emph rend="italics">Griffith in Context</emph>, in fact, presents the
+                        film's cultural and cinematic impact as inseparable; it was the film's
+                        artistic and emotional power coupled with its racism that brought issues of
+                        race and American identity to the attention of the nation.</p>
+                </div>
+                <div>
+                    <head>User-Centered Learning Through Multimedia:</head>
+                    <p>Many of the instructors who have been most successful in conveying a sense of
+                            <title level="m">The Birth of a Nation</title>'s subtleties and
+                        significance typically use documents from the same era to historically
+                        situate the film. Lauren Rabinovitz at the University of Iowa uses Library
+                        of Congress materials and regional newspaper coverage to illustrate how the
+                        debate around the film got imbricated into local events such as Chicago's
+                        1916 mayoral election. At Stanford University, Henry Breitrose uses a 1914
+                        history textbook and the African-American press's critique of the film's
+                        historical portrait to demonstrate the collision of incredibly disparate
+                        notions of history that occurred with <title level="m">Birth</title>'s
+                        release. The challenge then is to build on the success of such strategies by
+                        making such materials available to all instructors while still developing an
+                        application that supports a diversity of learning goals and teaching
+                        methods.</p>
+                    <p>The multimedia affordances of <emph rend="italics">Griffith in Context</emph>
+                        allow us to meet these challenges by incorporating a diversity of materials
+                        pertinent to various undergraduate courses. The program handles the
+                        challenge of contextualizing the film by providing a means for students,
+                        outside of classtime, to develop their understanding of the film's cultural
+                        context. After viewing the film, students can to use <emph rend="italics"
+                            >Griffith in Context</emph> to review representative scenes and
+                        important issues, to investigate primary and secondary research material,
+                        and to experiment with editing techniques. Also, instructors can use modules
+                        of the program in class to help them illustrate lecture points about
+                        specific technical or contextual issues.</p>
+                </div>
+                <div>
+                    <head>Organization And Interface:</head>
+                    <p>The organization and interface of <emph rend="italics">Griffith in
+                            Context</emph> differ in important ways from most other
+                        humanities-oriented multimedia programs - differences that we believe
+                        enhance student engagement with the program's humanities content. The
+                        primary goal of the program is to assist students in understanding that the
+                        "meaning" of this artifact is dependent on the cultural context in which it
+                        was produced and viewed and to explore specific discursive aspects of this
+                        context - the conversations, debates, representations, and responses - that
+                        surrounded the film's creation and early performance. To facilitate this
+                        process of understanding, we have organized the application around the
+                        material artifact in question - the film <title level="m">The Birth of a
+                            Nation</title> - rather than allowing textual commentary about the
+                        subject to dictate the student's path through the application. Thus, instead
+                        of dividing the program into topic areas, we have mapped out nine sections,
+                        each corresponding with a three to four minute clip from the film. Within
+                        each of these sections, the student accesses the information and relevant
+                        documents through interaction with the film itself, using the following
+                        interface elements and accompanying modules:<list>
+                            <item><emph rend="bold">1. The Annotated Filmstrip:</emph> This module
+                                allows a user to move back and forth through one of the nine
+                                selected filmclips and closely examine a particular sequence of
+                                frames; the filmstrip interface allows one to move the cursor to the
+                                right or left over the filmstrip, thereby controlling both the speed
+                                and direction of the filmstrip's movement. The user can stop the
+                                strip on any frame and begin playing the clip from that point.
+                                Surrounding the filmstrip are hypermedia links featuring a specific
+                                topic tied to the frames present on the screen at that moment; each
+                                of these links is associated with one of the program's four indices
+                                of analysis: filmic technique, historical re-creation, racial
+                                representation, and literary origins. When selected, each link
+                                brings up an expert interview on the stated topic which features
+                                primary documents, illustrations and photographs as well as
+                                scholarly commentary in audio form.</item>
+                            <item><emph rend="bold">2. The Editing Room:</emph> Some of the
+                                hypermedia links associated with filmic technique bring up
+                                particular exercises that allow students to experience editing
+                                principles featured in the film and discussed in the expert
+                                interviews. Students will use this module's unique interface to
+                                re-edit Griffith's own footage and, in so doing, analyze differences
+                                in visual effect and cultural reaction that such re-editing might
+                                produce.</item>
+                            <item><emph rend="bold">3. The Timeline:</emph> This module allows users
+                                to access historical information associated with the period depicted
+                                in a particular film clip. The timeline, like the annotated
+                                filmstrip, provides links to documents, historical accounts, and
+                                expert interviews pertaining to certain historical events depicted
+                                in the film. Students can use these divergent view of events to
+                                analyze Griffith's attempt to recreate history via film narrative
+                                and visual representation. Additionally, students can scroll through
+                                the timeline to access information about the film's production, its
+                                "road show" distribution, and the reaction it prompted as it moved
+                                from upscale symphony halls to smaller, inner-city segregated
+                                theaters.</item>
+                            <item><emph rend="bold">4. The Document Server:</emph> This module is an
+                                archive of the documents, photographs, illustrations, and interviews
+                                presented throughout the program. It allows users to directly access
+                                these materials without going to the particular place in the program
+                                where they are presented. Students can quickly locate and review
+                                previously encountered contextual material. Each document or image
+                                referenced in the Timeline or presented within the Annotated
+                                Filmstrip module is marked with a document tag which may be used to
+                                relocate the artifact using the Document Server. The Document Server
+                                can be reorganized according to document name, document type,
+                                author, subject area, or date of publication/distribution. As a user
+                                moves the cursor over the name of a document, the cursor changes to
+                                a thumbnail image of the document, allowing users to confirm their
+                                selection by visual appearance.</item>
+                        </list></p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

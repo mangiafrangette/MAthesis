@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="poster/demo">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">A Project Demonstration of `Peripeteia': CAI Software
+                    for Teaching Literary and Rhetorical Terms</title>
+                <author>
+                    <name>
+                        <forename type="first">Anthony</forename>
+                        <surname>Flinn</surname>
+                        <affiliation> Department of English, <name type="org">Eastern Washington
+                                University</name>
+                            <email>aflinn@ewu.edu </email>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="1996">1996</date>
+                <publisher>
+                    <name>University of Bergen</name>
+                </publisher>
+                <pubPlace>Bergen, Norway</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ALLC/ACH 1996</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first">Anne</forename>
+                        <surname>Lindebjerg</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Espen</forename>
+                        <forename type="middle">S.</forename>
+                        <surname>Ore</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Øystein</forename>
+                        <surname>Reigem</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item>literature</item>
+                        <item>rhetoric</item>
+                        <item>terminology</item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>My CAI software, called "Peripeteia," is an interactive database of literary and
+                    rhetorical terms, their definitions, and sample text passages that exemplify
+                    them. I've designed this software as a supplementary learning tool for the
+                    literary studies and rhetoric programs in the EWU English department. This
+                    software can be useful for virtually all literature and rhetoric students, from
+                    the freshman to the graduate level. Faculty, too, can use it for quick reference
+                    as well as course preparation.</p>
+                <p>Central to the program's design is its pedagogical flexibility. Peripeteia
+                    provides a multitude of access points, thereby addressing a range of learning
+                    styles, levels of sophistication, and information requirements at the time of
+                    access. This flexibility allows students a multitude of opportunities to think
+                    inductively and deductively, moving from a series of examples to the literary or
+                    rhetorical concept, or, conversely, moving from the concept to examples, if
+                    desired.</p>
+                <p>Students can run Peripeteia in three learning modes: quick reference, deductive
+                    learning / testing, and inductive learning / testing. In each mode the software
+                    displays iconic representations of the literary and rhetorical terms. These
+                    icons serve primarily as mnemonic devices, but their designs also help clarify
+                    the concepts for visual learners, who are typically exposed to terminology only
+                    in verbal descriptions.</p>
+                <p>Peripeteia is a highly interactive program, for each of the three modes requires
+                    and responds to student actions. In the quick reference mode, students can
+                    choose from among categories of terminology to terms within a particular
+                    category to particular sample passages for each term. They can also display the
+                    source of a currently displayed passage. In the deductive learning mode, in
+                    which students must match terms to randomly displayed sample passages, they can
+                    elect to skip particular terms and return to them later. Peripeteia permits two
+                    attempts per term, and each attempt displays feedback that assesses the attempt,
+                    prompts the next action, and, as necessary, provides hints. In the inductive
+                    learning mode, students first select from a palette of icons the one
+                    representing the concept suggested by the currently displayed set of sample
+                    passages. After as many as two attempts, after which feedback alerts them to
+                    their success or failure and identifies the correct term, students are then
+                    prompted to type in their own definition for that term.</p>
+                <p>Peripeteia's reporting and record keeping functions allow both the students and
+                    their professors to monitor their progress. When students log in, they type
+                    their name, social security number, and the class or classes in which they are
+                    currently enrolled. A text file is then automatically created for each student
+                    user. Each file is updated as the student proceeds through the two learning /
+                    testing modes, recording the student's answers and success rate. In addition,
+                    the student's attempted definitions in the deductive learning mode are
+                    automatically added to his or her text file, along with the Peripeteia's
+                    "correct" definitions for comparison and evaluation purposes.</p>
+                <p>In its current design, Peripeteia functions by reading in the terms, definitions,
+                    and samples from a text file and the iconic representations from a graphics
+                    library file. Because the software is thus distinct from the database it draws
+                    upon, Peripeteia can be adapted to serve virtually any other subject area
+                    freighted with a range of discipline-specific terms or concepts.</p>
+                <p>Peripeteia runs most effectively on a Macintosh Quadra or Power PC. It requires
+                    at least a 13-inch screen and eight megabytes of RAM.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

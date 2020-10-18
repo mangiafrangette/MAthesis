@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="poster/demo">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Cocteau multimédia</title>
+                <author>
+                    <name>
+                        <forename type="first">Johanne</forename>
+                        <surname>Bénard</surname>
+                        <affiliation>Études françaises, <name type="org">Queen's University</name>
+                            <email>benardj@qsilver.queensu.ca</email>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="1997">1997</date>
+                <publisher>
+                    <name>Queen's University</name>
+                </publisher>
+                <pubPlace>Kingston, Ontario</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ACH/ALLC 1997</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name type="org">the secretarial staff in the Department of French Studies at
+                        Queen's University</name>
+                    <name>
+                        <forename type="first">Greg</forename>
+                        <surname>Lessard</surname>
+                    </name>
+                    <name>
+                        <forename type="first"/>
+                        <surname/>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item>Littérature</item>
+                        <item>enseignement</item>
+                        <item>multimédia</item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <div>
+                    <head>1. Introduction</head>
+                    <p>Je voudrais présenter ici un module informatisé destiné à l'enseignement de
+                        la littérature. Ce document, qui a été créé et testé au cours des deux
+                        dernières années, en est toujours au stade expérimental. Or, bien que son
+                        utilisation continue de susciter des questions sur le rôle de l'informatique
+                        dans l'enseignement des humanités, et plus spécifiquement des études
+                        littéraires, l'expérience aussi bien que la réflexion qui l'a accompagnée
+                        m'autorisent déjà à faire certaines propositions.</p>
+                </div>
+                <div>
+                    <head>2. Description du module</head>
+                    <p>Je dois préciser d'abord que ce module littéraire n'est qu'un des volets d'un
+                        document tripartite qui comprend une partie visant l'enseignement du
+                        français langue seconde et une partie utilisée dans un cours de
+                            linguistique.<note n="1">Le projet dans son ensemble, qui a été
+                            subventionné par le Curriculum Development Fund de Queen's University
+                            (pour le développement et l'exploration des nouvelles technologies dans
+                            l'enseignement), implique deux autres professeurs: Christiane
+                            Fleig-Hamm, pour le français langue seconde, et Greg Lessard pour la
+                            linguistique.</note> Il a été créé en ciblant une clientèle spécifique,
+                        soit les étudiants d'un cours d'introduction à la littérature française et
+                        québécoise de deuxième année de Queen's, qui, bien qu'anglophones pour la
+                        majorité, ont une assez bonne maîtrise du français. Le texte choisi, qui
+                        fait partie du programme du cours, est un roman de Jean Cocteau: <title
+                            level="m">Les Enfants terribles</title> (Paris: Grasset, 1925). Il
+                        s'agit donc essentiellement d'un document de référence, qui sert d'appoint
+                        aux séances régulières de cours et permet à l'étudiant de poursuivre
+                        l'exploration du texte de façon individuelle. Le module comporte deux
+                        sections distinctes: une partie multimédia, avec des documents visuels et
+                        audio qui donnent des informations contextuelles, puis une partie axée sur
+                        l'interactivité, avec l'étude d'un extrait du roman.</p>
+                </div>
+                <div>
+                    <head>3. Le multimédia</head>
+                    <p>Le choix de Cocteau n'est pas arbitraire. Pour autant que l'on donne au terme
+                        un sens large, on pourrait dire que cet écrivain français du début du siècle
+                        pratiquait déjà le «multimédia». Non seulement Cocteau s'adonnait-il à tous
+                        les genres littéraires (poésie, roman et théâtre), mais encore explorait-il
+                        plusieurs médias: la peinture et le cinéma, qui lui ont valu une oeuvre
+                        importante, de même que la danse et la musique, qui lui ont inspiré des
+                        collaborations multiples avec d'autres artistes. Dans une première section
+                        du module, on trouvera ainsi une bio-bibliographie partielle (allant de
+                        1889, année de la naissance de l'auteur, à 1925, date de la publication du
+                        roman étudié) qui permet de mesurer le caractère multiforme de l'oeuvre. De
+                        façon très modeste, je me suis contentée par ailleurs d'insérer quelques
+                        dessins de Cocteau. Idéalement, on trouverait dans cette partie divers liens
+                        nous faisant accéder à des extraits de films, de musique ou d'opéra. Mais il
+                        n'est pas sûr que cela soit possible dans un avenir immédiat, à cause des
+                        limites imposées par la technologie (je pense surtout aux documents vidéo
+                        pour lesquels nous ne disposons pas le plus souvent d'une mémoire
+                        suffisante) et à cause de la délicate question des droits d'auteur.</p>
+                    <p>En fait, j'ai pu constater la difficulté d'obtenir des permissions pour la
+                        reproduction de deux documents audio du module.<note n="2"> Selon une
+                            entente entre l'université et la plupart des maisons d'éditions, il est
+                            toutefois possible de reproduire jusqu'à 10% d'un texte écrit.</note> Au
+                        moment de la rédaction de ce résumé, toutes les questions de droit n'ont
+                        d'ailleurs pas été réglées. Il y a d'abord la chanson "Make believe" (tirée
+                        de la comédie musicale <title level="m">Show Boat</title>), «sous
+                        l'obsession» de laquelle Cocteau déclare, dans son journal <title level="m"
+                            >Opium</title> (Paris: Stock, 1930), avoir écrit <title level="m">Les
+                            Enfants terribles</title>, puis une adaptation radiophonique du roman
+                        par Agathe Mella (datant de 1947) dans laquelle a joué l'auteur. Je ne serai
+                        pas la première du reste à rendre compte du caractère fastidieux des
+                        demandes d'autorisation de reproduction de documents. Le jeu en vaut-il la
+                        chandelle?</p>
+                    <p>S'il s'agissait simplement d'enjoliver le texte de Cocteau, il ne fait aucun
+                        doute que l'entreprise n'en vaudrait pas la peine. C'est ainsi que je ne
+                        donne pas le même poids aux deux documents audio que j'ai intégrés. Il
+                        serait souhaitable, certes, que l'audition de "Make believe" puisse susciter
+                        chez l'étudiant une réflexion sur le processus de création et amener une
+                        étude comparative des thèmes de la chanson et du roman. Mais l'expérience
+                        m'a démontré que cette chanson, en partie peut-être à cause de ces
+                        connotations populaires, avait plutôt pour effet d'éloigner l'étudiant du
+                        roman de Cocteau. C'est d'ailleurs l'un des dangers du multimédia que de
+                        donner l'impression d'alléger le texte littéraire en le présentant parmi des
+                        documents qui peuvent paraître plus accessibles. Les différentes promenades
+                        à l'intérieur du module nous feraient dès lors tourner autour du texte
+                        principal, sans nous inciter à y entrer. L'ordinateur dans ce cas nuirait
+                        plus à l'enseignement de la littérature qu'il ne le servirait. Quant à
+                        l'adaptation radiophonique, du fait probablement de son caractère inusité
+                        (du moins pour l'étudiant des années 90 qui n'a pas l'habitude de ce genre
+                        d'utilisation de la radio), et de sa ressemblance au texte de Cocteau, elle
+                        semble heureusement n'avoir pas eu le même effet de diversion.</p>
+                    <p>Quoi qu'il en soit, tout peut être et devrait être récupéré dans la salle de
+                        classe, où l'on peut faire retour sur l'exploration individuelle du module.
+                        C'est à mon avis une façon de contrecarrer les deux effets négatifs du
+                        «médium» ordinateur pour l'enseignement de la littérature, soit ce que
+                        j'appellerais le nivellement de l'information (tous les documents se valent,
+                        voire sont substituables) et sa dilution (les documents les plus accessibles
+                        nous offrent une version digérée du texte littéraire). À partir de
+                        l'audition des deux documents audio, j'ai ainsi discuté avec mes étudiants
+                        des différentes modalités du travail de réécriture de toute adaptation et
+                        des implications des passages d'un médium à un autre. Ce qui permet
+                        d'évaluer le bien-fondé des démarches relatives aux droits d'auteur, c'est
+                        donc en dernier lieu aussi bien la pertinence du document à reproduire que
+                        l'encadrement que l'enseignant est prêt à donner dans ses cours, pour tirer
+                        le maximum du module.</p>
+                </div>
+                <div>
+                    <head>4. L'analyse textuelle</head>
+                    <p>Dans les quatre parties qui composent la deuxième section du module, il
+                        s'agit pour l'étudiant d'explorer différents aspects d'un court extrait du
+                        roman: le premier chapitre. La formule paraît semblable à ce que l'on trouve
+                        dans la plupart des manuels de littérature qui montrent à l'étudiant comment
+                        pratiquer l'exercice du commentaire de texte. Pourtant, le changement de
+                        forme (de la page imprimée à la page électronique) occasionne un important
+                        changement au niveau de la perspective d'analyse. Ainsi, le grand avantage
+                        de l'ordinateur est de garder intact le texte de base, qui ne révélera les
+                        commentaires du professeur que s'ils sont activés par l'étudiant. Les
+                        explications sur le système narratif, la valeur des temps verbaux, les
+                        désignateurs ou les figures de style, dans le module «Cocteau multimédia»,
+                        se présenteront donc sous forme de couches successives. En passant d'un lien
+                        à un autre et d'une partie à l'autre, l'étudiant aura l'impression de
+                        découvrir la structure profonde du texte.</p>
+                    <p>Mais, surtout, l'ordinateur permet ici à l'étudiant de réaliser diverses
+                        potentialités du texte, en créant des variantes qui mettront en évidence la
+                        spécificité du texte «original». Le principe de base s'apparente à celui de
+                        la commutation, qui a fondé en quelque sorte la linguistique structurale. De
+                        la même façon qu'on change les phonèmes d'un mot pour découvrir les
+                        oppositions fondamentales d'une langue, on peut modifier les temps de verbes
+                        ou les désignateurs d'un texte littéraire pour comprendre son
+                        fonctionnement. Dans le module, l'étudiant est ainsi invité à faire passer
+                        le récit de Cocteau du présent à l'imparfait, pour découvrir tout autant les
+                        effets de ce changement que la valeur prêtée au temps premier. Un
+                        commentaire initial est complété par différents liens dans le texte qui
+                        montrent le danger d'une modification unilatérale de tout l'extrait -- à
+                        cause de la concordance des temps ou de la logique narrative. De même,
+                        l'étudiant pourra tester sa connaissance du système de conjugaison du
+                        français en vérifiant chaque entrée.<note n="3">Le système utilisé pour cet
+                            exercice de conjugaison (et sa vérification) est Java Script.</note>
+                        Quant à la partie sur les noms des personnages, on proposera à l'étudiant
+                        une deuxième version d'une partie du chapitre où la périphrase («l'élève
+                        pâle»), maintes fois utilisée, aura été remplacée par le nom propre (Paul)
+                        du personnage. La comparaison entre les deux versions fait bien voir l'effet
+                        de contraste de la version originale, où le personnage qui est désigné par
+                        un nom propre (Dargelos) est aussi présenté comme une idole ou un dieu,
+                        tandis que Paul n'a en quelque sorte pas d'identité propre.</p>
+                    <p>En alignant différentes variantes d'un texte ou en réalisant différents
+                        paradigmes, l'ordinateur sert alors tout à fait l'étude du texte littéraire;
+                        le nivellement qui pouvait apparaître comme un danger au niveau du
+                        multimédia s'avère ici plutôt un gain. C'est pour cette raison d'ailleurs
+                        que la deuxième section du module est pour moi la plus prometteuse. J'y vois
+                        pour l'avenir, par rapport à mon enseignement, le modèle de nombreuses
+                        applications. J'envisage même déjà la création d'un module destiné à un
+                        cours plus avancé, qui a pour objet l'approche linguistique du texte
+                        littéraire -- où les questions du nom propre et des temps verbaux sont
+                        justement centrales.<note n="4">Cette utilisation de l'ordinateur au niveau
+                            de l'enseignement rejoint un autre champ de recherche, qui a déjà fait
+                            l'objet d'un article écrit en collaboration avec Greg Lessard:
+                            "Computerizing Céline." <title level="j">Computers and the
+                                Humanities</title>, 27 (1993): 387-394. Dans ce cas, le travail sur
+                            le texte littéraire se fait à partir de concordances et donc, de façon
+                            similaire, grâce aux paradigmes que permet de créer
+                        l'ordinateur.</note></p>
+                </div>
+                <div>
+                    <head>5. Conclusion </head>
+                    <p>Mais qu'adviendra-t-il du module «Cocteau multimédia»; se développera-t-il
+                        au-delà du stade expérimental? La réaction des deux groupes d'étudiants qui
+                        l'ont éprouvé m'est apparu à ce jour suffisamment positive pour que je pense
+                        donner suite au projet et ajouter différentes parties aux deux sections. Je
+                        sais maintenant toutefois que l'efficacité du produit ne tient pas seulement
+                        à sa valeur intrinsèque, et que l'encadrement du professeur est primordial
+                        dans toute cette démarche. D'une certaine façon, dirais-je pour conclure
+                        sous forme de boutade, l'expérience m'a démontré que ce n'est pas le
+                        matériel informatisé qui «assiste» l'enseignement, mais bien plutôt, à
+                        l'inverse, l'enseignement qui «assiste» l'ordinateur.</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

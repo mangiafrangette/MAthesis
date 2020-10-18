@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="poster/demo">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Renovating a worldclass tagset: from WOTAN to
+                    WOTAN-2</title>
+                <author>
+                    <name>
+                        <forename type="first">Hans</forename>
+                        <surname>van Halteren</surname>
+                        <affiliation>Dept. of Language and Speech <name type="org">University of
+                                Nijmegen</name>
+                            <email>hvh@let.kun.nl</email>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="1999">1999</date>
+                <publisher>
+                    <name>University of Virginia</name>
+                </publisher>
+                <pubPlace>Charlottesville, VA</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ACH/ALLC 1999</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first"/>
+                        <surname/>
+                    </name>
+                    <name>
+                        <forename type="first"/>
+                        <forename type="middle"/>
+                        <surname/>
+                    </name>
+                    <name>
+                        <forename type="first"/>
+                        <surname/>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item> </item>
+                        <item> </item>
+                        <item> </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>n 1994, a new wordclass tagset for Dutch was designed (WOTAN; Berghmans, 1994),
+                    for use in the upgrade of a tagged corpus of more than a million words
+                    (including the Eindhoven corpus; uit den Boogaart, 1975) and the subsequent
+                    derivation of an automatic tagger. WOTAN was based on the most popular
+                    descriptive grammar of Dutch (ANS; Geerts et al., 1984), from which the encoded
+                    distinctions were selected using two criteria: a) importance to potential users,
+                    as estimated from interviews and b) feasibility of (semi-)automatic derivation
+                    from the existing tagging, given the lack of time for extensive manual changes.
+                    WOTAN was judged to be a good compromise and has since been used in several
+                    tagging projects and experiments in the Netherlands and Belgium.</p>
+                <p>Yet, WOTAN had its shortcomings, leading to the creation of a successor. WOTAN-2
+                    adds some important distinctions originally left out because they needed manual
+                    intervention, and aims for compatibility with the EAGLES guidelines, the
+                    (extensively) revised version of the ANS (Haeseryn et al., 1997), the CELEX
+                    database and the AMAZON syntactic parser. Another, more uncertain, influence is
+                    the tagset to be used for the Spoken Dutch Corpus, which is presently under
+                    construction.</p>
+                <p>The poster will present:<list type="bulleted">
+                        <item>the differences between WOTAN and WOTAN-2</item>
+                        <item>the influence of the (sometimes contradictory) compatibility issues on
+                            the tagset</item>
+                        <item>additions to (or deviations from) the EAGLES proposal necessitated by
+                            decisions for WOTAN-2</item>
+                        <item>the upgrade of the WOTAN-tagged Eindhoven corpus to a WOTAN-2
+                            version</item>
+                    </list></p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <biblStruct>
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">J.</forename>
+                                    <surname>Berghmans</surname>
+                                </name>
+                            </author>
+                            <title level="m">WOTAN, een automatische grammatikale tagger voor het
+                                Nederlands</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher>Dept. of Language and Speech, University of
+                                    Nijmegen</publisher>
+                                <date when="1994">1994</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">Uit</forename>
+                                    <surname>den Boogaart</surname>
+                                </name>
+                            </author>
+                            <title level="m">Woordfrequenties in geschreven en gesproken
+                                Nederlands</title>
+                            <imprint>
+                                <pubPlace>Utrecht</pubPlace>
+                                <publisher>Oosthoek, Scheltema &amp; Holkema</publisher>
+                                <date when="1975">1975</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">G.</forename>
+                                    <surname>Geerts</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">W.</forename>
+                                    <surname>Haeseryn</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">J.</forename>
+                                    <surname>de Rooij</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">M.</forename>
+                                    <surname>van der Toorn</surname>
+                                </name>
+                            </author>
+                            <title level="m">Algemene Nederlandse Spraakkunst (ANS)</title>
+                            <imprint>
+                                <pubPlace>Leuven</pubPlace>
+                                <publisher>Wolters-Noordhoff, Groningen and Wolters</publisher>
+                                <date when="1984">1984</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">W.</forename>
+                                    <surname>Haeseryn</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">K.</forename>
+                                    <surname>Romijn</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">G.</forename>
+                                    <surname>Geerts</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">J.</forename>
+                                    <surname>de Rooij</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">M.</forename>
+                                    <surname>van der Toorn</surname>
+                                </name>
+                            </author>
+                            <title level="m">Algemene Nederlandse Spraakkunst (ANS)</title>
+                            <imprint>
+                                <pubPlace>Deurne</pubPlace>
+                                <publisher>Martinus Nijhoff, Groningen and Wolters
+                                    Plantyn</publisher>
+                                <date when="1997">1997</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

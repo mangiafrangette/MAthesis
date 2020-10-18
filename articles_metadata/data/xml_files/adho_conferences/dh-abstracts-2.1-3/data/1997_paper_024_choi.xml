@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="paper">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Korean Analysis and Transfer in Multilingual Machine
+                    Translation System</title>
+                <author>
+                    <name>
+                        <forename type="first">Sung-Kwon</forename>
+                        <surname>Choi</surname>
+                        <affiliation>
+                            <name type="org">Systems Engineering Research Institute</name>
+                            <email>skchoi@seri.re.kr</email>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Tae-Wan</forename>
+                        <surname>Kim</surname>
+                        <affiliation>
+                            <name type="org">Systems Engineering Research Institute</name>
+                            <email>twkim@seri.re.kr</email>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Soo-Hyun</forename>
+                        <surname>Lee</surname>
+                        <affiliation>
+                            <name type="org">Systems Engineering Research Institute</name>
+                            <email>shlee@seri.re.kr</email>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Dong-In</forename>
+                        <surname>Park</surname>
+                        <affiliation>
+                            <name type="org">Systems Engineering Research Institute</name>
+                            <email>dipark@seri.re.kr</email>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="1997">1997</date>
+                <publisher>
+                    <name>Queen's University</name>
+                </publisher>
+                <pubPlace>Kingston, Ontario</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ACH/ALLC 1997</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name type="org">the secretarial staff in the Department of French Studies at Queen's University</name>
+                    <name>
+                        <forename type="first">Greg</forename>
+                        <surname>Lessard</surname>
+                    </name>
+                    <name>
+                        <forename type="first"/>
+                        <surname/>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item>machine translation</item>
+                        <item>multilingualism</item>
+                        <item>common grammatical knowledge</item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <div>
+                    <head>Abstract</head>
+                    <p>Multilingual machine translation means translation between more than two
+                        languages. The existing multilingual machine translation systems can be
+                        classified into the transfer-based and interlingual-based multilingual
+                        machine translation. In the former the analysis and generation rules were
+                        written each other differently, so that the commonness of the languages was
+                        ignored and the whole memory space led to increase. The latter had the
+                        difficulty in implementing the linguistic universal model available to many
+                        languages. In order to get over the shortcomings of these existing
+                        multilingual machine translation systems, this paper describes the
+                        multilingual MT systems through the common rules which can accept the
+                        commonness of languages and many languages can share.</p>
+                </div>
+                <div>
+                    <head>1 Introduction</head>
+                    <p>The analysis and generation rules in the existing transfer-based multilingual
+                        machine translation systems (SYSTRAN, EUROTRA, METAL, LOGOS, GETA etc.) are
+                        independent and different according to target languages.[Hutchins 1992] It
+                        says that the existing multilingual machine translation systems don't
+                        acknowledge the commonness of languages. For this reason the existing
+                        multilingual machine translation systems have the form like the bundle of
+                        bilingual MT systems and this leads to a result increasing the size of
+                        system. There are the transfer-based multilingual machine translation
+                        systems that use interlingual method for reducing the transfer processes
+                        (CETA, SALAT, DLT, KANT etc.), however they have difficult problems to
+                        complete the linguistic universal model[Lewis 1992]. From this point of view
+                        this paper describes the new multilingual machine translation method by the
+                        common rules and constraint rules to overcome the problem the existing
+                        multilingual machine translation systems have. The common rules mean the
+                        rules that are in common with more than two languages. It is the merits of
+                        common rules that can reduce the memory space, augment the consistency of
+                        grammatical information and standardize the information structure of lexicon
+                        because the common rules are loaded into memory only once. They also have
+                        another merit for MT. That is, new grammar modules can be created easily
+                        through the combination of 'common' rules when we add a new language to the
+                        existing system and translate it into the existing languages. The constraint
+                        rules mean the rules controlling the linguistic characteristics of
+                        individual languages. This paper consists of three parts: In the chapter 2
+                        the construction of the whole system is introduced. The chapter 3 describes
+                        the modules consisting of common rules, that is, the common grammatical
+                        rules, the common lexicon information structure, the common structural
+                        transfer rules, and the common information transfer rules. In the chapter 4
+                        we explain the analysis and transfer of Korean through the parameterized
+                        common rules and the constraint rules.</p>
+                </div>
+                <div>
+                    <head>2 System construction</head>
+                    <p>The Figure 1 shows the system construction of multilingual machine
+                        translation by the common rules and constraint rules:</p>
+                    <figure>
+                        <head>Figure1: Construction of multilingual machine translation system
+                        </head>
+                    </figure>
+                    <p>The middle field of Figure 1 means the common module. 'rn' is a file of
+                        common rules consisting of the common module. These files of the common
+                        rules are called by the grammar modules of the individual languages and
+                        constitute the grammar rules of an individual language together with the
+                        constraint rules for the language. For example, Korean, Japanese, English
+                        and German in Figure 1 have in common a rule file r3, but Korean and
+                        Japanese share more rule files r2 and r4 because they are more similar in
+                        the language typology than English and German</p>
+                </div>
+                <div>
+                    <head>3 Common rules</head>
+                    <p>In this chapter I will show the construction of common rules. Common rules
+                        for analysis consist of the common grammar rules and the common lexicon
+                        information structure and those for transfer consist of the common
+                        structural transfer rules and the common information transfer rules.</p>
+                    <div>
+                        <head>3.1 Common grammatical rules</head>
+                        <p>To handle many languages in multilingual machine translation system,
+                            common grammatical rules should explain linguistic phenomena of as many
+                            countries as possible. For explanation of linguistic phenomena of
+                            configurational language (e.g. English) as well as nonconfigurational
+                            languages (e.g. Korean, Japanese, German) whose word order is relatively
+                            free, we have made new grammar rules where X-bar syntactic
+                            theory[Jackendoff 1977] and HPSG [Pollard 1994] were mixed. The new
+                            grammar was made in binary structure except the coordination structure
+                            which was made in triple structure.</p>
+                        <table rend="boxed" rows="4" cols="4">
+                            <head>Table 1. Common grammar rules</head>
+                            <row>
+                                <cell/>
+                                <cell role="label">
+                                    <emph rend="bold">head-final-structure</emph>
+                                </cell>
+                                <cell role="label">
+                                    <emph rend="bold">head-first-structure</emph>
+                                </cell>
+                                <cell role="label">
+                                    <emph rend="bold">head-middle-structure</emph>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>1</cell>
+                                <cell>PRED => ARG PRED</cell>
+                                <cell>PRED => PRED ARG</cell>
+                                <cell>COORD => ARG1 COORD ARG2</cell>
+                            </row>
+                            <row>
+                                <cell>2</cell>
+                                <cell>MODED => MOD MODED</cell>
+                                <cell>MODED => MODED MOD</cell>
+                                <cell/>
+                            </row>
+                            <row>
+                                <cell>3</cell>
+                                <cell>FUNCT => ARG FUNCT</cell>
+                                <cell>FUNCT => FUNCT ARG</cell>
+                                <cell/>
+                            </row>
+                        </table>
+                        <p>The common grammar rules of the table 1 are described in Appendix 1
+                            according to the notation of the CAT2 machine translation system.</p>
+                    </div>
+                    <div>
+                        <head>3.2 Common lexicon information structure</head>
+                        <p>We need to make the lexicon information structure in order to input,
+                            manage and correct consistently the lexicon information of the
+                            multilingual machine translation system. It is desirable to build not
+                            monotonic, but multiple structure so that the information structure of
+                            lexicon may represent the possible linguistic information and be moved
+                            collectively. From this point of view I have selected the feature
+                            structure as the multilingual lexicon information structure and made the
+                            attributes be the same in many languages. Appendix 2 shows an example of
+                            multilingual lexicon information structure.</p>
+                    </div>
+                    <div>
+                        <head>3.3 Common structural transfer rules</head>
+                        <p>There is also the part in the transfer process the many languages can
+                            share. It is the compositional transfer that copies the node of the
+                            source language to that of the target language if the analysis structure
+                            of the former and the generation structure of the latter are the same.
+                            We make use of the method deleting the functional words and then
+                            transforming the syntactic nodes to the 'predicate-argument-modifier'
+                            nodes in our multilingual machine translation system in order to
+                            transfer compositionally the different structures between the languages.
+                            We have recorded the noncompositional structural rules unusable to the
+                            common structural transfer rules in the transfer lexicon because they
+                            depend on the lexemes. The transfer rules have the priority order: the
+                            noncompositional structural transfer rules are applied first to the
+                            transfer process, second, the common structural transfer rules and last,
+                            the lexical transfer rules in the lexicon. The following rule shows the
+                            common structural transfer rule:<lb/>
+                            <eg>(1) common_structural_transfer_rule = {}.[+node] &lt;=&gt;
+                                {}.[+node].</eg></p>
+                        <p>The rule (1) says that all compositional transfer trees, that is, '+node'
+                            are transferred unvaryingly from the source language to the target
+                            language.</p>
+                    </div>
+                    <div>
+                        <head>3.4 Common information transfer rules</head>
+                        <p>Simplifying the transfer process in the multilingual machine translation
+                            is also able to result from the separation of the structure from the
+                            information. In the existing transfer-based machine translation systems
+                            the structural transfer has included the information transfer. It has
+                            brought out the duplication of the information and the increase of the
+                            memory space. But the isolation between the structure and the
+                            information results in excluding the shortcomings of the existing
+                            machine translation systems. In this sense, the common information
+                            transfer rules have the function to transfer the common information
+                            available to many languages, that is, they are the rules that copy the
+                            semantic informations from the source language to target language. The
+                            semantic informations are produced by the mapping from form to its
+                            meaning in the analysis. The following rules show the common information
+                            transfer rules: (We use the notation of the CAT2 system.)</p>
+                        <p>(2) Common information transfer rules</p>
+                        <list type="bulleted">
+                            <item>Lexical_semantic_transfer =<lb/> {head:{ehead:{sem:SEM}}}.[*]
+                                &lt;=&gt; {head:{ehead:{sem:SEM}}}.[*].</item>
+                            <item>Transfer_of_semantic_roles =<lb/> {role:ROLE}.[*]
+                                &lt;=&gt; {role:ROLE}.[*].</item>
+                        </list>
+                        <p>The lexical semantic transfer says that the lexical semantic information
+                            of the source language is copied to that of the target language on the
+                            same node level and the reverse too ('&lt;=&gt;' means the
+                            bidirection). The transfer of semantic roles shows the copy of the
+                            information of the semantic role between the source language and the
+                            target language.</p>
+                    </div>
+                </div>
+                <div>
+                    <head>4 Korean analysis and transfer by constraint rules</head>
+                    <p>The grammar of individual languages consists of the universal rule and its
+                        parameter [Chomsky 1981]. The language typology can be classified by the
+                        parameter [Greenberg 1963]. There is an example of machine translation[Dorr
+                        1993] that has used the univeral principle and its parameter. According to
+                        the Greenberg's parameterized word order we can consider the Korean standard
+                        word order as follows:</p>
+                    <p>(3) Standard Word Order of Korean</p>
+                    <list type="bulleted">
+                        <item>SOV</item>
+                        <item>Number-Noun</item>
+                        <item>Demonstrator-Noun</item>
+                        <item>Adjective-Noun </item>
+                        <item>Possessive Pronoun-Noun</item>
+                        <item>Relative clause-Noun</item>
+                    </list>
+                    <p>This standard word order gives an individual language a clue for its
+                        parameter. In the next section we will see the paramterized common
+                        grammatical rules for Korean.</p>
+                    <div>
+                        <head>4.1 Korean analysis by parameterized common rules</head>
+                        <p>According to the Korean standard word order the head word must always
+                            follow its argument or modifier. From this point of view we can select
+                            the head-final common rules for Korean under the multilingual common
+                            grammatical rules in the Figure 1. The head-final rules in Figure 1 and
+                            Head Feature Principle percolating the information of lexical head into
+                            that of its phrase are as follows: (the coordination structure of Korean
+                            can be considered as part of the 'Argument-Functional word structure'. I
+                            hold the coordination structure of Korean as the triple structure for
+                            the efficient analysis.)</p>
+                        <table rend="boxed" rows="4" cols="3">
+                            <head>Table 2. Parameterized common grammar rules for Korean</head>
+                            <row>
+                                <cell/>
+                                <cell role="label">
+                                    <emph rend="bold">head-final-structure</emph>
+                                </cell>
+                                <cell role="label">head-middle-structure</cell>
+                            </row>
+                            <row>
+                                <cell>1</cell>
+                                <cell>PRED => ARG PRED</cell>
+                                <cell>COORD => ARG1 COORD ARG2</cell>
+                            </row>
+                            <row>
+                                <cell>2</cell>
+                                <cell>MODED => MOD MODED</cell>
+                                <cell/>
+                            </row>
+                            <row>
+                                <cell>3</cell>
+                                <cell>FUNCT => ARG FUNCT</cell>
+                                <cell/>
+                            </row>
+                        </table>
+                        <p>
+                            <eg>(4) Head_Feature_Principle =
+                               {head:HEAD}.[{},{head:HEAD}].</eg>
+                        </p>
+                        <p>A Korean sentence that is analysed by the parameterized common grammar
+                            rules and the HFP results in what follows:<lb/>
+                            <eg>(5) cengpwunun saylowun kyeyhoykanul malyenhayessta.
+                                    government+SUBJ new plan+OBJ make+PAST+DECL
+                                    The government made a new plan.</eg></p>
+                        <figure/>
+                        <p>In (5) the fine line shows the application of 'FUNCT => ARG FUNCT', the
+                            dotted line that of 'MODED => MOD MODED' and the thick line that of
+                            'PRED => ARG PRED'.</p>
+                    </div>
+                    <div>
+                        <head>4.2 Korean analysis by grammatical constraint rules</head>
+                        <p>With analysing Korean in the machine translation, we must consider
+                            specially the following [Oh 1994]:<lb/>
+                            <eg>(6) Korean Characteristics</eg>
+                            <list type="bulleted">
+                                <item>Phonological peculiarity<lb/> sonyen-i, sonye-ka<lb/>
+                                    boy-SUBJ, girl-SUBJ<lb/> boy, girl</item>
+                                <item>Double objects<lb/> kunun seoulul yehayngul hayessta.<lb/>
+                                    He-SUBJ Seoul-OBJ trip-OBJ make-PAST-DECL<lb/> He made a trip to
+                                    Seoul</item>
+                                <item>Honorifics<lb/> kyoswunimkkeyse osipnita.<lb/>
+                                    professor-SUBJ(HON) come-HON-DECL<lb/> The professor
+                                    comes.</item>
+                            </list></p>
+                        <p>These peculiarities of Korean can be explained by the constraint rules.
+                            The table 3 shows the relation between common rules and their constraint
+                            rules.</p>
+                        <table rend="boxed" rows="4" cols="3">
+                            <head>Table 3. Common rules and constraint rules</head>
+                            <row>
+                                <cell role="label">
+                                    <emph rend="bold">Korean characteristics</emph>
+                                </cell>
+                                <cell role="label">
+                                    <emph rend="bold">Common rules</emph>
+                                </cell>
+                                <cell role="label">
+                                    <emph rend="bold">Constraint rules </emph>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Phonological peculiarities</cell>
+                                <cell>FUNCT => ARG FUNCT</cell>
+                                <cell>Phonological rule </cell>
+                            </row>
+                            <row>
+                                <cell>Double objects</cell>
+                                <cell>PRED => ARG PRED</cell>
+                                <cell>Argument exchange</cell>
+                            </row>
+                            <row>
+                                <cell>Honorifics</cell>
+                                <cell>HFP</cell>
+                                <cell>Context information</cell>
+                            </row>
+                        </table>
+                        <p>- Phonological rule</p>
+                        <p>All morphemes contain their last phoneme that is subcategorized and
+                            predicted by a functional word.</p>
+                        <figure/>
+                        <p>
+                            <eg>example) sonyen{phon:con} i{phon:voc,frame:{arg1:{phon:con}}}
+                                         boy{phon:con} SUBJ{phon:voc,frame:{arg1:{phon:con}}}</eg>
+                        </p>
+                        <p>- Argument exchange</p>
+                        <p>The subcategorization structures of functional verb 'hata (= do/make)'
+                            and those of predicate noun are exchanged for each other in the lexicon:<lb/>
+                            <!-- it might be better to use a figure for table 4 since several cells in the original table cover more than one row or column -->
+                            <table rend="boxed" rows="6" cols="5">
+                                <head>Table 4. Lexicon of 'hata (do/make)'</head>
+                                <row>
+                                    <cell>
+                                        <emph rend="bold">lex</emph>
+                                    </cell>
+                                    <cell>
+                                        <emph rend="bold">hata</emph>
+                                    </cell>
+                                </row>
+                                <row>
+                                    <cell/>
+                                    <cell>arg1</cell>
+                                    <cell>ARG1</cell>
+                                </row>
+                                <row>
+                                    <cell/>
+                                    <cell>arg2</cell>
+                                    <cell>ARG2</cell>
+                                </row>
+                                <row>
+                                    <cell>frame</cell>
+                                    <cell/>
+                                    <cell>cat</cell>
+                                    <cell>noun</cell>
+                                </row>
+                                <row>
+                                    <cell/>
+                                    <cell>arg3</cell>
+                                    <cell>frame</cell>
+                                    <cell>arg1</cell>
+                                    <cell>ARG1</cell>
+                                </row>
+                                <row>
+                                    <cell/>
+                                    <cell/>
+                                    <cell/>
+                                    <cell>arg2</cell>
+                                    <cell>ARG2</cell>
+                                </row>
+                            </table>
+                        </p>
+                        <p>
+                            <eg>example) kunun(arg1) seoulul(arg2) yehayngul(arg3(arg1,arg2)) ha(arg1,arg2,arg3)yessta.
+                                         He-SUBJ Seoul-OBJ Trip-OBJ make-PAST-DECL 
+                                         He made a trip to Seoul.</eg>
+                        </p>
+                        <p>- Context information</p>
+                        <p>The context information of sentence subject agrees with that of verb
+                            phrase.</p>
+                        <figure/>
+                        <p>
+                            <eg>example) kyoswunimkkeyse(context:honor) osi(context:honor)pnita.
+                                         professor-SUBJ(HON)            come-HON-DECL.
+                                         The professor comes.</eg>
+                        </p>
+                    </div>
+                    <div>
+                        <head>4.3 Transfer constraint rules</head>
+                        <p>The syntactic tree of Korean results in the semantic tree through tree
+                            transformation. The semantic tree has the 'predicate-argument-modifier'
+                            arrangement. HFP also is applied to nodes of the semantic tree. We are
+                            transducing the Korean syntactic tree (5) to the following semantic tree
+                            through the transformation rules.</p>
+                        <p>
+                            <eg>(7) cengpwunun saylowun kyeyhoykanul malyenhayessta.
+                                    government-SUBJ new plan-OBJ make-PAST-DECL.
+                                    The government made a new plan.</eg>
+                        </p>
+                        <figure/>
+                        <p>The semantic tree becomes the input of transfer. All semantic trees that
+                            can be transferred compositionally are transferred to target language by
+                            the 'common structural transfer rules' and 'common information tranfer
+                            rules'. There is, however, the compositional transfer that is not able
+                            to apply to the common information transfer rules. The idiomatic
+                            expressions with functional verbs 'hata(do/make)' or 'toyta(be done/be
+                            made)' belong to this example. We delete 'hata' during transformation
+                            from syntactic tree to semantic tree and copy the information of 'hata'
+                            to the feature 'functional verb' of predicate noun, so that the
+                            predicate of a sentence becomes the predicate noun during transformation
+                            from syntactic tree to semantic tree and copy the information of 'hata'
+                            to the feature 'functional verb' of predicate noun, so that the
+                            predicate of a sentence becomes the predicate noun. But there is no
+                            multilingual rule that can control the relation between the predicate
+                            noun of source language and the predicate noun of target language or
+                            between predicate noun of source language and verb or adjective of
+                            target language. For this reason we need the rule constraining the
+                            common transfer rule. Now we have the transfer constraint rules for the
+                            common information transfer rules.</p>
+                        <p>(8) Constraint rule of predicate noun</p>
+                        <list type="bulleted">
+                            <item>idiomatic expression vs idiomatic expression<lb/><lb/>Let copy the
+                                information of Korean functional verb to that of functional verb of
+                                target language, if the lexeme of target language has the functional
+                                verb that is equalent to the Korean idiomatic expression with
+                                'hata'.<lb/><lb/>ex.) sanpolul hata => take a walk, einen
+                                Sparziergang machen, sanpowo suru<lb/> ilul hata => sikotowo
+                                suru</item>
+                            <item>idiomatic expression vs verb or adjective<lb/><lb/>Let copy the
+                                information of Korean functional verb to that of the lexeme of
+                                target language, if the lexeme of target language has no functional
+                                verb that is equivalent to the Korean idiomatic expression with
+                                'hata'.<lb/><lb/>ex.) ilul hata => work, arbeiten </item>
+                        </list>
+                    </div>
+                </div>
+                <div>
+                    <head>5 Conclusion</head>
+                    <p>In this paper I have proposed a new philosophy of multilingual machine
+                        translation that accepts the commonness of languages to reduce the memory
+                        space of the multilingual machine translation system and to simplify the
+                        transfer process. This philosophy is explained by the common rules for many
+                        languages and the constraint rules for the individual languages. For
+                        example, the analysis of Korean is explained by the parameterized common
+                        rules and the constraint rules and the transfer from Korean to other target
+                        languages is explained by the common structure transfer rules, the common
+                        information transfer rules, and the transfer constraint rules. The following
+                        table shows the size of the common and constraint rules used for the
+                        analysis and transfer of Korean in the translation from 300 Korean sentences
+                        to English or German.</p>
+                    <!-- labels in first row of table should span 2 columns each -->
+                    <table rend="boxed" rows="3" cols="6">
+                        <row>
+                            <cell role="label">
+                                <emph rend="bold">Syntactic Analysis</emph>
+                            </cell>
+                            <cell role="label">
+                                <emph rend="bold">Semantic Analysis</emph>
+                            </cell>
+                            <cell role="label">
+                                <emph rend="bold">Transfer</emph>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>Common</cell>
+                            <cell>Constraint</cell>
+                            <cell>Common</cell>
+                            <cell>Constraint</cell>
+                            <cell>Common</cell>
+                            <cell>Constraint</cell>
+                        </row>
+                        <row>
+                            <cell>9</cell>
+                            <cell>55</cell>
+                            <cell>39</cell>
+                            <cell>8</cell>
+                            <cell>43</cell>
+                            <cell>3</cell>
+                        </row>
+                    </table>
+                    <p>- Further work</p>
+                    <p>Although the multilingual machine translation by the common rules and the
+                        constraint rules is performed reasonably well, reducing the analysis rules
+                        and simplifying the transfer process, there are yet many problems to be
+                            solved:<list type="bulleted">
+                            <item>Truncation of the number of the parse trees</item>
+                            <item>Conflict between the old and the new lexical information</item>
+                            <item>Recognizing the idiomatic expressions and collocations</item>
+                            <item>Disambiguation of polysemy</item>
+                        </list></p>
+                    <p>In order to solve the problems we are testing the following methods: <list
+                            type="bulleted">
+                            <item>Usage of the probabilistic method</item>
+                        <item>Information processing by the multiple inheritance</item>
+                        <item>Implementation of the compound unit recognizer</item>
+                        <item>Usage of the domain</item>
+                        </list></p>
+                </div>
+            </div>
+        </body>
+        <back><div type="bibliography">
+            <listBibl>
+                <biblStruct type="book" n="[Oh 1994]"><monogr>
+                    <author>
+                        <name>
+                            <forename type="first">Kil-Lok</forename>
+                            <surname>Oh</surname>
+                        </name>
+                    </author>
+                    <author>
+                        <name>
+                            <forename type="first">Key-Sun</forename>
+                            <surname>Choi</surname>
+                        </name>
+                    </author>
+                    <author>
+                        <name>
+                            <forename type="first">Sey-Young</forename>
+                            <surname>Park</surname>
+                        </name>
+                    </author>
+                    <title level="m">Korean Language Engineering</title>
+                    <imprint>
+                        <pubPlace></pubPlace>
+                        <publisher>Tae-Young-Sa</publisher>
+                        <date when="1994">1994</date>
+                    </imprint>
+                </monogr><note>(in Korean)</note></biblStruct>
+                <biblStruct type="book" n="[Chomsky 1981]"><monogr>
+                    <author>
+                        <name>
+                            <forename type="first">N.</forename>
+                            <surname>Chomsky</surname>
+                        </name>
+                    </author>
+                    <title level="m">Lectures on Government and Binding. The Pisa Lectures</title>
+                    <title level="s">Studies in Generative Grammar 9</title>
+                    <imprint>
+                        <pubPlace>Dordrecht Holland &amp; Cinnaminson U.S.A.</pubPlace>
+                            <publisher>Foris Publication</publisher>
+                        <date when="1981">1981</date>
+                    </imprint>
+                </monogr></biblStruct>
+                <biblStruct type="bookChapter" n="[Greenberg 1963]">
+                    <analytic>
+                        <author><name><forename type="first">J.</forename>
+                            <forename type="middle">H.</forename><surname>Greenberg</surname></name></author>
+                        <title level="a">Some universals of grammar with particular reference to the order of meaningful elements</title>
+                    </analytic>
+                    <monogr>
+                        <editor>
+                            <name>
+                                <forename type="first">Joseph</forename>
+                                <forename type="middle">H.</forename>
+                                <surname>Greenberg</surname>
+                            </name>
+                        </editor>
+                        <title level="m">Universals of Language</title>
+                        <edition>2nd edition</edition>
+                        <imprint>
+                            <pubPlace>Cambridge, Massachusetts</pubPlace>
+                            <publisher>The M.I.T. Press</publisher>
+                            <date when="1963">1963</date>
+                        </imprint>
+                    </monogr></biblStruct>
+                <biblStruct type="book" n="[Dorr 1993]"><monogr>
+                    <author>
+                        <name>
+                            <forename type="first">B.</forename>
+                            <forename type="middle">J.</forename>
+                            <surname>Dorr</surname>
+                        </name>
+                    </author>
+                    <title level="m">Machine Translation: A View from the Lexicon</title>
+                    <imprint>
+                        <pubPlace>Cambridge, Massachusetts and London, England</pubPlace>
+                        <publisher>MIT Press</publisher>
+                        <date when="1993">1993</date>
+                    </imprint>
+                </monogr></biblStruct>
+                <biblStruct type="book" n="[Hutchins 1992]"><monogr>
+                    <author>
+                        <name>
+                            <forename type="first">W.</forename>
+                            <forename type="middle">J.</forename>
+                            <surname>Hutchins</surname>
+                        </name>
+                    </author>
+                    <author>
+                        <name>
+                            <forename type="first">H.</forename>
+                            <forename type="middle">L.</forename>
+                            <surname>Somers</surname>
+                        </name>
+                    </author>
+                    <title level="m">An Introduction to Machine Translation</title>
+                    <imprint>
+                        <pubPlace></pubPlace>
+                        <publisher>Academic Press</publisher>
+                        <date when="1992">1992</date>
+                    </imprint>
+                </monogr></biblStruct>
+                <biblStruct type="book" n="[Jackendoff 1977]"><monogr>
+                    <author>
+                        <name>
+                            <forename type="first">R.</forename>
+                            <forename type="middle">S.</forename>
+                            <surname>Jackendoff</surname>
+                        </name>
+                    </author>
+                    <title level="m">X-bar Syntax: A Study of Phrase Structure.</title>
+                    <imprint>
+                        <pubPlace>Cambridge</pubPlace>
+                        <publisher>MIT Press</publisher>
+                        <date when="1977">1977</date>
+                    </imprint>
+                </monogr></biblStruct>
+                <biblStruct type="bookChapter" n="[Lewis 1992]">
+                    <analytic>
+                        <author><name><forename type="first">D.</forename>
+                            <surname>Lewis</surname></name></author>
+                        <title level="a">Computers and Translation</title>
+                    </analytic>
+                    <monogr>
+                        <editor>
+                            <name>
+                                <forename type="first">Christopher</forename>
+                                <surname>Butler</surname>
+                            </name>
+                        </editor>
+                        <title level="m">Computers and Written Texts</title>
+                        <imprint>
+                            <pubPlace></pubPlace>
+                            <publisher>Blackwell</publisher>
+                            <date when="1992">1992</date>
+                            <biblScope type="pp">75-114</biblScope>
+                        </imprint>
+                    </monogr></biblStruct>
+                <biblStruct type="book" n="[Pollard 1994]">
+                    <monogr>
+                        <author><name><forename type="first">C.</forename>
+                           <surname>Pollard</surname></name></author>
+                        <author><forename type="first">I.</forename><surname>Sag</surname></author>
+                        <title level="m">Head-Driven Phrase Structure Grammar</title>
+                        <title level="s">Studies in Comtemporary Linguistics</title>
+                        <imprint>
+                            <pubPlace>Chicago &amp; London</pubPlace>
+                            <publisher>The University of Chicago Press</publisher>
+                            <date when="1994">1994</date>
+                        </imprint>
+                    </monogr></biblStruct>
+                <biblStruct type="book" n="[Sharp 1994]"><monogr>
+                    <author>
+                        <name>
+                            <forename type="first">R.</forename>
+                            <surname>Sharp</surname>
+                        </name>
+                    </author>
+                    <title level="m">CAT2 Reference Manual Version 3.6</title>
+                    <title level="s">IAI Working Papers N.27</title>
+                    <imprint>
+                        <pubPlace>Saarbruecken, Germany</pubPlace>
+                        <publisher></publisher>
+                        <date when="1994">1994</date>
+                    </imprint>
+                </monogr></biblStruct>
+            </listBibl>
+        </div>
+            <div><head>Endnote</head><p><emph rend="italics">This paper summarizes the experiment of the multilingual machine translation system CAT2 [Sharp 1994]. The CAT2 system is now working on a UNIX-workstation. Its programming language is PROLOG and it uses the 'constraint bottom-up chart' parser. We are now translating Korean into English as well as German and are testing the translation from Korean into French, Chinese, Russian, and Japanese as the target languages.</emph></p></div>
+        <div type="appendix"><head><emph rend="italics">Appendix 1. Multilingual common grammar rules written in CAT2 notation </emph></head><figure></figure></div>
+            <div type="appendix"><head><emph rend="italics">Appendix 2. Multilingual Lexicon Information Structure</emph></head><figure></figure></div></back>
+    </text>
+</TEI>

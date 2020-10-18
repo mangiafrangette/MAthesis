@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="poster/demo">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">LOOKSEE: Software Tools for Image-Based Humanities
+                    Computing</title>
+                <author>
+                    <name>
+                        <forename type="first">Matthew</forename>
+                        <forename type="middle">G.</forename>
+                        <surname>Kirschenbaum</surname>
+                        <affiliation>
+                            <name type="org">University of Kentucky</name>, USA <email/>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="2000">2000</date>
+                <publisher>
+                    <name>University of Glasgow</name>
+                </publisher>
+                <pubPlace>Glasgow</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ALLC/ACH 2000</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first">Jean</forename>
+                        <surname>Anderson</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Amal</forename>
+                        <surname>Chatterjee</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Christian</forename>
+                        <forename type="middle">J.</forename>
+                        <surname>Kay</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Margaret</forename>
+                        <surname>Scott</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item> </item>
+                        <item> </item>
+                        <item> </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>This poster will document LOOKSEE, a Web site and discussion list for image-based
+                    humanities computing &lt;<ptr target="http://www.rch.uky.edu/~mgk/looksee/"
+                    />&gt; (first announced at the 1999 ACH/ALLC in Charlottesville). Its primary
+                    focus is not imaging and image acquisition - areas with well-established
+                    technical literatures - but rather the creation and manipulation of images as
+                    structured data in digital editions, archives, and libraries.</p>
+                <p>LOOKSEE is therefore intended as a community focal point for discussion and
+                    development of next generation image-based humanities computing projects.
+                    Although the term "image-based" humanities computing has been in circulation for
+                    some time, we are now approaching a watershed: a number of pioneering projects
+                    (many of them begun in the early nineties) whose promise could heretofore be
+                    discussed only in speculative terms are now coming to fruition, while new
+                    software tools and data standards (notably JPEG 2000) are poised to redefine the
+                    way we create, access, and work with digital images. All of this activity,
+                    moreover, is transpiring at a moment when there is an unprecedented level of
+                    interest in visual culture and representation in the academic humanities at
+                    large.</p>
+                <p>At present, LOOKSEE consists of:<list>
+                        <item>1. The Web materials at the URL above, collecting resources ranging
+                            from computer science to medical informatics to art history, as well as
+                            demos and proofs of concept to create a kind of sketchbook for
+                            image-based humanities computing.</item>
+                        <item>2. A listserv discussion forum. Though the list is (technically)
+                            unmoderated, it is run as a structured discussion in which topics are
+                            brought forward at set intervals for the participants' consideration.
+                            The first discussion, held in November and December of 1999, revolved
+                            around humanities applications of techniques in medical image display
+                            and image processing; a second discussion (February/March 2000) will
+                            feature artist Johanna Drucker's Wittgenstein's Gallery, a series of
+                            over one hundred conceptual drawings constituting a working model of
+                            vision, perception, and (re)cognition. (We will use Drucker's work as
+                            the basis for a discussion of computer-assisted image analysis.) Later
+                            discussions will be given over to producing specs for a suite of open
+                            source image analysis tools and will attempt to identify the range of
+                            activities that can be supported by computational tools.</item>
+                        <item>3. The LOOKSEE Web site will then expand to include source code,
+                            demos, and documentation.</item>
+                    </list></p>
+                <p>A poster at ALLC/ACH will allow for an opportunity to present preliminary results
+                    - both technical experiments and conceptual formulations - to the international
+                    humanities computing community while (just as importantly) enlisting
+                    participants and establishing contacts with others working with images in
+                    humanities settings.</p>
+                <p>LOOKSEE is edited and directed by Matthew G. Kirschenbaum and hosted by the
+                    collaboratory for Research in Computing for Humanities at the University of
+                    Kentucky.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="poster/demo">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Automatic Text Aligning in a Parallel Text
+                    Corpus</title>
+                <author>
+                    <name>
+                        <forename type="first">Mikhail</forename>
+                        <surname>Mikhailov</surname>
+                        <affiliation>
+                            <name type="org">University of Tampere</name>, Finland <email/>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="2000">2000</date>
+                <publisher>
+                    <name>University of Glasgow</name>
+                </publisher>
+                <pubPlace>Glasgow</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ALLC/ACH 2000</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first">Jean</forename>
+                        <surname>Anderson</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Amal</forename>
+                        <surname>Chatterjee</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Christian</forename>
+                        <forename type="middle">J.</forename>
+                        <surname>Kay</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Margaret</forename>
+                        <surname>Scott</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item> </item>
+                        <item> </item>
+                        <item> </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <div>
+                    <p>Parallel text corpora supply researchers with very important data for
+                        multilingual lexicography and translation studies as well as for language
+                        typology. The crucial problem in compiling parallel corpora is aligning the
+                        texts. Manual aligning is impossible for large corpora, so ways of automatic
+                        aligning are to be found. The aim of the research project at the University
+                        of Tampere is to compile a Russian-Finnish parallel corpus and to develop
+                        the software for automatic aligning of the Russian and Finnish subcorpora.
+                    </p>
+                </div>
+                <div>
+                    <head>1. General</head>
+                    <p>Since the 60s and 70s text corpora development has become much easier.
+                        Electronic texts in a large variety of languages can be obtained on the
+                        Internet; scanning and OCR technologies have been much improved during the
+                        last ten years. Associations like TELRI and ELRA are helping linguists from
+                        different countries to join their efforts in collecting language resources
+                        in electronic form. The number of corpus-based projects is rapidly growing
+                        while the number of scholars that are skeptical about this innovation is
+                        reducing at the same speed. In most lexicographic projects text corpora are
+                        being used. Applied linguistic research is another field where text corpora
+                        are welcome as an inexhaustible source of empirical information, polygon for
+                        testing various linguistic tools - spell-checkers, OCRs, machine translation
+                        systems, NLP systems etc. At the same time, the corpora are quite useful for
+                        theoretical, 'armchair linguistics' [Fillmore, 1992] as well. Nowadays text
+                        corpora are quite widely used for compiling monolingual dictionaries.
+                        Nevertheless it is still a problem to use text corpora in bilingual
+                        lexicography. Of course it is possible to use two text corpora but it would
+                        have been more useful to have parallel texts and tools for looking up words
+                        and their translations as well as parallel contexts. Furthermore, the use of
+                        bilingual and multilingual text corpora is by no means limited to
+                        multilingual lexicography.</p>
+                </div>
+                <div>
+                    <head>2. The Project</head>
+                    <p>The aim of the research project running at the Department of Translation
+                        Studies of the University of Tampere is to collect a bilingual corpus of
+                        parallel texts (Russian and Finnish). The texts will be Russian classical or
+                        fiction texts and their translations into Finnish. The corpus will not be
+                        very big (4-5 million running words) but it will be equipped with efficient
+                        search tools for analysis of parallel texts. At present we have a
+                        substantial corpus of Russian prose (4.5 million words) and have started to
+                        collect the translations of Russian texts into Finnish and to modify the
+                        software for running the parallel text corpus. We have equipped the above
+                        mentioned text corpus of Russian prose with certain tools for building word
+                        lists and concordances. The present task is to collect Russian fiction texts
+                        and their translations into Finnish. As a result we shall have authentic
+                        Russian texts (normal Russian language) and Finnish texts influenced by the
+                        Russian original. It is quite evident that the language of translations is
+                        different from the original prose: the translator is under the influence of
+                        the language from which he/she is translating (that is why when I was a
+                        student our professors told us we should not use examples from translations
+                        for our research). Grammar forms, syntactic patterns, word frequencies in
+                        the Russian subcorpus will be more or less representative for the standard
+                        Russian language. This will not be so for the Finnish subcorpus. Grammar,
+                        sentence structure, and vocabulary of the translations are influenced by the
+                        original text. This means that the Corpus will be 'asymmetrical', centered
+                        on the Russian language.</p>
+                </div>
+                <div>
+                    <head>3. Maintenance of the Corpus</head>
+                    <p>The basic idea is to separate the texts from the tags. Usually the corpus
+                        software is 'anti-intellectual' - all those programs can do is to find
+                        strings of characters, show them or perform calculations on them. The
+                        corpora developers therefore have to make explicit all relevant information,
+                        i.e. to tag the texts. In our Corpus the texts are 'clean'. They are stored
+                        as ordinary text files. All relevant information is registered in the
+                        Microsoft Access database. The database is used for data processing as well.
+                        The user can get concordances for specified word(s) or word combination(s).
+                        He/she can also use the word list for query-making. It is quite easy to
+                        specify context size (in sentences) and comparison for the main and second
+                        search key (whole word / start of word / end of word / any part of word) as
+                        well as the second search key position (same sentence / next word). The
+                        approach for corpus compiling we use has many reserves - we are planning to
+                        add to the program lemmatizing routines which will make it possible to build
+                        another index - a grammatical one. This will make searching for grammar
+                        forms also possible.</p>
+                </div>
+                <div>
+                    <head>4. Parallel Concordancing</head>
+                    <p>However, the most difficult and most interesting part of the project will be
+                        to find out whether automated parallel concordancing is possible. The
+                        starting point was the idea that although the translator changes a lot in
+                        the translation in comparison to the original text - he may join or split
+                        the sentences, change clauses into phrases, omit or add certain words, use
+                        broader or narrower equivalents - still he translates something literally.
+                        Certain words cannot be skipped in the translation; otherwise we shall have
+                        an entirely new text. The words that in most cases are translated literally
+                        we shall call keywords. So, we presume that if equivalents for more than
+                        half of keywords of extract A from the original were found in extract B of
+                        the same size from the translation, extract B is likely to be the
+                        translation of extract A. What word classes shall be keywords? Of course we
+                        have to exclude prepositions, conjunctions, pronouns, etc. We also have to
+                        exclude words with very broad meanings (e.g. idti - 'to go'). Some words are
+                        parts of idioms and therefore unpredictable in translations (bog - 'god',
+                        tchert - 'devil'). From what is left we also have to exclude words having
+                        high-frequency homonyms. E.g. we cannot include the Russian word 'petchen' -
+                        'liver' - in the Russian-Finnish glossary of keywords because the Finnish
+                        equivalent for this word is 'maksa' which in many forms is homonymous with
+                        the verb 'maksaa' - 'to pay'. Another criterion is word frequency.
+                        Frequently used words may cause problems because they are everywhere. Words
+                        that occur only once also have to be excluded. Most useful for our research
+                        are words that have a frequency in the range of 2 to 6 occurrences. This is
+                        about 35% of the words in the analyzed text (Dostoyevski, <title level="m"
+                            >Notes from the cellar</title>). Most of these words and some of the
+                        more frequently used words will be included in the list of keywords.
+                        Together with Finnish dictionary equivalents they form the core of the
+                        system.</p>
+                    <p>The system works as follows: <list>
+                            <item>1) Extract A from the original is split into words.</item>
+                            <item>2) Keywords are selected; weight of the sample is
+                                calculated.</item>
+                            <item>3) Finnish equivalents B1, B2, ... Bn for the keywords are looked
+                                up.</item>
+                            <item>4) Contexts for every keyword are looked up and checked by other
+                                keywords.</item>
+                        </list></p>
+                    <p>For each context the weight is calculated. If the weight of the context Bx is
+                        more than 60% of the weight of the extract A, Bx is considered a translation
+                        of A and presented to the user. If our hypothesis is true, the program will
+                        be able to find parallel places if a) the context is long enough (we cannot
+                        say at present what 'long enough' means); b) enough keywords were found; c)
+                        the translation is close enough to the original.</p>
+                </div>
+                <div>
+                    <head>5. Applications of the Parallel Text Corpus</head>
+                    <p>The parallel text corpus would be very useful in the fields of comparative
+                        studies, translation studies, and bilingual lexicography. It would make it
+                        possible to find how the word is actually translated, which is sometimes
+                        quite different from what is expected according to the dictionaries. It will
+                        be easy to find translations of quotations. It would also be quite possible
+                        to monitor usage of certain grammatical forms or constructions and ways of
+                        translating them into another language.</p>
+                </div>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <author><name><forename type="first">C.</forename>
+                                    <surname>Fillmore</surname></name></author>
+                            <title level="a">'Corpus linguistics' vs. 'Computer-aided armchair
+                                linguistics'</title>
+                        </analytic>
+                        <monogr>
+                            <title level="m">Directions in Corpus Linguistics, Stockholm</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date when="1992">1992</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <monogr>
+                            <title level="u">Parallel Corpora</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date/>
+                            </imprint>
+                        </monogr>
+                        <note>&lt;<ptr target="http://www.ruf.rice.edu/~barlow/para.html"
+                            />&gt;</note>
+                    </biblStruct>
+                    <biblStruct>
+                        <analytic>
+                            <author><name><forename type="first">M.</forename>
+                                    <surname>Rundell</surname></name></author>
+                            <title level="a">The corpus of the future, and the future of the
+                                corpus</title>
+                        </analytic>
+                        <monogr>
+                            <title level="m"/>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date when="1998">1998</date>
+                            </imprint>
+                        </monogr>
+                        <note>&lt;<ptr target="http://www.ruf.rice.edu/~barlow/futcrp.html"
+                            />&gt;</note>
+                    </biblStruct>
+                    <biblStruct>
+                        <analytic>
+                            <author><name><forename type="first">j.</forename>
+                                    <surname>Svartvik</surname></name></author>
+                            <title level="a">Corpus linguistics comes of age</title>
+                        </analytic>
+                        <monogr>
+                            <title level="m">Directions in Corpus Linguistics, Stockholm</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date when="1992">1992</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

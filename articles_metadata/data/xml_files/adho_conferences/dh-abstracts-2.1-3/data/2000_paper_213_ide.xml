@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="paper">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">A Formal Model for Lexical Information</title>
+                <author>
+                    <name>
+                        <forename type="first">Nancy</forename>
+                        <surname>Ide</surname>
+                        <affiliation>
+                            <name type="org">Vassar College</name>, USA <email/>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Adam</forename>
+                        <surname>Kilgarriff</surname>
+                        <affiliation>
+                            <name type="org">ITRI Brighton</name>, UK <email/>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Laurent</forename>
+                        <surname>Romary</surname>
+                        <affiliation>
+                            <name type="org">LORIA/CNRS</name>, France <email/>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="2000">2000</date>
+                <publisher>
+                    <name>University of Glasgow</name>
+                </publisher>
+                <pubPlace>Glasgow</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ALLC/ACH 2000</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first">Jean</forename>
+                        <surname>Anderson</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Amal</forename>
+                        <surname>Chatterjee</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Christian</forename>
+                        <forename type="middle">J.</forename>
+                        <surname>Kay</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Margaret</forename>
+                        <surname>Scott</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item>Text Encoding</item>
+                        <item> </item>
+                        <item> </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <div>
+                    <head>1. Introduction</head>
+                    <p>The structure and content of lexical information has been explored in
+                        considerable depth in the past, primarily in order to determine a common
+                        model that can serve as a basis for encoding schemas and/or database models.
+                        For the most part, descriptions of lexical structure have been informed by
+                        the format of printed documents (e.g., print dictionaries), which varies
+                        considerably over documents produced by different publishers and for
+                        different purposes, together with the requirements for instantiation in some
+                        encoding format (principally, SGML). However, the constraints imposed by
+                        these formats interfere with the development of a model that fully captures
+                        the underlying structure of lexical information. As a result, although
+                        schemas such as those provided in the TEI Guidelines exist, they do not
+                        provide a satisfactorily comprehensive and unique description of lexical
+                        structure and content.</p>
+                    <p>We believe that in order to develop a concrete and general model of lexical
+                        information, it is essential to distinguish between the formal model itself
+                        and the encoding or database schema that may ultimately instantiate it. That
+                        is, it is necessary to consider, in the abstract, the form and content of
+                        lexical information independent of requirements and/or limitations imposed
+                        its ultimate representation as an encoded or printed object. This is
+                        especially important since these eventual representations will vary from one
+                        application to another; in particular, lexical information may be encoded
+                        not only for the purposes of publishing in print or electronic form, but
+                        also for creating computational lexicons, terminology banks, etc. for use in
+                        natural language processing applications. It is therefore essential to
+                        develop a model that may be subsequently transformed into a variety of
+                        alternative formats.</p>
+                    <p>In this paper, we outline a formal model for lexical information that
+                        describes (a) the structure of this information, (b) the information
+                        associated with this structure at various levels, and (c) a system of
+                        inheritance of information over this structure. We then show how the
+                        structure may be instantiated as a document encoded using the Extended
+                        Markup Language (XML). Using the transformation language provided by the
+                        Extensible Style Language (XSL), we then demonstrate how the original XML
+                        instantiation may be transformed into other XML documents according to any
+                        desired configuration (including omission) of the elements in the original.
+                        Because of its generality, we believe our model may serve as a basis for
+                        representing, combining, and extracting information from dictionaries,
+                        terminology banks, computational lexicons, and, more generally, a wide
+                        variety of structured and semi-structured document types.</p>
+                </div>
+                <div>
+                    <head>2. Overview of the theoretical model</head>
+                    <p>The underlying structure of lexical information can be viewed as embedded
+                        partitions of a lexicon, in which no distinction is made among embedded
+                        levels. A model of lexical information can be thus described as a recursive
+                        structure comprised, at each level, of one or more nodes. This structure is
+                        most easily visualized as a tree, where each node may have zero or more
+                        children. That is, at any level n, a node is either a leaf (i.e., with no
+                        children) or can be decomposed as:<eg rend="block">T=[T1, T2, ...,
+                        Tn]</eg>where each Ti is a node at level n+1.</p>
+                    <p>Properties may be attached to any node in the structure with the prop
+                        predicate: <eg rend="block">PROP(T,P)</eg>indicates that the property P is
+                        attached to node T.</p>
+                    <p>Properties are associated with nodes either by explicit assignment, or they
+                        may be inherited from the parent node. The object of our model is to
+                        identify the ways in which properties are propagated through levels of
+                        structure. For this purpose, we consider properties to be Feature-Value
+                        pairs expressed as terms of the form FEAT(F,V), where F and V are tokens
+                        designating a feature (e.g., POS) and a value. In the simplest case, values
+                        are atomic (e.g., NOUN) but may also consist of sets of feature-value pairs.
+                        This representation is consistent with the base notation associated with
+                        feature structures, a common framework for representing linguistic
+                        information.</p>
+                </div>
+                <div>
+                    <head>3. Propagating information across levels</head>
+                    <p>We define three types of features:<list type="bulleted">
+                            <item>Cumulative features that may take more than one value and may be
+                                thus inherited and combined along the structure. For example, for a
+                                cumulative feature DOMAIN, if the property FEAT(DOMAIN,NAVIGATION)
+                                is associated with a node at level n and FEAT(DOMAIN,LAW) is
+                                associated with its child at level n+1, by inheritance the node at
+                                level n+1 will be assigned the property FEAT(DOMAIN,NAVIGATION +
+                                LAW).</item>
+                            <item>Overwriting features that take only one value at a time. This
+                                implies that only one instance of an overwriting feature may appear
+                                at a given node and that the corresponding properties are propagated
+                                along the structure unless and until a new value is specified for
+                                that feature. In such a case, the new value "overwrites" the earlier
+                                one and is subsequently propagated to nodes in its subtrees.</item>
+                            <item>Local features, which apply only at the node with which they are
+                                associated; i.e., they are not propagated through the structure.
+                                Cross-references are an example of a local feature, since they apply
+                                only to the level of description with which they are directly
+                                associated.</item>
+                        </list></p>
+                    <p>The full paper will provide details of this formalism.</p>
+                </div>
+                <div>
+                    <head>4. Creating representations</head>
+                    <p>Lexical information can be represented as a tree structure reflecting, in
+                        large part, the natural hierarchical organization of entries found in
+                        printed dictionaries. This hierarchical organization (e.g., division into
+                        homographs, senses, sub-senses, etc.) enables information to be applied over
+                        all sub-levels in the hierarchy, thus eliminating the need to re-specify
+                        common information.</p>
+                    <p>For example, consider the following definition from the Collins English
+                        Dictionary (CED):<lb/><term>EX.1: overdress</term><lb/><gloss>overdress vb.
+                            (zzzz) 1. To dress (oneself or another) too elaborately or finely. ~n.
+                            (yyyy) 2. A dress that may be worn over a jumper, blouse,
+                        etc.</gloss></p>
+                    <p>This information can be represented in tree form as follows :<lb/><eg rend="block">[ orth
+                            : overdress] [ pos : verb pron : zzzz def: To dress (oneself or another)
+                            too elaborately or finely] [ pos : noun pron : yyyy def : A dress that
+                            may be worn over a jumper, blouse, etc.]</eg></p>
+                    <p>Each node in the tree represents a partition of the information in the entry,
+                        and information is inherited over sub-trees. Thus in this example, the
+                        orthographic form "overdress" appears at the top node and applies to the
+                        entire entry; the entry is then partitioned into two sub-trees, for verb and
+                        noun, each of which is associated with specific information about part of
+                        speech, pronunciation, and definition.</p>
+                    <p>The final paper will provide similar examples from dictionaries as well as
+                        terminological data banks.</p>
+                </div>
+                <div>
+                    <head>5. Extracting information from the tree</head>
+                    <p>We define a tree traversal as any path starting at the root of the tree and
+                        following, at each node, a single child of that node. A full traversal is a
+                        path from the root to any leaf; a partial traversal extends from the root to
+                        any node in one of its subtrees.</p>
+                    <p>As a tree is traversed, each node is associated with a set of features
+                        including: (a) features associated with the node during tree creation, and
+                        (b) features determined by applying the rules for propagating overwriting,
+                        cumulative, and local features. Thus, at any node, all applicable
+                        information is available for some unique partition of the lexical space.
+                        Nodes near the top of the tree represent very broad categories of partition;
+                        leaf nodes are associated with information for the most specific usage of
+                        the entry.</p>
+                </div>
+                <div>
+                    <head>6. Encoding the information in XML</head>
+                    <p>We define an XML encoding format for the structures described above:</p>
+                    <div>
+                        <head>Elements</head>
+                        <p>&lt;struct&gt; represents a node in the tree. &lt;struct&gt; elements may
+                            be recursively nested at any level to reflect the structure of the
+                            corresponding tree. &lt;struct&gt; is the only element in the encoding
+                            scheme that corresponds to the tree structure; all other elements
+                            provide information associated with a specific node.</p>
+                        <p>&lt;alt&gt; alternatives are bracketed in parallel &lt;alt&gt; elements,
+                            which may appear within any &lt;struct&gt;. &lt;brack&gt; is a
+                            general-purpose bracketing element to group associated features.</p>
+                        <p>Base elements corresponding to various features, such as (for
+                            dictionaries) orth, pron, hyph, syll, stress, pos, gen, case, number,
+                            gram, tns, mood, usg, time, register, geo, domain, style, def, eg, etym,
+                            xr, trans, and itype, (analogous to dictionary elements defined in the
+                            TEI Guidelines.) &gt;</p>
+                    </div>
+                    <div>
+                        <head>Attributes</head>
+                        <p>Attributes are used to provide information specific to the element on
+                            which they appear and are not inherited in a tree traversal. </p>
+                        <p>The following shows the corresponding XML encoding for "overdress":<lb/>
+                            <eg>&lt;struct&gt; &lt;orth&gt;overdress&lt;/&gt; &lt;struct&gt;
+                                &lt;pos&gt;verb&lt;/&gt; &lt;pron&gt;zzzz&lt;/&gt; 
+                                &lt;def&gt; To dress (oneself or another) too elaborately or
+                                finely&lt;/&gt;&lt;/&gt; &lt;struct&gt; &lt;pos&gt;noun&lt;/&gt;
+                                &lt;pron&gt;yyyy&lt;/&gt; &lt;def&gt; A dress that may be worn over
+                                a jumper, blouse, etc.&lt;/&gt;&lt;/&gt;&lt;/&gt; </eg></p>
+                    </div>
+                </div>
+                <div>
+                    <head>7. Transforming the XML document</head>
+                    <p>The Extensible Style Language (XSL) is a part of the XML framework that
+                        enables transformation of XML documents into other XML documents. The
+                        best-known use of XSL is the formatting of documents for display on web
+                        browsers. However, XSL also provides a powerful transformation language that
+                        can be used to convert an XML document describing lexical information by
+                        selecting, rearranging, and adding information to it. Thus, a document
+                        encoded according to the specifications outlined in the previous section can
+                        be manipulated to serve any application that relies on part or all of its
+                        contents. The current version of the XSL transformation language is
+                        available at &lt;<ptr
+                            target="http://metalab.unc.edu/xml/books/bible/updates/14.html"/>&gt;. </p>
+                    <p>Lack of space prevents providing examples; the final paper will include
+                        these.</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

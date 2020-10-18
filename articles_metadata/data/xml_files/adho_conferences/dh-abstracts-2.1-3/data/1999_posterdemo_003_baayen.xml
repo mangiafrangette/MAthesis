@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="poster/demo">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">LEXSTATS: A program for the statistical analysis of
+                    word frequency distributions</title>
+                <author>
+                    <name>
+                        <forename type="middle">Harald</forename>
+                        <surname>Baayen</surname>
+                        <affiliation>
+                            <name type="org">University of Nijmegan</name>
+                            <name type="org">Max Planck Institute for Psycholinguistics</name>
+                            <email>baayen@mpi.nl</email>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Fiona</forename>
+                        <forename type="middle">J.</forename>
+                        <surname>Tweedie</surname>
+                        <affiliation> Department of Statistics <name type="org">University of
+                                Glasgow</name>
+                            <email>fiona@stats.gla.ac.uk</email>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="1999">1999</date>
+                <publisher>
+                    <name>University of Virginia</name>
+                </publisher>
+                <pubPlace>Charlottesville, VA</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ACH/ALLC 1999</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first"/>
+                        <surname/>
+                    </name>
+                    <name>
+                        <forename type="first"/>
+                        <forename type="middle"/>
+                        <surname/>
+                    </name>
+                    <name>
+                        <forename type="first"/>
+                        <surname/>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item> </item>
+                        <item> </item>
+                        <item> </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <div>
+                    <p>Various computationally intensive statistical models are available for the
+                        analysis of word frequency distributions (e.g., Carroll, 1967; Sichel 1975,
+                        and Chitashvili and Baayen, 1993). These models provide linguists and
+                        lexicographers with elegant means for obtaining sample-size invariant
+                        characteristic textual measures, for extrapolating the development of the
+                        vocabulary beyond sample sizes larger than the observed text size, and for
+                        estimating the population vocabulary size.</p>
+                    <p>Thusfar, these models have not been used widely, which is not surprising
+                        given the absence of software implementing these models. At the conference,
+                        we will present the beta version of LEXSTATS, a user-friendly GUI interface
+                        to a series of C programs that implement a wide range of word frequency
+                        analyses. LEXSTATS and the underlying C code will become available as
+                        freeware under the GNU software license.</p>
+                    <p>We will illustrate LEXSTATS by applying it to word frequency distributions of
+                        various kinds of texts as well as to word frequency distributions of a range
+                        of morphological categories.</p>
+                </div>
+            </div>
+        </body>
+        <back>
+            <div type="bibiliography">
+                <head>References</head>
+                <listBibl>
+                    <biblStruct type="bookChapter">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">J.</forename>
+                                    <forename type="middle">B.</forename>
+                                    <surname>Caroll</surname>
+                                </name>
+                            </author>
+                            <title level="a">On Sampling from a Lognormal Model of Word Frequency
+                                Distribution</title>
+                        </analytic>
+                        <monogr>
+                            <editor>
+                                <name>
+                                    <forename type="first">H.</forename>
+                                    <surname>Kucera</surname>
+                                </name>
+                            </editor>
+                            <editor>
+                                <name>
+                                    <forename type="first">W.</forename>
+                                    <forename type="middle">N.</forename>
+                                    <surname>Francis</surname>
+                                </name>
+                            </editor>
+                            <title level="m">Computational Analysis of Present-Day American
+                                English</title>
+                            <imprint>
+                                <pubPlace>Providence</pubPlace>
+                                <publisher>Brown University Press</publisher>
+                                <date when="1967">1967</date>
+                                <biblScope type="pp">406-424</biblScope>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="bookChapter">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">R.</forename>
+                                    <forename type="middle">J.</forename>
+                                    <surname>Chitashvili</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">R.</forename>
+                                    <forename type="middle">H.</forename>
+                                    <surname>Baayen</surname>
+                                </name>
+                            </author>
+                            <title level="a">Word Frequency Distributions</title>
+                        </analytic>
+                        <monogr>
+                            <editor>
+                                <name>
+                                    <forename type="first">G.</forename>
+                                    <surname>Altmann</surname>
+                                </name>
+                            </editor>
+                            <editor>
+                                <name>
+                                    <forename type="first">L.</forename>
+                                    <surname>Hreibicek</surname>
+                                </name>
+                            </editor>
+                            <title level="m">Quantitative Text Analysis</title>
+                            <imprint>
+                                <pubPlace>Trier</pubPlace>
+                                <publisher>Wissenschaftlicher Verlag Trier</publisher>
+                                <date when="1993">1993</date>
+                                <biblScope type="pp">54-135</biblScope>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author><name><forename type="first">H.</forename>
+                                    <forename type="middle"
+                                    >S.</forename><surname>Sichel</surname></name></author>
+                            <title level="a">On a Distibution Law for Word Frequencies</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Journal of the American Statistical Association</title>
+                            <imprint>
+                                <biblScope type="vol">70</biblScope>
+                                <biblScope type="issue"/>
+                                <biblScope type="pp">542-547</biblScope>
+                                <date when="1975">1975</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

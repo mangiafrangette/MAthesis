@@ -1,0 +1,1048 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="paper">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Short substrings as document discriminators: An
+                    empirical study </title>
+                <author>
+                    <name>
+                        <forename type="first">Richard</forename>
+                        <surname>Forsyth</surname>
+                        <affiliation>
+                            <name type="org">University of the West of England</name>
+                            <email>rs-forsyth@csm.uwe.ac.uk</email>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="1997">1997</date>
+                <publisher>
+                    <name>Queen's University</name>
+                </publisher>
+                <pubPlace>Kingston, Ontario</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ACH/ALLC 1997</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name type="org">the secretarial staff in the Department of French Studies at
+                        Queen's University</name>
+                    <name>
+                        <forename type="first">Greg</forename>
+                        <surname>Lessard</surname>
+                    </name>
+                    <name>
+                        <forename type="first"/>
+                        <surname/>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item>Monte-Carlo methods</item>
+                        <item>stylometry</item>
+                        <item>text categorization</item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <div>
+                    <head>1. Introduction</head>
+                    <p>In seeking to capture consistent and distinctive features of linguistic
+                        style, stylometrists have used a variety of textual indicators (see: Holmes,
+                        1994). In the majority of stylometric studies, however, the choice of which
+                        indicators to use in a given problem is left to the discretion of the
+                        investigator. This practice permits the exercise of human judgement, and
+                        thus can sometimes save a time-consuming search for suitable descriptors;
+                        but it inevitably involves subjectivity. Very often the choice of suitable
+                        linguistic markers is crucial to the development of an effective
+                        discriminant rule; but, being subjective, it may not be replicable on
+                        another problem.</p>
+                    <p>The situation is similar in the related fields of multivariate pattern
+                        recognition and machine learning (Everitt &amp; Dunn, 1991; Quinlan,
+                        1993): most studies begin by presuming that a suitable set of attributes or
+                        features has already been found. In text analysis this presumption is more
+                        than usually questionable.</p>
+                    <p>For these and other reasons, a number of studies have appeared recently (e.g.
+                        Burrows, 1992; Binongo, 1994; Burrows &amp; Craig, 1994; Kjell, 1994;
+                        Ledger &amp; Merriam, 1994; Bayer et al., 1996) in which the features
+                        used as indicators are not imposed by the prior judgement of the analyst but
+                        are -- to a large extent -- determined by the texts being analyzed. The main
+                        aim of the present paper is to advance this trend. </p>
+                </div>
+                <div>
+                    <head>2. Method of Classification Used</head>
+                    <p>As studying the strengths and weaknesses of different classification
+                        techniques was not the main focus of this investigation, a simple
+                        nearest-centroid classifier was used for the tests reported in this paper.
+                        This algorithm, as implemented here, uses a training set of examples with
+                        known class membership to compute a centroid (multi-dimensional average) for
+                        each category. Then on a fresh or unseen case a measure of distance from
+                        each class centroid is computed and the current case is assigned to the
+                        category of the centroid which it most resembles. This method is described
+                        as "simultaneous key identification" by Sneath &amp; Sokal (1973). It
+                        belongs to a class of similarity-based classifiers which McKenzie &amp;
+                        Forsyth (1995), among others, have shown to be generally robust in practice.
+                    </p>
+                </div>
+                <div>
+                    <head>3. The Bristol Benchmark Suite</head>
+                    <p>In many areas of computing, benchmarking is a routine practice. For instance,
+                        when compilers are tested for compliance to a programming-language
+                        specification, it is normal to apply them to a suite of benchmark cases and
+                        record any divergence from expected behaviour.</p>
+                    <p>Although benchmarking does have drawbacks as well as advantages, it does help
+                        in setting objective standards. For example, it is arguable that in the
+                        field of forecasting, the work of Makridakis and colleagues (e.g. Makridakis
+                        &amp; Wheelwright, 1989), who tested a number of forecasting methods on
+                        a wide range of (mostly economic) time series, transformed the field --
+                        leading to both methodological and practical advances.</p>
+                    <p>Even though billion-byte public-domain archives of text exist, e.g. Project
+                        Gutenberg and the Oxford Text Archive, stylometry currently lacks an
+                        equivalent set of accepted test problems. Therefore we at Bristol have
+                        compiled a textual benchmark suite to meet this need. The current version of
+                        this suite is known as Tbench96. Despite its deficiencies, it does present a
+                        broader variety of test problems than other workers in stylometry and allied
+                        fields have previously used.</p>
+                </div>
+                <div>
+                    <head>4. Data-Driven Feature-Finding</head>
+                    <p>The main focus of this investigation is a comparative examination of a number
+                        of methods of data-driven feature-finding. Only methods that do not require
+                        the exercise of judgemental expertise on the part of an investigator were
+                        considered. Thus the feature types examined below share the following
+                        desirable properties: (1) they are easy to compute; (2) they are
+                        interlingual, i.e. they are not limited to the English language.</p>
+                    <p>Perhaps the simplest possible method of obtaining a set of textual features
+                        is simply to treat each letter of the alphabet as a feature, i.e. to count
+                        the frequency of each of the 26 letters in each kilobyte line. This requires
+                        no background knowledge except that the texts concerned are encoded using
+                        the Roman alphabet. At first glance this would seem not just simple, but
+                        simplistic. However, some previous studies -- most notably Ledger (1989) and
+                        Ledger &amp; Merriam (1994) -- have reported surprisingly good results
+                        when using letter-counts as stylistic indicators. At the very least, this
+                        establishes a baseline level of performance: more sophisticated features
+                        sets need to outperform letter counting to justify their added
+                        complexity.</p>
+                    <p>To avoid restricting other marker sets to an unrealistic size, the baseline
+                        technique included here is actually that of Ule (1982) rather than that of
+                        Ledger &amp; Merriam (1994). Ule counted not just the frequencies of the
+                        26 latin letters A to Z (ignoring the distinction between upper and lower
+                        case) but also the ten arabic numerals 0 to 9.</p>
+                    <p>A natural progression from counting the 36 pre-specified alphanumeric
+                        characters in each text block is simply to count the frequencies, in each
+                        block, of the 36 commonest characters in the training text as a whole. This
+                        allows spaces and other punctuation symbols to play a role as
+                        discriminators. The danger here is that such characters may be less
+                        intrinsic to the original texts than letters. For instance, Shakespeare's
+                        punctuation is mostly the work of subsequent editors. Nevertheless, it was
+                        decided to investigate the effect of moving from letter-counting to
+                        character counting. (In the two cases in TBench96 where punctuation is not
+                        original, punctuation marks have been removed from the files held on
+                        disk.)</p>
+                    <p>If counts of single characters are useful as features then so might counts of
+                        digrams be useful, or of higher-order n-grams. Kjell (1994) reported good
+                        results in assigning <title level="m">Federalist</title> essays written
+                        either by Hamilton or Madison to the correct authors using a neural-network
+                        classifier to which letter-pair frequencies were given as input features.
+                        This approach was extended to characters (not just letters) and generalized
+                        to include comparison of trigrams and tetragrams as well.</p>
+                    <p>Another type of textual feature has been used extensively by Burrows (1992)
+                        as well as Binongo (1994), among others. Essentially it involves finding the
+                        most frequently used words and treating the rate of usage of each such word
+                        in a given text as a quantitative attribute. The exact number of common
+                        words used varies by author and application. Burrows and colleagues
+                        (Burrows, 1992; Burrows &amp; Craig, 1994) discuss examples using
+                        anywhere from the 50 most common to the 100 most common words. Binongo
+                        (1994) uses the commonest 36 words (after excluding pronouns). Greenwood
+                        (1995) uses the commonest 32 (in New Testament Greek). In the present study,
+                        the most frequent 36 words in the combined training samples of each problem
+                        were used.</p>
+                    <p>In addition, two novel approaches to textual feature-finding were tested in
+                        the present study. These are described in sections 5 and 6.</p>
+                </div>
+                <div>
+                    <head>5. Progressive Pairwise Chunking</head>
+                    <p>The first of these derives what are called DOUBLETS in Table 1 from text
+                        samples, by adapting a method proposed independently by Wolff (1975) and
+                        Dawkins (1976) in different contexts.</p>
+                    <p>This algorithm scans byte-encoded text sequences, seeking the most common
+                        pair of symbols. At the end of each scan it replaces all occurrences of that
+                        pair by a newly allocated code. This process is repeated for the next most
+                        common pair, and so on till the requested number of pairings have been made.
+                        The program used here assumes that ASCII codes from 128 onwards are free for
+                        reassignment (as is the case with Tbench96) so byte codes from 128 upwards
+                        are allocated sequentially. As output the program produces a list of
+                        doublets. These need not be digrams, since previously joined doublets can be
+                        linked in later passes -- thus building up quite long chains, if they occur
+                        in the data, without demanding great computational resources.</p>
+                    <p>The program thus gets away from the artificiality of using fixed- length
+                        substrings such as digrams, trigrams or tetragrams. It is able to find
+                        markers that are shorter than words (e.g. an affix such as `ed ') or longer
+                        (e.g. a collocation such as `of the').</p>
+                    <p/>
+                </div>
+                <div>
+                    <head>6. Monte-Carlo Feature-Finding</head>
+                    <p>The last method of feature-finding tested in this study takes the idea
+                        implicit in the progressive chunking method to what may be thought its
+                        logical conclusion. Monte-Carlo Feature-Finding is simply a random search
+                        for substrings that exist in the training data. Here this process is
+                        implemented by a program called TEFF (Text Extending Feature Finder). This
+                        finds markers merely by searching through a given set of training texts. </p>
+                    <p>Essentially TEFF picks many substrings (3600 in the experiment reported here)
+                        from the combined training text completely at random. The length of each
+                        substring is also a random number from 1 to 8. All distinct substrings thus
+                        found are saved and then ranked according to a distinctiveness measure, i.e.
+                        according to a measure of their differential rate of occurrence in the
+                        different text categories for the problem concerned. Chi-squared is used to
+                        measure distinctiveness. For the present experiment only the most
+                        distinctive 36 substrings were kept.</p>
+                    <div>
+                        <head>6.1 Elastic Strings</head>
+                        <p>However, earlier trials of Monte-Carlo Feature-Finding (Forsyth, 1995)
+                            have indicated that the basic procedure, as described above, tends to
+                            generate substrings that are fragmented at what seem linguistically
+                            inappropriate boundary points, even when they prove effective as
+                            discriminators. For instance, with samples from the <title level="m"
+                                >Federalist Papers</title>, a precursor of TEFF often found `pon' or
+                            `upo' instead of `upon '. So TEFF incorporates a procedure that extends
+                            each substring, as soon as it is generated, to the maximal length
+                            justified by the training text. This refinement does not require the
+                            program to have any knowledge of English orthography or morphology, but
+                            it does eliminate the most glaring examples of improper text
+                            fragmentation. For instance, applying this procedure to a list of
+                            substrings produced by from the <title level="m">Federalist</title> data
+                            the substring `deraci` became ` confederacies`. Other expansions
+                            included `partmen' to ` department' and `ongres' to ` congress'. </p>
+                    </div>
+                    <div>
+                        <head>6.2 Measuring Distinctiveness</head>
+                        <p>The measure of distinctiveness used in TEFF is Chi-squared (Pearson,
+                            1900), with expected values computed on the basis of equal rates of
+                            occurrence in the various categories of text being examined. This has
+                            been reported as effective in characterizing textual differences by
+                            McMahon et al. (1979) and Hofland &amp; Johansson (1982). However,
+                            Chi-squared has also been criticized, e.g. by Church &amp; Hanks
+                            (1989) and by Kilgarriff (1996), on the grounds that overall frequency
+                            does not distinguish words or strings that occur plentifully in only one
+                            section of a text from those that occur more steadily throughout it.
+                            Ideally we want markers that permeate a particular kind of text. Thus:
+                                <cit rend="block">
+                                <quote>"an ideal index should actually be a measure of permeation;
+                                    that is, it should consider both frequency and distribution
+                                    information."</quote>
+                                <bibl>Stone &amp; Dunphy (1966), p. 33.</bibl>
+                            </cit></p>
+                        <p>In pursuit of this ideal, TEFF offers two measures of distinctiveness. In
+                            the first, Chi-squared is computed using unadjusted frequency counts; in
+                            the second, the square root of the count for each kilobyte line is
+                            accumulated rather than the frequency count itself. This latter measure
+                            penalizes strings that occur very often but only in a narrow segment of
+                            the text. It thus has a better claim to be an index of permeation than
+                            the unmodified Chi-squared score. Both variants were compared in the
+                            present experiment.</p>
+                    </div>
+                </div>
+                <div>
+                    <head>7. Results</head>
+                    <p>The main response variable measured is the percentage of correct
+                        classifications made on unseen test data. Mean values are shown in Table
+                        1.</p>
+                    <table rows="11" cols="4">
+                        <head>
+                            <emph rend="bold">Table 1 -- Mean Success Rates on Test Data.</emph>
+                        </head>
+                        <row>
+                            <cell/>
+                            <cell role="label">Marker Type</cell>
+                            <cell role="label">Percent Correct</cell>
+                            <cell role="label">Klecka's tau</cell>
+                        </row>
+                        <row>
+                            <cell>0.</cell>
+                            <cell>ALPHANUM</cell>
+                            <cell>69.15</cell>
+                            <cell>0.4369</cell>
+                        </row>
+                        <row>
+                            <cell>1.</cell>
+                            <cell>UNIGRAMS</cell>
+                            <cell>73.41</cell>
+                            <cell>0.5078</cell>
+                        </row>
+                        <row>
+                            <cell>2.</cell>
+                            <cell>DIGRAMS</cell>
+                            <cell>70.11</cell>
+                            <cell>0.4528</cell>
+                        </row>
+                        <row>
+                            <cell>3.</cell>
+                            <cell>TRIGRAMS</cell>
+                            <cell>69.65</cell>
+                            <cell>0.4426</cell>
+                        </row>
+                        <row>
+                            <cell>4.</cell>
+                            <cell>TETRAGRAMS</cell>
+                            <cell>68.89</cell>
+                            <cell>0.4301</cell>
+                        </row>
+                        <row>
+                            <cell>5.</cell>
+                            <cell>WORDS</cell>
+                            <cell>68.99</cell>
+                            <cell>0.4309</cell>
+                        </row>
+                        <row>
+                            <cell>6a.</cell>
+                            <cell>DOUBLETS<lb/>(combined)</cell>
+                            <cell>70.26</cell>
+                            <cell>0.4527</cell>
+                        </row>
+                        <row>
+                            <cell>6b.</cell>
+                            <cell>DOUBLETS<lb/>(merged)</cell>
+                            <cell>69.38</cell>
+                            <cell>0.4400</cell>
+                        </row>
+                        <row>
+                            <cell>7a.</cell>
+                            <cell>TEFFSUBS<lb/>(raw counts)</cell>
+                            <cell>73.77</cell>
+                            <cell>0.5203</cell>
+                        </row>
+                        <row>
+                            <cell>7b.</cell>
+                            <cell>TEFFSUBS<lb/>(sqrt counts)</cell>
+                            <cell>75.00</cell>
+                            <cell>0.5325</cell>
+                        </row>
+                    </table>
+                    <p>These figures are aggregated over all 13 problems in Tbench96. Percentage
+                        success rate is given because it is familiar and thus easy to interpret.
+                        However, as different problems vary in the number of categories to be
+                        distinguished (2, 3 or 4), the rightmost column gives a measure of accuracy
+                        that compensates for unequal numbers of categories (Klecka, 1980).</p>
+                    <p>Using an overall significance level of 0.05 Hsu's multiple- comparison method
+                        indicated that all but three methods were significantly different from the
+                        best. These three were: UNIGRAMS, TEFFSUBS using raw counts, and TEFFSUBS
+                        using the square-root transformation. Only these three candidates remain as
+                        realistic contenders to be the best method of the 10 tested here.</p>
+                </div>
+                <div>
+                    <head>8. Discussion</head>
+                    <p>A variety of stylometric indicator types have been examined empirically. This
+                        has given rise to a preliminary `pecking order' among marker types based on
+                        results obtained on a benchmark suite of text classification problems. This
+                        ranking suggests firstly that it is worthwhile to allow non-alphanumeric
+                        characters as textual features as well as alphanumeric ones, and secondly
+                        that it is worthwhile to select textual features for distinctiveness rather
+                        than simply by frequency.</p>
+                    <p>It is also worth noting that one of the simplest ways of finding textual
+                        features (UNIGRAMS, which just uses the commonest 36 characters in the
+                        training texts) is also one of the best. Moreover, no advantage was evident
+                        from using longer n-grams.</p>
+                    <p>The two novel types of textual marker tested performed creditably. Both merit
+                        serious consideration by future researchers in this area. DOUBLETS obtained
+                        by progressive pairwise chunking would appear to be at least as informative
+                        as common words, which have previously held pride of place in stylometry. </p>
+                    <p>Of course this conclusion only carries weight to the extent that the
+                        benchmark suite used here (Tbench96) is adequate, and it can only be
+                        regarded as a prototype. Nevertheless the very idea of using an agreed suite
+                        of benchmark problems is in itself a contribution to stylometry; and while
+                        Tbench96 is admittedly imperfect, it already presents a wider range of
+                        problems than customarily used, and provides a starting point for future
+                        developments.</p>
+                </div>
+                <div>
+                    <head>Acknowledgements</head>
+                    <p>I thank Dr David Holmes and Professor Colin Martindale for providing some of
+                        the text files used in this benchmarking exercise, as well as for helpful
+                        comments.</p>
+                </div>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <biblStruct type="bookChapter">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">T.</forename>
+                                    <surname>Bayer</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">I.</forename>
+                                    <surname>Renz</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">K.</forename>
+                                    <surname>Stein</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">U.</forename>
+                                    <surname>Kressel</surname>
+                                </name>
+                            </author>
+                            <title level="a">Domain and Language Independent Feature Extraction for
+                                Statistical Text Categorization</title>
+                        </analytic>
+                        <monogr>
+                            <editor>
+                                <name>
+                                    <forename type="first">L.</forename>
+                                    <forename type="middle">J.</forename>
+                                    <surname>Evett</surname>
+                                </name>
+                            </editor>
+                            <editor>
+                                <name>
+                                    <forename type="first">T.</forename>
+                                    <forename type="middle">G.</forename>
+                                    <surname>Rose</surname>
+                                </name>
+                            </editor>
+                            <title level="m">Language Engineering for Document Analysis and
+                                Recognition</title>
+                            <imprint>
+                                <pubPlace>Nottingham</pubPlace>
+                                <publisher>Nottingham Trent University</publisher>
+                                <date when="1996">1996</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">J.</forename>
+                                    <forename type="middle">N.</forename>
+                                    <forename type="middle">G.</forename>
+                                    <surname>Binongo</surname>
+                                </name>
+                            </author>
+                            <title level="a">Joaquin's Joaquinesquerie, Joaquinesquerie's Joaquin: A
+                                Statistical Expression of a Filipino Writer's Style</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Literary &amp; Linguistic Computing</title>
+                            <imprint>
+                                <biblScope type="vol">9</biblScope>
+                                <biblScope type="issue">4</biblScope>
+                                <biblScope type="pp">267-279</biblScope>
+                                <date when="1994">1994</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">J.</forename>
+                                    <forename type="middle">F.</forename>
+                                    <surname>Burrows</surname>
+                                </name>
+                            </author>
+                            <title level="a">Not unless you Ask Nicely: the Interpretive Nexus
+                                between Analysis and Information</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Literary &amp; Linguistic Computing</title>
+                            <imprint>
+                                <biblScope type="vol">7</biblScope>
+                                <biblScope type="issue">2</biblScope>
+                                <biblScope type="pp">91-109</biblScope>
+                                <date when="1992">1992</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">J.</forename>
+                                    <forename type="middle">F.</forename>
+                                    <surname>Burrows</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">D.</forename>
+                                    <forename type="middle">H.</forename>
+                                    <surname>Craig</surname>
+                                </name>
+                            </author>
+                            <title level="a">Lyrical Drama and the "Turbid Montebanks": Styles of
+                                Dialogue in Romantic and Renaissance Tragedy</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Computers &amp; the Humanities</title>
+                            <imprint>
+                                <biblScope type="vol">28</biblScope>
+                                <biblScope type="issue"/>
+                                <biblScope type="pp">63-86</biblScope>
+                                <date when="1994">1994</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">K.</forename>
+                                    <surname>Church</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">P.</forename>
+                                    <surname>Hanks</surname>
+                                </name>
+                            </author>
+                            <title level="a">Word Association Norms, Mutual Information and
+                                Lexicography</title>
+                        </analytic>
+                        <monogr>
+                            <title level="m">Proc. 27th Annual ACL Meeting, Vancouver</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date when="1989">1989</date>
+                                <biblScope type="pp">76-83</biblScope>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="bookChapter">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">R.</forename>
+                                    <surname>Dawkins</surname>
+                                </name>
+                            </author>
+                            <title level="a">Hierarchical Organisation: a Candidate Principle for
+                                Ethology</title>
+                        </analytic>
+                        <monogr>
+                            <editor>
+                                <name>
+                                    <forename type="first">P.</forename>
+                                    <forename type="middle">P.</forename>
+                                    <forename type="middle">G.</forename>
+                                    <surname>Bateson</surname>
+                                </name>
+                            </editor>
+                            <editor>
+                                <name>
+                                    <forename type="first">R.</forename>
+                                    <forename type="middle">A.</forename>
+                                    <surname>Hinde</surname>
+                                </name>
+                            </editor>
+                            <title level="m">Growing Points in Ethology</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher>Cambridge University Press</publisher>
+                                <date when="1976">1976</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">B.</forename>
+                                    <forename type="middle">S.</forename>
+                                    <surname>Everitt</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">G.</forename>
+                                    <surname>Dunn</surname>
+                                </name>
+                            </author>
+                            <title level="m">Applied Multivariate Data Analysis</title>
+                            <imprint>
+                                <pubPlace>London</pubPlace>
+                                <publisher>Edward Arnold</publisher>
+                                <date when="1991">1991</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">R.</forename>
+                                    <forename type="middle">S.</forename>
+                                    <surname>Forsyth</surname>
+                                </name>
+                            </author>
+                            <title level="a">Stylistic Structures: a Computational Approach to Text
+                                Classification</title>
+                        </analytic>
+                        <monogr>
+                            <edition>Unpublished Doctoral Thesis</edition>
+                            <imprint>
+                                <publisher>Faculty of Science, University of Nottingham</publisher>
+                                <date when="1995">1995</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">H.</forename>
+                                    <forename type="middle">H.</forename>
+                                    <surname>Greenwood</surname>
+                                </name>
+                            </author>
+                            <title level="a">Common Word Frequencies and Authorship in Luke's Gospel
+                                and Acts</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Literary &amp; Linguistic Computing</title>
+                            <imprint>
+                                <biblScope type="vol">10</biblScope>
+                                <biblScope type="issue">3</biblScope>
+                                <biblScope type="pp">183-187</biblScope>
+                                <date when="1995">1995</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">D.</forename>
+                                    <forename type="middle">I.</forename>
+                                    <surname>Holmes</surname>
+                                </name>
+                            </author>
+                            <title level="a">Authorship Attribution</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Computers &amp; the Humanities</title>
+                            <imprint>
+                                <biblScope type="vol">28</biblScope>
+                                <biblScope type="issue"/>
+                                <biblScope type="pp">1-20</biblScope>
+                                <date when="1994">1994</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <analytic>
+                            <author>
+                                <forename type="first">A.</forename>
+                                <surname>Kilgarriff</surname>
+                            </author>
+                            <title level="a">Which Words are Particularly Characteristic of a
+                                Text?</title>
+                        </analytic>
+                        <monogr>
+                            <editor>
+                                <name>
+                                    <forename type="first">L.</forename>
+                                    <forename type="middle">J.</forename>
+                                    <surname>Evett</surname>
+                                </name>
+                            </editor>
+                            <editor>
+                                <name>
+                                    <forename type="first">T.</forename>
+                                    <forename type="middle">G.</forename>
+                                    <surname>Rose</surname>
+                                </name>
+                            </editor>
+                            <title level="m">Language Engineering for Document Analysis and
+                                Recognition</title>
+                            <imprint>
+                                <pubPlace>Nottingham</pubPlace>
+                                <publisher>Nottingham Trent University</publisher>
+                                <date when="1996">1996</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">B.</forename>
+                                    <surname>Kjell</surname>
+                                </name>
+                            </author>
+                            <title level="a">Authorship Determination Using Letter Pair Frequency
+                                Features with Neural Net Classifiers</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Literary &amp; Linguistic Computing</title>
+                            <imprint>
+                                <biblScope type="vol">9</biblScope>
+                                <biblScope type="issue">2</biblScope>
+                                <biblScope type="pp">19-124</biblScope>
+                                <date when="1994">1994</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">W.</forename>
+                                    <forename type="middle">R.</forename>
+                                    <surname>Klecka</surname>
+                                </name>
+                            </author>
+                            <title level="m">Discriminant Analyis</title>
+                            <imprint>
+                                <pubPlace>Newbury Park</pubPlace>
+                                <publisher>Sage Publications</publisher>
+                                <date when="1980">1980</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">G.</forename>
+                                    <forename type="middle">R.</forename>
+                                    <surname>Ledger</surname>
+                                </name>
+                            </author>
+                            <title level="m">Re-Counting Plato</title>
+                            <imprint>
+                                <pubPlace>Oxford</pubPlace>
+                                <publisher>Oxford University Press</publisher>
+                                <date when="1989">1989</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">G.</forename>
+                                    <forename type="middle">R.</forename>
+                                    <surname>Ledger</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">T.</forename>
+                                    <forename type="middle">V.</forename>
+                                    <forename type="midddle">N.</forename>
+                                    <surname>Merriam</surname>
+                                </name>
+                            </author>
+                            <title level="a">Shakespeare, Fletcher, and the Two Noble
+                                Kinsmen</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Literary &amp; Linguistic Computing</title>
+                            <imprint>
+                                <biblScope type="vol">9</biblScope>
+                                <biblScope type="issue">3</biblScope>
+                                <biblScope type="pp">235-248</biblScope>
+                                <date when="1994">1994</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">S.</forename>
+                                    <surname>Makridakis</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">S.</forename>
+                                    <forename type="middle">C.</forename>
+                                    <surname>Wheelwright</surname>
+                                </name>
+                            </author>
+                            <title level="m">Forecasting Methods for Managers</title>
+                            <edition>fifth edition</edition>
+                            <imprint>
+                                <pubPlace>New York</pubPlace>
+                                <publisher>John Wiley &amp; Sons</publisher>
+                                <date when="1989">1989</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">D.</forename>
+                                    <forename type="middle">P.</forename>
+                                    <surname>McKenzie</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">R.</forename>
+                                    <forename type="middle">S.</forename>
+                                    <surname>Forsyth</surname>
+                                </name>
+                            </author>
+                            <title level="a">Classification by Similarity: An Overview of
+                                Statistical Methods of Case-Based Reasoning</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Computers in Human Behavior</title>
+                            <imprint>
+                                <biblScope type="vol">11</biblScope>
+                                <biblScope type="issue">2</biblScope>
+                                <biblScope type="pp">273-288</biblScope>
+                                <date when="1995">1995</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">L.</forename>
+                                    <forename type="middle">E.</forename>
+                                    <surname>McMahon</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">L.</forename>
+                                    <forename type="middle">L.</forename>
+                                    <surname>Cherry</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">R.</forename>
+                                    <surname>Morris</surname>
+                                </name>
+                            </author>
+                            <title level="a">Statistical Text Processing</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Bell System Technical Journal</title>
+                            <imprint>
+                                <biblScope type="vol">57</biblScope>
+                                <biblScope type="issue">6</biblScope>
+                                <biblScope type="pp">2137-2154</biblScope>
+                                <date when="1978">1978</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">F.</forename>
+                                    <surname>Mosteller</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">D.</forename>
+                                    <forename type="middle">L.</forename>
+                                    <surname>Wallace</surname>
+                                </name>
+                            </author>
+                            <title level="m">Applied Bayesian and Classical Inference: the Case of
+                                the Federalist Papers</title>
+                            <imprint>
+                                <pubPlace>New York</pubPlace>
+                                <publisher>Springer-Verlag</publisher>
+                                <date when="1984">1984</date>
+                            </imprint>
+                        </monogr>
+                        <note>[Extended edition of: Mosteller &amp; Wallace (1964). <title
+                                level="m">Inference and Disputed Authorship: the Federalist</title>.
+                            Addison-Wesley, Reading, Massachusetts.]</note>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">K.</forename>
+                                    <surname>Pearson</surname>
+                                </name>
+                            </author>
+                            <title level="a">On the Criterion that a Given System of Deviations from
+                                the Probable in the Case of a Correlated System of Variables is Such
+                                that It Can Reasonably Be Supposed to Have Arisen from Random
+                                Sampling</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Philosophical Magazine</title>
+                            <imprint>
+                                <biblScope type="vol">6</biblScope>
+                                <biblScope type="issue">2</biblScope>
+                                <biblScope type="pp">157-176</biblScope>
+                                <date when="1900">1900</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">J.</forename>
+                                    <forename type="middle">R.</forename>
+                                    <surname>Quinlan</surname>
+                                </name>
+                            </author>
+                            <title level="m">C4.5: Programs for Machine Learning</title>
+                            <imprint>
+                                <pubPlace>San Mateo, California</pubPlace>
+                                <publisher>Morgan Kaufmann</publisher>
+                                <date when="1993">1993</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">P.</forename>
+                                    <forename type="middle">H.</forename>
+                                    <forename type="middle">A.</forename>
+                                    <surname>Sneath</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <forename type="first">R.</forename>
+                                <forename type="middle">R.</forename>
+                                <surname>Sokal</surname>
+                            </author>
+                            <title level="m">Numerical Taxonomy</title>
+                            <imprint>
+                                <pubPlace>San Francisco</pubPlace>
+                                <publisher>W.H. Freeman &amp; Co.</publisher>
+                                <date when="1973">1973</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">P.</forename>
+                                    <forename type="middle">J.</forename>
+                                    <surname>Stone</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">D.</forename>
+                                    <forename type="middle">C.</forename>
+                                    <surname>Dunphy</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">M.</forename>
+                                    <forename type="middle">S.</forename>
+                                    <surname>Smith</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">D.</forename>
+                                    <forename type="middle">M.</forename>
+                                    <surname>Ogilvie</surname>
+                                </name>
+                            </author>
+                            <title level="m">The General Inquirer: a Computer Approach to Content
+                                Analysis in the Behavioral Sciences</title>
+                            <imprint>
+                                <pubPlace>Cambridge, Mass.</pubPlace>
+                                <publisher>MIT Press</publisher>
+                                <date when="1966">1966</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">L.</forename>
+                                    <surname>Ule</surname>
+                                </name>
+                            </author>
+                            <title level="a">Recent Progress in Computer Methods of Authorship
+                                Determination</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">ALLC Bulletin</title>
+                            <imprint>
+                                <biblScope type="vol">10</biblScope>
+                                <biblScope type="issue">3</biblScope>
+                                <biblScope type="pp">73-89</biblScope>
+                                <date when="1982">1982</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">J.</forename>
+                                    <forename type="middle">G.</forename>
+                                    <surname>Wolff</surname>
+                                </name>
+                            </author>
+                            <title level="a">An Algorithm for the Segmentation of an Artificial
+                                Language Analogue</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">British Journal of Psychology</title>
+                            <imprint>
+                                <biblScope type="vol">66</biblScope>
+                                <biblScope type="issue">1</biblScope>
+                                <biblScope type="pp">79-90</biblScope>
+                                <date when="1975">1975</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

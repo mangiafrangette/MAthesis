@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="panel">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">ACH Special Session: ACH and NINCH</title>
+                <author>
+                    <name>
+                        <forename type="first">Michael</forename>
+                        <surname>Neuman</surname>
+                        <affiliation>(President of <name type="org">ACH</name>), Chair <email/>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">David</forename>
+                        <surname>Green</surname>
+                        <affiliation>(Executive Director of <name type="org">NINCH</name>),
+                            Presenter <email/>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">John</forename>
+                        <surname>Unsworth</surname>
+                        <affiliation>(Member, <name type="org">ACH Executive Council</name>),
+                            Respondent <email/>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="1997">1997</date>
+                <publisher>
+                    <name>Queen's University</name>
+                </publisher>
+                <pubPlace>Kingston, Ontario</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ACH/ALLC 1997</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name type="org">the secretarial staff in the Department of French Studies at
+                        Queen's University</name>
+                    <name>
+                        <forename type="first">Greg</forename>
+                        <surname>Lessard</surname>
+                    </name>
+                    <name>
+                        <forename type="first"/>
+                        <surname/>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item>ACH special session</item>
+                        <item>ACH</item>
+                        <item>NINCH</item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>The ACH-ALLC joint conference protocol welcomes special sessions proposed by
+                    chief executives of the two organizations and by the local organizers of the
+                    conference. The session described here was proposed by the President of ACH to
+                    announce the recent inclusion of the Association for Computers and the
+                    Humanities in the constellation of institutions and organizations that comprise
+                    the National Initiative for a Networked Cultural Heritage (NINCH) and to explore
+                    ways in which the affiliation could work to the mutual advantage of the two
+                    organizations.</p>
+                <p>NINCH is described on <ref target="http://www-ninch.cni.org/">its home page</ref>
+                    as a broad coalition of arts, humanities, and social science organizations
+                    formed to promote participation of the cultural sector in the new digitally
+                    networked environment. NINCH began in 1993 as a collaborative project of the
+                    American Council of Learned Societies, the Coalition for Networked Information,
+                    and the Getty Information Institute. The two dozen affiliated organizations
+                    include national organizations (including ACLS), professional societies (such as
+                    the American Historical Association and the College Art Association),
+                    universities, and cultural institutions (including the Smithsonian).</p>
+                <p>The mission of NINCH is to advocate the inclusion of the cultural sector in all
+                    policy deliberations on the future of the information infrastructure and to
+                    educate policymakers, coalition members, and the general public about the
+                    critical importance of translating the vision of connected, distributed, and
+                    accessible collections of cultural knowledge into a working reality. Strategies
+                    include community building, advocacy, and communications and education -- each
+                    of which is described in more detail on the web site.</p>
+                <p>Among the projects and initiatives planned by NINCH, several may be of interest
+                    to members of ACH, especially those on Fair Use and Education, Cultural
+                    Diversity and Cultural Heritage (and featuring Web-based "pavilions" on
+                    educational themes aimed at secondary and post-secondary students), a series of
+                    Advocacy Working Groups on such issues as copyright and metadata, and
+                    cross-sectoral interactions such as collaborations between computer scientists
+                    and humanists or public- private collaborations to digitize works from our
+                    cultural heritage.</p>
+                <p>The format for the conference session on the ACH-NINCH affiliation will consist
+                    of an introduction by the President of ACH on the expertise offered and the
+                    opportunities to be gained by the members of ACH, a presentation by David Green
+                    (the Executive Director of NINCH) on the mission of the Initiative and the
+                    potential role for ACH, a response by a member of the ACH Executive Council, and
+                    open discussion among attendees.</p>
+                <p>At this point in its history, the Association for Computers and the Humanities is
+                    seeking to expand its membership, to increase recognition of its members'
+                    expertise and its organization's contributions to research and teaching with
+                    digital resources, to extend its purview to additional disciplines and
+                    additional forms of humanities computing, and to add its voices to the debates
+                    currently being waged on issues at the intersection of technology, culture, and
+                    policy. This session is designed to explore ways in which an affiliation with
+                    the National Initiative for a Networked Cultural Heritage would advance ACH
+                    towards those objectives while promoting the cultural, educational, social, and
+                    political mission of NINCH. All conference participants are welcome.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

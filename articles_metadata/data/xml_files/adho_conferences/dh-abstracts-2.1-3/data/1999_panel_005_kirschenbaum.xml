@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="panel">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Refining Our Notions of What (Digital) Images Really
+                    Are</title>
+                <author>
+                    <name>
+                        <forename type="first">Matthew</forename>
+                        <forename type="middle">G.</forename>
+                        <surname>Kirschenbaum</surname>
+                        <affiliation>Department of English Institute for Advanced Technology in the
+                            Humanities <name type="org">University of Virginia</name>
+                            <email>mgk3k@virginia.edu</email>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Joanna</forename>
+                        <surname>Drucker</surname>
+                        <affiliation>
+                            <name type="org">SUNY Purchase</name>
+                            <email/>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Jerome</forename>
+                        <forename type="middle">J.</forename>
+                        <surname>McGann</surname>
+                        <affiliation>
+                            <name type="org">University of Virginia</name>
+                            <email/>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Joseph</forename>
+                        <surname>Viscomi</surname>
+                        <affiliation>
+                            <name type="org">University of North Carolina, Chapel Hill</name>
+                            <email/>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Worthy</forename>
+                        <surname>Martin</surname>
+                        <affiliation>
+                            <name type="org">University of Virginia</name>
+                            <email/>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="1999">1999</date>
+                <publisher>
+                    <name>University of Virginia</name>
+                </publisher>
+                <pubPlace>Charlottesville, VA</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ACH/ALLC 1999</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first"/>
+                        <surname/>
+                    </name>
+                    <name>
+                        <forename type="first"/>
+                        <forename type="middle"/>
+                        <surname/>
+                    </name>
+                    <name>
+                        <forename type="first"/>
+                        <surname/>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item> </item>
+                        <item> </item>
+                        <item> </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <div>
+                    <head>Summary</head>
+                    <p>This panel brings together authorities from the fields of art history,
+                        literary studies, textual editing, and computer science -- all of whom also
+                        command significant applied knowledge of printmaking and the graphic arts,
+                        or electronic production and editing, or both -- to discuss the aesthetic,
+                        ontological, and computational nature of digital images (within the context
+                        of much broader traditions of visual representation). Panelists will address
+                        both technical issues pertaining to the creation, manipulation, and
+                        dissemination of image data, as well as the current state of the
+                        critical/theoretical models undergirding our understanding of digital
+                        images, and do so with particular reference to the role of images in
+                        electronic libraries, editions, and archives.</p>
+                </div>
+                <div>
+                    <head>Full Rationale</head>
+                    <p>The panel has two related objectives:<list>
+                            <item>1. To advance its audience's thinking about digital images as
+                                structured data by reporting on recent technical developments in
+                                such areas as file formats and data standards (PNG, JPEG 2000),
+                                image editing, image annotation, computer visualization and
+                                modeling, and image searching and retrieval based on
+                                pattern-recognition technologies;</item>
+                            <item>2. To advance the humanities computing community's current
+                                understanding of digital images as modes of visual representation,
+                                and, in conjunction with the topics listed in item number one above,
+                                to scrutinize the prevailing theoretical and philosophical
+                                assumptions behind our thinking about digital images.</item>
+                        </list></p>
+                    <p>As may be obvious already, the panel is motivated by its participants' shared
+                        desire to subject digital images to the same degree of intellectual scrutiny
+                        that has been brought to bear in recent discussions of electronic text
+                        encoding and text-based editing -- exemplified by the frequently-referenced
+                        series of papers by Steve DeRose, Allen Renear, et al. from which we derive
+                        the session's title. The panel is predicated on the assumption that the
+                        humanities computing community at large does not yet engage with digital
+                        images and imaging technologies at anywhere near the same level of
+                        sophistication as electronic text, not least because the underlying
+                        computational structure of images is so radically different from that of
+                        machine-readable text. These computational differences in turn reflect and
+                        recapitulate certain elemental differences in the epistemology and ontology
+                        of images and text. (Consider markup languages in this regard: markup
+                        languages allow one to describe text with more text, but there is no
+                        comparable procedure for describing images -- one cannot "markup" an image
+                        with another image.) We do not propose to address the manifold
+                        epistemological differences between word and image in any comprehensive way,
+                        but rather to suggest a variety of computational approaches to image data
+                        while discriminating among a range of editorial strategies for incorporating
+                        images into digital library collections, electronic editions, and electronic
+                        archives.</p>
+                    <p>In a recent article Julia Flanders maintains that "[t]he role that images
+                        currently play in electronic editions seems to move between decoration,
+                        scholarly substantiation, and bravura display" (309). This has been largely
+                        true thus far, but new tools and techniques have lately begun to allow us to
+                        treat images with far greater subtlety. Moreover, even the seemingly
+                        straightforward notion of a digital "facsimile" involves basic editorial
+                        decisions which too often go unrecognized: should the digital images be
+                        color-corrected, and if so what measure of chromatic fidelity should be
+                        employed? Should the facsimile be presented on the screen at its true
+                        physical dimensions, a prime consideration in a field such as art history?
+                        (The William Blake Archive uses Java technology to resize images on the
+                        fly.)</p>
+                    <p>But the heart of the issue, as Flanders and others have recognized, is the
+                        need to begin treating images as structured data rather than as simple
+                        supplements to machine-readable text. Various strategies to accomplish this,
+                        ranging from descriptive SGML-based image annotation to search technologies
+                        employing sophisticated pattern-matching logics are gradually coming
+                        available, and humanists now need to begin thinking through the implications
+                        of images as structured data, in the same way that recent years have
+                        produced vigorous discussions of text-based electronic editing and
+                        text-encoding. The panel will suggest starting points for such a discussion,
+                        as well as provide examples of projects that have taken early steps in this
+                        direction.</p>
+                    <p>The panel will also consider forms of visual knowledge that lie beyond the
+                        familiar horizon of facsimile reproduction. As Jerome McGann has recently
+                        demonstrated, for example, the algorithms and filters available in common
+                        desktop packages such as Adobe Photoshop have the potential to expose formal
+                        elements of an image's structural composition through processes of
+                        computational deformation. Or else consider modeling and visualization
+                        tools, which have a long history of applications in the hard sciences: a
+                        visualization of search results or the narrative structure of a text is no
+                        less an "image" than a facsimile of a manuscript page, and the increasing
+                        ease with which digital tools allow us to generate such visualizations
+                        suggests that our thinking about visual materials in electronic editions and
+                        digital libraries will soon evolve to encompass this new, non-referential
+                        class of images.</p>
+                </div>
+                <div>
+                    <head>Panelists (In Order of Presentation)</head>
+                    <p><emph rend="bold">Johanna Drucker</emph> has been printing artists' books
+                        using letterpress and offset production techniques since the 1970s. She
+                        holds a doctorate from the Berkeley Visual Studies program and has published
+                        widely as an art historian and graphic design critic. She has held
+                        appointments at Columbia and Yale, and currently directs a visual design
+                        program at SUNY Purchase. She will become the Robertson Professor of Media
+                        Studies at the University of Virginia in the fall of 1999. Drucker has
+                        recently been conducting extensive investigative work on "the ontology of
+                        the digital image," which will form the basis for her remarks at this panel.
+                        Email: <email>jabbooks@earthlink.net</email></p>
+                    <p><emph rend="bold">Jerome J. McGann</emph>, University Professor at the
+                        University of Virginia and a Fellow of the Institute for Advanced Technology
+                        in the Humanities, has long been an advocate of "image-based" electronic
+                        editing, and his work on the Rossetti Archive has involved extensive
+                        investigation of methods for annotating and encoding images as structured
+                        data. More recently, McGann has been engaged in a series of "deformative"
+                        exercises, using the filters in common image editing software to expose the
+                        formal properties of digital images. Email:
+                            <email>jjm2f@virginia.edu</email>.</p>
+                    <p><emph rend="bold">Joseph Viscomi</emph> is Professor of English at the
+                        University of North Carolina, Chapel Hill and a Fellow of the Institute for
+                        Advanced Technology in the Humanities. He worked as a curator and graphic
+                        artist before reconstructing and reproducing -- accurately for the first
+                        time -- Blake's illuminated printing techniques. As an editor of the
+                        electronic William Blake Archive, Viscomi's work focuses on color correction
+                        and image editing. He will address the twin chimeras of radical subjectivity
+                        and false positivism when engaged in image editing, and will also discuss
+                        image editing vis-a-vis traditional editorial theory. Email:
+                            <email>jsviscom@email.unc.edu</email>.</p>
+                    <p>Worthy Martin is Associate Professor of Computer Science at the University of
+                        Virginia and Technical Director of the Institute for Advanced Technology in
+                        the Humanities. His fields of expertise include machine vision, pattern
+                        recognition, and image databases, and he has published widely in these
+                        areas. Martin will address the question of digital images from a
+                        computational perspective, focusing on how computers "see" and process
+                        pictorial content. Email: <email>wnm@virginia.edu</email>.</p>
+                    <p><emph rend="bold">Matthew G. Kirschenbaum</emph> (Organizer and Chair), is
+                        completing his dissertation in the Department of English at the University
+                        of Virginia. He is also the Managing Editor of the William Blake Archive.
+                        Kirschenbaum will become Assistant Professor of English at the University of
+                        Kentucky in the fall of 1999. In this session, he will briefly assess the
+                        current range of software for comparative and analytical operations on
+                        structured image data as well as outlining provisional specs for a new
+                        image-based software tool entitled LOOKSEE. Email:
+                            <email>mgk3k@virginia.edu</email>.</p>
+                </div>
+                <div>
+                    <head>Format</head>
+                    <p>The panel is allotted 90 minutes. After a short set of introductory remarks
+                        from the panel chair (5 minutes), each member of the panel will be asked to
+                        speak for 10-12 minutes, developing one or two specific talking points from
+                        their particular background and expertise (total time for five
+                        presentations: about 55 minutes). With these initial presentations
+                        concluded, panelists will be asked to briefly respond to one another's
+                        remarks (clearly time will not permit every member of the panel to respond
+                        to every other member, and so the objective here will be to foreground a few
+                        major points of agreement and dissent). The remaining 20-25 minutes of time
+                        will be given over to open discussion with members of the audience.</p>
+                </div>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author><name><forename type="first">Steve</forename>
+                                    <surname>DeRose</surname></name> et al</author>
+                            <title level="a">What is Text Really?</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Journal of Computing in Higher Education</title>
+                            <imprint>
+                                <biblScope type="vol">1</biblScope>
+                                <biblScope type="issue">2</biblScope>
+                                <biblScope type="pp">3-26</biblScope>
+                                <date when="1990">1990</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author><name><forename type="first">Julia</forename>
+                                    <surname>Flanders</surname></name></author>
+                            <title level="a">Trusting the Electronic Edition</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Computers and the Humanities</title>
+                            <imprint>
+                                <biblScope type="vol">31</biblScope>
+                                <biblScope type="issue">4</biblScope>
+                                <biblScope type="pp">301-310</biblScope>
+                                <date when="1998">1998</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author><name><forename type="first">Matthew</forename>
+                                    <forename type="middle"
+                                        >G.</forename><surname>Kirschenbaum</surname></name></author>
+                            <title level="a">Documenting Digital Images: Textual Meta-Data at the
+                                Blake Archive</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Electronic Library</title>
+                            <imprint>
+                                <biblScope type="vol">16</biblScope>
+                                <biblScope type="issue">4</biblScope>
+                                <biblScope type="pp">239-41</biblScope>
+                                <date when="1998">August 1998</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <analytic>
+                            <author><name><forename type="first">Jerome</forename>
+                                    <surname>McGann</surname></name></author>
+                            <title level="a">Imagining What You Don't Know: The Theoretical Goals of
+                                the Rossetti Archive</title>
+                        </analytic>
+                        <monogr>
+                            <title level="s">General Publications, Institute for Advanced Technology
+                                in the Humanities</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date/>
+                            </imprint>
+                        </monogr>
+                        <note>&lt;<ptr target="http://www.iath.virginia.edu/generalpubs.html"
+                            />&gt;.</note>
+                    </biblStruct>
+                    <biblStruct type="bookChapter">
+                        <analytic>
+                            <author><name><forename type="first">Jerome</forename>
+                                    <surname>McGann</surname></name></author>
+                            <title level="a">The Rossetti Archive and Image-Based Electronic
+                                Editing</title>
+                        </analytic>
+                        <monogr>
+                            <editor><name><forename type="first"
+                                        >Richard</forename><surname>Finneran</surname></name></editor>
+                            <title level="m">The Literary Text in the Digital Age</title>
+                            <imprint>
+                                <pubPlace>Ann Arbor</pubPlace>
+                                <publisher>The University of Michigan Press</publisher>
+                                <date when="1996">1996</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="bookChapter">
+                        <analytic>
+                            <author><name><forename type="first">Allen</forename>
+                                    <surname>Renear</surname></name></author>
+                            <title level="a">Out of Praxis: Three (Meta)Theories of Text</title>
+                        </analytic>
+                        <monogr>
+                            <editor>
+                                <name>
+                                    <forename type="first">Kathryn</forename>
+                                    <surname>Sutherland</surname>
+                                </name>
+                            </editor>
+                            <title level="m">Electronic Text: Investigations in Method and
+                                Theory</title>
+                            <imprint>
+                                <pubPlace>Oxford</pubPlace>
+                                <publisher>Clarendon Press</publisher>
+                                <date when="1997">1997</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="bookChapter">
+                        <analytic>
+                            <author><name><forename type="first">Allen</forename>
+                                    <surname>Renear</surname></name> et al</author>
+                            <title level="a">Refining Our Notion of What Text Really Is: The Problem
+                                of Overlapping Hierarchies</title>
+                        </analytic>
+                        <monogr>
+                            <editor>
+                                <name>
+                                    <forename type="first">Nancy</forename>
+                                    <surname>Ide</surname>
+                                </name>
+                            </editor>
+                            <editor>
+                                <name>
+                                    <forename type="first">Susan</forename>
+                                    <surname>Hockey</surname>
+                                </name>
+                            </editor>
+                            <title level="m">Research in Humanities Computing</title>
+                            <imprint>
+                                <pubPlace>Oxford</pubPlace>
+                                <publisher>Oxford University Press</publisher>
+                                <date when="1996">1996</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                </listBibl>
+                <note><emph rend="bold">Note</emph>: This short list is intended to portray neither
+                    the broad range of technical literature on digital images and imaging
+                    technologies, nor critical/theoretical work on visual representation, but rather
+                    to suggest the panel's positioning in relation to an ongoing and parallel
+                    discussion of text-encoding and text-based electronic editing. </note>
+            </div>
+        </back>
+    </text>
+</TEI>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="paper">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">The Electronic Archive of Early American Fiction
+                    (1775-1850)</title>
+                <author>
+                    <name>
+                        <forename type="first">David</forename>
+                        <surname>Seaman</surname>
+                        <affiliation>
+                            <name type="org">University of Virginia</name>
+                            <email>etext@virginia.edu</email>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="1997">1997</date>
+                <publisher>
+                    <name>Queen's University</name>
+                </publisher>
+                <pubPlace>Kingston, Ontario</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ACH/ALLC 1997</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name type="org">the secretarial staff in the Department of French Studies at
+                        Queen's University</name>
+                    <name>
+                        <forename type="first">Greg</forename>
+                        <surname>Lessard</surname>
+                    </name>
+                    <name>
+                        <forename type="first"/>
+                        <surname/>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item>SGML</item>
+                        <item>archival imaging</item>
+                        <item>early American Fiction</item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <div>
+                    <head>Introduction</head>
+                    <p>This 125,000-page project takes the University of Virginia Library into a
+                        level of archival-quality text and image production rarely seen in rare
+                        books archives. In preparing for this project we have tackled issues of
+                        funding, production-level digital equipment and practices, partnerships with
+                        commercial publishers to disseminate the results, and large-scale storage
+                        issues. This paper will outline the project, explain the workflow,
+                        equipment, and text and image standards that we think appropriate for
+                        creating data of long-term viability, and explore the lessons we are
+                        learning (and expect to learn) regarding the economics of undertaking a
+                        cost-recovery process.</p>
+                </div>
+                <div>
+                    <head>Scope</head>
+                    <p>The Early American fiction project will create electronic texts for the 425
+                        titles (582 volumes) which are in the Barrett and Taylor collections at the
+                        University of Virginia Special Collections Department. The list includes
+                        major works of Edgar Allan Poe, James Fenimore Cooper, Nathaniel Hawthorne,
+                        and Washington Irving but also includes many lesser known authors such as
+                        Anne Newport Royall, Samuel Benjamin Judah, and Charles Frederick Briggs. By
+                        including the lesser known works and authors we hope to represent the fabric
+                        and context of early American literature, making available to teachers and
+                        researchers what Americans were reading during the first 75 years of the
+                        history of our nation.</p>
+                </div>
+                <div>
+                    <head>Digital Formats</head>
+                    <p>The project will combine high-quality color page images of all 125,000 pages
+                        (including covers and spines) with TEI-encoded text versions, allowing
+                        scholars all over the world a rare sense of the physical reality of the
+                        volumes being studied as well as providing a fully-searchable SGML database.
+                        All images will be scanned with a digital camera at approximately 400 dpi,
+                        24-bit color, and archived as TIFF files. The paper will cover the
+                        challenges of managing this vast amount of data, and the necessity for such
+                        large page-image files. JPEG derivatives will be generated for on-line
+                        use.</p>
+                    <p>All the text will be encoded in TEI. The conversion to tagged ASCII text will
+                        be done under contract with a keyboarding company, who will also add some of
+                        the markup. The texts will be completed and parsed at UVa., and mounted on
+                        the web. The paper will report on this workflow, and outline the lessons we
+                        learn in handling large quantities of TEI text and color TIFF images.</p>
+                </div>
+                <div>
+                    <head>Economics</head>
+                    <p>A key part of this project will be a structured measurement of usage of the
+                        e-texts created in the project, and a comparison of that usage with the
+                        usage of original rare books. In addition to the economics of use, there
+                        will be a report on our cost-recovery assumptions, which include a
+                        partnership with a commercial publisher to market a CD version of the
+                        database.</p>
+                </div>
+                <div>
+                    <head>Conclusion</head>
+                    <p>The Electronic Archive of Early American Fiction project presents the
+                        opportunity to study scholarly use of original rare books and of their
+                        computer simulacra, and to determine the extent to which electronic texts of
+                        rare books can serve scholars and teachers, and to compare the usage and
+                        costs of electronic texts and of original paper texts of rare books. This
+                        paper will outline the scope of the project and report on what we have
+                        learned to endorse or challenge our initial assumptions about workflow,
+                        cost, level of tagging, commercial interest, and image quality.</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

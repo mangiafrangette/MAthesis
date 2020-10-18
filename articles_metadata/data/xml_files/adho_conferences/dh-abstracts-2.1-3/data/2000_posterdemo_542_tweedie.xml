@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="poster/demo">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">A Comparison of Methods for the Attribution of
+                    Authorship of Popular Fiction</title>
+                <author>
+                    <name>
+                        <forename type="first">Fiona</forename>
+                        <forename type="middle">J.</forename>
+                        <surname>Tweedie</surname>
+                        <affiliation>
+                            <name type="org">University of Glasgow</name>, UK <email/>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Lisa</forename>
+                        <forename type="middle">Lena</forename>
+                        <surname>Opas-Hänninen</surname>
+                        <affiliation>
+                            <name type="org">University of Joensuu</name>, Finland <email/>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="2000">2000</date>
+                <publisher>
+                    <name>University of Glasgow</name>
+                </publisher>
+                <pubPlace>Glasgow</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ALLC/ACH 2000</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first">Jean</forename>
+                        <surname>Anderson</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Amal</forename>
+                        <surname>Chatterjee</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Christian</forename>
+                        <forename type="middle">J.</forename>
+                        <surname>Kay</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Margaret</forename>
+                        <surname>Scott</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item> </item>
+                        <item> </item>
+                        <item> </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <div>
+                    <head>Introduction</head>
+                    <p>In this poster we present the stylistic analysis of a number of popular
+                        fiction genres. Popular fiction generally receives less academic attention
+                        than literature, but its ability to draw the reader into the story is
+                        noteworthy. In previous work (Opas and Tweedie, 1999a, 1999b) we have
+                        examined measures of stance in an attempt to quantify this degree of reader
+                        involvement. In this paper we turn to measures used to discriminate between
+                        authors, in order to find consistent differences between genres and authors.
+                    </p>
+                </div>
+                <div>
+                    <head>Textual Sources</head>
+                    <p>We have taken texts from three distinct sources: romance novels, detective
+                        novels and American short stories. Our total corpus is 590,000 words. We
+                        have analysed romance novels published between 1990-1996 from the Harlequin
+                        Presents and Regency Romance series. We have also analysed Danielle Steel's
+                        works, which are classified as women's fiction or 'cross-overs'. The romance
+                        texts make up 245,000 words. The detective fiction part of our corpus is
+                        made up of popular contemporary female authors published in the 1990s, i.e.
+                        Cornwell, Grafton, James, Leon, Peters, and Rendell. Where an author has
+                        created many detectives, we chose the most well-known one to represent that
+                        author. Some of the detectives are male and others female and we expect them
+                        to express stance differently. These texts make up 295,000 words. Short
+                        stories were also taken from the works of Carver and Barth. These make up
+                        almost 50,000 words.</p>
+                </div>
+                <div>
+                    <head>Methods</head>
+                    <p>We will compare and contrast the results from three analyses of these texts.
+                        The analyses are based on methods used in determining authorship: the
+                        frequency of the most common words, letter frequency and measures of
+                        vocabulary richness. The data from each of these procedures is then used in
+                        a principal components analysis in order to identify the most important
+                        elements.</p>
+                    <list>
+                        <item><emph rend="bold">1) Word frequencies</emph> The use of principal
+                            components analysis of the most common words to determine authorship was
+                            proposed by Burrows in 1988 and has become an essential tool for
+                            stylistic analysis. Here, the most commonly-occurring forty words were
+                            employed. Their frequencies were measured and standardised for text
+                            length. A principal components analysis was then carried out and the
+                            texts plotted in the principal components space. The first two principal
+                            components corresponded to 32.2% of the total variation. The first
+                            principal component separates the romantic Steel texts, with high
+                            negative scores, from the American short stories which have high
+                            positive scores. Detective stories by Sue Grafton and Patricia Cornwell
+                            also have high positive scores on this axis. The second principal
+                            component appears to act as a rough genre separator; romantic texts tend
+                            to have positive scores and all of the detective novels have negative
+                            scores. Consideration of a loadings plot indicates that the Steel texts
+                            use a high proportion of "she", "her" and "they", while the short
+                            stories use "at", "said" and "on". The Grafton and Cornwell texts are
+                            written in the first person and this is highlighted by their use of
+                            "me", "my" and "I".</item>
+                        <item><emph rend="bold">2) Letter frequencies</emph> Ledger and Merriam use
+                            letter frequencies in their analysis of Shakespearean texts with
+                            remarkable success. Here we consider the relative frequencies of 'A' -
+                            'Z', with capital and lower-case letters amalgamated. These 26 variables
+                            are then subjected to principal components analysis. The results are
+                            plotted in the first two dimensions of the principal components space
+                            which account for 34.5% of the total variation. In this analysis the
+                            separation is not as good as the word frequency analysis. The American
+                            texts tend to have high negative scores on the first principal
+                            component, while the texts by P. D. James have very high positive
+                            scores.</item>
+                        <item><emph rend="bold">3) Measures of Vocabulary Richness</emph> A great
+                            number of measures of vocabulary richness have been proposed. Tweedie
+                            and Baayen (1998) carry out a review of these measures and find that
+                            two, K and Z, contain the vast majority of the information from the
+                            author's vocabulary. Yule's K measures the 'repeat-rate' used by the
+                            author, while Orlov's Z measures vocabulary richness in the sense of the
+                            number of different words used. We therefore plot the texts in the K-Z
+                            plane. As might be expected, the American short stories are found to
+                            have a low repeat rate and high vocabulary richness. The Steel texts
+                            have a higher richness than the other romantic texts, but the detective
+                            and romantic fiction texts are not separated by this analysis. </item>
+                    </list>
+                </div>
+                <div>
+                    <head>3. Conclusions</head>
+                    <p>These three analyses offer views of different facets of the style of popular
+                        romantic and detective fiction. The genres are most clearly separated when
+                        the most common words are used as data, while the letter frequency analysis
+                        is, not surprisingly, more affected by the particular names of heroes or
+                        heroines. The measures of vocabulary richness distinguish clearly between
+                        the more popular texts and the short stories. At the conference we shall
+                        also present the analysis of markers of stance, used in Opas and Tweedie
+                        (1999a, 1999b).</p>
+                </div>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author><name><forename type="first">J.</forename>
+                                    <forename type="middle"
+                                    >F.</forename><surname>Burrows</surname></name></author>
+                            <title level="a">Word patterns and stay shapes: the statistical analysis
+                                of narrative style</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Literary &amp; Linguistic Computing</title>
+                            <imprint>
+                                <biblScope type="vol">2</biblScope>
+                                <biblScope type="issue">2</biblScope>
+                                <biblScope type="pp">61-70</biblScope>
+                                <date when="1987">1987</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author><name><forename type="first">G.</forename>
+                                    <surname>Ledger</surname></name></author>
+                            <author><name><forename type="first">T.</forename>
+                                    <surname>Merriam</surname></name></author>
+                            <title level="a">Shakespeare, Fletcher and the Two Noble Kinsmen</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Literary &amp; Linguistic Computing</title>
+                            <imprint>
+                                <biblScope type="vol">9</biblScope>
+                                <biblScope type="issue">3</biblScope>
+                                <biblScope type="pp">235-248</biblScope>
+                                <date when="1994">1994</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author><name><forename type="first">L.</forename>
+                                    <forename type="middle"
+                                    >L.</forename><surname>Opas</surname></name></author>
+                            <author><name><forename type="first">F.</forename>
+                                    <forename type="middle"
+                                    >J.</forename><surname>Tweedie</surname></name></author>
+                            <title level="a">The Magic Carpet Ride: Reader Involvement in Romantic
+                                Fiction</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Literary &amp; Linguistic Computing</title>
+                            <imprint>
+                                <biblScope type="vol">14</biblScope>
+                                <biblScope type="issue">1</biblScope>
+                                <biblScope type="pp">89-101</biblScope>
+                                <date when="1999">1999a</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="bookChapter">
+                        <analytic>
+                            <author><name><forename type="first">L.</forename>
+                                    <forename type="middle"
+                                    >L.</forename><surname>Opas</surname></name></author>
+                            <author><name><forename type="first">F.</forename>
+                                    <forename type="middle"
+                                    >J.</forename><surname>Tweedie</surname></name></author>
+                            <title level="a">Come into my World: Styles of Stance in Detective and
+                                Romantic Fiction</title>
+                        </analytic>
+                        <monogr>
+                            <title level="m">Abstracts of the ALLC/ACH conference 1999,
+                                Virginia</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date when="1999">1999b</date>
+                                <biblScope type="pp">247</biblScope>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author><name><forename type="first">F.</forename>
+                                    <forename type="middle"
+                                    >J.</forename><surname>Tweedie</surname></name></author>
+                            <author><name><forename type="first">R.</forename>
+                                    <forename type="middle"
+                                    >H.</forename><surname>Baayen</surname></name></author>
+                            <title level="a">How Variable May a Constant Be? Measures of Lexical
+                                Richness in Perspective</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Computers and the Humanities</title>
+                            <imprint>
+                                <biblScope type="vol">32</biblScope>
+                                <biblScope type="issue">5</biblScope>
+                                <biblScope type="pp">323-352</biblScope>
+                                <date when="1998">1998</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="poster/demo">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">A Demonstration of the Linear Modeling Kit</title>
+                <author>
+                    <name>
+                        <forename type="first">Larry</forename>
+                        <forename type="middle">L.</forename>
+                        <surname>Stewart</surname>
+                        <affiliation>English Department, The <name type="org">College of
+                                Wooster</name>, Wooster, Ohio <email>Lstewart@acs.wooster.edu
+                            </email>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Peter</forename>
+                        <forename type="middle">L.</forename>
+                        <surname>Havholm</surname>
+                        <affiliation>English Department, The <name type="org">College of
+                                Wooster</name>, Wooster, Ohio <email>Phavholm@acs.wooster.edu
+                            </email>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="1996">1996</date>
+                <publisher>
+                    <name>University of Bergen</name>
+                </publisher>
+                <pubPlace>Bergen, Norway</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ALLC/ACH 1996</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first">Anne</forename>
+                        <surname>Lindebjerg</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Espen</forename>
+                        <forename type="middle">S.</forename>
+                        <surname>Ore</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Øystein</forename>
+                        <surname>Reigem</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item>software</item>
+                        <item>pedagogy</item>
+                        <item>literary theory</item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <head>A Demonstration of the Linear Modeling Kit</head>
+                <p>The Linear Modeling Kit, an application designed by the writers, is a compiled
+                    program that allows users to make narrative generators. The generators produce
+                    narratives made of user-created text strings arranged according to
+                    user-specified rules. The software's authors use the LMK in literature courses
+                    as a way of helping students think more deeply and precisely about narrative and
+                    narrative theory. Students are asked to "program" their own understanding of a
+                    narrative theory into the LMK, thus creating a narrative generator; and the
+                    quality of the skeletal narratives the resulting generator can produce indicates
+                    the powers of the students' understanding.</p>
+                <p>Essentially, a Linear Modeling Kit generator is a simple computer program that
+                    generates statements using a supplied vocabulary and rules about how vocabulary
+                    pieces may be connected. The user may create any number and kind of categories.
+                    For example, narrative categories might be called "exposition," "complication,"
+                    "climax" and "denouement" or, in the context of Vladimir Propp's analysis,
+                    "initial situation," "absentation," "interdiction," "violation," etc.</p>
+                <p>The user may then enter any number of text strings which exemplify these
+                    categories: for instance, "Two young children once lived in a large forest"
+                    might be placed in the category "exposition." After having created categorized
+                    lists of strings, the user would then create rules for their linking: for
+                    example, a generator may be programmed to go from initial situation to
+                    absentation and then to interdiction or, perhaps, to go from initial situation
+                    either to absentation or to interdiction and then to loop back to an earlier
+                    category. The generator randomly selects a text string from each category list
+                    it visits, so the resulting narrative is a direct consequence of the analysis
+                    represented by categories and combinatory rules.</p>
+                <p>The LMK also allows the user to "mark" text strings for any attribute. For
+                    example, a string could be marked masculine or feminine to ensure a continuity
+                    of gender in the protagonist, or it could be marked on a scale of one to ten for
+                    stylistic formality or violence or oral imagery or for any attribute deemed
+                    relevant by the user.</p>
+                <p>In our classes, we ask students to study a particular kind of narrative (for
+                    instance, the <emph rend="italics">bildungsroman</emph> or the contemporary
+                    romance) and to create a generator that will produce skeletal narratives of that
+                    kind. The narratives, thus, become a kind of test of the students'
+                    understanding? Do the narratives "sound like" skeletal versions of the <emph
+                        rend="italics">bildungsroman</emph>? If not, what is missing in the theory
+                    by which the generator was produced?</p>
+                <p>We have found the pedagogy to be an extremely powerful one which urges students
+                    to think about narratives and narrative theory with unusual precision.</p>
+                <p>We will demonstrate the interactive creation of a narrative generator and show
+                    examples of a wide variety of student-produced generators.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

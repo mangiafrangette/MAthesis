@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="paper">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">GODDAG: A Data Structure for Overlapping
+                    Hierarchies</title>
+                <author>
+                    <name>
+                        <forename type="first">C.</forename>
+                        <forename type="middle">M.</forename>
+                        <surname>Sperberg-McQueen</surname>
+                        <affiliation>Computer Center <name type="org">University of Illinois at
+                                Chicago</name>
+                            <email>cmsmcq@acm.org</email>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Claus</forename>
+                        <surname>Huitfeldt</surname>
+                        <affiliation>
+                            <name type="org">Wittgenstein Archives</name>
+                            <name type="org">University of Bergen</name>
+                            <email>Claus.Huitfeldt@hit.uib.no</email>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="1999">1999</date>
+                <publisher>
+                    <name>University of Virginia</name>
+                </publisher>
+                <pubPlace>Charlottesville, VA</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ACH/ALLC 1999</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first"/>
+                        <surname/>
+                    </name>
+                    <name>
+                        <forename type="first"/>
+                        <forename type="middle"/>
+                        <surname/>
+                    </name>
+                    <name>
+                        <forename type="first"/>
+                        <surname/>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item> </item>
+                        <item> </item>
+                        <item> </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <div>
+                    <p>The success of SGML is based in part on the natural way in which SGML
+                        documents can be regarded as linearizations of trees using a notation
+                        essentially similar to labeled bracketing, and on the natural way in which
+                        the tree so represented can be interpreted as a parse tree or an abstract
+                        syntax tree for the grammar defined in the documents' document type
+                        definition (DTD). The close ties among grammar, tree structure, and
+                        linearization give SGML an intellectual coherence missing from some other
+                        markup schemes.</p>
+                    <p>When it comes to overlapping structures, however, these notions cannot be
+                        applied with the same naturalness.</p>
+                    <p>Therefore, a major challenge to any attempt to provide better support for
+                        markup of overlap is to provide not only a convenient file format for
+                        recording overlap, but also a notation for expressing constraints on
+                        documents with overlap, and plausible data structures for representing
+                        documents with overlap. In this paper we address the third of these
+                        problems.</p>
+                </div>
+                <div>
+                    <head>The GODDAG Structure</head>
+                    <p>Consider the following simple example of a document with overlapping structures:<lb/>
+                        <eg>&lt;s/&lt;a/ John &lt;b/ likes /a&gt; Mary /b&gt;/s&gt;</eg></p>
+                    <p>The sentence John likes Mary is tagged as a sentence (s). The words <emph
+                            rend="italics">John likes</emph> are tagged as an <emph rend="italics"
+                            >a</emph>, and the words <emph rend="italics">likes Mary </emph>as a
+                            <emph rend="italics">b</emph>. Because the <emph rend="italics">a</emph>
+                        and the <emph rend="italics">b</emph> overlap, the document has no
+                        convenient representation in SGML, and no SGML-style tree can be drawn for
+                        it.</p>
+                    <p>However, we can draw the containment relations among s, a, b, and the words
+                        of the text in a natural way. The result is a graph like this: <figure/></p>
+                    <p>The graph resembles a tree, but differs from a tree in that multiple parent
+                        nodes can contain the same child. The multiple parents of such a child are
+                        the elements which overlap in the original document; the child is the scope
+                        of the overlap. For our purposes, overlap is simply multiple parentage.</p>
+                    <p>Graphs like the one just shown may be constructed for any document with
+                        overlapping structures. If a document has no overlaps, the graph reduces to
+                        a tree. If a document does have overlap, the corresponding graph will
+                        preserve as many of the characteristics of the document tree as
+                        possible.</p>
+                    <p>Because the structure described is an acyclic directed graph in which nodes
+                        have ordered descendants, we refer to it as a General Ordered-Descendant
+                        Directed Acyclic Graph (GODDAG).</p>
+                    <div>
+                        <head>Interpretation</head>
+                        <p>The GODDAG structure allows the markup in the source document to be
+                            interpreted in fairly straightforward graph-theoretical terms. The
+                            inheritance from parents to children of claims about properties can be
+                            interpreted just as it can be for a tree structure.</p>
+                        <p>Since elements can have multiple parents, however, rules for multiple
+                            inheritance must be developed by the application or document type
+                            definition. Just as with trees, GODDAG structures provide simple ways to
+                            explain and think about overriding of inherited values and the
+                            coexistence of properties asserted of ancestors and descendants.</p>
+                        <p>The rules of interpretation become more complex than those of standard
+                            SGML, precisely because the GODDAG structure is more complex than a
+                            tree.</p>
+                    </div>
+                    <div>
+                        <head>Spurious overlap</head>
+                        <p>When two elements overlap, they define three distinct regions dominated
+                            by one or the other of the overlapping elements, or both:<lb/>
+                            <eg>&lt;a/ John &lt;b/ likes /a&gt; Mary /b&gt;</eg></p>
+                        <p>If any one of the regions is empty, then the overlap is spurious: the
+                            document can be rewritten without overlap, without changing the
+                            interpretation of any character of the document:<lb/>
+                            <eg>&lt;a/ &lt;b/ likes /a&gt; Mary /b&gt;</eg><lb/>
+                            <eg>&lt;a/ John &lt;b//a&gt; Mary /b&gt;</eg><lb/>
+                            <eg>&lt;a/ John &lt;b/ likes /a&gt; /b&gt;</eg></p>
+                        <p>We define the function <emph rend="italics">leafset</emph> as returning
+                            the set of leaf nodes dominated by a given non-leaf node. A GODDAG
+                            structure is clean (lacks spurious overlap) if the following conditions
+                                hold:<list type="bulleted">
+                                <item>If <emph rend="italics">leafset(b)</emph> is a proper subset
+                                    of <emph rend="italics">leafset(a)</emph>, then a path of
+                                    parent-child arcs from a to b exists.</item>
+                                <item>If <emph rend="italics">leafset (b)</emph> is equal to <emph
+                                        rend="italics">leafset(a)</emph>, then either an arc from
+                                        <emph rend="italics">a</emph> to <emph rend="italics"
+                                        >b</emph> exists or an arc from <emph rend="italics"
+                                        >b</emph> to <emph rend="italics">a</emph> exists.</item>
+                            </list></p>
+                    </div>
+                    <div>
+                        <head>Applications</head>
+                        <p>The major expected applications of the GODDAG structure include:<list
+                                type="bulleted">
+                                <item>conditional indexing and processing</item>
+                                <item>extraction of well-formed subtrees and subdocuments from MECS
+                                    documents</item>
+                                <item>removal of spurious overlap from MECS documents and HTML
+                                    documents</item>
+                            </list></p>
+                        <p>Possible extensions include:<list type="bulleted">
+                                <item>graphs with disordered nodes</item>
+                                <item>graphs representing multiple orderings of data</item>
+                                <item>representation of virtual elements</item>
+                            </list></p>
+                    </div>
+                </div>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author><name>
+                                    <forename type="first">David</forename>
+                                    <surname>Barnard</surname>
+                                </name> et al</author>
+                            <title level="a">SGML Markup for Literary Texts</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Computers and the Humanities</title>
+                            <imprint>
+                                <biblScope type="vol">22</biblScope>
+                                <biblScope type="issue">4</biblScope>
+                                <biblScope type="pp">265-276</biblScope>
+                                <date when="1988">1988</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author><name>
+                                    <forename type="first">David</forename>
+                                    <surname>Barnard</surname>
+                                </name> et al</author>
+                            <title level="a">Hierarchical Encoding of Text: Technical Problems and
+                                SGML Solutions</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Computers and the Humanities</title>
+                            <imprint>
+                                <biblScope type="vol">29</biblScope>
+                                <biblScope type="issue">3</biblScope>
+                                <biblScope type="pp">211-231</biblScope>
+                                <date when="1995">1995</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author><name>
+                                    <forename type="first">Steven</forename>
+                                    <forename type="middle">J.</forename>
+                                    <surname>DeRose</surname>
+                                </name> et al</author>
+                            <title level="a">What is Text, Really?</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Journal of Computing in Higher Education</title>
+                            <imprint>
+                                <biblScope type="vol">1</biblScope>
+                                <biblScope type="issue">2</biblScope>
+                                <biblScope type="pp">3-26</biblScope>
+                                <date when="1990">1990</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">David</forename>
+                                    <surname>Durand</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">Elli</forename>
+                                    <surname>Mylonas</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">Steve</forename>
+                                    <surname>DeRose</surname>
+                                </name>
+                            </author>
+                            <title level="a">What should markup really be? Applying theories of text
+                                to the design of markup systems</title>
+                        </analytic>
+                        <monogr>
+                            <title level="m">ALLC/ACH'96, Joint Conference of the ALLC and ACH,
+                                Bergen, 1996</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date when="1996">1996</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">Claus</forename>
+                                    <surname>Huitfeldt</surname>
+                                </name>
+                            </author>
+                            <title level="a">A Multi-Element Code System</title>
+                        </analytic>
+                        <monogr>
+                            <title level="s">Working Papers of the Wittgenstein Archives at the
+                                University of Bergen</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date/>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">Claus</forename>
+                                    <surname>Huitfeldt</surname>
+                                </name>
+                            </author>
+                            <title level="a">Multi-Dimensional Texts in a One-Dimensional</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Computers and the Humanities</title>
+                            <imprint>
+                                <biblScope type="vol">28</biblScope>
+                                <biblScope type="issue">4-5</biblScope>
+                                <biblScope type="pp">235-241</biblScope>
+                                <date when="1994">1994</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="bookChapter">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">Allen</forename>
+                                    <surname>Renear</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">David</forename>
+                                    <surname>Durand</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">Elli</forename>
+                                    <surname>Mylonas</surname>
+                                </name>
+                            </author>
+                            <title level="a">Refining our notion of what text really is: The problem
+                                of overlapping hierarchies</title>
+                        </analytic>
+                        <monogr>
+                            <title level="m">Research in Humanities Computing</title>
+                            <imprint>
+                                <pubPlace>Oxford</pubPlace>
+                                <publisher>Oxford University Press</publisher>
+                                <date when="1995">1995</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <editor>
+                                <name>
+                                    <forename type="first">C.</forename>
+                                    <forename type="middle">M.</forename>
+                                    <surname>Sperberg-McQueen</surname>
+                                </name>
+                            </editor>
+                            <editor>
+                                <name>
+                                    <forename type="first">Lou</forename>
+                                    <surname>Burnard</surname>
+                                </name>
+                            </editor>
+                            <title level="m">Guidelines for Text Encoding and Interchange</title>
+                            <imprint>
+                                <pubPlace>Chicago</pubPlace>
+                                <pubPlace>Oxford</pubPlace>
+                                <publisher>Text Encoding Initiative</publisher>
+                                <date when="1994">1994</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">C.</forename>
+                                    <forename type="middle">M.</forename>
+                                    <surname>Sperberg-McQueen</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">Claus</forename>
+                                    <surname>Huitfeldt</surname>
+                                </name>
+                            </author>
+                            <title level="a">Concurrent Textual Structures in MECS and SGML</title>
+                        </analytic>
+                        <monogr>
+                            <title level="u">Paper read at ALLC/ACH'98 Debrecen, Hungary, July
+                                1998</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date when="1998">1998</date>
+                            </imprint>
+                        </monogr>
+                        <note>Forthcoming in <title level="j">Literary and Linguistic
+                                Computing</title>, 1999.</note>
+                    </biblStruct>
+                </listBibl>
+                <note>Everything we say about SGML in this paper applies to XML as well. For
+                    overviews of overlap-related problems, see Barnard et al. 1988, Barnard et al.
+                    1995, DeRose et al. 1990, Durand et al. 1996, Huitfeldt 1995, Renear et al.
+                    1995, and chapter 31 of the TEI Guidelines. The optional CONCUR feature, which
+                    does allow for multiple concurrent hierarchies in SGML documents, is discussed
+                    in Sperberg-McQueen and Huitfeldt 1998.</note>
+            </div>
+        </back>
+    </text>
+</TEI>

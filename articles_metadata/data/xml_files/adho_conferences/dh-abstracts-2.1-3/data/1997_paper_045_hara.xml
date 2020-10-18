@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="paper">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">A Digital Library System for Japanese Classical
+                    Literature</title>
+                <author>
+                    <name>
+                        <forename type="first">Shoichiro</forename>
+                        <surname>Hara</surname>
+                        <affiliation>
+                            <name type="org">National Institute of Japanese Literature</name>
+                            <email>hara@nijl.ac.jp</email>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Hisashi</forename>
+                        <surname>Yasunaga</surname>
+                        <affiliation>
+                            <name type="org">National Institute of Japanese Literature</name>
+                            <email>yasunaga@nijl.ac.jp</email>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="1997">1997</date>
+                <publisher>
+                    <name>Queen's University</name>
+                </publisher>
+                <pubPlace>Kingston, Ontario</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ACH/ALLC 1997</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name type="org">the secretarial staff in the Department of French Studies at
+                        Queen's University</name>
+                    <name>
+                        <forename type="first">Greg</forename>
+                        <surname>Lessard</surname>
+                    </name>
+                    <name>
+                        <forename type="first"/>
+                        <surname/>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item>SGML</item>
+                        <item>Japanese classical text</item>
+                        <item>multimedia database</item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <div>
+                    <head>1. Overview</head>
+                    <p>The National Institute of Japanese Literature (NIJL) has been designing,
+                        building, managing, and maintaining the databases on Japanese classical
+                        literature for academic researchers both in Japan and foreign countries. The
+                        NIJL's database system is comprised from a computer and inter-network, and
+                        provides three catalogue databases (i.e., the Catalogue of Holding
+                        Microfilms of Manuscripts and Printed Books on Japanese Classical
+                        Literature, the Catalogue of Holding Manuscripts and Printed Books on
+                        Japanese Classical Literature, and the Bibliography of Research Papers on
+                        Japanese Classical Literature). A feature of the NIJL's computer system is
+                        that all data processing from data compiling, data correction, database
+                        service, and to publishing is executed on a main frame computer system.
+                        However, during more than ten years, NIJL's database system has had many
+                        problems awaiting solution from the view of software and hardware. To solve
+                        these problems, NIJL has started the new project of the digital library for
+                        Japanese classical literature. This project downsizes the main frame
+                        computer system and reconstructs it as the so-called distributed computer
+                        system over several years. The key words of this project are
+                        "standardization of data," "data independent from systems" and "multimedia
+                        oriented." At present, following this definite policy, we are reconstructing
+                        catalogue databases and full text databases, and from this year, we start
+                        constructing the new image database of Holding Manuscripts and Printed Books
+                        on Japanese Classical Literature.</p>
+                    <p>During few years of experiment, we recognize that a digital library alone
+                        cannot always contribute to research activities of humanities scholars. A
+                        digital library is only a bank of raw material data, on the other hand,
+                        valuable results are produced under the individual research environments.
+                        Thus, we feel better and effective software tools, linking with digital
+                        libraries for downloading raw data and uploading research results can assist
+                        research skill done by the researchers. We begin new study of software for
+                        humanities as a "Digital Study System."</p>
+                    <p>In the following, chapter two describes "On Going Project" of the digital
+                        library, chapter three describes the new project of the image database.
+                        Finally, new study of the "Digital Study System" for humanities is described
+                        in chapter four.</p>
+                </div>
+                <div>
+                    <head>2. On Going Projects</head>
+                    <div>
+                        <head>2.1 SGML as the Basis of Data Description</head>
+                        <p>There are a several languages or standards for describing text
+                            structures, including SGML (Standard Generalized Markup Language), TeX,
+                            PostScript, and ODA (Open Document Architecture). Among these, SGML is
+                            the only language that can describe the logical structure of text. As it
+                            is established as ISO and JIS (Japanese Industrial Standard) standard,
+                            many applications have been developed.</p>
+                        <p>At present, we are under reconstruction of catalogue databases and full
+                            text databases. Both data can essentially be considered as nested string
+                            fields with variable length. SGML can describe the complicated text
+                            structure such as repeating groups, nests, an order of appearance, and
+                            number of appearances. If a data search is regarded as "a search for a
+                            specific string in text data," constructing database system that uses a
+                            string searching device is possible. Actually, in research on Japanese
+                            literature, search by string is more common way than search by
+                            numbers.</p>
+                        <p>Meanwhile, fast string search devices and software are being developed
+                            and sold; all of the products are capable of handling SGML data.
+                            Consequently, we have done some projects based on SGML.</p>
+                    </div>
+                    <div>
+                        <head>2. 2 Catalog Databases</head>
+                        <p>Catalogue data is used for various purposes such as on-line database
+                            service, publishing in printed form, publishing in CD-ROM and so on<note
+                                n="1">[1]Keiko KITAMURA, Hisashi YASUNAGA: <title level="a">Data
+                                    Base Delivery for Japanese Literature by CD-ROM'</title>, <title
+                                    level="m">Joint International Conference ALLC/ACH Conference
+                                    Abstract</title>, pp.261-265, 1991.</note>. This database system
+                            was designed more than 10 years ago based on devices at that time. As
+                            the latest computer system cannot support these devices, taking this
+                            opportunity, we begin reconstructing whole database systems. Reviewing
+                            old systems, we make new system policy of independence data from
+                            hardware and software, definitely speaking, we introduced SGML to
+                            describe the data<note n="2">[2] Shoichiro HARA, Hisashi Yasunaga:
+                                    <title level="a">On the Text Based Database Systems for Public
+                                    Service</title>, <title level="m">Joint International Conference
+                                    ALLC/ACH Conference Abstract</title>, pp.43-45, 1995.</note> As
+                            the original data was prepared and compiled by librarians from their
+                            points of view, some researchers are not satisfied with the contents for
+                            their research purposes. We adopt their advices to expand data structure
+                            while reconstructing the systems.</p>
+                        <p>Based on the ideas described above, we began reconstruction of new
+                            catalogue database systems. Specifically, we have:<list>
+                                <item>1) Created DTD (Data Type Definition) for new catalogue
+                                    data.</item>
+                                <item>2) Converted original data to SGML data.</item>
+                                <item>3) Test-produced a database system using a string searching
+                                    tool.</item>
+                                <item>4) Converted SGML data to LaTeX data and output in printed
+                                    form.</item>
+                            </list></p>
+                        <p>The tools used in this project were MARK-IT for the data conversion and
+                            structure analysis, and OPEN-TEXT for the string searching engine.</p>
+                    </div>
+                    <div>
+                        <head>2.3 Full Text Database</head>
+                        <p>At the beginning of our full-text database construction, the movement of
+                            standardization of the text data description was not active in Japan. We
+                            considered SGML as a favorable standard for defining text structure and
+                            describing text data. However, its Japanese standard was not
+                            established, and the worse, there were no applications to manipulate
+                            Japanese language. For these reasons, we had to establish our own text
+                            description rules based on SGML. We call these rules as KOKIN rules
+                            (KOKubungaku (Japanese literature) INformation)<note n="3">[3]Hisashi
+                                Yasunaga: <title level="a">Data Description Rule and Full-text
+                                    Database for Japanese Classical Literature</title>, <title
+                                    level="m">Joint International Conference ALLC/ACH Conference
+                                    Abstract</title>, pp.234-239,1992.</note></p>
+                        <p>As KOKIN rules were designed to be easy to understand and to use, they
+                            have been favored by humanities researchers. However, as they are
+                            independent rules from another standard, there are no good tools to
+                            parse and check the KOKIN-based texts. SGML was originally developed as
+                            the document markup language for publishers, but recently, it has been
+                            regarded as an encoding scheme for transmission of data among the
+                            systems. From this background, we believed our text data should be
+                            converted to SGML-based one from the point of effective data
+                            circulation. Recently, as SGML has become popular in Japan, we began the
+                            project to construct a new full-text database based on SGML<note n="4"
+                                >[4]Shoichiro HARA, Hisashi Yasunaga: <title level="a">SGML Markup
+                                    of Japanese Classical Text -A Case Study-</title>, <title
+                                    level="m">Joint International Conference ALLC/ACH Conference
+                                    Abstract</title>, pp.131-134,1996.</note> We used "the Anthology
+                            of Storiette" as a sample. This is the collection of the short stories
+                            of the citizen in "Edo" period and this text have been already
+                            transcribed by one of our co-worker in NIJL, and it is also marked up by
+                            KOKIN rules. This text has complex structures such as editorial
+                            corrections, side notes, Japanese rendering and so on. We conducted the
+                            following experiments of: <list>
+                                <item>1) Creating DTD for "the Anthology of Storiette."</item>
+                                <item>2) Converting the original data to the SGML data.</item>
+                                <item>3) Constructing the database system using a string searching
+                                    tool.</item>
+                                <item>4) Converting SGML data to LaTeX data and printing a
+                                    block-copy manuscript.</item>
+                            </list></p>
+                        <p>The tools used in this experiment were the same as for the above
+                            project.</p>
+                    </div>
+                    <!-- suspect following section should be numbered 2.4 -->
+                    <div>
+                        <head>2.3 Image Database for the Study of Japanese Classical
+                            Literature</head>
+                        <p>One of the main dissatisfactions sent from database users is that "the
+                            catalogue databases are undoubtedly useful to find the existence of
+                            materials, but accessing materials themselves is difficult for distant
+                            uses (especially for foreign users)." To respond to the request, we
+                            begin the new project of constructing the "Image Database for the Study
+                            of Japanese Classical Literature" receiving a grant-in-aid from the
+                            Ministry of Education, Science and Culture.</p>
+                        <p>This image data is derived from the microfilms of the "Holding
+                            Manuscripts and Printed Books on Japanese Classical Literature" as for
+                            getting around the copyright problems and for speedy construction. The
+                            image is sampled with 1 bit gray scale and 600 DPI resolution,
+                            compressed by G4 method, and stored in a TIFF format.</p>
+                        <p>The image database will be linked with the new catalogue database as
+                            mentioned above. Database users first consult the catalogue database to
+                            search for their objective material, then they will access its image
+                            data by following the link between two databases (this link is based on
+                            the call-number of the materials in both databases).</p>
+                        <p>We make an ingenious device in image data for linking both databases in
+                            opposite direction. That is, as we write the call-number of an original
+                            materials in each image data file (tag 0x10d of "Document Name" is used
+                            for this purpose), then a viewer program can access the corresponding
+                            catalogue information automatically by matching the call-number. Using
+                            this device, database users first glance at the image database to find
+                            an interesting material, then they will access its catalogue information
+                            following the link in the opposite direction.</p>
+                        <p>We will digitize about four hundred thousand frames of microfilms within
+                            1996. If the project progresses satisfactorily, we will finish
+                            digitizing all materials ( about one million frames of microfilms) in
+                            1998.</p>
+                    </div>
+                </div>
+                <!-- online abstract does not have a section 3 -->
+                <div>
+                    <head>4. A Digital Study System</head>
+                    <p>Above "On Going Projects" become on the right track. By the way, these
+                        systems are the systems for center functions such as to store and supply
+                        data, but not always for research support functions such as to analyze text.
+                        During few years experiment, we recognize the need of better and effective
+                        software tools. In the reviews of past information systems, we begin a
+                        software development. At present, the following software are under
+                        construction or in a draft stage.</p>
+                    <div>
+                        <head>4.1 Image Annotation Program</head>
+                        <p>This program allows researchers to attach annotations (by text) to a
+                            certain position and/or area on an image. This program is intended to
+                            support a transcription process of humanities researchers. If a
+                            researcher attaches some keywords or codes to images, he or she can
+                            access specific images by searching specific string in annotations
+                            attached to images. In the same way, a researcher can collect images on
+                            a specific subject. Furthermore, linking images of different materials
+                            is possible, for example, a researcher can compare a specific sentence
+                            between authentic text and its variants if he or she put same keywords
+                            or codes to several materials.</p>
+                        <p>Another use for this program might be image retrieval. As it stores a
+                            text with its associated coordinate on the image, calculating the
+                            locational relation of annotations is easy. Thus, if the appropriate
+                            annotations are attached to images, the image retrieval such as "the
+                            images of the mountain in the center of the images with lakes at the
+                            foot (under) of it" might be possible.</p>
+                    </div>
+                    <div>
+                        <head>4.2 Version Control Mechanism</head>
+                        <p>As mentioned in 2.3, we are compiling full text data. However, it is
+                            impossible to transcribe all materials by ourselves. One way for swiftly
+                            increasing of the amount of full texts is to gather full text data from
+                            the public. The problems pointed out to this way are quality control,
+                            difficulty of source identification, and so on.</p>
+                        <p>One solution to these problems is the version control mechanism, that is,
+                            the text data that passes the NIJL data systems must have a kind of
+                            "header" that includes the version information such as an original
+                            source, a reviser, a summary of revision and so on. The version control
+                            mechanism constructs the version tree to show the history of data
+                            development. By reviewing the history, users can assess the quality of
+                            the data.</p>
+                        <p>This mechanism is in planning level. We are considering to use the TEI
+                            header for this mechanism<note n="5">[5]C.M.Sperberg-McQueen, Lou
+                                Burnard: <title level="m">Guidelines for Electronic Text Encoding
+                                    and Interchange (TEI P3)</title>, 1994.</note></p>
+                    </div>
+                    <div>
+                        <head>4.3 Lexical Analyzer</head>
+                        <p>One of the main studies on text is vocabulary analysis, where attribute
+                            information such as inscription and reading should be added to each word
+                            to organize useful data. There are many convenient text analyzing tools
+                            for European languages. However, most of these tools cannot be
+                            applicable to Japanese text. As there are no spaces between words in
+                            Japanese sentences, words shall be written with space by manual to
+                            prepare for further analysis. Moreover, Japanese words have a
+                            word-forming characteristic to form compound words, which makes it
+                            difficult to separate a sentence into words automatically. And, as the
+                            style of a sentence is different from work to work, genre to genre, and
+                            period to period, thus methods of preparation, management and use of a
+                            vocabulary index are different. These make Japanese text difficult to
+                            introduce convenient text analysis tools such as TACT.</p>
+                        <p>Thus a lexical analyzer to divide the sentence into elements (words) is
+                            very important for Japanese text analysis. Recently, there are several
+                            large electronic dictionaries and some software tools to analyze
+                            vocabulary. We examine these tools to construct more useful lexical
+                            tools.</p>
+                    </div>
+                </div>
+                <div>
+                    <head>5. Conclusion</head>
+                    <p>NIJL is under reconstruction of databases using SGML to cope with the
+                        multimedia age. These reconstructions become on the right track. We begin a
+                        software development to support the individual research environment.</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

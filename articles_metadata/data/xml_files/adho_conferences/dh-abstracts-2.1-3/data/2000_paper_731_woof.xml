@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="paper">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Image Analysis as a Tool for Automating the Integration
+                    of Editorial Hypertext with Facsimile-based Digital Editions: the Experience of
+                    the Electronic Edition of Ruskin's <title level="m">Modern Painters
+                    I</title></title>
+                <author>
+                    <name>
+                        <forename type="first">Lawrence</forename>
+                        <surname>Woof</surname>
+                        <affiliation>
+                            <name type="org">Lancaster University</name>, UK <email/>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="2000">2000</date>
+                <publisher>
+                    <name>University of Glasgow</name>
+                </publisher>
+                <pubPlace>Glasgow</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ALLC/ACH 2000</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first">Jean</forename>
+                        <surname>Anderson</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Amal</forename>
+                        <surname>Chatterjee</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Christian</forename>
+                        <forename type="middle">J.</forename>
+                        <surname>Kay</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Margaret</forename>
+                        <surname>Scott</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item>Digital Resources</item>
+                        <item> </item>
+                        <item> </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <div>
+                    <head>Introduction</head>
+                    <p>Since 1997, the Ruskin Programme at Lancaster University have been exploring
+                        various technical options in order to create a facsimile-based edition of
+                        John Ruskin's <title level="m">Modern Painters</title> vol I. Editorially,
+                        we were above all interested in showing the history of the writing process
+                        and the context of the many revisions Ruskin made to this work over a twenty
+                        year period. We wanted to allow the user to choose, and toggle between, all
+                        the important editions of this work in facsimile, at the same time as
+                        bringing the editorial commentary to his or her attention. We wanted to do
+                        this in a way that did not impinge on the historical veracity of these
+                        facsimiles; we wished to find an unobtrusive way of displaying hyperlinks
+                        that did not result in a visually-compromised facsimile-based edition. At
+                        the same time the feature of central importance for any potential technical
+                        solution for our project was that it should allow us to automate the
+                        creation of this environment. There are around 500 pages in this work and as
+                        we are using five different editions (plus some manuscripts) there are over
+                        2,500 images of pages, all of which will need to display editorial
+                        information to the user. After looking into commercially-available software
+                        options, we decided that the best solution was to build our own tools. With
+                        the help of computer scientists, we have now designed a suite of tools that
+                        allow us to analyse images of text in a variety of ways. We are now in a
+                        position to automate the production of our edition. This paper details what
+                        we required of these tools, looks at how we went about creating them,
+                        demonstrates their use in a high-volume processing environment and finally
+                        suggests further potential developments that could come out of this
+                        research, such as the possibility of enhancing searches of digitised
+                        resources that use facsimile images, and the possibility of automating
+                        mark-up of spatial textual features, such as paragraphs, indented verse,
+                        footnotes etc..</p>
+                </div>
+                <div>
+                    <head>The Interface</head>
+                    <p>In order to preserve the authenticity of the facsimile texts, the interface
+                        that suited our needs was one that did not impose hypertext links directly
+                        onto these images, but rather placed the hyperlinks beside the text, on the
+                        right-hand side of the screen, parallel to the pertinent word or phrase.
+                        These editorial links are not displayed as text; rather, in the interests of
+                        concision, an icon indicates which type of hypertext note (e.g. whether it
+                        concerns People, Places or Works) is available to the user, with a
+                        'mouse-over' facility to display the title of the note should there be any
+                        uncertainty about the destination of these links (e.g. if there were more
+                        than one of a given category of note in a given line).</p>
+                </div>
+                <div>
+                    <head>Creation of Resources</head>
+                    <p>To adapt the facsimiles of the various editions of the printed book into this
+                        format, we needed three types of information: first, electronic versions of
+                        the texts containing mark-up indicating page and line breaks; second, the
+                        desired location and type of each note (which edition, page and line it
+                        belongs to) and which kind of note it is (e.g. People, Places or Works);
+                        finally we need to know the pixel co-ordinates of each individual line of
+                        text in each image (for 2,500 pages, that is around 100,000 sets of
+                        co-ordinates).</p>
+                </div>
+                <div>
+                    <head>The electronic text</head>
+                    <p>The electronic text is being produced by hand-checking OCR-generated versions
+                        of specific editions. A manually-generated collation of all editions is also
+                        being produced. This has been entered into a database, and this information
+                        is automatically compared with the various OCR-generated electronic
+                        versions. Mismatches between the various versions/collations and lists of
+                        note titles are then investigated and resolved manually.</p>
+                </div>
+                <div>
+                    <head>Note identification</head>
+                    <p>The identification of the location and type of hypertext links is achieved
+                        through codes associated with each note that contributors to the edition
+                        integrate into their submissions. These codes were established before any
+                        notes were written, but as the sequence of the notes is of importance within
+                        the automation process, we built into the code enough flexibility to allow
+                        us to add additional notes later while still maintaining the relationship
+                        between the linear succession of notes and the alphanumeric sequence of the
+                        codes.</p>
+                </div>
+                <div>
+                    <head>Locating the pixel references within the images</head>
+                    <p>We found Java the most suitable language for analysing images. First we wrote
+                        a program to straighten and crop the scans automatically. Once correctly
+                        aligned, the program then analyses the average colour values of horizontal
+                        lines of pixels to distinguish one line of text from the white space that
+                        follows it. The co-ordinates of each line of text are identified in this way
+                        and recorded in a database. Other procedures extend this paradigm.</p>
+                </div>
+                <div>
+                    <head>Constructing the interface</head>
+                    <p>The program loads in a page of facsimile, and ascertains whether there are
+                        any hyperlinking icons required for that page. By combining the information
+                        from the note identification codes and the electronic texts, the program can
+                        paste the appropriate icon(s) next to the appropriate lines of text and give
+                        them the desired functionality. A similar process allows context-specific
+                        information about collation to be pasted onto the right-hand side of the
+                        facsimile.</p>
+                </div>
+                <div>
+                    <head>Conclusions </head>
+                    <p>These tools are fairly flexible, and could be adapted to most printed
+                        material where appropriate (several projects have expressed an interest in
+                        utilising some of the tools we are developing). As this kind of procedure
+                        becomes increasingly straightforward, it can be envisaged that the pixel
+                        co-ordinates of any line (or word, or even letter) of a text could become a
+                        generally accepted aspect of mark-up for the digital scholarly edition
+                        (using the &lt;MILESTONE&gt; tag, for instance, and/or extended pointers).
+                        Certainly through automating and formalising the linking of the word to its
+                        original physical image, it will become possible to historicise electronic
+                        texts in an immediate and unambiguous way. Through integrating this analysis
+                        with mark up, we can facilitate a host of bibliographic analyses of texts
+                        that place 'traditional' modalities of scholarly work right at the centre of
+                        humanities computing.</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

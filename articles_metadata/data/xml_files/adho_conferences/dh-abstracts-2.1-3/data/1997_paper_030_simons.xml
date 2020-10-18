@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="paper">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Mapping from objects to markup: a springboard for
+                    multiple-strategy electronic publishing</title>
+                <author>
+                    <name>
+                        <forename type="first">Gary</forename>
+                        <forename type="middle">F.</forename>
+                        <surname>Simons</surname>
+                        <affiliation>
+                            <name type="org">Summer Institute of Linguistics</name>
+                            <email>gary.simons@sil.org</email>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="1997">1997</date>
+                <publisher>
+                    <name>Queen's University</name>
+                </publisher>
+                <pubPlace>Kingston, Ontario</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ACH/ALLC 1997</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name type="org">the secretarial staff in the Department of French Studies at
+                        Queen's University</name>
+                    <name>
+                        <forename type="first">Greg</forename>
+                        <surname>Lessard</surname>
+                    </name>
+                    <name>
+                        <forename type="first"/>
+                        <surname/>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item>object-oriented databases</item>
+                        <item>text markup</item>
+                        <item>electronic publishing</item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <div>
+                    <p>One of the challenges of electronic publishing is getting the information
+                        into the right format for the particular publishing strategy being pursued.
+                        Another is keeping up with the fast pace of change as new technologies are
+                        developed that offer more or better ways of electronically publishing
+                        information.</p>
+                    <p>This paper reports on the experience of the Summer Institute of Linguistics
+                        in developing electronic publishing solutions for its LinguaLinks product
+                        (SIL 1996). LinguaLinks is an electronic performance support system designed
+                        to assist field workers with a wide range of tasks related to language
+                        learning, language analysis, and language development.</p>
+                    <p>The paper first introduces the LinguaLinks model of performance support and
+                        CELLAR--the object-oriented database system that is used to implement it.
+                        Our approach to electronic publishing is to first build the information as a
+                        structure of objects in the database, and then to use multiple CELLAR
+                        stylesheets to map the information onto multiple markup schemes. The object
+                        database thus serves as a springboard that allows us to vault the
+                        information into any number of formats for publishing.</p>
+                    <p>The paper illustrates this approach to electronic publishing by focusing on
+                        one application area that LinguaLinks supports, namely, lexical database
+                        development. It first shows how the tutorial and reference documents that
+                        give help on how to build a dictionary are mapped onto different markup
+                        schemes for publication as a Folio Views infobase, a Windows help system,
+                        and an HTML Web document. It then shows how the dictionaries that are built
+                        by using LinguaLinks are mapped onto HTML markup to provide a display format
+                        on the Web and onto TEI markup to provide a richer format for information
+                        interchange and archiving.</p>
+                </div>
+                <div>
+                    <head>1. The LinguaLinks model of electronic performance support</head>
+                    <p>The notion of electronic performance support systems (Gery 1991) is one that
+                        is gaining momentum throughout industry. An EPSS seeks to support a
+                        knowledge worker in performing his or her job by providing an electronic
+                        working environment that integrates the software tools needed to do the job
+                        with the tutorial and reference materials that are needed to know how to do
+                        the job. This goes well beyond the typical help system of a software program
+                        to include not just information on how to use the program but also a library
+                        of background information on the problem domain.</p>
+                    <p>LinguaLinks is designed to support tasks in the domains of anthropology,
+                        language learning, linguistics, literacy, and sociolinguistics. Work
+                        continues to add more and more resources in subsequent versions of the
+                        product. In version 1.0, one of the areas that is most deeply developed is
+                        lexical database management. This component includes a data management tool
+                        that helps the user to build a lexical database and then to use the
+                        information in that database to produce dictionaries for publication.</p>
+                    <p>LinguaLinks takes advantage of the object-oriented paradigm to provide
+                        performance support that is tailored to what the user is trying to do. One
+                        of the hardest problems in offering electronic performance support is
+                        knowing just what the user is trying to do. For instance, if a word
+                        processing program were being used to write a dictionary, it would be very
+                        difficult to implement performance support that could sense the context
+                        within a dictionary entry and offer appropriate help. By building a
+                        dictionary in an object-oriented database, however, two kinds of performance
+                        support fall out naturally.</p>
+                    <p>First, the software developers have performed an object- oriented analysis
+                        (Coad and Yourdon 1991, Booch 1994) with domain experts in order to build
+                        the conceptual model for the database. The definitions of object classes
+                        (including their attributes) that make up this model provide performance
+                        support by guiding the user to create dictionary entries that are structured
+                        like ones the domain experts would have built; these definitions also
+                        prevent ill-formed entries from being constructed.</p>
+                    <p>Second, the software always knows what the user is working on by observing
+                        what object and attribute is currently selected or being editing. Thus if
+                        the etymology is being edited, the system knows to offer tutorial and
+                        reference material on how to write etymologies when the user asks for help.
+                        When the user switches focus to the part of speech, then the focus of help
+                        also switches to that aspect of dictionary making, and so on for all the
+                        parts of the conceptual model of a dictionary entry.</p>
+                    <p>Section 2 of the paper gives an overview of the object- oriented database
+                        system that is used to implement performance support in LinguaLinks. Section
+                        3 describes how the object database is used as a springboard to markup for
+                        electronic publishing. Section 4 then shows how the tutorial and reference
+                        materials are mapped into markup in order to support multiple strategies for
+                        providing performance support. Section 5 in turn shows how the dictionaries
+                        built by users can be mapped into markup for multiple publishing
+                        strategies.</p>
+                </div>
+                <div>
+                    <head>2. An overview of the CELLAR object-oriented database system</head>
+                    <p>The database system used to implement LinguaLinks is called CELLAR--for
+                        Computing Environment for Linguistic, Literary, and Anthropological
+                        Research. Developed by the Summer Institute of Linguistics, it is an
+                        object-oriented database system for storing multilingual textual
+                        information. A full discussion of the user requirements that motivated the
+                        development of the system is given in Simons 1996. Rettig, Simons, and
+                        Thomson (1993) discuss some of the significant ways in which CELLAR extends
+                        the traditional object model.</p>
+                    <p>An application in CELLAR is a declarative model of the problem domain. A
+                        complete domain model has the following four components:<list
+                            type="bulleted">
+                            <item><emph rend="italics">Conceptual model</emph>. Declares all the
+                                object classes in the problem domain and their attributes, including
+                                integrity constraints on attributes that store values and built-in
+                                queries on those that compute their values on-the-fly.</item>
+                            <item><emph rend="italics">Visual model</emph>. Declares one or more
+                                ways in which objects of each class can be formatted for display to
+                                the user.</item>
+                            <item><emph rend="italics">Encoding model</emph>. Declares one or more
+                                ways in which objects of each class can be encoded in plain text
+                                files so that users can import data from external sources or export
+                                them.</item>
+                            <item><emph rend="italics">Manipulation model</emph>. Declares one or
+                                more tools which translate the interactive gestures of the user into
+                                direct manipulation of objects in the knowledge base.</item>
+                        </list></p>
+                </div>
+                <div>
+                    <head>3. Using CELLAR as a springboard to electronic publishing markup</head>
+                    <p>The strategy for implementing multiple markup systems involves the visual
+                        modeling component of CELLAR. For the single conceptual model of the
+                        information, multiple visual models are defined. This approach has been
+                        illustrated in another paper (Simons, in press) where multiple ways of
+                        displaying tagged texts and critical texts are generated from the same
+                        underlying database.</p>
+                    <p>In this application, each visual model generates a display format that
+                        happens to be a markup scheme for a particular electronic publishing system.
+                        For each class of object, a view is defined that declares how the
+                        information in that object is to be mapped onto the display format. All of
+                        the views that cooperate to define a single visual model are collected
+                        together into a stylesheet.</p>
+                    <p>In this section, the full paper will present some source code examples that
+                        illustrate how the views can be made to map objects onto markup.</p>
+                </div>
+                <div>
+                    <head>4. Strategies for publishing helps on building dictionaries</head>
+                    <p>The tutorial and reference materials that provide performance support in
+                        LinguaLinks are objects in the underlying CELLAR database. One strategy we
+                        have followed for electronically publishing them is to present them in a
+                        view that looks like a conventional document. But this is just one strategy.
+                        We have followed three others as well:<list>
+                            <item>1. In order to make jumps to the helps virtually instantaneous, we
+                                have mapped them onto RTF markup and compiled them as a Windows help
+                                system.</item>
+                            <item>2. In order to offer full-text boolean search and retrieval access
+                                to the library of helps, we have mapped them onto Folio Flat File
+                                format and compiled them into a Folio Views infobase.</item>
+                            <item>3. In order to offer access to these helps on the World Wide Web,
+                                we have mapped them onto HTML markup.</item>
+                        </list></p>
+                    <p>In this section, the full paper will present examples (with markup and screen
+                        shots) of each of these.</p>
+                </div>
+                <div>
+                    <head>5. Strategies for publishing the resulting dictionaries</head>
+                    <p>Similarly, the lexical database that the user builds in LinguaLinks is a
+                        collection of objects in the underlying CELLAR database. One strategy for
+                        electronically publishing a dictionary is to deliver it as a CELLAR database
+                        with views that present it in conventional display formats. But this
+                        strategy will not reach a wide audience. We have thus implemented two other
+                        strategies as well:<list>
+                            <item>1. In order to produce a dictionary that can be read on the World
+                                Wide Web by any browser, we can map the objects onto HTML markup. </item>
+                            <item>2. In order to produce a dictionary data file that can be archived
+                                without any loss of structural information, we can map the objects
+                                onto the TEI markup for print dictionaries (Sperberg-McQueen and
+                                Burnard 1994).</item>
+                        </list></p>
+                    <p>In this section, the full paper will present examples (with markup and screen
+                        shots) of each of these.</p>
+                </div>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">Grady</forename>
+                                    <surname>Booch</surname>
+                                </name>
+                            </author>
+                            <title level="m">Object-oriented analysis and design with
+                                applications</title>
+                            <edition>2nd ed.</edition>
+                            <imprint>
+                                <pubPlace>Redwood City, CA</pubPlace>
+                                <publisher>Benjamin/Cummings Publishing Co</publisher>
+                                <date when="1994">1994</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">Peter</forename>
+                                    <surname>Coad</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">Edward</forename>
+                                    <surname>Yourdon</surname>
+                                </name>
+                            </author>
+                            <title level="m">Object-oriented analysis</title>
+                            <edition>2nd ed</edition>
+                            <imprint>
+                                <pubPlace>Englewood Cliffs, NJ</pubPlace>
+                                <publisher>Prentice-Hall, Inc.</publisher>
+                                <date when="1991">1991</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">Gloria</forename>
+                                    <forename type="middle">J.</forename>
+                                    <surname>Gery</surname>
+                                </name>
+                            </author>
+                            <title level="m">Electronic performance support systems</title>
+                            <imprint>
+                                <pubPlace>Boston</pubPlace>
+                                <publisher>Weingarten Publications</publisher>
+                                <date when="1991">1991</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">Marc</forename>
+                                    <surname>Rettig</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">Gary</forename>
+                                    <surname>Simons</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">John</forename>
+                                    <surname>Thomson</surname>
+                                </name>
+                            </author>
+                            <title level="a">Extended objects</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Communications of the ACM </title>
+                            <imprint>
+                                <biblScope type="vol">36</biblScope>
+                                <biblScope type="issue">8</biblScope>
+                                <biblScope type="pp">19-24</biblScope>
+                                <date when="1993">1993</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <monogr>
+                            <author>
+                                <name type="org">SIL</name>
+                            </author>
+                            <title>LinguaLinks: electronic helps for language field work</title>
+                            <edition>(Version 1.0). CD-ROM</edition>
+                            <imprint>
+                                <pubPlace>Dallas, TX</pubPlace>
+                                <publisher>Summer Institute of Linguistics</publisher>
+                                <date when="1996">1996</date>
+                            </imprint>
+                        </monogr>
+                        <note>See also <ptr target="http://www.sil.org/lingualinks"/></note>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">Gary</forename>
+                                    <forename type="middle">F.</forename>
+                                    <surname>Simons</surname>
+                                </name>
+                            </author>
+                            <title level="a">The nature of linguistic data and the requirements of a
+                                computing environment for linguistic research</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Dutch studies on Near Eastern languages and
+                                literatures</title>
+                            <imprint>
+                                <biblScope type="vol">2</biblScope>
+                                <biblScope type="issue">1</biblScope>
+                                <biblScope type="pp">111-128</biblScope>
+                                <date when="1996">1996</date>
+                            </imprint>
+                        </monogr>
+                        <note>Also to appear in John Lawler and Helen Dry (eds.), <title level="m"
+                                >Using computers in linguistics: a practical guide</title>.
+                            Routledge.</note>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">Gary</forename>
+                                    <forename type="middle">F.</forename>
+                                    <surname>Simons</surname>
+                                </name>
+                            </author>
+                            <title level="a">Conceptual modeling versus visual modeling: a
+                                technological key to building consensus</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Computers and the Humanities</title>
+                            <imprint>
+                                <biblScope type="vol"/>
+                                <biblScope type="issue"/>
+                                <biblScope type="pp"/>
+                                <date when="1996">1996</date>
+                            </imprint>
+                        </monogr>
+                        <note>In press.</note>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">C.</forename>
+                                    <forename type="first">M.</forename>
+                                    <surname>Sperberg-McQueen</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">Lou</forename>
+                                    <surname>Burnard</surname>
+                                </name>
+                            </author>
+                            <title level="m">Guidelines for electronic text encoding and
+                                interchange</title>
+                            <imprint>
+                                <pubPlace>Chicago and Oxford</pubPlace>
+                                <publisher>Text Encoding Initiative</publisher>
+                                <date when="1994">1994</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

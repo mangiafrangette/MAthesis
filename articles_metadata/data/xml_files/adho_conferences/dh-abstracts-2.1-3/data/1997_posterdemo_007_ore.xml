@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="poster/demo">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Wittgenstein's Nachlass - Bergen Electronic Edition
+                    (WN-BEE)</title>
+                <author>
+                    <name>
+                        <forename type="first">Espen</forename>
+                        <forename type="middle">S.</forename>
+                        <surname>Ore</surname>
+                        <affiliation>
+                            <name type="org">Norwegian Computing Centre for the Humanities
+                                (NCCH)</name>, <name type="org">University of Bergen</name>
+                            <email>Espen.Ore@hd.uib.no</email>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Claus</forename>
+                        <surname>Huitfeldt</surname>
+                        <affiliation>
+                            <name type="org">Wittgenstein Archives</name> at the <name type="org"
+                                >University of Bergen</name> (WAB)
+                                <email>Claus.Huitfeldt@hd.uib.no</email>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Øystein</forename>
+                        <surname>Reigem</surname>
+                        <affiliation>
+                            <name type="org">Norwegian Computing Centre for the Humanities
+                                (NCCH)</name>, <name type="org">University of Bergen</name>
+                            <email>Oystein.Reigem@hd.uib.no</email>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Franz</forename>
+                        <surname>Hespe</surname>
+                        <affiliation>
+                            <name type="org">Wittgenstein Archives</name> at the <name type="org"
+                                >University of Bergen</name> (WAB)
+                                <email>Franz.Hespe@hd.uib.no</email>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="1997">1997</date>
+                <publisher>
+                    <name>Queen's University</name>
+                </publisher>
+                <pubPlace>Kingston, Ontario</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ACH/ALLC 1997</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name type="org">the secretarial staff in the Department of French Studies at
+                        Queen's University</name>
+                    <name>
+                        <forename type="first">Greg</forename>
+                        <surname>Lessard</surname>
+                    </name>
+                    <name>
+                        <forename type="first"/>
+                        <surname/>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item>facsimile and transcription edition</item>
+                        <item>text encoding</item>
+                        <item>manuscript images</item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>Wittgenstein's Nachlass - some 20,000 pages - has been transcribed and encoded at
+                    the Wittgenstein Archives at the University of Bergen (WAB) since 1990. In the
+                    summer of 1997 the first volume of an electronic edition will be published by
+                    Oxford University Press. This edition is produced at the University of Bergen in
+                    a collaboration between WAB and the Norwegian Computing Centre for the
+                    Humanities (NCCH). The Nachlass will be published in 4 volumes with the last
+                    volume being published in 1999.</p>
+                <p>The production work needs to take into consideration:<list type="bulleted">
+                        <item>Production of photos</item>
+                        <item>Production of digitized images</item>
+                        <item>Choice of presentation software</item>
+                        <item>Preparation of the transcribed text</item>
+                        <item>Links between text and images</item>
+                    </list></p>
+                <p>The points listed above will build upon other considerations. The choice of
+                    presentation software has for instance dependeded upon a feature list for the
+                    finished product, availability and cost, compatibility with the existing
+                    transcriptions, etc. Similarly the choice of image formats and production
+                    techniques represents a compromise between the ideal and the feasible within the
+                    given deadlines and budgets.</p>
+                <p>In the poster presentation we will describe the choices that have been made and
+                    the reasons why. We will also describe the system architecture and the
+                    production methods. We will present the possibilities for the user which the
+                    architecture of the first volume gives, and finally we will describe the
+                    possibility for future architecure changes which are present in the system. This
+                    is important since we have no illusions that the technology easily available for
+                    making such a system today will be the best choice when the final volume is
+                    published in 1999.</p>
+                <p>In the software demonstration we will mainly show the product (or a final Beta,
+                    since the distribution package may not be available at the time of the
+                    conference), but we will also show some of the production tools and methods.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="paper">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Mapping 18th Century Structures of Knowledge: the
+                    Renvois System in Diderot's <title level="m">Encyclopédie</title></title>
+                <author>
+                    <name>
+                        <forename type="first">Gilles</forename>
+                        <surname>Blanchard</surname>
+                        <affiliation>
+                            <name type="org">Ecole Normale Supérieure</name>, France <email/>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Mark</forename>
+                        <surname>Olsen</surname>
+                        <affiliation>
+                            <name type="org">University of Chicago</name>, USA <email/>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="2000">2000</date>
+                <publisher>
+                    <name>University of Glasgow</name>
+                </publisher>
+                <pubPlace>Glasgow</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ALLC/ACH 2000</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first">Jean</forename>
+                        <surname>Anderson</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Amal</forename>
+                        <surname>Chatterjee</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Christian</forename>
+                        <forename type="middle">J.</forename>
+                        <surname>Kay</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Margaret</forename>
+                        <surname>Scott</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item>Computational / Corpus Linguistics</item>
+                        <item> </item>
+                        <item> </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>One of the crowning achievements of the 18th century Enlightenment was the <title
+                    level="m">Encyclopédie ou Dictionnaire raisonné des sciences, des arts et des
+                    métiers, par une Société de Gens de lettres</title>, edited by Diderot and
+                d'Alembert. Published in Paris between 1751 and 1772, in 17 volumes of text and 11
+                volumes of plates, it contains 74,000 articles written by more than 140
+                contributors. The <title level="m">Encyclopédie</title> was a massive reference work
+                for the arts and sciences, as well as a <emph rend="italics">machine de
+                    guerre</emph> which served to propagate Enlightened ideas. The impact of the
+                    <title level="m">Encyclopédie</title> was enormous. Through its attempt to
+                classify learning and to open all domains of human activity to its readers, the
+                    <title level="m">Encyclopédie</title> gave expression to many of the most
+                important intellectual and social developments of its time.</p>
+            <p>The scale and ambition of the <title level="m">Encyclopédie</title> inspired the
+                editors to adopt three modes of organization: dictionary, encyclopedic, and the
+                    <emph rend="italics">renvois</emph>. The interaction of these three modes has
+                led modern scholars to describe the <title level="m">Encyclopédie</title> as the
+                "ancestor of hypertext" and depict Diderot as "l'internaute d'hier"<note n="1">1.
+                    Brian, Eric (1998). "L'ancêtre de l'hypertexte". <title level="j">Les Cahiers de
+                        Science et Vie</title>, 47 (oct. 1998), pp.28-38. </note>. Diderot makes the
+                importance of the organization of knowledge explicit in the <title level="m"
+                    >Discours Preliminaire</title>:<cit rend="block">
+                    <quote>As an <emph rend="italics">Encyclopedia</emph>, it is to set forth the
+                        order and connection of the parts of human knowledge. As a <emph
+                            rend="italics">Reasoned Dictionary of the Sciences, Arts, and
+                            Trades</emph>, it is to contain the general principles that form the
+                        basis of each science and each art ... and the most essential facts that
+                        make up the body and substance of each.</quote>
+                    <bibl>
+                        <note n="2">2. English translation cited in Nelly Hoyt and Thomas Cassier,
+                            "Introduction" to <title level="m">Encyclopedia</title> (1965), p. xxiii
+                            (our emphasis). </note>
+                    </bibl>
+                </cit>
+            </p>
+            <p>Of the three modes of organization, the dictionary mode (organization of entries in
+                alphabetical order) is certainly the simplest. The second mode of organization is
+                encyclopedic, where each entry is assigned a "class of knowledge", placing it within
+                the "order" of human knowledge, as was described by d'Alembert's <title level="m"
+                    >Systême Figuré des connoissances humaines</title>. Reflecting Enlightenment
+                theories of epistemology, the tree of knowledge has a three-fold trunk comprised of
+                memory, reason, and imagination, from which spring many branches, twigs, and leaves
+                (Image of Pank's tree). Simply placing an entry into this hierarchy of knowledge was
+                insufficient to indicate the inter-connections of knowledge. Thus, Diderot created
+                an extensive system of <emph rend="italics">renvois</emph> (cross-references), the
+                third mode of organization, providing a lattice of inter-connections between
+                individual leaves of the tree as well as between classes of knowledge. The reader is
+                encouraged to follow the <emph rend="italics">renvois</emph>, which unite fields of
+                knowledge into what was hoped to be a seamless totality.</p>
+            <p>The ARTFL Project's creation of a computer implementation of the Enlightenment's "war
+                    machine"<note n="3">3. Andreev, Leonid et al (1999). "Re-engineering a War
+                    Machine: ARTFL's <title level="m">Encyclopédie</title>". <title level="j"
+                        >Literary and Linguistic Computing</title> Vol 14, No. 1 1999, pp.
+                    11-28.</note> has attempted to provide this three-fold access and navigation to
+                scholars and researchers. Furthermore, the electronic <title level="m"
+                    >Encyclopédie</title> provides a unique tool to study the interactions of these
+                three modes of organization of knowledge. Systematic examination of Diderot's
+                hypertext is important not only for the light it sheds on the function and
+                construction of the <title level="m">Encyclopédie</title> itself and the contours of
+                18th century knowledge, but may also be informative for modern conceptions of
+                hypertext.</p>
+            <p>The two first modes of organization (dictionary order and encyclopedic classification
+                of knowledge) can be envisioned directly by the reader of the <title level="m"
+                    >Encyclopédie</title>. The third, the structure of the <emph rend="italics"
+                    >renvois</emph>, is impossible to grasp as a whole because of its more diffuse
+                nature. The 61,700 individual <emph rend="italics">renvois</emph> are unevenly
+                distributed across the 74,000 articles of the <title level="m">Encyclopédie</title>,
+                reflecting the wide variation in size and scope of articles. 22,955 articles or
+                subarticles have one or more <emph rend="italics">renvois</emph>. As might be
+                expected, articles with <emph rend="italics">renvois</emph> are significantly longer
+                (568 words) than those without (158 words). The <emph rend="italics">renvois</emph>
+                simply refer to one or more articles by head word. Thus, these connections are what
+                might be termed leaf to leaf (or node to node), which allow the user to traverse
+                leaves, without regard to the classes of knowledge. As a reader, one can only see
+                the links stemming locally from a particular entry: much as someone hiking in a
+                chain of mountains, it is not possible to step back and get a general vision of the
+                whole landscape.</p>
+            <p>The online version of the <title level="m">Encyclopédie</title> allows us to draw a
+                very coarse first map of the links "landscape". Our methodology was to group the
+                entries into the classes of knowledge to which they belong and to measure the
+                strength of relationships of all of the <emph rend="italics">renvois</emph> between
+                these classes of knowledge using a simple Z-score calculation. The resulting graph
+                shows the statistically significant (or "privileged") links between classes of
+                knowledge. A given <emph rend="italics">renvois</emph> does not specify a precise
+                sense of the word we should look for, and for any given word one often finds several
+                distinct entries corresponding to different classes of knowledge (polysemy). There
+                is no automatic way to determine the "true" link initially intended by the author -
+                assuming that the author had a single sense in mind. However, a statistical study
+                taking into account several independant <emph rend="italics">renvois</emph> between
+                classes allows us to get a more reliable picture and to disregard insignificant
+                links.</p>
+            <p>The encyclopedic landscape shows some striking features. First, there is a high local
+                connectivity between close classes - in other words, there are several different
+                ways to go from "physique" to "géometrie", for example. Secondly we can see a clear
+                division of the links landscape into two "hemispheres", namely, knowledge related to
+                direct observation of nature (histoire naturelle), heuristic sciences (chimie,
+                médecine), rural life (économie rustique) on the one hand; and knowledge related to
+                or contructed by the human mind on the other (abstract sciences such as mathematics;
+                philosophy; history; laws of human society). Not surprisingly, the "human
+                hemisphere" is much more important than the "natural hemisphere" in terms of sheer
+                size.</p>
+            <p>The general structure of the <emph rend="italics">renvois</emph> can be related to
+                the encyclopedic order pictured in d'Alembert's <title level="m">Systême
+                    Figuré</title>. For example, mathematics, geometry, and arithmetic are closely
+                grouped in our landcape drawn from the <emph rend="italics">renvois</emph> and in
+                the encyclopedic order defined by d'Alembert. The two hemispheres detected in this
+                preliminary examination, however, do not clearly correspond to d'Alembert's general
+                schema. The power of the Encyclopédie's "hypertextuality" arises from the
+                combination of a general map of the structures of knowledge and the lattice of
+                related cross-references. Rather than conceive of the renvois as simply node to node
+                links, Diderot's hypertext assumes an abstract representation of knowledge. He
+                writes, in the <title level="m">Discours Préliminaire</title>,<cit rend="block">
+                    <quote>On a tâché que l'exactitude &amp; la fréquence des <emph rend="italics"
+                            >renvois</emph> ne laissât là - dessus rien à desirer; car les <emph
+                            rend="italics">renvois</emph> dans ce Dictionnaire ont cela de
+                        particulier, qu'ils servent principalement à indiquer la liaison des
+                        matieres; au lieu que dans les autres ouvrages de cette espece, ils ne sont
+                        destinés qu'à expliquer un article par un autre. [...] Ainsi trois choses
+                        forment l'ordre encyclopédique; le nom de la Science à laquelle l'article
+                        appartient; le rang de cette Science dans l'Arbre; la liaison de l'article
+                        avec d'autres dans la même Science ou dans une Science différente; liaison
+                        indiquée par les <emph rend="italics">renvois</emph>...</quote>
+                    <bibl>
+                        <note n="4">4. <title level="m">Encyclopédie</title>, Vol 1, p. xviii.
+                        </note>
+                    </bibl>
+                </cit></p>
+            <p>The key role that abstract representation of knowledge plays in the construction of
+                Diderot's hypertext may be particularly instructive for current hypertext designers.
+                In addition to node to node links, hypertext design may be enhanced by working
+                within the context of organizational framework such as Diderot's representation of
+                classes of knowledge.</p>
+        </body>
+    </text>
+</TEI>

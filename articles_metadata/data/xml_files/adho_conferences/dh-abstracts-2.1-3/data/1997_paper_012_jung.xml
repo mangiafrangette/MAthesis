@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="paper">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Compound Unit Recognition for Efficient English-Korean
+                    Translation</title>
+                <author>
+                    <name>
+                        <forename type="first">Hanmin</forename>
+                        <surname>Jung</surname>
+                        <affiliation>Machine Translation Laboratory, <name type="org">Systems
+                                Engineering Research Institute</name>, Korea
+                                <email>jhm@seri.re.kr</email>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Sanghwa</forename>
+                        <surname>Yuh</surname>
+                        <affiliation>Machine Translation Laboratory, <name type="org">Systems
+                                Engineering Research Institute</name>, Korea
+                                <email>shyuh@seri.re.kr</email>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Taewan</forename>
+                        <surname>Kim</surname>
+                        <affiliation>Machine Translation Laboratory, <name type="org">Systems
+                                Engineering Research Institute</name>, Korea
+                                <email>twkim@seri.re.kr</email>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Dong-In</forename>
+                        <surname>Park</surname>
+                        <affiliation>Machine Translation Laboratory, <name type="org">Systems
+                                Engineering Research Institute</name>, Korea
+                                <email>dipark@seri.re.kr</email>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="1997">1997</date>
+                <publisher>
+                    <name>Queen's University</name>
+                </publisher>
+                <pubPlace>Kingston, Ontario</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ACH/ALLC 1997</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name type="org">the secretarial staff in the Department of French Studies at Queen's University</name>
+                    <name>
+                        <forename type="first">Greg</forename>
+                        <surname>Lessard</surname>
+                    </name>
+                    <name>
+                        <forename type="first"/>
+                        <surname/>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item>compound unit</item>
+                        <item>divide-and-conquer</item>
+                        <item>machine translation</item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <div>
+                    <head>1. Introduction</head>
+                    <p>If morphologically analyzed sentences are directly parsed, a number of
+                        translation failures caused by the limitations of word-to-word translation
+                        may happen. The following show two sentences and their translations for this
+                        difficulty.</p>
+                    <p><eg>"He gave to his opinion." -> "Geu-neun geu-eui euigyeon-eul balpyo-hayeotda."</eg><lb/>
+                        <eg>"I don't think his work is up to much." -> "Na-neun geu-eui jakpoom-i
+                        daedan-chiantago saenggak-handa."</eg></p>
+                    <p>The underlined phrases cannot be directly translated only by their own
+                        meanings. We define compound unit(CU) as a bundle of words that is difficult
+                        to be directly translated or appear in the same form regardless of context.
+                        These units are necessary to recognized for more natural translation. But,
+                        previous work like [Bond95], [Lauer94] and [Li95] has interest only on one
+                        or two categories of the following. [SHYoon94] classifies CU into five categories.<list>
+                            <item>1. traditional metaphorical idioms: "kick the bucket" ->
+                                "jookda"</item>
+                            <item>2. typical word usage: "prevent ~ from -ing" -> "~ga -haneun
+                                geot-eul banghae-hada"</item>
+                            <item>3. compound words: "operating system" -> "oonyeong chaeje"</item>
+                            <item>4. lexical gaps: "by name" -> "jimyeong-hayeo"</item>
+                            <item>5. frozen expressions: "How are you?" -> "annyeonhaseyo?"</item>
+                        </list></p>
+                    <p>We add (6) phrasal verbs: "put on ~" -> "~eul ipda" in these categories.</p>
+                    <p>CU reduces the search space of parser by divide-and-conquer strategy and
+                        resolves some POS(part-of-speech) ambiguities [HGLee94]. It also brings down
+                        the loads of morphological/syntactic generation module by providing
+                        pre-defined natural translation. We use several mechanisms for more
+                        efficient recognition, for instance, (1) cooccurent constraint POS
+                        information, (2) cooccurent constraint string set, (3) verb type information
+                        and (4) pseudo syntactic tag. We also use syntactic tag for CU which has
+                        unclear bound. It makes for syntactic analyzer to parse with predictable
+                        top-down method.</p>
+                </div>
+                <div>
+                    <head>2. Terminology</head>
+                    <p>(1) Conjugation Tags: These tags represent various conjugation forms. VBD,
+                        VBG, VBN, VBP and VBZ are conjugation tags in [Marcus93]. If CU has the
+                        first constituent with one of the tags, the conjugation tag is used to
+                        represent the unit instead of pre-defined representative POS tag, which is
+                        in CU dictionary.</p>
+                    <p>(2) Verb Type Information: This information consists of two categories,
+                        action mode/position information and verb-modifee form information. Action
+                        mode/position information consists of seven types that represent the
+                        properties of verb, for example, T-type verb is transitive verb with an
+                        object. Verb-modifee form information restrains the constituents which are
+                        modified by current verb, for instance, 1-type is one or more nouns
+                        following verb. We use modified verb type information from [Longman83] and
+                        [GCKim92].</p>
+                    <p>(3) Variable Constituent and Fixed Constituent: We can find CU "keep ~ in ~
+                        mind" from the following sentence, "I kept the words in my mind yesterday".
+                        "keep", "in" and "mind" of the unit are fixed forms regardless of context.
+                        We define this kinds of words as fixed constituents. "the words" and "my"
+                        can be replaced with some other words by the context. These context
+                        sensitive words are defined as variable contituents.</p>
+                    <p>(4) Pseudo Syntactic Tag: Pseudo syntactic tag is zero or positive integer
+                        number for CUs and variable constituents. This tag implies the syntactic
+                        meaning that can be mapped to syntactic tag. For example, CU "keep ~ in ~
+                        mind" is converted into "keep *1#1 in *1#2 mind" as a dictionary entry. *1
+                        is pseudo syntactic tag for representing the unit, "#1" and "#2" for the two
+                        variable constituents. All pseudo syntactic tags are attached to the first
+                        word of corresponding unit or constituent. These forms make CUs with
+                        embedded structure represented with hierarchy. The following example is an
+                        embedded structure and its expression.</p>
+                    <p>
+                        <eg>[sentence]
+                            "Investors continued to pour into money funds"
+                        [CU]
+                        "continue to #1(VB)" -> *1, "pour into #1(NP)" -> *2, "money funds" -> *3
+                        
+                        [sentence with pseudo syntactic tags]
+                        "Investors continued(*1) to pour(*2, *1#1) into money(*3, *2#1) funds"
+                        {*n | n = 1, 2, 3, ...} is for CU, {#n | n = 0, 1, 2, ...} is for variable constituent</eg>
+                    </p>
+                </div>
+                <div>
+                    <head>3. System Structure</head>
+                    <p>Figure 1 shows the system structure of CU recognizer.</p>
+                    <figure/>
+                    <p>The search module of CU extracts all possible CUs for each word by
+                        referencing index. Index is the memory view of index dictionary that is a
+                        binary form of CU dictionary. POS attachment module gives representative POS
+                        tag to extracted CU. In the case that representative constituent(the first
+                        fixed constituent of CU) of the unit is verb or its conjugation, the module
+                        does not work. This alternative processing enables syntactic analyzer to use
+                        the original meaning of input context. Recognition result creation module
+                        draws translations from recognized units, and makes adequate data structures
+                        from the results.</p>
+                </div>
+                <div>
+                    <head>4. Compound Unit Dictionary</head>
+                    <p>The following shows the entry format of CU dictionary.</p>
+                    <p>
+                        <eg>(FFC FFCN
+                         CN
+                         ... {"FC" FCi} | {"VC" VCj CCSSF CCSSk CCPN {CCP | CCPSl} VMFC} ...
+                         RPTC
+                         APC
+                         TN
+                         ... {TCNi ... {Tij STN ... STk ...} ...} ...)</eg>
+                    </p>
+                    <table rows="22" cols="2">
+                        <head><emph rend="bold">Table 1. Acronym and its meaning on CU dictionary</emph></head>
+                        <row>
+                            <cell role="label">acronym</cell>
+                            <cell>meaning</cell>
+                        </row>
+                        <row>
+                            <cell>FFC:</cell>
+                            <cell>first fixed constituent</cell>
+                        </row>
+                        <row>
+                            <cell>CCP:</cell>
+                            <cell>cooccurent constraint POS</cell>
+                        </row>
+                        <row>
+                            <cell>FFCN:</cell>
+                            <cell>the number of first fixed constituents</cell>
+                        </row>
+                        <row>
+                            <cell>CCPSl:</cell>
+                            <cell>lth cooccurent constraint POS set</cell>
+                        </row>
+                        <row>
+                            <cell>CN:</cell>
+                            <cell>the number of constituents</cell>
+                        </row>
+                        <row>
+                            <cell>VMFC:</cell>
+                            <cell>verb-modifee form code</cell>
+                        </row>
+                        <row>
+                            <cell>"FC", "VC":</cell>
+                            <cell>constituent type identifier</cell>
+                        </row>
+                        <row>
+                            <cell>RPTC:</cell>
+                            <cell>representative POS tag code</cell>
+                        </row>
+                        <row>
+                            <cell>FCi:</cell>
+                            <cell>ith fixed constituent</cell>
+                        </row>
+                        <row>
+                            <cell>APC:</cell>
+                            <cell>action mode/position code</cell>
+                        </row>
+                        <row>
+                            <cell>VCj:</cell>
+                            <cell>jth variable constituent</cell>
+                        </row>
+                        <row>
+                            <cell>TN:</cell>
+                            <cell>the number of translations</cell>
+                        </row>
+                        <row>
+                            <cell>CCSSF:</cell>
+                            <cell>cooccurent constraint string set flag (0/1)</cell>
+                        </row>
+                        <row>
+                            <cell>TCNi:</cell>
+                            <cell>the number of ith translation constituents</cell>
+                        </row>
+                        <row>
+                            <cell>{}:</cell>
+                            <cell>virtual set</cell>
+                        </row>
+                        <row>
+                            <cell>Tij:</cell>
+                            <cell>jth translation constituent of ith translation</cell>
+                        </row>
+                        <row>
+                            <cell>|:</cell>
+                            <cell>selecting one alternative</cell>
+                        </row>
+                        <row>
+                            <cell>STN:</cell>
+                            <cell>the number of syntactic tags</cell>
+                        </row>
+                        <row>
+                            <cell>CCSSk:</cell>
+                            <cell>kth cooccurent constraint string set</cell>
+                        </row>
+                        <row>
+                            <cell>STk:</cell>
+                            <cell>kth syntactic tag</cell>
+                        </row>
+                        <row>
+                            <cell>CCPN:</cell>
+                            <cell>the number of cooccurent constraint POS (0/1/2)</cell>
+                        </row>
+                    </table>
+                    <p>CU dictionary consists of (1) CU search information, (2) CU information, (3)
+                        representative POS information, (4) action mode/position information and (5)
+                        translation information. CU search information has the fields for dictionary
+                        sorting and index file making. Since CU is designed for English, a word
+                        corresponds with a constituent. The contents of CU information vary with
+                        constituent type - fixed constituent or variable constituent. There is no
+                        information in case of fixed constituent. On the other hand, variable
+                        constituent has CU information. Since translation is designed for Korean, an
+                        eojeol(Korean word form) corresponds with a constituent. Figure 2 shows the
+                        information hierarchy of CU dictionary.</p>
+                    <figure/>
+                    <p>The following example is an entry of CU dictionary.</p>
+                    <p>
+                        <eg>[sentence]
+                            "I kept the words in my mind yesterday."
+                            
+                            [CU]
+                            "keep #1 in #2 mind"
+                            
+                            [entry of CU dictionary]
+                            (keep 1 // CU search information
+                            5
+                            FC keep // CU information
+                            VC #1 0 0 1
+                            FC in
+                            VC #2 0 2 one's 1
+                            FC mind
+                            VB // representative POS information
+                            D // action mode/position information
+                            1 // translation information
+                            4 #2 0 maeum-e 0 #1-eul 0 saegyeoduda 0)</eg>
+                    </p>
+                </div>
+                <div>
+                    <head>5. Compound Unit Search Algorithms</head>
+                    <p>The principle of CU search is "most-specific-expression-first" [SHYoon94].
+                        This means "fixed constituent first, variable constituent next" and "longer
+                        expression(CU) first", that is, the longest of successfully found
+                        expressions for a word is expected to be the best. It also implies that at
+                        most one expression can be extracted from each word in a sentence. Thus, the
+                        number of expressions is equal or less than that of words in a sentence.</p>
+                    <p>The "most-specific-expression-first" can be defined by "more-specific-than"
+                        relation >> as follows.</p>
+                    <p>
+                        <eg>fixed constituent >> variable constituent
+                            if a >> b iff a1 >> b1
+                            else if a1 = b1 then a >> b iff a2a3...an >> b2b3...bn recursively
+                            where a = a1a2a3...an and b = b1b2b3...bn</eg>
+                    </p>
+                    <p>CUs are searched on index. Index is the memory view of index dictionary that
+                        is made from CU dictionary. Its structure is modified trie in order to
+                        represent heterogeneous types(fixed constituent and variable constituent).
+                        Figure 3 shows the index structure on memory.</p>
+                    <figure/>
+                    <p>Index structure consists of (1) beginning index, (2) constituent index and
+                        (3) representative information index. Each element of beginning index is the
+                        first two characters from the first fixed constituent. Empirically, the case
+                        of using the first two characters instead of one reduces searched nodes
+                        about 20~80%. Constituent index is modified trie structure for representing
+                        the two kinds of constituents. We use "method" mechanism for the
+                        heterogeneous types. Control on a constituent node is moved by this
+                        "method". The following are "method" types and their action. <list>
+                            <item>1. DO_GO_CHILD: in case of exact matching for fixed constituent,
+                                go to child node </item>
+                            <item>2. DO_GO_SIBLING: in case of matching failure, go to sibling node </item>
+                            <item>3. DO_SKIP_TO_CHILD: in case of no-constraint variable
+                                constituent, skip to child node </item>
+                            <item>4. DO_SKIP_TO_NEXT_WORD: in case of matching failure after
+                                DO_SKIP_TO_CHILD, skip to next word </item>
+                        </list></p>
+                    <p>An entry of representative information index corresponds to a CU. The entry
+                        has common information for the unit - representative POS information, action
+                        mode/position information and translation information.</p>
+                    <p>
+                        <eg>"distinguish oneself" -> key("oneself") -> CCSS("oneself") = {myself,
+                            himself, themselves, ...}</eg>
+                    </p>
+                </div>
+                <div>
+                    <head>6. Experimental Results</head>
+                    <div>
+                        <head>6.1 Test Corpus</head>
+                        <p>Our test corpus is "Wall Street Journal" in Penn Treebank [Marcus93].
+                            1281 sentences are extracted and tested for experimentally analysis. CU
+                            dictionary has 1222 entries that are extracted manually for the 1281
+                            sentences. Average word number in a sentence is 15.4 with standard
+                            deviation of 3.7. The sentences have average path number of 157.2 with
+                            standard deviation of 391.5 by our tagger. This means the tagger makes
+                            about 157 paths for a sentence owing to POS ambiguities.</p>
+                    </div>
+                    <div>
+                        <head>6.2 Compound Unit Recognition</head>
+                        <p>A sentence of the test corpus has average 1.7 CUs. Representative POSs
+                            drawed from the corpus are VB(verb), NN(noun), IN(preposition),
+                            RB(adverb) and JJ(adjective). 63.19% of 170 found CUs is compound nouns,
+                            28.22% is phrasal verbs and 8.59% is for the others. Our system has
+                            95.88% for correct recognition. Table 2 shows the experimental results
+                            for the recognition.</p>
+                        <table rows="5" cols="2">
+                            <head><emph rend="bold">Table 2. Experimental results for CU recognition</emph></head>
+                            <row>
+                                <cell>extracted and tested sentences</cell>
+                                <cell>1281</cell>
+                            </row>
+                            <row>
+                                <cell>recognition rate</cell>
+                                <cell>95.88%</cell>
+                            </row>
+                            <row>
+                                <cell>unrecognition rate</cell>
+                                <cell>4.12%</cell>
+                            </row>
+                            <row>
+                                <cell>misrecognition rate</cell>
+                                <cell>1.76%</cell>
+                            </row>
+                            <row>
+                                <cell>the number of average segmentatio</cell>
+                                <cell>4.1 with 2.3 standard deviation</cell>
+                            </row>
+                        </table>
+                        <p>Most unrecognized CUs are caused by unexpected insertion of adverb or
+                            adverbial phrase. For example, "heavily" is inserted into CU "invest in"
+                            like "invest heavily in" (adverb insertion), and "at midnight Tuesday"
+                            into "drop to" like "drop at midnight Tuesday to" (adverbial phrase
+                            insertion). All these cases occur between verb and preposition. They can
+                            be removed by checking unexpected insertion for some specific positions
+                            during CU search.</p>
+                        <p>Misrecognized results are divided into two categories. One is sub-CU that
+                            is in other recognized CU like "as #1 as" in "twice as many as". The
+                            other is insufficiency of cooccurent constraint or syntactic tag
+                            information, for example, "take much to" is recognized "take #1 to". We
+                            expect that these two misrecognized problems can be resolved by boundary
+                            check and supplementation of information.</p>
+                        <p>The number of segmentation means that of split pieces for
+                            divide-and-conquer. The experimental results show the number is average
+                            4.1, that is, a sentence is normally divided into 4.1 pieces by our
+                            system. Divide-and-conquer can be obtained from parsing each piece and
+                            merging them.</p>
+                        <p>
+                            <eg>[sentence]
+                                "Despite recent declines in yields, investors continue to pour cash
+                                into money funds."
+                                
+                                [CU]
+                                "declines in", "continue to #1", "pour #1 into #2", "money funds" (4)
+                            
+                                [spaces for divide-and-conquer]
+                                Despite recent / declines in / yields / , investors / continue to pour / cash / into / money funds / . (9)</eg>
+                            <lb/>
+                        </p>
+                    </div>
+                    <div>
+                        <head>6.3 Compound Unit Search</head>
+                        <p>Figure 4 shows the ratio of "method" types used on index.</p>
+                        <figure/>
+                        <p>The average number of methods for a sentence is 9.5 for GO-CHILD, 117.4
+                            for GO-SIBLING, 0.9 for SKIP-TO-CHILD and 3.9 for SKIP-TO-NEXT-WORD.
+                            Currently, GO-SIBLINGs are much more than the other methods. This reason
+                            is from the structure of constituent index. It is modified trie which
+                            has several depths for searching a whole entry. Experimentally, the
+                            index has too breadthwisely spreaded siblings compared with children. We
+                            put this problem into one of future works.</p>
+                    </div>
+                </div>
+                <div>
+                    <head>7. Conclusion</head>
+                    <p>Our CU recognizer is designed to find the units of six categories. As the
+                        experimental results show the usefulness of our system, this approach is a
+                        promising method for high performance parser in view of parsing time and
+                        space. The following are the strong points of the system. <list>
+                            <item>1. Various CUs as well as restricted simple idioms or compound
+                                nouns are recognized.</item>
+                            <item>2. Parsing space is reduced by divide-and-conquer which can be
+                                obtained from combination with CU recognition.</item>
+                            <item>3. Cooccurent constraint POS information resolves some POS
+                                ambiguities.</item>
+                            <item>4. Cooccurent constraint POS/string set provides flexible
+                                recognition.</item>
+                            <item>5. Verb type information makes high performance parsing possible
+                                by means of restricted form information.</item>
+                            <item>6. Translation information including pseudo syntactic tags offer
+                                natural translation.</item>
+                            <item>7. Pseudo syntactic tags for both representative constituent and
+                                variable constituents make the processing of embedded structure
+                                possible.</item>
+                            <item>8. Syntactic tag in CU helps predictable top-down parsing in the
+                                case that it is impossible to determine the range of the
+                                unit.</item>
+                        </list></p>
+                    <p>We have several future works. First, enlarge type information for other POSs
+                        as well as verb. Second, apply more efficient structure and mechanism for CU
+                        search. Third, benchmark for the combination of CU recognizer and
+                        parser.</p>
+                </div>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <biblStruct n="[Bond95]">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">F.</forename>
+                                    <surname>Bond</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">K.</forename>
+                                    <surname>Ogura</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">T.</forename>
+                                    <surname>Kawaoka</surname>
+                                </name>
+                            </author>
+                            <title level="a">Noun Phrase Reference in Japan-to-English Machine
+                                Translation</title>
+                        </analytic>
+                        <monogr>
+                            <title level="m">Proceeding of TMI</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date when="1995">1995</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct n="[GCKim92]">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">G.</forename>
+                                    <forename type="middle">C.</forename>
+                                    <surname>Kim</surname>
+                                </name>
+                            </author>
+                            <title level="a">Research on English-to-Korean MT System(III):
+                                Development of Grammar Writing Tools and English Analysis
+                                Grammars</title>
+                        </analytic>
+                        <monogr>
+                            <title level="m">KAIST</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date when="1992">1992</date>
+                            </imprint>
+                        </monogr>
+                        <note>(Korean)</note>
+                    </biblStruct>
+                    <biblStruct n="[HGLee94]">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">H.</forename>
+                                    <forename type="middle">G.</forename>
+                                    <surname>Lee</surname>
+                                </name>
+                            </author>
+                            <title level="a">Recognition of Korean-English Bilingual Idioms using
+                                Idiom Dispersion Characteristics</title>
+                        </analytic>
+                        <monogr>
+                            <edition>Doctor's Thesis</edition>
+                            <imprint>
+                                <publisher>Seoul National University</publisher>
+                                <date when="1994">1994</date>
+                            </imprint>
+                        </monogr>
+                        <note>(Korean)</note>
+                    </biblStruct>
+                    <biblStruct n="[Lauer94]">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">M.</forename>
+                                    <surname>Lauer</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">M.</forename>
+                                    <surname>Dras</surname>
+                                </name>
+                            </author>
+                            <title level="a">A Probabilistic Model of Compound Nouns</title>
+                        </analytic>
+                        <monogr>
+                            <title level="m">Proceedings of the Seventh Joint Australian Conference
+                                on Artificial Intelligence</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date when="1994">1994</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct n="[Li95]">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">W.</forename>
+                                    <surname>Li</surname>
+                                </name>
+                            </author>
+                            <author><name>
+                                    <forename type="first">H.</forename>
+                                    <surname>Pan</surname>
+                                </name>, et al</author>
+                            <title level="a">Corpus-based Maximal-length Chinese Noun Phrase
+                                Extraction</title>
+                        </analytic>
+                        <monogr>
+                            <title level="m">Proceedings of NLPRS</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date when="1995">1995</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book" n="[Longman83]">
+                        <monogr>
+                            <title level="m">Longman Dictionary of Contemporary English</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher>Longman Dictionaries</publisher>
+                                <date when="1983">1983</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle" n="[Marcus93]">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">M.</forename>
+                                    <surname>Marcus</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">B.</forename>
+                                    <surname>Santorini</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">M.</forename>
+                                    <surname>Marcinkiewicz</surname>
+                                </name>
+                            </author>
+                            <title level="a">Building a Large Annotated Corpus of English: The Penn
+                                Treebank</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Computational Linguistics</title>
+                            <imprint>
+                                <biblScope type="vol">19</biblScope>
+                                <biblScope type="issue"/>
+                                <biblScope type="pp"/>
+                                <date when="1993">1993</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

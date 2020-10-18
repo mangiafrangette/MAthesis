@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="paper">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Hand-to-Hand Wrestling with Small Linguistic
+                    Corpora</title>
+                <author>
+                    <name>
+                        <forename type="first">Arienne</forename>
+                        <forename type="middle">M.</forename>
+                        <surname>Dwyer</surname>
+                        <affiliation>
+                            <name type="org">Universität Mainz</name>
+                            <email>dwyer@goofy.zdv.uni-mainz.de</email>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="1997">1997</date>
+                <publisher>
+                    <name>Queen's University</name>
+                </publisher>
+                <pubPlace>Kingston, Ontario</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ACH/ALLC 1997</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name type="org">the secretarial staff in the Department of French Studies at
+                        Queen's University</name>
+                    <name>
+                        <forename type="first">Greg</forename>
+                        <surname>Lessard</surname>
+                    </name>
+                    <name>
+                        <forename type="first"/>
+                        <surname/>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item>linguistic corpora</item>
+                        <item>encoding</item>
+                        <item>databases </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <div>
+                    <head>Overview</head>
+                    <p>This is a description of a small corpus linguistics project from start to
+                        (well, nearly) finish, undertaken entirely by one not particularly
+                        computationally-adept linguist. I focus not just on the end results, but
+                        also on the various options and obstacles encountered at each stage of the
+                        project. As such it illustrates in a nutshell the strengths and weaknesses
+                        of some of the current data- and text-management methodologies and tools for
+                        non-specialists. It also may provide a useful model for other linguists and
+                        linguistic anthropologists facing similar issues.</p>
+                    <p>With such an illustrative example I hope to (1) show that a <emph
+                            rend="italics">properly constrained</emph> corpus linguistics project
+                        does not necessarily have to have a huge team of computer scientists to be
+                        realized. I also hope to initiate a discussion which (2) looks at ways of
+                        bridging the gap between information specialists and information
+                        gatherers/analyzers, and which also (3) looks at ways of making linguistic
+                        computing applications and methodologies more accessible to non-(computing)
+                        specialists.</p>
+                </div>
+                <div>
+                    <head>Introduction</head>
+                    <p>Much of academic work has become specialized to the point where one person
+                        collects the data (a field worker or a text historian), another processes it
+                        (an information/data specialist), and still another consumes it (other
+                        academics). In general, field workers or textual scholars know little about
+                        computing, while data specialists know little about the significance of the
+                        data. The two are, however, interdependent: the data specialist depends on
+                        the scholar to do all the analytical markup, and the linguist/text scholar
+                        depends on the data specialist to make the data consistent, accessible, and
+                        manipulable.</p>
+                    <p>As a data gatherer and analyzer, I want my materials in a variety of formats,
+                        to be accessible to people in a variety of fields (e.g. linguistic
+                        anthropology, folklore, history), as well as to the speakers of the
+                        language. Secure long-term storage of the data is also crucial. This paper,
+                        then, follows the trail of one linguist bumbling through the thickets of
+                        text encoding and relational database management.</p>
+                </div>
+                <div>
+                    <head>An Example of a Small Linguistic Corpus: The Salar Project</head>
+                    <p>Salar is an unwritten Turkic language spoken primarily in northern Tibet. The
+                        corpus of ca. 40,000 words consists of transcriptions of field recordings of
+                        a variety of spoken language forms: conversations, stories, speeches, and
+                        ballads.</p>
+                    <p>The aims of the project were: (1) to archive such examples of language use as
+                        separate texts; (2) put the data in a queryable format (e.g., a database) to
+                        extract linguistic information; (3) to design a dictionary with an
+                        electronic interface, based on this queryable format; and (4) to write a
+                        usage-based grammar of the language, based on examples pulled out of the
+                        data.</p>
+                    <p>Linguistic analysis, here broadly conceived, includes not only phonological,
+                        morphological, and grammatical analysis, but also sociolinguistic analyses
+                        as well. It aims above all to examine the usage of language on the basis of
+                        spoken discourse (rather than on an idealized or standardized language), in
+                        order to reveal the patterns or schemata by which speakers construct
+                            language.<note n="1">Michael Barlow (1996), <title level="a">Corpora for
+                                Theory and Practice</title> (<title level="j">International Journal
+                                of Corpus Linguistics</title> 1.1:1-37; Paul J. Hopper (1987),
+                                <title level="a">Emergent Grammar</title> (<title level="m">Berkeley
+                                Linguistics Conference</title> 13:139-157.</note></p>
+                    <p>Linguistic markup requirements include phonological features (phonemes in the
+                        International Phonetic Alphabet (IPA), secondary articulations
+                        (preaspiration, devoicing, epenthesis), prosodic features (stress,
+                        intonation contours, length of pauses), morphosyntactic features
+                        (derivational suffixation, cliticization, government, etc.), and
+                        etymological features. Metalinguistic markup requirements include a
+                        reference number, title, speaker(s) (with cross-references to speaker age,
+                        gender, education level), recording date, locale, and any mid-text switch of
+                        speakers.</p>
+                </div>
+                <div>
+                    <head>Issues</head>
+                    <p>Linguistic corpora from unwritten languages present a different set of
+                        problems from a typical legacy text analysis project. There is much more
+                        information packed into an audio recording of speech than there is in a
+                        written text. Recordings can be transcribed and re-transcribed into text in
+                        a variety of ways based on the interests of the transcriber. But once the
+                        transcriptions are encoded as primary data in a corpus, they take on an
+                        almost unjustified permanence.</p>
+                    <p>Some Central Asian epics, including those of the Salars, feature a
+                        nine-headed monster called a <emph rend="italics">Mangus</emph>. When
+                        wrestling with a linguistic corpus, the core issues[AMD1] of data
+                        representation, text encoding, and text searching often raise their fearsome
+                        heads before the unwary field linguist. Each of these is discussed in turn
+                        with examples drawn from the Salar project:</p>
+                </div>
+                <div>
+                    <head>Data representation</head>
+                    <p>Consists of self-designed International Phonetic Alphabet fonts, mapped
+                        according to Unicode mapping tables (<title level="m">The Unicode
+                            Standard</title>, v.1, v.2, The Unicode Consortium). </p>
+                </div>
+                <div>
+                    <head>Text encoding</head>
+                    <p>Based on TEI-conformant SGML (The Text Encoding Initiative, P3). I weigh its
+                        advantages and disadvantages, including, for example, the large amounts of
+                        metatextual information required in the header of such a spoken text (e.g.
+                        speaker, locale, and recording information).</p>
+                </div>
+                <div>
+                    <head>Text Searching</head>
+                    <p>Two approaches are demonstrated and assessed here: (1) text is chunked into a
+                        sample Foxprow relational database with a dictionary-like queryable front
+                        end[2]; (2) text files marked up in SGML are queried via the MULTEXT
+                        Project's query language interpreter MtSgmlQL (CNRS et al. 1996, cf. <ptr
+                            target="http://www.lpl.univ-aix.fr/projects/multext/mql1.html"/>).</p>
+                    <p>I compare the range of queries possible in both formats, as well as their
+                        ease of use. In demonstrating the two approaches, I discuss certain
+                        (linguistic) problems: the concordance (or linking, in the database) of
+                        several transcription-versions of the text to each other, and to
+                        multilingual free translations of the texts (here, in English and Chinese).
+                        With regard to the database approach, I discuss whether the average
+                        non-computer specialist can make do with general purpose off- the-shelf
+                        database software such as Foxprow or Access, or whether an investment in
+                        CELLAR (Summer Institute of Linguistics, 996) is preferable.</p>
+                </div>
+                <div>
+                    <head>Conclusions</head>
+                    <list>
+                        <item>1. The above example of the Salar corpora suggests that it is
+                            necessary to store and present such linguistic (and/or
+                            anthropological/folkoristic) data in a variety of formats. The
+                            queryable-SGML file and/or the SGML- based database is one prototype
+                            data-analysis/management system for other linguistic corpora.</item>
+                        <item>2. Departments with doctoral programs in linguistic anthropology and
+                            linguistics would do well to (1) offer a specific computing course
+                            tailored to the needs of linguists, perhaps in conjunction with the
+                            university's humanities computing center or computer science department;
+                            and (2) require its (post-)graduate students to undertake a very small
+                            sample project (e.g. with a collection of ten utterances) using
+                            humanities computing tools.</item>
+                        <item>3. Individual scholars need more training opportunities in humanities
+                            computing; we need more, and more varied, specialized courses such as
+                            the excellent CETH seminar. (The latter unfortunately lacks a corpus
+                            linguistics track.)</item>
+                        <item>4. Individual scholars need to forge connections with data specialists
+                            to learn methodologies and tools specific to their project. This will
+                            improve the quality of the project itself and contribute to the
+                            development of better tools and methods (or at l east the refinement of
+                            existing ones). (One of the reasons data-gatherers-and-analyzers
+                            (scholars) are rarely motivated to stand shoulder-to-shoulder with data
+                            specialists and seize the proverbial means of production is of course
+                            due to the current tenure system, which at present usually declines to
+                            recognize work in electronic form as legitimate publications.)</item>
+                    </list>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

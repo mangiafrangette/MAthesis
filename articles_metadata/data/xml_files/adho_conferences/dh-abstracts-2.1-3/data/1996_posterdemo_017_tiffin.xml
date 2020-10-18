@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="poster/demo">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">The Academy Electronic Editions of Australian
+                    Literature</title>
+                <author>
+                    <name>
+                        <forename type="first">Chris</forename>
+                        <surname>Tiffin</surname>
+                        <affiliation>English Department, <name type="org">Australian Defence Force
+                                Academy</name>
+                            <email>c.tiffin@mailbox.uq.oz.au </email>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Paul</forename>
+                        <surname>Eggert</surname>
+                        <affiliation>English Department, <name type="org">Australian Defence Force
+                                Academy</name>
+                            <email/>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Graham</forename>
+                        <surname>Barwell</surname>
+                        <affiliation>English Department, <name type="org">University of
+                                Wollongong</name>
+                            <email/>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="1996">1996</date>
+                <publisher>
+                    <name>University of Bergen</name>
+                </publisher>
+                <pubPlace>Bergen, Norway</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ALLC/ACH 1996</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first">Anne</forename>
+                        <surname>Lindebjerg</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Espen</forename>
+                        <forename type="middle">S.</forename>
+                        <surname>Ore</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Øystein</forename>
+                        <surname>Reigem</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item>scholarly editing</item>
+                        <item>electronic books</item>
+                        <item>TEI-SGML applications</item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>The Academy Editions of Australian Literature based in Canberra, Australia, are a
+                    series of classic Australian texts made available in electronic form for the
+                    literary scholar.</p>
+                <p>The Editions assume a conservative model of reading - that the texts were
+                    intended to be read sequentially, and are still most successfully read in that
+                    way. We do not believe that by encoding the texts electronically we are
+                    developing fundamentally new methods of cognition, erasing Gutenberg, or
+                    establishing world peace and democracy in the late capitalist era.</p>
+                <p>However, electronic presentation offers the scholar powerful opportunities for
+                    circumventing the limitations of the unitary version, and the Academy Electronic
+                    Editions allow the juxtaposition of all lifetime states of the text in both
+                    searchable text and digitized image forms as well as a critically-edited
+                    version.</p>
+                <p>Electronic format also allows the presentation of a large range of secondary
+                    material from explanatory notes, maps, and contemporary book reviews to modern
+                    stage and film adaptations, and the AEEs exploit this ability to store and
+                    navigate compendious archival material. The pilot of this collaborative project
+                    has taken two texts, one a single version manuscript journal and the other a
+                    multi-version novel with major variation between the versions to identify and
+                    solve the theoretical and practical problems in encoding the versions with
+                    TEI-SGML for display, mapping them to digitized images, and developing a working
+                    electronic book of a section of each text.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
