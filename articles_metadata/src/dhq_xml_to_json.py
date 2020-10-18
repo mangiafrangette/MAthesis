@@ -6,57 +6,87 @@ from django.utils.html import strip_tags
 import re
 import os
 
+# Removes all unnecessary elements from within relevant elements but keep content
+def remove_tags(tree, paths_dict):
+    for value in paths_dict.values():
+        etree.strip_tags(tree.find(value), '*')
+    return tree
+
+# Get string value from elements 
+def get_string_dict(tree, paths_dict):
+    strings_dict = dict()
+    for key, value in paths_dict.items():
+        strings_dict[key] = tree.find(value).text
+    return strings_dict
+
+
+# Removes spaces from a string
 def remove_spaces(string):
-    cleaned_string = re.sub(r'\n\s+', ' ', string)
-    return cleaned_string
+    return re.sub(r'\n\s+', ' ', string)
+      
 
 def xml_to_json(file):
-    
+
+    parser = etree.XMLParser(remove_comments=True)
     # Parse the xml file so that it can be manipulated
-    parsed_xml = etree.parse(file)
+    parsed_xml = etree.parse(file, parser=parser) 
     
-    # Remove in-tag elements that are unnecessary 
-    etree.strip_tags(parsed_xml,
-    '{http://www.tei-c.org/ns/1.0}emph',
-    '{http://www.tei-c.org/ns/1.0}p',
-    '{http://www.digitalhumanities.org/ns/dhq}@rend',
-    '{http://www.digitalhumanities.org/ns/dhq}#text',
-    '{http://www.digitalhumanities.org/ns/dhq}q'
-    '{http://www.tei-c.org/ns/1.0}title[@rend="quotes"]')
-      
-    # Access the nodes with relevant data and take the textual string only
-    # Data is wrapped into a function to clean text from unnecessary characters
-    abstract = remove_spaces(parsed_xml.find('.//{http://www.digitalhumanities.org/ns/dhq}abstract').text)
-    print(parsed_xml.find('.//{http://www.digitalhumanities.org/ns/dhq}abstract').text)
-    
-    title = remove_spaces(parsed_xml.find('.//{http://www.tei-c.org/ns/1.0}title').text)
-    authors_list = parsed_xml.findall('.//{http://www.digitalhumanities.org/ns/dhq}authorInfo')
-    
-    authors = [{
-        'given': remove_spaces(author.find('.//{http://www.digitalhumanities.org/ns/dhq}author_name').text),
-        'family' : remove_spaces(author.find('.//{http://www.digitalhumanities.org/ns/dhq}family').text),
-        'affiliation' : [remove_spaces(author.find('.//{http://www.digitalhumanities.org/ns/dhq}affiliation').text)]
+    # Define path of elements of interest
+    abstract_path = './/{http://www.digitalhumanities.org/ns/dhq}abstract'
+    title_path = './/{http://www.tei-c.org/ns/1.0}title'
+    authors_path = './/{http://www.digitalhumanities.org/ns/dhq}authorInfo'
+    author_name = './/{http://www.digitalhumanities.org/ns/dhq}author_name'
+    author_family = './/{http://www.digitalhumanities.org/ns/dhq}family'
+    author_affiliation = './/{http://www.digitalhumanities.org/ns/dhq}affiliation'
+    date_path = './/{http://www.tei-c.org/ns/1.0}date'
+    # publisher_path = './/{http://www.digitalhumanities.org/ns/dhq}family'
+    volume_path = './/{http://www.tei-c.org/ns/1.0}idno[@type="volume"]'
+    issue_path = './/{http://www.tei-c.org/ns/1.0}idno[@type="issue"]'
+    # keywords_path = './/{http://www.tei-c.org/ns/1.0}keywords[@scheme="#authorial_keywords"]'
+    # keywords = [keyword.text for keyword in keywords_list]
+    # print(etree.tostring(parsed_xml.find(author_family)))
+
+    # Create list with path of elements (to be cleaned and added to final json)
+    paths_dict = {
+        'abstract': abstract_path,
+        'title': title_path, 
+        #'date': date_path,
+        # 'publisher': publisher_path,
+        #'volume': volume_path,
+        #'issue': issue_path
         }
-        for author in authors_list
+
+    # Call function to remove tags 
+    cleaned_tree = remove_tags(parsed_xml, paths_dict)
+
+    # Create dictionary with strings
+    strings_dict = get_string_dict(cleaned_tree, paths_dict)
+    
+    # Remove spaces from most elements
+    for key, value in strings_dict.items():
+        print(key)
+        strings_dict[key] = remove_spaces(value)
+
+    # Authors information shouldnt need to be cleaned 
+    author_elements = parsed_xml.findall(authors_path)
+    authors_list = [
+        {
+        'given': author.find(author_name).text,
+        'family' : [len(author.findall(author_family)),[family.text for family in author.findall(author_family)]],
+        'affiliation' : [affiliation.text for affiliation in author.findall(author_affiliation)]
+        }
+        for author in author_elements
         ]
-#   publisher = remove_spaces(parsed_xml.find('.//{http://www.digitalhumanities.org/ns/dhq}family').text)
-    date = parsed_xml.find('.//{http://www.tei-c.org/ns/1.0}date').text
-    keywords_list = parsed_xml.find('.//{http://www.tei-c.org/ns/1.0}keywords//*')
-    keywords = [keyword.text for keyword in keywords_list]
-    volume = remove_spaces(parsed_xml.find('.//{http://www.tei-c.org/ns/1.0}idno[@type="volume"]').text)
-    issue = remove_spaces(parsed_xml.find('.//{http://www.tei-c.org/ns/1.0}idno[@type="issue"]').text)
+
 
     # Create python dict and append metadata text following my schema
     python_dict = dict()
-    python_dict['abstract'] = abstract
-    python_dict['title'] = title
-    python_dict['authors'] = authors
+    for key, value in strings_dict.items():
+        python_dict[key] = strings_dict[key]
+    python_dict['authors'] = authors_list
 #   python_dict['publisher'] = 
-    python_dict['date'] = date
-    python_dict['keywords'] = keywords
+    # python_dict['keywords'] = keywords
     python_dict['journal_title'] = "Digital Humanities Quarterly"
-    python_dict['volume'] = volume
-    python_dict['issue'] = issue
     python_dict['ISSN'] = "1938-4122"
 
     return(python_dict)
@@ -80,115 +110,3 @@ def write_new_json():
         fd.write("]")
 
 write_new_json()
-
-# old codes
-"""     # Transform the etree object into an xml string
-    string_xml = etree.tostring(parsed_xml, encoding='unicode', method='xml')
-    # Remove extra spaces
-    string_xml = re.sub(r'\n\s+', ' ', string_xml) 
-    # Transform the xml string to a python dictionary
-    xml_to_dict = xmltodict.parse(string_xml)
-    # Create the json file
-    json_data = json.dumps(xml_to_dict)
-    with open(f"../data/{file}.json", "w", encoding="utf-8") as json_file:
-        json_file.write(json_data)
-
-#List of all the xml files to pass to the function
-path = '../data/xml_files'
-folder = os.fsencode(path)
-filenames = []
-for file in os.listdir(folder):
-    filename = os.fsdecode(file)
-    if filename.endswith('.xml'): # whatever file types you're using...
-        filenames.append(filename)
-
-print(filenames)
-for file_xml in filenames: 
-    xml_to_json(f'{path}/{file_xml}') """
-
-""" # creation of a new xml
-root = ET.Element("root")
-ET.SubElement(root, string_abstract)
-ET.SubElement(root, string_title)
-#string the new xml
-tree = ET.ElementTree(root)
-tree.write("../data/xml_files/dhq_updated_data.xml") """
-""" string_new_xml = etree.tostring(tree, encoding='unicode', method='xml')
-with open("../data/xml_files/dhq_updated_data.xml", "w") as new_xml:
-    new_xml.write(string_new_xml) """
-
-"""
-import json
-import xmltodict
-from lxml import etree
-import xml.etree.ElementTree as ET
-from django.utils.html import strip_tags
-import re
-
-def xml_to_json(file):
-    # Parse the xml file so that it can be manipulated
-    parsed_xml = etree.parse(file)
-    # Remove in-tag elements that are unnecessary 
-    etree.strip_tags(parsed_xml,'{http://www.tei-c.org/ns/1.0}emph', '{http://www.tei-c.org/ns/1.0}p')
-    # Transform the etree object into an xml string
-    string_xml = etree.tostring(parsed_xml, encoding='unicode', method='xml')
-    # Remove extra spaces
-    string_xml = re.sub(r'\n\s+', ' ', string_xml)
-    # Transform the xml string to a python dictionary
-    xml_to_dict = xmltodict.parse(string_xml)
-    # Create the json file
-    json_data = json.dumps(xml_to_dict)
-    with open("../data/dhq.json", "w", encoding="utf-8") as json_file:
-        json_file.write(json_data)
-
-xml_to_json("../data/xml_files/000436.xml")
-    """
-
-"""
-import json
-import xmltodict
-from lxml import etree
-import xml.etree.ElementTree as ET
-from django.utils.html import strip_tags
-import re
-import os
-
-def xml_to_json(file):
-    # Parse the xml file so that it can be manipulated
-    parsed_xml = etree.parse(file)
-    # Remove in-tag elements that are unnecessary 
-    etree.strip_tags(parsed_xml,
-    '{http://www.tei-c.org/ns/1.0}emph', 
-    '{http://www.tei-c.org/ns/1.0}p', 
-    '{http://www.digitalhumanities.org/ns/dhq}@rend', 
-    '{http://www.digitalhumanities.org/ns/dhq}#text')
-    print(type(parsed_xml))
-#    abstract = parsed_xml.find('.//{http://www.digitalhumanities.org/ns/dhq}abstract')
-#    title = parsed_xml.find('.//{http://www.tei-c.org/ns/1.0}title')
-#    authors = parsed_xml.findall('.//{http://www.digitalhumanities.org/ns/dhq}authorInfo')
-#    print(abstract, title, authors)
-
-    # Transform the etree object into an xml string
-    string_xml = etree.tostring(parsed_xml, encoding='unicode', method='xml')
-    # Remove extra spaces
-    string_xml = re.sub(r'\n\s+', ' ', string_xml)
-    # Transform the xml string to a python dictionary
-    xml_to_dict = xmltodict.parse(string_xml)
-    # Create the json file
-    json_data = json.dumps(xml_to_dict)
-    with open(f"../data/{file}.json", "w", encoding="utf-8") as json_file:
-        json_file.write(json_data)
-
-#List of all the xml files to pass to the function
-path = '../data/xml_files'
-folder = os.fsencode(path)
-filenames = []
-for file in os.listdir(folder):
-    filename = os.fsdecode(file)
-    if filename.endswith('.xml'): # whatever file types you're using...
-        filenames.append(filename)
-
-print(filenames)
-for file_xml in filenames: 
-    xml_to_json(f'{path}/{file_xml}')
-"""
