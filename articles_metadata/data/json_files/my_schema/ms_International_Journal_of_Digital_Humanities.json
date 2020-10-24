@@ -5,7 +5,7 @@
             "string_id": "10.1007/s42803-019-00025-5",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": "<p>The paper describes the special interest among historians in scholarly editing and the resulting editorial practice in contrast to the methods applied by pure philological textual criticism. The interest in historical ‘facts’ suggests methods the goal of which is to create formal representations of the information conveyed by the text in structured databases. This can be achieved with RDF representations of statements extracted from the text, by automatic information extraction methods, or by hand. The paper suggests the use of embedded RDF representations in TEI markup, following the practice in several recent projects, and it concludes with a proposal for a definition of the ‘assertive edition’.</p>",
         "article_title": "The ‘assertive edition’",
         "authors": [
             {
@@ -38,7 +38,7 @@
             "string_id": "10.1007/s42803-019-00023-7",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": "<p>The article presents a model for annotating textual variants. The annotations made can be queried in order to analyse and find patterns in textual variation. The model is flexible, allowing scholars to set the boundaries of the readings, to nest or concatenate variation sites, and to annotate each pair of readings; furthermore, it organizes the characteristics of the variants in features of the readings and features of the variation. After presenting the conceptual model and its applications in a number of case studies, this article introduces two implementations in logical models: namely, a relational database schema and an OWL 2 ontology. While the scope of this article is a specific issue in textual criticism, its broader focus is on how data is structured and visualized in digital scholarly editing.</p>",
         "article_title": "Exercises in modelling: textual variants",
         "authors": [
             {
@@ -71,7 +71,7 @@
             "string_id": "10.1007/s42803-019-00021-9",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": "<p>This is a history of and a technical report on the Charles Harpur Critical Archive (CHCA), which has been in preparation since 2009. Harpur was a predominantly newspaper poet in colonial New South Wales from the 1830s to the 1860s. Approximately 2700 versions of his 700 poems in newspaper and manuscript form have been recovered. In order to manage the complexity of his often heavily revised manuscripts, traditional encoding in XML-TEI, with its known difficulties in handling overlapping structures and complex revisions, was rejected. Instead, the transcriptions were split into simplified versions and layers of revision. Markup describing textual formats was stored externally using properties that may freely overlap. Both markup and the versions and layers were merged into multi-version documents (MVDs) to facilitate later comparison, editing and searching. This reorganisation is generic in design and should be reusable in other editorial projects.</p>",
         "article_title": "The Charles Harpur Critical Archive",
         "authors": [
             {
@@ -110,7 +110,7 @@
             "string_id": "10.1007/s42803-019-00018-4",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": "<p>Building on a longstanding terminological discussion in the field of textual scholarship, this essay explores the archival and editorial potential of the digital scholarly edition. Following Van Hulle and Eggert, the author argues that in the digital medium these traditionally distinct activities now find the space they need to complement and reinforce one another. By critically examining some of the early and more recent theorists and adaptors of this relatively new medium, the essay aims to shed a clearer light on some of its strengths and pitfalls. To conclude, the essay takes the discussion further by offering a broader reflection on the difficulties of providing a ‘definitive’ archival base transcription of especially handwritten materials, questioning if this should be something to aspire to for the edition in the first place.</p>",
         "article_title": "On edited archives and archived editions",
         "authors": [
             {
@@ -143,7 +143,7 @@
             "string_id": "10.1007/s42803-019-00014-8",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": "<p>Online book discussion is a popular activity on weblogs, specialized book discussion sites, booksellers’ sites and elsewhere. These discussions are important for research into literary reception and should be made and kept accessible for researchers. This article asks what an archive of online book discussion should and could look like, and how we could describe such an archive in terms of some of the central concepts of textual scholarship: work, document, text, transcription and variant. What could an approach along the lines of textual scholarship mean for such a collection? If such a collection holds many pieces of information that would not usually be considered text (such as demographic information about contributors), could we still call such a collection an edition, and could we call editing the activity of preparing such a collection?The article introduces some of the relevant (Dutch-language) sites, and summarizes their properties (among others: they are dynamic and vulnerable, they contain structured data and are very large) from the perspective of creating a research collection. It discusses the interpretation of some essential terms of textual studies in this context, and briefly lists a number of components that a digital edition of these sites might or should contain. It argues that such a collection is the result of scholarly work and should not be considered as 'just' a web archive.</p>",
         "article_title": "Editing social media: the case of online book discussion",
         "authors": [
             {
@@ -176,7 +176,7 @@
             "string_id": "10.1007/s42803-019-00013-9",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": "<p>Dealing with documents that have changed through time requires keeping track of additional metadata, for example the order of the revisions. This small issue explodes in complexity when these documents are translated. Even more complicate is keeping track of the parallel evolution of a document and its translations. The fact that this extra metadata has to be encoded in formal terms in order to be processed by computers has forced us to reflect on issues that are usually overlooked or, at least, not actively discussed and documented: How do I record which document is a translation of which? How do I record that this document is a translation of that specific revision of another document? And what if a certain translation has been created using one or more intermediate translations with no access to the original document? In this paper we addresses all these issues, starting from first principles and incrementally building towards a comprehensive solution. This solution is then distilled in terms of formal concepts (e.g., <i>translation, abstraction levels, comparability, division in parts, addressability</i>) and abstract data structures (e.g., <i>derivation graphs, revisions-alignment tables, source-document tables, source-part tables</i>). The proposed data structures can be seen as a generalization of the classical evolutionary trees (e.g., <i>stemma codicum</i>), extended to take into account the concepts of translation and contamination (i.e., multiple sources). The presented abstract data structures can easily be implemented in any programming language and customized to fit the specific needs of a research project.</p>",
         "article_title": "Tracking the evolution of translated documents: revisions, languages and contaminations",
         "authors": [
             {
@@ -209,7 +209,7 @@
             "string_id": "10.1007/s42803-019-00024-6",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": "<p>3D (re)constructions of heritage sites and Digital Scholarly Editions face similar needs and challenges and have many concepts in common, although they are expressed differently. 3D (re)constructions, however, lack a framework for addressing them. The goal of this article is not to create a single or the lowest common denominator to which both DSEs and 3D models subscribe, nor is it to reduce 3D to one scholarly editing tradition. It is rather to problematise the development of a model by borrowing concepts and values from editorial scholarship in order to enable public-facing 3D scholarship to be read in the same way that scholarly editions are by providing context, transmission history, and transparency of the editorial method/decision-making process.</p>",
         "article_title": "Textuality in 3D: three-dimensional (re)constructions as digital scholarly editions",
         "authors": [
             {
@@ -248,7 +248,7 @@
             "string_id": "10.1007/s42803-019-00019-3",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": "<p>Digital scholarly editions are expensive to make and to maintain. As such, they prove unattainable for less established scholars like early careers and PhD students, or indeed anyone without access to significant funding. One solution could be to create tools and platforms able to provide a publishing framework for digital scholarly editions that requires neither a high-tech skillset nor big investment. I call this type of edition “Prêt-à-Porter”, to be distinguished from “haute couture” editions which are tailored to the specific needs of specific scholars. I argued that both types of editions are necessary for a healthy scholarly environment.</p>",
         "article_title": "What future for digital scholarly editions? From Haute Couture to Prêt-à-Porter",
         "authors": [
             {
@@ -281,7 +281,7 @@
             "string_id": "10.1007/s42803-019-00017-5",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": "<p>The concepts of original and copy, of source and facsimile, always convey particular understandings of the process of reproducing documents. This essay is an analysis of these concepts, in particular copies and facsimiles, framed within the context of digital reproduction. The activities and cases discussed are picked from two areas: digital scholarly editing and cultural heritage digitization performed by research libraries. The conceptual analysis draws on three fields of scholarly inquiry: scholarly editing, library and information science, and philosophical aesthetics.</p>",
         "article_title": "Copies and facsimiles",
         "authors": [
             {
@@ -314,7 +314,7 @@
             "string_id": "10.1007/s42803-019-00016-6",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": "<p>This article argues that editors of scholarly digital editions should not be distracted by underlying technological concerns except when these concerns affect the editorial tasks at hand. It surveys issues in the creation of scholarly digital editions and the open licensing of resources and addresses concerns about underlying data models and vocabularies, such as the Guidelines of the Text Encoding Initiative. It calls for solutions which promote the collaborative creation, annotation, and publication of scholarly digital editions. The article draws a line between issues with which editors of scholarly digital editions should concern themselves and issues which may only prove to be distractions.</p>",
         "article_title": "Opening the book: data models and distractions in digital scholarly editing",
         "authors": [
             {
@@ -347,7 +347,7 @@
             "string_id": "10.1007/s42803-019-00015-7",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": "<p>In the context of a specific hybrid project—a digital archive and a print edition of the complete works of American writer Charles W. Chesnutt (1858–1932)--we consider three issues: (1) the value of print editions, notwithstanding the flexibility, capaciousness, and accessibility of digital editions; (2) the distinct affordances of digital editing in general and in this case; and (3) the challenges of a hybrid approach, and the possiblility of supplementing the now standard digital approach to rendering paper manuscripts (high quality scans and TEI-compliant transcriptions) with approaches borrowed from print and print aesthetics.</p>",
         "article_title": "Charles Chesnutt and the case for hybrid editing",
         "authors": [
             {
@@ -386,7 +386,7 @@
             "string_id": "10.1007/s42803-019-00012-w",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": "<p>The technological developments in the field of textual scholarship lead to a renewed focus on textual variation. Variants are liberated from their peripheral place in appendices or footnotes and are given a more prominent position in the (digital) edition of a work. But what constitutes an informative and meaningful visualisation of textual variation? The present article takes visualisation of the result of collation software as point of departure, examining several visualisations of collation output that contains a wealth of information about textual variance. The newly developed collation software HyperCollate is used as a touchstone to study the issue of representing textual information to advance literary research. The article concludes with a set of recommendations in order to evaluate different visualisations of collation output.</p>",
         "article_title": "From graveyard to graph",
         "authors": [
             {
@@ -431,7 +431,7 @@
             "string_id": "10.1007/s42803-019-00020-w",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "Artificial imagination, imagine: new developments in digital scholarly editing",
         "authors": [
             {
@@ -464,7 +464,7 @@
             "string_id": "10.1007/s42803-019-00010-y",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "Web 25. Histories from the first 25 years of the world wide web",
         "authors": [
             {
@@ -497,7 +497,7 @@
             "string_id": "10.1007/s42803-019-00008-6",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": "<p>The way researchers in the arts and humanities disciplines work has changed significantly. Research can no longer be done in isolation as an increasing number of digital tools and certain types of knowledge are required to deal with research material. Research questions are scaled up and we see the emergence of new infrastructures to address this change. The DigitAl Research Infrastructure for the Arts and Humanities (DARIAH) is an open international network of researchers within the arts and humanities community, which revolves around the exchange of experiences and the sharing of expertise and resources. These resources comprise not only of digitised material, but also a wide variety of born-digital data, services and software, tools, learning and teaching materials. The sustaining, sharing and reuse of resources involves many different parties and stakeholders and is influenced by a multitude of factors in which research infrastructures play a pivotal role. This article describes how DARIAH tries to meet the requirements of researchers from a broad range of disciplines within the arts and humanities that work with (born-)digital research data. It details approaches situated in specific national contexts in an otherwise large heterogeneous international scenario and gives an overview of ongoing efforts towards a convergence of social and technical aspects.</p>",
         "article_title": "A landscape of data – working with digital resources within and beyond DARIAH",
         "authors": [
             {
@@ -566,7 +566,7 @@
             "string_id": "10.1007/s42803-019-00007-7",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": "<p>The aim of this article is to provide an exploratory analysis of the landscape of web archiving activities in Europe. Our contribution, based on desk research, and complemented with data from interviews with representatives of European heritage institutions, provides a descriptive overview of the state-of-the-art of national web archiving in Europe. It is written for a broad interdisciplinary audience, including cultural heritage professionals, IT specialists and managers, and humanities and social science researchers. The legal, technical and operational aspects of web archiving and the value of web archives as born-digital primary research resources are both explored. In addition to investigating the organisations involved and the scope of their web archiving programmes, the curatorial aspects of the web archiving process, such as selection of web content, the tools used and the provision of access and discovery services are also considered. Furthermore, general policies related to web archiving programmes are analysed. The article concludes by offering four important issues that digital scholars should consider when using web archives as a historical data source. Whilst recognising that this study was limited to a sample of only nine web archives, this article can nevertheless offer some useful insights into the technical, legal, curatorial and policy-related aspects of web archiving. Finally, this paper could function as a stepping stone for more extensive and qualitative research.</p>",
         "article_title": "Web archives as a data resource for digital scholars",
         "authors": [
             {
@@ -635,7 +635,7 @@
             "string_id": "10.1007/s42803-019-00006-8",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": "<p>Over the last two decades publishing and distributing content on the Web has become a core part of society. This ephemeral content has rapidly become an essential component of the human record. Writing histories of the late 20th and early 21st century will require engaging with web archives. The scale of web content and of web archives presents significant challenges for how research can access and engage with this material. Digital humanities scholars are advancing computational methods to work with corpora of millions of digitized resources, but to fully engage with the growing content of two decades of web archives, we now require methods to approach and examine billions, ultimately trillions, of incongruous resources. This article approaches one seemingly insignificant, but fundamental, aspect in web design history: the use of tiny transparent images as a tool for layout design, and surfaces how traces of these files can illustrate future paths for engaging with web archives. This case study offers implications for future methods allowing scholars to engage with web archives. It also prompts considerations for librarians and archivists in thinking about web archives as data and the development of systems, qualitative and quantitative, through which to make this material available.</p>",
         "article_title": "The invention and dissemination of the spacer gif: implications for the future of access and use of web archives",
         "authors": [
             {
@@ -674,7 +674,7 @@
             "string_id": "10.1007/s42803-019-00005-9",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": "<p>The Media Archaeology Lab (MAL) at the University of Colorado at Boulder (U.S.A.) acts as both an archive and a site for what the authors describe as ‘anarchival’ practice-based research and research creation. ‘Anarchival’ indicates research and creative activity enacted as a complement to an existing, stable archive. In researching the One Laptop Per Child Initiative, by way of a donation of XO laptops, the MAL has devised a modular process which could be used by other research groups to investigate the gap between the intended use and the affordances of any given piece of technology.</p>",
         "article_title": "Anarchive as technique in the Media Archaeology Lab | building a one Laptop Per Child mesh network",
         "authors": [
             {
@@ -713,7 +713,7 @@
             "string_id": "10.1007/s42803-019-00003-x",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": "<p>The impact of New Technologies on writing proccess is not new at all. This digital revolution first resulted in the appearance of new text formats and the development of an ad hoc literary theory. In Angloamerican area, this revolution made philologists and patrimonial institutions reflect on the necessity of developing formats of study, edition and perennial conservation of these new formats of digital texts. What is the reason for such a delay in these disciplines that can be observed in Europe? Why can we say that <i>digital forensics</i> and <i>media archaeology</i> (Kirschenbaum) are not trasnational disciplines? In this paper, I assess the impact in Europe and in Angloamerican area of .<i>Txtual condition</i>. Moreover, I make a contrast between these conclusions and the answers given by three emblematic writers of the ‘new Spanish narrative’ to a survey about ways of managing and preserving digital files.</p>",
         "article_title": "The .txtual condition, .txtual criticism and .txtual scholarly editing in Spanish philology",
         "authors": [
             {
@@ -748,7 +748,7 @@
             "string_id": "10.1007/s42803-019-00002-y",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": "<p>The field of digital forensics seems at first glance quite separate from archival work and digital preservation. However, professionals in both fields are trusted to attest to the identity and integrity of digital documents and traces – they are regarded as experts in the acquisition, interpretation, description and presentation of that material. Archival science and digital forensics evolved out of practice and grew into established professional disciplines by developing theoretical foundations, which then returned to inform and standardize that practice. They have their roots in legal requirements and law enforcement. A significant challenge to both fields, therefore, is the identification of records (archival focus) and evidence (digital forensics focus) in digital systems, establishing their contexts, provenance, relationships, and meaning. This paper traces the development of digital forensics from practice to theory and presents the parallels with archival science.</p>",
         "article_title": "From time theft to time stamps: mapping the development of digital forensics from law enforcement to archival authority",
         "authors": [
             {
@@ -781,7 +781,7 @@
             "string_id": "10.1007/s42803-019-00011-x",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "Born-digital archives",
         "authors": [
             {

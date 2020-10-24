@@ -5,7 +5,7 @@
             "string_id": "10.17928/jjadh.1.1_107",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": "The Collaborative EuropeaN Digital Archival Research Infrastructure (CENDARI) project has developed a new virtual environment for humanities research, reimagining the analogue landscape of research sources for medieval and modern history and humanities research infrastructure models for the digital age.  To achieve this, the project has needed to be sensitive to the ways in which historical research practices in the 21st Century are distinct from those of earlier eras, harnessing the affordances of technology to reveal connections and support or refute hypotheses, enabling transnational approaches, and federating sources beyond the well-known and across the largely national organization paradigms that dominate within traditional knowledge infrastructures (libraries, archives and museums). This paper describes both the user-centered development methodology deployed by the project and the resulting technical architecture adopted to meet these challenging requirements.  The resulting system is a robust ‘enquiry environment’ able to integrate a variety of data types and standards with bespoke tools for the curation, annotation, communication and validation of historical insight.",
         "article_title": "The Taste of “Data Soup” and the Creation of a Pipeline for Transnational Historical Research",
         "authors": [
             {
@@ -58,7 +58,7 @@
             "string_id": "10.17928/jjadh.1.1_86",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": "This paper describes a knowledge based character processing model to resolve some                     problems of coded character model. Currently, in the field of information                     processing of digital texts, each character is represented and processed by the                     “Coded Character Model.” In this model, each character is defined and shared                     using a coded character set (code) and represented by a code-point (integer) of                     the code. In other words, when knowledge about characters is defined                     (standardized) in a specification of a coded character set, then there is no                     need to store large and detailed knowledge about characters into computers for                     basic text processing. In terms of flexibility, however, the coded character                     model has some problems, because it assumes a finite set of characters, with                     each character of the set having a stable concept shared in the community.                     However, real character usage is not so static and stable. Especially in Chinese                     characters, it is not so easy to select a finite set of characters which covers                     all usages. To resolve these problems, we have proposed the “Chaon” model. This                     is a new model of character processing based on character ontology. This report                     briefly describes the Chaon model and the CHISE (Character Information Service                     Environment) project, and focuses on how to represent Chinese characters and                     their glyphs in the context of multiple unification rules.",
         "article_title": "Multiple-policy Character Annotation based on CHISE",
         "authors": [
             {
@@ -91,7 +91,7 @@
             "string_id": "10.17928/jjadh.1.1_68",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": "This paper introduces the idea of data sharing strategy based on a conversion service, not on a sharing application, scheme, or ontology, that are dominant in proposals for language documentation. Although these three methods have been basic tactics for sharing corpora, they have a conceptual flaw in terms of descriptive linguistics. In this paper we report the results of a previous project - the LingDy project, and propose a basic concept for corpus sharing strategy to support personal diachronic data sharing. This paper is a revised version of a handout at JADH2012, so readers should be careful that this content is based on results at the time of 2012.",
         "article_title": "Corpus Sharing Strategy for Descriptive Linguistics",
         "authors": [
             {
@@ -124,7 +124,7 @@
             "string_id": "10.17928/jjadh.1.1_58",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": "Printed books are finished products once published. Digital editions, on the other hand, may have an eternal life as updateable items, at least as archives. Since the work on digital editions started in the different Nordic countries more than 20 years ago, a consensus or convergence of practice seems to have grown in the planning and development of digital scholarly editions in the Nordic countries (here defined as Denmark, Finland, Norway, and Sweden; for Finnish editions, especially those based on material written in Swedish) (Dahlström and Ore 2013). Whereas it is possible to find some examples of similar developments in other countries or continents, it seems that there are remarkable similarities between the Nordic countries. In this paper I want to discuss what factors have contributed to this situation, and to illustrate them by presenting some fairly recent digital editions from Nordic countries.",
         "article_title": "A Nordic Tradition for Digital Scholarly Editions?",
         "authors": [
             {
@@ -157,7 +157,7 @@
             "string_id": "10.17928/jjadh.1.1_44",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": "To support the automatic semantic analysis of texts in the humanities, it is not sufficient to analyze words and evaluate word pairs, because it is necessary to process larger units, such as phrases, sentences, and paragraphs. This study proposes the introduction of intratextuality into a digital archive system. In the future, this method will be developed as the basis for semantic analysis of larger units. Classical literary structures that are used frequently in the Old and New Testaments were digitized as a case study. A literary structure data format for a relational database was also implemented. The literary structures of 39 books in the Old Testament and 27 books in the New Testament were digitized. The total number of digitized literary structures was 1,507 and the elements of these structures comprised 7,715 pairs. These data were stored in a Java-based relational database system and a web-based viewer program for rhetorical structures was implemented as a JSP servlet. This web-based program will be combined with an existing digital archive system that can manage intertextuality data. The Java-based relational database system and the JSP servlet will facilitate numerical analyses of the intertextuality and intratextuality of digital archive systems of classical texts, thus making it much easier to conduct scientific analyses of the meanings of texts.",
         "article_title": "Database System for Archiving the Literary Structure of the Bible",
         "authors": [
             {
@@ -190,7 +190,7 @@
             "string_id": "10.17928/jjadh.1.1_37",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": "This study proposes a framework to access to the modern history of Japanese philosophy using natural language processing (NLP) and visualization. In order to discover new knowledge from massive amounts of information, support of information technologies is required. For supporting knowledge discovery from vast amount of books, we developed an OCR-based automatic book-digitizing framework and the system visualizing documents with relationships among them calculated by using NLP techniques. We applied the framework to Japanese journal Shisō (“Thought”) by the Japanese publisher Iwanami Shoten. We show an example of knowledge structure extracted from Shisō by using our visualizing system.",
         "article_title": "Revealing the Modern History of Japanese Philosophy Using Digitization, Natural Language Processing, and Visualization",
         "authors": [
             {
@@ -243,7 +243,7 @@
             "string_id": "10.17928/jjadh.1.1_10",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": "The UC CEISMIC Canterbury Earthquakes Digital Archive was established in response to the devastating earthquakes that struck Canterbury region in New Zealand from September 2010 onwards, including 4 quakes of magnitude 6 or greater and over 11,000 aftershocks. 185 people died and significant parts of Christchurch city were either destroyed or have needed to be demolished, resulting in financial losses of an estimated NZ$30 billion. The rebuild is expected to take 10 – 15 years, and the UC CEISMIC archive is designed to accommodate this, acting as a distributed national (and eventually international) repository for digital content produced as a result of the earthquakes. This paper outlines the design principles and architecture of the archive, describing the commitment to open access and open source that allowed the project team to bring together a broad-ranging national consortium comprised of leading cultural organizations, who work alongside content providers ranging from individual citizens, government agencies and community groups, to large media companies. Principles common to the digital humanities community were used to bond the broader project team, in an interesting example of scholar-led community engagement. The goal is to provide a model that can be used, either in whole or in part, by future teams in need of similar capability.",
         "article_title": "Open Principles, Open Data: The Design Principles and Architecture of the UC CEISMIC Canterbury Earthquakes Digital Archive",
         "authors": [
             {
@@ -296,7 +296,7 @@
             "string_id": "10.17928/jjadh.1.1_1",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": "Gathering information from social media content is becoming increasingly popular. Twitter, a microblog where posts are limited to 140 characters, is an excellent platform for gathering instant and interactive information. Considerable research has focused on Twitter’s effectiveness for disseminating emergency alerts and confirming the safety of acquaintances. However, there has been less emphasis on the analysis of Twitter posts to obtain information specialized to specific domains. Such analysis could enable simple and rapid identification of information related to state-of-the-art technology. Against this background, this study reports on a preliminary analysis of tweets by Japanese academic researchers. Our content analysis and text analysis reveal that many academic researchers tweet about their individual activities, education, or research. Their tweets contain domain-specific knowledge and have identifiable textual characteristics. This study provides basic findings that can be applied to obtain domain-specific knowledge from Twitter.",
         "article_title": "Analyzing the Content and Text of Tweets by Japanese Academic Researchers",
         "authors": [
             {
@@ -359,7 +359,7 @@
             "string_id": "10.17928/jjadh.2.1_90",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": "</p>",
         "article_title": "Investigating the Chronological Variation of Popular Song Lyrics ThroughLexical Indices",
         "authors": [
             {
@@ -412,7 +412,7 @@
             "string_id": "10.17928/jjadh.2.1_73",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": "</p>",
         "article_title": "WIScking Ideas",
         "authors": [
             {
@@ -510,7 +510,7 @@
             "string_id": "10.17928/jjadh.2.1_60",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": "</p>",
         "article_title": "Designing Research for Monitoring Humanities-based Interdisciplinary Studies: A Case of Cultural Resources Studies (Bunkashigengaku 文化資源学) in Japan",
         "authors": [
             {
@@ -573,7 +573,7 @@
             "string_id": "10.17928/jjadh.2.1_48",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": "</p>",
         "article_title": "Discriminating between Mozart's Symphonies and String Quartets Based on the Degree of Independency between the String Parts",
         "authors": [
             {
@@ -616,7 +616,7 @@
             "string_id": "10.17928/jjadh.2.1_31",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": "</p>",
         "article_title": "Automatic Extraction of Reversal-Type Punch Lines in Shin'ichi Hoshi's Flash Fictions",
         "authors": [
             {
@@ -649,7 +649,7 @@
             "string_id": "10.17928/jjadh.2.1_1",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": "</p>",
         "article_title": "Stylometric Analysis of Chinese Buddhist texts - Do different Chinese translations of the Gaṇḍavyūha reflect stylistic features that are typical for their age?",
         "authors": [
             {
@@ -702,7 +702,7 @@
             "string_id": "10.17928/jjadh.3.1_114",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": "</p>",
         "article_title": "Data Mining in the Works of the Shingon Monk Monkan (1278–1357): Using Digital Methods to Assess the Contested Authorship of Three Religious Texts from Medieval Japan",
         "authors": [
             {
@@ -735,7 +735,7 @@
             "string_id": "10.17928/jjadh.3.1_98",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": "</p>",
         "article_title": "Migrating People, Migrating Data: Digital Approaches to Migrant Heritage",
         "authors": [
             {
@@ -808,7 +808,7 @@
             "string_id": "10.17928/jjadh.3.1_73",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": "</p>",
         "article_title": "Algorithmic Determination of Japanese Ethnic Identity Based on Name",
         "authors": [
             {
@@ -841,7 +841,7 @@
             "string_id": "10.17928/jjadh.3.1_49",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": "</p>",
         "article_title": "Quantitative Evaluation Method for a Literary Structure Hypothesis within the Bible",
         "authors": [
             {
@@ -874,7 +874,7 @@
             "string_id": "10.17928/jjadh.3.1_33",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": "</p>",
         "article_title": "Investigating the Relationships between Scholars and Politicians in Ancient China: Taking the Yuanyou Era as an Example",
         "authors": [
             {
@@ -917,7 +917,7 @@
             "string_id": "10.17928/jjadh.3.1_1",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": "</p>",
         "article_title": "The Long Arc of History: Neural Network Approaches to Diachronic Linguistic Change",
         "authors": [
             {
@@ -960,7 +960,7 @@
             "string_id": "10.17928/jjadh.4.1_72",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": "No discussion of play and leisure in Japan would be complete without \r\n\t\t\t\t\tacknowledging the place of pachinko, a game so popular that it dominates the \r\n\t\t\t\t\tleisure economy in a way no other medium does, not even videogames. Even in \r\n\t\t\t\t\tdecline, pachinko generates more revenue in Japan than any other leisure pursuit \r\n\t\t\t\t\tand yet it is rarely discussed in game studies in the West or even in the \r\n\t\t\t\t\tJapanese literature around game culture. This is largely because of the gambling \r\n\t\t\t\t\tassociated with pachinko and because it is unique to Japan – a national industry \r\n\t\t\t\t\twith no export potential. Pachinko is at the disreputable edge of \r\n\t\t\t\t\tgaming—economically, culturally, and mechanically. Above all, pachinko machines \r\n\t\t\t\t\tstand out as monstrous hybrids that combine the electro-mechanical apparatus of \r\n\t\t\t\t\ta pinball machine with the digital screen of a slot machine in a curious mixed \r\n\t\t\t\t\tinterface that seems to be an anachronism of a pre-computing era. And that is \r\n\t\t\t\t\twhat this paper is about – the hybrid interface of pachinko.",
         "article_title": "Pachinko",
         "authors": [
             {
@@ -1003,7 +1003,7 @@
             "string_id": "10.17928/jjadh.4.1_54",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": "Attempts to preserve retro game elements or ‘the classic feeling’ through \r\n\t\t\t\t\tremixing retro elements with modern ones are not a new method. However, it is an \r\n\t\t\t\t\teffective preservation method. According to Newman, videogame preservation goes \r\n\t\t\t\t\tbeyond simply preserving hardware. In order to deliver “authentic play (and \r\n\t\t\t\t\taesthetic) experiences”, it also necessary to determine what are the most \r\n\t\t\t\t\tsignificant, qualitative aspects or properties that make a particular videogame \r\n\t\t\t\t\twhat it is (Newman 2012, 122–23). Part of the success of classic characters like \r\n\t\t\t\t\tMario is how often they are reused and reimagined (Suominen 2012, 8). Even if \r\n\t\t\t\t\tyou have never played the original Mario games, you have still likely been \r\n\t\t\t\t\texposed to the franchise’s most ‘basic’ elements through their various \r\n\t\t\t\t\titerations. However, while the game industry typically aims for continual \r\n\t\t\t\t\tinnovation and reinvention (Newman 2012, 9), the changing market and gaming \r\n\t\t\t\t\tlandscape is allowing for alternative opportunities for remixing retro elements. \r\n\t\t\t\t\tOne notable example includes Mega Man 9, which garnered praise for their \r\n\t\t\t\t\tgorgeous, realistic graphics. While all three games were made for modern \r\n\t\t\t\t\tconsoles, Mega Man 9 was made in classic retro style, not only to return the \r\n\t\t\t\t\tseries to its roots but also to give players a new story and “the classical \r\n\t\t\t\t\tfeel” (Takeshita 2008). By studying the approaches developers have used, it is \r\n\t\t\t\t\tpossible to study what ‘feeling’ they were attempting to preserve, what elements \r\n\t\t\t\t\twere considered most essential, how these elements were translated, and what new \r\n\t\t\t\t\tmeanings occur.",
         "article_title": "Remixing Retro",
         "authors": [
             {
@@ -1032,7 +1032,7 @@
             "string_id": "10.17928/jjadh.4.1_37",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": "The genre of boys’ love (BL), which generally refers to a body of works that \r\n\t\t\t\t\tdepict fictional relationships between beautiful “boys,” is produced for and \r\n\t\t\t\t\tconsumed mainly by women in Japan. Ludic expressions of sexuality and gender \r\n\t\t\t\t\tunique to BL have gained popularity on a global scale but have also drawn \r\n\t\t\t\t\tnegative attention. In this article, we employ the concept of asobigokoro \r\n\t\t\t\t\t(playful spirit/heart) to highlight the importance of regional ideas of play and \r\n\t\t\t\t\tplayfulness in game analysis. We argue that asobigokoro functions as a kind of \r\n\t\t\t\t\tcounter-discourse as it privileges non-Eurocentric ways of knowing, \r\n\t\t\t\t\tunderstanding, and “playing” with representations of sexuality. Game analysis \r\n\t\t\t\t\tthrough an asobigokoro lens enriches the field of regional gaming by drawing on \r\n\t\t\t\t\tJapanese sociopolitical contexts to situate a reading of Japanese ludic \r\n\t\t\t\t\trepresentations. Asobigokoro stresses the importance of understanding cultural \r\n\t\t\t\t\tvariations of “play” and “playfulness” in order to make sense of “taboo” \r\n\t\t\t\t\tsubjects in culturally nuanced ways. In our textual analysis of Enzai: Falsely \r\n\t\t\t\t\tAccused, we discover that the simultaneous appropriation and subversion of \r\n\t\t\t\t\tviolent and sexually explicit content, which characterizes the game’s \r\n\t\t\t\t\tasobigokoro, can be traced to Japanese feminist forms of asobi (play), which are \r\n\t\t\t\t\trooted within the Yaoi tradition.",
         "article_title": "Playing with Pain",
         "authors": [
             {
@@ -1075,7 +1075,7 @@
             "string_id": "10.17928/jjadh.4.1_7",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": "This article focuses on Nintendo’s influential and much-celebrated 1998 videogame \r\n\t\t\t\t\tThe Legend of Zelda: Ocarina of Time (hereafter OoT). In particular, it explores \r\n\t\t\t\t\tthe often unexpectedly creative and wholly transformative ways in the game is \r\n\t\t\t\t\tplayed by ‘speedrunners.’ Seeking to race through the game as quickly as \r\n\t\t\t\t\tpossible, speedrunners play in a distinctive way that combines mastery of \r\n\t\t\t\t\tperformance execution with a deep knowledge of the game’s operation and how its \r\n\t\t\t\t\tsystems may be exploited. Speedrunning performances are creative because they \r\n\t\t\t\t\tinvolve astonishingly detailed investigations of the minutiae of game behaviors. \r\n\t\t\t\t\tThey are transformative because they disrupt and even invert much-vaunted \r\n\t\t\t\t\taspects of the game as sequences that slow down progress are circumvented. As \r\n\t\t\t\t\tsuch, what would otherwise class as crucial moments in the storyline, key \r\n\t\t\t\t\tcharacter development and even locales, are not only raced through but are \r\n\t\t\t\t\tactively skipped. Compared with the game’s narrative, the connectivity of its \r\n\t\t\t\t\tspaces, and the complex but clearly mapped passage of time as set out in \r\n\t\t\t\t\tNintendo’s officially-endorsed ‘Strategy Guides’ (see Buchanan et al 1998; \r\n\t\t\t\t\tHollinger et al 1998; Loe and Guess 1998), the OoT speedrun constructs an \r\n\t\t\t\t\taltogether different game with vastly altered priorities. And so, the offer to, \r\n\t\t\t\t\t‘Join legendary hero Link as he journeys across Hyrule, and even through time, \r\n\t\t\t\t\tto thwart the plans of Ganondorf.’ (Nintendo 2017), is recast as a breakneck \r\n\t\t\t\t\tdash to the closing credits sequence evading and avoiding all but the essential \r\n\t\t\t\t\tmoments of gameplay.",
         "article_title": "Wrong Warping, Sequence Breaking, and Running through Code",
         "authors": [
             {
@@ -1108,7 +1108,7 @@
             "string_id": "10.17928/jjadh.4.1_5",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": "</p>",
         "article_title": "Replaying Japan and the Famicom",
         "authors": [
             {
@@ -1141,7 +1141,7 @@
             "string_id": "10.17928/jjadh.4.1_1",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": "</p>",
         "article_title": "The Replaying Japan Conference: Bringing Together Japan Game Studies and Digital Humanities",
         "authors": [
             {

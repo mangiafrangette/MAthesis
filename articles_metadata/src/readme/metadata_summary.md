@@ -1,9 +1,37 @@
+|                   Journal                   	| Provider 	| Abstract 	| Affiliation 	|
+|:-------------------------------------------:	|----------	|:--------:	|:-----------:	|
+| Digital_Medievalist                          	| Crossref	|   yes    	|     no      	|
+| Digital_Philology_A_Journal_of_Medieval_Cultures| Crossref|   yes    	|      no     	|
+| Digital_Scholarship_in_the_Humanities         | Crossref  |no (cant access)|     yes  |
+| Digital Studies / Le champ numérique        	| Crossref  |  yes     	|   no         	|
+| Digitális Bölcsészet                          | Crossref  |  no (lingua)|    no       |
+| Frontiers in Digital Humanities               | Crossref  | yes       | no            | 
+| Humanist_Studies_&_the_Digital_Age            | Crossref  | yes       | no            |
+| International Journal of Digital Curation     | Crossref  | yes       | no            |
+| International Journal of Digital Humanities   | Crossref  |   y       | no            |
+| Journal_of_Cultural_Analytics                 | crossref  | y  RIFARE | no            |
+| Japanese_Association_for_Digital_Humanities   | Crossref  | y  CONTROL| no           | 
+| TEI                                           | Crossref  | y         |   no          |
+| Journal on Computing and Cultural Heritage (JOCCH)| Cross |y  MI HANNO BLOCC|    no    |
+| Digital Art History                           | Datacite  | y         | no            |
+|
+
+
+| Umanistica Digitale                         	| Datacite 	|    yes   	|             	|
+|              	|          	|          	|             	|
+| Digital Scholarship in the Humanities (DSH) 	|          	|          	|             	|
+| Digital Humanities Quarterly (DHQ)           	|          	|          	|             	|
+
+
+
+
 # Missing and available metadata
 Here I'm mapping available and missing data and sources. Information given about PROVIDER (Crossref, Datacite, other), MISSING metadata. When something is missing, is specified what and some options are provided. 
 
 ### <a href="https://umanisticadigitale.unibo.it/index" target="_blank">Umanistica Digitale</a>
 PROVIDER: **Datacite (39/39)**
 MISSING: Affiliations. They are present on the article web page. Missing data are present on the article web page of which I have the url on Datacite.
+Already has abstract
 
 ### <a href="https://www.frontiersin.org/journals/digital-humanities" target="_blank">Frontiers in Digital Humanities</a>
 PROVIDER: Datacite (9/51), **Crossref (42/51)**
@@ -76,8 +104,10 @@ PROVIDER: Other
 MISSING: Affiliations
  
 ### <a href="https://journal.digitalmedievalist.org/" target="_blank">Digital Medievalist</a>
-PROVIDER: Crossref 80/80, Datacite 4/80
+PROVIDER: Crossref 80/80 (Datacite 4/80)
 MISSING: Abstract, affiliation
+Abstract taken from webpage
+Affiliation ... 
 
 ### <a href="http://projects.chass.utoronto.ca/chwp/index.html" target="_blank">Computers in the Humanities Working Papers</a>
 ???
@@ -119,5 +149,6 @@ SISTEMARE PERCHè NON è IN LISTA
 I was able to download conference abstracts locally in xml from github. 
 - 2000 a 2003 https://github.com/ADHO/dh-abstracts/tree/master/data . poi?
 - 2013, 2015, 2016, 2017, 2018 zip
+
 
 TOT 1460 che ho
