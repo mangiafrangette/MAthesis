@@ -4,12 +4,13 @@ import os
 def crossref_to_my_schema(path, file_name):
     with open(f'{path}/{file_name}', "r", encoding="utf-8") as f:
         crossref_schema = json.load(f)
-        with open(f"../data/json_files/crossref_my_schema/{file_name}", "a", encoding="utf-8") as fd:
+        with open(f"../data/json_files/my_schema/my_schema_{file_name}".replace("crossref_original", "c"), "a", encoding="utf-8") as fd:
             fd.write("[")
             for index, article in enumerate(crossref_schema):
                 string_article = json.dumps(article)
                 if article is not None and "404" not in string_article:
                     identifier = article["DOI"]
+                    url = article["URL"]
                     if "author" in article:
                         authors = [author for author in article["author"]]
                     else:
@@ -35,6 +36,7 @@ def crossref_to_my_schema(path, file_name):
 
                     # creating my schema
                     python_dict = dict()
+                    python_dict['url'] = url
                     python_dict['identifier'] = {
                         'string_id' : identifier,
                         'id_scheme' : "DOI" 
@@ -57,13 +59,12 @@ def crossref_to_my_schema(path, file_name):
                 
 
 # list of json paths 
-path = '../data/json_files/from_api'
+path = '../data/json_files/crossref_api'
 folder = os.fsencode(path)
 filenames = []
 for file in os.listdir(folder):
     filename = os.fsdecode(file)
-    if filename.endswith('crossref_metadata.json'): # whatever file types you're using...
-        filenames.append(filename)
+    filenames.append(filename)
 
 # call function over all crossref json files
 for file_name in filenames:

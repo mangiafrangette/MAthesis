@@ -23,7 +23,7 @@ MISSING: -
 
 ### <a href="https://www.digitalstudies.org/" target="_blank">Digital Studies / Le champ numérique</a>
 PROVIDER: Datacite (7/88), **Crossref (84/88)**
-MISSING: Affiliations, abstract are present only for few. Abstracts are mostly missing (100/900 articles circa). Missing data are present on the article web page of which I have the url on Datacite. 
+MISSING: @@@
 
 
 ### <a href="https://culturalanalytics.org/" target="_blank">Journal of Cultural Analytics</a>
@@ -89,7 +89,7 @@ MISSING: All
 ### <a href="https://muse.jhu.edu/journal/550" target="_blank">Digital Philology: A Journal of Medieval Cultures</a>
 PROVIDER: Crossref 101/101
 MISSING: Abstracts and affiliations
-SOLUTION: ??
+Meta tags: div class="abstract"
 
 ### <a href="https://journals.oregondigital.org/hsda#:~:text=This%20peer%2Dreviewed%20e%2Djournal,Directory%20of%20Open%20Access%20Journals." target="_blank">Humanist Studies & the Digital Age</a>
 PROVIDER: Crossref 9/14
@@ -119,3 +119,5 @@ SISTEMARE PERCHè NON è IN LISTA
 I was able to download conference abstracts locally in xml from github. 
 - 2000 a 2003 https://github.com/ADHO/dh-abstracts/tree/master/data . poi?
 - 2013, 2015, 2016, 2017, 2018 zip
+
+TOT 1460 che ho
