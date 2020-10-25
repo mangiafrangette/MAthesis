@@ -3,9 +3,13 @@ import csv
 import os
 import json
 
+
 class ArticlesSpider(scrapy.Spider):
     name = "data_mining"
+
     def start_requests(self):
+        #urls = ["http://arxiv.org/abs/1312.5817v3"]
+        #urls = ["https://hal.archives-ouvertes.fr/hal-02513038v2"]
         urls = [
             "https://hal.archives-ouvertes.fr/hal-02280013v2",
             "http://arxiv.org/abs/1912.05082v3",
@@ -63,7 +67,7 @@ class ArticlesSpider(scrapy.Spider):
         ]
         for url in urls:
             yield scrapy.Request(url=url, callback=self.parse)
-    
+
     # parse scrapy data
     def parse(self, response): 
         url = response.url
@@ -74,24 +78,62 @@ class ArticlesSpider(scrapy.Spider):
         publisher = None
         keywords = None
         volume = None
+        authors_dicts_list = None
+        sup = None
+        struct_ids = None
+        without_aff = None
+        with_aff = None
+        structs = None
+        ids_set = None
+        struct_ids_dict = None
+        authors_ids_dict = None
         if "https://arxiv.org" in url:
             id_scheme = "arXiv"
             string_id = response.xpath('//meta[@name="citation_arxiv_id"]/@content').get()
             abstract = response.xpath('//*[@id="abs"]/blockquote').get()
             article_title = response.xpath('//*[@id="abs"]/h1').get()
             # no affiliation anywhere
-            authors = response.xpath('//meta[@name="citation_author"]/@content"]').getall()            
-            date =  response.xpath('//meta[@name="citation_date"]/@content').get()
+            authors = response.xpath('//meta[@name="citation_author"]/@content').getall()
+            date = response.xpath('//meta[@name="citation_date"]/@content').get()
+            authors_dicts_list = [
+                {'given': author.split(", ")[0],
+                    'family': author.split(", ")[1],
+                    'affiliations': None
+                 }
+                for author in authors
+            ]
         else:
             id_scheme = "hal"
             string_id = response.xpath('//meta[@name="DC.identifier"][2]/@content').get()
             abstract = response.xpath('//div[@class="abstract-content"]').get()
-            article_title = response.xpath('//h1[@class="title"]').get()
+            article_title = response.xpath('//h1[@class="title"]/text()').get()
             authors = response.xpath('//meta[@name="citation_author"]/@content').getall()
-            affiliation = response.xpath('meta[@name="citation_author_institution"]').getall()   
-            date =  response.xpath('//meta[@name="citation_online_date"]/@content').get()
+            affiliations = response.xpath('meta[@name="citation_author_institution"]').getall()
+            date = response.xpath('//meta[@name="citation_online_date"]/@content').get()
             keywords = response.xpath('//meta[@name="citation_keywords"]/@content').getall()
             volume = response.xpath('//meta[@name="citation_volume"]/@content').get()
+
+            with_aff = response.xpath('//span[sup and @class="author"]/a/text()').getall()
+            authors_ids = response.xpath('//span[@class="author"]/sup/text()').getall()
+            authors_ids = [ids.split(", ") for ids in authors_ids]
+            ids_set = set()
+            for ids in authors_ids:
+                ids_set.update(set(ids))
+            #without_aff = response.xpath('//span[not(sup) and @class="author"]/a/text()').getall()
+            struct_ids_dict = {id: response.xpath(f'//div[span={id}]/a/text()').get() for id in ids_set}
+
+            authors_ids_dict = {author: authors_ids[index] for index, author in enumerate(with_aff)}
+            authors_dicts_list = []
+            for author in authors:
+                author_dict = {
+                    'given': author,
+                    'family': None,
+                    'affiliations': None
+                }
+                if author in with_aff:
+                    author_dict['affiliations'] = [struct_ids_dict[struct_id] for struct_id in authors_ids_dict[author]]
+                authors_dicts_list.append(author_dict)
+
 
         yield {
         "url": url,
@@ -101,14 +143,15 @@ class ArticlesSpider(scrapy.Spider):
         },
         "abstract": abstract,
         "article_title": article_title,
-         "authors": [
-        {
-        'given': author,
-        'family' : "",
-        'affiliation' : []
-        }
-        for author in authors
-        ], 
+        "authors": authors_dicts_list,
+        #  "authors": [
+        # {
+        # 'given': author,
+        # 'family' : "",
+        # 'affiliation' : []
+        # }
+        # for author in authors
+        # ],
         "publisher": publisher,
         "date": date,
         "keywords": keywords,
@@ -128,4 +171,4 @@ class ArticlesSpider(scrapy.Spider):
     
             
 
-    
+

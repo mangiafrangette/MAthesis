@@ -5,9 +5,9 @@
 | Digital Literary Studies                      | by hand from web 4/4|   yes |   yes       | 
 | Digital_Medievalist                          	| Crossref 45/80|   yes    	|     no      	|
 | Digital_Philology                             | Crossref 101/101|yes |      no     	|
-| Digital_Scholarship_in_the_Humanities         | Crossref 822/904|no (cant access)| yes  |
+| DSH         | Crossref 822/904|no (cant access, 700 sono null!)| yes  |
 | Digital Studies / Le champ numérique        	| Crossref 84/88|  yes 	|   no         	|
-| Digitális Bölcsészet                          | Crossref 18/18 |  no (lingua)|    no  |
+| Digitális Bölcsészet                          | Crossref 18/18 |  yes|    yes (few)  |
 | Frontiers in Digital Humanities               | Crossref 42/51| yes       | no            | 
 | Humanist_Studies_&_the_Digital_Age            | Crossref 9/14 | yes       | no            |
 | International Journal for Digital Art History | Datacite 36/36| yes        | no      |

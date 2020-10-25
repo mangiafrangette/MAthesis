@@ -4,7 +4,7 @@ import os
 def crossref_to_my_schema(path, file_name):
     with open(f'{path}/{file_name}', "r", encoding="utf-8") as f:
         crossref_schema = json.load(f)
-        with open(f"../data/json_files/my_schema/my_schema_{file_name}".replace("crossref_original", "c"), "a", encoding="utf-8") as fd:
+        with open(f"../data/json_files/my_schema/ms_{file_name}".replace("crossref_original", "c"), "a", encoding="utf-8") as fd:
             fd.write("[")
             for index, article in enumerate(crossref_schema):
                 string_article = json.dumps(article)
