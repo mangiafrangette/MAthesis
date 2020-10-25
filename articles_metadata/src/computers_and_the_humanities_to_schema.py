@@ -4,9 +4,10 @@ import os
 def to_my_schema(path, file_name):
     with open(f'{path}/{file_name}', "r", encoding="utf-8") as f:
         input_schema = json.load(f)
-        with open(f"../data/json_files/my_schema_{file_name}", "a", encoding="utf-8") as fd:
+        with open(f"../data/json_files/my_schema/ms_{file_name}", "a", encoding="utf-8") as fd:
             fd.write("[")
             for key, value in input_schema.items():
+                url = value["url"]
                 identifier = value["ID"]
                 authors = value["author"]
                 abstract = value["abstract"]
@@ -21,6 +22,7 @@ def to_my_schema(path, file_name):
 
                     # creating my schema
                 python_dict = dict()
+                python_dict['url'] = url
                 python_dict['identifier'] = {
                     'string_id' : identifier,
                     'id_scheme' : "DOI" 

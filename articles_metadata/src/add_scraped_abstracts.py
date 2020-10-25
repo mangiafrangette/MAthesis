@@ -14,11 +14,4 @@ def add_scraped_abstracts(my_schema_file, scrapy_abstracts):
                         json.dump(articles, fd)
 
 
-add_scraped_abstracts("../data/json_files/my_schema/ms_Journal_on_Computing_and_Cultural_Heritage.json", "../data/json_files/scraped_abstracts/scrapy_jocch.json")
-
-""" path = '../data/json_files/my_schema'
-folder = os.fsencode(path)
-for file in os.listdir(folder):
-    my_schema_file = f'{path}/{os.fsdecode(file)}'
-    scraped_file = "../data/json_files/my_schema/scrapy_abstracts_requests.json"
-    add_scraped_abstracts(my_schema_file, scraped_file) """
+add_scraped_abstracts("../data/json_files/my_schema/ms_Journal_of_Cultural_Analytics.json", "../data/json_files/scraped_abstracts/scrapy_cultural_analytics.json")

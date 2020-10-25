@@ -1,0 +1,1338 @@
+[
+    {
+        "url": "https://hal.archives-ouvertes.fr/hal-02280013v2",
+        "identifier": {
+            "string_id": "02280013",
+            "id_scheme": "hal"
+        },
+        "abstract": "While online crowdsourced text transcription projects have proliferated in the last decade, there is a need within the broader field to understand differences in project outcomes as they relate to task design, as well as to experiment with different models of online crowdsourced transcription that have not yet been explored. The experiment discussed in this paper involves the evaluation of newly-built tools on the Zooniverse.org crowdsourcing platform, attempting to answer the research question: \"Does the current Zooniverse methodology of multiple independent transcribers and aggregation of results render higher-quality outcomes than allowing volunteers to see previous transcriptions and/or markings by other users? How does each methodology impact the quality and depth of analysis and participation?\" To answer these questions, the Zooniverse team ran an A/B experiment on the project Anti-Slavery Manuscripts at the Boston Public Library. This paper will share results of this study, and also describe the process of designing the experiment and the metrics used to evaluate each transcription method. These include the comparison of aggregate transcription results with ground truth data; evaluation of annotation methods; the time it took for volunteers to complete transcribing each dataset; and the level of engagement with other project elements such as posting on the message board or reading supporting documentation. Particular focus will be given to the (at times) competing goals of data quality, efficiency, volunteer engagement, and user retention, all of which are of high importance for projects that focus on data from galleries, libraries, archives and museums. Ultimately, this paper aims to provide a model for impactful, intentional design and study of online crowdsourcing transcription methods, as well as shed light on the associations between project design, methodology and outcomes.",
+        "article_title": "Individual vs. Collaborative Methods of Crowdsourced Transcription",
+        "authors": [
+            {
+                "given": "Samantha Blickhan",
+                "family": "",
+                "affiliation": []
+            },
+            {
+                "given": "Coleman Krawczyk",
+                "family": "",
+                "affiliation": []
+            },
+            {
+                "given": "Daniel Hanson",
+                "family": "",
+                "affiliation": []
+            },
+            {
+                "given": "Amy Boyer",
+                "family": "",
+                "affiliation": []
+            },
+            {
+                "given": "Andrea Simenstad",
+                "family": "",
+                "affiliation": []
+            },
+            {
+                "given": "Victoria Hyning",
+                "family": "",
+                "affiliation": []
+            },
+            {
+                "given": "Victoria van Hyning",
+                "family": "",
+                "affiliation": []
+            }
+        ],
+        "publisher": null,
+        "date": "2019/12/03",
+        "keywords": [],
+        "journal_title": "Journal of Data Mining & Digital Humanities",
+        "volume": "Special Issue on Collecting, Preserving, and Disseminating Endangered Cultural Heritage for New Understandings through Multilingual Approaches",
+        "issue": null,
+        "ISSN": [
+            {
+                "value": null,
+                "type": null
+            }
+        ]
+    },
+    {
+        "url": "https://hal.archives-ouvertes.fr/hal-01671592v1",
+        "identifier": {
+            "string_id": "01671592",
+            "id_scheme": "hal"
+        },
+        "abstract": "This paper presents some computer tools and linguistic resources of the GREgORI project. These developments allow automated processing of texts written in the main languages of the Christian Middel East, such as Greek, Arabic, Syriac, Armenian and Georgian. The main goal is to provide scholars with tools (lemmatized indexes and concordances) making corpus-based linguistic information available. It focuses on the questions of text processing, lemmatization, information retrieval, and bitext alignment.",
+        "article_title": "Processing Tools for Greek and Other Languages of the Christian Middle East",
+        "authors": [
+            {
+                "given": "Bastien Kindt",
+                "family": "",
+                "affiliation": []
+            }
+        ],
+        "publisher": null,
+        "date": "2017/12/22",
+        "keywords": [
+            "Lemmatization ; Greek ; Syriac ; Arabic ; Armenian ; Georgian ; lexical tagging ; POS tagging ; concordances ; indexes ; bitext ; bilingual alignment ; translation memories ; mkAlign"
+        ],
+        "journal_title": "Journal of Data Mining & Digital Humanities",
+        "volume": "Special Issue on Computer-Aided Processing of Intertextuality in Ancient Languages",
+        "issue": null,
+        "ISSN": [
+            {
+                "value": null,
+                "type": null
+            }
+        ]
+    },
+    {
+        "url": "https://hal.archives-ouvertes.fr/hal-02109972v2",
+        "identifier": {
+            "string_id": "02109972",
+            "id_scheme": "hal"
+        },
+        "abstract": "The creation of the Artist Libraries Project was sparked by the observation that artist libraries are still not well known, yet many art historians are interested in this archive for the value it adds to understanding the person behind the artist and his or her creative process. The problem is that these libraries are rarely physically preserved. To remedy this dispersion, we built an online database and a website www.lesbibliothequesdartistes.org that house this valuable source in the form of lists of books and their electronic versions. First data on Monet's library have been made available, and several additional artist libraries from the 19 th and 20 th centuries are on the way for 2019. By gathering all these bibliographical data in a central database, it's possible to explore one library and to compare several. This article explains how we built the database and the website and how the implementation of those IT tools has raised questions about the use of this resource as an archive on the one hand, as well as its value for art history on the other.",
+        "article_title": "The Artist Libraries Project in the Labex Les passés dans le présent",
+        "authors": [
+            {
+                "given": "Félicie Faizand de Maupeou",
+                "family": "",
+                "affiliation": []
+            },
+            {
+                "given": "Ségolène Le Men",
+                "family": "",
+                "affiliation": []
+            }
+        ],
+        "publisher": null,
+        "date": "2019/04/25",
+        "keywords": [],
+        "journal_title": "Journal of Data Mining & Digital Humanities",
+        "volume": "Atelier Digit_Hum",
+        "issue": null,
+        "ISSN": [
+            {
+                "value": null,
+                "type": null
+            }
+        ]
+    },
+    {
+        "url": "https://hal.archives-ouvertes.fr/hal-02520508v3",
+        "identifier": {
+            "string_id": "02520508",
+            "id_scheme": "hal"
+        },
+        "abstract": null,
+        "article_title": "Optical Recognition Assisted Transcription with Transkribus: The Experiment concerning Eugène Wilhelm's Personal Diary (1885-1951)",
+        "authors": [
+            {
+                "given": "Régis Schlagdenhauffen",
+                "family": "",
+                "affiliation": []
+            }
+        ],
+        "publisher": null,
+        "date": "2020/07/14",
+        "keywords": [
+            "TEI ; User Experience ; Human Text Recognition ; Learning process ; OCR"
+        ],
+        "journal_title": "Journal of Data Mining & Digital Humanities",
+        "volume": "Atelier Digit_Hum",
+        "issue": null,
+        "ISSN": [
+            {
+                "value": null,
+                "type": null
+            }
+        ]
+    },
+    {
+        "url": "https://hal.archives-ouvertes.fr/hal-01913435v3",
+        "identifier": {
+            "string_id": "01913435",
+            "id_scheme": "hal"
+        },
+        "abstract": "The Foucault Fiches de Lecture (FFL) project aims both to explore and to make available online a large set of Michel Foucault’s reading notes (organized citations, references and comments) held at the BnF since 2013. Therefore, the team is digitizing, describing and enriching the reading notes that the philosopher gathered while preparing his books and lectures, thus providing a new corpus that will allow a new approach to his work. In order to release the manuscripts online, and to collectively produce the data, the team is also developing a collaborative platform, based on RDF technologies, and designed to link together archival content and bibliographic data. This project is financed by the ANR (2017-2020) and coordinated by Michel Senellart, professor of philosophy at the ENS Lyon. It benefits from the partnerships of the ENS/PSL and the BnF. In addition, a collaboration with the European READ/Transkribus project has been started so as to produce automatic transcription of the reading notes.",
+        "article_title": "Transcribing Foucault’s handwriting with Transkribus",
+        "authors": [
+            {
+                "given": "Marie-Laure Massot",
+                "family": "",
+                "affiliation": []
+            },
+            {
+                "given": "Arianna Sforzini",
+                "family": "",
+                "affiliation": []
+            },
+            {
+                "given": "Vincent Ventresque",
+                "family": "",
+                "affiliation": []
+            }
+        ],
+        "publisher": null,
+        "date": "2019/02/18",
+        "keywords": [
+            "transkribus ; reading notes ; automatic transcription of manuscripts ; artificial intelligence"
+        ],
+        "journal_title": "Journal of Data Mining & Digital Humanities",
+        "volume": "Atelier Digit_Hum",
+        "issue": null,
+        "ISSN": [
+            {
+                "value": null,
+                "type": null
+            }
+        ]
+    },
+    {
+        "url": "https://hal.archives-ouvertes.fr/hal-01915730v2",
+        "identifier": {
+            "string_id": "01915730",
+            "id_scheme": "hal"
+        },
+        "abstract": "British philosopher and reformer Jeremy Bentham (1748-1832) left over 60,000 folios of unpublished manuscripts. The Bentham Project, at University College London, is creating a TEI version of the manuscripts, via crowdsourced transcription verified by experts. We present here an interface to navigate these largely unedited manuscripts, and the language technologies the corpus was enriched with to facilitate navigation, i.e Entity Linking against the DBpedia knowledge base and keyphrase extraction. The challenges of tagging a historical domain-specific corpus with a contemporary knowledge base are discussed. The concepts extracted were used to create interactive co-occurrence networks, that serve as a map for the corpus and help navigate it, along with a search index. These corpus representations were integrated in a user interface. The interface was evaluated by domain experts with satisfactory results , e.g. they found the distributional semantics methods exploited here applicable in order to assist in retrieving related passages for scholarly editing of the corpus.",
+        "article_title": "Mapping the Bentham Corpus: Concept-based Navigation",
+        "authors": [
+            {
+                "given": "Pablo Ruiz",
+                "family": "",
+                "affiliation": []
+            },
+            {
+                "given": "Thierry Poibeau",
+                "family": "",
+                "affiliation": []
+            }
+        ],
+        "publisher": null,
+        "date": "2019/02/12",
+        "keywords": [
+            "Jeremy Bentham ; manuscripts ; corpus navigation ; entity linking ; keyphrase extraction"
+        ],
+        "journal_title": "Journal of Data Mining & Digital Humanities",
+        "volume": "Special Issue: Digital Humanities between knowledge and know-how (Atelier Digit_Hum)",
+        "issue": null,
+        "ISSN": [
+            {
+                "value": null,
+                "type": null
+            }
+        ]
+    },
+    {
+        "url": "https://hal.archives-ouvertes.fr/hal-02513038v2",
+        "identifier": {
+            "string_id": "02513038",
+            "id_scheme": "hal"
+        },
+        "abstract": "The study of watermarks is a key step for archivists and historians as it enables them to reveal the origin of paper. Although highly practical, automatic watermark recognition comes with many difficulties and is still considered an unsolved challenge. Nonetheless, Shen et al. [2019] recently introduced a new approach for this specific task which showed promising results. Building upon this approach, this work proposes a new public web application dedicated to automatic watermark recognition entitled Filigranes pour tous. The application not only hosts a detailed catalog of more than 17k watermarks manually collected from the French National Archives (Minutier central) or extracted from existing online resources (Briquet database), but it also enables non-specialists to identify a watermark from a simple photograph in a few seconds. Moreover, additional watermarks can easily be added by the users making the enrichment of the existing catalog possible through crowdsourcing. Our Web application is available at http://filigranes.inria.fr/.",
+        "article_title": "A Web Application for Watermark Recognition",
+        "authors": [
+            {
+                "given": "Oumayma Bounou",
+                "family": "",
+                "affiliation": []
+            },
+            {
+                "given": "Tom Monnier",
+                "family": "",
+                "affiliation": []
+            },
+            {
+                "given": "Ilaria Pastrolin",
+                "family": "",
+                "affiliation": []
+            },
+            {
+                "given": "Xi Shen",
+                "family": "",
+                "affiliation": []
+            },
+            {
+                "given": "Christine Benevent",
+                "family": "",
+                "affiliation": []
+            },
+            {
+                "given": "Marie-Françoise Limon-Bonnet",
+                "family": "",
+                "affiliation": []
+            },
+            {
+                "given": "François Bougard",
+                "family": "",
+                "affiliation": []
+            },
+            {
+                "given": "Mathieu Aubry",
+                "family": "",
+                "affiliation": []
+            },
+            {
+                "given": "Marc H. Smith",
+                "family": "",
+                "affiliation": []
+            },
+            {
+                "given": "Olivier Poncet",
+                "family": "",
+                "affiliation": []
+            },
+            {
+                "given": "Pierre-Guillaume Raverdy",
+                "family": "",
+                "affiliation": []
+            }
+        ],
+        "publisher": null,
+        "date": "2020/06/16",
+        "keywords": [
+            "cross-domain recognition ; deep learning ; watermark recognition ; web application ; paper analysis"
+        ],
+        "journal_title": "Journal of Data Mining & Digital Humanities",
+        "volume": "24",
+        "issue": null,
+        "ISSN": [
+            {
+                "value": null,
+                "type": null
+            }
+        ]
+    },
+    {
+        "url": "https://hal.archives-ouvertes.fr/hal-01283638v2",
+        "identifier": {
+            "string_id": "01283638",
+            "id_scheme": "hal"
+        },
+        "abstract": "Colophons of Armenian manuscripts are replete with yet untapped riches. Formulae are not the least among them: these recurrent stereotypical patterns conceal many clues as to the schools and networks of production and diffusion of books in Armenian communities. This paper proposes a methodology for exploiting these sources, as elaborated in the framework of a PhD research project about Armenian colophon formulae. Firstly, the reader is briefly introduced to the corpus of Armenian colophons and then, to the purposes of our project. In the third place, we describe our methodology, relying on lemmatization and modelling of patterns into automata. Fourthly and finally, the whole process is illustrated by a basic case study, the occasion of which is taken to outline the kind of results that can be achieved by combining this methodology with a philologico-historical approach to colophons.",
+        "article_title": "Recurrent Pattern Modelling in a Corpus of Armenian Manuscript Colophons",
+        "authors": [
+            {
+                "given": "Emmanuel van Elverdinghe",
+                "family": "",
+                "affiliation": []
+            }
+        ],
+        "publisher": null,
+        "date": "2017/12/22",
+        "keywords": [
+            "codicology ; Unitex ; finite state transducers ; Armenian colophons ; automata ; colophon formula ; formulaic patterns ; lemmatization ; manuscript studies"
+        ],
+        "journal_title": "Journal of Data Mining & Digital Humanities",
+        "volume": "Special Issue on Computer-Aided Processing of Intertextuality in Ancient Languages",
+        "issue": null,
+        "ISSN": [
+            {
+                "value": null,
+                "type": null
+            }
+        ]
+    },
+    {
+        "url": "https://hal.archives-ouvertes.fr/hal-01294158v2",
+        "identifier": {
+            "string_id": "01294158",
+            "id_scheme": "hal"
+        },
+        "abstract": "The project is to develop a database, which is planned to include all available information on the use of the Bible in the patristic works of Migne's Patrologia Graeca. Utilization of the data will be available through a web page equipped with necessary tools for developing data mining techniques and other methods of analysis. The main aim of the project is to revive the catenae, the ancient exegetical tool for biblical interpretation.",
+        "article_title": "Digital Greek Patristic Catena (DGPC). A brief presentation",
+        "authors": [
+            {
+                "given": "Athanasios Paparnakis",
+                "family": "",
+                "affiliation": []
+            },
+            {
+                "given": "Constantinos Domouchtsis",
+                "family": "",
+                "affiliation": []
+            }
+        ],
+        "publisher": null,
+        "date": "2017/07/24",
+        "keywords": [
+            "patristic authors ; Catena ; bible references ; biblical exegesis ; database ; Patrologia Graeca"
+        ],
+        "journal_title": "Journal of Data Mining & Digital Humanities",
+        "volume": "Special Issue on Computer-Aided Processing of Intertextuality in Ancient Languages",
+        "issue": null,
+        "ISSN": [
+            {
+                "value": null,
+                "type": null
+            }
+        ]
+    },
+    {
+        "url": "https://hal.archives-ouvertes.fr/halshs-01543050v2",
+        "identifier": {
+            "string_id": "halshs-01543050",
+            "id_scheme": "hal"
+        },
+        "abstract": "This paper discusses markup strategies for the identification and description of text reuses in a corpus of patristic texts related to the BIBLINDEX Project, an online index of biblical references in Early Christian Literature. In addition to the development of a database that can be queried by canonical biblical or patristic references, a sample corpus of patristic texts has been encoded following the guidelines of the TEI (Text Encoding Initiative), in order to provide direct access to quoted and quoting text passages to the users of the https://www.biblindex.info platform.",
+        "article_title": "TEI-encoding of text reuses in the BIBLINDEX Project",
+        "authors": [
+            {
+                "given": "Elysabeth Hue-Gay",
+                "family": "",
+                "affiliation": []
+            },
+            {
+                "given": "Laurence Mellerin",
+                "family": "",
+                "affiliation": []
+            },
+            {
+                "given": "Emmanuelle Morlock",
+                "family": "",
+                "affiliation": []
+            }
+        ],
+        "publisher": null,
+        "date": "2017/10/07",
+        "keywords": [
+            "patristics ;  Bernard of Clairvaux ;  Sources Chrétiennes ;  text reuses ; BIBLINDEX ;  quotations ;  Biblia Patristica ; TEI ;  Text Encoding Initiative ;  text markup ;  Bible ;  Greek ;  Latin ;  Septuagint ;  Vulgata"
+        ],
+        "journal_title": "Journal of Data Mining & Digital Humanities",
+        "volume": "Special Issue on Computer-Aided Processing of Intertextuality in Ancient Languages",
+        "issue": null,
+        "ISSN": [
+            {
+                "value": null,
+                "type": null
+            }
+        ]
+    },
+    {
+        "url": "https://hal.archives-ouvertes.fr/hal-01287195v4",
+        "identifier": {
+            "string_id": "01287195",
+            "id_scheme": "hal"
+        },
+        "abstract": "This contribution to a special issue on “Computer-aided processing of intertextuality” in ancient texts will illustrate how using digital tools to interact with the Hebrew Bible offers new promising perspectives for visualizing the texts and for performing tasks in education and research. This contribution explores how the corpus of the Hebrew Bible created and maintained by the Eep Talstra Centre for Bible and Computer can support new methods for modern knowledge workers within the field of digital humanities and theology be applied to ancient texts, and how this can be envisioned as a new field of digital intertextuality. The article first describes how the corpus was used to develop the Bible Online Learner as a persuasive technology to enhance language learning with, in, and around a database that acts as the engine driving interactive tasks for learners. Intertextuality in this case is a matter of active exploration and ongoing practice. Furthermore, interactive corpus-technology has an important bearing on the task of textual criticism as a specialized area of research that depends increasingly on the availability of digital resources. Commercial solutions developed by software companies like Logos and Accordance offer a market-based intertextuality defined by the production of advanced digital resources for scholars and students as useful alternatives to often inaccessible and expensive printed versions. It is reasonable to expect that in the future interactive corpus technology will allow scholars to do innovative academic tasks in textual criticism and interpretation. We have already seen the emergence of promising tools for text categorization, analysis of translation shifts, and interpretation. Broadly speaking, interactive tools and tasks within the three areas of language learning, textual criticism, and Biblical studies illustrate a new kind of intertextuality emerging within digital humanities. ",
+        "article_title": "Interactive Tools and Tasks for the Hebrew Bible: From Language Learning to Textual Criticism",
+        "authors": [
+            {
+                "given": "Nicolai Winther-Nielsen",
+                "family": "",
+                "affiliation": []
+            }
+        ],
+        "publisher": null,
+        "date": "2017/10/18",
+        "keywords": [
+            "Bible Online Learner ; Joshua 24 ;  Hebrew Bible ; Digital intertextuality ; Corpus ; Logos Bible software ; language learning ; Hebrew Bible ; ETCBC ; textual criticism ; Joshua"
+        ],
+        "journal_title": "Journal of Data Mining & Digital Humanities",
+        "volume": "Special Issue on Computer-Aided Processing of Intertextuality in Ancient Languages",
+        "issue": null,
+        "ISSN": [
+            {
+                "value": null,
+                "type": null
+            }
+        ]
+    },
+    {
+        "url": "https://hal.archives-ouvertes.fr/hal-01528092v2",
+        "identifier": {
+            "string_id": "01528092",
+            "id_scheme": "hal"
+        },
+        "abstract": "The Text Alignment Network (TAN) is a suite of XML encoding formats intended to serve anyone who wishes to encode, exchange, and study multiple versions of texts (e.g., translations, paraphrases), and annotations on those texts (e.g., quotations, word-for-word correspondences). This article focuses on TAN’s innovative intertextual pointers, which, I argue, provide an unprecedented level of readability, interoperability, and semantic context. Because TAN is a new, experimental format, this article provides a brief introduction to the format and concludes with comments on progress and future prospects.",
+        "article_title": "Intertextual Pointers in the Text Alignment Network",
+        "authors": [
+            {
+                "given": "Joel Kalvesmaki",
+                "family": "",
+                "affiliation": []
+            }
+        ],
+        "publisher": null,
+        "date": "2017/10/20",
+        "keywords": [
+            "alignment ;  TEI ; XML ;  TAN ;  intertextuality ;  canonical references"
+        ],
+        "journal_title": "Journal of Data Mining & Digital Humanities",
+        "volume": "Special Issue on Computer-Aided Processing of Intertextuality in Ancient Languages",
+        "issue": null,
+        "ISSN": [
+            {
+                "value": null,
+                "type": null
+            }
+        ]
+    },
+    {
+        "url": "https://hal.archives-ouvertes.fr/hal-01281266v2",
+        "identifier": {
+            "string_id": "01281266",
+            "id_scheme": "hal"
+        },
+        "abstract": "The ancient commentaries provide a large sample of quotations from classical or biblical texts for which Latin gramamrians developed a complex system of insertion of quoted texts. The paper examines how to encode these places using XML Tei, and focuses on difficult cases, such as inaccurate quotations, or quotations of partly or wholly lost texts.",
+        "article_title": "Encoding (inter)textual insertions in Latin \"grammatical commentary\"",
+        "authors": [
+            {
+                "given": "Bruno Bureau",
+                "family": "",
+                "affiliation": []
+            },
+            {
+                "given": "Christian Nicolas",
+                "family": "",
+                "affiliation": []
+            },
+            {
+                "given": "Ariane Pinche",
+                "family": "",
+                "affiliation": []
+            }
+        ],
+        "publisher": null,
+        "date": "2017/11/30",
+        "keywords": [
+            "Ancient commentary ; allusion ; fragmentary texts ; mentioned words ; Latin grammar ; XML Tei ; quotation"
+        ],
+        "journal_title": "Journal of Data Mining & Digital Humanities",
+        "volume": null,
+        "issue": null,
+        "ISSN": [
+            {
+                "value": null,
+                "type": null
+            }
+        ]
+    },
+    {
+        "url": "https://hal.archives-ouvertes.fr/hal-01265297v2",
+        "identifier": {
+            "string_id": "01265297",
+            "id_scheme": "hal"
+        },
+        "abstract": "The production of digital critical editions of texts using TEI is now a widely-adopted procedure within digital humanities. The work described in this paper extends this approach to the publication of gnomologia (anthologies of wise sayings) , which formed a widespread literary genre in many cultures of the medieval Mediterranean. These texts are challenging because they were rarely copied straightforwardly ; rather , sayings were selected , reorganised , modified or re-attributed between manuscripts , resulting in a highly interconnected corpus for which a standard approach to digital publication is insufficient. Focusing on Greek and Arabic collections , we address this challenge using semantic web techniques to create an ecosystem of texts , relationships and annotations , and consider a new model – organic , collaborative , interconnected , and open-ended – of what constitutes an edition. This semantic web-based approach allows scholars to add their own materials and annotations to the network of information and to explore the conceptual networks that arise from these interconnected sayings .",
+        "article_title": "Computer - Assisted Processing of Intertextuality in Ancient Languages",
+        "authors": [
+            {
+                "given": "Mark Hedges",
+                "family": "",
+                "affiliation": []
+            },
+            {
+                "given": "Anna Jordanous",
+                "family": "",
+                "affiliation": []
+            },
+            {
+                "given": "K. Faith Lawrence",
+                "family": "",
+                "affiliation": []
+            },
+            {
+                "given": "Charlotte Roueché",
+                "family": "",
+                "affiliation": []
+            },
+            {
+                "given": "Charlotte Tupman",
+                "family": "",
+                "affiliation": []
+            }
+        ],
+        "publisher": null,
+        "date": "2017/08/03",
+        "keywords": [
+            "TEI ; gnomologia ; RDF ; manuscripts ; ontology ; linked data ; semantic web ; digital edition ; anthologies"
+        ],
+        "journal_title": "Journal of Data Mining & Digital Humanities",
+        "volume": "Special Issue on Computer-Aided Processing of Intertextuality in Ancient Languages",
+        "issue": null,
+        "ISSN": [
+            {
+                "value": null,
+                "type": null
+            }
+        ]
+    },
+    {
+        "url": "https://hal.archives-ouvertes.fr/hal-01279493v2",
+        "identifier": {
+            "string_id": "01279493",
+            "id_scheme": "hal"
+        },
+        "abstract": "Greek documentary papyri form an important direct source for Ancient Greek. It has been exploited surprisingly little in Greek linguistics due to a lack of good tools for searching linguistic structures. This article presents a new tool and digital platform, “Sematia”, which enables transforming the digital texts available in TEI EpiDoc XML format to a format which can be morphologically and syntactically annotated (treebanked), and where the user can add new metadata concerning the text type, writer and handwriting of each act of writing. An important aspect in this process is to take into account the original surviving writing vs. the standardization of language and supplements made by the editors. This is performed by creating two different layers of the same text. The platform is in its early development phase. Ongoing and future developments, such as tagging linguistic variation phenomena as well as queries performed within Sematia, are discussed at the end of the article.",
+        "article_title": "Preprocessing Greek Papyri for Linguistic Annotation",
+        "authors": [
+            {
+                "given": "Marja Vierros",
+                "family": "",
+                "affiliation": []
+            },
+            {
+                "given": "Erik Henriksson",
+                "family": "",
+                "affiliation": []
+            }
+        ],
+        "publisher": null,
+        "date": "2017/06/09",
+        "keywords": [
+            "JavaScript ; Python ; MySQL ; TEI EpiDoc XML ; Greek ; papyri ; linguistic annotation ; treebank ; dependency grammar"
+        ],
+        "journal_title": "Journal of Data Mining & Digital Humanities",
+        "volume": "Special Issue on Computer-Aided Processing of Intertextuality in Ancient Languages",
+        "issue": null,
+        "ISSN": [
+            {
+                "value": null,
+                "type": null
+            }
+        ]
+    },
+    {
+        "url": "https://hal.archives-ouvertes.fr/hal-01371751v3",
+        "identifier": {
+            "string_id": "01371751",
+            "id_scheme": "hal"
+        },
+        "abstract": "We describe the course of a hackathon dedicated to the development of linguistic tools for Tibetan Buddhist studies. Over a period of five days, a group of seventeen scholars, scientists, and students developed and compared algorithms for intertextual alignment and text classification, along with some basic language tools, including a stemmer and word segmenter.",
+        "article_title": "A Hackathon for Classical Tibetan",
+        "authors": [
+            {
+                "given": "Orna Almogi",
+                "family": "",
+                "affiliation": []
+            },
+            {
+                "given": "Lena Dankin",
+                "family": "",
+                "affiliation": []
+            },
+            {
+                "given": "Nachum Dershowitz",
+                "family": "",
+                "affiliation": []
+            },
+            {
+                "given": "Lior Wolf",
+                "family": "",
+                "affiliation": []
+            }
+        ],
+        "publisher": null,
+        "date": "2018/12/30",
+        "keywords": [
+            "Tibetan ; Buddhist studies ; hackathon ; stemming ; segmentation ; intertextual alignment ; text classification"
+        ],
+        "journal_title": "Journal of Data Mining & Digital Humanities",
+        "volume": "Special Issue on Computer-Aided Processing of Intertextuality in Ancient Languages",
+        "issue": null,
+        "ISSN": [
+            {
+                "value": null,
+                "type": null
+            }
+        ]
+    },
+    {
+        "url": "https://hal.archives-ouvertes.fr/halshs-01532877v2",
+        "identifier": {
+            "string_id": "halshs-01532877",
+            "id_scheme": "hal"
+        },
+        "abstract": "The ‘Version Variation Visualization’ project has developed online tools to support comparative, algorithm-assisted investigations of a corpus of multiple versions of a text, e.g. variants, translations, adaptations (Cheesman, 2015, 2016; Cheesman et al., 2012, 2012-13, 2016; Thiel, 2014; links: www.tinyurl.com/vvvex). A segmenting and aligning tool allows users to 1) define arbitrary segment types, 2) define arbitrary text chunks as segments, and 3) align segments between a ‘base text’ (a version of the ‘original’ or translated text), and versions of it. The alignment tool can automatically align recurrent defined segment types in sequence. Several visual interfaces in the prototype installation enable exploratory access to parallel versions, to comparative visual representations of versions’ alignment with the base text, and to the base text visually annotated by an algorithmic analysis of variation among versions of segments. Data can be filtered, viewed and exported in diverse ways. Many more modes of access and analysis can be envisaged. The tool is language neutral. Experiments so far mostly use modern texts: German Shakespeare translations. Roos is working on a collection of approx. 100 distinct English-language translations of a Hebrew text with ancient Hebrew and Aramaic passages: the Haggadah (Roos, 2015)",
+        "article_title": "Version Variation Visualization (VVV): Case Studies on the Hebrew Haggadah in English",
+        "authors": [
+            {
+                "given": "Tom Cheesman",
+                "family": "",
+                "affiliation": []
+            },
+            {
+                "given": "Avraham Roos",
+                "family": "",
+                "affiliation": []
+            }
+        ],
+        "publisher": null,
+        "date": "2017/06/22",
+        "keywords": [
+            "digital humanities ; Social science ; translation ;  corpus ;  Judaism ;  haggadah ;  VVV ;  visualization ;  algorithm ;  retranslation ;  4 sons ; humanities"
+        ],
+        "journal_title": "Journal of Data Mining & Digital Humanities",
+        "volume": "Special Issue on Computer-Aided Processing of Intertextuality in Ancient Languages",
+        "issue": null,
+        "ISSN": [
+            {
+                "value": null,
+                "type": null
+            }
+        ]
+    },
+    {
+        "url": "https://hal.archives-ouvertes.fr/halshs-01557447v1",
+        "identifier": {
+            "string_id": "halshs-01557447",
+            "id_scheme": "hal"
+        },
+        "abstract": "A new method for grouping manuscripts in clusters is presented with the calculation of distances between readings, then between witnesses. A classification algorithm (\" Hierarchical Ascendant Clustering \"), achieved through computer-aided processing, enables the construction of trees illustrating the textual taxonomy obtained. This method is applied to the Old Latin witnesses of the Gospel of John, and, in order to provide a study of a reasonable size, to a chapter as a whole (chapter 14). The result basically confirms the text-types identified by Bonatius Fischer, founder of the Vetus Latina Institute, while it invalidates the classification adopted by the current edition of the Vetus Latina of the Gospel of John.",
+        "article_title": "A Classification of Manuscripts Based on A New Quantitative Method. The Old Latin Witnesses of John's Gospel as Text Case",
+        "authors": [
+            {
+                "given": "David Pastorelli",
+                "family": "",
+                "affiliation": []
+            }
+        ],
+        "publisher": null,
+        "date": "2017/07/06",
+        "keywords": [
+            "Manuscripts ; Gospel of John ; latin witnesses"
+        ],
+        "journal_title": "Journal of Data Mining & Digital Humanities",
+        "volume": "Special Issue on Computer-Aided Processing of Intertextuality in Ancient Languages",
+        "issue": null,
+        "ISSN": [
+            {
+                "value": null,
+                "type": null
+            }
+        ]
+    },
+    {
+        "url": "https://hal.archives-ouvertes.fr/hal-01276243v3",
+        "identifier": {
+            "string_id": "01276243",
+            "id_scheme": "hal"
+        },
+        "abstract": "The Project The literary tradition in the third and fourth centuries CE: Grammarians, rhetoricians and sophists as sources of Graeco-Roman literature (FFI2014-52808-C2-1-P) aims to trace and classify all types of quotations, both explicit (with or without mention of the author and/or title) and hidden, in a corpus comprising the Greek grammarians, rhetoricians and \" sophists \" of the third and fourth centuries CE. At the same time, we try to detect whether or not these are first-hand quotations, and if our quoting authors (28 in all) are, in turn, secondary sources for the same citations in later authors. We also study the philological (textual) aspects of the quotations in their context, and the problems of limits they sometimes pose. Finally, we are interested in the function of the quotation in the citing work. This is the first time that such a comprehensive study of this corpus is attempted. This paper explains our methodology, and how we store all these data in our electronic card-file. ",
+        "article_title": "Dealing with all types of quotations (and their parallels) in a closed corpus: The methodology of the Project The literary tradition in the third and fourth centuries CE: Grammarians, rhetoricians and sophists as sources of Graeco-Roman literature",
+        "authors": [
+            {
+                "given": "Lucía Rodríguez-Noriega",
+                "family": "",
+                "affiliation": []
+            }
+        ],
+        "publisher": null,
+        "date": "2017/06/13",
+        "keywords": [
+            "Intertextuality ; Greco-Roman scholars of the Empire ; Fragmentary literature"
+        ],
+        "journal_title": "Journal of Data Mining & Digital Humanities",
+        "volume": "Special Issue on Computer-Aided Processing of Intertextuality in Ancient Languages",
+        "issue": null,
+        "ISSN": [
+            {
+                "value": null,
+                "type": null
+            }
+        ]
+    },
+    {
+        "url": "https://hal.archives-ouvertes.fr/hal-01294591v2",
+        "identifier": {
+            "string_id": "01294591",
+            "id_scheme": "hal"
+        },
+        "abstract": "This paper discusses the word level alignment of lemmatised bitext consisting of the Oratio I of Gregory of Nazianzus in its Greek model and Georgian translation. This study shows how the direct and empirical observations offered by an aligned text enable an accurate analysis of techniques of translation and many philological parameters of the text.",
+        "article_title": "Text Alignment in Ancient Greek and Georgian: A Case-Study on the First Homily of Gregory of Nazianzus",
+        "authors": [
+            {
+                "given": "Tamara Pataridze",
+                "family": "",
+                "affiliation": []
+            },
+            {
+                "given": "Bastien Kindt",
+                "family": "",
+                "affiliation": []
+            }
+        ],
+        "publisher": null,
+        "date": "2017/12/22",
+        "keywords": [
+            "lexical tagging ; corpus ; bilingual dictionaries ; bitext ; Ancient Greek ; Ancient Georgian ; morphological tagging ; text alignment ; lemmatisation ;  morphological tagging"
+        ],
+        "journal_title": "Journal of Data Mining & Digital Humanities",
+        "volume": "Special Issue on Computer-Aided Processing of Intertextuality in Ancient Languages",
+        "issue": null,
+        "ISSN": [
+            {
+                "value": null,
+                "type": null
+            }
+        ]
+    },
+    {
+        "url": "https://hal.archives-ouvertes.fr/hal-01645124v2",
+        "identifier": {
+            "string_id": "01645124",
+            "id_scheme": "hal"
+        },
+        "abstract": "This article explores whether and how network visualization can benefit philological and historical-linguistic study. This is illustrated with a corpus-based investigation of scribes' language use in a lemmatized and morphologically annotated corpus of documentary Latin (Late Latin Charter Treebank, LLCT2). We extract four continuous linguistic variables from LLCT2 and utilize a gradient colour palette in Gephi to visualize the variable values as node attributes in a trimodal network which consists of the documents, writers, and writing locations underlying the same corpus. We call this network the \"LLCT2 network\". The geographical coordinates of the location nodes form an approximate map, which allows for drawing geographical conclusions. The linguistic variables are examined both separately and as a sum variable, and the visualizations presented as static images and as interactive Sigma.js visualizations. The variables represent different domains of language competence of scribes who learnt written Latin practically as a second-language. The results show that the network visualization of linguistic features helps in observing patterns which support linguistic-philological argumentation and which risk passing unnoticed with traditional methods. However, the approach is subject to the same limitations as all visualization techniques: the human eye can only perceive a certain, relatively small amount of information at a time.",
+        "article_title": "Visualizing linguistic variation in a network of Latin documents and scribes",
+        "authors": [
+            {
+                "given": "Timo Korkiakangas",
+                "family": "",
+                "affiliation": []
+            },
+            {
+                "given": "Matti Lassila",
+                "family": "",
+                "affiliation": []
+            }
+        ],
+        "publisher": null,
+        "date": "2018/04/24",
+        "keywords": [
+            "network visualization ;  Latin linguistics ;  Early Middle Ages ;  philology"
+        ],
+        "journal_title": "Journal of Data Mining & Digital Humanities",
+        "volume": "Special Issue on Computer-Aided Processing of Intertextuality in Ancient Languages",
+        "issue": null,
+        "ISSN": [
+            {
+                "value": null,
+                "type": null
+            }
+        ]
+    },
+    {
+        "url": "https://hal.archives-ouvertes.fr/hal-01282568v4",
+        "identifier": {
+            "string_id": "01282568",
+            "id_scheme": "hal"
+        },
+        "abstract": "Most intertextuality in classical poetry is unmarked, that is, it lacks objective signposts to make readers aware of the presence of references to existing texts. Intergeneric relationships can pose a particular problem as scholarship has long privileged intertextual relationships between works of the same genre. This paper treats the influence of Latin love elegy on Lucan’s epic poem, Bellum Civile, by looking at two features of unmarked intertextuality: frequency and distribution. I use the Tesserae project to generate a dataset of potential intertexts between Lucan’s epic and the elegies of Tibullus, Propertius, and Ovid, which are then aggregrated and mapped in Lucan’s text. This study draws two conclusions: 1. measurement of intertextual frequency shows that the elegists contribute fewer intertexts than, for example, another epic poem (Virgil’s Aeneid), though far more than the scholarly record on elegiac influence in Lucan would suggest; and 2. mapping the distribution of intertexts confirms previous scholarship on the influence of elegy on the Bellum Civile by showing concentrations of matches, for example, in Pompey and Cornelia’s meeting before Pharsalus (5.722-815) or during the affair between Caesar and Cleopatra (10.53-106). By looking at both frequency and proportion, we can demonstrate systematically the generic enrichment of Lucan’s Bellum Civile with respect to Latin love elegy.",
+        "article_title": "Measuring and Mapping Intergeneric Allusion in Latin Poetry using Tesserae",
+        "authors": [
+            {
+                "given": "Patrick J. Burns",
+                "family": "",
+                "affiliation": []
+            }
+        ],
+        "publisher": null,
+        "date": "2017/07/31",
+        "keywords": [
+            "allusion ;  Lucan ;  Latin epic ;  Latin love elegy ;  intertextuality ;  generic enrichment ;  Tesserae"
+        ],
+        "journal_title": "Journal of Data Mining & Digital Humanities",
+        "volume": "Special Issue on Computer-Aided Processing of Intertextuality in Ancient Languages",
+        "issue": null,
+        "ISSN": [
+            {
+                "value": null,
+                "type": null
+            }
+        ]
+    },
+    {
+        "url": "https://hal.archives-ouvertes.fr/hal-01280627v4",
+        "identifier": {
+            "string_id": "01280627",
+            "id_scheme": "hal"
+        },
+        "abstract": "If one is convinced that \" quantitative research provides data not interpretation \" [Moretti, 2005, 9], close reading should thus be considered as not only the necessary bridge between big data and interpretation but also the core duty of the Humanities. To test its potential in a neglected field – the Arabic manuscripts of the Letters of Paul of Tarsus – an enhanced, digital edition has been in development as a progression of a Swiss National Fund project. This short paper presents the development of this edition and perspectives regarding a second project. Based on the Edition Visualization Technology tool, the digital edition provides a transcription of the Arabic text, a standardized and vocalized version, as well as French translation with all texts encoded in TEI XML. Thanks to another Swiss National Foundation subsidy, a new research project on the unique New Testament, trilingual (Greek-Latin-Arabic) manuscript, the Marciana Library Gr. Z. 11 (379), 12th century, is currently underway. This project includes new features such as \" Textlink \" , \" Hotspot \" and notes: HumaReC.",
+        "article_title": "Editing New Testament Arabic Manuscripts in a TEI-base: fostering close reading in Digital Humanities",
+        "authors": [
+            {
+                "given": "Claire Clivaz",
+                "family": "",
+                "affiliation": []
+            },
+            {
+                "given": "Sara Schulthess",
+                "family": "",
+                "affiliation": []
+            },
+            {
+                "given": "Martial Sankar",
+                "family": "",
+                "affiliation": []
+            }
+        ],
+        "publisher": null,
+        "date": "2017/06/03",
+        "keywords": [
+            "Paul of Tarsus ; Letters ; Digital edition ; Arabic TEI ; New Testament"
+        ],
+        "journal_title": "Journal of Data Mining & Digital Humanities",
+        "volume": "Special Issue on Computer-Aided Processing of Intertextuality in Ancient Languages",
+        "issue": null,
+        "ISSN": [
+            {
+                "value": null,
+                "type": null
+            }
+        ]
+    },
+    {
+        "url": "https://hal.archives-ouvertes.fr/hal-01759191v2",
+        "identifier": {
+            "string_id": "01759191",
+            "id_scheme": "hal"
+        },
+        "abstract": "The EUROPANGE project, involving both medievalists and computer scientists, aims to study the emergence of a corps of administrators in the Angevin controlled territories in the XIII–XV centuries. Our project attempts to analyze the officers' careers, shared relation networks and strategies based on the study of individual biographies. In this paper, we describe methods and tools designed to analyze these prosopographical data. These include OLAP analyzes and network analyzes associated with cartographic and chronological visualization tools.",
+        "article_title": "Prosopographical data analysis. Application to the Angevin officers (XIII–XV centuries)",
+        "authors": [
+            {
+                "given": "Anne Tchounikine",
+                "family": "",
+                "affiliation": []
+            },
+            {
+                "given": "Maryvonne Miquel",
+                "family": "",
+                "affiliation": []
+            },
+            {
+                "given": "Thierry Pécout",
+                "family": "",
+                "affiliation": []
+            },
+            {
+                "given": "Jean-Luc Bonnaud",
+                "family": "",
+                "affiliation": []
+            }
+        ],
+        "publisher": null,
+        "date": "2018/05/24",
+        "keywords": [],
+        "journal_title": "Journal of Data Mining & Digital Humanities",
+        "volume": "Special Issue on Data Science and Digital Humanities @ EGC 2018",
+        "issue": null,
+        "ISSN": [
+            {
+                "value": null,
+                "type": null
+            }
+        ]
+    },
+    {
+        "url": "https://hal.archives-ouvertes.fr/hal-01762730v5",
+        "identifier": {
+            "string_id": "01762730",
+            "id_scheme": "hal"
+        },
+        "abstract": "This work applies knowledge engineering’s techniques to medieval illuminations. Inside it, an illumination is considered as a knowledge graph which was used by some elites in the Middle Ages to represent themselves as a social group and exhibit the events in their lives, and their cultural values. That graph is based on combinations of symbolic elements linked each to others with semantic relations. Those combinations were used to encode visual metaphors and influential messages whose interpretations are sometimes tricky for not experts. Our work aims to describe the meaning of those elements through logical modelling using ontologies. To achieve that, we construct logical reasoning rules and simulate them using artificial intelligence mechanisms. The goal is to facilitate the interpretation of illuminations and provide, in a future evolution of current social media, logical formalisation of new encoding and information transmission services.",
+        "article_title": "Causal reasoning and symbolic relationships in Medieval Illuminations",
+        "authors": [
+            {
+                "given": "Djibril Diarra",
+                "family": "",
+                "affiliation": []
+            },
+            {
+                "given": "Martine Clouzot",
+                "family": "",
+                "affiliation": []
+            },
+            {
+                "given": "Christophe Nicolle",
+                "family": "",
+                "affiliation": []
+            }
+        ],
+        "publisher": null,
+        "date": "2019/06/03",
+        "keywords": [
+            "Semantic relation ; Symbolic relation ; Ontology ; Social network ; Medieval illumination"
+        ],
+        "journal_title": "Journal of Data Mining & Digital Humanities",
+        "volume": "Special Issue on Data Science and Digital Humanities @ EGC 2018",
+        "issue": null,
+        "ISSN": [
+            {
+                "value": null,
+                "type": null
+            }
+        ]
+    },
+    {
+        "url": "https://hal.archives-ouvertes.fr/hal-01466986v2",
+        "identifier": {
+            "string_id": "01466986",
+            "id_scheme": "hal"
+        },
+        "abstract": "Digital humanities require IT Infrastructure and sophisticated analytical tools, including data visualization, data mining, statistics, text mining and information retrieval. Regarding funding, to build a local data center will necessitate substantial investments. Fortunately, there is another option that will help researchers take advantage of these IT services to access, use and share information easily. Cloud services ideally offer on-demand software and resources over the Internet to read and analyze ancient documents. More interestingly, billing system is completely flexible and based on resource usage and Quality of Service (QoS) level. In spite of its multiple advantages, outsourcing computations to an external provider arises several challenges. Specifically, security is the major factor hindering the widespread acceptance of this new concept. As a case study, we review the use of cloud computing to process digital images safely. Recently, various solutions have been suggested to secure data processing in cloud environement. Though, ensuring privacy and high performance needs more improvements to protect the organization's most sensitive data. To this end, we propose a framework based on segmentation and watermarking techniques to ensure data privacy. In this respect, segementation algorithm is used to to protect client's data against untauhorized access, while watermarking method determines and maintains ownership. Consequentely, this framework will increase the speed of development on ready-to-use digital humanities tools.",
+        "article_title": "A Secured Data Processing Technique for Effective Utilization of Cloud Computing",
+        "authors": [
+            {
+                "given": "Mbarek Marwan",
+                "family": "",
+                "affiliation": []
+            },
+            {
+                "given": "Ali Kartit",
+                "family": "",
+                "affiliation": []
+            },
+            {
+                "given": "Hassan Ouahmane",
+                "family": "",
+                "affiliation": []
+            }
+        ],
+        "publisher": null,
+        "date": "2017/11/21",
+        "keywords": [
+            "data processing ; security ; digital humanities ; cloud computing"
+        ],
+        "journal_title": "Journal of Data Mining & Digital Humanities",
+        "volume": "Special Issue on Scientific and Technological Strategic Intelligence (2016)",
+        "issue": null,
+        "ISSN": [
+            {
+                "value": null,
+                "type": null
+            }
+        ]
+    },
+    {
+        "url": "https://hal.archives-ouvertes.fr/hal-01466986v1",
+        "identifier": {
+            "string_id": "01466986",
+            "id_scheme": "hal"
+        },
+        "abstract": "Digital humanities require IT Infrastructure and sophisticated analytical tools, including data visualization, data mining, statistics, text mining and information retrieval. Regarding funding, to build a local data center will necessitate substantial investments. Fortunately, there is another option that will help researchers take advantage of these IT services to access, use and share information easily. Cloud services ideally offer on-demand software and resources over the Internet to read and analyze ancient documents. More interestingly, billing system is completely flexible and based on resource usage and Quality of Service (QoS) level. In spite of its multiple advantages, outsourcing computations to an external provider arises several challenges. Specifically, security is the major factor hindering the widespread acceptance of this new concept. As a case study, we review the use of cloud computing to process digital images safely. Recently, various solutions have been suggested to secure data processing in cloud environement. Though, ensuring privacy and high performance needs more improvements to protect the organization's most sensitive data. To this end, we propose a framework based on segmentation and watermarking techniques to ensure data privacy. In this respect, segementation algorithm is used to to protect client's data against untauhorized access, while watermarking method determines and maintains ownership. Consequentely, this framework will increase the speed of development on ready-to-use digital humanities tools.",
+        "article_title": "A Secured Data Processing Technique for Effective Utilization of Cloud Computing",
+        "authors": [
+            {
+                "given": "Mbarek Marwan",
+                "family": "",
+                "affiliation": []
+            },
+            {
+                "given": "Ali Kartit",
+                "family": "",
+                "affiliation": []
+            },
+            {
+                "given": "Hassan Ouahmane",
+                "family": "",
+                "affiliation": []
+            }
+        ],
+        "publisher": null,
+        "date": "2017/02/16",
+        "keywords": [
+            "cloud computing ; digital humanities ; security ; data processing"
+        ],
+        "journal_title": "Journal of Data Mining & Digital Humanities",
+        "volume": "Special Issue on Scientific and Technological Strategic Intelligence (2016)",
+        "issue": null,
+        "ISSN": [
+            {
+                "value": null,
+                "type": null
+            }
+        ]
+    },
+    {
+        "url": "https://hal.archives-ouvertes.fr/hal-01456090v2",
+        "identifier": {
+            "string_id": "01456090",
+            "id_scheme": "hal"
+        },
+        "abstract": "This paper proposes an ontological integration model for credit risk management. It is based on three ontologies; one is global describing credit risk management process and two other locals, the first, describes the credit granting process, and the second presents the concepts necessary for the monitoring of credit system. This paper also presents the technique used for matching between global ontology and local ontologies. ",
+        "article_title": "Applying ontologies to data integration systems for bank credit risk management",
+        "authors": [
+            {
+                "given": "Jalil Elhassouni",
+                "family": "",
+                "affiliation": []
+            },
+            {
+                "given": "Mehdi Bazzi",
+                "family": "",
+                "affiliation": []
+            },
+            {
+                "given": "Abderrahim Qadi",
+                "family": "",
+                "affiliation": []
+            },
+            {
+                "given": "Mohamed Haziti",
+                "family": "",
+                "affiliation": []
+            }
+        ],
+        "publisher": null,
+        "date": "2017/11/26",
+        "keywords": [
+            "credit risk management ;  data integration ;  ontologies alignment"
+        ],
+        "journal_title": "Journal of Data Mining & Digital Humanities",
+        "volume": "Special Issue on Scientific and Technological Strategic Intelligence (2016)",
+        "issue": null,
+        "ISSN": [
+            {
+                "value": null,
+                "type": null
+            }
+        ]
+    },
+    {
+        "url": "https://hal.archives-ouvertes.fr/hal-01458216v1",
+        "identifier": {
+            "string_id": "01458216",
+            "id_scheme": "hal"
+        },
+        "abstract": "In this paper we present a system for offline recognition cursive Arabic handwritten text which is analytical without explicit segmentation based on Hidden Markov Models (HMMs). Extraction features preceded by baseline estimation are statistical and geometric to integrate both the peculiarities of the text and the pixel distribution characteristics in the word image. These features are modelled using hidden Markov models. The HMM-based classifiercontains a training module and a recognition module. The training module estimates the parameters of each of the character HMMs uses the Baum-Welchalgorithm. In the recognition phase, feature vectors extracted from an image are passed to a network of word lexicon entries formed of character models. The character sequence providing the maximumlikelihood identifies the recognized entry. If required, the recognition can generate N best output hypotheses rather than just the single best one. To determine the best output hypotheses, the Viterbi algorithm is used.The experiments on images of the benchmark IFN/ENIT database show that the proposed system improves recognition.",
+        "article_title": "Cursive Arabic Handwriting Recognition System Without Explicit Segmentation Based on Hidden Markov Models",
+        "authors": [
+            {
+                "given": "Mouhcine Rabi",
+                "family": "",
+                "affiliation": []
+            },
+            {
+                "given": "Mustapha Amrouch",
+                "family": "",
+                "affiliation": []
+            },
+            {
+                "given": "Zouhair Mahani",
+                "family": "",
+                "affiliation": []
+            }
+        ],
+        "publisher": null,
+        "date": "2017/02/09",
+        "keywords": [
+            "HMMs ; Arabic text ; handwriting ; Recognition"
+        ],
+        "journal_title": "Journal of Data Mining & Digital Humanities",
+        "volume": "Special Issue on Scientific and Technological Strategic Intelligence (2016)",
+        "issue": null,
+        "ISSN": [
+            {
+                "value": null,
+                "type": null
+            }
+        ]
+    },
+    {
+        "url": "https://hal.archives-ouvertes.fr/hal-01443713v1",
+        "identifier": {
+            "string_id": "01443713",
+            "id_scheme": "hal"
+        },
+        "abstract": null,
+        "article_title": "Smarter Round Robin Scheduling Algorithm for Cloud Computing and Big Data",
+        "authors": [
+            {
+                "given": "Hicham Gibet Tani",
+                "family": "",
+                "affiliation": []
+            },
+            {
+                "given": "Chaker El Amrani",
+                "family": "",
+                "affiliation": []
+            }
+        ],
+        "publisher": null,
+        "date": "2017/01/23",
+        "keywords": [
+            "Scheduling Algorithms ; Cloud Computing Simulation ; First Come First Served",
+            "Cloud Computing ; Big Data ; Algorithme de planification ; Simulation Cloud Computing ; Round Robin ; Premier Arrivé Premier Servi"
+        ],
+        "journal_title": "Journal of Data Mining & Digital Humanities",
+        "volume": "Special Issue on Scientific and Technological Strategic Intelligence (2016)",
+        "issue": null,
+        "ISSN": [
+            {
+                "value": null,
+                "type": null
+            }
+        ]
+    },
+    {
+        "url": "https://hal.archives-ouvertes.fr/hal-01024985v4",
+        "identifier": {
+            "string_id": "01024985",
+            "id_scheme": "hal"
+        },
+        "abstract": "The contribution of this article is twofold: the adaptation and application of models of deception from psychology, combined with data-mining techniques, to the text of speeches given by candidates in the 2008 U.S. presidential election; and the observation of both short-term and medium-term differences in the levels of deception. Rather than considering the effect of deception on voters, deception is used as a lens through which to observe the self-perceptions of candidates and campaigns. The method of analysis is fully automated and requires no human coding, and so can be applied to many other domains in a straightforward way. The authors posit explanations for the observed variation in terms of a dynamic tension between the goals of campaigns at each moment in time, for example gaps between their view of the candidate’s persona and the persona expected for the position; and the difficulties of crafting and sustaining a persona, for example, the cognitive cost and the need for apparent continuity with past actions and perceptions. The changes in the resulting balance provide a new channel by which to understand the drivers of political campaigning, a channel that is hard to manipulate because its markers are created subconsciously.",
+        "article_title": "Deception in Speeches of Candidates for Public Office",
+        "authors": [
+            {
+                "given": "David Skillicorn",
+                "family": "",
+                "affiliation": []
+            },
+            {
+                "given": "Christian Leuprecht",
+                "family": "",
+                "affiliation": []
+            }
+        ],
+        "publisher": null,
+        "date": "2015/08/16",
+        "keywords": [
+            "political discourse ; corpus analytics ; U.S. presidential elections ; deception ; singular value decomposition"
+        ],
+        "journal_title": "Journal of Data Mining & Digital Humanities",
+        "volume": null,
+        "issue": null,
+        "ISSN": [
+            {
+                "value": null,
+                "type": null
+            }
+        ]
+    },
+    {
+        "url": "https://hal.archives-ouvertes.fr/hal-02154122v2",
+        "identifier": {
+            "string_id": "02154122",
+            "id_scheme": "hal"
+        },
+        "abstract": "Tokenization of modern and old Western European languages seems to be fairly simple, as it stands on the presence mostly of markers such as spaces and punctuation. However, when dealing with old sources like manuscripts written in scripta continua, antiquity epigraphy or Middle Age manuscripts, (1) such markers are mostly absent, (2) spelling variation and rich morphology make dictionary based approaches difficult. Applying convolutional encoding to characters followed by linear categorization to word-boundary or in-word-sequence is shown to be effective at tokenizing such inputs. Additionally, the software is released with a simple interface for tokenizing a corpus or generating a training set.",
+        "article_title": "Evaluating Deep Learning Methods for Word Segmentation of Scripta Continua Texts in Old French and Latin",
+        "authors": [
+            {
+                "given": "Thibault Clérice",
+                "family": "",
+                "affiliation": []
+            }
+        ],
+        "publisher": null,
+        "date": "2020/04/05",
+        "keywords": [
+            "convolutional network ; scripta continua ; tokenization ; Old French ; word segmentation"
+        ],
+        "journal_title": "Journal of Data Mining & Digital Humanities",
+        "volume": "2020",
+        "issue": null,
+        "ISSN": [
+            {
+                "value": null,
+                "type": null
+            }
+        ]
+    },
+    {
+        "url": "https://hal.archives-ouvertes.fr/hal-00919370v3",
+        "identifier": {
+            "string_id": "00919370",
+            "id_scheme": "hal"
+        },
+        "abstract": "This research study tested three different NLP technologies to analyze representative journalistic discourse used in the 2007 and 2012 presidential campaigns in France. The analysis focused on the discourse in relation to the candidate's gender and/ or political party. Our findings suggest that using specific software to examine a journalistic corpus can reveal linguistic patterns and choices made on the basis of political affiliation and/or gender stereotypes. These conclusions are drawn from quantitative and qualitative analysis carried out with three different software programs: SEMY, which semi-automatically provides semantic profiles; ANTCONC, which provides useful Keywords in Context (KWIC) or abstracts of texts, as well as collocations; TERMOSTAT, which reveals discourse specificities, frequencies and the most common morpho-syntactic patterns. Analysis of our data point to convergent asymmetries between female and male candidates in journalistic discourse (however conditionally) for the 2007 and the 2012 French presidential campaigns. We conclude that social gender (i.e., stereotypical expectations of who will be a typical member of a given category) and / or political favoritism may affect the representation of leadership in discourse, which, in turn, may influence the readership, hence the electorate. Thus the study recommends the use of corpus linguistic tools for the semi-automatic investigation of political texts.",
+        "article_title": "ANALYSING JOURNALISTIC DISCOURSE AND FINDING OPINIONS SEMI-AUTOMATICALLY?: A CASE STUDY OF THE 2007 AND 2012 PRESIDENTIAL FRENCH CAMPAIGNS",
+        "authors": [
+            {
+                "given": "Fabienne Baider",
+                "family": "",
+                "affiliation": []
+            }
+        ],
+        "publisher": null,
+        "date": "2014/05/02",
+        "keywords": [
+            "semi-automatic reading ; gender stereotypes ; political favoritism ; journalistic discourse ; French presidential campaign",
+            "lecture automatique ; stéréotypes de genre ; biais politique ; discours journalistique ; campagne présidentielle française"
+        ],
+        "journal_title": "Journal of Data Mining & Digital Humanities",
+        "volume": "2014",
+        "issue": null,
+        "ISSN": [
+            {
+                "value": null,
+                "type": null
+            }
+        ]
+    },
+    {
+        "url": "https://hal.archives-ouvertes.fr/hal-01981922v3",
+        "identifier": {
+            "string_id": "01981922",
+            "id_scheme": "hal"
+        },
+        "abstract": "This paper addresses the integration of a Named Entity Recognition and Disambiguation (NERD) service within a group of open access (OA) publishing digital platforms and considers its potential impact on both research and scholarly publishing. The software powering this service, called entity-fishing, was initially developed by Inria in the context of the EU FP7 project CENDARI and provides automatic entity recognition and disambiguation using the Wikipedia and Wikidata data sets. The application is distributed with an open-source licence, and it has been deployed as a web service in DARIAH's infrastructure hosted by the French HumaNum. In the paper, we focus on the specific issues related to its integration on five OA platforms specialized in the publication of scholarly monographs in the social sciences and humanities (SSH), as part of the work carried out within the EU H2020 project HIRMEOS (High Integration of Research Monographs in the European Open Science infrastructure). In the first section, we give a brief overview of the current status and evolution of OA publications, considering specifically the challenges that OA monographs are encountering. In the second part, we show how the HIRMEOS project aims to face these challenges by optimizing five OA digital platforms for the publication of monographs from the SSH and ensuring their interoperability. In sections three and four we give a comprehensive description of the entity-fishing service, focusing on its concrete applications in real use cases together with some further possible ideas on how to exploit the annotations generated. We show that entity-fishing annotations can improve both research and publishing process. In the last chapter, we briefly present further possible application scenarios that could be made available through infrastructural projects.",
+        "article_title": "Leveraging Concepts in Open Access Publications",
+        "authors": [
+            {
+                "given": "Andrea Bertino",
+                "family": "",
+                "affiliation": []
+            },
+            {
+                "given": "Luca Foppiano",
+                "family": "",
+                "affiliation": []
+            },
+            {
+                "given": "Laurent Romary",
+                "family": "",
+                "affiliation": []
+            },
+            {
+                "given": "Pierre Mounier",
+                "family": "",
+                "affiliation": []
+            }
+        ],
+        "publisher": null,
+        "date": "2019/03/25",
+        "keywords": [
+            "Open Access ; Named Entity Recognition and Disambiguation (NERD) ; Entity-Fishing ; Monographs ; Digital Publishing Platforms"
+        ],
+        "journal_title": "Journal of Data Mining & Digital Humanities",
+        "volume": "2019",
+        "issue": null,
+        "ISSN": [
+            {
+                "value": null,
+                "type": null
+            }
+        ]
+    },
+    {
+        "url": "https://hal.archives-ouvertes.fr/hal-02324617v2",
+        "identifier": {
+            "string_id": "02324617",
+            "id_scheme": "hal"
+        },
+        "abstract": "In this study, we address the interesting task of classifying historical texts by their assumed period of writ-ing. This task is useful in digital humanity studies where many texts have unidentified publication dates.For years, the typical approach for temporal text classification was supervised using machine-learningalgorithms.  These algorithms require careful feature engineering and considerable domain expertise todesign a feature extractor to transform the raw text into a feature vector from which the classifier couldlearn to classify any unseen valid input.  Recently, deep learning has produced extremely promising re-sults for various tasks in natural language processing (NLP). The primary advantage of deep learning isthat human engineers did not design the feature layers, but the features were extrapolated from data witha general-purpose learning procedure. We investigated deep learning models for period classification ofhistorical texts. We compared three common models: paragraph vectors, convolutional neural networks (CNN) and recurrent neural networks (RNN), and conventional machine-learning methods. We demon-strate that the CNN and RNN models outperformed the paragraph vector model and the conventionalsupervised machine-learning algorithms.  In addition, we constructed word embeddings for each timeperiod and analyzed semantic changes of word meanings over time.",
+        "article_title": "Deep Learning for Period Classification of Historical Hebrew Texts",
+        "authors": [
+            {
+                "given": "Chaya Liebeskind",
+                "family": "",
+                "affiliation": []
+            },
+            {
+                "given": "Shmuel Liebeskind",
+                "family": "",
+                "affiliation": []
+            }
+        ],
+        "publisher": null,
+        "date": "2020/06/01",
+        "keywords": [
+            "Machine Learning ; Deep Learning ; Diachronic Corpus ; Period Classification"
+        ],
+        "journal_title": "Journal of Data Mining & Digital Humanities",
+        "volume": "2020",
+        "issue": null,
+        "ISSN": [
+            {
+                "value": null,
+                "type": null
+            }
+        ]
+    }
+]

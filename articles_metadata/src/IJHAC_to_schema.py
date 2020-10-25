@@ -4,10 +4,11 @@ import os
 def to_my_schema(path, file_name):
     with open(f'{path}/{file_name}', "r", encoding="utf-8") as f:
         input_schema = json.load(f)
-        with open(f"../data/json_files/my_schema_{file_name}", "a", encoding="utf-8") as fd:
+        with open(f"../data/json_files/my_schema/ms_{file_name}", "a", encoding="utf-8") as fd:
             fd.write("[")
             for key, value in input_schema.items():
-                identifier = value["ID"]
+                url = value["url"]
+                identifier = value["doi"]
                 authors = value["author"]
                 if "abstract" in value:
                     abstract = value["abstract"]
@@ -15,15 +16,16 @@ def to_my_schema(path, file_name):
                     abstract = ""
                 title = value["title"]
                 date = value["year"]
-                publisher = value["publisher"]
+                publisher = ""
                 journal_title = value["journal"]
                 keywords = []
                 volume = value["volume"]
                 issue = value["number"]
-                ISSN = value["issn"]
+                ISSN = ""
 
                     # creating my schema
                 python_dict = dict()
+                python_dict['urk'] = url
                 python_dict['identifier'] = {
                     'string_id' : identifier,
                     'id_scheme' : "DOI" 
@@ -46,6 +48,6 @@ def to_my_schema(path, file_name):
                 
 
 path = '../data/json_files'
-file_name = 'IJHAC_proceedin.json'
+file_name = 'IJHAC.json'
 
 to_my_schema(path, file_name)    
