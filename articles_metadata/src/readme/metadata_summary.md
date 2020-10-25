@@ -1,10 +1,10 @@
 |                   Journal                   	| Provider 	| Abstract 	| Affiliation 	|
 |:-------------------------------------------:	|----------	|:--------:	|:-----------:	|
-| Computers and the Humanities             |website (bib) 104/104| yes |no (aut wrong format)|
+| Computers and the Humanities             |website (bib) 104/104| yes |no (aut wrong format, fare a mano? sono 100+)|
 | Computers in the Humanities Working Papers    | by hand from web 37/37| yes|  yes       |
 | Digital Literary Studies                      | by hand from web 4/4|   yes |   yes       | 
-| Digital_Medievalist                          	| Crossref 80/80|   yes    	|     no      	|
-| Digital_Philology                             | Crossref 101/101|   yes   |      no     	|
+| Digital_Medievalist                          	| Crossref 45/80|   yes    	|     no      	|
+| Digital_Philology                             | Crossref 101/101|yes |      no     	|
 | Digital_Scholarship_in_the_Humanities         | Crossref 822/904|no (cant access)| yes  |
 | Digital Studies / Le champ numérique        	| Crossref 84/88|  yes 	|   no         	|
 | Digitális Bölcsészet                          | Crossref 18/18 |  no (lingua)|    no  |
@@ -13,7 +13,7 @@
 | International Journal for Digital Art History | Datacite 36/36| yes        | no      |
 | International Journal of Digital Curation     | Crossref 173/177 | yes       |no            
 | International Journal of Digital Humanities   | Crossref 21/22 |   yes       | no            |
-| IJHAC                                         |   bib 146/146  |    yes    |no, bad format |
+| IJHAC                                         |   bib 146/146  |    yes    |no, bad format. to do by hand  |
 | Journal_of_Cultural_Analytics                 | crossref 43/47| yes       | no        |
 | Japanese_Association_for_Digital_Humanities   | Crossref 26/26| yes       | no           | 
 | TEI                                           | Crossref 16/16  | yes     |   no          |

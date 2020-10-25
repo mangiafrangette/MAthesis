@@ -6,7 +6,7 @@ import json
 class ArticlesSpider(scrapy.Spider):
     name = "get_abstracts"
     def start_requests(self):      
-        filename = "../../../../articles_metadata/data/json_files/my_schema/ms_Journal_of_Cultural_Analytics.json" 
+        filename = "../../../../articles_metadata/data/json_files/my_schema/ms_Digital_Philology_A_Journal_of_Medieval_Cultures.json" 
         with open(filename, "r", encoding="utf-8") as f:
             articles = json.load(f)
             for article in articles:
@@ -19,7 +19,7 @@ class ArticlesSpider(scrapy.Spider):
         #else: 
         # scraped_abstract = response.xpath('//meta[@name="dc.Description"]/@content').get()
         # digital philology
-        # scraped_abstract = response.xpath('//div[@class="abstract"]/p').get()
+        scraped_abstract = response.xpath('//div[@class="abstract"]/p').getall()
         # le champ numerique
         #scraped_abstract = response.xpath('//div[@class="authors"][2]/p').get()
         # Digitális_Bölcsészet
@@ -33,7 +33,7 @@ class ArticlesSpider(scrapy.Spider):
         # international_humanities
         # scraped_abstract = response.xpath('//div[@id="Abs1-content"]/p').get()
         # cultural_analytics
-        scraped_abstract = response.xpath('//meta[@name="citation_abstract"]/@content').get()
+        # scraped_abstract = response.xpath('//meta[@name="citation_abstract"]/@content').get()
         # japanese
         # scraped_abstract = response.xpath('//p[@class="global-para-14"]').get()
         # tei
