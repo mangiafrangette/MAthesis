@@ -1,4 +1,4 @@
-|                   Journal                   	| Provider 	| Abstract 	| Affiliation 	|
+|                   Journal          	| Provider 	| Abstract 	| Affiliation 	|
 |:-------------------------------------------:	|----------	|:--------:	|:-----------:	|
 | Computers and the Humanities             |website (bib) 104/104| yes |no (aut wrong format, fare a mano? sono 100+)|
 | Computers in the Humanities Working Papers    | by hand from web 37/37| yes|  yes       |
@@ -17,11 +17,11 @@
 | Journal_of_Cultural_Analytics                 | crossref 43/47| yes       | no        |
 | Japanese_Association_for_Digital_Humanities   | Crossref 26/26| yes       | no           | 
 | TEI                                           | Crossref 16/16  | yes     |   no          |
-| JOCCH                                         | Crossref 201/243 |no  MI HANNO BLOCC| no  |
+| JOCCH                                         | Crossref 201/243 |yes | yes  |
 | Digital Art History                           | Datacite  | yes         | no            |
 | Umanistica Digitale                         	| Datacite 39/39 	|    yes   	| no     	|
 | Journal of Digital Archives and Digital Humanities| by hand from webs 21/21 | yes|NOTPRESENT|
-| Journal of Data Mining and Digital Humanities | by hand from webs | yes   |  no (manual+authors surname)   |
+| Journal of Data Mining and Digital Humanities | by hand from webs 52/52 | yes   |  yes, wrong name/surname   |
 | Digital Humanities Quarterly (DHQ)           	|  XML locale  	|  yes    	|yes     |
 | Jahrbuch für Computerphilologie               |           |           |           |
 

@@ -8,7 +8,7 @@ def add_scraped_abstracts(my_schema_file, scrapy_abstracts):
         scrapy_abstracts = json.load(g)
         for article in articles:
             for abstract in scrapy_abstracts:
-                if article["identifier"]["string_id"] == abstract["string_id"]:
+                if article["identifier"]["string_id"] == abstract["url"]:
                     article["abstract"] = abstract["abstract"]
                     with open(my_schema_file, "w", encoding="utf-8") as fd:
                         json.dump(articles, fd)
