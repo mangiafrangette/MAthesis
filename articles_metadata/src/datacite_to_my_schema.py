@@ -4,7 +4,7 @@ import os
 def datacite_to_my_schema(path, file_name):
     with open(f'{path}/{file_name}', "r", encoding="utf-8") as f:
         datacite_schema = json.load(f)
-        with open(f"../data/json_files/my_schema/my_schema_{file_name}".replace("datacite_original", "d"), "a", encoding="utf-8") as fd:
+        with open(f"../data/json_files/my_schema/ms_{file_name}", "a", encoding="utf-8") as fd:
             fd.write("[")
             for index, article in enumerate(datacite_schema):
                 string_article = json.dumps(article)
@@ -14,13 +14,18 @@ def datacite_to_my_schema(path, file_name):
                     url = article["data"]["attributes"]["url"]
                     abstract = article["data"]["attributes"]["description"]
                     title = article["data"]["attributes"]["title"]
-                    date = article["data"]["attributes"]["updated"]
+                    date = article["data"]["attributes"]["registered"]
                     publisher = ""
                     journal_title = ""
                     keywords = []
                     volume = ""
                     issue = ""
-                    ISSN = []
+                    ISSN = [
+                            {
+                                "value": [],
+                                "type": []
+                            }
+                        ]
 
                     # creating my schema
                     python_dict = dict()
@@ -48,13 +53,13 @@ def datacite_to_my_schema(path, file_name):
 
 # list of json paths 
 path = '../data/json_files/datacite_api'
-folder = os.fsencode(path)
+""" folder = os.fsencode(path)
 filenames = []
 for file in os.listdir(folder):
     filename = os.fsdecode(file)
-    filenames.append(filename)
+    filenames.append(filename) """
 
 # call function over all datacite json files
-for file_name in filenames:
-    datacite_to_my_schema(path, file_name)
+# for file_name in filenames:
+datacite_to_my_schema(path, "CF_Umanistica_Digitale_datacite_metadata.json")
     

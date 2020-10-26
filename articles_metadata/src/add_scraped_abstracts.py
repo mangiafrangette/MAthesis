@@ -8,10 +8,10 @@ def add_scraped_abstracts(my_schema_file, scrapy_abstracts):
         scrapy_abstracts = json.load(g)
         for article in articles:
             for abstract in scrapy_abstracts:
-                if article["identifier"]["string_id"] == abstract["url"]:
+                if article["identifier"]["string_id"] == abstract["string_id"]:
                     article["abstract"] = abstract["abstract"]
                     with open(my_schema_file, "w", encoding="utf-8") as fd:
                         json.dump(articles, fd)
 
 
-add_scraped_abstracts("../data/json_files/my_schema/ms_JOCCH.json", "../data/json_files/scraped_abstracts/scrapy_jocch.json")
+add_scraped_abstracts("../data/json_files/my_schema/ms_CF_Journal_of_the_Text_Encoding_Initiative.json", "../data/json_files/scraped_abstracts/CF_scrapy_tei.json")

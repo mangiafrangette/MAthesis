@@ -4,7 +4,7 @@ import os
 def crossref_to_my_schema(path, file_name):
     with open(f'{path}/{file_name}', "r", encoding="utf-8") as f:
         crossref_schema = json.load(f)
-        with open(f"../data/json_files/my_schema/ms_{file_name}".replace("crossref_original", "c"), "a", encoding="utf-8") as fd:
+        with open(f"../data/json_files/my_schema/ms_{file_name}".replace("crossref_original", ""), "a", encoding="utf-8") as fd:
             fd.write("[")
             for index, article in enumerate(crossref_schema):
                 string_article = json.dumps(article)
@@ -32,7 +32,12 @@ def crossref_to_my_schema(path, file_name):
                     if "issn-type" in article:
                         ISSN = article["issn-type"]
                     else:
-                        ISSN = []
+                        ISSN = [
+                            {
+                                "value": [],
+                                "type": []
+                            }
+                        ]
 
                     # creating my schema
                     python_dict = dict()
@@ -61,10 +66,14 @@ def crossref_to_my_schema(path, file_name):
 # list of json paths 
 path = '../data/json_files/crossref_api'
 folder = os.fsencode(path)
-filenames = []
+""" filenames = []
 for file in os.listdir(folder):
     filename = os.fsdecode(file)
-    filenames.append(filename)
+    filenames.append(filename) """
+filenames = ["CF_Digital_Studies__Le_champ_numérique_crossref_metadata.json",
+"CF_Humanist_Studies_&_the_Digital_Age_crossref_metadata.json", 
+"CF_Journal_of_the_Text_Encoding_Initiative_crossref_metadata.json"
+]
 
 # call function over all crossref json files
 for file_name in filenames:
