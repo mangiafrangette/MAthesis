@@ -103,8 +103,9 @@ There are 5 issues from 2015 - present. Interviews are excluded because they hav
 ### <a href="http://www.ijdc.net/" target="_blank">International Journal of Digital Curation</a>
 Regular volumes and issues from 2006 - present. I take *research papers* and not general articles
 
-### <a href="https://brill.com/view/serial/JP" target="_blank">Jahrbuch für Computerphilologie</a>
-Where to get this?
+### <a href="http://computerphilologie.digital-humanities.de/ejournal.html" target="_blank">Jahrbuch für Computerphilologie</a>
+Time span: 1999 - 2010, Articles + conference proceedings. all by hand. many abstracts were only in german so they were excluded. 
+Aufsätze should be mean "essays" but they were taken since they looked like research articles.
 
 ### Journal of Open Humanities Data
 Time span: 2016 - 2020, It has research and data papers. I only take the 3 research papers. 

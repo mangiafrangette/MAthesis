@@ -1,7 +1,9 @@
 |                      Journal                       | Provider                | Abstract |          Affiliation          |       CF       |                  Comments                  |
 | :------------------------------------------------: | ----------------------- | :------: | :---------------------------: | :------------: | :----------------------------------------: |
+| ADHO                                               | website ?               |  yes     | ?? |    yes (only)  |    TBD       |
 |            Computers and the Humanities            | website (bib) 104/104   |   yes    |              no               |       no       | (aut wrong format, fare a mano? sono 100+) |
 |     Computers in the Humanities Working Papers     | by hand from web 37/37  |   yes    |              yes              |       no       |
+|         Digital Humanities Quarterly (DHQ)         | XML locale              |   yes    |              yes              |       no       |
 |              Digital Literary Studies              | by hand from web 4/4    |   yes    |              yes              |       no       |
 |                Digital_Medievalist                 | Crossref 45/80          |   yes    |              no               |       no       |
 |                 Digital_Philology                  | Crossref 101/101        |   yes    |              no               |       no       |
@@ -10,19 +12,20 @@
 |                Digitális Bölcsészet                | Crossref 18/18          |   yes    |           yes (few)           |       no       |
 |          Frontiers in Digital Humanities           | Crossref 42/51          |   yes    |              no               |       no       |
 |        Humanist*Studies*&\_the_Digital_Age         | Crossref 9/14           |   yes    |              no               |      yes       |   some titles in italian? and abstracts    |
-|   International Journal for Digital Art History    | Datacite 36/36          |   yes    |              no               |       no       |
-|     International Journal of Digital Curation      | Crossref 173/177        |   yes    |              no               |       no       |
+|   International Journal for Digital Art History    | Datacite 36/36          |   yes    |              no               |       no       |                                            | 
+|     International Journal of Digital Curation      | Crossref 173/177        |   yes    |              no               |       no       | 
 |    International Journal of Digital Humanities     | Crossref 21/22          |   yes    |              no               |       no       |
 |                       IJHAC                        | bib 146/146             |   yes    | no, bad format. to do by hand |       no       |
 |           Journal_of_Cultural_Analytics            | crossref 43/47          |   yes    |              no               |       no       |
 |    Japanese_Association_for_Digital_Humanities     | Crossref 26/26          |   yes    |              no               |       no       |
-|                        TEI                         | Crossref 16/16          |   yes    |              no               |  yes -where?   |
-|                       JOCCH                        | Crossref 201/243        |   yes    |              yes              |       no       |
-|                Umanistica Digitale                 | Datacite 39/39          |   yes    |              no               | yes - datacite |
-| Journal of Digital Archives and Digital Humanities | by hand from webs 21/21 |   yes    |          NOTPRESENT           |       no       |
 |   Journal of Data Mining and Digital Humanities    | by hand from webs 52/52 |   yes    |              yes              |       no       |             wrong name/surname             |
-|         Digital Humanities Quarterly (DHQ)         | XML locale              |   yes    |              yes              |       no       |
-|          Jahrbuch für Computerphilologie           | ?                       |          |                               |
+|                       JOCCH                        | Crossref 201/243        |   yes    |              yes              |       no       |
+| Journal of Digital Archives and Digital Humanities | by hand from webs 21/21 |   yes    |          NOTPRESENT           |       no       |
+|          Jahrbuch für Computerphilologie           | website, 87. what to do?                       |          |                               |
+|                        TEI                         | Crossref 16/16          |   yes    |              no               |  yes -where?   |
+|                Umanistica Digitale                 | Datacite 39/39          |   yes    |              no               | yes - datacite |
+| Zeitschrift ... | website 73/74 | yes | yes | no | some titles in german keywords were in german cancelled|
+
 
 # Missing and available metadata
 
