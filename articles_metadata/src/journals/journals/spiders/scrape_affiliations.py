@@ -7,7 +7,7 @@ import json
 class ArticlesSpider(scrapy.Spider):
     name = "affiliations"
     def start_requests(self):      
-        with open("../../../../data/json_files/my_schema/ms_Umanistica_Digitale.json", "r", encoding="utf-8") as f:
+        with open("../../../../data/json_files/my_schema/ms_Digital_Studies__Le_champ_numérique.json", "r", encoding="utf-8") as f:
                 articles = json.load(f)
                 for article in articles:
                     url = article["url"]

@@ -17,4 +17,4 @@ def add_scraped_affiliations(my_schema_file, scrapy_affiliations):
                                     json.dump(articles, fd)
 
 
-add_scraped_affiliations("../data/json_files/my_schema/ms_Digital_Medievalist.json", "../data/json_files/scraped_affiliations/aff_digital_medievalist.json")
+add_scraped_affiliations("../data/json_files/my_schema/ms_Digital_Studies__Le_champ_numérique.json", "../data/json_files/scraped_affiliations/aff_le_champ.json")
