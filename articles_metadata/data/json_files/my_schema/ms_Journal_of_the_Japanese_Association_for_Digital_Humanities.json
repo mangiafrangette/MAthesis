@@ -11,32 +11,17 @@
             {
                 "given": "Jennifer",
                 "family": "Edmond",
-                "sequence": "first",
-                "affiliation": [
-                    {
-                        "name": "Faculty of Arts Humanities and Social Sciences and Trinity Long Room Hub, Trinity College Dublin"
-                    }
-                ]
+                "affiliation": ["Faculty of Arts Humanities and Social Sciences and Trinity Long Room Hub, Trinity College Dublin"]
             },
             {
                 "given": "Natasa",
                 "family": "Bulatovic",
-                "sequence": "additional",
-                "affiliation": [
-                    {
-                        "name": "Max Planck Digital Library"
-                    }
-                ]
+                "affiliation": ["Max Planck Digital Library"]
             },
             {
                 "given": "Alexander",
                 "family": "O'Connor",
-                "sequence": "additional",
-                "affiliation": [
-                    {
-                        "name": "ADAPT Centre, KDEG, School of Computer Science & Statistics, Trinity College Dublin"
-                    }
-                ]
+                "affiliation": ["ADAPT Centre, KDEG, School of Computer Science & Statistics, Trinity College Dublin"]
             }
         ],
         "publisher": "Japanese Association for Digital Humanities",
@@ -58,18 +43,13 @@
             "string_id": "10.17928/jjadh.1.1_86",
             "id_scheme": "DOI"
         },
-        "abstract": "This paper describes a knowledge based character processing model to resolve some                     problems of coded character model. Currently, in the field of information                     processing of digital texts, each character is represented and processed by the                     “Coded Character Model.” In this model, each character is defined and shared                     using a coded character set (code) and represented by a code-point (integer) of                     the code. In other words, when knowledge about characters is defined                     (standardized) in a specification of a coded character set, then there is no                     need to store large and detailed knowledge about characters into computers for                     basic text processing. In terms of flexibility, however, the coded character                     model has some problems, because it assumes a finite set of characters, with                     each character of the set having a stable concept shared in the community.                     However, real character usage is not so static and stable. Especially in Chinese                     characters, it is not so easy to select a finite set of characters which covers                     all usages. To resolve these problems, we have proposed the “Chaon” model. This                     is a new model of character processing based on character ontology. This report                     briefly describes the Chaon model and the CHISE (Character Information Service                     Environment) project, and focuses on how to represent Chinese characters and                     their glyphs in the context of multiple unification rules.",
+        "abstract": "This paper describes a knowledge based character processing model to resolve some problems of coded character model. Currently, in the field of information processing of digital texts, each character is represented and processed by the “Coded Character Model.” In this model, each character is defined and shared using a coded character set (code) and represented by a code-point (integer) of the code. In other words, when knowledge about characters is defined (standardized) in a specification of a coded character set, then there is no need to store large and detailed knowledge about characters into computers for basic text processing. In terms of flexibility, however, the coded character model has some problems, because it assumes a finite set of characters, with each character of the set having a stable concept shared in the community. However, real character usage is not so static and stable. Especially in Chinese characters, it is not so easy to select a finite set of characters which covers all usages. To resolve these problems, we have proposed the “Chaon” model. This is a new model of character processing based on character ontology. This report briefly describes the Chaon model and the CHISE (Character Information Service Environment) project, and focuses on how to represent Chinese characters and their glyphs in the context of multiple unification rules.",
         "article_title": "Multiple-policy Character Annotation based on CHISE",
         "authors": [
             {
                 "given": "Tomohiko",
                 "family": "Morioka",
-                "sequence": "first",
-                "affiliation": [
-                    {
-                        "name": "Kyoto University"
-                    }
-                ]
+                "affiliation": ["Kyoto University"]
             }
         ],
         "publisher": "Japanese Association for Digital Humanities",
@@ -97,12 +77,7 @@
             {
                 "given": "Kazushi",
                 "family": "Ohya",
-                "sequence": "first",
-                "affiliation": [
-                    {
-                        "name": "Tsurumi University"
-                    }
-                ]
+                "affiliation": ["Tsurumi University"]
             }
         ],
         "publisher": "Japanese Association for Digital Humanities",
@@ -130,12 +105,7 @@
             {
                 "given": "Espen S.",
                 "family": "Ore",
-                "sequence": "first",
-                "affiliation": [
-                    {
-                        "name": "Dept. of Linguistics and Scandinavian Studies, Unit for Digital Documentation, University of Oslo"
-                    }
-                ]
+                "affiliation": ["Dept. of Linguistics and Scandinavian Studies, Unit for Digital Documentation, University of Oslo"]
             }
         ],
         "publisher": "Japanese Association for Digital Humanities",
@@ -163,12 +133,7 @@
             {
                 "given": "Hajime",
                 "family": "Murai",
-                "sequence": "first",
-                "affiliation": [
-                    {
-                        "name": "Graduate School of Decision Science and Technology Tokyo Institute of Technology"
-                    }
-                ]
+                "affiliation": ["Graduate School of Decision Science and Technology Tokyo Institute of Technology"]
             }
         ],
         "publisher": "Japanese Association for Digital Humanities",
@@ -196,32 +161,17 @@
             {
                 "given": "Katsuya",
                 "family": "Masuda",
-                "sequence": "first",
-                "affiliation": [
-                    {
-                        "name": "Center for Research and Development of Higher Education, University of Tokyo"
-                    }
-                ]
+                "affiliation": ["Center for Research and Development of Higher Education, University of Tokyo"]
             },
             {
                 "given": "Makoto",
                 "family": "Tanji",
-                "sequence": "additional",
-                "affiliation": [
-                    {
-                        "name": "Center for Knowledge Structuring, University of Tokyo"
-                    }
-                ]
+                "affiliation": ["Center for Knowledge Structuring, University of Tokyo"]
             },
             {
                 "given": "Hideki",
                 "family": "Mima",
-                "sequence": "additional",
-                "affiliation": [
-                    {
-                        "name": "Graduate School of Engineering, University of Tokyo"
-                    }
-                ]
+                "affiliation": ["Graduate School of Engineering, University of Tokyo"]
             }
         ],
         "publisher": "Japanese Association for Digital Humanities",
@@ -249,32 +199,17 @@
             {
                 "given": "James",
                 "family": "Smithies",
-                "sequence": "first",
-                "affiliation": [
-                    {
-                        "name": "University of Canterbury"
-                    }
-                ]
+                "affiliation": ["University of Canterbury"]
             },
             {
                 "given": "Paul",
                 "family": "Millar",
-                "sequence": "additional",
-                "affiliation": [
-                    {
-                        "name": "University of Canterbury"
-                    }
-                ]
+                "affiliation": ["University of Canterbury"]
             },
             {
                 "given": "Chris",
                 "family": "Thomson",
-                "sequence": "additional",
-                "affiliation": [
-                    {
-                        "name": "University of Canterbury"
-                    }
-                ]
+                "affiliation": ["University of Canterbury"]
             }
         ],
         "publisher": "Japanese Association for Digital Humanities",
@@ -302,42 +237,22 @@
             {
                 "given": "Yui",
                 "family": "Arakawa",
-                "sequence": "first",
-                "affiliation": [
-                    {
-                        "name": "University of Tsukuba"
-                    }
-                ]
+                "affiliation": ["University of Tsukuba"]
             },
             {
                 "given": "Ryosuke",
                 "family": "Yoshimoto",
-                "sequence": "additional",
-                "affiliation": [
-                    {
-                        "name": "University of Tsukuba"
-                    }
-                ]
+                "affiliation": ["University of Tsukuba"]
             },
             {
                 "given": "Fuyuki",
                 "family": "Yoshikane",
-                "sequence": "additional",
-                "affiliation": [
-                    {
-                        "name": "University of Tsukuba"
-                    }
-                ]
+                "affiliation": ["University of Tsukuba"]
             },
             {
                 "given": "Takafumi",
                 "family": "Suzuki",
-                "sequence": "additional",
-                "affiliation": [
-                    {
-                        "name": "Toyo University"
-                    }
-                ]
+                "affiliation": ["Toyo University"]
             }
         ],
         "publisher": "Japanese Association for Digital Humanities",
@@ -365,32 +280,17 @@
             {
                 "given": "Yuichiro",
                 "family": "Kobayashi",
-                "sequence": "first",
-                "affiliation": [
-                    {
-                        "name": "Nihon University"
-                    }
-                ]
+                "affiliation": ["Nihon University"]
             },
             {
                 "given": "Misaki",
                 "family": "Amagasa",
-                "sequence": "additional",
-                "affiliation": [
-                    {
-                        "name": "Toyo University"
-                    }
-                ]
+                "affiliation": ["Toyo University"]
             },
             {
                 "given": "Takafumi",
                 "family": "Suzuki",
-                "sequence": "additional",
-                "affiliation": [
-                    {
-                        "name": "Toyo University"
-                    }
-                ]
+                "affiliation": ["Toyo University"]
             }
         ],
         "publisher": "Japanese Association for Digital Humanities",
@@ -418,76 +318,40 @@
             {
                 "given": "Andrea",
                 "family": "Budac",
-                "sequence": "first",
-                "affiliation": [
-                    {
-                        "name": "University of Alberta"
-                    }
-                ]
+                "affiliation": ["University of Alberta"]
             },
             {
                 "given": "Geoffrey",
                 "family": "Rockwell",
-                "sequence": "additional",
-                "affiliation": [
-                    {
-                        "name": "University of Alberta"
-                    }
-                ]
+                "affiliation": ["University of Alberta"]
             },
             {
                 "given": "Zachary",
                 "family": "Palmer",
-                "sequence": "additional",
-                "affiliation": [
-                    {
-                        "name": "University of Alberta"
-                    }
-                ]
+                "affiliation": ["University of Alberta"]
             },
             {
                 "given": "Robert",
                 "family": "Budac",
-                "sequence": "additional",
-                "affiliation": [
-                    {
-                        "name": "University of Alberta"
-                    }
-                ]
+                "affiliation": ["University of Alberta"]
             },
             {
                 "given": "Todd",
                 "family": "Suomela",
-                "sequence": "additional",
-                "affiliation": [
-                    {
-                        "name": "Bucknell University"
-                    }
-                ]
+                "affiliation": ["Bucknell University"]
             },
             {
                 "given": "Stéfan",
                 "family": "Sinclair",
-                "sequence": "additional",
-                "affiliation": [
-                    {
-                        "name": "McGill University"
-                    }
-                ]
+                "affiliation": ["McGill University"]
             },
             {
                 "given": "Stan",
                 "family": "Ruecker",
-                "sequence": "additional",
-                "affiliation": [
-                    {
-                        "name": "The University of Illinois at Urbana-Champaign"
-                    }
-                ]
+                "affiliation": ["The University of Illinois at Urbana-Champaign"]
             },
             {
                 "family": "the INKE Team",
-                "sequence": "additional",
                 "affiliation": null
             }
         ],
@@ -516,42 +380,22 @@
             {
                 "given": "Yusuke",
                 "family": "Nakamura",
-                "sequence": "first",
-                "affiliation": [
-                    {
-                        "name": "Graduate School of Humanities and Sociology, University of Tokyo"
-                    }
-                ]
+                "affiliation": ["Graduate School of Humanities and Sociology, University of Tokyo"]
             },
             {
                 "given": "Chikahiko",
                 "family": "Suzuki",
-                "sequence": "additional",
-                "affiliation": [
-                    {
-                        "name": "Graduate School of Humanities and Sociology, University of Tokyo"
-                    }
-                ]
+                "affiliation": ["Graduate School of Humanities and Sociology, University of Tokyo"]
             },
             {
                 "given": "Katsuya",
                 "family": "Masuda",
-                "sequence": "additional",
-                "affiliation": [
-                    {
-                        "name": "Center for Research and Development of Higher Education, University of Tokyo"
-                    }
-                ]
+                "affiliation": ["Center for Research and Development of Higher Education, University of Tokyo"]
             },
             {
                 "given": "Hideki",
                 "family": "Mima",
-                "sequence": "additional",
-                "affiliation": [
-                    {
-                        "name": "Center for Research and Development of Higher Education, University of Tokyo"
-                    }
-                ]
+                "affiliation": ["Center for Research and Development of Higher Education, University of Tokyo"]
             }
         ],
         "publisher": "Japanese Association for Digital Humanities",
@@ -579,22 +423,12 @@
             {
                 "given": "Michiru",
                 "family": "Hirano",
-                "sequence": "first",
-                "affiliation": [
-                    {
-                        "name": "Department of Value and Decision Science, Tokyo Institute of Technology"
-                    }
-                ]
+                "affiliation": ["Department of Value and Decision Science, Tokyo Institute of Technology"]
             },
             {
                 "given": "Hilofumi",
                 "family": "Yamamoto",
-                "sequence": "additional",
-                "affiliation": [
-                    {
-                        "name": "Department of Value and Decision Science, Tokyo Institute of Technology"
-                    }
-                ]
+                "affiliation": ["Department of Value and Decision Science, Tokyo Institute of Technology"]
             }
         ],
         "publisher": "Japanese Association for Digital Humanities",
@@ -622,12 +456,7 @@
             {
                 "given": "Hajime",
                 "family": "Murai",
-                "sequence": "first",
-                "affiliation": [
-                    {
-                        "name": "Faculty of Systems Information Science, Future University Hakodate"
-                    }
-                ]
+                "affiliation": ["Faculty of Systems Information Science, Future University Hakodate"]
             }
         ],
         "publisher": "Japanese Association for Digital Humanities",
@@ -655,32 +484,17 @@
             {
                 "given": "Marcus",
                 "family": "BINGENHEIMER",
-                "sequence": "first",
-                "affiliation": [
-                    {
-                        "name": "Temple University"
-                    }
-                ]
+                "affiliation": ["Temple University"]
             },
             {
                 "given": "Jen-Jou",
                 "family": "HUNG",
-                "sequence": "additional",
-                "affiliation": [
-                    {
-                        "name": "Dharma Drum Institute of Liberal Arts"
-                    }
-                ]
+                "affiliation": ["Dharma Drum Institute of Liberal Arts"]
             },
             {
                 "given": "Cheng-en",
                 "family": "HSIEH",
-                "sequence": "additional",
-                "affiliation": [
-                    {
-                        "name": "Dharma Drum Institute of Liberal Arts"
-                    }
-                ]
+                "affiliation": ["Dharma Drum Institute of Liberal Arts"]
             }
         ],
         "publisher": "Japanese Association for Digital Humanities",
@@ -708,12 +522,7 @@
             {
                 "given": "Gaetan",
                 "family": "Rappo",
-                "sequence": "first",
-                "affiliation": [
-                    {
-                        "name": "Graduate school of Letters, Nagoya University"
-                    }
-                ]
+                "affiliation": ["Graduate school of Letters, Nagoya University"]
             }
         ],
         "publisher": "Japanese Association for Digital Humanities",
@@ -741,52 +550,27 @@
             {
                 "given": "Paul",
                 "family": "Longley Arthur",
-                "sequence": "first",
-                "affiliation": [
-                    {
-                        "name": "Edith Cowan University"
-                    }
-                ]
+                "affiliation": ["Edith Cowan University"]
             },
             {
                 "given": "Jason",
                 "family": "Ensor",
-                "sequence": "additional",
-                "affiliation": [
-                    {
-                        "name": "Western Sydney University"
-                    }
-                ]
+                "affiliation": ["Western Sydney University"]
             },
             {
                 "given": "Marijke",
                 "family": "van Faassen",
-                "sequence": "additional",
-                "affiliation": [
-                    {
-                        "name": "Huygens Institute for the History of the Netherlands"
-                    }
-                ]
+                "affiliation": ["Huygens Institute for the History of the Netherlands"]
             },
             {
                 "given": "Rik",
                 "family": "Hoekstra",
-                "sequence": "additional",
-                "affiliation": [
-                    {
-                        "name": "Huygens Institute for the History of the Netherlands"
-                    }
-                ]
+                "affiliation": ["Huygens Institute for the History of the Netherlands"]
             },
             {
                 "given": "Nonja",
                 "family": "Peters",
-                "sequence": "additional",
-                "affiliation": [
-                    {
-                        "name": "Curtin University"
-                    }
-                ]
+                "affiliation": ["Curtin University"]
             }
         ],
         "publisher": "Japanese Association for Digital Humanities",
@@ -814,12 +598,7 @@
             {
                 "given": "Martin",
                 "family": "Holmes",
-                "sequence": "first",
-                "affiliation": [
-                    {
-                        "name": "University of Victoria"
-                    }
-                ]
+                "affiliation": ["University of Victoria"]
             }
         ],
         "publisher": "Japanese Association for Digital Humanities",
@@ -847,12 +626,7 @@
             {
                 "given": "Hajime",
                 "family": "Murai",
-                "sequence": "first",
-                "affiliation": [
-                    {
-                        "name": "Faculty of Systems Information Science, Future University Hakodate"
-                    }
-                ]
+                "affiliation": ["Faculty of Systems Information Science, Future University Hakodate"]
             }
         ],
         "publisher": "Japanese Association for Digital Humanities",
@@ -880,22 +654,12 @@
             {
                 "given": "Wenyi",
                 "family": "Shang",
-                "sequence": "first",
-                "affiliation": [
-                    {
-                        "name": "Department of Information Management, Peking University, Beijing, China"
-                    }
-                ]
+                "affiliation": ["Department of Information Management, Peking University, Beijing, China"]
             },
             {
                 "given": "Winbin",
                 "family": "Huang",
-                "sequence": "additional",
-                "affiliation": [
-                    {
-                        "name": "Department of Information Management, Peking University, Beijing, China"
-                    }
-                ]
+                "affiliation": ["Department of Information Management, Peking University, Beijing, China"]
             }
         ],
         "publisher": "Japanese Association for Digital Humanities",
@@ -923,22 +687,12 @@
             {
                 "given": "Eun Seo",
                 "family": "Jo",
-                "sequence": "first",
-                "affiliation": [
-                    {
-                        "name": "Department of History, Stanford University"
-                    }
-                ]
+                "affiliation": ["Department of History, Stanford University"]
             },
             {
                 "given": "Mark",
                 "family": "Algee-Hewitt",
-                "sequence": "additional",
-                "affiliation": [
-                    {
-                        "name": "Department of English, Stanford University"
-                    }
-                ]
+                "affiliation": ["Department of English, Stanford University"]
             }
         ],
         "publisher": "Japanese Association for Digital Humanities",
@@ -966,22 +720,12 @@
             {
                 "given": "Geoffrey",
                 "family": "Rockwell",
-                "sequence": "first",
-                "affiliation": [
-                    {
-                        "name": "University of Alberta"
-                    }
-                ]
+                "affiliation": ["University of Alberta"]
             },
             {
                 "given": "Keiji",
                 "family": "Amano",
-                "sequence": "additional",
-                "affiliation": [
-                    {
-                        "name": "Seijoh University"
-                    }
-                ]
+                "affiliation": ["Seijoh University"]
             }
         ],
         "publisher": "Japanese Association for Digital Humanities",
@@ -1009,7 +753,6 @@
             {
                 "given": "Domini",
                 "family": "Gee",
-                "sequence": "first",
                 "affiliation": null
             }
         ],
@@ -1038,22 +781,12 @@
             {
                 "given": "Tsugumi",
                 "family": "Okabe",
-                "sequence": "first",
-                "affiliation": [
-                    {
-                        "name": "University of Alberta"
-                    }
-                ]
+                "affiliation": ["University of Alberta"]
             },
             {
                 "given": "Jérémie",
                 "family": "Pelletier-Gagnon",
-                "sequence": "additional",
-                "affiliation": [
-                    {
-                        "name": "University of Alberta"
-                    }
-                ]
+                "affiliation": ["University of Alberta"]
             }
         ],
         "publisher": "Japanese Association for Digital Humanities",
@@ -1081,12 +814,7 @@
             {
                 "given": "James",
                 "family": "Newman",
-                "sequence": "first",
-                "affiliation": [
-                    {
-                        "name": "Bath Spa University"
-                    }
-                ]
+                "affiliation": ["Bath Spa University"]
             }
         ],
         "publisher": "Japanese Association for Digital Humanities",
