@@ -1,16 +1,20 @@
 import json
 import os
 
-files_list = [
-    "../data/json_files/my_schema/ms_Digital_Medievalist copy.json",
-]
-for file in files_list:
-    with open(file, "r", encoding="utf-8") as f:
-        json_file = json.load(f)
-        for article in json_file:
-            """ article["journal_title"] = "International Journal for Digital Art History" """
-            article["url"] = f'http://dx.doi.org/{article["identifier"]["string_id"]}'
-            
-        with open(file, "w", encoding="utf-8") as fd:
-            json.dump(json_file, fd)
+ms_file = "../data/json_files/my_schema/ms_IJHAC.json"
+scrapy_file = "../data/json_files/scrapy_ijhac_authors.json"
+
+with open(ms_file, "r", encoding="utf-8") as f:
+    my_schema_json = json.load(f)
+    with open(scrapy_file, "r", encoding="utf-8") as fd:
+        scrapy_file = json.load(fd)
+        for article1 in my_schema_json:
+            for article2 in scrapy_file:
+                if article1["identifier"]["string_id"] == article2["string_id"]:
+                    article1["date"] = article2["date"][0]
+                    article1["authors"] = article2["authors"]
+                    article1["publisher"] = article2["publisher"]
+                    
+                    with open(ms_file, "w", encoding="utf-8") as g:
+                        json.dump(my_schema_json, g)
         

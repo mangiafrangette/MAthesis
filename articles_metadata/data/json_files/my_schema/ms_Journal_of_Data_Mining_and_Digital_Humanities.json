@@ -32,7 +32,7 @@
             {
                 "given": "Amy",
                 "family": "Boyer",
-                "affiliations": null
+                "affiliations": ["The Adler Planetarium, USA"]
             },
             {
                 "given": "Andrea",
@@ -40,11 +40,6 @@
                 "affiliations": [
                     "University of Minnesota [Twin Cities]"
                 ]
-            },
-            {
-                "given": "Victoria",
-                "family": "Hyning",
-                "affiliations": null
             },
             {
                 "given": "Victoria",
@@ -101,7 +96,7 @@
         "publisher": null,
         "date": "2017/11/30",
         "keywords": [
-            "Ancient commentary ; allusion ; fragmentary texts ; mentioned words ; Latin grammar ; XML Tei ; quotation"
+            "Ancient commentary", "allusion", "fragmentary texts", "mentioned words", "Latin grammar", "XML Tei", "quotation"
         ],
         "journal_title": "Journal of Data Mining & Digital Humanities",
         "volume": null,
@@ -123,8 +118,8 @@
         "article_title": "Recurrent Pattern Modelling in a Corpus of Armenian Manuscript Colophons",
         "authors": [
             {
-                "given": "Emmanuel van Elverdinghe",
-                "family": null,
+                "given": "Emmanuel",
+                "family": "van Elverdinghe",
                 "affiliations": [
                     "Fonds de la Recherche Scientifique [FNRS]",
                     "INCAL - Institut des Civilisations Arts et Lettres (INCAL)"
@@ -134,7 +129,7 @@
         "publisher": null,
         "date": "2017/12/22",
         "keywords": [
-            "codicology ; Unitex ; finite state transducers ; Armenian colophons ; automata ; colophon formula ; formulaic patterns ; lemmatization ; manuscript studies"
+            "codicology", "Unitex", "finite state transducers", "Armenian colophons", "automata", "colophon formula", "formulaic patterns", "lemmatization", "manuscript studies"
         ],
         "journal_title": "Journal of Data Mining & Digital Humanities",
         "volume": "Special Issue on Computer-Aided Processing of Intertextuality in Ancient Languages",
@@ -152,12 +147,12 @@
             "string_id": "hal-02520508",
             "id_scheme": "hal"
         },
-        "abstract": null,
-        "article_title": "        ",
+        "abstract": "This article proposes use the Transkribus software to report on a \"user experiment\" in a French-speaking context. It is based on the semi-automated transcription project using the diary of the jurist Eugène Wilhelm (1866-1951). This diary presents two main challenges. The first is related to the time covered by the writing process-66 years. This leads to variations in the form of the writing, which becomes increasingly \"unreadable\" with time. The second challenge is related to the concomitant use of two alphabets: Roman for everyday text and Greek for private issues. After presenting the project and the specificities related to the use of the tool, the experiment presented in this contribution is structured around two aspects. Firstly, I will summarise the main obstacles encountered and the solutions provided to overcome them. Secondly, I will come back to the collaborative transcription experiment carried out with students in the classroom, presenting the difficulties observed and the solutions found to overcome them. In conclusion, I will propose an assessment of the use of this Human Text Recognition software in a French-speaking context and in a teaching situation.",
+        "article_title": "Optical Recognition Assisted Transcription with Transkribus: The Experiment concerning Eugène Wilhelm's Personal Diary (1885-1951)",
         "authors": [
             {
-                "given": "Régis Schlagdenhauffen",
-                "family": null,
+                "given": "Régis",
+                "family": "Schlagdenhauffen",
                 "affiliations": [
                     "IRIS - Institut de Recherche Interdisciplinaire sur les enjeux Sociaux - sciences sociales, politique, santé"
                 ]
@@ -166,7 +161,7 @@
         "publisher": null,
         "date": "2020/07/14",
         "keywords": [
-            "TEI ; User Experience ; Human Text Recognition ; Learning process ; OCR"
+            "TEI", "User Experience", "Human Text Recognition", "Learning process", "OCR"
         ],
         "journal_title": "Journal of Data Mining & Digital Humanities",
         "volume": "Atelier Digit_Hum",
@@ -188,8 +183,8 @@
         "article_title": "Processing Tools for Greek and Other Languages of the Christian Middle East",
         "authors": [
             {
-                "given": "Bastien Kindt",
-                "family": null,
+                "given": "Bastien",
+                "family": "Kindt",
                 "affiliations": [
                     "INCAL - Institut des Civilisations Arts et Lettres (INCAL)"
                 ]
@@ -198,7 +193,7 @@
         "publisher": null,
         "date": "2017/12/22",
         "keywords": [
-            "Lemmatization ; Greek ; Syriac ; Arabic ; Armenian ; Georgian ; lexical tagging ; POS tagging ; concordances ; indexes ; bitext ; bilingual alignment ; translation memories ; mkAlign"
+            "Lemmatization", "Greek", "Syriac", "Arabic", "Armenian", "Georgian", "lexical tagging", "POS tagging", "concordances", "indexes", "bitext", "bilingual alignment", "translation memories", "mkAlign"
         ],
         "journal_title": "Journal of Data Mining & Digital Humanities",
         "volume": "Special Issue on Computer-Aided Processing of Intertextuality in Ancient Languages",
@@ -217,25 +212,25 @@
             "id_scheme": "hal"
         },
         "abstract": "The Foucault Fiches de Lecture (FFL) project aims both to explore and to make available online a large set of Michel Foucault’s reading notes (organized citations, references and comments) held at the BnF since 2013. Therefore, the team is digitizing, describing and enriching the reading notes that the philosopher gathered while preparing his books and lectures, thus providing a new corpus that will allow a new approach to his work. In order to release the manuscripts online, and to collectively produce the data, the team is also developing a collaborative platform, based on RDF technologies, and designed to link together archival content and bibliographic data. This project is financed by the ANR (2017-2020) and coordinated by Michel Senellart, professor of philosophy at the ENS Lyon. It benefits from the partnerships of the ENS/PSL and the BnF. In addition, a collaboration with the European READ/Transkribus project has been started so as to produce automatic transcription of the reading notes.",
-        "article_title": "        ",
+        "article_title": "Transcribing Foucault’s handwriting with Transkribus",
         "authors": [
             {
-                "given": "Marie-Laure Massot",
-                "family": null,
+                "given": "Marie-Laure",
+                "family": "Massot",
                 "affiliations": [
                     "CAPHÉS - Centre d’Archives en Philosophie, Histoire et Édition des Sciences"
                 ]
             },
             {
-                "given": "Arianna Sforzini",
-                "family": null,
+                "given": "Arianna",
+                "family": "Sforzini",
                 "affiliations": [
                     "TRIANGLE - Triangle : action, discours, pensée politique et économique"
                 ]
             },
             {
-                "given": "Vincent Ventresque",
-                "family": null,
+                "given": "Vincent",
+                "family": "Ventresque",
                 "affiliations": [
                     "TRIANGLE - Triangle : action, discours, pensée politique et économique"
                 ]
@@ -244,7 +239,7 @@
         "publisher": null,
         "date": "2019/02/18",
         "keywords": [
-            "transkribus ; reading notes ; automatic transcription of manuscripts ; artificial intelligence"
+            "transkribus", "reading notes", "automatic transcription of manuscripts", "artificial intelligence"
         ],
         "journal_title": "Journal of Data Mining & Digital Humanities",
         "volume": "Atelier Digit_Hum",
@@ -266,15 +261,15 @@
         "article_title": "The Artist Libraries Project in the Labex Les passés dans le présent",
         "authors": [
             {
-                "given": "Félicie Faizand de Maupeou",
-                "family": null,
+                "given": "Félicie Faizand",
+                "family": "de Maupeou",
                 "affiliations": [
                     "HAR - Histoire des Arts et des Représentations"
                 ]
             },
             {
-                "given": "Ségolène Le Men",
-                "family": null,
+                "given": "Ségolène",
+                "family": "Le Men",
                 "affiliations": [
                     "HAR - Histoire des Arts et des Représentations"
                 ]
@@ -313,7 +308,7 @@
         "publisher": null,
         "date": "2017/10/18",
         "keywords": [
-            "Bible Online Learner ; Joshua 24 ;  Hebrew Bible ; Digital intertextuality ; Corpus ; Logos Bible software ; language learning ; Hebrew Bible ; ETCBC ; textual criticism ; Joshua"
+            "Bible Online Learner", "Joshua 24", " Hebrew Bible", "Digital intertextuality", "Corpus", "Logos Bible software", "language learning", "Hebrew Bible", "ETCBC", "textual criticism", "Joshua"
         ],
         "journal_title": "Journal of Data Mining & Digital Humanities",
         "volume": "Special Issue on Computer-Aided Processing of Intertextuality in Ancient Languages",
@@ -352,7 +347,7 @@
         "publisher": null,
         "date": "2017/07/24",
         "keywords": [
-            "patristic authors ; Catena ; bible references ; biblical exegesis ; database ; Patrologia Graeca"
+            "patristic authors", "Catena", "bible references", "biblical exegesis", "database", "Patrologia Graeca"
         ],
         "journal_title": "Journal of Data Mining & Digital Humanities",
         "volume": "Special Issue on Computer-Aided Processing of Intertextuality in Ancient Languages",
@@ -374,15 +369,15 @@
         "article_title": "Mapping the Bentham Corpus: Concept-based Navigation",
         "authors": [
             {
-                "given": "Pablo Ruiz",
-                "family": null,
+                "given": "Pablo",
+                "family": "Ruiz",
                 "affiliations": [
                     "LILPA - Linguistique, Langues et Parole "
                 ]
             },
             {
-                "given": "Thierry Poibeau",
-                "family": null,
+                "given": "Thierry",
+                "family": "Poibeau",
                 "affiliations": [
                     "LattIce - Lattice - Langues, Textes, Traitements informatiques, Cognition - UMR 8094"
                 ]
@@ -391,7 +386,7 @@
         "publisher": null,
         "date": "2019/02/12",
         "keywords": [
-            "Jeremy Bentham ; manuscripts ; corpus navigation ; entity linking ; keyphrase extraction"
+            "Jeremy Bentham", "manuscripts", "corpus navigation", "entity linking", "keyphrase extraction"
         ],
         "journal_title": "Journal of Data Mining & Digital Humanities",
         "volume": "Special Issue: Digital Humanities between knowledge and know-how (Atelier Digit_Hum)",
@@ -413,8 +408,8 @@
         "article_title": "A Web Application for Watermark Recognition",
         "authors": [
             {
-                "given": "Oumayma Bounou",
-                "family": null,
+                "given": "Oumayma",
+                "family": "Bounou",
                 "affiliations": [
                     "SED - Service Expérimentation et Développement  [Paris Rocquencourt]",
                     "ENC - École nationale des chartes",
@@ -422,8 +417,8 @@
                 ]
             },
             {
-                "given": "Tom Monnier",
-                "family": null,
+                "given": "Tom",
+                "family": "Monnier",
                 "affiliations": [
                     "ENC - École nationale des chartes",
                     "LIGM - Laboratoire d'Informatique Gaspard-Monge",
@@ -431,65 +426,65 @@
                 ]
             },
             {
-                "given": "Ilaria Pastrolin",
-                "family": null,
+                "given": "Ilaria",
+                "family": "Pastrolin",
                 "affiliations": [
                     "ENC - École nationale des chartes"
                 ]
             },
             {
-                "given": "Xi Shen",
-                "family": null,
+                "given": "Xi",
+                "family": "Shen",
                 "affiliations": [
                     "LIGM - Laboratoire d'Informatique Gaspard-Monge"
                 ]
             },
             {
-                "given": "Christine Benevent",
-                "family": null,
+                "given": "Christine",
+                "family": "Benevent",
                 "affiliations": [
                     "ENC - École nationale des chartes"
                 ]
             },
             {
-                "given": "Marie-Françoise Limon-Bonnet",
-                "family": null,
+                "given": "Marie-Françoise",
+                "family": "Limon-Bonnet",
                 "affiliations": [
                     "ENC - École nationale des chartes",
                     "Archives nationales"
                 ]
             },
             {
-                "given": "François Bougard",
-                "family": null,
+                "given": "François",
+                "family": "Bougard",
                 "affiliations": [
                     "IRHT - Institut de recherche et d'histoire des textes"
                 ]
             },
             {
-                "given": "Mathieu Aubry",
-                "family": null,
+                "given": "Mathieu",
+                "family": "Aubry",
                 "affiliations": [
                     "LIGM - Laboratoire d'Informatique Gaspard-Monge"
                 ]
             },
             {
-                "given": "Marc H. Smith",
-                "family": null,
+                "given": "Marc H.",
+                "family": "Smith",
                 "affiliations": [
                     "ENC - École nationale des chartes"
                 ]
             },
             {
-                "given": "Olivier Poncet",
-                "family": null,
+                "given": "Olivier",
+                "family": "Poncet",
                 "affiliations": [
                     "ENC - École nationale des chartes"
                 ]
             },
             {
-                "given": "Pierre-Guillaume Raverdy",
-                "family": null,
+                "given": "Pierre-Guillaume",
+                "family": "Raverdy",
                 "affiliations": [
                     "SED - Service Expérimentation et Développement  [Paris Rocquencourt]"
                 ]
@@ -498,7 +493,7 @@
         "publisher": null,
         "date": "2020/06/16",
         "keywords": [
-            "cross-domain recognition ; deep learning ; watermark recognition ; web application ; paper analysis"
+            "cross-domain recognition", "deep learning", "watermark recognition", "web application", "paper analysis"
         ],
         "journal_title": "Journal of Data Mining & Digital Humanities",
         "volume": "24",
@@ -520,22 +515,22 @@
         "article_title": "TEI-encoding of text reuses in the BIBLINDEX Project",
         "authors": [
             {
-                "given": "Elysabeth Hue-Gay",
-                "family": null,
+                "given": "Elysabeth",
+                "family": "Hue-Gay",
                 "affiliations": [
                     "HiSoMA - Histoire et Sources des Mondes antiques"
                 ]
             },
             {
-                "given": "Laurence Mellerin",
-                "family": null,
+                "given": "Laurence",
+                "family": "Mellerin",
                 "affiliations": [
                     "HiSoMA - Histoire et Sources des Mondes antiques"
                 ]
             },
             {
-                "given": "Emmanuelle Morlock",
-                "family": null,
+                "given": "Emmanuelle",
+                "family": "Morlock",
                 "affiliations": [
                     "HiSoMA - Histoire et Sources des Mondes antiques"
                 ]
@@ -544,7 +539,7 @@
         "publisher": null,
         "date": "2017/10/07",
         "keywords": [
-            "patristics ;  Bernard of Clairvaux ;  Sources Chrétiennes ;  text reuses ; BIBLINDEX ;  quotations ;  Biblia Patristica ; TEI ;  Text Encoding Initiative ;  text markup ;  Bible ;  Greek ;  Latin ;  Septuagint ;  Vulgata"
+            "patristics", " Bernard of Clairvaux", " Sources Chrétiennes", " text reuses", "BIBLINDEX", " quotations", " Biblia Patristica", "TEI", " Text Encoding Initiative", " text markup", " Bible", " Greek", " Latin", " Septuagint", " Vulgata"
         ],
         "journal_title": "Journal of Data Mining & Digital Humanities",
         "volume": "Special Issue on Computer-Aided Processing of Intertextuality in Ancient Languages",
@@ -566,8 +561,8 @@
         "article_title": "Intertextual Pointers in the Text Alignment Network",
         "authors": [
             {
-                "given": "Joel Kalvesmaki",
-                "family": null,
+                "given": "Joel",
+                "family": "Kalvesmaki",
                 "affiliations": [
                     "DO - Dumbarton Oaks"
                 ]
@@ -576,7 +571,7 @@
         "publisher": null,
         "date": "2017/10/20",
         "keywords": [
-            "alignment ;  TEI ; XML ;  TAN ;  intertextuality ;  canonical references"
+            "alignment", " TEI", "XML", " TAN", " intertextuality", " canonical references"
         ],
         "journal_title": "Journal of Data Mining & Digital Humanities",
         "volume": "Special Issue on Computer-Aided Processing of Intertextuality in Ancient Languages",
@@ -598,36 +593,36 @@
         "article_title": "Computer - Assisted Processing of Intertextuality in Ancient Languages",
         "authors": [
             {
-                "given": "Mark Hedges",
-                "family": null,
+                "given": "Mark",
+                "family": "Hedges",
                 "affiliations": [
                     "King‘s College London"
                 ]
             },
             {
-                "given": "Anna Jordanous",
-                "family": null,
+                "given": "Anna",
+                "family": "Jordanous",
                 "affiliations": [
                     "University of Kent [Canterbury]"
                 ]
             },
             {
-                "given": "K. Faith Lawrence",
-                "family": null,
+                "given": "K. Faith",
+                "family": "Lawrence",
                 "affiliations": [
                     "King‘s College London"
                 ]
             },
             {
-                "given": "Charlotte Roueché",
-                "family": null,
+                "given": "Charlotte",
+                "family": "Roueché",
                 "affiliations": [
                     "King‘s College London"
                 ]
             },
             {
-                "given": "Charlotte Tupman",
-                "family": null,
+                "given": "Charlotte",
+                "family": "Tupman",
                 "affiliations": [
                     "University of Exeter"
                 ]
@@ -636,7 +631,7 @@
         "publisher": null,
         "date": "2017/08/03",
         "keywords": [
-            "TEI ; gnomologia ; RDF ; manuscripts ; ontology ; linked data ; semantic web ; digital edition ; anthologies"
+            "TEI", "gnomologia", "RDF", "manuscripts", "ontology", "linked data", "semantic web", "digital edition", "anthologies"
         ],
         "journal_title": "Journal of Data Mining & Digital Humanities",
         "volume": "Special Issue on Computer-Aided Processing of Intertextuality in Ancient Languages",
@@ -658,14 +653,14 @@
         "article_title": "A Collaborative Ecosystem for Digital Coptic Studies",
         "authors": [
             {
-                "given": "Schroeder",
-                "family": "Caroline T.",
-                "affiliations": null
+                "given": "Caroline T.",
+                "family": "Schroeder",
+                "affiliations": [" University of Oklahoma, United States of America"]
             },
             {
-                "given": "Zeldes",
-                "family": "Amir",
-                "affiliations": null
+                "given": "Amir",
+                "family": "Zeldes",
+                "affiliations": ["Georgetown University, United States of America"]
             }
         ],
         "publisher": null,
@@ -701,7 +696,7 @@
         "publisher": null,
         "date": "2017/06/13",
         "keywords": [
-            "Intertextuality ; Greco-Roman scholars of the Empire ; Fragmentary literature"
+            "Intertextuality", "Greco-Roman scholars of the Empire", "Fragmentary literature"
         ],
         "journal_title": "Journal of Data Mining & Digital Humanities",
         "volume": "Special Issue on Computer-Aided Processing of Intertextuality in Ancient Languages",
@@ -740,7 +735,7 @@
         "publisher": null,
         "date": "2017/06/09",
         "keywords": [
-            "JavaScript ; Python ; MySQL ; TEI EpiDoc XML ; Greek ; papyri ; linguistic annotation ; treebank ; dependency grammar"
+            "JavaScript", "Python", "MySQL", "TEI EpiDoc XML", "Greek", "papyri", "linguistic annotation", "treebank", "dependency grammar"
         ],
         "journal_title": "Journal of Data Mining & Digital Humanities",
         "volume": "Special Issue on Computer-Aided Processing of Intertextuality in Ancient Languages",
@@ -762,14 +757,14 @@
         "article_title": "Bioinformatics and Classical Literary Study",
         "authors": [
             {
-                "given": "Chaudhuri",
-                "family": "Pramit",
-                "affiliations": null
+                "given": "Pramit",
+                "family": "Chaudhuri",
+                "affiliations": ["University of Texas at Austin, USA"]
             },
             {
-                "given": "Dexter",
-                "family": "Joseph P.",
-                "affiliations": null
+                "given": "Joseph P.",
+                "family": "Dexter",
+                "affiliations": ["Harvard University, USA"]
             }
         ],
         "publisher": null,
@@ -826,7 +821,7 @@
         "publisher": null,
         "date": "2018/12/30",
         "keywords": [
-            "Tibetan ; Buddhist studies ; hackathon ; stemming ; segmentation ; intertextual alignment ; text classification"
+            "Tibetan", "Buddhist studies", "hackathon", "stemming", "segmentation", "intertextual alignment", "text classification"
         ],
         "journal_title": "Journal of Data Mining & Digital Humanities",
         "volume": "Special Issue on Computer-Aided Processing of Intertextuality in Ancient Languages",
@@ -848,19 +843,19 @@
         "article_title": "From manuscript catalogues to a handbook of Syriac literature: Modeling an infrastructure for Syriaca.org",
         "authors": [
             {
-                "given": "Gibson",
-                "family": "Nathan P.",
-                "affiliations": null
+                "given": "Nathan P.",
+                "family": "Gibson",
+                "affiliations": ["Vanderbilt University, USA"]
             },
             {
-                "given": "Michelson",
-                "family": "David A.",
-                "affiliations": null
+                "given": "David A.",
+                "family": "Michelson",
+                "affiliations": ["Vanderbilt University, USA"]
             },
             {
-                "given": "Schwartz",
-                "family": "Daniel L.",
-                "affiliations": null
+                "given": "Daniel L.",
+                "family": "Schwartz",
+                "affiliations": ["Texas A&M University, USA"]
             }
         ],
         "publisher": null,
@@ -886,14 +881,14 @@
         "article_title": "Integrated Sequence Tagging for Medieval Latin Using Deep Representation Learning",
         "authors": [
             {
-                "given": "Kestemont",
-                "family": "Mike",
-                "affiliations": null
+                "given": "Mike",
+                "family": "Kestemont",
+                "affiliations": ["University of Antwerp, Belgium"]
             },
             {
-                "given": "De Gussem",
-                "family": "Jeroen",
-                "affiliations": null
+                "given": "Jeroen",
+                "family": "De Gussem",
+                "affiliations": ["Ghent University, Belgium"]
             }
         ],
         "publisher": null,
@@ -936,7 +931,7 @@
         "publisher": null,
         "date": "2017/06/22",
         "keywords": [
-            "digital humanities ; Social science ; translation ;  corpus ;  Judaism ;  haggadah ;  VVV ;  visualization ;  algorithm ;  retranslation ;  4 sons ; humanities"
+            "digital humanities", "Social science", "translation", " corpus", " Judaism", " haggadah", " VVV", " visualization", " algorithm", " retranslation", " 4 sons", "humanities"
         ],
         "journal_title": "Journal of Data Mining & Digital Humanities",
         "volume": "Special Issue on Computer-Aided Processing of Intertextuality in Ancient Languages",
@@ -958,9 +953,9 @@
         "article_title": "QuotationFinder - Searching for Quotations and Allusions in Greek and Latin Texts and Establishing the Degree to Which a Quotation or Allusion Matches Its Source",
         "authors": [
             {
-                "given": "Herren",
-                "family": "Luc",
-                "affiliations": null
+                "given": "Luc",
+                "family": "Herren",
+                "affiliations": ["University of Münster, Germany"]
             }
         ],
         "publisher": null,
@@ -986,19 +981,19 @@
         "article_title": "Identification of Parallel Passages Across a Large Hebrew/Aramaic Corpus",
         "authors": [
             {
-                "given": "Shmidman",
-                "family": "Avi",
-                "affiliations": null
+                "given": "Avi",
+                "family": "Shmidman",
+                "affiliations": ["Department of Computer Science, Bar-Ilan University, Israel, and Dicta: The Israel Center for Text Analysis"]
             },
             {
-                "given": "Koppel",
-                "family": "Moshe",
-                "affiliations": null
+                "given": "Moshe",
+                "family": "Koppel",
+                "affiliations": ["Department of Computer Science, Bar-Ilan University, Israel, and Dicta: The Israel Center for Text Analysis"]
             },
             {
-                "given": "Porat",
-                "family": "Ely",
-                "affiliations": null
+                "given": "Ely",
+                "family": "Porat",
+                "affiliations": ["Department of Computer Science, Bar-Ilan University, Israel, and Dicta: The Israel Center for Text Analysis"]
             }
         ],
         "publisher": null,
@@ -1048,7 +1043,7 @@
         "publisher": null,
         "date": "2017/06/03",
         "keywords": [
-            "Paul of Tarsus ; Letters ; Digital edition ; Arabic TEI ; New Testament"
+            "Paul of Tarsus", "Letters", "Digital edition", "Arabic TEI", "New Testament"
         ],
         "journal_title": "Journal of Data Mining & Digital Humanities",
         "volume": "Special Issue on Computer-Aided Processing of Intertextuality in Ancient Languages",
@@ -1080,7 +1075,7 @@
         "publisher": null,
         "date": "2017/07/31",
         "keywords": [
-            "allusion ;  Lucan ;  Latin epic ;  Latin love elegy ;  intertextuality ;  generic enrichment ;  Tesserae"
+            "allusion", " Lucan", " Latin epic", " Latin love elegy", " intertextuality", " generic enrichment", " Tesserae"
         ],
         "journal_title": "Journal of Data Mining & Digital Humanities",
         "volume": "Special Issue on Computer-Aided Processing of Intertextuality in Ancient Languages",
@@ -1119,7 +1114,7 @@
         "publisher": null,
         "date": "2018/04/24",
         "keywords": [
-            "network visualization ;  Latin linguistics ;  Early Middle Ages ;  philology"
+            "network visualization", " Latin linguistics", " Early Middle Ages", " philology"
         ],
         "journal_title": "Journal of Data Mining & Digital Humanities",
         "volume": "Special Issue on Computer-Aided Processing of Intertextuality in Ancient Languages",
@@ -1168,7 +1163,7 @@
         "publisher": null,
         "date": "2017/11/21",
         "keywords": [
-            "data processing ; security ; digital humanities ; cloud computing"
+            "data processing", "security", "digital humanities", "cloud computing"
         ],
         "journal_title": "Journal of Data Mining & Digital Humanities",
         "volume": "Special Issue on Scientific and Technological Strategic Intelligence (2016)",
@@ -1214,7 +1209,7 @@
         "publisher": null,
         "date": "2017/02/09",
         "keywords": [
-            "HMMs ; Arabic text ; handwriting ; Recognition"
+            "HMMs", "Arabic text", "handwriting", "Recognition"
         ],
         "journal_title": "Journal of Data Mining & Digital Humanities",
         "volume": "Special Issue on Scientific and Technological Strategic Intelligence (2016)",
@@ -1254,7 +1249,7 @@
         "publisher": null,
         "date": "2017/12/22",
         "keywords": [
-            "lexical tagging ; corpus ; bilingual dictionaries ; bitext ; Ancient Greek ; Ancient Georgian ; morphological tagging ; text alignment ; lemmatisation ;  morphological tagging"
+            "lexical tagging", "corpus", "bilingual dictionaries", "bitext", "Ancient Greek", "Ancient Georgian", "morphological tagging", "text alignment", "lemmatisation", " morphological tagging"
         ],
         "journal_title": "Journal of Data Mining & Digital Humanities",
         "volume": "Special Issue on Computer-Aided Processing of Intertextuality in Ancient Languages",
@@ -1273,7 +1268,7 @@
             "id_scheme": "hal"
         },
         "abstract": "This work applies knowledge engineering’s techniques to medieval illuminations. Inside it, an illumination is considered as a knowledge graph which was used by some elites in the Middle Ages to represent themselves as a social group and exhibit the events in their lives, and their cultural values. That graph is based on combinations of symbolic elements linked each to others with semantic relations. Those combinations were used to encode visual metaphors and influential messages whose interpretations are sometimes tricky for not experts. Our work aims to describe the meaning of those elements through logical modelling using ontologies. To achieve that, we construct logical reasoning rules and simulate them using artificial intelligence mechanisms. The goal is to facilitate the interpretation of illuminations and provide, in a future evolution of current social media, logical formalisation of new encoding and information transmission services.",
-        "article_title": "        ",
+        "article_title": "Causal reasoning and symbolic relationships in Medieval Illuminations",
         "authors": [
             {
                 "given": "Djibril",
@@ -1300,7 +1295,7 @@
         "publisher": null,
         "date": "2019/06/03",
         "keywords": [
-            "Semantic relation ; Symbolic relation ; Ontology ; Social network ; Medieval illumination"
+            "Semantic relation", "Symbolic relation", "Ontology", "Social network", "Medieval illumination"
         ],
         "journal_title": "Journal of Data Mining & Digital Humanities",
         "volume": "Special Issue on Data Science and Digital Humanities @ EGC 2018",
@@ -1332,7 +1327,7 @@
         "publisher": null,
         "date": "2017/07/06",
         "keywords": [
-            "Manuscripts ; Gospel of John ; latin witnesses"
+            "Manuscripts", "Gospel of John", "latin witnesses"
         ],
         "journal_title": "Journal of Data Mining & Digital Humanities",
         "volume": "Special Issue on Computer-Aided Processing of Intertextuality in Ancient Languages",
@@ -1386,7 +1381,7 @@
         "publisher": null,
         "date": "2017/11/26",
         "keywords": [
-            "credit risk management ;  data integration ;  ontologies alignment"
+            "credit risk management", " data integration", " ontologies alignment"
         ],
         "journal_title": "Journal of Data Mining & Digital Humanities",
         "volume": "Special Issue on Scientific and Technological Strategic Intelligence (2016)",
@@ -1431,7 +1426,7 @@
             {
                 "given": "Jean-Luc",
                 "family": "Bonnaud",
-                "affiliations": null
+                "affiliations": ["Universite de Moncton, Canada"]
             }
         ],
         "publisher": null,
@@ -1459,7 +1454,7 @@
             {
                 "given": "Atzmueller",
                 "family": "Martin",
-                "affiliations": null
+                "affiliations": ["University of Kassel"]
             }
         ],
         "publisher": null,
@@ -1481,19 +1476,19 @@
             "string_id": "hal-01443713",
             "id_scheme": "hal"
         },
-        "abstract": null,
-        "article_title": "        ",
+        "abstract": "Cloud Computing and Big Data are the upcoming Information Technology (IT) computing models. These groundbreaking paradigms are leading IT to a new set of rules that aims to change computing resources delivery and exploitation model, thus creating a novel business market that is exponentially growing and attracting more and more investments from both providers and end users that are looking forward to make profits from these innovative models of computing. In the same context, researchers and investigators are wrestling time in order to develop, test and optimize Cloud Computing and Big Data platforms, whereas several studies are ongoing to determine and enhance the essential aspects of these computing models especially compute resources allocation. The processing power scheduling is crucial when it comes to Cloud Computing and Big Data because of the data growth management and delivery design proposed by these new computing models, that requires faster responses from platforms and applications. Hence originates the importance of developing high efficient scheduling algorithms that are compliant with these computing models platforms and infrastructures requirement.",
+        "article_title": "Smarter Round Robin Scheduling Algorithm for Cloud Computing and Big Data",
         "authors": [
             {
-                "given": "Hicham Gibet Tani",
-                "family": null,
+                "given": "Hicham",
+                "family": "Gibet Tani",
                 "affiliations": [
                     "LIST - Laboratoire d'Informatique, Système et Télécommunications"
                 ]
             },
             {
-                "given": "Chaker El Amrani",
-                "family": null,
+                "given": "Chaker",
+                "family": "El Amrani",
                 "affiliations": [
                     "LIST - Laboratoire d'Informatique, Système et Télécommunications"
                 ]
@@ -1502,8 +1497,8 @@
         "publisher": null,
         "date": "2017/01/23",
         "keywords": [
-            "Scheduling Algorithms ; Cloud Computing Simulation ; First Come First Served",
-            "Cloud Computing ; Big Data ; Algorithme de planification ; Simulation Cloud Computing ; Round Robin ; Premier Arrivé Premier Servi"
+            "Scheduling Algorithms", "Cloud Computing Simulation", "First Come First Served",
+            "Cloud Computing", "Big Data", "Algorithme de planification", "Simulation Cloud Computing", "Round Robin", "Premier Arrivé Premier Servi"
         ],
         "journal_title": "Journal of Data Mining & Digital Humanities",
         "volume": "Special Issue on Scientific and Technological Strategic Intelligence (2016)",
@@ -1525,19 +1520,19 @@
         "article_title": "A New Approach to Reporting Archaeological Surveys: Connecting Rough Cilicia, Visible Past and Open Context through loose coupling and 3d codes",
         "authors": [
             {
-                "given": "Matei",
-                "family": "Sorin Adam",
-                "affiliations": null
+                "given": "Sorin Adam",
+                "family": "Matei",
+                "affiliations": ["Purdue University"]
             },
             {
-                "given": "Rauh",
-                "family": "Nicholas K.",
-                "affiliations": null
+                "given": "Nicholas K.",
+                "family": "Rauh",
+                "affiliations": ["Alexandria Institute, CA"]
             },
             {
-                "given": "Kansa",
-                "family": "Eric C.",
-                "affiliations": null
+                "given": "Eric C.",
+                "family": "Kansa",
+                "affiliations": ["Purdue University"]
             }
         ],
         "publisher": null,
@@ -1563,24 +1558,24 @@
         "article_title": "A Secured Data Processing Technique for Effective Utilization of Cloud Computing",
         "authors": [
             {
-                "given": "Mbarek Marwan",
-                "family": null,
+                "given": "Mbarek",
+                "family": "Marwan",
                 "affiliations": [
                     "UCD - Université Chouaib Doukkali",
                     "Département Télécommunications, Réseaux et Informatique"
                 ]
             },
             {
-                "given": "Ali Kartit",
-                "family": null,
+                "given": "Ali",
+                "family": "Kartit",
                 "affiliations": [
                     "Département Télécommunications, Réseaux et Informatique",
                     "UCD - Université Chouaib Doukkali"
                 ]
             },
             {
-                "given": "Hassan Ouahmane",
-                "family": null,
+                "given": "Hassan",
+                "family": "Ouahmane",
                 "affiliations": [
                     "Département Télécommunications, Réseaux et Informatique",
                     "UCD - Université Chouaib Doukkali"
@@ -1590,7 +1585,7 @@
         "publisher": null,
         "date": "2017/02/16",
         "keywords": [
-            "cloud computing ; digital humanities ; security ; data processing"
+            "cloud computing", "digital humanities", "security", "data processing"
         ],
         "journal_title": "Journal of Data Mining & Digital Humanities",
         "volume": "Special Issue on Scientific and Technological Strategic Intelligence (2016)",
@@ -1612,8 +1607,8 @@
         "article_title": "ANALYSING JOURNALISTIC DISCOURSE AND FINDING OPINIONS SEMI-AUTOMATICALLY?: A CASE STUDY OF THE 2007 AND 2012 PRESIDENTIAL FRENCH CAMPAIGNS",
         "authors": [
             {
-                "given": "Fabienne Baider",
-                "family": null,
+                "given": "Fabienne",
+                "family": "Baider",
                 "affiliations": [
                     "UCY - University of Cyprus"
                 ]
@@ -1622,8 +1617,8 @@
         "publisher": null,
         "date": "2014/05/02",
         "keywords": [
-            "semi-automatic reading ; gender stereotypes ; political favoritism ; journalistic discourse ; French presidential campaign",
-            "lecture automatique ; stéréotypes de genre ; biais politique ; discours journalistique ; campagne présidentielle française"
+            "semi-automatic reading", "gender stereotypes", "political favoritism", "journalistic discourse", "French presidential campaign",
+            "lecture automatique", "stéréotypes de genre", "biais politique", "discours journalistique", "campagne présidentielle française"
         ],
         "journal_title": "Journal of Data Mining & Digital Humanities",
         "volume": "2014",
@@ -1641,18 +1636,18 @@
             "string_id": "1312.5817",
             "id_scheme": "arXiv"
         },
-        "abstract": "This study analyzed references and source papers of the Proceedings of 2009-2012 International Conference of Digital Archives and Digital Humanities (DADH), which was held annually in Taiwan. A total of 59 sources and 1,104 references were investigated, based on descriptive analysis and subject analysis of library practices on cataloguing. Preliminary results showed historical materials, events, bureaucracies, and people of Taiwan and China in the Qing Dynasty were the major subjects in the tempo-spatial dimensions. The subject-date figure depicted a long-low head and short-high tail curve, which demonstrated both characteristics of research of humanities and application of technology in digital humanities. The dates of publication of the references spanned over 360 years, which shows a long time span in research materials. A majority of the papers (61.41%) were single-authored, which is in line with the common research practice in the humanities. Books published by general publishers were the major type of references, and this was the same as that of established humanities research. The next step of this study will focus on the comparison of characteristics of both sources and references of international journals with those reported in this article.      ",
+        "abstract": "This study analyzed references and source papers of the Proceedings of 2009-2012 International Conference of Digital Archives and Digital Humanities (DADH), which was held annually in Taiwan. A total of 59 sources and 1,104 references were investigated, based on descriptive analysis and subject analysis of library practices on cataloguing. Preliminary results showed historical materials, events, bureaucracies, and people of Taiwan and China in the Qing Dynasty were the major subjects in the tempo-spatial dimensions. The subject-date figure depicted a long-low head and short-high tail curve, which demonstrated both characteristics of research of humanities and application of technology in digital humanities. The dates of publication of the references spanned over 360 years, which shows a long time span in research materials. A majority of the papers (61.41%) were single-authored, which is in line with the common research practice in the humanities. Books published by general publishers were the major type of references, and this was the same as that of established humanities research. The next step of this study will focus on the comparison of characteristics of both sources and references of international journals with those reported in this article.",
         "article_title": "Exploring Regional Development of Digital Humanities Research: A Case Study for Taiwan",
         "authors": [
             {
-                "given": "Chen",
-                "family": "Kuang-hua",
-                "affiliations": null
+                "given": "Kuang-hua",
+                "family": "Chen",
+                "affiliations": ["National Taiwan University"]
             },
             {
-                "given": "Hsueh",
-                "family": "Bi-Shin",
-                "affiliations": null
+                "given": "Bi-Shin",
+                "family": "Hsueh",
+                "affiliations": ["National Taiwan University"]
             }
         ],
         "publisher": null,
@@ -1678,15 +1673,15 @@
         "article_title": "Deception in Speeches of Candidates for Public Office",
         "authors": [
             {
-                "given": "David Skillicorn",
-                "family": null,
+                "given": "David",
+                "family": "Skillicorn",
                 "affiliations": [
                     "School of computing [Kingston]"
                 ]
             },
             {
-                "given": "Christian Leuprecht",
-                "family": null,
+                "given": "Christian",
+                "family": "Leuprecht",
                 "affiliations": [
                     "RMCC - Royal Military College of Canada"
                 ]
@@ -1695,7 +1690,7 @@
         "publisher": null,
         "date": "2015/08/16",
         "keywords": [
-            "political discourse ; corpus analytics ; U.S. presidential elections ; deception ; singular value decomposition"
+            "political discourse", "corpus analytics", "U.S. presidential elections", "deception", "singular value decomposition"
         ],
         "journal_title": "Journal of Data Mining & Digital Humanities",
         "volume": null,
@@ -1717,19 +1712,19 @@
         "article_title": "A Survey of Data Mining Techniques for Social Media Analysis",
         "authors": [
             {
-                "given": "Adedoyin-Olowe",
-                "family": "Mariam",
-                "affiliations": null
+                "given": "Mariam",
+                "family": "Adedoyin-Olowe",
+                "affiliations": ["School of Computing Science and Digital Media, Robert Gordon University"]
             },
             {
-                "given": "Gaber",
-                "family": "Mohamed Medhat",
-                "affiliations": null
+                "given": "Mohamed Medhat",
+                "family": "Gaber",
+                "affiliations": ["School of Computing Science and Digital Media, Robert Gordon University"]
             },
             {
-                "given": "Stahl",
-                "family": "Frederic",
-                "affiliations": null
+                "given": "Frederic",
+                "family": "Stahl",
+                "affiliations": ["School of Systems Engineering, University of Reading"]
             }
         ],
         "publisher": null,
@@ -1755,9 +1750,9 @@
         "article_title": "Clustering and Relational Ambiguity: from Text Data to Natural Data",
         "authors": [
             {
-                "given": "Turenne",
-                "family": "Nicolas",
-                "affiliations": null
+                "given": "Nicolas",
+                "family": "Turenne",
+                "affiliations": ["Université Paris Est"]
             }
         ],
         "publisher": null,
@@ -1783,9 +1778,9 @@
         "article_title": "Node similarity as a basic principle behind connectivity in complex networks",
         "authors": [
             {
-                "given": "Scholz",
-                "family": "Matthias",
-                "affiliations": null
+                "given": "Matthias",
+                "family": "Scholz",
+                "affiliations": ["Ernst-Moritz-Arndt-University, Greifswald, Germany", "University of Trento, Italy"]
             }
         ],
         "publisher": null,
@@ -1811,14 +1806,14 @@
         "article_title": "Pattern Recognition in Narrative: Tracking Emotional Expression in Context",
         "authors": [
             {
-                "given": "Murtagh",
-                "family": "Fionn",
-                "affiliations": null
+                "given": "Fionn",
+                "family": "Murtagh",
+                "affiliations": ["University of Derby, UK", "Goldsmiths University of London, UK"]
             },
             {
-                "given": "Ganz",
-                "family": "Adam",
-                "affiliations": null
+                "given": "Adam",
+                "family": "Ganz",
+                "affiliations": ["Royal Holloway, University of London, UK"]
             }
         ],
         "publisher": null,
@@ -1844,22 +1839,24 @@
         "article_title": "Deep Learning for Period Classification of Historical Hebrew Texts",
         "authors": [
             {
-                "given": "Chaya Liebeskind",
-                "family": null,
+                "given": "Chaya",
+                "family": "Liebeskind",
                 "affiliations": [
                     "JCT - Jerusalem College of Technology"
                 ]
             },
             {
-                "given": "Shmuel Liebeskind",
-                "family": null,
-                "affiliations": null
+                "given": "Shmuel",
+                "family": "Liebeskind",
+                "affiliations": [
+                    "JCT - Jerusalem College of Technology"
+                ]
             }
         ],
         "publisher": null,
         "date": "2020/06/01",
         "keywords": [
-            "Machine Learning ; Deep Learning ; Diachronic Corpus ; Period Classification"
+            "Machine Learning", "Deep Learning", "Diachronic Corpus", "Period Classification"
         ],
         "journal_title": "Journal of Data Mining & Digital Humanities",
         "volume": "2020",
@@ -1881,19 +1878,19 @@
         "article_title": "Extracting Keywords from Open-Ended Business Survey Questions",
         "authors": [
             {
-                "given": "McGillivray",
-                "family": "Barbara",
-                "affiliations": null
+                "given": "Barbara",
+                "family": "McGillivray",
+                "affiliations": ["The Alan Turing Institute", "University of Cambridge"]
             },
             {
-                "given": "Jenset",
-                "family": "Gard",
-                "affiliations": null
+                "given": "Gard",
+                "family": "Jenset",
+                "affiliations": ["Independent Researcher"]
             },
             {
-                "given": "Heil",
-                "family": "Dominik",
-                "affiliations": null
+                "given": "Dominik",
+                "family": "Heil",
+                "affiliations": ["University of the Witwatersrand, Johannesburg"]
             }
         ],
         "publisher": null,
@@ -1916,11 +1913,11 @@
             "id_scheme": "hal"
         },
         "abstract": "Tokenization of modern and old Western European languages seems to be fairly simple, as it stands on the presence mostly of markers such as spaces and punctuation. However, when dealing with old sources like manuscripts written in scripta continua, antiquity epigraphy or Middle Age manuscripts, (1) such markers are mostly absent, (2) spelling variation and rich morphology make dictionary based approaches difficult. Applying convolutional encoding to characters followed by linear categorization to word-boundary or in-word-sequence is shown to be effective at tokenizing such inputs. Additionally, the software is released with a simple interface for tokenizing a corpus or generating a training set.",
-        "article_title": "        ",
+        "article_title": "Evaluating Deep Learning Methods for Word Segmentation of Scripta Continua Texts in Old French and Latin",
         "authors": [
             {
-                "given": "Thibault Clérice",
-                "family": null,
+                "given": "Thibault",
+                "family": "Clérice",
                 "affiliations": [
                     "PSL - Université Paris sciences et lettres",
                     "ENC - École nationale des chartes",
@@ -1932,7 +1929,7 @@
         "publisher": null,
         "date": "2020/04/05",
         "keywords": [
-            "convolutional network ; scripta continua ; tokenization ; Old French ; word segmentation"
+            "convolutional network", "scripta continua", "tokenization", "Old French", "word segmentation"
         ],
         "journal_title": "Journal of Data Mining & Digital Humanities",
         "volume": "2020",
@@ -1954,19 +1951,19 @@
         "article_title": "Computer Analysis of Architecture Using Automatic Image Understanding",
         "authors": [
             {
-                "given": "Wei",
-                "family": "Fan",
-                "affiliations": null
+                "given": "Fan",
+                "family": "Wei",
+                "affiliations": ["Lawrence Technological University, USA"]
             },
             {
-                "given": "Li",
-                "family": "Yuan",
-                "affiliations": null
+                "given": "Yuan",
+                "family": "Li",
+                "affiliations": ["Lawrence Technological University, USA"]
             },
             {
-                "given": "Shamir",
-                "family": "Lior",
-                "affiliations": null
+                "given": "Lior",
+                "family": "Shamir",
+                "affiliations": ["Lawrence Technological University, USA"]
             }
         ],
         "publisher": null,
@@ -1992,9 +1989,9 @@
         "article_title": "Text Complexity Classification Based on Linguistic Information: Application to Intelligent Tutoring of ESL",
         "authors": [
             {
-                "given": "Kurdi",
-                "family": "M. Zakaria",
-                "affiliations": null
+                "given": "M. Zakaria",
+                "family": "Kurdi",
+                "affiliations": ["University of Lynchburg, USA"]
             }
         ],
         "publisher": null,
@@ -2020,29 +2017,29 @@
         "article_title": "Leveraging Concepts in Open Access Publications",
         "authors": [
             {
-                "given": "Andrea Bertino",
-                "family": null,
+                "given": "Andrea",
+                "family": "Bertino",
                 "affiliations": [
                     "SUB Göttingen - Göttingen State and University Library"
                 ]
             },
             {
-                "given": "Luca Foppiano",
-                "family": null,
+                "given": "Luca",
+                "family": "Foppiano",
                 "affiliations": [
                     "ALMAnaCH - Automatic Language Modelling and ANAlysis & Computational Humanities"
                 ]
             },
             {
-                "given": "Laurent Romary",
-                "family": null,
+                "given": "Laurent",
+                "family": "Romary",
                 "affiliations": [
                     "ALMAnaCH - Automatic Language Modelling and ANAlysis & Computational Humanities"
                 ]
             },
             {
-                "given": "Pierre Mounier",
-                "family": null,
+                "given": "Pierre",
+                "family": "Mounier",
                 "affiliations": [
                     "CLEO - Centre pour l'édition électronique ouverte",
                     "EHESS - École des hautes études en sciences sociales"
@@ -2052,7 +2049,7 @@
         "publisher": null,
         "date": "2019/03/25",
         "keywords": [
-            "Open Access ; Named Entity Recognition and Disambiguation (NERD) ; Entity-Fishing ; Monographs ; Digital Publishing Platforms"
+            "Open Access", "Named Entity Recognition and Disambiguation (NERD)", "Entity-Fishing", "Monographs", "Digital Publishing Platforms"
         ],
         "journal_title": "Journal of Data Mining & Digital Humanities",
         "volume": "2019",
@@ -2074,19 +2071,19 @@
         "article_title": "How the Taiwanese Do China Studies: Applications of Text Mining",
         "authors": [
             {
-                "given": "Shao",
-                "family": "Hsuan-Lei",
-                "affiliations": null
+                "given": "Hsuan-Lei",
+                "family": "Shao",
+                "affiliations": ["Department of East Asian Studies, National Taiwan Normal University"]
             },
             {
-                "given": "Huang",
-                "family": "Sieh-Chuen",
-                "affiliations": null
+                "given": "Sieh-Chuen",
+                "family": "Huang",
+                "affiliations": ["College of Law, National Taiwan University"]
             },
             {
-                "given": "Tsai",
-                "family": "Yun-Cheng",
-                "affiliations": null
+                "given": "Yun-Cheng",
+                "family": "Tsai",
+                "affiliations": ["Center for General Education, National Taiwan University"]
             }
         ],
         "publisher": null,

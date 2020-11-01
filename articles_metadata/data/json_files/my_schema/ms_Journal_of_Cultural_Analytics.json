@@ -11,11 +11,11 @@
             {
                 "given": "Ted",
                 "family": "Underwood",
-                "affiliation": null
+                "affiliation": ["Illinois School of Information Sciences"]
             },
             {
                 "name": "The NovelTM Research Group",
-                "affiliation": null
+                "affiliation": ["McGill University"]
             }
         ],
         "publisher": "Department of Languages, Literatures, and Cultures",
@@ -43,7 +43,7 @@
             {
                 "given": "Andrew",
                 "family": "Piper",
-                "affiliation": null
+                "affiliation": ["McGill University"]
             }
         ],
         "publisher": "Department of Languages, Literatures, and Cultures",
@@ -71,17 +71,17 @@
             {
                 "given": "Marit",
                 "family": "MacArthur",
-                "affiliation": null
+                "affiliation": ["University of California, Davis"]
             },
             {
                 "given": "Georgia",
                 "family": "Zellou",
-                "affiliation": null
+                "affiliation": ["University of California, Davis"]
             },
             {
                 "given": "Lee",
                 "family": "Miller",
-                "affiliation": null
+                "affiliation": ["University of California, Davis"]
             }
         ],
         "publisher": "Department of Languages, Literatures, and Cultures",
@@ -109,7 +109,7 @@
             {
                 "given": "Matt",
                 "family": "Erlin",
-                "affiliation": null
+                "affiliation": ["Washington University in St. Louis"]
             }
         ],
         "publisher": "Department of Languages, Literatures, and Cultures",
@@ -137,12 +137,12 @@
             {
                 "given": "Matthew",
                 "family": "Jockers",
-                "affiliation": null
+                "affiliation": ["Washington State University"]
             },
             {
                 "given": "Gabi",
                 "family": "Kiriloff",
-                "affiliation": null
+                "affiliation": ["Texas Christian University"]
             }
         ],
         "publisher": "Department of Languages, Literatures, and Cultures",
@@ -170,7 +170,7 @@
             {
                 "given": "Matthew",
                 "family": "Wilkens",
-                "affiliation": null
+                "affiliation": ["Cornell University"]
             }
         ],
         "publisher": "Department of Languages, Literatures, and Cultures",
@@ -198,7 +198,7 @@
             {
                 "given": "Ted",
                 "family": "Underwood",
-                "affiliation": null
+                "affiliation": ["Illinois School of Information Sciences"]
             }
         ],
         "publisher": "Department of Languages, Literatures, and Cultures",
@@ -226,12 +226,12 @@
             {
                 "given": "Elizabeth",
                 "family": "Evans",
-                "affiliation": null
+                "affiliation": ["Cornell University"]
             },
             {
                 "given": "Matthew",
                 "family": "Wilkins",
-                "affiliation": null
+                "affiliation": ["Cornell University"]
             }
         ],
         "publisher": "Department of Languages, Literatures, and Cultures",
@@ -259,12 +259,12 @@
             {
                 "given": "Eve",
                 "family": "Kraicer",
-                "affiliation": null
+                "affiliation": ["McGill University"]
             },
             {
                 "given": "Andrew",
                 "family": "Piper",
-                "affiliation": null
+                "affiliation": ["McGill University"]
             }
         ],
         "publisher": "Department of Languages, Literatures, and Cultures",
@@ -292,22 +292,22 @@
             {
                 "given": "Lynne",
                 "family": "Tatlock",
-                "affiliation": null
+                "affiliation": ["Washington University in St. Louis"]
             },
             {
                 "given": "Matt",
                 "family": "Erlin",
-                "affiliation": null
+                "affiliation": ["Washington University in St. Louis"]
             },
             {
                 "given": "Douglas",
                 "family": "Knox",
-                "affiliation": null
+                "affiliation": ["Washington University in St. Louis"]
             },
             {
                 "given": "Stephen",
                 "family": "Pentecost",
-                "affiliation": null
+                "affiliation": ["Washington University in St. Louis"]
             }
         ],
         "publisher": "Department of Languages, Literatures, and Cultures",
@@ -335,12 +335,12 @@
             {
                 "given": "Richard",
                 "family": "So",
-                "affiliation": null
+                "affiliation": ["McGill University"]
             },
             {
                 "given": "Hoyt",
                 "family": "Long",
-                "affiliation": null
+                "affiliation": ["The University of Chicago"]
             },
             {
                 "given": "Yuancheng",
@@ -373,17 +373,17 @@
             {
                 "given": "Ted",
                 "family": "Underwood",
-                "affiliation": null
+                "affiliation": ["Illinois School of Information Sciences"]
             },
             {
                 "given": "David",
                 "family": "Bamman",
-                "affiliation": null
+                "affiliation": ["University of Illinois"]
             },
             {
                 "given": "Sabrina",
                 "family": "Lee",
-                "affiliation": null
+                "affiliation": ["University of Illinois"]
             }
         ],
         "publisher": "Department of Languages, Literatures, and Cultures",
@@ -411,12 +411,12 @@
             {
                 "given": "Susan",
                 "family": "Brown",
-                "affiliation": null
+                "affiliation": ["McGill University"]
             },
             {
                 "given": "Laura",
                 "family": "Mandell",
-                "affiliation": null
+                "affiliation": ["Texas A&M University"]
             }
         ],
         "publisher": "Department of Languages, Literatures, and Cultures",
@@ -444,44 +444,11 @@
             {
                 "given": "Andrea",
                 "family": "Zeffiro",
-                "affiliation": null
+                "affiliation": ["McMaster University"]
             }
         ],
         "publisher": "Department of Languages, Literatures, and Cultures",
         "date": "2019-05-17T07:32:34Z",
-        "keywords": null,
-        "journal_title": "Journal of Cultural Analytics",
-        "volume": null,
-        "issue": null,
-        "ISSN": [
-            {
-                "value": "2371-4549",
-                "type": "electronic"
-            }
-        ]
-    },
-    {
-        "url": "http://dx.doi.org/10.22148/16.044",
-        "identifier": {
-            "string_id": "10.22148/16.044",
-            "id_scheme": "DOI"
-        },
-        "abstract": "--",
-        "article_title": "Difficult Heritage and the Complexities of Indigenous Data",
-        "authors": [
-            {
-                "given": "Jennifer",
-                "family": "Guiliano",
-                "affiliation": null
-            },
-            {
-                "given": "Carolyn",
-                "family": "Heitman",
-                "affiliation": null
-            }
-        ],
-        "publisher": "Department of Languages, Literatures, and Cultures",
-        "date": "2019-08-13T21:24:36Z",
         "keywords": null,
         "journal_title": "Journal of Cultural Analytics",
         "volume": null,
@@ -505,12 +472,12 @@
             {
                 "given": "Luke",
                 "family": "Stark",
-                "affiliation": null
+                "affiliation": ["The University of Western Ontario"]
             },
             {
                 "given": "Anna Lauren",
                 "family": "Hoffmann",
-                "affiliation": null
+                "affiliation": ["University of Washington"]
             }
         ],
         "publisher": "Department of Languages, Literatures, and Cultures",
@@ -538,12 +505,12 @@
             {
                 "given": "Morgan",
                 "family": "Currie",
-                "affiliation": null
+                "affiliation": ["University of Edinburgh"]
             },
             {
                 "given": "Umi",
                 "family": "Hsu",
-                "affiliation": null
+                "affiliation": ["USC Marshall School of Business"]
             }
         ],
         "publisher": "Department of Languages, Literatures, and Cultures",
@@ -571,7 +538,7 @@
             {
                 "given": "Niels",
                 "family": "Kerssens",
-                "affiliation": null
+                "affiliation": ["Utrecht University"]
             }
         ],
         "publisher": "Department of Languages, Literatures, and Cultures",
@@ -599,7 +566,7 @@
             {
                 "given": "Nikki",
                 "family": "Stevens",
-                "affiliation": null
+                "affiliation": ["Arizona State University"]
             }
         ],
         "publisher": "Department of Languages, Literatures, and Cultures",
@@ -627,7 +594,7 @@
             {
                 "given": "Tonia",
                 "family": "Sutherland",
-                "affiliation": null
+                "affiliation": ["University of Hawaiʻi at Mānoa"]
             }
         ],
         "publisher": "Department of Languages, Literatures, and Cultures",
@@ -656,18 +623,16 @@
                 "given": "Karen",
                 "family": "Bourrier",
                 "affiliation": [
-                    {
-                        "name": "University of Calgary, Alberta"
-                    }
+                  "University of Calgary, Alberta"
+                  
                 ]
             },
             {
                 "given": "Mike",
                 "family": "Thelwall",
                 "affiliation": [
-                    {
-                        "name": "University of Wolverhampton, England"
-                    }
+                  "University of Wolverhampton, England"
+                 
                 ]
             }
         ],
@@ -696,46 +661,35 @@
             {
                 "given": "Ana",
                 "family": "Jofre",
-                "affiliation": [
-                    {
-                        "name": "SUNY Polytechnic"
-                    }
-                ]
+                "affiliation": ["SUNY Polytechnic"]
             },
             {
                 "given": "Josh",
                 "family": "Cole",
-                "affiliation": [
-                    {
-                        "name": "Queen's University"
-                    }
+                "affiliation": ["Queen's University"
+                    
                 ]
             },
             {
                 "given": "Vincent",
                 "family": "Berardi",
-                "affiliation": [
-                    {
-                        "name": "Chapman University"
-                    }
+                "affiliation": ["Chapman University"
+
                 ]
             },
             {
                 "given": "Carl",
                 "family": "Bennett",
-                "affiliation": [
-                    {
-                        "name": "SUNY Polytechnic"
-                    }
+                "affiliation": ["SUNY Polytechnic"
+                   
                 ]
             },
             {
                 "given": "Michael",
                 "family": "Reale",
                 "affiliation": [
-                    {
-                        "name": "SUNY Polytechnic"
-                    }
+                    "SUNY Polytechnic"
+                  
                 ]
             }
         ],
@@ -765,9 +719,8 @@
                 "given": "Heather",
                 "family": "Froehlich",
                 "affiliation": [
-                    {
-                        "name": "Pennsylvania State"
-                    }
+                    "Pennsylvania State"
+                  
                 ]
             }
         ],
@@ -797,18 +750,15 @@
                 "given": "Grant",
                 "family": "Storey",
                 "affiliation": [
-                    {
-                        "name": "Cornell University"
-                    }
+                    "Cornell University"
+                   
                 ]
             },
             {
                 "given": "David",
                 "family": "Mimno",
-                "affiliation": [
-                    {
-                        "name": "Cornell University"
-                    }
+                "affiliation": ["Cornell University"
+                 
                 ]
             }
         ],
@@ -837,7 +787,7 @@
             {
                 "given": "Johannes",
                 "family": "Burgers",
-                "affiliation": null
+                "affiliation": ["Ashoka University, India"]
             }
         ],
         "publisher": "Department of Languages, Literatures, and Cultures",
@@ -865,12 +815,12 @@
             {
                 "given": "Ed",
                 "family": "Summers",
-                "affiliation": null
+                "affiliation": ["Maryland Institute for Technology in the Humanities "]
             },
             {
                 "given": "Amy",
                 "family": "Wickner",
-                "affiliation": null
+                "affiliation": ["University of Maryland Libraries "]
             }
         ],
         "publisher": "Department of Languages, Literatures, and Cultures",
@@ -898,17 +848,17 @@
             {
                 "given": "Taylor",
                 "family": "Arnold",
-                "affiliation": null
+                "affiliation": ["University of Richmond"]
             },
             {
                 "given": "Lauren",
                 "family": "Tilton",
-                "affiliation": null
+                "affiliation": ["University of Richmond"]
             },
             {
                 "given": "Annie",
                 "family": "Berke",
-                "affiliation": null
+                "affiliation": ["University of Richmond"]
             }
         ],
         "publisher": "Department of Languages, Literatures, and Cultures",
@@ -936,17 +886,17 @@
             {
                 "given": "Lucas",
                 "family": "van der Deijl",
-                "affiliation": null
+                "affiliation": ["University of Amsterdam"]
             },
             {
                 "given": "Roel",
                 "family": "Smeets",
-                "affiliation": null
+                "affiliation": ["Radboud University"]
             },
             {
                 "given": "Antal",
                 "family": "van den Bosch",
-                "affiliation": null
+                "affiliation": ["Meertens Institute"]
             }
         ],
         "publisher": "Department of Languages, Literatures, and Cultures",
@@ -974,10 +924,8 @@
             {
                 "given": "Jonathan",
                 "family": "Cheng",
-                "affiliation": [
-                    {
-                        "name": "University of Nebraska"
-                    }
+                "affiliation": ["University of Nebraska"
+                  
                 ]
             }
         ],
@@ -1006,7 +954,7 @@
             {
                 "given": "Benjamin",
                 "family": "Schmidt",
-                "affiliation": null
+                "affiliation": ["Northeastern University: Boston, MA, US"]
             }
         ],
         "publisher": "Department of Languages, Literatures, and Cultures",
@@ -1034,17 +982,17 @@
             {
                 "given": "Laura",
                 "family": "McGrath",
-                "affiliation": null
+                "affiliation": ["Michigan State University"]
             },
             {
                 "given": "Devin",
                 "family": "Higgins",
-                "affiliation": null
+                "affiliation": ["Michigan State University"]
             },
             {
                 "given": "Arend",
                 "family": "Hintze",
-                "affiliation": null
+                "affiliation": ["Michigan State University"]
             }
         ],
         "publisher": "Department of Languages, Literatures, and Cultures",
@@ -1072,7 +1020,7 @@
             {
                 "given": "Christopher N.",
                 "family": "Warren",
-                "affiliation": null
+                "affiliation": ["Carnegie Mellon University"]
             }
         ],
         "publisher": "Department of Languages, Literatures, and Cultures",
@@ -1100,7 +1048,7 @@
             {
                 "given": "Jo",
                 "family": "Guldi",
-                "affiliation": null
+                "affiliation": ["Southern Methodist University"]
             }
         ],
         "publisher": "Department of Languages, Literatures, and Cultures",
@@ -1128,7 +1076,7 @@
             {
                 "given": "Dallas",
                 "family": "Liddle",
-                "affiliation": null
+                "affiliation": ["Augsburg University, Minneapolis, MN"]
             }
         ],
         "publisher": "Department of Languages, Literatures, and Cultures",
@@ -1156,12 +1104,12 @@
             {
                 "given": "Tanya",
                 "family": "Clement",
-                "affiliation": null
+                "affiliation": ["The University of Texas at Austin"]
             },
             {
                 "given": "Amelia",
                 "family": "Acker",
-                "affiliation": null
+                "affiliation": ["The University of Texas at Austin"]
             }
         ],
         "publisher": "Department of Languages, Literatures, and Cultures",
@@ -1189,17 +1137,17 @@
             {
                 "given": "Peter",
                 "family": "Broadwell",
-                "affiliation": null
+                "affiliation": ["University of California, Los Angeles"]
             },
             {
                 "given": "David",
                 "family": "Mimno",
-                "affiliation": null
+                "affiliation": ["Cornell University"]
             },
             {
                 "given": "Timothy R.",
                 "family": "Tangherlini",
-                "affiliation": null
+                "affiliation": ["University of California, Los Angeles"]
             }
         ],
         "publisher": "Department of Languages, Literatures, and Cultures",
@@ -1225,24 +1173,24 @@
         "article_title": "Towards a Poetics of Strangeness: Experiments in Classifying Language of Technological Novelty",
         "authors": [
             {
-                "given": "Michael  and Ed Finn",
+                "given": "Michael",
                 "family": "Simeone",
-                "affiliation": null
+                "affiliation": ["Arizona State University, Tempe, United States"]
             },
             {
                 "given": "Advaith Gundavajhala Venkata",
                 "family": "Koundinya",
-                "affiliation": null
+                "affiliation": ["Arizona State University, Tempe, United States"]
             },
             {
                 "given": "Anandh Ravi",
                 "family": "Kumar",
-                "affiliation": null
+                "affiliation": ["Arizona State University, Tempe, United States"]
             },
             {
                 "given": "Ed",
                 "family": "Finn",
-                "affiliation": null
+                "affiliation": ["Arizona State University, Tempe, United States"]
             }
         ],
         "publisher": "Department of Languages, Literatures, and Cultures",
@@ -1270,12 +1218,12 @@
             {
                 "given": "Michael",
                 "family": "Gavin",
-                "affiliation": null
+                "affiliation": ["University of South Carolina"]
             },
             {
                 "given": "Eric",
                 "family": "Gidal",
-                "affiliation": null
+                "affiliation": ["University of Iowa "]
             }
         ],
         "publisher": "Department of Languages, Literatures, and Cultures",
@@ -1308,7 +1256,7 @@
             {
                 "given": "Blaine",
                 "family": "Greteman",
-                "affiliation": null
+                "affiliation": ["University of Iowa"]
             },
             {
                 "given": "Jason",
@@ -1318,7 +1266,7 @@
             {
                 "given": "David",
                 "family": "Eichmann",
-                "affiliation": null
+                "affiliation": ["University of Iowa"]
             }
         ],
         "publisher": "Department of Languages, Literatures, and Cultures",
@@ -1346,7 +1294,7 @@
             {
                 "given": "Lev",
                 "family": "Manovich",
-                "affiliation": null
+                "affiliation": ["City University of New York (CUNY)"]
             }
         ],
         "publisher": "Department of Languages, Literatures, and Cultures",
@@ -1374,12 +1322,12 @@
             {
                 "given": "Tanya",
                 "family": "Clement",
-                "affiliation": null
+                "affiliation": ["University of Texas at Austin"]
             },
             {
                 "given": "Stephen",
                 "family": "McLaughlin",
-                "affiliation": null
+                "affiliation": ["University of Texas at Austin"]
             }
         ],
         "publisher": "Department of Languages, Literatures, and Cultures",
@@ -1407,7 +1355,7 @@
             {
                 "given": "Andrew",
                 "family": "Piper",
-                "affiliation": null
+                "affiliation": ["McGill University"]
             }
         ],
         "publisher": "Department of Languages, Literatures, and Cultures",
@@ -1435,22 +1383,22 @@
             {
                 "given": "Dan",
                 "family": "Jurafsky",
-                "affiliation": null
+                "affiliation": ["Stanford University"]
             },
             {
                 "given": "Victor",
                 "family": "Chahuneau",
-                "affiliation": null
+                "affiliation": ["Carnegie Mellon University"]
             },
             {
                 "given": "Bryan R.",
                 "family": "Routledge",
-                "affiliation": null
+                "affiliation": ["Carnegie Mellon University"]
             },
             {
                 "given": "Noah A.",
                 "family": "Smith",
-                "affiliation": null
+                "affiliation": ["University of Washington"]
             }
         ],
         "publisher": "Department of Languages, Literatures, and Cultures",
