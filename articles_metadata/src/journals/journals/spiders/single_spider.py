@@ -6,7 +6,7 @@ import json
 class ArticlesSpider(scrapy.Spider):
     name = "get_abstracts"
     def start_requests(self):      
-        filename = "../../../../data/json_files/my_schema/ms_CF_Journal_of_the_Text_Encoding_Initiative.json" 
+        filename = "../../../../data/json_files/my_schema/ms_International_Journal_of_Digital_Curation.json" 
         with open(filename, "r", encoding="utf-8") as f:
             articles = json.load(f)
             for article in articles:
@@ -37,11 +37,12 @@ class ArticlesSpider(scrapy.Spider):
         # japanese
         # scraped_abstract = response.xpath('//p[@class="global-para-14"]').get()
         # tei
-        scraped_abstract = response.xpath('//p[@class="resume"]').get()
+        # scraped_abstract = response.xpath('//p[@class="resume"]').get()
+        date = response.xpath('//meta[@name="DC.Date.created"]/@content').get()
         
         yield {
             "string_id": response.meta["id"],
-            "abstract": scraped_abstract
+            "date": date
         } 
 
 
