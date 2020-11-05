@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="poster/demo">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Developing and Teaching with Computer-based Courseware
+                    in History: the History Courseware Consortium</title>
+                <author>
+                    <name>
+                        <forename type="first">Ian</forename>
+                        <surname>Anderson</surname>
+                        <affiliation>
+                            <name type="org">University of Glasgow</name>, UK <email/>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="2000">2000</date>
+                <publisher>
+                    <name>University of Glasgow</name>
+                </publisher>
+                <pubPlace>Glasgow</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ALLC/ACH 2000</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first">Jean</forename>
+                        <surname>Anderson</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Amal</forename>
+                        <surname>Chatterjee</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Christian</forename>
+                        <forename type="middle">J.</forename>
+                        <surname>Kay</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Margaret</forename>
+                        <surname>Scott</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item> </item>
+                        <item> </item>
+                        <item> </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <div>
+                    <head>Summary</head>
+                    <p>This demonstration illustrates one model developed in the UK for developing,
+                        producing and disseminating web-based courseware to enhance the teaching and
+                        learning experience of history students in higher education.</p>
+                    <p>The demonstration covers the five key areas that the Consortium sought to
+                        address in overcoming the under utilisation of computers in history
+                        teaching: a pedagogical framework, quality, accessibility, flexibility and
+                        support. Examples of the courseware's use in UK Higher Education history
+                        teaching are also provided and the demonstration concludes with an
+                        assessment of the strengths and weaknesses of the courseware.</p>
+                </div>
+                <div>
+                    <head>Outline</head>
+                    <p><emph rend="bold">Pedagogical Framework:</emph> Bridging the gap between
+                        'traditional' and computer based methods of teaching meant that the History
+                        Courseware Consortium required a conceptual framework that provided both a
+                        familiar pedagogical context and incorporated the benefits of computer-based
+                        teaching. The metaphor adopted by the Consortium to achieve this was the
+                        'Enriched Lecture'.</p>
+                    <p><emph rend="bold">Academic Quality:</emph> To ensure the courseware matched
+                        accepted standards of academic scholarship the Consortium adopted a unique
+                        commissioning system. Editorial panels were established and subject
+                        specialists targeted. A key to this was the divorce of authorship from
+                        technical production.</p>
+                    <p><emph rend="bold">Accessibility:</emph> Another barrier to the widespread use
+                        of computers was the technical skills required to operate software. One of
+                        the key requirements for the Consortium was that the material should be
+                        accessible. Writing the courseware in Hyper-Text Mark-up Language (HTML)
+                        permitted the materials to be viewed through a web browser. This minimised
+                        the amount of time spent learning 'computing' and maximises the amount of
+                        time spent learning 'history'. The consortium format, involving over 80 UK
+                        HE institutions, also proved a valuable format for creating a sense of
+                        ownership, community and acceptability.</p>
+                    <p><emph rend="bold">Flexibility:</emph> In part this was provided by the
+                        technical features of HTML, but other aspects of the courseware design had
+                        to maximise this feature to help overcome the 'not written here' syndrome.
+                        An open-ended system, rich resources and multiple pathways were adopted as
+                        key design features. A facility for customisation was also adopted so local
+                        lecturers were able to add their own material, sources and evidence.</p>
+                    <p><emph rend="bold">Support:</emph> To prevent the courseware 'withering on the
+                        vine' on-line, paper-based and staffed support systems were adopted. A
+                        particularly distinctive feature was a programme of on-going technical and
+                        academic support and training channelled through a 'Users Club'.</p>
+                    <p><emph rend="bold">Use in Teaching:</emph> There was a widespread and rapid
+                        uptake in UK HE, but the courseware's use was not based on the 'Enriched
+                        Lecture' metaphor. This was not unexpected but perhaps an 'Enriched
+                        Tutorial' metaphor would have been more appropriate for dissemination.
+                        Examples of the courseware's use in teaching, including customisation, are
+                        provided from the Universities of Glasgow, Teeside and Sheffield.</p>
+                    <p><emph rend="bold">Assessment:</emph> The model adopted by the Consortium was
+                        largely successful in UK HE, but the practical limitations of customisation
+                        and more recent technical advances must be acknowledged.</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

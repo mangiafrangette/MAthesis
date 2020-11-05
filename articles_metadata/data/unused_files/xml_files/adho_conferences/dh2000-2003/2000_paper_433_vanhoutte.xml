@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="paper">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Textual Variation, Electronic Editions and
+                    Hypertext</title>
+                <author>
+                    <name>
+                        <forename type="first">Edward</forename>
+                        <surname>Vanhoutte</surname>
+                        <affiliation>
+                            <name type="org">Office for Scholarly Editing and Document Studies
+                                (BEB/OSEDS)</name>, Belgium <email/>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="2000">2000</date>
+                <publisher>
+                    <name>University of Glasgow</name>
+                </publisher>
+                <pubPlace>Glasgow</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ALLC/ACH 2000</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first">Jean</forename>
+                        <surname>Anderson</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Amal</forename>
+                        <surname>Chatterjee</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Christian</forename>
+                        <forename type="middle">J.</forename>
+                        <surname>Kay</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Margaret</forename>
+                        <surname>Scott</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item>Digital Resources</item>
+                        <item> </item>
+                        <item> </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>The advent of the electronic paradigm to the field of scholarly editing and
+                    textual criticism opens up new possibilities for both the production process and
+                    the delivery of products which may herald a new era in scholarly editing. A new
+                    practice including text encoding, automated tagging, automatic collation, the
+                    use of scripting languages, etc. creates new kinds of editions in which the
+                    record of textual variation becomes a central point of attention, both on the
+                    markup- and on the delivery-side. In this paper I will address both sides
+                    through a problematization of the apparatus criticus or variorum as an essential
+                    part of an electronic edition.</p>
+                <p>The new reality of scholarly editing in which for instance archives become
+                    editions and editions include archives (McGann 1996 and Robinson 1996), and
+                    hybrid editions come into being as a combination of critical, diplomatic,
+                    facsimile and reading editions (De Smedt &amp; Vanhoutte 2000), calls for a new
+                    theoretical framework and a thorough critique of the theory and practice of
+                    paper-based critical philology. The existing rationales of textual criticism
+                    cannot simply be transposed from the hard-copy to the electronic paradigm. This
+                    would for instance mean a transposition of the unpracticality and illegibility
+                    of the apparatus criticus or variorum to a medium which is essentially
+                    structured differently. The editor of a paper-based edition tries to design the
+                    apparatus as an economic and compact model in which to store textual variety,
+                    often through a combination of variants. This more than once results in an
+                    unsuperable density and thus a malfunctioning of a tool which should above all
+                    be transparent and consultable. The apparatus criticus or apparatus variorum of
+                    a printed critical edition fails, through its form and formality, in what it
+                    intends to do, that is to provide a substitute and a documentation of each
+                    complex source in such a physical form that it is usable for the interested
+                    scholar (Vanhoutte 1998). The possibility to include digital facsimiles in an
+                    electronic edition discharges the apparatus from the theoretical imperative of
+                    being a substitute. The need for documentation of textual variety, however,
+                    remains, but in electronic editions, compactness is being overruled by
+                    explicitness. On the markup-side, this means the use of a system which can tag
+                    every reading as well as genetic commentary, meta-data variation and variation
+                    over structural boundaries (Smith 1999). On the delivery-side, this means the
+                    use of a system which can supply the user with the possibility to consult every
+                    witness on its own and - facultatively - in combination with a suggested
+                    orientation text to an acceptable level of granularity.</p>
+                <p>Over the past couple of years, several gentle solutions have been put into
+                    practice, which either function on the markup- or on the delivery-side
+                    (corresponding roughly with what Vanhoutte 1999 respectively calls the Archive-
+                    and Museum-function), but none of which provides a full answer to this
+                    documentation-maxim. Taking the three fundamental requirements of electronic
+                    scholarly editions - accessibility, longevity and intellectual integrity
+                    (Sperberg-McQueen 1994) - as parameters for an evaluation of possible designs of
+                    electronic editions, I will argue that there are at least three sorts of
+                    editions in the electronic paradigm: electronic editions, electronic editions
+                    with hypertext functionality and hypertext editions which do not meet the
+                    requirements of electronic editions. Further, this paper will (re)formulate
+                    additions to these requirements, focussing on modern literature.</p>
+                <p>Because hypertext is the visualization of linking which DeRose &amp; Van Dam
+                    (1999) define as "the ability to express relationships between places in a
+                    universe of information" and which are explicitly marked or can be generated
+                    automatically by making use of some sort of markup, the syntax of this markup
+                    and the markup-language become essential in designing a hypertext and/or an
+                    electronic edition.</p>
+                <p>On the basis of the three fundamental requirements for electronic editions, the
+                    syntax of the markup (language) and the orientation towards a markup- or a
+                    delivery-side, I distinguish three sorts of editions in the electronic paradigm:<list>
+                        <item>
+                            <emph rend="bold">A. hypertext editions:</emph>
+                            <list type="bulleted">
+                                <item>Are only concerned with accessibility: they explicitly link
+                                    apparatus to base text, digital facsimile to base text, several
+                                    versions to orientation text.</item>
+                                <item>Make use of (a combination of) HTML, JavaScript (for pop-up
+                                    boxes), frames.</item>
+                                <item>Are being designed from a display point of view and are useful
+                                    for didactic purposes and on-sight consulting. Hypertext
+                                    editions of this sort are acceptable as a formatted output with
+                                    a specific purpose for a specific audience, but are for visual
+                                    purposes only.</item>
+                            </list>
+                        </item>
+                        <item>
+                            <emph rend="bold">B. electronic editions:</emph>
+                            <list type="bulleted">
+                                <item>Are concerned with accessibility, longevity and intellectual
+                                    integrity by making use of generic markup schemes in their
+                                    design, such as those provided by the TEI (cf. chapter 19 of the
+                                    P3 Guidelines), the MASTER scheme (Robinson, Burnard, Proffitt
+                                    &amp; Driscoll 1999), or a project specific SGML DTD.</item>
+                                <item>Can be concerned with linking external or internal apparatus
+                                    to a base or an orientation text.</item>
+                                <item>Can be concerned with providing alternative views of the same
+                                    document.</item>
+                                <item>Are being designed from a markup point of view and are useful
+                                    to the scholarly community.</item>
+                                <item>Can be used to generate several spin-off products (including
+                                    editions of category A).</item>
+                            </list>
+                        </item>
+                        <item>
+                            <emph rend="bold">C. electronic editions with hypertext
+                                functionality:</emph>
+                            <list type="bulleted">
+                                <item>Same as B, but make extensive use of Pointer and Reference
+                                    syntax to explicitly express relationships which can also be
+                                    viewed in a browser, or make use of the present markup to
+                                    programmatically generate linking.</item>
+                            </list>
+                        </item>
+                    </list></p>
+                <p>From B and C it follows that the explicit documentation of textual variation in
+                    an apparatus criticus or variorum linked to a base text is no prerequisite
+                    anymore for an electronic edition. Textual variation can be documented
+                    implicitly by the textual description of each witness or document source. The
+                    extraction of alternative views of the witnesses, facultatively projected
+                    together with one version which functions as an orientation text, can be a
+                    possible solution to the problems concerning the instability of a (base) text.
+                    This paper will conclude with some notes on the use of XML and XSL in a
+                    construct which both caters for the markup- and the display-side.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author><name><forename type="first">Steven</forename>
+                                    <forename type="middle"
+                                    >J.</forename><surname>DeRose</surname></name></author>
+                            <author><name><forename type="first">A.</forename><surname>Van
+                                        Dam</surname></name></author>
+                            <title level="a">Document Structure and markup in the FRESS hypertext
+                                system</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Markup Languages: Theory &amp; Practice</title>
+                            <imprint>
+                                <biblScope type="vol">1</biblScope>
+                                <biblScope type="issue">1</biblScope>
+                                <biblScope type="pp">7-23</biblScope>
+                                <date when="1999">1999</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <monogr>
+                            <editor><name><forename type="first">Marcel</forename><surname>De
+                                        Smedt</surname></name></editor>
+                            <editor>
+                                <name>
+                                    <forename type="first">E.</forename>
+                                    <surname>Vanhoutte</surname>
+                                </name>
+                            </editor>
+                            <title level="m">Stijn Streuvels. De teleurgang van den Waterhoek.
+                                Elektronisch-kritische editie</title>
+                            <imprint>
+                                <pubPlace>Gent/Amsterdam</pubPlace>
+                                <publisher>KANTL/Amsterdam University Press</publisher>
+                                <date when="2000">2000</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <analytic>
+                            <author><name><forename type="first">C.</forename>
+                                    <forename type="middle"
+                                        >M.</forename><surname>Sperberg-McQueen</surname></name></author>
+                            <title level="a">Textual Criticism and the Text Encoding
+                                Initiative</title>
+                        </analytic>
+                        <monogr>
+                            <title level="u">Paper presented at MLA '94, San Diego, 1994</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date when="1994">1994</date>
+                            </imprint>
+                        </monogr>
+                        <note>&lt;<ptr target="http://www.uic.edu:80/orgs/tei/talks/mla94.htm"
+                            />&gt;.</note>
+                    </biblStruct>
+                    <biblStruct>
+                        <monogr>
+                            <editor>
+                                <name>
+                                    <forename type="first">C.</forename>
+                                    <forename type="middle">M.</forename>
+                                    <surname>Sperberg-McQueen</surname>
+                                </name>
+                            </editor>
+                            <editor>
+                                <name>
+                                    <forename type="first">L.</forename>
+                                    <surname>Burnard</surname>
+                                </name>
+                            </editor>
+                            <title level="m">Guidelines for Electronic Text Encoding and
+                                Interchange. (P3)</title>
+                            <imprint>
+                                <pubPlace>Chicago and Oxford</pubPlace>
+                                <publisher>Text Encoding Initiative</publisher>
+                                <date when="1994">1994</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <analytic>
+                            <author><name><forename type="first">Jerome</forename>
+                                    <surname>McGann</surname></name></author>
+                            <title level="a">The Rationale of HyperText</title>
+                        </analytic>
+                        <monogr>
+                            <title level="m">TEXT</title>
+                            <imprint>
+                                <biblScope type="vol">9</biblScope>
+                                <pubPlace/>
+                                <publisher/>
+                                <date when="1996">1996</date>
+                                <biblScope type="pp">11-32</biblScope>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <monogr>
+                            <editor>
+                                <name>
+                                    <forename type="first">P.</forename>
+                                    <surname>Robinson</surname>
+                                </name>
+                            </editor>
+                            <title level="m">Geoffrey Chaucer. The Wife of Bath's Prologue.</title>
+                            <imprint>
+                                <pubPlace>Cambridge</pubPlace>
+                                <publisher>Cambridge University Press</publisher>
+                                <date when="1996">1996</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">P.</forename>
+                                    <surname>Robinson</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">L.</forename>
+                                    <surname>Burnard</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">M.</forename>
+                                    <surname>Proffitt</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">M.</forename>
+                                    <surname>Driscoll</surname>
+                                </name>
+                            </author>
+                            <title level="a">Initiatives Towards a Standard Encoding for Manuscript
+                                Descriptions</title>
+                        </analytic>
+                        <monogr>
+
+                            <title level="u">Session at DRH99, London, 1999</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date when="1999">1999</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author><name><forename type="first">D.</forename>
+                                    <surname>Smith</surname></name></author>
+                            <title level="a">Textual Variation and Version Control in the
+                                TEI</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Computers and the Humanities</title>
+                            <imprint>
+                                <biblScope type="vol">33</biblScope>
+                                <biblScope type="issue">1-2</biblScope>
+                                <biblScope type="pp">103-112</biblScope>
+                                <date when="1999">1999</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+
+                    <biblStruct>
+                        <analytic>
+                            <author><name><forename type="first">E.</forename>
+                                    <surname>Vanhoutte</surname></name></author>
+                            <title level="a">Where is the editor? Resistance in the creation of an
+                                electronic critical edition</title>
+                        </analytic>
+                        <monogr>
+                            <title level="u">Paper presented at DRH98, Glasgow, 1998</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date when="1998">1998</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

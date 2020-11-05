@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="poster/demo">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Dating Dickinson: an Experimental Approach to
+                    Stylochronometry</title>
+                <author>
+                    <name>
+                        <forename type="first">Constantina</forename>
+                        <surname>Stamou</surname>
+                        <affiliation>
+                            <name type="org">University of Luton</name>, UK <email/>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Richard</forename>
+                        <forename type="middle">S.</forename>
+                        <surname>Forsyth</surname>
+                        <affiliation>
+                            <name type="org">University of Luton</name>, UK <email/>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="2000">2000</date>
+                <publisher>
+                    <name>University of Glasgow</name>
+                </publisher>
+                <pubPlace>Glasgow</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ALLC/ACH 2000</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first">Jean</forename>
+                        <surname>Anderson</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Amal</forename>
+                        <surname>Chatterjee</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Christian</forename>
+                        <forename type="middle">J.</forename>
+                        <surname>Kay</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Margaret</forename>
+                        <surname>Scott</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item> </item>
+                        <item> </item>
+                        <item> </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>Stylometry is the statistical analysis of literary style, whose two primary
+                    applications are authorship attribution and chronological problems. It
+                    originated in 1851 when Augustus de Morgan suggested that it is possible to
+                    settle authorship by determining if one text "does not deal in longer words"
+                    than another (Holmes, 1998). Stylometry is based upon the notion that it is
+                    possible to detect an author's 'signature' by examining quantifiable features of
+                    written texts. The only difference between the two applications is that
+                    attributional studies claim that certain features in an author's style are
+                    manipulated unconsciously and therefore remain fixed, whilst chronological
+                    studies support the idea that stylistic fingerprints evolve smoothly throughout
+                    an author's life. The contradiction is overridden, though, by the choice of
+                    features.</p>
+                <p>Stylochronometry, a term used to cover the dating of texts from stylistic
+                    evidence, concerns itself with problems of specifying the sequence of
+                    composition of the works of a given author. Famous cases are the dating of
+                    Plato's dialogues, of certain of Shakespeare's plays, and the dating of the New
+                    Testament scriptures, although their true chronology will never be known since
+                    there is not enough external evidence to back up such stylometric findings.</p>
+                <p>Scientific approaches to chronology begin with the choosing of a group of texts
+                    that are more or less securely dated, then proceed with the application of
+                    stylometric methods that manipulate the chosen variables which will best
+                    correlate with the dates of the texts. Once the methods used assign the correct
+                    dates to the initial test set, the final step is to employ the same methods on
+                    disputed cases. Such stylometric variables include high frequency words,
+                    function and common words, type-token ratio, vocabulary richness measures and
+                    others.</p>
+                <p>A famous example comes from Brainerd (1980) on the chronology of Shakespeare's
+                    plays. Examining the percentage of occurrence of 120 lemmata, which were mainly
+                    related to high-frequency lexical items, additionally combined with the
+                    investigation of the average verse line length in words, the percentage of split
+                    lines and the type-token ratio, he concentrated initially on a group of plays
+                    that had fairly accurate dates of composition. Since only 20 out of the 120
+                    lemmata proved to be useful discriminators for chronology, he used them in order
+                    to construct a function that would predict the dates of the control group. Once
+                    his method produced the desired results, the final step was to use it on those
+                    of Shakespeare's plays which were of disputed nature in terms of dates.
+                    Difficulties arose related to the possibility of multiple authorship in certain
+                    cases, authorial revision at some stage, and the status of manuscripts used for
+                    the preparation of the basic copy texts. However, multivariate statistics proved
+                    useful in order to detect which plays were likely to be products of multiple
+                    authorship.</p>
+                <p>In poetry though, it has not been possible to date texts of less than 500 words
+                    in length until recently. Forsyth (1999) at BSRU investigated a method of dating
+                    short pieces of text (averaging 114 words in length) and tested them on W.B.
+                    Yeats's work. This method, among others, will be used in our project, which aims
+                    at building on collaborative work begun by Dr Forsyth and Prof. Margaret Freeman
+                    of Valley College, California, on the investigation of chronological changes in
+                    the style of the American poet Emily Dickinson (1830-1886).</p>
+                <p>Born in Amherst, Massachusetts, Dickinson lived at her father's house most of her
+                    life and in her later years became a recluse. Because of her individualistic
+                    style, which, as it is accepted nowadays, set her ahead of her time, only 10 of
+                    her poems were published during her lifetime. Moreover, due to her difficult
+                    handwriting and her idiosyncratic punctuation, they were heavily edited, since
+                    the public was not yet prepared for her eccentric masterpieces. At the time of
+                    her death, 1775 poems were discovered arranged in 60 small packets. Following
+                    that, efforts were made by her relatives to get all the poems published; still,
+                    though, her poetry was heavily edited. Her impact on the American public
+                    gradually became intense, and in 1955 a complete edition of her work was
+                    published by Thomas H. Johnson, this time using her own punctuation and
+                    vocabulary. Today she is known for her startling originality, her bold
+                    experiments in prosody, her tragic vision, and the range of her intellectual and
+                    emotional explorations.</p>
+                <p>Johnson's edition provides approximate dates of composition (Johnson, 1961),
+                    according to Theodora Ward's study, who collaborated with Johnson, of the
+                    changes in her handwriting, apart from a few poems which have precise dates,
+                    either because Dickinson sent them as parts of letters to various friends or
+                    because she mentions contemporary events.</p>
+                <p>Our investigation will initially concentrate on control authors that have
+                    securely dated works, such as Christina Rossetti and W.B. Yeats. Both poets
+                    lived in the 19th century as Dickinson did. It is proposed to utilise a
+                    feature-finding program developed by Forsyth &amp; Holmes (1996) at BSRU, a
+                    tagger such as TOSCA from Nijmegen University, and a content analysis tool. Thus
+                    we will tap into linguistic information of different kinds - lexical, syntactic
+                    and semantic. Our aim is to detect the type of linguistic information that is
+                    useful for discriminating between the early and late works of our poets with the
+                    intention of using the techniques applied on the control authors to date
+                    Dickinson's work.</p>
+                <p>Laan (1995) argues that there is no hard evidence to suggest that authors have
+                    both a conscious and an unconscious aspect to their writing style, as stylometry
+                    suggests. On the other hand, possibilities such as the existence of a stable and
+                    an adaptable part in an author's unconscious style, or the idea that some change
+                    their unconscious features of their styles and others do not, also exist as Laan
+                    (1995) admits. The question to what extent such claims are true has been
+                    investigated by Robinson (1992) and Keyser (1992) who both suggest proceeding
+                    from authors with known publication dates to authors with unknown publication
+                    dates.</p>
+                <p>Initial studies, to be reported at this conference, have investigated the idea
+                    that authors generally exhibit a trend towards decreasing complexity as they
+                    grow older. Using the Fog Index as a measure of the density of language, based
+                    on the proportion of long words and average sentence length, we have found
+                    equivocal results. But other measures do seem to show increased simplicity with
+                    time. We believe that this brings us a step closer to correct chronology.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author><name><forename type="first">B.</forename>
+                                    <surname>Brainerd</surname></name></author>
+                            <title level="a">The Chronology of Shakespeare's Plays: A Statistical
+                                Study</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Computers and the Humanities</title>
+                            <imprint>
+                                <biblScope type="vol">14</biblScope>
+                                <biblScope type="issue">4</biblScope>
+                                <biblScope type="pp">221-230</biblScope>
+                                <date when="1980">1980</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author><name><forename type="first">R.</forename>
+                                    <forename type="middle"
+                                    >S.</forename><surname>Forsyth</surname></name></author>
+                            <title level="a">Stylochronometry with Substrings Or: A Poet Young and
+                                Old</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Literary &amp; Linguistic Computing</title>
+                            <imprint>
+                                <biblScope type="vol">14</biblScope>
+                                <biblScope type="issue">4</biblScope>
+                                <biblScope type="pp">1-11</biblScope>
+                                <date when="1999">1999</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author><name><forename type="first">R.</forename>
+                                    <forename type="middle"
+                                    >S.</forename><surname>Forsyth</surname></name></author>
+                            <author><name><forename type="first">D.</forename>
+                                    <forename type="middle"
+                                    >I.</forename><surname>Holmes</surname></name></author>
+                            <title level="a">Feature Finding for Text Classification</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Literary &amp; Linguistic Computing</title>
+                            <imprint>
+                                <biblScope type="vol">11</biblScope>
+                                <biblScope type="issue">4</biblScope>
+                                <biblScope type="pp">163-174</biblScope>
+                                <date when="1996">1996</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author><name><forename type="first">D.</forename>
+                                    <forename type="middle"
+                                    >I.</forename><surname>Holmes</surname></name></author>
+                            <title level="a">The Evolution of Stylometry in Humanities
+                                Scholarship</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Literary &amp; Linguistic Computing</title>
+                            <imprint>
+                                <biblScope type="vol">13</biblScope>
+                                <biblScope type="issue">3</biblScope>
+                                <biblScope type="pp">111-117</biblScope>
+                                <date when="1998">1998</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <editor>
+                                <name>
+                                    <forename type="first">T.</forename>
+                                    <forename type="middle">H.</forename>
+                                    <surname>Johnson</surname>
+                                </name>
+                            </editor>
+                            <title level="m">The Complete Poems of Emily Dickinson</title>
+                            <imprint>
+                                <pubPlace>Boston</pubPlace>
+                                <publisher>Little, Brown and Company</publisher>
+                                <date when="1961">1961</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author><name><forename type="first">P.</forename>
+                                    <surname>Keyser</surname></name></author>
+                            <title level="a">Stylometric Method and the Chronology of Plato's Works
+                                (review article)</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">.Bryn Mawr Classical Review</title>
+                            <imprint>
+                                <biblScope type="vol">3</biblScope>
+                                <biblScope type="issue">1</biblScope>
+                                <biblScope type="pp">58-74</biblScope>
+                                <date when="1992">1992</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author><name><forename type="first">N.</forename>
+                                    <forename type="middle"
+                                    >M.</forename><surname>Laan</surname></name></author>
+                            <title level="a">Stylometry and Method: The Case of Euripides</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Literary &amp; Linguistic Computing</title>
+                            <imprint>
+                                <biblScope type="vol">10</biblScope>
+                                <biblScope type="issue">4</biblScope>
+                                <biblScope type="pp">271-278</biblScope>
+                                <date when="1995">1995</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author><name><forename type="first">T.</forename>
+                                    <forename type="middle"
+                                    >M.</forename><surname>Robinson</surname></name></author>
+                            <title level="a">Plato and the Computer</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Ancient Philosophy</title>
+                            <imprint>
+                                <biblScope type="vol">12</biblScope>
+                                <biblScope type="issue">2</biblScope>
+                                <biblScope type="pp">375-382</biblScope>
+                                <date when="1992">1992</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

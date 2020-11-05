@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="paper">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Trajan's Column: Building a WWW Image-Database</title>
+                <author>
+                    <name>
+                        <forename type="first">Geoffrey</forename>
+                        <surname>Rockwell</surname>
+                        <affiliation>
+                            <name type="org">McMaster University</name>, Canada <email/>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Gretchen</forename>
+                        <surname>Umholtz</surname>
+                        <affiliation>
+                            <name type="org">McMaster University</name>, Canada <email/>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Michele</forename>
+                        <surname>George</surname>
+                        <affiliation>
+                            <name type="org">McMaster University</name>, Canada <email/>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Martin</forename>
+                        <surname>Beckmann</surname>
+                        <affiliation>
+                            <name type="org">McMaster University</name>, Canada <email/>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Paul</forename>
+                        <surname>Barrette</surname>
+                        <affiliation>
+                            <name type="org">McMaster University</name>, Canada <email/>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="2000">2000</date>
+                <publisher>
+                    <name>University of Glasgow</name>
+                </publisher>
+                <pubPlace>Glasgow</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ALLC/ACH 2000</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first">Jean</forename>
+                        <surname>Anderson</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Amal</forename>
+                        <surname>Chatterjee</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Christian</forename>
+                        <forename type="middle">J.</forename>
+                        <surname>Kay</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Margaret</forename>
+                        <surname>Scott</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item>Digital Resources</item>
+                        <item> </item>
+                        <item> </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>One of the challenges when designing image databases in the humanities is to
+                    provide interfaces that are drawn from the object being represented rather than
+                    from the technology used. In this paper we will discuss an image database of
+                    over 400 images that was built by a team of graduate students and faculty at
+                    McMaster University. The images relate to carving technique on Trajan's Column,
+                    one of the most extensive and important surviving sculptural monuments of
+                    ancient Rome. In addition to various text-based search tools, we also created a
+                    cartoon sketch interface to the entire frieze of Trajan's Column that allows
+                    users to move around a virtual column to access the images and to see them in
+                    narrative context. This virtual column is an example of a content driven
+                    interface to an image collection that is based on the subject matter of the
+                    collection.</p>
+                <p>Trajan, Roman emperor from AD 98 to 117, has generally been remembered as a
+                    'good' emperor. A gifted general, he was close to his soldiers and led them on a
+                    number of campaigns which substantially expanded the Roman empire. Two of these
+                    campaigns, the first and second Dacian wars, are commemorated on Trajan's
+                    column: a 100 foot tall marble column decorated with a continuous, upwardly
+                    spiraling, sculpted frieze. The scenes on this frieze are an invaluable source
+                    of information about many aspects of Roman military practice, imperial ideology,
+                    and also sculptural technique. The column still stands today in its original
+                    place in the Forum of Trajan in Rome, but, due to its great height, visibility
+                    of individual scenes from the ground is quite limited; students and scholars
+                    must often rely on old photographs and plaster casts for the study of many
+                    details.</p>
+                <p>In 1997 a team of graduate students and faculty at McMaster University were given
+                    access to a unique collection of over 400 slides taken by Peter Rockwell and
+                    Claudio Martini when Trajan's Column was being restored and had scaffolding
+                    around it. The images are primarily of details that show carving technique. In
+                    addition we were given access to a series of cartoon sketches of the entire
+                    column that show the narrative of the frieze. The challenge was to create an
+                    image database that would provide a context for these photographs so that
+                    scholars and students of Roman art could use these resources easily. The WWW
+                    site is located at &lt;<ptr
+                        target="http://cheiron.humanities.mcmaster.ca/~trajan/"/>&gt;.</p>
+                <p>In this paper we will do the following:<list>
+                        <item><emph rend="bold">1. Discuss the background of the
+                            project.</emph><lb/><lb/>This project was initiated by Peter Rockwell
+                            who was looking for a venue for making his collection of slides
+                            available to the research and education community. While he had
+                            published on the column, the full collection of images on which his
+                            research was based could not be published economically. A WWW site
+                            seemed the most effective way to make this collection available. The
+                            team was limited by the fact that the slide collection was in Rome,
+                            Italy and could not be removed to Canada for digitization. In this paper
+                            we will discuss the steps taken to digitize the images on site and build
+                            the database from information gathered by Peter Rockwell as part of his
+                            research.</item>
+                        <item><emph rend="bold">2. Discuss the technical design of the WWW
+                                site.</emph><lb/><lb/>After initially experimenting with a design
+                            that used hundreds of static WWW pages we developed a dynamic database
+                            that could generate the pages for the individual images on the fly. This
+                            gave us the freedom to easily alter the interface of the image pages and
+                            make site-wide changes in real time. This in turn allowed us to refine
+                            the design of the site in an interactive fashion as suggestions came in
+                            and users reported back. Finally the design of the database allowed
+                            editors involved in the project to make corrections over secure
+                            connections. In the paper we will comment on the virtues of moving to
+                            dynamically generated information for projects that involve teams of
+                            people, continuous correction and iterative interface design. We will
+                            contrast the development of this site with two previous projects, the
+                            Emily Pauline Johnson Archive (<ptr
+                                target="http://www.humanities.mcmaster.ca/~pjohnson/home.html"/>)
+                            and the Cradle of Collective Bargaining site (<ptr
+                                target="http://www.humanities.mcmaster.ca/~cradle/"/>). Both of
+                            these other sites use static WWW pages to hold the images. We will also
+                            comment on the choice of image resolutions that we settled on. In the
+                            Trajan site we make available small thumbnail images within WWW pages
+                            for timely access and links to medium and high resolution copies of each
+                            image and cartoon. This allows the user to look at and download images
+                            suitable for teaching and research.</item>
+                        <item><emph rend="bold">3. Discuss the interface problems we faced and the
+                                solutions we settled on.</emph><lb/><lb/>The Trajan Project provides
+                            three ways for users to navigate the images. The first is to search the
+                            image database. The second is by using indexes generated from the
+                            database which give the user an overview of the keywords used. The third
+                            and most visual is to navigate the column using the cartoon sketches and
+                            click on the links to individual images. In effect we have two means of
+                            access that are driven by the technology and one that was driven by the
+                            content of the database. In the paper we will discuss at length the need
+                            for content-driven interfaces that provide access to users to images in
+                            ways that correspond to the original artifact. Content-driven interfaces
+                            cannot be standardized because they vary according to the artifact(s)
+                            represented, but they provide a way of organizing information that the
+                            user familiar with the area can use. In our case we used the column as a
+                            whole as a visual index to the collection. The visual index not only
+                            provides access but creates a context for the images which would be hard
+                            to abstract from the database. This visual context augments the
+                            interpretative essays that introduce the site.</item>
+                        <item><emph rend="bold">4. Conclude by discussing uses and benefits of the
+                                site.</emph><lb/><lb/>As part of this project we have been showing
+                            the site to interested academics to get their feedback on the interface
+                            and to get ideas about how it might be used. As many of the images were
+                            taken to document carving techniques used in the sculpting of the
+                            frieze, this site is of greatest use to those interested in Roman
+                            carving. Many of the images, however, contain enough detail to be useful
+                            to those interested in Roman sculpture in general or those interested in
+                            studying Roman military equipment and activities. The WWW site provides
+                            an economical alternative to print for research image collections to be
+                            made available. In addition, the cartoons provide a continuous sketch of
+                            the narrative of the column that can be downloaded and annotated by
+                            those interested in this depiction of the events around the Dacian wars.
+                        </item>
+                    </list></p>
+                <p>Viewers invited to try the site have commented on how they could use the
+                    high-resolution images and cartoons for teaching purposes since they are freely
+                    available and easily accessed. These types of comments have led us to think
+                    about the image database as not only a coherent research and teaching
+                    collection, but as an accessible collection of free images that can be mined by
+                    those who are shifting to electronic teaching tactics. Whenever you make a
+                    digitized collection of images available you are also providing the equivalent
+                    to academic clip art which can be reused in ways that are only remotely
+                    connected to the original content. This unintended outcome from the digitization
+                    of images will be discussed in the conclusion of the paper. </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>Bibliography</head>
+                <listBibl>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">R.</forename>
+                                    <surname>Arnheim</surname>
+                                </name>
+                            </author>
+                            <title level="m">Visual Thinking</title>
+                            <imprint>
+                                <pubPlace>Berkeley</pubPlace>
+                                <publisher/>
+                                <date when="1969">1969</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="bookChapter">
+                        <analytic>
+                            <author><name><forename type="first">R.</forename>
+                                    <forename type="middle"
+                                    >M.</forename><surname>Baecker</surname></name> et al</author>
+                            <title level="a">Vision, Graphic Design, and Visual Display</title>
+                        </analytic>
+                        <monogr>
+                            <editor>
+                                <name>
+                                    <forename type="first">Ronald</forename>
+                                    <forename type="middle">M.</forename>
+                                    <surname> Baecker</surname>
+                                </name> et al </editor>
+                            <title level="m">Human-Computer Interaction: Toward the Year
+                                2000</title>
+                            <edition>2nd ed.</edition>
+                            <imprint>
+                                <pubPlace>San Francisco</pubPlace>
+                                <publisher/>
+                                <date when="1995">1995</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">J.</forename>
+                                    <surname>Bertin</surname>
+                                </name>
+                            </author>
+                            <title level="m">Semiology of Graphics: Diagrams, Networks, Maps</title>
+                            <respStmt>
+                                <resp>Trans.</resp>
+                                <name><forename type="first">W.</forename><forename type="middle"
+                                        >J.</forename><surname>Berg</surname></name>
+                            </respStmt>
+                            <imprint>
+                                <pubPlace>Madison, Wisconsin</pubPlace>
+                                <publisher/>
+                                <date when="1983">1983</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">C.</forename>
+                                    <surname>Cichorius</surname>
+                                </name>
+                            </author>
+                            <title level="m">Die Reliefs der Trajanssäule</title>
+                            <imprint>
+                                <pubPlace>Berlin</pubPlace>
+                                <publisher/>
+                                <date when="1896">1896</date>
+                                <date when="1900">1900</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">F.</forename>
+                                    <surname>Lepper</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">S.</forename>
+                                    <surname>Frere</surname>
+                                </name>
+                            </author>
+                            <title level="m">Trajan's Column</title>
+                            <imprint>
+                                <pubPlace>Gloucester</pubPlace>
+                                <publisher/>
+                                <date when="1988">1988</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">A.</forename>
+                                    <surname>Marcus</surname>
+                                </name>
+                            </author>
+                            <title level="m">Graphic Design for Electronic Documents and User
+                                Interfaces</title>
+                            <imprint>
+                                <pubPlace>New York</pubPlace>
+                                <publisher/>
+                                <date when="1991">1991</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">W.</forename>
+                                    <forename type="middle">j.</forename>
+                                    <surname>Mitchell</surname>
+                                </name>
+                            </author>
+                            <title level="m">The Reconfigured Eye: Visual Truth in the
+                                Post-Photographic Era</title>
+                            <imprint>
+                                <pubPlace>Cambridge, Massachusetts</pubPlace>
+                                <publisher/>
+                                <date when="1992">1992</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">P.</forename><forename type="middle"
+                                        >M.</forename>
+                                    <surname>Monti</surname>
+                                </name>
+                            </author>
+                            <title level="m">La Colonna Traiana</title>
+                            <imprint>
+                                <pubPlace>Rome</pubPlace>
+                                <publisher/>
+                                <date when="1980">1980</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">S.</forename>
+                                    <surname>Settis</surname>
+                                </name> et al </author>
+                            <title level="m">La Colonna Traiana</title>
+                            <imprint>
+                                <pubPlace>Rome</pubPlace>
+                                <publisher/>
+                                <date when="1988">1988</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <analytic>
+                            <author><name><forename type="first">P.</forename>
+                                    <surname>Rockwell</surname></name></author>
+                            <title level="a">Prelimary Study of the Carving Techniques on the Column
+                                of Trajan</title>
+                        </analytic>
+                        <monogr>
+                            <title level="m">Marmi Antichi</title>
+                            <title level="s">Studi Miscellanei</title>
+                            <imprint>
+                                <biblScope type="vol">26</biblScope>
+                                <pubPlace/>
+                                <publisher/>
+                                <date when="1985">1985</date>
+                                <biblScope type="pp">101-111</biblScope>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">P.</forename>
+                                    <surname>Rockwell</surname>
+                                </name>
+                            </author>
+                            <title level="m">The Art of Stoneworking: a Reference Guide</title>
+                            <imprint>
+                                <pubPlace>Cambridge</pubPlace>
+                                <publisher/>
+                                <date when="1993">1993</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">E.</forename>
+                                    <surname>Tufte</surname>
+                                </name>
+                            </author>
+                            <title level="m">The Visual Display of Quantitative Information</title>
+                            <imprint>
+                                <pubPlace>Cheshire, CT</pubPlace>
+                                <publisher/>
+                                <date when="1983">1983</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">E.</forename>
+                                    <surname>Tufte</surname>
+                                </name>
+                            </author>
+                            <title level="m">Envisioning Information</title>
+                            <imprint>
+                                <pubPlace>Cheshire, CT</pubPlace>
+                                <publisher/>
+                                <date when="1990">1990</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

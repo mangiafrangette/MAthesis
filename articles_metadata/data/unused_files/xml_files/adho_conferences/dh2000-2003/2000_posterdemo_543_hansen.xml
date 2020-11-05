@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="poster/demo">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Computational Methods for the Study of Multilingual
+                    Corpora</title>
+                <author>
+                    <name>
+                        <forename type="first">Silvia</forename>
+                        <surname>Hansen</surname>
+                        <affiliation>
+                            <name type="org">University of the Saarland</name>, Germany <email/>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="2000">2000</date>
+                <publisher>
+                    <name>University of Glasgow</name>
+                </publisher>
+                <pubPlace>Glasgow</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ALLC/ACH 2000</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first">Jean</forename>
+                        <surname>Anderson</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Amal</forename>
+                        <surname>Chatterjee</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Christian</forename>
+                        <forename type="middle">J.</forename>
+                        <surname>Kay</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Margaret</forename>
+                        <surname>Scott</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item> </item>
+                        <item> </item>
+                        <item> </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>Corpus linguistics is becoming increasingly important for translation studies
+                    (cf. Baker, 1995; Granger, 1999). In the past, the application of corpus
+                    linguistic methods was limited to the applied branch of this discipline. In
+                    particular, they were used in the fields of terminology, translation aids (e.g.,
+                    to develop translation memories or machine translation programs), translation
+                    criticism and translation training (to improve the final product with the help
+                    of corpus-based contrastive analysis and the study of translationese). Recently
+                    also, in the theoretical and descriptive branches of translation studies corpus
+                    linguistic methods have been introduced. In particular, one issue that is
+                    receiving more and more attention is the question about translation as a
+                    particular text type (Baker, 1996; Laviosa-Braithwaite, 1996; Teich, 1999;
+                    Hansen, 1999). In this paper, I present the analysis of a corpus of translated
+                    texts and its comparison with a corpus of originals produced in the target
+                    language in order to investigate the universal features of translations (cf.
+                    Baker, 1996). Furthermore, on the basis of the analysis of universal features, I
+                    analyse the source language texts in order to see what has happened during the
+                    translational process. Thus, my aim is to identify both the universal features
+                    of translation (comparing the translation corpus with the originals of the
+                    target language) and, on this basis, the translation procedures (comparing the
+                    translation corpus with the originals of the source language). In particular, I
+                    discuss the use of various standard corpus tools, such as concordance programs,
+                    aligners and taggers for the analysis of parallel and comparable corpora. But
+                    the use of these tools is limited: only parts-of-speech and grammatical
+                    categories can be analysed with the help of such tools. Thus, it is not possible
+                    to say anything about translation procedures, translation strategies or the
+                    translational process because the results gained through standard corpus tools
+                    are quantitative values (cf. Hansen &amp; Teich, 1999). But we need qualitative
+                    data, i.e., a linguistic description of the phenomena which occur in the
+                    translations, to test hypotheses concerning the translational process and the
+                    universal features of translations. In order to use the information which is
+                    provided through the standard corpus tools and in order to carry out deeper
+                    investigations, we need tools which are able to analyse more abstract linguistic
+                    categories. For this reason, we use the tool TATOE (<ptr
+                        target="http://www.darmstadt.gmd.de/~rostek/tatoe.htm"/>) with which we
+                    annotate the corpus using Systemic Functional Linguistics (SFL; Halliday, 1978;
+                    Halliday, 1985). The systemic functional model, which allows the analysis of the
+                    relationships between the different linguistic levels (grammar, semantics,
+                    context), is used for various disciplines, e.g. for language teaching, for the
+                    area of functional stylistics, for grammatical text analysis, and for
+                    computational linguistics (in this discipline especially for automatic text
+                    generation (cf. Teich, 1995; Bateman, 1997), TATOE enables us to define systemic
+                    functional categories and, on this basis, to annotate the texts. These
+                    annotations make a systemic functional analysis of the parallel and comparable
+                    corpora possible, and thus a cross-linguistic description of the phenomena which
+                    occur in the texts. On this basis, hypotheses concerning the translational
+                    process and the universal features of translations can be tested and new ones
+                    can be generated.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>Literature</head>
+                <listBibl>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author><name><forename type="first">M.</forename>
+                                    <surname>Baker</surname></name></author>
+                            <title level="a">Corpora in translation studies: An overview and some
+                                suggestions for future research</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Target</title>
+                            <imprint>
+                                <biblScope type="vol">7</biblScope>
+                                <biblScope type="issue">2</biblScope>
+                                <biblScope type="pp">223-243</biblScope>
+                                <date when="1995">1995</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="bookChapter">
+                        <analytic>
+                            <author><name><forename type="first">M.</forename>
+                                    <surname>Baker</surname></name></author>
+                            <title level="a">Corpus-based translation studies: The challenges that
+                                lie ahead</title>
+                        </analytic>
+                        <monogr>
+                            <editor>
+                                <name>
+                                    <forename type="first">H.</forename>
+                                    <surname>Somers</surname>
+                                </name>
+                            </editor>
+                            <title level="m">Terminology, LSP and Translation: Studies in Language
+                                Engineering in Honour of Juan C. Sager</title>
+                            <imprint>
+                                <pubPlace>Amsterdam</pubPlace>
+                                <publisher>Benjamins</publisher>
+                                <date when="1996">1996</date>
+                                <biblScope type="pp">175-186</biblScope>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">J.</forename>
+                                    <surname>Bateman</surname>
+                                </name>
+                            </author>
+                            <title level="m">KPML Development Environment: multilingual linguistic
+                                resource development and sentence generation. Deutsches
+                                Forschungszentrum Informationstechnik (GMD)</title>
+                            <imprint>
+                                <pubPlace>Bonn (Birlinghoven)</pubPlace>
+                                <publisher>Institut für Integrierte Publikations und
+                                    Informationssysteme (IPSI)</publisher>
+                                <date when="1997">1997</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <editor>
+                                <name>
+                                    <forename type="first">S.</forename>
+                                    <surname>Granger</surname>
+                                </name>
+                            </editor>
+                            <title level="m">Proceedings of Symposium 'Contrastive Linguistics and
+                                Translation Studies. Empirical Approache', Louvain-la-Neuve,
+                                Belgien, February 1999</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date when="1999">1999</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">M.</forename>
+                                    <forename type="middle">A.</forename>
+                                    <forename type="middle">K.</forename>
+                                    <surname>Halliday</surname>
+                                </name>
+                            </author>
+                            <title level="m">Language as social semiotic</title>
+                            <imprint>
+                                <pubPlace>London</pubPlace>
+                                <publisher>Edward Arnold</publisher>
+                                <date when="1978">1978</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">M.</forename>
+                                    <forename type="middle">A.</forename>
+                                    <forename type="middle">K.</forename>
+                                    <surname>Halliday</surname>
+                                </name>
+                            </author>
+                            <title level="m">An introduction to Functional Grammar.</title>
+                            <imprint>
+                                <pubPlace>London</pubPlace>
+                                <publisher>Edward Arnold</publisher>
+                                <date when="1985">1985</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <analytic>
+                            <author><name><forename type="first"
+                                        >S.</forename><surname>Hansen</surname></name></author>
+                            <title level="a">A Contrastive Analysis of Multilingual Corpora
+                                (English-German)</title>
+                        </analytic>
+                        <monogr>
+                            <edition>Diploma Thesis</edition>
+                            <imprint>
+                                <publisher>University of the Saarland, Saarbrücken</publisher>
+                                <date when="1999">1999</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="bookChapter">
+                        <analytic>
+                            <author><name><forename type="first">S.</forename>
+                                    <surname>Hansen</surname></name></author>
+                            <author><name><forename type="first">E.</forename>
+                                    <surname>Teich</surname></name></author>
+                            <title level="a">Kontrastive Analyse von Übersetzungskorpora: ein
+                                funktionales Modell</title>
+                        </analytic>
+                        <monogr>
+                            <editor>
+                                <name>
+                                    <forename type="first">J.</forename>
+                                    <surname>Gippert</surname>
+                                </name>
+                            </editor>
+                            <title level="m">Sammelband der Jahrestagung der GLDV 99</title>
+                            <imprint>
+                                <pubPlace>Frankfurt a. Main</pubPlace>
+                                <publisher/>
+                                <date when="1999">1999</date>
+                                <biblScope type="pp">311-322</biblScope>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <analytic>
+                            <author><name><forename type="first"
+                                        >S.</forename><surname>Laviosa-Braithwaite</surname></name></author>
+                            <title level="a">The English Comparable Corpus (ECC): A Resource and a
+                                Methodology for the Empirical Study of Translation.</title>
+                        </analytic>
+                        <monogr>
+                            <edition>PhD Thesis</edition>
+                            <imprint>
+                                <publisher>UMIST, Manchester</publisher>
+                                <date when="1996">1996</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="bookChapter">
+                        <analytic>
+                            <author><name><forename type="first">E.</forename>
+                                    <surname>Teich</surname></name></author>
+                            <title level="a">Towards a methodology for the construction of
+                                multilingual resources for multilingual generation</title>
+                        </analytic>
+                        <monogr>
+                            <title level="m">Proceedings of the IJCAI workshop on multilingual
+                                generation, International Joint Conference on Artificial
+                                Intelligence (IJCAI), Montreal, Canada, August 1995</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date when="1995">1995</date>
+                                <biblScope type="pp">136-148</biblScope>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="bookChapter">
+                        <analytic>
+                            <author><name><forename type="first">E.</forename>
+                                    <surname>Teich</surname></name></author>
+                            <title level="a">Towards a model for the description of cross-linguistic
+                                divergence and commonality in translation</title>
+                        </analytic>
+                        <monogr>
+                            <editor>
+                                <name>
+                                    <forename type="first">E.</forename>
+                                    <surname>Steiner</surname>
+                                </name>
+                            </editor>
+                            <editor>
+                                <name>
+                                    <forename type="first">C.</forename>
+                                    <surname>Yallop</surname>
+                                </name>
+                            </editor>
+                            <title level="m">Beyond content: Exploring translation and multilingual
+                                text production</title>
+                            <imprint>
+                                <pubPlace>Berlin</pubPlace>
+                                <publisher>Mouton de Gruyter</publisher>
+                                <date when="1999">1999</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

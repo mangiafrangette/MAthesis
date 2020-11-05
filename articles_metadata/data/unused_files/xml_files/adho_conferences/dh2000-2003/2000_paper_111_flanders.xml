@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="paper">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Writing about It: Documentation and Humanities
+                    Computing</title>
+                <author>
+                    <name>
+                        <forename type="first">Julia</forename>
+                        <surname>Flanders</surname>
+                        <affiliation>
+                            <name type="org">Brown University</name>, USA <email/>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="2000">2000</date>
+                <publisher>
+                    <name>University of Glasgow</name>
+                </publisher>
+                <pubPlace>Glasgow</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ALLC/ACH 2000</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first">Jean</forename>
+                        <surname>Anderson</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Amal</forename>
+                        <surname>Chatterjee</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Christian</forename>
+                        <forename type="middle">J.</forename>
+                        <surname>Kay</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Margaret</forename>
+                        <surname>Scott</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item>Text Encoding</item>
+                        <item> </item>
+                        <item> </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>Documentation is arguably the most important part of a humanities computing
+                    project's long-term existence, in two senses. First, in the sense that without
+                    it a project cannot maintain continuity and consistency; and second, in the
+                    sense that without it a project cannot communicate its methods to other members
+                    of the larger community, offering them for critique if in need of improvement,
+                    and making them known if worthy of emulation.</p>
+                <p>Without documentation a project is effectively without "self-knowledge", by which
+                    I mean the information which the project itself as an entity needs to know in
+                    order to survive and to perpetuate itself. It is crucial to distinguish here
+                    between the knowledge belonging to individual participants in the project's
+                    work, and the project itself. What individuals know is not necessarily
+                    accessible to other project members, and this knowledge is taken away with them
+                    when they leave. What the project knows, on the other hand, is an explicit part
+                    of its internal and public existence, with several important consequences. It
+                    can be found without recourse to private knowledge; it does not depend on any
+                    individual and is not vulnerable to changes in staff. And finally, this kind of
+                    self-knowledge has a particular rhetorical status within the project and as a
+                    public expression of identity, in that it has an understood authority: it is
+                    explicitly endorsed by the project and its truth or applicability are not in
+                    question.</p>
+                <p>This is as much as to say that we need to take documentation seriously not only
+                    as a practical matter but also as a question of theory. Producers of
+                    documentation must negotiate between different rhetorical scenarios, from the
+                    didactic, developmental narrative of a training manual to the encyclopedic
+                    granularity of a reference guide. Treating this negotiation as a rhetorical
+                    problem seems to locate it in the writing itself. But in fact we can see, once
+                    we look more closely, that documentation is a specialized kind of data or
+                    content to be purveyed, and that these different scenarios amount to different
+                    approaches to data retrieval which must be accommodated. This complexity is
+                    compounded by the fact that we are concerned here with humanities computing
+                    documentation, to be used by humanists, with humanistic expectations about the
+                    relationship between that which is documentable - reproducible, deterministic,
+                    normative - and that which is subject to independent judgment and expertise.</p>
+                <p>Finally, the challenges documentation poses - its peculiar embodiment of the
+                    Arnoldian tension between "Hebraizing" and "Hellenizing", between doing and
+                    thinking - also resonate with issues central to humanities computing.
+                    Documentation both embodies a project's self-reflection and calls it to a close,
+                    requires that reflection conclude in order that action may commence. And yet the
+                    normative statements which documentation strives to offer about a project's
+                    practice are inevitably, in a project of any scope, the occasion for discovering
+                    further issues which have not yet been decided. The perpetually unfinished work
+                    of documentation thus holds the project in a state of dynamic suspension, always
+                    trying to resolve issues and get back to work, always trying to finish work so
+                    that it can be documented.</p>
+                <p>Some specific points are worth noting here, to be discussed at greater length in
+                    the finished paper. First of all is the issue already mentioned of the
+                    relationship between training documentation and reference documentation. The
+                    most apparent difference between these two forms is the kind of text being
+                    produced: in the first case, a developmental narrative which takes the trainee
+                    through the project's methods from basic to advanced in a way which maximizes
+                    memorability and comprehensibility; in the second case, a reference work which
+                    provides instant access to particular topics discussed as independent items with
+                    a high degree of granularity. These two modes are so different that it is often
+                    extremely difficult to convert from one to the other, increasingly so in
+                    proportion to how successfully the given mode has been realized. They also
+                    require quite different kinds of infrastructure to make them useful in the work
+                    environment: for instance, the reference model works best when accompanied by
+                    good metadata and a good retrieval system. It also requires attention to the
+                    level of granularity at which individual instructions are conceptualized, and to
+                    how related instructions will be identified and aggregated.</p>
+                <p>Producing documentation in either mode requires that one conceptualize the
+                    consumer's needs and habits in detail, and this raises a second point which has
+                    already been mentioned above. What role do humanists allot to documentation,
+                    broadly considered? This question points to a larger issue for humanities
+                    computing, namely the role of judgment and interpretation in the creation of
+                    humanities data, and in what areas the exercise of these things is appropriate.
+                    If the documentation is framed for a workplace in which comparatively unskilled
+                    workers require explicit instructions on making absolutely consistent choices,
+                    then the documentation itself needs to be equally determinate, authoritative,
+                    and exhaustive in the way it communicates. It must anticipate every alternative
+                    and leave no opening for variation; from the retrieval standpoint, it must
+                    ensure that the correct information is always discovered no matter how inept or
+                    tangential the search strategy. In short, it must make the work resemble as
+                    little as possible the kind of intellectual environment envisioned by a liberal
+                    humanities viewpoint. On the other hand, if the intention is to guide the worker
+                    in exercising judgment - that is, to indicate the principles to be applied
+                    rather than the act to be performed - then the documentation will necessarily
+                    imagine its readers as part of an ongoing investigation into the project's
+                    methods and standards.</p>
+                <p>To give these reflections some concreteness, the finished paper will also
+                    consider an actual documentation system currently in use in a major text
+                    encoding project, which has evolved over a period of seven years and is used
+                    both for training and reference. Although developed for a particular set of
+                    needs and by no means perfect, this system and the process of its development
+                    offer an example which may be of use to people currently designing or
+                    redesigning documentation systems of their own.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

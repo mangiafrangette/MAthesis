@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="poster/demo">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Caught in the Decameron Web: New Tools for Scholars and
+                    Teachers</title>
+                <author>
+                    <name>
+                        <forename type="first">Michael</forename>
+                        <forename type="middle">J.</forename>
+                        <surname>Hemment</surname>
+                        <affiliation>
+                            <name type="org">Brown University</name>, USA <email/>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Massimo</forename>
+                        <surname>Riva</surname>
+                        <affiliation>
+                            <name type="org">Brown University</name>, USA <email/>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Giovanna</forename>
+                        <forename type="middle">Roz</forename>
+                        <surname>Gastald</surname>
+                        <affiliation>
+                            <name type="org">Brown University</name>, USA <email/>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Michael</forename>
+                        <surname>Papio</surname>
+                        <affiliation>
+                            <name type="org">Holy Cross College</name>, USA <email/>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="2000">2000</date>
+                <publisher>
+                    <name>University of Glasgow</name>
+                </publisher>
+                <pubPlace>Glasgow</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ALLC/ACH 2000</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first">Jean</forename>
+                        <surname>Anderson</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Amal</forename>
+                        <surname>Chatterjee</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Christian</forename>
+                        <forename type="middle">J.</forename>
+                        <surname>Kay</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Margaret</forename>
+                        <surname>Scott</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item> </item>
+                        <item> </item>
+                        <item> </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>Since 1995, Brown University's Decameron Web has endeavored to assist students
+                    with the study of Giovanni Boccaccio's life and works. From its humble
+                    beginnings as a series of hyperlinked student essays in a storyspace
+                    environment, the site has been in a constant state of regeneration,
+                    metamorphosing itself in new directions. Most recently, a National Endowment for
+                    the Humanities grant from the Division of Education and Technology has enabled
+                    our team to enrich the site with a variety of research and pedagogy tools for
+                    students, literary scholars, historians, and teachers, including an SGML-encoded
+                    text and correlated Detailed Search, a Pedagogy Module, and an electronic
+                    Boccaccio journal.</p>
+                <p>The text of the Decameron has been encoded in SGML using a DTD based on TEI-Lite.
+                    The software, Dynaweb 4.1, is currently used to deliver the SGML encoded text.
+                    The structural encoding embodied in SGML permits searching on selected
+                    structural units, such as whole text, frame, and novella. All named characters
+                    and geographic locations in the text are tagged and can be retrieved through an
+                    advanced search procedure.</p>
+                <p>The Decameron Web's new Detailed Search identifies and defines each character and
+                    location (both named and unnamed) in Boccaccio's masterpiece using a series of
+                    easily searchable encoded attributes. Characters are defined in terms of their
+                    age, sex, origin, estate, role, religion, marital status, and disguise; places
+                    are encoded to reflect their geographic location (city, region, country) and
+                    type (bridge, castle, church, etc.).</p>
+                <p>One of our greatest challenges has been to design an HTML interface that is
+                    comprehensive in terms of search options, but also intuitive and user-friendly.
+                    We settled on a design solution that divides the search into three principle
+                    categories: "Characters," "Geographic Locations," and "Single and Multiple
+                    Words." Within each of these categories, users may easily define their search by
+                    either (1) typing in the name of the character or place they are looking for (if
+                    they know it), (2) finding their subject by selecting a combination of
+                    attributes from pull-down menus, or (3) viewing the results of our pre-searched
+                    lists and tables. The results produced by these searches do more than merely
+                    provide researchers with textual references: they bring the user to the exact
+                    point in the online text where their character or geographic location appears.
+                    Additionally, many characters (for example, all historical characters and
+                    members of the brigata) have special philological notes that can be easily
+                    accessed through hyperlinks.</p>
+                <p>The Decameron Web's Detailed Search allows Boccaccio's text to be searched like
+                    never before. Humanities students and scholars will be able to instantly examine
+                    Boccaccio's characters based on their social status, sex, and profession, and a
+                    series of other attributes. How, for example, do Boccaccio's medieval
+                    representations of artists such as Giotto differ from contemporary "portraits of
+                    the artist"? What is significant about Boccaccio's depiction of married vs.
+                    unmarried women in the text? And is there any correlation between a character's
+                    economic status and his/her fortuna?</p>
+                <p>Scholars interested in exploring the vast geography of Boccaccio's world will
+                    benefit greatly from the detailed geography search. This tool will enable
+                    researchers to determine, for instance, what thematic or representational
+                    differences exist between the novellas set in Italy and those set in other
+                    countries; and what role geography plays in the structure and organization of
+                    the Decameron. Having completed, together with STG (Scholarly Technology Group,
+                    Brown University), the prototype of our Detailed Search page at the closure of
+                    1999, its functionality and design will be rigorously tested and refined by
+                    members of our Advisor Board and Brown students taking our Spring semester
+                    Boccaccio course. A public release date is expected by early Summer 2000.</p>
+                <p>Another recent addition to the Decameron Web has been the creation of a Pedagogy
+                    Module, providing high school and university teachers with supplementary
+                    classroom materials, including course syllabi, exams, class project ideas, and
+                    essay questions. Comprehension exercises and sections dedicated to "Further
+                    Research" and "Topics of Discussion" will be integrated with an eye to helping
+                    disseminate ideas for successful teaching approaches. These will be contextually
+                    linked to all other pertinent modules including Bibliography. There will also be
+                    a teacher's forum, where innovative pedagogical approaches to Boccaccio's works
+                    can be openly shared and discussed, and student guides to essay writing,
+                    Internet research, and classroom presentation. Finally, each semester we will
+                    accept nominations for "the best" Boccaccio student essay, which will
+                    subsequently be published on the site.</p>
+                <p>The Decameron Web's new electronic Boccaccio journal will be of particular
+                    interest to medieval literature specialists and students. It will serve as a
+                    forum where scholars can publish and debate their latest research on Boccaccio's
+                    works, discuss humanities computing initiatives and pedagogy, submit book
+                    reviews, and debut new translations of the author's works. The online journal
+                    will be multilingual and will accept submissions from an international community
+                    of scholars, all contributing their own unique didactic and interpretive
+                    perspectives. Unlike traditional print publications, the electronic Boccaccio
+                    journal will capitalize on its hypertext nature, facilitating greater editing
+                    and publishing efficiently of contributions, allowing users to comment on what
+                    they have read, and promoting joint scholarly projects on Boccaccio.</p>
+                <p>If properly utilized, we believe that these new research tools can bring a new
+                    dimension of excitement to the study and teaching of Boccaccio and his works.
+                    The Detailed Search will enable researchers to gain new insights into the
+                    complexities of Boccaccio's characters and geography; the Pedagogy Module will
+                    provide teachers with a broad range of Boccaccio-related activities and
+                    resources intended to challenge and engage their students; and the electronic
+                    Boccaccio journal will allow graduate students and literary scholars to publish,
+                    research, and discuss the latest advances in Boccaccio studies and humanities
+                    computing. Naturally, the success of all of these initiatives is ultimately
+                    contingent upon the active collaboration of an international community of
+                    Boccaccio students, teachers, and specialists.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

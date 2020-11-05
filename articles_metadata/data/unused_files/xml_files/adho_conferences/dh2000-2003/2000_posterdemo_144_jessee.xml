@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="poster/demo">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Modeling the Crystal Palace</title>
+                <author>
+                    <name>
+                        <forename type="first">Chris</forename>
+                        <surname>Jessee</surname>
+                        <affiliation>
+                            <name type="org">University of Virginia</name>, USA <email/>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Michael</forename>
+                        <surname>Levenson</surname>
+                        <affiliation>
+                            <name type="org">University of Virginia</name>, USA <email/>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Will</forename>
+                        <surname>Rouk</surname>
+                        <affiliation>
+                            <name type="org">University of Virginia</name>, USA <email/>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Dave</forename>
+                        <surname>Cosca</surname>
+                        <affiliation>
+                            <name type="org">University of Virginia</name>, USA <email/>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="2000">2000</date>
+                <publisher>
+                    <name>University of Glasgow</name>
+                </publisher>
+                <pubPlace>Glasgow</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ALLC/ACH 2000</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first">Jean</forename>
+                        <surname>Anderson</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Amal</forename>
+                        <surname>Chatterjee</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Christian</forename>
+                        <forename type="middle">J.</forename>
+                        <surname>Kay</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Margaret</forename>
+                        <surname>Scott</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item> </item>
+                        <item> </item>
+                        <item> </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <div>
+                    <head>Introduction</head>
+                    <p>The Institute for Advanced Technology in the Humanities at the University of
+                        Virginia is providing historians, architects and students new insights into
+                        the history, construction and appearance of the Crystal Palace. These
+                        insights are derived from the construction of 3-dimensional computer models
+                        and simulations. This project is a small part of the larger "Monuments and
+                        Dust". In "Monuments and Dust" an international group of scholars will
+                        assemble a complex visual, textual, and statistical representation of
+                        Victorian London - the largest city of the nineteenth-century world and its
+                        first urban metropolis. A full description of "Monuments and Dust" can be
+                        found online. See the "WEB-LINKS" section.</p>
+                </div>
+                <div>
+                    <head>Background</head>
+                    <p>Popularly known as the Crystal Palace, the 1851 London Exhibition Building
+                        was designed by Joseph Paxton for the Royal Exhibition. On June 20th 1850
+                        Paxton delivered his original design to the Industrial Exhibition's
+                        executive committee. Only two weeks had passed since the building commission
+                        had introduced a clause to allow Paxton to submit a design. Controversy
+                        swirled around the exhibition as Col. Charles de L.Waldo Sibthorp's concern
+                        over the destruction of elm trees prompted the Times to question the sanity
+                        of constructing any permanent structure on the Hyde Park site. The
+                        commissioners responded by requesting that Paxton alter his design to
+                        include a barrel-vaulted transept that would cover and save the elms. The
+                        Industrial Exhibition's opening day was less than a year away on May 1st
+                        1851. The Crystal Palace design received popular approval in the press. All
+                        other proposed designs for the exhibition building were monolithic masonry
+                        and could not be completed in time for the scheduled opening. With no other
+                        reasonable plan at hand the building commission accepted Paxton's design
+                        with the provision the building be removed from Hyde Park by June 1st 1852.
+                        As the foundations were being laid, Paxton's lack of architecture or
+                        engineering credentials drew criticism regarding the stability and safety of
+                        his design. The design is in essence an elaborately scaled copy of the Duke
+                        of Devonshire's Chatsworth Conservatory. Paxton designed the conservatory
+                        while employed as the Duke's gardener. In response to the criticism all iron
+                        girders were tested on site prior to installation. Wooden cross-bracing was
+                        added to visually reassure visitors the wrought iron trusses were sturdy and
+                        could withstand the load of the thousands of anticipated visitors. Paxton's
+                        reliance on his previous glass-enclosed conservatory design influenced the
+                        details of all the Crystal Palace's building systems. The primary role of
+                        the building was as exhibit space. The design is composed of a central
+                        transept and nave with the nave lined with a series of 24x24 foot structural
+                        bays. Second level galleries ring the bays below. The structural bays served
+                        to organize the 13,973 exhibitors. Red banners with white letters indicating
+                        specific exhibits hung from the 24-foot girders facing the nave. The nave,
+                        galleries and transept served as circulation corridors for the exhibition's
+                        more than 6 million visitors. The large expanse of overhead glass that
+                        serves as the enclosure and lighting systems and gives the building its
+                        nickname allowed excessive amounts of light and heat into the exhibit
+                        spaces. While this arrangement served Paxton well in the Chatsworth
+                        greenhouse, the crowded exhibit spaces quickly overheated. The decision to
+                        use extensive amounts of glass without regard to the comfort of the
+                        occupants is the primary failure of the design. To remedy this flaw the
+                        troughs of the roof system were retrofitted with canvas covers draped
+                        between the roof ridges. These tarps shaded the glass and visitors, reduced
+                        solar gain and provided a more diffuse and tolerable light in the galleries.
+                        The tarps had a seam down the middle to allow rapid water drainage into the
+                        Paxton gutters. The secondary role of the building was as exhibit. Initially
+                        there was much skepticism, doubt and criticism surrounding the design of the
+                        Crystal Palace and the Great Exhibition. But as the building rapidly grew
+                        above the trees of Hyde Park the press and public rallied around the
+                        glistening structure. The public began to realize and take great pride that
+                        the building was revolutionary in every way. The building handily satisfied
+                        its most demanding design criteria. It was large enough to accommodate tens
+                        of thousands of exhibitors and visitors. It fostered the orderly display of
+                        exhibits. It could be manufactured and assembled in a timely manner. It
+                        clearly demonstrated the nation's industrial and manufacturing competence.
+                        The Crystal Palace was a departure from the past and a vision of the future.
+                        The Crystal Palace was designed, manufactured and assembled in less than one
+                        year. This feat was made possible by manufacturing technology that should
+                        still be considered state of the art. The building is an integrated system
+                        or kit of parts, where each part serves multiple functions. The columns
+                        support the girders and act as downspouts for the gutters. The Paxton
+                        gutters shed rain-water and support the roof gables. The glass roof panels
+                        are both building enclosure and lighting system. Each part is machine
+                        manufactured by skilled labor under controlled conditions that insure
+                        accuracy and high quality. Once a machine or technique is devised to make a
+                        specific part, the part can be made very quickly and in large quantity.
+                        Parts were delivered to the site and erected as quickly as they were
+                        manufactured. The small size and light weight of each part made erection
+                        easy. Each structural bay is self-supporting so the 2,000 unskilled workers
+                        could assemble parts without waiting for whole systems to be in place. In
+                        contrast, other buildings of the time were made of stone and required years
+                        to construct. The stone was cut from quarries and transported at great
+                        expense to the building site, where skilled masons custom fit one block to
+                        another. It is important to study this building in context, as it is
+                        evidence of a fundamental cultural shift. As compared to the artifacts in
+                        the exhibition the Crystal Palace building has a clean sparse appearance
+                        with a minimum of ornament. With the exception of girder connection covers
+                        there are few components that could be considered ornamental. The real
+                        difference lies in the method of manufacture and the value placed on the
+                        resulting product by society. Once Londoners saw the efficiency and grace of
+                        its construction the Crystal Palace became a focus of pride. The design
+                        marks a cultural shift in values from garish hand made ornament of the past
+                        to the clean, streamlined machine-made products of the future. The Crystal
+                        Palace is more closely related to buildings of the next century, such as
+                        Ludwig Mies van der Rohe's 1929 Barcelona Pavilion and Phillip Johnson's
+                        1949 Glass House, than with its monolithic, masonry contemporaries.</p>
+                </div>
+                <div>
+                    <head>Methods</head>
+                    <p>Three different types of 3-dimensional computer models are being created for
+                        the project. Working from original drawings, a high detail model of each
+                        unique building component is constructed in FormZ software. The components
+                        are assembled to illustrate the relationship of parts within larger sections
+                        of the building. Rendered images of these assemblies and the computer model
+                        itself is delivered through the Internet. Rendered orthographic views of the
+                        component assemblies are used as texture or image maps on a low detail VRML
+                        (virtual reality modeling language) model of the entire building. The VRML
+                        model can be viewed through a web browser. Given the state-of-the-art of
+                        photography in 1851 and the limits it imposes on our ability to understand
+                        and appreciate the lighting in the Crystal Palace our third model is a
+                        realistic lighting simulation. Radiance software, running on Supercomputers,
+                        enables us to render images and animations of the building's lighting as it
+                        existed in 1851. Test images have been rendered on a SGI Power Onyx at the
+                        San Diego Supercomputer Center (SDSC) and on SUN workstations at IATH.
+                        Additional images and animations will be rendered on a 64-Processor SUN HPC
+                        10000 Supercomputer at SDSC.</p>
+                </div>
+                <div>
+                    <head>Use</head>
+                    <p>Architects, historians and students can gain a better understanding of the
+                        building and its significance by studying the images and models we have
+                        created. By freely providing the computer models, variations of the
+                        building's structure, lighting and design can be tested and used as a tool
+                        for teaching. Exploring the use of realistic lighting simulations (both
+                        quantitative and qualitative) on Supercomputers provides not only a new set
+                        of tools and methods for the humanities researcher but paves the road for
+                        interaction and collaboration with computer scientists.</p>
+                </div>
+                <div>
+                    <head>Web-Links</head>
+                    <p>"Modeling the Crystal Palace" &lt;<ptr
+                            target="http://www.iath.virginia.edu/london/model/"/>&gt;</p>
+                    <p>"Monuments and Dust" &gt;<ptr target="http://www.iath.virginia.edu%2Flondon/"
+                        />&gt;</p>
+                    <p>The Institute for Advanced Technology in the Humanities &lt;<ptr
+                            target="http://www.iath.virginia.edu/"/>&gt;</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

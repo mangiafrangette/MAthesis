@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/Users/saraschmidt/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="poster/demo">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main"> Mots15 - An interactive concordance system (built from
+                    mostly off-the- shelf parts)</title>
+                <author>
+                    <name>
+                        <forename type="first">Paul</forename>
+                        <surname>Meurer</surname>
+                        <affiliation>
+                            <name type="org">University of Bergen</name>
+                            <email>paul.meurer@hit.uib.no</email>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="middle">Michael</forename>
+                        <surname>Sperberg-McQueen</surname>
+                        <affiliation>
+                            <name type="org">World Wide Web Consortium</name>
+                            <email>cmsmcq@acm.org</email>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="2002">2002</date>
+                <publisher>
+                    <name>University of Tübingen</name>
+                </publisher>
+                <pubPlace>Tübingen</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ALLC/ACH 2002</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first">Harald</forename>
+                        <surname>Fuchs</surname>
+                    </name>
+                    <name>
+                        <forename type="first"/>
+                        <forename type="middle"/>
+                        <surname/>
+                    </name>
+                    <name>
+                        <forename type="first"/>
+                        <surname/>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item> </item>
+                        <item> </item>
+                        <item> </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <div>
+                    <p>Mots 15 is an interactive Web-based concordance or full-text retrieval system
+                        built mostly out of off-the-shelf software.</p>
+                    <p>The goals of the Mots-15 project are:<list type="bulleted">
+                            <item>to build a reasonably capable full-text retrieval system, with
+                                functionality generally similar to Tact, ARRAS, and the like, but
+                                with better markup awareness</item>
+                            <item>to keep minimum investment low for both implementors and users</item>
+                            <item>to allow experimentation with interesting parts of the query
+                                system</item>
+                        </list></p>
+                    <p>From these design goals follow several design principles:<list
+                            type="bulleted">
+                            <item>simplicity of implementation</item>
+                            <item>use of off-the-shelf components wherever possible</item>
+                            <item>modularity, loose coupling among modules using predefined
+                                interfaces wherever possible</item>
+                        </list></p>
+                </div>
+                <div>
+                    <head>1. Basic interfaces in a query system</head>
+                    <div>
+                        <head>1.1. Monoliths</head>
+                        <p>At a very simple level, an interactive query system simply accepts
+                            queries from a user, which return responses from the data. In systems
+                            like Arras and Tact, the single monolithic software package controls
+                            everything in the diagram.</p>
+                        <figure>
+                            <head>Image 1: A monolithic query system </head>
+                        </figure>
+                    </div>
+                    <div>
+                        <head>1.2. Web interface</head>
+                        <p>With the advent of graphical browsers for the World Wide Web, however, it
+                            is possible to provide a fairly attractive interface at a much lower
+                            cost than would otherwise be possible. It may still make sense to devise
+                            special-purpose user interface software for specific purposes, but we
+                            can go a long way without it, just relying on the users to have chosen a
+                            Web browser they like reasonably well. The Web, that is, exposes an
+                            interface between the user interface and the data in the back end.</p>
+                        <figure>
+                            <head>Image 2: A Web-based query system</head>
+                        </figure>
+                        <p>This interface sets certain limits to our freedom  we must now use HTML
+                            to describe what the user sees (we can use arbitrary XML if we are
+                            willing to require that the user have an XML-capable browser) and the
+                            user's interactions with the server are limited to what can be done
+                            using HTML forms (and possibly a browser scripting language like
+                            Javascript)  but within those limits we can develop better user
+                            interfaces at a lower cost than if we were building from scratch.</p>
+                        <p>Even more important, we can now swap front- and back-ends in and out. We
+                            can experiment with different user interfaces by writing different
+                            front-end forms and HTML style sheets. In theory, we can also experiment
+                            with different back ends by substituting one for the other and using the
+                            same front end; in practice, the existing systems built on this model
+                            don't easily allow for swapping different back ends in and out, because
+                            the interface between the front end and the back end varies with the
+                            specific product used as the back end. Because different commercial
+                            products rarely support identical interfaces, this means it's rarely
+                            possible to swap a new back end in with minimal effort.</p>
+                    </div>
+                    <div>
+                        <head>1.3. Mots 15</head>
+                        <p>The Mots 15 system differs from the generic Web-based system primarily by
+                            exposing a generic query interface in front of the back-end-specific
+                            query interface, in order to buffer the front end and back end from each
+                            other.</p>
+                        <figure>
+                            <head>Image 3: Basic plan of MOTS query system </head>
+                        </figure>
+                        <p>Ideally, this generic query interface should follow some open
+                            specification; ideally, it should provide all the functionality we want
+                            (to keep life simple), and no more (so that it is easy to build back
+                            ends if we want to do it ourselves); the exact choice depends on the
+                            tradeoff between these incompatible goals.</p>
+                        <p>Assuming that we have some suitable query language, and a way to
+                            translate from it into the query language of the back end, then any XML
+                            query engine may be used as back end.</p>
+                        <p>A SQL dbms may be the most flexible back end. The design made by MSM for
+                            this would involve a few light-weight scripts which run on top of the
+                            SQL database system. The SQL system itself would in this design produce
+                            not elements but element pointers, which would be used to extract the
+                            elements from a saved copy of the XML file.</p>
+                        <p>The task of translating from the open query language to the proprietary
+                            back end query language is, of course, simplified if the back end
+                            accepts the open query language itself.</p>
+                        <p>Another alternative would be using the corpus management system Corpus
+                            WorkBench (IMS, Stuttgart) as the MOTS back end, possibly combined with
+                            an XML query facility. This would allow for more advanced linguistic
+                            queries.</p>
+                    </div>
+                </div>
+                <div>
+                    <head>2. Pieces of Mots 15</head>
+                    <p>Mots 15 is designed to make it relatively simple to specify and implement
+                        each piece of the system. The better we succeed in this goal, the easier it
+                        will be for us to experiment with different parts of the system, and the
+                        easier it will be for eventual users to customize it for their own purposes.
+                        Eventually, the designers hope that Mots 15 will grow into a library of
+                        reusable and customizable pieces, which individuals and small projects can
+                        modify to make useful special-purpose systems.</p>
+                    <p>The Mots 15 design requires the following pieces of software:<list
+                            type="bulleted">
+                            <item>browser: an off-the-shelf Web browser; this handles the actual
+                                display of results on the user's screen and interaction with the
+                                user</item>
+                            <item>forms: one or more HTML forms which allow the user to specify
+                                searches; these produce an HTML-forms data stream which the parser
+                                hands to an appropriate CGI script</item>
+                            <item>form-to-query translator: a program to translate the forms data
+                                into a query, expressed in the open query language</item>
+                            <item>query-to-query translator: a program to translate the query from
+                                the open query language into the query language supported by the
+                                back end</item>
+                            <item>back end: a program, which accepts queries in some (possibly
+                                proprietary) query language and returns as results e.g. some set of
+                                XML elements</item>
+                            <item>wrapper: a program which takes the results and places them in
+                                two-level wrapper: (a) an outermost mots:result XML element and (b)
+                                an element depending on the hit type wrapped around each hit, each
+                                with attributes providing useful information about the query and its
+                                results</item>
+                            <item>XML-to-HTML translator: a program which takes the wrapped results
+                                and translates them into HTML suitable for display in the user's
+                                off-the-shelf browser</item>
+                            <item>transaction manager: a CGI script to manage the query/response
+                                transaction, by calling (or incorporating) the various other
+                                programs in this list; it may also be responsible for session
+                                management</item>
+                        </list>
+                    </p>
+                </div>
+                <div>
+                    <head>3. Open problems and opportunities</head>
+                    <p>The existing implementation of Mots15 (as of November 2001) is a minimal
+                        system with<list type="bulleted">
+                            <item>a choice of several simple Web interfaces</item>
+                            <item>support for straightforward XML documents only</item>
+                            <item>XSLT stylesheets for XML-HTML translation</item>
+                            <item>a limited (XPath based) query language, extended with word
+                                frequency queries</item>
+                        </list></p>
+                    <p>There are several obvious challenges for the future development of Mots
+                            15:<list type="bulleted">
+                            <item>serious Web interface (room for experiment)</item>
+                            <item>XML++ support </item>
+                            <item>display of parallel versions, textual variation </item>
+                            <item>external and user supplied annotation </item>
+                            <item>proximity searching</item>
+                            <item>exploiting grammatical annotation of text</item>
+                            <item>supporting documents with overlap (i.e. TexMECS)</item>
+                            <item>allowing users to search as if the text were marked up more simply
+                                than it is (e.g. with a uniform chapter/section/paragraph/sentence
+                                hierarchy)</item>
+                            <item>supporting more powerful back ends (either by means of wormholes
+                                in the open query language, or by means of a second interface)</item>
+                            <item>managing selection of texts from a corpus or collection; federated
+                                searches</item>
+                        </list></p>
+                </div>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author><name><forename type="first">John</forename>
+                                <surname>Price-Wilkin</surname></name></author>
+                            <title level="a">Using the World-Wide Web to Deliver Complex Electronic Documents: Implications for Libraries</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Public-Access Computer Systems Review</title>
+                            <imprint>
+                                <biblScope type="vol">5</biblScope>
+                                <biblScope type="issue">3</biblScope>
+                                <biblScope type="pp">5-21</biblScope>
+                                <date when="1994">1994</date>
+                            </imprint>
+                        </monogr><note><ptr target="http://jpw.umdl.umich.edu/pubs/yale.html" />.</note>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author><name><forename type="first">John</forename>
+                               <surname>Price-Wilkin</surname></name></author>
+                            <title level="a">A Gateway between the World Wide Web and PAT: Exploring SGML Through the Web</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Public-Acces Computer Systems Review</title>
+                            <imprint>
+                                <biblScope type="vol">5</biblScope>
+                                <biblScope type="issue">7</biblScope>
+                                <biblScope type="pp">527</biblScope>
+                                <date when="1994">1994</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <analytic>
+                            <author><name><forename type="first">John</forename>
+                                <surname>Price-Wilkin</surname></name></author>
+                            <title level="a">The Feasibility of Wide-area Textual Analysis Systems in Libraries: A Practical Analysis</title>
+                        </analytic>
+                        <monogr>
+                            <title level="u">Presented at Literary Texts in an Electronic Age: Scholarly Implications and Library Services, the 31st Annual Clinic on Library Applications of Data Processing (University of Illinois at Urbana- Champaign). April 10-12, 1994</title>
+                            <imprint>
+                                <pubPlace></pubPlace>
+                                <publisher></publisher>
+                                <date when="1994">1994</date>
+                            </imprint>
+                        </monogr><note><ptr target="http://jpw.umdl.umich.edu/pubs/dpc.html" />. Published in the Proceedings of the Clinic. <title level="m">Gateway between the World Wide Web and PAT: Exploring SGML Through the Web</title>.</note></biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author><name><forename type="first">John</forename>
+                              <surname>Price-Wilkin</surname></name></author>
+                            <title level="a">Just-in-time Conversion, Just-in-case Collections: Effectively leveraging rich document formats for the WWW</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">D-Lib Magazine</title>
+                            <imprint>
+                                <biblScope type="vol"></biblScope>
+                                <biblScope type="issue"></biblScope>
+                                <biblScope type="pp"></biblScope>
+                                <date when="1997">May 1997</date>
+                            </imprint>
+                        </monogr><note><ptr target="http://www.dlib.org/dlib/may97/michigan/05pricewilkin.html" /></note>
+                    </biblStruct>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

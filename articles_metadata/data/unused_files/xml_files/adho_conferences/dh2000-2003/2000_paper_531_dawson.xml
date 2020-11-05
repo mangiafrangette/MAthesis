@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="paper">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">ACAD - a Cambridge Alumni Database</title>
+                <author>
+                    <name>
+                        <forename type="first">John</forename>
+                        <surname>Dawson</surname>
+                        <affiliation>
+                            <name type="org">University of Cambridge</name>, UK <email/>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="2000">2000</date>
+                <publisher>
+                    <name>University of Glasgow</name>
+                </publisher>
+                <pubPlace>Glasgow</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ALLC/ACH 2000</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first">Jean</forename>
+                        <surname>Anderson</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Amal</forename>
+                        <surname>Chatterjee</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Christian</forename>
+                        <forename type="middle">J.</forename>
+                        <surname>Kay</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Margaret</forename>
+                        <surname>Scott</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item>Digital Resources</item>
+                        <item> </item>
+                        <item> </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <div>
+                    <head>1. Introduction</head>
+                    <p>From 1922-27 Venn published the four volumes of Part I of <title level="m"
+                            >Alumni Cantabrigienses, a biographical list of all known students,
+                            graduates and holders of office at the University of Cambridge, from the
+                            earliest times to 1751</title>. This was followed from 1940-54 by the
+                        six volumes of Part II, covering 1752-1900. Subsequent archival research
+                        unearthed much more detail, and many more names, for the period up to 1500,
+                        and in 1963 Emden published his two-volume <title level="m">A Biographical
+                            Register of the University of Cambridge to 1500</title>. Together, these
+                        twelve volumes cover approximately 180000 names, with some overlap.</p>
+                    <p>It goes without saying that all this information is of the utmost importance
+                        for historical research, covering as it does a large proportion of the
+                        religious, legal, administrative, medical, academic, and royal appointments
+                        in Britain, the Empire, and the Colonies, as well as many other countries. A
+                        good deal of social history is also included, albeit patchily.</p>
+                    <p>However, all these publications have a great defect for research: there is no
+                        index. Also, since Venn's work, many corrections and additions to the
+                        information have come to light, and without the incorporation of this new
+                        material it is easy to be misled by the original books. So, to find all the
+                        Vicars of Trumpington mentioned by Venn and Emden requires an exhaustive
+                        search of twelve large volumes and many card indexes of Addenda and
+                        Corrigenda.</p>
+                </div>
+                <div>
+                    <head>2. Database</head>
+                    <p>We therefore set about the creation of an on-line database to make all this
+                        information accessible. Other sources, such as the Tripos Lists (lists of
+                        degrees awarded), and College Registers (especially those of the women's
+                        colleges, which were ignored by Venn) have been included. It is envisaged
+                        that the database will be made freely available for public searching on the
+                        World Wide Web, though it is not yet clear what mechanism for searching will
+                        be provided.</p>
+                    <p>Similar projects, based on Emden's Registers for Oxford and Cambridge, were
+                        undertaken in the 1970s.[3] In those studies, the data was highly coded to
+                        allow easy cross-tabulation. Several important articles using results from
+                        the studies have appeared.[1][2][4] There is, however, no resource for
+                        Oxford comparable to that of Venn for the later period.</p>
+                    <p>For many years we were unable to find a simple and reliable way to put the
+                        data into machine-readable form. Venn's books are in small hand-set type,
+                        printed on thick rough paper, and are full of italics, all of which proved
+                        completely intractable to the OCR packages available until recently.</p>
+                    <p>By chance, just as we had found suitable technology to cope with Venn's
+                        printing, we discovered that Ancestry.com had already prepared
+                        machine-readable versions of most of the volumes of Part II.</p>
+                    <p>Negotiations between Cambridge University Press (the copyright holders) and
+                        Ancestry.com soon led to an agreement to share this data, as their product
+                        and ours are for essentially different purposes, theirs being mainly
+                        accessed for genealogical information. Ancestry.com are also planning to put
+                        the remaining volumes of Venn into the computer, and to make the data
+                        available to us.</p>
+                    <p>Emden's <title level="m">Biographical Register</title>, the Tripos Lists, and
+                        the registers of the women's colleges have proved relatively easy to read
+                        using OCR and the services of an excellent methodical proofreader.</p>
+                </div>
+                <div>
+                    <head>3. Structural Analysis</head>
+                    <p>A typical entry from Emden looks like this (with references abbreviated):<lb/>
+                        <eg>Dawson, John (Dauson).* 
+                            Entered in C.L. ET 1484;
+                            grace that study for 6 yr in C. and Cn.L. suffice for entry in Cn.L. gr. 1488-9;
+                            Inc. C.L., adm. June 1490 [Ref_1];
+                            D.C.L. 
+                            R. of Debden, Essex, clk, adm. 17 May 1484; 
+                            till death [Ref_2].
+                            Died 1492. 
+                            Will dated 10 Aug. 1492; proved 12 Feb. 1493 [Ref_3]. 
+                            Requested burial in S. Michael's, Cambridge.</eg><lb/>
+                        and has the following structure:<lb/>
+                        <eg>heading 
+                            event 1 
+                            event 2 ... </eg><lb/> 
+                        where each event in general comprises:<lb/>
+                        <eg>topic 
+                            type 
+                            place 
+                            date(s) 
+                            reference(s)</eg></p>
+                    <p>The initial form of the database is an SGML-tagged text, from which
+                        subsequent databases and searching/sorting structures can easily be
+                        obtained.</p>
+                    <p>My first attempts at analysis were written in Perl, a widely available
+                        string-handling language which allows complex regular expressions. (A
+                        regular expression is just a pattern which is used to match parts of the
+                        data and extract those parts which can vary.) It soon became apparent that
+                        the complexity of the regular expressions needed for the recognition of
+                        large-scale structures such as these entries uses too much memory in Perl,
+                        and the programs frequently failed.</p>
+                    <p>At Cambridge we have a locally-written programmable text editor called NE
+                        which has good regular expression handling. It may seem a retrograde step to
+                        use a one-off local program like NE in preference to a widely used standard
+                        such as Perl, but in our case only the <emph rend="italics">product</emph>
+                        (the database) is useful; the <emph rend="italics">process</emph> used to
+                        make the product is different for each text analysed, so the ephemeral
+                        nature of the analysis programs is not significant.</p>
+                    <p>Events will in general be split over several input lines, so it was first
+                        necessary to combine the lines of a complete paragraph into a single line,
+                        then to split them at punctuation such as semicolons, and to put references
+                        on separate lines.</p>
+                    <p>It was clear that some type of formal, structured, but readable output would
+                        be needed in the first instance. This could then be converted automatically
+                        as input to any required database package. SGML provides an adequate
+                        structure for these needs, and is widely used by publishers of
+                        machine-readable databases.</p>
+                    <p>First attempts at analysis were very heuristic, but served to clarify the
+                        problems in my mind. Writing a DTD for the SGML structure was then very
+                        helpful, as it forced me to take decisions about nesting of fields, etc. </p>
+                    <p>Initially, my regular expressions tried to match complete events, including
+                        place names and dates, but two problems arose: the programs ran out of time
+                        or store, or NE's regular expression processor found the structure too
+                        complex to analyse. Automatically pre-tagging identifiable structures such
+                        as dates and place names enabled simpler regular expressions to be written.
+                    </p>
+                </div>
+                <div>
+                    <head>4. Results</head>
+                    <p>A discussion of the complete DTD and the analytical processes used will be
+                        presented. Various types of results will be used to illustrate the
+                        processing, including complete updated entries amalgamated from all sources,
+                        and statistics about certain types of event such as religious appointments.
+                        The Figures (see below) are based on only part of the data (one volume of
+                        Venn), as the analysis is not yet complete. The Figures should be used with
+                        care, because although they represent approximately ten thousand
+                        individuals, they are constrained by having surnames beginning 'Abbey' to
+                        'Challis', so a preponderance of one family attending one college may skew
+                        the results.</p>
+                    <p>Figure 1 will show the range of ages at admission to all colleges, and holds
+                        no surprises. Age at admission is given in only about half of the entries in
+                        Venn. Most of the older admissions are men who have already been ordained. </p>
+                    <p>Figure 2 will show the admissions to the two largest colleges, Trinity and St
+                        John's, between 1752 and 1900, and illustrates the general increase in size
+                        of all the colleges, and hence the whole university, in that period.</p>
+                    <p>Figures 3 and 4 will show the admissions to other colleges during that period
+                        (except Downing, Selwyn, and the women's colleges, which were not founded
+                        until the nineteenth century). The outstanding feature of Figure 4 is the
+                        dramatic increase in admissions at Queens' College from 1821-1830.</p>
+                    <p>Figure 5 will show the number of religious appointments (Curate, Vicar, or
+                        Rector) per county.</p>
+                </div>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>5. References</head>
+                <listBibl>
+                    <biblStruct type="journalArticle" n="1">
+                        <analytic>
+                            <author><name><forename type="first">T.</forename>
+                                    <forename type="middle"
+                                    >H.</forename><surname>Ashton</surname></name></author>
+                            <title level="a">Oxford's Medieval Alumni</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Past &amp; Present</title>
+                            <imprint>
+                                <biblScope type="vol">74</biblScope>
+                                <biblScope type="issue">1</biblScope>
+                                <biblScope type="pp">3-35</biblScope>
+                                <date when="1977">1977</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle" n="2">
+                        <analytic>
+                            <author><name><forename type="first">T.</forename>
+                                    <forename type="middle"
+                                    >H.</forename><surname>Ashton</surname></name></author>
+                            <author><name><forename type="first">G.</forename>
+                                    <forename type="middle"
+                                    >D.</forename><surname>Duncan</surname></name></author>
+                            <author><name><forename type="first">T.</forename>
+                                    <forename type="middle">A.</forename>
+                                    <forename type="middle"
+                                    >R.</forename><surname>Evans</surname></name></author>
+                            <title level="a">The Medieval Alumni of the University of
+                                Cambridge</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Past &amp; Present</title>
+                            <imprint>
+                                <biblScope type="vol">86</biblScope>
+                                <biblScope type="issue">1</biblScope>
+                                <biblScope type="pp">9-86</biblScope>
+                                <date when="1980">1980</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="bookChapter" n="3">
+                        <analytic>
+                            <author><name><forename type="first">R.</forename>
+                                    <surname>Evans</surname></name></author>
+                            <title level="a">The Analysis by Computer of A.B. Emden's Biographical
+                                Registers of the Universities of Oxford and Cambridge</title>
+                        </analytic>
+                        <monogr>
+                            <editor>
+                                <name>
+                                    <forename type="first">N.</forename>
+                                    <surname>Bulst</surname>
+                                </name>
+                            </editor>
+                            <editor>
+                                <name>
+                                    <forename type="first">J.-P.</forename>
+                                    <surname>Genet</surname>
+                                </name>
+                            </editor>
+                            <title level="m">Medieval Lives and the Historian: Studies in Medieval
+                                Prosopography</title>
+                            <imprint>
+                                <pubPlace>Kalamazoo</pubPlace>
+                                <publisher>Medieval Institute Publications, Western Michigan
+                                    University</publisher>
+                                <date when="1986">1986</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="bookChapter" n="4">
+                        <analytic>
+                            <author><name><forename type="first">R.</forename>
+                                    <forename type="middle"
+                                    >B.</forename><surname>Dobson</surname></name></author>
+                            <title level="a">Recent Prosopographical Research in Late Medieval
+                                English History: University Graduates, Durham Monks, and York
+                                Canons</title>
+                        </analytic>
+                        <monogr>
+                            <editor>
+                                <name>
+                                    <forename type="first">N.</forename>
+                                    <surname>Bulst</surname>
+                                </name>
+                            </editor>
+                            <editor>
+                                <name>
+                                    <forename type="first">J.-P.</forename>
+                                    <surname>Genet</surname>
+                                </name>
+                            </editor>
+                            <title level="m">Medieval Lives and the Historian: Studies in Medieval
+                                Prosopography</title>
+                            <imprint>
+                                <pubPlace>Kalamazoo</pubPlace>
+                                <publisher>Medieval Institute Publications, Western Michigan
+                                    University</publisher>
+                                <date when="1986">1986</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

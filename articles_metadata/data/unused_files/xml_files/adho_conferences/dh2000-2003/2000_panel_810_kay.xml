@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="panel">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Electronic Resources for Historical Linguists. Part 2:
+                    Dictionaries and Related Resources</title>
+                <author>
+                    <name>
+                        <forename type="first">Christian</forename>
+                        <surname>Kay</surname>
+                        <affiliation>
+                            <name type="org">University of Glasgow</name>, UK <email/>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Irené</forename>
+                        <surname>Wotherspoon </surname>
+                        <affiliation>
+                            <name type="org">University of Glasgow</name>, UK<email/>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Susan</forename>
+                        <surname>Rennie</surname>
+                        <affiliation>
+                            <name type="org">Scottish National Dictionary Association</name>, UK
+                            <email/>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Anne</forename>
+                        <surname>McDermott</surname>
+                        <affiliation>
+                            <name type="org">University of Birmingham</name>, UK<email/>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="2000">2000</date>
+                <publisher>
+                    <name>University of Glasgow</name>
+                </publisher>
+                <pubPlace>Glasgow</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ALLC/ACH 2000</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first">Jean</forename>
+                        <surname>Anderson</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Amal</forename>
+                        <surname>Chatterjee</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Christian</forename>
+                        <forename type="middle">J.</forename>
+                        <surname>Kay</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Margaret</forename>
+                        <surname>Scott</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item>Computational/Corpus Linguistics</item>
+                        <item> </item>
+                        <item> </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <div>
+                    <p rend="presenter">Chair: Christian Kay</p>
+                    <p>The set of papers will be followed by a discussion, which may include points
+                        from Part 1: Medieval Studies (session 1.2 on Saturday 22 July).</p>
+                </div>
+                <div type="EmbeddedDoc">
+                    <div>
+                        <head>Developing a User Interface for the <title level="m">Historical
+                                Thesaurus of English</title> Ingres Database</head>
+                        <p rend="presenter">Irené Wotherspoon </p>
+                        <div>
+                            <p>This is effectively a continuation of a paper published in <title
+                                    level="j">Literary and Linguistic Computing</title> Vol 7, 1992,
+                                which described the issues and processes involved in transferring
+                                the legacy database of the <title level="m">Historical Thesaurus of
+                                    English</title> (HTE) in dBase 11.4 into Ingres 6.1, chosen as
+                                being able to support the retrieval of complex information. During a
+                                long-term project like HTE, spanning decades rather than years,
+                                there will obviously be a huge change in the software available, and
+                                software in use will become obsolete. It is therefore vital to
+                                transfer the database into new options where feasible. The paper
+                                describes the problems encountered in developing a front-end for the
+                                Ingres database, now in OpenIngres O.I.2.0, which would cope with
+                                the multiple conditions of the queries required in what is
+                                essentially a research tool, but which would also be acceptably
+                                user-friendly. The user interface now in use is BI/query, the
+                                successor to GQL, and this will be described and demonstrated. The
+                                complexities of retrieval from the HTE arise from the data concerned
+                                with the currency of the words, taken from the <title level="m"
+                                    >Oxford English Dictionary</title>. This consists of a) actual
+                                starting and finishing dates for periods of currency; b) the
+                                qualifiers ante and circa, as in the OED. (These are not used in the
+                                OED CD queries, but are necessary for retrieving e.g. words current
+                                before a specified date); c) indicators for continuous or
+                                discontinuous currency; d) indicator of present currency, e) Old
+                                English, covering all dates before 1150; f) style and status labels
+                                from the OED attached to periods of currency - a word may be
+                                labelled e.g. 'vulgar' for only part of its currency.</p>
+                        </div>
+                    </div>
+                </div>
+                <div type="EmbeddedDoc">
+                    <div>
+                        <head>The Electronic Scottish National Dictionary: Work in Progress</head>
+                        <p rend="presenter">Susan Rennie</p>
+                        <div>
+                            <p>The Scottish National Dictionary (SND) is the standard historical
+                                dictionary of modern Scots, covering the period from 1700 to the
+                                present. This presentation will describe the current project to
+                                digitise the SND to produce the eSND, which will eventually be
+                                output on the Internet. It will include a brief description of the
+                                SND itself, outlining its history, content and structure, and
+                                describe how the eSND will differ from the printed text, in
+                                particular by integrating the original Supplement and adding new
+                                material from the SNDA's ongoing research. The various stages of the
+                                eSND project will then be discussed, using examples from the work in
+                                progress: <list>
+                                    <item>1. the data capture, which is being done through scanning
+                                        and OCR of the printed text;</item>
+                                    <item>2. the conversion of the OCR data to full XML mark-up,
+                                        including details of the actual mark-up scheme (which is
+                                        based on the TEI guidelines), and how this has been adapted
+                                        to suit the SND text;</item>
+                                    <item>3. the integration of the original Supplement and new
+                                        material;</item>
+                                    <item>4. the development of search tools and a web
+                                        interface.</item>
+                                </list></p>
+                            <p>Details will also be given of the new proposal to combine the eSND
+                                with an electronic version of the Dictionary of the Older Scottish
+                                Tongue (eDOST), sharing the same mark-up scheme, search software and
+                                interface, to produce a comprehensive electronic resource covering
+                                Scots from the early medieval period to the present day.</p>
+                        </div>
+                    </div>
+                </div>
+                <div type="EmbeddedDoc">
+                    <div>
+                        <head>Early Dictionaries of English and Historical Corpora</head>
+                        <p rend="presenter">Anne McDermott</p>
+                        <div>
+                            <p>This paper discusses the implications for historical corpora of an
+                                examination of some early dictionaries of English. Comparison is
+                                made between Samuel Johnson's <title level="m">Dictionary of the
+                                    English Language</title> (1755) and works such as Thomas
+                                Blount's <title level="m">Glossographia</title> (1656), Nathan
+                                Bailey's <title level="m">Dictionarium Britannicum</title> (1730),
+                                and Robert Ainsworth's influential <title level="m">Linguae Latinae
+                                    Compendiarius</title> (1736). The claim that early
+                                English-English dictionaries contained many "hard words", i.e.
+                                words, often from classical sources, which had infrequent or nil
+                                occurrence in the language at the time, is examined by checking the
+                                occurrence of such words in historical corpora. This leads to an
+                                examination of the corpora themselves and comparison with corpora of
+                                modern English. Suggestions are made about how historical corpora
+                                might be developed in future, for example by offering
+                                domain-specific search facilities. Reference will be made to <title
+                                    level="m">A dictionary of the English language on
+                                CD-ROM</title>: the first and fourth editions, Samuel Johnson,
+                                edited by Anne McDermott (Cambridge : CUP in association with the
+                                University of Birmingham, 1996)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

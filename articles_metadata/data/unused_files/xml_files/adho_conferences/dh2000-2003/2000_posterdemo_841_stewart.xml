@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="poster/demo">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">New Tools for Learners</title>
+                <author>
+                    <name>
+                        <forename type="first">Larry</forename>
+                        <forename type="middle">L.</forename>
+                        <surname>Stewart</surname>
+                        <affiliation>
+                            <name type="org">The College of Wooster</name>, USA <email/>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Peter</forename>
+                        <forename type="middle">L.</forename>
+                        <surname>Havholm</surname>
+                        <affiliation>
+                            <name type="org">The College of Wooster</name>, USA <email/>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="2000">2000</date>
+                <publisher>
+                    <name>University of Glasgow</name>
+                </publisher>
+                <pubPlace>Glasgow</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ALLC/ACH 2000</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first">Jean</forename>
+                        <surname>Anderson</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Amal</forename>
+                        <surname>Chatterjee</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Christian</forename>
+                        <forename type="middle">J.</forename>
+                        <surname>Kay</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Margaret</forename>
+                        <surname>Scott</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item> </item>
+                        <item> </item>
+                        <item> </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>In a recent essay in <title level="j">Salon</title>, Christopher Ott argues that
+                    much of educational technology is used in the service of a model of education as
+                    "a passive transfer of information ...." As Ott says, "Web sites and CD-ROMs are
+                    very good at delivering information, but not so good at teaching what it means
+                    or raising difficult questions about it." During the last ten to twelve years,
+                    we have assembled a portfolio of technological tools which we believe lead
+                    students in the undergraduate classroom to ask those difficult questions and to
+                    become active learners rather than passive recipients. We have developed two of
+                    these programs, and the others are readily available. This demonstration will
+                    allow participants to experiment with several of these tools, to see examples of
+                    student work, and to consider how the tools might be used in their own
+                    classrooms. Of the tools we use, we propose to have four available for
+                    demonstration.</p>
+                <p>We will demonstrate the two programs we have developed (and, in earlier versions,
+                    discussed at ALLC/ACH '98): the Linear Modeling Kit (LMK) and the Stylistic
+                    Analysis Kit (SAK). As well, we have also used and will demonstrate a freeware
+                    beta version of PennMUSH and SemNet(r), a tool for creating conceptual networks.
+                    The Linear Modeling Kit or LMK is an authoring system which allows users to
+                    create applications that generate any kind of text according to principles
+                    proposed by the user. For example, a student can use the LMK to create a
+                    "tragedy generator" by entering what the student perceives to be the parts or
+                    elements of a tragedy, any principles of order among those parts, and
+                    characteristic text for each part. Depending on the complexity of the input, the
+                    generator will produce hundreds, thousands, or millions of different texts. The
+                    task of creating a generator calls for students to think abstractly insofar as
+                    they are dealing with stories, not simply a story. That is, students must know
+                    well a number of tragedies or romance novels or bildungsroman in order to
+                    abstract those qualities or elements that the texts share or that seem central
+                    to the genre. However, they must also think very precisely in order to translate
+                    their understandings into the unforgiving and unambiguous language of what is
+                    essentially computer programming. In essays or articles, we, as well as our
+                    students, know how to smooth over those things about which we are not quite
+                    sure; we know how either to hide ambiguity or to make it a virtue. Obviously,
+                    one cannot do that when creating a generator.</p>
+                <p>In short, students have to work at a level both of abstraction and of detail that
+                    may be greater than that forced by a paper. The Stylistic Analysis Kit is a
+                    combination concordance and counting program. When a text is opened from within
+                    the program, the SAK displays basic statistical information about word,
+                    sentence, and paragraph lengths and a word list, which can be arranged by
+                    frequency or alphabetically or which can show punctuation. Students can learn to
+                    use the SAK with less than five minutes of instruction, a significant factor in
+                    undergraduate education. In our classes, students have used the SAK to consider
+                    both literary texts and their own essays. In either case, students find
+                    themselves having to confront and explain the relationship between the abstract
+                    and the specific or concrete. When analyzing their own essays, for example,
+                    students constantly are driven back to their own texts to account for the
+                    statistics they have discovered. Nearly all find themselves, to return to Ott's
+                    phrasing, raising difficult questions about information. SemNet(r), by the
+                    SemNet Research Group, allows users to create layered and linked conceptual maps
+                    or networks. Our use of SemNet(r) has been primarily in writing courses
+                    although, again, students have used it both with professional writing and in the
+                    creation or analysis of their own essays. We have found that asking students to
+                    create Semnet networks causes them to think deeply about the relationships
+                    between concepts either in their own papers or in professional essays we have
+                    assigned. Creating a visual map of relationships forces students not only to be
+                    explicit about the connections between ideas but to recognize when those
+                    connections are missing.</p>
+                <p>In the demonstration, participants will be able to look at networks created by
+                    students and experiment with the program by creating their own networks.
+                    Students at our college have also used a MUSH to improvise an on-line serial
+                    drama as a laboratory section of an English course in dramatic structure. In the
+                    course, students play characters and invent actions on-line, edit the logs of
+                    their online sessions into scripts, and then publish a final version on the web.
+                    By writing and publishing a play, students in the class are testing the
+                    principles of structure they have learned from their reading of a dozen plays
+                    and Aristotle's <title level="m">Poetics</title>. They are forced to confront
+                    the concrete implications of abstract ideas. While it would be impractical for
+                    this demonstration to set up a full-scale MUSH environment (which would require
+                    at least two Macintosh machines linked to the internet), we can show samples of
+                    student work in our MUSH and the ultimate form of those samples as a drama
+                    published on the web. The tools we will demonstrate engage students in making or
+                    doing, not in receiving information passively. Using such tools, students learn
+                    to use the new technology to explore and test ideas.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

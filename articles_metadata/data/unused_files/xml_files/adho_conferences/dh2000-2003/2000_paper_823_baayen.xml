@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="paper">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Back to the Cave of Shadows: Stylistic Fingerprints in
+                    Authorship Attribution</title>
+                <author>
+                    <name>
+                        <forename type="first">R.</forename>
+                        <forename type="middle">Harald</forename>
+                        <surname>Baayen</surname>
+                        <affiliation>
+                            <name type="org">University of Nijmegen</name>, The Netherlands <email/>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Fiona</forename>
+                        <forename type="middle">J.</forename>
+                        <surname>Tweedie</surname>
+                        <affiliation>
+                            <name type="org">University of Glasgow</name>, UK <email/>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Anneke</forename>
+                        <surname>Neijt</surname>
+                        <affiliation>
+                            <name type="org">University of Nijmegen</name>, The Netherlands <email/>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Hans</forename>
+                        <surname>van Halteren</surname>
+                        <affiliation>
+                            <name type="org">University of Nijmegen</name>, The Netherlands <email/>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Loes</forename>
+                        <surname>Krebbers</surname>
+                        <affiliation>
+                            <name type="org">Max Planck Institute for Psycholinguistics</name>, The
+                            Netherlands <email/>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="2000">2000</date>
+                <publisher>
+                    <name>University of Glasgow</name>
+                </publisher>
+                <pubPlace>Glasgow</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ALLC/ACH 2000</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first">Jean</forename>
+                        <surname>Anderson</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Amal</forename>
+                        <surname>Chatterjee</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Christian</forename>
+                        <forename type="middle">J.</forename>
+                        <surname>Kay</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Margaret</forename>
+                        <surname>Scott</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item>Stylistics</item>
+                        <item> </item>
+                        <item> </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <div>
+                    <head>Introduction</head>
+                    <p>Attempts to assign authorship of texts have a long history. They have been
+                        applied to influential texts such as the Bible, the works of Shakespeare and
+                        the Federalist Papers. A wide variety of techniques from many disciplines
+                        have been considered, from multivariate statistical analysis to neural
+                        networks and machine learning. Many different facets of texts have been
+                        analysed, from sentence and word length to the most common or the rarest
+                        words, or linguistic features. Holmes (1998) provides a chronological review
+                        of methods used in the pursuit of the authorial "fingerprint".</p>
+                    <p>A key issue raised at the panel on non-traditional authorship attribution
+                        studies at the ACH-ALLC conference in Virginia, 1999, by Joe Rudman is
+                        whether authorial "fingerprints" do in fact exist. Is it truly the case that
+                        any two authors can always be distinguished on the basis of their style, so
+                        that stylometry can provide unique stylistic fingerprints for any author,
+                        given sufficient data?</p>
+                    <p>Despite the long history of authorship attribution, almost all stylometric
+                        studies have been carried out on the assumption that stylometric
+                        fingerprinting is possible. However, often control texts are inappropriately
+                        chosen or not available. In addition, the imposition of editorial or
+                        publisher's style can distort the original words of the author. To our
+                        knowledge, no one has yet carried out a strictly controlled experiment of
+                        authorship attribution, with texts of known authorship being analysed
+                        between and within genres as well as between and within authors.</p>
+                    <p>In this abstract we present such an experiment. The next section describes
+                        the design of the experiment. This is followed by a description of the
+                        analysis carried out, then by the results and our conclusions.</p>
+                </div>
+                <div>
+                    <head>Experimental Design</head>
+                    <p>The experiment was carried out in Dutch. Eight students of Dutch literature
+                        at the University of Nijmegen participated in the study. All the students
+                        were native speakers of Dutch, four were in their first year of study, and
+                        four were in their fourth year. The students were asked to write texts of
+                        around 1000 words.</p>
+                    <p>Each student wrote in three genres: fiction, argument and description. Three
+                        texts were written in each genre, on the following topics.<list
+                            type="bulleted">
+                            <item><emph rend="bold">Fiction:</emph> a retelling of the fairy tale of
+                                Little Red Riding-Hood, a detective story about a murder in the
+                                university, and a romance of chivalry.</item>
+                            <item><emph rend="bold">Argument:</emph> defending a position about the
+                                television program 'Big Brother', the unification of Europe, and
+                                smoking.</item>
+                            <item><emph rend="bold">Descriptive:</emph> football, the upcoming new
+                                millennium, and a book-review of the book read most recently by the
+                                participant.</item>
+                        </list></p>
+                    <p>The order of writing the texts was randomised so that practice effects were
+                        reduced as much as possible. We thus have nine texts from each participant,
+                        making a total of seventy-two texts in the analysis. The main question is
+                        whether it will be possible to group texts by their authors using the
+                        state-of-the-art methods of stylometry. A positive answer would support the
+                        hypothesis that stylistic fingerprints exist, even for authors with a very
+                        similar background and training. A negative answer would argue against the
+                        hypothesis that each author has her/his unique stylistic fingerprint.</p>
+                </div>
+                <div>
+                    <head>Analysis</head>
+                    <p>There are many methods proposed for the analysis of texts in the attempt to
+                        identify authorship. In this abstract we describe three, and a fourth will
+                        be described at the conference. The first is that proposed by Burrows in a
+                        series of papers, see e.g. Burrows (1992), and used by many practitioners.
+                        Here we consider the frequencies of the forty most common words in the text.
+                        Principal components analysis is used to identify the most important aspects
+                        of the data.</p>
+                    <p>The second method considered is that of letter frequency. Work by Ledger and
+                        Merriam indicates that the frequencies of letters used in texts may be
+                        indicators of authorship. We use the standardised frequencies of the 26
+                        letters of the alphabet, with capital and lower-case letters being treated
+                        together. As above, the standardised frequencies are analysed using
+                        principal components analysis.</p>
+                    <p>Thirdly, we consider methods of vocabulary richness. Tweedie and Baayen
+                        (1998) show that Orlov's Z and Yule's K represent two separate families of
+                        measures, measuring richness and repeat rate respectively. Plots of Z and K
+                        can be examined for structure.</p>
+                    <p>Finally, we are planning to tag the text and to annotate the text for
+                        constituent structure. Baayen et al. (1996) show that increased accuracy in
+                        authorship attribution can be obtained by considering the syntactic, rather
+                        than lexical vocabulary. The results from this part of the analysis will be
+                        presented at the conference.</p>
+                    <p>The texts written in this analysis are available from the authors upon
+                        request and, once all annotation has been completed, will be made available
+                        on the Web as well.</p>
+                </div>
+                <div>
+                    <head>Results</head>
+                    <p>Each student was asked to write around 1000 words in each text. In fact, the
+                        average text length is 908 words. The shortest text has 628 words and the
+                        longest 1342. The texts were processed using the UNIX utility awk and the R
+                        statistics package.</p>
+                    <p>We first consider all of the texts together. The Burrows analysis of the most
+                        common function words shows no authorial structure. Genre appears to be the
+                        most important factor, with fiction texts having negative scores on the
+                        first principal component, while argumentative and descriptive texts have
+                        positive scores on this axis. In addition, argumentative texts tend to have
+                        higher values on the second principal component than descriptive texts. It
+                        appears that fiction texts are more similar to other fiction texts than they
+                        are to other texts by the same author. Analysis of letter frequencies gives
+                        similar results, while the measures of vocabulary richness show some
+                        indication of structure with respect to the education level of the writer.
+                        Those in their first year of studies appear to have lower values of K, and
+                        hence a lower repeat-rate. In addition, higher values of Z are the province
+                        of first-year students also, indicating a greater richness of vocabulary.
+                        When all of these measures are incorporated into a single principal
+                        components analysis the genre structure becomes even clearer. Fiction texts
+                        are found to the lower left of a plot of the first and second principal
+                        component scores, while the other genres are found in the upper right of the
+                        graph.</p>
+                    <p>Given the structure evident in the principal components analysis, it seems
+                        sensible to split the texts by genre and consider each separately. In each
+                        case, within fiction, argumentative, and descriptive texts, again the
+                        education level is the only factor to be apparent.</p>
+                </div>
+                <div>
+                    <head>Conclusions</head>
+                    <p>It is apparent from the results described above that in this study,
+                        differences in genre override differences in education level and authorship.
+                        The absence of any authorial structure in the analyses shows that it is not
+                        the case that each author necessarily has her/his own stylometric
+                        fingerprint. Texts can differ in style while originating from the same
+                        author (Baayen et al., 1996; Tweedie and Baayen, 1998), and texts can have
+                        very similar stylometric properties while being from different authors. Of
+                        course, it is possible that larger numbers of texts from our participants
+                        might have made it possible to discern authorial structure more clearly.
+                        Similarly, it may also be that more fine-grained methods than we have used
+                        will prove sensitive enough to consistently cluster texts by author even for
+                        the small number of texts in our study. We offer, therefore, our texts to
+                        the research community as a methodological challenge. Given what we have
+                        seen thus far, we believe our results must alert practitioners of authorship
+                        attribution to take extreme care when choosing control texts and drawing
+                        conclusions from their analyses.</p>
+                </div>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">R.</forename>
+                                    <forename type="middle">H.</forename>
+                                    <surname>Baayen</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">H.</forename>
+                                    <surname>van Halteren</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">F.</forename>
+                                    <forename type="middle">J.</forename>
+                                    <surname>Tweedie</surname>
+                                </name>
+                            </author>
+                            <title level="a">Outside the cave of Shadows. Using syntactic annotation
+                                to enhance authorship attribution</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Literary and Linguistic Computing</title>
+                            <imprint>
+                                <biblScope type="vol">11</biblScope>
+                                <biblScope type="issue">3</biblScope>
+                                <biblScope type="pp">121-131</biblScope>
+                                <date when="1996">1996</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">J.</forename>
+                                    <forename type="middle">F.</forename>
+                                    <surname>Burrows</surname>
+                                </name>
+                            </author>
+                            <title level="a">Not Unless You Ask Nicely: The Interpretative Nexus
+                                between Analysis and Information</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Literary and Linguisitic Computing</title>
+                            <imprint>
+                                <biblScope type="vol">7</biblScope>
+                                <biblScope type="issue">2</biblScope>
+                                <biblScope type="pp">91-109</biblScope>
+                                <date when="1992">1992</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">D.</forename>
+                                    <forename type="middle">I.</forename>
+                                    <surname>Holmes</surname>
+                                </name>
+                            </author>
+                            <title level="a">The evolution of stylometry in humanities
+                                scholarship</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Literary and Linguistic Computing</title>
+                            <imprint>
+                                <biblScope type="vol">13</biblScope>
+                                <biblScope type="issue">3</biblScope>
+                                <biblScope type="pp">111-117</biblScope>
+                                <date when="1998">1998</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">G.</forename>
+                                    <surname>Ledger</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">T.</forename>
+                                    <surname>Merriam</surname>
+                                </name>
+                            </author>
+                            <title level="a">Shakespeare, Fletcher, and the Two Noble
+                                Kinsmen</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Literary and Linguistic Computing</title>
+                            <imprint>
+                                <biblScope type="vol">9</biblScope>
+                                <biblScope type="issue">3</biblScope>
+                                <biblScope type="pp">235-248</biblScope>
+                                <date when="1994">1994</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">F.</forename>
+                                    <forename type="middle">J.</forename>
+                                    <surname>Tweedie</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">R.</forename>
+                                    <forename type="middle">H.</forename>
+                                    <surname>Baayen</surname>
+                                </name>
+                            </author>
+                            <title level="a">How Variable May a Constant Be? Measures of Lexical
+                                Richness in Perspective</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Computers and the Humanities</title>
+                            <imprint>
+                                <biblScope type="vol">32</biblScope>
+                                <biblScope type="issue">5</biblScope>
+                                <biblScope type="pp">323-352</biblScope>
+                                <date when="1998">1998</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

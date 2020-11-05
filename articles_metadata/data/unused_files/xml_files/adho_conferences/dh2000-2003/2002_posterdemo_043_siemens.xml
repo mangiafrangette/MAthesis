@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/Users/saraschmidt/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="poster/demo">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">The Proposed Companion to Humanities Computing </title>
+                <author>
+                    <name>
+                        <forename type="first">Ray</forename>
+                        <surname>Siemens</surname>
+                        <affiliation>
+                            <name type="org">Malaspina University-College</name>
+                            <email>siemensr@mala.bc.ca</email>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">John</forename>
+                        <surname>Unsworth</surname>
+                        <affiliation>
+                            <name type="org">IATH</name>, <name type="org">University of Virginia</name>
+                            <email>jmu2m@virginia.edu</email>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Susan</forename>
+                        <surname>Schreibman</surname>
+                        <affiliation>
+                            <name type="org">MITH</name>, <name type="org">University of Maryland</name>
+                            <email>susan_schreibman@umail.umd.edu</email>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="2002">2002</date>
+                <publisher>
+                    <name>University of Tübingen</name>
+                </publisher>
+                <pubPlace>Tübingen</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ALLC/ACH 2002</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first">Harald</forename>
+                        <surname>Fuchs</surname>
+                    </name>
+                    <name>
+                        <forename type="first"/>
+                        <forename type="middle"/>
+                        <surname/>
+                    </name>
+                    <name>
+                        <forename type="first"/>
+                        <surname/>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item> </item>
+                        <item> </item>
+                        <item> </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>What lies at the intersection of computational methods and humanities scholarship
+                    -- humanities computing -- is of growing importance, an importance that is seen
+                    both in the rise of contributions made by such approaches to field specific
+                    research and research dissemination, and in its representation in the
+                    undergraduate and graduate curriculum of a growing number of institutions. Even
+                    so, there is no single resource available to introduce this field's concerns and
+                    to serve its curricular needs. Our <emph rend="italics">Companion to Humanities
+                        Computing</emph> is, thus, proposed as much out of pragmatic necessity, to
+                    address the unmet needs of a growing area of inquiry, as it is out of curricular
+                    service, to serve those needs by offering a selection of specially commissioned
+                    articles representative of the central concerns shared by all those interested
+                    in humanities computing.</p>
+                <p>Aimed specifically at serving students and instructors in upper level
+                    undergraduate courses, those at the graduate level, and interested leaders both
+                    within and outside academe, the Companion will provide a representation of the
+                    field and its curricular concerns that documents the field's evolution, its
+                    current state, and its potential future.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

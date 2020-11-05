@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="poster/demo">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Working with Alignment of Text and Sound in Spoken
+                    Corpora</title>
+                <author>
+                    <name>
+                        <forename type="first">Knut</forename>
+                        <surname>Hofland</surname>
+                        <affiliation>
+                            <name type="org">University of Bergen</name>, Norway <email/>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="2000">2000</date>
+                <publisher>
+                    <name>University of Glasgow</name>
+                </publisher>
+                <pubPlace>Glasgow</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ALLC/ACH 2000</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first">Jean</forename>
+                        <surname>Anderson</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Amal</forename>
+                        <surname>Chatterjee</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Christian</forename>
+                        <forename type="middle">J.</forename>
+                        <surname>Kay</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Margaret</forename>
+                        <surname>Scott</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item> </item>
+                        <item> </item>
+                        <item> </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>The Bergen Corpus of London Teenage Language (COLT) has been transcribed and the
+                    cassette tapes have been digitized to Windows WAV-files (9 GB). The texts have
+                    been time aligned at the word level with the sound files by the company
+                    Softsound in the UK. The poster will describe how this material is made
+                    available through the Corpus WorkBench from IMS in Stuttgart. The user can
+                    search in the corpus by means of a Web-browser and from the resulting
+                    concordance play the corresponding sound to each occurrence (5-15 seconds). For
+                    this purpose a program was written to deliver small pieces of a sound file
+                    across the Web. These sound extracts can be saved by the user and further
+                    analyzed by signal processing programs.</p>
+                <p>Two Norwegian spoken corpora are also available for searching in this way. In the
+                    one corpus, a mark was put manually in the transcripts for every 10 seconds. A
+                    program then generated an interpolated time stamp for each word. In the other
+                    corpus, the program SyncWriter was used while transcribing the text. This
+                    program keeps track of time information for each unit which is transcribed. This
+                    information can be extracted from the data file together with the text. The time
+                    stamp for each word is interpolated between these values and the text and time
+                    information are indexed by the search software.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>References:</head>
+                <listBibl>
+                    <biblStruct>
+                        <monogr>
+                            <title level="m">COLT:</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date/>
+                            </imprint>
+                        </monogr>
+                        <note>&lt;<ptr target="http://helmer.hit.uib.no/colt/"/>&gt;</note>
+                    </biblStruct>
+                    <biblStruct>
+                        <monogr>
+                            <title level="m">Softsound Speech/Text alignment</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date/>
+                            </imprint>
+                        </monogr>
+                        <note>&lt;<ptr target="http://www.softsound.com/SpeechText.html"
+                            />&gt;</note>
+                    </biblStruct>
+                    <biblStruct>
+                        <monogr>
+                            <title level="m">Corpus WorkBench</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date/>
+                            </imprint>
+                        </monogr>
+                        <note>&lt;<ptr
+                                target="http://www.ims.uni-stuttgart.de/projekte/CorpusWorkbench/index.html"
+                            />&gt;</note>
+                    </biblStruct>
+                    <biblStruct>
+                        <monogr>
+                            <title level="m">SyncWriter</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date/>
+                            </imprint>
+                        </monogr>
+                        <note>&lt;<ptr
+                                target="http://www.sign-lang.uni-hamburg.de/Software/syncWRITER/info.html"
+                            />&gt;</note>
+                    </biblStruct>
+                    <biblStruct>
+                        <monogr>
+                            <title level="m">Demo concordance</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date/>
+                            </imprint>
+                        </monogr>
+                        <note>&lt;<ptr target="http://helmer.hit.uib.no/test-of-sound.html"
+                            />&gt;</note>
+                    </biblStruct>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

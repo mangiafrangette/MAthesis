@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="paper">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Perdita's Progress: Raising Standards in a TEI-based
+                    Approach to Cataloguing Early Modern Manuscripts</title>
+                <author>
+                    <name>
+                        <forename type="first">Jill</forename>
+                        <surname>Seal</surname>
+                        <affiliation>
+                            <name type="org">Nottingham Trent University</name>, UK <email/>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Claire</forename>
+                        <surname>Warwick</surname>
+                        <affiliation>
+                            <name type="org">Sheffield University</name>, UK <email/>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Elizabeth</forename>
+                        <surname>Clarke</surname>
+                        <affiliation>
+                            <name type="org">Nottingham Trent University</name>, UK <email/>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="2000">2000</date>
+                <publisher>
+                    <name>University of Glasgow</name>
+                </publisher>
+                <pubPlace>Glasgow</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ALLC/ACH 2000</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first">Jean</forename>
+                        <surname>Anderson</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Amal</forename>
+                        <surname>Chatterjee</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Christian</forename>
+                        <forename type="middle">J.</forename>
+                        <surname>Kay</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Margaret</forename>
+                        <surname>Scott</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item> </item>
+                        <item> </item>
+                        <item> </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>The Perdita Project was established in 1997 at the Nottingham Trent University,
+                    by Elizabeth Clarke and Victoria Burke of the English &amp; Media Studies
+                    department, with Martyn Bennett of the History department, funded initially by
+                    the Nottingham Trent University. A substantial AHRB grant in 1999 meant that we
+                    could appoint research fellow Jonathan Gibson and researchers Jill Seal and
+                    Gillian Wright. Claire Warwick from the Department of Information Studies at
+                    Sheffield is electronic publication consultant to the project, which runs until
+                    2002.</p>
+                <p>We regard this paper as a collaborative exercise. In it we aim to introduce some
+                    of the dilemmas which we have faced during the project. We hope that our
+                    progress may be of interest to those at the conference, and that our discussions
+                    with the humanities computing community will also be of help to us in the
+                    continuation of the project.</p>
+                <p>The Perdita Project is producing a comprehensive guide to manuscript compilations
+                    of early modern women. We are carrying out research on over 450 manuscripts
+                    written or compiled by women, which include miscellanies, commonplace books,
+                    account books, medical and cookery receipt books, religious writing, and
+                    autobiographical material. Our descriptions of the manuscripts will be encoded
+                    in SGML to allow extensive searching capacity, and will be published on the
+                    Internet in 2002.</p>
+                <p>The interdisciplinary nature of the project is vital to our work, and is
+                    something that we will discuss throughout the paper. By describing previously
+                    unpublished materials by women of the 16th &amp; 17th centuries, we aim to be a
+                    resource for scholars both literary and historical, enabling access to
+                    manuscript sources which are often very difficult to trace in comparison with
+                    published texts. We see ourselves as part of the movement to rewrite literary
+                    history, moving the emphasis from printed text and male and/or canonical works
+                    to a fuller picture of the writing of the period (Ezell, 1993). Electronic
+                    publication also allows us to address important issues to do with the
+                    dissemination of text in an electronic medium. This seems uniquely appropriate,
+                    since as Woodmansee (1994) argues, the transmission of scholarly electronic text
+                    shares some features with the coterie traditions of manuscript dissemination
+                    which we are studying in the early modern period.</p>
+                <p>In the paper we shall explore some of the challenges we face in attempting to
+                    combine the two traditions and when working with the different media of
+                    manuscript, print and electronic text. We will discuss why we have chosen to
+                    encode manuscript descriptions rather than the texts themselves, and how far we
+                    should interpret the manuscripts in the descriptions that we provide. To what
+                    level, and in what way should these descriptions be encoded, and how will this
+                    affect their usefulness? How far should we try to consider the present user
+                    community? Standards, whether in manuscript description or in electronic text
+                    encoding, are also vital to our work.</p>
+                <p>Projects which deal with the electronic publication of manuscripts tend either to
+                    provide users with digitised images of manuscript pages, and/or to transcribe
+                    and encode the text. However, we have chosen a different strategy, since we are
+                    not presently intending to transcribe entire manuscripts. Rather, we will
+                    present descriptions, which will take the form of an extended catalogue entry,
+                    including a list of contents, a physical description, and a biographical article
+                    on the compiler(s). We believe that there are valid scholarly reasons for doing
+                    so.</p>
+                <p>There is already a certain amount of literary text available in electronic form,
+                    much of which is lacking any kind of commentary or contextual material. Given
+                    the time and financial constraints of our project, we therefore preferred to
+                    concentrate on a more novel research area. Our methodology has been designed as
+                    a response to the shift in focus in manuscript studies from the search for
+                    authoritative texts to the historical circumstances of manuscript production and
+                    circulation (Beal, 1980-, Marotti, 1995, Woudhuysen, 1996, Hobbs, 1992, Love,
+                    1993). Rather than simply producing large amounts of transcribed text with no
+                    accompanying commentary or contextual research, we prefer to make an important
+                    scholarly contribution to this research area.</p>
+                <p>We also consider that it is important that our resource should lead scholars to
+                    visit archives, and consult the manuscripts themselves, when possible. Since the
+                    provision of digital surrogates tends to increase the amount of usage of the
+                    original material (Lee 1998, Chapman, Kingsley &amp; Dempsey, 1999), we feel
+                    that out efforts should be directed to descriptive scholarly research to aid
+                    researchers in their use of original documents.</p>
+                <p>We do, however, acknowledge the problematic nature of our task and of
+                    classifications such as authorship, function and gender in looking at manuscript
+                    compilations, and pledge ourselves to giving "as much information as possible to
+                    facilitate useful readings of the manuscript compilations". But what are
+                    "useful" readings, how much information should we give, and in what form? We
+                    therefore intend to conduct a study of our potential user community in
+                    collaboration with Sheffield University DIS to try to answer these, and other,
+                    questions.</p>
+                <p>However, we are aware of the potential problems of trying to ensure that the
+                    resource remains usable and accessible by a community of future users whose
+                    needs we cannot hope to predict. This means that we need to apply, and in some
+                    cases set, standards in various areas. Most obviously, we must apply the highest
+                    standards in manuscript cataloguing and description. There are also other areas
+                    which we are particularly well-equipped to explore, for instance, a standard
+                    vocabulary for describing handwriting. Most fascinating of all is the question
+                    of what a woman's hand might look like. Electronic delivery will provide us with
+                    an ideal opportunity to contribute to this discussion, by providing visual
+                    samples of women's hands.</p>
+                <p>We are also concerned with the standards necessary for electronic publication. We
+                    must be aware of how far the standards necessary for text encoding and useful
+                    searching impose interpretations on the manuscript, since already, in our
+                    editing and cataloguing process, we are working at several removes from the
+                    original text (see fig. 1).We are conscious that the decisions we make in
+                    encoding the descriptive material must not be so prescriptive that they hinder
+                    usage, but at the same time we aim to aid searching by appropriate markup. We
+                    therefore approach this project in the spirit of the text-encoding initiative.
+                    However, further complications are caused by the fact that what we are encoding
+                    is essentially metadata, not simply transcribed text.</p>
+                <p>We would like to explore the ideological, conceptual and practical differences
+                    between the TEI, metadata systems, and the use of controlled vocabulary. In the
+                    world of electronic resources there appears to be a culture clash between a
+                    post-structuralist, qualitative 'search for anything you like - create your own
+                    text' ideology and the controlled, quantitative approach to classifying objects
+                    taken by museums. This may represent the difference between dealing with text
+                    and dealing with objects, or the difference between English and History, where
+                    computing projects tend to deal with statistics. However, we at Perdita are
+                    faced with the problem of trying to balance the two approaches. We are aware
+                    that the TEI header is ideal for a project which wants to shape the data in the
+                    form of the original text, even if it does not encode it. Some historians are
+                    now beginning to recognise that 'data' is deeply embedded in text, which is why
+                    we believe that TEI is the best ideological option.</p>
+                <p>Yet, database pioneers such as The Getty Institute in LA are encouraging us to
+                    adopt database methodology and to use terminology and Thesauri, because of their
+                    more systematic nature. This view is supported by research by DIS at Sheffield,
+                    which suggests that when constructing and using metadata, many users find the
+                    lack of a controlled vocabulary inhibits the ease with which they can search
+                    electronic resources. (Whittaker 1999) At the British Women Writers' Conference
+                    at Albuquerque in September, everyone recognised the need for a standard set of
+                    keywords. Unfortunately no such resource yet exists.</p>
+                <p>We have therefore decided to view our work in the light of future users. We will
+                    describe our attempts to combine both standards and to provide some sense of the
+                    original text, using TEI markup, with a standardised search vocabulary for ease
+                    of searching.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">P.</forename>
+                                    <surname>Beal</surname>
+                                </name>
+                            </author>
+                            <title level="m">Index of English Literary Manuscripts</title>
+                            <imprint>
+                                <biblScope type="vol">(2 vols, 2 pts)</biblScope>
+                                <pubPlace>London</pubPlace>
+                                <publisher>Mansell</publisher>
+                                <date when="1980">1980-</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">A.</forename>
+                                    <surname>Chapman</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">N.</forename>
+                                    <surname>Kingsley</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">L.</forename>
+                                    <surname>Dempsey</surname>
+                                </name>
+                            </author>
+                            <title level="m">Full Disclosure. Releasing the Value of Library and
+                                Archive Collections</title>
+                            <imprint>
+                                <pubPlace>Bath</pubPlace>
+                                <publisher>UKOLN</publisher>
+                                <date when="1999">1999</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">M.</forename>
+                                    <surname>Ezell</surname>
+                                </name>
+                            </author>
+                            <title level="m">Writing Women's Literary History</title>
+                            <imprint>
+                                <pubPlace>Baltimore</pubPlace>
+                                <publisher>Johns Hopkins U. P.</publisher>
+                                <date when="1993">1993</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">M.</forename>
+                                    <surname>Hobbs</surname>
+                                </name>
+                            </author>
+                            <title level="m">Early Seventeenth-Century Verse Miscellany
+                                Manuscripts</title>
+                            <imprint>
+                                <pubPlace>Aldershot</pubPlace>
+                                <publisher>Scholar Press</publisher>
+                                <date when="1992">1992</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">S.</forename>
+                                    <surname>Lee</surname>
+                                </name>
+                            </author>
+                            <title level="u">Scoping the Future of Oxford's Digital
+                                Collections</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date when="1998">1998</date>
+                            </imprint>
+                        </monogr>
+                        <note>&lt;<ptr target="http://www.bodley.ox.ac.uk/scoping"/>&gt; , last
+                            accessed 4/5/99. </note>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">H.</forename>
+                                    <surname>Love</surname>
+                                </name>
+                            </author>
+                            <title level="m">Scribal Publication in Seventeenth-Century
+                                England</title>
+                            <imprint>
+                                <pubPlace>Oxford</pubPlace>
+                                <publisher>Clarendon Press</publisher>
+                                <date when="1993">1993</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">A.</forename>
+                                    <surname>Marotti</surname>
+                                </name>
+                            </author>
+                            <title level="m">Manuscript, Print, and the English Renaissance
+                                Lyric</title>
+                            <imprint>
+                                <pubPlace>Ithaca</pubPlace>
+                                <publisher>Cornell U. P.</publisher>
+                                <date when="1995">1995</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">S.</forename>
+                                    <surname>Whittaker</surname>
+                                </name>
+                            </author>
+                            <title level="a">The construction of Dublin Core Metadata by
+                                non-specialist users</title>
+                        </analytic>
+                        <monogr>
+                            <edition>Unpublished MA dissertation</edition>
+                            <imprint>
+                                <publisher>University of Sheffield</publisher>
+                                <date when="1999">1999</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="bookChapter">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">M.</forename>
+                                    <surname>Woodmansee</surname>
+                                </name>
+                            </author>
+                            <title level="a">On the Author Effect: Recovering Collectivity</title>
+                        </analytic>
+                        <monogr>
+                            <editor>
+                                <name>
+                                    <forename type="first">Martha</forename>
+                                    <surname>Woodmansee</surname>
+                                </name>
+                            </editor>
+                            <editor>
+                                <name>
+                                    <forename type="first">Peter</forename>
+                                    <surname>Jaszi</surname>
+                                </name>
+                            </editor>
+                            <title level="m">The Construction of Authorship: Textual Appropriation
+                                in Law and Literature</title>
+                            <imprint>
+                                <pubPlace>Durham, NC</pubPlace>
+                                <publisher>Duke U.P.</publisher>
+                                <date when="1994">1994</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">H.</forename>
+                                    <forename type="middle">R.</forename>
+                                    <surname>Woudhuysen</surname>
+                                </name>
+                            </author>
+                            <title level="m">Sir Philip Sidney and the Circulation of Manuscripts
+                                1558-1640</title>
+                            <imprint>
+                                <pubPlace>Oxford</pubPlace>
+                                <publisher>Clarendon Press</publisher>
+                                <date when="1996">1996</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

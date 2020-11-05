@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="paper">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Primroses and Power: a Study on Linguistic Excellence
+                    in Political Discourse</title>
+                <author>
+                    <name>
+                        <forename type="first">Anna</forename>
+                        <surname>Loiacono</surname>
+                        <affiliation>
+                            <name type="org">Università degli Studi di Bari</name>, Italy <email/>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Angela</forename>
+                        <forename type="middle">Maria</forename>
+                        <surname>D'Uggento</surname>
+                        <affiliation>
+                            <name type="org">Università degli Studi di Bari</name>, Italy <email/>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Barbara</forename>
+                        <surname>Cafarelli</surname>
+                        <affiliation>
+                            <name type="org">Università degli Studi di Bari</name>, Italy <email/>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Rosaria</forename>
+                        <surname>Romita</surname>
+                        <affiliation>
+                            <name type="org">Università degli Studi di Bari</name>, Italy <email/>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="2000">2000</date>
+                <publisher>
+                    <name>University of Glasgow</name>
+                </publisher>
+                <pubPlace>Glasgow</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ALLC/ACH 2000</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first">Jean</forename>
+                        <surname>Anderson</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Amal</forename>
+                        <surname>Chatterjee</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Christian</forename>
+                        <forename type="middle">J.</forename>
+                        <surname>Kay</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Margaret</forename>
+                        <surname>Scott</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item>Stylistcs</item>
+                        <item> </item>
+                        <item> </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>The aim of this paper is to focus on a linguistic corpus in order to detect, by
+                    statistical methods and computational tools, either correspondences or contrasts
+                    between the hypotheses made by the linguist and the applied procedures made by
+                    the software experts.</p>
+                <p>The corpus is selected from nineteenth century Victorian speeches; in particular,
+                    Parliamentary and political speeches delivered by Benjamin Disraeli, both as a
+                    member of Parliament and as Prime Minister.</p>
+                <p>Analogous types of research have been recently carried out [see <emph
+                        rend="italics">Labbè, Bolasco, Lebart, Salem,</emph> 1995] with reference to
+                    contemporary politicians such as de Gaulle, Mitterand and the Italian
+                    Berlusconi. In fact, computational research in political discourse is a highly
+                    significant new brand of criticism, which contributes to the modern notion of
+                    political contest by some more hidden truths that can be revealed. Nonetheless,
+                    we should say that, in most cases, where contemporary politicians are concerned,
+                    the use of "ghost writers" for writing public speeches definitely undermines
+                    that language structure/personality relationship which justifies work in textual
+                    analysis.</p>
+                <p>Dealing with 19th century England, we have considered Victorian politics as being
+                    the first true "arena" for party politics and as constituting fundamental
+                    principles for political dialectics.</p>
+                <p>The main source of reference was the collection of <title level="m">Selected
+                        Speeches by T. E. Kebbel</title> in two volumes, borrowed from the
+                    Parliament Library in Rome. Disraeli's personal letters written to Lady Bradford
+                    and Lady Chesterfield also constitute a valuable source of reference, in that
+                    they unveil psychological traits and personal idiosyncrasies of the statesman.
+                    Moreover, in classical biographies we have found revealing hints of modernity
+                    and wisdom that we think useful to compare to our times. In a further
+                    perspective, we would aim at setting up a series of parameters which might
+                    characterise English political discourse, defining also its specific contexts by
+                    comparing corpora (for example Tory vs Whig discourse or Conservative vs
+                    Radical, etc.).</p>
+                <p>Some intriguing questions have led us to pursue this goal, bearing in mind the
+                    old lessons of rhetoricians concerning oratory and trying to see them in the
+                    light of modern standard rules: how great is the analogy existing between
+                    oratorical qualities, original style and words, phrases and discourse markers
+                    more or less unconsciously uttered by an individual? By which standards can this
+                    analogy be assessed? And which is the "benchmark" for moral evaluative
+                    judgement, when we use a meta-linguistic code to filter the quintessence of
+                    discourse? Should, for instance, the most frequent items adhere in meaning and
+                    collocation to their speaker's actual socio-political presuppositions? And in
+                    which degree should their collocation be found in accordance with given
+                    parameters? Moreover, what can computational analysis discover beyond or in
+                    contrast to all previous evaluative criticism on the same subject to which so
+                    many scholars have contributed in the course of centuries?</p>
+                <p>We have tried to answer these questions by examining, through data processing,
+                    which linguistic marks might define or confirm the features for linguistic
+                    excellence.</p>
+                <p>Our stylometric study is concerned with the Victorian century, an age rich in
+                    syntactical perfection and lexical complexities.</p>
+                <p>We have selected thirty-four speeches given by Disraeli between 1830 and 1870,
+                    and have processed them through the software programme "Lexico 2" and SPSS. The
+                    corpus has 205,800 occurrences<note n="1">According to an empirical criterion, a
+                        corpus can be considered wide enough if it is greater than 200,000 words;
+                        moreover the ratio V/N (vocabulary or number of different words divided by
+                        total occurrences) is 9.8% (when this ratio is over 20%, the corpus is not
+                        to be considered wide enough. See Bolasco, <title level="m">Analisi
+                            Multidimensionale dei dati</title>. Carocci Editore. Roma. 1999. p.203)
+                    </note>, with a type/token ratio of 9.83% (known also as a measure of vocabulary
+                    richness) and a Guiraud's coefficient G=44.61.</p>
+                <p>In table 1, for all the sub corpora in the decades, we show the the number of
+                    occurrences (N), forms (V) and hapax (V1), the word with maximum frequency for
+                    each decade.</p>
+                <p>Hapax forms (words used only once) constitute nearly the 50% of the total amount
+                    of different words, which is a representative ratio marking a highly varied
+                    though integrated vocabulary.</p>
+                <p>In table 2, we show a list of the fifty most important words considered as truly
+                    connotative of Disraeli's mind and world, displayed according to total
+                    decreasing frequency, making a distinction between the decades, the absolute
+                    frequency (F) and the normalized occurrences (x 1000 words).</p>
+                <p>Moreover, we have disambiguated words (textual forms) in order to obtain the
+                    correct rank and we have made a distinction, for some forms, between pronouns,
+                    nouns, verbs, adjectives, adverbs and conjunctions. The choice was made to build
+                    up the so-called lexical universe of Disraeli's discourse: the chosen words
+                    (i.e. power, principle, democracy, oligarchy, empire, etc.) have first been seen
+                    as collocates and, for them, we have built their lexical universe, in order to
+                    define specific contexts and co-texts through the relationship of proximity and
+                    distance.</p>
+                <p>We have patterned some meaningful words from a diachronic point of view, marking
+                    the evolution of his political thought, throughout his long parliamentary
+                    activity, detecting their characteristic trends and we have also carried out a
+                    factor analysis for some groups of words, clustered according to some semantic
+                    categories (i.e. self, key words, generic words, geography, negative words,
+                    etc.)</p>
+                <p>What clearly appears by means of statistical exploitation is as follows:<list>
+                        <item>1. High occurrence of a limited number of forms (mainly unspecific in
+                            meaning);</item>
+                        <item>2. High occurrence of hapax forms and of various different forms, used
+                            with a very low frequency;</item>
+                        <item>3. percentage of polysyllabic adjectives of Latin origin, used
+                            according to alliterative and symmetric structures, creating an
+                            appealing effect of harmony and balance. The same effect is obtained by
+                            collocating meaningful words used in pairs and the same occurs with
+                            words plus adjectives often used in pairs;</item>
+                        <item>4. High percentage of adjectives in relation to the corpus as a whole
+                            and most of them belonging to the semantic category of "greatness" and
+                            of "positive feeling".</item>
+                    </list></p>
+                <p>We think that Disraeli's discourse is powerful, confident, determined, endowed
+                    with energy and a brand of sincere English imperialism. He certainly cared for
+                    England and for himself and a true interest was also Ireland.</p>
+                <p>What might appear strange is the zero occurrence of the word "Judaism", even
+                    considering the very low presence of all vocabulary concerned with race and
+                    religion. He supposedly divided with care his choice of language genres (novel,
+                    essays and speeches) according to some well defined goals to pursue.</p>
+                <p>The high occurrence of generic words, i.e. with a neutral connotative value,
+                    seems to confirm some critical judgements expressed by his opponents for which
+                    Disraeli's political commitment was in most cases supported only by generic
+                    principles of well re-constructed political heritage and, only in a lesser
+                    degree he offered detailed policies on various occasions.</p>
+                <p>A possible consequence that originates from this analysis and supports the
+                    original hypothesis made is that Disraeli's political success and his prolonged
+                    prominence as a first-rate politician (even when in opposition) was mainly due
+                    to his gifts of linguistic excellence and flamboyant oratory. From a different
+                    perspective, his Italian-Jewish ancestry adds an odd and mysterious flavour to
+                    his success, in the pure aristocratic context of Victorian England.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">R.</forename>
+                                    <surname>Blake</surname>
+                                </name>
+                            </author>
+                            <title level="m">Disraeli</title>
+                            <imprint>
+                                <pubPlace>London</pubPlace>
+                                <publisher>Methuen &amp; Co. Ltd</publisher>
+                                <date when="1978">1978</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">S.</forename>
+                                    <surname>Bolasco</surname>
+                                </name>
+                            </author>
+                            <title level="m">Analisi Multidimensionale dei dati</title>
+                            <imprint>
+                                <pubPlace>Roma</pubPlace>
+                                <publisher>Carocci Editore</publisher>
+                                <date when="1999">1999</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="bookChapter">
+                        <analytic>
+                            <author><name><forename type="first">S.</forename>
+                                    <surname>Bolasco</surname></name></author>
+                            <title level="a">L'individuazione di forme testuali per lo studio
+                                statistico dei testi con tecniche di analisi
+                                multidimensionale</title>
+                        </analytic>
+                        <monogr>
+                            <title level="m">SIS Atti della XXXVII Riunione Scientifica 1994</title>
+                            <imprint>
+                                <biblScope type="vol">Vol. 2</biblScope>
+                                <pubPlace/>
+                                <publisher/>
+                                <date when="1994">1994</date>
+                                <biblScope type="pp">95-103</biblScope>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="bookChapter">
+                        <analytic>
+                            <author><name><forename type="first">S.</forename>
+                                    <surname>Bolasco</surname></name></author>
+                            <title level="a">Criteri di lemmatizzazione per l'individuazione di
+                                coordinate semantiche</title>
+                        </analytic>
+                        <monogr>
+                            <editor><name><forename type="first"
+                                        >S.</forename><surname>Bolasco</surname></name></editor>
+                            <editor><name><forename type="first"
+                                        >R.</forename><surname>Cipriani</surname></name></editor>
+                            <title level="m">Ricerca qualitativa e computer: teorie metodi e
+                                applicazioni</title>
+                            <imprint>
+                                <pubPlace>Milano</pubPlace>
+                                <publisher>Franco Angeli</publisher>
+                                <date when="1995">1995</date>
+                                <biblScope type="pp">87-111</biblScope>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="bookChapter">
+                        <analytic>
+                            <author><name><forename type="first">S.</forename>
+                                    <surname>Bolasco</surname></name></author>
+                            <title level="a">L'analisi informatica dei testi</title>
+                        </analytic>
+                        <monogr>
+                            <editor>
+                                <name>
+                                    <forename type="first">L.</forename>
+                                    <surname>Ricolfi</surname>
+                                </name>
+                            </editor>
+                            <title level="m">La ricerca qualitativa</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher>NIS</publisher>
+                                <date when="1997">1997</date>
+                                <biblScope type="pp">165-202</biblScope>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <editor>
+                                <name>
+                                    <forename type="first">T.</forename>
+                                    <forename type="middle">E.</forename>
+                                    <surname>Kebbel</surname>
+                                </name>
+                            </editor>
+                            <title level="m">Selected speeches of the Late Earl of
+                                Beaconsfield</title>
+                            <imprint>
+                                <biblScope type="vol">2 vols.</biblScope>
+                                <pubPlace/>
+                                <publisher/>
+                                <date when="1882">1882</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author><name><forename type="first">D.</forename>
+                                    <forename type="middle"
+                                    >I.</forename><surname>Holmes</surname></name></author>
+                            <title level="a">The analysis of Literary Style-A review</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Journal of the Royal Statistical Society, Series
+                                A</title>
+                            <imprint>
+                                <biblScope type="vol">148</biblScope>
+                                <biblScope type="issue">4</biblScope>
+                                <biblScope type="pp">328-41</biblScope>
+                                <date when="1985">1985</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">D.</forename>
+                                    <surname>Labbé</surname>
+                                </name>
+                            </author>
+                            <title level="m">Le vocabulaire de François Mitterand</title>
+                            <imprint>
+                                <pubPlace>Paris</pubPlace>
+                                <publisher>Presses de la FNSP</publisher>
+                                <date when="1990">1990</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="bookChapter">
+                        <analytic>
+                            <author><name><forename type="first">D.</forename>
+                                    <surname>Labbé</surname></name></author>
+                            <author><name><forename type="first"
+                                        >P.</forename><surname>Hubert</surname></name></author>
+                            <title level="a">La structure du vocabulaire de Général De
+                                Gaulle</title>
+                        </analytic>
+                        <monogr>
+                            <title level="m">JADT 1995</title>
+                            <title level="m">Atti Analisi Statistica dei Dati Testuali</title>
+                            <imprint>
+                                <biblScope type="vol">Vol. II</biblScope>
+                                <pubPlace>Roma</pubPlace>
+                                <publisher>CISU</publisher>
+                                <date when="1995">1995</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="bookChapter">
+                        <analytic>
+                            <author><name><forename type="first">L.</forename>
+                                    <surname>Lebart</surname></name></author>
+                            <author><name><forename type="first">D.</forename>
+                                    <surname>Memmi</surname></name></author>
+                            <title level="a"/>
+                        </analytic>
+                        <monogr>
+                            <title level="m">SIS Atti della XXXII Riunione Scientifica 1984</title>
+                            <imprint>
+                                <biblScope type="vol">Vol. I</biblScope>
+                                <pubPlace/>
+                                <publisher/>
+                                <date when="1984">1984</date>
+                                <biblScope type="pp">27-41</biblScope>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">L.</forename>
+                                    <surname>Lebart</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">A.</forename>
+                                    <surname>Salem</surname>
+                                </name>
+                            </author>
+                            <title level="m">Statistique Textuelle</title>
+                            <imprint>
+                                <pubPlace>Paris</pubPlace>
+                                <publisher>Dunod</publisher>
+                                <date when="1994">1994</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">L.</forename>
+                                    <surname>Lebart</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">A.</forename>
+                                    <surname>Salem</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">L.</forename>
+                                    <surname>Berry</surname>
+                                </name>
+                            </author>
+                            <title level="m">Exploring textual data</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher>Kluwer Academic Publishers</publisher>
+                                <date when="1998">1998</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">S.</forename>
+                                    <forename type="middle">C.</forename>
+                                    <surname>Levinson</surname>
+                                </name>
+                            </author>
+                            <title level="m">Pragmatics</title>
+                            <title level="s">Cambridge Textbooks in Linguistic</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher>Cambridge University Press</publisher>
+                                <date when="1995">1995</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">W.</forename>
+                                    <forename type="middle">F.</forename>
+                                    <surname>Moneypenny</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">G.</forename>
+                                    <forename type="middle">E.</forename>
+                                    <surname>Buckle</surname>
+                                </name>
+                            </author>
+                            <title level="m">The life of Benjamin Disraeli Earl of
+                                Beaconsfield</title>
+                            <imprint>
+                                <biblScope type="vol">6 vols.</biblScope>
+                                <pubPlace/>
+                                <publisher/>
+                                <date when="1910">1910-1920</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">M.</forename>
+                                    <forename type="middle">P.</forename>
+                                    <surname>Oakes</surname>
+                                </name>
+                            </author>
+                            <title level="m">Statistics for Corpus Linguistics</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher>Edinburgh University Press</publisher>
+                                <date when="1998">1998</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">J.</forename>
+                                    <surname>Sinclair</surname>
+                                </name>
+                            </author>
+                            <title level="m">Corpus, Concordance, Collocation</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher>Oxford University Press</publisher>
+                                <date when="1991">1991</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">P.</forename>
+                                    <surname>Smith</surname>
+                                </name>
+                            </author>
+                            <title level="m">Disraeli. A brief life</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher>Cambridge University Press</publisher>
+                                <date when="1996">1996</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author><name><forename type="first">F.</forename>
+                                    <forename type="middle">J.</forename>
+                                    <surname>Tweedie</surname></name></author>
+                            <editor><name><forename type="first">R.</forename><forename
+                                        type="middle"
+                                >H.</forename><surname>Baayen</surname></name></editor>
+                            <title level="a">How variable may a constant be? Measures of Lexical
+                                Richness in Perspective</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Computer and Humanities</title>
+                            <imprint>
+                                <biblScope type="vol">32</biblScope>
+                                <biblScope type="issue">5</biblScope>
+                                <biblScope type="pp">323-352</biblScope>
+                                <date when="1998">1998</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <editor>
+                                <name>
+                                    <forename type="first"/>
+                                    <surname>Zetland</surname> Marques of </name></editor>
+                            <title level="m">The Letters of Disraeli to Lady Bradford and Lady
+                                Chesterfield</title>
+                            <imprint>
+                                <biblScope type="vol">2 vols.</biblScope>
+                                <pubPlace/>
+                                <publisher/>
+                                <date when="1929">1929</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

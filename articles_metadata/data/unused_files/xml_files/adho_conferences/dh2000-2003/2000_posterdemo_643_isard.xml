@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="poster/demo">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">The MATE Workbench - a Tool for XML Corpus
+                    Annotation</title>
+                <author>
+                    <name>
+                        <forename type="first">Amy</forename>
+                        <surname>Isard</surname>
+                        <affiliation>
+                            <name type="org">University of Edinburgh</name>, UK <email/>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">David</forename>
+                        <surname>McKelvie</surname>
+                        <affiliation>
+                            <name type="org">University of Edinburgh</name>, UK <email/>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Andreas</forename>
+                        <surname>Mengel</surname>
+                        <affiliation>
+                            <name type="org">Universitaet Stuttgart</name>, Germany <email/>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Morten</forename>
+                        <forename type="middle">Baun</forename>
+                        <surname>Moeller</surname>
+                        <affiliation>
+                            <name type="org">Odense University</name>, Denmark <email/>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="2000">2000</date>
+                <publisher>
+                    <name>University of Glasgow</name>
+                </publisher>
+                <pubPlace>Glasgow</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ALLC/ACH 2000</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first">Jean</forename>
+                        <surname>Anderson</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Amal</forename>
+                        <surname>Chatterjee</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Christian</forename>
+                        <forename type="middle">J.</forename>
+                        <surname>Kay</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Margaret</forename>
+                        <surname>Scott</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item> </item>
+                        <item> </item>
+                        <item> </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>The MATE workbench is an annotation tool which allows transcription, annotation,
+                display and querying of speech and text corpora. It is not tied to any particular
+                annotation scheme, and allows users to define interfaces which suit their particular
+                needs.</p>
+            <p>The main difference between the MATE workbench and other annotation tools is its
+                flexibility. Any annotation scheme which can be expressed in XML [7] can be used
+                with the workbench (for a discussion of overlapping hierarchies see below), and the
+                display and annotation interfaces are defined using a language based on the
+                stylesheet language XSLT [8]. The workbench is written entirely in Java and is
+                therefore platform independent.</p>
+            <p>Annotation can be a very tedious task for humans, and many tools have been developed
+                to make it easier. We conducted a review of some existing annotation tools before
+                beginning development of the workbench [3], and many of them have in common a fixed
+                user interface or a restriction to a particular coding scheme. One tool which has
+                some similarities to MATE is GATE [1], which can also be used with any annotation
+                scheme, but has a different internal architecture, based on the US Tipster
+                architecture rather than XML, and a main aim of making it possible to integrate
+                different automatic annotation components within one system. MATE aims to provide a
+                framework where stylesheets can be used to provide user-defined annotation and
+                display interfaces. Because the stylesheet language is quite high level, it is
+                easier to write a stylesheet to provide a given interface than to write an entire
+                coding tool from scratch.</p>
+            <p>The MATE project has developed annotation schemes for five sets of linguistic
+                phenomena, and examples of markup using these schemes will be distributed with the
+                workbench, along with stylesheets for their annotation and display. Users of the
+                workbench are by no means limited to these schemes, however.</p>
+            <p>To display annotated data in the workbench, a user must have a MATE project file,
+                which specifies one or more XML annotation or transcription files and sound files if
+                appropriate, and a stylesheet which is to be applied to these files. Several
+                examples of these will be provided with the workbench. When the workbench is
+                started, a corpus folder window appears with a display of all the available project
+                files. After selecting a project file, the user clicks on the "run" button, the
+                specified files are processed, and one or more display or annotation windows
+                appears, depending on what was specified in the stylesheet. A different stylesheet
+                can be used with the same files to produce different behaviour.</p>
+            <p>The other major use of the workbench is in performing queries over a corpus. A query
+                language [4] was developed within the project which is tailored to our internal
+                representation of the data, including the treatment of multiple hierarchies as
+                defined below. To perform a query, the user first loads in one or more documents,
+                then opens a Query Window, which provides support for building complex queries. The
+                results of the queries are saved in XML format within the workbench, and are then
+                also displayed using a stylesheet, allowing a flexible representation of the
+                results.</p>
+            <p>One question which often comes up when XML annotation schemes are being developed is
+                multiple overlapping hierarchies of markup. The TEI [5] describes several possible
+                ways to provide overlapping in SGML. One of these, 'concur', is not possible in XML,
+                which was designed to be a less complicated and easier to use version of SGML, and
+                therefore left out some features. We have chosen to take a different approach from
+                any of these, but one which has been proven to be successful in at least one
+                large-scale corpus annotation project [2]. Our solution is to keep each level of
+                annotation, and each data-stream (in the case of multi-speaker conversations for
+                instance) separate, and to link each level to a common base-level. This base level
+                would normally be the smallest unit on which all the other annotations depend. This
+                may often be the word level, but could also be phonemes in the case of speech,
+                higher level units such as sentences or paragraphs or indeed anything else as
+                appropriate. The MATE workbench will therefore deal appropriately with any data
+                which are marked up in this way using hyperlinks, as defined in the XLINK proposal
+                [6].</p>
+            <p>Another advantage of the generality of the MATE workbench is that it makes it easier
+                to combine views of annotation done using different schemes on the same corpus.
+                These annotations may be done on different sites without any contact, but if both
+                use hyperlinks to the same base level, then it is possible to create stylesheets
+                which display both the annotations at the same time. It is also possible to write a
+                stylesheet which will display one level and allow annotation of another level at the
+                same time.</p>
+            <p>The MATE workbench has just been completed, and testing and evaluation are about to
+                begin. We will be able to provide a section on this evaluation for the final paper.
+                We will be asking testers to use the workbench for a variety of different annotation
+                tasks, and provide feedback on ease of use and power, and also evaluating whether
+                the stylesheet language allows testers to define new annotation and display
+                interfaces easily. We will also be submitting a proposal to ALLC/ACH 2000 for a demo
+                of the workbench.</p>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <biblStruct n="[1]">
+                        <monogr>
+                            <title level="u">GATE</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date/>
+                            </imprint>
+                        </monogr>
+                        <note>&lt;<ptr
+                                target="http://www.dcs.shef.ac.uk/research/groups/nlp%2Fgate/"
+                            />&gt;</note>
+                    </biblStruct>
+                    <biblStruct n="[2]">
+                        <analytic>
+                            <author><name><forename type="first">A.</forename>
+                                    <surname>Isard</surname></name></author>
+                            <author><name><forename type="first">D.</forename>
+                                    <forename type="middle"
+                                /><surname>McKelvie</surname></name></author>
+                            <author><name><forename type="first">H.</forename>
+                                    <forename type="middle"
+                                    >S.</forename><surname>Thompson</surname></name></author>
+                            <title level="a">Towards a Minimal Standard for Dialogue Transcripts: A
+                                New SGML Architecture for the HCRC Map Task Corpus</title>
+                        </analytic>
+                        <monogr>
+                            <title level="m">Proceedings of the 5th International Conference on
+                                Spoken Language Processing, ICSLP98, Sydney</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date when="1998">1998</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct n="[3]">
+                        <monogr>
+                            <title level="u">MATE Deliverable D3.1: Specification of Coding
+                                Workbench</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date/>
+                            </imprint>
+                        </monogr>
+                        <note>&lt;<ptr target="http://www.cogsci.ed.ac.uk/~amyi/mate/report.html"
+                            />&gt;</note>
+                    </biblStruct>
+                    <biblStruct n="[4]">
+                        <analytic>
+                            <author><name><forename type="first">A.</forename>
+                                    <surname>Mengel</surname></name></author>
+                            <author><name><forename type="first"
+                                        >U.</forename><surname>Heid</surname></name></author>
+                            <title level="a">Enhancing Reusability of Speech Corpora by Hyperlinked
+                                Query Output</title>
+                        </analytic>
+                        <monogr>
+                            <title level="m">Eurospeech 99, Budapest, September 1999</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date when="1999">1999</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct n="[5]">
+                        <monogr>
+                            <editor>
+                                <name>
+                                    <forename type="first">C.</forename>
+                                    <forename type="middle">M.</forename>
+                                    <surname>Sperberg-McQueen</surname>
+                                </name>
+                            </editor>
+                            <editor>
+                                <name>
+                                    <forename type="first">Lou</forename>
+                                    <surname>Burnard</surname>
+                                </name>
+                            </editor>
+                            <title level="m">TEI Guidelines for Electronic Text Encoding </title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date/>
+                            </imprint>
+                        </monogr>
+                        <note>Lt;<ptr target="http://etext.lib.virginia.edu/TEI.html"/>&gt;</note>
+                    </biblStruct>
+                    <biblStruct n="[6]">
+                        <monogr>
+                            <title level="u">XLINK</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date/>
+                            </imprint>
+                        </monogr>
+                        <note>&lt;<ptr target="http://www.w3.org/TR/xlink"/></note>
+                    </biblStruct>
+                    <biblStruct n="[7]">
+                        <monogr>
+                            <title level="u">XML</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date/>
+                            </imprint>
+                        </monogr>
+                        <note>&lt;<ptr target="http://www.w3.org/TR/REC-xml"/>&gt;</note>
+                    </biblStruct>
+                    <biblStruct n="[8]">
+                        <monogr>
+                            <title level="u">XSLT</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date/>
+                            </imprint>
+                        </monogr>
+                        <note>&lt;<ptr target="http://www.w3.org/TR/xslt"/>&gt;</note>
+                    </biblStruct>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

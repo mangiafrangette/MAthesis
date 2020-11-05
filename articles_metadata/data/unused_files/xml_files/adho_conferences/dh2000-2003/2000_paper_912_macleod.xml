@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="poster/demo">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">An Electronic Lexicon of Nominalizations:
+                    NOMLEX</title>
+                <author>
+                    <name>
+                        <forename type="first">Catherine</forename>
+                        <surname>Macleod</surname>
+                        <affiliation>
+                            <name type="org">New York University</name>, USA <email/>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Ralph</forename>
+                        <surname>Grishman</surname>
+                        <affiliation>
+                            <name type="org">New York University</name>, USA <email/>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Adam</forename>
+                        <surname>Meyers</surname>
+                        <affiliation>
+                            <name type="org">New York University</name>, USA <email/>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="2000">2000</date>
+                <publisher>
+                    <name>University of Glasgow</name>
+                </publisher>
+                <pubPlace>Glasgow</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ALLC/ACH 2000</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first">Jean</forename>
+                        <surname>Anderson</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Amal</forename>
+                        <surname>Chatterjee</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Christian</forename>
+                        <forename type="middle">J.</forename>
+                        <surname>Kay</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Margaret</forename>
+                        <surname>Scott</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item>Computational/Corpus Linguistics</item>
+                        <item> </item>
+                        <item> </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <div>
+                    <p>New York University (NYU) has recently completed Nomlex, a dictionary
+                        containing detailed syntactic information about 1000 common English
+                        nominalizations. This dictionary, which has been developed for use in
+                        natural language processing, is freely available from NYU.</p>
+                </div>
+                <div>
+                    <head>History:</head>
+                    <p>Previous dictionary work at NYU includes COMLEX Syntax [Macleod'97], a large
+                        syntactic dictionary with detailed information on the syntactic properties
+                        of English words, especially with regard to complement structure. This
+                        dictionary is available through the Linguistic Data Consortium (LDC) and is
+                        being presently used by several natural language processing (NLP) groups. </p>
+                    <p>Nominalizations present a special problem, in that one wants not only to
+                        analyze their syntactic structure, but also to relate them to corresponding
+                        verbal structures. This is essential for natural language interpretation in
+                        applications such as question answering and information extraction. For
+                        example, the answer to a question, "How badly was the city bombed?" could be
+                        phrased "The city was destroyed completely" or "The destruction of the city
+                        was complete." These answers though syntacticly diverse contain exactly the
+                        same information.</p>
+                </div>
+                <div>
+                    <head>Dictionary structure:</head>
+                    <p>The challenge in designing the NOMLEX entries is to provide, in reasonably
+                        compact form, all the lexically-specific syntactic information required to
+                        relate nominal arguments to the corresponding verbal arguments. This task is
+                        complicated because of the wide range of nominal argument structures, which
+                        makes a direct enumeration of all possible correspondences hopelessly
+                        unwieldy. In particular, the core arguments and oblique arguments behave
+                        differently in this respect.</p>
+                    <p>The core arguments of the verb (subject, object, indirect object) may appear
+                        as possessive determiners (DET-POSS), noun noun modifiers (N-N-MOD) or in a
+                        prepositional phrase commonly preceded by "of" (PP-OF). Examples of this
+                        are: "His death" (where "his" represents the one who dies and therefore the
+                        subject of the verb "die"), "the price adjustment" (where "price" is the
+                        object of the verb "adjust"), and "the discussion of the case" (where "case"
+                        is the object of the verb "discuss" and the analysis would be "X discuss the
+                        case").</p>
+                    <p>More complex verbal complementation such as sentential and verbal complements
+                        are found following the nominalization and often retain the same structure.
+                        For instance, the complement "that he came" is the same for the
+                        nominalization as for the verb, seen in the following examples.</p>
+                    <eg>"Someone report(ed) that he came."</eg>
+                    <eg>"The report that he came."</eg>
+                    <p>Some verbal complements must have an introductory preposition in order to
+                        appear as nominalization complements. For example, "Someone questioned
+                        whether it was a wise plan." versus "The question of whether it was a wise
+                        plan". We encode all these possibilities in the lexical entries of the
+                        nominalizations. The NOMLEX entry for "appointment" is as follows.</p>
+                    <eg>(NOM :ORTH "appointment" 
+                        :VERB "appoint" 
+                        :PLURAL "appointments" 
+                        :NOUN ((EXISTS)) 
+                        :NOM-TYPE ((VERB-NOM)) 
+                        :VERB-SUBJ ((N-N-MOD) (DET-POSS))
+                        :SUBJ-ATTRIBUTE ((COMMUNICATOR)) 
+                        :OBJ-ATTRIBUTE ((NHUMAN)) 
+                        :VERB-SUBC ((NOM-NP:OBJECT ((DET-POSS) (N-N-MOD) (PP-OF))) 
+                        (NOM-NP-PP:OBJECT ((DET-POSS) (N-N-MOD) (PP-OF)) 
+                        :PVAL ("for" "to")) 
+                        (NOM-NP-TO-INF-OC:OBJECT ((DET-POSS) (PP-OF))) 
+                        (NOM-NP-AS-NP:OBJECT ((DET-POSS) (PP-OF)))))</eg>
+                    <p>This sample entry, in combination with a set of defaults, provides us with a
+                        lot of information, including the following:<list type="bulleted">
+                            <item>A homograph noun of the nominalization "appointment" exists<list
+                                    type="bulleted">
+                                    <item>("a dental appointment" is not the act of
+                                        "appointment")</item>
+                                </list></item>
+                            <item>The subject of the verb tends to be a human, company or other
+                                entity capable of communication.</item>
+                            <item>The object of the verb is a human.</item>
+                            <item>The nominalization is of type VERB-NOM, meaning that the
+                                nominalization does not play the grammatical role of any of the
+                                arguments of the verb. In contrast, "fighter" is a SUBJECT
+                                nominalization and "interviewee" is an OBJECT nominalization.</item>
+                            <item>The subject of the verb can occur in three positions:<list
+                                    type="bulleted">
+                                    <item>N-N-MOD - "The IBM appointment of Mary Smith"</item>
+                                    <item>DET-POSS - "IBM's appointment of Mary Smith"</item>
+                                    <item>PP-by - "The appointment of Mary Smith by the
+                                        president"</item>
+                                    <item>(PP-by is assumed as a subject marker by default.)</item>
+                                </list></item>
+                            <item>When the verb is followed by one noun phrase and no other
+                                complement phrases, that object may occur in the nominalized phrase
+                                (NOM-NP) in one of three positions:<list type="bulleted">
+                                    <item>DET-POSS - "Mary Smith's appointment"</item>
+                                    <item>N-N-MOD - "The Mary Smith appointment" &lt;</item>
+                                    <item>PP-OF - "The appointment of Mary Smith by the
+                                        president"</item>
+                                </list></item>
+                            <item>Object plus prepositional phrase complements ("for" and "to")
+                                share the same object mappings as simple NP complements.</item>
+                        </list></p>
+                    <p>In addition, the prepositions in the verb complement are realized as the same
+                        preposition in the nominalization complement.<list type="bulleted">
+                            <item>Complements consisting of an NP object plus either an infinitival
+                                complement or an AS-NP complement allow only DET-POSS and PP-OF
+                                complements. In addition, the verbal complement phrases TO-INF-OC
+                                and AS-NP map to these same types of phrases in the nominalization
+                                (by default).</item>
+                        </list></p>
+                    <p>Due to space considerations, we must leave out a lot of detail regarding the
+                        interpretation of this dictionary entry. In particular, we have a system of
+                        rules and defaults which prevent spurious ambiguity and allow us to keep the
+                        lexical entries compact. The example cited above is that PP-by is so often a
+                        marker of the subject of the verb, that we treat this as a default, marking
+                        nominalizations that do not allow this mapping with NOT-PP-by. For more
+                        detail about NOMLEX, please see our web site: &lt;<ptr
+                            target="http://cs.nyu.edu/cs/projects/proteus/nomlex/index.html"
+                        />&gt;</p>
+                </div>
+                <div>
+                    <head>Using NOMLEX:</head>
+                    <p>To demonstrate the utility of NOMLEX we constructed two NLP applications that
+                        depend on NOMLEX entries to analyze nominalization phrases.<list>
+                            <item>1. A program that transforms a nominalization phrase into one or
+                                more sentences, corresponding to the possible senses of the
+                                nominalization phrase. For example, "Rome's destruction of Carthage"
+                                has exactly one sense, which our program would paraphrase as "Rome
+                                destroyed Carthage". The program takes a grammatical analysis (a
+                                parse) of a nominalization phrase as input and uses NOMLEX to create
+                                grammatical analyses of the corresponding sentences, copying noun
+                                phrases and complement phrases from the various nominal positions
+                                (N-N-MOD, DET-POSS, post-noun, etc.) into the appropriate sentential
+                                positions (SUBJECT, OBJECT, etc.). Actual sentences are then
+                                generated from these parses. The output of this program could be
+                                used as input to any NLP application designed to operate on full
+                                sentences.</item>
+                            <item>2. A program which converts an information extraction pattern
+                                designed for sentences into a set of information extraction patterns
+                                designed for nominalization phrases ([Meyers'98]). For our purposes,
+                                an information extraction pattern is a pattern used to identify
+                                events in text and correctly mark the participants of these events.
+                                One such system extracts information about corporate hirings,
+                                firings, resignations, etc., including the identification of who
+                                left which company, who joined which company, the positions they
+                                left, the positions they attained, dates, etc. Our program converts
+                                a pattern that analyzes "IBM appointed Alice Smith as Vice
+                                President" into a pattern that analyzes: "IBM's appointment of Alice
+                                Smith as President", "Alice Smith's appointment by IBM", "IBM's
+                                Alice Smith appointment", "IBM's appointee", "The appointee of IBM",
+                                etc. Nomlex helps determine where information identified by a
+                                sentence pattern would be found in a nominalization phrase. This
+                                would enable an information extraction tool to easily extract
+                                information from nominalizations.</item>
+                        </list></p>
+                </div>
+                <div>
+                    <head>Process:</head>
+                    <p>The menu-based entry program used for COMLEX was adapted to enter NOMLEX. As
+                        for COMLEX, the entry program gave us access to a large corpus of text
+                        (including the Brown Corpus and large amounts of newspaper articles) and we
+                        had limited access to the British National Corpus (BNC) as well. Two
+                        half-time ELFs (Enterer of Lexical Features) worked for 5 months and then
+                        one half-time ELF completed the lexicon in two years.</p>
+                </div>
+                <div>
+                    <head>Concluding Remarks:</head>
+                    <p>We have created a dictionary with the goal of solving a pervasive problem in
+                        NLP. Most grammatical analyses are designed to process sentences, but in
+                        order not to miss information these need to be applied to nominalization
+                        phrases, as well. NOMLEX provides a bridge in the form of: (1) a set of
+                        rules and defaults; and (2) a dictionary record of idiosyncratic mappings
+                        between nominalizations and their related verbs. Before the creation of
+                        NOMLEX, developers and researchers have had to adapt processes which handle
+                        sentences to enable them to handle nominalizations also. Due to the high
+                        overhead of this endeavor, many systems do not handle nominalizations at all
+                        or use simple, but imprecise heuristics. NOMLEX makes it less expensive to
+                        fully integrate nominalizations into an NLP system.</p>
+                </div>
+                <div>
+                    <head>Future work:</head>
+                    <p>In order to make NOMLEX an even more useful resource, we plan to add support
+                        verbs to the entries. The use of support verbs changes the relationship of
+                        the nominal and verbal arguments. For example, in "his visit to Mary" the
+                        possessive determiner is the subject of "visit" (i.e. "he visit Mary"); in
+                        "he made a visit to Mary" the subject of the support verb "make" is now the
+                        subject of "visit" (i.e. "he visited Mary."). The demonstration that this is
+                        idiosyncratic and a matter for lexical interpretation is the appearance of
+                        "he had a visit from Mary" where the object of the preposition "from" is the
+                        subject of "visit" and the subject of the support verb becomes the object of
+                        "visit" (i.e. "Mary visited him"). We have been exploring Mel'cuk's notation
+                        as a means of capturing these relationships for NOMLEX.</p>
+                </div>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>Bibliography</head>
+                <listBibl>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">C.</forename>
+                                    <surname>Macleod</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">R.</forename>
+                                    <surname>Grishman</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">A.</forename>
+                                    <surname>Meyers</surname>
+                                </name>
+                            </author>
+                            <title level="a">COMLEX Syntax: A Large Syntactic Dictionary for Natural
+                                Language Processing</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Computers and the Humanities (CHUM)</title>
+                            <imprint>
+                                <publisher>Kluwer Academic Publishers</publisher>
+                                <biblScope type="vol">31</biblScope>
+                                <biblScope type="issue">6</biblScope>
+                                <biblScope type="pp"/>
+                                <date when="1997">1997/1998</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="bookChapter">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">A.</forename>
+                                    <surname>Meyers</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">C.</forename>
+                                    <surname>Macleod</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">R.</forename>
+                                    <surname>Yangarber</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">R.</forename>
+                                    <surname>Grishman</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">L.</forename>
+                                    <surname>Barrett</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">R.</forename>
+                                    <surname>Reeves</surname>
+                                </name>
+                            </author>
+                            <title level="a">Using NOMLEX to Produce Nominalization Patterns for
+                                Information Extraction</title>
+                        </analytic>
+                        <monogr>
+                            <title level="m">Coling-ACL98 workshop Proceedings: the Computational
+                                Treatment of Nominal</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date when="1998">1998</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>
