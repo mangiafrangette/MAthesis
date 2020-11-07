@@ -2746,7 +2746,26 @@
         },
         "abstract": "In this text we present \"profile-based linguistic uniformity\", a method designed to compare language varieties on the basis of a wide range of potentially heterogeneous linguistic variables. In many respects a parallel can be drawn with current methods in dialectometry (for an overview, see, Nerbonne and Heeringa, 2001; Heeringa, Nerbonne and Kleiweg, 2002): in both cases dissimilarities between varieties on the basis of individual variables are summarized in global dissimilarities, and a series of language varieties are subsequently clustered or charted using multivariate techniques such as cluster analysis or multidimensional scaling. This global similarity between the methods makes it possible to compare them and to investigate the implications of notable differences. In this text we specifically focus on, and defend one characteristic of our methodology, its profile-based nature.",
         "article_title": "Profile-Based Linguistic Uniformity as a Generic Method for Comparing Language Varieties",
-        "authors": "Dirk Speelman and Stefan Grondelaers and Dirk Geeraerts",
+        "authors": [
+            {
+                "given": "Dirk",
+                "family": "Speelman",
+                "affiliation": [
+                    " University of Leuven - RU Quantitative Lexicology and Variational Linguistics Belgium"]
+            },
+            {
+                "given": "Stefan",
+                "family": "Grondelaers",
+                "affiliation": [
+                    " University of Leuven - RU Quantitative Lexicology and Variational Linguistics Belgium"]
+            },
+            {
+                "given": "Dirk",
+                "family": "Geeraerts",
+                "affiliation": [
+                    " University of Leuven - RU Quantitative Lexicology and Variational Linguistics Belgium"]
+            }
+        ],
         "publisher": "Springer",
         "date": "2003",
         "keywords": null,
@@ -2768,7 +2787,20 @@
         },
         "abstract": "The Linguistic Atlas of the Middle and South Atlantic States (LAMSAS) is admirably accessible for reanalysis. The present paper applies a lexical distance measure to assess the lexical relatedness of LAMSAS's sites, a popular focus of investigation in the past (Kurath, 1949; Carver, 1989; McDavid, 1994). Several conclusions are noteworthy: First, and least controversially, we note that LAMSAS is dialectometrically challenging at least due to the range of field workers and questionnaires employed. Second, on the issue of which areas ought to be recognized, we note that our investigations tend to support a three-way North/South/Midlands division rather than a two-way North/South division, i.e. they tend to support Kurath and McDavid rather than Carver, but this tendency is not conclusive. Third, we extend dialectometric technique in suggesting means of dealing with alternate forms and multiple responses.",
         "article_title": "Lexical Distance in LAMSAS",
-        "authors": "John Nerbonne and Peter Kleiweg",
+        "authors": [
+            {
+                "given": "John",
+                "family": "Nerbonne",
+                "affiliation": [
+                    "University of Groningen, the Netherlands"]
+            },
+            {
+                "given": "Peter",
+                "family": "Kleiweg",
+                "affiliation": [
+                    "University of Groningen, the Netherlands"]
+            }
+        ],
         "publisher": "Springer",
         "date": "2003",
         "keywords": null,
@@ -2790,7 +2822,26 @@
         },
         "abstract": "The aim of this study is to show how cluster analysis can shed light on very complex variation in a transitional dialect zone in eastern Finland. In the course of history this area has been on the border between Sweden and Russia and the population has clearly been of two kinds: the Savo people and the Karelians. It is a well-known fact that there is variation among these dialects, but the spread and extent of the variation has not been demonstrated previously. The idiolects of the area were studied in the light of ten phonological and morphological features. The material consisted of recordings of 198 idiolects, totalling around 195 hours and representing 19 parishes. The variation was analysed using hierarchical cluster analysis. While the analysis showed the extent of the variation between idiolects and parishes, it also demonstrated how the effects of the old parishes, borders and settlements are still visible in the dialects. On the parish level, the data formed clear clusters that correspond with the main dialects in the area and its surroundings. On the idiolect level, however, the speakers from the surrounding areas formed fairly homogenous clusters but the idiolects from the Savonlinna area were spread across almost all clusters.",
         "article_title": "Neighbours or Enemies? Competing Variants Causing Differences in Transitional Dialects",
-        "authors": "Marjatta Palander and Lisa Lena Opas-Hänninen and Fiona Tweedie",
+        "authors": [
+            {
+                "given": "Marjatta",
+                "family": "Palander",
+                "affiliation": [
+                    "Department of Finnish Language and Cultural Research, University of Joensuu"]
+            },
+            {
+                "given": "Lisa Lena",
+                "family": "Opas-Hänninen",
+                "affiliation": [
+                    "University of Oulu, Finland"]
+            },
+            {
+                "given": "Fiona",
+                "family": "Tweedie",
+                "affiliation": [
+                    "University of Edinburgh, UK"]
+            }
+        ],
         "publisher": "Springer",
         "date": "2003",
         "keywords": null,
@@ -2812,8 +2863,20 @@
         },
         "abstract": "As language data and associated technologies proliferate and as the language resources community expands, it is becoming increasingly difficult to locate and reuse existing resources. Are there any lexical resources for such-and-such a language? What tool works with transcripts in this particular format? What is a good format to use for linguistic data of this type? Questions like these dominate many mailing lists, since web search engines are an unreliable way to find language resources. This paper reports on a new digital infrastructure for discovering language resources being developed by the Open Language Archives Community (OLAC). At the core of OLAC is its metadata format, which is designed to facilitate description and discovery of all kinds of language resources, including data, tools, or advice. The paper describes OLAC metadata, its relationship to Dublin Core metadata, and its dissemination using the metadata harvesting protocol of the Open Archives Initiative.",
         "article_title": "Extending Dublin Core Metadata to Support the Description and Discovery of Language Resources",
-        "authors": "Steven Bird and Gary Simons",
-        "publisher": "Springer",
+        "authors": [
+            {
+                "given": "Steven",
+                "family": "Bird",
+                "affiliation": [
+                    "University of Melbourne and University of Pennsylvania"]
+            },
+            {
+                "given": "Gary",
+                "family": "Simons",
+                "affiliation": [
+                    "SIL International"]
+            }
+        ],
         "date": "2003",
         "keywords": null,
         "journal_title": "Computers and the Humanities",
@@ -2834,7 +2897,20 @@
         },
         "abstract": "C-rater is an automated scoring engine that has been developed to score responses to content-based short answer questions. It is not simply a string matching program - instead it uses predicate argument structure, pronominal reference, morphological analysis and synonyms to assign full or partial credit to a short answer question. C-rater has been used in two studies: National Assessment for Educational Progress (NAEP) and a statewide assessment in Indiana. In both studies, c-rater agreed with human graders about 84% of the time.",
         "article_title": "C-rater: Automated Scoring of Short-Answer Questions",
-        "authors": "Claudia Leacock and Martin Chodorow",
+        "authors": [
+            {
+                "given": "Claudia",
+                "family": "Leacock",
+                "affiliation": [
+                    "Educational Testing Service, Rosedale Road, 18-E, Princeton, NJ 08541, USA"]
+            },
+            {
+                "given": "Martin",
+                "family": "Chodorow",
+                "affiliation": [
+                    "Hunter College, City University of New York, USA"]
+            }
+        ],
         "publisher": "Springer",
         "date": "2003",
         "keywords": null,
@@ -2856,7 +2932,20 @@
         },
         "abstract": "This paper considers the question of authorship attribution techniques when faced with a pastiche. We ask whether the techniques can distinguish the real thing from the fake, or can the author fool the computer? If the latter, is this because the pastiche is good, or because the technique is faulty? Using a number of mainly vocabulary-based techniques, Gilbert Adair's pastiche of Lewis Carroll, Alice Through the Needle's Eye, is compared with the original 'Alice' books. Standard measures of lexical richness, Yule's K and Orlov's Z both distinguish Adair from Carroll, though Z also distinguishes the two originals. A principal component analysis based on word frequencies finds that the main differences are not due to authorship. A discriminant analysis based on word usage and lexical richness successfully distinguishes the pastiche from the originals. Weighted cusum tests were also unable to distinguish the two authors in a majority of cases. As a cross-validation, we made similar comparisons with control texts: another children's story from the same era, and other work by Carroll and Adair. The implications of these findings are discussed.",
         "article_title": "Authorship Attribution and Pastiche",
-        "authors": "Harold Somers and Fiona Tweedie",
+        "authors": [
+            {
+                "given": "Harold",
+                "family": "Somers",
+                "affiliation": [
+                    "Centre for Computational Linguistics, UMIST, Manchester UK"]
+            },
+            {
+                "given": "Fiona",
+                "family": "Tweedie",
+                "affiliation": [
+                    "Department of Statistics, University of Glasgow, Scotland, UK"]
+            }
+        ],
         "publisher": "Springer",
         "date": "2003",
         "keywords": null,
@@ -2878,7 +2967,14 @@
         },
         "abstract": "A common tool for improving the performance quality of natural language processing systems is the use of contextual information for disambiguation. Here I describe the use of a finite state machine (FSM) to disambiguate speech acts in a machine translation system. The FSM has two layers that model, respectively, the global and local structures found in naturally-occurring conversations. The FSM has been modeled on a corpus of task-oriented dialogues in a travel planning situation. In the dialogues, one of the interactants is a travel agent or hotel clerk, and the other a client requesting information or services. A discourse processor based on the FSM was implemented in order to process contextual information in a machine translation system. Evaluation results show that the discourse processor is able to disambiguate and improve the quality of the dialogue translation. Other applications include human-computer interaction and computer-assisted language learning.",
         "article_title": "Modeling Task-Oriented Dialogue",
-        "authors": "Maite Taboada",
+        "authors": [
+            {
+                "given": "Maite",
+                "family": "Taboada",
+                "affiliation": [
+                    "Department of Linguistics, Simon Fraser University, Burnaby, B.C. V5A 1S6 Canada"]
+            }
+        ],
         "publisher": "Springer",
         "date": "2003",
         "keywords": null,
@@ -2900,7 +2996,20 @@
         },
         "abstract": "This study describes and evaluates two essay-based discourse analysis systems that identify thesis and conclusion statements from student essays written on six different essay topics. Essays used to train and evaluate the systems were annotated by two human judges, according to a discourse annotation protocol. Using a machine learning approach, a number of discourse-related features were automatically extracted from a set of annotated training data. Using these features, two discourse analysis models were built using C5.0 with boosting: a topic-dependent and a topic-independent model. Both systems outperformed a positional algorithm. While the topic-dependent system showed somewhat higher performance, the topic-independent system showed similar results, indicating that a system can generalize to unseen data - that is, essay responses on topics that the system has not seen in training.",
         "article_title": "A Machine Learning Approach for Identification of Thesis and Conclusion Statements in Student Essays",
-        "authors": "Jill Burstein and Daniel Marcu",
+        "authors": [
+            {
+                "given": "Jill",
+                "family": "Burstein",
+                "affiliation": [
+                    "Educational Testing Service, Princeton, NJ 08541, USA"]
+            },
+            {
+                "given": "Daniel",
+                "family": "Marcu",
+                "affiliation": [
+                    "University of Southern California/Information Sciences Institute, 4676 Admiralty Way, Suite 1001"]
+            }
+        ],
         "publisher": "Springer",
         "date": "2003",
         "keywords": null,
@@ -2922,7 +3031,14 @@
         },
         "abstract": "This paper describes an encoding for representing quantitative metrical analyses in TEI SGML or XML documents, using only characters from the standard keyboard set, and a system for converting this encoding to other forms for display.",
         "article_title": "Talking about Meter in SGML",
-        "authors": "Anne Mahoney",
+        "authors": [
+            {
+                "given": "Anne",
+                "family": "Mahoney",
+                "affiliation": [
+                    "Perseus Project, Tufts University, Medford, MA, USA"]
+            }
+        ],
         "publisher": "Springer",
         "date": "2003",
         "keywords": null,
@@ -2944,7 +3060,26 @@
         },
         "abstract": "Many manuscripts of the Greek New Testament are influenced by multiple pathways of textual flow. This makes it difficult to reconstruct a stemma using traditional methods. We describe a novel application of the reduced median algorithm (developed in evolutionary biology) to reconstructing a stemma for selected Greek manuscripts of the Letter of James. This stemma is a network in which contamination is explicitly represented. It is consistent with the ideas that most variants arose early in the history of the Greek New Testament, that early manuscripts were often influenced by both oral and written traditions, and that later copies introduced fewer variants. Since similar problems of contamination occur in many text traditions, we expect methods of this kind to be widely useful.",
         "article_title": "Representing Multiple Pathways of Textual Flow in the Greek Manuscripts of the Letter of James Using Reduced Median Networks",
-        "authors": "Matthew Spencer and Klaus Wachtel and Christopher J. Howe",
+        "authors": [
+            {
+                "given": "Matthew",
+                "family": "Spencer",
+                "affiliation": [
+                    "Department of Biochemistry, University of Cambridge, Tennis Court Road, Cambridge, CB2 1QW, UK"]
+            },
+            {
+                "given": "Klaus",
+                "family": "Wachtel",
+                "affiliation": [
+                    "Institutfiir neutestamentliche Textforschung, Georgskommende 7, D-48143 Miinster"]
+            },
+            {
+                "given": "Christopher J.",
+                "family": "Howe",
+                "affiliation": [
+                    "Department of Biochemistry, University of Cambridge, Tennis Court Road, Cambridge, CB2 1QW, UK"]
+            }
+        ],
         "publisher": "Springer",
         "date": "2004",
         "keywords": null,

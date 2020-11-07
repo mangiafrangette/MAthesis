@@ -10,11 +10,11 @@ with open(ms_file, "r", encoding="utf-8") as f:
         scrapy_file = json.load(fd)
         for article1 in my_schema_json:
             for article2 in scrapy_file:
-                print(len(article2["string_id"]))
-                print(article2["string_id"])
                 if article1["identifier"]["string_id"] == article2["string_id"][0]:
-                    article1["abstract"] = article2["abstract"]
-                    article1["authors"] = article2["authors"]
+                    if article2["abstract"] is not None:
+                        article1["abstract"] = article2["abstract"]
+                    if article2["authors"] is not None:    
+                        article1["authors"] = article2["authors"]
 
                     
 with open(ms_file, "w", encoding="utf-8") as g:

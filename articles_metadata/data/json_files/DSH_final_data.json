@@ -1197,7 +1197,7 @@
             "10.1093/llc/fqy036"
         ],
         "abstract": "Some argue that some religious books, Prophetic Traditions in particular, are adulterated, but this was sorted out by introducing a manual methodology for identifying authentic and non-authentic texts. The methodology is not precise and has become time-consuming and a daunting process today. A general motivation for many recent studies has been the desire to automate some descriptive processes and employ scientific observation in authorship identification/verification. Using methods of Authorship Verification to examine sensitive texts, like established religious texts, could challenge the existing paradigms in Islamic discourse and any religion that has sacred texts. However, it could lead to the refining of these texts and eliminate any contested belief/s. The selected linguistic features are used to measure the validity of morphological structures (word length), syntactic structure (word type), and lexical richness across the disputed and undisputed Hadiths. Using the three linguistic measures together enabled us to draw each Hadith in a three-dimensional space, with word length plotted along lexical richness and word type. The results for the selected Hadiths that have been measured showed marked differences that could be augmented by examining further features.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
@@ -3896,7 +3896,7 @@
             "10.1093/llc/fqw022"
         ],
         "abstract": "Ever since the Universal Networking Language (UNL) programme started in 1996, researchers and computational linguists across the globe have actively participated in this. English, Chinese, Georgian, Greek, Hindi, Punjabi, Portuguese, Russian, Ukrainian, Vietnamese, Slovenian, etc., are some of the languages which are part of the UNL programme. Although previous years have witnessed significant interest and application development in UNL, UNL can be exploited for several different tasks in natural language engineering, such as multilingual document generation, summarization, text simplification, information retrieval, and semantic reasoning. Although UNL is language-independent artificial language, yet, existing UNL-based applications are standalone in the sense that they are language specific which supports the local natural language of the application developer. This article illustrates the cross-domain client application prototype that has been built to support the development of multilingual UNL-based applications where researchers, developers, or computational linguists across the globe can use this common application for UNL-ization and NL-ization. Output of the proposed system can further be utilized by any other UNL-based application. The proposed system is evaluated on the basis of two measures, i.e. accuracy and correctness. The accuracy of the proposed system is 100%. However, correctness of the proposed system depends upon the F-Measure of UNL-ization and NL-ization modules which has been consistently greater than 0.95 (on a scale of 0–1) for Punjabi language.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
@@ -3918,7 +3918,7 @@
             "10.1093/llc/fqw018"
         ],
         "abstract": "One of Shakespeare’s least performed plays is King John, a drama indicted by E. K. Chambers for being an ‘incoherent patchwork’. Stylometric evidence over an extended period suggests a division of authorship that sheds light on the play’s ambiguous allegiance to its eponymous hero. The play displays a distinctive cross pattern, both contextually and linguistically. A variety of methods are described here. They include the use of the relative frequency of most common words, the distribution of irregular lines (feminine endings), and the average length of all words in modern spelling. There is also a two-fold cluster analysis with R Stylo, a programme which combines variable extraction with statistical analysis in a single process. This is a promising and accessible means for independent replication. The authorship of King John is a question that can progress towards a solution with modern methods.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
@@ -4033,7 +4033,7 @@
             "10.1093/llc/fqw019"
         ],
         "abstract": "Edgar Allan Poe has left us with a literary legacy that in part lacks a definitive stamp of authenticity. While some of the ‘possible Poes’ that have been discovered after his death have generated heated discussion among scholars, many others have quickly slipped into obscurity. This paper reevaluates thirty-two of such prose texts as well as ten poems that have been tenuously attributed to Poe in the past, using the ‘classify’ function (employing Nearest Shrunken Centroid, Burrows’ Delta and Support Vector Machines) of the stylo-toolkit for R. It also sheds new light (with the help of rolling Delta) on Poe’s possible contribution to the so-called Paulding-Drayton review, infamous in Poe criticism for its defense of slavery. By contrasting and comparing the ‘author signal’ behind these pieces with unclear authorship, this analysis is able to answer with a high degree of accuracy the question: Poe or not Poe?",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
@@ -4286,7 +4286,7 @@
             "10.1093/llc/fqv062"
         ],
         "abstract": "This article discusses two major initiatives tasked with developing tools to improve optical character recognition (OCR) or the mechanical keying of texts that are digitally available only as page images. The two initiatives are the IMProving ACcess to Text Project in Europe and the Early Modern OCR Project in the USA. Because of dealing with a multilayered problem like OCR technologies and having to collaborate with radically interdisciplinary and international team members, the two projects developed techniques that we call Agile Project Management, outlined in this essay with rationales for their use.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
@@ -4404,7 +4404,7 @@
             "10.1093/llc/fqw001"
         ],
         "abstract": "Pliny the Younger's letter to Trajan regarding the Christians is a crucial subject for the studies on early Christianity. A serious quarrel among scholars concerning its genuineness arose between the end of the 19th century and the beginning of the 20th; per contra, Plinian authorship has not been seriously questioned in the last few decades. After analysing various kinds of internal and external evidence in favour of and against the authenticity of the letter, a modern stylometric method is applied in order to examine whether internal linguistic evidence allows one to definitely settle the debate.The findings of this analysis tend to contradict received opinion among modern scholars, affirming the authenticity of Pliny’s letter, and suggest instead the presence of large amounts of interpolation inside the text of the letter, since its stylistic behaviour appears highly different from that of the rest of Book X.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
@@ -4797,7 +4797,7 @@
             "10.1093/llc/fqv036"
         ],
         "abstract": "Multispectral imaging—a method for acquiring image data over a series of wavelengths across the light spectrum—is becoming a valuable tool within the cultural and heritage sector for the recovery and enhancement of information contained within primary historical texts. However, most applications of this technique, to date, have been bespoke: analysing particular documents of historic importance. There has been little prior work done on evaluating this technique in a structured fashion, to provide recommendations on how best to capture and process images when working with damaged and abraded textual material. This article introduces a new approach for evaluating the efficacy of image processing algorithms in recovering information from multispectral images of deteriorated primary historical texts. We present a series of experiments that deliberately degrade samples cut from a real historical document to provide a set of images acquired before and after damage. These images then allow us to compare, both objectively and quantitatively, the effectiveness of multispectral imaging and image processing for recovering information from damaged text. We develop a methodological framework for the continuing study of the techniques involved in the analysis and processing of multispectral images of primary historical texts, and a dataset which will be of use to others interested in advanced digitisation techniques within the cultural heritage sector.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
@@ -5101,14 +5101,14 @@
             "10.1093/llc/fqv053"
         ],
         "abstract": "One of the important issues in natural language processing and information retrieval is the automatic extraction of the word’s stem. Both statistical and rule-based approaches for stemming have their own advantages and limitations. The statistical stemmers are not accurate and fail to take advantage of some language phenomenon which can be easily expressed by simple rules. On the other hand, handcrafting the stemming rules in the rule-based stemmers is a time-consuming, tedious, and impractical task. In this regard, we propose a new hybrid stemming method based on a combination of affix stripping and statistical techniques for Persian language. The proposed method combines cues from the orthography, word frequency, and syntactic distributions to induce the stemming rules. In general, the proposed method is divided into two main parts. In the first part, all words of the annotated text corpus are used to automatically induce the stemming rules; while in the second part, the rule-based stemmer uses the induced stemming rules to discover the word's stem. We test the performance of the proposed scheme on two different data sets. The encouraging results indicate the superior performance of the proposed method compared with its counterparts.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/fqv061"
         ],
         "abstract": "The aim of this article is to discuss reliability issues of a few visual techniques used in stylometry, and to introduce a new method that enhances the explanatory power of visualization with a procedure of validation inspired by advanced statistical methods. A promising way of extending cluster analysis dendrograms with a self-validating procedure involves producing numerous particular ‘snapshots’, or dendrograms produced using different input parameters, and combining them all into the form of a consensus tree. Significantly better results, however, can be obtained using a new visualization technique, which combines the idea of nearest neighborhood derived from cluster analysis, the idea of hammering out a clustering consensus from bootstrap consensus trees, with the idea of mapping textual similarities onto a form of a network. Additionally, network analysis seems to be a good solution for large data sets.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
@@ -5211,7 +5211,7 @@
             "10.1093/llc/fqv018"
         ],
         "abstract": "This article describes a Recommendation System to help photographic historians make connections between widely dispersed and previously unrelated records of photographs held in different heritage institutions, and demonstrates how it has been used to rediscover images of exhibits from the Royal Photographic Society annual exhibitions of over 120 years ago. While the surviving exhibition catalogues are a rich information source, they are largely devoid of illustrations of the exhibits. The FuzzyPhoto project has developed techniques for analyzing a corpus of more than 1.4 million historical photographic records across different galleries, libraries, archives, and museums, in order to identify similarities between them and used the results to offer visitors to those sites links to potentially related items at other sites, thus creating a web of interconnections between them. The article describes techniques used for data acquisition, cleaning, integration, semantic-based data mining, approximate reasoning, and fuzzy algorithm-based similarity metrics. It compares the approach described here with manual searches and more sophisticated computational methods such as linked data and concludes that FuzzyPhoto is an effective method for dealing with the realities of messy collection records that could be extended to other types of archival objects such as paintings, maps, and textiles where record matching is required.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
@@ -5298,14 +5298,14 @@
             "10.1093/llc/fqv028"
         ],
         "abstract": "The relationship between two important semantic properties (polysemy and synonymy) of language and one of the most fundamental syntactic network properties (a degree of the node) is observed. Based on the synergetic theory of language, it is hypothesized that a word which occurs in more syntactic contexts, i.e. it has a higher degree, should be more polysemous and have more synonyms than a word which occurs in less syntactic contexts, i.e. it has a lesser degree. Six languages are used for hypotheses testing and, tentatively, the hypotheses are corroborated. The analysis of syntactic dependency networks presented in this study brings a new interpretation of the well-known relationship between frequency and polysemy (or synonymy).",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/fqv026"
         ],
         "abstract": "The authorship of the 1924 short story ‘The Loved Dead’ has been contested by family members of Clifford Martin Eddy, Jr. and Sunand Tryambak Joshi, a leading scholar on Howard Phillips Lovecraft. The authors of this article use stylometric methods to provide evidence for a claim about the authorship of the story and to analyze the nature of Eddy’s collaboration with Lovecraft. Further, we extend Rybicki, Hoover, and Kestemont’s (Collaborative authorship: Conrad, Ford, and rolling delta. Literary and Linguistic Computing, 2014; 29, 422–31) analysis of stylometry as it relates to collaborations in order to reveal the necessary considerations for employing a stylometric approach to authorial collaboration.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
@@ -5348,7 +5348,7 @@
             "10.1093/llc/fqv032"
         ],
         "abstract": "Word reordering is one of the fundamental problems of machine translation. It is an important factor in the quality and efficiency of machine translations. Tackling the reordering problem can lead to significant improvements in translation quality. A new method is introduced with the objective of solving the reordering problem. It exploits sophisticated syntactic-based features for re-ranking the n-best translation candidates provided by a phrase-based statistical machine translation system. These sophisticated reordering features are based on an innovative structure named the phrasal dependency tree, which is inspired from target-side dependency relations among contiguous non-syntactic phrases. The features benefit from phrase dependencies, translation orientation, and distance. A translation candidate is modelled as a directed and weighted graph built from information provided by the reordering features and is re-scored by the proposed re-ranking system. This system markedly improves the outputs of the machine translation of two syntactically divergent language pairs. The performance is evaluated for Persian→English and German→English translation tasks using the WMT07 benchmark. The results report 0.566/0.95/0.011- and 0.75/0.97/0.024-point improvements in terms of BLEU/TER/LRSCORE metrics on Persian→English and German→English translation tasks, respectively. The superiority of the proposed system in terms of precision and recall measures is demonstrated as well.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
@@ -5377,42 +5377,42 @@
             "10.1093/llc/fqv030"
         ],
         "abstract": "Recently, a claim was made, on the basis of the German Google Books 1-gram corpus (Michel et al., Quantitative Analysis of Culture Using Millions of Digitized Books. Science 2010; 331: 176–82), that there was a linear relationship between six non-technical non-Nazi words and three ‘explicitly Nazi words’ in times of World War II (Caruana-Galizia. 2015. Politics and the German language: Testing Orwell’s hypothesis using the Google N-Gram corpus. Digital Scholarship in the Humanities [Online]. http://dsh.oxfordjournals.org/cgi/doi/10.1093/llc/fqv011 (accessed 15 April 2015)). Here, I try to show that apparent relationships like this are the result of misspecified models that do not take into account the temporal aspect of time-series data. The main point of this article is to demonstrate why such analyses run the risk of incorrect statistical inference, where potential effects are both meaningless and can potentially lead to wrong conclusions.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/fqv031"
         ],
         "abstract": "A Systematic Literature Review (SLR) identifies, evaluates, and synthesizes the literature available for a given topic. This generally requires a significant human workload and has subjectivity bias that could affect the results of such a review. Automated document classification can be a valuable tool for recommending the selection of studies. In this article, we propose an automated pre-selection approach based on text mining and semantic enrichment techniques. Each document is firstly processed by a named entity extractor. The DBpedia URIs coming from the entity linking process are used as external sources of information. Our system collects the bag of words of those sources and it adds them to the initial document. A Multinomial Naive Bayes classifier discriminates whether the enriched document belongs to the positive example set or not. We used an existing manually performed SLR as benchmark data set. We trained our system with different configurations of relevant documents and we tested the goodness of our approach with an empirical assessment. Results show a reduction of the manual workload of 18% that a human researcher has to spend, while holding a remarkable 95% of recall, important condition for the nature itself of SLRs. We measure the effect of the enrichment process to the precision of the classifier and we observed a gain up to 5%.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/fqv035"
         ],
         "abstract": "Two graphical methods of exploring aspects of cutting structure in film using shot-length data are presented. The first of these converts the cumulative frequencies of shot-lengths to tabular form that can be displayed in various ways, including the use of correspondence analysis. The method is used to investigate the differences in cutting rates used by Mack Sennett and Charlie Chaplin while directing films for the Keystone Company in 1912–14. Results suggest that previous analyses based on the average shot-length may over-simplify the contrast, and some evidence for the evolution of Sennett’s style in 1913 is also suggested. The methods used, like much of the literature, do not take into account the time-series structure of the shot-lengths. In the second approach presented, this is allowed for by smoothing the time-series of shot-lengths using non-parametric regression. A computer-intensive way of presenting results graphically is developed, that does not commit the analyst to a particular choice of smoothing level, and is used to investigate an ‘hypothesis’ about D. W. Griffith’s cutting style suggested by a ‘prescription’ for pacing implied in comments made in an article published under his name in the 1920s. It is shown that his major feature films between 1914 and 1921 conform to the prescription, but there is not much evidence for it in his earlier and later work.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/fqv037"
         ],
         "abstract": "The Google Ngram Corpora seem to offer a unique opportunity to study linguistic and cultural change in quantitative terms. To avoid breaking any copyright laws, the data sets are not accompanied by any metadata regarding the texts the corpora consist of. Some of the consequences of this strategy are analyzed in this article. I chose the example of measuring censorship in Nazi Germany, which received widespread attention and was published in a paper that accompanied the release of the Google Ngram data (Michel et al. (2010): Quantitative analysis of culture using millions of digitized books. Science, 331(6014): 176–82). I show that without proper metadata, it is unclear whether the results actually reflect any kind of censorship at all. Collectively, the findings imply that observed changes in this period of time can only be linked directly to World War II to a certain extent. Therefore, instead of speaking about general linguistic or cultural change, it seems to be preferable to explicitly restrict the results to linguistic or cultural change ‘as it is represented in the Google Ngram data’. On a more general level, the analysis demonstrates the importance of metadata, the availability of which is not just a nice add-on, but a powerful source of information for the digital humanities.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/fqv034"
         ],
         "abstract": "Weighted Gene Co-Expression Network Analysis (WGCNA) is a technique developed for analysing gene co-expression microarray data. This article demonstrates the adaption of WGCNA to mine an entire genre of literature, describing its dominant features, exposing its evolution through time, and dissecting its plot structures. WGCNA not only finds these large-scale structures, but exposes the fine-grained contribution of individual words. Romance accounts for 16.7% of all novels sold in the USA, and is the most popular form of genre literature (Romance Writers of America, 2013; Industry Statistics. http://www.rwa.org/p/cm/ld/fid=580 (accessed 13 June 2013)). Selling into 111 different markets and thirty-one languages, Harlequin is the largest publisher of romance worldwide, and its most successful category line, Harlequin Presents, offers the reader ‘pure romantic fantasy’ (Harlequin Presents Writing Guidelines)—romance in an almost archetypal sense. Despite the popularity, ubiquity and profitability of category romance, there is relatively little study to date on the phenomenon. Using WGCNA together with all electronically available Harlequin Presents novels—some 1,400 from 1999 to 2013—this article demonstrates that the genre’s fundamental architecture is a choir of authorial voices, that its evolution is dominated by sudden shifts due to financial pressures on the publisher, and that the order in which elements appear—the plot—is largely fixed.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/fqv033"
         ],
         "abstract": "This article reports on a Digital Humanities research project which is concerned with the automated linguistic and visual analysis of political discourses with a particular focus on the concept of deliberative communication. According to the theory of deliberative communication as discussed within political science, political debates should be inclusive and stakeholders participating in these debates are required to justify their positions rationally and respectfully and should eventually defer to the better argument. The focus of the article is on the novel interactive visualizations that combine linguistic and statistical cues to analyze the deliberative quality of communication automatically. In particular, we quantify the degree of deliberation for four dimensions of communication: Participation, Respect, Argumentation and Justification, and Persuasiveness. Yet, these four dimensions have not been linked within a combined linguistic and visual framework, but each single dimension helps determining the degree of deliberation independently from each other. Since at its core, deliberation requires sustained and appropriate modes of communication, our main contribution is the automatic annotation and disambiguation of causal connectors and discourse particles.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
@@ -7463,7 +7463,7 @@
             "10.1093/llc/fqt039"
         ],
         "abstract": "In computational stylistics, any influence of unwanted noise—e.g. caused by an untidily prepared corpus—might lead to biased or false results. Relying on contaminated data is similar to using dirty test tubes in a laboratory: it inescapably means falling into systematic error. An important question is what degree of nonchalance is acceptable to obtain sufficiently reliable results. The present study attempts to verify the impact of unwanted noise in a series of experiments conducted on several corpora of English, German, Polish, Ancient Greek, and Latin prose texts. In 100 iterations, a given corpus was gradually damaged, and controlled tests for authorship were applied. The first experiment was designed to show the correlation between a dirty corpus and attribution accuracy. The second was aimed to test how disorder in word frequencies—produced by scribal and/or editorial modifications—affects the attribution abilities of particular corpora. The goal of the third experiment was to test how much ‘authorial’ data a given text needs to have to trace authorial fingerprint through a mass of external quotations.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
@@ -8718,7 +8718,7 @@
             ""
         ],
         "abstract": "",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
@@ -10089,9 +10089,30 @@
         ]
     },
     {
-        "string_id": [],
-        "abstract": "",
-        "authors": []
+        "string_id": ["10.1093/llc/fqr004"],
+        "abstract": "Many corpus linguists make the tacit assumption that part-of-speech frequencies remain constant during the period of observation. In this article, we will consider two related issues: (1) the reliability of part-of-speech tagging in a diachronic corpus and (2) shifts in tag ratios over time. The purpose is both to serve the users of the corpus by making them aware of potential problems, and to obtain linguistically interesting results. We use noun and pronoun ratios as diagnostics indicative of opposing stylistic tendencies, but we are also interested in testing whether any observed variation in the ratios could be accounted for in sociolinguistic terms. The material for our study is provided by the Parsed Corpus of Early English Correspondence (PCEEC), which consists of 2.2 million running words covering the period 1415–1681. The part-of-speech tagging of the PCEEC has its problems, which we test by reannotating the corpus according to our own principles and comparing the two annotations. While there are quite a few changes, the mean percentage of change is very small for both nouns and pronouns. As for variation over time, the mean frequency of nouns declines somewhat, while the mean frequency of pronouns fluctuates with no clear diachronic trend. However, women consistently use more pronouns than men, while men use more nouns than women. More fine-grained distinctions are needed to uncover further regularities and possible reasons for this variation.",
+        "authors": [
+            {
+                "given": " Tanja",
+                "family": "Säily",
+                "affiliation": [
+                    "Department of Modern Languages, University of Helsinki, Finland"
+                ]
+            },
+            {
+                "given": " Terttu",
+                "family": "Nevalainen",
+                "affiliation": [
+                    "Department of Modern Languages, University of Helsinki, Finland"
+                ]
+            },{
+                "given": " Harri",
+                "family": "Siirtola",
+                "affiliation": [
+                    "Department of Computer Sciences, University of Tampere, Finland"
+                ]
+            }
+        ]
     },
     {
         "string_id": [
@@ -10449,7 +10470,7 @@
             "10.1093/llc/fqq014"
         ],
         "abstract": "This article examines the use of lexical bundles—repeated word groups of differing lengths—in two German Bible translations and analyzes their use in relation to the comparative readability of the two texts. The texts included in this study are the four Gospels and the book of Acts in Martin Luther’s classic translation of the Bible and the modern translation Hoffnung für alle (Hfa). The study is both quantitative and qualitative in nature, looking at lexical bundle statistics in aggregate and at specific uses of lexical bundles in context. The results indicate that the older translation used many more lexical bundles, but types that were used by the newer version were used more effectively. Overall, however, the older version has the advantage in readability due to its greater use of lexical bundles.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
@@ -10539,9 +10560,24 @@
         ]
     },
     {
-        "string_id": [],
-        "abstract": "",
-        "authors": []
+        "string_id": ["10.1093/llc/fqq003"],
+        "abstract": "Categorization and taxonomy are topical issues in intertextuality studies. Instead of increasing the number of overlapping or contradictory definitions (often established with reference to limited databases) which exist even for key concepts such as “allusion ” or “quotation”, we propose an electronically implemented data-driven approach based on the isolation, analysis and description of a number of relevant parameters such as general text relation, marking for quotation, modification etc. If a systematic parameter analysis precedes discussions of possible correlations and the naming of features bundles as composite categories, a dynamic approach to categorization emerges which does justice to the varied and complex phenomena in this field. The database is the HyperHamlet corpus, a chronologically and generically wide-ranging collection of Hamlet references that confront linguistic and literary researchers with a comprehensive range of formal and stylistic issues. Its multi-dimensional encodings and search facilities provide the indispensable ‘freedom from the analytic limits of hardcopy', as Jerome McGann put it. The methodological and heuristic gains include a more complete description of possible parameter settings, a clearer recognition of multiple parameter settings (as implicit in existing genre definitions), a better understanding of how parameters interact, descriptions of disregarded literary phenomena that feature unusual parameter combinations and, finally, descriptive labels for the most polysemous areas that may clarify matters without increasing taxonomical excess.",
+        "authors": [
+            {
+                "given": "Regula",
+                "family": "Hohl Trillini",
+                "affiliation": [
+                    "Department of English, University of Basel, Basel, Switzerland"
+                ]
+            },
+            {
+                "given": "Sixta",
+                "family": "Quassdorf",
+                "affiliation": [
+                    "Department of English, University of Basel, Basel, Switzerland"
+                ]
+            }
+        ]
     },
     {
         "string_id": [
@@ -10946,7 +10982,7 @@
             "10.1093/llc/fqp026"
         ],
         "abstract": "The work of the Shakespeare Clinic of Claremont McKenna College, led by Ward E.Y. Elliott and Robert J. Valenza, is recognized for its pioneering computer analysis of many early modern texts to determine whether William Shakespeare (1564–1616) wrote the works traditionally ascribed to him. The Clinic achieved its primary objective of eliminating all other known candidates and thus confirming that Shakespeare wrote them. Two general methods of analysis were applied to whole plays and variable-sized large texts: Discrete Composite Analysis and Continuous Composite Analysis.. The first uses univariate analysis to determine acceptance or rejection of forty-eight stylometric tests for each text. The second uses a multi-dimensional composite mean for Shakespeare derived from all forty-eight in order to determine acceptance or rejection for each text. This article notes the omission of Discrete Analysis to take into consideration statistical dependencies between the forty-eight tests, the partly arbitrary ‘handfitting’ of acceptance–rejection boundaries for each of the forty-eight tests, the failure to take into full account the factor of chronology, and the absence of discussion of the part played by prior probabilities as to existing beliefs concerning attribution. By this last point, I mean the role played by the existing traditional consensus as to Shakespeare attribution, prior to linguistic analysis. For Continuous Analysis, it is noted that the stated probabilities are not true probabilities as acknowledged, and that the resulting acceptance–rejection levels for them are calibrated in line with prior beliefs. Principal component analysis is shown to give improved results in dealing with co-authored Shakespeare plays, Henry VIII, Timon of Athens, and Pericles. This does not invalidate the overall aim of the Shakespeare Clinic.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
@@ -11015,9 +11051,45 @@
         ]
     },
     {
-        "string_id": [],
-        "abstract": "",
-        "authors": []
+        "string_id": ["10.1093/llc/fqp024"],
+        "abstract": "This article shows that the TEI tag set for feature structures can be adopted to represent a heterogeneous set of linguistic corpora. The majority of corpora is annotated using markup languages that are based on the Annotation Graph framework, the upcoming Linguistic Annotation Format ISO standard, or according to tag sets defined by or based upon the TEI guidelines. A unified representation comprises the separation of conceptually different annotation layers contained in the original corpus data (e.g. syntax, phonology, and semantics) into multiple XML files. These annotation layers are linked to each other implicitly by the identical textual content of all files. A suitable data structure for the representation of these annotations is a multi-rooted tree that again can be represented by the TEI and ISO tag set for feature structures. The mapping process and representational issues are discussed as well as the advantages and drawbacks associated with the use of the TEI tag set for feature structures as a storage and exchange format for linguistically annotated data.",
+        "authors": [
+            {
+                "given": " Andreas",
+                "family": "Witt",
+                "affiliation": [
+                    "Institut für Deutsche Sprache, Mannheim, Germany"
+                ]
+            },
+            {
+                "given": "Georg",
+                "family": "Rehm",
+                "affiliation": [
+                    "vionto GmbH, Berlin, Germany"
+                ]
+            },
+            {
+                "given": " Erhard",
+                "family": "Hinrichs",
+                "affiliation": [
+                    "Tübingen University, General and Computational Linguistics, Germany"
+                ]
+            },
+            {
+                "given": " Timm",
+                "family": "Lehmberg",
+                "affiliation": [
+                    "Hamburg University, SFB Multilingualism, Germany"
+                ]
+            },
+            {
+                "given": " Jens",
+                "family": "Stegmann",
+                "affiliation": [
+                    "Bielefeld University, Faculty of Linguistics and Literary Studies, Germany"
+                ]
+            }
+        ]
     },
     {
         "string_id": [
@@ -11695,9 +11767,17 @@
         ]
     },
     {
-        "string_id": [],
-        "abstract": "",
-        "authors": []
+        "string_id": ["10.1093/llc/fqn031"],
+        "abstract": "The dank cellar surveys rather critically the litter of casualty electronic editions and the false bases and limited goals that informed so many early—that is, current—efforts; and it points hopefully to the best early, though still inadequate, efforts to provide electronic texts responsibly and with added scholarly value. It looks at some problems of representing Victorian fiction.",
+        "authors": [
+            {
+                "given": " Peter",
+                "family": "Shillingsburg",
+                "affiliation": [
+                    "Department of English, Loyola University Chicago, USA"
+                ]
+            }
+        ]
     },
     {
         "string_id": [
@@ -11759,9 +11839,31 @@
         ]
     },
     {
-        "string_id": [],
-        "abstract": "",
-        "authors": []
+        "string_id": ["10.1093/llc/fqn022"],
+        "abstract": "We present an algorithm as evidence of the possibility of a truly automated stylometric authorship attribution tool, based on committees of artificial neural networks. Neural networks have an advantage over traditional statistical stylometry in that they are inherently nonlinear, and therefore can consider nonlinear interactions between stylometric variables. The algorithm presented (1) is intended to demonstrate the feasibility of an automated approach using neural networks and (2) highlights important areas for further research. We present results of two separate test experiments—Shakespeare and Marlowe, and the Federalist Papers—as a demonstration of the method's; generality. In both cases, our algorithm produces committees that correctly predict the test works, without requiring the usual precursory statistical study to determine efficacious stylometric measures.",
+        "authors": [
+            {
+                "given": " Matt",
+                "family": "Tearle",
+                "affiliation": [
+                    "University of Colorado, Boulder, CO, USA"
+                ]
+            },
+            {
+                "given": " Kye",
+                "family": "Taylor",
+                "affiliation": [
+                    "University of Colorado, Boulder, CO, USA"
+                ]
+            },
+            {
+                "given": " Howard",
+                "family": "Demuth",
+                "affiliation": [
+                    "University of Colorado, Boulder, CO, USA"
+                ]
+            }
+        ]
     },
     {
         "string_id": [
@@ -12050,16 +12152,6 @@
         ]
     },
     {
-        "string_id": [],
-        "abstract": "",
-        "authors": []
-    },
-    {
-        "string_id": [],
-        "abstract": "",
-        "authors": []
-    },
-    {
         "string_id": [
             "10.1093/llc/fqz017"
         ],
@@ -12157,9 +12249,31 @@
         ]
     },
     {
-        "string_id": [],
-        "abstract": "",
-        "authors": []
+        "string_id": ["10.1093/llc/fqm039"],
+        "abstract": "As digital libraries have expanded to absorb existing collections as well as to create new ones, it has become clear that cross collection discovery is not simply desirable, but is increasingly a necessity demanded by users. Similarly, in the digital humanities community, thematic research collections once distinct from one another now would seem to benefit from interoperability. However, efforts to aggregate disparate resources are often stymied by differing metadata schema and controlled vocabulary. Using the lessons learned from the Thomas MacGreevy Archive, The University of Maryland Libraries designed its digital repository to provide for discovery across object types and collections using Fedora as the underlying architecture. To facilitate access to multiple collections within one repository, University of Maryland developed a flexible metadata standard. This metadata schema is used to describe varying types of materials at varying levels of granularity, while allowing for controlled vocabularies appropriate to specific collections.",
+        "authors": [
+            {
+                "given": " Susan",
+                "family": "Schreibman",
+                "affiliation": [
+                    "University of Maryland Libraries, University of Maryland, College Park, MD, USA"
+                ]
+            },
+            {
+                "given": " Jennifer",
+                "family": "O’Brien Roper",
+                "affiliation": [
+                    "University of Maryland Libraries, University of Maryland, College Park, MD, USA"
+                ]
+            },
+            {
+                "given": " Gretchen",
+                "family": "Gueguen",
+                "affiliation": [
+                    "University of Maryland Libraries, University of Maryland, College Park, MD, USA"
+                ]
+            }
+        ]
     },
     {
         "string_id": [
@@ -12733,7 +12847,7 @@
             "10.1093/llc/fqi068"
         ],
         "abstract": "",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
@@ -13014,11 +13128,6 @@
                 ]
             }
         ]
-    },
-    {
-        "string_id": [],
-        "abstract": "",
-        "authors": []
     },
     {
         "string_id": [
@@ -13474,11 +13583,6 @@
         ]
     },
     {
-        "string_id": [],
-        "abstract": "",
-        "authors": []
-    },
-    {
         "string_id": [
             "10.1093/llc/fqi049"
         ],
@@ -13668,11 +13772,6 @@
                 ]
             }
         ]
-    },
-    {
-        "string_id": [],
-        "abstract": "",
-        "authors": []
     },
     {
         "string_id": [
@@ -13878,7 +13977,7 @@
             "10.1093/llc/fqi041"
         ],
         "abstract": "This paper presents the results of a statistical analysis performed on the forty-seven novels of Anthony Trollope. It is shown that there is a trend in the distribution of chapter lengths for each novel towards a state of increased evenness. Some possible causes of the trend are considered, although the most probable explanation is conjectural.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
@@ -14455,7 +14554,7 @@
             "10.1093/llc/19.4.497"
         ],
         "abstract": "The sentence-lengths of sixteen essays by Goldsmith are examined in relation to data from ten essays (we call these ‘doubtfuls’) which have been attributed to him. Comparisons between the ‘doubtfuls’ and the known Goldsmiths are made with reference to the χ2 goodness-of-fit test, and the method of reciprocal averaging. The Goldsmith essays form a close group, with four of the ‘doubtful’ essays well outside, two less remote and four within the Goldsmith cluster. Comparison with fifty essays by nine of Goldsmith's contemporaries reveals the distinctiveness of his sentence-length patterns, and strengthens the probability that the four least doubtful essays are his. In the case of Goldsmith, then, sentence-length may be considered a reliable stylistic marker.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
@@ -14548,7 +14647,7 @@
             "10.1093/llc/19.4.509"
         ],
         "abstract": "This paper describes the work carried out on the EMILLE Project (Enabling Minority Language Engineering), which was undertaken by the Universities of Lancaster and Sheffield. The primary resource developed by the project is the EMILLE Corpus, which consists of a series of monolingual corpora for fourteen South Asian languages, totalling more than 96 million words, and a parallel corpus of English and five of these languages. The EMILLE Corpus also includes an annotated component, namely, part-of-speech tagged Urdu data, together with twenty written Hindi corpus files annotated to show the nature of demonstrative use in Hindi. In addition, the project has had to address a number of issues related to establishing a language engineering (LE) environment for South Asian language processing, such as translating 8-bit language data into Unicode and producing a number of basic LE tools. The development of tools for EMILLE has contributed to the ongoing development of the LE architecture GATE, which has been extended to make use of Unicode. GATE thus plugs some of the gaps for language processing R&D necessary for the exploitation of the EMILLE corpora.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
@@ -14570,56 +14669,56 @@
             "10.1093/llc/19.3.385"
         ],
         "abstract": "This paper describes the work of The Elements of Drawing, a project to digitize the teaching collection  assembled by John Ruskin at the University of Oxford. It outlines John Ruskin’s links with Oxford, his reasons for creating the collection as an aid to his teaching of drawing at the University, and the ways in which he organized and catalogued the collection. It then discusses the particular benefits which digitization brings to the collection, and outlines the methods being used to digitize the collection as a series of images, texts, catalogue data, and associated metadata, and how it is being made available over the world wide web.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/19.3.321"
         ],
         "abstract": "This paper discusses the utilization of content‐based image retrieval (CBIR) for searching and retrieving images, to enhance access to digital image collections. Organizations have taken advantage of new technologies and funding opportunities to digitize their image collections, resulting in a greater need for efficient storage and retrieval systems. Images are used by a wide and diverse group of people, including picture researchers, historians and design professionals. Research into image use indicates that some image users have very specific needs, others are more interested in material conveying abstract concepts, and some do not want specific images but want to browse for inspiration. Cataloguing and indexing practices vary considerably, despite the existence of several tools to aid the process. Many organizations use in‐house schemes or no formal methods at all. Manual indexing effectiveness is a problem area that affects both practitioners and users. Image seeking behaviour is a complex interaction between contextual factors that ultimately affect how a user searches, selects, and uses images. CBIR is a technique in which images are selected via features automatically extracted from the images. Research into CBIR in practice found that, whilst user views were mixed, there was sufficient evidence that visual searching for images could be a useful feature of a digital image library, particularly if used in combination with text‐based descriptors.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/19.3.289"
         ],
         "abstract": "In the context of ongoing research into new methods and techniques for literary research we describe a primary implementation of a web application called <it>Autonom</it>, intended to be developed into a framework for textual parsing algorithms that may be used by literary researchers to trace literary phenomena in texts. We describe the technical parsing fundamentals and good practices the development of the framework is based upon, we clarify different design considerations and choices and we present an overview of the current state of implementation and functionality. We also demonstrate the application of a proper name parsing algorithm implemented within the framework, meant to be the first step in a new method for the research of names in literary texts. The algorithm is tested on Karel Glastra van Loon’s novel <it>Lisa’s adem</it> (<it>Lisa’s Breath<it>, 2001). We go into the results that this test has yielded so far and summarily describe some of the consequences for the analysis of the names in the novel. We conclude with a short description of the directions new developments could take.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/19.3.253"
         ],
         "abstract": "What could and should be the relationship between research archives of endangered cultural heritage materials and the originating community? This paper argues that recent developments in distributed computing in a networked environment have allowed us to re‐imagine this relationship in a way that profoundly changes the role of the archive and reinforces the desirability of establishing ongoing reciprocal relationships with cultural heritage communities. Some possibilities are suggested drawing from experience with PARADISEC (the Pacific and Regional Archive for Digital Sources in Endangered Cultures, established in 2003 as a collaborative venture between the University of Sydney, the University of Melbourne, and the Australian National University) and with local community‐based digital archives in the remote Australian communities of Belyuen and Wadeye. Repatriation and rights, planning principles for establishment and sustainability of local digital archives in community cultural centres, and models for a staged approach in setting up ongoing relationships with rights holders are discussed. The paper argues that digital archives, as distributed virtual institutions, need to engage with a number of different communities of interest: not only the individuals, communities, and institutions that own the cultural heritage objects we preserve, but also the wider academic community and international standards‐setting bodies. Planning for our archives’ digital future means imagining ourselves as actors and creators within that virtual society.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/19.3.415"
         ],
         "abstract": "The New Comedy Masks project deals with objects—miniature ancient theatre masks—of immense cultural significance, and with texts—the comedies of Menander—that are at the origins of the European comic tradition. By 3D scanning the miniatures and enlarging them to life‐size, the project has initiated a programme of practice‐based research in the studio, leading to live performances that are the first to use objectively reconstructed ancient masks. The paper describes the considerations that apply at different stages of the process, from the digitization of the artifact to mask‐construction and performance experimentation.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/19.3.397"
         ],
         "abstract": "Textual encoding is one of the main focuses of Humanities Computing. However, existing encoding schemes and initiatives focus on ‘text’ from the character level upwards, and are of little use to scholars, such as papyrologists and palaeographers, who study the constituent strokes of individual characters. This paper discusses the development of a markup system used to annotate a corpus of images of Roman texts, resulting in an XML representation of each character on a stroke by stroke basis. The XML data generated allows further interrogation of the palaeographic data, increasing the knowledge available regarding the palaeography of the documentation produced by the Roman Army. Additionally, the corpus was used to train an Artificial Intelligence system to effectively ‘read’ in stroke data of unknown text and output possible, reliable, interpretations of that text: the next step in aiding historians in the reading of ancient texts. The development and implementation of the markup scheme is introduced, the results of our initial encoding effort are presented, and it is demonstrated that textual markup on a stroke level can extend the remit of marked‐up digital texts in the humanities.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/19.3.351"
         ],
         "abstract": "E‐CITIES is a concept for a system that would bring research knowledge of the cultural heritage, in particular the history of cities, into popular use. The idea was developed as a model of multilingual cultural content management and dissemination. The system could be implemented as a fully functional and reproducible system applicable to any city, anywhere. Much of the technology is being or has been developed for use in other applications. E‐CITIES would offer important political, economic, and cultural benefits. This paper explores the technologies that would be required and identifies those that are available and developing. It puts the case that an E‐CITIES system is not just desirable but, increasingly, necessary.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/19.3.373"
         ],
         "abstract": "As the physical building of a national library can serve as a tangible expression of political and cultural philosophy, a given digital archive manifests ideological features of the national legacy it preserves and disseminates electronically. Millennial discourses have influenced national library building projects in both physical and digital archives. However, a simple analogy between conventional and electronic spaces is inadequate, because national policies on digitizing documents and regulating access engender contradictory impulses in archivists and policy makers. Although considerable attention has recently focused on the ‘right to read’, the physical space of a document archive is constituted by prohibitions on reading. In a 2002 survey, the degree of regulation varied greatly depending on national context. The Bibliothèque Nationale de France made its digital collection widely and anonymously available, but closely surveiled readers in its physical space. The Library of Congress offered democratic access and embraced an ‘open source’ approach to cataloguing, but corporate and public interests were in conflict, and ‘born digital’ documents created a policy crisis. The British Library offered an interface that emulated turning pages of rare tomes but came late to prioritize searchable text encoding. In contrast, the Danvers Archival Center offered a model of a ‘local’ archive that asserted its social function in a particular community but also claimed a role in shaping digital resources.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
@@ -14648,70 +14747,70 @@
             "10.1093/llc/19.3.335"
         ],
         "abstract": "The visualization and analysis of spatial data can shed new light on the nature and meaning of data throughout the Humanities. However such work is often avoided because it is seen as requiring expensive new hardware and software resources or involving a substantial expenditure of time and effort overcoming a steep learning curve before worthwhile results can be obtained. The Centre for Computing in the Humanities at King’s College London collaborates with researchers in a variety of humanities disciplines on a range of projects that often involve a component of spatial data. This has given the Centre an opportunity to explore methods of visualizing, analysing and displaying spatial data in a range of humanities disciplines. This paper discusses some of the intellectual, research and practical issues affecting the use of spatial data in Humanities Computing projects. It is illustrated by examples from a number of projects at King’s College. Although it is grounded on specific examples to support the points being made the main aim is to draw out a series of general themes which affect the use of spatial data by researchers throughout the Humanities and increase awareness of what can be achieved with minimal resources and a little creative thought.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/19.3.303"
         ],
         "abstract": "The aim of this paper is to show that the appropriation of ICTs is determined by a field’s specific cultural identity. Knowledge is not a homogeneous whole, but a patchwork of heterogeneous fields. These fields are most visible as embodied in academic disciplines, which have distinct cultural identities shaped by intellectual and social considerations. Scholarly communication systems evolve over time within the context of these cultural identities. The paper discusses the cultural shaping of ICTs by drawing on an ongoing ethnographic study within corpus‐based linguistics. The findings suggest that cultural elements such as ‘task‐uncertainty’, ‘mutual‐dependency’, heterogeneity, and institutional configurations will influence the appropriateness of a specific ICT infrastructure for a particular intellectual community. For example, fields that have a highly politicized and tightly controlled research culture will develop a coherent field‐based strategy for the uptake and use of ICTs, whereas domains that are pluralistic and have a loosely organized research culture will appropriate ICTs in an ad‐hoc localized manner. These findings demonstrate that overlooking cultural diversity in the development and implementation of ICT infrastructures and policies could prove detrimental for fields that do not map onto ‘big science’ conceptualizations of knowledge production. Furthermore, the paper demonstrates that effective understanding similarity and difference in patterns of scholarly communication needs to take the fine‐grain of specialist fields as the unit of analysis, rather than the course‐grain of the discipline.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/19.2.145"
         ],
         "abstract": "Empirical analysis of any natural language needs to be substantiated with the statistical findings because without adequate knowledge from statistics any linguistic study can fall into the quicksand of mistaken data handling and false observation. Recent introduction of various sub‐disciplines (computational linguistics, corpus linguistics, forensic linguistics, applied linguistics, lexicology, stylometrics, lexicography, and language teaching, etc.) requires various statistical results of language properties to understand the language as well as to design sophisticated tools and software for language technology. Keeping this in mind, we present here some simple frequency counts of characters found in the Bangla text corpus. Also, we empirically evaluate their functional behaviours in the language with close reference to the corpus. Here we verify previously made observations, as well as make some new observations required for various works of language technology in Bangla.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/19.2.221"
         ],
         "abstract": "This article describes a method for discriminating among authors within a given register of Modern Greek. The focus here is to determine to what extent the stylistic differences among authors can be detected with a high degree of accuracy for a set of texts belonging to a well‐defined register. To that end, the chosen register is characterized by a well‐defined sub‐language, from which a corpus of more than 1,000 documents has been created. To discriminate the texts according to author style, a series of experiments have been performed using statistical techniques. Each text has been represented by a vector covering several linguistic aspects, in an effort to determine the most effective style markers. The experimental results indicate that the proposed approach can successfully separate the author styles for a given register. An extensive study of the effectiveness of the different variable categories has been performed. For instance, diglossia information on its own is not sufficient for author discrimination. Instead, a systematic evaluation process indicates that part‐of‐speech, structural and algorithmically derived lemma‐frequency variables are the most important style markers, their use leading to an author discrimination accuracy exceeding 90%.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/19.2.181"
         ],
         "abstract": "Among the history plays, <it>King John </it>is historically prior to the two Shakespeare tetralogies. Partly for this reason it is the least well‐known of the early history plays. Despite an increasing recognition by scholars that collaboration was the norm before the mid‐1590s, the Shakespearean integrity of <it>King John </it>has been hitherto unquestioned. Stylistic markers, previously recognized for their ability to discriminate authors, however, consistently differentiate two bodies of text within the play, one of which is unmistakably Shakespeare’s. Marlowe’s authorship of the non‐Shakespeare text, though improvable, is a plausible inference.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/19.2.161"
         ],
         "abstract": "Within the last twenty years historians of science and technology have asked how a recent history might be written, and within the last ten interest has significantly increased, culminating in an online project at MIT. Since humanities computing owes its existence to developments in recent technology, and needs to become historically self‐aware to be fully <it>of</it> the humanities, work toward an historiography of recent things is deeply relevant. In this essay I draw on this work to highlight the difficulties and opportunities of such an historiography, in particular its ethnographic character and the tempting lure of prediction. I focus on the crucial question of tacit object‐knowledge, concluding that it is gained by concernful action. I recommend that we awaken from a progress‐and‐democratization chronicle to a genuine history of scholarly technology.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/19.2.197"
         ],
         "abstract": "This article describes a method for discriminating among registers of Modern Greek and among authors within a given register. Two issues have been investigated: (a) whether register discrimination can successfully exploit linguistic information reflecting the evolution of a language (such as diglossia features of the Modern Greek language) and (b) what kind of linguistic information and which statistical techniques may be applied to author discrimination within one register. Using clustering techniques and variables reflecting the diglossia situation, we have successfully discriminated registers in Modern Greek. However, diglossia information on its own has not been shown sufficient for author discrimination within one register. Instead, other linguistic features, including PoS distribution and discourse tendencies, have been combined with methods such as discriminant analysis in order to obtain a high degree of accuracy.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/19.1.17"
         ],
         "abstract": "The nature of a scholarly edition, as of any bibliographical tool, is determined by the historical, medial, social, and rhetorical dimensions of the genre. This ‘situatedness’ puts constraints on the force of scholarly editions: what they can and what they cannot do. Claims have been made for the potent reproductive force of scholarly editions, as well as for the making of massive digital facsimile and transcription archives that can be used as platforms for producing new critical editions. This article questions the legitimacy of such assumptions when combined with idealist notions of documents, texts, and editions. That the nature of editions is rhetorical rather than neutral, social rather than individualistic, and one of complex translation rather than simple transmission, for instance, suggests that the versatility and reproductivity of the edited material itself will be limited by significant factors. Recognizing this makes us better equipped at subjecting digital archives and editions, and the claims some of their surrounding discourses make, to critical inquiry.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/19.1.45"
         ],
         "abstract": "When theorizing about correspondence reconstruction and sorting, we first need both a definition of ‘a letter’ and of ‘correspondence’. In this article, we propose such definitions and investigate the impact of our understanding of what correspondence reconstruction is on the production of the DALF formal framework for the transcription of epistolary material. The focus of the paper is on the instruments built into DALF for allowing all types of sorting and classification, hence correspondence reconstruction.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/19.1.35"
         ],
         "abstract": "Digital editions make it possible to create a collection of all existing copies of a text including digital facsimiles. Is this a problem if it means that there will be editions that are in fact collections of full variant texts with no selected or edited reading text? This paper argues that both archival editions with digital facsimiles and encoded source texts (digital diplomatic editions) and digital critical texts can and must exist side by side. It is also suggested that from high quality diplomatically encoded source texts it is possible to automatically extract texts that either directly or with some further encoding/editing can function as a base text for editions of different types and which build on different editorial philosophies. The editions produced at the Wittgenstein Archives in Bergen and in the project Henrik Ibsen’s Writings in Oslo are used as examples of projects supporting the author’s arguments.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
@@ -14747,56 +14846,56 @@
             "10.1093/llc/19.1.9"
         ],
         "abstract": "For the benefit of the readers and the authors of this special issue on electronic scholarly editing, this short article introduces the Text Encoding Initiative (TEI) and the TEI Consortium (TEI‐C), which are mentioned and referred to throughout this issue and it provides many suggestions for further reading.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/19.1.119"
         ],
         "abstract": "After Professor Marcel De Smedt of the University of Leuven introduced scholarly editing of modern texts as a discipline in Flanders in the 1980s, the worrying fact emerged during the last decade of the twentieth century that Flemish universities and scholarly research groups were falling well behind in the field of scholarly editing. As a reaction, the inter-university task force Genese was founded in 1993 with its main goal to promote and coordinate the theories and practice of scholarly editing in Flanders. The next decisive step was taken by the Royal Academy of Dutch Language and Literature (Koninklijke Academie voor Nederlandse Taal‐ en Letterkunde—KANTL) when they decided to make scholarly editing their primary objective as of January 1998. That decision paved the way for the founding of the Centre for Scholarly Editing and Document Studies (Centrum voor Teksteditie en Bronnenstudie—CTB), which started on 1 August  2000 as a research institute of the Academy, and which has become the centre of expertise in the field of (electronic) scholarly editing in the Low Countries.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/19.1.105"
         ],
         "abstract": "How was a medieval manuscript meant to be read? This is a question that has concerned me for a long time in my work with Old Swedish manuscripts from Vadstena Abbey. In many manuscripts we can find traces of the historical reading situation; for example, pointing hands, marginal notes, etc. Such signals had an important function for the medieval reader, but they are rarely put forward in modern printed editions. I maintain that many of these paratextual notes can be explained with the help of hypertext theory, and be emphasized in a digital edition. I discuss this possibility by giving some examples from Scandinavian composite manuscripts. I show how digital technology together with new philological theory can give new life to medieval manuscripts, as digital editions together with the use of linking give the modern reader a deeper understanding of manuscript culture. This is possible because new philology revalues the concrete textual witnesses of a manuscript and takes each single version of a text into discussion. A printed edition is a much too clumsy tool if the aim is to give the modern reader a clear view of the uses of manuscript during the Middle Ages, but with digital technology an edition can be more complete by applying different layers of information.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/19.1.93"
         ],
         "abstract": "This article has two aims. First I argue that the old habits of the printed book often have influence on our way of thinking in our work with electronic texts. I stress here the importance of evaluating the new possibilities that the new technological tools provide for philological work. In the second part I present a project that is currently working with the Old Swedish material from the Vadstena monastery in Sweden. Central to this project is to provide electronically encoded transcriptions of the primary sources from Vadstena.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/19.1.73"
         ],
         "abstract": "This article discusses three principal types of transcription with reference to vernacular Medieval Nordic sources: a facsimile transcription with graphic details, a diplomatic transcription with few graphic details, but with all phonemic distinctions upheld, and a normalized transcription with regularized orthography. The article argues that all three levels of transcription can be accommodated in a single multi-level encoding, using the flexibility of Extensible Markup Language (XML) and the Text Encoding Initiative (TEI) guidelines. Special characters and abbreviation marks are encoded using entities and linking these to Unicode characters, partly in the Private Use Area. Words are encoded on one or more levels using specified elements and supplied with lexicographical and grammatical information by way of attributes. Display in various formats such as HTML and PDF is managed by stylesheets. Thus, a single XML file allows for several views of the text, suitable for different user groups, such as linguists, historians, and literary critics.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/19.1.55"
         ],
         "abstract": "In Norway, the project Henrik Ibsen’s Writings is currently establishing a new historical–critical edition (both electronically and in print) of the complete writings of playwright Henrik Ibsen. In the years the project has existed, there has been a continuing internal discussion on the relationship between philology and text encoding. This paper outlines the philological principles of the project and describes its methods of establishing texts and ensuring quality. It also looks at and describes, in detail, the consequences of combining philology and text encoding through examples of problems solved in the encoding of complex changes in manuscripts as well as parallel structures in verse dramas. The paper concludes that it is very important, in a project such as Henrik Ibsen’s Writings, to focus on the relationship between philology and text encoding because of the influence, even in the smallest details, of these on each other.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/18.4.361"
         ],
         "abstract": "This paper presents the newly released Lancaster Corpus of Mandarin Chinese (LCMC), a Chinese match for the FLOB and Frown corpora of British and American English. We first discuss the major decisions we took when building the corpus. These relate to sampling, text collection, mark-up, and annotation. Following from this we use the corpus to study aspect marking in Chinese and British/American English. The study shows that although Chinese and English are typologically different, aspect markers in the two languages show a strikingly similar distribution pattern, especially across the two broad categories of narrative and expository texts. The study also reveals some important differences in the distribution of aspect markers in Chinese versus English and British versus American English across fifteen text categories, and provides an account of these differences.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/18.4.407"
         ],
         "abstract": "Biological techniques can be used to reconstruct the stemmata of text traditions. Here, we describe methods for assessing the reliability of the results. We use compatibility matrices to detect sections of the text with different patterns of transmission. By constructing stemmata from subsets of increasing size, we estimate the minimum amount of data needed to produce a reliable stemma. We use consistency indices to assess the overall reliability of the stemma and the level of support that individual variants give to the stemma. Bootstrap analyses allow us to reject features of the stemma that result from only a few variants. We apply these techniques to the stemma for the Miller's Tale in Chaucer's Canterbury Tales.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
@@ -14844,9 +14943,24 @@
         ]
     },
     {
-        "string_id": [],
-        "abstract": "",
-        "authors": []
+        "string_id": ["10.1093/llc/18.4.423"],
+        "abstract": "Large, real world, data sets have been investigated in the context of Authorship Attribution of real world documents. Ngram measures can be used to accurately assign authorship for long documents such as novels. A number of 5 (authors) × 5 (movies) arrays of movie reviews were acquired from the Internet Movie Database. Both ngram and naive Bayes classifiers were used to classify along both the authorship and topic (movie) axes. Both approaches yielded similar results, and authorship was as accurately detected, or more accurately detected, than topic. Part of speech tagging and function-word lists were used to investigate the influence of structure on classification tasks on documents with meaning removed but grammatical structure intact.",
+        "authors": [
+            {
+                "given": "Ross",
+                "family": "Clement",
+                "affiliation": [
+                    " Harrow School of Computer Science, University of Westminster, UK "
+                ]
+            },
+            {
+                "given": "David",
+                "family": "Sharp",
+                "affiliation": [
+                    " Harrow School of Computer Science, University of Westminster, UK "
+                ]
+            }
+        ]
     },
     {
         "string_id": [
@@ -14868,54 +14982,60 @@
             "10.1093/llc/18.3.261"
         ],
         "abstract": "This paper examines the effectiveness of multivariate analysis of the frequencies of frequent collocations in characterizing authorial style. Cluster analyses of collocations over various spans, types, and linkages are performed on groups of texts by known authors to determine how well the frequencies of those collocations correctly attribute the texts to their authors and distinguish them from texts by other authors. In each case the results are compared with those based on the frequencies of frequent words and the frequencies of frequent sequences of words. Cluster analyses based on frequent words and sequences ascribe many of the texts to their correct authors. However, analyses based on frequent collocations are more accurate for several groups of texts, sometimes producing more completely correct attributions than analyses based on either words or sequences and sometimes producing the only completely correct attributions. They also produce results for small groups of problematic novels and critical texts extracted from the larger corpora that are often superior to those based on frequent words or frequent sequences. Finally, they perform better than analyses based on frequent words or sequences in simulated authorship attribution scenarios. Cluster analysis based on frequent collocations provides a robust and effective method of authorship attribution.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/18.3.315"
         ],
         "abstract": "The usefulness of corpora in the study of syntagmatic relations has often been advocated. Without underestimating its importance, this paper aims at showing another advantage of monolingual corpora: the comparison of the behaviour of different word‐forms derived from the same lexeme. Two corpora have been chosen to illustrate this point, COBUILD's Bank of English and CREA (Reference Corpus of Contemporary Spanish), and two different but related case studies are thus presented by way of examples. Apparently, the differences between the variants selected in each language concern only gender and number, as is the case with the Spanish samples, or they are compounds with synonymous meanings, as happens with the English examples. But the observation of the data from the corpora has revealed some relevant characteristics concerning frequency rates and functions that contradict, in a considerable number of cases, our initial expectations—the assumption that all the forms of a lexeme differ from one another only formally (in the case of Spanish because of grammatical agreement) but not in their uses and meanings.",
-        "authors": []
+        "authors": null
     },
     {
-        "string_id": [],
-        "abstract": "",
-        "authors": []
+        "string_id": ["10.1093/llc/18.3.287"],
+        "abstract": "This paper aims to show that model validation is of great importance to ensure the predictive accuracy of a statistical model. By extending the use of logistic regression analysis, it further demonstrates the value of logistic modelling of non‐discrete linguistic categories in language performance. This statistical technique is illustrated on a corpus‐based study of the theory on the grammatical factors for the oscillation between the use and omission of the definite article preceding multi‐word organization names (e.g. the Foreign Office, Mansfield College) in the English language. By validating the preliminary model on fresh corpora, the final logistic model can capture more precisely the gradience in the grammatical factors that affect article usage preceding multi‐word organization names. As the logistic model is a model of language in use rather than a purely statistical model, this paper further translates the regression coefficients into the probability statements that a name is favouring the use of the definite article.",
+        "authors": [
+            {
+                "given": " Grace Y. W.",
+                "family": "Tse",
+                "affiliation": null
+            }
+        ]
     },
     {
         "string_id": [
             "10.1093/llc/18.3.235"
         ],
         "abstract": "Stylometric studies have revealed differences between the first four Pauline epistles and the Pastoral Epistles. They also show that there is some kind of affinity between the Pastorals and the Petrine Epistles. Scalometric analysis suggests that this affinity is due to stylistic features. The identification of the linguistic features that separate the first four epistles from the Pastorals and the Petrines provides a method of distinguishing between two styles in the epistles. Differences that were previously thought to point to differences in authorship are now seen to refer to differences in style that may be found within the works of one author.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/18.3.249"
         ],
         "abstract": "The goal of this paper is to present a procedure for the automatic retrieval of idiomatic expressions from large text corpora. The procedure combines text segmentation techniques and Latent Semantic Analysis. Three indices were computed on the basis of the three‐fold hypothesis that: (1) idiomatic expressions should have few neighbours; (2) idiomatic expressions should demonstrate low semantic proximity between the words composing them; (3) idiomatic expressions should demonstrate low semantic proximity between the expression and the preceding and subsequent segments. The result of this procedure shows that we have not yet reached a fully automatic retrieval of idioms from large corpora, but this first trial has shown that we are on the way. The procedure reduces the amount of data to consider to less than a quarter (23.8 per cent) of the original data, of which one‐fifth (20.9 per cent) is idiomatic, and nearly 60 per cent (58.8 per cent) is phraseological in nature. In other words, this procedure drastically improves and facilitates hand‐based retrieval. In addition, these first results already permit some linguistic exploitation of the retrieved idioms.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/18.2.175"
         ],
         "abstract": "The strengths of current text‐analysis tools lie in their ability to perform a variety of formal, enumerative, or statistical functions. These functions concord well with scientific perspectives of textual criticism. Much less evident is how current text‐analysis tools help read and experience literature. Design of new tools, it is argued, should give full space to how literary critics interact with texts, rather than simply focus on what computers can do well. Principles of reading, synthesis, and play are explored in relation to a prototype version of HyperPo: Text Analysis and Exploration Tools.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/18.2.117"
         ],
         "abstract": "New ways of documenting and describing language via electronic media coupled with new ways of distributing the results via the World‐Wide Web offer a degree of access to language resources that is unparalleled in history. At the same time, the proliferation of approaches to using these new technologies is causing serious problems relating to resource discovery and resource creation. This paper describes the infrastructure that the Open Language Archives Community (OLAC) has built to address these problems. Its technical and usage infrastructures address problems of resource discovery by constructing a single virtual library of distributed resources. Its governance infrastructure addresses problems of resource creation by providing a mechanism through which the language‐resource community can express its consensus on recommended best practices.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/18.2.209"
         ],
         "abstract": "The author revisits the question of what text analysis could be. He traces the tools from their origin in the concordance. He argues that text‐analysis tools produce new texts generated from queries through processes implemented on the computer. These new texts come from the decomposition of original texts and recomposition into hybrid new works for interpretation. The author ends by presenting a portal model for how text‐analysis tools can be made available to the community.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
@@ -14973,68 +15093,56 @@
             "10.1093/llc/18.2.185"
         ],
         "abstract": "This paper is intended to begin a discussion about the need for a future text analysis software tool to model a number of aspects of text analysis as it is practised by critics who are not computing humanists, and that have been barely considered by most developers. It begins by putting this analysis in the context of Douglas Englebart's famous model of computer–human interaction expressed originally by his Augment system. It continues by examining a number of examples of how technology (ranging from 3 × 5 cards to topic maps) is currently used to support critical analyses, and points out that an important aspect of the critical process, which is recognized at least in part by the 3 × 5 card model but not by mainstream humanities computing methods, is the sense of critical analysis as a process rather than merely the presentation of a finished product. The paper finishes by examining some of the underlying concepts present in text‐analysis tools used within the social sciences that attempt to deal with this temporal aspect of analysis, and proposes a need to examine the real practices of critics in the light of these issues.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/18.2.167"
         ],
         "abstract": "The inability of computing humanists to break into the mainstream of literary critical scholarship may be attributed to the prevalence of scientific methodologies and metaphors in humanities computing research—methodologies and metaphors that are wholly foreign not only the language of literary criticism, but to its entire purpose. Breaking out of this unfortunate misalignment entails reaching for more appropriate paradigms. The ‘algorithmic criticism’ here proposed rejects the empiricist vision of the computer as a means by which critical interpretations may be verified, and instead seeks to locate computational processes within the rich tradition of interpretive endeavours (usually aligned more with art than criticism), which seek not to constrain meaning, but to guarantee its multiplicity. Computational processes, which are perhaps more conformable to this latter purpose, may be usefully viewed as ways of providing the necessary conditions for interpretive insight. Algorithmic criticism seeks, therefore, in the narrowing forces of constraint embodied and instantiated in the strictures of algorithmic processing, an analogue to the liberating potentialities of art and the ludic values of humanistic inquiry. It proposes that we reconceive computer‐assisted text analysis as an activity best employed not in the service of a heightened critical objectivity, but as one that embraces the possibilities of that deepened subjectivity upon which critical insight depends.",
-        "authors": []
-    },
-    {
-        "string_id": [],
-        "abstract": "",
-        "authors": []
-    },
-    {
-        "string_id": [
-            "10.1093/llc/18.2.221"
-        ],
-        "abstract": "",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/18.2.139"
         ],
         "abstract": "Karl Lachmann's edition from 1833 still provides the basis for Parzival scholarship. Although the text has subsequently been revised in parts, a fundamentally new edition considering all extant manuscripts is required. Computer technology offers means for tackling this task in an effective and reliable manner. A critical electronic edition will give access to the manuscript material, which may be published stage by stage, corresponding to different sections of the text. Such an edition will allow users to consult a base text, electronically linked to an apparatus of variants, to manuscript transcriptions, and to facsimiles. Browsing among these components, readers will experience the extent to which the Parzival romance was open to textual variance in the course of its transmission (an aspect stressed by theories of the so‐called ‘New Philology’). Furthermore, new stemmatological methods borrowed from evolutionary biology (phylogeny) will provide insight into manuscript groupings that may reflect early textual versions that relate to the semi‐oral status of vernacular literary culture. Thus, an electronic edition will be the essential prerequisite of any new Parzival book edition. But it also constitutes an edition in its own right, revealing the discursive and visual richness of medieval text traditions and involving the readers in the editorial process.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/18.2.129"
         ],
         "abstract": "This study is a test case in the use of stylometric techniques to provide an entrance into questions of literary criticism and interpretation. The study applies multivariate analysis to two texts of Charles Brockden Brown, sometimes considered the first professional writer in the United States. Both a scatter graph of a principal components analysis and a cluster analysis show that individual chapters from each of two novels (Wieland and Carwin) group together, except for three chapters of Wieland that cluster with the Carwin chapters. One chapter of Wieland that clusters with the Carwin chapters is narrated by the same character who narrates all of Carwin, thus providing statistical evidence that Brown has created a narrator with a distinctive voice. Accounting for the clustering of the other two chapters calls for a consideration of several of the more crucial and problematic interpretative issues in the novel, and suggests that quantitative analysis can indeed provide background and evidence for literary critical discussion and understanding.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/18.1.11"
         ],
         "abstract": "Since February 2002, a first version of the Deutsche Wörterbuch (DWB) by Jacob and Wilhelm Grimm has been available on the web. A CD‐ROM beta version has been available since December 2002. This paper will focus on the steps involved in drawing up an electronic version of the DWB and, by demonstrating the design of the Graphical User Interface (GUI), will show how common standards of digitization were taken into account and user needs were anticipated during the production process. The history and structure of the DWB will be outlined first to point out some characteristics of the dictionary. The process of retrodigitization from printed page to electronic dictionary will be briefly described and, while giving an overview of the DWB GUI, the importance of content‐based markup and a user‐friendly but powerful GUI as a necessary precondition for sensible and effective access to the dictionary contents will be stressed. The title of this paper, Towards the User, can thus be interpreted in two ways: during the digitization of the DWB, we consider the needs of the users, and by digitization, we hope to open up this huge amount of data and lexicological information for researchers.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/18.1.23"
         ],
         "abstract": "In recent years, the use of large corpora has revolutionized the way we study language. There are now numerous well‐established corpus projects, which have set the standard for future corpus‐based research. As more and more corpora are developed and technology continues to offer greater and greater scope, the emphasis has shifted from corpus size to establishing norms of good practice. There is also an increasingly critical appreciation of the crucial role played by corpus design. Corpus design can, however, present peculiar problems for particular types of source material. The Scottish Corpus of Texts and Speech (SCOTS) is the first large‐scale corpus project specifically dedicated to the languages of Scotland, and therefore it faces many unanswered questions, which will have a direct impact on the corpus design. The first phase of the project will focus on the language varieties Scots and Scottish English, varieties that are themselves notoriously difficult to define. This paper outlines the complexities of the Scottish linguistic situation, before going on to examine the problematic issue of how to construct a well‐balanced and representative corpus in what is largely uncharted territory. It argues that a well‐formed corpus cannot be constructed in a linguistic vacuum, and that familiarity with the overall language population is essential before effective corpus sampling techniques, methodologies, and categorization schema can be devised. It also offers some preliminary methodologies that will be adopted by SCOTS.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/18.1.39"
         ],
         "abstract": "Markup licenses inferences about a text. But the information warranting such inferences may not be entirely explicit in the syntax of the markup language used to encode the text. This paper describes a Prolog environment for exploring alternative approaches to representing facts and rules of inference about structured documents. It builds on earlier work proposing an account of how markup licenses inferences, and of what is needed in a specification of the meaning of a markup language. Our system permits an analyst to specify facts and rules of inference about domain entities and properties as well as facts about the markup syntax, and to construct and test alternative approaches to translation between representation layers. The system provides a level of abstraction at which the performative or interpretive meaning of the markup can be explicitly represented in machine‐readable and executable form.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/18.1.49"
         ],
         "abstract": "The paper is a report on a case in forensic linguistics in which linguistic and computational approaches are combined to answer the question whether it can be proved if a digital recording has been tampered with. With the growing use of digital applications, the chances of digital forgery are increasing significantly. Accordingly, the detection of tampering with audio recordings is also becoming an important task for forensic linguists. In the given case, we assumed that the most straightforward way of tampering with the given digital audio recording might have been the removal of some material and so our aim was to identify the location of this kind of tampering in the file. Due to the complexity of the given task the approach presented is interdisciplinary: first, it uses a traditional semantic analysis to identify possible discontinuous segments of the recorded text; secondly, it introduces an experimental phonetic approach to identify cues of the digital cutting of the audio signal; thirdly, it applies statistical calculations to specify the bit‐level characteristics of audio recordings. The combination of these measurements proved to be quite helpful in answering the initial question, and the proposed new methodologies can be used in further areas of linguistics and computation.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
@@ -15063,70 +15171,70 @@
             "10.1093/llc/18.1.63"
         ],
         "abstract": "This paper looks at the usability of XML for the electronic publication of field reports by commercial archaeological units. The field reports fall into the field of grey literature as they are produced as client reports by commercial units as part of the planning process and do not receive official publication or widespread dissemination. The paper uses a small commercial unit called ARCUS at the University of Sheffield as a case study and to mark up a sample of excavation report using XML and the TEI Lite DTD. It also looks at the possibility of incorporating controlled archaeological vocabulary into the DTD. The paper comes to the conclusion that the electronic publication of grey reports would be very useful as it would allow a quicker response time and a rapid dissemination of information within the fast‐moving and changing environment of commercial archaeology. XML would be a useful tool for the publication of field reports as it would allow practitioners to selectively download separate sections of field reports that are of particular importance to them and to improve the searchability of reports on the web. It is recognized that national archaeological institutions will also have to accept electronic versions of field reports in order for them to be able to be built into the financial framework of a commercial project design.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/18.1.109"
         ],
         "abstract": "",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/18.1.77"
         ],
         "abstract": "This paper explains why and how the digitization project METAe applies METS (Metadata Encoding and Transmission Standard) as encoding scheme for automatically extracted metadata. In contrast to TEI (Text Encoding Initiative) and other markup languages, METS allows encoding of the whole range of structural, descriptive, and administrative metadata in a systematic way. As the METS schema permits the integration of other existing standards, it provides a highly flexible output that can be converted easily to the individual needs of digital libraries. An innovative aspect of the METAe data structure is the ALTO file (‘Analysed layout and text object’), which contains the layout structures as well as the text passages of book pages. Structural maps of the METS schema are used to compose the logical and the physical structures out of ALTO and image files.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/18.1.89"
         ],
         "abstract": "Schema languages concentrate on grammatical constraints on document structures, i.e. hierarchical relations between elements in a tree‐like structure. In this paper, we complement this concept with a methodology for defining and applying structural constraints from the perspective of a single element. These constraints can be used in addition to the existing constraints of a document grammar. There is no need to change the document grammar. Using a hierarchy of descriptions of such constraints allows for a classification of elements. These are important features for tasks such as visualizing, modelling, querying, and checking consistency in textual data. A document containing descriptions of such constraints we call a ‘context specification document’ (CSD). We describe the basic ideas of a CSD, its formal properties, the path language we are currently using, and related approaches. Then we show how to create and use a CSD. We give two example applications for a CSD. Modelling co‐referential relations between textual units with a CSD can help to maintain consistency in textual data and to explore the linguistic properties of co‐reference. In the area of textual, non‐hierarchical annotation, several annotations can be held in one document and interrelated by the CSD. In the future we want to explore the relation and interaction between the underlying path language of the CSD and document grammars.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/18.1.112"
         ],
         "abstract": "",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/18.1.101"
         ],
         "abstract": "This article describes the background and architecture of The Versioning Machine, a software tool designed to display and compare multiple versions of texts. The display environment provides for features traditionally found in codex‐based critical editions, such as annotation and introductory material. It also takes advantage of opportunities afforded by electronic publishing, such as providing a frame to compare diplomatic versions of witnesses side by side, allowing for manipulatable images of the witness to be viewed alongside the diplomatic edition, and providing users with an enhanced typology of notes.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/17.4.439"
         ],
         "abstract": "Scale‐related patterns are found in all thirteen Pauline epistles. To test their distinctiveness, graphs of other texts, ancient and modern, comprising more than a million words, have been scrutinized; this survey has failed to detect any similar patterns. They may therefore be related to Pauline authorship. The longer passages claimed to be interpolations are tested against these scale‐related patterns and are found to be essential parts of the original texts. Further scale‐related patterns are found in 1 and 2 Peter (which received wisdom claims are pseudonymous writings) and in Hebrews. Consideration of these patterns and of the partnership of Paul and Silvanus in mission, leads to a possible solution to the problem of the hapaxes and throws light on the points of contact between the Paulines (including the Pastorals), 1 and 2 Peter, and Hebrews.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/17.4.427"
         ],
         "abstract": "This paper outlines a project currently under way in the Linguistics Department at the University of Arizona to create electronic dictionaries of indigenous languages of the south‐west USA and make them available over the Web for language instruction as well as for linguistic, psycholinguistic, and anthropological research. Working with three languages—Tohono O'odham, Navajo, and Hiaki—we have created an XML scheme that serves as a general template for structuring and archiving language databases. We describe the process of compiling databases for different languages and converting these databases to XML, which contains all the relevant information in a manner that is easily accessible. We discuss the general programming scheme used for searching, and the interfaces used for presenting the dictionary on the Web, which include several front ends for different user groups. We end with a discussion of how to ensure that special characters are displayed properly on the Web.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/17.4.401"
         ],
         "abstract": "The problem of automatically determining the gender of a document's author would appear to be a more subtle problem than those of categorization by topic or authorship attribution. Nevertheless, it is shown that automated text categorization techniques can exploit combinations of simple lexical and syntactic features to infer the gender of the author of an unseen formal written document with approximately 80 per cent accuracy. The same techniques can be used to determine if a document is fiction or non‐fiction with approximately 98 per cent accuracy.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/17.4.373"
         ],
         "abstract": "In this paper, we put forward a fully developed system for the teaching of Modern Greek Language (MGL). The system comprises a parser and generator for Modern Greek sentences as well as a computational lexicon, encoding morphological, syntactic, and semantic information for words. In this paper, we present the major components of the system, highlighting their suitability for the teaching of MGL in an experimental, open, and cooperative educational environment. The proposed system can be used either in a classroom environment or by Internet correspondence for the teaching of MGL as a native or foreign language.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
@@ -15155,70 +15263,70 @@
             "10.1093/llc/17.4.475"
         ],
         "abstract": "This paper presents a method for designing and organizing a multi‐purpose morpheme‐based lexical database for Modern Greek. The authors are in favour of multi‐purpose lexical databases, to avoid a repetition of effort from one application to another, and of morpheme‐based lexica, to achieve flexibility, reusability, expandability, and compact representation of data for future developments. The suggested method for modelling the lexical database in the word‐processing function is the Entity/Relationship model, according to the linguistic theory of Generative Lexical Morphology. In the framework of this model, which depicts rich linguistic information, we can introduce new data structures for storing the morphemes. These new data structures are matrix encoding schemes; one type, called the Cartesian Lexicon, has been designed as a part of our research. The matrix data structures combine the advantages of hash‐tables and tries, which are very popular data structures in supporting machine readable dictionaries. Our system was tested on the Modern Greek language, and demonstrated a satisfactory overall performance in word‐processing. These methods could also be applicable to other languages having morphological systems similar to Modern Greek.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/17.4.457"
         ],
         "abstract": "We describe an attempt to analyse the temporal structure of discourse in Modern Greek following the principles of Asher's Segmented Discourse Representation Theory. We focus on discourse relations of a temporal and causal interest and the use of linguistic knowledge for the determination of these relations. This analysis is applied to a corpus of short newspaper articles reporting car accidents in Modern Greek and the discourse grammar is implemented using the Attribute Logic Engine.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/17.4.413"
         ],
         "abstract": "A conceptual glossary is a textual reference work that combines the features of a thesaurus and an index verborum. In it, the word occurrences within a given text are classified, disambiguated, and indexed according to their membership of a set of conceptual (i.e. semantic) fields. Since 1994, we have been working towards building a set of conceptual glossaries for the Latin Vulgate Bible. So far, we have published a conceptual glossary to the Gospel according to John and are at present completing the analysis of the Gospel according to Mark and the minor epistles. This paper describes the background to our project and outlines the steps by which the glossaries are developed within a relational database framework.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/17.3.267"
         ],
         "abstract": "This paper is a companion to my ‘Questions of authorship: attribution and beyond’, in which I sketched a new way of using the relative frequencies of the very common words for comparing written texts and testing their likely authorship. The main emphasis of that paper was not on the new procedure but on the broader consequences of our increasing sophistication in making such comparisons and the increasing (although never absolute) reliability of our inferences about authorship. My present objects, accordingly, are to give a more complete account of the procedure itself; to report the outcome of an extensive set of trials; and to consider the strengths and limitations of the new procedure. The procedure offers a simple but comparatively accurate addition to our current methods of distinguishing the most likely author of texts exceeding about 1,500 words in length. It is of even greater value as a method of reducing the field of likely candidates for texts of as little as 100 words in length. Not unexpectedly, it works least well with texts of a genre uncharacteristic of their author and, in one case, with texts far separated in time across a long literary career. Its possible use for other classificatory tasks has not yet been investigated.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/17.3.345"
         ],
         "abstract": "This paper proposes a solution to the problem of handling scribal abbreviations in TEI‐conformant transcriptions of medieval texts, following a conservative editorial strategy. A key distinction is drawn between alphabetic abbreviations, which represent sequences of letters, and logographic abbreviations which represent whole words. The TEI elements 〈expan〉 and 〈abbrev〉 can be used systematically to separate these two types: alphabetic abbreviations will be expanded in the main text, recording the abbreviated form (including TEI entities representing the main abbreviation marks) as an attribute of 〈expan〉, while logographic abbreviations will be represented in their abbreviated form, with the expanded form recorded as an attribute of 〈abbrev〉. The proposals are illustrated from common abbreviations and short text samples from tenth‐century Latin–Portuguese and thirteenth‐century Old Portuguese.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/17.3.289"
         ],
         "abstract": "This paper presents an overview of the Pascal Database System. The Pascal Database includes all the text from the Œuvres complèetes de Blaise Pascal in four volumes. The online database was released experimentally in October 2000. It is possible to display material, perform a vocabulary search, and make frequency lists of material in the database via the Internet. The content display can access each volume, plus manuscript data, edition, references, annotations of J. Mesnard, and other documents, which is a great advantage when studying the material. The vocabulary search can perform Boolean searches with ‘And’, ‘Or’, and ‘Not’, and can also use the wild card ‘★’. Frequency lists can be made using alphabetical or frequency order, and it is even possible to create a list based on the alphabetical order of the reversed words. Finally, we comment on the personal pronouns in Pascal's letters and discuss the uses of the word figure in the second volume of Pascal's work.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/17.3.323"
         ],
         "abstract": "This paper introduces an intelligent tutoring system designed to help student translators learn to appreciate the distinction between literal translation and liberal translation, an important and forever debated point in the literature of translation, and some other methods of translation lying between these two extremes. We identify four prominent kinds of translation methods commonly discussed in the translation literature—word‐for‐word translation, literal translation, semantic translation, and communicative translation—and attempt to extract computationally expedient definitions for them from two researchers' discussions on them. We then apply these computational definitions to the preparation of our translation corpus to be used in the intelligent tutoring system. In the basic working mode the system offers a source sentence for the student to translate, compares it with the inbuilt versions, and decides on the most likely method of translation used through a translation unit matching algorithm. The student can guess where on the literal and liberal continuum their translation stands by viewing this verdict and by comparing their translation with other versions for the same sentence. In the advanced working mode, the student learns some translation techniques such as the contrastive analysis approach to teaching translation, while appreciating the working of translation methods in relation to these techniques.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/17.3.311"
         ],
         "abstract": "Until printing was invented, texts were copied by hand. The probability with which changes were introduced during copying was affected by the kind of text and society. We cannot usually estimate the probability of change directly. Instead, we develop an indirect method. We derive a relationship between the number of manuscripts in the tradition and the mean number of copies separating a randomly chosen pair of manuscripts. Given the rate at which the proportion of words that are different increases with the mean number of copies separating two manuscripts, we can then estimate the probability of change. We illustrate our method with an analysis of Lydgate's medieval poem The Kings of England.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/17.2.245"
         ],
         "abstract": "This paper describes the general principles, design, and present state of the Czech National Corpus (CNC) project. The corpus has been designed to provide a firm basis for the study of both the contemporary written Czech (a goal well attainable with the present resources) and the Czech language beyond the limits of contemporary written texts (a long‐term commitment including the building of a corpus of spoken Czech and diachronic and dialectal corpora). The work on the CNC project, now in the eighth year of its official existence, has resulted in the completion of SYN2000, a 100‐million‐word corpus of contemporary written Czech, the organization of the cores of spoken, diachronic, and dialectal corpora, and the finding of workable solutions to some general theoretical problems involved in the building of these corpora.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/17.2.193"
         ],
         "abstract": "Many manuscripts of the Saddharmapundarika, which are among the most important manuscripts for the study of Buddhism, have been discovered in very different localities and are classified according to their place of discovery into the following three groups: Nepalese, Kashmirian, and Central Asian manuscripts. For the genealogical classification of these manuscripts, principal component analysis and cluster analysis, which describe the similarities between the verses of the different manuscripts, were applied to the data. As a result, we could successfully classify these manuscripts into two large groups and several smaller groups: one large group consists of ten paper manuscripts from Nepal and the other comprises nine palm‐leaf plus two paper manuscripts. The Kashmir and Central Asian manuscripts and a few of the Nepal manuscripts belong to the small groups.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
@@ -15275,66 +15383,57 @@
             "10.1093/llc/17.2.133"
         ],
         "abstract": "In this essay I explore a variety of experimental poetic tendencies produced in Spain during the twentienth century. Some of the most popular experimental poetic practices are visual poetry, sound poetry, phonetic poetry, computer poetry, video poetry, and mail art. Because these tendencies were not born in Spain we have to take into consideration international and historical avantgarde practices such as concretism, phonetic poetry, and others. I also study the different interests between multiple artistic languages employed in historical avant‐garde poetry and in more recent experimental poetry. Another aspect studied is the political background especially in the sixties and seventies in Spain and how it conditioned the development and durability of different groups and artistic expressions. Another important factor taken into consideration is the use and development of the different technologies available. Technology is not a medium in this kind of poetry but part of the message and for that purpose it can be used in different ways in the construction of a poem. Because of the complexity of the subject, and the difficulty of getting access to rare books and materials I give a panoramic view – with special attention to selected poems and authors – of the most visible experimental poetic manifestations produced in Spain. But there is a need to do more specialized studies in order to gain a better comprehension of these alternative poetic practices that are becoming more and more popular today.",
-        "authors": []
+        "authors": null
     },
     {
-        "string_id": [],
-        "abstract": "",
-        "authors": []
+        "string_id": ["10.1093/llc/17.2.231"],
+        "abstract": "Automatic keyword extraction is an extremely interesting prospect for computational humanists because of its potential as a tool to aid scholarship in the humanities. Keyword discovery routines can help organize large collections of texts and perhaps even guide scholars to the discovery of important elements in their source materials. It is not clear, however, that the methods designed to extract keywords from paper abstracts or newswire texts will be effective for literary texts that are not written in English. This paper describes the modifications required to the traditional tf★idf keyword discovery algorithm so that it will extract valid keywords from literary texts written in Ancient Greek.",
+        "authors": [
+            {
+                "given": " Jeffrey A.",
+                "family": "Rydberg‐Cox",
+                "affiliation": null
+            }
+        ]
     },
     {
         "string_id": [
             "10.1093/llc/17.2.207"
         ],
         "abstract": "Word alignment in bilingual or multilingual parallel corpora has been a challenging issue for natural language engineering. An efficient algorithm for automatically aligning word translation equivalents across different languages will be of use for a number of practical applications such as multilingual lexical construction, machine translation, etc. This paper presents a hybrid algorithm for English–Chinese word alignment, which incorporates co‐occurrence association measures, word distribution distances, English word lemmatization, and part‐of‐speech information. Eleven co‐occurrence association coefficients and eight distance measures of word distribution are explored to compare their efficiency for word alignment. The paper also describes an experiment in which the algorithm is evaluated on sentence‐aligned English–Chinese parallel corpora. In the experiment, the algorithm produced encouraging success rates on two test corpora, with the highest success rate of 89.37 per cent. It provides a practical tool for extracting word translation equivalents from English–Chinese parallel corpora.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/17.2.181"
         ],
         "abstract": "Determination of authorship, using methods such as those of Mosteller and Wallace, has been obliquely criticized by literary scholars for years. However, the most radical critique of these methods has, under the umbrella term ‘theory’, emerged since the 1960s in the writings of Barthes, Foucault, and Derrida. Thanks to their influence, authorship attribution is now distinguished from authorship ascription with only the latter applying to literary and linguistic computing. Various criticisms are examined in detail. Useful as these criticisms are, the philosophical roots of the postmodernist critiques are destructive of any attempt to discover who wrote what.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/17.2.157"
         ],
         "abstract": "This paper investigates the relative effectiveness and accuracy of multivariate analysis, specifically cluster analysis, of the frequencies of very frequent words and the frequencies of very frequent word sequences in distinguishing texts by different authors and grouping texts by a single author. Cluster analyses based on frequent words are fairly accurate for groups of texts by known authors, whether the texts are long sections of modern British and US novels or shorter sections of contemporary literary critical texts, but they are only rarely completely accurate. When frequent word sequences are used instead of frequent words or in addition to them, however, the accuracy of the analyses often improves, sometimes dramatically, especially when personal pronouns are eliminated. Analyses based on frequent sequences even provide completely correct results in some cases where analyses based on frequent words fail. They also produce superior results for small groups of problematic novels and critical texts extracted from the larger corpora. Such successes suggest that analyses based on frequent word sequences constitute improved tools for authorship and stylistic studies.",
-        "authors": []
+        "authors": null
     },
     {
-        "string_id": [],
-        "abstract": "",
-        "authors": []
+        "string_id": ["10.1093/llc/17.1.103"],
+        "abstract": "The application of computing to the disciplines of the humanities has two principal outcomes: useful results for the field of application and failures completely to demonstrate what is known. These failures, an inevitable feature of modelling, point to the key question for humanities computing, how we know what we know, and so to the beginning of its own scholarly enquiry. This, I argue, proceeds along three branches, the algorithmic, the metatextual, and the representational. Examining the first of these here I argue for research toward an open‐ended, interoperable set of primitives based on previous work in the field and designed for the emerging digital library environment. To set the stage for their further development I argue that the field as a whole does not wait on a theoretical formulation of what humanists do, rather should look to the tradition of experimental knowledge‐making as this has been illuminated in recent years by historians, philosophers, and sociologists of science.",
+        "authors": [
+            {
+                "given": "Willard",
+                "family": "McCarty",
+                "affiliation": null
+            }
+        ]
     },
     {
         "string_id": [
             "10.1093/llc/17.1.1"
         ],
         "abstract": "This paper presents a stemmer for processing document and query words to facilitate searching databases of Amharic text. An iterative stemmer has been developed that involves the removal of both prefixes and suffixes and that also takes account of letter inconsistency and reiterative verb forms. Application of the stemmer to a test file of 1221 words suggested that appropriate stems were generated for ca. 95 per cent of them, with only limited overstemming and understemming.",
-        "authors": []
-    },
-    {
-        "string_id": [
-            "10.1093/llc/17.1.77"
-        ],
-        "abstract": "",
-        "authors": []
-    },
-    {
-        "string_id": [
-            "10.1093/llc/17.1.47"
-        ],
-        "abstract": "",
-        "authors": []
-    },
-    {
-        "string_id": [
-            "10.1093/llc/17.1.37"
-        ],
-        "abstract": "",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
@@ -15363,42 +15462,42 @@
             "10.1093/llc/17.1.19"
         ],
         "abstract": "This paper presents a semi‐automatic ontology construction method using various resources, and an ontology‐based word sense disambiguation method in machine translation. To acquire a reasonably practical ontology in limited time and with less manpower, we extend the Kadokawa thesaurus by inserting additional semantic relations into its hierarchy, which are classified as case relations and other semantic relations. The former can be obtained by converting valency information and case frames from previously built computational dictionaries used in machine translation. The latter can be acquired from concept co‐occurrence information, which is extracted automatically from large corpora. The ontology stores rich semantic constraints among 1110 concepts, and enables a natural language processing system to resolve semantic ambiguities by making inferences with the concept network of the ontology. In practical machine translation systems, our word sense disambiguation method achieved a 6.0 per cent and 7.9 per cent improvement over methods that do not use an ontology for each Japanese and Korean translation.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/17.1.61"
         ],
         "abstract": "",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/17.1.130"
         ],
         "abstract": "",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/17.1.89"
         ],
         "abstract": "In any academic field, research advances tend to percolate naturally to higher education in that field. In recent years, there has been a slow but steady increase in the number of courses and degree programmes in humanities computing. This paper presents some reflections on the status of humanities computing in higher education, in terms of curricula, degrees, and international student and staff mobility. The most important issue is the question of what a humanities computing degree should offer, in view of the wide interdisciplinarity of the field. Different institutions have coped with this question in very different ways. With potentially far‐reaching consequences on methodology in the various relevant disciplines, humanities computing is bound to change both what and how humanities students learn. Curriculum innovation that aims to integrate computing in the humanities is a difficult process that requires reflection, co‐operation, teacher training, and other supporting actions.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/17.1.49"
         ],
         "abstract": "Over the last decade, HTML has moved from being the new file format of a new network service—the Web—to a well‐known but often abused barrier to communication. The advantages of changing to more formalized systems in XML are clear, but deployment has been hindered by the slow development of browsers, editors, and other software suitable for academic work. XML has greater potential than HTML for use off the Web, especially in the humanities, so the concept of ‘life beyond the Web’ for textual scholarship can be expressed in terms of opportunities for researchers. This paper is an expansion of a talk given to a Symposium of the Computer Science and English Initiative (COSEI) held in February 2000 at University College Dublin.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/17.1.127"
         ],
         "abstract": "",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
@@ -15937,19 +16036,14 @@
             "10.1093/llc/15.4.421"
         ],
         "abstract": "This paper describes the construction of a corpus of spoken Sylheti. The corpus was created to examine difficulties in the creation of spoken language corpora in which features such as code switching (simply described here as the process of switching from one language to another during the course of an interaction; however, this description disguises a host of situations, which will be examined in the paper) are common. The paper also presents a transliteration scheme for Sylheti based around the Roman alphabet.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/15.4.403"
         ],
         "abstract": "In this paper we argue that corpus linguistics needs to expand to cover a wider set of languages. While the reasons that some languages have not been provided with corpus data to the date are clear, the intellectual and moral imperative to extend the range of corpus linguistics is strong. However, there are technical problems to be faced in such an extension of corpus linguistics. These problems are reviewed here and possible solutions to them explored. Following on from this, we consider what possible benefits the provision of appropriate corpus data may bring to languages currently untouched by the development of corpus linguistics.",
-        "authors": []
-    },
-    {
-        "string_id": [],
-        "abstract": "",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
@@ -15971,7 +16065,7 @@
             "10.1093/llc/15.4.465"
         ],
         "abstract": "ORCHID (Open Linguistic Resources Chanelled toward InterDisciplinary research) is a project aimed at building linguistic resources to support research in, but not limited to, natural language processing. Based on the concept of an open architecture design, the resources must be fully compatible with those which already exist, and software tools must also be made available. This paper describes the construction of a Thai part-of-speech (POS) tagged corpus, a preliminary stage in the construction of a Thai speech corpus. The paper also details the development of a POS tagger to be used in the construction of the POS-tagged corpus. Additionally, we describe a proposal for a new tagset, based on the results of a prior multilingual machine translation project. The corpus is annotated on three levels: paragraph, sentence, and word. Text information is maintained in the form of the text information lines and the number lines, which are both utilized in data retrieval. Finally, we describe a POS neuro tagger, which consists of a three-layer perceptron with elastic input. Computer experiments show that the neuro tagger has an accuracy of 94.4 per cent for tagging ambiguous words when tested on a small Thai training corpus containing 22,311 ambiguous words. A series of comparative experiments further show that the neuro tagger is superior to the statistical models including the frequency model (a baseline model), a local n-gram model, and HMM (Hidden Markov Model).",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
@@ -15993,21 +16087,21 @@
             "10.1093/llc/15.3.339"
         ],
         "abstract": "The production of collections of grammatically analysed linguistic samples, or corpora, entails a parallel research effort in tools for exploiting such collections. This paper summarizes the new one million-word parsed British Component of the International Corpus of English (ICE-GB). We then introduce a tool designed annotating, managing, and investigating the parsed corpus, called ICECUP III. Effective grammatical exploration is driven by a query. We therefore pose the question, what is the optimum representation for expressing queries on a parsed corpus? We review existing grammatical query systems and a feasible representation in logic. We describe ICECUP's query representation, the Fuzzy Tree Fragment (FTF), which has proven extremely effective in supporting the manual correction of automatically annotated material in ICE-GB and is currently used for linguistic research. Central to the idea of FTFs is that they should be as easy to understand as possible and support researchers as they engage with the complexity of the parsed analysis. An FTF, therefore, is a kind of 'abstracted model' of a tree. We argue that FTFs are highly applicable to general linguistic research and teaching with grammatically analysed corpora. They support an exploratory approach that does not presume a detailed knowledge of the grammar in advance of search. Exploration is supported by a number of facilities, including a tool that abstracts a query from part of a corpus tree. Finally, we discuss how FTFs may be used to perform 'key construction in line' concordancing, and the use of logic to combine queries.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/15.3.323"
         ],
         "abstract": "This paper describes software (vocd) that implements a solution to problems encountered in quantifying vocabulary diversity. Researchers in various fields of linguistic enquiry have calculated vocabulary diversity using the ratio of different words (Types) to total words (Tokens) - the Type-Token Ratio (TTR) - or measures derived from it. Such measures are flawed, however, because the values obtained are related to the number of words in the sample. The paper shows how the relationship between TTR and sample size can be described by a new mathematical model, which in turn leads to an innovative method of measuring vocabulary diversity. The software automates measurement from transcripts prepared in a widely used computer-readable set of conventions: the CHAT format of the CHILDES project. Options in vocd are described to show how the user can determine which linguistic items will count as valid types and tokens in the analysis. The new measure is calculated by, first, randomly sampling words from the transcript to produce a curve of the TTR against Tokens for the empirical data. Then the software finds the best fit between this empirical curve and theoretical curves calculated from the model by adjusting the value of a parameter. The parameter, D, is shown to be a valid and reliable measure of vocabulary diversity without the problems of sample size found with previous methods.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/15.3.291"
         ],
         "abstract": "This paper presents an implementation of a syntactic parser for the Modern Greek language based on the PC-PATR formalism. The Modern Greek language presents a high flexibility in its syntactic structure. The various phrasal categories (noun phrases, verb phrases, prepositional, and adverbial phrases) can be ordered in almost any permutation so as to build valid sentences. The allowable combinations of lexical categories (nouns, verbs, adjectives, etc.) forming the above phrases, as well as the combinations of these phrases, forming clauses, are encoded according to the PC-PATR formalism and are presented in this paper. The presented rules cover the majority of the syntactic phenomena of the Modern Greek language, adequate for speech and natural language applications.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
@@ -16029,21 +16123,21 @@
             "10.1093/llc/15.3.251"
         ],
         "abstract": "In this paper, we address the issue of the effective reduction of out-of-vocabulary (OOV) words for automatic speech recognition (ASR) systems. We first of all evaluate the OOV rates produced by different vocabulary sets selected from a corpus of British English according to the raw frequency of occurrence. We demonstrate that OOV rates in realistic input from unlimited domains are much higher than has been reported in the literature for ASR systems that typically deal with only a subset of the English language. To reduce OOV rates, we then propose that the textual dispersion of word types is a more effective selection criterion for the acquisition of lexicons than the conventional method of lexical selection according to raw frequencies of occurrence. We evaluate the performance of the adjusted frequency according to the index of dispersion, and the dispersion of word types among component text categories of the training corpus. With an 80,000-word vocabulary, the estimated frequency per million words adjusted according the index of dispersion achieves and improvement of 7.3 per cent over the frequency-based approach for a large set of testing material from a variety of sources. Vocabulary sets selected according to textual dispersion alone achieve a slightly better overall OOV reduction rate of 7.5 per cent.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/15.3.313"
         ],
         "abstract": "A natural language generation system used for computer-aided language learning generates stimuli, or 'questions', along with one or more anticipated learner responses. To provide the learner with intelligent feedback, the system initially compares the actual responses entered by the learner with those produced by the system. The differences discovered in this way may be though of as symptoms; the eventual aim is to diagnose the deeper problems, misunderstandings of the language that underlie the symptoms, to offer corrective advice. This paper considers alternative approaches to the comparison process, and describes a two-level algorithm, based on approximate string matching, which determines and categorizes the differences between learner and system responses. The process detects variations in word order, insertions and deletions. It also reports on the use of synonyms or malwords, errors in morphology, phonological errors and typing slips. In subsequent work, these will form the basis for the adaptive generation of new stimuli, as well as for the deeper diagnosis of learner difficulties. Some typical results are shown.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/15.3.265"
         ],
         "abstract": "",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
@@ -16065,14 +16159,14 @@
             "10.1093/llc/15.2.187"
         ],
         "abstract": "Previous work in using artificial neural networks for computational stylistics has concentrated on using large, arbitrary network structures. This paper examines the use of the Cascade-Correlation algorithm for the construction of minimal networks. We find that a number of problems in computational stylistics with a large number of variables but a limited number of training examples may be solved successfully without resorting to large networks. The issue of redundancy in the data is also considered.",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
             "10.1093/llc/15.2.131"
         ],
         "abstract": "This paper summarizes our experience in optimizing representational models of inflexional (accidence) morphological analysis for different languages. Some of the linguistic engineering questions addressed in the paper include the following: How far can linguistic adequacy be maintained in morphological components of marketable machine translation software on the IBM PC platform? What generalizations can be made contributing to the more uniform approach to morphology for languages of various structures? What are the parameters that can be adjusted quantitatively to allow for general model application to different languages? A generalized approach of treating postfixal languages is proposed, which is supplemented by suggestions on its modification for languages that are clearly not postfixal (e.g. Arabic).",
-        "authors": []
+        "authors": null
     },
     {
         "string_id": [
@@ -16179,9 +16273,9 @@
         ]
     },
     {
-        "string_id": [],
-        "abstract": "",
-        "authors": []
+        "string_id": ["10.1093/llc/15.1.15"],
+        "abstract": "The Perseus digital library is a substantial test bed of materials on archaic and classical Greece, the early Roman empire, and early modern Europe. The Perseus architecture includes tools that fit the needs of humanists: linguistic analysis for heavily inflected languages, linking and alignment with canonical citation schemes, and terminological, spatial, and visual databases for document contextualization. These tools provide both the scalability to connect disparate entities in the digital library and a groundwork for performance of the synthetic scholarship of the humanities.",
+        "authors": null
     },
     {
         "string_id": [
@@ -16214,9 +16308,17 @@
         ]
     },
     {
-        "string_id": [],
-        "abstract": "",
-        "authors": []
+        "string_id": ["10.1093/llc/15.1.93"],
+        "abstract": "Modularity, professionality, portability, and integration are the key features of the TUebingen System for TExt Processing programs (TUSTEP), a professional toolbox for those academic fields where texts are the object of research. Its potential is illustrated by two examples: (i) typesetting a TEI-lite encoded text, using the TEI tags as formatting instructions; (ii) preparing a critical edition, starting from automatic collation, then semi-automatically selecting the 'substantial' variants from the collation results, transforming them into a critical apparatus, and publishing the edition both in print and electronically.",
+        "authors": [
+            {
+                "given": " W",
+                "family": "Ott",
+                "affiliation": [
+                    "  Universität Tübingen, Zentrum für Datenverarbeitung, Wächterstrasse 76, D-72074 Tübingen, Germany  E-mail: ott@zdv.uni-tuebingen.de  "
+                ]
+            }
+        ]
     },
     {
         "string_id": [
@@ -16247,23 +16349,6 @@
                 ]
             }
         ]
-    },
-    {
-        "string_id": [],
-        "abstract": "",
-        "authors": []
-    },
-    {
-        "string_id": [],
-        "abstract": "",
-        "authors": []
-    },
-    {
-        "string_id": [
-            "10.1093/llc/15.1.1"
-        ],
-        "abstract": "",
-        "authors": []
     },
     {
         "string_id": [
