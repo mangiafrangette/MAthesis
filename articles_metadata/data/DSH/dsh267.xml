@@ -1,0 +1,1748 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+
+        <title>DASCH: Data and Service Center for the Humanities | Digital Scholarship in the Humanities | Oxford Academic</title>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js" type="text/javascript"></script>
+<script>window.jQuery || document.write('<script src="//oup.silverchair-cdn.com/UI/app/vendor/jquery-2.2.4.js" type="text/javascript">\x3C/script>')</script>
+<script src="//oup.silverchair-cdn.com/Themes/Silver/app/vendor/v-637389614866021597/jquery-migrate-1.4.1.min.js" type="text/javascript"></script>
+
+
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+    
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <!-- Turn off telephone number detection. -->
+    <meta name="format-detection" content="telephone=no" />
+
+<!-- Bookmark Icons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="//oup.silverchair-cdn.com/UI/app/img/v-637389614697592184/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="//oup.silverchair-cdn.com/UI/app/img/v-637389614697748397/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="//oup.silverchair-cdn.com/UI/app/img/v-637389614697748397/favicon-16x16.png" sizes="16x16">
+  <link rel="mask-icon" href="//oup.silverchair-cdn.com/UI/app/img/v-637389614697748397/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="//oup.silverchair-cdn.com/UI/app/img/v-637389614697748397/favicon.ico">
+  <link rel="manifest" href="//oup.silverchair-cdn.com/UI/app/img/v-637389614697748397/manifest.json">
+  <meta name="msapplication-config" content="//oup.silverchair-cdn.com/UI/app/img/v-637389614697592184/browserconfig.xml">
+  <meta name="theme-color" content="#002f65">
+
+
+    
+
+
+
+
+<link rel="stylesheet" type="text/css" href="//oup.silverchair-cdn.com/UI/app/fonts/icons.css" />
+
+<link rel="stylesheet" type="text/css" href="//oup.silverchair-cdn.com/UI/app/css/v-637389617098071498/style.min.css" />
+
+        <link rel="stylesheet" type="text/css" href="//oup.silverchair-cdn.com/UI/app/vendor/oupCookiePolicy/css/v-637389614698998372/jquery.fancybox-1.3.4_1.css" />
+        <link rel="stylesheet" type="text/css" href="//oup.silverchair-cdn.com/UI/app/vendor/jscrollpane/v-637389614698998372/jscrollpane.css" />
+        <link rel="stylesheet" type="text/css" href="//oup.silverchair-cdn.com/UI/app/vendor/jquery.tablesorter/v-637389614698998372/theme.default.css" />
+
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Merriweather:300,400,400italic,700,700italic|Source+Sans+Pro:400,400italic,700,700italic" />
+
+
+        <link href=//oup.silverchair-cdn.com/data/SiteBuilderAssetsOriginals/Live/CSS/journals/global.css rel="stylesheet" type="text/css" />
+                <link href=//oup.silverchair-cdn.com/data/SiteBuilderAssets/Live/CSS/dsh/Site567563881.css rel="stylesheet" type="text/css" />
+
+
+
+    <script> var dataLayer = [{"event_type":"full-text","supplier_tag":"SC_Journals","object_type":"Article","siteid":"dsh","authzrequired":"false","doi":"10.1093/llc/fqv051"}]; </script>
+        <script>
+        (function (w, d, s, l, i) {
+          w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+              new Date().getTime(), event: 'gtm.js'
+          }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-W6DD7HV');
+        </script>
+
+    
+
+        <script type="text/javascript">
+            var App = App || {};
+            App.LoginUserInfo = {
+                isInstLoggedIn: 0,
+                isIndividualLoggedIn: 0
+            };
+
+            App.CurrentSubdomain = 'dsh';
+            App.SiteURL = 'academic.oup.com/dsh';
+        </script>
+    
+    
+    <link href="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css" rel="stylesheet" type="text/css" />
+    <script type="application/ld+json">
+        {"@context":"http://schema.org","@id":"https://academic.oup.com/dsh/article/30/suppl_1/i43/365238","@type":"ScholarlyArticle","name":"DASCH: Data and Service Center for the Humanities","datePublished":"2015-10-09","isPartOf":{"@id":"https://academic.oup.com/dsh/dsh/issue/30/suppl_1","@type":"PublicationIssue","issueNumber":"suppl_1","datePublished":"2015-12-01","isPartOf":{"@id":"https://academic.oup.com/dsh/dsh","@type":"Periodical","name":"Digital Scholarship in the Humanities","issn":["2055-768X"]}},"url":"http://dx.doi.org/10.1093/llc/fqv051","inLanguage":"en","copyrightHolder":"EADH: The European Association for Digital Humanities","copyrightYear":"2020","publisher":"Oxford University Press","sameAs":"https://academic.oup.com/dsh/article/30/suppl_1/i43/365238","author":[{"name":"Rosenthaler, Lukas","affiliation":"Digital Humanities Lab, University of Basel, Basel, Switzerland","@type":"Person"},{"name":"Fornaro, Peter","affiliation":"Digital Humanities Lab, University of Basel, Basel, Switzerland","@type":"Person"},{"name":"Clivaz, Claire","affiliation":"University of Lausanne, Ladhul, Faculty of Social and Political Sciences, Swiss Institute of Bioinformatics, VITAL-IT, Lausanne (CH), Switzerland","@type":"Person"}],"description":"Abstract.  Research data in the humanities needs to be sustainable, and access to digital resources must be possible over a long period. Only if these prerequis","pageStart":"i43","pageEnd":"i49","thumbnailURL":"//oup.silverchair-cdn.com/UI/app/img/generic-cover.png","headline":"DASCH: Data and Service Center for the Humanities","image":"//oup.silverchair-cdn.com/UI/app/img/generic-cover.png"}
+    </script>
+    <meta property="og:site_name" content="OUP Academic" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="DASCH: Data and Service Center for the Humanities" />
+    <meta property="og:description" content="Abstract.  Research data in the humanities needs to be sustainable, and access to digital resources must be possible over a long period. Only if these prerequis" />
+    <meta property="og:url" content="https://academic.oup.com/dsh/article/30/suppl_1/i43/365238" />
+    <meta property="og:image" content="//oup.silverchair-cdn.com/UI/app/img/generic-cover.png" />
+    <meta property="og:updated_time" content="2015-10-09" />
+<meta name="citation_author" content="Rosenthaler, Lukas" /><meta name="citation_author_institution" content="Digital Humanities Lab, University of Basel, Basel, Switzerland" /><meta name="citation_author" content="Fornaro, Peter" /><meta name="citation_author_institution" content="Digital Humanities Lab, University of Basel, Basel, Switzerland" /><meta name="citation_author" content="Clivaz, Claire" /><meta name="citation_author_institution" content="University of Lausanne, Ladhul, Faculty of Social and Political Sciences, Swiss Institute of Bioinformatics, VITAL-IT, Lausanne (CH), Switzerland " /><meta name="citation_title" content="DASCH: Data and Service Center for the Humanities" /><meta name="citation_firstpage" content="i43" /><meta name="citation_lastpage" content="i49" /><meta name="citation_doi" content="10.1093/llc/fqv051" /><meta name="citation_journal_title" content="Digital Scholarship in the Humanities" /><meta name="citation_journal_abbrev" content="Digital Scholarship Humanities" /><meta name="citation_volume" content="30" /><meta name="citation_issue" content="suppl_1" /><meta name="citation_publication_date" content="2015/12/01" /><meta name="citation_issn" content="2055-7671" /><meta name="citation_publisher" content="Oxford Academic" /><meta name="citation_reference" content="citation_title=A digital dark ages? Challenges in the preservation of electronic information; citation_author=Kuny  T.; citation_publisher=International Federation of Library Associations and Institutions, Copenhagen, Denmark;  citation_title=63rd IFLA General Conference;  citation_year=1997; " /><meta name="citation_reference" content="citation_title=Long term preservation of digital information; citation_author=Lorie  R. A.; citation_publisher=Association of Computing Machinery, New York;  citation_title=Proceedings of the 1st ACM/IEEE-CS Joint Conference on Digital Libraries, Roanoke, VA, 24–28 June 2001;  citation_year=2001;  citation_pages=346-52; " /><meta name="citation_reference" content="citation_title=A survey of digital preservation strategies; citation_author=Luan  F.; citation_author=Nygard  M.; citation_author=Mesti  T.;  citation_journal_title=World Digital Libraries;  citation_year=2010;  citation_volume=l3;  citation_issue=2; " /><meta name="citation_reference" content="citation_author=Rosenthaler  L.; citation_author=Gschwind  R.; citation_author=Frey  F.;  citation_year=1999; " /><meta name="citation_reference" content="citation_author=Preserving.exe: Toward a National Strategy for Preserving Software;  citation_year=2013; " /><meta name="citation_reference" content="citation_author=Subotic  I.; citation_author=Rosenthaler  L.; citation_author=Schuldt  H.; citation_publisher=ACM, New York;  citation_title=A Distributed Archival Network for Process-Oriented Autonomic Long-Term Digital Preservation, ACM Proceedings of the Joint Conference on Digital Libraries;  citation_year=2013;  citation_pages=29-38; " /><meta name="citation_fulltext_world_readable" content="" /><meta name="citation_pdf_url" content="https://academic.oup.com/dsh/article-pdf/30/suppl_1/i43/1042799/fqv051.pdf" /><meta name="description" content="Abstract.  Research data in the humanities needs to be sustainable, and access to digital resources must be possible over a long period. Only if these prerequis" /><meta name="citation_xml_url" content="https://academic.oup.com/dsh/article-xml/30/suppl_1/i43/365238" />
+
+
+
+    <link rel="canonical" href="https://academic.oup.com/dsh/article/30/suppl_1/i43/365238" />
+
+
+
+
+
+
+
+    
+    
+
+
+<script async="async" src="https://www.googletagservices.com/tag/js/gpt.js"></script>
+<script>
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+</script>
+    
+        <script type='text/javascript'>
+            var gptAdSlots = [];
+            googletag.cmd.push(function() {
+                    
+                    var mapping_ad1 = googletag.sizeMapping()
+                        .addSize([1024, 0], [[970, 90], [728, 90]])
+                        .addSize([768, 0], [728, 90])
+                        .addSize([0, 0], [320, 50])
+                        .build();
+                    gptAdSlots["ad1"] = googletag.defineSlot('/116097782/dsh_Behind_Ad1',
+                            [[970, 90], [728, 90], [320, 50]], 'adBlockHeader')
+                        .defineSizeMapping(mapping_ad1)
+                        .addService(googletag.pubads());
+                    
+
+                    
+                    var mapping_ad2 = googletag.sizeMapping()
+                        .addSize([768, 0], [[300, 250], [300, 600], [160, 600]])
+                        .build();
+                    gptAdSlots["ad2"] = googletag.defineSlot('/116097782/dsh_Behind_Ad2',
+                            [[300, 250], [160, 600], [300, 600]], 'adBlockMainBodyTop')
+                        .defineSizeMapping(mapping_ad2)
+                        .addService(googletag.pubads());
+                    
+
+                    
+                    var mapping_ad3 = googletag.sizeMapping()
+                        .addSize([768, 0], [[300, 250], [300, 600], [160, 600]])
+                        .build();
+                    gptAdSlots["ad3"] = googletag.defineSlot('/116097782/dsh_Behind_Ad3',
+                        [[300, 250], [160, 600], [300, 600]], 'adBlockMainBodyBottom')
+                        .defineSizeMapping(mapping_ad3)
+                        .addService(googletag.pubads());
+                    
+
+                    
+                var mapping_ad4 = googletag.sizeMapping()
+                        .addSize([0,0], [728, 90])
+                        .addSize([768, 0], [728, 90])
+                        .build();
+                    gptAdSlots["ad4"] = googletag.defineSlot('/116097782/dsh_Behind_Ad4',
+                        [728, 90], 'adBlockFooter')
+                        .defineSizeMapping(mapping_ad4)
+                        .addService(googletag.pubads());
+                    
+
+                googletag.pubads().addEventListener('slotRenderEnded', function (event) {
+;                    if (!event.isEmpty) {
+                        $('.js-' + event.slot.getSlotElementId()).each(function () {
+                            if ($(this).find('iframe').length) {
+                                $(this).removeClass('hide');
+                            }
+                        });
+                    }
+                });
+
+                googletag.pubads().setTargeting("jnlspage", "article");
+                googletag.pubads().setTargeting("jnlsurl", "dsh/article/30/suppl_1/i43/365238");
+                googletag.pubads().enableSingleRequest();
+                googletag.pubads().collapseEmptyDivs();
+            });
+        </script>
+    
+
+
+    
+
+
+    
+
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    <script>
+        var oupcookiepolicy_siteid = "journals";        // the website id
+        var oupcookiepolicy_messagetype = 'implied';                        // type of alert message e.g, implied / explicit
+        var oupcookiepolicy_preferredlanguage = "en";      // preferred language of the website
+        var oupcookiepolicy_impliedmessageclass = 'cookiepolicyimplied';    // the css class for implied alert message
+        var oupcookiepolicy_documentroot = '/';	  			                // the document root the cookie is set to
+    </script>
+    <noscript>We use cookies to enhance your experience on our website.By continuing to use our website, you are agreeing to our use of cookies. You can change your cookie settings at any time. <a href="https://global.oup.com/cookiepolicy/"> Find out more</a></noscript>
+    <script type="text/javascript">
+        var NTPT_PGEXTRA= 'event_type=full-text&supplier_tag=SC_Journals&object_type=Article&siteid=dsh&authzrequired=false&doi=10.1093/llc/fqv051';
+    </script>
+
+
+
+
+    <script src="https://scholar.google.com/scholar_js/casa.js" async></script>
+
+
+</head>
+
+<body data-sitename="digitalscholarshipinthehumanities" class="off-canvas pg_Article pg_article  " theme-dsh data-sitestyletemplate="Journal" >
+    
+        <noscript>
+            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W6DD7HV"
+                    height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
+        <a href="#skipNav" class="skipnav">Skip to Main Content</a>
+<input id="hdnSiteID" name="hdnSiteID" type="hidden" value="5447" /><input id="hdnAdDelaySeconds" name="hdnAdDelaySeconds" type="hidden" value="5000" /><input id="hdnAdConfigurationTop" name="hdnAdConfigurationTop" type="hidden" value="default" /><input id="hdnAdConfigurationRightRail" name="hdnAdConfigurationRightRail" type="hidden" value="sticky" />
+    
+
+
+
+
+
+
+<div class="master-container js-master-container">
+    <section class="master-header row js-master-header vt-site-page-header">
+    <div class="widget widget-SitePageHeader widget-instance-SitePageHeader">
+        
+    <div class="ad-banner js-ad-banner-header">
+    <div class="widget widget-AdBlock widget-instance-HeaderAd">
+        
+
+<div class="adBlockHeader-wrap js-adBlockHeader hide">
+    
+    <div id="adBlockHeader"
+         style=" ">
+        <script>
+            googletag.cmd.push(function () { googletag.display('adBlockHeader'); });
+        </script>
+    </div>
+        <div class="advertisement-text">Advertisement</div>
+</div> 
+    </div>
+
+    </div>
+
+    <div class="oup-header ">
+        <div class="center-inner-row">
+            <div class="oup-header-logo">
+                <a href="/">
+                    <img src="//oup.silverchair-cdn.com/UI/app/svg/umbrella/oxford-academic-logo.svg" alt="Oxford University Press" class="oup-header-image" />
+                </a>
+            </div>
+
+            <ul class="oup-header-menu account-menu">
+
+                
+                <li class="oup-header-menu-item mobile">
+                    <a href="javascript:;" class="mobile-dropdown-toggle mobile-search-toggle">
+                        <i class="icon-menu_search"><span class="screenreader-text">Search Menu</span></i>
+                    </a>
+                </li>
+
+                
+                <li class="oup-header-menu-item mobile">
+                        <a href="javascript:;" class="mobile-dropdown-toggle mobile-account-toggle">
+                            <i class="icon-menu_account"><span class="screenreader-text">Account Menu</span></i>
+                        </a>
+                </li>
+
+                
+                <li class="oup-header-menu-item mobile">
+                    <a href="javascript:;" class="mobile-dropdown-toggle mobile-nav-toggle">
+                        <i class="icon-menu_hamburger"><span class="screenreader-text">Menu</span></i>
+                    </a>
+                </li>
+
+                
+                <li class="oup-header-menu-item desktop">
+                        <a href="" class="dropdown-toggle signin js-header-account-info-user-fullname" id="header-account-info-user-fullname-desktop">
+Sign In                            <i class="icon-general-arrow-filled-down arrow-icon"></i>
+                        </a>
+                        <div class="dropdown-panel dropdown-panel-signin dropdown-panel-form">
+                            <div class="spinner"></div>
+                        </div>
+                </li>
+
+                
+                    <li class="oup-header-menu-item desktop"><a href="/my-account/register?siteId=5447&amp;returnUrl=%2fdsh%2farticle%2f30%2fsuppl_1%2fi43%2f365238" class="register">Register</a></li>
+                
+            </ul>
+
+            <div class="login-box-placeholder js-login-box-placeholder hide">
+                <div class="spinner"></div>
+            </div>
+        </div>
+    </div>
+<div class="dropdown-panel-wrap">
+
+    
+    <div class="dropdown-panel mobile-search-dropdown">
+        <div class="mobile-search-inner-wrap">
+                <div class="navbar-search">
+                    <div id="MobileMicrositeSearch" class="mobile-microsite-search">
+                        <label for="mobile-navbar-search-filter" class="screenreader-text">Navbar Search Filter</label>
+                        <select class="navbar-search-filter" id="mobile-navbar-search-filter">
+                                                            <optgroup label="Search within this journal">
+<option class="header-search-bar-filters-item" value="Issue">This issue</option><option class="header-search-bar-filters-item" value="">All  Digital Scholarship in the Humanities</option>
+                                </optgroup>
+                                <optgroup label="Search beyond this journal">
+<option class="header-search-bar-filters-item" value="Journals">All  Journals</option>                                </optgroup>
+                        </select>
+
+
+
+
+
+                        <label for="MobileMicrositeSearchTerm" class="screenreader-text">Mobile Microsite Search Term</label>
+                        <input class="mobile-search-input mobile-microsite-search-term" type="text" maxlength="255" placeholder="Search" id="MobileMicrositeSearchTerm">
+
+                        <a href="javascript:;" id="MobileMicrositeSearchIcon" class="mobile-microsite-search-icon mobile-search-submit icon-menu_search"><span class="screenreader-text">Search</span></a>
+
+                    </div>
+                </div>        </div>
+    </div>
+    
+    <div class="dropdown-panel mobile-account-dropdown">
+        <ul class="site-menu site-menu-lvl-0">
+            <li class="site-menu-item site-menu-lvl-0">
+                <a href="" class="nav-link mobile-account-signin dummy-link js-header-account-info-user-fullname" id="header-account-info-user-fullname-mobile">
+                    
+Sign In                    <i class="mobile-nav-arrow icon-general_arrow-down"></i>
+                </a>
+                <ul class="site-menu site-menu-lvl-1 individual-menu">
+                    <li class="dropdown-signin-form">
+                        <div class="spinner"></div>
+                    </li>
+                </ul>
+            </li>
+                            <li class="site-menu-item">
+                    <a href="/my-account/register?siteId=5447&amp;returnUrl=%2fdsh%2farticle%2f30%2fsuppl_1%2fi43%2f365238" class="register nav-link">Register</a>
+                </li>
+        </ul>
+    </div>
+    
+    <div class="dropdown-panel mobile-nav-dropdown">
+
+
+    <i class="desktop-nav-arrow icon-general-arrow-filled-down arrow-icon"></i><i class="mobile-nav-arrow icon-general_arrow-down"></i>
+    <ul class="site-menu site-menu-lvl-0">
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426198">
+                <a href="/dsh/issue" class="nav-link ">Issues</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426199">
+                <a href="/dsh/advance-articles" class="nav-link ">Advance articles</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426196">
+                <a href="/dsh/#" class="nav-link dummy-link">Submit</a>
+                    <i class="desktop-nav-arrow icon-general-arrow-filled-down arrow-icon"></i><i class="mobile-nav-arrow icon-general_arrow-down"></i>
+    <ul class="site-menu site-menu-lvl-1">
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426200">
+                <a href="/dsh/pages/General_Instructions" class="nav-link ">Author Guidelines</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426201">
+                <a href="http://mc.manuscriptcentral.com/dsh" class="nav-link ">Submission Site</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426202">
+                <a href="/dsh/pages/General_Instructions" class="nav-link ">Open Access</a>
+                
+            </li>
+    </ul>
+
+            </li>
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426203">
+                <a href="/dsh/subscribe" class="nav-link ">Purchase</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426204">
+                <a href="/my-account/email-alerts" class="nav-link ">Alerts</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426197">
+                <a href="/dsh/#" class="nav-link dummy-link">About</a>
+                    <i class="desktop-nav-arrow icon-general-arrow-filled-down arrow-icon"></i><i class="mobile-nav-arrow icon-general_arrow-down"></i>
+    <ul class="site-menu site-menu-lvl-1">
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426205">
+                <a href="/dsh/pages/About" class="nav-link ">About Digital Scholarship in the Humanities</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426206">
+                <a href="http://eadh.org/about" class="nav-link ">About the European Association for Digital Humanities</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426207">
+                <a href="http://adho.org/about" class="nav-link ">About the Alliance of Digital Humanities Organizations</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426208">
+                <a href="/dsh/pages/Editorial_Board" class="nav-link ">Editorial Board</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426209">
+                <a href="http://www.oupmediainfo.com/" class="nav-link ">Advertising and Corporate Services</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426210">
+                <a href="https://globaljobs-careernetwork.oxfordjournals.org/" class="nav-link ">Journals Career Network</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426211">
+                <a href="https://academic.oup.com/journals/pages/access_purchase/rights_and_permissions/self_archiving_policy_f" class="nav-link ">Self-Archiving Policy</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426212">
+                <a href="http://www.oxfordjournals.org/en/access-purchase/dispatch-dates.html" class="nav-link ">Dispatch Dates</a>
+                
+            </li>
+    </ul>
+
+            </li>
+    </ul>
+    </div>
+
+</div>
+
+
+    <div class="journal-header journal-bg">
+        <div class="center-inner-row">
+                            <a href="/dsh" class="journal-logo-container">
+                    <img id="logo-DigitalScholarshipintheHumanities" class="journal-logo" src="//oup.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/dsh/dsh_title242156087.svg" alt="Digital Scholarship in the Humanities" />
+                </a>
+
+            <div class="society-logo-block">
+                    <div class="society-block-inner-wrap">
+                            <a href="http://eadh.org/" target="" class="society-logo-container">
+                                <img id="logo-EuropeanAssociationforDigitalHumanities" class="society-logo" src="//oup.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/dsh/dsh_h1-1114140978.png" alt="European Association for Digital Humanities" />
+                            </a>
+                                                    <a href="http://adho.org/" target="" class="society-logo-container">
+                                <img id="logo-AllianceofDigitalHumanitiesOrganizations" class="society-logo" src="//oup.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/dsh/dsh_h2-398941868.png" alt="Alliance of Digital Humanities Organizations" />
+                            </a>
+                    </div>            </div> 
+        </div>
+    </div>
+<div class="navbar">
+    <div class="center-inner-row">
+        <nav class="navbar-menu">
+
+
+    <i class="desktop-nav-arrow icon-general-arrow-filled-down arrow-icon"></i><i class="mobile-nav-arrow icon-general_arrow-down"></i>
+    <ul class="site-menu site-menu-lvl-0">
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426198">
+                <a href="/dsh/issue" class="nav-link ">Issues</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426199">
+                <a href="/dsh/advance-articles" class="nav-link ">Advance articles</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426196">
+                <a href="/dsh/#" class="nav-link dummy-link">Submit</a>
+                    <i class="desktop-nav-arrow icon-general-arrow-filled-down arrow-icon"></i><i class="mobile-nav-arrow icon-general_arrow-down"></i>
+    <ul class="site-menu site-menu-lvl-1">
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426200">
+                <a href="/dsh/pages/General_Instructions" class="nav-link ">Author Guidelines</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426201">
+                <a href="http://mc.manuscriptcentral.com/dsh" class="nav-link ">Submission Site</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426202">
+                <a href="/dsh/pages/General_Instructions" class="nav-link ">Open Access</a>
+                
+            </li>
+    </ul>
+
+            </li>
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426203">
+                <a href="/dsh/subscribe" class="nav-link ">Purchase</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426204">
+                <a href="/my-account/email-alerts" class="nav-link ">Alerts</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426197">
+                <a href="/dsh/#" class="nav-link dummy-link">About</a>
+                    <i class="desktop-nav-arrow icon-general-arrow-filled-down arrow-icon"></i><i class="mobile-nav-arrow icon-general_arrow-down"></i>
+    <ul class="site-menu site-menu-lvl-1">
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426205">
+                <a href="/dsh/pages/About" class="nav-link ">About Digital Scholarship in the Humanities</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426206">
+                <a href="http://eadh.org/about" class="nav-link ">About the European Association for Digital Humanities</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426207">
+                <a href="http://adho.org/about" class="nav-link ">About the Alliance of Digital Humanities Organizations</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426208">
+                <a href="/dsh/pages/Editorial_Board" class="nav-link ">Editorial Board</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426209">
+                <a href="http://www.oupmediainfo.com/" class="nav-link ">Advertising and Corporate Services</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426210">
+                <a href="https://globaljobs-careernetwork.oxfordjournals.org/" class="nav-link ">Journals Career Network</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426211">
+                <a href="https://academic.oup.com/journals/pages/access_purchase/rights_and_permissions/self_archiving_policy_f" class="nav-link ">Self-Archiving Policy</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426212">
+                <a href="http://www.oxfordjournals.org/en/access-purchase/dispatch-dates.html" class="nav-link ">Dispatch Dates</a>
+                
+            </li>
+    </ul>
+
+            </li>
+    </ul>
+        </nav>
+            <div class="navbar-search-container js-navbar-search-container">
+                <a href="javascript:;" class="navbar-search-close js_close-navsearch">Close</a>
+                    <div class="navbar-search">
+                        <div id="MicrositeSearch" class="microsite-search">
+                            <label for="navbar-search-filter" class="screenreader-text">search filter</label>
+                            <select class="navbar-search-filter" id="navbar-search-filter">
+                                                                    <optgroup label="Search within this journal">
+                                                <option class="header-search-bar-filters-item" value="Issue" >This issue</option>
+                                                <option class="header-search-bar-filters-item" value="" selected=&quot;selected&quot;>All  Digital Scholarship in the Humanities</option>
+
+                                    </optgroup>
+                                    <optgroup label="Search beyond this journal">
+                                                <option class="header-search-bar-filters-item" value="Journals" >All  Journals</option>
+                                    </optgroup>
+                            </select>
+
+                            <label for="MicrositeSearchTerm" class="screenreader-text">search input</label>
+                            <input class="navbar-search-input microsite-search-term" type="text" maxlength="255" id="MicrositeSearchTerm" title="search input">
+
+                            <a href="javascript:;" id="MicrositeSearchIcon" class="microsite-search-icon navbar-search-submit icon-menu_search"><span class="screenreader-text">Search</span></a>
+
+                        </div>
+                    </div>                <div class="navbar-search-advanced"><a href="/dsh/advanced-search" class="advanced-search js-advanced-search">Advanced Search</a></div>
+            </div>            <div class="navbar-search-collapsed"><a href="javascript:;" class="icon-menu_search js_expand-navsearch"><span class="screenreader-text">Search Menu</span></a></div>
+    </div>
+</div>
+
+<input id="hfEnableOupOnlineProductsFeatures" name="hfEnableOupOnlineProductsFeatures" type="hidden" value="False" />
+
+    <input type="hidden" name="searchScope" id="hfSolrJournalID" value="" />
+    <input type="hidden" id="hfSolrJournalName" value="" />
+    <input type="hidden" id="hfSolrMaxAllowSearchChar" value="100" />
+    <input type="hidden" id="hfJournalShortName" value="" />
+    <input type="hidden" id="hfSearchPlaceholder" value="" />
+    <input type="hidden" name="hfGlobalSearchSiteURL" id="hfGlobalSearchSiteURL" value="" />
+        <input type="hidden" name="parentSiteName" id="hfParentSiteName" value="Journals" />
+        <input type="hidden" name="parentSiteUrl" id="hfParentSiteUrl" value="academic.oup.com/journals" />
+        <input type="hidden" name="siteID" id="hfSiteID" value="5447" />
+        <input type="hidden" name="parentSiteID" id="hfParentSiteID" value="5567" />
+        <input type="hidden" name="journalSiteScope" id="hfJournalSiteScope" value="Journals" />
+        <input type="hidden" name="parentSiteScope" id="hfParentSiteScope" value="Parent" />
+        <input type="hidden" name="defaultSearchURL" id="hfDefaultSearchURL" value="search-results?page=1&amp;q=" />
+        <input type="hidden" name="issueSearch" id="hfIssueSearch" value="&amp;fl_IssueID=14085" />
+        <input type="hidden" name="issueSiteScope" id="hfIssueSiteScope" value="Issue" />
+<input id="hfDefaultAdvancedSearchUrl" name="hfDefaultAdvancedSearchUrl" type="hidden" value="advanced-search?page=1&amp;q=" />    <input type="hidden" name="hfSearchSiteURL" id="hfSiteURL" value="academic.oup.com/dsh" />
+    <script type="text/javascript">
+        (function () {
+            var hfSiteUrl = document.getElementById('hfSiteURL');
+            var siteUrl = hfSiteUrl.value;
+            var subdomainIndex = siteUrl.indexOf('/');
+
+            hfSiteUrl.value = location.host + (subdomainIndex >= 0 ? siteUrl.substring(subdomainIndex) : '');
+        })();
+    </script>
+<input id="routename" name="RouteName" type="hidden" value="dsh" /> 
+    </div>
+
+</section>
+
+    <div id="main" class="content-main js-main ui-base">
+        <section class="master-main row">
+            <div class="center-inner-row no-overflow">
+                <a href="#" id="skipNav" class="screenreader-text" tabindex="-1">Skip Nav Destination</a>
+                
+
+
+<div class="page-column-wrap">
+<div id="InfoColumn" class="page-column page-column--left js-left-nav-col">
+    <div class="mobile-content-topbar hide">
+        <button class="toggle-left-col toggle-left-col__article">Article Navigation</button>
+    </div>
+    <div class="info-inner-wrap js-left-nav">
+        <button class="toggle-left-col__close btn-as-icon icon-general-close">
+            <span class="screenreader-text">Close mobile search navigation</span>
+        </button>
+        <div class="responsive-nav-title">Article Navigation</div>
+        <div class="info-widget-wrap">
+    <div class="widget widget-IssueInfo widget-instance-OUP_IssueInfo_Article">
+        
+
+<div id="issueInfo-OUP_IssueInfo_Article" class="article-info-wrap clearfix">
+    <i class="icon-general-close mobile-nav-btn nav-open"></i>
+    <div class="article-issue-img">
+            <a href="/dsh/issue/30/suppl_1"><img id="issueFallbackImage" class="fb-featured-image" src="//oup.silverchair-cdn.com/UI/app/img/generic-cover.png" alt="Issue Cover" /></a>
+    </div>
+    <div class="article-issue-info">
+        <div class="volume-issue__wrap">
+
+            <a href="/dsh/issue/30/suppl_1">
+                        <div class="volume trailing-comma">Volume 30</div>
+                        <div class="issue">Issue suppl_1</div>
+
+            </a>
+
+        </div>
+        <div class="ii-pub-date">
+December 2015        </div>
+        
+    </div>
+
+</div> 
+    </div>
+
+            <div class="content-nav">
+    <div class="widget widget-ArticleJumpLinks widget-instance-OUP_ArticleJumpLinks_Widget">
+        
+
+<h3 class="contents-title" >Article Contents</h3>
+<ul class="jumplink-list">
+        <li class="section-jump-link head-1" link-destination="5298811">
+            <div class="section-jump-link__link-wrap">
+
+                <a class="js-jumplink scrollTo" href="#5298811">Abstract</a>
+            </div>
+        </li>
+        <li class="section-jump-link head-1" link-destination="5298812">
+            <div class="section-jump-link__link-wrap">
+
+                <a class="js-jumplink scrollTo" href="#5298812">1 Introduction</a>
+            </div>
+        </li>
+        <li class="section-jump-link head-1" link-destination="5298822">
+            <div class="section-jump-link__link-wrap">
+
+                <a class="js-jumplink scrollTo" href="#5298822">2 Approach</a>
+            </div>
+        </li>
+        <li class="section-jump-link head-1" link-destination="5298845">
+            <div class="section-jump-link__link-wrap">
+
+                <a class="js-jumplink scrollTo" href="#5298845">Notes</a>
+            </div>
+        </li>
+        <li class="section-jump-link head-1 backReferenceLink" link-destination="5298854">
+            <div class="section-jump-link__link-wrap">
+
+                <a class="js-jumplink scrollTo" href="#5298854">References</a>
+            </div>
+        </li>
+</ul>
+ 
+    </div>
+
+            </div>
+    <div class="widget widget-ArticleNavLinks widget-instance-OUP_ArticleNavLinks_Article">
+        <ul class="inline-list">
+        <li class="prev arrow">
+            <a href="/dsh/article/30/suppl_1/i4/362432">&lt; Previous</a>
+        </li>        
+            <li class="next arrow">
+            <a href="/dsh/article/30/suppl_1/i50/364557">Next &gt;</a>
+        </li>
+</ul> 
+    </div>
+
+        </div>
+    </div>
+</div>
+<div class="sticky-toolbar js-sticky-toolbar"></div>
+<div id="ContentColumn" class="page-column page-column--center">
+    <div class="article-browse-top article-browse-mobile-nav js-mobile-nav">
+        <div class="article-browse-mobile-nav-inner js-mobile-nav-inner">
+            <button class="toggle-left-col toggle-left-col__article btn-as-link">
+                Article Navigation
+            </button>
+        </div>
+    </div>
+    <div class="content-inner-wrap">
+    <div class="widget widget-ArticleTopInfo widget-instance-OUP_ArticleTop_Info_Widget">
+        <div class="module-widget article-top-widget">
+
+    
+
+    
+        <div class="access-state-logos all-viewports">
+                    </div>
+
+
+    <div class="widget-items">
+                <h1 class="wi-article-title article-title-main">
+                    DASCH: Data and Service Center for the Humanities
+<i class='icon-availability_free' title='Free' ></i>                </h1>
+                <div class="wi-authors">
+                    <div class="al-authors-list">
+                                <span class="al-author-name-more js-flyout-wrap">
+
+
+
+
+                                    <a class="linked-name js-linked-name-trigger" href="javascript:;">Lukas Rosenthaler</a><span class='delimiter'>, </span>
+
+                                    <span class="al-author-info-wrap arrow-up">
+<div id="authorInfo_OUP_ArticleTop_Info_Widget" class="info-card-author authorInfo_OUP_ArticleTop_Info_Widget">
+    <div class="name-role-wrap">
+        <div class="info-card-name">
+    Lukas Rosenthaler
+</div>
+
+    </div>
+
+    <div class="info-card-affilitation">
+        <div class="aff">Digital Humanities Lab, University of Basel, Basel, Switzerland</div>
+    </div>
+
+    <div class="info-card-search-label">
+        Search for other works by this author on:
+    </div>
+
+<div class="info-card-search info-card-search-internal">
+    <a href="/dsh/search-results?f_Authors=Lukas+Rosenthaler">Oxford Academic</a>
+</div>
+
+    <div class="info-card-search info-card-search-google">
+        <a href="http://scholar.google.com/scholar?q=author:%22Rosenthaler Lukas%22">Google Scholar</a>
+    </div>
+</div>                                    </span>
+                                </span>
+                                <span class="al-author-name-more js-flyout-wrap">
+
+
+
+
+                                    <a class="linked-name js-linked-name-trigger" href="javascript:;">Peter Fornaro</a><span class='delimiter'>, </span>
+
+                                    <span class="al-author-info-wrap arrow-up">
+<div id="authorInfo_OUP_ArticleTop_Info_Widget" class="info-card-author authorInfo_OUP_ArticleTop_Info_Widget">
+    <div class="name-role-wrap">
+        <div class="info-card-name">
+    Peter Fornaro
+</div>
+
+    </div>
+
+    <div class="info-card-affilitation">
+        <div class="aff">Digital Humanities Lab, University of Basel, Basel, Switzerland</div>
+    </div>
+
+    <div class="info-card-search-label">
+        Search for other works by this author on:
+    </div>
+
+<div class="info-card-search info-card-search-internal">
+    <a href="/dsh/search-results?f_Authors=Peter+Fornaro">Oxford Academic</a>
+</div>
+
+    <div class="info-card-search info-card-search-google">
+        <a href="http://scholar.google.com/scholar?q=author:%22Fornaro Peter%22">Google Scholar</a>
+    </div>
+</div>                                    </span>
+                                </span>
+                                <span class="al-author-name-more js-flyout-wrap">
+
+
+
+
+                                    <a class="linked-name js-linked-name-trigger" href="javascript:;">Claire Clivaz</a><span class='delimiter'></span>
+
+                                    <span class="al-author-info-wrap arrow-up">
+<div id="authorInfo_OUP_ArticleTop_Info_Widget" class="info-card-author authorInfo_OUP_ArticleTop_Info_Widget">
+    <div class="name-role-wrap">
+        <div class="info-card-name">
+    Claire Clivaz
+</div>
+
+    </div>
+
+    <div class="info-card-affilitation">
+        <div class="aff">University of Lausanne, Ladhul, Faculty of Social and Political Sciences, Swiss Institute of Bioinformatics, VITAL-IT, Lausanne (CH), Switzerland </div>
+    </div>
+
+    <div class="info-card-search-label">
+        Search for other works by this author on:
+    </div>
+
+<div class="info-card-search info-card-search-internal">
+    <a href="/dsh/search-results?f_Authors=Claire+Clivaz">Oxford Academic</a>
+</div>
+
+    <div class="info-card-search info-card-search-google">
+        <a href="http://scholar.google.com/scholar?q=author:%22Clivaz Claire%22">Google Scholar</a>
+    </div>
+</div>                                    </span>
+                                </span>
+
+                    </div>
+                </div>
+<div class="pub-history-wrap clearfix">
+
+        <div class="pub-history-row clearfix">
+            <div class="ww-citation-primary"><em>Digital Scholarship in the Humanities</em>, Volume 30, Issue suppl_1, December 2015, Pages i43–i49, <a href='https://doi.org/10.1093/llc/fqv051'>https://doi.org/10.1093/llc/fqv051</a></div>
+        </div>
+        <div class="pub-history-row clearfix">
+            <div class="ww-citation-date-wrap">
+                <div class="citation-label">Published:</div>
+                <div class="citation-date">09 October 2015</div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $('.article-top-widget').on('click', '.ati-toggle-trigger', function () {
+            $(this).find('.icon-general-add, .icon-minus').toggleClass('icon-minus icon-general-add');
+            $(this).siblings('.ati-toggle-content').toggleClass('hide');
+        });
+
+        // In Chrome, an anchor tag with target="_blank" and a "mailto:" href opens a new tab/window as well as the email client
+        // I suspect this behavior will be corrected in the future
+        // Remove the target="_blank"
+        $('ul.wi-affiliationList').find('a[href^="mailto:"]').each(function () {
+            $(this).removeAttr('target');
+        });
+    });
+</script>
+
+ 
+    </div>
+    <div class="widget widget-ArticleLinks widget-instance-OUP_Article_Links_Widget">
+         
+    </div>
+
+
+        <div class="article-body js-content-body">
+            <div class="toolbar-wrap js-toolbar-wrap">
+                <div class="toolbar-inner-wrap">
+                    <ul id="Toolbar" role="navigation">
+    <li class="toolbar-item item-pdf">
+        <a class="al-link pdf article-pdfLink" data-article-id="365238" href="/dsh/article-pdf/30/suppl_1/i43/1042799/fqv051.pdf">
+            <img src=//oup.silverchair-cdn.com/UI/app/svg/pdf.svg alt="pdf" /><span class="pdf-link-text">PDF</span>
+        </a>
+    </li>
+                                                    <li class="toolbar-item item-link item-split-view">
+                                <a href="javascript:;"
+                                   class="split-view js-split-view st-split-view"
+                                   target="">
+                                    <i class="icon-menu_split"></i>
+                                    Split View
+                                </a>
+                            </li>
+                        <li class="toolbar-item item-with-dropdown item-views">
+                            <a class="at-views-dropdown drop-trigger" href="javascript:;" data-dropdown="FilterDrop" aria-haspopup="true">
+                                <i class="icon-menu_views"></i>
+                                <div class="toolbar-label">
+                                    <div class="toolbar-text">Views</div>
+                                    <i class="icon-general-arrow-filled-down arrow-icon"></i>
+                                </div>
+                            </a>
+                            <ul id="ViewsDrop" class="f-dropdown" data-dropdown-content aria-label="submenu">
+                                <div class="arrow-up"></div>
+                                <li class="article-content-filter js-article-content-filter" data-content-filter="article-content">
+                                    <a href="javascript:;"><span>Article contents</span></a>
+                                </li>
+                                <li class="at-figures-tables article-content-filter js-article-content-filter" data-content-filter="figures-tables">
+                                    <a href="javascript:;"><span>Figures &amp; tables</span></a>
+                                </li>
+                                <li class="article-content-filter js-article-content-filter" data-content-filter="video">
+                                    <a href="javascript:;"><span>Video</span></a>
+                                </li>
+                                <li class="article-content-filter js-article-content-filter" data-content-filter="audio">
+                                    <a href="javascript:;"><span>Audio</span></a>
+                                </li>
+                                <li class="article-content-filter js-article-content-filter" data-content-filter="supplementary-data">
+                                    <a href="javascript:;"><span>Supplementary Data</span></a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="toolbar-item">
+    <div class="widget widget-ToolboxGetCitation widget-instance-OUP_Get_Citation">
+        <a href="#" class="js-cite-button" data-reveal-id="getCitation" data-reveal><i class="icon-read-more"></i><span>Cite</span></a>
+
+<div id="getCitation" class="reveal-modal" data-reveal>
+    <h3 class="modal-title">Cite</h3>
+        <div class="oxford-citation-text">
+            <p>Lukas Rosenthaler, Peter Fornaro, Claire Clivaz,  DASCH: Data and Service Center for the Humanities, <em>Digital Scholarship in the Humanities</em>, Volume 30, Issue suppl_1, December 2015, Pages i43–i49, <a href="https://doi.org/10.1093/llc/fqv051">https://doi.org/10.1093/llc/fqv051</a></p>
+        </div>
+
+    <div class="citation-download-wrap">
+        <form action="/Citation/Download" method="get" id="citationModal">
+            <input type="hidden" name="resourceId" value="365238" />
+            <input type="hidden" name="resourceType" value="3" />
+            <label for="selectFormat" class="hide">Select Format</label>
+            <select required name="citationFormat" class="citation-download-format" id="selectFormat">
+                <option selected disabled >Select format</option>
+                        <option value="0" >.ris (Mendeley, Papers, Zotero)</option>
+                        <option value="1" >.enw (EndNote)</option>
+                        <option value="2" >.bibtex (BibTex)</option>
+                        <option value="3" >.txt (Medlars, RefWorks)</option>
+
+            </select>
+            <button class="btn citation-download-link disabled" type="submit">Download citation</button>
+        </form>
+    </div>
+
+    <a class="close-reveal-modal" href="javascript:;"><i class="icon-general-close"></i><span class="screenreader-text">Close</span></a>
+</div>
+ 
+    </div>
+
+                        </li>
+                        <li class="toolbar-item item-tools">
+    <div class="widget widget-ToolboxPermissions widget-instance-OUP_Get_Permissions">
+            <div class="module-widget">
+        <a href="https://s100.copyright.com/AppDispatchServlet?publisherName=OUP&amp;publication=2055-768X&amp;title=DASCH%3A%20Data%20and%20Service%20Center%20for%20the%20Humanities&amp;publicationDate=2015-10-09&amp;volumeNum=30&amp;issueNum=suppl_1&amp;author=Rosenthaler%2C%20Lukas%3B%20Fornaro%2C%20Peter&amp;startPage=i43&amp;endPage=i49&amp;contentId=10.1093%2Fllc%2Ffqv051&amp;oa=&amp;copyright=Oxford%20University%20Press&amp;orderBeanReset=True" id="PermissionsLink" class="" target="_blank">
+            <i class="icon-menu_permissions">
+                <span class="screenreader-text">Permissions Icon</span>
+            </i>
+            Permissions
+        </a>
+    </div>
+ 
+    </div>
+
+                        </li>
+                        <li class="toolbar-item item-with-dropdown item-share last">
+                            <a class="drop-trigger" href="javascript:;" data-dropdown="ShareDrop" aria-haspopup="true">
+                                <i class="icon-menu_share"></i>
+                                <div class="toolbar-label">
+                                    <div class="toolbar-text">Share</div>
+                                    <i class="icon-general-arrow-filled-down arrow-icon"></i>
+                                </div>
+                            </a>
+                            <ul id="ShareDrop" class="addthis_toolbox addthis_default_style addthis_20x20_style f-dropdown" data-dropdown-content aria-label="submenu">
+                                <div class="arrow-up"></div>
+                                <li><a class="addthis_button_email"><span>Email</span></a></li>
+                                <li><a class="addthis_button_twitter"><span>Twitter</span></a></li>
+                                <li><a class="addthis_button_facebook"><span>Facebook</span></a></li>
+                                <li><a class="addthis_button_compact"><span>More</span></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="toolbar-search">
+    <div class="widget widget-SitePageHeader widget-instance-OUP_ArticleToolbarSearchBox">
+        
+
+
+<div class="dropdown-panel-wrap">
+
+    
+    <div class="dropdown-panel mobile-search-dropdown">
+        <div class="mobile-search-inner-wrap">
+                <div class="navbar-search">
+                    <div id="MobileMicrositeSearch" class="mobile-microsite-search">
+                        <label for="mobile-navbar-search-filter" class="screenreader-text">Navbar Search Filter</label>
+                        <select class="navbar-search-filter" id="mobile-navbar-search-filter">
+                                                            <optgroup label="Search within this journal">
+<option class="header-search-bar-filters-item" value="Issue">This issue</option><option class="header-search-bar-filters-item" value="">All  Digital Scholarship in the Humanities</option>
+                                </optgroup>
+                                <optgroup label="Search beyond this journal">
+<option class="header-search-bar-filters-item" value="Journals">All  Journals</option>                                </optgroup>
+                        </select>
+
+
+
+
+
+                        <label for="MobileMicrositeSearchTerm" class="screenreader-text">Mobile Microsite Search Term</label>
+                        <input class="mobile-search-input mobile-microsite-search-term" type="text" maxlength="255" placeholder="Search" id="MobileMicrositeSearchTerm">
+
+                        <a href="javascript:;" id="MobileMicrositeSearchIcon" class="mobile-microsite-search-icon mobile-search-submit icon-menu_search"><span class="screenreader-text">Search</span></a>
+
+                    </div>
+                </div>        </div>
+    </div>
+    
+    <div class="dropdown-panel mobile-account-dropdown">
+        <ul class="site-menu site-menu-lvl-0">
+            <li class="site-menu-item site-menu-lvl-0">
+                <a href="" class="nav-link mobile-account-signin dummy-link js-header-account-info-user-fullname" id="header-account-info-user-fullname-mobile">
+                    
+Sign In                    <i class="mobile-nav-arrow icon-general_arrow-down"></i>
+                </a>
+                <ul class="site-menu site-menu-lvl-1 individual-menu">
+                    <li class="dropdown-signin-form">
+                        <div class="spinner"></div>
+                    </li>
+                </ul>
+            </li>
+                            <li class="site-menu-item">
+                    <a href="/my-account/register?siteId=5447&amp;returnUrl=%2fdsh%2farticle%2f30%2fsuppl_1%2fi43%2f365238" class="register nav-link">Register</a>
+                </li>
+        </ul>
+    </div>
+    
+    <div class="dropdown-panel mobile-nav-dropdown">
+
+    </div>
+
+</div>
+
+
+
+<div class="navbar">
+    <div class="center-inner-row">
+        <nav class="navbar-menu">
+
+        </nav>
+            <div class="navbar-search-container js-navbar-search-container">
+                <a href="javascript:;" class="navbar-search-close js_close-navsearch">Close</a>
+                    <div class="navbar-search">
+                        <div id="MicrositeSearch" class="microsite-search">
+                            <label for="navbar-search-filter" class="screenreader-text">search filter</label>
+                            <select class="navbar-search-filter" id="navbar-search-filter">
+                                                                    <optgroup label="Search within this journal">
+                                                <option class="header-search-bar-filters-item" value="Issue" >This issue</option>
+                                                <option class="header-search-bar-filters-item" value="" selected=&quot;selected&quot;>All  Digital Scholarship in the Humanities</option>
+
+                                    </optgroup>
+                                    <optgroup label="Search beyond this journal">
+                                                <option class="header-search-bar-filters-item" value="Journals" >All  Journals</option>
+                                    </optgroup>
+                            </select>
+
+                            <label for="MicrositeSearchTerm" class="screenreader-text">search input</label>
+                            <input class="navbar-search-input microsite-search-term" type="text" maxlength="255" id="MicrositeSearchTerm" title="search input">
+
+                            <a href="javascript:;" id="MicrositeSearchIcon" class="microsite-search-icon navbar-search-submit icon-menu_search"><span class="screenreader-text">Search</span></a>
+
+                        </div>
+                    </div>                <div class="navbar-search-advanced"><a href="/dsh/advanced-search" class="advanced-search js-advanced-search">Advanced Search</a></div>
+            </div>            <div class="navbar-search-collapsed"><a href="javascript:;" class="icon-menu_search js_expand-navsearch"><span class="screenreader-text">Search Menu</span></a></div>
+    </div>
+</div>
+
+<input id="hfEnableOupOnlineProductsFeatures" name="hfEnableOupOnlineProductsFeatures" type="hidden" value="False" />
+
+<input id="routename" name="RouteName" type="hidden" value="dsh" /> 
+    </div>
+
+                    </div>
+                </div>
+            </div>
+            <div id="ContentTab" class="content active">
+    <div class="widget widget-ArticleFulltext widget-instance-OUP_Article_FullText_Widget">
+        <div class="module-widget">
+    <div class="widget-items" data-widgetname="ArticleFulltext">
+
+
+
+
+
+                    <h2 scrollto-destination=5298811 id="5298811" class="abstract-title" >Abstract</h2>
+<section class="abstract"><p class="chapter-para">Research data in the humanities needs to be sustainable, and access to digital resources must be possible over a long period. Only if these prerequisites are fulfilled can research data be used as a source for other projects. In addition, reliability is a fundamental requirement so that digital sources can be cited, reused, and quoted. To address this problem, we present our solution: the Data and Service Center for the Humanities located in Switzerland. The centralized infrastructure is based on flexible and extendable software that is in turn reliant on modern technologies. Such an approach allows for the straightforward migration of existing research project databases with limited life spans in the humanities. We will demonstrate the basic concepts behind this proposed solution and our first experiences in the application thereof.</p></section>                        <div class="article-metadata-panel clearfix"></div>
+                    <h2 scrollto-destination=5298812 id="5298812" class="section-title" >1 Introduction</h2>
+<p class="chapter-para">The long-term preservation of digital data and resources has been an ongoing topic within the information technology (IT)-industry and archiving community (<span class="xrefLink" id="jumplink-fqv051-B1"></span><a href="javascript:;" reveal-id="fqv051-B1" data-open="fqv051-B1" class="link link-ref link-reveal xref-bibr">Kuny, 1997</a>). It is not only an IT challenge but also a challenge to both Social and Human Sciences, and academics in general, in terms of changing research and training habits in the scholarly world of the humanities. This short article focuses mainly on the former issue but will offer conclusive remarks, from a Swiss perspective, on the latter aforementioned issue.</p><p class="chapter-para">While the Open Archival Information System reference model offers a very reasonable framework for the long-term archiving of digital data such as digitized motion picture, images, sound, or text documents, the archiving of highly structured digital data, such as databases, still raises a lot of problems. The flattening of databases into XML text files has been successfully used to archive the contents of relational database management systems (RDBMS).<sup><span class="xrefLink" id="jumplink-fqv051-NT1"></span><a href="javascript:;" reveal-id="fqv051-NT1" data-open="fqv051-NT1" class="link link-ref link-reveal xref-fn js-xref-fn">1</a>,<span class="xrefLink" id="jumplink-fqv051-NT2"></span><a href="javascript:;" reveal-id="fqv051-NT2" data-open="fqv051-NT2" class="link link-ref link-reveal xref-fn js-xref-fn">2</a>,<span class="xrefLink" id="jumplink-fqv051-NT3"></span><a href="javascript:;" reveal-id="fqv051-NT3" data-open="fqv051-NT3" class="link link-ref link-reveal xref-fn js-xref-fn">3</a></sup> However this method reduces accessibility since the XML files usually have to be read back into a RDBMS. In addition to this process, the logic of the application has to be reconstructed in order to regain the full usability of the data. Currently, the best method for maintaining the sustainability, functionality, and usability of structured data is to migrate data repositories and their software environments (user interfaces, analytical tools, and so forth) to new technologies, thus ensuring their ongoing functional accessibility (<span class="xrefLink" id="jumplink-fqv051-B4"></span><a href="javascript:;" reveal-id="fqv051-B4" data-open="fqv051-B4" class="link link-ref link-reveal xref-bibr">Rosenthaler <em>et al.</em>, 1999</a>). The replacement of obsolete hardware and software infrastructure is an ongoing and labor-intensive process that requires continuous financial effort (<span class="xrefLink" id="jumplink-fqv051-B4"></span><a href="javascript:;" reveal-id="fqv051-B4" data-open="fqv051-B4" class="link link-ref link-reveal xref-bibr">Rosenthaler <em>et al.</em>, 1999</a>). Furthermore, given that online research data are often being constantly modified to reflect new insights and are thus changing dynamically, referencing it (for citations as an example) is not straightforward.</p><p class="chapter-para">Since research is not a standardized process, different research projects tend to make use of project-specific solutions and technologies. This variety of technical solutions and methods therefore leads to generic problems with respect to the interoperability and longevity of research data. Despite these difficulties, the use of digital research data, including databases, has become common in the humanities. Simultaneously, the terms used to describe the complexity of digital resources that are used and produced by the humanist researchers may be misleading: not only with respect to collections of digital objects such as digitized manuscripts, collections of digitized photographs, and metadata related to it, but also the enrichment of such sources with elements such as annotations and semantic rich links, among others, all of which form a base of research data in the humanities. As long as project funding is available, many of these digital sources are accessible to the research community online. However, once the funding ceases, most of these sources will remain accessible only as long as the supporting hardware and software can be kept in working order. After a certain amount of time—measurable in years—there is a danger that most of these research databases might be abandoned due to lack of maintenance. Thus, most of the digital resources and results created within research projects will have a relatively short life span and will no longer be available to the research community; the citation of the affected digital objects will become impossible. However, these digital sources can provide a valuable reference base for future projects but only if the maintenance thereof is ensured through continuous funding. Unfortunately, such continuous financial support cannot be realized because of the heterogeneity and lack of critical mass of most project-related databases.</p><p class="chapter-para">Furthermore, many of the printed publications (paper or e-paper such as PDF<span class="xrefLink" id="jumplink-fqv051-NT4"></span><a href="javascript:;" reveal-id="fqv051-NT4" data-open="fqv051-NT4" class="link link-ref link-reveal xref-fn js-xref-fn"><sup>4</sup></a>) published during the life span of a research project rely on results obtained from the original digital data collections. In order to add the often-demanded transparency (traceability and conformability), the source material that the research is based on should also be available for critical review.</p>                    <h2 scrollto-destination=5298822 id="5298822" class="section-title" data-legacy-id=SEC2>2 Approach</h2>
+<p class="chapter-para">Given this challenging situation, the Swiss Academy of Humanities and Social Sciences (SAHSS)—on the behalf of the State Secretariat for Education, Research and Innovation (SERI)—has launched a project to address this situation in the national context of Switzerland. The Digital Humanities Lab of the University of Basel (DHLab) in conjunction with the Universities of Lausanne and Bern, in association with the Swiss National Archives, participated in a call for proposals resulting in the joint departments being given the task of establishing a solution. In the initial 3-year period (2013–2016) is a pilot program leading to the establishment of a Data and Service Center for the Humanities (DASCH). This program will be based on several test cases of different sizes and complexities from different disciplines; the methods and processes, legal aspects, infrastructure needs, and finally, the costs and expenses, all have to be evaluated. The proposed DASCH is based on the following premises: </p><ol class="order"><li><p class="chapter-para">Preserving software in a usable and working condition remains a difficult task, as illustrated at the recent meeting ‘Preserving.exe: Toward a National Strategy for Preserving Software’ held by the American Library of Congress (2013). It would therefore be too difficult and costly to maintain a multitude of different systems for a long time.</p></li><li><p class="chapter-para">Emulation of obsolete hard- and software as proposed by R.A. Lorie (<span class="xrefLink" id="jumplink-fqv051-B2"></span><a href="javascript:;" reveal-id="fqv051-B2" data-open="fqv051-B2" class="link link-ref link-reveal xref-bibr">Lorie, 2001</a>) is also not an easy approach, having its share of problems (<span class="xrefLink" id="jumplink-fqv051-B3"></span><a href="javascript:;" reveal-id="fqv051-B3" data-open="fqv051-B3" class="link link-ref link-reveal xref-bibr">Luan <em>et al.</em>, 2010</a>). Instead, with respect to DASCH, we propose that only a minimal number of centralized service locations should be operated: where the different digital sources or databases will be integrated through an importation and translation process. As a result, ideally only one type of technological infrastructure has to be maintained. DASCH as defined by the call for proposals addresses the following: <ul class="bullet"><li><p class="chapter-para">The first phase focuses on the adoption of existing data resources of research projects that have reached the end of their funding. In the second phase, the goal is for researchers of ongoing or future research projects to be guided through the creation and use of digital sources in order to facilitate the accessibility of the data once funding has ended. DASCH facilitates the exchange between platforms and infrastructures by implementing interfaces for the import, export, and querying of information (data restricted by means of legal constraints, such as copyright issues and/or protection of personal rights, are mapped in a sophisticated access right system). The adopted digital sources must be accessible through a flexible and extendable user interface that allows for search and analysis. We are currently supporting a RESTful (Representational State Transfer, a standard for scalable web services) web-service and a Linked Open Data SPARQL-Endpoint in order to integrate the data into other research projects and/or databases. DASCH should encourage new collaborative research models in order to allow for the optimal use of digital sources. It should also be able to facilitate efficient training modules and support for all the new research projects funded by the Swiss National Science Foundation. In order to prepare for the interrelation of Swiss digital Humanities research to international research, international contacts are a key focus for this center.</p></li></ul></p></li></ol><p class="chapter-para">Given the nature of research in the humanities, the data sources DASCH has to deal with are heterogeneous and consist mainly of qualitative data (which is possibly linked to digitized objects). The experience thus far, with respect to the integration of approximately 15 projects of different sizes and complexities, has shown that anything from simple spreadsheets to complex, undocumented relational databases with more than 100 tables can be expected. The System for Annotation and Linkage of Sources in Arts and Humanities (SALSAH) platform<span class="xrefLink" id="jumplink-fqv051-NT5"></span><a href="javascript:;" reveal-id="fqv051-NT5" data-open="fqv051-NT5" class="link link-ref link-reveal xref-fn js-xref-fn"><sup>5</sup></a> was chosen as base for the consolidation of different data sources. The repository of SALSAH is based on semantic web technologies [Resource Description Framework (RDF), Resource Description Framework Schema (RDFS), and Web Ontology Language (OWL)], and it has a modular, layered architecture and is thus well suited to the emulation of the basic functionality of RDBMS's simple databases such as MS-Access, and other databases such as FileMaker. SALSAH is currently being actively developed by the DHLab and will be available as open source by the end of 2015 (<span class="xrefLink" id="jumplink-fqv051-F1 fqv051-F2 fqv051-F3"></span><a href="javascript:;" reveal-id="fqv051-F1 fqv051-F2 fqv051-F3" data-open="fqv051-F1 fqv051-F2 fqv051-F3" class="link link-reveal link-table xref-fig">Figs 1–3</a>). </p>                        <a id="5298829" scrollto-destination="5298829"></a>
+<div data-id="fqv051-F1" class="fig fig-section"><div class="label fig-label">Fig. 1</div><div class="graphic-wrap"><img class="content-image" src="https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/llc/30/suppl_1/10.1093/llc/fqv051/2/m_fqv051f1p.png?Expires=1607263133&amp;Signature=2rykl0Qj25ToH-LvWfj5kJzxmdmMOg3~L7D69dPgRns0ksXqXa4IRlCvPnfk3ZsqRfLMLdf84UIH7xVB57P57ucxCp3qHJ3MQej7h6xYnveMBJmreuo6ZGuwWQBiIyQXHqAP0tVPsbuIMiHxwVar0Mu5W1jIC4yyujwuSUffJyMJFhKrXiaeFlbBNarOyDU~288rJ3p6O4EzTUtT~TKFGHWpml87ftDxtlGPdzmFRGEyLF2nI67bUX4c0CW0YIR6bJ1~NvmLlXyQi6i~gJPomDh7rUvcPSGlFFvXRYsFH5NlCCnMe-oOBnsQ4Jbr-di1Rm1zNXWjX42lh7ObHIBMWg__&amp;Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" alt="The web interface of SALSAH implements a desktop interface within the web-browser window in order to allow for the visualization of a working RDF graph with multiple sources simultaneously" data-path-from-xml="fqv051f1p.tiff" /><div class="fig-orig original-slide"><a class="fig-view-orig js-view-large openInAnotherWindow" href="/view-large/figure/5298829/fqv051f1p.tiff" data-path-from-xml="fqv051f1p.tiff" target="_blank">Open in new tab</a><a data-section="5298829" href="/DownloadFile/DownloadImage.aspx?image=https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/llc/30/suppl_1/10.1093/llc/fqv051/2/fqv051f1p.png?Expires=1607263133&Signature=Y0M2sAKmcPwDz2cLonTnbwWiz8wVJ8jXJvFS9f4HMGO82xEkivvGeXtT8l9gC9DIiw2mHk~iYUKI6Wl7GfIVZ89fnVtBXd23IBW2h1alHO8vzNhBZ4UXHj322awqeR1G7wzLJOguBNemgxJwv848I6k57cUs1z7qT-leMFCAJacQKBuGh87PAsbggeEeTVGvAsFEtCPaIekOFI-xum3szICG0P3WDXxigzzP6FUWt~HDuKCoW4pUUui~10MwliVSMp1aNGIEm7rlma6ROT3yBkIctDbKSqge-mTVsWrSeJQ-S-~cN7tThzXuUbVLzz7X40JAVgeGkVQjLEtw5uzxLw__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA&sec=5298829&ar=365238&xsltPath=~/UI/app/XSLT&imagename=&siteId=5447" class="download-slide" data-path-from-xml="fqv051f1p.tiff">Download slide</a></div></div><div class="caption fig-caption"><p class="chapter-para">The web interface of SALSAH implements a desktop interface within the web-browser window in order to allow for the visualization of a working RDF graph with multiple sources simultaneously</p></div></div><div content-id="fqv051-F1" class="fig fig-modal reveal-modal"><div class="label fig-label">Fig. 1</div><div class="graphic-wrap"><img class="content-image" src="https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/llc/30/suppl_1/10.1093/llc/fqv051/2/m_fqv051f1p.png?Expires=1607263133&amp;Signature=2rykl0Qj25ToH-LvWfj5kJzxmdmMOg3~L7D69dPgRns0ksXqXa4IRlCvPnfk3ZsqRfLMLdf84UIH7xVB57P57ucxCp3qHJ3MQej7h6xYnveMBJmreuo6ZGuwWQBiIyQXHqAP0tVPsbuIMiHxwVar0Mu5W1jIC4yyujwuSUffJyMJFhKrXiaeFlbBNarOyDU~288rJ3p6O4EzTUtT~TKFGHWpml87ftDxtlGPdzmFRGEyLF2nI67bUX4c0CW0YIR6bJ1~NvmLlXyQi6i~gJPomDh7rUvcPSGlFFvXRYsFH5NlCCnMe-oOBnsQ4Jbr-di1Rm1zNXWjX42lh7ObHIBMWg__&amp;Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" alt="The web interface of SALSAH implements a desktop interface within the web-browser window in order to allow for the visualization of a working RDF graph with multiple sources simultaneously" data-path-from-xml="fqv051f1p.tiff" /><div class="fig-orig original-slide"><a class="fig-view-orig js-view-large openInAnotherWindow" href="/view-large/figure/5298829/fqv051f1p.tiff" data-path-from-xml="fqv051f1p.tiff" target="_blank">Open in new tab</a><a data-section="5298829" href="/DownloadFile/DownloadImage.aspx?image=https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/llc/30/suppl_1/10.1093/llc/fqv051/2/fqv051f1p.png?Expires=1607263133&Signature=Y0M2sAKmcPwDz2cLonTnbwWiz8wVJ8jXJvFS9f4HMGO82xEkivvGeXtT8l9gC9DIiw2mHk~iYUKI6Wl7GfIVZ89fnVtBXd23IBW2h1alHO8vzNhBZ4UXHj322awqeR1G7wzLJOguBNemgxJwv848I6k57cUs1z7qT-leMFCAJacQKBuGh87PAsbggeEeTVGvAsFEtCPaIekOFI-xum3szICG0P3WDXxigzzP6FUWt~HDuKCoW4pUUui~10MwliVSMp1aNGIEm7rlma6ROT3yBkIctDbKSqge-mTVsWrSeJQ-S-~cN7tThzXuUbVLzz7X40JAVgeGkVQjLEtw5uzxLw__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA&sec=5298829&ar=365238&xsltPath=~/UI/app/XSLT&imagename=&siteId=5447" class="download-slide" data-path-from-xml="fqv051f1p.tiff">Download slide</a></div></div><div class="caption fig-caption"><p class="chapter-para">The web interface of SALSAH implements a desktop interface within the web-browser window in order to allow for the visualization of a working RDF graph with multiple sources simultaneously</p></div></div>                        <a id="5298834" scrollto-destination="5298834"></a>
+<div data-id="fqv051-F2" class="fig fig-section"><div class="label fig-label">Fig. 2</div><div class="graphic-wrap"><img class="content-image" src="https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/llc/30/suppl_1/10.1093/llc/fqv051/2/m_fqv051f2p.png?Expires=1607263133&amp;Signature=X75pNZHuPCFHHk99-GgvDMOim6WP-c-qb1kXFCMAJun7immFidDDNlaBTqw8OsN9A08llVwdrUhaq-EsZBoygYoBZdqu5ECVPXdYQ6lthGymCwY6oIKGOsNK7R28EKEQFxnKrn0MmhmMJlA06f7YrRQ6WFRyWjKgFnk2TC5737Oj5OQdpoetmMLwBWWAC79uxhBZXwlNDHFVtAaB~7p6cR4fmzrsERtc6r48HJQL0s6Zt1lXu4HLJ5Z7~uBi61GrBlQNtSNIzgbwWB18HHJ7aYIAOjrMg0vkeUQyKZ4ngL1Beg6cmR3FG680QowpMviac9dqlgAh-roj~N3d0OlRFw__&amp;Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" alt="SALSAH allows a dynamic visualization of the graph-like structure of the RDF data representation" data-path-from-xml="fqv051f2p.tiff" /><div class="fig-orig original-slide"><a class="fig-view-orig js-view-large openInAnotherWindow" href="/view-large/figure/5298834/fqv051f2p.tiff" data-path-from-xml="fqv051f2p.tiff" target="_blank">Open in new tab</a><a data-section="5298834" href="/DownloadFile/DownloadImage.aspx?image=https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/llc/30/suppl_1/10.1093/llc/fqv051/2/fqv051f2p.png?Expires=1607263133&Signature=1JqN4SavVOAXLfkmA33rL7JVIv8TcdvTl8fXaQtFOaEvqriLrc0KMcmGUWw0XI9oy~unlBv3l9Lj6Xi8y5rl9HoH7QfELVqWIr3Txaq8M-TKH4sW8L7G0jtGDZjMJNwyZnlcEjyLVVkHZygnO2Av68fSfYJf~Nc42yzJQIMYMUwCRlayBB6RhM0PbEIV6WkE-z1MAaU-SLwXDz~ENnDtRtkSirCgRm9Lz0YJbpKoUcMscVBh-xX3mzX6JkYeMK9wYM1TWOYzuEdIih56ndvXfVC7snC28r4Cf0FxiEnMm4nlzC0NO8Da1jciaqWLfWulb2CO5q9HeW50PFiv~JbOsg__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA&sec=5298834&ar=365238&xsltPath=~/UI/app/XSLT&imagename=&siteId=5447" class="download-slide" data-path-from-xml="fqv051f2p.tiff">Download slide</a></div></div><div class="caption fig-caption"><p class="chapter-para">SALSAH allows a dynamic visualization of the graph-like structure of the RDF data representation</p></div></div><div content-id="fqv051-F2" class="fig fig-modal reveal-modal"><div class="label fig-label">Fig. 2</div><div class="graphic-wrap"><img class="content-image" src="https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/llc/30/suppl_1/10.1093/llc/fqv051/2/m_fqv051f2p.png?Expires=1607263133&amp;Signature=X75pNZHuPCFHHk99-GgvDMOim6WP-c-qb1kXFCMAJun7immFidDDNlaBTqw8OsN9A08llVwdrUhaq-EsZBoygYoBZdqu5ECVPXdYQ6lthGymCwY6oIKGOsNK7R28EKEQFxnKrn0MmhmMJlA06f7YrRQ6WFRyWjKgFnk2TC5737Oj5OQdpoetmMLwBWWAC79uxhBZXwlNDHFVtAaB~7p6cR4fmzrsERtc6r48HJQL0s6Zt1lXu4HLJ5Z7~uBi61GrBlQNtSNIzgbwWB18HHJ7aYIAOjrMg0vkeUQyKZ4ngL1Beg6cmR3FG680QowpMviac9dqlgAh-roj~N3d0OlRFw__&amp;Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" alt="SALSAH allows a dynamic visualization of the graph-like structure of the RDF data representation" data-path-from-xml="fqv051f2p.tiff" /><div class="fig-orig original-slide"><a class="fig-view-orig js-view-large openInAnotherWindow" href="/view-large/figure/5298834/fqv051f2p.tiff" data-path-from-xml="fqv051f2p.tiff" target="_blank">Open in new tab</a><a data-section="5298834" href="/DownloadFile/DownloadImage.aspx?image=https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/llc/30/suppl_1/10.1093/llc/fqv051/2/fqv051f2p.png?Expires=1607263133&Signature=1JqN4SavVOAXLfkmA33rL7JVIv8TcdvTl8fXaQtFOaEvqriLrc0KMcmGUWw0XI9oy~unlBv3l9Lj6Xi8y5rl9HoH7QfELVqWIr3Txaq8M-TKH4sW8L7G0jtGDZjMJNwyZnlcEjyLVVkHZygnO2Av68fSfYJf~Nc42yzJQIMYMUwCRlayBB6RhM0PbEIV6WkE-z1MAaU-SLwXDz~ENnDtRtkSirCgRm9Lz0YJbpKoUcMscVBh-xX3mzX6JkYeMK9wYM1TWOYzuEdIih56ndvXfVC7snC28r4Cf0FxiEnMm4nlzC0NO8Da1jciaqWLfWulb2CO5q9HeW50PFiv~JbOsg__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA&sec=5298834&ar=365238&xsltPath=~/UI/app/XSLT&imagename=&siteId=5447" class="download-slide" data-path-from-xml="fqv051f2p.tiff">Download slide</a></div></div><div class="caption fig-caption"><p class="chapter-para">SALSAH allows a dynamic visualization of the graph-like structure of the RDF data representation</p></div></div>                        <a id="5298838" scrollto-destination="5298838"></a>
+<div data-id="fqv051-F3" class="fig fig-section"><div class="label fig-label">Fig. 3</div><div class="graphic-wrap"><img class="content-image" src="https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/llc/30/suppl_1/10.1093/llc/fqv051/2/m_fqv051f3p.png?Expires=1607263133&amp;Signature=IbQq3Jps2DachACWdZCuJNRR4ncDqxp3x2fhrMDj8hwXbHSMFdAGputVKRbUdyM2ryFq6XDpaps6J3VwYecSnFEQWmHkKYneUpIYP4Xdl8m9kz~6pCaVZL1lZMW6qw1JNra~RU-GKdBE3R5prGeUYKD2OSlKZr0426gP6~xdv~30VlWNXO2WmVK2eAWcU1EOk6-wyvXD6SPVQbrKUnbtOYCgneyhwSLzDbJOLocrIMKl580orWJ0pMIBvRwLZHHZc3dKyf4Ib3CIOc7CzyKgxOYHdA7o72aT5EvxJ5LJJzrIAGJJBU6JQ1UeitJQ8JcH1JwqxzunwIDDIHOgS1JvaQ__&amp;Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" alt="The architecture of the software infrastructure is highly modular, flexible, and extendable; the design follows strict layering" data-path-from-xml="fqv051f3p.tiff" /><div class="fig-orig original-slide"><a class="fig-view-orig js-view-large openInAnotherWindow" href="/view-large/figure/5298838/fqv051f3p.tiff" data-path-from-xml="fqv051f3p.tiff" target="_blank">Open in new tab</a><a data-section="5298838" href="/DownloadFile/DownloadImage.aspx?image=https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/llc/30/suppl_1/10.1093/llc/fqv051/2/fqv051f3p.png?Expires=1607263133&Signature=H6g2GIZtH2BbCAW6sK6lBxdLeW2AFzYJQ4EgXMEi8U0JinqASue7dNJhVcVuGGb8JonTxFLH3ffSoq5yEdEh4~azEhpanu0xORkxDp~IpHu71N0I7fN0bawcSsbZjZpMjQnEXc0LJpT4IbriwEhPlvx1hNGuBSSz7My4JdFIboohkEHcKTzN99MgWI~naCuQRX5sdeECgr5DlQMmyJN-XU~SmnNqbJPepFcwxkfGjwqn0vFKI7eiXDbDrWQwY-DvMkKwIAtDMNh2mFatXHME7~7Q-aSRw9YuRfJtDS0HJaWVLYWTdcYzm-tUsop~ZMFuOguRetXQSEYb5is-RoBptw__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA&sec=5298838&ar=365238&xsltPath=~/UI/app/XSLT&imagename=&siteId=5447" class="download-slide" data-path-from-xml="fqv051f3p.tiff">Download slide</a></div></div><div class="caption fig-caption"><p class="chapter-para">The architecture of the software infrastructure is highly modular, flexible, and extendable; the design follows strict layering</p></div></div><div content-id="fqv051-F3" class="fig fig-modal reveal-modal"><div class="label fig-label">Fig. 3</div><div class="graphic-wrap"><img class="content-image" src="https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/llc/30/suppl_1/10.1093/llc/fqv051/2/m_fqv051f3p.png?Expires=1607263133&amp;Signature=IbQq3Jps2DachACWdZCuJNRR4ncDqxp3x2fhrMDj8hwXbHSMFdAGputVKRbUdyM2ryFq6XDpaps6J3VwYecSnFEQWmHkKYneUpIYP4Xdl8m9kz~6pCaVZL1lZMW6qw1JNra~RU-GKdBE3R5prGeUYKD2OSlKZr0426gP6~xdv~30VlWNXO2WmVK2eAWcU1EOk6-wyvXD6SPVQbrKUnbtOYCgneyhwSLzDbJOLocrIMKl580orWJ0pMIBvRwLZHHZc3dKyf4Ib3CIOc7CzyKgxOYHdA7o72aT5EvxJ5LJJzrIAGJJBU6JQ1UeitJQ8JcH1JwqxzunwIDDIHOgS1JvaQ__&amp;Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" alt="The architecture of the software infrastructure is highly modular, flexible, and extendable; the design follows strict layering" data-path-from-xml="fqv051f3p.tiff" /><div class="fig-orig original-slide"><a class="fig-view-orig js-view-large openInAnotherWindow" href="/view-large/figure/5298838/fqv051f3p.tiff" data-path-from-xml="fqv051f3p.tiff" target="_blank">Open in new tab</a><a data-section="5298838" href="/DownloadFile/DownloadImage.aspx?image=https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/llc/30/suppl_1/10.1093/llc/fqv051/2/fqv051f3p.png?Expires=1607263133&Signature=H6g2GIZtH2BbCAW6sK6lBxdLeW2AFzYJQ4EgXMEi8U0JinqASue7dNJhVcVuGGb8JonTxFLH3ffSoq5yEdEh4~azEhpanu0xORkxDp~IpHu71N0I7fN0bawcSsbZjZpMjQnEXc0LJpT4IbriwEhPlvx1hNGuBSSz7My4JdFIboohkEHcKTzN99MgWI~naCuQRX5sdeECgr5DlQMmyJN-XU~SmnNqbJPepFcwxkfGjwqn0vFKI7eiXDbDrWQwY-DvMkKwIAtDMNh2mFatXHME7~7Q-aSRw9YuRfJtDS0HJaWVLYWTdcYzm-tUsop~ZMFuOguRetXQSEYb5is-RoBptw__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA&sec=5298838&ar=365238&xsltPath=~/UI/app/XSLT&imagename=&siteId=5447" class="download-slide" data-path-from-xml="fqv051f3p.tiff">Download slide</a></div></div><div class="caption fig-caption"><p class="chapter-para">The architecture of the software infrastructure is highly modular, flexible, and extendable; the design follows strict layering</p></div></div><p class="chapter-para">Within a research project funded by the Swiss National Science Foundation, SALSAH is currently being extended with several new important features (expected in 2015). </p><ul class="bullet"><li><p class="chapter-para">A time machine that will allow digital objects to be referenced by permalinks which include a timestamp for referencing. Such permalinks will always display the digital object in the state it was in at the time it was referenced. These permalinks will add true ‘citation-ability’ to the SALSAH environment.</p></li><li><p class="chapter-para">SALSAH, which is currently organized technically as a centralized system, will be transformed into a distributed, self-organizing P2P system. At the same time, an archival system based on DISTARNET (DISTributed Archival NETwork, a self-organizing peer-to-peer network for archival storage of digital data; see <span class="xrefLink" id="jumplink-fqv051-B6"></span><a href="javascript:;" reveal-id="fqv051-B6" data-open="fqv051-B6" class="link link-ref link-reveal xref-bibr">Subotic <em>et al.</em>, 2013</a>) will be added to SALSAH for protection against data loss due to catastrophic events like hardware failure, flooding, and fires occurring at any SALSAH location. DISTARENT also uses P2P technology to maintain redundant multiple backups of the data within the network.</p></li><li><p class="chapter-para">Within the DASCH project, SALSAH will be extended to support open data standards for access and linked data. However, open access may be restricted by legal reasons (such as copyright and privacy laws). SALSAH includes fine-grained identity and rights management.</p></li><li><p class="chapter-para">SALSAH will be continuously enhanced according to the needs of the researchers using the platform. It is planned for SALSAH to migrate to open source by the end of 2015.</p></li></ul><p class="chapter-para">The main tasks of DASCH will be three-fold: </p><ol class="order"><li><p class="chapter-para">Maintaining the technological infrastructure and adapting it to the needs of researchers and changing technology. This task will be handled in Basel during the pilot phase but since SALSAH will become an open-source project, other institutions and individuals may contribute to its base. However, in our experience, open-source projects need a powerful coordinating institution in order to be successful. The DHLab will be on hand to play this role.</p></li><li><p class="chapter-para">Assistance to researchers: in the humanities, many researchers working with digital sources do not have the technical knowledge to fully exploit the advantages of digital processes. DASCH will support researchers, with regard to the best possible use of digital methods and tools for their research. Training and education will also be encouraged.</p></li><li><p class="chapter-para">To create a report with recommendations with respect to proceeding with the project and transferring the pilot project to a permanent institution.</p></li></ol><p class="chapter-para">It should be noted that funding for this project goes far beyond normal scientific project financing, and this is evidence of the strong commitment of all parties involved (SAHSS, SERI, Swiss National Science Foundation) in the foundation of a sustainable national data curation and service center for digital research data in the humanities. The team comprising of the Universities of Basel, Bern, and Lausanne, and the National Archives demonstrates this commitment. The project's pilot phase is financed by SAHSS and SERI. Since Switzerland is a multilingual nation with a highly federalized structure, we decided to create DASCH as a virtual center where the technological infrastructure will be located and maintained in Basel for the time being, but all the other tasks will be performed by local branch offices that are very close to the researchers. During the pilot phase, Lausanne and Bern will be testing this branch-office, satellite model. As soon as SALSAH's P2P functionality is implemented, the technical infrastructure may be distributed as necessary or desired. Due to the DISTARNET archival system, data are secured against loss without the local branches needing to build an expensive and complicated backup infrastructure. As a final point of focus, the IT element of this infrastructure project requires explanation with respect to the Swiss institutions. Indeed, until now, the funds devoted to research and the funds focused on infrastructure have been always separated. Through this pilot project, in collaboration with other colleagues working on Digital Humanities (DH) projects, we hope to progressively overcome, at least in part, this defined division. Even the best system of data curation has to overcome a significant obstacle: the (un)willingness of a Social Scientist or Humanist (SSH) researcher to give their digital material to a platform. To overcome this recurrent difficulty, several solutions have to be explored. Firstly, DH training and education is an influential element that directly influences research and IT developments. Secondly, with respect to the usual individual habits of SSH researchers, a top-down project such as this one could be complemented by a bottom-up approach, represented, for example, by the recent NAKALA platform created by Huma-Num.<span class="xrefLink" id="jumplink-fqv051-NT6"></span><a href="javascript:;" reveal-id="fqv051-NT6" data-open="fqv051-NT6" class="link link-ref link-reveal xref-fn js-xref-fn"><sup>6</sup></a> Indeed, to promote SALSAH as a solution for all the DH material in a country would be a near-impossible task in human, financial, and concrete terms. We would rather, through SALSAH, encourage and stimulate data-life-cycle management in the humanities. In such a proposed center, parallel services could be developed, such as copyright counseling for images and online data.</p><p class="chapter-para">These remarks are surely not only related to possible further developments: as the striking example of the Arts and Humanities Data Service in UK proves ‘a United Kingdom national service aiding the discovery, creation and preservation of digital resources in and for research, teaching and learning in the arts and humanities, […] established in 1996 and ceased operation in 2008’.<span class="xrefLink" id="jumplink-fqv051-NT7"></span><a href="javascript:;" reveal-id="fqv051-NT7" data-open="fqv051-NT7" class="link link-ref link-reveal xref-fn js-xref-fn"><sup>7</sup></a> This project, however, had too great a focus on technical challenges and was unable to offer the services and research that make DH truly come alive. The overcoming of the division between research funding and infrastructure funding is surely one of the key challenges of such regional/national projects.</p>                    <h2 scrollto-destination=5298845 id="5298845" class="backnotes-title" data-legacy-id=notes1>Notes</h2>
+<div content-id="fqv051-NT1"><div class="fn"><div class="footnote-content"><p class="footnote-compatibility">1 e.g. SIARD of the National Archives of Switzerland, <a class="link link-uri openInAnotherWindow" href="http://www.bar.admin.ch/dienstleistungen/00823/00825/index.html?lang=en" target="_blank">http://www.bar.admin.ch/dienstleistungen/00823/00825/index.html?lang=en</a> (accessed 14 October 2014).</p></div></div></div><div content-id="fqv051-NT2"><div class="fn"><div class="footnote-content"><p class="footnote-compatibility">2 XENA of the National Archives of Australia, <a class="link link-uri openInAnotherWindow" href="http://xena.sourceforge.net" target="_blank">http://xena.sourceforge.net</a> (accessed 14 October 2014).</p></div></div></div><div content-id="fqv051-NT3"><div class="fn"><div class="footnote-content"><p class="footnote-compatibility">3 kopal/koLibRi of the German Kopal project, <a class="link link-uri openInAnotherWindow" href="http://kopal.langzeitarchivierung.de/index_koLibRI.php.en" target="_blank">http://kopal.langzeitarchivierung.de/index_koLibRI.php.en</a></p></div></div></div><div content-id="fqv051-NT4"><div class="fn"><div class="footnote-content"><p class="footnote-compatibility">4 Which we consider to be equal to a printed paper from a technical point of view.</p></div></div></div><div content-id="fqv051-NT5"><div class="fn"><div class="footnote-content"><p class="footnote-compatibility">5 System for Annotation and Linkage of Sources un Arts and Humanites, a virtual research platform, see <a class="link link-uri openInAnotherWindow" href="http://www.salsah.org" target="_blank">http://www.salsah.org</a> for the generic entry point, <a class="link link-uri openInAnotherWindow" href="http://www.salsah.org/dokubib" target="_blank">http://www.salsah.org/dokubib</a> for an (simplified) entrypoint for the Documentation Library of St. Moritz, and <a class="link link-uri openInAnotherWindow" href="http://www.salsah.org/kuhaba" target="_blank">http://www.salsah.org/kuhaba</a> for the Kunsthalle Basel.</p></div></div></div><div content-id="fqv051-NT6"><div class="fn"><div class="footnote-content"><p class="footnote-compatibility">6 <a class="link link-uri openInAnotherWindow" href="https://www.nakala.fr/" target="_blank">https://www.nakala.fr/</a>; last accessed on 13/10/14. Huma-Num means ‘la très grande infrastructure des humanités numérique’, see <a class="link link-uri openInAnotherWindow" href="http://www.huma-num.fr/" target="_blank">http://www.huma-num.fr/</a></p></div></div></div><div content-id="fqv051-NT7"><div class="fn"><div class="footnote-content"><p class="footnote-compatibility">7 See <a class="link link-uri openInAnotherWindow" href="http://en.wikipedia.org/wiki/Arts_and_Humanities_Data_Service" target="_blank">http://en.wikipedia.org/wiki/Arts_and_Humanities_Data_Service</a> (accessed 13 October 2014).</p></div></div></div>                    <h2 scrollto-destination=5298854 id="5298854" class="backreferences-title" >References</h2>
+<div class="ref-list"><div content-id="fqv051-B1" data-legacy-id="fqv051-B1"><div class="refLink-parent"><span class="refLink"><a name="jumplink-fqv051-B1" href="javascript:;" aria-label="jumplink-fqv051-B1"></a></span></div><div class="ref false"><div id="ref-auto-fqv051-B1" class="ref-content "><div class="mixed-citation citation"><p class="mixed-citation-compatibility"><span class="person-group"><div class="name"><div class="surname">Kuny</div> <div class="given-names">T.</div></div></span> (<div class="year">1997</div>). <div class="article-title">A digital dark ages? Challenges in the preservation of electronic information</div>. In <div class="source ">63rd IFLA General Conference</div>. <div class="publisher-name">International Federation of Library Associations and Institutions</div>, <div class="publisher-loc">Copenhagen, Denmark</div>.</p><!--citationLinks: case 2--><div class="citation-links"><p class="citation-links-compatibility"><span class="google-scholar-ref-link"><a class="openInAnotherWindow" href="https://scholar.google.com/scholar_lookup?title=63rd%20IFLA%20General%20Conference&amp;author=T.%20Kuny&amp;publication_year=1997&amp;book=63rd%20IFLA%20General%20Conference" target="_blank">Google Scholar</a></span></p><p class="citation-links-compatibility"><span class="google-preview-ref-link js-google-preview-ref-link" style="display:none"><a class="openInAnotherWindow" href="https://www.google.com/search?q=63rd%20IFLA%20General%20Conference&amp;btnG=Search+Books&amp;tbm=bks&amp;tbo=1" target="_blank">Google Preview</a></span></p><div class="xslopenurl empty-target"><span class="js-inst-open-url-holders-nodoi"><a class="openInAnotherWindow js-open-url-link" target="_blank" data-href-template="{targetURL}?sid=oup:orr&amp;genre=book&amp;title=63rd%20IFLA%20General%20Conference&amp;aulast=Kuny&amp;date=1997" href="javascript:;"><span class="screenreader-text">OpenURL Placeholder Text</span></a></span></div><p class="citation-links-compatibility"><span class="worldcat-reference-ref-link js-worldcat-preview-ref-link" style="display:none"><a class="openInAnotherWindow" href="https://www.worldcat.org/search?q=ti:63rd%20IFLA%20General%20Conference&amp;qt=advanced&amp;dblist=638" target="_blank">WorldCat</a></span></p><div class="copac-reference-ref-link js-copac-preview-ref-link" style="display:none" data-pubtype="book"><span class="inst-copac"><a class="openInAnotherWindow" target="_blank" href="http://copac.ac.uk/search?ti=63rd%20IFLA%20General%20Conference">COPAC</a></span></div> </div></div></div></div></div><div content-id="fqv051-B2" data-legacy-id="fqv051-B2"><div class="refLink-parent"><span class="refLink"><a name="jumplink-fqv051-B2" href="javascript:;" aria-label="jumplink-fqv051-B2"></a></span></div><div class="ref false"><div id="ref-auto-fqv051-B2" class="ref-content "><div class="mixed-citation citation"><p class="mixed-citation-compatibility"><span class="person-group"><div class="name"><div class="surname">Lorie</div> <div class="given-names">R. A.</div></div></span> (<div class="year">2001</div>). <div class="article-title">Long term preservation of digital information</div>. In <div class="source ">Proceedings of the 1st ACM/IEEE-CS Joint Conference on Digital Libraries, Roanoke, VA, 24–28 June 2001</div>. <div class="publisher-loc">New York</div>: <div class="publisher-name">Association of Computing Machinery</div>, pp. <div class="fpage">346</div>–<div class="lpage">52</div>.</p><!--citationLinks: case 2--><div class="citation-links"><p class="citation-links-compatibility"><span class="google-scholar-ref-link"><a class="openInAnotherWindow" href="https://scholar.google.com/scholar_lookup?title=Proceedings%20of%20the%201st%20ACM%2FIEEE-CS%20Joint%20Conference%20on%20Digital%20Libraries%2C%20Roanoke%2C%20VA%2C%2024%E2%80%9328%20June%202001&amp;author=R.%20A.%20Lorie&amp;publication_year=2001&amp;book=Proceedings%20of%20the%201st%20ACM%2FIEEE-CS%20Joint%20Conference%20on%20Digital%20Libraries%2C%20Roanoke%2C%20VA%2C%2024%E2%80%9328%20June%202001" target="_blank">Google Scholar</a></span></p><p class="citation-links-compatibility"><span class="google-preview-ref-link js-google-preview-ref-link" style="display:none"><a class="openInAnotherWindow" href="https://www.google.com/search?q=Proceedings%20of%20the%201st%20ACM%2FIEEE-CS%20Joint%20Conference%20on%20Digital%20Libraries%2C%20Roanoke%2C%20VA%2C%2024%E2%80%9328%20June%202001&amp;btnG=Search+Books&amp;tbm=bks&amp;tbo=1" target="_blank">Google Preview</a></span></p><div class="xslopenurl empty-target"><span class="js-inst-open-url-holders-nodoi"><a class="openInAnotherWindow js-open-url-link" target="_blank" data-href-template="{targetURL}?sid=oup:orr&amp;genre=book&amp;title=Proceedings%20of%20the%201st%20ACM%2FIEEE-CS%20Joint%20Conference%20on%20Digital%20Libraries%2C%20Roanoke%2C%20VA%2C%2024%E2%80%9328%20June%202001&amp;aulast=Lorie&amp;date=2001&amp;spage=346&amp;epage=52" href="javascript:;"><span class="screenreader-text">OpenURL Placeholder Text</span></a></span></div><p class="citation-links-compatibility"><span class="worldcat-reference-ref-link js-worldcat-preview-ref-link" style="display:none"><a class="openInAnotherWindow" href="https://www.worldcat.org/search?q=ti:Proceedings%20of%20the%201st%20ACM%2FIEEE-CS%20Joint%20Conference%20on%20Digital%20Libraries%2C%20Roanoke%2C%20VA%2C%2024%E2%80%9328%20June%202001&amp;qt=advanced&amp;dblist=638" target="_blank">WorldCat</a></span></p><div class="copac-reference-ref-link js-copac-preview-ref-link" style="display:none" data-pubtype="book"><span class="inst-copac"><a class="openInAnotherWindow" target="_blank" href="http://copac.ac.uk/search?ti=Proceedings%20of%20the%201st%20ACM%2FIEEE-CS%20Joint%20Conference%20on%20Digital%20Libraries%2C%20Roanoke%2C%20VA%2C%2024%E2%80%9328%20June%202001">COPAC</a></span></div> </div></div></div></div></div><div content-id="fqv051-B3" data-legacy-id="fqv051-B3"><div class="refLink-parent"><span class="refLink"><a name="jumplink-fqv051-B3" href="javascript:;" aria-label="jumplink-fqv051-B3"></a></span></div><div class="ref false"><div id="ref-auto-fqv051-B3" class="ref-content "><div class="mixed-citation citation"><p class="mixed-citation-compatibility"><span class="person-group"><div class="name"><div class="surname">Luan</div> <div class="given-names">F.</div></div> <div class="name"><div class="surname">Nygard</div> <div class="given-names">M.</div></div> <div class="name"><div class="surname">Mesti</div> <div class="given-names">T.</div></div></span> (<div class="year">2010</div>). <div class="article-title">A survey of digital preservation strategies</div>. <div class="source ">World Digital Libraries</div>, <div class="volume">l3</div>(<div class="issue">2</div>), <div class="comment">IOS Press</div>.</p><!--citationLinks: case 2--><div class="citation-links"><p class="citation-links-compatibility"><span class="google-scholar-ref-link"><a class="openInAnotherWindow" href="https://scholar.google.com/scholar_lookup?title=A%20survey%20of%20digital%20preservation%20strategies&amp;author=F.%20Luan&amp;author=M.%20Nygard&amp;author=T.%20Mesti&amp;publication_year=2010&amp;journal=World%20Digital%20Libraries&amp;volume=l3&amp;pages=" target="_blank">Google Scholar</a></span></p><div class="xslopenurl empty-target"><span class="js-inst-open-url-holders-nodoi"><a class="openInAnotherWindow js-open-url-link" target="_blank" data-href-template="{targetURL}?sid=oup:orr&amp;genre=article&amp;atitle=A%20survey%20of%20digital%20preservation%20strategies&amp;aulast=Luan&amp;title=World Digital Libraries&amp;date=2010&amp;volume=l3&amp;issue=2" href="javascript:;"><span class="screenreader-text">OpenURL Placeholder Text</span></a></span></div><p class="citation-links-compatibility"><span class="worldcat-reference-ref-link js-worldcat-preview-ref-link" style="display:none"><a class="openInAnotherWindow" href="https://www.worldcat.org/search?q=ti:A%20survey%20of%20digital%20preservation%20strategies&amp;qt=advanced&amp;dblist=638" target="_blank">WorldCat</a></span></p> </div></div></div></div></div><div content-id="fqv051-B4" data-legacy-id="fqv051-B4"><div class="refLink-parent"><span class="refLink"><a name="jumplink-fqv051-B4" href="javascript:;" aria-label="jumplink-fqv051-B4"></a></span></div><div class="ref false"><div id="ref-auto-fqv051-B4" class="ref-content "><div class="mixed-citation citation"><p class="mixed-citation-compatibility"><span class="person-group"><div class="name"><div class="surname">Rosenthaler</div> <div class="given-names">L.</div></div> <div class="name"><div class="surname">Gschwind</div> <div class="given-names">R.</div></div> <div class="name"><div class="surname">Frey</div> <div class="given-names">F.</div></div></span> (<div class="year">1999</div>). <div class="comment">The digital age in long-term image archival – risks and prospects. In <em>ICOM-CC</em></div>.</p><!--citationLinks: case 3--><div class="citation-links"></div></div></div></div></div><div content-id="fqv051-B5" data-legacy-id="fqv051-B5"><div class="refLink-parent"><span class="refLink"><a name="jumplink-fqv051-B5" href="javascript:;" aria-label="jumplink-fqv051-B5"></a></span></div><div class="ref false"><div id="ref-auto-fqv051-B5" class="ref-content "><div class="mixed-citation citation"><p class="mixed-citation-compatibility"><div class="collab">Preserving.exe: Toward a National Strategy for Preserving Software</div> (<div class="year">2013</div>). <div class="comment">Washington, DC: Library of Congress, <a class="link link-uri openInAnotherWindow" href="http://www.digitalpreservation.gov/meetings/documents/othermeetings/preservingsoftware2013/Preserving_Exe_Agenda.pdf" target="_blank">http://www.digitalpreservation.gov/meetings/documents/othermeetings/preservingsoftware2013/Preserving_Exe_Agenda.pdf</a>; last accessed on 14/10/14</div></p><!--citationLinks: case 3--><div class="citation-links"></div></div></div></div></div><div content-id="fqv051-B6" data-legacy-id="fqv051-B6"><div class="refLink-parent"><span class="refLink"><a name="jumplink-fqv051-B6" href="javascript:;" aria-label="jumplink-fqv051-B6"></a></span></div><div class="ref false"><div id="ref-auto-fqv051-B6" class="ref-content "><div class="mixed-citation citation"><p class="mixed-citation-compatibility"><span class="person-group"><div class="name"><div class="surname">Subotic</div> <div class="given-names">I.</div></div> <div class="name"><div class="surname">Rosenthaler</div> <div class="given-names">L.</div></div> <div class="name"><div class="surname">Schuldt</div> <div class="given-names">H.</div></div></span> (<div class="year">2013</div>). <div class="source ">A Distributed Archival Network for Process-Oriented Autonomic Long-Term Digital Preservation, ACM Proceedings of the Joint Conference on Digital Libraries</div><em>.</em> <div class="publisher-loc">New York</div>: <div class="publisher-name">ACM</div>, pp. <div class="fpage">29</div>–<div class="lpage">38</div>.</p><!--citationLinks: case 2--><div class="citation-links"><p class="citation-links-compatibility"><span class="google-scholar-ref-link"><a class="openInAnotherWindow" href="https://scholar.google.com/scholar_lookup?title=A%20Distributed%20Archival%20Network%20for%20Process-Oriented%20Autonomic%20Long-Term%20Digital%20Preservation%2C%20ACM%20Proceedings%20of%20the%20Joint%20Conference%20on%20Digital%20Libraries&amp;author=I.%20Subotic&amp;author=L.%20Rosenthaler&amp;author=H.%20Schuldt&amp;publication_year=2013&amp;book=A%20Distributed%20Archival%20Network%20for%20Process-Oriented%20Autonomic%20Long-Term%20Digital%20Preservation%2C%20ACM%20Proceedings%20of%20the%20Joint%20Conference%20on%20Digital%20Libraries" target="_blank">Google Scholar</a></span></p><p class="citation-links-compatibility"><span class="google-preview-ref-link js-google-preview-ref-link" style="display:none"><a class="openInAnotherWindow" href="https://www.google.com/search?q=A%20Distributed%20Archival%20Network%20for%20Process-Oriented%20Autonomic%20Long-Term%20Digital%20Preservation%2C%20ACM%20Proceedings%20of%20the%20Joint%20Conference%20on%20Digital%20Libraries&amp;btnG=Search+Books&amp;tbm=bks&amp;tbo=1" target="_blank">Google Preview</a></span></p><div class="xslopenurl empty-target"><span class="js-inst-open-url-holders-nodoi"><a class="openInAnotherWindow js-open-url-link" target="_blank" data-href-template="{targetURL}?sid=oup:orr&amp;genre=book&amp;title=A%20Distributed%20Archival%20Network%20for%20Process-Oriented%20Autonomic%20Long-Term%20Digital%20Preservation%2C%20ACM%20Proceedings%20of%20the%20Joint%20Conference%20on%20Digital%20Libraries&amp;aulast=Subotic&amp;date=2013&amp;spage=29&amp;epage=38" href="javascript:;"><span class="screenreader-text">OpenURL Placeholder Text</span></a></span></div><p class="citation-links-compatibility"><span class="worldcat-reference-ref-link js-worldcat-preview-ref-link" style="display:none"><a class="openInAnotherWindow" href="https://www.worldcat.org/search?q=ti:A%20Distributed%20Archival%20Network%20for%20Process-Oriented%20Autonomic%20Long-Term%20Digital%20Preservation%2C%20ACM%20Proceedings%20of%20the%20Joint%20Conference%20on%20Digital%20Libraries&amp;qt=advanced&amp;dblist=638" target="_blank">WorldCat</a></span></p><div class="copac-reference-ref-link js-copac-preview-ref-link" style="display:none" data-pubtype="book"><span class="inst-copac"><a class="openInAnotherWindow" target="_blank" href="http://copac.ac.uk/search?ti=A%20Distributed%20Archival%20Network%20for%20Process-Oriented%20Autonomic%20Long-Term%20Digital%20Preservation%2C%20ACM%20Proceedings%20of%20the%20Joint%20Conference%20on%20Digital%20Libraries">COPAC</a></span></div> </div></div></div></div></div></div>        <!-- /foreach -->
+
+
+
+        <div class="article-metadata-standalone-panel clearfix"></div>
+
+        
+<div class="copyright copyright-statement">Digital Scholarship in the Humanities © The Author 2015. Published by Oxford University Press on behalf of EADH. All rights reserved. For Permissions, please email: journals.permissions@oup.com</div><!-- /foreach -->
+
+        <span id="UserHasAccess" data-userHasAccess="True"></span>
+
+    </div><!-- /.widget-items -->
+</div><!-- /.module-widget -->
+
+ 
+    </div>
+    <div class="widget widget-SolrResourceMetadata widget-instance-OUP_Article_ResourceMetadata_Widget">
+        
+    <div class=" add-border article-metadata-panel solr-resource-metadata">
+                <div class="article-metadata-tocSections">
+                    <div class="article-metadata-tocSections-title">Issue Section:</div>
+                        <a href="/dsh/search-results?f_TocHeadingTitle=Original Articles">Original Articles</a>
+                </div>
+
+    </div>
+
+
+ 
+    </div>
+    <div class="widget widget-EditorInformation widget-instance-OUP_Article_EditorInformation_Widget">
+        
+ 
+    </div>
+    <div class="widget widget-ArticleOpenScienceBadges widget-instance-OUP_Article_OpenScienceBadge_Widget">
+        
+ 
+    </div>
+
+                <div id="ContentTabFilteredView"></div>
+                <div class="downloadImagesppt js-download-images-ppt st-download-images-ppt">
+                    <a id="lnkDownloadAllImages"
+                       class="js-download-all-images-link btn"
+                       href="/DownloadFile/DownloadImage.aspx?image=&amp;PPTtype=SlideSet&amp;ar=365238&amp;xsltPath=~/UI/app/XSLT&amp;siteId=5447">Download all slides</a>
+                </div>
+                    <div class="widget widget-ArticleDataRepositories widget-instance-Article_DryadLink">
+         
+    </div>
+
+                <div class="comments">
+    <div class="widget widget-UserCommentBody widget-instance-UserCommentBody_Article">
+        
+
+ 
+    </div>
+    <div class="widget widget-UserComment widget-instance-OUP_UserComment_Article">
+         
+    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div id="Sidebar" class="page-column page-column--right">
+    <div class="widget widget-AdBlock widget-instance-ArticlePageTopSidebar">
+        
+
+<div class="adBlockMainBodyTop-wrap js-adBlockMainBodyTop hide">
+    
+    <div id="adBlockMainBodyTop"
+         style=" ">
+        <script>
+            googletag.cmd.push(function () { googletag.display('adBlockMainBodyTop'); });
+        </script>
+    </div>
+        <div class="advertisement-text">Advertisement</div>
+</div> 
+    </div>
+<div class="widget widget-dynamic " data-count="1"> 
+
+    <div class="widget-dynamic-inner-wrap">
+
+<div class="widget widget-dynamic " data-count="10"> 
+
+    <div class="widget-dynamic-inner-wrap">
+
+    <div class="widget widget-ArticleLevelMetrics widget-instance-Article_RightRailB0Article_RightRail_ArticleLevelMetrics">
+        
+
+
+
+    <div class="artmet-wrapper horizontal-artmet">
+
+        <div class="artmet-condensed-wrap clearfix">
+
+            <div class="artmet-condensed-stats clearfix">
+                    <div class="artmet-item artmet-views">
+                        <span class="artmet-number">555</span>
+                        <span class="artmet-text">Views</span>
+                    </div>
+
+                <div class="artmet-item artmet-citations">
+                    <span class="artmet-number">
+0                    </span>
+                    <span class="artmet-text">Citations</span>
+                </div>
+                <div class="artmet-item artmet-badges-wrap">
+                        <div class="artmet-item artmet-altmetric">
+    <div class="widget widget-AltmetricLink widget-instance-ArticleLevelMetrics_AltmetricLinkSummary">
+            <!-- Altmetrics -->
+    <div id="altmetricEmbedId"
+         runat="server"
+         class='altmetric-embed'
+         data-badge-type="donut"
+         data-hide-no-mentions="false"
+         data-doi="10.1093/llc/fqv051"
+
+        
+
+        ></div>
+         <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+ 
+    </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="artmet-modal-trigger-wrap clearfix">
+                    <a class="artmet-modal-trigger" data-article-id="365238"><i class="icon-metrics"></i><span>View Metrics</span></a>
+                </div>
+        </div>
+            <div class="artmet-modal" id="MetricsModal">
+                <div class="artmet-modal-contents">
+                    <a class="artmet-close-modal">&#215;</a>
+                </div>
+            </div>
+    </div>
+
+ 
+    </div>
+    <div class="widget widget-Alerts widget-instance-Article_RightRailB0Article_RightRail_Alerts">
+        
+    <div class="alertsWidget">
+        <h3>Email alerts</h3>
+                <div class="userAlert alertType-1">
+                    <a href="javascript:;" class="js-user-alert" role="button"
+                       data-userLoggedIn="False"
+                       data-alertType="1" href="javascript:;">Article activity alert</a>
+                </div>
+                <div class="userAlert alertType-3">
+                    <a href="javascript:;" class="js-user-alert" role="button"
+                       data-userLoggedIn="False"
+                       data-alertType="3" href="javascript:;">Advance article alerts</a>
+                </div>
+                <div class="userAlert alertType-5">
+                    <a href="javascript:;" class="js-user-alert" role="button"
+                       data-userLoggedIn="False"
+                       data-alertType="5" href="javascript:;">New issue alert</a>
+                </div>
+                    <div class="userAlert alertType-MarketingLink">
+                <a href="javascript:;" class="js-user-alert" role="button"
+                   data-userLoggedIn="False"
+                   data-additionalUrl="/my-account/communication-preferences" href="javascript:;">Receive exclusive offers and updates from Oxford Academic</a>
+            </div>
+        <div class="userAlertSignUpModal reveal-modal small" data-reveal>
+            <div class="userAlertSignUp"></div>
+            <a href="javascript:;" role="button" aria-label="Close" class="close-reveal-modal" href="javascript:;">
+                <i class="icon-general-close"></i>
+            </a>
+        </div>
+    </div>
+ 
+    </div>
+    <div class="widget widget-ArticleLinks widget-instance-Article_RightRailB0Article_RightRail_ArticleLinks">
+         
+    </div>
+    <div class="widget widget-RelatedContent widget-instance-Article_RightRailB0Article_RightRail_RelatedContent">
+         
+    </div>
+    <div class="widget widget-RelatedArticleIn widget-instance-Article_RightRailB0Article_RightRail_RelatedArticleIn">
+            <h3 class="relatedArticleIn-title">Related articles in</h3>
+    <div class="relatedArticleIn-content">
+        <ul>
+                <li>
+                    <a href="https://scholar.google.com/scholar?q=related:https%3a%2f%2facademic.oup.com%2fdsh%2farticle%2f30%2fsuppl_1%2fi43%2f365238">Google Scholar</a>
+                </li>
+        </ul>
+    </div>
+ 
+    </div>
+    <div class="widget widget-ArticleCitedBy widget-instance-Article_RightRailB0Article_RightRail_ArticleCitedBy">
+        <div class="rail-widget_wrap vt-articles-cited-by">
+    <h3 class="article-cited-title">Citing articles via</h3>
+    <div class="widget-links_wrap">
+                    <div class="article-cited-link-wrap google-scholar-url">
+                <a href="http://scholar.google.com/scholar?q=link:https%3A%2F%2Facademic.oup.com%2Fdsh%2Farticle%2F30%2Fsuppl_1%2Fi43%2F365238" target="_blank">Google Scholar</a>
+            </div>
+                    <div class="article-cited-link-wrap crossref-citedby">
+                <a href='https://academic.oup.com/dsh/crossref-citedby/365238'>Crossref</a>
+            </div>
+    </div>
+</div> 
+    </div>
+    <div class="widget widget-ArticleListNewAndPopular widget-instance-Article_RightRailB0Article_RightRail_ArticleNewPopularCombined">
+            <ul class="articleListNewAndPopularCombinedView">
+            <li>
+                <h3>
+                    <a href="javascript:;" class="articleListNewAndPopular-mode active" data-mode="MostRecent">Latest</a>
+                </h3>
+            </li>
+            <li>
+                <h3>
+                    <a href="javascript:;" class="articleListNewAndPopular-mode " data-mode="MostRead">Most Read</a>
+                </h3>
+            </li>
+            <li>
+                <h3>
+                    <a href="javascript:;" class="articleListNewAndPopular-mode " data-mode="MostCited">Most Cited</a>
+                </h3>
+            </li>
+    </ul>
+        <section class="articleListNewPopContent articleListNewAndPopular-ContentView-MostRecent hasContent">
+
+
+
+
+<div id="newPopularList-Article_RightRailB0Article_RightRail_ArticleNewPopularCombined" class="fb">
+
+    
+
+
+
+<div class="widget-layout widget-layout--vert">
+            <div class="widget-columns widget-col-1">
+                    <div class="col">
+
+<div class="widget-dynamic-entry">
+    <input id="hfDoi" name="hfDoi" type="hidden" value="10.1093/llc/fqaa039" />
+
+    
+
+<a href="/dsh/advance-article/doi/10.1093/llc/fqaa039/5940653?searchresult=1">
+        <div class="widget-dynamic-journal-title">
+Introduction    </div>
+</a>
+<div class="widget-dynamic-journal-image-synopsis">
+        <div class="widget-dynamic-journal-synopsis">
+            
+        </div>
+</div>
+</div>
+<div class="widget-dynamic-entry">
+    <input id="hfDoi" name="hfDoi" type="hidden" value="10.1093/llc/fqaa057" />
+
+    
+
+<a href="/dsh/advance-article/doi/10.1093/llc/fqaa057/5927539?searchresult=1">
+        <div class="widget-dynamic-journal-title">
+Cyberformalism: Histories of Linguistic Forms in the Digital Archive    </div>
+</a>
+<div class="widget-dynamic-journal-image-synopsis">
+        <div class="widget-dynamic-journal-synopsis">
+            
+        </div>
+</div>
+</div>
+<div class="widget-dynamic-entry">
+    <input id="hfDoi" name="hfDoi" type="hidden" value="10.1093/llc/fqaa029" />
+
+    
+
+<a href="/dsh/advance-article/doi/10.1093/llc/fqaa029/5921705?searchresult=1">
+        <div class="widget-dynamic-journal-title">
+Arabic part-of-speech tagging using a combined rule-based and data-driven approach    </div>
+</a>
+<div class="widget-dynamic-journal-image-synopsis">
+        <div class="widget-dynamic-journal-synopsis">
+            
+        </div>
+</div>
+</div>
+<div class="widget-dynamic-entry">
+    <input id="hfDoi" name="hfDoi" type="hidden" value="10.1093/llc/fqaa041" />
+
+    
+
+<a href="/dsh/advance-article/doi/10.1093/llc/fqaa041/5918973?searchresult=1">
+        <div class="widget-dynamic-journal-title">
+Big data or not enough? Zeta test reliability and the attribution of <em>Henry VI</em>    </div>
+</a>
+<div class="widget-dynamic-journal-image-synopsis">
+        <div class="widget-dynamic-journal-synopsis">
+            
+        </div>
+</div>
+</div>
+<div class="widget-dynamic-entry">
+    <input id="hfDoi" name="hfDoi" type="hidden" value="10.1093/llc/fqaa044" />
+
+    
+
+<a href="/dsh/article/35/3/723/5905110?searchresult=1">
+        <div class="widget-dynamic-journal-title">
+Playing with Feelings: Video Games and Affect. Aubrey Anable. <em>Minneapolis, MN: University of Minnesota Press, 2018, 176 pp. ISBN: 978-1-5179-0025-0. $25.00 (p/b).</em>    </div>
+</a>
+<div class="widget-dynamic-journal-image-synopsis">
+        <div class="widget-dynamic-journal-synopsis">
+            
+        </div>
+</div>
+</div>
+                    </div>
+            </div>
+
+</div></div>
+        </section>
+        <section class="articleListNewPopContent articleListNewAndPopular-ContentView-MostRead hide">
+        </section>
+        <section class="articleListNewPopContent articleListNewAndPopular-ContentView-MostCited hide">
+        </section>
+ 
+    </div>
+
+    </div>
+
+</div>
+    </div>
+
+</div>    <div class="widget widget-AdBlock widget-instance-ArticlePageTopMainBodyBottom">
+        
+
+<div class="adBlockMainBodyBottom-wrap js-adBlockMainBodyBottom hide">
+    
+    <div id="adBlockMainBodyBottom"
+         style=" ">
+        <script>
+            googletag.cmd.push(function () { googletag.display('adBlockMainBodyBottom'); });
+        </script>
+    </div>
+        <div class="advertisement-text">Advertisement</div>
+</div> 
+    </div>
+
+</div>
+
+</div>
+<input id="hfArticleTitle" name="hfArticleTitle" type="hidden" value="DASCH: Data and Service Center for the Humanities | Digital Scholarship in the Humanities | Oxford Academic" />
+<input id="hfLeftNavStickyOffset" name="hfLeftNavStickyOffset" type="hidden" value="29" />
+<input id="hfAreOpFeaturesEnabled" name="hfAreOpFeaturesEnabled" type="hidden" value="False" />
+
+
+            </div><!-- /.center-inner-row no-overflow -->
+        </section>
+    </div>
+    <div class="mobile-mask">
+    </div>
+    <section class="footer_wrap vt-site-footer">
+        
+    <script type="text/javascript" src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"></script>
+    
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
+
+    <script type="text/javascript" src="//oup.silverchair-cdn.com/UI/app/jsdist/v-637389617100571406/article-page.min.js"></script>
+
+    <script type="text/javascript">
+        googletag.cmd.push(function () {
+            
+            googletag.pubads().setTargeting("jnlsdoi", "10.1093/llc/fqv051");
+            googletag.enableServices();
+        });
+    </script>
+
+
+
+        
+
+
+    <div class="widget widget-SitePageFooter widget-instance-SitePageFooter">
+        <div class="ad-banner ad-banner-footer">
+    <div class="widget widget-AdBlock widget-instance-FooterAd">
+        
+
+<div class="adBlockFooter-wrap js-adBlockFooter hide">
+    
+    <div id="adBlockFooter"
+         style=" ">
+        <script>
+            googletag.cmd.push(function () { googletag.display('adBlockFooter'); });
+        </script>
+    </div>
+        <div class="advertisement-text">Advertisement</div>
+</div> 
+    </div>
+
+</div>
+
+    <div class="journal-footer journal-bg">
+        <div class="center-inner-row">
+
+                <div class="journal-footer-menu">
+
+                    <ul>
+                                <li class="link-1">
+                                    <a href="/dsh/pages/About">About Digital Scholarship in the Humanities</a>
+                                </li>
+                                <li class="link-2">
+                                    <a href="/dsh/pages/Editorial_Board">Editorial Board</a>
+                                </li>
+                                <li class="link-3">
+                                    <a href="/dsh/pages/General_Instructions">Author Guidelines</a>
+                                </li>
+                                <li class="link-4">
+                                    <a href="http://eadh.org/about">Contact Us</a>
+                                </li>
+                                <li class="link-5">
+                                    <a href="https://www.facebook.com/DSHJournal/">Facebook</a>
+                                </li>
+</ul><ul>                                <li class="link-1">
+                                    <a href="https://twitter.com/DSHjournal">Twitter</a>
+                                </li>
+                                <li class="link-2">
+                                    <a href="/dsh/subscribe">Purchase</a>
+                                </li>
+                                <li class="link-3">
+                                    <a href="http://www.oxfordjournals.org/en/library-recommendation-form.html">Recommend to Your Librarian</a>
+                                </li>
+                                <li class="link-4">
+                                    <a href="http://www.oupmediainfo.com/">Advertising and Corporate Services</a>
+                                </li>
+                                <li class="link-5">
+                                    <a href="https://globaljobs-careernetwork.oxfordjournals.org/">Journals Career Network</a>
+                                </li>
+
+                    </ul>
+
+
+                </div><!-- /.journal-footer-menu -->
+
+            <div class="journal-footer-affiliations">
+                <!-- <h3>Affiliations</h3> -->
+                    <a href="https://academic.oup.com/dsh" target="">
+                        <img id="footer-logo-DigitalScholarshipintheHumanities" class="journal-footer-affiliations-logo" src="//oup.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/dsh/dsh_f1242156087.svg" alt="Digital Scholarship in the Humanities" />
+                    </a>
+            </div><!-- /.journal-footer-affiliations -->
+
+            <div class="journal-footer-colophon">
+                <ul>
+                        <li>Online ISSN 2055-768X</li>
+                                            <li>Print ISSN 2055-7671</li>
+                    <li>Copyright &#169; 2020 EADH: The European Association for Digital Humanities</li>
+                </ul>
+            </div><!-- /.journal-footer-colophon -->
+
+
+        </div><!-- /.center-inner-row -->
+    </div><!-- /.journal-footer -->
+ 
+    </div>
+
+<div class="oup-footer">
+    <div class="center-inner-row">
+    <div class="widget widget-SelfServeContent widget-instance-OupUmbrellaFooterSelfServe">
+        
+<div class="oup-footer-row journal-links">
+<div class="global-footer selfservelinks">
+<ul>
+    <li>
+    <a href="/journals/pages/about_us">About Us</a>
+    </li>
+    <li>
+    <a href="/journals/pages/contact_us">Contact Us</a>
+    </li>
+    <li>
+    <a href="http://global.oup.com/jobs">Careers</a>
+    </li>
+    <li>
+    <a href="/journals/pages/help">Help</a>
+    </li>
+    <li>
+    <a href="/journals/pages/access_purchase">Access &amp; Purchase</a></li>
+    <li>
+    <a href="/journals/pages/access_purchase/rights_and_permissions">Rights &amp; Permissions</a>
+    </li>
+    <li>
+    <a href="/journals/pages/open_access">Open Access</a>
+    </li>
+</ul>
+</div>
+<div class="global-footer selfservelinks">
+<h4 id="global-footer-customer services" class="title footerheader">Connect</h4>
+<ul>
+    <li>
+    <a href="/my-account/communication-preferences">Join Our Mailing List</a>
+    </li>
+    <li>
+    <a href="http://blog.oup.com/">OUPblog</a>
+    </li>
+    <li>
+    <a href="http://twitter.com/oupacademic">Twitter</a>
+    </li>
+    <li>
+    <a href="https://www.facebook.com/OUPAcademic">Facebook</a>
+    </li>
+    <li>
+    <a href="http://www.youtube.com/playlist?list=PL3MAPgqN8JWioLLTkU4mlFM4-SNt-f1Xs">YouTube</a>
+    </li>
+    <li>
+    <a href="http://oupacademic.tumblr.com/">Tumblr</a>
+    </li>
+</ul>
+</div>
+<div class="global-footer selfservelinks">
+<h4>Resources</h4>
+<ul>
+    <li><a href="/journals/pages/authors">Authors</a></li>
+    <li><a href="/journals/pages/librarians">Librarians</a></li>
+    <li><a href="/journals/pages/societies">Societies</a></li>
+    <li><a href="https://academic.oup.com/journals/pages/sponsorship_and_advertising">Sponsors &amp; Advertisers</a></li>
+    <li><a href="/journals/pages/press">Press &amp; Media</a></li>
+    <li><a href="/journals/pages/agents">Agents</a></li>
+</ul>
+</div>
+<div class="global-footer selfservelinks">
+<h4>Explore</h4>
+<ul>
+    <li><a href="http://global.oup.com/academic">Shop OUP Academic</a></li>
+    <li><a href="http://www.oxforddictionaries.com/">Oxford Dictionaries</a></li>
+    <li><a href="https://www.epigeum.com/">Epigeum</a></li>
+    <li><a href="http://global.oup.com/">OUP Worldwide</a></li>
+    <li><a href="http://www.ox.ac.uk/">University of Oxford</a></li>
+</ul>
+</div>
+<div class="OUP-mission">
+<p>Oxford University Press is a department of the University of Oxford. It furthers the University's objective of excellence in research, scholarship, and education by publishing worldwide</p>
+<img class="journal-footer-logo" src="//oup.silverchair-cdn.com/UI/app/svg/umbrella/oup-logo.svg" alt="Oxford University Press" width="150" height="42" />
+</div>
+</div>
+<div class="oup-footer-row">
+<div class="oup-footer-row-links">
+<ul>
+    <li>Copyright &copy; 2020 Oxford University Press</li>
+    <li><a href="https://global.oup.com/cookiepolicy/">Cookie Policy</a></li>
+    <li><a href="https://global.oup.com/privacy">Privacy Policy</a></li>
+    <li><a href="/journals/pages/about_us/legal/notices">Legal Notice</a></li>
+    <li><a href="/journals/pages/sitemap">Site Map</a></li>
+    <li><a href="/journals/pages/about_us/legal/accessibility">Accessibility</a></li>
+    <li><a href="https://get.adobe.com/reader/">Get Adobe Reader</a></li>
+</ul>
+</div>
+</div>
+<style type="text/css">
+    /* Issue right column fix for tablet/mobile */
+    @media (max-width: 1200px) {
+    .pg_issue .widget-instance-OUP_Issue {
+    width: 100%;
+    }
+    }
+    .sf-facet-list .sf-facet label, .sf-facet-list .taxonomy-label-wrap label {font-size: .9375rem;}
+    .issue-pagination-wrap .pagination-container {float: right;}
+</style>
+    
+    
+     
+    </div>
+
+    </div>
+</div>
+<div class="ss-ui-only">
+
+</div>
+
+    </section>
+</div>
+
+
+
+    
+
+
+
+    <div class="widget widget-SiteWideModals widget-instance-SiteWideModals">
+        <div id="revealModal" class="reveal-modal" data-reveal>
+    <div id="revealContent"></div>
+    <a class="close-reveal-modal" href="javascript:;"><i class="icon-general-close"></i><span class="screenreader-text">Close</span></a>
+</div>
+
+<div id="NeedSubscription" class="reveal-modal small" data-reveal>
+    <div class="subscription-needed">
+        <h5>This Feature Is Available To Subscribers Only</h5>
+        <p><a href="/sign-in">Sign In</a> or <a href="/my-account/register?siteId=5447&amp;returnUrl=%2fdsh%2farticle%2f30%2fsuppl_1%2fi43%2f365238">Create an Account</a></p>
+    </div>
+    <a class="close-reveal-modal" href="javascript:;"><i class="icon-general-close"></i><span class="screenreader-text">Close</span></a>
+</div>
+
+<div id="noAccessReveal" class="reveal-modal tiny" data-reveal>
+    <p>This PDF is available to Subscribers Only</p>
+    <a class="hide-for-article-page" id="articleLinkToPurchase" data-reveal><span>View Article Abstract & Purchase Options</span></a>
+    <div class="issue-purchase-modal">
+        <p>For full access to this pdf, sign in to an existing account, or purchase an annual subscription.</p>
+    </div>
+    <a class="close-reveal-modal" href="javascript:;"><i class="icon-general-close"></i><span class="screenreader-text">Close</span></a>
+</div>
+ 
+    </div>
+
+
+    
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+<script src="//cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.min.js"></script>
+
+    <script type="text/javascript" src="//oup.silverchair-cdn.com/UI/app/jsdist/v-637389617150883412/footer.min.js"></script>
+    <script async="async" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-5265518246c10183&domready=1"></script>
+
+
+    
+
+    
+
+    
+    
+
+
+
+
+    
+
+
+    <!-- Copyright 2001-2010, IBM Corporation All rights reserved. -->
+    <script src="//ouptag.scholarlyiq.com/ntpagetag.js"></script>
+    <noscript>
+        <img src="//ouptag.scholarlyiq.com/ntpagetag.gif?js=0" height="1" width="1" border="0" hspace="0" vspace="0" alt="Scholarly IQ" />
+    </noscript>
+
+
+    <div class="ad-banner js-ad-riser ad-banner-riser">
+
+    <div class="widget widget-AdBlock widget-instance-RiserAd">
+         
+    </div>
+
+    </div>
+
+
+</body>
+</html>
+

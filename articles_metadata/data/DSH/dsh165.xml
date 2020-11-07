@@ -1,0 +1,1779 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+
+        <title>rationale of the born-digital dossier génétique: Digital forensics and the writing process: With examples from the Thomas Kling Archive | Digital Scholarship in the Humanities | Oxford Academic</title>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js" type="text/javascript"></script>
+<script>window.jQuery || document.write('<script src="//oup.silverchair-cdn.com/UI/app/vendor/jquery-2.2.4.js" type="text/javascript">\x3C/script>')</script>
+<script src="//oup.silverchair-cdn.com/Themes/Silver/app/vendor/v-637389614866021597/jquery-migrate-1.4.1.min.js" type="text/javascript"></script>
+
+
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+    
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <!-- Turn off telephone number detection. -->
+    <meta name="format-detection" content="telephone=no" />
+
+<!-- Bookmark Icons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="//oup.silverchair-cdn.com/UI/app/img/v-637389614697592184/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="//oup.silverchair-cdn.com/UI/app/img/v-637389614697748397/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="//oup.silverchair-cdn.com/UI/app/img/v-637389614697748397/favicon-16x16.png" sizes="16x16">
+  <link rel="mask-icon" href="//oup.silverchair-cdn.com/UI/app/img/v-637389614697748397/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="//oup.silverchair-cdn.com/UI/app/img/v-637389614697748397/favicon.ico">
+  <link rel="manifest" href="//oup.silverchair-cdn.com/UI/app/img/v-637389614697748397/manifest.json">
+  <meta name="msapplication-config" content="//oup.silverchair-cdn.com/UI/app/img/v-637389614697592184/browserconfig.xml">
+  <meta name="theme-color" content="#002f65">
+
+
+    
+
+
+
+
+<link rel="stylesheet" type="text/css" href="//oup.silverchair-cdn.com/UI/app/fonts/icons.css" />
+
+<link rel="stylesheet" type="text/css" href="//oup.silverchair-cdn.com/UI/app/css/v-637389617098071498/style.min.css" />
+
+        <link rel="stylesheet" type="text/css" href="//oup.silverchair-cdn.com/UI/app/vendor/oupCookiePolicy/css/v-637389614698998372/jquery.fancybox-1.3.4_1.css" />
+        <link rel="stylesheet" type="text/css" href="//oup.silverchair-cdn.com/UI/app/vendor/jscrollpane/v-637389614698998372/jscrollpane.css" />
+        <link rel="stylesheet" type="text/css" href="//oup.silverchair-cdn.com/UI/app/vendor/jquery.tablesorter/v-637389614698998372/theme.default.css" />
+
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Merriweather:300,400,400italic,700,700italic|Source+Sans+Pro:400,400italic,700,700italic" />
+
+
+        <link href=//oup.silverchair-cdn.com/data/SiteBuilderAssetsOriginals/Live/CSS/journals/global.css rel="stylesheet" type="text/css" />
+                <link href=//oup.silverchair-cdn.com/data/SiteBuilderAssets/Live/CSS/dsh/Site567563881.css rel="stylesheet" type="text/css" />
+
+
+
+    <script> var dataLayer = [{"event_type":"Login-full-text","supplier_tag":"SC_Journals","object_type":"Article","siteid":"dsh","authzrequired":"true","turnaway_id":"SUB_NONE","doi":"10.1093/llc/fqx049"}]; </script>
+        <script>
+        (function (w, d, s, l, i) {
+          w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+              new Date().getTime(), event: 'gtm.js'
+          }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-W6DD7HV');
+        </script>
+
+    
+
+        <script type="text/javascript">
+            var App = App || {};
+            App.LoginUserInfo = {
+                isInstLoggedIn: 0,
+                isIndividualLoggedIn: 0
+            };
+
+            App.CurrentSubdomain = 'dsh';
+            App.SiteURL = 'academic.oup.com/dsh';
+        </script>
+    
+    
+    <link href="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css" rel="stylesheet" type="text/css" />
+    <script type="application/ld+json">
+        {"@context":"http://schema.org","@id":"https://academic.oup.com/dsh/article/33/2/391/4111188","@type":"ScholarlyArticle","name":"The rationale of the born-digital  dossier génétique : Digital forensics and the writing process: With examples from the Thomas Kling Archive","datePublished":"2017-09-11","isPartOf":{"@id":"https://academic.oup.com/dsh/dsh/issue/33/2","@type":"PublicationIssue","issueNumber":"2","datePublished":"2018-06-01","isPartOf":{"@id":"https://academic.oup.com/dsh/dsh","@type":"Periodical","name":"Digital Scholarship in the Humanities","issn":["2055-768X"]}},"url":"http://dx.doi.org/10.1093/llc/fqx049","inLanguage":"en","copyrightHolder":"EADH: The European Association for Digital Humanities","copyrightYear":"2020","publisher":"Oxford University Press","sameAs":"https://academic.oup.com/dsh/article/33/2/391/4111188","author":[{"name":"Ries, Thorsten","affiliation":"Ghent University, Belgium","@type":"Person"}],"description":"Abstract.  The article outlines the rationale of the born-digital dossier génétique from a digital forensic perspective in the light of the recent discussion ab","pageStart":"391","pageEnd":"424","thumbnailURL":"https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/dsh/Issue/33/2/1/m_digitalsh_33_2cover.png?Expires=1666548736&Signature=aLBbrBBKPUST9utFqKGJPtm8ep7wqrGQlMMfWRETCR4xUQcLwJfydqoj0CZXZ3T4EzmKuw8wsd-qvg3K~OiUK2vJNHIXLGVS2QX40RKmE8T6GSawZvB0bcZGv5nupgQjtTMgsc7bNucQw5xnQe2H-JB7fK63oas3LFJLzfrMygr3rBGak99rt1jzNTsp8rgjax7NrS28vWFuecma12ZNQzC~INdo7NRbaxGcKFH1v-74pD3G7RV1Zh0Bv8shloAQsoAUWThEoIF5jw4dxje31y8xiKhnbTACo9B5SCH5s0AUD57fW6Y6Gac~e9J8bpUm7icm6vGSAZ7hc5L3U~CQKw__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA","headline":"The rationale of the born-digital  dossier génétique : Digital forensics and the writing process: With examples from the Thomas Kling Archive","image":"https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/dsh/Issue/33/2/1/m_digitalsh_33_2cover.png?Expires=1666548736&Signature=aLBbrBBKPUST9utFqKGJPtm8ep7wqrGQlMMfWRETCR4xUQcLwJfydqoj0CZXZ3T4EzmKuw8wsd-qvg3K~OiUK2vJNHIXLGVS2QX40RKmE8T6GSawZvB0bcZGv5nupgQjtTMgsc7bNucQw5xnQe2H-JB7fK63oas3LFJLzfrMygr3rBGak99rt1jzNTsp8rgjax7NrS28vWFuecma12ZNQzC~INdo7NRbaxGcKFH1v-74pD3G7RV1Zh0Bv8shloAQsoAUWThEoIF5jw4dxje31y8xiKhnbTACo9B5SCH5s0AUD57fW6Y6Gac~e9J8bpUm7icm6vGSAZ7hc5L3U~CQKw__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA"}
+    </script>
+    <meta property="og:site_name" content="OUP Academic" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="rationale of the born-digital  dossier g&#233;n&#233;tique : Digital forensics and the writing process: With examples from the Thomas Kling Archive" />
+    <meta property="og:description" content="Abstract.  The article outlines the rationale of the born-digital dossier g&#233;n&#233;tique from a digital forensic perspective in the light of the recent discussion ab" />
+    <meta property="og:url" content="https://academic.oup.com/dsh/article/33/2/391/4111188" />
+    <meta property="og:image" content="https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/dsh/Issue/33/2/1/m_digitalsh_33_2cover.png?Expires=1666548736&amp;Signature=aLBbrBBKPUST9utFqKGJPtm8ep7wqrGQlMMfWRETCR4xUQcLwJfydqoj0CZXZ3T4EzmKuw8wsd-qvg3K~OiUK2vJNHIXLGVS2QX40RKmE8T6GSawZvB0bcZGv5nupgQjtTMgsc7bNucQw5xnQe2H-JB7fK63oas3LFJLzfrMygr3rBGak99rt1jzNTsp8rgjax7NrS28vWFuecma12ZNQzC~INdo7NRbaxGcKFH1v-74pD3G7RV1Zh0Bv8shloAQsoAUWThEoIF5jw4dxje31y8xiKhnbTACo9B5SCH5s0AUD57fW6Y6Gac~e9J8bpUm7icm6vGSAZ7hc5L3U~CQKw__&amp;Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" />
+    <meta property="og:updated_time" content="2017-09-11" />
+<meta name="citation_author" content="Ries, Thorsten" /><meta name="citation_author_institution" content="Ghent University, Belgium" /><meta name="citation_title" content="The rationale of the born-digital dossier génétique: Digital forensics and the writing process: With examples from the Thomas Kling Archive" /><meta name="citation_firstpage" content="391" /><meta name="citation_lastpage" content="424" /><meta name="citation_doi" content="10.1093/llc/fqx049" /><meta name="citation_journal_title" content="Digital Scholarship in the Humanities" /><meta name="citation_journal_abbrev" content="Digital Scholarship Humanities" /><meta name="citation_volume" content="33" /><meta name="citation_issue" content="2" /><meta name="citation_publication_date" content="2018/06/01" /><meta name="citation_issn" content="2055-7671" /><meta name="citation_publisher" content="Oxford Academic" /><meta name="citation_reference" content="Andreasen T. A. C. ( 2016 ). An Archaeology of Digital Knowledge. Imaginaries of the Digital Cultural Heritage Archive. Ph.D. thesis, Københavns Universitet, Det Humanistiske Fakultet. http://static-curis.ku.dk/portal/files/153826818/Ph.d._2016_Andreasen.pdf (accessed 11 December 2016). " /><meta name="citation_reference" content="Bednar P., Katos V. ( 2011 ). SSD: new challenges for digital forensics. Paper presented on conference Information Systems: A Crossroads for Organization, Management, Accounting and Engineering. ItAIS. Published online on the conference website http://www.cersi.it/itais2011/pdf/30.pdf (accessed 25 July 2017), also available at the Lund University online repository: http://portal.research.lu.se/ws/files/5456453/4318024.pdf (accessed 25 July 2017) " /><meta name="citation_reference" content="citation_title=Solid state drives: the beginning of the end for current practice in digital forensic recovery?; citation_author=Bell  G. B.; citation_author=Boddington  R.;  citation_journal_title=Journal of Digital Forensics, Security and Law;  citation_year=2010;  citation_volume=5;  citation_issue=3;  citation_pages=article 1" /><meta name="citation_reference" content="citation_title=The digital signature dilemma; citation_author=Blanchette  J.-F.;  citation_journal_title=Annals of Telecommunications;  citation_year=2006;  citation_volume=61;  citation_issue=7–8;  citation_pages=903-18; " /><meta name="citation_reference" content="citation_title=A material history of bits; citation_author=Blanchette  J.-F.;  citation_journal_title=Journal of the American Society for Information Science and Technology;  citation_year=2011;  citation_volume=62;  citation_issue=6;  citation_pages=1042-57; " /><meta name="citation_reference" content="citation_author=Blanchette  J.-F.; citation_publisher=MIT Press, Cambridge;  citation_title=Burdens of Proof. Cryptographic Culture and Evidence Law in the Age of Electronic Documents;  citation_year=2012; " /><meta name="citation_reference" content="citation_author=Bryant  J.; citation_publisher=University of Michigan Press, Ann Arbor, MI;  citation_title=The Fluid Text: A Theory of Revision and Editing for Book and Screen;  citation_year=2002; " /><meta name="citation_reference" content="bwFLA ( 1992-2016 ). The Digital Heritage of Vilèm Flusser. http://bw-fla.uni-freiburg.de/demo-flusser.html (accessed 11 December 2016). " /><meta name="citation_reference" content="Carrier B. ( 2003 ). Open Source Digital Forensics Tools: The Legal Argument. http://www.digital-evidence.org/papers/opensrc_legal.pdf (accessed 11 December 2016). " /><meta name="citation_reference" content="citation_title=A comprehensive approach to born-digital archives; citation_author=Carroll  L.; citation_author=Farr  E.; citation_author=Hornsby  P.; citation_author=Ranker  B.;  citation_journal_title=Archivaria;  citation_year=2011;  citation_volume=72;  citation_pages=61-92; " /><meta name="citation_reference" content="citation_author=Carvey  H.; citation_publisher=Syngress, Waltham, MA;  citation_title=Windows forensic analysis toolkit. Advanced analysis techniques for windows 8;  citation_year=2014; " /><meta name="citation_reference" content="citation_title=Putting the science in digital forensics; citation_author=Cohen  F.;  citation_journal_title=Journal of Digital Forensics, Security and Law;  citation_year=2011;  citation_volume=6;  citation_issue=1;  citation_pages=7-14; " /><meta name="citation_reference" content="citation_title=Postdramatic methods of adaptation in the age of digital collaborative writing; citation_author=Crombez  T.; citation_author=Cassiers  E.;  citation_journal_title=DSH 32.1;  citation_year=2017;  citation_pages=17-35; " /><meta name="citation_reference" content="Dahlström M. ( 2000 ). Drowning by Versions. Human IT 4, http://etjanst.hb.se/bhs/ith/4-00/md.htm (accessed 11 December 2016). " /><meta name="citation_reference" content="citation_title=Performative materiality and theoretical approaches to interface; citation_author=Drucker  J.;  citation_journal_title=Digital Humanities Quarterly;  citation_year=2013;  citation_volume=7;  citation_issue=1; " /><meta name="citation_reference" content="citation_title=From digital diplomatics to digital records forensics; citation_author=Duranti  L.;  citation_journal_title=Archivaria;  citation_year=2009;  citation_volume=68;  citation_pages=39-66; " /><meta name="citation_reference" content="Duranti L., Endicott-Popovsky B. ( 2010 ). Digital records forensics. a new science and academic program for forensic readiness. In ADFSL Conference on Digital Forensics, Security and Law. http://arqtleufes.pbworks.com/w/file/fetch/94919918/Duranti.pdf (accessed 11 December 2016). " /><meta name="citation_reference" content="citation_author=Enge  J.; citation_author=Kramski  H. W.; citation_author=Filthaut  J.; citation_publisher=Thüringisches Hauptstaatsarchiv, Weimar;  citation_title=Von der Übernahme zur Benutzung. Aktuelle Entwicklungen in der digitalen Archivierung. 18. Tagung des Arbeitskreises Archivierung von Unterlagen aus digitalen Systemen on 11-12 March 2014 in Weimar;  citation_year=2014;  citation_pages=53-62; " /><meta name="citation_reference" content="Fried I. ( 2007 ). Microsoft disabling Word 2003's ‘fast save’ feature. CNet published 17 September 2007. https://www.cnet.com/news/microsoft-disabling-word-2003s-fast-save-feature/ (accessed 11 December 2016). " /><meta name="citation_reference" content="citation_title=Forensic investigation of OOXML format documents; citation_author=Fu  Z.; citation_author=Sun  X.; citation_author=Liu  Y.; citation_author=Li  B.;  citation_journal_title=Digital Investigation;  citation_year=2011;  citation_volume=8;  citation_issue=1;  citation_pages=48-55; " /><meta name="citation_reference" content="citation_title=Hash-based carving: Searching media for complete files and file fragments with sector hashing and hashdb; citation_author=Garfinkel  S.; citation_author=McCarrin  M.;  citation_journal_title=Digital Investigation;  citation_year=2015;  citation_volume=14;  citation_pages=S95-105; " /><meta name="citation_reference" content="citation_title=Digital forensics research: the next 10 years; citation_author=Garfinkel  S. L.;  citation_journal_title=Digital Investigation;  citation_year=2010;  citation_volume=7;  citation_pages=S64-73; " /><meta name="citation_reference" content="citation_title=Bringing science to digital forensics with standardized forensic corpora; citation_author=Garfinkel  S.; citation_author=Farrella  P.; citation_author=Roussev  V.; citation_author=Dinolta  G.;  citation_journal_title=Digital Investigation;  citation_year=2009;  citation_volume=6;  citation_pages=S2-11; " /><meta name="citation_reference" content="citation_author=Gesing  C.; citation_author=der Erzdiözese Köln  B.; citation_author=Kurt  K.; citation_publisher=Bildungswerk der Erzdiözese Köln, Cologne;  citation_title=Antlitz. Catalog to Christoph Gesing’s exhibitions at Churches St. Agnes, St. Theodor, Katholisches Bildungswerk Cologne;  citation_year=2004; " /><meta name="citation_reference" content="citation_author=Gitelman  L.; citation_publisher=MIT Press, Cambridge;  citation_title=Always Already New. Media, History, and the Data of Culture;  citation_year=2006; " /><meta name="citation_reference" content="Gubanov Y., Afonin O. ( 2014 ). SSD Forensics 2014. Recovering Evidence from SSD Drives. Understanding TRIM, Garbage Collection and Exclusions. https://belkasoft.com/download/info/SSD%20Forensics%202014.pdf (accessed 25 July 2017). " /><meta name="citation_reference" content="citation_author=Guiriato  D.; citation_author=Stingelin  M.; citation_author=Zanetti  S.; citation_publisher=Fink, Paderborn;  citation_title=System ohne General. Schreibszenen im digitalen Zeitalter;  citation_year=2006; " /><meta name="citation_reference" content="citation_title=Le généticien et l'ordinateur. Les tracés manuscrits à l'ère numérique; citation_author=Hay  L.;  citation_journal_title=Genesis;  citation_year=2006;  citation_volume=27;  citation_pages=160-3; " /><meta name="citation_reference" content="citation_author=Hayles  N. K.; citation_publisher=University of Chicago Press, Chicago;  citation_title=My Mother Was a Computer. Digital Subjects and Literary Texts;  citation_year=2005; " /><meta name="citation_reference" content="citation_author=Hillis  D.; citation_publisher=Basic Books, New York;  citation_title=The pattern on the stone. The simple ideas that make computers work;  citation_year=1999; " /><meta name="citation_reference" content="citation_title=Signs o’ the times, The software of philology and a philology of software; citation_author=Hiller  M.;  citation_journal_title=Digital Culture and Society;  citation_year=2015;  citation_volume=1;  citation_issue=1);  citation_pages=151-63; " /><meta name="citation_reference" content="citation_author=Hummelt  N.; citation_author=Ammon  F. v.; citation_author=Trilcke  P.; citation_author=Scharfschwert  A; citation_publisher=Vandenhoeck and Ruprecht, Göttingen;  citation_title=Das Gellen der Tinte. Zum Werk Thomas Klings;  citation_year=2012;  citation_pages=113-34; " /><meta name="citation_reference" content="iMal website. (2016). Website of the Resurrection Lab at iMal. http://imal.org/en/resurrection (accessed 11 December 2016). " /><meta name="citation_reference" content="John J. L. ( 2012 ). Digital Forensics and Preservation. DPC Technology Watch Report 12-03 November 2012. Digital Preservation Coalition. http://dx.doi.org/10.7207/twr12-03 (accessed 11 December 2016). " /><meta name="citation_reference" content="John J. L. ( 2014 ). Applying Forensics to Preserving the Past: Current Activities and Future Possibilities. First Digital Lives Research Workshop 2014 at the British Library, 11-12 September 2014, British Library. http://britishlibrary.typepad.co.uk/digital-scholarship/2014/09/first-digital-lives-research-workshop-2014-at-the-british-library.html (accessed 11 December 2016). " /><meta name="citation_reference" content="citation_title=A study of forensic imaging in the absence of write-blockers; citation_author=Kesser  G.C.; citation_author=Carlton  G.H.;  citation_journal_title=Journal of Digital Forensics, Security and Law;  citation_year=2014;  citation_volume=9;  citation_issue=3);  citation_pages=51-58; " /><meta name="citation_reference" content="citation_author=Kling  T.; citation_publisher=Suhrkamp, Frankfurt/M;  citation_title=brennstabm;  citation_year=1991; " /><meta name="citation_reference" content="citation_author=Kling  T.; citation_publisher=Suhrkamp, Frankfurt/M;  citation_title=nacht. sicht. gerät;  citation_year=1993; " /><meta name="citation_reference" content="citation_author=Kling  T.; citation_publisher=DuMont, Köln;  citation_title=Fernhandel;  citation_year=1999; " /><meta name="citation_reference" content="citation_author=Kling  T.; citation_publisher=DuMont, Cologne;  citation_title=Fernhandel. Gedichte;  citation_year=1999; " /><meta name="citation_reference" content="citation_author=Kling  T.; citation_publisher=DuMont, Köln;  citation_title=Sondagen;  citation_year=2002; " /><meta name="citation_reference" content="citation_author=Kling  T.; citation_publisher=DuMont, Cologne;  citation_title=Auswertung der Flugdaten;  citation_year=2005; " /><meta name="citation_reference" content="citation_title=Empirical analysis of solid state disk data retention when used with contemporary operating systems; citation_author=King  C.; citation_author=Vidas  T.;  citation_journal_title=Digital Investigation;  citation_year=2011;  citation_volume=8;  citation_pages=S111-17; " /><meta name="citation_reference" content="citation_author=Kirschenbaum  M.; citation_author=Reside  D.; citation_author=Freistat  N.; citation_author=Flanders  J.; citation_publisher=Cambridge University Press, Cambridge;  citation_title=The Cambridge Companion to Textual Scholarship;  citation_year=2013;  citation_pages=257-73; " /><meta name="citation_reference" content="citation_author=Kirschenbaum  M.; citation_publisher=MIT University Press, Cambridge;  citation_title=Mechanisms. New Media and the Forensic Imagination;  citation_year=2008; " /><meta name="citation_reference" content="citation_author=Kirschenbaum  M.; citation_publisher=New York Public Library, ;  citation_title=LABS lectures;  citation_year=2011; " /><meta name="citation_reference" content="citation_title=The .txtual condition: digital humanities, born-digital archives, and the future literary; citation_author=Kirschenbaum  M.;  citation_journal_title=Digital Humanities Quarterly;  citation_year=2013;  citation_volume=7;  citation_issue=1; " /><meta name="citation_reference" content="Kirschenbaum M. ( 2014 ). Operating Systems of the Mind. Bibliography After Word Processing (The Example of Updike). The Papers of the Bibliographical Society of America , 101 ( 4 ), 381–412. " /><meta name="citation_reference" content="citation_author=Kirschenbaum  M.; citation_publisher=Harvard University Press, Cambridge, MA;  citation_title=Track Changes. A Literary History of Word Processing;  citation_year=2016a; " /><meta name="citation_reference" content="citation_author=Kirschenbaum  M.; citation_author=Kirschenbaum  M.; citation_publisher=Lecture Series am KISLAK Center for Special Collections, Rare Books and Manuscripts, Penn Libraries, ;  citation_title=Bitstreams. The Future of Digital Literary Heritage;  citation_year=2016b; " /><meta name="citation_reference" content="citation_title=Literatur, Edition und Reprographie; citation_author=Kittler  W.;  citation_journal_title=Deutsche Vierteljahrsschrift für Literaturwissenschaft und Geistesgeschichte;  citation_year=1991;  citation_volume=65;  citation_pages=205-35; " /><meta name="citation_reference" content="citation_author=Kruse  A.; citation_author=Langanky  U.; citation_author=Vahl  H.; citation_publisher=Heinrich-Heine-Institut, Düsseldorf;  citation_title=den sprachn das sentimentale abknöpfn. Widmungen zum 50. Geburtstag von Thomas Kling;  citation_year=2007; " /><meta name="citation_reference" content="citation_title=Le généticien et l'ordinateur. Présentation; citation_author=Lebrave  J.-L.;  citation_journal_title=Genesis;  citation_year=2006;  citation_volume=27;  citation_pages=159-60; " /><meta name="citation_reference" content="citation_title=Computer forensics: la critique génétique et l'écriture numérique; citation_author=Lebrave  J.-L.;  citation_journal_title=Genesis;  citation_year=2011;  citation_volume=33;  citation_pages=137-47; " /><meta name="citation_reference" content="Lee C. A., Olsen P., Chassanoff A., Woods K., Kirschenbaum M., Misra S. ( 2014 ). From Code to Community: Building and Sustaining BitCurator through Community Engagement. BitCurator White Paper published 30 September 2014. http://www.bitcurator.net/wp-content/uploads/2014/11/code-to-community.pdf http://www.bitcurator.net , http://www.bitcurator.net (accessed 11 December 2016). " /><meta name="citation_reference" content="citation_author=Li  Q.; citation_author=Sencar  H. T.; citation_author=Memon  N.; citation_publisher=Springer, New York;  citation_title=Digital Image Forensics: There is More to a Picture than Meets the Eye;  citation_year=2013;  citation_pages=123-53; " /><meta name="citation_reference" content="citation_author=Light  M.; citation_author=Theimer  K.; citation_publisher=Rowman and Littlefield, Lanham, MA;  citation_title=Reference and Access. Innovative Practices in Archives and Special Collections;  citation_year=2014;  citation_pages=17-35; " /><meta name="citation_reference" content="citation_title=New departures in textual and genetic criticism; citation_author=Mara  M. O‘K.;  citation_journal_title=Irish Studies Review;  citation_year=2013;  citation_volume=21;  citation_issue=3;  citation_pages=342-52; " /><meta name="citation_reference" content="citation_author=Mathijsen  M.; citation_author=Mitterauer  G.; citation_author=Müller  U.; citation_author=Springeth  M.; citation_author=Vitzthum  V.; citation_publisher=Niemeyer, Tübingen;  citation_title=Was ist Textkritik? Zur Geschichte und Relevanz eines Zentralbegriffs der Editionswissenschaft;  citation_year=2009;  citation_pages=233-40; " /><meta name="citation_reference" content="citation_author=Metz  J.; citation_publisher=Github page, ;  citation_title=Libvshadow. Library and tools to access the Volume Shadow Snapshot (VSS) format;  citation_year=2011; " /><meta name="citation_reference" content="Modern Language Association of America , MLA ( 1995 ). Statement on the Significance of Primary Records. Profession 1995, pp. 27–8. " /><meta name="citation_reference" content="Owens T. ( 2013 ). Historic iPhones: Personal Digital Media Devices in the Collection. 15 November 2013. http://www.trevorowens.org/2013/11/historic-iphones-personal-digital-media-devices-in-the-collection/ (accessed 15 May 2017). " /><meta name="citation_reference" content="citation_title=Detecting file fragmentation point using sequential hypothesis testing; citation_author=Pal  A.; citation_author=Sencar  T.; citation_author=Memon  N.;  citation_journal_title=Digital Investigation;  citation_year=2008;  citation_volume=5;  citation_pages=S2-13; " /><meta name="citation_reference" content="citation_title=A rationale of digital documentary editions; citation_author=Pierazzo  E.;  citation_journal_title=Literary and Linguistic Computing;  citation_year=2011;  citation_volume=26;  citation_issue=4;  citation_pages=463-77; " /><meta name="citation_reference" content="citation_title=Dropbox analysis: data remnants on user machines; citation_author=Quick  D.; citation_author=Choo  K.-K. R.;  citation_journal_title=Digital Investigation;  citation_year=2013;  citation_volume=10;  citation_issue=1;  citation_pages=3-18; " /><meta name="citation_reference" content="citation_author=Redwine  G.; citation_author=Barnard  M.; citation_author=Donovan  K.; citation_author=Farr  E.; citation_author=Forstrom  M.; citation_author=Hansen  W.; citation_author=John  J. L.; citation_author=Kuhl  N.; citation_author=Shaw  S.; citation_author=Thomas  S.; citation_publisher=Council on Library und Information Resources Washington, D.C, Washington, DC;  citation_title=Born Digital: Guidance for Donors, Dealers, and Archival Repositories;  citation_year=2013; " /><meta name="citation_reference" content="citation_title=“Last Modified January 1996”. The Digital History of RENT; citation_author=Reside  D.;  citation_journal_title=Theatre Survey;  citation_year=2011a;  citation_volume=52;  citation_issue=2;  citation_pages=335-40; " /><meta name="citation_reference" content="Reside D. ( 2011b ). “No Day But Today”. A look at Jonathan Larson's Word Files. New York Public Library Blog, published 22 April 2011. http://www.nypl.org/blog/2011/04/22/no-day-today-look-jonathan-larsons-word-files (accessed 11 December 2016). " /><meta name="citation_reference" content="Reside D. ( 2012 ). Digital Genetic Criticism of RENT. Paper held at the Digital Humanities Conference 2012 in Hamburg, Germany. http://www.dh2012.uni-hamburg.de/conference/programme/abstracts/digital-genetic-criticism-of-rent.1.html (accessed 11 December 2016). " /><meta name="citation_reference" content="citation_title=File Not Found: Rarity in an Age of Digital Plenty; citation_author=Reside  D.;  citation_journal_title=RBM: A Journal of Rare Book, Manuscripts, and Cultural History;  citation_year=2014;  citation_volume=15;  citation_issue=1;  citation_pages=68-74; " /><meta name="citation_reference" content="citation_title=Schicksal der Handschrift, Schicksal der Druckschrift. Notizen zur “Textgenese”; citation_author=Reuß  R.;  citation_journal_title=Text.kritische Beiträge;  citation_year=1999;  citation_volume=5;  citation_pages=1-25; " /><meta name="citation_reference" content="citation_title=&quot;die geräte klüger als ihre besitzer”. Philologische Durchblicke hinter die Schreibszene des Graphical User Interface. Überlegungen zur digitalen Quellenphilologie, mit einer textgenetischen Studie zu Michael Speiers ausfahrt st. nazaire; citation_author=Ries  T.;  citation_journal_title=Editio;  citation_year=2010a;  citation_volume=24;  citation_pages=149-99; " /><meta name="citation_reference" content="citation_author=Ries  T.; citation_author=Schubert  M.; citation_publisher=de Gruyter, Berlin;  citation_title=Materialität in der Editionswissenschaft;  citation_year=2010b;  citation_pages=159-78; " /><meta name="citation_reference" content="citation_author=Ries  T.; citation_author=Schumacher  E.; citation_author=Krüger  K.; citation_author=Mengaldo  E.; citation_publisher=de Gruyter, Berlin;  citation_title=Textgenese und digitales Edieren. Wolfgang Koeppens »Jugend« im Kontext der Editionsphilologie;  citation_year=2016;  citation_pages=57-84; " /><meta name="citation_reference" content="Rockmore D. ( 2014 ). The Digital Life of Salman Rushdie. The New Yorker published 29 July 2014. http://www.newyorker.com/tech/elements/digital-life-salman-rushdie (accessed 11 December 2016). " /><meta name="citation_reference" content="citation_title=Cloud forensics-Tool development studies &amp; future outlook; citation_author=Roussev  V.; citation_author=Ahmed  I.; citation_author=Barreto  A.; citation_author=McCulley  S.; citation_author=Shanmughan  V.;  citation_journal_title=Digital Investigation;  citation_year=2016;  citation_volume=18;  citation_pages=79-95; " /><meta name="citation_reference" content="citation_author=Sahle  P.; citation_publisher=University of Cologne, Cologne;  citation_title=Digitale Editionsformen. Zum Umgang mit der Überlieferung unter den Bedingungen des Medienwandels, 2nd of 3 vol.: Befunde, Theorie, Methodik;  citation_year=2013; " /><meta name="citation_reference" content="citation_author=Sahle  P.; citation_author=Driscoll  M. J.; citation_author=Pierrazzo  E.; citation_publisher=Cambridge: Open Book Publishers, ;  citation_title=Digital Scholarly Editing. Theories and Practices;  citation_year=2016;  citation_pages=19-40; " /><meta name="citation_reference" content="citation_author=Shillingsburg  P.; citation_publisher=University of Georgia Press, Athens, GA;  citation_title=Scholarly Editing in the Computer Age: Theory and Practice;  citation_year=1986; " /><meta name="citation_reference" content="citation_author=Shillingsburg  P.; citation_publisher=University of Michigan Press, ;  citation_title=Scholarly Editing in the Computer Age: Theory and Practice;  citation_year=1996; " /><meta name="citation_reference" content="Somers J. ( 2014 ): How I reverse engineered Google Docs to play back any document’s keystrokes. Published 5 November 2014. http://features.jsomers.net/how-i-reverse-engineered-google-docs/ (accessed 11 December 2016). " /><meta name="citation_reference" content="citation_author=Stingelin  M.; citation_author=Thiele  M.; citation_publisher=Fink, Paderborn;  citation_title=Portable Media. Schreibszenen in Bewegung zwischen Peripatetik und Mobiltelefon;  citation_year=2009; " /><meta name="citation_reference" content="Testdisk ( 2015 ). Testdisk wiki. http://www.cgsecurity.org/wiki/TestDisk_7.0_Release (accessed 11 December 2016). " /><meta name="citation_reference" content="citation_author=Therstappen  J.; citation_author=Wix  G.; citation_author=Stüssel  K.; citation_publisher=Schriftenreihe der Kunst- und Museumsbibliothek der Stadt Köln, Cologne;  citation_title=Thomas Kling. Double Exposure. Catalogue to the exhibition Thomas Kling. Double Exposure at Kunst- und Museumsbibliothek Köln 21 Jan to 5 March 2017;  citation_year=2017;  citation_volume=5;  citation_pages=57-68; " /><meta name="citation_reference" content="Thomas S., Gittens R., Martin J., Baker F. ( 2007 ). Personal archives accessible in digital media project. Workbook on digital private papers, PARADIGM project, http://www.paradigm.ac.uk/workbook/ (accessed 11 December 2016). " /><meta name="citation_reference" content="citation_author=Tommek  H.; citation_publisher=de Gruyter, Berlin;  citation_title=Der lange Weg in die Gegenwartsliteratur. Studien zur Geschichte des literarischen Feldes in Deutschland von 1960 bis 2000;  citation_year=2015; " /><meta name="citation_reference" content="citation_author=Van Hulle  D.; citation_publisher=University of Michigan Press, Ann Arbor;  citation_title=Textual Awareness. A Genetic Study of Late Manuscripts by Joyce, Proust, &amp; Mann;  citation_year=2004; " /><meta name="citation_reference" content="Van Hulle D. ( 2011 ). Digitaal kladwerk. De witte raaf 153. http://www.dewitteraaf.be/artikel/detail/nl/3682 (accessed 11 December 2016). " /><meta name="citation_reference" content="Vauthier B. ( 2014a ). La critique génétique à l'épreuve du numérique, El Dorado (2008) de Robert Juan-Cantavella. Passim 14, pp. 6–7. " /><meta name="citation_reference" content="Vauthier B. ( 2014b ). Tanteos, calas y pesquisas en el dossier genético digital de El Dorado de Robert Juan Cantavella. In Kunz, M. and Gómez Rodríguez, S. (eds), Nueva narrativa española. Barcelona: Linkgua, pp. 311–345. " /><meta name="citation_reference" content="Weber K. ( 2016 ). Über den Einfluss von SSD-Technologie auf die Datenträger-Forensik. Technischer Bericht Nr. 9 vom 31.3.2016. In Technische Berichte in Digitaler Forensik (Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU), Hochschule Albstadt-Sigmaringen, FAU, Goethe-Universität Frankfurt am Main). https://www1.informatik.uni-erlangen.de/filepool/publications/df-whitepaper-9.pdf (accessed 25 July 2017). " /><meta name="citation_reference" content="citation_title=Thomas Kling. Das brennende Archiv. Unveröffentlichte Gedichte, Briefe, Handschriften und Photos aus dem Nachlass sowie zu Lebzeiten entlegen publizierte Gedichte, Essays und Gespräche; citation_author=Wehr  N.; citation_author=Langanky  U.;  citation_journal_title=Schreibheft Zeitschrift für Literatur;  citation_year=2011;  citation_volume=76; " /><meta name="citation_reference" content="citation_title=Peter Carey's laptop; citation_author=Wilken  R.;  citation_journal_title=Cultural Studies Review;  citation_year=2014;  citation_volume=20;  citation_issue=1;  citation_pages=100-20; " /><meta name="citation_reference" content="citation_author=Wix  G.; citation_author=Wix  G.; citation_author=Stüssel  K.; citation_publisher=Schriftenreihe der Kunst- und Museumsbibliothek der Stadt Köln, Cologne;  citation_title=Thomas Kling. Double Exposure. Catalogue to the exhibition Thomas Kling. Double Exposure at Kunst- und Museumsbibliothek Köln 21 Jan to 5 March 2017;  citation_year=2017;  citation_volume=5;  citation_pages=19-34; " /><meta name="citation_reference" content="citation_title=Overwriting hard drive data: the great wiping controversy; citation_author=Wright  C.; citation_author=Kleiman  D.; citation_author=Sundhar  R. S. S.;  citation_journal_title=Lecture Notes on Computer Science (LNCS);  citation_year=2008;  citation_volume=5352;  citation_pages=243-57; " /><meta name="citation_reference" content="citation_title=Descrambling data on solid-state disks by reverse-engineering the firmware; citation_author=Zhang  L.; citation_author=Hao  S.; citation_author=Zheng  J.; citation_author=Tan  Y.; citation_author=Zhang  Q.; citation_author=Li  Y.;  citation_journal_title=Digital Investigation;  citation_year=2015;  citation_volume=12;  citation_pages=77-87; " /><meta name="citation_pdf_url" content="https://academic.oup.com/dsh/article-pdf/33/2/391/24812171/fqx049.pdf" /><meta name="description" content="Abstract.  The article outlines the rationale of the born-digital dossier génétique from a digital forensic perspective in the light of the recent discussion ab" /><meta name="citation_xml_url" content="https://academic.oup.com/dsh/article-xml/33/2/391/4111188" />
+
+
+
+    <link rel="canonical" href="https://academic.oup.com/dsh/dsh/article-abstract/33/2/391/4111188" />
+
+
+
+
+
+
+
+    
+    
+
+
+<script async="async" src="https://www.googletagservices.com/tag/js/gpt.js"></script>
+<script>
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+</script>
+    
+        <script type='text/javascript'>
+            var gptAdSlots = [];
+            googletag.cmd.push(function() {
+                    
+                    var mapping_ad1 = googletag.sizeMapping()
+                        .addSize([1024, 0], [[970, 90], [728, 90]])
+                        .addSize([768, 0], [728, 90])
+                        .addSize([0, 0], [320, 50])
+                        .build();
+                    gptAdSlots["ad1"] = googletag.defineSlot('/116097782/dsh_InFront_Ad1',
+                            [[970, 90], [728, 90], [320, 50]], 'adBlockHeader')
+                        .defineSizeMapping(mapping_ad1)
+                        .addService(googletag.pubads());
+                    
+
+                    
+                    var mapping_ad2 = googletag.sizeMapping()
+                        .addSize([768, 0], [[300, 250], [300, 600], [160, 600]])
+                        .build();
+                    gptAdSlots["ad2"] = googletag.defineSlot('/116097782/dsh_InFront_Ad2',
+                            [[300, 250], [160, 600], [300, 600]], 'adBlockMainBodyTop')
+                        .defineSizeMapping(mapping_ad2)
+                        .addService(googletag.pubads());
+                    
+
+                    
+                    var mapping_ad3 = googletag.sizeMapping()
+                        .addSize([768, 0], [[300, 250], [300, 600], [160, 600]])
+                        .build();
+                    gptAdSlots["ad3"] = googletag.defineSlot('/116097782/dsh_InFront_Ad3',
+                        [[300, 250], [160, 600], [300, 600]], 'adBlockMainBodyBottom')
+                        .defineSizeMapping(mapping_ad3)
+                        .addService(googletag.pubads());
+                    
+
+                    
+                var mapping_ad4 = googletag.sizeMapping()
+                        .addSize([0,0], [728, 90])
+                        .addSize([768, 0], [728, 90])
+                        .build();
+                    gptAdSlots["ad4"] = googletag.defineSlot('/116097782/dsh_InFront_Ad4',
+                        [728, 90], 'adBlockFooter')
+                        .defineSizeMapping(mapping_ad4)
+                        .addService(googletag.pubads());
+                    
+
+                googletag.pubads().addEventListener('slotRenderEnded', function (event) {
+;                    if (!event.isEmpty) {
+                        $('.js-' + event.slot.getSlotElementId()).each(function () {
+                            if ($(this).find('iframe').length) {
+                                $(this).removeClass('hide');
+                            }
+                        });
+                    }
+                });
+
+                googletag.pubads().setTargeting("jnlspage", "article-abstract");
+                googletag.pubads().setTargeting("jnlsurl", "dsh/article-abstract/33/2/391/4111188");
+                googletag.pubads().enableSingleRequest();
+                googletag.pubads().collapseEmptyDivs();
+            });
+        </script>
+    
+
+
+    
+
+
+    
+
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    <script>
+        var oupcookiepolicy_siteid = "journals";        // the website id
+        var oupcookiepolicy_messagetype = 'implied';                        // type of alert message e.g, implied / explicit
+        var oupcookiepolicy_preferredlanguage = "en";      // preferred language of the website
+        var oupcookiepolicy_impliedmessageclass = 'cookiepolicyimplied';    // the css class for implied alert message
+        var oupcookiepolicy_documentroot = '/';	  			                // the document root the cookie is set to
+    </script>
+    <noscript>We use cookies to enhance your experience on our website.By continuing to use our website, you are agreeing to our use of cookies. You can change your cookie settings at any time. <a href="https://global.oup.com/cookiepolicy/"> Find out more</a></noscript>
+    <script type="text/javascript">
+        var NTPT_PGEXTRA= 'event_type=Login-full-text&supplier_tag=SC_Journals&object_type=Article&siteid=dsh&authzrequired=true&turnaway_id=SUB_NONE&doi=10.1093/llc/fqx049';
+    </script>
+
+
+
+
+    <script src="https://scholar.google.com/scholar_js/casa.js" async></script>
+
+
+</head>
+
+<body data-sitename="digitalscholarshipinthehumanities" class="off-canvas pg_Article pg_article  " theme-dsh data-sitestyletemplate="Journal" >
+    
+        <noscript>
+            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W6DD7HV"
+                    height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
+        <a href="#skipNav" class="skipnav">Skip to Main Content</a>
+<input id="hdnSiteID" name="hdnSiteID" type="hidden" value="5447" /><input id="hdnAdDelaySeconds" name="hdnAdDelaySeconds" type="hidden" value="5000" /><input id="hdnAdConfigurationTop" name="hdnAdConfigurationTop" type="hidden" value="default" /><input id="hdnAdConfigurationRightRail" name="hdnAdConfigurationRightRail" type="hidden" value="sticky" />
+    
+
+
+
+
+
+
+<div class="master-container js-master-container">
+    <section class="master-header row js-master-header vt-site-page-header">
+    <div class="widget widget-SitePageHeader widget-instance-SitePageHeader">
+        
+    <div class="ad-banner js-ad-banner-header">
+    <div class="widget widget-AdBlock widget-instance-HeaderAd">
+        
+
+<div class="adBlockHeader-wrap js-adBlockHeader hide">
+    
+    <div id="adBlockHeader"
+         style=" ">
+        <script>
+            googletag.cmd.push(function () { googletag.display('adBlockHeader'); });
+        </script>
+    </div>
+        <div class="advertisement-text">Advertisement</div>
+</div> 
+    </div>
+
+    </div>
+
+    <div class="oup-header ">
+        <div class="center-inner-row">
+            <div class="oup-header-logo">
+                <a href="/">
+                    <img src="//oup.silverchair-cdn.com/UI/app/svg/umbrella/oxford-academic-logo.svg" alt="Oxford University Press" class="oup-header-image" />
+                </a>
+            </div>
+
+            <ul class="oup-header-menu account-menu">
+
+                
+                <li class="oup-header-menu-item mobile">
+                    <a href="javascript:;" class="mobile-dropdown-toggle mobile-search-toggle">
+                        <i class="icon-menu_search"><span class="screenreader-text">Search Menu</span></i>
+                    </a>
+                </li>
+
+                
+                <li class="oup-header-menu-item mobile">
+                        <a href="javascript:;" class="mobile-dropdown-toggle mobile-account-toggle">
+                            <i class="icon-menu_account"><span class="screenreader-text">Account Menu</span></i>
+                        </a>
+                </li>
+
+                
+                <li class="oup-header-menu-item mobile">
+                    <a href="javascript:;" class="mobile-dropdown-toggle mobile-nav-toggle">
+                        <i class="icon-menu_hamburger"><span class="screenreader-text">Menu</span></i>
+                    </a>
+                </li>
+
+                
+                <li class="oup-header-menu-item desktop">
+                        <a href="" class="dropdown-toggle signin js-header-account-info-user-fullname" id="header-account-info-user-fullname-desktop">
+Sign In                            <i class="icon-general-arrow-filled-down arrow-icon"></i>
+                        </a>
+                        <div class="dropdown-panel dropdown-panel-signin dropdown-panel-form">
+                            <div class="spinner"></div>
+                        </div>
+                </li>
+
+                
+                    <li class="oup-header-menu-item desktop"><a href="/my-account/register?siteId=5447&amp;returnUrl=%2fdsh%2farticle-abstract%2f33%2f2%2f391%2f4111188%3fredirectedFrom%3dfulltext" class="register">Register</a></li>
+                
+            </ul>
+
+            <div class="login-box-placeholder js-login-box-placeholder hide">
+                <div class="spinner"></div>
+            </div>
+        </div>
+    </div>
+<div class="dropdown-panel-wrap">
+
+    
+    <div class="dropdown-panel mobile-search-dropdown">
+        <div class="mobile-search-inner-wrap">
+                <div class="navbar-search">
+                    <div id="MobileMicrositeSearch" class="mobile-microsite-search">
+                        <label for="mobile-navbar-search-filter" class="screenreader-text">Navbar Search Filter</label>
+                        <select class="navbar-search-filter" id="mobile-navbar-search-filter">
+                                                            <optgroup label="Search within this journal">
+<option class="header-search-bar-filters-item" value="Issue">This issue</option><option class="header-search-bar-filters-item" value="">All  Digital Scholarship in the Humanities</option>
+                                </optgroup>
+                                <optgroup label="Search beyond this journal">
+<option class="header-search-bar-filters-item" value="Journals">All  Journals</option>                                </optgroup>
+                        </select>
+
+
+
+
+
+                        <label for="MobileMicrositeSearchTerm" class="screenreader-text">Mobile Microsite Search Term</label>
+                        <input class="mobile-search-input mobile-microsite-search-term" type="text" maxlength="255" placeholder="Search" id="MobileMicrositeSearchTerm">
+
+                        <a href="javascript:;" id="MobileMicrositeSearchIcon" class="mobile-microsite-search-icon mobile-search-submit icon-menu_search"><span class="screenreader-text">Search</span></a>
+
+                    </div>
+                </div>        </div>
+    </div>
+    
+    <div class="dropdown-panel mobile-account-dropdown">
+        <ul class="site-menu site-menu-lvl-0">
+            <li class="site-menu-item site-menu-lvl-0">
+                <a href="" class="nav-link mobile-account-signin dummy-link js-header-account-info-user-fullname" id="header-account-info-user-fullname-mobile">
+                    
+Sign In                    <i class="mobile-nav-arrow icon-general_arrow-down"></i>
+                </a>
+                <ul class="site-menu site-menu-lvl-1 individual-menu">
+                    <li class="dropdown-signin-form">
+                        <div class="spinner"></div>
+                    </li>
+                </ul>
+            </li>
+                            <li class="site-menu-item">
+                    <a href="/my-account/register?siteId=5447&amp;returnUrl=%2fdsh%2farticle-abstract%2f33%2f2%2f391%2f4111188%3fredirectedFrom%3dfulltext" class="register nav-link">Register</a>
+                </li>
+        </ul>
+    </div>
+    
+    <div class="dropdown-panel mobile-nav-dropdown">
+
+
+    <i class="desktop-nav-arrow icon-general-arrow-filled-down arrow-icon"></i><i class="mobile-nav-arrow icon-general_arrow-down"></i>
+    <ul class="site-menu site-menu-lvl-0">
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426198">
+                <a href="/dsh/issue" class="nav-link ">Issues</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426199">
+                <a href="/dsh/advance-articles" class="nav-link ">Advance articles</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426196">
+                <a href="/dsh/#" class="nav-link dummy-link">Submit</a>
+                    <i class="desktop-nav-arrow icon-general-arrow-filled-down arrow-icon"></i><i class="mobile-nav-arrow icon-general_arrow-down"></i>
+    <ul class="site-menu site-menu-lvl-1">
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426200">
+                <a href="/dsh/pages/General_Instructions" class="nav-link ">Author Guidelines</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426201">
+                <a href="http://mc.manuscriptcentral.com/dsh" class="nav-link ">Submission Site</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426202">
+                <a href="/dsh/pages/General_Instructions" class="nav-link ">Open Access</a>
+                
+            </li>
+    </ul>
+
+            </li>
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426203">
+                <a href="/dsh/subscribe" class="nav-link ">Purchase</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426204">
+                <a href="/my-account/email-alerts" class="nav-link ">Alerts</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426197">
+                <a href="/dsh/#" class="nav-link dummy-link">About</a>
+                    <i class="desktop-nav-arrow icon-general-arrow-filled-down arrow-icon"></i><i class="mobile-nav-arrow icon-general_arrow-down"></i>
+    <ul class="site-menu site-menu-lvl-1">
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426205">
+                <a href="/dsh/pages/About" class="nav-link ">About Digital Scholarship in the Humanities</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426206">
+                <a href="http://eadh.org/about" class="nav-link ">About the European Association for Digital Humanities</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426207">
+                <a href="http://adho.org/about" class="nav-link ">About the Alliance of Digital Humanities Organizations</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426208">
+                <a href="/dsh/pages/Editorial_Board" class="nav-link ">Editorial Board</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426209">
+                <a href="http://www.oupmediainfo.com/" class="nav-link ">Advertising and Corporate Services</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426210">
+                <a href="https://globaljobs-careernetwork.oxfordjournals.org/" class="nav-link ">Journals Career Network</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426211">
+                <a href="https://academic.oup.com/journals/pages/access_purchase/rights_and_permissions/self_archiving_policy_f" class="nav-link ">Self-Archiving Policy</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426212">
+                <a href="http://www.oxfordjournals.org/en/access-purchase/dispatch-dates.html" class="nav-link ">Dispatch Dates</a>
+                
+            </li>
+    </ul>
+
+            </li>
+    </ul>
+    </div>
+
+</div>
+
+
+    <div class="journal-header journal-bg">
+        <div class="center-inner-row">
+                            <a href="/dsh" class="journal-logo-container">
+                    <img id="logo-DigitalScholarshipintheHumanities" class="journal-logo" src="//oup.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/dsh/dsh_title242156087.svg" alt="Digital Scholarship in the Humanities" />
+                </a>
+
+            <div class="society-logo-block">
+                    <div class="society-block-inner-wrap">
+                            <a href="http://eadh.org/" target="" class="society-logo-container">
+                                <img id="logo-EuropeanAssociationforDigitalHumanities" class="society-logo" src="//oup.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/dsh/dsh_h1-1114140978.png" alt="European Association for Digital Humanities" />
+                            </a>
+                                                    <a href="http://adho.org/" target="" class="society-logo-container">
+                                <img id="logo-AllianceofDigitalHumanitiesOrganizations" class="society-logo" src="//oup.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/dsh/dsh_h2-398941868.png" alt="Alliance of Digital Humanities Organizations" />
+                            </a>
+                    </div>            </div> 
+        </div>
+    </div>
+<div class="navbar">
+    <div class="center-inner-row">
+        <nav class="navbar-menu">
+
+
+    <i class="desktop-nav-arrow icon-general-arrow-filled-down arrow-icon"></i><i class="mobile-nav-arrow icon-general_arrow-down"></i>
+    <ul class="site-menu site-menu-lvl-0">
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426198">
+                <a href="/dsh/issue" class="nav-link ">Issues</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426199">
+                <a href="/dsh/advance-articles" class="nav-link ">Advance articles</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426196">
+                <a href="/dsh/#" class="nav-link dummy-link">Submit</a>
+                    <i class="desktop-nav-arrow icon-general-arrow-filled-down arrow-icon"></i><i class="mobile-nav-arrow icon-general_arrow-down"></i>
+    <ul class="site-menu site-menu-lvl-1">
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426200">
+                <a href="/dsh/pages/General_Instructions" class="nav-link ">Author Guidelines</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426201">
+                <a href="http://mc.manuscriptcentral.com/dsh" class="nav-link ">Submission Site</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426202">
+                <a href="/dsh/pages/General_Instructions" class="nav-link ">Open Access</a>
+                
+            </li>
+    </ul>
+
+            </li>
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426203">
+                <a href="/dsh/subscribe" class="nav-link ">Purchase</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426204">
+                <a href="/my-account/email-alerts" class="nav-link ">Alerts</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426197">
+                <a href="/dsh/#" class="nav-link dummy-link">About</a>
+                    <i class="desktop-nav-arrow icon-general-arrow-filled-down arrow-icon"></i><i class="mobile-nav-arrow icon-general_arrow-down"></i>
+    <ul class="site-menu site-menu-lvl-1">
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426205">
+                <a href="/dsh/pages/About" class="nav-link ">About Digital Scholarship in the Humanities</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426206">
+                <a href="http://eadh.org/about" class="nav-link ">About the European Association for Digital Humanities</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426207">
+                <a href="http://adho.org/about" class="nav-link ">About the Alliance of Digital Humanities Organizations</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426208">
+                <a href="/dsh/pages/Editorial_Board" class="nav-link ">Editorial Board</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426209">
+                <a href="http://www.oupmediainfo.com/" class="nav-link ">Advertising and Corporate Services</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426210">
+                <a href="https://globaljobs-careernetwork.oxfordjournals.org/" class="nav-link ">Journals Career Network</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426211">
+                <a href="https://academic.oup.com/journals/pages/access_purchase/rights_and_permissions/self_archiving_policy_f" class="nav-link ">Self-Archiving Policy</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426212">
+                <a href="http://www.oxfordjournals.org/en/access-purchase/dispatch-dates.html" class="nav-link ">Dispatch Dates</a>
+                
+            </li>
+    </ul>
+
+            </li>
+    </ul>
+        </nav>
+            <div class="navbar-search-container js-navbar-search-container">
+                <a href="javascript:;" class="navbar-search-close js_close-navsearch">Close</a>
+                    <div class="navbar-search">
+                        <div id="MicrositeSearch" class="microsite-search">
+                            <label for="navbar-search-filter" class="screenreader-text">search filter</label>
+                            <select class="navbar-search-filter" id="navbar-search-filter">
+                                                                    <optgroup label="Search within this journal">
+                                                <option class="header-search-bar-filters-item" value="Issue" >This issue</option>
+                                                <option class="header-search-bar-filters-item" value="" selected=&quot;selected&quot;>All  Digital Scholarship in the Humanities</option>
+
+                                    </optgroup>
+                                    <optgroup label="Search beyond this journal">
+                                                <option class="header-search-bar-filters-item" value="Journals" >All  Journals</option>
+                                    </optgroup>
+                            </select>
+
+                            <label for="MicrositeSearchTerm" class="screenreader-text">search input</label>
+                            <input class="navbar-search-input microsite-search-term" type="text" maxlength="255" id="MicrositeSearchTerm" title="search input">
+
+                            <a href="javascript:;" id="MicrositeSearchIcon" class="microsite-search-icon navbar-search-submit icon-menu_search"><span class="screenreader-text">Search</span></a>
+
+                        </div>
+                    </div>                <div class="navbar-search-advanced"><a href="/dsh/advanced-search" class="advanced-search js-advanced-search">Advanced Search</a></div>
+            </div>            <div class="navbar-search-collapsed"><a href="javascript:;" class="icon-menu_search js_expand-navsearch"><span class="screenreader-text">Search Menu</span></a></div>
+    </div>
+</div>
+
+<input id="hfEnableOupOnlineProductsFeatures" name="hfEnableOupOnlineProductsFeatures" type="hidden" value="False" />
+
+    <input type="hidden" name="searchScope" id="hfSolrJournalID" value="" />
+    <input type="hidden" id="hfSolrJournalName" value="" />
+    <input type="hidden" id="hfSolrMaxAllowSearchChar" value="100" />
+    <input type="hidden" id="hfJournalShortName" value="" />
+    <input type="hidden" id="hfSearchPlaceholder" value="" />
+    <input type="hidden" name="hfGlobalSearchSiteURL" id="hfGlobalSearchSiteURL" value="" />
+        <input type="hidden" name="parentSiteName" id="hfParentSiteName" value="Journals" />
+        <input type="hidden" name="parentSiteUrl" id="hfParentSiteUrl" value="academic.oup.com/journals" />
+        <input type="hidden" name="siteID" id="hfSiteID" value="5447" />
+        <input type="hidden" name="parentSiteID" id="hfParentSiteID" value="5567" />
+        <input type="hidden" name="journalSiteScope" id="hfJournalSiteScope" value="Journals" />
+        <input type="hidden" name="parentSiteScope" id="hfParentSiteScope" value="Parent" />
+        <input type="hidden" name="defaultSearchURL" id="hfDefaultSearchURL" value="search-results?page=1&amp;q=" />
+        <input type="hidden" name="issueSearch" id="hfIssueSearch" value="&amp;fl_IssueID=108848" />
+        <input type="hidden" name="issueSiteScope" id="hfIssueSiteScope" value="Issue" />
+<input id="hfDefaultAdvancedSearchUrl" name="hfDefaultAdvancedSearchUrl" type="hidden" value="advanced-search?page=1&amp;q=" />    <input type="hidden" name="hfSearchSiteURL" id="hfSiteURL" value="academic.oup.com/dsh" />
+    <script type="text/javascript">
+        (function () {
+            var hfSiteUrl = document.getElementById('hfSiteURL');
+            var siteUrl = hfSiteUrl.value;
+            var subdomainIndex = siteUrl.indexOf('/');
+
+            hfSiteUrl.value = location.host + (subdomainIndex >= 0 ? siteUrl.substring(subdomainIndex) : '');
+        })();
+    </script>
+<input id="routename" name="RouteName" type="hidden" value="dsh" /> 
+    </div>
+
+</section>
+
+    <div id="main" class="content-main js-main ui-base">
+        <section class="master-main row">
+            <div class="center-inner-row no-overflow">
+                <a href="#" id="skipNav" class="screenreader-text" tabindex="-1">Skip Nav Destination</a>
+                
+
+
+<div class="page-column-wrap">
+<div id="InfoColumn" class="page-column page-column--left js-left-nav-col">
+    <div class="mobile-content-topbar hide">
+        <button class="toggle-left-col toggle-left-col__article">Article Navigation</button>
+    </div>
+    <div class="info-inner-wrap js-left-nav">
+        <button class="toggle-left-col__close btn-as-icon icon-general-close">
+            <span class="screenreader-text">Close mobile search navigation</span>
+        </button>
+        <div class="responsive-nav-title">Article Navigation</div>
+        <div class="info-widget-wrap">
+    <div class="widget widget-IssueInfo widget-instance-OUP_IssueInfo_Article">
+        
+
+<div id="issueInfo-OUP_IssueInfo_Article" class="article-info-wrap clearfix">
+    <i class="icon-general-close mobile-nav-btn nav-open"></i>
+    <div class="article-issue-img">
+            <a href="/dsh/issue/33/2"><img id="issueImage" class="fb-featured-image" src="https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/dsh/Issue/33/2/1/m_digitalsh_33_2cover.png?Expires=1607785834&amp;Signature=A4eeY39s3okyjtNmeOpRQRh4wJXXt8uV5vbRIUGNHmTXmTCS4UPMOdCFrFXLhybxnJE0c8ZTzxSbM8DOA2zwLSsUDO2dGtqgt1HkIQX2IlOfk1o6-D7ggyd0qeqxrVougvh15bL7Oish3ZAEZ-eCcQMfB8veF0dHYgLsg81dhbcQ6DbKVG3mzKpdjZY0~U158WILK2~lIV9rK6vlCU215jGyMwmALsoCi-4EtAd5BJUu3katTjyzqXl2kipI1L-w~qfkLVJ~iKwK3~5KQoGkKlCAzy1-2Rx-qfaaYDX7M1tK4IdaWwhMY~M-cgv8dLZXLQgIPah7-sjh2yyD3FbsmA__&amp;Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" alt="Issue Cover" /></a>
+    </div>
+    <div class="article-issue-info">
+        <div class="volume-issue__wrap">
+
+            <a href="/dsh/issue/33/2">
+                        <div class="volume trailing-comma">Volume 33</div>
+                        <div class="issue">Issue 2</div>
+
+            </a>
+
+        </div>
+        <div class="ii-pub-date">
+June 2018        </div>
+        
+    </div>
+
+</div> 
+    </div>
+
+            <div class="content-nav">
+
+            </div>
+    <div class="widget widget-ArticleNavLinks widget-instance-OUP_ArticleNavLinks_Article">
+        <ul class="inline-list">
+        <li class="prev arrow">
+            <a href="/dsh/article/33/2/374/3111279">&lt; Previous</a>
+        </li>        
+            <li class="next arrow">
+            <a href="/dsh/article/33/2/425/4084206">Next &gt;</a>
+        </li>
+</ul> 
+    </div>
+
+        </div>
+    </div>
+</div>
+<div class="sticky-toolbar js-sticky-toolbar"></div>
+<div id="ContentColumn" class="page-column page-column--center">
+    <div class="article-browse-top article-browse-mobile-nav js-mobile-nav">
+        <div class="article-browse-mobile-nav-inner js-mobile-nav-inner">
+            <button class="toggle-left-col toggle-left-col__article btn-as-link">
+                Article Navigation
+            </button>
+        </div>
+    </div>
+    <div class="content-inner-wrap">
+    <div class="widget widget-ArticleTopInfo widget-instance-OUP_Abstract_ArticleTop_Info_Widget">
+        <div class="module-widget article-top-widget">
+
+    
+
+    
+        <div class="access-state-logos all-viewports">
+                    </div>
+
+
+    <div class="widget-items">
+                <h1 class="wi-article-title article-title-main">
+                    The rationale of the born-digital <em>dossier génétique</em>: Digital forensics and the writing process: With examples from the Thomas Kling Archive
+<i class='' title='' ></i>                </h1>
+                <div class="wi-authors">
+                    <div class="al-authors-list">
+                                <span class="al-author-name-more js-flyout-wrap">
+
+
+
+
+                                    <a class="linked-name js-linked-name-trigger" href="javascript:;">Thorsten Ries</a><span class='delimiter'></span>
+
+                                    <span class="al-author-info-wrap arrow-up">
+<div id="authorInfo_OUP_Abstract_ArticleTop_Info_Widget" class="info-card-author authorInfo_OUP_Abstract_ArticleTop_Info_Widget">
+    <div class="name-role-wrap">
+        <div class="info-card-name">
+    Thorsten Ries
+            <span class="info-card-footnote"><span class="xrefLink" id="jumplink-fqx049-cor1"></span><a href="javascript:;" reveal-id="fqx049-cor1" data-open="fqx049-cor1" class="link link-ref link-reveal xref-default"><!----></a></span>
+</div>
+
+    </div>
+
+    <div class="info-card-affilitation">
+        <div class="aff">Ghent University, Belgium</div>
+    </div>
+
+    <div class="info-author-correspondence">
+        <strong>Correspondence:</strong> Universiteit Gent, Duitse Letterkunde, Blandijnberg 2, B-9000 Gent, Belgium. <strong>E-mail:</strong><a href="mailto:thorsten.ries@ugent.be" target="_blank">thorsten.ries@ugent.be</a>
+    </div>
+    <div class="info-card-search-label">
+        Search for other works by this author on:
+    </div>
+
+<div class="info-card-search info-card-search-internal">
+    <a href="/dsh/search-results?f_Authors=Thorsten+Ries">Oxford Academic</a>
+</div>
+
+    <div class="info-card-search info-card-search-google">
+        <a href="http://scholar.google.com/scholar?q=author:%22Ries Thorsten%22">Google Scholar</a>
+    </div>
+</div>                                    </span>
+                                </span>
+
+                    </div>
+                </div>
+<div class="pub-history-wrap clearfix">
+
+        <div class="pub-history-row clearfix">
+            <div class="ww-citation-primary"><em>Digital Scholarship in the Humanities</em>, Volume 33, Issue 2, June 2018, Pages 391–424, <a href='https://doi.org/10.1093/llc/fqx049'>https://doi.org/10.1093/llc/fqx049</a></div>
+        </div>
+        <div class="pub-history-row clearfix">
+            <div class="ww-citation-date-wrap">
+                <div class="citation-label">Published:</div>
+                <div class="citation-date">11 September 2017</div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $('.article-top-widget').on('click', '.ati-toggle-trigger', function () {
+            $(this).find('.icon-general-add, .icon-minus').toggleClass('icon-minus icon-general-add');
+            $(this).siblings('.ati-toggle-content').toggleClass('hide');
+        });
+
+        // In Chrome, an anchor tag with target="_blank" and a "mailto:" href opens a new tab/window as well as the email client
+        // I suspect this behavior will be corrected in the future
+        // Remove the target="_blank"
+        $('ul.wi-affiliationList').find('a[href^="mailto:"]').each(function () {
+            $(this).removeAttr('target');
+        });
+    });
+</script>
+
+ 
+    </div>
+    <div class="widget widget-ArticleLinks widget-instance-OUP_Article_Links_Widget">
+         
+    </div>
+
+
+        <div class="article-body js-content-body">
+            <div class="toolbar-wrap js-toolbar-wrap">
+                <div class="toolbar-inner-wrap">
+                    <ul id="Toolbar" role="navigation">
+                                                <li class="toolbar-item item-with-dropdown item-views">
+                            <a class="at-views-dropdown drop-trigger" href="javascript:;" data-dropdown="FilterDrop" aria-haspopup="true">
+                                <i class="icon-menu_views"></i>
+                                <div class="toolbar-label">
+                                    <div class="toolbar-text">Views</div>
+                                    <i class="icon-general-arrow-filled-down arrow-icon"></i>
+                                </div>
+                            </a>
+                            <ul id="ViewsDrop" class="f-dropdown" data-dropdown-content aria-label="submenu">
+                                <div class="arrow-up"></div>
+                                <li class="article-content-filter js-article-content-filter" data-content-filter="article-content">
+                                    <a href="javascript:;"><span>Article contents</span></a>
+                                </li>
+                                <li class="at-figures-tables article-content-filter js-article-content-filter" data-content-filter="figures-tables">
+                                    <a href="javascript:;"><span>Figures &amp; tables</span></a>
+                                </li>
+                                <li class="article-content-filter js-article-content-filter" data-content-filter="video">
+                                    <a href="javascript:;"><span>Video</span></a>
+                                </li>
+                                <li class="article-content-filter js-article-content-filter" data-content-filter="audio">
+                                    <a href="javascript:;"><span>Audio</span></a>
+                                </li>
+                                <li class="article-content-filter js-article-content-filter" data-content-filter="supplementary-data">
+                                    <a href="javascript:;"><span>Supplementary Data</span></a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="toolbar-item">
+    <div class="widget widget-ToolboxGetCitation widget-instance-OUP_Get_Citation">
+        <a href="#" class="js-cite-button" data-reveal-id="getCitation" data-reveal><i class="icon-read-more"></i><span>Cite</span></a>
+
+<div id="getCitation" class="reveal-modal" data-reveal>
+    <h3 class="modal-title">Cite</h3>
+        <div class="oxford-citation-text">
+            <p>Thorsten Ries,  The rationale of the born-digital <em>dossier génétique</em>: Digital forensics and the writing process: With examples from the Thomas Kling Archive, <em>Digital Scholarship in the Humanities</em>, Volume 33, Issue 2, June 2018, Pages 391–424, <a href="https://doi.org/10.1093/llc/fqx049">https://doi.org/10.1093/llc/fqx049</a></p>
+        </div>
+
+    <div class="citation-download-wrap">
+        <form action="/Citation/Download" method="get" id="citationModal">
+            <input type="hidden" name="resourceId" value="4111188" />
+            <input type="hidden" name="resourceType" value="3" />
+            <label for="selectFormat" class="hide">Select Format</label>
+            <select required name="citationFormat" class="citation-download-format" id="selectFormat">
+                <option selected disabled >Select format</option>
+                        <option value="0" >.ris (Mendeley, Papers, Zotero)</option>
+                        <option value="1" >.enw (EndNote)</option>
+                        <option value="2" >.bibtex (BibTex)</option>
+                        <option value="3" >.txt (Medlars, RefWorks)</option>
+
+            </select>
+            <button class="btn citation-download-link disabled" type="submit">Download citation</button>
+        </form>
+    </div>
+
+    <a class="close-reveal-modal" href="javascript:;"><i class="icon-general-close"></i><span class="screenreader-text">Close</span></a>
+</div>
+ 
+    </div>
+
+                        </li>
+                        <li class="toolbar-item item-tools">
+    <div class="widget widget-ToolboxPermissions widget-instance-OUP_Get_Permissions">
+            <div class="module-widget">
+        <a href="https://s100.copyright.com/AppDispatchServlet?publisherName=OUP&amp;publication=2055-768X&amp;title=The%20rationale%20of%20the%20born-digital%20%26lt%3Bem%26gt%3Bdossier%20g%C3%A9n%C3%A9tique%26lt%3B%2Fem%26gt%3B%3A%20Digital%20forensics%20and%20the%20writing%20process%3A%20With%20examples%20from%20the%20Thomas%20Kling%20Archive&amp;publicationDate=2017-09-11&amp;volumeNum=33&amp;issueNum=2&amp;author=Ries%2C%20Thorsten&amp;startPage=391&amp;endPage=424&amp;contentId=10.1093%2Fllc%2Ffqx049&amp;oa=&amp;copyright=Oxford%20University%20Press&amp;orderBeanReset=True" id="PermissionsLink" class="" target="_blank">
+            <i class="icon-menu_permissions">
+                <span class="screenreader-text">Permissions Icon</span>
+            </i>
+            Permissions
+        </a>
+    </div>
+ 
+    </div>
+
+                        </li>
+                        <li class="toolbar-item item-with-dropdown item-share last">
+                            <a class="drop-trigger" href="javascript:;" data-dropdown="ShareDrop" aria-haspopup="true">
+                                <i class="icon-menu_share"></i>
+                                <div class="toolbar-label">
+                                    <div class="toolbar-text">Share</div>
+                                    <i class="icon-general-arrow-filled-down arrow-icon"></i>
+                                </div>
+                            </a>
+                            <ul id="ShareDrop" class="addthis_toolbox addthis_default_style addthis_20x20_style f-dropdown" data-dropdown-content aria-label="submenu">
+                                <div class="arrow-up"></div>
+                                <li><a class="addthis_button_email"><span>Email</span></a></li>
+                                <li><a class="addthis_button_twitter"><span>Twitter</span></a></li>
+                                <li><a class="addthis_button_facebook"><span>Facebook</span></a></li>
+                                <li><a class="addthis_button_compact"><span>More</span></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="toolbar-search">
+    <div class="widget widget-SitePageHeader widget-instance-OUP_ArticleToolbarSearchBox">
+        
+
+
+<div class="dropdown-panel-wrap">
+
+    
+    <div class="dropdown-panel mobile-search-dropdown">
+        <div class="mobile-search-inner-wrap">
+                <div class="navbar-search">
+                    <div id="MobileMicrositeSearch" class="mobile-microsite-search">
+                        <label for="mobile-navbar-search-filter" class="screenreader-text">Navbar Search Filter</label>
+                        <select class="navbar-search-filter" id="mobile-navbar-search-filter">
+                                                            <optgroup label="Search within this journal">
+<option class="header-search-bar-filters-item" value="Issue">This issue</option><option class="header-search-bar-filters-item" value="">All  Digital Scholarship in the Humanities</option>
+                                </optgroup>
+                                <optgroup label="Search beyond this journal">
+<option class="header-search-bar-filters-item" value="Journals">All  Journals</option>                                </optgroup>
+                        </select>
+
+
+
+
+
+                        <label for="MobileMicrositeSearchTerm" class="screenreader-text">Mobile Microsite Search Term</label>
+                        <input class="mobile-search-input mobile-microsite-search-term" type="text" maxlength="255" placeholder="Search" id="MobileMicrositeSearchTerm">
+
+                        <a href="javascript:;" id="MobileMicrositeSearchIcon" class="mobile-microsite-search-icon mobile-search-submit icon-menu_search"><span class="screenreader-text">Search</span></a>
+
+                    </div>
+                </div>        </div>
+    </div>
+    
+    <div class="dropdown-panel mobile-account-dropdown">
+        <ul class="site-menu site-menu-lvl-0">
+            <li class="site-menu-item site-menu-lvl-0">
+                <a href="" class="nav-link mobile-account-signin dummy-link js-header-account-info-user-fullname" id="header-account-info-user-fullname-mobile">
+                    
+Sign In                    <i class="mobile-nav-arrow icon-general_arrow-down"></i>
+                </a>
+                <ul class="site-menu site-menu-lvl-1 individual-menu">
+                    <li class="dropdown-signin-form">
+                        <div class="spinner"></div>
+                    </li>
+                </ul>
+            </li>
+                            <li class="site-menu-item">
+                    <a href="/my-account/register?siteId=5447&amp;returnUrl=%2fdsh%2farticle-abstract%2f33%2f2%2f391%2f4111188%3fredirectedFrom%3dfulltext" class="register nav-link">Register</a>
+                </li>
+        </ul>
+    </div>
+    
+    <div class="dropdown-panel mobile-nav-dropdown">
+
+    </div>
+
+</div>
+
+
+
+<div class="navbar">
+    <div class="center-inner-row">
+        <nav class="navbar-menu">
+
+        </nav>
+            <div class="navbar-search-container js-navbar-search-container">
+                <a href="javascript:;" class="navbar-search-close js_close-navsearch">Close</a>
+                    <div class="navbar-search">
+                        <div id="MicrositeSearch" class="microsite-search">
+                            <label for="navbar-search-filter" class="screenreader-text">search filter</label>
+                            <select class="navbar-search-filter" id="navbar-search-filter">
+                                                                    <optgroup label="Search within this journal">
+                                                <option class="header-search-bar-filters-item" value="Issue" >This issue</option>
+                                                <option class="header-search-bar-filters-item" value="" selected=&quot;selected&quot;>All  Digital Scholarship in the Humanities</option>
+
+                                    </optgroup>
+                                    <optgroup label="Search beyond this journal">
+                                                <option class="header-search-bar-filters-item" value="Journals" >All  Journals</option>
+                                    </optgroup>
+                            </select>
+
+                            <label for="MicrositeSearchTerm" class="screenreader-text">search input</label>
+                            <input class="navbar-search-input microsite-search-term" type="text" maxlength="255" id="MicrositeSearchTerm" title="search input">
+
+                            <a href="javascript:;" id="MicrositeSearchIcon" class="microsite-search-icon navbar-search-submit icon-menu_search"><span class="screenreader-text">Search</span></a>
+
+                        </div>
+                    </div>                <div class="navbar-search-advanced"><a href="/dsh/advanced-search" class="advanced-search js-advanced-search">Advanced Search</a></div>
+            </div>            <div class="navbar-search-collapsed"><a href="javascript:;" class="icon-menu_search js_expand-navsearch"><span class="screenreader-text">Search Menu</span></a></div>
+    </div>
+</div>
+
+<input id="hfEnableOupOnlineProductsFeatures" name="hfEnableOupOnlineProductsFeatures" type="hidden" value="False" />
+
+<input id="routename" name="RouteName" type="hidden" value="dsh" /> 
+    </div>
+
+                    </div>
+                </div>
+            </div>
+            <div id="ContentTab" class="content active">
+    <div class="widget widget-ArticleFulltext widget-instance-OUP_Abstract_Article_FullText_Widget">
+        <div class="module-widget">
+    <div class="widget-items" data-widgetname="ArticleFulltext">
+
+
+
+
+
+                    <h2 scrollto-destination=116674465 id="116674465" class="abstract-title" >Abstract</h2>
+<section class="abstract"><p class="chapter-para">The article outlines the rationale of the born-digital <em>dossier génétique</em> from a digital forensic perspective in the light of the recent discussion about digital materiality. In its first part, the study addresses theoretical, conceptual, and methodological questions that arise from the specific materiality of the born-digital <em>avant-texte</em>, namely, the dualism of ‘forensic materiality’ and ‘formal materiality’ (M. Kirschenbaum) and the role of distributed materiality (J.-F. Blanchette). The article argues that the born-digital record, consisting of digital objects, temporary files, metadata, and fragmented traces of the writing process scattered across multiple system locations, has to be analyzed with regard to the specific historical computing context, its distributed materiality ensemble of hardware, operating system, and application (multi-evidential perspective, J. L. John). Current challenges for born-digital preservation and philological analysis will be discussed. In the second part, the exemplary analysis of several digital drafts and text fragments found on the hard drives of German poet Thomas Kling (1957–2005) sheds light on digital materiality from a practical digital forensic and <em>critique génétique</em> perspective. The following methods will be demonstrated: analysis of fast save artifacts in Microsoft Word documents; draft text recovery from CHK files; file carving and verification of recovery results (true, false positives); recovery of text fragments from drive slack. Digital forensic methodology is in the focus of this article as a tool in the context of archival studies, philology, genetic criticism, and scholarly editing of born-digital material. As born-digital primary records of cultural, social, and political history (private storage media, cloud storage, world wide web content as well as public and semi-public social media posts) come to the archives in increasing numbers and volumes, the forensic perspective on born-digital material, questions of authentic preservation and analysis, bibliographic citability and stability, materiality and their status as a document and evidence as well as legal and ethical issues of preservation, curation and access in the archives become crucial for all humanities disciplines.</p></section>                        <div class="article-metadata-panel clearfix"></div>
+        <!-- /foreach -->
+
+
+
+        <div class="article-metadata-standalone-panel clearfix"></div>
+
+        
+<div class="copyright copyright-statement">© The Author 2017. Published by Oxford University Press on behalf of EADH. All rights reserved. For Permissions, please email: journals.permissions@oup.com</div><div class="license"><div class="license-p">This article is published and distributed under the terms of the Oxford University Press, Standard Journals Publication Model (<a class="link link-uri openInAnotherWindow" href="https://academic.oup.com/journals/pages/about_us/legal/notices" target="_blank">https://academic.oup.com/journals/pages/about_us/legal/notices</a>)</div></div><!-- /foreach -->
+
+        <span id="UserHasAccess" data-userHasAccess="False"></span>
+
+    </div><!-- /.widget-items -->
+</div><!-- /.module-widget -->
+
+ 
+    </div>
+    <div class="widget widget-SolrResourceMetadata widget-instance-OUP_Article_ResourceMetadata_Widget">
+        
+    <div class=" add-border article-metadata-panel solr-resource-metadata">
+                <div class="article-metadata-tocSections">
+                    <div class="article-metadata-tocSections-title">Issue Section:</div>
+                        <a href="/dsh/search-results?f_TocHeadingTitle=Original Articles">Original Articles</a>
+                </div>
+
+    </div>
+
+
+ 
+    </div>
+    <div class="widget widget-EditorInformation widget-instance-OUP_Article_EditorInformation_Widget">
+        
+ 
+    </div>
+    <div class="widget widget-ArticleOpenScienceBadges widget-instance-OUP_Article_OpenScienceBadge_Widget">
+        
+ 
+    </div>
+
+                    <div class="article-top-info-user-restricted-options">
+                        You do not currently have access to this article.
+                    </div>
+                <div id="ContentTabFilteredView"></div>
+                <div class="downloadImagesppt js-download-images-ppt st-download-images-ppt">
+                    <a id="lnkDownloadAllImages"
+                       class="js-download-all-images-link btn"
+                       href="/DownloadFile/DownloadImage.aspx?image=&amp;PPTtype=SlideSet&amp;ar=4111188&amp;xsltPath=~/UI/app/XSLT&amp;siteId=5447">Download all slides</a>
+                </div>
+                    <div class="widget widget-ArticleDataRepositories widget-instance-Article_DryadLink">
+         
+    </div>
+
+                <div class="comments">
+    <div class="widget widget-UserCommentBody widget-instance-UserCommentBody_Article">
+        
+
+ 
+    </div>
+    <div class="widget widget-UserComment widget-instance-OUP_UserComment_Article">
+         
+    </div>
+
+                </div>
+            </div>
+        </div>
+
+            <div id="unauth" class="unauth-wrap">
+                <div id="article-purchase" class="unauth-row clearfix">
+<div id="unauth" class="unauth-wrap">
+<div class="unauth-row clearfix">
+    <h2 class="unauth-signin-title">Sign in</h2>
+        <div class="register-ribbon-wrap">
+            <div class="register-ribbon-text">
+                Don't already have an Oxford Academic account? <a class="register-ribbon-link" href="/my-account/register?siteId=5447&amp;returnUrl=%2fdsh%2farticle-abstract%2f33%2f2%2f391%2f4111188%3fredirectedFrom%3dfulltext">Register</a>
+            </div>
+        </div>
+    <div class="unauth-column-wrap">
+            <div class="unauth-column account">
+    <div class="widget widget-LoginForm widget-instance-OUP_ArticlePage_LoginForm">
+        
+
+<div class="signin-form">
+
+    <div class="preloader-wrap hide">
+        <div class="preloader">
+            <div class="spinner"></div>
+        </div>
+    </div>
+
+    <!-- Errors -->
+    <div class="error">
+        <div class="login-primary-error">
+            You could not be signed in. Please check your email address / username and password and try again.
+        </div>
+    </div>
+        <div class="login-form__section">
+            <h3 class="login-form__heading">Oxford Academic account</h3>
+            <div class="login-form__row">
+                <label for="user_OUP_ArticlePage_LoginForm" class="login-form__label">
+                    <div class="login-form__label-text">Email address / Username</div>
+                    <a class="question-icon" href="#" data-reveal-id="modalSignInEmail"><span>?</span></a>
+                </label>
+                <input id="user_OUP_ArticlePage_LoginForm" type="text" class="username" autocomplete="off" />
+            </div>
+
+            <div class="login-form__row">
+                <label for="pass_OUP_ArticlePage_LoginForm" class="login-form__label-text">Password</label>
+                <input id="pass_OUP_ArticlePage_LoginForm" type="password" class="password" />
+            </div>
+
+            <div class="login-form__row">
+                <button class="signin-button button">Sign In</button>
+                <div class="login-form__link-wrap">
+                    <a class="logged-out-link" href="/my-account/forgot-password">Forgot password?</a>
+                </div>
+                <div class="login-form__link-wrap">
+                    <a class="logged-out-link" href="/my-account/register?siteId=5447&amp;returnUrl=%2fdsh%2farticle-abstract%2f33%2f2%2f391%2f4111188%3fredirectedFrom%3dfulltext" data-target="register">Don't have an account?</a>
+                </div>
+            </div>
+
+        </div><!-- /.login-form-section -->
+
+
+    <div class="bearpan-wrap">
+        <label for="hpcName"><span class="screenreader-text">HPC</span><input type="text" id="hpcName" name="hpcName" /></label>
+    </div>
+
+    
+    <input type="hidden" class="loginInstanceName" value="signin" />
+</div>
+    <div id="modalSignInEmail" class="reveal-modal medium" data-reveal>
+        <h4>Email address / username</h4><p>Most users should sign in with their email address. If you originally registered with a username please use that to sign in.</p>
+        <a class="close-reveal-modal" href="javascript:;"><i class="icon-general-close"></i><span class="screenreader-text">Close</span></a>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            SCM.SiteJS.initLoginFormDropdown();
+        });
+    </script>
+
+ 
+    </div>
+
+            </div>
+                    <div class="unauth-column entities">
+                    <div class="unauth-society-row">
+
+                    </div>
+                                    <div class="unauth-society-row">
+                        <h3 class="login-form__heading">Sign in via your Institution</h3>
+                        <div><a class="shibboleth-signin" data-target="https://shibboleth2sp.sams2.oup.com/shib?dest={0}">Sign in</a></div>
+                    </div>
+            </div>
+    </div>
+</div>
+</div>
+    <div class="widget widget-PurchaseOptions widget-instance-OUP_ArticlePage_PurchaseOptions">
+            <div class="purchase-wrap">
+        <h2 class="purchase-title">Purchase</h2>
+        <a class="purchase-subscription-link" href="/dsh/Subscribe/CurrentYear">Subscription prices and ordering</a>
+
+            <div class="purchase-ppv-wrap-article clearfix">
+                <h3>Short-term Access</h3>
+
+                    <div class="register-ribbon-wrap">
+                        <p>
+                            To purchase short term access, please sign in to your Oxford Academic account above.
+                        </p>
+                        <p>
+                            Don&#39;t already have an Oxford Academic account? <a href="/my-account/register?siteId=5447&amp;returnUrl=%2fdsh%2farticle-abstract%2f33%2f2%2f391%2f4111188%3fredirectedFrom%3dfulltext">Register</a>
+                        </p>
+                    </div>
+
+                The rationale of the born-digital <em>dossier génétique</em>: Digital forensics and the writing process: With examples from the Thomas Kling Archive - 24 Hours access
+                <div class="purchase-currency-wrap">
+                        <div class="purchase-currency">
+                            EUR €37.00
+                        </div>
+                        <div class="purchase-currency">
+                            GBP &#163;29.00
+                        </div>
+                        <div class="purchase-currency">
+                            USD $47.00
+                        </div>
+                </div>
+                
+            </div><!-- /.purchase-ppv-wrap-article -->
+
+    </div><!-- /.purchase-wrap -->
+
+    <div id="divDeepDive" class="deep-dive-wrap js-deepdyve-link" data-issn="20557671" data-doi="10.1093/llc/fqx049" data-fieldname="journal_doi" data-affiliate="OUP">
+        <h3 class="deep-dive-title">Rental</h3>
+        <div class="deep-dive-box">
+            <div class="deep-dive-img">
+                <a class="deepDiveLink" href="https://www.deepdyve.com/doc-view?docId=10.1093/llc/fqx049&amp;fieldName=journal_doi&amp;affiliateId=OUP" target="_blank"><img src="https://www.deepdyve.com/assets/images/deepdyve-link-button.svg" style="border:none" alt="Read this now at DeepDyve" /></a>
+            </div>
+            <div class="deep-dive-text">
+                This article is also available for rental through DeepDyve.
+            </div>
+        </div>
+    </div>
+ 
+    </div>
+
+                </div>
+
+            </div>
+    </div>
+</div>
+<div id="Sidebar" class="page-column page-column--right">
+    <div class="widget widget-AdBlock widget-instance-ArticlePageTopSidebar">
+        
+
+<div class="adBlockMainBodyTop-wrap js-adBlockMainBodyTop hide">
+    
+    <div id="adBlockMainBodyTop"
+         style=" ">
+        <script>
+            googletag.cmd.push(function () { googletag.display('adBlockMainBodyTop'); });
+        </script>
+    </div>
+        <div class="advertisement-text">Advertisement</div>
+</div> 
+    </div>
+<div class="widget widget-dynamic " data-count="1"> 
+
+    <div class="widget-dynamic-inner-wrap">
+
+<div class="widget widget-dynamic " data-count="10"> 
+
+    <div class="widget-dynamic-inner-wrap">
+
+    <div class="widget widget-ArticleLevelMetrics widget-instance-Article_RightRailB0Article_RightRail_ArticleLevelMetrics">
+        
+
+
+
+    <div class="artmet-wrapper horizontal-artmet">
+
+        <div class="artmet-condensed-wrap clearfix">
+
+            <div class="artmet-condensed-stats clearfix">
+                    <div class="artmet-item artmet-views">
+                        <span class="artmet-number">503</span>
+                        <span class="artmet-text">Views</span>
+                    </div>
+
+                <div class="artmet-item artmet-citations">
+                    <span class="artmet-number">
+                            <a href="http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcApp=PARTNER_APP&amp;SrcAuth=LinksAMR&amp;KeyUT=WOS:000443559100012&amp;DestLinkType=CitingArticles&amp;DestApp=ALL_WOS&amp;UsrCustomerID=61f30d8ae69c46f86624c5f98a3bc13a" target="_blank">1</a>
+                    </span>
+                    <span class="artmet-text">Citations</span>
+                </div>
+                <div class="artmet-item artmet-badges-wrap">
+                        <div class="artmet-item artmet-altmetric">
+    <div class="widget widget-AltmetricLink widget-instance-ArticleLevelMetrics_AltmetricLinkSummary">
+            <!-- Altmetrics -->
+    <div id="altmetricEmbedId"
+         runat="server"
+         class='altmetric-embed'
+         data-badge-type="donut"
+         data-hide-no-mentions="false"
+         data-doi="10.1093/llc/fqx049"
+
+        
+
+        ></div>
+         <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+ 
+    </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="artmet-modal-trigger-wrap clearfix">
+                    <a class="artmet-modal-trigger" data-article-id="4111188"><i class="icon-metrics"></i><span>View Metrics</span></a>
+                </div>
+        </div>
+            <div class="artmet-modal" id="MetricsModal">
+                <div class="artmet-modal-contents">
+                    <a class="artmet-close-modal">&#215;</a>
+                </div>
+            </div>
+    </div>
+
+ 
+    </div>
+    <div class="widget widget-Alerts widget-instance-Article_RightRailB0Article_RightRail_Alerts">
+        
+    <div class="alertsWidget">
+        <h3>Email alerts</h3>
+                <div class="userAlert alertType-1">
+                    <a href="javascript:;" class="js-user-alert" role="button"
+                       data-userLoggedIn="False"
+                       data-alertType="1" href="javascript:;">Article activity alert</a>
+                </div>
+                <div class="userAlert alertType-3">
+                    <a href="javascript:;" class="js-user-alert" role="button"
+                       data-userLoggedIn="False"
+                       data-alertType="3" href="javascript:;">Advance article alerts</a>
+                </div>
+                <div class="userAlert alertType-5">
+                    <a href="javascript:;" class="js-user-alert" role="button"
+                       data-userLoggedIn="False"
+                       data-alertType="5" href="javascript:;">New issue alert</a>
+                </div>
+                    <div class="userAlert alertType-MarketingLink">
+                <a href="javascript:;" class="js-user-alert" role="button"
+                   data-userLoggedIn="False"
+                   data-additionalUrl="/my-account/communication-preferences" href="javascript:;">Receive exclusive offers and updates from Oxford Academic</a>
+            </div>
+        <div class="userAlertSignUpModal reveal-modal small" data-reveal>
+            <div class="userAlertSignUp"></div>
+            <a href="javascript:;" role="button" aria-label="Close" class="close-reveal-modal" href="javascript:;">
+                <i class="icon-general-close"></i>
+            </a>
+        </div>
+    </div>
+ 
+    </div>
+    <div class="widget widget-ArticleLinks widget-instance-Article_RightRailB0Article_RightRail_ArticleLinks">
+         
+    </div>
+    <div class="widget widget-RelatedContent widget-instance-Article_RightRailB0Article_RightRail_RelatedContent">
+         
+    </div>
+    <div class="widget widget-RelatedArticleIn widget-instance-Article_RightRailB0Article_RightRail_RelatedArticleIn">
+            <h3 class="relatedArticleIn-title">Related articles in</h3>
+    <div class="relatedArticleIn-content">
+        <ul>
+                <li>
+                    <a href="http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcApp=PARTNER_APP&amp;SrcAuth=LinksAMR&amp;KeyUT=WOS:000443559100012&amp;DestLinkType=RelatedRecords&amp;DestApp=ALL_WOS&amp;UsrCustomerID=61f30d8ae69c46f86624c5f98a3bc13a">Web of Science</a>
+                </li>
+                <li>
+                    <a href="https://scholar.google.com/scholar?q=related:https%3a%2f%2facademic.oup.com%2fdsh%2farticle%2f33%2f2%2f391%2f4111188">Google Scholar</a>
+                </li>
+        </ul>
+    </div>
+ 
+    </div>
+    <div class="widget widget-ArticleCitedBy widget-instance-Article_RightRailB0Article_RightRail_ArticleCitedBy">
+        <div class="rail-widget_wrap vt-articles-cited-by">
+    <h3 class="article-cited-title">Citing articles via</h3>
+    <div class="widget-links_wrap">
+            <div class="article-cited-link-wrap web-of-science">
+                <a href="http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=PARTNER_APP&SrcAuth=LinksAMR&KeyUT=WOS:000443559100012&DestLinkType=CitingArticles&DestApp=ALL_WOS&UsrCustomerID=61f30d8ae69c46f86624c5f98a3bc13a" target="_blank">Web of Science (1)</a>
+            </div>
+                    <div class="article-cited-link-wrap google-scholar-url">
+                <a href="http://scholar.google.com/scholar?q=link:https%3A%2F%2Facademic.oup.com%2Fdsh%2Farticle%2F33%2F2%2F391%2F4111188" target="_blank">Google Scholar</a>
+            </div>
+                    <div class="article-cited-link-wrap crossref-citedby">
+                <a href='https://academic.oup.com/dsh/crossref-citedby/4111188'>Crossref</a>
+            </div>
+    </div>
+</div> 
+    </div>
+    <div class="widget widget-ArticleListNewAndPopular widget-instance-Article_RightRailB0Article_RightRail_ArticleNewPopularCombined">
+            <ul class="articleListNewAndPopularCombinedView">
+            <li>
+                <h3>
+                    <a href="javascript:;" class="articleListNewAndPopular-mode active" data-mode="MostRecent">Latest</a>
+                </h3>
+            </li>
+            <li>
+                <h3>
+                    <a href="javascript:;" class="articleListNewAndPopular-mode " data-mode="MostRead">Most Read</a>
+                </h3>
+            </li>
+            <li>
+                <h3>
+                    <a href="javascript:;" class="articleListNewAndPopular-mode " data-mode="MostCited">Most Cited</a>
+                </h3>
+            </li>
+    </ul>
+        <section class="articleListNewPopContent articleListNewAndPopular-ContentView-MostRecent hasContent">
+
+
+
+
+<div id="newPopularList-Article_RightRailB0Article_RightRail_ArticleNewPopularCombined" class="fb">
+
+    
+
+
+
+<div class="widget-layout widget-layout--vert">
+            <div class="widget-columns widget-col-1">
+                    <div class="col">
+
+<div class="widget-dynamic-entry">
+    <input id="hfDoi" name="hfDoi" type="hidden" value="10.1093/llc/fqaa039" />
+
+    
+
+<a href="/dsh/advance-article/doi/10.1093/llc/fqaa039/5940653?searchresult=1">
+        <div class="widget-dynamic-journal-title">
+Introduction    </div>
+</a>
+<div class="widget-dynamic-journal-image-synopsis">
+        <div class="widget-dynamic-journal-synopsis">
+            
+        </div>
+</div>
+</div>
+<div class="widget-dynamic-entry">
+    <input id="hfDoi" name="hfDoi" type="hidden" value="10.1093/llc/fqaa057" />
+
+    
+
+<a href="/dsh/advance-article/doi/10.1093/llc/fqaa057/5927539?searchresult=1">
+        <div class="widget-dynamic-journal-title">
+Cyberformalism: Histories of Linguistic Forms in the Digital Archive    </div>
+</a>
+<div class="widget-dynamic-journal-image-synopsis">
+        <div class="widget-dynamic-journal-synopsis">
+            
+        </div>
+</div>
+</div>
+<div class="widget-dynamic-entry">
+    <input id="hfDoi" name="hfDoi" type="hidden" value="10.1093/llc/fqaa029" />
+
+    
+
+<a href="/dsh/advance-article/doi/10.1093/llc/fqaa029/5921705?searchresult=1">
+        <div class="widget-dynamic-journal-title">
+Arabic part-of-speech tagging using a combined rule-based and data-driven approach    </div>
+</a>
+<div class="widget-dynamic-journal-image-synopsis">
+        <div class="widget-dynamic-journal-synopsis">
+            
+        </div>
+</div>
+</div>
+<div class="widget-dynamic-entry">
+    <input id="hfDoi" name="hfDoi" type="hidden" value="10.1093/llc/fqaa041" />
+
+    
+
+<a href="/dsh/advance-article/doi/10.1093/llc/fqaa041/5918973?searchresult=1">
+        <div class="widget-dynamic-journal-title">
+Big data or not enough? Zeta test reliability and the attribution of <em>Henry VI</em>    </div>
+</a>
+<div class="widget-dynamic-journal-image-synopsis">
+        <div class="widget-dynamic-journal-synopsis">
+            
+        </div>
+</div>
+</div>
+<div class="widget-dynamic-entry">
+    <input id="hfDoi" name="hfDoi" type="hidden" value="10.1093/llc/fqaa044" />
+
+    
+
+<a href="/dsh/article/35/3/723/5905110?searchresult=1">
+        <div class="widget-dynamic-journal-title">
+Playing with Feelings: Video Games and Affect. Aubrey Anable. <em>Minneapolis, MN: University of Minnesota Press, 2018, 176 pp. ISBN: 978-1-5179-0025-0. $25.00 (p/b).</em>    </div>
+</a>
+<div class="widget-dynamic-journal-image-synopsis">
+        <div class="widget-dynamic-journal-synopsis">
+            
+        </div>
+</div>
+</div>
+                    </div>
+            </div>
+
+</div></div>
+        </section>
+        <section class="articleListNewPopContent articleListNewAndPopular-ContentView-MostRead hide">
+        </section>
+        <section class="articleListNewPopContent articleListNewAndPopular-ContentView-MostCited hide">
+        </section>
+ 
+    </div>
+
+    </div>
+
+</div>
+    </div>
+
+</div>    <div class="widget widget-AdBlock widget-instance-ArticlePageTopMainBodyBottom">
+        
+
+<div class="adBlockMainBodyBottom-wrap js-adBlockMainBodyBottom hide">
+    
+    <div id="adBlockMainBodyBottom"
+         style=" ">
+        <script>
+            googletag.cmd.push(function () { googletag.display('adBlockMainBodyBottom'); });
+        </script>
+    </div>
+        <div class="advertisement-text">Advertisement</div>
+</div> 
+    </div>
+
+</div>
+
+</div>
+<input id="hfArticleTitle" name="hfArticleTitle" type="hidden" value="" />
+<input id="hfLeftNavStickyOffset" name="hfLeftNavStickyOffset" type="hidden" value="29" />
+<input id="hfAreOpFeaturesEnabled" name="hfAreOpFeaturesEnabled" type="hidden" value="False" />
+
+
+            </div><!-- /.center-inner-row no-overflow -->
+        </section>
+    </div>
+    <div class="mobile-mask">
+    </div>
+    <section class="footer_wrap vt-site-footer">
+        
+    <script type="text/javascript" src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"></script>
+    
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
+
+    <script type="text/javascript" src="//oup.silverchair-cdn.com/UI/app/jsdist/v-637389617100571406/article-page.min.js"></script>
+
+    <script type="text/javascript">
+        googletag.cmd.push(function () {
+            
+            googletag.pubads().setTargeting("jnlsdoi", "10.1093/llc/fqx049");
+            googletag.enableServices();
+        });
+    </script>
+
+
+
+        
+
+
+    <div class="widget widget-SitePageFooter widget-instance-SitePageFooter">
+        <div class="ad-banner ad-banner-footer">
+    <div class="widget widget-AdBlock widget-instance-FooterAd">
+        
+
+<div class="adBlockFooter-wrap js-adBlockFooter hide">
+    
+    <div id="adBlockFooter"
+         style=" ">
+        <script>
+            googletag.cmd.push(function () { googletag.display('adBlockFooter'); });
+        </script>
+    </div>
+        <div class="advertisement-text">Advertisement</div>
+</div> 
+    </div>
+
+</div>
+
+    <div class="journal-footer journal-bg">
+        <div class="center-inner-row">
+
+                <div class="journal-footer-menu">
+
+                    <ul>
+                                <li class="link-1">
+                                    <a href="/dsh/pages/About">About Digital Scholarship in the Humanities</a>
+                                </li>
+                                <li class="link-2">
+                                    <a href="/dsh/pages/Editorial_Board">Editorial Board</a>
+                                </li>
+                                <li class="link-3">
+                                    <a href="/dsh/pages/General_Instructions">Author Guidelines</a>
+                                </li>
+                                <li class="link-4">
+                                    <a href="http://eadh.org/about">Contact Us</a>
+                                </li>
+                                <li class="link-5">
+                                    <a href="https://www.facebook.com/DSHJournal/">Facebook</a>
+                                </li>
+</ul><ul>                                <li class="link-1">
+                                    <a href="https://twitter.com/DSHjournal">Twitter</a>
+                                </li>
+                                <li class="link-2">
+                                    <a href="/dsh/subscribe">Purchase</a>
+                                </li>
+                                <li class="link-3">
+                                    <a href="http://www.oxfordjournals.org/en/library-recommendation-form.html">Recommend to Your Librarian</a>
+                                </li>
+                                <li class="link-4">
+                                    <a href="http://www.oupmediainfo.com/">Advertising and Corporate Services</a>
+                                </li>
+                                <li class="link-5">
+                                    <a href="https://globaljobs-careernetwork.oxfordjournals.org/">Journals Career Network</a>
+                                </li>
+
+                    </ul>
+
+
+                </div><!-- /.journal-footer-menu -->
+
+            <div class="journal-footer-affiliations">
+                <!-- <h3>Affiliations</h3> -->
+                    <a href="https://academic.oup.com/dsh" target="">
+                        <img id="footer-logo-DigitalScholarshipintheHumanities" class="journal-footer-affiliations-logo" src="//oup.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/dsh/dsh_f1242156087.svg" alt="Digital Scholarship in the Humanities" />
+                    </a>
+            </div><!-- /.journal-footer-affiliations -->
+
+            <div class="journal-footer-colophon">
+                <ul>
+                        <li>Online ISSN 2055-768X</li>
+                                            <li>Print ISSN 2055-7671</li>
+                    <li>Copyright &#169; 2020 EADH: The European Association for Digital Humanities</li>
+                </ul>
+            </div><!-- /.journal-footer-colophon -->
+
+
+        </div><!-- /.center-inner-row -->
+    </div><!-- /.journal-footer -->
+ 
+    </div>
+
+<div class="oup-footer">
+    <div class="center-inner-row">
+    <div class="widget widget-SelfServeContent widget-instance-OupUmbrellaFooterSelfServe">
+        
+<div class="oup-footer-row journal-links">
+<div class="global-footer selfservelinks">
+<ul>
+    <li>
+    <a href="/journals/pages/about_us">About Us</a>
+    </li>
+    <li>
+    <a href="/journals/pages/contact_us">Contact Us</a>
+    </li>
+    <li>
+    <a href="http://global.oup.com/jobs">Careers</a>
+    </li>
+    <li>
+    <a href="/journals/pages/help">Help</a>
+    </li>
+    <li>
+    <a href="/journals/pages/access_purchase">Access &amp; Purchase</a></li>
+    <li>
+    <a href="/journals/pages/access_purchase/rights_and_permissions">Rights &amp; Permissions</a>
+    </li>
+    <li>
+    <a href="/journals/pages/open_access">Open Access</a>
+    </li>
+</ul>
+</div>
+<div class="global-footer selfservelinks">
+<h4 id="global-footer-customer services" class="title footerheader">Connect</h4>
+<ul>
+    <li>
+    <a href="/my-account/communication-preferences">Join Our Mailing List</a>
+    </li>
+    <li>
+    <a href="http://blog.oup.com/">OUPblog</a>
+    </li>
+    <li>
+    <a href="http://twitter.com/oupacademic">Twitter</a>
+    </li>
+    <li>
+    <a href="https://www.facebook.com/OUPAcademic">Facebook</a>
+    </li>
+    <li>
+    <a href="http://www.youtube.com/playlist?list=PL3MAPgqN8JWioLLTkU4mlFM4-SNt-f1Xs">YouTube</a>
+    </li>
+    <li>
+    <a href="http://oupacademic.tumblr.com/">Tumblr</a>
+    </li>
+</ul>
+</div>
+<div class="global-footer selfservelinks">
+<h4>Resources</h4>
+<ul>
+    <li><a href="/journals/pages/authors">Authors</a></li>
+    <li><a href="/journals/pages/librarians">Librarians</a></li>
+    <li><a href="/journals/pages/societies">Societies</a></li>
+    <li><a href="https://academic.oup.com/journals/pages/sponsorship_and_advertising">Sponsors &amp; Advertisers</a></li>
+    <li><a href="/journals/pages/press">Press &amp; Media</a></li>
+    <li><a href="/journals/pages/agents">Agents</a></li>
+</ul>
+</div>
+<div class="global-footer selfservelinks">
+<h4>Explore</h4>
+<ul>
+    <li><a href="http://global.oup.com/academic">Shop OUP Academic</a></li>
+    <li><a href="http://www.oxforddictionaries.com/">Oxford Dictionaries</a></li>
+    <li><a href="https://www.epigeum.com/">Epigeum</a></li>
+    <li><a href="http://global.oup.com/">OUP Worldwide</a></li>
+    <li><a href="http://www.ox.ac.uk/">University of Oxford</a></li>
+</ul>
+</div>
+<div class="OUP-mission">
+<p>Oxford University Press is a department of the University of Oxford. It furthers the University's objective of excellence in research, scholarship, and education by publishing worldwide</p>
+<img class="journal-footer-logo" src="//oup.silverchair-cdn.com/UI/app/svg/umbrella/oup-logo.svg" alt="Oxford University Press" width="150" height="42" />
+</div>
+</div>
+<div class="oup-footer-row">
+<div class="oup-footer-row-links">
+<ul>
+    <li>Copyright &copy; 2020 Oxford University Press</li>
+    <li><a href="https://global.oup.com/cookiepolicy/">Cookie Policy</a></li>
+    <li><a href="https://global.oup.com/privacy">Privacy Policy</a></li>
+    <li><a href="/journals/pages/about_us/legal/notices">Legal Notice</a></li>
+    <li><a href="/journals/pages/sitemap">Site Map</a></li>
+    <li><a href="/journals/pages/about_us/legal/accessibility">Accessibility</a></li>
+    <li><a href="https://get.adobe.com/reader/">Get Adobe Reader</a></li>
+</ul>
+</div>
+</div>
+<style type="text/css">
+    /* Issue right column fix for tablet/mobile */
+    @media (max-width: 1200px) {
+    .pg_issue .widget-instance-OUP_Issue {
+    width: 100%;
+    }
+    }
+    .sf-facet-list .sf-facet label, .sf-facet-list .taxonomy-label-wrap label {font-size: .9375rem;}
+    .issue-pagination-wrap .pagination-container {float: right;}
+</style>
+    
+    
+     
+    </div>
+
+    </div>
+</div>
+<div class="ss-ui-only">
+
+</div>
+
+    </section>
+</div>
+
+
+
+    
+
+
+
+    <div class="widget widget-SiteWideModals widget-instance-SiteWideModals">
+        <div id="revealModal" class="reveal-modal" data-reveal>
+    <div id="revealContent"></div>
+    <a class="close-reveal-modal" href="javascript:;"><i class="icon-general-close"></i><span class="screenreader-text">Close</span></a>
+</div>
+
+<div id="NeedSubscription" class="reveal-modal small" data-reveal>
+    <div class="subscription-needed">
+        <h5>This Feature Is Available To Subscribers Only</h5>
+        <p><a href="/sign-in">Sign In</a> or <a href="/my-account/register?siteId=5447&amp;returnUrl=%2fdsh%2farticle-abstract%2f33%2f2%2f391%2f4111188%3fredirectedFrom%3dfulltext">Create an Account</a></p>
+    </div>
+    <a class="close-reveal-modal" href="javascript:;"><i class="icon-general-close"></i><span class="screenreader-text">Close</span></a>
+</div>
+
+<div id="noAccessReveal" class="reveal-modal tiny" data-reveal>
+    <p>This PDF is available to Subscribers Only</p>
+    <a class="hide-for-article-page" id="articleLinkToPurchase" data-reveal><span>View Article Abstract & Purchase Options</span></a>
+    <div class="issue-purchase-modal">
+        <p>For full access to this pdf, sign in to an existing account, or purchase an annual subscription.</p>
+    </div>
+    <a class="close-reveal-modal" href="javascript:;"><i class="icon-general-close"></i><span class="screenreader-text">Close</span></a>
+</div>
+ 
+    </div>
+
+
+    
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+<script src="//cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.min.js"></script>
+
+    <script type="text/javascript" src="//oup.silverchair-cdn.com/UI/app/jsdist/v-637389617150883412/footer.min.js"></script>
+    <script async="async" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-5265518246c10183&domready=1"></script>
+
+
+    
+
+    
+
+    
+    
+
+
+
+
+    
+
+
+    <!-- Copyright 2001-2010, IBM Corporation All rights reserved. -->
+    <script src="//ouptag.scholarlyiq.com/ntpagetag.js"></script>
+    <noscript>
+        <img src="//ouptag.scholarlyiq.com/ntpagetag.gif?js=0" height="1" width="1" border="0" hspace="0" vspace="0" alt="Scholarly IQ" />
+    </noscript>
+
+
+    <div class="ad-banner js-ad-riser ad-banner-riser">
+
+    <div class="widget widget-AdBlock widget-instance-RiserAd">
+         
+    </div>
+
+    </div>
+
+
+</body>
+</html>
+

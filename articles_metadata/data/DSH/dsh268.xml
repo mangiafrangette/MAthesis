@@ -1,0 +1,1825 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+
+        <title>Programming in the Digital Humanities | Digital Scholarship in the Humanities | Oxford Academic</title>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js" type="text/javascript"></script>
+<script>window.jQuery || document.write('<script src="//oup.silverchair-cdn.com/UI/app/vendor/jquery-2.2.4.js" type="text/javascript">\x3C/script>')</script>
+<script src="//oup.silverchair-cdn.com/Themes/Silver/app/vendor/v-637389614866021597/jquery-migrate-1.4.1.min.js" type="text/javascript"></script>
+
+
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+    
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <!-- Turn off telephone number detection. -->
+    <meta name="format-detection" content="telephone=no" />
+
+<!-- Bookmark Icons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="//oup.silverchair-cdn.com/UI/app/img/v-637389614697592184/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="//oup.silverchair-cdn.com/UI/app/img/v-637389614697748397/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="//oup.silverchair-cdn.com/UI/app/img/v-637389614697748397/favicon-16x16.png" sizes="16x16">
+  <link rel="mask-icon" href="//oup.silverchair-cdn.com/UI/app/img/v-637389614697748397/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="//oup.silverchair-cdn.com/UI/app/img/v-637389614697748397/favicon.ico">
+  <link rel="manifest" href="//oup.silverchair-cdn.com/UI/app/img/v-637389614697748397/manifest.json">
+  <meta name="msapplication-config" content="//oup.silverchair-cdn.com/UI/app/img/v-637389614697592184/browserconfig.xml">
+  <meta name="theme-color" content="#002f65">
+
+
+    
+
+
+
+
+<link rel="stylesheet" type="text/css" href="//oup.silverchair-cdn.com/UI/app/fonts/icons.css" />
+
+<link rel="stylesheet" type="text/css" href="//oup.silverchair-cdn.com/UI/app/css/v-637389617098071498/style.min.css" />
+
+        <link rel="stylesheet" type="text/css" href="//oup.silverchair-cdn.com/UI/app/vendor/oupCookiePolicy/css/v-637389614698998372/jquery.fancybox-1.3.4_1.css" />
+        <link rel="stylesheet" type="text/css" href="//oup.silverchair-cdn.com/UI/app/vendor/jscrollpane/v-637389614698998372/jscrollpane.css" />
+        <link rel="stylesheet" type="text/css" href="//oup.silverchair-cdn.com/UI/app/vendor/jquery.tablesorter/v-637389614698998372/theme.default.css" />
+
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Merriweather:300,400,400italic,700,700italic|Source+Sans+Pro:400,400italic,700,700italic" />
+
+
+        <link href=//oup.silverchair-cdn.com/data/SiteBuilderAssetsOriginals/Live/CSS/journals/global.css rel="stylesheet" type="text/css" />
+                <link href=//oup.silverchair-cdn.com/data/SiteBuilderAssets/Live/CSS/dsh/Site567563881.css rel="stylesheet" type="text/css" />
+
+
+
+    <script> var dataLayer = [{"event_type":"full-text","supplier_tag":"SC_Journals","object_type":"Article","siteid":"dsh","authentication_method":"IP","authzrequired":"false","account_id":"2742389","authnips":"ov50dJkUotsDhFlFu/6qkw==","doi":"10.1093/llc/fqv042"}]; </script>
+        <script>
+        (function (w, d, s, l, i) {
+          w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+              new Date().getTime(), event: 'gtm.js'
+          }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-W6DD7HV');
+        </script>
+
+    
+
+        <script type="text/javascript">
+            var App = App || {};
+            App.LoginUserInfo = {
+                isInstLoggedIn: 1,
+                isIndividualLoggedIn: 0
+            };
+
+            App.CurrentSubdomain = 'dsh';
+            App.SiteURL = 'academic.oup.com/dsh';
+        </script>
+    
+    
+    <link href="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css" rel="stylesheet" type="text/css" />
+    <script type="application/ld+json">
+        {"@context":"http://schema.org","@id":"https://academic.oup.com/dsh/article/30/suppl_1/i142/364055","@type":"ScholarlyArticle","name":"Programming in the Digital Humanities","datePublished":"2015-10-09","isPartOf":{"@id":"https://academic.oup.com/dsh/dsh/issue/30/suppl_1","@type":"PublicationIssue","issueNumber":"suppl_1","datePublished":"2015-12-01","isPartOf":{"@id":"https://academic.oup.com/dsh/dsh","@type":"Periodical","name":"Digital Scholarship in the Humanities","issn":["2055-768X"]}},"url":"http://dx.doi.org/10.1093/llc/fqv042","inLanguage":"en","copyrightHolder":"EADH: The European Association for Digital Humanities","copyrightYear":"2020","publisher":"Oxford University Press","sameAs":"https://academic.oup.com/dsh/article/30/suppl_1/i142/364055","author":[{"name":"O’Sullivan, James","affiliation":"Pennsylvania State University, USA","@type":"Person"},{"name":"Jakacki, Diane","affiliation":"Bucknell University, USA","@type":"Person"},{"name":"Galvin, Mary","affiliation":"University College Cork, Ireland","@type":"Person"}],"description":"Abstract.  This article presents a selection of findings from a survey-based study on the role of software development and programming in the Digital Humanities","pageStart":"i142","pageEnd":"i147","thumbnailURL":"//oup.silverchair-cdn.com/UI/app/img/generic-cover.png","headline":"Programming in the Digital Humanities","image":"//oup.silverchair-cdn.com/UI/app/img/generic-cover.png"}
+    </script>
+    <meta property="og:site_name" content="OUP Academic" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Programming in the Digital Humanities" />
+    <meta property="og:description" content="Abstract.  This article presents a selection of findings from a survey-based study on the role of software development and programming in the Digital Humanities" />
+    <meta property="og:url" content="https://academic.oup.com/dsh/article/30/suppl_1/i142/364055" />
+    <meta property="og:image" content="//oup.silverchair-cdn.com/UI/app/img/generic-cover.png" />
+    <meta property="og:updated_time" content="2015-10-09" />
+<meta name="citation_author" content="O’Sullivan, James" /><meta name="citation_author_institution" content="Pennsylvania State University, USA" /><meta name="citation_author" content="Jakacki, Diane" /><meta name="citation_author_institution" content="Bucknell University, USA" /><meta name="citation_author" content="Galvin, Mary" /><meta name="citation_author_institution" content="University College Cork, Ireland" /><meta name="citation_title" content="Programming in the Digital Humanities" /><meta name="citation_firstpage" content="i142" /><meta name="citation_lastpage" content="i147" /><meta name="citation_doi" content="10.1093/llc/fqv042" /><meta name="citation_journal_title" content="Digital Scholarship in the Humanities" /><meta name="citation_journal_abbrev" content="Digital Scholarship Humanities" /><meta name="citation_volume" content="30" /><meta name="citation_issue" content="suppl_1" /><meta name="citation_publication_date" content="2015/12/01" /><meta name="citation_issn" content="2055-7671" /><meta name="citation_publisher" content="Oxford Academic" /><meta name="citation_reference" content="citation_title=All the digital humanists are white, all the nerds are men, but some of us are brave; citation_author=Bailey  M. Z.;  citation_journal_title=Journal of Digital Humanities;  citation_year=2011;  citation_volume=1;  citation_issue=1; " /><meta name="citation_reference" content="citation_title=A tale of two cultures? Gender and inequality in computer education; citation_author=Henwood  F.; citation_author=Plumeridge  S.; citation_author=Stepulevage  L.; citation_author=Wyatt  S.; citation_author=Henwood  F.; citation_author=Miller  N.; citation_author=Senker  P.; citation_publisher=Routledge, London;  citation_title=Technology and Inequality: Questioning the Information Society;  citation_year=2000; " /><meta name="citation_reference" content="citation_title=Imagining the new media encounter; citation_author=Liu  A.; citation_publisher=Blackwell, Oxford;  citation_title=A Companion to Digital Literary Studies;  citation_year=2008; " /><meta name="citation_reference" content="citation_author=Nowviskie  B.;  citation_year=2012; " /><meta name="citation_reference" content="citation_author=Posner  M.;  citation_year=2012; " /><meta name="citation_reference" content="citation_author=Ramsay  S.;  citation_year=2011; " /><meta name="citation_reference" content="citation_title=Determining value for digital humanities tools: report on a survey of tool developers; citation_author=Schreibman  S.; citation_author=Hanlon  A. M.;  citation_journal_title=Digital Humanities Quarterly;  citation_year=2010;  citation_volume=4;  citation_issue=2; " /><meta name="citation_reference" content="citation_author=Unsworth  J.;  citation_year=2002; " /><meta name="citation_fulltext_world_readable" content="" /><meta name="citation_pdf_url" content="https://academic.oup.com/dsh/article-pdf/30/suppl_1/i142/1040147/fqv042.pdf" /><meta name="description" content="Abstract.  This article presents a selection of findings from a survey-based study on the role of software development and programming in the Digital Humanities" /><meta name="citation_xml_url" content="https://academic.oup.com/dsh/article-xml/30/suppl_1/i142/364055" />
+
+
+
+    <link rel="canonical" href="https://academic.oup.com/dsh/article/30/suppl_1/i142/364055" />
+
+
+
+
+
+
+
+    
+    
+
+
+<script async="async" src="https://www.googletagservices.com/tag/js/gpt.js"></script>
+<script>
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+</script>
+    
+        <script type='text/javascript'>
+            var gptAdSlots = [];
+            googletag.cmd.push(function() {
+                    
+                    var mapping_ad1 = googletag.sizeMapping()
+                        .addSize([1024, 0], [[970, 90], [728, 90]])
+                        .addSize([768, 0], [728, 90])
+                        .addSize([0, 0], [320, 50])
+                        .build();
+                    gptAdSlots["ad1"] = googletag.defineSlot('/116097782/dsh_Behind_Ad1',
+                            [[970, 90], [728, 90], [320, 50]], 'adBlockHeader')
+                        .defineSizeMapping(mapping_ad1)
+                        .addService(googletag.pubads());
+                    
+
+                    
+                    var mapping_ad2 = googletag.sizeMapping()
+                        .addSize([768, 0], [[300, 250], [300, 600], [160, 600]])
+                        .build();
+                    gptAdSlots["ad2"] = googletag.defineSlot('/116097782/dsh_Behind_Ad2',
+                            [[300, 250], [160, 600], [300, 600]], 'adBlockMainBodyTop')
+                        .defineSizeMapping(mapping_ad2)
+                        .addService(googletag.pubads());
+                    
+
+                    
+                    var mapping_ad3 = googletag.sizeMapping()
+                        .addSize([768, 0], [[300, 250], [300, 600], [160, 600]])
+                        .build();
+                    gptAdSlots["ad3"] = googletag.defineSlot('/116097782/dsh_Behind_Ad3',
+                        [[300, 250], [160, 600], [300, 600]], 'adBlockMainBodyBottom')
+                        .defineSizeMapping(mapping_ad3)
+                        .addService(googletag.pubads());
+                    
+
+                    
+                var mapping_ad4 = googletag.sizeMapping()
+                        .addSize([0,0], [728, 90])
+                        .addSize([768, 0], [728, 90])
+                        .build();
+                    gptAdSlots["ad4"] = googletag.defineSlot('/116097782/dsh_Behind_Ad4',
+                        [728, 90], 'adBlockFooter')
+                        .defineSizeMapping(mapping_ad4)
+                        .addService(googletag.pubads());
+                    
+
+                googletag.pubads().addEventListener('slotRenderEnded', function (event) {
+;                    if (!event.isEmpty) {
+                        $('.js-' + event.slot.getSlotElementId()).each(function () {
+                            if ($(this).find('iframe').length) {
+                                $(this).removeClass('hide');
+                            }
+                        });
+                    }
+                });
+
+                googletag.pubads().setTargeting("jnlspage", "article");
+                googletag.pubads().setTargeting("jnlsurl", "dsh/article/30/suppl_1/i142/364055");
+                googletag.pubads().enableSingleRequest();
+                googletag.pubads().collapseEmptyDivs();
+            });
+        </script>
+    
+
+
+    
+
+
+    
+
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    <script>
+        var oupcookiepolicy_siteid = "journals";        // the website id
+        var oupcookiepolicy_messagetype = 'implied';                        // type of alert message e.g, implied / explicit
+        var oupcookiepolicy_preferredlanguage = "en";      // preferred language of the website
+        var oupcookiepolicy_impliedmessageclass = 'cookiepolicyimplied';    // the css class for implied alert message
+        var oupcookiepolicy_documentroot = '/';	  			                // the document root the cookie is set to
+    </script>
+    <noscript>We use cookies to enhance your experience on our website.By continuing to use our website, you are agreeing to our use of cookies. You can change your cookie settings at any time. <a href="https://global.oup.com/cookiepolicy/"> Find out more</a></noscript>
+    <script type="text/javascript">
+        var NTPT_PGEXTRA= 'event_type=full-text&supplier_tag=SC_Journals&object_type=Article&siteid=dsh&authentication_method=IP&authzrequired=false&account_id=2742389&authnips=198.20.191.243&doi=10.1093/llc/fqv042';
+    </script>
+
+
+
+
+    <script src="https://scholar.google.com/scholar_js/casa.js" async></script>
+
+
+</head>
+
+<body data-sitename="digitalscholarshipinthehumanities" class="off-canvas pg_Article pg_article  " theme-dsh data-sitestyletemplate="Journal" >
+    
+        <noscript>
+            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W6DD7HV"
+                    height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
+        <a href="#skipNav" class="skipnav">Skip to Main Content</a>
+<input id="hdnSiteID" name="hdnSiteID" type="hidden" value="5447" /><input id="hdnAdDelaySeconds" name="hdnAdDelaySeconds" type="hidden" value="5000" /><input id="hdnAdConfigurationTop" name="hdnAdConfigurationTop" type="hidden" value="default" /><input id="hdnAdConfigurationRightRail" name="hdnAdConfigurationRightRail" type="hidden" value="sticky" />
+    
+
+
+
+
+
+
+<div class="master-container js-master-container">
+    <section class="master-header row js-master-header vt-site-page-header">
+    <div class="widget widget-SitePageHeader widget-instance-SitePageHeader">
+        
+    <div class="ad-banner js-ad-banner-header">
+    <div class="widget widget-AdBlock widget-instance-HeaderAd">
+        
+
+<div class="adBlockHeader-wrap js-adBlockHeader hide">
+    
+    <div id="adBlockHeader"
+         style=" ">
+        <script>
+            googletag.cmd.push(function () { googletag.display('adBlockHeader'); });
+        </script>
+    </div>
+        <div class="advertisement-text">Advertisement</div>
+</div> 
+    </div>
+
+    </div>
+
+    <div class="oup-header ">
+        <div class="center-inner-row">
+            <div class="oup-header-logo">
+                <a href="/">
+                    <img src="//oup.silverchair-cdn.com/UI/app/svg/umbrella/oxford-academic-logo.svg" alt="Oxford University Press" class="oup-header-image" />
+                </a>
+            </div>
+
+            <ul class="oup-header-menu account-menu">
+
+                
+                <li class="oup-header-menu-item mobile">
+                    <a href="javascript:;" class="mobile-dropdown-toggle mobile-search-toggle">
+                        <i class="icon-menu_search"><span class="screenreader-text">Search Menu</span></i>
+                    </a>
+                </li>
+
+                
+                <li class="oup-header-menu-item mobile">
+                        <a href="javascript:;" class="mobile-dropdown-toggle mobile-account-toggle">
+                            <i class="icon-menu_account"><span class="screenreader-text">Account Menu</span></i>
+                        </a>
+                </li>
+
+                
+                <li class="oup-header-menu-item mobile">
+                    <a href="javascript:;" class="mobile-dropdown-toggle mobile-nav-toggle">
+                        <i class="icon-menu_hamburger"><span class="screenreader-text">Menu</span></i>
+                    </a>
+                </li>
+
+                
+                    <li class="oup-header-menu-item desktop">
+                        
+                            <a href="" class="dropdown-toggle institution">Centre College <i class="icon-general-arrow-filled-down arrow-icon"></i></a>
+                        <div class="dropdown-panel dropdown-panel-institution">
+                            
+                            <div class="dropdown-menu">
+                                <ul>
+
+                                        <li class="dropdown-institution-item">
+
+Centre College
+                                        </li>
+
+                                </ul>
+
+                            </div>
+                        </div>
+                    </li>                <li class="oup-header-menu-item desktop">
+                        <a href="" class="dropdown-toggle signin js-header-account-info-user-fullname" id="header-account-info-user-fullname-desktop">
+Sign In                            <i class="icon-general-arrow-filled-down arrow-icon"></i>
+                        </a>
+                        <div class="dropdown-panel dropdown-panel-signin dropdown-panel-form">
+                            <div class="spinner"></div>
+                        </div>
+                </li>
+
+                
+                    <li class="oup-header-menu-item desktop"><a href="/my-account/register?siteId=5447&amp;returnUrl=%2fdsh%2farticle%2f30%2fsuppl_1%2fi142%2f364055" class="register">Register</a></li>
+                
+            </ul>
+
+            <div class="login-box-placeholder js-login-box-placeholder hide">
+                <div class="spinner"></div>
+            </div>
+        </div>
+    </div>
+<div class="dropdown-panel-wrap">
+
+    
+    <div class="dropdown-panel mobile-search-dropdown">
+        <div class="mobile-search-inner-wrap">
+                <div class="navbar-search">
+                    <div id="MobileMicrositeSearch" class="mobile-microsite-search">
+                        <label for="mobile-navbar-search-filter" class="screenreader-text">Navbar Search Filter</label>
+                        <select class="navbar-search-filter" id="mobile-navbar-search-filter">
+                                                            <optgroup label="Search within this journal">
+<option class="header-search-bar-filters-item" value="Issue">This issue</option><option class="header-search-bar-filters-item" value="">All  Digital Scholarship in the Humanities</option>
+                                </optgroup>
+                                <optgroup label="Search beyond this journal">
+<option class="header-search-bar-filters-item" value="Journals">All  Journals</option>                                </optgroup>
+                        </select>
+
+
+
+
+
+                        <label for="MobileMicrositeSearchTerm" class="screenreader-text">Mobile Microsite Search Term</label>
+                        <input class="mobile-search-input mobile-microsite-search-term" type="text" maxlength="255" placeholder="Search" id="MobileMicrositeSearchTerm">
+
+                        <a href="javascript:;" id="MobileMicrositeSearchIcon" class="mobile-microsite-search-icon mobile-search-submit icon-menu_search"><span class="screenreader-text">Search</span></a>
+
+                    </div>
+                </div>        </div>
+    </div>
+    
+    <div class="dropdown-panel mobile-account-dropdown">
+        <ul class="site-menu site-menu-lvl-0">
+            <li class="site-menu-item site-menu-lvl-0">
+                <a href="" class="nav-link mobile-account-signin dummy-link js-header-account-info-user-fullname" id="header-account-info-user-fullname-mobile">
+                    
+Sign In                    <i class="mobile-nav-arrow icon-general_arrow-down"></i>
+                </a>
+                <ul class="site-menu site-menu-lvl-1 individual-menu">
+                    <li class="dropdown-signin-form">
+                        <div class="spinner"></div>
+                    </li>
+                </ul>
+            </li>
+                <li class="site-menu-item site-menu-lvl-0">
+                        <a href="javascript:;" class="nav-link mobile-account-institution dummy-link">
+                            Centre College
+                        </a>
+
+                    <i class="mobile-nav-arrow icon-general_arrow-down"></i>
+                    <ul class="site-menu site-menu-lvl-1">
+                            <li class="dropdown-institution-item">
+
+Centre College
+                            </li>
+
+                        <li class="dropdown-institution-signout">
+                        </li>
+                    </ul>
+                </li>
+                            <li class="site-menu-item">
+                    <a href="/my-account/register?siteId=5447&amp;returnUrl=%2fdsh%2farticle%2f30%2fsuppl_1%2fi142%2f364055" class="register nav-link">Register</a>
+                </li>
+        </ul>
+    </div>
+    
+    <div class="dropdown-panel mobile-nav-dropdown">
+
+
+    <i class="desktop-nav-arrow icon-general-arrow-filled-down arrow-icon"></i><i class="mobile-nav-arrow icon-general_arrow-down"></i>
+    <ul class="site-menu site-menu-lvl-0">
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426198">
+                <a href="/dsh/issue" class="nav-link ">Issues</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426199">
+                <a href="/dsh/advance-articles" class="nav-link ">Advance articles</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426196">
+                <a href="/dsh/#" class="nav-link dummy-link">Submit</a>
+                    <i class="desktop-nav-arrow icon-general-arrow-filled-down arrow-icon"></i><i class="mobile-nav-arrow icon-general_arrow-down"></i>
+    <ul class="site-menu site-menu-lvl-1">
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426200">
+                <a href="/dsh/pages/General_Instructions" class="nav-link ">Author Guidelines</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426201">
+                <a href="http://mc.manuscriptcentral.com/dsh" class="nav-link ">Submission Site</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426202">
+                <a href="/dsh/pages/General_Instructions" class="nav-link ">Open Access</a>
+                
+            </li>
+    </ul>
+
+            </li>
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426203">
+                <a href="/dsh/subscribe" class="nav-link ">Purchase</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426204">
+                <a href="/my-account/email-alerts" class="nav-link ">Alerts</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426197">
+                <a href="/dsh/#" class="nav-link dummy-link">About</a>
+                    <i class="desktop-nav-arrow icon-general-arrow-filled-down arrow-icon"></i><i class="mobile-nav-arrow icon-general_arrow-down"></i>
+    <ul class="site-menu site-menu-lvl-1">
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426205">
+                <a href="/dsh/pages/About" class="nav-link ">About Digital Scholarship in the Humanities</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426206">
+                <a href="http://eadh.org/about" class="nav-link ">About the European Association for Digital Humanities</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426207">
+                <a href="http://adho.org/about" class="nav-link ">About the Alliance of Digital Humanities Organizations</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426208">
+                <a href="/dsh/pages/Editorial_Board" class="nav-link ">Editorial Board</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426209">
+                <a href="http://www.oupmediainfo.com/" class="nav-link ">Advertising and Corporate Services</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426210">
+                <a href="https://globaljobs-careernetwork.oxfordjournals.org/" class="nav-link ">Journals Career Network</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426211">
+                <a href="https://academic.oup.com/journals/pages/access_purchase/rights_and_permissions/self_archiving_policy_f" class="nav-link ">Self-Archiving Policy</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426212">
+                <a href="http://www.oxfordjournals.org/en/access-purchase/dispatch-dates.html" class="nav-link ">Dispatch Dates</a>
+                
+            </li>
+    </ul>
+
+            </li>
+    </ul>
+    </div>
+
+</div>
+
+
+    <div class="journal-header journal-bg">
+        <div class="center-inner-row">
+                            <a href="/dsh" class="journal-logo-container">
+                    <img id="logo-DigitalScholarshipintheHumanities" class="journal-logo" src="//oup.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/dsh/dsh_title242156087.svg" alt="Digital Scholarship in the Humanities" />
+                </a>
+
+            <div class="society-logo-block">
+                    <div class="society-block-inner-wrap">
+                            <a href="http://eadh.org/" target="" class="society-logo-container">
+                                <img id="logo-EuropeanAssociationforDigitalHumanities" class="society-logo" src="//oup.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/dsh/dsh_h1-1114140978.png" alt="European Association for Digital Humanities" />
+                            </a>
+                                                    <a href="http://adho.org/" target="" class="society-logo-container">
+                                <img id="logo-AllianceofDigitalHumanitiesOrganizations" class="society-logo" src="//oup.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/dsh/dsh_h2-398941868.png" alt="Alliance of Digital Humanities Organizations" />
+                            </a>
+                    </div>            </div> 
+        </div>
+    </div>
+<div class="navbar">
+    <div class="center-inner-row">
+        <nav class="navbar-menu">
+
+
+    <i class="desktop-nav-arrow icon-general-arrow-filled-down arrow-icon"></i><i class="mobile-nav-arrow icon-general_arrow-down"></i>
+    <ul class="site-menu site-menu-lvl-0">
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426198">
+                <a href="/dsh/issue" class="nav-link ">Issues</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426199">
+                <a href="/dsh/advance-articles" class="nav-link ">Advance articles</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426196">
+                <a href="/dsh/#" class="nav-link dummy-link">Submit</a>
+                    <i class="desktop-nav-arrow icon-general-arrow-filled-down arrow-icon"></i><i class="mobile-nav-arrow icon-general_arrow-down"></i>
+    <ul class="site-menu site-menu-lvl-1">
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426200">
+                <a href="/dsh/pages/General_Instructions" class="nav-link ">Author Guidelines</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426201">
+                <a href="http://mc.manuscriptcentral.com/dsh" class="nav-link ">Submission Site</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426202">
+                <a href="/dsh/pages/General_Instructions" class="nav-link ">Open Access</a>
+                
+            </li>
+    </ul>
+
+            </li>
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426203">
+                <a href="/dsh/subscribe" class="nav-link ">Purchase</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426204">
+                <a href="/my-account/email-alerts" class="nav-link ">Alerts</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426197">
+                <a href="/dsh/#" class="nav-link dummy-link">About</a>
+                    <i class="desktop-nav-arrow icon-general-arrow-filled-down arrow-icon"></i><i class="mobile-nav-arrow icon-general_arrow-down"></i>
+    <ul class="site-menu site-menu-lvl-1">
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426205">
+                <a href="/dsh/pages/About" class="nav-link ">About Digital Scholarship in the Humanities</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426206">
+                <a href="http://eadh.org/about" class="nav-link ">About the European Association for Digital Humanities</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426207">
+                <a href="http://adho.org/about" class="nav-link ">About the Alliance of Digital Humanities Organizations</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426208">
+                <a href="/dsh/pages/Editorial_Board" class="nav-link ">Editorial Board</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426209">
+                <a href="http://www.oupmediainfo.com/" class="nav-link ">Advertising and Corporate Services</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426210">
+                <a href="https://globaljobs-careernetwork.oxfordjournals.org/" class="nav-link ">Journals Career Network</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426211">
+                <a href="https://academic.oup.com/journals/pages/access_purchase/rights_and_permissions/self_archiving_policy_f" class="nav-link ">Self-Archiving Policy</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426212">
+                <a href="http://www.oxfordjournals.org/en/access-purchase/dispatch-dates.html" class="nav-link ">Dispatch Dates</a>
+                
+            </li>
+    </ul>
+
+            </li>
+    </ul>
+        </nav>
+            <div class="navbar-search-container js-navbar-search-container">
+                <a href="javascript:;" class="navbar-search-close js_close-navsearch">Close</a>
+                    <div class="navbar-search">
+                        <div id="MicrositeSearch" class="microsite-search">
+                            <label for="navbar-search-filter" class="screenreader-text">search filter</label>
+                            <select class="navbar-search-filter" id="navbar-search-filter">
+                                                                    <optgroup label="Search within this journal">
+                                                <option class="header-search-bar-filters-item" value="Issue" >This issue</option>
+                                                <option class="header-search-bar-filters-item" value="" selected=&quot;selected&quot;>All  Digital Scholarship in the Humanities</option>
+
+                                    </optgroup>
+                                    <optgroup label="Search beyond this journal">
+                                                <option class="header-search-bar-filters-item" value="Journals" >All  Journals</option>
+                                    </optgroup>
+                            </select>
+
+                            <label for="MicrositeSearchTerm" class="screenreader-text">search input</label>
+                            <input class="navbar-search-input microsite-search-term" type="text" maxlength="255" id="MicrositeSearchTerm" title="search input">
+
+                            <a href="javascript:;" id="MicrositeSearchIcon" class="microsite-search-icon navbar-search-submit icon-menu_search"><span class="screenreader-text">Search</span></a>
+
+                        </div>
+                    </div>                <div class="navbar-search-advanced"><a href="/dsh/advanced-search" class="advanced-search js-advanced-search">Advanced Search</a></div>
+            </div>            <div class="navbar-search-collapsed"><a href="javascript:;" class="icon-menu_search js_expand-navsearch"><span class="screenreader-text">Search Menu</span></a></div>
+    </div>
+</div>
+
+<input id="hfEnableOupOnlineProductsFeatures" name="hfEnableOupOnlineProductsFeatures" type="hidden" value="False" />
+
+    <input type="hidden" name="searchScope" id="hfSolrJournalID" value="" />
+    <input type="hidden" id="hfSolrJournalName" value="" />
+    <input type="hidden" id="hfSolrMaxAllowSearchChar" value="100" />
+    <input type="hidden" id="hfJournalShortName" value="" />
+    <input type="hidden" id="hfSearchPlaceholder" value="" />
+    <input type="hidden" name="hfGlobalSearchSiteURL" id="hfGlobalSearchSiteURL" value="" />
+        <input type="hidden" name="parentSiteName" id="hfParentSiteName" value="Journals" />
+        <input type="hidden" name="parentSiteUrl" id="hfParentSiteUrl" value="academic.oup.com/journals" />
+        <input type="hidden" name="siteID" id="hfSiteID" value="5447" />
+        <input type="hidden" name="parentSiteID" id="hfParentSiteID" value="5567" />
+        <input type="hidden" name="journalSiteScope" id="hfJournalSiteScope" value="Journals" />
+        <input type="hidden" name="parentSiteScope" id="hfParentSiteScope" value="Parent" />
+        <input type="hidden" name="defaultSearchURL" id="hfDefaultSearchURL" value="search-results?page=1&amp;q=" />
+        <input type="hidden" name="issueSearch" id="hfIssueSearch" value="&amp;fl_IssueID=14085" />
+        <input type="hidden" name="issueSiteScope" id="hfIssueSiteScope" value="Issue" />
+<input id="hfDefaultAdvancedSearchUrl" name="hfDefaultAdvancedSearchUrl" type="hidden" value="advanced-search?page=1&amp;q=" />    <input type="hidden" name="hfSearchSiteURL" id="hfSiteURL" value="academic.oup.com/dsh" />
+    <script type="text/javascript">
+        (function () {
+            var hfSiteUrl = document.getElementById('hfSiteURL');
+            var siteUrl = hfSiteUrl.value;
+            var subdomainIndex = siteUrl.indexOf('/');
+
+            hfSiteUrl.value = location.host + (subdomainIndex >= 0 ? siteUrl.substring(subdomainIndex) : '');
+        })();
+    </script>
+<input id="routename" name="RouteName" type="hidden" value="dsh" /> 
+    </div>
+
+</section>
+
+    <div id="main" class="content-main js-main ui-base">
+        <section class="master-main row">
+            <div class="center-inner-row no-overflow">
+                <a href="#" id="skipNav" class="screenreader-text" tabindex="-1">Skip Nav Destination</a>
+                
+
+
+<div class="page-column-wrap">
+<div id="InfoColumn" class="page-column page-column--left js-left-nav-col">
+    <div class="mobile-content-topbar hide">
+        <button class="toggle-left-col toggle-left-col__article">Article Navigation</button>
+    </div>
+    <div class="info-inner-wrap js-left-nav">
+        <button class="toggle-left-col__close btn-as-icon icon-general-close">
+            <span class="screenreader-text">Close mobile search navigation</span>
+        </button>
+        <div class="responsive-nav-title">Article Navigation</div>
+        <div class="info-widget-wrap">
+    <div class="widget widget-IssueInfo widget-instance-OUP_IssueInfo_Article">
+        
+
+<div id="issueInfo-OUP_IssueInfo_Article" class="article-info-wrap clearfix">
+    <i class="icon-general-close mobile-nav-btn nav-open"></i>
+    <div class="article-issue-img">
+            <a href="/dsh/issue/30/suppl_1"><img id="issueFallbackImage" class="fb-featured-image" src="//oup.silverchair-cdn.com/UI/app/img/generic-cover.png" alt="Issue Cover" /></a>
+    </div>
+    <div class="article-issue-info">
+        <div class="volume-issue__wrap">
+
+            <a href="/dsh/issue/30/suppl_1">
+                        <div class="volume trailing-comma">Volume 30</div>
+                        <div class="issue">Issue suppl_1</div>
+
+            </a>
+
+        </div>
+        <div class="ii-pub-date">
+December 2015        </div>
+        
+    </div>
+
+</div> 
+    </div>
+
+            <div class="content-nav">
+    <div class="widget widget-ArticleJumpLinks widget-instance-OUP_ArticleJumpLinks_Widget">
+        
+
+<h3 class="contents-title" >Article Contents</h3>
+<ul class="jumplink-list">
+        <li class="section-jump-link head-1" link-destination="5278267">
+            <div class="section-jump-link__link-wrap">
+
+                <a class="js-jumplink scrollTo" href="#5278267">Abstract</a>
+            </div>
+        </li>
+        <li class="section-jump-link head-1" link-destination="5278268">
+            <div class="section-jump-link__link-wrap">
+
+                <a class="js-jumplink scrollTo" href="#5278268">1 Introduction</a>
+            </div>
+        </li>
+        <li class="section-jump-link head-1" link-destination="5278270">
+            <div class="section-jump-link__link-wrap">
+
+                <a class="js-jumplink scrollTo" href="#5278270">2 Methodology and Key Findings</a>
+            </div>
+        </li>
+        <li class="section-jump-link head-1" link-destination="5278291">
+            <div class="section-jump-link__link-wrap">
+
+                <a class="js-jumplink scrollTo" href="#5278291">3 Conclusions</a>
+            </div>
+        </li>
+        <li class="section-jump-link head-1" link-destination="5278294">
+            <div class="section-jump-link__link-wrap">
+
+                <a class="js-jumplink scrollTo" href="#5278294">Funding</a>
+            </div>
+        </li>
+        <li class="section-jump-link head-1" link-destination="5278296">
+            <div class="section-jump-link__link-wrap">
+
+                <a class="js-jumplink scrollTo" href="#5278296">Acknowledgements</a>
+            </div>
+        </li>
+        <li class="section-jump-link head-1 backReferenceLink" link-destination="5278298">
+            <div class="section-jump-link__link-wrap">
+
+                <a class="js-jumplink scrollTo" href="#5278298">References</a>
+            </div>
+        </li>
+</ul>
+ 
+    </div>
+
+            </div>
+    <div class="widget widget-ArticleNavLinks widget-instance-OUP_ArticleNavLinks_Article">
+        <ul class="inline-list">
+        <li class="prev arrow">
+            <a href="/dsh/article/30/suppl_1/i130/365257">&lt; Previous</a>
+        </li>        
+            <li class="next arrow">
+            <a href="/dsh/article/30/suppl_1/i148/361687">Next &gt;</a>
+        </li>
+</ul> 
+    </div>
+
+        </div>
+    </div>
+</div>
+<div class="sticky-toolbar js-sticky-toolbar"></div>
+<div id="ContentColumn" class="page-column page-column--center">
+    <div class="article-browse-top article-browse-mobile-nav js-mobile-nav">
+        <div class="article-browse-mobile-nav-inner js-mobile-nav-inner">
+            <button class="toggle-left-col toggle-left-col__article btn-as-link">
+                Article Navigation
+            </button>
+        </div>
+    </div>
+    <div class="content-inner-wrap">
+    <div class="widget widget-ArticleTopInfo widget-instance-OUP_ArticleTop_Info_Widget">
+        <div class="module-widget article-top-widget">
+
+    
+
+    
+        <div class="access-state-logos all-viewports">
+                    </div>
+
+
+    <div class="widget-items">
+                <h1 class="wi-article-title article-title-main">
+                    Programming in the Digital Humanities
+<i class='icon-availability_free' title='Free' ></i>                </h1>
+                <div class="wi-authors">
+                    <div class="al-authors-list">
+                                <span class="al-author-name-more js-flyout-wrap">
+
+
+
+
+                                    <a class="linked-name js-linked-name-trigger" href="javascript:;">James O’Sullivan</a><span class='delimiter'>, </span>
+
+                                    <span class="al-author-info-wrap arrow-up">
+<div id="authorInfo_OUP_ArticleTop_Info_Widget" class="info-card-author authorInfo_OUP_ArticleTop_Info_Widget">
+    <div class="name-role-wrap">
+        <div class="info-card-name">
+    James O’Sullivan
+</div>
+
+    </div>
+
+    <div class="info-card-affilitation">
+        <div class="aff">Pennsylvania State University, USA</div>
+    </div>
+
+    <div class="info-card-search-label">
+        Search for other works by this author on:
+    </div>
+
+<div class="info-card-search info-card-search-internal">
+    <a href="/dsh/search-results?f_Authors=James+O%e2%80%99Sullivan">Oxford Academic</a>
+</div>
+
+    <div class="info-card-search info-card-search-google">
+        <a href="http://scholar.google.com/scholar?q=author:%22O’Sullivan James%22">Google Scholar</a>
+    </div>
+</div>                                    </span>
+                                </span>
+                                <span class="al-author-name-more js-flyout-wrap">
+
+
+
+
+                                    <a class="linked-name js-linked-name-trigger" href="javascript:;">Diane Jakacki</a><span class='delimiter'>, </span>
+
+                                    <span class="al-author-info-wrap arrow-up">
+<div id="authorInfo_OUP_ArticleTop_Info_Widget" class="info-card-author authorInfo_OUP_ArticleTop_Info_Widget">
+    <div class="name-role-wrap">
+        <div class="info-card-name">
+    Diane Jakacki
+</div>
+
+    </div>
+
+    <div class="info-card-affilitation">
+        <div class="aff">Bucknell University, USA</div>
+    </div>
+
+    <div class="info-card-search-label">
+        Search for other works by this author on:
+    </div>
+
+<div class="info-card-search info-card-search-internal">
+    <a href="/dsh/search-results?f_Authors=Diane+Jakacki">Oxford Academic</a>
+</div>
+
+    <div class="info-card-search info-card-search-google">
+        <a href="http://scholar.google.com/scholar?q=author:%22Jakacki Diane%22">Google Scholar</a>
+    </div>
+</div>                                    </span>
+                                </span>
+                                <span class="al-author-name-more js-flyout-wrap">
+
+
+
+
+                                    <a class="linked-name js-linked-name-trigger" href="javascript:;">Mary Galvin</a><span class='delimiter'></span>
+
+                                    <span class="al-author-info-wrap arrow-up">
+<div id="authorInfo_OUP_ArticleTop_Info_Widget" class="info-card-author authorInfo_OUP_ArticleTop_Info_Widget">
+    <div class="name-role-wrap">
+        <div class="info-card-name">
+    Mary Galvin
+</div>
+
+    </div>
+
+    <div class="info-card-affilitation">
+        <div class="aff">University College Cork, Ireland</div>
+    </div>
+
+    <div class="info-card-search-label">
+        Search for other works by this author on:
+    </div>
+
+<div class="info-card-search info-card-search-internal">
+    <a href="/dsh/search-results?f_Authors=Mary+Galvin">Oxford Academic</a>
+</div>
+
+    <div class="info-card-search info-card-search-google">
+        <a href="http://scholar.google.com/scholar?q=author:%22Galvin Mary%22">Google Scholar</a>
+    </div>
+</div>                                    </span>
+                                </span>
+
+                    </div>
+                </div>
+<div class="pub-history-wrap clearfix">
+
+        <div class="pub-history-row clearfix">
+            <div class="ww-citation-primary"><em>Digital Scholarship in the Humanities</em>, Volume 30, Issue suppl_1, December 2015, Pages i142–i147, <a href='https://doi.org/10.1093/llc/fqv042'>https://doi.org/10.1093/llc/fqv042</a></div>
+        </div>
+        <div class="pub-history-row clearfix">
+            <div class="ww-citation-date-wrap">
+                <div class="citation-label">Published:</div>
+                <div class="citation-date">09 October 2015</div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $('.article-top-widget').on('click', '.ati-toggle-trigger', function () {
+            $(this).find('.icon-general-add, .icon-minus').toggleClass('icon-minus icon-general-add');
+            $(this).siblings('.ati-toggle-content').toggleClass('hide');
+        });
+
+        // In Chrome, an anchor tag with target="_blank" and a "mailto:" href opens a new tab/window as well as the email client
+        // I suspect this behavior will be corrected in the future
+        // Remove the target="_blank"
+        $('ul.wi-affiliationList').find('a[href^="mailto:"]').each(function () {
+            $(this).removeAttr('target');
+        });
+    });
+</script>
+
+ 
+    </div>
+    <div class="widget widget-ArticleLinks widget-instance-OUP_Article_Links_Widget">
+         
+    </div>
+
+
+        <div class="article-body js-content-body">
+            <div class="toolbar-wrap js-toolbar-wrap">
+                <div class="toolbar-inner-wrap">
+                    <ul id="Toolbar" role="navigation">
+    <li class="toolbar-item item-pdf">
+        <a class="al-link pdf article-pdfLink" data-article-id="364055" href="/dsh/article-pdf/30/suppl_1/i142/1040147/fqv042.pdf">
+            <img src=//oup.silverchair-cdn.com/UI/app/svg/pdf.svg alt="pdf" /><span class="pdf-link-text">PDF</span>
+        </a>
+    </li>
+                                                    <li class="toolbar-item item-link item-split-view">
+                                <a href="javascript:;"
+                                   class="split-view js-split-view st-split-view"
+                                   target="">
+                                    <i class="icon-menu_split"></i>
+                                    Split View
+                                </a>
+                            </li>
+                        <li class="toolbar-item item-with-dropdown item-views">
+                            <a class="at-views-dropdown drop-trigger" href="javascript:;" data-dropdown="FilterDrop" aria-haspopup="true">
+                                <i class="icon-menu_views"></i>
+                                <div class="toolbar-label">
+                                    <div class="toolbar-text">Views</div>
+                                    <i class="icon-general-arrow-filled-down arrow-icon"></i>
+                                </div>
+                            </a>
+                            <ul id="ViewsDrop" class="f-dropdown" data-dropdown-content aria-label="submenu">
+                                <div class="arrow-up"></div>
+                                <li class="article-content-filter js-article-content-filter" data-content-filter="article-content">
+                                    <a href="javascript:;"><span>Article contents</span></a>
+                                </li>
+                                <li class="at-figures-tables article-content-filter js-article-content-filter" data-content-filter="figures-tables">
+                                    <a href="javascript:;"><span>Figures &amp; tables</span></a>
+                                </li>
+                                <li class="article-content-filter js-article-content-filter" data-content-filter="video">
+                                    <a href="javascript:;"><span>Video</span></a>
+                                </li>
+                                <li class="article-content-filter js-article-content-filter" data-content-filter="audio">
+                                    <a href="javascript:;"><span>Audio</span></a>
+                                </li>
+                                <li class="article-content-filter js-article-content-filter" data-content-filter="supplementary-data">
+                                    <a href="javascript:;"><span>Supplementary Data</span></a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="toolbar-item">
+    <div class="widget widget-ToolboxGetCitation widget-instance-OUP_Get_Citation">
+        <a href="#" class="js-cite-button" data-reveal-id="getCitation" data-reveal><i class="icon-read-more"></i><span>Cite</span></a>
+
+<div id="getCitation" class="reveal-modal" data-reveal>
+    <h3 class="modal-title">Cite</h3>
+        <div class="oxford-citation-text">
+            <p>James O’Sullivan, Diane Jakacki, Mary Galvin,  Programming in the Digital Humanities, <em>Digital Scholarship in the Humanities</em>, Volume 30, Issue suppl_1, December 2015, Pages i142–i147, <a href="https://doi.org/10.1093/llc/fqv042">https://doi.org/10.1093/llc/fqv042</a></p>
+        </div>
+
+    <div class="citation-download-wrap">
+        <form action="/Citation/Download" method="get" id="citationModal">
+            <input type="hidden" name="resourceId" value="364055" />
+            <input type="hidden" name="resourceType" value="3" />
+            <label for="selectFormat" class="hide">Select Format</label>
+            <select required name="citationFormat" class="citation-download-format" id="selectFormat">
+                <option selected disabled >Select format</option>
+                        <option value="0" >.ris (Mendeley, Papers, Zotero)</option>
+                        <option value="1" >.enw (EndNote)</option>
+                        <option value="2" >.bibtex (BibTex)</option>
+                        <option value="3" >.txt (Medlars, RefWorks)</option>
+
+            </select>
+            <button class="btn citation-download-link disabled" type="submit">Download citation</button>
+        </form>
+    </div>
+
+    <a class="close-reveal-modal" href="javascript:;"><i class="icon-general-close"></i><span class="screenreader-text">Close</span></a>
+</div>
+ 
+    </div>
+
+                        </li>
+                        <li class="toolbar-item item-tools">
+    <div class="widget widget-ToolboxPermissions widget-instance-OUP_Get_Permissions">
+            <div class="module-widget">
+        <a href="https://s100.copyright.com/AppDispatchServlet?publisherName=OUP&amp;publication=2055-768X&amp;title=Programming%20in%20the%20Digital%20Humanities&amp;publicationDate=2015-10-09&amp;volumeNum=30&amp;issueNum=suppl_1&amp;author=O%E2%80%99Sullivan%2C%20James%3B%20Jakacki%2C%20Diane&amp;startPage=i142&amp;endPage=i147&amp;contentId=10.1093%2Fllc%2Ffqv042&amp;oa=&amp;copyright=Oxford%20University%20Press&amp;orderBeanReset=True" id="PermissionsLink" class="" target="_blank">
+            <i class="icon-menu_permissions">
+                <span class="screenreader-text">Permissions Icon</span>
+            </i>
+            Permissions
+        </a>
+    </div>
+ 
+    </div>
+
+                        </li>
+                        <li class="toolbar-item item-with-dropdown item-share last">
+                            <a class="drop-trigger" href="javascript:;" data-dropdown="ShareDrop" aria-haspopup="true">
+                                <i class="icon-menu_share"></i>
+                                <div class="toolbar-label">
+                                    <div class="toolbar-text">Share</div>
+                                    <i class="icon-general-arrow-filled-down arrow-icon"></i>
+                                </div>
+                            </a>
+                            <ul id="ShareDrop" class="addthis_toolbox addthis_default_style addthis_20x20_style f-dropdown" data-dropdown-content aria-label="submenu">
+                                <div class="arrow-up"></div>
+                                <li><a class="addthis_button_email"><span>Email</span></a></li>
+                                <li><a class="addthis_button_twitter"><span>Twitter</span></a></li>
+                                <li><a class="addthis_button_facebook"><span>Facebook</span></a></li>
+                                <li><a class="addthis_button_compact"><span>More</span></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="toolbar-search">
+    <div class="widget widget-SitePageHeader widget-instance-OUP_ArticleToolbarSearchBox">
+        
+
+
+<div class="dropdown-panel-wrap">
+
+    
+    <div class="dropdown-panel mobile-search-dropdown">
+        <div class="mobile-search-inner-wrap">
+                <div class="navbar-search">
+                    <div id="MobileMicrositeSearch" class="mobile-microsite-search">
+                        <label for="mobile-navbar-search-filter" class="screenreader-text">Navbar Search Filter</label>
+                        <select class="navbar-search-filter" id="mobile-navbar-search-filter">
+                                                            <optgroup label="Search within this journal">
+<option class="header-search-bar-filters-item" value="Issue">This issue</option><option class="header-search-bar-filters-item" value="">All  Digital Scholarship in the Humanities</option>
+                                </optgroup>
+                                <optgroup label="Search beyond this journal">
+<option class="header-search-bar-filters-item" value="Journals">All  Journals</option>                                </optgroup>
+                        </select>
+
+
+
+
+
+                        <label for="MobileMicrositeSearchTerm" class="screenreader-text">Mobile Microsite Search Term</label>
+                        <input class="mobile-search-input mobile-microsite-search-term" type="text" maxlength="255" placeholder="Search" id="MobileMicrositeSearchTerm">
+
+                        <a href="javascript:;" id="MobileMicrositeSearchIcon" class="mobile-microsite-search-icon mobile-search-submit icon-menu_search"><span class="screenreader-text">Search</span></a>
+
+                    </div>
+                </div>        </div>
+    </div>
+    
+    <div class="dropdown-panel mobile-account-dropdown">
+        <ul class="site-menu site-menu-lvl-0">
+            <li class="site-menu-item site-menu-lvl-0">
+                <a href="" class="nav-link mobile-account-signin dummy-link js-header-account-info-user-fullname" id="header-account-info-user-fullname-mobile">
+                    
+Sign In                    <i class="mobile-nav-arrow icon-general_arrow-down"></i>
+                </a>
+                <ul class="site-menu site-menu-lvl-1 individual-menu">
+                    <li class="dropdown-signin-form">
+                        <div class="spinner"></div>
+                    </li>
+                </ul>
+            </li>
+                <li class="site-menu-item site-menu-lvl-0">
+                        <a href="javascript:;" class="nav-link mobile-account-institution dummy-link">
+                            Centre College
+                        </a>
+
+                    <i class="mobile-nav-arrow icon-general_arrow-down"></i>
+                    <ul class="site-menu site-menu-lvl-1">
+                            <li class="dropdown-institution-item">
+
+Centre College
+                            </li>
+
+                        <li class="dropdown-institution-signout">
+                        </li>
+                    </ul>
+                </li>
+                            <li class="site-menu-item">
+                    <a href="/my-account/register?siteId=5447&amp;returnUrl=%2fdsh%2farticle%2f30%2fsuppl_1%2fi142%2f364055" class="register nav-link">Register</a>
+                </li>
+        </ul>
+    </div>
+    
+    <div class="dropdown-panel mobile-nav-dropdown">
+
+    </div>
+
+</div>
+
+
+
+<div class="navbar">
+    <div class="center-inner-row">
+        <nav class="navbar-menu">
+
+        </nav>
+            <div class="navbar-search-container js-navbar-search-container">
+                <a href="javascript:;" class="navbar-search-close js_close-navsearch">Close</a>
+                    <div class="navbar-search">
+                        <div id="MicrositeSearch" class="microsite-search">
+                            <label for="navbar-search-filter" class="screenreader-text">search filter</label>
+                            <select class="navbar-search-filter" id="navbar-search-filter">
+                                                                    <optgroup label="Search within this journal">
+                                                <option class="header-search-bar-filters-item" value="Issue" >This issue</option>
+                                                <option class="header-search-bar-filters-item" value="" selected=&quot;selected&quot;>All  Digital Scholarship in the Humanities</option>
+
+                                    </optgroup>
+                                    <optgroup label="Search beyond this journal">
+                                                <option class="header-search-bar-filters-item" value="Journals" >All  Journals</option>
+                                    </optgroup>
+                            </select>
+
+                            <label for="MicrositeSearchTerm" class="screenreader-text">search input</label>
+                            <input class="navbar-search-input microsite-search-term" type="text" maxlength="255" id="MicrositeSearchTerm" title="search input">
+
+                            <a href="javascript:;" id="MicrositeSearchIcon" class="microsite-search-icon navbar-search-submit icon-menu_search"><span class="screenreader-text">Search</span></a>
+
+                        </div>
+                    </div>                <div class="navbar-search-advanced"><a href="/dsh/advanced-search" class="advanced-search js-advanced-search">Advanced Search</a></div>
+            </div>            <div class="navbar-search-collapsed"><a href="javascript:;" class="icon-menu_search js_expand-navsearch"><span class="screenreader-text">Search Menu</span></a></div>
+    </div>
+</div>
+
+<input id="hfEnableOupOnlineProductsFeatures" name="hfEnableOupOnlineProductsFeatures" type="hidden" value="False" />
+
+<input id="routename" name="RouteName" type="hidden" value="dsh" /> 
+    </div>
+
+                    </div>
+                </div>
+            </div>
+            <div id="ContentTab" class="content active">
+    <div class="widget widget-ArticleFulltext widget-instance-OUP_Article_FullText_Widget">
+        <div class="module-widget">
+    <div class="widget-items" data-widgetname="ArticleFulltext">
+
+
+
+
+
+                    <h2 scrollto-destination=5278267 id="5278267" class="abstract-title" >Abstract</h2>
+<section class="abstract"><p class="chapter-para">This article presents a selection of findings from a survey-based study on the role of software development and programming in the Digital Humanities, disseminated to researchers, teachers, and practitioners from across the community.</p></section>                        <div class="article-metadata-panel clearfix"></div>
+                    <h2 scrollto-destination=5278268 id="5278268" class="section-title" >1 Introduction</h2>
+<p class="chapter-para">Digital Humanities remains something of an embryonic field, with precise definitions of its multifaceted aspects still very much open to debate. The role of software development in our construction of ‘the digital humanist' has proved particularly problematic, with scholars divided on the extent to which Digital Humanities scholars should be actively engaged in programming. Using both quantitative and qualitative methods, this article seeks to present a diverse range of perspectives from within the Digital Humanities community, all of which address the question so famously posed by Stephen Ramsay: ‘Do you have to know how to code?' (<span class="xrefLink" id="jumplink-fqv042-B6"></span><a href="javascript:;" reveal-id="fqv042-B6" data-open="fqv042-B6" class="link link-ref link-reveal xref-bibr">Ramsay, 2011</a>). By surveying active members of our community, this article presents findings on development practices within Digital Humanities scholarship. In taking such an approach, we are not seeking to offer a novel definition of the field, but rather, present some objective findings on relevant attitudes in relation to development within Digital Humanities projects, and how such technical activities are being approached. In essence, this survey might be seen as a community response to Ramsay’s provocation.</p>                    <h2 scrollto-destination=5278270 id="5278270" class="section-title" >2 Methodology and Key Findings</h2>
+<p class="chapter-para">Our survey, which comprises a series of quantitative and qualitative questions, has a total of ninety-six participants, all of which identify as being actively engaged in digital scholarship. The purpose of these questions is to establish, firstly, the level to which Digital Humanities scholars are actively programming, and secondly, how they view the importance of such activities. Questions are divided between two general types: those which ask respondents to give their views on the relevant issues, and those which challenge users to explain their understanding of generic technical details. The purpose of the latter is to help discern if Digital Humanities scholars can demonstrate an appreciation of some of the fundamentals associated with programming. Considering the population of interest, all of our respondents were either participants at the Digital Humanities Summer Institute, or active subscribers to the Humanist mailing list. We do believe that this is a valid data set, as drawing from these groups allows for a controlled sample of respondents, all of which have, through their connection to the aforementioned communities, some awareness of the field. Future studies might benefit from an increase in the volume of demographics gathered, as well as a broader population. The key findings to emerge are as follows:</p>                    <h3 scrollto-destination=5278272 id="5278272" class="section-title" data-legacy-id=SEC2.1>2.1 Age</h3>
+<p class="chapter-para">Filtering respondents by age presents an interesting correlation between the scholarly practices and what are often perceived as ‘generational differences'. The commonly held notion of the digital native suggests that a new generation of scholars is transforming the academy as a result of their increasing familiarity with technology. Our results demonstrate that this is a misplaced assumption, with the responses from our 25–35, 35–50, and 50+ age range offering some interesting points of comparison. Surprisingly, only two respondents are in the 18–25 age range. In particular, when asked if ‘software development is an element of Digital Humanities scholarship', the majority of respondents over 50 years ‘strongly agree' (see <span class="xrefLink" id="jumplink-fqv042-F1"></span><a href="javascript:;" reveal-id="fqv042-F1" data-open="fqv042-F1" class="link link-reveal link-table xref-fig">Fig. 1</a>). This contrasts with the other two groups, the majority of which only ‘agree' with the aforementioned statement. </p>                        <a id="5278274" scrollto-destination="5278274"></a>
+<div data-id="fqv042-F1" class="fig fig-section"><div class="label fig-label">Fig. 1</div><div class="graphic-wrap"><img class="content-image" src="https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/llc/30/suppl_1/10.1093/llc/fqv042/2/m_fqv042f1p.png?Expires=1606411948&amp;Signature=ZFAKg7TEWK2MFbZuaxhYCaUNjo4ceOiXQ-~Z97XvzTQF1JDma6SnASeH-bBunUVR7SCsLHhXJDHgO5yzlNm7pTuPS~QH2vDp3lKDZWoDYfpm~kN8fmVPsja0dnF1GSk~pD0CQnFZBo7Sb8GS~zfoUDWFnEyrfO9QVriWkOuudY-8vgaKH2McLDdif30i~9zxM7rSgSXdp78v3mo39Q2PZbJrs-Tfush29f~0iWUjgQOrM6BQlGfUeFCscEUE3GGsq3DIC9eq3g7vl67MnWPRhiD82rqEm4093f-t9sCvtQS2n0N9M759GpRlQanno-y9VH3W05AHyu~YK9-IMxfbrw__&amp;Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" alt="Software development is an element of Digital Humanities scholarship" data-path-from-xml="fqv042f1p.tiff" /><div class="fig-orig original-slide"><a class="fig-view-orig js-view-large openInAnotherWindow" href="/view-large/figure/5278274/fqv042f1p.tiff" data-path-from-xml="fqv042f1p.tiff" target="_blank">Open in new tab</a><a data-section="5278274" href="/DownloadFile/DownloadImage.aspx?image=https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/llc/30/suppl_1/10.1093/llc/fqv042/2/fqv042f1p.png?Expires=1606411948&Signature=z1JukzjZjBssC-ddV9b6~M3XeX4zySthB5NYCR0sj7YDcs7Qab2ghESHxlYQn3Gh9nApToABUEgOEVIRwZD~ZEfUCe69sPooTqPznW9XoKpXFWUEIZps2kRu7S-sliXUHqgmqo1GYwSogXSUvmbc0LMXTrodhTTJcbnzLLHtzgj~RF1n45iekHaRpz4cD~1efQGTsIr-PccDGm-WtmUDaIWK7jc7ouHsn-Mx7DPLv9XE7ubKpGs3hfOkL6M65qFa60uAWwqIn-VjlbVh2AJ7IPhIAB6cJYcFzT5aokgfA-O2S6OB5-GN-A~9p~6hrWqvn~nz8oaM25TgB~ExVjO~7Q__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA&sec=5278274&ar=364055&xsltPath=~/UI/app/XSLT&imagename=&siteId=5447" class="download-slide" data-path-from-xml="fqv042f1p.tiff">Download slide</a></div></div><div class="caption fig-caption"><p class="chapter-para">Software development is an element of Digital Humanities scholarship</p></div></div><div content-id="fqv042-F1" class="fig fig-modal reveal-modal"><div class="label fig-label">Fig. 1</div><div class="graphic-wrap"><img class="content-image" src="https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/llc/30/suppl_1/10.1093/llc/fqv042/2/m_fqv042f1p.png?Expires=1606411948&amp;Signature=ZFAKg7TEWK2MFbZuaxhYCaUNjo4ceOiXQ-~Z97XvzTQF1JDma6SnASeH-bBunUVR7SCsLHhXJDHgO5yzlNm7pTuPS~QH2vDp3lKDZWoDYfpm~kN8fmVPsja0dnF1GSk~pD0CQnFZBo7Sb8GS~zfoUDWFnEyrfO9QVriWkOuudY-8vgaKH2McLDdif30i~9zxM7rSgSXdp78v3mo39Q2PZbJrs-Tfush29f~0iWUjgQOrM6BQlGfUeFCscEUE3GGsq3DIC9eq3g7vl67MnWPRhiD82rqEm4093f-t9sCvtQS2n0N9M759GpRlQanno-y9VH3W05AHyu~YK9-IMxfbrw__&amp;Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" alt="Software development is an element of Digital Humanities scholarship" data-path-from-xml="fqv042f1p.tiff" /><div class="fig-orig original-slide"><a class="fig-view-orig js-view-large openInAnotherWindow" href="/view-large/figure/5278274/fqv042f1p.tiff" data-path-from-xml="fqv042f1p.tiff" target="_blank">Open in new tab</a><a data-section="5278274" href="/DownloadFile/DownloadImage.aspx?image=https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/llc/30/suppl_1/10.1093/llc/fqv042/2/fqv042f1p.png?Expires=1606411948&Signature=z1JukzjZjBssC-ddV9b6~M3XeX4zySthB5NYCR0sj7YDcs7Qab2ghESHxlYQn3Gh9nApToABUEgOEVIRwZD~ZEfUCe69sPooTqPznW9XoKpXFWUEIZps2kRu7S-sliXUHqgmqo1GYwSogXSUvmbc0LMXTrodhTTJcbnzLLHtzgj~RF1n45iekHaRpz4cD~1efQGTsIr-PccDGm-WtmUDaIWK7jc7ouHsn-Mx7DPLv9XE7ubKpGs3hfOkL6M65qFa60uAWwqIn-VjlbVh2AJ7IPhIAB6cJYcFzT5aokgfA-O2S6OB5-GN-A~9p~6hrWqvn~nz8oaM25TgB~ExVjO~7Q__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA&sec=5278274&ar=364055&xsltPath=~/UI/app/XSLT&imagename=&siteId=5447" class="download-slide" data-path-from-xml="fqv042f1p.tiff">Download slide</a></div></div><div class="caption fig-caption"><p class="chapter-para">Software development is an element of Digital Humanities scholarship</p></div></div><p class="chapter-para">When asked to indicate ‘the type of development practices with which they are most frequently engaged' (see <span class="xrefLink" id="jumplink-fqv042-F2"></span><a href="javascript:;" reveal-id="fqv042-F2" data-open="fqv042-F2" class="link link-reveal link-table xref-fig">Fig. 2</a>), the majority of the 50+ age group state that they do most of the programming themselves, while the majority of the remaining groups either contribute an equal amount to collaborative developments, or have other individuals do the bulk of the project’s coding. </p>                        <a id="5278276" scrollto-destination="5278276"></a>
+<div data-id="fqv042-F2" class="fig fig-section"><div class="label fig-label">Fig. 2</div><div class="graphic-wrap"><img class="content-image" src="https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/llc/30/suppl_1/10.1093/llc/fqv042/2/m_fqv042f2p.png?Expires=1606411948&amp;Signature=U-xREV8kPovKRQBp5mpc05KL6~xzrqD6mjz2eMyr~wy2YyCT9WLkEpUK~mhLsP~D3SFGKhXUX3p~NJ8wzSoJdb8wsdwjrMsTOne0uhOcQgRIV5Un5yD8Nm-C5Nz-QYWOIW8~vpyzdYVu0Eb0NqaiqBa1QzYFXMIjiCsO63nsfhIKzZ~yPR2RFyJZn1tFE1GAf8eIudI-T8ew5Z3VyZpcptulHlEu-cWixndBGzz7ZbE0HzKgA5g679ZnSmbb53-82wiA9CIudtee-Z49HuXPTxK6LbFS3UQ43O1j03U4euWjDh5iOgG3z5Me~PP62Hg1gcfnotZpNNCqPDZn8D~WXA__&amp;Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" alt="Development practices (by age)" data-path-from-xml="fqv042f2p.tiff" /><div class="fig-orig original-slide"><a class="fig-view-orig js-view-large openInAnotherWindow" href="/view-large/figure/5278276/fqv042f2p.tiff" data-path-from-xml="fqv042f2p.tiff" target="_blank">Open in new tab</a><a data-section="5278276" href="/DownloadFile/DownloadImage.aspx?image=https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/llc/30/suppl_1/10.1093/llc/fqv042/2/fqv042f2p.png?Expires=1606411948&Signature=UvTNHyW~0Rq2E~u3eUFqcQV3-RW400OBcw1gNIupxtHQi0SFd8lTxh2KPx3PgEuJ4ef5X8EotzGjlwQzuhsB28cdHEKpxJn0t8FlWteKcY3Azj-f1kwPwFJ-eKVOinilDe1lapzwkeVs2i2lnxkCS2O7rCiQlTXW7UN2e20BMznbDF-MZlsZy1JMMWFixkQI66RTKohl~AQ-XhBM6v2hvP27SafGKmzy1iNNrWm79r20t6OU9~pMvt6T2VOTKc2fRFyRMnyuTQo3UoayEZWvNyF1NASQHLKh90-bUGHkL4tdfeW9GGcaHZomdfOA7KEP-Y~6xg7a-okVIOhBl24QeA__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA&sec=5278276&ar=364055&xsltPath=~/UI/app/XSLT&imagename=&siteId=5447" class="download-slide" data-path-from-xml="fqv042f2p.tiff">Download slide</a></div></div><div class="caption fig-caption"><p class="chapter-para">Development practices (by age)</p></div></div><div content-id="fqv042-F2" class="fig fig-modal reveal-modal"><div class="label fig-label">Fig. 2</div><div class="graphic-wrap"><img class="content-image" src="https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/llc/30/suppl_1/10.1093/llc/fqv042/2/m_fqv042f2p.png?Expires=1606411948&amp;Signature=U-xREV8kPovKRQBp5mpc05KL6~xzrqD6mjz2eMyr~wy2YyCT9WLkEpUK~mhLsP~D3SFGKhXUX3p~NJ8wzSoJdb8wsdwjrMsTOne0uhOcQgRIV5Un5yD8Nm-C5Nz-QYWOIW8~vpyzdYVu0Eb0NqaiqBa1QzYFXMIjiCsO63nsfhIKzZ~yPR2RFyJZn1tFE1GAf8eIudI-T8ew5Z3VyZpcptulHlEu-cWixndBGzz7ZbE0HzKgA5g679ZnSmbb53-82wiA9CIudtee-Z49HuXPTxK6LbFS3UQ43O1j03U4euWjDh5iOgG3z5Me~PP62Hg1gcfnotZpNNCqPDZn8D~WXA__&amp;Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" alt="Development practices (by age)" data-path-from-xml="fqv042f2p.tiff" /><div class="fig-orig original-slide"><a class="fig-view-orig js-view-large openInAnotherWindow" href="/view-large/figure/5278276/fqv042f2p.tiff" data-path-from-xml="fqv042f2p.tiff" target="_blank">Open in new tab</a><a data-section="5278276" href="/DownloadFile/DownloadImage.aspx?image=https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/llc/30/suppl_1/10.1093/llc/fqv042/2/fqv042f2p.png?Expires=1606411948&Signature=UvTNHyW~0Rq2E~u3eUFqcQV3-RW400OBcw1gNIupxtHQi0SFd8lTxh2KPx3PgEuJ4ef5X8EotzGjlwQzuhsB28cdHEKpxJn0t8FlWteKcY3Azj-f1kwPwFJ-eKVOinilDe1lapzwkeVs2i2lnxkCS2O7rCiQlTXW7UN2e20BMznbDF-MZlsZy1JMMWFixkQI66RTKohl~AQ-XhBM6v2hvP27SafGKmzy1iNNrWm79r20t6OU9~pMvt6T2VOTKc2fRFyRMnyuTQo3UoayEZWvNyF1NASQHLKh90-bUGHkL4tdfeW9GGcaHZomdfOA7KEP-Y~6xg7a-okVIOhBl24QeA__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA&sec=5278276&ar=364055&xsltPath=~/UI/app/XSLT&imagename=&siteId=5447" class="download-slide" data-path-from-xml="fqv042f2p.tiff">Download slide</a></div></div><div class="caption fig-caption"><p class="chapter-para">Development practices (by age)</p></div></div><p class="chapter-para">Our findings suggest that the sense that established ‘senior' scholars are more entrenched in traditional views is naïve. The general expectation is that younger scholars, as a result of their perceived familiarity with technology, are more inclined to execute the technical aspects of projects themselves. Our findings demonstrate that the opposite is the case, with the 50+ age group being the most technologically self-sufficient.</p><p class="chapter-para">There are some interesting interpretations on academic culture to be teased out here. These findings could arguably be the product of younger scholars having been trained in interdisciplinary environments, and thus having a genuine appetite for collaboration, with the older generation indicating that they prefer a ‘traditional', more isolated approach to research. Alternatively, younger scholars may not be as technically proficient as many commentators suggest. The ‘new nativity' of Marshall McLuhan’s digital adepts, as Alan Liu puts it (<span class="xrefLink" id="jumplink-fqv042-B3"></span><a href="javascript:;" reveal-id="fqv042-B3" data-open="fqv042-B3" class="link link-ref link-reveal xref-bibr">Liu 2008</a>), may be ‘born again', but their technological conviction should not be confused for technical proficiency. Technological ubiquity has led to a new generation of scholars who are increasingly familiar with consumer electronics and intuitive graphical interfaces, but our results suggest that these scholars are avoiding more complex technical challenges. The new generation of scholars comes equipped with an arsenal of gadgetry, the majority of which are operated using an intuitive interface. There is a marked distinction between ‘using' technology and ‘understanding' technology, a distinction which, while often blurred, is emphasized by our findings. This is supported by a later question, which finds that, of the 25–35 age group, the majority of respondents admit to not considering themselves technically proficient. These results might also be representative of a changing academic culture, whereby students are demanding increasing support from their institutions. In the relevant qualitative portions, it is clear that this age group connected ‘learning' to ‘privilege', in the sense that technical expertise are reserved for scholars with access to appropriate support from their universities. The older groups, conversely, cite the need for scholars to pursue independent development of their technical skills.</p>                    <h3 scrollto-destination=5278279 id="5278279" class="section-title" data-legacy-id=SEC2.2>2.2 Gender</h3>
+<p class="chapter-para">There are few distinctions between respondents when separated by gender, the only significant finding being in relation to the use of software development as an element of one’s work. Considerably, more males claim that software development is an aspect of their day-to-day, and furthermore, self-identify as being technically proficient. This survey, of course, is no indication that this is actually the case, although there are a higher proportion of male respondents possessing formal qualifications in technical subjects. It would be worthwhile comparing these results with data from wider technical disciplines and industries, to see if they are merely a symptom of a wider academic context, and the problem of women being under-represented in the STEM disciplines. This is a whole other debate, which is already on-going and fruitful (<span class="xrefLink" id="jumplink-fqv042-B1"></span><a href="javascript:;" reveal-id="fqv042-B1" data-open="fqv042-B1" class="link link-ref link-reveal xref-bibr">Bailey, 2011</a>; <span class="xrefLink" id="jumplink-fqv042-B4"></span><a href="javascript:;" reveal-id="fqv042-B4" data-open="fqv042-B4" class="link link-ref link-reveal xref-bibr">Nowviskie, 2012</a>; <span class="xrefLink" id="jumplink-fqv042-B5"></span><a href="javascript:;" reveal-id="fqv042-B5" data-open="fqv042-B5" class="link link-ref link-reveal xref-bibr">Posner, 2012</a>). In explaining this discrepancy, one might also point to literature which contends that women tend to underestimate their technical competencies (<span class="xrefLink" id="jumplink-fqv042-B2"></span><a href="javascript:;" reveal-id="fqv042-B2" data-open="fqv042-B2" class="link link-ref link-reveal xref-bibr">Henwood <em>et al.</em>, 2000</a>).</p>                    <h3 scrollto-destination=5278281 id="5278281" class="section-title" data-legacy-id=SEC2.3>2.3 Collaboration</h3>
+<p class="chapter-para">When all respondents are taken as a single set, the key theme to emerge from both the qualitative and quantitative data is ‘collaboration'. Most significant in this respect is the way in which respondents with technical expertise express a conscious desire to understand the requirements of Humanities scholars (see <span class="xrefLink" id="jumplink-fqv042-F3"></span><a href="javascript:;" reveal-id="fqv042-F3" data-open="fqv042-F3" class="link link-reveal link-table xref-fig">Fig. 3</a>), while Humanities scholars acknowledge that they have a responsibility to develop the understanding and vocabulary necessary to communicate with colleagues from technical disciplines (see <span class="xrefLink" id="jumplink-fqv042-F4"></span><a href="javascript:;" reveal-id="fqv042-F4" data-open="fqv042-F4" class="link link-reveal link-table xref-fig">Fig. 4</a>). Admittedly, this is somewhat surprising, as we had expected collaborators with differing skill sets to express a vested interest in their own areas. These results are arguably a product of the sample population, which is comprised of scholars who consider themselves to be working within the Digital Humanities community. However, what it demonstrates, nonetheless, is that there is a genuine desire for collaboration within the discipline, and that this desire is supported by an awareness of the differing expertise, requirements, and mind-sets that need to be accommodated throughout the collaborative process. </p>                        <a id="5278283" scrollto-destination="5278283"></a>
+<div data-id="fqv042-F3" class="fig fig-section"><div class="label fig-label">Fig. 3</div><div class="graphic-wrap"><img class="content-image" src="https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/llc/30/suppl_1/10.1093/llc/fqv042/2/m_fqv042f3p.png?Expires=1606411949&amp;Signature=iOCPR37jI0Su8B34PfSt537eWyy3bloocQBRPMrrG7SVKym8w49gHCnUy821FXP7lTBk6EPSqGjwqBcksGFzAZmNhQu1jAc8Hc41i1fgyWV1x0vDVq~qyy3MnQ7zNrlEH5W7JSVwRvi51QFspDDWuWN74mvkCXGM4~lyfMUWW6nsM~SfwRuk49xBF~Lz543AhPdLLAorz9r4curaogLlfpbaLSx03J~bSvExQGbVvInIssYHMeldVTyM0uF8xv4Lmegh5dQikDIVoGDngJd2KWhf8AxoPjuiRwVqCWvil4EGdiR7LCM95M4W7ZPcJyhZ4kgHE2YtG24K93TU3HpD5w__&amp;Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" alt="Technical experts have a responsibility to gain familiarity with Humanities scholarship" data-path-from-xml="fqv042f3p.tiff" /><div class="fig-orig original-slide"><a class="fig-view-orig js-view-large openInAnotherWindow" href="/view-large/figure/5278283/fqv042f3p.tiff" data-path-from-xml="fqv042f3p.tiff" target="_blank">Open in new tab</a><a data-section="5278283" href="/DownloadFile/DownloadImage.aspx?image=https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/llc/30/suppl_1/10.1093/llc/fqv042/2/fqv042f3p.png?Expires=1606411949&Signature=A4KkNyKEV4TcJVvURbvCBsL6HHEb6vmpbAV-taDnsuQFwNc1AWe0CzlXvVYsvZ1J2-GcKeRyOA0Ak9AV1DpiqQeSTDytC~Sknl~Rc9tx9vLysgePsyGhSMf1hAltJaaIfZgCwDnUjudHUcMyQ~HGwxAbGuT-vvs2fisd-ii4pyvmk~B3L2j03sh4Nl1Jb1JP8FmZoMNHrZLxhWePETGamcowNssrfmYI8NMibakYLgxjP6EhOz4Amrx3GZurmNmdU26Jvj2d0SdyRwZiRNoSMsrFcCa9sBtJElnrAgAJhjCeZo2HiPYPT9g8UnQrsOqMdJ6tB~BWcbAySdXO~IY8PQ__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA&sec=5278283&ar=364055&xsltPath=~/UI/app/XSLT&imagename=&siteId=5447" class="download-slide" data-path-from-xml="fqv042f3p.tiff">Download slide</a></div></div><div class="caption fig-caption"><p class="chapter-para">Technical experts have a responsibility to gain familiarity with Humanities scholarship</p></div></div><div content-id="fqv042-F3" class="fig fig-modal reveal-modal"><div class="label fig-label">Fig. 3</div><div class="graphic-wrap"><img class="content-image" src="https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/llc/30/suppl_1/10.1093/llc/fqv042/2/m_fqv042f3p.png?Expires=1606411949&amp;Signature=iOCPR37jI0Su8B34PfSt537eWyy3bloocQBRPMrrG7SVKym8w49gHCnUy821FXP7lTBk6EPSqGjwqBcksGFzAZmNhQu1jAc8Hc41i1fgyWV1x0vDVq~qyy3MnQ7zNrlEH5W7JSVwRvi51QFspDDWuWN74mvkCXGM4~lyfMUWW6nsM~SfwRuk49xBF~Lz543AhPdLLAorz9r4curaogLlfpbaLSx03J~bSvExQGbVvInIssYHMeldVTyM0uF8xv4Lmegh5dQikDIVoGDngJd2KWhf8AxoPjuiRwVqCWvil4EGdiR7LCM95M4W7ZPcJyhZ4kgHE2YtG24K93TU3HpD5w__&amp;Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" alt="Technical experts have a responsibility to gain familiarity with Humanities scholarship" data-path-from-xml="fqv042f3p.tiff" /><div class="fig-orig original-slide"><a class="fig-view-orig js-view-large openInAnotherWindow" href="/view-large/figure/5278283/fqv042f3p.tiff" data-path-from-xml="fqv042f3p.tiff" target="_blank">Open in new tab</a><a data-section="5278283" href="/DownloadFile/DownloadImage.aspx?image=https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/llc/30/suppl_1/10.1093/llc/fqv042/2/fqv042f3p.png?Expires=1606411949&Signature=A4KkNyKEV4TcJVvURbvCBsL6HHEb6vmpbAV-taDnsuQFwNc1AWe0CzlXvVYsvZ1J2-GcKeRyOA0Ak9AV1DpiqQeSTDytC~Sknl~Rc9tx9vLysgePsyGhSMf1hAltJaaIfZgCwDnUjudHUcMyQ~HGwxAbGuT-vvs2fisd-ii4pyvmk~B3L2j03sh4Nl1Jb1JP8FmZoMNHrZLxhWePETGamcowNssrfmYI8NMibakYLgxjP6EhOz4Amrx3GZurmNmdU26Jvj2d0SdyRwZiRNoSMsrFcCa9sBtJElnrAgAJhjCeZo2HiPYPT9g8UnQrsOqMdJ6tB~BWcbAySdXO~IY8PQ__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA&sec=5278283&ar=364055&xsltPath=~/UI/app/XSLT&imagename=&siteId=5447" class="download-slide" data-path-from-xml="fqv042f3p.tiff">Download slide</a></div></div><div class="caption fig-caption"><p class="chapter-para">Technical experts have a responsibility to gain familiarity with Humanities scholarship</p></div></div>                        <a id="5278284" scrollto-destination="5278284"></a>
+<div data-id="fqv042-F4" class="fig fig-section"><div class="label fig-label">Fig. 4</div><div class="graphic-wrap"><img class="content-image" src="https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/llc/30/suppl_1/10.1093/llc/fqv042/2/m_fqv042f4p.png?Expires=1606411949&amp;Signature=DsvZKgVyLVYei778sR~b~lGupMsOcs4P43~VCazQUp3pyzo-34~LwyA31TdmPJGS6DAzQ-AohQCKBWN15EIRUtXOikgAFQibgG4quR-O8BQ2qVSLjFlF7qmWOnybKfgznjF2~~fWz7CD4NVj7kejoAb8zyypuTKcBraXJD5BT9zZ--Ix2DoMOdQbnfBwSb5BaK0IFC4Ini3Znp7gmJD-i35YGPUGFK-NQ3QxYFOy37zFwdJPe8lG5ue08GPl5N9nqwI8tCNUepgbsgDLRToVTD5GB9k5Go8bcY7pHiA3fAwL5l65yz64-VkWYo4F0KSzRejvgOo44SFghm~xjd-gjQ__&amp;Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" alt="Humanists have a responsibility to improve their technical understanding" data-path-from-xml="fqv042f4p.tiff" /><div class="fig-orig original-slide"><a class="fig-view-orig js-view-large openInAnotherWindow" href="/view-large/figure/5278284/fqv042f4p.tiff" data-path-from-xml="fqv042f4p.tiff" target="_blank">Open in new tab</a><a data-section="5278284" href="/DownloadFile/DownloadImage.aspx?image=https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/llc/30/suppl_1/10.1093/llc/fqv042/2/fqv042f4p.png?Expires=1606411949&Signature=r5PFg2BlKI1CpQkpriSA--75vWjlZ3NfRAFHobSiRcWf35Z5nK6LvGk1QzqEpsvqswE3yaq17ExHLObsSlZP9l8BTUns1Ouyr2TKp7g-FdX~zZmiKaQzLIOx0H6xHqRqJN85gGRNfA0Mp2j2WOHAcLv1vAudWqfhU~FokRrXPisvg0sWMLNl9KPvwmohTlo8WtkaxvuUr96pAe5GnP0~dnVZWJhjYvnvaFCUpFxy8aINc3UfEpQNBhiCeHf6C~oaL9k9-Cqgony-ekTCq2ffIfDwG~wtertvYo76do~6nh~uDqsb7LfoCgxOGM9xBB6u1T6X6wlNFfweRskasnQw9A__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA&sec=5278284&ar=364055&xsltPath=~/UI/app/XSLT&imagename=&siteId=5447" class="download-slide" data-path-from-xml="fqv042f4p.tiff">Download slide</a></div></div><div class="caption fig-caption"><p class="chapter-para">Humanists have a responsibility to improve their technical understanding</p></div></div><div content-id="fqv042-F4" class="fig fig-modal reveal-modal"><div class="label fig-label">Fig. 4</div><div class="graphic-wrap"><img class="content-image" src="https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/llc/30/suppl_1/10.1093/llc/fqv042/2/m_fqv042f4p.png?Expires=1606411949&amp;Signature=DsvZKgVyLVYei778sR~b~lGupMsOcs4P43~VCazQUp3pyzo-34~LwyA31TdmPJGS6DAzQ-AohQCKBWN15EIRUtXOikgAFQibgG4quR-O8BQ2qVSLjFlF7qmWOnybKfgznjF2~~fWz7CD4NVj7kejoAb8zyypuTKcBraXJD5BT9zZ--Ix2DoMOdQbnfBwSb5BaK0IFC4Ini3Znp7gmJD-i35YGPUGFK-NQ3QxYFOy37zFwdJPe8lG5ue08GPl5N9nqwI8tCNUepgbsgDLRToVTD5GB9k5Go8bcY7pHiA3fAwL5l65yz64-VkWYo4F0KSzRejvgOo44SFghm~xjd-gjQ__&amp;Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" alt="Humanists have a responsibility to improve their technical understanding" data-path-from-xml="fqv042f4p.tiff" /><div class="fig-orig original-slide"><a class="fig-view-orig js-view-large openInAnotherWindow" href="/view-large/figure/5278284/fqv042f4p.tiff" data-path-from-xml="fqv042f4p.tiff" target="_blank">Open in new tab</a><a data-section="5278284" href="/DownloadFile/DownloadImage.aspx?image=https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/llc/30/suppl_1/10.1093/llc/fqv042/2/fqv042f4p.png?Expires=1606411949&Signature=r5PFg2BlKI1CpQkpriSA--75vWjlZ3NfRAFHobSiRcWf35Z5nK6LvGk1QzqEpsvqswE3yaq17ExHLObsSlZP9l8BTUns1Ouyr2TKp7g-FdX~zZmiKaQzLIOx0H6xHqRqJN85gGRNfA0Mp2j2WOHAcLv1vAudWqfhU~FokRrXPisvg0sWMLNl9KPvwmohTlo8WtkaxvuUr96pAe5GnP0~dnVZWJhjYvnvaFCUpFxy8aINc3UfEpQNBhiCeHf6C~oaL9k9-Cqgony-ekTCq2ffIfDwG~wtertvYo76do~6nh~uDqsb7LfoCgxOGM9xBB6u1T6X6wlNFfweRskasnQw9A__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA&sec=5278284&ar=364055&xsltPath=~/UI/app/XSLT&imagename=&siteId=5447" class="download-slide" data-path-from-xml="fqv042f4p.tiff">Download slide</a></div></div><div class="caption fig-caption"><p class="chapter-para">Humanists have a responsibility to improve their technical understanding</p></div></div>                    <h3 scrollto-destination=5278285 id="5278285" class="section-title" >2.4 Leadership andproject management</h3>
+<p class="chapter-para">It is clear from the activities of respondents that Humanities scholars are managing digital projects. Of those respondents that stated they had worked on a digital initiative, the majority did so in a project management capacity (see <span class="xrefLink" id="jumplink-fqv042-F5"></span><a href="javascript:;" reveal-id="fqv042-F5" data-open="fqv042-F5" class="link link-reveal link-table xref-fig">Fig. 5</a>). </p>                        <a id="5278287" scrollto-destination="5278287"></a>
+<div data-id="fqv042-F5" class="fig fig-section"><div class="label fig-label">Fig. 5</div><div class="graphic-wrap"><img class="content-image" src="https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/llc/30/suppl_1/10.1093/llc/fqv042/2/m_fqv042f5p.png?Expires=1606411949&amp;Signature=1DFTVeRCm8Zljl5tnESCMjwATxt0IB3xGpNiwh-uDdpmbk8XEbnvhic7oCB4YAOAqtE5cVtSezt7eSSfiNqQ6mQfKmIXQPN7-7dJIs-nvnNwqMh8RQ7VwUq0vrZup7pLdvhGqsj5XD~Ta1~Z27rigct6YikZ4WexEV9htnLNVzJtLFke9E2hr31cLmgpHl8mBTSEeg8kgj7TlteLTvPPLaN13A45ofUq822G8rm2Mx8PEFZzJN~cmPCGW38LKIGfEsX4nlJoRUMHz1Vp951LB-qIyDUga~UA18xUBtZwKl3cH1BZPcLTTbjurYG9fNO0-vuj-EI9XnVx3LsaiaAgvg__&amp;Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" alt="The activities with which respondents are most frequently engaged" data-path-from-xml="fqv042f5p.tiff" /><div class="fig-orig original-slide"><a class="fig-view-orig js-view-large openInAnotherWindow" href="/view-large/figure/5278287/fqv042f5p.tiff" data-path-from-xml="fqv042f5p.tiff" target="_blank">Open in new tab</a><a data-section="5278287" href="/DownloadFile/DownloadImage.aspx?image=https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/llc/30/suppl_1/10.1093/llc/fqv042/2/fqv042f5p.png?Expires=1606411949&Signature=V7NDvX-wMpKW4PxuIYwsCQK2IdN6nTSxx8oG6H55VkBM3kh1vkE9Canjq0xC48~8XwwlvVas5u-gUZ2shed3vhoHJdAnmuvaM1KfRpi4JFfGalGLeYW8nKYkJP9Wiu42XbfNLwsVfGiLNZOaUmzJy0o8-DwgvXvYcQUXpilnl1mkDEJ8wDj12zTZHpCSnTEXFt9oqJBycA2SE1BcMVcw36k6MJMprOUenHPewQLLPna-SzqOWGqfmi~opyNyRyBmWLH3kOo9E9-YwK8P2vn7rwi-XxC3yn-0IhQ54Ub2wRW7Hgn9Wwid81x~8Lem7gvqkv7cTaJ-McPyVrNXI9sj3w__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA&sec=5278287&ar=364055&xsltPath=~/UI/app/XSLT&imagename=&siteId=5447" class="download-slide" data-path-from-xml="fqv042f5p.tiff">Download slide</a></div></div><div class="caption fig-caption"><p class="chapter-para">The activities with which respondents are most frequently engaged</p></div></div><div content-id="fqv042-F5" class="fig fig-modal reveal-modal"><div class="label fig-label">Fig. 5</div><div class="graphic-wrap"><img class="content-image" src="https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/llc/30/suppl_1/10.1093/llc/fqv042/2/m_fqv042f5p.png?Expires=1606411949&amp;Signature=1DFTVeRCm8Zljl5tnESCMjwATxt0IB3xGpNiwh-uDdpmbk8XEbnvhic7oCB4YAOAqtE5cVtSezt7eSSfiNqQ6mQfKmIXQPN7-7dJIs-nvnNwqMh8RQ7VwUq0vrZup7pLdvhGqsj5XD~Ta1~Z27rigct6YikZ4WexEV9htnLNVzJtLFke9E2hr31cLmgpHl8mBTSEeg8kgj7TlteLTvPPLaN13A45ofUq822G8rm2Mx8PEFZzJN~cmPCGW38LKIGfEsX4nlJoRUMHz1Vp951LB-qIyDUga~UA18xUBtZwKl3cH1BZPcLTTbjurYG9fNO0-vuj-EI9XnVx3LsaiaAgvg__&amp;Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" alt="The activities with which respondents are most frequently engaged" data-path-from-xml="fqv042f5p.tiff" /><div class="fig-orig original-slide"><a class="fig-view-orig js-view-large openInAnotherWindow" href="/view-large/figure/5278287/fqv042f5p.tiff" data-path-from-xml="fqv042f5p.tiff" target="_blank">Open in new tab</a><a data-section="5278287" href="/DownloadFile/DownloadImage.aspx?image=https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/llc/30/suppl_1/10.1093/llc/fqv042/2/fqv042f5p.png?Expires=1606411949&Signature=V7NDvX-wMpKW4PxuIYwsCQK2IdN6nTSxx8oG6H55VkBM3kh1vkE9Canjq0xC48~8XwwlvVas5u-gUZ2shed3vhoHJdAnmuvaM1KfRpi4JFfGalGLeYW8nKYkJP9Wiu42XbfNLwsVfGiLNZOaUmzJy0o8-DwgvXvYcQUXpilnl1mkDEJ8wDj12zTZHpCSnTEXFt9oqJBycA2SE1BcMVcw36k6MJMprOUenHPewQLLPna-SzqOWGqfmi~opyNyRyBmWLH3kOo9E9-YwK8P2vn7rwi-XxC3yn-0IhQ54Ub2wRW7Hgn9Wwid81x~8Lem7gvqkv7cTaJ-McPyVrNXI9sj3w__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA&sec=5278287&ar=364055&xsltPath=~/UI/app/XSLT&imagename=&siteId=5447" class="download-slide" data-path-from-xml="fqv042f5p.tiff">Download slide</a></div></div><div class="caption fig-caption"><p class="chapter-para">The activities with which respondents are most frequently engaged</p></div></div><p class="chapter-para">The negative reading of this particular finding would be that Humanities scholars interested in pursuing computational methodologies and practices are overly reliant on support from the technical disciplines. We do not believe this to be the case, and see this is a positive finding, as it suggests that technology is being used to support the agendas of the Arts and Humanities, rather than dictating what such agendas might be. Humanities scholars might not be directly contributing to the development of projects from a technical perspective, but they are ensuring that the deliverables are aligned with a vision that supports the cultural and humanistic purpose of this interdisciplinary field. A certain level of technical competency is still required if Humanities scholars are to have credibility in the eyes of, as well as an ability to communicate with, their collaborators, but these results suggest that this is indeed the case, and that scholars from traditionally non-tech nical disciplines are taking a leadership role in digital projects.</p>                    <h3 scrollto-destination=5278289 id="5278289" class="section-title" data-legacy-id=SEC2.5>2.5 On building</h3>
+<p class="chapter-para">Of the scholars surveyed, only a small 52.1% majority of respondents claim that programming is an aspect of their work. Within this group, the qualitative data suggests that there is considerable disagreement as to what constitutes ‘programming'. Many of the respondents outline activities such as markup languages, particularly HTML and XML, as opposed to more sophisticated dynamic programming languages. When asked in a later question to explain the distinction between these languages, a significant level of ambiguity is evident. This could simply be a reflection of the activities of the Digital Humanities community, where markup languages are prominent. Alternatively, it could be a reflection of the collaborative nature of the field, with Humanities scholars passing off the technical aspects of projects to other parties. Either way, these findings do present something of a worrying trend, in that the minimum requirement for scholars working in this field should be that they at least have an understanding of the difference between a markup language like XML, and a more sophisticated programming language such as Python. One could interpret these results as a negative response to another famous provocation, this time put forward by John <span class="xrefLink" id="jumplink-fqv042-B8"></span><a href="javascript:;" reveal-id="fqv042-B8" data-open="fqv042-B8" class="link link-ref link-reveal xref-bibr">Unsworth (2002)</a>.</p>                    <h2 scrollto-destination=5278291 id="5278291" class="section-title" >3 Conclusions</h2>
+<p class="chapter-para">While our sample size is insufficient to make any conclusive statements on cultural differences, there did appear to be a minor distinction between North American and European participants, the latter placing more weight in the importance of artistic skill sets to digital projects. Generally, however, all of our respondents, both with Humanities and technical backgrounds, see the Humanities as being more important than ‘the digital'. Yet, across the qualitative data, there is a clear acknowledgement that collaborators from the technical disciplines need to be treated more like stakeholders than enablers. This correlates with an earlier survey (<span class="xrefLink" id="jumplink-fqv042-B7"></span><a href="javascript:;" reveal-id="fqv042-B7" data-open="fqv042-B7" class="link link-ref link-reveal xref-bibr">Schreibman and Hanlon, 2010</a>), in which the ‘majority of respondents (94%) considered tool development a scholarly activity'. This is promising, in that it suggests that Digital Humanities scholars not only see value in the creation of tools and resources, but that they value the contributions of developers who can make that happen.</p><p class="chapter-para">Overall, there is one clear trend to emerge from these findings—collaboration is central to our field. Whatever this field may be, and whatever it may become, its existence will always be dictated by the scholars which comprise our community. How much coding these scholars need to know may still be a matter for debate, and there are numerous considerations that this limited survey has not accounted for, but, from this initial report, it would seem clear that Ramsay’s question has an answer: You do not ‘have' to code, as long as you can work—effectively—with someone who does.</p>                    <h2 scrollto-destination=5278294 id="5278294" class="section-title" >Funding</h2>
+<p class="chapter-para">Part of this research is generously funded by the Higher Education Authority, under the Programme for Research in Third Level Institutions, Cycle 5, and supported by the School of English and School of Applied Psychology, as well as the College of Arts, Celtic Studies and Social Sciences, University College Cork. The College of the Liberal Arts and the University Libraries at the Pennsylvania State University, as well as Bucknell University, also provided support.</p>                    <h2 scrollto-destination=5278296 id="5278296" class="backacknowledgements-title" >Acknowledgements</h2>
+<p class="chapter-para">An earlier iteration of this article was first presented by James O'Sullivan at the DHSI Colloquium, University of Victoria, June 9, 2013.</p>                    <h2 scrollto-destination=5278298 id="5278298" class="backreferences-title" >References</h2>
+<div class="ref-list"><div content-id="fqv042-B1" data-legacy-id="fqv042-B1"><div class="refLink-parent"><span class="refLink"><a name="jumplink-fqv042-B1" href="javascript:;" aria-label="jumplink-fqv042-B1"></a></span></div><div class="ref false"><div id="ref-auto-fqv042-B1" class="ref-content "><div class="mixed-citation citation"><p class="mixed-citation-compatibility"><span class="person-group"><div class="name"><div class="surname">Bailey</div> <div class="given-names">M. Z.</div></div></span> (<div class="year">2011</div>). <div class="article-title">All the digital humanists are white, all the nerds are men, but some of us are brave</div>. <div class="source ">Journal of Digital Humanities</div>, <div class="volume">1</div>(<div class="issue">1</div>). <div class="comment"><a class="link link-uri openInAnotherWindow" href="http://journalofdigitalhumanities.org/1-1/all-the-digital-humanists-are-white-all-the-nerds-are-men-but-some-of-us-are-brave-by-moya-z-bailey/" target="_blank">http://journalofdigitalhumanities.org/1-1/all-the-digital-humanists-are-white-all-the-nerds-are-men-but-some-of-us-are-brave-by-moya-z-bailey/</a> (accessed 16 May 2014)</div>.</p><!--citationLinks: case 2--><div class="citation-links"><p class="citation-links-compatibility"><span class="google-scholar-ref-link"><a class="openInAnotherWindow" href="https://scholar.google.com/scholar_lookup?title=All%20the%20digital%20humanists%20are%20white%2C%20all%20the%20nerds%20are%20men%2C%20but%20some%20of%20us%20are%20brave&amp;author=M.%20Z.%20Bailey&amp;publication_year=2011&amp;journal=Journal%20of%20Digital%20Humanities&amp;volume=1&amp;pages=" target="_blank">Google Scholar</a></span></p><div class="xslopenurl empty-target"><span class="js-inst-open-url-holders-nodoi"><a class="openInAnotherWindow js-open-url-link" target="_blank" data-href-template="{targetURL}?sid=oup:orr&amp;genre=article&amp;atitle=All%20the%20digital%20humanists%20are%20white%2C%20all%20the%20nerds%20are%20men%2C%20but%20some%20of%20us%20are%20brave&amp;aulast=Bailey&amp;title=Journal of Digital Humanities&amp;date=2011&amp;volume=1&amp;issue=1" href="javascript:;"><span class="screenreader-text">OpenURL Placeholder Text</span></a></span></div><p class="citation-links-compatibility"><span class="worldcat-reference-ref-link js-worldcat-preview-ref-link" style="display:none"><a class="openInAnotherWindow" href="https://www.worldcat.org/search?q=ti:All%20the%20digital%20humanists%20are%20white%2C%20all%20the%20nerds%20are%20men%2C%20but%20some%20of%20us%20are%20brave&amp;qt=advanced&amp;dblist=638" target="_blank">WorldCat</a></span></p> </div></div></div></div></div><div content-id="fqv042-B2" data-legacy-id="fqv042-B2"><div class="refLink-parent"><span class="refLink"><a name="jumplink-fqv042-B2" href="javascript:;" aria-label="jumplink-fqv042-B2"></a></span></div><div class="ref false"><div id="ref-auto-fqv042-B2" class="ref-content "><div class="mixed-citation citation"><p class="mixed-citation-compatibility"><span class="person-group"><div class="name"><div class="surname">Henwood</div> <div class="given-names">F.</div></div> <div class="name"><div class="surname">Plumeridge</div> <div class="given-names">S.</div></div> <div class="name"><div class="surname">Stepulevage</div> <div class="given-names">L.</div></div></span> (<div class="year">2000</div>). <div class="article-title">A tale of two cultures? Gender and inequality in computer education</div>. In <span class="person-group"><div class="name"><div class="surname">Wyatt</div> <div class="given-names">S.</div></div> <div class="name"><div class="surname">Henwood</div> <div class="given-names">F.</div></div> <div class="name"><div class="surname">Miller</div> <div class="given-names">N.</div></div> <div class="name"><div class="surname">Senker</div> <div class="given-names">P.</div></div></span> (eds), <div class="source ">Technology and Inequality: Questioning the Information Society</div>. <div class="publisher-loc">London</div>: <div class="publisher-name">Routledge</div>.</p><!--citationLinks: case 2--><div class="citation-links"><p class="citation-links-compatibility"><span class="google-scholar-ref-link"><a class="openInAnotherWindow" href="https://scholar.google.com/scholar_lookup?title=Technology%20and%20Inequality%3A%20Questioning%20the%20Information%20Society&amp;author=F.%20Henwood&amp;author=S.%20Plumeridge&amp;author=L.%20Stepulevage&amp;author=S.%20Wyatt&amp;author=F.%20Henwood&amp;author=N.%20Miller&amp;author=P.%20Senker&amp;publication_year=2000&amp;book=Technology%20and%20Inequality%3A%20Questioning%20the%20Information%20Society" target="_blank">Google Scholar</a></span></p><p class="citation-links-compatibility"><span class="google-preview-ref-link js-google-preview-ref-link" style="display:none"><a class="openInAnotherWindow" href="https://www.google.com/search?q=Technology%20and%20Inequality%3A%20Questioning%20the%20Information%20Society&amp;btnG=Search+Books&amp;tbm=bks&amp;tbo=1" target="_blank">Google Preview</a></span></p><div class="xslopenurl empty-target"><span class="js-inst-open-url-holders-nodoi"><a class="openInAnotherWindow js-open-url-link" target="_blank" data-href-template="{targetURL}?sid=oup:orr&amp;genre=book&amp;title=Technology%20and%20Inequality%3A%20Questioning%20the%20Information%20Society&amp;aulast=Henwood&amp;date=2000" href="javascript:;"><span class="screenreader-text">OpenURL Placeholder Text</span></a></span></div><p class="citation-links-compatibility"><span class="worldcat-reference-ref-link js-worldcat-preview-ref-link" style="display:none"><a class="openInAnotherWindow" href="https://www.worldcat.org/search?q=ti:Technology%20and%20Inequality%3A%20Questioning%20the%20Information%20Society&amp;qt=advanced&amp;dblist=638" target="_blank">WorldCat</a></span></p><div class="copac-reference-ref-link js-copac-preview-ref-link" style="display:none" data-pubtype="book"><span class="inst-copac"><a class="openInAnotherWindow" target="_blank" href="http://copac.ac.uk/search?ti=Technology%20and%20Inequality%3A%20Questioning%20the%20Information%20Society">COPAC</a></span></div> </div></div></div></div></div><div content-id="fqv042-B3" data-legacy-id="fqv042-B3"><div class="refLink-parent"><span class="refLink"><a name="jumplink-fqv042-B3" href="javascript:;" aria-label="jumplink-fqv042-B3"></a></span></div><div class="ref false"><div id="ref-auto-fqv042-B3" class="ref-content "><div class="mixed-citation citation"><p class="mixed-citation-compatibility"><span class="person-group"><div class="name"><div class="surname">Liu</div> <div class="given-names">A.</div></div></span> (<div class="year">2008</div>). <div class="article-title">Imagining the new media encounter</div>. In <div class="source ">A Companion to Digital Literary Studies</div>. <div class="publisher-loc">Oxford</div>: <div class="publisher-name">Blackwell</div>.</p><!--citationLinks: case 2--><div class="citation-links"><p class="citation-links-compatibility"><span class="google-scholar-ref-link"><a class="openInAnotherWindow" href="https://scholar.google.com/scholar_lookup?title=A%20Companion%20to%20Digital%20Literary%20Studies&amp;author=A.%20Liu&amp;publication_year=2008&amp;book=A%20Companion%20to%20Digital%20Literary%20Studies" target="_blank">Google Scholar</a></span></p><p class="citation-links-compatibility"><span class="google-preview-ref-link js-google-preview-ref-link" style="display:none"><a class="openInAnotherWindow" href="https://www.google.com/search?q=A%20Companion%20to%20Digital%20Literary%20Studies&amp;btnG=Search+Books&amp;tbm=bks&amp;tbo=1" target="_blank">Google Preview</a></span></p><div class="xslopenurl empty-target"><span class="js-inst-open-url-holders-nodoi"><a class="openInAnotherWindow js-open-url-link" target="_blank" data-href-template="{targetURL}?sid=oup:orr&amp;genre=book&amp;title=A%20Companion%20to%20Digital%20Literary%20Studies&amp;aulast=Liu&amp;date=2008" href="javascript:;"><span class="screenreader-text">OpenURL Placeholder Text</span></a></span></div><p class="citation-links-compatibility"><span class="worldcat-reference-ref-link js-worldcat-preview-ref-link" style="display:none"><a class="openInAnotherWindow" href="https://www.worldcat.org/search?q=ti:A%20Companion%20to%20Digital%20Literary%20Studies&amp;qt=advanced&amp;dblist=638" target="_blank">WorldCat</a></span></p><div class="copac-reference-ref-link js-copac-preview-ref-link" style="display:none" data-pubtype="book"><span class="inst-copac"><a class="openInAnotherWindow" target="_blank" href="http://copac.ac.uk/search?ti=A%20Companion%20to%20Digital%20Literary%20Studies">COPAC</a></span></div> </div></div></div></div></div><div content-id="fqv042-B4" data-legacy-id="fqv042-B4"><div class="refLink-parent"><span class="refLink"><a name="jumplink-fqv042-B4" href="javascript:;" aria-label="jumplink-fqv042-B4"></a></span></div><div class="ref false"><div id="ref-auto-fqv042-B4" class="ref-content "><div class="mixed-citation citation"><p class="mixed-citation-compatibility"><span class="person-group"><div class="name"><div class="surname">Nowviskie</div> <div class="given-names">B.</div></div></span> (<div class="year">2012</div>). <div class="comment">Don’t circle the wagons. <a class="link link-uri openInAnotherWindow" href="http://nowviskie.org/2012/dont-circle-the-wagons/" target="_blank">http://nowviskie.org/2012/dont-circle-the-wagons/</a> (accessed 13 May 2014)</div>.</p><!--citationLinks: case 3--><div class="citation-links"></div></div></div></div></div><div content-id="fqv042-B5" data-legacy-id="fqv042-B5"><div class="refLink-parent"><span class="refLink"><a name="jumplink-fqv042-B5" href="javascript:;" aria-label="jumplink-fqv042-B5"></a></span></div><div class="ref false"><div id="ref-auto-fqv042-B5" class="ref-content "><div class="mixed-citation citation"><p class="mixed-citation-compatibility"><span class="person-group"><div class="name"><div class="surname">Posner</div> <div class="given-names">M.</div></div></span> (<div class="year">2012</div>). <div class="comment">Some things to think about before you exhort everyone to code. <a class="link link-uri openInAnotherWindow" href="http://miriamposner.com/blog/some-things-to-think-about-before-you-exhort-everyone-to-code/" target="_blank">http://miriamposner.com/blog/some-things-to-think-about-before-you-exhort-everyone-to-code/</a> (accessed 13 May 2014)</div>.</p><!--citationLinks: case 3--><div class="citation-links"></div></div></div></div></div><div content-id="fqv042-B6" data-legacy-id="fqv042-B6"><div class="refLink-parent"><span class="refLink"><a name="jumplink-fqv042-B6" href="javascript:;" aria-label="jumplink-fqv042-B6"></a></span></div><div class="ref false"><div id="ref-auto-fqv042-B6" class="ref-content "><div class="mixed-citation citation"><p class="mixed-citation-compatibility"><span class="person-group"><div class="name"><div class="surname">Ramsay</div> <div class="given-names">S.</div></div></span> (<div class="year">2011</div>). <div class="comment">Who’s In and Who’s Out. <a class="link link-uri openInAnotherWindow" href="http://stephenramsay.us/text/2011/01/08/whos-in-and-whos-out/" target="_blank">http://stephenramsay.us/text/2011/01/08/whos-in-and-whos-out/</a> (accessed 12 May 2014)</div>.</p><!--citationLinks: case 3--><div class="citation-links"></div></div></div></div></div><div content-id="fqv042-B7" data-legacy-id="fqv042-B7"><div class="refLink-parent"><span class="refLink"><a name="jumplink-fqv042-B7" href="javascript:;" aria-label="jumplink-fqv042-B7"></a></span></div><div class="ref false"><div id="ref-auto-fqv042-B7" class="ref-content "><div class="mixed-citation citation"><p class="mixed-citation-compatibility"><span class="person-group"><div class="name"><div class="surname">Schreibman</div> <div class="given-names">S.</div></div> <div class="name"><div class="surname">Hanlon</div> <div class="given-names">A. M.</div></div></span> (<div class="year">2010</div>). <div class="article-title">Determining value for digital humanities tools: report on a survey of tool developers</div>. <div class="source ">Digital Humanities Quarterly</div>, <div class="volume">4</div>(<div class="issue">2</div>). <div class="comment"><a class="link link-uri openInAnotherWindow" href="http://digitalhumanities.org/dhq/vol/4/2/000083/000083.html" target="_blank">http://digitalhumanities.org/dhq/vol/4/2/000083/000083.html</a> (accessed 18 May 2014)</div>.</p><!--citationLinks: case 2--><div class="citation-links"><p class="citation-links-compatibility"><span class="google-scholar-ref-link"><a class="openInAnotherWindow" href="https://scholar.google.com/scholar_lookup?title=Determining%20value%20for%20digital%20humanities%20tools%3A%20report%20on%20a%20survey%20of%20tool%20developers&amp;author=S.%20Schreibman&amp;author=A.%20M.%20Hanlon&amp;publication_year=2010&amp;journal=Digital%20Humanities%20Quarterly&amp;volume=4&amp;pages=" target="_blank">Google Scholar</a></span></p><div class="xslopenurl empty-target"><span class="js-inst-open-url-holders-nodoi"><a class="openInAnotherWindow js-open-url-link" target="_blank" data-href-template="{targetURL}?sid=oup:orr&amp;genre=article&amp;atitle=Determining%20value%20for%20digital%20humanities%20tools%3A%20report%20on%20a%20survey%20of%20tool%20developers&amp;aulast=Schreibman&amp;title=Digital Humanities Quarterly&amp;date=2010&amp;volume=4&amp;issue=2" href="javascript:;"><span class="screenreader-text">OpenURL Placeholder Text</span></a></span></div><p class="citation-links-compatibility"><span class="worldcat-reference-ref-link js-worldcat-preview-ref-link" style="display:none"><a class="openInAnotherWindow" href="https://www.worldcat.org/search?q=ti:Determining%20value%20for%20digital%20humanities%20tools%3A%20report%20on%20a%20survey%20of%20tool%20developers&amp;qt=advanced&amp;dblist=638" target="_blank">WorldCat</a></span></p> </div></div></div></div></div><div content-id="fqv042-B8" data-legacy-id="fqv042-B8"><div class="refLink-parent"><span class="refLink"><a name="jumplink-fqv042-B8" href="javascript:;" aria-label="jumplink-fqv042-B8"></a></span></div><div class="ref false"><div id="ref-auto-fqv042-B8" class="ref-content "><div class="mixed-citation citation"><p class="mixed-citation-compatibility"><span class="person-group"><div class="name"><div class="surname">Unsworth</div> <div class="given-names">J.</div></div></span> (<div class="year">2002</div>). <div class="comment">What is humanities computing and what is not? <a class="link link-uri openInAnotherWindow" href="http://computerphilologie.uni-muenchen.de/jg02/unsworth.html" target="_blank">http://computerphilologie.uni-muenchen.de/jg02/unsworth.html</a> (accessed 10 May 2014)</div>.</p><!--citationLinks: case 3--><div class="citation-links"></div></div></div></div></div></div>        <!-- /foreach -->
+
+
+
+        <div class="article-metadata-standalone-panel clearfix"></div>
+
+        
+<div class="copyright copyright-statement">Digital Scholarship in the Humanities © The Author 2015. Published by Oxford University Press on behalf of EADH. All rights reserved. For Permissions, please email: journals.permissions@oup.com</div><!-- /foreach -->
+
+        <span id="UserHasAccess" data-userHasAccess="True"></span>
+
+    </div><!-- /.widget-items -->
+</div><!-- /.module-widget -->
+
+ 
+    </div>
+    <div class="widget widget-SolrResourceMetadata widget-instance-OUP_Article_ResourceMetadata_Widget">
+        
+    <div class=" add-border article-metadata-panel solr-resource-metadata">
+                <div class="article-metadata-tocSections">
+                    <div class="article-metadata-tocSections-title">Issue Section:</div>
+                        <a href="/dsh/search-results?f_TocHeadingTitle=Original Articles">Original Articles</a>
+                </div>
+
+    </div>
+
+
+ 
+    </div>
+    <div class="widget widget-EditorInformation widget-instance-OUP_Article_EditorInformation_Widget">
+        
+ 
+    </div>
+    <div class="widget widget-ArticleOpenScienceBadges widget-instance-OUP_Article_OpenScienceBadge_Widget">
+        
+ 
+    </div>
+
+                <div id="ContentTabFilteredView"></div>
+                <div class="downloadImagesppt js-download-images-ppt st-download-images-ppt">
+                    <a id="lnkDownloadAllImages"
+                       class="js-download-all-images-link btn"
+                       href="/DownloadFile/DownloadImage.aspx?image=&amp;PPTtype=SlideSet&amp;ar=364055&amp;xsltPath=~/UI/app/XSLT&amp;siteId=5447">Download all slides</a>
+                </div>
+                    <div class="widget widget-ArticleDataRepositories widget-instance-Article_DryadLink">
+         
+    </div>
+
+                <div class="comments">
+    <div class="widget widget-UserCommentBody widget-instance-UserCommentBody_Article">
+        
+
+ 
+    </div>
+    <div class="widget widget-UserComment widget-instance-OUP_UserComment_Article">
+         
+    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div id="Sidebar" class="page-column page-column--right">
+    <div class="widget widget-AdBlock widget-instance-ArticlePageTopSidebar">
+        
+
+<div class="adBlockMainBodyTop-wrap js-adBlockMainBodyTop hide">
+    
+    <div id="adBlockMainBodyTop"
+         style=" ">
+        <script>
+            googletag.cmd.push(function () { googletag.display('adBlockMainBodyTop'); });
+        </script>
+    </div>
+        <div class="advertisement-text">Advertisement</div>
+</div> 
+    </div>
+<div class="widget widget-dynamic " data-count="1"> 
+
+    <div class="widget-dynamic-inner-wrap">
+
+<div class="widget widget-dynamic " data-count="10"> 
+
+    <div class="widget-dynamic-inner-wrap">
+
+    <div class="widget widget-ArticleLevelMetrics widget-instance-Article_RightRailB0Article_RightRail_ArticleLevelMetrics">
+        
+
+
+
+    <div class="artmet-wrapper horizontal-artmet">
+
+        <div class="artmet-condensed-wrap clearfix">
+
+            <div class="artmet-condensed-stats clearfix">
+                    <div class="artmet-item artmet-views">
+                        <span class="artmet-number">1,655</span>
+                        <span class="artmet-text">Views</span>
+                    </div>
+
+                <div class="artmet-item artmet-citations">
+                    <span class="artmet-number">
+                            <a href="http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcApp=PARTNER_APP&amp;SrcAuth=LinksAMR&amp;KeyUT=WOS:000367449700013&amp;DestLinkType=CitingArticles&amp;DestApp=ALL_WOS&amp;UsrCustomerID=61f30d8ae69c46f86624c5f98a3bc13a" target="_blank">3</a>
+                    </span>
+                    <span class="artmet-text">Citations</span>
+                </div>
+                <div class="artmet-item artmet-badges-wrap">
+                        <div class="artmet-item artmet-altmetric">
+    <div class="widget widget-AltmetricLink widget-instance-ArticleLevelMetrics_AltmetricLinkSummary">
+            <!-- Altmetrics -->
+    <div id="altmetricEmbedId"
+         runat="server"
+         class='altmetric-embed'
+         data-badge-type="donut"
+         data-hide-no-mentions="false"
+         data-doi="10.1093/llc/fqv042"
+
+        
+
+        ></div>
+         <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+ 
+    </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="artmet-modal-trigger-wrap clearfix">
+                    <a class="artmet-modal-trigger" data-article-id="364055"><i class="icon-metrics"></i><span>View Metrics</span></a>
+                </div>
+        </div>
+            <div class="artmet-modal" id="MetricsModal">
+                <div class="artmet-modal-contents">
+                    <a class="artmet-close-modal">&#215;</a>
+                </div>
+            </div>
+    </div>
+
+ 
+    </div>
+    <div class="widget widget-Alerts widget-instance-Article_RightRailB0Article_RightRail_Alerts">
+        
+    <div class="alertsWidget">
+        <h3>Email alerts</h3>
+                <div class="userAlert alertType-1">
+                    <a href="javascript:;" class="js-user-alert" role="button"
+                       data-userLoggedIn="False"
+                       data-alertType="1" href="javascript:;">Article activity alert</a>
+                </div>
+                <div class="userAlert alertType-3">
+                    <a href="javascript:;" class="js-user-alert" role="button"
+                       data-userLoggedIn="False"
+                       data-alertType="3" href="javascript:;">Advance article alerts</a>
+                </div>
+                <div class="userAlert alertType-5">
+                    <a href="javascript:;" class="js-user-alert" role="button"
+                       data-userLoggedIn="False"
+                       data-alertType="5" href="javascript:;">New issue alert</a>
+                </div>
+                    <div class="userAlert alertType-MarketingLink">
+                <a href="javascript:;" class="js-user-alert" role="button"
+                   data-userLoggedIn="False"
+                   data-additionalUrl="/my-account/communication-preferences" href="javascript:;">Receive exclusive offers and updates from Oxford Academic</a>
+            </div>
+        <div class="userAlertSignUpModal reveal-modal small" data-reveal>
+            <div class="userAlertSignUp"></div>
+            <a href="javascript:;" role="button" aria-label="Close" class="close-reveal-modal" href="javascript:;">
+                <i class="icon-general-close"></i>
+            </a>
+        </div>
+    </div>
+ 
+    </div>
+    <div class="widget widget-ArticleLinks widget-instance-Article_RightRailB0Article_RightRail_ArticleLinks">
+         
+    </div>
+    <div class="widget widget-RelatedContent widget-instance-Article_RightRailB0Article_RightRail_RelatedContent">
+         
+    </div>
+    <div class="widget widget-RelatedArticleIn widget-instance-Article_RightRailB0Article_RightRail_RelatedArticleIn">
+            <h3 class="relatedArticleIn-title">Related articles in</h3>
+    <div class="relatedArticleIn-content">
+        <ul>
+                <li>
+                    <a href="http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&amp;SrcApp=PARTNER_APP&amp;SrcAuth=LinksAMR&amp;KeyUT=WOS:000367449700013&amp;DestLinkType=RelatedRecords&amp;DestApp=ALL_WOS&amp;UsrCustomerID=61f30d8ae69c46f86624c5f98a3bc13a">Web of Science</a>
+                </li>
+                <li>
+                    <a href="https://scholar.google.com/scholar?q=related:https%3a%2f%2facademic.oup.com%2fdsh%2farticle%2f30%2fsuppl_1%2fi142%2f364055">Google Scholar</a>
+                </li>
+        </ul>
+    </div>
+ 
+    </div>
+    <div class="widget widget-ArticleCitedBy widget-instance-Article_RightRailB0Article_RightRail_ArticleCitedBy">
+        <div class="rail-widget_wrap vt-articles-cited-by">
+    <h3 class="article-cited-title">Citing articles via</h3>
+    <div class="widget-links_wrap">
+            <div class="article-cited-link-wrap web-of-science">
+                <a href="http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=PARTNER_APP&SrcAuth=LinksAMR&KeyUT=WOS:000367449700013&DestLinkType=CitingArticles&DestApp=ALL_WOS&UsrCustomerID=61f30d8ae69c46f86624c5f98a3bc13a" target="_blank">Web of Science (3)</a>
+            </div>
+                    <div class="article-cited-link-wrap google-scholar-url">
+                <a href="http://scholar.google.com/scholar?q=link:https%3A%2F%2Facademic.oup.com%2Fdsh%2Farticle%2F30%2Fsuppl_1%2Fi142%2F364055" target="_blank">Google Scholar</a>
+            </div>
+                    <div class="article-cited-link-wrap crossref-citedby">
+                <a href='https://academic.oup.com/dsh/crossref-citedby/364055'>Crossref</a>
+            </div>
+    </div>
+</div> 
+    </div>
+    <div class="widget widget-ArticleListNewAndPopular widget-instance-Article_RightRailB0Article_RightRail_ArticleNewPopularCombined">
+            <ul class="articleListNewAndPopularCombinedView">
+            <li>
+                <h3>
+                    <a href="javascript:;" class="articleListNewAndPopular-mode active" data-mode="MostRecent">Latest</a>
+                </h3>
+            </li>
+            <li>
+                <h3>
+                    <a href="javascript:;" class="articleListNewAndPopular-mode " data-mode="MostRead">Most Read</a>
+                </h3>
+            </li>
+            <li>
+                <h3>
+                    <a href="javascript:;" class="articleListNewAndPopular-mode " data-mode="MostCited">Most Cited</a>
+                </h3>
+            </li>
+    </ul>
+        <section class="articleListNewPopContent articleListNewAndPopular-ContentView-MostRecent hasContent">
+
+
+
+
+<div id="newPopularList-Article_RightRailB0Article_RightRail_ArticleNewPopularCombined" class="fb">
+
+    
+
+
+
+<div class="widget-layout widget-layout--vert">
+            <div class="widget-columns widget-col-1">
+                    <div class="col">
+
+<div class="widget-dynamic-entry">
+    <input id="hfDoi" name="hfDoi" type="hidden" value="10.1093/llc/fqaa039" />
+
+    
+
+<a href="/dsh/advance-article/doi/10.1093/llc/fqaa039/5940653?searchresult=1">
+        <div class="widget-dynamic-journal-title">
+Introduction    </div>
+</a>
+<div class="widget-dynamic-journal-image-synopsis">
+        <div class="widget-dynamic-journal-synopsis">
+            
+        </div>
+</div>
+</div>
+<div class="widget-dynamic-entry">
+    <input id="hfDoi" name="hfDoi" type="hidden" value="10.1093/llc/fqaa057" />
+
+    
+
+<a href="/dsh/advance-article/doi/10.1093/llc/fqaa057/5927539?searchresult=1">
+        <div class="widget-dynamic-journal-title">
+Cyberformalism: Histories of Linguistic Forms in the Digital Archive    </div>
+</a>
+<div class="widget-dynamic-journal-image-synopsis">
+        <div class="widget-dynamic-journal-synopsis">
+            
+        </div>
+</div>
+</div>
+<div class="widget-dynamic-entry">
+    <input id="hfDoi" name="hfDoi" type="hidden" value="10.1093/llc/fqaa029" />
+
+    
+
+<a href="/dsh/advance-article/doi/10.1093/llc/fqaa029/5921705?searchresult=1">
+        <div class="widget-dynamic-journal-title">
+Arabic part-of-speech tagging using a combined rule-based and data-driven approach    </div>
+</a>
+<div class="widget-dynamic-journal-image-synopsis">
+        <div class="widget-dynamic-journal-synopsis">
+            
+        </div>
+</div>
+</div>
+<div class="widget-dynamic-entry">
+    <input id="hfDoi" name="hfDoi" type="hidden" value="10.1093/llc/fqaa041" />
+
+    
+
+<a href="/dsh/advance-article/doi/10.1093/llc/fqaa041/5918973?searchresult=1">
+        <div class="widget-dynamic-journal-title">
+Big data or not enough? Zeta test reliability and the attribution of <em>Henry VI</em>    </div>
+</a>
+<div class="widget-dynamic-journal-image-synopsis">
+        <div class="widget-dynamic-journal-synopsis">
+            
+        </div>
+</div>
+</div>
+<div class="widget-dynamic-entry">
+    <input id="hfDoi" name="hfDoi" type="hidden" value="10.1093/llc/fqaa044" />
+
+    
+
+<a href="/dsh/article/35/3/723/5905110?searchresult=1">
+        <div class="widget-dynamic-journal-title">
+Playing with Feelings: Video Games and Affect. Aubrey Anable. <em>Minneapolis, MN: University of Minnesota Press, 2018, 176 pp. ISBN: 978-1-5179-0025-0. $25.00 (p/b).</em>    </div>
+</a>
+<div class="widget-dynamic-journal-image-synopsis">
+        <div class="widget-dynamic-journal-synopsis">
+            
+        </div>
+</div>
+</div>
+                    </div>
+            </div>
+
+</div></div>
+        </section>
+        <section class="articleListNewPopContent articleListNewAndPopular-ContentView-MostRead hide">
+        </section>
+        <section class="articleListNewPopContent articleListNewAndPopular-ContentView-MostCited hide">
+        </section>
+ 
+    </div>
+
+    </div>
+
+</div>
+    </div>
+
+</div>    <div class="widget widget-AdBlock widget-instance-ArticlePageTopMainBodyBottom">
+        
+
+<div class="adBlockMainBodyBottom-wrap js-adBlockMainBodyBottom hide">
+    
+    <div id="adBlockMainBodyBottom"
+         style=" ">
+        <script>
+            googletag.cmd.push(function () { googletag.display('adBlockMainBodyBottom'); });
+        </script>
+    </div>
+        <div class="advertisement-text">Advertisement</div>
+</div> 
+    </div>
+
+</div>
+
+</div>
+<input id="hfArticleTitle" name="hfArticleTitle" type="hidden" value="Programming in the Digital Humanities | Digital Scholarship in the Humanities | Oxford Academic" />
+<input id="hfLeftNavStickyOffset" name="hfLeftNavStickyOffset" type="hidden" value="29" />
+<input id="hfAreOpFeaturesEnabled" name="hfAreOpFeaturesEnabled" type="hidden" value="False" />
+
+
+            </div><!-- /.center-inner-row no-overflow -->
+        </section>
+    </div>
+    <div class="mobile-mask">
+    </div>
+    <section class="footer_wrap vt-site-footer">
+        
+    <script type="text/javascript" src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"></script>
+    
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
+
+    <script type="text/javascript" src="//oup.silverchair-cdn.com/UI/app/jsdist/v-637389617100571406/article-page.min.js"></script>
+
+    <script type="text/javascript">
+        googletag.cmd.push(function () {
+            
+            googletag.pubads().setTargeting("jnlsdoi", "10.1093/llc/fqv042");
+            googletag.enableServices();
+        });
+    </script>
+
+
+
+        
+
+
+    <div class="widget widget-SitePageFooter widget-instance-SitePageFooter">
+        <div class="ad-banner ad-banner-footer">
+    <div class="widget widget-AdBlock widget-instance-FooterAd">
+        
+
+<div class="adBlockFooter-wrap js-adBlockFooter hide">
+    
+    <div id="adBlockFooter"
+         style=" ">
+        <script>
+            googletag.cmd.push(function () { googletag.display('adBlockFooter'); });
+        </script>
+    </div>
+        <div class="advertisement-text">Advertisement</div>
+</div> 
+    </div>
+
+</div>
+
+    <div class="journal-footer journal-bg">
+        <div class="center-inner-row">
+
+                <div class="journal-footer-menu">
+
+                    <ul>
+                                <li class="link-1">
+                                    <a href="/dsh/pages/About">About Digital Scholarship in the Humanities</a>
+                                </li>
+                                <li class="link-2">
+                                    <a href="/dsh/pages/Editorial_Board">Editorial Board</a>
+                                </li>
+                                <li class="link-3">
+                                    <a href="/dsh/pages/General_Instructions">Author Guidelines</a>
+                                </li>
+                                <li class="link-4">
+                                    <a href="http://eadh.org/about">Contact Us</a>
+                                </li>
+                                <li class="link-5">
+                                    <a href="https://www.facebook.com/DSHJournal/">Facebook</a>
+                                </li>
+</ul><ul>                                <li class="link-1">
+                                    <a href="https://twitter.com/DSHjournal">Twitter</a>
+                                </li>
+                                <li class="link-2">
+                                    <a href="/dsh/subscribe">Purchase</a>
+                                </li>
+                                <li class="link-3">
+                                    <a href="http://www.oxfordjournals.org/en/library-recommendation-form.html">Recommend to Your Librarian</a>
+                                </li>
+                                <li class="link-4">
+                                    <a href="http://www.oupmediainfo.com/">Advertising and Corporate Services</a>
+                                </li>
+                                <li class="link-5">
+                                    <a href="https://globaljobs-careernetwork.oxfordjournals.org/">Journals Career Network</a>
+                                </li>
+
+                    </ul>
+
+
+                </div><!-- /.journal-footer-menu -->
+
+            <div class="journal-footer-affiliations">
+                <!-- <h3>Affiliations</h3> -->
+                    <a href="https://academic.oup.com/dsh" target="">
+                        <img id="footer-logo-DigitalScholarshipintheHumanities" class="journal-footer-affiliations-logo" src="//oup.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/dsh/dsh_f1242156087.svg" alt="Digital Scholarship in the Humanities" />
+                    </a>
+            </div><!-- /.journal-footer-affiliations -->
+
+            <div class="journal-footer-colophon">
+                <ul>
+                        <li>Online ISSN 2055-768X</li>
+                                            <li>Print ISSN 2055-7671</li>
+                    <li>Copyright &#169; 2020 EADH: The European Association for Digital Humanities</li>
+                </ul>
+            </div><!-- /.journal-footer-colophon -->
+
+
+        </div><!-- /.center-inner-row -->
+    </div><!-- /.journal-footer -->
+ 
+    </div>
+
+<div class="oup-footer">
+    <div class="center-inner-row">
+    <div class="widget widget-SelfServeContent widget-instance-OupUmbrellaFooterSelfServe">
+        
+<div class="oup-footer-row journal-links">
+<div class="global-footer selfservelinks">
+<ul>
+    <li>
+    <a href="/journals/pages/about_us">About Us</a>
+    </li>
+    <li>
+    <a href="/journals/pages/contact_us">Contact Us</a>
+    </li>
+    <li>
+    <a href="http://global.oup.com/jobs">Careers</a>
+    </li>
+    <li>
+    <a href="/journals/pages/help">Help</a>
+    </li>
+    <li>
+    <a href="/journals/pages/access_purchase">Access &amp; Purchase</a></li>
+    <li>
+    <a href="/journals/pages/access_purchase/rights_and_permissions">Rights &amp; Permissions</a>
+    </li>
+    <li>
+    <a href="/journals/pages/open_access">Open Access</a>
+    </li>
+</ul>
+</div>
+<div class="global-footer selfservelinks">
+<h4 id="global-footer-customer services" class="title footerheader">Connect</h4>
+<ul>
+    <li>
+    <a href="/my-account/communication-preferences">Join Our Mailing List</a>
+    </li>
+    <li>
+    <a href="http://blog.oup.com/">OUPblog</a>
+    </li>
+    <li>
+    <a href="http://twitter.com/oupacademic">Twitter</a>
+    </li>
+    <li>
+    <a href="https://www.facebook.com/OUPAcademic">Facebook</a>
+    </li>
+    <li>
+    <a href="http://www.youtube.com/playlist?list=PL3MAPgqN8JWioLLTkU4mlFM4-SNt-f1Xs">YouTube</a>
+    </li>
+    <li>
+    <a href="http://oupacademic.tumblr.com/">Tumblr</a>
+    </li>
+</ul>
+</div>
+<div class="global-footer selfservelinks">
+<h4>Resources</h4>
+<ul>
+    <li><a href="/journals/pages/authors">Authors</a></li>
+    <li><a href="/journals/pages/librarians">Librarians</a></li>
+    <li><a href="/journals/pages/societies">Societies</a></li>
+    <li><a href="https://academic.oup.com/journals/pages/sponsorship_and_advertising">Sponsors &amp; Advertisers</a></li>
+    <li><a href="/journals/pages/press">Press &amp; Media</a></li>
+    <li><a href="/journals/pages/agents">Agents</a></li>
+</ul>
+</div>
+<div class="global-footer selfservelinks">
+<h4>Explore</h4>
+<ul>
+    <li><a href="http://global.oup.com/academic">Shop OUP Academic</a></li>
+    <li><a href="http://www.oxforddictionaries.com/">Oxford Dictionaries</a></li>
+    <li><a href="https://www.epigeum.com/">Epigeum</a></li>
+    <li><a href="http://global.oup.com/">OUP Worldwide</a></li>
+    <li><a href="http://www.ox.ac.uk/">University of Oxford</a></li>
+</ul>
+</div>
+<div class="OUP-mission">
+<p>Oxford University Press is a department of the University of Oxford. It furthers the University's objective of excellence in research, scholarship, and education by publishing worldwide</p>
+<img class="journal-footer-logo" src="//oup.silverchair-cdn.com/UI/app/svg/umbrella/oup-logo.svg" alt="Oxford University Press" width="150" height="42" />
+</div>
+</div>
+<div class="oup-footer-row">
+<div class="oup-footer-row-links">
+<ul>
+    <li>Copyright &copy; 2020 Oxford University Press</li>
+    <li><a href="https://global.oup.com/cookiepolicy/">Cookie Policy</a></li>
+    <li><a href="https://global.oup.com/privacy">Privacy Policy</a></li>
+    <li><a href="/journals/pages/about_us/legal/notices">Legal Notice</a></li>
+    <li><a href="/journals/pages/sitemap">Site Map</a></li>
+    <li><a href="/journals/pages/about_us/legal/accessibility">Accessibility</a></li>
+    <li><a href="https://get.adobe.com/reader/">Get Adobe Reader</a></li>
+</ul>
+</div>
+</div>
+<style type="text/css">
+    /* Issue right column fix for tablet/mobile */
+    @media (max-width: 1200px) {
+    .pg_issue .widget-instance-OUP_Issue {
+    width: 100%;
+    }
+    }
+    .sf-facet-list .sf-facet label, .sf-facet-list .taxonomy-label-wrap label {font-size: .9375rem;}
+    .issue-pagination-wrap .pagination-container {float: right;}
+</style>
+    
+    
+     
+    </div>
+
+    </div>
+</div>
+<div class="ss-ui-only">
+
+</div>
+
+    </section>
+</div>
+
+
+
+    
+
+
+
+    <div class="widget widget-SiteWideModals widget-instance-SiteWideModals">
+        <div id="revealModal" class="reveal-modal" data-reveal>
+    <div id="revealContent"></div>
+    <a class="close-reveal-modal" href="javascript:;"><i class="icon-general-close"></i><span class="screenreader-text">Close</span></a>
+</div>
+
+<div id="NeedSubscription" class="reveal-modal small" data-reveal>
+    <div class="subscription-needed">
+        <h5>This Feature Is Available To Subscribers Only</h5>
+        <p><a href="/sign-in">Sign In</a> or <a href="/my-account/register?siteId=5447&amp;returnUrl=%2fdsh%2farticle%2f30%2fsuppl_1%2fi142%2f364055">Create an Account</a></p>
+    </div>
+    <a class="close-reveal-modal" href="javascript:;"><i class="icon-general-close"></i><span class="screenreader-text">Close</span></a>
+</div>
+
+<div id="noAccessReveal" class="reveal-modal tiny" data-reveal>
+    <p>This PDF is available to Subscribers Only</p>
+    <a class="hide-for-article-page" id="articleLinkToPurchase" data-reveal><span>View Article Abstract & Purchase Options</span></a>
+    <div class="issue-purchase-modal">
+        <p>For full access to this pdf, sign in to an existing account, or purchase an annual subscription.</p>
+    </div>
+    <a class="close-reveal-modal" href="javascript:;"><i class="icon-general-close"></i><span class="screenreader-text">Close</span></a>
+</div>
+ 
+    </div>
+
+
+    
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+<script src="//cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.min.js"></script>
+
+    <script type="text/javascript" src="//oup.silverchair-cdn.com/UI/app/jsdist/v-637389617150883412/footer.min.js"></script>
+    <script async="async" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-5265518246c10183&domready=1"></script>
+
+
+    
+
+    
+
+    
+    
+
+
+
+
+    
+
+
+    <!-- Copyright 2001-2010, IBM Corporation All rights reserved. -->
+    <script src="//ouptag.scholarlyiq.com/ntpagetag.js"></script>
+    <noscript>
+        <img src="//ouptag.scholarlyiq.com/ntpagetag.gif?js=0" height="1" width="1" border="0" hspace="0" vspace="0" alt="Scholarly IQ" />
+    </noscript>
+
+
+    <div class="ad-banner js-ad-riser ad-banner-riser">
+
+    <div class="widget widget-AdBlock widget-instance-RiserAd">
+         
+    </div>
+
+    </div>
+
+
+</body>
+</html>
+
