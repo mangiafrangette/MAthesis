@@ -1,7 +1,7 @@
 import json
 import os
 
-ms_file = "../data/json_files/my_schema/ms_DSH copy.json"
+ms_file = "../data/json_files/my_schema/ms_DSH.json"
 scrapy_file = "../data/json_files/DSH_final_data.json"
 
 with open(ms_file, "r", encoding="utf-8") as f:
@@ -19,4 +19,3 @@ with open(ms_file, "r", encoding="utf-8") as f:
                     
 with open(ms_file, "w", encoding="utf-8") as g:
     json.dump(my_schema_json, g)
-        

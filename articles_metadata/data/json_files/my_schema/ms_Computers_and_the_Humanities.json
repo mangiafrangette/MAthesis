@@ -3101,7 +3101,38 @@
         },
         "abstract": "In author attribution studies function words or lexical measures are often used to differentiate the authors' textual fingerprints. These studies can be thought of as quantifying the texts, representing the text with measured variables that stand for specific textual features. The resulting quantifications, while proven useful for statistically differentiating among the texts, bear no resemblance to the understanding a human reader-even an astute one-would develop while reading the texts. In this paper we present an attribution study that, instead, characterizes the texts according to the representational language choices of the authors, similar to a way we believe close human readers come to know a text and distinguish its rhetorical purpose. From our automated quantification of The Federalist papers, it is clear why human readers find it impossible to distinguish the authorship of the disputed papers. Our findings suggest that changes occur in the processes of rhetorical invention when undertaken in collaborative situations. This points to a need to re-evaluate the premise of autonomous authorship that has informed attribution studies of The Federalist case.",
         "article_title": "Detecting Collaborations in Text: Comparing the Authors' Rhetorical Language Choices in the Federalist Papers",
-        "authors": "Jeff Collins and David Kaufer and Pantelis Vlachos and Brian Butler and Suguru Ishizaki",
+        "authors": [
+            {
+                "given": "Jeff",
+                "family": "Collins",
+                "affiliation": [
+                    "Carnegie Mellon University, USA"]
+            },
+            {
+                "given": "David",
+                "family": "Kaufer",
+                "affiliation": [
+                    "Carnegie Mellon University, USA"]
+            },
+            {
+                "given": "Pantelis",
+                "family": "Vlachos",
+                "affiliation": [
+                    "Carnegie Mellon University, USA"]
+            },
+            {
+                "given": "Brian",
+                "family": "Butler",
+                "affiliation": [
+                    "University of Pittsburgh, USA"]
+            },
+            {
+                "given": "Suguru",
+                "family": "Ishizaki",
+                "affiliation": [
+                    "Pittsburgh, Pennsylvania, USA"]
+            }
+        ],
         "publisher": "Springer",
         "date": "2004",
         "keywords": null,
@@ -3123,7 +3154,26 @@
         },
         "abstract": "Current term recognition algorithms have centred mostly on the notion of term based on the assumption that terms are monoreferential and as such independent of context. The characteristics and behaviour of terms in real texts are however far removed from this ideal because factors such as text type or communicative situation greatly influence the linguistic realisation of a concept. Context, therefore, is important for the correct identification of terms (Dubuc and Lauriston, 1997). Based on this assumption, we have shifted our emphasis from terms towards surrounding linguistic context, namely verbs, as verbs are considered the central elements in the sentence. More specifically, we have set out to examine whether verbs and verbal syntax in particular, could help us towards the task of automatic term recognition. Our findings suggest that term occurrence varies significantly in different argument structures and different syntactic positions. Additionally, deviant grammatical structures have proved rich environments for terms. The analysis was carried out in three different specialised subcorpora in order to explore how the effectiveness of verbal syntax as a potential indicator of term occurrence can be constrained by factors such as subject matter and text type.",
         "article_title": "An Analysis of Verb Subcategorization Frames in Three Special Language Corpora with a View towards Automatic Term Recognition",
-        "authors": "Eugenia Eumeridou and Blaise Nkwenti-Azeh and John McNaught",
+        "authors": [
+            {
+                "given": "Eugenia",
+                "family": "Eumeridou",
+                "affiliation": [
+                    "Department of Information and Communication Systems, University of the Aegean, Karlovassi, Samos, Greece"]
+            },
+            {
+                "given": "Blaise",
+                "family": "Nkwenti-Azeh",
+                "affiliation": [
+                    "Centre for Computational Linguistics, UMIST P.O. Box 88, Sackville Street, Manchester M60, IQD, UK"]
+            },
+            {
+                "given": "John",
+                "family": "McNaught",
+                "affiliation": [
+                    "Department of Computation, UMIST P.O. Box 88, Sackville Street, Manchester M60 1QD, UK"]
+            }
+        ],
         "publisher": "Springer",
         "date": "2004",
         "keywords": null,
@@ -3145,7 +3195,18 @@
         },
         "abstract": "This study investigates the writing style change of two Turkish authors, Çetin Altan and Yaşar Kemal, in their old and new works using respectively their newspaper columns and novels. The style markers are the frequencies of word lengths in both text and vocabulary, and the rate of usage of most frequent words. For both authors, t-tests and logistic regressions show that the length of the words in new works is significantly longer than that of the old. The principal component analyses graphically illustrate the separation between old and new texts. The works are correctly categorized as old or new with 75 to 100% accuracy and 92% average accuracy using discriminant analysisbased cross validation. The results imply higher time gap may have positive impact in separation and categorization. For Altan a regression analysis demonstrates a decrease in average word length as the age of his column increases. One interesting observation is that for one word each author has similar preference changes over time.",
         "article_title": "Change of Writing Style with Time",
-        "authors": "Fazli Can and Jon M. Patton",
+        "authors": [{
+            "given": "Fazli",
+            "family": "Can",
+            "affiliation": [
+                "Computer Science and Systems Analysis Department, Miami University, Oxford, OH 45056, USA"]
+        },
+        {
+            "given": "Jon M.",
+            "family": "Patton",
+            "affiliation": [
+                "Miami Computing and Information Services, Miami University, Oxford, OH 45056, USA"]
+        }],
         "publisher": "Springer",
         "date": "2004",
         "keywords": null,
@@ -3167,7 +3228,17 @@
         },
         "abstract": "University students increasingly use hypertext to write their assignments. To employ hypertext effectively, more information about the hypertext authoring process is needed. There are features of hypertext which are not reflected in traditional theories of composition, especially the possibility to structure information visually. Our study indicates that graphical overview maps which can be edited are a rather attractive feature of hypertext authoring systems. Nevertheless, not all students profit from such features. Students employ different writing styles when they create hypertext documents. The majority of students experiments with hypertext's new features but others are still influenced by the model of the book.",
         "article_title": "Hypertext Writing Profiles and Visualisation",
-        "authors": "Margit Pohl and Peter Purgathofer",
+        "authors": [ {
+            "given": "Margit",
+            "family": "Pohl",
+            "affiliation": [
+                "Institute for Design and Technology Assessment University of Technology Vienna, Austria"]
+        }, {
+            "given": "Peter",
+            "family": "Purgathofer",
+            "affiliation": [
+                "Institute for Design and Technology Assessment University of Technology Vienna, Austria"]
+        }],
         "publisher": "Springer",
         "date": "2004",
         "keywords": null,
@@ -3189,7 +3260,14 @@
         },
         "abstract": "The paper explores the notions of text ownership and its partial inverse, plagiarism, and asks how close or different they are from a procedural point of view that might seek to establish either of these properties. The emphasis is on procedures rather than on the conventional subject division of authorship studies, plagiarism detection etc. We use, as a particular example, our research on the notion of computational detection of text rewriting, in the benign sense of a standard journalist's adaptation of the Press Association newsfeed. The conclusion is that, whatever may be the case in copyright law, procedural detection and establishment of the ownership is a complex and vexed matter. Behind the paper is an unspoken appeal to return to an earlier historical phase, one where texts were normally rewritten and rewritten again and the ownership of text by an individual was a less clear matter than in historically recent times.",
         "article_title": "On the Ownership of Text",
-        "authors": "Yorick Wilks",
+        "authors": [
+            {
+                "given": "Yorick",
+                "family": "Wilks",
+                "affiliation": [
+                    "Department of Computer Science, University of Sheffield, Regent Court, 211 Portobello Street, S1 4DP Sheffield, UK"]
+            }
+        ],
         "publisher": "Springer",
         "date": "2004",
         "keywords": null,
@@ -3211,7 +3289,20 @@
         },
         "abstract": "The purpose of our research is to consider how the paradigms of EuroWordNet and SIMPLE linguistic projects on the one hand and the OIL methodology on the other hand may affect each other. OIL (Ontology Inference Layer) aims at implementing the \"semantic\" Web idea and is based on the notion of ontology, which is also employed in EuroWordNet and SIMPLE. In both latter projects the meanings of words are partially described by means of the finite sets of relations to other meanings of words, whereas in OIL the user is free to define the arbitrary relations of this kind. The relations considered in EuroWordNet and SIMPLE were defined on the basis of a careful observation of the large linguistic area, and they aim at reflecting the meaning as precisely as possible, therefore it seems useful to merge them with OIL. Moreover, the valuable feature of OIL is its formal language with precisely defined semantics. All things considered, we suggest how certain EuroWordNet and SIMPLE definitions may be expressed in OIL.",
         "article_title": "Semantic Roles as Slots in OIL Ontologies",
-        "authors": "Jolanta Cybulka and Jacek Martinek",
+        "authors": [
+            {
+                "given": "Jolanta",
+                "family": "Cybulka",
+                "affiliation": [
+                    "Instytut Automatyki i Inzynierii Informatycznej, Politechnika Poznafiska, pl. M. Sklodowskiej-Curie, 5, 60-965 Poznari, Poland"]
+            },
+            {
+                "given": "Jacek",
+                "family": "Martinek",
+                "affiliation": [
+                    "Instytut Automatyki i Inzynierii Informatycznej, Politechnika Poznafiska, pl. M. Sklodowskiej-Curie, 5, 60-965 Poznari, Poland"]
+            }
+        ],
         "publisher": "Springer",
         "date": "2004",
         "keywords": null,
@@ -3233,7 +3324,12 @@
         },
         "abstract": "This essay traces a distinction between computer-mediated writing environments that are tools for correcting student prose and those that are media for communication. This distinction has its roots in the influence of behavioral science on teaching machines and computer-aided writing instruction during the 1960s and 1970s. By looking at the development of the time-shared, interactive, computer-controlled, information television (TICCIT) and early human-computer interaction (HCI) research, this essay demonstrates that hardware and software systems had the potential to work as both tools and media. The influence of this double logic is not only historical but also has implications for post-secondary writing instruction in the age of Microsoft Word, ETS's e-rater, and the \"reading/assessment\" software tools being developed by Knowledge Analysis Technologies (KAT). This essay challenges composition researchers and computational linguists to develop pedagogies and software systems that acknowledge writing environments as situated within the logic of both tools for correction and media for communication.",
         "article_title": "The Development of Early Computer-Assisted Writing Instruction (1960-1978): The Double Logic of Media and Tools",
-        "authors": "Carl Whithaus",
+        "authors": [ {
+            "given": "Carl",
+            "family": "Whithaus",
+            "affiliation": [
+                "Department of English, Old Dominion University, Norfolk, VA 23529, USA"]
+        }],
         "publisher": "Springer",
         "date": "2004",
         "keywords": null,
@@ -3255,7 +3351,26 @@
         },
         "abstract": "The paper describes our recent developments in automatic extraction of translation equivalents from parallel corpora. We describe three increasingly complex algorithms: a simple baseline iterative method, and two non-iterative more elaborated versions. While the baseline algorithm is mainly described for illustrative purposes, the non-iterative algorithms outline the use of different working hypotheses which may be motivated by different kinds of applications and to some extent by the languages concerned. The first two algorithms rely on cross-lingual POS preservation, while with the third one POS invariance is not an extraction condition. The evaluation of the algorithms was conducted on three different corpora and several pairs of languages.",
         "article_title": "Extracting Multilingual Lexicons from Parallel Corpora",
-        "authors": "Dan Tufiş and Ana Maria Barbu and Radu Ion",
+        "authors": [
+            {
+                "given": "Dan",
+                "family": "Tufiş",
+                "affiliation": [
+                    "Romanian Academy (RACAI), 13, \"13 Septembrie\", 050711, Bucharest 5, Romania"]
+            },
+            {
+                "given": "Ana Maria",
+                "family": "Barbu",
+                "affiliation": [
+                    "Romanian Academy (RACAI), 13, \"13 Septembrie\", 050711, Bucharest 5, Romania"]
+            },
+            {
+                "given": "Radu",
+                "family": "Ion",
+                "affiliation": [
+                    "Romanian Academy (RACAI), 13, \"13 Septembrie\", 050711, Bucharest 5, Romania"]
+            }
+        ],
         "publisher": "Springer",
         "date": "2004",
         "keywords": null,
@@ -3277,7 +3392,44 @@
         },
         "abstract": "This paper explores theoretical and practical aspects of intertextuality, in relation to the highly interpretative  tag within the SGML tagset developed by the Orlando Project for its history of women's writing in the British Isles. Arguing that the concept of intertextuality is both crucial to and poses particular challenges to the creation of an encoding scheme for literary historical text, it outlines the ways in which the project's tags address broader issues of intertextuality. The paper then describes the specific tag in detail, and argues on the basis of provisional results drawn from the Orlando Project's textbase that despite the impossibility of tracking intertextuality exhaustively or devising a tagset that completely disambiguates the concept, this tag provides useful pathways through the textbase and valuable departure points for further inquiry. Finally, the paper argues that the challenges to notions of rigour posed by the concept of intertextuality can help us fruitfully to examine some of the suppositions (gendered and other) that we bring to electronic text markup.",
         "article_title": "Intertextual Encoding in the Writing of Women's Literary History",
-        "authors": "Susan Brown and Isobel Grundy and Patricia Clements and Renée Elio and Sharon Balazs and Rebecca Cameron",
+        "authors": [
+            {
+                "given": "Susan",
+                "family": "Brown",
+                "affiliation": [
+                    "The Orlando Project, Department of English, University of Alberta, Edmonton, Alberta, Canada T6G 2E5"]
+            },
+            {
+                "given": "Isobel",
+                "family": "Grundy",
+                "affiliation": [
+                    "The Orlando Project, Department of English, University of Alberta, Edmonton, Alberta, Canada T6G 2E5"]
+            },
+            {
+                "given": "Patricia",
+                "family": "Clements",
+                "affiliation": [
+                    "The Orlando Project, Department of English, University of Alberta, Edmonton, Alberta, Canada T6G 2E5"]
+            },
+            {
+                "given": "Renée",
+                "family": "Elio",
+                "affiliation": [
+                    "The Orlando Project, Department of English, University of Alberta, Edmonton, Alberta, Canada T6G 2E5"]
+            },
+            {
+                "given": "Sharon",
+                "family": "Balazs",
+                "affiliation": [
+                    "The Orlando Project, Department of English, University of Alberta, Edmonton, Alberta, Canada T6G 2E5"]
+            },
+            {
+                "given": "Rebecca",
+                "family": "Cameron",
+                "affiliation": [
+                    "The Orlando Project, Department of English, University of Alberta, Edmonton, Alberta, Canada T6G 2E5"]
+            }
+        ],
         "publisher": "Springer",
         "date": "2004",
         "keywords": null,
@@ -3299,7 +3451,14 @@
         },
         "abstract": "Idiolects are person-dependent similarities in language use. They imply that texts by one author show more similarities in language use than texts between authors. Sociolects, on the other hand, are group-dependent similarities in language use. They imply that texts by a group of authors, for instance in terms of gender or time period, share more similarities within a group than between groups. Although idiolects and sociolects are commonly used terms in the humanities, they have not been investigated a great deal from corpus and computational linguistic points of view. To test several idiolect and sociolect hypotheses a factorial combination was used of time period (Modernism, Realism), gender of author (male, female) and author (Eliot, Dickens, Woolf, Joyce) totaling 16 corresponding literary texts. In a series of corpus linguistic studies using Boolean and vector models, no conclusive evidence was found for the selected idiolect and sociolect hypotheses. In final analyses testing the semantics within each literary text, this lack of evidence was explained by the low homogeneity within a literary text.",
         "article_title": "Semantic Variation in Idiolect and Sociolect: Corpus Linguistic Evidence from Literary Texts",
-        "authors": "Max M. Louwerse",
+        "authors": [
+            {
+                "given": "Max M.",
+                "family": "Louwerse",
+                "affiliation": [
+                    "Department of Psychology, Institute for Intelligent Systems, University of Memphis, 202 Psychology Building, Memphis, TN 38152, USA"]
+            }
+        ],
         "publisher": "Springer",
         "date": "2004",
         "keywords": null,
@@ -3321,7 +3480,20 @@
         },
         "abstract": "This paper reports on a method for exploiting a bitext as the primary linguistic information source for the design of a generation environment for specialized bilingual documentation. The paper discusses such issues as Text Encoding Initiative (TEI), proposals for specialized corpus tagging, text segmentation and alignment of translation units and their allocation into translation memories, Document Type Definition (DTD), abstraction from tagged texts, and DTD deployment for bilingual text generation. The parallel corpus used for experimentation has two main features: - It contains bilingual documents from a dedicated domain of legal and administrative publications rich in specialized jargon. - It involves two languages, Spanish and Basque, which are typologically very distinct (both lexically and morpho-syntactically). Starting from an annotated bitext we show how Standard Generalized Markup Language (SGML) elements can be recycled to produce complementary language resources. Several translation memory databases are produced. Furthermore, DTDs for source and target documents are derived and put into correspondence. This paper discusses how these resources are automatically generated and applied to an interactive bilingual authoring system.",
         "article_title": "Bitext Generation through Rich Markup",
-        "authors": "Arantza Casillas and Raquel Martínez",
+        "authors": [
+            {
+                "given": "Arantza",
+                "family": "Casillas",
+                "affiliation": [
+                    " 'Departamento Electridad y Electronica, Facultad de Ciencia y Tecnologia, UPV-EHU, Madrid, Spain"]
+            },
+            {
+                "given": "Raquel",
+                "family": "Martínez",
+                "affiliation": [
+                    "Departamento Informdtica, Estadistica y Telematica, Universidad Rey Juan Carlos, Spain"]
+            }
+        ],
         "publisher": "Springer",
         "date": "2004",
         "keywords": null,
@@ -3343,7 +3515,20 @@
         },
         "abstract": "To reconstruct a stemma or do any other kind of statistical analysis of a text tradition, one needs accurate data on the variants occurring at each location in each witness. These data are usually obtained from computer collation programs. Existing programs either collate every witness against a base text or divide all texts up into segments as long as the longest variant phrase at each point. These methods do not give ideal data for stemma reconstruction. We describe a better collation algorithm (progressive multiple alignment) that collates all witnesses word by word without a base text, adding groups of witnesses one at a time, starting with the most closely related pair.",
         "article_title": "Article: Collating Texts Using Progressive Multiple Alignment",
-        "authors": "Matthew Spencer and Christopher J. Howe",
+        "authors": [
+            {
+                "given": "Matthew",
+                "family": "Spencer",
+                "affiliation": [
+                    "Department of Mathematics and Statistics, Dalhousie University, Halifax, Nova Scotia, B3H 3J5, Canada"]
+            },
+            {
+                "given": "Christopher J.",
+                "family": "Howe",
+                "affiliation": [
+                    "Department of Biochemistry, University of Cambridge, Tennis Court Road, Cambridge CB2 1QW, UK"]
+            }
+        ],
         "publisher": "Springer",
         "date": "2004",
         "keywords": null,
@@ -3365,7 +3550,14 @@
         },
         "abstract": "Bach's cantatas are particularly rich in text imagery, and they typically employ chromatic melodies to accentuate the more piquant literary images, especially in recitatives. Heretofore theories about the intentionality of Bach's compositional choices in this regard have necessarily remained conjectural. In the following study, an objective measurement of pitch diversity in the vocal lines of Bach's church cantata recitatives in relation to literary themes was made possible with specially designed computer software allowing pertinent information to be entered efficiently into a relational database. Because the software tracked not only the 90,000 pitches constituting the vocal lines of these movements but also other attributes (e.g., overall length, presence or absence of accompaniment, opening and closing keys, chronological position, among others), interrelationships among the various attributes could be examined. Findings demonstrate clear correlation between pitch diversity and the degree of affective tension implied by particular textual subjects. While the findings do not prove exclusive causation (other factors such as tonal and structural considerations, social occasion, and evolution of style can also play a role), they do link the two elements, especially in light of Bach's method of composition as documented by Robert Marshall. This study is important for its systematic and comprehensive approach, its findings giving definition and clarity to commonly held generalizations about the relationships between melodic chromaticism (of which pitch diversity is an important aspect and indicator) and textual content. Furthermore, the software holds promise for additional studies of Bach's pitch materials and for studies in other stylistic contexts.",
         "article_title": "Uncovering Text-Music Connections with a Relational Database: Towards an Objective Measurement of Melodic Pitch Diversity in Relation to Literary Themes in Bach's Church Cantata Recitatives",
-        "authors": "Melvin Unger",
+        "authors": [
+            {
+                "given": "Melvin",
+                "family": "Unger",
+                "affiliation": [
+                    " Riemenschneider Bach Institute, Baldwin-Wallace College, 275 Eastland Rd., Berea, Ohio, 44017, USA"]
+            }
+        ],
         "publisher": "Springer",
         "date": "2004",
         "keywords": null,
@@ -3387,7 +3579,14 @@
         },
         "abstract": "Many teachers adopt networked collaborative learning strategies even though these approaches systematically increase the time needed to deal with a given subject. \"But who's making them do it?\". Probably there has to be a return on investment, in terms of time and obviously in terms of educational results, which justifies that commitment. After surveying the particular features of two experimental projects based on networked collaborative learning, the paper will then offer a series of thoughts triggered by observation of the results and the dynamics generated by this specific approach. The purpose of these thoughts is to identify some key factors that make it possible to measure the real added value produced by network collaboration in terms of the acquisition of skills, knowledge, methods and attitudes that go beyond the \"mere\" learning of contents (however fundamental this may be). And it is precisely on the basis of these considerations that teachers usually answer the above question, explaining \"who (or what) made them do it!\".",
         "article_title": "Networked Collaborative Learning in the Study of Modern History and Literature",
-        "authors": "Guglielmo Trentin",
+        "authors": [
+            {
+                "given": "Guglielmo",
+                "family": "Trentin",
+                "affiliation": [
+                    " Institute for Educational Technology, Italian National Research Council, Via De Marini 6, 16149 Genova, Italy"]
+            }
+        ],
         "publisher": "Springer",
         "date": "2004",
         "keywords": null,
@@ -3409,7 +3608,14 @@
         },
         "abstract": "A few ideas from film theory, most notably Eisenstein's concept of montage, can improve students' understanding of hypertexts and lessen their resistance to open-ended, nonlinear narratives. These structural characteristics, so frustrating to many new readers of hypertext, can also be found in popular and experimental films. In particular, Godfrey Reggio's (1983) documentary Koyaanisqatsi provides a good starting point for merging hypertext and film theory. Koyaanisqatsi not only broke new ground for documentary film; its structure also resembles Landow's model for an axial hypertext. At the same time, techniques pioneered by Landow, Joyce, Guyer, and others involved in creating and critiquing hypertext can be used to examine film. Having students look closely at Koyaanisqatsi's composition allows them to become amateur cinematographers, who now possess software for breaking a film down and examining its composition, montage, transitions, subliminal messages, and motifs - a process that may then be applied to hypertext.",
         "article_title": "Film as \"Explicador\" for Hypertext",
-        "authors": "Joe Essid",
+        "authors": [
+            {
+                "given": "Joe",
+                "family": "Essid",
+                "affiliation": [
+                    "Writing Center, University of Richmond, Richmond, VA 23173, USA"]
+            }
+        ],
         "publisher": "Springer",
         "date": "2004",
         "keywords": null,
@@ -3431,7 +3637,26 @@
         },
         "abstract": "This paper discusses some pitfalls in corpus research and suggests solutions on the basis of examples and computer simulations. We first address reliability problems in language transcriptions, agreement between transcribers, and how disagreements can be dealt with. We then show that the frequencies of occurrence obtained from a corpus cannot always be analyzed with the traditional χ² test, as corpus data are often not sequentially independent and unit independent. Next, we stress the relevance of the power of statistical tests, and the sizes of statistically significant effects. Finally, we point out that a t-test based on log odds often provides a better alternative to a χ² analysis based on frequency counts.",
         "article_title": "Pitfalls in Corpus Research",
-        "authors": "Toni Rietveld and Roeland van Hout and Mirjam Ernestus",
+        "authors": [
+            {
+                "given": "Toni",
+                "family": "Rietveld",
+                "affiliation": [
+                    "Department of Linguistics, Radboud University Nijmegen, Erasmusplein 1, 6525 HT, Nijmegen, The Netherlands"]
+            },
+            {
+                "given": "Roeland",
+                "family": "van Hout",
+                "affiliation": [
+                    "Department of Linguistics, Radboud University Nijmegen, Erasmusplein 1, 6525 HT, Nijmegen, The Netherlands"]
+            },
+            {
+                "given": "Mirjam",
+                "family": "Ernestus",
+                "affiliation": [
+                    "Max Planck Institute for Psycholinguistics"]
+            }
+        ],
         "publisher": "Springer",
         "date": "2004",
         "keywords": null,
@@ -3453,7 +3678,20 @@
         },
         "abstract": "Recent developments in computational terminology call for the design of multiple and complementary tools for the acquisition, the structuring and the exploitation of terminological data. This paper proposes to bridge the gap between term acquisition and thesaurus construction by offering a framework for automatic structuring of multi-word candidate terms with the help of corpus-based links between single-word terms. First, we present a system for corpus-based acquisition of terminological relationships through discursive patterns. This system is built on previous work on automatic extraction of hyponymy links through shallow parsing. Second, we show how hypernym links between single-word terms can be extended to semantic links between multi-word terms through corpus-based extraction of semantic variants. The induced hierarchy is incomplete but provides an automatic generalization of singleword terms relations to multi-word terms that are pervasive in technical thesauri and corpora.",
         "article_title": "Automatic Acquisition and Expansion of Hypernym Links",
-        "authors": "Emmanuel Morin and Christian Jacquemin",
+        "authors": [
+            {
+                "given": "Emmanuel",
+                "family": "Morin",
+                "affiliation": [
+                    "LINA-CNRS, 2 chemin de la Houssiniere - BP 92208, 44322 Nantes Cedex 3, France"]
+            },
+            {
+                "given": "Christian",
+                "family": "Jacquemin",
+                "affiliation": [
+                    "LIMSI-CNRS, BP 133, 91403 Orsay Cedex, France"]
+            }
+        ],
         "publisher": "Springer",
         "date": "2004",
         "keywords": null,
@@ -3475,7 +3713,32 @@
         },
         "abstract": "The World Wide Web (WWW) today is so vast that it has become more and more difficult to find answers to questions using standard search engines. Current search engines can return ranked lists of documents, but they do not deliver direct answers to the user. The goal of Open Domain Question Answering (QA) systems is to take a natural language question, understand the meaning of the question, and present a short answer as a response based on a repository of information. In this paper we present QARAB, a QA system that combines techniques from Information Retrieval and Natural Language Processing. This combination enables domain independence. The system takes natural language questions expressed in the Arabic language and attempts to provide short answers in Arabic. To do so, it attempts to discover what the user wants by analyzing the question and a variety of candidate answers from a linguistic point of view.",
         "article_title": "Experimenting with a Question Answering System for the Arabic Language",
-        "authors": "Bassam Hammo and Saleem Abuleil and Steven Lytinen and Martha Evens",
+        "authors": [
+            {
+                "given": "Bassam",
+                "family": "Hammo",
+                "affiliation": [
+                    "King Abdullah II School of Information Technology, University of Jordan, Amman, Jordan, 11942"]
+            },
+            {
+                "given": "Saleem",
+                "family": "Abuleil",
+                "affiliation": [
+                    "Department of Information Systems, Chicago State University, 9501 S. King Drive, Chicago, IL 60628, USA"]
+            },
+            {
+                "given": "Steven",
+                "family": "Lytinen",
+                "affiliation": [
+                    "CTI, Depaul University, 243 S. Wabash Avenue, Chicago IL 60604, USA"]
+            },
+            {
+                "given": "Martha",
+                "family": "Evens",
+                "affiliation": [
+                    " 4Computer Science, Illinois Institute of Technology, 10 West 31st Street, Chicago, IL 60616, USA"]
+            }
+        ],
         "publisher": "Springer",
         "date": "2004",
         "keywords": null,
@@ -3497,7 +3760,14 @@
         },
         "abstract": "Word sense disambiguation automatically determines the appropriate senses of a word in context. We have previously shown that self-organized document maps have properties similar to a large-scale semantic structure that is useful for word sense disambiguation. This work evaluates the impact of different linguistic features on self-organized document maps for word sense disambiguation. The features evaluated are various qualitative features, e.g. part-of-speech and syntactic labels, and quantitative features, e.g. cut-off levels for word frequency. It is shown that linguistic features help make contextual information explicit. If the training corpus is large even contextually weak features, such as base forms, will act in concert to produce sense distinctions in a statistically significant way. However, the most important features are syntactic dependency relations and base forms annotated with part of speech or syntactic labels. We achieve 62.9% ± 0.73% correct results on the fine grained lexical task of the English SENSEVAL-2 data. On the 96.7% of the test cases which need no back-off to the most frequent sense we achieve 65.7% correct results.",
         "article_title": "Evaluation of Linguistic Features for Word Sense Disambiguation with Self-Organized Document Maps",
-        "authors": "Krister Lindén",
+        "authors": [
+            {
+                "given": "Krister",
+                "family": "Lindén",
+                "affiliation": [
+                    "Helsinki University of Technology, Neural Networks Research Centre, P.O.Box 9800, FIN-02015 Hut, Finland and University of Helsinki, Department of General Linguistics, P.O. Box 9, FIN-00014, Finland"]
+            }
+        ],
         "publisher": "Springer",
         "date": "2004",
         "keywords": null,
@@ -3519,7 +3789,25 @@
         },
         "abstract": "This paper presents an automatic construction of Korean WordNet from preexisting lexical resources. We develop a set of automatic word sense disambiguation techniques to link a Korean word sense collected from a bilingual machine-readable dictionary to a single corresponding English WordNet synset. We show how individual links provided by each word sense disambiguation method can be non-linearly combined to produce a Korean WordNet from existing English WordNet for nouns.",
         "article_title": "Multiple Heuristics and Their Combination for Automatic WordNet Mapping",
-        "authors": "Changki Lee and Gary Geunbae Lee and Jungyun Seo",
+        "authors": [
+            {
+                "given": "Changki",
+                "family": "Lee",
+                "affiliation": [
+                    "Department of Computer Science and Engineering, Pohang University of Science and Technology, San 31, Hyoja-Dong, Pohang, 790-784, South Korea"]
+            },
+            {
+                "given": "Gary Geunbae",
+                "family": "Lee",
+                "affiliation": null
+            },
+            {
+                "given": "Jungyun",
+                "family": "Seo",
+                "affiliation": [
+                    "Department of Computer Science, Sogang University, Sinsu-dong 1, Mapo-gu, Seoul, South Korea"]
+            }
+        ],
         "publisher": "Springer",
         "date": "2004",
         "keywords": null,
