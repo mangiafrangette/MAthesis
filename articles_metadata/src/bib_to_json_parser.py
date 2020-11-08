@@ -2,8 +2,9 @@ import bibtexparser
 import json
 import os
 
+# This is only a parser from bibtex format to json format 
+
 def bib_to_json():
-    
     path = '../data/bibtex_files'
     for file_name in os.listdir(path):
 

@@ -1,6 +1,8 @@
 import os
 import json
 
+# This file was run to get digital scholarship in the humanities data through a service called proxies api. 
+
 filename = "../data/json_files/my_schema/ms_DSH.json"
 with open(filename, "r", encoding="utf-8") as f:
     articles = json.load(f)
