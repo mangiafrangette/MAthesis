@@ -1,0 +1,1821 @@
+{
+    " university of trento": {
+        "substring": "university of trento",
+        "score": 1,
+        "matching_type": "PHRASE",
+        "chosen": true,
+        "organization": {
+            "id": "https://ror.org/05trd4x28",
+            "name": "University of Trento",
+            "types": [
+                "Education"
+            ],
+            "links": [
+                "http://www.unitn.it/en"
+            ],
+            "aliases": [],
+            "acronyms": [],
+            "status": "active",
+            "wikipedia_url": "http://en.wikipedia.org/wiki/University_of_Trento",
+            "labels": [
+                {
+                    "label": "Université de trente",
+                    "iso639": "fr"
+                },
+                {
+                    "label": "Universität Trient",
+                    "iso639": "de"
+                },
+                {
+                    "label": "Università degli Studi di Trento",
+                    "iso639": "it"
+                }
+            ],
+            "country": {
+                "country_name": "Italy",
+                "country_code": "IT"
+            },
+            "external_ids": {
+                "ISNI": {
+                    "preferred": null,
+                    "all": [
+                        "0000 0004 1937 0351"
+                    ]
+                },
+                "FundRef": {
+                    "preferred": null,
+                    "all": [
+                        "501100004004"
+                    ]
+                },
+                "OrgRef": {
+                    "preferred": null,
+                    "all": [
+                        "1949698"
+                    ]
+                },
+                "Wikidata": {
+                    "preferred": null,
+                    "all": [
+                        "Q930528"
+                    ]
+                },
+                "GRID": {
+                    "preferred": "grid.11696.39",
+                    "all": "grid.11696.39"
+                }
+            }
+        }
+    },
+    "university of idaho": {
+        "substring": "university of idaho",
+        "score": 1,
+        "matching_type": "PHRASE",
+        "chosen": true,
+        "organization": {
+            "id": "https://ror.org/03hbp5t65",
+            "name": "University of Idaho",
+            "types": [
+                "Education"
+            ],
+            "links": [
+                "http://www.uidaho.edu/"
+            ],
+            "aliases": [],
+            "acronyms": [
+                "UI"
+            ],
+            "status": "active",
+            "wikipedia_url": "http://en.wikipedia.org/wiki/University_of_Idaho",
+            "labels": [
+                {
+                    "label": "Universidad de Idaho",
+                    "iso639": "es"
+                }
+            ],
+            "country": {
+                "country_name": "United States",
+                "country_code": "US"
+            },
+            "external_ids": {
+                "ISNI": {
+                    "preferred": null,
+                    "all": [
+                        "0000 0001 2284 9900"
+                    ]
+                },
+                "OrgRef": {
+                    "preferred": null,
+                    "all": [
+                        "53545"
+                    ]
+                },
+                "Wikidata": {
+                    "preferred": null,
+                    "all": [
+                        "Q1854488"
+                    ]
+                },
+                "GRID": {
+                    "preferred": "grid.266456.5",
+                    "all": "grid.266456.5"
+                }
+            }
+        }
+    },
+    " university of edinburgh": {
+        "substring": "university of edinburgh",
+        "score": 1,
+        "matching_type": "PHRASE",
+        "chosen": true,
+        "organization": {
+            "id": "https://ror.org/01nrxwf90",
+            "name": "University of Edinburgh",
+            "types": [
+                "Education"
+            ],
+            "links": [
+                "http://www.ed.ac.uk/home"
+            ],
+            "aliases": [],
+            "acronyms": [],
+            "status": "active",
+            "wikipedia_url": "http://en.wikipedia.org/wiki/University_of_Edinburgh",
+            "labels": [
+                {
+                    "label": "Oilthigh Dhùn Èideann",
+                    "iso639": "gd"
+                }
+            ],
+            "country": {
+                "country_name": "United Kingdom",
+                "country_code": "GB"
+            },
+            "external_ids": {
+                "ISNI": {
+                    "preferred": null,
+                    "all": [
+                        "0000 0004 1936 7988"
+                    ]
+                },
+                "FundRef": {
+                    "preferred": "501100000848",
+                    "all": [
+                        "501100000848",
+                        "501100002754",
+                        "501100000635",
+                        "501100005698"
+                    ]
+                },
+                "HESA": {
+                    "preferred": null,
+                    "all": [
+                        "0167"
+                    ]
+                },
+                "UCAS": {
+                    "preferred": null,
+                    "all": [
+                        "E56"
+                    ]
+                },
+                "UKPRN": {
+                    "preferred": null,
+                    "all": [
+                        "10007790"
+                    ]
+                },
+                "OrgRef": {
+                    "preferred": "23592200",
+                    "all": [
+                        "23592200",
+                        "1228887",
+                        "6495461",
+                        "1665922",
+                        "47000436"
+                    ]
+                },
+                "Wikidata": {
+                    "preferred": null,
+                    "all": [
+                        "Q160302"
+                    ]
+                },
+                "GRID": {
+                    "preferred": "grid.4305.2",
+                    "all": "grid.4305.2"
+                }
+            }
+        }
+    },
+    " new york university": {
+        "substring": "new york university",
+        "score": 1,
+        "matching_type": "PHRASE",
+        "chosen": true,
+        "organization": {
+            "id": "https://ror.org/0190ak572",
+            "name": "New York University",
+            "types": [
+                "Education"
+            ],
+            "links": [
+                "http://www.nyu.edu/"
+            ],
+            "aliases": [],
+            "acronyms": [
+                "NYU"
+            ],
+            "status": "active",
+            "wikipedia_url": "http://en.wikipedia.org/wiki/New_York_University",
+            "labels": [
+                {
+                    "label": "Université de New York",
+                    "iso639": "fr"
+                },
+                {
+                    "label": "Universidad de Nueva York",
+                    "iso639": "es"
+                }
+            ],
+            "country": {
+                "country_name": "United States",
+                "country_code": "US"
+            },
+            "external_ids": {
+                "ISNI": {
+                    "preferred": null,
+                    "all": [
+                        "0000 0004 1936 8753"
+                    ]
+                },
+                "FundRef": {
+                    "preferred": "100006732",
+                    "all": [
+                        "100006732",
+                        "100007153",
+                        "100005481",
+                        "100006966",
+                        "100008208",
+                        "100005593",
+                        "100006805",
+                        "100006941",
+                        "100006720",
+                        "100008929"
+                    ]
+                },
+                "OrgRef": {
+                    "preferred": "7954455",
+                    "all": [
+                        "7954455",
+                        "1617671",
+                        "381909"
+                    ]
+                },
+                "Wikidata": {
+                    "preferred": "Q49210",
+                    "all": [
+                        "Q49210",
+                        "Q75478"
+                    ]
+                },
+                "GRID": {
+                    "preferred": "grid.137628.9",
+                    "all": "grid.137628.9"
+                }
+            }
+        }
+    },
+    " queen's university belfast": {
+        "substring": "queen's university belfast",
+        "score": 1,
+        "matching_type": "PHRASE",
+        "chosen": true,
+        "organization": {
+            "id": "https://ror.org/00hswnk62",
+            "name": "Queen's University Belfast",
+            "types": [
+                "Education"
+            ],
+            "links": [
+                "http://www.qub.ac.uk/"
+            ],
+            "aliases": [],
+            "acronyms": [
+                "QUB"
+            ],
+            "status": "active",
+            "wikipedia_url": "http://en.wikipedia.org/wiki/Queen's_University_Belfast",
+            "labels": [
+                {
+                    "label": "Prifysgol y Frenhines, Belffast",
+                    "iso639": "cy"
+                }
+            ],
+            "country": {
+                "country_name": "United Kingdom",
+                "country_code": "GB"
+            },
+            "external_ids": {
+                "ISNI": {
+                    "preferred": null,
+                    "all": [
+                        "0000 0004 0374 7521"
+                    ]
+                },
+                "FundRef": {
+                    "preferred": null,
+                    "all": [
+                        "501100000873"
+                    ]
+                },
+                "HESA": {
+                    "preferred": null,
+                    "all": [
+                        "0184"
+                    ]
+                },
+                "UCAS": {
+                    "preferred": null,
+                    "all": [
+                        "Q75"
+                    ]
+                },
+                "UKPRN": {
+                    "preferred": null,
+                    "all": [
+                        "10005343"
+                    ]
+                },
+                "OrgRef": {
+                    "preferred": "322010",
+                    "all": [
+                        "322010",
+                        "20026539"
+                    ]
+                },
+                "Wikidata": {
+                    "preferred": null,
+                    "all": [
+                        "Q877925"
+                    ]
+                },
+                "GRID": {
+                    "preferred": "grid.4777.3",
+                    "all": "grid.4777.3"
+                }
+            }
+        }
+    },
+    " anhalt university of applied sciences": {
+        "substring": "anhalt university of applied sciences",
+        "score": 1,
+        "matching_type": "PHRASE",
+        "chosen": true,
+        "organization": {
+            "id": "https://ror.org/0076zct58",
+            "name": "Anhalt University of Applied Sciences",
+            "types": [
+                "Education"
+            ],
+            "links": [
+                "https://www.hs-anhalt.de/en/start-page.html"
+            ],
+            "aliases": [],
+            "acronyms": [],
+            "status": "active",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/Anhalt_University_of_Applied_Sciences",
+            "labels": [
+                {
+                    "label": "Hochschule Anhalt",
+                    "iso639": "de"
+                }
+            ],
+            "country": {
+                "country_name": "Germany",
+                "country_code": "DE"
+            },
+            "external_ids": {
+                "ISNI": {
+                    "preferred": null,
+                    "all": [
+                        "0000 0001 0692 3664"
+                    ]
+                },
+                "Wikidata": {
+                    "preferred": null,
+                    "all": [
+                        "Q1622074"
+                    ]
+                },
+                "GRID": {
+                    "preferred": "grid.427932.9",
+                    "all": "grid.427932.9"
+                }
+            }
+        }
+    },
+    " university of cambridge": {
+        "substring": "university of cambridge",
+        "score": 1,
+        "matching_type": "PHRASE",
+        "chosen": true,
+        "organization": {
+            "id": "https://ror.org/013meh722",
+            "name": "University of Cambridge",
+            "types": [
+                "Education"
+            ],
+            "links": [
+                "http://www.cam.ac.uk/"
+            ],
+            "aliases": [
+                "Cambridge University"
+            ],
+            "acronyms": [],
+            "status": "active",
+            "wikipedia_url": "http://en.wikipedia.org/wiki/University_of_Cambridge",
+            "labels": [
+                {
+                    "label": "Prifysgol Caergrawnt",
+                    "iso639": "cy"
+                }
+            ],
+            "country": {
+                "country_name": "United Kingdom",
+                "country_code": "GB"
+            },
+            "external_ids": {
+                "ISNI": {
+                    "preferred": null,
+                    "all": [
+                        "0000000121885934"
+                    ]
+                },
+                "FundRef": {
+                    "preferred": "501100000735",
+                    "all": [
+                        "501100000735",
+                        "501100000603",
+                        "501100007552",
+                        "501100008420",
+                        "100010441",
+                        "501100006299",
+                        "501100004222",
+                        "501100000580",
+                        "501100000585",
+                        "501100000587",
+                        "501100000602",
+                        "501100000727",
+                        "501100000705",
+                        "501100000710",
+                        "501100003987",
+                        "501100004537",
+                        "501100005796",
+                        "501100006646",
+                        "501100005705",
+                        "501100000663",
+                        "501100000653",
+                        "501100000648",
+                        "501100000644",
+                        "501100000622",
+                        "501100000621",
+                        "501100000609",
+                        "501100000591",
+                        "501100001625",
+                        "501100000742",
+                        "501100000590",
+                        "501100004495",
+                        "501100005962"
+                    ]
+                },
+                "HESA": {
+                    "preferred": null,
+                    "all": [
+                        "0114"
+                    ]
+                },
+                "UCAS": {
+                    "preferred": null,
+                    "all": [
+                        "C0121"
+                    ]
+                },
+                "UKPRN": {
+                    "preferred": null,
+                    "all": [
+                        "10007788"
+                    ]
+                },
+                "OrgRef": {
+                    "preferred": "25978572",
+                    "all": [
+                        "25978572",
+                        "2793352",
+                        "180326",
+                        "327748",
+                        "73199",
+                        "1167853",
+                        "48671",
+                        "201369",
+                        "498109",
+                        "212179",
+                        "151267",
+                        "7317906",
+                        "157283",
+                        "457564",
+                        "31805",
+                        "75963",
+                        "31803",
+                        "498120",
+                        "23747745",
+                        "480151",
+                        "239420",
+                        "26015915"
+                    ]
+                },
+                "Wikidata": {
+                    "preferred": "Q35794",
+                    "all": [
+                        "Q35794",
+                        "Q24679079",
+                        "Q10899168",
+                        "Q181892"
+                    ]
+                },
+                "GRID": {
+                    "preferred": "grid.5335.0",
+                    "all": "grid.5335.0"
+                }
+            }
+        }
+    },
+    " university paris 1": {
+        "substring": "university paris 1",
+        "score": 0.97,
+        "matching_type": "COMMON TERMS",
+        "chosen": true,
+        "organization": {
+            "id": "https://ror.org/0199hds37",
+            "name": "Paris 13 University",
+            "types": [
+                "Education"
+            ],
+            "links": [
+                "http://www.univ-paris13.fr/en/"
+            ],
+            "aliases": [
+                "University of Paris North"
+            ],
+            "acronyms": [],
+            "status": "active",
+            "wikipedia_url": "http://en.wikipedia.org/wiki/Paris_13_University",
+            "labels": [
+                {
+                    "label": "Université Paris 13",
+                    "iso639": "fr"
+                }
+            ],
+            "country": {
+                "country_name": "France",
+                "country_code": "FR"
+            },
+            "external_ids": {
+                "ISNI": {
+                    "preferred": null,
+                    "all": [
+                        "0000000121496883"
+                    ]
+                },
+                "OrgRef": {
+                    "preferred": null,
+                    "all": [
+                        "8892205"
+                    ]
+                },
+                "Wikidata": {
+                    "preferred": null,
+                    "all": [
+                        "Q1780212"
+                    ]
+                },
+                "GRID": {
+                    "preferred": "grid.11318.3a",
+                    "all": "grid.11318.3a"
+                }
+            }
+        }
+    },
+    "durham university": {
+        "substring": "durham university",
+        "score": 1,
+        "matching_type": "PHRASE",
+        "chosen": true,
+        "organization": {
+            "id": "https://ror.org/01v29qb04",
+            "name": "Durham University",
+            "types": [
+                "Education"
+            ],
+            "links": [
+                "https://www.dur.ac.uk/"
+            ],
+            "aliases": [],
+            "acronyms": [],
+            "status": "active",
+            "wikipedia_url": "http://en.wikipedia.org/wiki/Durham_University",
+            "labels": [],
+            "country": {
+                "country_name": "United Kingdom",
+                "country_code": "GB"
+            },
+            "external_ids": {
+                "ISNI": {
+                    "preferred": null,
+                    "all": [
+                        "0000 0000 8700 0572"
+                    ]
+                },
+                "FundRef": {
+                    "preferred": "501100001314",
+                    "all": [
+                        "501100001314",
+                        "501100006042",
+                        "501100004782",
+                        "501100000637",
+                        "501100000716"
+                    ]
+                },
+                "HESA": {
+                    "preferred": null,
+                    "all": [
+                        "0116"
+                    ]
+                },
+                "UCAS": {
+                    "preferred": null,
+                    "all": [
+                        "D86"
+                    ]
+                },
+                "UKPRN": {
+                    "preferred": null,
+                    "all": [
+                        "10007143"
+                    ]
+                },
+                "OrgRef": {
+                    "preferred": "29997930",
+                    "all": [
+                        "29997930",
+                        "6990439"
+                    ]
+                },
+                "Wikidata": {
+                    "preferred": null,
+                    "all": [
+                        "Q16848806",
+                        "Q458393"
+                    ]
+                },
+                "GRID": {
+                    "preferred": "grid.8250.f",
+                    "all": "grid.8250.f"
+                }
+            }
+        }
+    },
+    "Ludwig-Maximilians-Universität, Germany": {
+        "substring": "Ludwig-Maximilians-Universität",
+        "score": 1,
+        "matching_type": "PHRASE",
+        "chosen": true,
+        "organization": {
+            "id": "https://ror.org/05591te55",
+            "name": "Ludwig-Maximilians-Universität München",
+            "types": [
+                "Education"
+            ],
+            "links": [
+                "http://www.en.uni-muenchen.de/index.html"
+            ],
+            "aliases": [],
+            "acronyms": [
+                "LMU"
+            ],
+            "status": "active",
+            "wikipedia_url": "http://en.wikipedia.org/wiki/Ludwig_Maximilian_University_of_Munich",
+            "labels": [
+                {
+                    "label": "Ludwig-Maximilians-Universität in Munich",
+                    "iso639": "en"
+                }
+            ],
+            "country": {
+                "country_name": "Germany",
+                "country_code": "DE"
+            },
+            "external_ids": {
+                "ISNI": {
+                    "preferred": null,
+                    "all": [
+                        "0000 0004 1936 973X"
+                    ]
+                },
+                "FundRef": {
+                    "preferred": "501100005722",
+                    "all": [
+                        "501100005722",
+                        "501100006192"
+                    ]
+                },
+                "OrgRef": {
+                    "preferred": null,
+                    "all": [
+                        "252750"
+                    ]
+                },
+                "Wikidata": {
+                    "preferred": null,
+                    "all": [
+                        "Q55044"
+                    ]
+                },
+                "GRID": {
+                    "preferred": "grid.5252.0",
+                    "all": "grid.5252.0"
+                }
+            }
+        }
+    },
+    " university of huddersfield": {
+        "substring": "university of huddersfield",
+        "score": 1,
+        "matching_type": "PHRASE",
+        "chosen": true,
+        "organization": {
+            "id": "https://ror.org/05t1h8f27",
+            "name": "University of Huddersfield",
+            "types": [
+                "Education"
+            ],
+            "links": [
+                "http://www.hud.ac.uk/"
+            ],
+            "aliases": [
+                "Huddersfield University"
+            ],
+            "acronyms": [],
+            "status": "active",
+            "wikipedia_url": "http://en.wikipedia.org/wiki/University_of_Huddersfield",
+            "labels": [],
+            "country": {
+                "country_name": "United Kingdom",
+                "country_code": "GB"
+            },
+            "external_ids": {
+                "ISNI": {
+                    "preferred": null,
+                    "all": [
+                        "0000 0001 0719 6059"
+                    ]
+                },
+                "FundRef": {
+                    "preferred": null,
+                    "all": [
+                        "100010028"
+                    ]
+                },
+                "HESA": {
+                    "preferred": null,
+                    "all": [
+                        "0061"
+                    ]
+                },
+                "UCAS": {
+                    "preferred": null,
+                    "all": [
+                        "H60"
+                    ]
+                },
+                "UKPRN": {
+                    "preferred": null,
+                    "all": [
+                        "10007148"
+                    ]
+                },
+                "OrgRef": {
+                    "preferred": null,
+                    "all": [
+                        "703692"
+                    ]
+                },
+                "Wikidata": {
+                    "preferred": null,
+                    "all": [
+                        "Q3056815"
+                    ]
+                },
+                "GRID": {
+                    "preferred": "grid.15751.37",
+                    "all": "grid.15751.37"
+                }
+            }
+        }
+    },
+    " strasbourg university": {
+        "substring": "strasbourg university",
+        "score": 0.93,
+        "matching_type": "COMMON TERMS",
+        "chosen": true,
+        "organization": {
+            "id": "https://ror.org/00pg6eq24",
+            "name": "University of Strasbourg",
+            "types": [
+                "Education"
+            ],
+            "links": [
+                "http://www.en.unistra.fr/index.php?id=21707"
+            ],
+            "aliases": [],
+            "acronyms": [],
+            "status": "active",
+            "wikipedia_url": "http://en.wikipedia.org/wiki/University_of_Strasbourg",
+            "labels": [
+                {
+                    "label": "Universitat d'Estrasburg",
+                    "iso639": "ca"
+                },
+                {
+                    "label": "Universität Straßburg",
+                    "iso639": "de"
+                },
+                {
+                    "label": "Université de Strasbourg",
+                    "iso639": "fr"
+                }
+            ],
+            "country": {
+                "country_name": "France",
+                "country_code": "FR"
+            },
+            "external_ids": {
+                "ISNI": {
+                    "preferred": null,
+                    "all": [
+                        "0000 0001 2157 9291"
+                    ]
+                },
+                "FundRef": {
+                    "preferred": "501100003768",
+                    "all": [
+                        "501100003768",
+                        "501100003998"
+                    ]
+                },
+                "OrgRef": {
+                    "preferred": null,
+                    "all": [
+                        "722824"
+                    ]
+                },
+                "Wikidata": {
+                    "preferred": null,
+                    "all": [
+                        "Q157575"
+                    ]
+                },
+                "GRID": {
+                    "preferred": "grid.11843.3f",
+                    "all": "grid.11843.3f"
+                }
+            }
+        }
+    },
+    "Library of Congress": {
+        "substring": "Library of Congress",
+        "score": 1,
+        "matching_type": "PHRASE",
+        "chosen": true,
+        "organization": {
+            "id": "https://ror.org/04p405e02",
+            "name": "Library of Congress",
+            "types": [
+                "Archive"
+            ],
+            "links": [
+                "http://www.loc.gov/"
+            ],
+            "aliases": [],
+            "acronyms": [],
+            "status": "active",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/Library_of_Congress",
+            "labels": [
+                {
+                    "label": "Bibliothèque du Congrès",
+                    "iso639": "fr"
+                },
+                {
+                    "label": "Biblioteca del Congreso de Estados Unidos",
+                    "iso639": "es"
+                }
+            ],
+            "country": {
+                "country_name": "United States",
+                "country_code": "US"
+            },
+            "external_ids": {
+                "ISNI": {
+                    "preferred": null,
+                    "all": [
+                        "0000 0001 2108 1928"
+                    ]
+                },
+                "FundRef": {
+                    "preferred": null,
+                    "all": [
+                        "100005451"
+                    ]
+                },
+                "OrgRef": {
+                    "preferred": null,
+                    "all": [
+                        "18944081"
+                    ]
+                },
+                "Wikidata": {
+                    "preferred": null,
+                    "all": [
+                        "Q131454"
+                    ]
+                },
+                "GRID": {
+                    "preferred": "grid.241525.5",
+                    "all": "grid.241525.5"
+                }
+            }
+        }
+    },
+    "salzburg university": {
+        "substring": "salzburg university",
+        "score": 0.93,
+        "matching_type": "COMMON TERMS",
+        "chosen": true,
+        "organization": {
+            "id": "https://ror.org/05gs8cd61",
+            "name": "University of Salzburg",
+            "types": [
+                "Education"
+            ],
+            "links": [
+                "http://www.uni-salzburg.at/index.php?id=52"
+            ],
+            "aliases": [
+                "Paris Lodron University of Salzburg"
+            ],
+            "acronyms": [
+                "PLUS"
+            ],
+            "status": "active",
+            "wikipedia_url": "http://en.wikipedia.org/wiki/University_of_Salzburg",
+            "labels": [
+                {
+                    "label": "Paris-Lodron-Universität Salzburg",
+                    "iso639": "de"
+                }
+            ],
+            "country": {
+                "country_name": "Austria",
+                "country_code": "AT"
+            },
+            "external_ids": {
+                "ISNI": {
+                    "preferred": null,
+                    "all": [
+                        "0000000110156330"
+                    ]
+                },
+                "FundRef": {
+                    "preferred": null,
+                    "all": [
+                        "501100005644"
+                    ]
+                },
+                "OrgRef": {
+                    "preferred": null,
+                    "all": [
+                        "1267399"
+                    ]
+                },
+                "Wikidata": {
+                    "preferred": null,
+                    "all": [
+                        "Q27265"
+                    ]
+                },
+                "GRID": {
+                    "preferred": "grid.7039.d",
+                    "all": "grid.7039.d"
+                }
+            }
+        }
+    },
+    "niod institute for war": {
+        "substring": "niod institute for war",
+        "score": 0.67,
+        "matching_type": "FUZZY",
+        "chosen": false,
+        "organization": {
+            "id": "https://ror.org/01cg3ht11",
+            "name": "Swedish Institute for Quality",
+            "types": [
+                "Nonprofit"
+            ],
+            "links": [
+                "http://siq.se/en/"
+            ],
+            "aliases": [],
+            "acronyms": [
+                "SIQ"
+            ],
+            "status": "active",
+            "wikipedia_url": "",
+            "labels": [
+                {
+                    "label": "Institutet för Kvalitetsutveckling",
+                    "iso639": "sv"
+                }
+            ],
+            "country": {
+                "country_name": "Sweden",
+                "country_code": "SE"
+            },
+            "external_ids": {
+                "GRID": {
+                    "preferred": "grid.493478.5",
+                    "all": "grid.493478.5"
+                }
+            }
+        }
+    },
+    "Music Technology Group, Universitat Pompeu Fabra, Spain": {
+        "substring": "Universitat Pompeu Fabra",
+        "score": 1,
+        "matching_type": "PHRASE",
+        "chosen": true,
+        "organization": {
+            "id": "https://ror.org/04n0g0b29",
+            "name": "Pompeu Fabra University",
+            "types": [
+                "Education"
+            ],
+            "links": [
+                "http://www.upf.edu/en/"
+            ],
+            "aliases": [
+                "Universitat Pompeu Fabra"
+            ],
+            "acronyms": [
+                "UPF"
+            ],
+            "status": "active",
+            "wikipedia_url": "http://en.wikipedia.org/wiki/Pompeu_Fabra_University",
+            "labels": [
+                {
+                    "label": "Universitat Pompeu Fabra",
+                    "iso639": "ca"
+                }
+            ],
+            "country": {
+                "country_name": "Spain",
+                "country_code": "ES"
+            },
+            "external_ids": {
+                "ISNI": {
+                    "preferred": null,
+                    "all": [
+                        "0000 0001 2172 2676"
+                    ]
+                },
+                "OrgRef": {
+                    "preferred": null,
+                    "all": [
+                        "63872"
+                    ]
+                },
+                "Wikidata": {
+                    "preferred": null,
+                    "all": [
+                        "Q24543"
+                    ]
+                },
+                "GRID": {
+                    "preferred": "grid.5612.0",
+                    "all": "grid.5612.0"
+                }
+            }
+        }
+    },
+    "The British Museum, London": {
+        "substring": "The British Museum",
+        "score": 1,
+        "matching_type": "PHRASE",
+        "chosen": true,
+        "organization": {
+            "id": "https://ror.org/00pbh0a34",
+            "name": "British Museum",
+            "types": [
+                "Archive"
+            ],
+            "links": [
+                "http://www.britishmuseum.org/"
+            ],
+            "aliases": [],
+            "acronyms": [
+                "BM"
+            ],
+            "status": "active",
+            "wikipedia_url": "http://en.wikipedia.org/wiki/British_Museum",
+            "labels": [
+                {
+                    "label": "Yr Amgueddfa Brydeinig",
+                    "iso639": "cy"
+                }
+            ],
+            "country": {
+                "country_name": "United Kingdom",
+                "country_code": "GB"
+            },
+            "external_ids": {
+                "OrgRef": {
+                    "preferred": null,
+                    "all": [
+                        "4675"
+                    ]
+                },
+                "Wikidata": {
+                    "preferred": null,
+                    "all": [
+                        "Q6373"
+                    ]
+                },
+                "GRID": {
+                    "preferred": "grid.29109.33",
+                    "all": "grid.29109.33"
+                }
+            }
+        }
+    },
+    "northeastern university": {
+        "substring": "northeastern university",
+        "score": 1,
+        "matching_type": "PHRASE",
+        "chosen": true,
+        "organization": {
+            "id": "https://ror.org/02ahky613",
+            "name": "Universidad del Noreste",
+            "types": [
+                "Education"
+            ],
+            "links": [
+                "http://www.une.edu.mx/"
+            ],
+            "aliases": [],
+            "acronyms": [
+                "UNE"
+            ],
+            "status": "active",
+            "wikipedia_url": "http://en.wikipedia.org/wiki/Universidad_del_Noreste",
+            "labels": [
+                {
+                    "label": "Northeastern University",
+                    "iso639": "en"
+                }
+            ],
+            "country": {
+                "country_name": "Mexico",
+                "country_code": "MX"
+            },
+            "external_ids": {
+                "ISNI": {
+                    "preferred": null,
+                    "all": [
+                        "0000 0004 0484 565X"
+                    ]
+                },
+                "OrgRef": {
+                    "preferred": null,
+                    "all": [
+                        "31853231"
+                    ]
+                },
+                "Wikidata": {
+                    "preferred": null,
+                    "all": [
+                        "Q7894342"
+                    ]
+                },
+                "GRID": {
+                    "preferred": "grid.441462.1",
+                    "all": "grid.441462.1"
+                }
+            }
+        }
+    },
+    "university of chester": {
+        "substring": "university of chester",
+        "score": 1,
+        "matching_type": "PHRASE",
+        "chosen": true,
+        "organization": {
+            "id": "https://ror.org/01drpwb22",
+            "name": "University of Chester",
+            "types": [
+                "Education"
+            ],
+            "links": [
+                "http://www.chester.ac.uk/"
+            ],
+            "aliases": [],
+            "acronyms": [],
+            "status": "active",
+            "wikipedia_url": "http://en.wikipedia.org/wiki/University_of_Chester",
+            "labels": [],
+            "country": {
+                "country_name": "United Kingdom",
+                "country_code": "GB"
+            },
+            "external_ids": {
+                "ISNI": {
+                    "preferred": null,
+                    "all": [
+                        "0000 0001 0683 9016"
+                    ]
+                },
+                "FundRef": {
+                    "preferred": null,
+                    "all": [
+                        "100010333"
+                    ]
+                },
+                "HESA": {
+                    "preferred": null,
+                    "all": [
+                        "0011"
+                    ]
+                },
+                "UCAS": {
+                    "preferred": null,
+                    "all": [
+                        "C55"
+                    ]
+                },
+                "UKPRN": {
+                    "preferred": null,
+                    "all": [
+                        "10007848"
+                    ]
+                },
+                "OrgRef": {
+                    "preferred": null,
+                    "all": [
+                        "816908"
+                    ]
+                },
+                "Wikidata": {
+                    "preferred": null,
+                    "all": [
+                        "Q762243"
+                    ]
+                },
+                "GRID": {
+                    "preferred": "grid.43710.31",
+                    "all": "grid.43710.31"
+                }
+            }
+        }
+    },
+    " university of chicago": {
+        "substring": "university of chicago",
+        "score": 1,
+        "matching_type": "PHRASE",
+        "chosen": true,
+        "organization": {
+            "id": "https://ror.org/024mw5h28",
+            "name": "University of Chicago",
+            "types": [
+                "Education"
+            ],
+            "links": [
+                "http://www.uchicago.edu/"
+            ],
+            "aliases": [
+                "UChicago"
+            ],
+            "acronyms": [
+                "UC"
+            ],
+            "status": "active",
+            "wikipedia_url": "http://en.wikipedia.org/wiki/University_of_Chicago",
+            "labels": [
+                {
+                    "label": "Université de chicago",
+                    "iso639": "fr"
+                },
+                {
+                    "label": "Universidad de Chicago",
+                    "iso639": "es"
+                },
+                {
+                    "label": "University of Chicago",
+                    "iso639": "en"
+                }
+            ],
+            "country": {
+                "country_name": "United States",
+                "country_code": "US"
+            },
+            "external_ids": {
+                "ISNI": {
+                    "preferred": null,
+                    "all": [
+                        "0000 0004 1936 7822"
+                    ]
+                },
+                "FundRef": {
+                    "preferred": "100007234",
+                    "all": [
+                        "100007234",
+                        "100005586",
+                        "100007800",
+                        "100008140",
+                        "100006931",
+                        "100006930",
+                        "100006049",
+                        "100009416",
+                        "100009966",
+                        "100007618"
+                    ]
+                },
+                "OrgRef": {
+                    "preferred": "32127",
+                    "all": [
+                        "32127",
+                        "453893",
+                        "584543"
+                    ]
+                },
+                "Wikidata": {
+                    "preferred": "Q131252",
+                    "all": [
+                        "Q131252",
+                        "Q1274429",
+                        "Q22097451",
+                        "Q56612591"
+                    ]
+                },
+                "GRID": {
+                    "preferred": "grid.170205.1",
+                    "all": "grid.170205.1"
+                }
+            }
+        }
+    },
+    "U.S. Library of Congress, Washington, DC, USA": {
+        "substring": "U.S. Library of Congress",
+        "score": 0.8,
+        "matching_type": "COMMON TERMS",
+        "chosen": false,
+        "organization": {
+            "id": "https://ror.org/00k1mwv09",
+            "name": "United States Congress",
+            "types": [
+                "Government"
+            ],
+            "links": [
+                "https://www.congress.gov/"
+            ],
+            "aliases": [],
+            "acronyms": [],
+            "status": "active",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/United_States_Congress",
+            "labels": [],
+            "country": {
+                "country_name": "United States",
+                "country_code": "US"
+            },
+            "external_ids": {
+                "ISNI": {
+                    "preferred": null,
+                    "all": [
+                        "0000 0001 2322 6449"
+                    ]
+                },
+                "Wikidata": {
+                    "preferred": null,
+                    "all": [
+                        "Q11268"
+                    ]
+                },
+                "GRID": {
+                    "preferred": "grid.420333.5",
+                    "all": "grid.420333.5"
+                }
+            }
+        }
+    },
+    " king's college london": {
+        "substring": "king's college london",
+        "score": 1,
+        "matching_type": "PHRASE",
+        "chosen": true,
+        "organization": {
+            "id": "https://ror.org/0220mzb33",
+            "name": "King's College London",
+            "types": [
+                "Education"
+            ],
+            "links": [
+                "http://www.kcl.ac.uk/index.aspx"
+            ],
+            "aliases": [],
+            "acronyms": [
+                "KCL"
+            ],
+            "status": "active",
+            "wikipedia_url": "http://en.wikipedia.org/wiki/King's_College_London",
+            "labels": [
+                {
+                    "label": "Coleg y Brenin, Llundain",
+                    "iso639": "cy"
+                }
+            ],
+            "country": {
+                "country_name": "United Kingdom",
+                "country_code": "GB"
+            },
+            "external_ids": {
+                "ISNI": {
+                    "preferred": null,
+                    "all": [
+                        "0000 0001 2322 6764"
+                    ]
+                },
+                "FundRef": {
+                    "preferred": "100009360",
+                    "all": [
+                        "100009360",
+                        "501100004074",
+                        "501100000764",
+                        "501100000656"
+                    ]
+                },
+                "HESA": {
+                    "preferred": null,
+                    "all": [
+                        "0134"
+                    ]
+                },
+                "UCAS": {
+                    "preferred": null,
+                    "all": [
+                        "K60"
+                    ]
+                },
+                "UKPRN": {
+                    "preferred": null,
+                    "all": [
+                        "10003645"
+                    ]
+                },
+                "OrgRef": {
+                    "preferred": "158483",
+                    "all": [
+                        "158483",
+                        "158465"
+                    ]
+                },
+                "Wikidata": {
+                    "preferred": null,
+                    "all": [
+                        "Q245247"
+                    ]
+                },
+                "GRID": {
+                    "preferred": "grid.13097.3c",
+                    "all": "grid.13097.3c"
+                }
+            }
+        }
+    },
+    "Univeristy of Saskatchewan": {
+        "substring": "Univeristy of Saskatchewan",
+        "score": 0.96,
+        "matching_type": "COMMON TERMS",
+        "chosen": true,
+        "organization": {
+            "id": "https://ror.org/010x8gc63",
+            "name": "University of Saskatchewan",
+            "types": [
+                "Education"
+            ],
+            "links": [
+                "https://www.usask.ca/"
+            ],
+            "aliases": [],
+            "acronyms": [],
+            "status": "active",
+            "wikipedia_url": "http://en.wikipedia.org/wiki/University_of_Saskatchewan",
+            "labels": [
+                {
+                    "label": "Université de la saskatchewan",
+                    "iso639": "fr"
+                }
+            ],
+            "country": {
+                "country_name": "Canada",
+                "country_code": "CA"
+            },
+            "external_ids": {
+                "ISNI": {
+                    "preferred": null,
+                    "all": [
+                        "0000 0001 2154 235X"
+                    ]
+                },
+                "FundRef": {
+                    "preferred": null,
+                    "all": [
+                        "100010545",
+                        "100008920"
+                    ]
+                },
+                "OrgRef": {
+                    "preferred": "267686",
+                    "all": [
+                        "267686",
+                        "853940"
+                    ]
+                },
+                "Wikidata": {
+                    "preferred": null,
+                    "all": [
+                        "Q1514848"
+                    ]
+                },
+                "GRID": {
+                    "preferred": "grid.25152.31",
+                    "all": "grid.25152.31"
+                }
+            }
+        }
+    },
+    " beijing normal university": {
+        "substring": "beijing normal university",
+        "score": 1,
+        "matching_type": "PHRASE",
+        "chosen": true,
+        "organization": {
+            "id": "https://ror.org/022k4wk35",
+            "name": "Beijing Normal University",
+            "types": [
+                "Education"
+            ],
+            "links": [
+                "http://english.bnu.edu.cn/"
+            ],
+            "aliases": [
+                "Běijīng Shīfàn Dàxué"
+            ],
+            "acronyms": [
+                "BNU"
+            ],
+            "status": "active",
+            "wikipedia_url": "http://en.wikipedia.org/wiki/Beijing_Normal_University",
+            "labels": [
+                {
+                    "label": "北京师范大学",
+                    "iso639": "zh"
+                }
+            ],
+            "country": {
+                "country_name": "China",
+                "country_code": "CN"
+            },
+            "external_ids": {
+                "ISNI": {
+                    "preferred": null,
+                    "all": [
+                        "0000 0004 1789 9964"
+                    ]
+                },
+                "FundRef": {
+                    "preferred": "501100002726",
+                    "all": [
+                        "501100002726",
+                        "501100006132"
+                    ]
+                },
+                "OrgRef": {
+                    "preferred": null,
+                    "all": [
+                        "913002"
+                    ]
+                },
+                "Wikidata": {
+                    "preferred": null,
+                    "all": [
+                        "Q1604022"
+                    ]
+                },
+                "GRID": {
+                    "preferred": "grid.20513.35",
+                    "all": "grid.20513.35"
+                }
+            }
+        }
+    },
+    "Department of English, Université de Neuchâtel, Neuchâtel, Switzerland": {
+        "substring": "Université de Neuchâtel",
+        "score": 1,
+        "matching_type": "PHRASE",
+        "chosen": true,
+        "organization": {
+            "id": "https://ror.org/00vasag41",
+            "name": "University of Neuchâtel",
+            "types": [
+                "Education"
+            ],
+            "links": [
+                "http://www2.unine.ch/"
+            ],
+            "aliases": [],
+            "acronyms": [],
+            "status": "active",
+            "wikipedia_url": "http://en.wikipedia.org/wiki/University_of_Neuch%C3%A2tel",
+            "labels": [
+                {
+                    "label": "Université de neuchâtel",
+                    "iso639": "fr"
+                },
+                {
+                    "label": "Universität Neuenburg",
+                    "iso639": "de"
+                }
+            ],
+            "country": {
+                "country_name": "Switzerland",
+                "country_code": "CH"
+            },
+            "external_ids": {
+                "ISNI": {
+                    "preferred": null,
+                    "all": [
+                        "0000 0001 2297 7718"
+                    ]
+                },
+                "FundRef": {
+                    "preferred": null,
+                    "all": [
+                        "501100005353"
+                    ]
+                },
+                "OrgRef": {
+                    "preferred": null,
+                    "all": [
+                        "3662101"
+                    ]
+                },
+                "Wikidata": {
+                    "preferred": null,
+                    "all": [
+                        "Q541548"
+                    ]
+                },
+                "GRID": {
+                    "preferred": "grid.10711.36",
+                    "all": "grid.10711.36"
+                }
+            }
+        }
+    },
+    " university of the philippines diliman": {
+        "substring": "university of the philippines diliman",
+        "score": 1,
+        "matching_type": "PHRASE",
+        "chosen": true,
+        "organization": {
+            "id": "https://ror.org/03tbh6y23",
+            "name": "University of the Philippines Diliman",
+            "types": [
+                "Education"
+            ],
+            "links": [
+                "http://www.upd.edu.ph/"
+            ],
+            "aliases": [
+                "UP Diliman",
+                "Peyups"
+            ],
+            "acronyms": [
+                "UPD"
+            ],
+            "status": "active",
+            "wikipedia_url": "http://en.wikipedia.org/wiki/University_of_the_Philippines_Diliman",
+            "labels": [],
+            "country": {
+                "country_name": "Philippines",
+                "country_code": "PH"
+            },
+            "external_ids": {
+                "ISNI": {
+                    "preferred": null,
+                    "all": [
+                        "0000 0004 0636 6193"
+                    ]
+                },
+                "OrgRef": {
+                    "preferred": "192981",
+                    "all": [
+                        "192981",
+                        "15094369",
+                        "18889869"
+                    ]
+                },
+                "Wikidata": {
+                    "preferred": null,
+                    "all": [
+                        "Q3176886"
+                    ]
+                },
+                "GRID": {
+                    "preferred": "grid.11134.36",
+                    "all": "grid.11134.36"
+                }
+            }
+        }
+    },
+    "Departamento de Informdtica, Universidad de Jadn": {
+        "substring": "Universidad de Jadn",
+        "score": 0.95,
+        "matching_type": "FUZZY",
+        "chosen": true,
+        "organization": {
+            "id": "https://ror.org/0122p5f64",
+            "name": "University of Jaén",
+            "types": [
+                "Education"
+            ],
+            "links": [
+                "http://www10.ujaen.es/"
+            ],
+            "aliases": [],
+            "acronyms": [
+                "UJA",
+                "UJAEN"
+            ],
+            "status": "active",
+            "wikipedia_url": "http://en.wikipedia.org/wiki/University_of_Ja%C3%A9n",
+            "labels": [
+                {
+                    "label": "Universidad de Jaén",
+                    "iso639": "es"
+                }
+            ],
+            "country": {
+                "country_name": "Spain",
+                "country_code": "ES"
+            },
+            "external_ids": {
+                "ISNI": {
+                    "preferred": null,
+                    "all": [
+                        "0000 0001 2096 9837"
+                    ]
+                },
+                "FundRef": {
+                    "preferred": null,
+                    "all": [
+                        "501100007064"
+                    ]
+                },
+                "OrgRef": {
+                    "preferred": null,
+                    "all": [
+                        "12489899"
+                    ]
+                },
+                "Wikidata": {
+                    "preferred": null,
+                    "all": [
+                        "Q573144"
+                    ]
+                },
+                "GRID": {
+                    "preferred": "grid.21507.31",
+                    "all": "grid.21507.31"
+                }
+            }
+        }
+    }
+}

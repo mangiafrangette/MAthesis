@@ -1,0 +1,276 @@
+{
+    "number_of_results": 4,
+    "items": [
+        {
+            "substring": "University of Southern California/Information Sciences Institute",
+            "score": 1,
+            "matching_type": "COMMON TERMS",
+            "chosen": true,
+            "organization": {
+                "id": "https://ror.org/03taz7m60",
+                "name": "University of Southern California",
+                "types": [
+                    "Education"
+                ],
+                "links": [
+                    "http://www.usc.edu/"
+                ],
+                "aliases": [],
+                "acronyms": [
+                    "USC"
+                ],
+                "status": "active",
+                "wikipedia_url": "http://en.wikipedia.org/wiki/University_of_Southern_California",
+                "labels": [
+                    {
+                        "label": "Université de Californie du Sud",
+                        "iso639": "fr"
+                    },
+                    {
+                        "label": "Universidad del Sur de California",
+                        "iso639": "es"
+                    }
+                ],
+                "country": {
+                    "country_name": "United States",
+                    "country_code": "US"
+                },
+                "external_ids": {
+                    "ISNI": {
+                        "preferred": null,
+                        "all": [
+                            "0000 0001 2156 6853"
+                        ]
+                    },
+                    "FundRef": {
+                        "preferred": "100006034",
+                        "all": [
+                            "100006034",
+                            "100009251",
+                            "100009411",
+                            "100006815",
+                            "100008786",
+                            "100009412",
+                            "100008485",
+                            "100005577",
+                            "100005538",
+                            "100007042"
+                        ]
+                    },
+                    "OrgRef": {
+                        "preferred": "32005",
+                        "all": [
+                            "32005",
+                            "4394701",
+                            "498793"
+                        ]
+                    },
+                    "Wikidata": {
+                        "preferred": "Q4614",
+                        "all": [
+                            "Q4614",
+                            "Q6030821"
+                        ]
+                    },
+                    "GRID": {
+                        "preferred": "grid.42505.36",
+                        "all": "grid.42505.36"
+                    }
+                }
+            }
+        },
+        {
+            "substring": "University of Southern",
+            "score": 0.81,
+            "matching_type": "HEURISTICS",
+            "chosen": false,
+            "organization": {
+                "id": "https://ror.org/058zz0t50",
+                "name": "Southern California University for Professional Studies",
+                "types": [
+                    "Education"
+                ],
+                "links": [
+                    "http://www.scups.net/"
+                ],
+                "aliases": [
+                    "California Southern University"
+                ],
+                "acronyms": [
+                    "SCUPS"
+                ],
+                "status": "active",
+                "wikipedia_url": "https://en.wikipedia.org/wiki/California_Southern_University",
+                "labels": [],
+                "country": {
+                    "country_name": "United States",
+                    "country_code": "US"
+                },
+                "external_ids": {
+                    "ISNI": {
+                        "preferred": null,
+                        "all": [
+                            "0000 0004 0423 252X"
+                        ]
+                    },
+                    "OrgRef": {
+                        "preferred": null,
+                        "all": [
+                            "14325899"
+                        ]
+                    },
+                    "Wikidata": {
+                        "preferred": null,
+                        "all": [
+                            "Q5020984"
+                        ]
+                    },
+                    "GRID": {
+                        "preferred": "grid.454694.e",
+                        "all": "grid.454694.e"
+                    }
+                }
+            }
+        },
+        {
+            "substring": "University of Southern California/Information Sciences Institute",
+            "score": 0.71,
+            "matching_type": "FUZZY",
+            "chosen": false,
+            "organization": {
+                "id": "https://ror.org/01an7q238",
+                "name": "University of California, Berkeley",
+                "types": [
+                    "Education"
+                ],
+                "links": [
+                    "http://www.berkeley.edu/"
+                ],
+                "aliases": [
+                    "UC Berkeley"
+                ],
+                "acronyms": [
+                    "UCB"
+                ],
+                "status": "active",
+                "wikipedia_url": "http://en.wikipedia.org/wiki/University_of_California,_Berkeley",
+                "labels": [
+                    {
+                        "label": "Université de Californie à Berkeley",
+                        "iso639": "fr"
+                    },
+                    {
+                        "label": "Universidad de California en Berkeley",
+                        "iso639": "es"
+                    },
+                    {
+                        "label": "University of California, Berkeley",
+                        "iso639": "en"
+                    }
+                ],
+                "country": {
+                    "country_name": "United States",
+                    "country_code": "US"
+                },
+                "external_ids": {
+                    "ISNI": {
+                        "preferred": null,
+                        "all": [
+                            "0000 0001 2181 7878"
+                        ]
+                    },
+                    "FundRef": {
+                        "preferred": "100006978",
+                        "all": [
+                            "100006978",
+                            "100009220",
+                            "100011283",
+                            "100010556",
+                            "100010501",
+                            "100009773",
+                            "100009999",
+                            "100009998",
+                            "100008934",
+                            "100009521",
+                            "100009151",
+                            "100007502",
+                            "100007247"
+                        ]
+                    },
+                    "OrgRef": {
+                        "preferred": "31922",
+                        "all": [
+                            "31922",
+                            "25714291",
+                            "6009056",
+                            "4683165",
+                            "4342409"
+                        ]
+                    },
+                    "Wikidata": {
+                        "preferred": null,
+                        "all": [
+                            "Q168756"
+                        ]
+                    },
+                    "GRID": {
+                        "preferred": "grid.47840.3f",
+                        "all": "grid.47840.3f"
+                    }
+                }
+            }
+        },
+        {
+            "substring": "University of Southern California/Information Sciences Institute",
+            "score": 0.65,
+            "matching_type": "COMMON TERMS",
+            "chosen": false,
+            "organization": {
+                "id": "https://ror.org/04pyrxz13",
+                "name": "Southern California University of Health Sciences",
+                "types": [
+                    "Education"
+                ],
+                "links": [
+                    "http://www.scuhs.edu/"
+                ],
+                "aliases": [],
+                "acronyms": [
+                    "SCU",
+                    "SCUHS"
+                ],
+                "status": "active",
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Southern_California_University_of_Health_Sciences",
+                "labels": [],
+                "country": {
+                    "country_name": "United States",
+                    "country_code": "US"
+                },
+                "external_ids": {
+                    "ISNI": {
+                        "preferred": null,
+                        "all": [
+                            "0000 0004 0527 5732"
+                        ]
+                    },
+                    "OrgRef": {
+                        "preferred": null,
+                        "all": [
+                            "4776429"
+                        ]
+                    },
+                    "Wikidata": {
+                        "preferred": null,
+                        "all": [
+                            "Q7569745"
+                        ]
+                    },
+                    "GRID": {
+                        "preferred": "grid.263841.a",
+                        "all": "grid.263841.a"
+                    }
+                }
+            }
+        }
+    ]
+}
