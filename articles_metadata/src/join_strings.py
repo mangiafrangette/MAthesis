@@ -1,11 +1,13 @@
 import json
+from basic_operations import *
 
-file = "../data/json_files/DSH_final_data.json"
+# This function was used to join strings that were 
 
-with open(file, "r", encoding="utf-8") as f:
-    articles = json.load(f)
+def join_strings(file_path):
+    articles = json_load(file_path)
     for article in articles:
-        article["abstract"] = "".join(article["abstract"])
-with open(file, "w", encoding="utf-8") as fd:
-    json.dump(articles, fd)
-         
+        article["abstract"] = "CIAO"
+    json_dump(file_path, articles)
+
+file_path = "../data/json_files/scraped_metadata/DSH_final_data.json"         
+# join_strings(file_path)
