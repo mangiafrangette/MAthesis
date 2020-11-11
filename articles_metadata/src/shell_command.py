@@ -1,5 +1,7 @@
 import os
 import json
+import sys  
+sys.path.append("/Users/Francesca/Documents/MA Thesis 2020/MAthesis/articles_metadata/src/") 
 from basic_operations import *
 
 # This file was run to get Digital Scholarship in the Humanities data through a service called proxies api. It's absolutely necessary to changhe the free trial proxy (you can use Proxy API for free for 1000 api queries but it's necessary to create your own account)
