@@ -392,7 +392,7 @@
             {
                 "given": "Anna",
                 "family": "Galway",
-                "affiliation": []
+                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
             },
             {
                 "given": "Erin",
@@ -2867,11 +2867,11 @@
                 "affiliation": [
                     {
                         "original_name": "Lecturer in Media at Swinburne University Melbourne, in association with Smart Services CRC.",
-                        "normalized_name": null,
-                        "country": null,
+                        "normalized_name": "Swinburne University of Technology",
+                        "country": "Australia",
                         "identifiers": {
-                            "ror": null,
-                            "GRID": null
+                            "ror": "https://ror.org/031rekg67",
+                            "GRID": "grid.1027.4"
                         }
                     }
                 ]
@@ -3394,11 +3394,11 @@
                 "affiliation": [
                     {
                         "original_name": "Department of English University of Florida ",
-                        "normalized_name": null,
-                        "country": null,
+                        "normalized_name": "University of Florida",
+                        "country": "United States",
                         "identifiers": {
-                            "ror": null,
-                            "GRID": null
+                            "ror": "https://ror.org/02y3ad647",
+                            "GRID": "grid.15276.37"
                         }
                     }
                 ]
@@ -6528,7 +6528,7 @@
             {
                 "given": "Daniel",
                 "family": "McNamara",
-                "affiliation": []
+                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
             },
             {
                 "given": "Josh",
@@ -7958,7 +7958,7 @@
             {
                 "given": "Implementing New Knowledge Environment (INKE",
                 "family": null,
-                "affiliation": []
+                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
             }
         ],
         "keywords": [
@@ -12994,7 +12994,7 @@
             {
                 "given": "Matthew",
                 "family": "Milner",
-                "affiliation": []
+                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
             },
             {
                 "given": "Stephen",
@@ -13399,13 +13399,12 @@
                 "affiliation": [
                     {
                         "original_name": "Texas A&M University",
-                        "normalized_name": null,
-                        "country": null,
+                        "normalized_name": "Texas A&M University",
+                        "country": "United States",
                         "identifiers": {
-                            "ror": null,
-                            "GRID": null
-                        }
-                    }
+                        "ror": "https://ror.org/01f5ytq51",
+                        "GRID": "grid.264756.4"
+                    }}
                 ]
             }
         ],
@@ -13514,13 +13513,12 @@
                 "affiliation": [
                     {
                         "original_name": "Texas A&M University",
-                        "normalized_name": null,
-                        "country": null,
+                        "normalized_name": "Texas A&M University",
+                        "country": "United States",
                         "identifiers": {
-                            "ror": null,
-                            "GRID": null
-                        }
-                    }
+                        "ror": "https://ror.org/01f5ytq51",
+                        "GRID": "grid.264756.4"
+                    }}
                 ]
             },
             {
@@ -14374,11 +14372,11 @@
                 "affiliation": [
                     {
                         "original_name": "DH Group, KNAW HUC, Amsterdam, The Netherlands",
-                        "normalized_name": null,
-                        "country": null,
+                        "normalized_name": "Royal Netherlands Academy of Arts and Sciences",
+                        "country": "Netherlands",
                         "identifiers": {
-                            "ror": null,
-                            "GRID": null
+                            "ror": "https://ror.org/043c0p156",
+                            "GRID": "grid.418101.d"
                         }
                     }
                 ]
@@ -15350,11 +15348,11 @@
                 "affiliation": [
                     {
                         "original_name": "University Libraries, University of Maryland College Park",
-                        "normalized_name": null,
-                        "country": null,
+                        "normalized_name": "University of Maryland, College Park",
+                        "country": "United States",
                         "identifiers": {
-                            "ror": null,
-                            "GRID": null
+                            "ror": "https://ror.org/047s2c258",
+                            "GRID": "grid.164295.d"
                         }
                     }
                 ]
@@ -16125,11 +16123,11 @@
                 "affiliation": [
                     {
                         "original_name": "Warburg Institute, London, UK",
-                        "normalized_name": null,
-                        "country": null,
+                        "normalized_name": "University of London",
+                        "country": "United Kingdom",
                         "identifiers": {
-                            "ror": null,
-                            "GRID": null
+                            "ror": "https://ror.org/04cw6st05",
+                            "GRID": "grid.4464.2"
                         }
                     }
                 ]
@@ -17718,12 +17716,12 @@
             {
                 "given": "Iris",
                 "family": "Cuppen",
-                "affiliation": []
+                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
             },
             {
                 "given": "Inge",
                 "family": "van de Ven",
-                "affiliation": []
+                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
             },
             {
                 "given": "Menno",
@@ -17798,12 +17796,7 @@
                 "affiliation": [
                     {
                         "original_name": "Scholarly Innovation Lab, UCLA",
-                        "normalized_name": null,
-                        "country": null,
-                        "identifiers": {
-                            "ror": null,
-                            "GRID": null
-                        }
+                        "normalized_name": "University of California, Los Angeles", "country": "United States", "identifiers": {"ror": "https://ror.org/046rm7j60", "GRID": "grid.19006.3e"}
                     }
                 ]
             }
@@ -18175,11 +18168,11 @@
                 "affiliation": [
                     {
                         "original_name": "Digital Humanities Lab, KNAW Humanities Cluster, Netherlands",
-                        "normalized_name": null,
-                        "country": null,
+                        "normalized_name": "Royal Netherlands Academy of Arts and Sciences",
+                        "country": "Netherlands",
                         "identifiers": {
-                            "ror": null,
-                            "GRID": null
+                            "ror": "https://ror.org/043c0p156",
+                            "GRID": "grid.418101.d"
                         }
                     }
                 ]
@@ -18819,17 +18812,17 @@
             {
                 "given": "Aisha",
                 "family": "Cornejo",
-                "affiliation": []
+                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
             },
             {
                 "given": "Carl",
                 "family": "Bennett",
-                "affiliation": []
+                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
             },
             {
                 "given": "John",
                 "family": "Harlan",
-                "affiliation": []
+                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
             }
         ],
         "keywords": null,

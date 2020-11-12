@@ -555,7 +555,7 @@
             {
                 "given": "Yuancheng",
                 "family": "Zhu",
-                "affiliation": []
+                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
             }
         ],
         "publisher": "Department of Languages, Literatures, and Cultures",
@@ -669,14 +669,15 @@
                 "affiliation": [
                     {
                         "original_name": "Texas A&M University",
-                        "normalized_name": null,
-                        "country": null,
+                        "normalized_name": "Texas A&M University",
+                        "country": "United States",
                         "identifiers": {
-                            "ror": null,
-                            "GRID": null
-                        }
+                        "ror": "https://ror.org/01f5ytq51",
+                        "GRID": "grid.264756.4"
                     }
-                ]
+                }
+            ]
+                
             }
         ],
         "publisher": "Department of Languages, Literatures, and Cultures",
@@ -1936,7 +1937,7 @@
             {
                 "given": "James",
                 "family": "Lee",
-                "affiliation": []
+                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
             },
             {
                 "given": "Blaine",
@@ -1956,7 +1957,7 @@
             {
                 "given": "Jason",
                 "family": "Lee",
-                "affiliation": []
+                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
             },
             {
                 "given": "David",
