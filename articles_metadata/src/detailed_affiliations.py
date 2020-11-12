@@ -72,10 +72,10 @@ def filter_affiliation_set(affiliations_set):
 def ror_queries(affiliations_to_query, file_path):
     queries_results = []
     query_beginning = "https://api.ror.org/organizations?affiliation="
-    for index, item in enumerate(affiliations_to_query[:5]):
+    for index, item in enumerate(affiliations_to_query):
         #print(item["query"])
         query = query_beginning + item["query"]
-        response = requests.get(query).json()
+        response = requests.get(query, verify=False, timeout=10).json()
         #print(index, "  ", f'{item["query"]}')
         #print(response)
         if response['number_of_results'] == 0:
@@ -130,7 +130,7 @@ def chose_single_result(queries_results):
             chosen_affiliations.append(affiliation_dict)
         elif len(affiliation_dict["response"]) > 0:
             for result in affiliation_dict["response"]:
-                if not any(aff['query'] == affiliation_dict['query'] for aff in chosen_affiliations):
+                if not any(aff['original_name'] == affiliation_dict['original_name'] for aff in chosen_affiliations):
                     if result['score'] >= 0.8 and (result['matching_type'] == "PHRASE" or result['matching_type'] == "COMMON TERMS"):                        
                         affiliation_dict["response"] = result
                         chosen_affiliations.append(affiliation_dict)
@@ -148,23 +148,22 @@ def data_from_ror_results(chosen_results):
         if aff["response"] == None:
             aff = {
                     'original_name': aff["original_name"],
+                    'normalized_name': None,
+                    'country': None,
                     'identifiers': {
                         'ror': None,
                         'GRID': None
-                    },
-                    'normalized_name': None,
-                    'country': None
+                    }                    
                 } 
             def_affiliations.append(aff)
         else:
             aff = {
                     'original_name': aff["original_name"],
-                    'identifiers': {
+                    'normalized_name': aff["response"]['organization']['name'],
+                    'country': aff["response"]['organization']['country']['country_name'],'identifiers': {
                         'ror': aff["response"]['organization']['id'],
                         'GRID': aff["response"]['organization']['external_ids']['GRID']['preferred']
-                    },
-                    'normalized_name': aff["response"]['organization']['name'],
-                    'country': aff["response"]['organization']['country']['country_name']
+                    }  
                 } 
             def_affiliations.append(aff) 
     
@@ -185,26 +184,23 @@ def fill_affiliations_json(path_of_files, data_affiliations_dict):
     for file in os.listdir(folder):
         filename = os.fsdecode(file)
         if filename.endswith('.json'):  # whatever file types you're using...
-            journal_dict = import_json_dict(f"{path_of_files}/{filename}")
-            filled_journal_dict = copy.deepcopy(journal_dict)
-            for article in filled_journal_dict:
-                if article['authors'] is not None:
-                    for author in article['authors']:
-                        if isinstance(author, dict):
-                            if 'affiliation' in author.keys():
-                                if author['affiliation'] is not None:
-                                    #print(article['article_title'])
-                                    #print(author['affiliation'])
-                                    if len(author['affiliation']) > 0 and isinstance(author['affiliation'][0], str):
-                                        for affiliation, result in itertools.product(author['affiliation'], data_affiliations_dict):
-                                            print(affiliation)
-                                            print(result)
-                                            if affiliation == result["original_name"]:
-                                                author['affiliation'] = result
-            filename_without_extension = filename.split('.')[0]
-            new_filename = f'{filename_without_extension}_filled_aff.json'
-            with open(f"{path_of_files}/{new_filename}", "w", encoding="utf-8") as f:
-                json.dump(data_affiliations_dict, f)
+            with open(f"{path_of_files}/{filename}", "r", encoding="utf-8") as fd:
+                filled_journal_dict = json.load(fd)
+                for article in filled_journal_dict:
+                    if article['authors'] is not None:
+                        for author in article['authors']:
+                            if isinstance(author, dict):
+                                if 'affiliation' in author.keys():
+                                    if author['affiliation'] is not None:
+                                        
+                                        if len(author['affiliation']) > 0 and isinstance(author['affiliation'][0], str):
+                                            for affiliation, result in itertools.product(author['affiliation'], data_affiliations_dict):
+                                                if affiliation == result["original_name"]:
+                                                    author['affiliation'] = result
+                filename_without_extension = filename.split('.')[0]
+                new_filename = f'{filename_without_extension}_filled_aff.json'
+                with open(f"{path_of_files}/{new_filename}", "w", encoding="utf-8") as f:
+                    json.dump(filled_journal_dict, f)
 
 
 def main():
@@ -212,14 +208,14 @@ def main():
     ror_queries_file_path = "../data/json_files/affiliations/ror_queries.json"
 
     # Generate the set of the affiliation in the corpus of journals
-    affiliations_set = create_affiliations_set(path_of_json_files)
+    # affiliations_set = create_affiliations_set(path_of_json_files)
 
     # filter_affiliation_set(affiliations_set)
 
     # Comment the following lines if ror queries have already been saved and load them with the next lines
-    queries_results = ror_queries(filter_affiliation_set(affiliations_set), ror_queries_file_path)
+    """ queries_results = ror_queries(filter_affiliation_set(affiliations_set), ror_queries_file_path)
     with open(ror_queries_file_path, "w", encoding="utf-8") as file:
-        json.dump(queries_results, file)
+        json.dump(queries_results, file) """
 
     # Comment the following lines if ror queries have NOT already been saved and save them with the previous lines
     with open(ror_queries_file_path, "r", encoding="utf-8") as file:
