@@ -192,19 +192,23 @@ def fill_affiliations_json(path_of_files, data_affiliations_dict):
                             if isinstance(author, dict):
                                 if 'affiliation' in author.keys():
                                     if author['affiliation'] is not None:
-                                        
-                                        if len(author['affiliation']) > 0 and isinstance(author['affiliation'][0], str):
-                                            for affiliation, result in itertools.product(author['affiliation'], data_affiliations_dict):
-                                                if affiliation == result["original_name"]:
-                                                    author['affiliation'] = result
+                                        list_of_affiliations = []
+                                        """ if len(author['affiliation']) > 0 and isinstance(author['affiliation'][0], str): """
+                                        for affiliation, result in itertools.product(author['affiliation'], data_affiliations_dict):
+                                            if affiliation == result["original_name"]:
+                                                #print(affiliation)
+                                                #print(result["original_name"])
+                                                list_of_affiliations.append(result)
+                                        author['affiliation'] = list_of_affiliations
+
                 filename_without_extension = filename.split('.')[0]
                 new_filename = f'{filename_without_extension}_filled_aff.json'
-                with open(f"{path_of_files}/{new_filename}", "w", encoding="utf-8") as f:
-                    json.dump(filled_journal_dict, f)
+                with open(f"../data/json_files/complete_dataset/{new_filename}", "w", encoding="utf-8") as f:
+                    json.dump(filled_journal_dict, f, ensure_ascii=False)
 
 
 def main():
-    path_of_json_files = "../data/json_files/my_schema/"
+    path_of_json_files = "../data/json_files/no_country_dataset/"
     ror_queries_file_path = "../data/json_files/affiliations/ror_queries.json"
 
     # Generate the set of the affiliation in the corpus of journals
