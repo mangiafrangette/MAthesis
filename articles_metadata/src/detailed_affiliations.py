@@ -222,8 +222,8 @@ def main():
         json.dump(queries_results, file) """
 
     # Comment the following lines if ror queries have NOT already been saved and save them with the previous lines
-    with open(ror_queries_file_path, "r", encoding="utf-8") as file:
-        queries_results = json.load(file)
+    #with open(ror_queries_file_path, "r", encoding="utf-8") as file:
+    #    queries_results = json.load(file)
 
     # Chose a threshold with which ror results will be selected
     """ threshold = 0.9
@@ -232,13 +232,13 @@ def main():
     with open("../data/json_files/affiliations/ror_selected.json", "w", encoding="utf-8") as file:
         json.dump(selected_affiliations_dict, file) """
 
-    chosen_results = chose_single_result(queries_results)
-    with open("../data/json_files/affiliations/ror_single_result.json", "w", encoding="utf-8") as file:
-        json.dump(chosen_results, file)
+    #chosen_results = chose_single_result(queries_results)
+   # with open("../data/json_files/affiliations/ror_single_result.json", "w", encoding="utf-8") as file:
+    #    json.dump(chosen_results, file)
 
-    data_affiliations_dict = data_from_ror_results(chosen_results)
+    #data_affiliations_dict = data_from_ror_results(chosen_results)
 
-    fill_affiliations_json(path_of_json_files, data_affiliations_dict)
+    #fill_affiliations_json(path_of_json_files, data_affiliations_dict)
 
 
 if __name__ == '__main__':
