@@ -1,0 +1,528 @@
+[
+    {
+        "url": null,
+        "identifier": {
+            "string_id": null,
+            "id_scheme": null
+        },
+        "abstract": "In theory, digital humanities projects should rely on standards for  text  and  character  encoding.  For  character  encoding,         the standard recommended by TEI P5 (TEI Consortium, eds.         Guidelines  for  Electronic  Text  Encoding  and  Interchange         [last  modiﬁ ed:  03  Feb  2008],  http://www.tei-c.org/P5/)  is         the  Unicode  Standard  (http://www.unicode.org/standard/standard.html).  The  choices  made  by  digital  projects  in         character encoding can be critical, as they impact text analysis         and language processing, as well as the creation, storage, and         retrieval of such textual digital resources. This talk will discuss         new  characters  and  important  features  of  Unicode  5.0  and         5.1 that could impact digital humanities projects, discuss the         process of proposing characters into Unicode, and provide the         theoretical underpinnings for acceptance of new characters by 
+        the standards committees. It will also give speciﬁ c case studies         from  recent  Unicode  proposals  in  which  certain  characters         were  not  accepted,  relaying  the  discussion  in  the  standards         committees  on  why  they  were  not  approved.  This  latter         topic is important, because decisions made by the standards         committees ultimately will affect text encoding.        
+        For  those  characters  not  in  Unicode,  the  P5  version  of  the 
+        TEI Guidelines deftly describes what digital projects should do 
+        in Chapter 5 (TEI Consortium, eds. “Representation of Non-
+        standard  Characters  and  Glyphs,”  Guidelines  for  Electronic 
+        Text  Encoding  and  Interchange  [last  modiﬁ ed:  03  Feb 
+        2008],  http://www.tei-c.org/release/doc/tei-p5-doc/en/html/
+        WD.html  [accessed:  24  March  2008]),  but  one  needs  to  be 
+        aware of the new characters that are in the standards approval 
+        process. The presentation will brieﬂ y discuss where to go to 
+        look for the new characters on public websites, which are “in 
+        the pipeline.”
+        
+        The  release  of  Unicode  5.0  in  July  2007  has  meant  that  an 
+        additional  1,369  new  characters  have  been  added  to  the 
+        standard, and Unicode 5.1, due to be released in April 2008, 
+        will  add  1,624  more 
+        (http://www.unicode.org/versions/
+        Unicode5.1.0/) In order to create projects that take advantage 
+        of what Unicode and Unicode-compliant software offers, one 
+        must  be  kept  abreast  of  developments  in  this  standard  and 
+        make appropriate changes to fonts and documents as needed. 
+        For projects involving medieval and historic texts, for example, 
+        the release of 5.1 will include a signiﬁ cant number of European 
+        medieval  letters,  as  well  as  new  Greek  and  Latin  epigraphic 
+        letters, editorial brackets and half-brackets, Coptic combining 
+        marks,  Roman  weights  and  measures  and  coin  symbols,  Old 
+        Cyrillic letters and Old Slavonic combining letters. The Menota 
+        project 
+        (http://www.menota.org/guidelines-2/convertors/
+        convert_2-0-b.page),  EMELD’s  “School  of  Best  Practice” 
+        (http://linguistlist.org/emeld/school/classroom/conversion/",
+        "article_title": "Unicode 5.0 and 5.1 and Digital Humanities Projects",
+        "date": null,
+        "publisher": "",
+        "authors": [
+            {
+                "given": "Deborah",
+                "family": "Winthrop Anderson",
+                "affiliation": ["UC Berkeley, USA"]
+            },
+            {
+                "given": "",
+                "family": "",
+                "affiliation": null
+            },
+            {
+                "given": "",
+                "family": "",
+                "affiliation": null
+            }
+        ],
+        "keywords": null,
+        "journal_title": "ADHO Conference",
+        "volume": null,
+        "issue": null,
+        "ISSN": [
+            {
+                "value": null,
+                "type": null
+            }
+        ]
+    },
+    {
+        "url": null,
+        "identifier": {
+            "string_id": null,
+            "id_scheme": null
+        },
+        "abstract": " ",
+        "article_title": "",
+        "date": null,
+        "publisher": "",
+        "authors": [
+            {
+                "given": "",
+                "family": "",
+                "affiliation": null
+            },
+            {
+                "given": "",
+                "family": "",
+                "affiliation": null
+            },
+            {
+                "given": "",
+                "family": "",
+                "affiliation": null
+            }
+        ],
+        "keywords": null,
+        "journal_title": "ADHO Conference",
+        "volume": null,
+        "issue": null,
+        "ISSN": [
+            {
+                "value": null,
+                "type": null
+            }
+        ]
+    },
+    {
+        "url": null,
+        "identifier": {
+            "string_id": null,
+            "id_scheme": null
+        },
+        "abstract": " ",
+        "article_title": "",
+        "date": null,
+        "publisher": "",
+        "authors": [
+            {
+                "given": "",
+                "family": "",
+                "affiliation": null
+            },
+            {
+                "given": "",
+                "family": "",
+                "affiliation": null
+            },
+            {
+                "given": "",
+                "family": "",
+                "affiliation": null
+            }
+        ],
+        "keywords": null,
+        "journal_title": "ADHO Conference",
+        "volume": null,
+        "issue": null,
+        "ISSN": [
+            {
+                "value": null,
+                "type": null
+            }
+        ]
+    },
+    {
+        "url": null,
+        "identifier": {
+            "string_id": null,
+            "id_scheme": null
+        },
+        "abstract": " ",
+        "article_title": "",
+        "date": null,
+        "publisher": "",
+        "authors": [
+            {
+                "given": "",
+                "family": "",
+                "affiliation": null
+            },
+            {
+                "given": "",
+                "family": "",
+                "affiliation": null
+            },
+            {
+                "given": "",
+                "family": "",
+                "affiliation": null
+            }
+        ],
+        "keywords": null,
+        "journal_title": "ADHO Conference",
+        "volume": null,
+        "issue": null,
+        "ISSN": [
+            {
+                "value": null,
+                "type": null
+            }
+        ]
+    },
+    {
+        "url": null,
+        "identifier": {
+            "string_id": null,
+            "id_scheme": null
+        },
+        "abstract": " ",
+        "article_title": "",
+        "date": null,
+        "publisher": "",
+        "authors": [
+            {
+                "given": "",
+                "family": "",
+                "affiliation": null
+            },
+            {
+                "given": "",
+                "family": "",
+                "affiliation": null
+            },
+            {
+                "given": "",
+                "family": "",
+                "affiliation": null
+            }
+        ],
+        "keywords": null,
+        "journal_title": "ADHO Conference",
+        "volume": null,
+        "issue": null,
+        "ISSN": [
+            {
+                "value": null,
+                "type": null
+            }
+        ]
+    },
+    {
+        "url": null,
+        "identifier": {
+            "string_id": null,
+            "id_scheme": null
+        },
+        "abstract": " ",
+        "article_title": "",
+        "date": null,
+        "publisher": "",
+        "authors": [
+            {
+                "given": "",
+                "family": "",
+                "affiliation": null
+            },
+            {
+                "given": "",
+                "family": "",
+                "affiliation": null
+            },
+            {
+                "given": "",
+                "family": "",
+                "affiliation": null
+            }
+        ],
+        "keywords": null,
+        "journal_title": "ADHO Conference",
+        "volume": null,
+        "issue": null,
+        "ISSN": [
+            {
+                "value": null,
+                "type": null
+            }
+        ]
+    },
+    {
+        "url": null,
+        "identifier": {
+            "string_id": null,
+            "id_scheme": null
+        },
+        "abstract": " ",
+        "article_title": "",
+        "date": null,
+        "publisher": "",
+        "authors": [
+            {
+                "given": "",
+                "family": "",
+                "affiliation": null
+            },
+            {
+                "given": "",
+                "family": "",
+                "affiliation": null
+            },
+            {
+                "given": "",
+                "family": "",
+                "affiliation": null
+            }
+        ],
+        "keywords": null,
+        "journal_title": "ADHO Conference",
+        "volume": null,
+        "issue": null,
+        "ISSN": [
+            {
+                "value": null,
+                "type": null
+            }
+        ]
+    },
+    {
+        "url": null,
+        "identifier": {
+            "string_id": null,
+            "id_scheme": null
+        },
+        "abstract": " ",
+        "article_title": "",
+        "date": null,
+        "publisher": "",
+        "authors": [
+            {
+                "given": "",
+                "family": "",
+                "affiliation": null
+            },
+            {
+                "given": "",
+                "family": "",
+                "affiliation": null
+            },
+            {
+                "given": "",
+                "family": "",
+                "affiliation": null
+            }
+        ],
+        "keywords": null,
+        "journal_title": "ADHO Conference",
+        "volume": null,
+        "issue": null,
+        "ISSN": [
+            {
+                "value": null,
+                "type": null
+            }
+        ]
+    },
+    {
+        "url": null,
+        "identifier": {
+            "string_id": null,
+            "id_scheme": null
+        },
+        "abstract": " ",
+        "article_title": "",
+        "date": null,
+        "publisher": "",
+        "authors": [
+            {
+                "given": "",
+                "family": "",
+                "affiliation": null
+            },
+            {
+                "given": "",
+                "family": "",
+                "affiliation": null
+            },
+            {
+                "given": "",
+                "family": "",
+                "affiliation": null
+            }
+        ],
+        "keywords": null,
+        "journal_title": "ADHO Conference",
+        "volume": null,
+        "issue": null,
+        "ISSN": [
+            {
+                "value": null,
+                "type": null
+            }
+        ]
+    },
+    {
+        "url": null,
+        "identifier": {
+            "string_id": null,
+            "id_scheme": null
+        },
+        "abstract": " ",
+        "article_title": "",
+        "date": null,
+        "publisher": "",
+        "authors": [
+            {
+                "given": "",
+                "family": "",
+                "affiliation": null
+            },
+            {
+                "given": "",
+                "family": "",
+                "affiliation": null
+            },
+            {
+                "given": "",
+                "family": "",
+                "affiliation": null
+            }
+        ],
+        "keywords": null,
+        "journal_title": "ADHO Conference",
+        "volume": null,
+        "issue": null,
+        "ISSN": [
+            {
+                "value": null,
+                "type": null
+            }
+        ]
+    },
+    {
+        "url": null,
+        "identifier": {
+            "string_id": null,
+            "id_scheme": null
+        },
+        "abstract": " ",
+        "article_title": "",
+        "date": null,
+        "publisher": "",
+        "authors": [
+            {
+                "given": "",
+                "family": "",
+                "affiliation": null
+            },
+            {
+                "given": "",
+                "family": "",
+                "affiliation": null
+            },
+            {
+                "given": "",
+                "family": "",
+                "affiliation": null
+            }
+        ],
+        "keywords": null,
+        "journal_title": "ADHO Conference",
+        "volume": null,
+        "issue": null,
+        "ISSN": [
+            {
+                "value": null,
+                "type": null
+            }
+        ]
+    },
+    {
+        "url": null,
+        "identifier": {
+            "string_id": null,
+            "id_scheme": null
+        },
+        "abstract": " ",
+        "article_title": "",
+        "date": null,
+        "publisher": "",
+        "authors": [
+            {
+                "given": "",
+                "family": "",
+                "affiliation": null
+            },
+            {
+                "given": "",
+                "family": "",
+                "affiliation": null
+            },
+            {
+                "given": "",
+                "family": "",
+                "affiliation": null
+            }
+        ],
+        "keywords": null,
+        "journal_title": "ADHO Conference",
+        "volume": null,
+        "issue": null,
+        "ISSN": [
+            {
+                "value": null,
+                "type": null
+            }
+        ]
+    },
+    {
+        "url": null,
+        "identifier": {
+            "string_id": null,
+            "id_scheme": null
+        },
+        "abstract": " ",
+        "article_title": "",
+        "date": null,
+        "publisher": "",
+        "authors": [
+            {
+                "given": "",
+                "family": "",
+                "affiliation": null
+            },
+            {
+                "given": "",
+                "family": "",
+                "affiliation": null
+            },
+            {
+                "given": "",
+                "family": "",
+                "affiliation": null
+            }
+        ],
+        "keywords": null,
+        "journal_title": "ADHO Conference",
+        "volume": null,
+        "issue": null,
+        "ISSN": [
+            {
+                "value": null,
+                "type": null
+            }
+        ]
+    }
+]

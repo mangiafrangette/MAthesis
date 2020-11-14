@@ -10,7 +10,7 @@ def json_load(file_path):
 
 def json_dump(file_path, json_dict):
     with open(file_path, "w", encoding="utf-8") as fd:
-        json.dump(json_dict, fd)
+        json.dump(json_dict, fd, ensure_ascii=False)
 
 def paths_from_directory(dir_path, extension):
     folder = os.fsencode(dir_path)

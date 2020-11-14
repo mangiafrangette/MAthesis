@@ -761,9 +761,9 @@
                         "normalized_name": "Texas A&M University",
                         "country": "United States",
                         "identifiers": {
-                        "ror": "https://ror.org/01f5ytq51",
-                        "GRID": "grid.264756.4"
-                    }
+                            "ror": "https://ror.org/01f5ytq51",
+                            "GRID": "grid.264756.4"
+                        }
                     }
                 ]
             },
@@ -2636,7 +2636,7 @@
                 "affiliation": [
                     {
                         "original_name": "School of Communication and Design, Sun Yat-Sen University, Guangzhou, China",
-                        "normalized_name": "Sun Yat-sen University",,
+                        "normalized_name": "Sun Yat-sen University",
                         "country": "China",
                         "identifiers": {
                             "ror": "https://ror.org/0064kty71",
@@ -6407,8 +6407,8 @@
                         "normalized_name": "Texas A&M University",
                         "country": "United States",
                         "identifiers": {
-                        "ror": "https://ror.org/01f5ytq51",
-                        "GRID": "grid.264756.4"
+                            "ror": "https://ror.org/01f5ytq51",
+                            "GRID": "grid.264756.4"
                         }
                     }
                 ]
@@ -8828,7 +8828,17 @@
             {
                 "given": "Abdelhamid",
                 "family": "Elewa",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -9249,7 +9259,7 @@
                         "identifiers": {
                             "ror": "https://ror.org/04x6kq749",
                             "GRID": "grid.450092.a"
-                        }}
+                        }
                     }
                 ]
             },
@@ -11893,7 +11903,12 @@
                 "affiliation": [
                     {
                         "original_name": "University of California, Los Angeles, USA",
-                        "normalized_name": "University of California, Los Angeles", "country": "United States", "identifiers": {"ror": "https://ror.org/046rm7j60", "GRID": "grid.19006.3e"}
+                        "normalized_name": "University of California, Los Angeles",
+                        "country": "United States",
+                        "identifiers": {
+                            "ror": "https://ror.org/046rm7j60",
+                            "GRID": "grid.19006.3e"
+                        }
                     }
                 ]
             }
@@ -14996,12 +15011,32 @@
             {
                 "given": "Vaibhav",
                 "family": "Agarwal",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             },
             {
                 "given": "Parteek",
                 "family": "Kumar",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -15075,7 +15110,17 @@
             {
                 "given": "Thomas",
                 "family": "Merriam",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -15368,7 +15413,17 @@
             {
                 "given": "Stefan",
                 "family": "Schöberlein",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -15945,42 +16000,122 @@
             {
                 "given": "Laura C.",
                 "family": "Mandell",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             },
             {
                 "given": "Clemens",
                 "family": "Neudecker",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             },
             {
                 "given": "Apostolos",
                 "family": "Antonacopoulos",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             },
             {
                 "given": "Elizabeth",
                 "family": "Grumbach",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             },
             {
                 "given": "Loretta",
                 "family": "Auvil",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             },
             {
                 "given": "Matthew J.",
                 "family": "Christy",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             },
             {
                 "given": "Jacob A.",
                 "family": "Heil",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             },
             {
                 "given": "Todd",
                 "family": "Samuelson",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -16267,7 +16402,17 @@
             {
                 "given": "Enrico",
                 "family": "Tuccinardi",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -17183,42 +17328,122 @@
             {
                 "given": "Alejandro",
                 "family": "Giacometti",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             },
             {
                 "given": "Alberto",
                 "family": "Campagnolo",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             },
             {
                 "given": "Lindsay",
                 "family": "MacDonald",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             },
             {
                 "given": "Simon",
                 "family": "Mahony",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             },
             {
                 "given": "Stuart",
                 "family": "Robson",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             },
             {
                 "given": "Tim",
                 "family": "Weyrich",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             },
             {
                 "given": "Melissa",
                 "family": "Terras",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             },
             {
                 "given": "Adam",
                 "family": "Gibson",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -17928,22 +18153,62 @@
             {
                 "given": "Hossein",
                 "family": "Taghi-Zadeh",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             },
             {
                 "given": "Mohammad Hadi",
                 "family": "Sadreddini",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             },
             {
                 "given": "Mohammad Hasan",
                 "family": "Diyanati",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             },
             {
                 "given": "Amir Hossein",
                 "family": "Rasekh",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -17975,7 +18240,17 @@
             {
                 "given": "Maciej",
                 "family": "Eder",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -18205,7 +18480,17 @@
             {
                 "given": "Stephen",
                 "family": "Brown",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -18438,22 +18723,62 @@
             {
                 "given": "Radek",
                 "family": "Čech",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             },
             {
                 "given": "Ján",
                 "family": "Mačutek",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             },
             {
                 "given": "Zdeněk",
                 "family": "Žabokrtský",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             },
             {
                 "given": "Aleš",
                 "family": "Horák",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -18485,17 +18810,47 @@
             {
                 "given": "Alexander A. G.",
                 "family": "Gladwin",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             },
             {
                 "given": "Matthew J.",
                 "family": "Lavin",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             },
             {
                 "given": "Daniel M.",
                 "family": "Look",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -18614,12 +18969,32 @@
             {
                 "given": "Saeed",
                 "family": "Farzi",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             },
             {
                 "given": "Heshaam",
                 "family": "Faili",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -18651,7 +19026,17 @@
             {
                 "given": "Alexander",
                 "family": "Koplenig",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -18683,37 +19068,107 @@
             {
                 "given": "Giuseppe",
                 "family": "Rizzo",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             },
             {
                 "given": "Federico",
                 "family": "Tomassetti",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             },
             {
                 "given": "Antonio",
                 "family": "Vetrò",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             },
             {
                 "given": "Luca",
                 "family": "Ardito",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             },
             {
                 "given": "Marco",
                 "family": "Torchiano",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             },
             {
                 "given": "Maurizio",
                 "family": "Morisio",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             },
             {
                 "given": "Raphaël",
                 "family": "Troncy",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -18745,17 +19200,47 @@
             {
                 "given": "Mike",
                 "family": "Baxter",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             },
             {
                 "given": "Daria",
                 "family": "Khitrova",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             },
             {
                 "given": "Yuri",
                 "family": "Tsivian",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -18787,7 +19272,17 @@
             {
                 "given": "Alexander",
                 "family": "Koplenig",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -18819,7 +19314,17 @@
             {
                 "given": "Jack",
                 "family": "Elliott",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -18851,37 +19356,107 @@
             {
                 "given": "Valentin",
                 "family": "Gold",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             },
             {
                 "given": "Mennatallah",
                 "family": "El-Assady",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             },
             {
                 "given": "Tina",
                 "family": "Bögel",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             },
             {
                 "given": "Christian",
                 "family": "Rohrdantz",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             },
             {
                 "given": "Miriam",
                 "family": "Butt",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             },
             {
                 "given": "Katharina",
                 "family": "Holzinger",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             },
             {
                 "given": "Daniel",
                 "family": "Keim",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -20089,7 +20664,12 @@
                 "affiliation": [
                     {
                         "original_name": "UCLA, Los Angeles, California",
-                        "normalized_name": "University of California, Los Angeles", "country": "United States", "identifiers": {"ror": "https://ror.org/046rm7j60", "GRID": "grid.19006.3e"}
+                        "normalized_name": "University of California, Los Angeles",
+                        "country": "United States",
+                        "identifiers": {
+                            "ror": "https://ror.org/046rm7j60",
+                            "GRID": "grid.19006.3e"
+                        }
                     }
                 ]
             }
@@ -23021,7 +23601,12 @@
                 "affiliation": [
                     {
                         "original_name": "University of Marburg",
-                        "normalized_name": "Philipp University of Marburg", "country": "Germany", "identifiers": {"ror": "https://ror.org/01rdrb571", "GRID": "grid.10253.35"}
+                        "normalized_name": "Philipp University of Marburg",
+                        "country": "Germany",
+                        "identifiers": {
+                            "ror": "https://ror.org/01rdrb571",
+                            "GRID": "grid.10253.35"
+                        }
                     },
                     {
                         "original_name": "University of Zurich",
@@ -23040,7 +23625,12 @@
                 "affiliation": [
                     {
                         "original_name": "University of Marburg",
-                        "normalized_name": "Philipp University of Marburg", "country": "Germany", "identifiers": {"ror": "https://ror.org/01rdrb571", "GRID": "grid.10253.35"}
+                        "normalized_name": "Philipp University of Marburg",
+                        "country": "Germany",
+                        "identifiers": {
+                            "ror": "https://ror.org/01rdrb571",
+                            "GRID": "grid.10253.35"
+                        }
                     }
                 ]
             }
@@ -23692,7 +24282,17 @@
             {
                 "given": "M.",
                 "family": "Eder",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -24105,7 +24705,7 @@
                 "affiliation": [
                     {
                         "original_name": "Department of Digital Humanities, Kings College, London, UK",
-                        "normalized_name":"King's College London",
+                        "normalized_name": "King's College London",
                         "country": "United Kingdom",
                         "identifiers": {
                             "ror": "https://ror.org/0220mzb33",
@@ -25687,11 +26287,11 @@
                     {
                         "original_name": "Istituto di Linguistica Computazionale ‘Antonio Zampolli’ – CNR, Italy",
                         "normalized_name": "Institute for Computational Linguistics “A. Zampolli”",
-                    "country": "Italy",
-                    "identifiers": {
-                        "ror": "https://ror.org/028g3pe33",
-                        "GRID": "grid.503055.6"
-                    }
+                        "country": "Italy",
+                        "identifiers": {
+                            "ror": "https://ror.org/028g3pe33",
+                            "GRID": "grid.503055.6"
+                        }
                     }
                 ]
             },
@@ -26658,7 +27258,17 @@
             {
                 "given": "R.",
                 "family": "Bod",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -30662,7 +31272,17 @@
             {
                 "given": "N.",
                 "family": "Shrefler",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -31840,7 +32460,17 @@
             {
                 "given": "T.",
                 "family": "Merriam",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -32955,8 +33585,8 @@
                         "normalized_name": "Texas A&M University",
                         "country": "United States",
                         "identifiers": {
-                        "ror": "https://ror.org/01f5ytq51",
-                        "GRID": "grid.264756.4"
+                            "ror": "https://ror.org/01f5ytq51",
+                            "GRID": "grid.264756.4"
                         }
                     }
                 ]
@@ -32970,8 +33600,8 @@
                         "normalized_name": "Texas A&M University",
                         "country": "United States",
                         "identifiers": {
-                        "ror": "https://ror.org/01f5ytq51",
-                        "GRID": "grid.264756.4"
+                            "ror": "https://ror.org/01f5ytq51",
+                            "GRID": "grid.264756.4"
                         }
                     }
                 ]
@@ -37380,8 +38010,8 @@
                         "normalized_name": "Texas A&M University",
                         "country": "United States",
                         "identifiers": {
-                        "ror": "https://ror.org/01f5ytq51",
-                        "GRID": "grid.264756.4"
+                            "ror": "https://ror.org/01f5ytq51",
+                            "GRID": "grid.264756.4"
                         }
                     }
                 ]
@@ -37395,8 +38025,8 @@
                         "normalized_name": "Texas A&M University",
                         "country": "United States",
                         "identifiers": {
-                        "ror": "https://ror.org/01f5ytq51",
-                        "GRID": "grid.264756.4"
+                            "ror": "https://ror.org/01f5ytq51",
+                            "GRID": "grid.264756.4"
                         }
                     }
                 ]
@@ -37410,8 +38040,8 @@
                         "normalized_name": "Texas A&M University",
                         "country": "United States",
                         "identifiers": {
-                        "ror": "https://ror.org/01f5ytq51",
-                        "GRID": "grid.264756.4"
+                            "ror": "https://ror.org/01f5ytq51",
+                            "GRID": "grid.264756.4"
                         }
                     }
                 ]
@@ -37425,8 +38055,8 @@
                         "normalized_name": "Texas A&M University",
                         "country": "United States",
                         "identifiers": {
-                        "ror": "https://ror.org/01f5ytq51",
-                        "GRID": "grid.264756.4"
+                            "ror": "https://ror.org/01f5ytq51",
+                            "GRID": "grid.264756.4"
                         }
                     }
                 ]
@@ -37440,8 +38070,8 @@
                         "normalized_name": "Texas A&M University",
                         "country": "United States",
                         "identifiers": {
-                        "ror": "https://ror.org/01f5ytq51",
-                        "GRID": "grid.264756.4"
+                            "ror": "https://ror.org/01f5ytq51",
+                            "GRID": "grid.264756.4"
                         }
                     }
                 ]
@@ -37455,9 +38085,9 @@
                         "normalized_name": "Texas A&M University",
                         "country": "United States",
                         "identifiers": {
-                        "ror": "https://ror.org/01f5ytq51",
-                        "GRID": "grid.264756.4"
-                    }
+                            "ror": "https://ror.org/01f5ytq51",
+                            "GRID": "grid.264756.4"
+                        }
                     }
                 ]
             }
@@ -39093,7 +39723,17 @@
             {
                 "given": "P.",
                 "family": "Fink",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -40943,7 +41583,17 @@
             {
                 "given": "D.",
                 "family": "Mannion",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -41062,7 +41712,17 @@
             {
                 "given": "P.",
                 "family": "Baker",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -41136,7 +41796,17 @@
             {
                 "given": "J.",
                 "family": "Miller",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -41168,7 +41838,17 @@
             {
                 "given": "M. E.",
                 "family": "Graham",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -41200,7 +41880,17 @@
             {
                 "given": "K.",
                 "family": "van-Oskam",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -41232,7 +41922,17 @@
             {
                 "given": "L.",
                 "family": "Barwick",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -41264,7 +41964,17 @@
             {
                 "given": "R.",
                 "family": "Williams",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -41296,7 +42006,17 @@
             {
                 "given": "M.",
                 "family": "Terras",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -41328,7 +42048,17 @@
             {
                 "given": "S.",
                 "family": "Keene",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -41360,7 +42090,17 @@
             {
                 "given": "E.",
                 "family": "Losh",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -41392,7 +42132,17 @@
             {
                 "given": "M.",
                 "family": "Jessop",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -41424,7 +42174,17 @@
             {
                 "given": "J.",
                 "family": "Fry",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -41456,7 +42216,17 @@
             {
                 "given": "N. S.",
                 "family": "Dash",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -41488,7 +42258,17 @@
             {
                 "given": "G.",
                 "family": "Tambouratzis",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -41520,7 +42300,17 @@
             {
                 "given": "T.",
                 "family": "Merriam",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -41552,7 +42342,17 @@
             {
                 "given": "W.",
                 "family": "McCarty",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -41584,7 +42384,17 @@
             {
                 "given": "G.",
                 "family": "Tambouratzis",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -41616,7 +42426,17 @@
             {
                 "given": "M.",
                 "family": "Dahlstrom",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -41648,7 +42468,17 @@
             {
                 "given": "E.",
                 "family": "Vanhoutte",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -41680,7 +42510,17 @@
             {
                 "given": "E. S.",
                 "family": "Ore",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -41712,7 +42552,17 @@
             {
                 "given": "E.",
                 "family": "Vanhoutte",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -41744,7 +42594,17 @@
             {
                 "given": "B.",
                 "family": "Van Raemdonck",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -41776,7 +42636,17 @@
             {
                 "given": "J.",
                 "family": "Carlquist",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -41808,7 +42678,17 @@
             {
                 "given": "K. G.",
                 "family": "Johansson",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -41840,7 +42720,17 @@
             {
                 "given": "O. E.",
                 "family": "Haugen",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -41872,7 +42762,17 @@
             {
                 "given": "H.",
                 "family": "Boe",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -41904,7 +42804,17 @@
             {
                 "given": "A.",
                 "family": "McEnery",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -41936,7 +42846,17 @@
             {
                 "given": "M.",
                 "family": "Spencer",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -42151,7 +43071,17 @@
             {
                 "given": "D. L.",
                 "family": "Hoover",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -42183,7 +43113,17 @@
             {
                 "given": "B. L.",
                 "family": "de la Cruz",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -42215,7 +43155,17 @@
             {
                 "given": " Grace Y. W.",
                 "family": "Tse",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -42247,7 +43197,17 @@
             {
                 "given": "G. K.",
                 "family": "Barr",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -42279,7 +43239,17 @@
             {
                 "given": "L.",
                 "family": "Degand",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -42311,7 +43281,17 @@
             {
                 "given": "S.",
                 "family": "Sinclair",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -42343,7 +43323,17 @@
             {
                 "given": "G.",
                 "family": "Simons",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -42375,7 +43365,17 @@
             {
                 "given": "G.",
                 "family": "Rockwell",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -42407,7 +43407,17 @@
             {
                 "given": "J.",
                 "family": "Bradley",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -42439,7 +43449,17 @@
             {
                 "given": "S.",
                 "family": "Ramsay",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -42471,12 +43491,32 @@
             {
                 "given": "L.",
                 "family": "Vetter",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             },
             {
                 "given": "Jarom",
                 "family": "McDonald",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -42508,7 +43548,17 @@
             {
                 "given": "M.",
                 "family": "Stolz",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -42540,7 +43590,17 @@
             {
                 "given": "L. L.",
                 "family": "Stewart",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -42572,7 +43632,17 @@
             {
                 "given": "R.",
                 "family": "Christmann",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -42604,7 +43674,17 @@
             {
                 "given": "F. M.",
                 "family": "Douglas",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -42636,7 +43716,17 @@
             {
                 "given": "D.",
                 "family": "Dubin",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -42668,7 +43758,17 @@
             {
                 "given": "L.",
                 "family": "Hunyadi",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -42700,7 +43800,17 @@
             {
                 "given": "C.",
                 "family": "Meckseper",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -42732,7 +43842,17 @@
             {
                 "given": "B.",
                 "family": "Stehno",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -42764,7 +43884,17 @@
             {
                 "given": "F.",
                 "family": "Sasaki",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -42796,7 +43926,17 @@
             {
                 "given": "J.",
                 "family": "Anderson",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -42828,7 +43968,17 @@
             {
                 "given": "S.",
                 "family": "Schreibman",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -42860,7 +44010,17 @@
             {
                 "given": "G. K.",
                 "family": "Barr",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -42892,7 +44052,17 @@
             {
                 "given": "S.",
                 "family": "Bird",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -42924,7 +44094,17 @@
             {
                 "given": "M.",
                 "family": "Koppel",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -42956,7 +44136,17 @@
             {
                 "given": "S. D.",
                 "family": "Baldzis",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -42988,7 +44178,17 @@
             {
                 "given": "E.",
                 "family": "Papakitsos",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -43020,7 +44220,17 @@
             {
                 "given": "E.",
                 "family": "Galiotou",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -43052,7 +44262,17 @@
             {
                 "given": "A.",
                 "family": "Wilson",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -43084,7 +44304,17 @@
             {
                 "given": "J.",
                 "family": "Burrows",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -43116,7 +44346,17 @@
             {
                 "given": "S. R.",
                 "family": "Parkinson",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -43148,7 +44388,17 @@
             {
                 "given": "S.",
                 "family": "Shiraishi",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -43180,7 +44430,17 @@
             {
                 "given": "C.-C.",
                 "family": "Shei",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -43212,7 +44472,17 @@
             {
                 "given": "M.",
                 "family": "Spencer",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -43244,7 +44514,17 @@
             {
                 "given": "K.",
                 "family": "Kucera",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -43276,7 +44556,17 @@
             {
                 "given": "Y.",
                 "family": "Ousaka",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -43308,7 +44598,17 @@
             {
                 "given": "L. L.",
                 "family": "Fernandez",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -43340,7 +44640,17 @@
             {
                 "given": " Jeffrey A.",
                 "family": "Rydberg‐Cox",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -43372,7 +44682,17 @@
             {
                 "given": "S. S.",
                 "family": "Piao",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -43404,7 +44724,17 @@
             {
                 "given": "T.",
                 "family": "Merriam",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -43436,7 +44766,17 @@
             {
                 "given": "D. L.",
                 "family": "Hoover",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -43468,7 +44808,17 @@
             {
                 "given": "Willard",
                 "family": "McCarty",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -43500,7 +44850,17 @@
             {
                 "given": "N.",
                 "family": "Alemayehu",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -43532,7 +44892,17 @@
             {
                 "given": "S.-J.",
                 "family": "Kang",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -43564,7 +44934,17 @@
             {
                 "given": "J.",
                 "family": "McGann",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -43596,7 +44976,17 @@
             {
                 "given": "J.",
                 "family": "Anderson",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -43628,7 +45018,17 @@
             {
                 "given": "K.",
                 "family": "de Smedt",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -43660,7 +45060,17 @@
             {
                 "given": "P.",
                 "family": "Flynn",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -44247,7 +45657,12 @@
                 "affiliation": [
                     {
                         "original_name": "University of VirginiaCharlottesville, VA, USA",
-                        "normalized_name": "University of Virginia", "country": "United States", "identifiers": {"ror": "https://ror.org/0153tk833", "GRID": "grid.27755.32"}
+                        "normalized_name": "University of Virginia",
+                        "country": "United States",
+                        "identifiers": {
+                            "ror": "https://ror.org/0153tk833",
+                            "GRID": "grid.27755.32"
+                        }
                     }
                 ]
             }
@@ -44932,7 +46347,17 @@
             {
                 "given": "P",
                 "family": "Baker",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -44964,7 +46389,17 @@
             {
                 "given": "T",
                 "family": "McEnery",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -45038,7 +46473,17 @@
             {
                 "given": "H",
                 "family": "Isahara",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -45112,7 +46557,17 @@
             {
                 "given": "S",
                 "family": "Wallis",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -45144,7 +46599,17 @@
             {
                 "given": "G",
                 "family": "McKee",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -45176,7 +46641,17 @@
             {
                 "given": "K.",
                 "family": "Kermanidis",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -45208,7 +46683,17 @@
             {
                 "given": "A.",
                 "family": "Fang",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -45240,7 +46725,17 @@
             {
                 "given": "M",
                 "family": "Levison",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -45272,7 +46767,17 @@
             {
                 "given": "I",
                 "family": "Grundy",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -45346,7 +46851,17 @@
             {
                 "given": "S",
                 "family": "Waugh",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -45378,7 +46893,17 @@
             {
                 "given": "S",
                 "family": "Koval",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -45635,17 +47160,47 @@
             {
                 "given": "D.",
                 "family": "Smith",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             },
             {
                 "given": "J.",
                 "family": "Rydberg-Cox",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             },
             {
                 "given": "G.",
                 "family": "Crane",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
@@ -45929,12 +47484,32 @@
             {
                 "given": "H.",
                 "family": "van Vliet",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             },
             {
                 "given": "A.",
                 "family": "Kets-Vree",
-                "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": { "ror": null, "GRID": null }}]
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": "Oxford University Press (OUP)",
