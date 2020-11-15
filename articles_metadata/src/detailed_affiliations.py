@@ -77,11 +77,6 @@ def ror_queries(affiliations_to_query, file_path):
         query = query_beginning + item["query"]
         response = requests.get(query, verify=False, timeout=10)
         response_json = response.json()
-        print("-------------------RESPONSE-------------------\n\n")
-        print(response)
-        print("-------------------RESPONSE json-------------------\n\n")
-        print(response_json)
-        print("\n\n\n\n\n")
         #print(index, "  ", f'{item["query"]}')
         #print(response)
         if response_json['number_of_results'] == 0:
@@ -217,14 +212,14 @@ def main():
     path_of_json_files_2 = "../data/json_files/no_country_dataset/adho_papers/ms_file"
 
     # Generate the set of the affiliation in the corpus of journals
-    affiliations_set = create_affiliations_set(path_of_json_files)
+    #affiliations_set = create_affiliations_set(path_of_json_files)
 
-    filter_affiliation_set(affiliations_set)
+    #filter_affiliation_set(affiliations_set)
 
     # Comment the following lines if ror queries have already been saved and load them with the next lines
-    queries_results = ror_queries(filter_affiliation_set(affiliations_set), ror_queries_file_path)
-    with open(ror_queries_file_path, "w", encoding="utf-8") as file:
-        json.dump(queries_results, file, ensure_ascii=False)
+    #queries_results = ror_queries(filter_affiliation_set(affiliations_set), #ror_queries_file_path)
+    # with open(ror_queries_file_path, "w", encoding="utf-8") as file:
+    #    json.dump(queries_results, file, ensure_ascii=False)
 
     # Comment the following lines if ror queries have NOT already been saved and save them with the previous lines
     
