@@ -1,0 +1,1819 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+
+        <title>Optical character recognition of typeset Coptic text with neural networks | Digital Scholarship in the Humanities | Oxford Academic</title>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js" type="text/javascript"></script>
+<script>window.jQuery || document.write('<script src="//oup.silverchair-cdn.com/UI/app/vendor/jquery-2.2.4.js" type="text/javascript">\x3C/script>')</script>
+<script src="//oup.silverchair-cdn.com/Themes/Silver/app/vendor/v-637389614866021597/jquery-migrate-1.4.1.min.js" type="text/javascript"></script>
+
+
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+    
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <!-- Turn off telephone number detection. -->
+    <meta name="format-detection" content="telephone=no" />
+
+<!-- Bookmark Icons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="//oup.silverchair-cdn.com/UI/app/img/v-637389614697592184/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="//oup.silverchair-cdn.com/UI/app/img/v-637389614697748397/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="//oup.silverchair-cdn.com/UI/app/img/v-637389614697748397/favicon-16x16.png" sizes="16x16">
+  <link rel="mask-icon" href="//oup.silverchair-cdn.com/UI/app/img/v-637389614697748397/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="//oup.silverchair-cdn.com/UI/app/img/v-637389614697748397/favicon.ico">
+  <link rel="manifest" href="//oup.silverchair-cdn.com/UI/app/img/v-637389614697748397/manifest.json">
+  <meta name="msapplication-config" content="//oup.silverchair-cdn.com/UI/app/img/v-637389614697592184/browserconfig.xml">
+  <meta name="theme-color" content="#002f65">
+
+
+    
+
+
+
+
+<link rel="stylesheet" type="text/css" href="//oup.silverchair-cdn.com/UI/app/fonts/icons.css" />
+
+<link rel="stylesheet" type="text/css" href="//oup.silverchair-cdn.com/UI/app/css/v-637389617098071498/style.min.css" />
+
+        <link rel="stylesheet" type="text/css" href="//oup.silverchair-cdn.com/UI/app/vendor/oupCookiePolicy/css/v-637389614698998372/jquery.fancybox-1.3.4_1.css" />
+        <link rel="stylesheet" type="text/css" href="//oup.silverchair-cdn.com/UI/app/vendor/jscrollpane/v-637389614698998372/jscrollpane.css" />
+        <link rel="stylesheet" type="text/css" href="//oup.silverchair-cdn.com/UI/app/vendor/jquery.tablesorter/v-637389614698998372/theme.default.css" />
+
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Merriweather:300,400,400italic,700,700italic|Source+Sans+Pro:400,400italic,700,700italic" />
+
+
+        <link href=//oup.silverchair-cdn.com/data/SiteBuilderAssetsOriginals/Live/CSS/journals/global.css rel="stylesheet" type="text/css" />
+                <link href=//oup.silverchair-cdn.com/data/SiteBuilderAssets/Live/CSS/dsh/Site567563881.css rel="stylesheet" type="text/css" />
+
+
+
+    <script> var dataLayer = [{"event_type":"full-text","supplier_tag":"SC_Journals","object_type":"Article","siteid":"dsh","authentication_method":"IP","authzrequired":"false","account_id":"2742389","authnips":"GflfYxlOaogQ0FJUkgczDw==","doi":"10.1093/llc/fqz023"}]; </script>
+        <script>
+        (function (w, d, s, l, i) {
+          w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+              new Date().getTime(), event: 'gtm.js'
+          }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-W6DD7HV');
+        </script>
+
+    
+
+        <script type="text/javascript">
+            var App = App || {};
+            App.LoginUserInfo = {
+                isInstLoggedIn: 1,
+                isIndividualLoggedIn: 0
+            };
+
+            App.CurrentSubdomain = 'dsh';
+            App.SiteURL = 'academic.oup.com/dsh';
+        </script>
+    
+    
+    <link href="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css" rel="stylesheet" type="text/css" />
+    <script type="application/ld+json">
+        {"@context":"http://schema.org","@id":"https://academic.oup.com/dsh/article/34/Supplement_1/i135/5476096","@type":"ScholarlyArticle","name":"Optical character recognition of typeset Coptic text with neural networks","datePublished":"2019-04-22","isPartOf":{"@id":"https://academic.oup.com/dsh/dsh/issue/34/Supplement_1","@type":"PublicationIssue","issueNumber":"Supplement_1","datePublished":"2019-12-01","isPartOf":{"@id":"https://academic.oup.com/dsh/dsh","@type":"Periodical","name":"Digital Scholarship in the Humanities","issn":["2055-768X"]}},"url":"http://dx.doi.org/10.1093/llc/fqz023","inLanguage":"en","copyrightHolder":"EADH: The European Association for Digital Humanities","copyrightYear":"2020","publisher":"Oxford University Press","sameAs":"https://academic.oup.com/dsh/article/34/Supplement_1/i135/5476096","author":[{"name":"Miyagawa, So","affiliation":"Collaborative Research Centre 1136 “Education and Religion in Cultures of the Mediterranean and Its Environment from Ancient to Medieval Times and to the Classical Islam,” Seminar for Egyptology and Coptic Studies , and eTRAP Research Group, University of Göttingen,  Germany","@type":"Person"},{"name":"Bulert, Kirill","affiliation":"eTRAP Research Group, Institute of Computer Science , University of Göttingen,  Germany","@type":"Person"},{"name":"Büchler, Marco","affiliation":"eTRAP Research Group, Institute of Computer Science , University of Göttingen,  Germany","@type":"Person"},{"name":"Behlmer, Heike","affiliation":"Seminar for Egyptology and Coptic Studies, and Collaborative Research Centre 1136 “Education and Religion in Cultures of the Mediterranean and Its Environment from Ancient to Medieval Times and to the Classical Islam,”  University of Göttingen ,  Germany","@type":"Person"}],"description":"Abstract.  Digital Humanities (DH) within Coptic Studies, an emerging field of development, will be much aided by the digitization of large quantities of typese","pageStart":"i135","pageEnd":"i141","thumbnailURL":"https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/dsh/Issue/34/Supplement_1/2/m_digitalsh_34_suppl_1cover.png?Expires=1666480266&Signature=KjN4rpWSMZkB-IvKF42RXFREcwPwVxYhBOEg-9o14r4FcOpjHv1zAIp3BHp4ozhUtVWaapjfl1tl67jL1Wt1CYlzQmySXWWgo6KE8ftaWRTlyxedHW1S0RQWb1KNDFMGdmXr7-1PqTMkIjQvnSUkuW~FQqznIL4C0Jy7PuKQCzY0UXDR4jBV-d-RkAwGBgQN7MkwlERxKUjjfjGAgrzzYKg~dN4SGtxnSQVSEq~BSmCxdlRr7beu1I4ghNZN3jtESFcZQrpX48BfPP4b-U65tY0wfR7~EJFlFRzv8aToNiKNWgDa8XBFMfQQGqpNoYeKavo~ggXlBPE5X3HpG1pUcA__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA","headline":"Optical character recognition of typeset Coptic text with neural networks","image":"https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/dsh/Issue/34/Supplement_1/2/m_digitalsh_34_suppl_1cover.png?Expires=1666480266&Signature=KjN4rpWSMZkB-IvKF42RXFREcwPwVxYhBOEg-9o14r4FcOpjHv1zAIp3BHp4ozhUtVWaapjfl1tl67jL1Wt1CYlzQmySXWWgo6KE8ftaWRTlyxedHW1S0RQWb1KNDFMGdmXr7-1PqTMkIjQvnSUkuW~FQqznIL4C0Jy7PuKQCzY0UXDR4jBV-d-RkAwGBgQN7MkwlERxKUjjfjGAgrzzYKg~dN4SGtxnSQVSEq~BSmCxdlRr7beu1I4ghNZN3jtESFcZQrpX48BfPP4b-U65tY0wfR7~EJFlFRzv8aToNiKNWgDa8XBFMfQQGqpNoYeKavo~ggXlBPE5X3HpG1pUcA__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA"}
+    </script>
+    <meta property="og:site_name" content="OUP Academic" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Optical character recognition of typeset Coptic text with neural networks" />
+    <meta property="og:description" content="Abstract.  Digital Humanities (DH) within Coptic Studies, an emerging field of development, will be much aided by the digitization of large quantities of typese" />
+    <meta property="og:url" content="https://academic.oup.com/dsh/article/34/Supplement_1/i135/5476096" />
+    <meta property="og:image" content="https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/dsh/Issue/34/Supplement_1/2/m_digitalsh_34_suppl_1cover.png?Expires=1666480266&amp;Signature=KjN4rpWSMZkB-IvKF42RXFREcwPwVxYhBOEg-9o14r4FcOpjHv1zAIp3BHp4ozhUtVWaapjfl1tl67jL1Wt1CYlzQmySXWWgo6KE8ftaWRTlyxedHW1S0RQWb1KNDFMGdmXr7-1PqTMkIjQvnSUkuW~FQqznIL4C0Jy7PuKQCzY0UXDR4jBV-d-RkAwGBgQN7MkwlERxKUjjfjGAgrzzYKg~dN4SGtxnSQVSEq~BSmCxdlRr7beu1I4ghNZN3jtESFcZQrpX48BfPP4b-U65tY0wfR7~EJFlFRzv8aToNiKNWgDa8XBFMfQQGqpNoYeKavo~ggXlBPE5X3HpG1pUcA__&amp;Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" />
+    <meta property="og:updated_time" content="2019-04-22" />
+<meta name="citation_author" content="Miyagawa, So" /><meta name="citation_author_institution" content="Collaborative Research Centre 1136 “Education and Religion in Cultures of the Mediterranean and Its Environment from Ancient to Medieval Times and to the Classical Islam,” Seminar for Egyptology and Coptic Studies, and eTRAP Research Group, University of Göttingen, Germany" /><meta name="citation_author" content="Bulert, Kirill" /><meta name="citation_author_institution" content="eTRAP Research Group, Institute of Computer Science, University of Göttingen, Germany" /><meta name="citation_author" content="Büchler, Marco" /><meta name="citation_author_institution" content="eTRAP Research Group, Institute of Computer Science, University of Göttingen, Germany" /><meta name="citation_author" content="Behlmer, Heike" /><meta name="citation_author_institution" content="Seminar for Egyptology and Coptic Studies, and Collaborative Research Centre 1136 “Education and Religion in Cultures of the Mediterranean and Its Environment from Ancient to Medieval Times and to the Classical Islam,” University of Göttingen, Germany" /><meta name="citation_title" content="Optical character recognition of typeset Coptic text with neural networks" /><meta name="citation_firstpage" content="i135" /><meta name="citation_lastpage" content="i141" /><meta name="citation_doi" content="10.1093/llc/fqz023" /><meta name="citation_journal_title" content="Digital Scholarship in the Humanities" /><meta name="citation_journal_abbrev" content="Digital Scholarship Humanities" /><meta name="citation_volume" content="34" /><meta name="citation_issue" content="Supplement_1" /><meta name="citation_publication_date" content="2019/12/01" /><meta name="citation_issn" content="2055-7671" /><meta name="citation_publisher" content="Oxford Academic" /><meta name="citation_reference" content="citation_title=The complete digital edition and translation of the Coptic Sahidic Old Testament: a new research project at the Göttingen Academy of Sciences and Humanities; citation_author=Behlmer  H.; citation_author=Feder  F.;  citation_journal_title=Early Christianity;  citation_year=2017;  citation_volume=8;  citation_pages=97-107; " /><meta name="citation_reference" content="Breuel T. M.  2008. The OCRopus open source OCR system. In Proc. SPIE 6815, Doc. Recognit. Retr. XV , 2008. DOI: https://doi.org/10.1117/12.783598. " /><meta name="citation_reference" content="citation_author=Chaîne  M.; citation_publisher=Imprimerie de l’IFAO, Cairo;  citation_title=Le manuscrit de la version copte en dialecte sahidique des “Apophthegmata Patrum.”;  citation_year=1960; " /><meta name="citation_reference" content="citation_title=OCR binarization and image pre-processing for searching historical documents; citation_author=Gupta  M. R.; citation_author=Jacobson  N. P.; citation_author=Garcia  E. K.;  citation_journal_title=Pattern Recognition;  citation_year=2007;  citation_volume=40;  citation_issue=2);  citation_pages=389-97; " /><meta name="citation_reference" content="citation_title=A comparison of binarization methods for historical archive documents; citation_author=He  J.; citation_author=Do  Q. D. M.; citation_author=Downton  A. C.; citation_author=Kim  J. H.;  citation_journal_title=Eighth International Conference on Document Analysis and Recognition (ICDAR’05);  citation_year=2005;  citation_volume=1;  citation_pages=538-542; " /><meta name="citation_reference" content="citation_title=Word-based adaptive OCR for historical books; citation_author=Kluzner  V.; citation_author=Tzadok  A.; citation_author=Shimony  Y.; citation_author=Walach  E.; citation_author=Antonacopoulos  A.;  citation_journal_title=2009 10th International Conference on Document Analysis and Recognition;  citation_year=2009;  citation_pages=501-05; " /><meta name="citation_reference" content="Konvicka M.  2009–16. Marcion - Revelator of True Gnosis software exploring original Gnostic scriptures, http://marcion.sourceforge.net/ (accessed 30 December 2017). " /><meta name="citation_reference" content="citation_author=Kuhn  K. H.; citation_publisher=Imprimerie Orientaliste L. Durbecq, Louvain;  citation_title=Letters and Sermons of Besa;  citation_year=1956; " /><meta name="citation_reference" content="Mekhaiel M. S.  2009–13. Moheb’s Coptic Pages. http://www.moheb.de/ (accessed 30 December 2017). " /><meta name="citation_reference" content="citation_title=The Corpus dei Manoscritti Copti Letterari; citation_author=Orlandi  T.;  citation_journal_title=Computers and the Humanities;  citation_year=1990;  citation_volume=24;  citation_issue=5/6;  citation_pages=397-405; " /><meta name="citation_reference" content="citation_title=Raiders of the lost corpus; citation_author=Schroeder  C. T.; citation_author=Zeldes  A.;  citation_journal_title=Digital Humanities Quarterly;  citation_year=2016;  citation_volume=10;  citation_issue=2; " /><meta name="citation_reference" content="citation_author=Schantz  H. F.; citation_publisher=Recognition Technologies Users Association, VT;  citation_title=The history of OCR, optical character recognition. Manchester Center;  citation_year=1982; " /><meta name="citation_reference" content="citation_title=OCR of historical printings of Latin texts: problems, prospects, progress; citation_author=Springmann  U.; citation_author=Najock  D.; citation_author=Morgenroth  H.; citation_author=Schmid  H.; citation_author=Gotscharek  A.; citation_author=Fink  F.;  citation_journal_title=DATeCH '14 Proceedings of the First International Conference on Digital Access to Textual Cultural Heritage;  citation_year=2014;  citation_volume=2014;  citation_pages=71-75; " /><meta name="citation_reference" content="citation_author=Takla  H.; citation_publisher=The Saint Shenouda the Archimandrite Coptic Society, Los Angeles;  citation_title=Coptic New Testament CD (NKCSC-CD1C) V.1;  citation_year=2006; " /><meta name="citation_reference" content="citation_author=Tattam  H.; citation_publisher=Typ. acad, Oxford;  citation_title=Duodecim prophetarum minorum libros in lingua Aegyptiaca vulgo Coptica seu Memphitica ex ms. Parisiensi descriptos et cum ms. Johannis Lee, J. C. D. collatos;  citation_year=1836; " /><meta name="citation_reference" content="Unicode Consortium. 2017. The Unicode® Standard Version 10.0 – Core Specification. http://www.unicode.org/versions/Unicode10.0.0/ch03.pdf#G729 (accessed 1 December 2017). " /><meta name="citation_pdf_url" content="https://academic.oup.com/dsh/article-pdf/34/Supplement_1/i135/31686028/fqz023.pdf" /><meta name="description" content="Abstract.  Digital Humanities (DH) within Coptic Studies, an emerging field of development, will be much aided by the digitization of large quantities of typese" /><meta name="citation_xml_url" content="https://academic.oup.com/dsh/article-xml/34/Supplement_1/i135/5476096" />
+
+
+
+    <link rel="canonical" href="https://academic.oup.com/dsh/article/34/Supplement_1/i135/5476096" />
+
+
+
+
+
+
+
+    
+    
+
+
+<script async="async" src="https://www.googletagservices.com/tag/js/gpt.js"></script>
+<script>
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+</script>
+
+
+    
+
+
+    
+
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    <script>
+        var oupcookiepolicy_siteid = "journals";        // the website id
+        var oupcookiepolicy_messagetype = 'implied';                        // type of alert message e.g, implied / explicit
+        var oupcookiepolicy_preferredlanguage = "en";      // preferred language of the website
+        var oupcookiepolicy_impliedmessageclass = 'cookiepolicyimplied';    // the css class for implied alert message
+        var oupcookiepolicy_documentroot = '/';	  			                // the document root the cookie is set to
+    </script>
+    <noscript>We use cookies to enhance your experience on our website.By continuing to use our website, you are agreeing to our use of cookies. You can change your cookie settings at any time. <a href="https://global.oup.com/cookiepolicy/"> Find out more</a></noscript>
+    <script type="text/javascript">
+        var NTPT_PGEXTRA= 'event_type=full-text&supplier_tag=SC_Journals&object_type=Article&siteid=dsh&authentication_method=IP&authzrequired=false&account_id=2742389&authnips=198.20.185.206&doi=10.1093/llc/fqz023';
+    </script>
+
+
+
+
+    <script src="https://scholar.google.com/scholar_js/casa.js" async></script>
+
+
+</head>
+
+<body data-sitename="digitalscholarshipinthehumanities" class="off-canvas pg_Article pg_article  " theme-dsh data-sitestyletemplate="Journal" >
+    
+        <noscript>
+            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W6DD7HV"
+                    height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
+        <a href="#skipNav" class="skipnav">Skip to Main Content</a>
+<input id="hdnSiteID" name="hdnSiteID" type="hidden" value="5447" /><input id="hdnAdDelaySeconds" name="hdnAdDelaySeconds" type="hidden" value="5000" /><input id="hdnAdConfigurationTop" name="hdnAdConfigurationTop" type="hidden" value="default" /><input id="hdnAdConfigurationRightRail" name="hdnAdConfigurationRightRail" type="hidden" value="sticky" />
+    
+
+
+
+
+
+
+<div class="master-container js-master-container">
+    <section class="master-header row js-master-header vt-site-page-header">
+    <div class="widget widget-SitePageHeader widget-instance-SitePageHeader">
+        
+    <div class="ad-banner js-ad-banner-header">
+    <div class="widget widget-AdBlock widget-instance-HeaderAd">
+        
+
+<div class="adBlockHeader-wrap js-adBlockHeader hide">
+    
+    <div id="adBlockHeader"
+         style=" ">
+        <script>
+            googletag.cmd.push(function () { googletag.display('adBlockHeader'); });
+        </script>
+    </div>
+        <div class="advertisement-text">Advertisement</div>
+</div> 
+    </div>
+
+    </div>
+
+    <div class="oup-header ">
+        <div class="center-inner-row">
+            <div class="oup-header-logo">
+                <a href="/">
+                    <img src="//oup.silverchair-cdn.com/UI/app/svg/umbrella/oxford-academic-logo.svg" alt="Oxford University Press" class="oup-header-image" />
+                </a>
+            </div>
+
+            <ul class="oup-header-menu account-menu">
+
+                
+                <li class="oup-header-menu-item mobile">
+                    <a href="javascript:;" class="mobile-dropdown-toggle mobile-search-toggle">
+                        <i class="icon-menu_search"><span class="screenreader-text">Search Menu</span></i>
+                    </a>
+                </li>
+
+                
+                <li class="oup-header-menu-item mobile">
+                        <a href="javascript:;" class="mobile-dropdown-toggle mobile-account-toggle">
+                            <i class="icon-menu_account"><span class="screenreader-text">Account Menu</span></i>
+                        </a>
+                </li>
+
+                
+                <li class="oup-header-menu-item mobile">
+                    <a href="javascript:;" class="mobile-dropdown-toggle mobile-nav-toggle">
+                        <i class="icon-menu_hamburger"><span class="screenreader-text">Menu</span></i>
+                    </a>
+                </li>
+
+                
+                    <li class="oup-header-menu-item desktop">
+                        
+                            <a href="" class="dropdown-toggle institution">Centre College <i class="icon-general-arrow-filled-down arrow-icon"></i></a>
+                        <div class="dropdown-panel dropdown-panel-institution">
+                            
+                            <div class="dropdown-menu">
+                                <ul>
+
+                                        <li class="dropdown-institution-item">
+
+Centre College
+                                        </li>
+
+                                </ul>
+
+                            </div>
+                        </div>
+                    </li>                <li class="oup-header-menu-item desktop">
+                        <a href="" class="dropdown-toggle signin js-header-account-info-user-fullname" id="header-account-info-user-fullname-desktop">
+Sign In                            <i class="icon-general-arrow-filled-down arrow-icon"></i>
+                        </a>
+                        <div class="dropdown-panel dropdown-panel-signin dropdown-panel-form">
+                            <div class="spinner"></div>
+                        </div>
+                </li>
+
+                
+                    <li class="oup-header-menu-item desktop"><a href="/my-account/register?siteId=5447&amp;returnUrl=%2fdsh%2farticle%2f34%2fSupplement_1%2fi135%2f5476096" class="register">Register</a></li>
+                
+            </ul>
+
+            <div class="login-box-placeholder js-login-box-placeholder hide">
+                <div class="spinner"></div>
+            </div>
+        </div>
+    </div>
+<div class="dropdown-panel-wrap">
+
+    
+    <div class="dropdown-panel mobile-search-dropdown">
+        <div class="mobile-search-inner-wrap">
+                <div class="navbar-search">
+                    <div id="MobileMicrositeSearch" class="mobile-microsite-search">
+                        <label for="mobile-navbar-search-filter" class="screenreader-text">Navbar Search Filter</label>
+                        <select class="navbar-search-filter" id="mobile-navbar-search-filter">
+                                                            <optgroup label="Search within this journal">
+<option class="header-search-bar-filters-item" value="Issue">This issue</option><option class="header-search-bar-filters-item" value="">All  Digital Scholarship in the Humanities</option>
+                                </optgroup>
+                                <optgroup label="Search beyond this journal">
+<option class="header-search-bar-filters-item" value="Journals">All  Journals</option>                                </optgroup>
+                        </select>
+
+
+
+
+
+                        <label for="MobileMicrositeSearchTerm" class="screenreader-text">Mobile Microsite Search Term</label>
+                        <input class="mobile-search-input mobile-microsite-search-term" type="text" maxlength="255" placeholder="Search" id="MobileMicrositeSearchTerm">
+
+                        <a href="javascript:;" id="MobileMicrositeSearchIcon" class="mobile-microsite-search-icon mobile-search-submit icon-menu_search"><span class="screenreader-text">Search</span></a>
+
+                    </div>
+                </div>        </div>
+    </div>
+    
+    <div class="dropdown-panel mobile-account-dropdown">
+        <ul class="site-menu site-menu-lvl-0">
+            <li class="site-menu-item site-menu-lvl-0">
+                <a href="" class="nav-link mobile-account-signin dummy-link js-header-account-info-user-fullname" id="header-account-info-user-fullname-mobile">
+                    
+Sign In                    <i class="mobile-nav-arrow icon-general_arrow-down"></i>
+                </a>
+                <ul class="site-menu site-menu-lvl-1 individual-menu">
+                    <li class="dropdown-signin-form">
+                        <div class="spinner"></div>
+                    </li>
+                </ul>
+            </li>
+                <li class="site-menu-item site-menu-lvl-0">
+                        <a href="javascript:;" class="nav-link mobile-account-institution dummy-link">
+                            Centre College
+                        </a>
+
+                    <i class="mobile-nav-arrow icon-general_arrow-down"></i>
+                    <ul class="site-menu site-menu-lvl-1">
+                            <li class="dropdown-institution-item">
+
+Centre College
+                            </li>
+
+                        <li class="dropdown-institution-signout">
+                        </li>
+                    </ul>
+                </li>
+                            <li class="site-menu-item">
+                    <a href="/my-account/register?siteId=5447&amp;returnUrl=%2fdsh%2farticle%2f34%2fSupplement_1%2fi135%2f5476096" class="register nav-link">Register</a>
+                </li>
+        </ul>
+    </div>
+    
+    <div class="dropdown-panel mobile-nav-dropdown">
+
+
+    <i class="desktop-nav-arrow icon-general-arrow-filled-down arrow-icon"></i><i class="mobile-nav-arrow icon-general_arrow-down"></i>
+    <ul class="site-menu site-menu-lvl-0">
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426198">
+                <a href="/dsh/issue" class="nav-link ">Issues</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426199">
+                <a href="/dsh/advance-articles" class="nav-link ">Advance articles</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426196">
+                <a href="/dsh/#" class="nav-link dummy-link">Submit</a>
+                    <i class="desktop-nav-arrow icon-general-arrow-filled-down arrow-icon"></i><i class="mobile-nav-arrow icon-general_arrow-down"></i>
+    <ul class="site-menu site-menu-lvl-1">
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426200">
+                <a href="/dsh/pages/General_Instructions" class="nav-link ">Author Guidelines</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426201">
+                <a href="http://mc.manuscriptcentral.com/dsh" class="nav-link ">Submission Site</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426202">
+                <a href="/dsh/pages/General_Instructions" class="nav-link ">Open Access</a>
+                
+            </li>
+    </ul>
+
+            </li>
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426203">
+                <a href="/dsh/subscribe" class="nav-link ">Purchase</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426204">
+                <a href="/my-account/email-alerts" class="nav-link ">Alerts</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426197">
+                <a href="/dsh/#" class="nav-link dummy-link">About</a>
+                    <i class="desktop-nav-arrow icon-general-arrow-filled-down arrow-icon"></i><i class="mobile-nav-arrow icon-general_arrow-down"></i>
+    <ul class="site-menu site-menu-lvl-1">
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426205">
+                <a href="/dsh/pages/About" class="nav-link ">About Digital Scholarship in the Humanities</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426206">
+                <a href="http://eadh.org/about" class="nav-link ">About the European Association for Digital Humanities</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426207">
+                <a href="http://adho.org/about" class="nav-link ">About the Alliance of Digital Humanities Organizations</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426208">
+                <a href="/dsh/pages/Editorial_Board" class="nav-link ">Editorial Board</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426209">
+                <a href="http://www.oupmediainfo.com/" class="nav-link ">Advertising and Corporate Services</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426210">
+                <a href="https://globaljobs-careernetwork.oxfordjournals.org/" class="nav-link ">Journals Career Network</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426211">
+                <a href="https://academic.oup.com/journals/pages/access_purchase/rights_and_permissions/self_archiving_policy_f" class="nav-link ">Self-Archiving Policy</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426212">
+                <a href="http://www.oxfordjournals.org/en/access-purchase/dispatch-dates.html" class="nav-link ">Dispatch Dates</a>
+                
+            </li>
+    </ul>
+
+            </li>
+    </ul>
+    </div>
+
+</div>
+
+
+    <div class="journal-header journal-bg">
+        <div class="center-inner-row">
+                            <a href="/dsh" class="journal-logo-container">
+                    <img id="logo-DigitalScholarshipintheHumanities" class="journal-logo" src="//oup.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/dsh/dsh_title242156087.svg" alt="Digital Scholarship in the Humanities" />
+                </a>
+
+            <div class="society-logo-block">
+                    <div class="society-block-inner-wrap">
+                            <a href="http://eadh.org/" target="" class="society-logo-container">
+                                <img id="logo-EuropeanAssociationforDigitalHumanities" class="society-logo" src="//oup.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/dsh/dsh_h1-1114140978.png" alt="European Association for Digital Humanities" />
+                            </a>
+                                                    <a href="http://adho.org/" target="" class="society-logo-container">
+                                <img id="logo-AllianceofDigitalHumanitiesOrganizations" class="society-logo" src="//oup.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/dsh/dsh_h2-398941868.png" alt="Alliance of Digital Humanities Organizations" />
+                            </a>
+                    </div>            </div> 
+        </div>
+    </div>
+<div class="navbar">
+    <div class="center-inner-row">
+        <nav class="navbar-menu">
+
+
+    <i class="desktop-nav-arrow icon-general-arrow-filled-down arrow-icon"></i><i class="mobile-nav-arrow icon-general_arrow-down"></i>
+    <ul class="site-menu site-menu-lvl-0">
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426198">
+                <a href="/dsh/issue" class="nav-link ">Issues</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426199">
+                <a href="/dsh/advance-articles" class="nav-link ">Advance articles</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426196">
+                <a href="/dsh/#" class="nav-link dummy-link">Submit</a>
+                    <i class="desktop-nav-arrow icon-general-arrow-filled-down arrow-icon"></i><i class="mobile-nav-arrow icon-general_arrow-down"></i>
+    <ul class="site-menu site-menu-lvl-1">
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426200">
+                <a href="/dsh/pages/General_Instructions" class="nav-link ">Author Guidelines</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426201">
+                <a href="http://mc.manuscriptcentral.com/dsh" class="nav-link ">Submission Site</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426202">
+                <a href="/dsh/pages/General_Instructions" class="nav-link ">Open Access</a>
+                
+            </li>
+    </ul>
+
+            </li>
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426203">
+                <a href="/dsh/subscribe" class="nav-link ">Purchase</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426204">
+                <a href="/my-account/email-alerts" class="nav-link ">Alerts</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426197">
+                <a href="/dsh/#" class="nav-link dummy-link">About</a>
+                    <i class="desktop-nav-arrow icon-general-arrow-filled-down arrow-icon"></i><i class="mobile-nav-arrow icon-general_arrow-down"></i>
+    <ul class="site-menu site-menu-lvl-1">
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426205">
+                <a href="/dsh/pages/About" class="nav-link ">About Digital Scholarship in the Humanities</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426206">
+                <a href="http://eadh.org/about" class="nav-link ">About the European Association for Digital Humanities</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426207">
+                <a href="http://adho.org/about" class="nav-link ">About the Alliance of Digital Humanities Organizations</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426208">
+                <a href="/dsh/pages/Editorial_Board" class="nav-link ">Editorial Board</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426209">
+                <a href="http://www.oupmediainfo.com/" class="nav-link ">Advertising and Corporate Services</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426210">
+                <a href="https://globaljobs-careernetwork.oxfordjournals.org/" class="nav-link ">Journals Career Network</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426211">
+                <a href="https://academic.oup.com/journals/pages/access_purchase/rights_and_permissions/self_archiving_policy_f" class="nav-link ">Self-Archiving Policy</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426212">
+                <a href="http://www.oxfordjournals.org/en/access-purchase/dispatch-dates.html" class="nav-link ">Dispatch Dates</a>
+                
+            </li>
+    </ul>
+
+            </li>
+    </ul>
+        </nav>
+            <div class="navbar-search-container js-navbar-search-container">
+                <a href="javascript:;" class="navbar-search-close js_close-navsearch">Close</a>
+                    <div class="navbar-search">
+                        <div id="MicrositeSearch" class="microsite-search">
+                            <label for="navbar-search-filter" class="screenreader-text">search filter</label>
+                            <select class="navbar-search-filter" id="navbar-search-filter">
+                                                                    <optgroup label="Search within this journal">
+                                                <option class="header-search-bar-filters-item" value="Issue" >This issue</option>
+                                                <option class="header-search-bar-filters-item" value="" selected=&quot;selected&quot;>All  Digital Scholarship in the Humanities</option>
+
+                                    </optgroup>
+                                    <optgroup label="Search beyond this journal">
+                                                <option class="header-search-bar-filters-item" value="Journals" >All  Journals</option>
+                                    </optgroup>
+                            </select>
+
+                            <label for="MicrositeSearchTerm" class="screenreader-text">search input</label>
+                            <input class="navbar-search-input microsite-search-term" type="text" maxlength="255" id="MicrositeSearchTerm" title="search input">
+
+                            <a href="javascript:;" id="MicrositeSearchIcon" class="microsite-search-icon navbar-search-submit icon-menu_search"><span class="screenreader-text">Search</span></a>
+
+                        </div>
+                    </div>                <div class="navbar-search-advanced"><a href="/dsh/advanced-search" class="advanced-search js-advanced-search">Advanced Search</a></div>
+            </div>            <div class="navbar-search-collapsed"><a href="javascript:;" class="icon-menu_search js_expand-navsearch"><span class="screenreader-text">Search Menu</span></a></div>
+    </div>
+</div>
+
+<input id="hfEnableOupOnlineProductsFeatures" name="hfEnableOupOnlineProductsFeatures" type="hidden" value="False" />
+
+    <input type="hidden" name="searchScope" id="hfSolrJournalID" value="" />
+    <input type="hidden" id="hfSolrJournalName" value="" />
+    <input type="hidden" id="hfSolrMaxAllowSearchChar" value="100" />
+    <input type="hidden" id="hfJournalShortName" value="" />
+    <input type="hidden" id="hfSearchPlaceholder" value="" />
+    <input type="hidden" name="hfGlobalSearchSiteURL" id="hfGlobalSearchSiteURL" value="" />
+        <input type="hidden" name="parentSiteName" id="hfParentSiteName" value="Journals" />
+        <input type="hidden" name="parentSiteUrl" id="hfParentSiteUrl" value="academic.oup.com/journals" />
+        <input type="hidden" name="siteID" id="hfSiteID" value="5447" />
+        <input type="hidden" name="parentSiteID" id="hfParentSiteID" value="5567" />
+        <input type="hidden" name="journalSiteScope" id="hfJournalSiteScope" value="Journals" />
+        <input type="hidden" name="parentSiteScope" id="hfParentSiteScope" value="Parent" />
+        <input type="hidden" name="defaultSearchURL" id="hfDefaultSearchURL" value="search-results?page=1&amp;q=" />
+        <input type="hidden" name="issueSearch" id="hfIssueSearch" value="&amp;fl_IssueID=118775" />
+        <input type="hidden" name="issueSiteScope" id="hfIssueSiteScope" value="Issue" />
+<input id="hfDefaultAdvancedSearchUrl" name="hfDefaultAdvancedSearchUrl" type="hidden" value="advanced-search?page=1&amp;q=" />    <input type="hidden" name="hfSearchSiteURL" id="hfSiteURL" value="academic.oup.com/dsh" />
+    <script type="text/javascript">
+        (function () {
+            var hfSiteUrl = document.getElementById('hfSiteURL');
+            var siteUrl = hfSiteUrl.value;
+            var subdomainIndex = siteUrl.indexOf('/');
+
+            hfSiteUrl.value = location.host + (subdomainIndex >= 0 ? siteUrl.substring(subdomainIndex) : '');
+        })();
+    </script>
+<input id="routename" name="RouteName" type="hidden" value="dsh" /> 
+    </div>
+
+</section>
+
+    <div id="main" class="content-main js-main ui-base">
+        <section class="master-main row">
+            <div class="center-inner-row no-overflow">
+                <a href="#" id="skipNav" class="screenreader-text" tabindex="-1">Skip Nav Destination</a>
+                
+
+
+<div class="page-column-wrap">
+<div id="InfoColumn" class="page-column page-column--left js-left-nav-col">
+    <div class="mobile-content-topbar hide">
+        <button class="toggle-left-col toggle-left-col__article">Article Navigation</button>
+    </div>
+    <div class="info-inner-wrap js-left-nav">
+        <button class="toggle-left-col__close btn-as-icon icon-general-close">
+            <span class="screenreader-text">Close mobile search navigation</span>
+        </button>
+        <div class="responsive-nav-title">Article Navigation</div>
+        <div class="info-widget-wrap">
+    <div class="widget widget-IssueInfo widget-instance-OUP_IssueInfo_Article">
+        
+
+<div id="issueInfo-OUP_IssueInfo_Article" class="article-info-wrap clearfix">
+    <i class="icon-general-close mobile-nav-btn nav-open"></i>
+    <div class="article-issue-img">
+            <a href="/dsh/issue/34/Supplement_1"><img id="issueImage" class="fb-featured-image" src="https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/dsh/Issue/34/Supplement_1/2/m_digitalsh_34_suppl_1cover.png?Expires=1607784674&amp;Signature=H-lfNwCMELF-2sbmgaCYgswrXZH1BMnHBdKLtlZkcD6P4-nbY46jZJv9eJKqH6rhT4f2AshFKYHnQz6FaPCTKljSlLqel3L1hiHzc1e1gunGTlzONhrCC-jE1L7fYzNSd6xvwi3G4EUYnx~-ppSvz~Rct2LzP0KBaeBlSddKd1UcTaMBoA295A-apqDuZtT6JTA8fHghH9mx3g1SGmK1dEz55eb-TZhz-2OgYxQ~5an0ARAeZTYrFFTwJn3gAsmawSEUECgQ~J3aENislTySttydWrrFlPseEP4QWFJYPeJbIFsC5Tuy6P5nwXqsCp1akMFuJZlfCIimivp8Ps9mZw__&amp;Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" alt="Issue Cover" /></a>
+    </div>
+    <div class="article-issue-info">
+        <div class="volume-issue__wrap">
+
+            <a href="/dsh/issue/34/Supplement_1">
+                        <div class="volume trailing-comma">Volume 34</div>
+                        <div class="issue">Issue Supplement_1</div>
+
+            </a>
+
+        </div>
+        <div class="ii-pub-date">
+December 2019        </div>
+        
+    </div>
+
+</div> 
+    </div>
+
+            <div class="content-nav">
+    <div class="widget widget-ArticleJumpLinks widget-instance-OUP_ArticleJumpLinks_Widget">
+        
+
+<h3 class="contents-title" >Article Contents</h3>
+<ul class="jumplink-list">
+        <li class="section-jump-link head-1" link-destination="190967115">
+            <div class="section-jump-link__link-wrap">
+
+                <a class="js-jumplink scrollTo" href="#190967115">Abstract</a>
+            </div>
+        </li>
+        <li class="section-jump-link head-1" link-destination="190967116">
+            <div class="section-jump-link__link-wrap">
+
+                <a class="js-jumplink scrollTo" href="#190967116">1 Introduction</a>
+            </div>
+        </li>
+        <li class="section-jump-link head-1" link-destination="190967120">
+            <div class="section-jump-link__link-wrap">
+
+                <a class="js-jumplink scrollTo" href="#190967120">2 Related Research</a>
+            </div>
+        </li>
+        <li class="section-jump-link head-1" link-destination="190967125">
+            <div class="section-jump-link__link-wrap">
+
+                <a class="js-jumplink scrollTo" href="#190967125">3 Data Employed</a>
+            </div>
+        </li>
+        <li class="section-jump-link head-1" link-destination="190967130">
+            <div class="section-jump-link__link-wrap">
+
+                <a class="js-jumplink scrollTo" href="#190967130">4 Methodology</a>
+            </div>
+        </li>
+        <li class="section-jump-link head-1" link-destination="190967134">
+            <div class="section-jump-link__link-wrap">
+
+                <a class="js-jumplink scrollTo" href="#190967134">5 Results</a>
+            </div>
+        </li>
+        <li class="section-jump-link head-1" link-destination="190967142">
+            <div class="section-jump-link__link-wrap">
+
+                <a class="js-jumplink scrollTo" href="#190967142">6 Discussion</a>
+            </div>
+        </li>
+        <li class="section-jump-link head-1" link-destination="190967146">
+            <div class="section-jump-link__link-wrap">
+
+                <a class="js-jumplink scrollTo" href="#190967146">7 Conclusion</a>
+            </div>
+        </li>
+        <li class="section-jump-link head-1" link-destination="190967150">
+            <div class="section-jump-link__link-wrap">
+
+                <a class="js-jumplink scrollTo" href="#190967150">Funding</a>
+            </div>
+        </li>
+        <li class="section-jump-link head-1" link-destination="190967152">
+            <div class="section-jump-link__link-wrap">
+
+                <a class="js-jumplink scrollTo" href="#190967152">Acknowledgements</a>
+            </div>
+        </li>
+        <li class="section-jump-link head-1" link-destination="190967154">
+            <div class="section-jump-link__link-wrap">
+
+                <a class="js-jumplink scrollTo" href="#190967154">Footnotes</a>
+            </div>
+        </li>
+        <li class="section-jump-link head-1 backReferenceLink" link-destination="190967168">
+            <div class="section-jump-link__link-wrap">
+
+                <a class="js-jumplink scrollTo" href="#190967168">References</a>
+            </div>
+        </li>
+</ul>
+ 
+    </div>
+
+            </div>
+    <div class="widget widget-ArticleNavLinks widget-instance-OUP_ArticleNavLinks_Article">
+        <ul class="inline-list">
+        <li class="prev arrow">
+            <a href="/dsh/article/34/Supplement_1/i129/5270841">&lt; Previous</a>
+        </li>        
+            <li class="next arrow">
+            <a href="/dsh/article/34/Supplement_1/i142/5151186">Next &gt;</a>
+        </li>
+</ul> 
+    </div>
+
+        </div>
+    </div>
+</div>
+<div class="sticky-toolbar js-sticky-toolbar"></div>
+<div id="ContentColumn" class="page-column page-column--center">
+    <div class="article-browse-top article-browse-mobile-nav js-mobile-nav">
+        <div class="article-browse-mobile-nav-inner js-mobile-nav-inner">
+            <button class="toggle-left-col toggle-left-col__article btn-as-link">
+                Article Navigation
+            </button>
+        </div>
+    </div>
+    <div class="content-inner-wrap">
+    <div class="widget widget-ArticleTopInfo widget-instance-OUP_ArticleTop_Info_Widget">
+        <div class="module-widget article-top-widget">
+
+    
+
+    
+        <div class="access-state-logos all-viewports">
+                    </div>
+
+
+    <div class="widget-items">
+                <h1 class="wi-article-title article-title-main">
+                    Optical character recognition of typeset Coptic text with neural networks
+<i class='icon-availability_free' title='Free' ></i>                </h1>
+                <div class="wi-authors">
+                    <div class="al-authors-list">
+                                <span class="al-author-name-more js-flyout-wrap">
+
+
+
+
+                                    <a class="linked-name js-linked-name-trigger" href="javascript:;">So Miyagawa</a><span class='delimiter'>, </span>
+
+                                    <span class="al-author-info-wrap arrow-up">
+<div id="authorInfo_OUP_ArticleTop_Info_Widget" class="info-card-author authorInfo_OUP_ArticleTop_Info_Widget">
+    <div class="name-role-wrap">
+        <div class="info-card-name">
+    So Miyagawa
+            <span class="info-card-footnote"><span class="xrefLink" id="jumplink-COR1"></span><a href="javascript:;" reveal-id="COR1" data-open="COR1" class="link link-ref link-reveal xref-default"><!----></a></span>
+</div>
+
+    </div>
+
+    <div class="info-card-affilitation">
+        <div class="aff"><div class="institution">Collaborative Research Centre 1136 “Education and Religion in Cultures of the Mediterranean and Its Environment from Ancient to Medieval Times and to the Classical Islam,” Seminar for Egyptology and Coptic Studies</div>, and eTRAP Research Group, University of Göttingen, <div class="country">Germany</div></div>
+    </div>
+
+    <div class="info-author-correspondence">
+        Email: <a href="mailto:runa.uei@gmail.com" target="_blank">runa.uei@gmail.com</a>
+    </div>
+    <div class="info-card-search-label">
+        Search for other works by this author on:
+    </div>
+
+<div class="info-card-search info-card-search-internal">
+    <a href="/dsh/search-results?f_Authors=So+Miyagawa">Oxford Academic</a>
+</div>
+
+    <div class="info-card-search info-card-search-google">
+        <a href="http://scholar.google.com/scholar?q=author:%22Miyagawa So%22">Google Scholar</a>
+    </div>
+</div>                                    </span>
+                                </span>
+                                <span class="al-author-name-more js-flyout-wrap">
+
+
+
+
+                                    <a class="linked-name js-linked-name-trigger" href="javascript:;">Kirill Bulert</a><span class='delimiter'>, </span>
+
+                                    <span class="al-author-info-wrap arrow-up">
+<div id="authorInfo_OUP_ArticleTop_Info_Widget" class="info-card-author authorInfo_OUP_ArticleTop_Info_Widget">
+    <div class="name-role-wrap">
+        <div class="info-card-name">
+    Kirill Bulert
+</div>
+
+    </div>
+
+    <div class="info-card-affilitation">
+        <div class="aff"><div class="institution">eTRAP Research Group, Institute of Computer Science</div>, University of Göttingen, <div class="country">Germany</div></div>
+    </div>
+
+    <div class="info-card-search-label">
+        Search for other works by this author on:
+    </div>
+
+<div class="info-card-search info-card-search-internal">
+    <a href="/dsh/search-results?f_Authors=Kirill+Bulert">Oxford Academic</a>
+</div>
+
+    <div class="info-card-search info-card-search-google">
+        <a href="http://scholar.google.com/scholar?q=author:%22Bulert Kirill%22">Google Scholar</a>
+    </div>
+</div>                                    </span>
+                                </span>
+                                <span class="al-author-name-more js-flyout-wrap">
+
+
+
+
+                                    <a class="linked-name js-linked-name-trigger" href="javascript:;">Marco Büchler</a><span class='delimiter'>, </span>
+
+                                    <span class="al-author-info-wrap arrow-up">
+<div id="authorInfo_OUP_ArticleTop_Info_Widget" class="info-card-author authorInfo_OUP_ArticleTop_Info_Widget">
+    <div class="name-role-wrap">
+        <div class="info-card-name">
+    Marco Büchler
+</div>
+
+    </div>
+
+    <div class="info-card-affilitation">
+        <div class="aff"><div class="institution">eTRAP Research Group, Institute of Computer Science</div>, University of Göttingen, <div class="country">Germany</div></div>
+    </div>
+
+    <div class="info-card-search-label">
+        Search for other works by this author on:
+    </div>
+
+<div class="info-card-search info-card-search-internal">
+    <a href="/dsh/search-results?f_Authors=Marco+B%c3%bcchler">Oxford Academic</a>
+</div>
+
+    <div class="info-card-search info-card-search-google">
+        <a href="http://scholar.google.com/scholar?q=author:%22B&#252;chler Marco%22">Google Scholar</a>
+    </div>
+</div>                                    </span>
+                                </span>
+                                <span class="al-author-name-more js-flyout-wrap">
+
+
+
+
+                                    <a class="linked-name js-linked-name-trigger" href="javascript:;">Heike Behlmer</a><span class='delimiter'></span>
+
+                                    <span class="al-author-info-wrap arrow-up">
+<div id="authorInfo_OUP_ArticleTop_Info_Widget" class="info-card-author authorInfo_OUP_ArticleTop_Info_Widget">
+    <div class="name-role-wrap">
+        <div class="info-card-name">
+    Heike Behlmer
+</div>
+
+    </div>
+
+    <div class="info-card-affilitation">
+        <div class="aff">Seminar for Egyptology and Coptic Studies, and Collaborative Research Centre 1136 “Education and Religion in Cultures of the Mediterranean and Its Environment from Ancient to Medieval Times and to the Classical Islam,” <div class="institution">University of Göttingen</div>, <div class="country">Germany</div></div>
+    </div>
+
+    <div class="info-card-search-label">
+        Search for other works by this author on:
+    </div>
+
+<div class="info-card-search info-card-search-internal">
+    <a href="/dsh/search-results?f_Authors=Heike+Behlmer">Oxford Academic</a>
+</div>
+
+    <div class="info-card-search info-card-search-google">
+        <a href="http://scholar.google.com/scholar?q=author:%22Behlmer Heike%22">Google Scholar</a>
+    </div>
+</div>                                    </span>
+                                </span>
+
+                    </div>
+                </div>
+<div class="pub-history-wrap clearfix">
+
+        <div class="pub-history-row clearfix">
+            <div class="ww-citation-primary"><em>Digital Scholarship in the Humanities</em>, Volume 34, Issue Supplement_1, December 2019, Pages i135–i141, <a href='https://doi.org/10.1093/llc/fqz023'>https://doi.org/10.1093/llc/fqz023</a></div>
+        </div>
+        <div class="pub-history-row clearfix">
+            <div class="ww-citation-date-wrap">
+                <div class="citation-label">Published:</div>
+                <div class="citation-date">22 April 2019</div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $('.article-top-widget').on('click', '.ati-toggle-trigger', function () {
+            $(this).find('.icon-general-add, .icon-minus').toggleClass('icon-minus icon-general-add');
+            $(this).siblings('.ati-toggle-content').toggleClass('hide');
+        });
+
+        // In Chrome, an anchor tag with target="_blank" and a "mailto:" href opens a new tab/window as well as the email client
+        // I suspect this behavior will be corrected in the future
+        // Remove the target="_blank"
+        $('ul.wi-affiliationList').find('a[href^="mailto:"]').each(function () {
+            $(this).removeAttr('target');
+        });
+    });
+</script>
+
+ 
+    </div>
+    <div class="widget widget-ArticleLinks widget-instance-OUP_Article_Links_Widget">
+         
+    </div>
+
+
+        <div class="article-body js-content-body">
+            <div class="toolbar-wrap js-toolbar-wrap">
+                <div class="toolbar-inner-wrap">
+                    <ul id="Toolbar" role="navigation">
+    <li class="toolbar-item item-pdf">
+        <a class="al-link pdf article-pdfLink" data-article-id="5476096" href="/dsh/article-pdf/34/Supplement_1/i135/31686028/fqz023.pdf">
+            <img src=//oup.silverchair-cdn.com/UI/app/svg/pdf.svg alt="pdf" /><span class="pdf-link-text">PDF</span>
+        </a>
+    </li>
+                                                    <li class="toolbar-item item-link item-split-view">
+                                <a href="javascript:;"
+                                   class="split-view js-split-view st-split-view"
+                                   target="">
+                                    <i class="icon-menu_split"></i>
+                                    Split View
+                                </a>
+                            </li>
+                        <li class="toolbar-item item-with-dropdown item-views">
+                            <a class="at-views-dropdown drop-trigger" href="javascript:;" data-dropdown="FilterDrop" aria-haspopup="true">
+                                <i class="icon-menu_views"></i>
+                                <div class="toolbar-label">
+                                    <div class="toolbar-text">Views</div>
+                                    <i class="icon-general-arrow-filled-down arrow-icon"></i>
+                                </div>
+                            </a>
+                            <ul id="ViewsDrop" class="f-dropdown" data-dropdown-content aria-label="submenu">
+                                <div class="arrow-up"></div>
+                                <li class="article-content-filter js-article-content-filter" data-content-filter="article-content">
+                                    <a href="javascript:;"><span>Article contents</span></a>
+                                </li>
+                                <li class="at-figures-tables article-content-filter js-article-content-filter" data-content-filter="figures-tables">
+                                    <a href="javascript:;"><span>Figures &amp; tables</span></a>
+                                </li>
+                                <li class="article-content-filter js-article-content-filter" data-content-filter="video">
+                                    <a href="javascript:;"><span>Video</span></a>
+                                </li>
+                                <li class="article-content-filter js-article-content-filter" data-content-filter="audio">
+                                    <a href="javascript:;"><span>Audio</span></a>
+                                </li>
+                                <li class="article-content-filter js-article-content-filter" data-content-filter="supplementary-data">
+                                    <a href="javascript:;"><span>Supplementary Data</span></a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="toolbar-item">
+    <div class="widget widget-ToolboxGetCitation widget-instance-OUP_Get_Citation">
+        <a href="#" class="js-cite-button" data-reveal-id="getCitation" data-reveal><i class="icon-read-more"></i><span>Cite</span></a>
+
+<div id="getCitation" class="reveal-modal" data-reveal>
+    <h3 class="modal-title">Cite</h3>
+        <div class="oxford-citation-text">
+            <p>So Miyagawa, Kirill Bulert, Marco Büchler, Heike Behlmer,  Optical character recognition of typeset Coptic text with neural networks, <em>Digital Scholarship in the Humanities</em>, Volume 34, Issue Supplement_1, December 2019, Pages i135–i141, <a href="https://doi.org/10.1093/llc/fqz023">https://doi.org/10.1093/llc/fqz023</a></p>
+        </div>
+
+    <div class="citation-download-wrap">
+        <form action="/Citation/Download" method="get" id="citationModal">
+            <input type="hidden" name="resourceId" value="5476096" />
+            <input type="hidden" name="resourceType" value="3" />
+            <label for="selectFormat" class="hide">Select Format</label>
+            <select required name="citationFormat" class="citation-download-format" id="selectFormat">
+                <option selected disabled >Select format</option>
+                        <option value="0" >.ris (Mendeley, Papers, Zotero)</option>
+                        <option value="1" >.enw (EndNote)</option>
+                        <option value="2" >.bibtex (BibTex)</option>
+                        <option value="3" >.txt (Medlars, RefWorks)</option>
+
+            </select>
+            <button class="btn citation-download-link disabled" type="submit">Download citation</button>
+        </form>
+    </div>
+
+    <a class="close-reveal-modal" href="javascript:;"><i class="icon-general-close"></i><span class="screenreader-text">Close</span></a>
+</div>
+ 
+    </div>
+
+                        </li>
+                        <li class="toolbar-item item-tools">
+    <div class="widget widget-ToolboxPermissions widget-instance-OUP_Get_Permissions">
+            <div class="module-widget">
+        <a href="https://s100.copyright.com/AppDispatchServlet?publisherName=OUP&amp;publication=2055-768X&amp;title=Optical%20character%20recognition%20of%20typeset%20Coptic%20text%20with%20neural%20networks&amp;publicationDate=2019-04-22&amp;volumeNum=34&amp;issueNum=Supplement_1&amp;author=Miyagawa%2C%20So%3B%20Bulert%2C%20Kirill&amp;startPage=i135&amp;endPage=i141&amp;contentId=10.1093%2Fllc%2Ffqz023&amp;oa=&amp;copyright=Oxford%20University%20Press&amp;orderBeanReset=True" id="PermissionsLink" class="" target="_blank">
+            <i class="icon-menu_permissions">
+                <span class="screenreader-text">Permissions Icon</span>
+            </i>
+            Permissions
+        </a>
+    </div>
+ 
+    </div>
+
+                        </li>
+                        <li class="toolbar-item item-with-dropdown item-share last">
+                            <a class="drop-trigger" href="javascript:;" data-dropdown="ShareDrop" aria-haspopup="true">
+                                <i class="icon-menu_share"></i>
+                                <div class="toolbar-label">
+                                    <div class="toolbar-text">Share</div>
+                                    <i class="icon-general-arrow-filled-down arrow-icon"></i>
+                                </div>
+                            </a>
+                            <ul id="ShareDrop" class="addthis_toolbox addthis_default_style addthis_20x20_style f-dropdown" data-dropdown-content aria-label="submenu">
+                                <div class="arrow-up"></div>
+                                <li><a class="addthis_button_email"><span>Email</span></a></li>
+                                <li><a class="addthis_button_twitter"><span>Twitter</span></a></li>
+                                <li><a class="addthis_button_facebook"><span>Facebook</span></a></li>
+                                <li><a class="addthis_button_compact"><span>More</span></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="toolbar-search">
+    <div class="widget widget-SitePageHeader widget-instance-OUP_ArticleToolbarSearchBox">
+        
+
+
+<div class="dropdown-panel-wrap">
+
+    
+    <div class="dropdown-panel mobile-search-dropdown">
+        <div class="mobile-search-inner-wrap">
+                <div class="navbar-search">
+                    <div id="MobileMicrositeSearch" class="mobile-microsite-search">
+                        <label for="mobile-navbar-search-filter" class="screenreader-text">Navbar Search Filter</label>
+                        <select class="navbar-search-filter" id="mobile-navbar-search-filter">
+                                                            <optgroup label="Search within this journal">
+<option class="header-search-bar-filters-item" value="Issue">This issue</option><option class="header-search-bar-filters-item" value="">All  Digital Scholarship in the Humanities</option>
+                                </optgroup>
+                                <optgroup label="Search beyond this journal">
+<option class="header-search-bar-filters-item" value="Journals">All  Journals</option>                                </optgroup>
+                        </select>
+
+
+
+
+
+                        <label for="MobileMicrositeSearchTerm" class="screenreader-text">Mobile Microsite Search Term</label>
+                        <input class="mobile-search-input mobile-microsite-search-term" type="text" maxlength="255" placeholder="Search" id="MobileMicrositeSearchTerm">
+
+                        <a href="javascript:;" id="MobileMicrositeSearchIcon" class="mobile-microsite-search-icon mobile-search-submit icon-menu_search"><span class="screenreader-text">Search</span></a>
+
+                    </div>
+                </div>        </div>
+    </div>
+    
+    <div class="dropdown-panel mobile-account-dropdown">
+        <ul class="site-menu site-menu-lvl-0">
+            <li class="site-menu-item site-menu-lvl-0">
+                <a href="" class="nav-link mobile-account-signin dummy-link js-header-account-info-user-fullname" id="header-account-info-user-fullname-mobile">
+                    
+Sign In                    <i class="mobile-nav-arrow icon-general_arrow-down"></i>
+                </a>
+                <ul class="site-menu site-menu-lvl-1 individual-menu">
+                    <li class="dropdown-signin-form">
+                        <div class="spinner"></div>
+                    </li>
+                </ul>
+            </li>
+                <li class="site-menu-item site-menu-lvl-0">
+                        <a href="javascript:;" class="nav-link mobile-account-institution dummy-link">
+                            Centre College
+                        </a>
+
+                    <i class="mobile-nav-arrow icon-general_arrow-down"></i>
+                    <ul class="site-menu site-menu-lvl-1">
+                            <li class="dropdown-institution-item">
+
+Centre College
+                            </li>
+
+                        <li class="dropdown-institution-signout">
+                        </li>
+                    </ul>
+                </li>
+                            <li class="site-menu-item">
+                    <a href="/my-account/register?siteId=5447&amp;returnUrl=%2fdsh%2farticle%2f34%2fSupplement_1%2fi135%2f5476096" class="register nav-link">Register</a>
+                </li>
+        </ul>
+    </div>
+    
+    <div class="dropdown-panel mobile-nav-dropdown">
+
+    </div>
+
+</div>
+
+
+
+<div class="navbar">
+    <div class="center-inner-row">
+        <nav class="navbar-menu">
+
+        </nav>
+            <div class="navbar-search-container js-navbar-search-container">
+                <a href="javascript:;" class="navbar-search-close js_close-navsearch">Close</a>
+                    <div class="navbar-search">
+                        <div id="MicrositeSearch" class="microsite-search">
+                            <label for="navbar-search-filter" class="screenreader-text">search filter</label>
+                            <select class="navbar-search-filter" id="navbar-search-filter">
+                                                                    <optgroup label="Search within this journal">
+                                                <option class="header-search-bar-filters-item" value="Issue" >This issue</option>
+                                                <option class="header-search-bar-filters-item" value="" selected=&quot;selected&quot;>All  Digital Scholarship in the Humanities</option>
+
+                                    </optgroup>
+                                    <optgroup label="Search beyond this journal">
+                                                <option class="header-search-bar-filters-item" value="Journals" >All  Journals</option>
+                                    </optgroup>
+                            </select>
+
+                            <label for="MicrositeSearchTerm" class="screenreader-text">search input</label>
+                            <input class="navbar-search-input microsite-search-term" type="text" maxlength="255" id="MicrositeSearchTerm" title="search input">
+
+                            <a href="javascript:;" id="MicrositeSearchIcon" class="microsite-search-icon navbar-search-submit icon-menu_search"><span class="screenreader-text">Search</span></a>
+
+                        </div>
+                    </div>                <div class="navbar-search-advanced"><a href="/dsh/advanced-search" class="advanced-search js-advanced-search">Advanced Search</a></div>
+            </div>            <div class="navbar-search-collapsed"><a href="javascript:;" class="icon-menu_search js_expand-navsearch"><span class="screenreader-text">Search Menu</span></a></div>
+    </div>
+</div>
+
+<input id="hfEnableOupOnlineProductsFeatures" name="hfEnableOupOnlineProductsFeatures" type="hidden" value="False" />
+
+<input id="routename" name="RouteName" type="hidden" value="dsh" /> 
+    </div>
+
+                    </div>
+                </div>
+            </div>
+            <div id="ContentTab" class="content active">
+    <div class="widget widget-ArticleFulltext widget-instance-OUP_Article_FullText_Widget">
+        <div class="module-widget">
+    <div class="widget-items" data-widgetname="ArticleFulltext">
+
+
+
+
+
+                    <h2 scrollto-destination=190967115 id="190967115" class="abstract-title" >Abstract</h2>
+<section class="abstract"><p class="chapter-para">Digital Humanities (DH) within Coptic Studies, an emerging field of development, will be much aided by the digitization of large quantities of typeset Coptic texts. Until recently, the only Optical Character Recognition (OCR) analysis of printed Coptic texts had been executed by Moheb S. Mekhaiel, who used the Tesseract program to create a text model for liturgical books in the Bohairic dialect of Coptic. However, this model is not suitable for the many scholarly editions of texts in the Sahidic dialect of Coptic which use noticeably different fonts. In the current study, DH and Coptological projects based in Göttingen, Germany, collaborated to develop a new Coptic OCR pipeline suitable for use with all Coptic dialects. The objective of the study was to generate a model which can facilitate digital Coptic Studies and produce Coptic corpora from existing printed texts. First, we compared the two available OCR programs that can recognize Coptic: Tesseract and Ocropy. The results indicated that the neural network model, i.e. Ocropy, performed better at recognizing the letters with supralinear strokes that characterize the published Sahidic texts. After training Ocropy for Coptic using artificial neural networks, the team achieved an accuracy rate of &gt;91% for the OCR analysis of Coptic typeset. We subsequently compared the efficiency of Ocropy to that of manual transcribing and concluded that the use of Ocropy to extract Coptic from digital images of printed texts is highly beneficial to Coptic DH.</p></section>                        <div class="article-metadata-panel clearfix"></div>
+                    <h2 scrollto-destination=190967116 id="190967116" class="section-title" data-legacy-id=SEC1>1 Introduction</h2>
+<p class="chapter-para">For a text to be rendered machine-readable, it must be represented in digital form. There are typically two approaches to converting the textual information inside typeset texts to digital form. Text can be transcribed/typed manually or extracted from the digital image of the document,<span class="xrefLink" id="jumplink-fqz023-en1"></span><a href="javascript:;" reveal-id="fqz023-en1" data-open="fqz023-en1" class="link link-ref link-reveal xref-fn js-xref-fn"><sup>1</sup></a> using specialist software. Optical character recognition (OCR) is a computational method of digitally converting typeset documents, handwritten documents, and photos into digitally encoded characters (cf. <span class="xrefLink" id="jumplink-fqz023-B11"></span><a href="javascript:;" reveal-id="fqz023-B11" data-open="fqz023-B11" class="link link-ref link-reveal xref-bibr">Schantz 1982</a>). This article is focused on the OCR of typeset Coptic texts, leaving aside, at this point, the OCR of handwritten manuscripts. Despite digital transcription methods having been in development since the 1970s, modern typeset documents with ancient texts still present a significant challenge for OCR technology. These documents possess additional complexities and barriers to automated conversion, due to stains, unfamiliar typefaces, lacunae, unfamiliar punctuation, unfamiliar diacritics, unfamiliar sigla, etc. While manual typing may be a comparatively straightforward option, this method presents a significant challenge to the resources available to Coptologists.</p><p class="chapter-para">Coptic represents the final stage of the Egyptian language, and is the language of a wide range of literature, both original and translated, including hagiographical, patristic and liturgical texts, Gnostic and Manichaean writings, and magical, scientific, and monastic texts. Coptic, in theory, presents an ideal alphabet for OCR tools, comprising around thirty standard and accented letters, and multiple punctuation marks. However, as Coptic is not currently read, spoken or written by a large community (except for the use of the Bohairic dialect in Coptic Christian liturgies) and mainly of academic interest, there has been little pressure to create OCR software for the language.</p><p class="chapter-para">This article seeks to compare and contrast existing methods for producing digital transcriptions of typeset Coptic text. Further, it will recommend a process that, through use of existing systems, lessens the manual requirements for Coptic text transcription. Finally, it will discuss and promote personal modelling for general texts and specific documents.</p>                    <h2 scrollto-destination=190967120 id="190967120" class="section-title" data-legacy-id=SEC2>2 Related Research</h2>
+<p class="chapter-para">Digital conversion of text comprises three key stages. The first is text pre-processing (e.g. binarization, see <span class="xrefLink" id="jumplink-fqz023-B5"></span><a href="javascript:;" reveal-id="fqz023-B5" data-open="fqz023-B5" class="link link-ref link-reveal xref-bibr">He <em>et al.</em>, 2005</a>; <span class="xrefLink" id="jumplink-fqz023-B4"></span><a href="javascript:;" reveal-id="fqz023-B4" data-open="fqz023-B4" class="link link-ref link-reveal xref-bibr">Gupta <em>et al.</em>, 2007</a>), the second is text prediction (using an OCR program), and the third is the correction, or ‘post-processing’, of the OCR output text.</p><p class="chapter-para">Despite multiple studies into specific OCR challenges (e.g. <span class="xrefLink" id="jumplink-fqz023-B6"></span><a href="javascript:;" reveal-id="fqz023-B6" data-open="fqz023-B6" class="link link-ref link-reveal xref-bibr">Kluzner <em>et al.</em>, 2009</a>), the first comprehensive review of all three stages was published by Uwe <span class="xrefLink" id="jumplink-fqz023-B12"></span><a href="javascript:;" reveal-id="fqz023-B12" data-open="fqz023-B12" class="link link-ref link-reveal xref-bibr">Springmann <em>et al.</em> (2014)</a> with a specific focus on Greek and Latin literature.</p><p class="chapter-para">Tesseract<span class="xrefLink" id="jumplink-fqz023-en2"></span><a href="javascript:;" reveal-id="fqz023-en2" data-open="fqz023-en2" class="link link-ref link-reveal xref-fn js-xref-fn"><sup>2</sup></a> was the first OCR tool used with Coptic texts. Using this tool, Moheb S. Mekhaiel was able to create a base model for the automated transcription of Coptic liturgical texts printed with typeset of the Bohairic dialect (<span class="xrefLink" id="jumplink-fqz023-B8"></span><a href="javascript:;" reveal-id="fqz023-B8" data-open="fqz023-B8" class="link link-ref link-reveal xref-bibr">Mekhaiel 2009–2013</a>). Tesseract does, however, presume the scanned typeface to be standard. Despite the software being adjustable for the recognition of new fonts, the creation of an adequate Tesseract model for academic use is unfeasible. For simple printed Coptic works, a suitable model can be achieved. It does, however, produce error-ridden documents if the originals are annotated or contain multiple languages. In the case of modern languages, dictionaries can be used to cross-check documents and to correct these errors. However, in the absence of complete dictionaries, dead languages are harder to correct.</p><p class="chapter-para">In theory, any character-based text can be transformed by OCR software into a digital representation; text recognition is relatively easily conducted using Ocropy<span class="xrefLink" id="jumplink-fqz023-en3"></span><a href="javascript:;" reveal-id="fqz023-en3" data-open="fqz023-en3" class="link link-ref link-reveal xref-fn js-xref-fn"><sup>3</sup></a> (the Python-based version of OCRopus, see <span class="xrefLink" id="jumplink-fqz023-B2"></span><a href="javascript:;" reveal-id="fqz023-B2" data-open="fqz023-B2" class="link link-ref link-reveal xref-bibr">Breuel, 2008</a>) or Tesseract. Despite Mekhaiel having presented a Coptic model for Tesseract, this study did not achieve a satisfying output on any digitized typeset document without significant pre-processing.</p>                    <h2 scrollto-destination=190967125 id="190967125" class="section-title" data-legacy-id=SEC3>3 Data Employed</h2>
+<p class="chapter-para">Besa was a fifth-century Coptic writer and abbot in Upper Egypt. His literary legacy mainly comprises his (literary) correspondence with nuns and monks about matters of monastic life. For experimental purposes, a Coptic-language specialist (So Miyagawa) created a clean version of Karl Heinz Kuhn’s 1956 edition of <em>Letters and Sermons of Besa</em> (<span class="xrefLink" id="jumplink-fqz023-B16"></span><a href="javascript:;" reveal-id="fqz023-B16" data-open="fqz023-B16" class="link link-ref link-reveal xref-bibr">Kuhn, 1956</a>), along with a corresponding transcription. Initially, simplified pages (such as <span class="xrefLink" id="jumplink-fqz023-F1"></span><a href="javascript:;" reveal-id="fqz023-F1" data-open="fqz023-F1" class="link link-reveal link-table xref-fig">Fig. 1</a>) were used to determine the restrictions of trained models. The results achieved using simplified pages demonstrated an optimum character prediction. Stripping a page of all annotations and diacritics is a labour-intensive task; however, this process is not considered viable for routine transcription. </p>                        <a id="190967127" scrollto-destination="190967127"></a>
+<div data-id="fqz023-F1" class="fig fig-section"><div class="label fig-label">Fig. 1</div><div class="graphic-wrap"><img class="content-image" src="https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/dsh/34/Supplement_1/10.1093_llc_fqz023/2/m_fqz023f1.png?Expires=1606915584&amp;Signature=BJWwNdoDlHKdQfGEpzd75KPffF5yS2gL5nL9aBvybSF5fglbvzIG3DuI7-6avRCpVbwLdWrSI6YUU~yEG2mW8XDtJ1mGfWpGVPbnyGBn1YPxyYlFOcN7-BzGFsX90S29tTC8~zm9Avol8sQt-WEVgVPxxhPdf68OJioQd8TZHRdTswwputnKkU~RYYdBoTVPC74Uw8PgWIAnGE0~o2JcoQuMhF~zB6hY8Nw-j9BGveL4KEKyITRFfBmvSG82cKbN9ycV1rrgXjdt0re5KBXstDCE8jUNPwR8shkJ58TR0CWETqfVr3vi7bsLAbg3gS7EbpQ3cj5ByGEwbRhyEZ~o~g__&amp;Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" alt="Simplified version (excerpt)" data-path-from-xml="fqz023f1.tif" /><div class="fig-orig original-slide"><a class="fig-view-orig js-view-large openInAnotherWindow" href="/view-large/figure/190967127/fqz023f1.tif" data-path-from-xml="fqz023f1.tif" target="_blank">Open in new tab</a><a data-section="190967127" href="/DownloadFile/DownloadImage.aspx?image=https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/dsh/34/Supplement_1/10.1093_llc_fqz023/2/fqz023f1.png?Expires=1606915584&Signature=bKu3Ob9ZvXkQeRKd8~JOZ2BohfkagLN7TJzx1n6Bnqs8WNHoYkPICwV~zbTtoAhLZCXhXeTmX1U4tPdoTy7yA6CAShXW3wzlBhN2MPZboC6DXKRibrKeF2Ag46DI64o99iolpNX8untfSkilOHblAij89IIs1jzvYHbWcaJ7gYA6EbP90Qj3yXTBq0n6HXp2C07ay9IannARWlSNokWK0zsDynPYlT5FKUqjotZZLfuRDmr7pYXQOPfdbDfFTn-5hWYziZ831zyWgByirb7GxNh6Wn39zb7tcJa0VB4iKBEsqqPmpJYmVEDHWhK2xuuyNjFnYE1FpjiO3VtHkGuSIw__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA&sec=190967127&ar=5476096&xsltPath=~/UI/app/XSLT&imagename=&siteId=5447" class="download-slide" data-path-from-xml="fqz023f1.tif">Download slide</a></div></div><div class="caption fig-caption"><p class="chapter-para">Simplified version (excerpt)</p></div></div><div content-id="fqz023-F1" class="fig fig-modal reveal-modal"><div class="label fig-label">Fig. 1</div><div class="graphic-wrap"><img class="content-image" src="https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/dsh/34/Supplement_1/10.1093_llc_fqz023/2/m_fqz023f1.png?Expires=1606915584&amp;Signature=BJWwNdoDlHKdQfGEpzd75KPffF5yS2gL5nL9aBvybSF5fglbvzIG3DuI7-6avRCpVbwLdWrSI6YUU~yEG2mW8XDtJ1mGfWpGVPbnyGBn1YPxyYlFOcN7-BzGFsX90S29tTC8~zm9Avol8sQt-WEVgVPxxhPdf68OJioQd8TZHRdTswwputnKkU~RYYdBoTVPC74Uw8PgWIAnGE0~o2JcoQuMhF~zB6hY8Nw-j9BGveL4KEKyITRFfBmvSG82cKbN9ycV1rrgXjdt0re5KBXstDCE8jUNPwR8shkJ58TR0CWETqfVr3vi7bsLAbg3gS7EbpQ3cj5ByGEwbRhyEZ~o~g__&amp;Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" alt="Simplified version (excerpt)" data-path-from-xml="fqz023f1.tif" /><div class="fig-orig original-slide"><a class="fig-view-orig js-view-large openInAnotherWindow" href="/view-large/figure/190967127/fqz023f1.tif" data-path-from-xml="fqz023f1.tif" target="_blank">Open in new tab</a><a data-section="190967127" href="/DownloadFile/DownloadImage.aspx?image=https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/dsh/34/Supplement_1/10.1093_llc_fqz023/2/fqz023f1.png?Expires=1606915584&Signature=bKu3Ob9ZvXkQeRKd8~JOZ2BohfkagLN7TJzx1n6Bnqs8WNHoYkPICwV~zbTtoAhLZCXhXeTmX1U4tPdoTy7yA6CAShXW3wzlBhN2MPZboC6DXKRibrKeF2Ag46DI64o99iolpNX8untfSkilOHblAij89IIs1jzvYHbWcaJ7gYA6EbP90Qj3yXTBq0n6HXp2C07ay9IannARWlSNokWK0zsDynPYlT5FKUqjotZZLfuRDmr7pYXQOPfdbDfFTn-5hWYziZ831zyWgByirb7GxNh6Wn39zb7tcJa0VB4iKBEsqqPmpJYmVEDHWhK2xuuyNjFnYE1FpjiO3VtHkGuSIw__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA&sec=190967127&ar=5476096&xsltPath=~/UI/app/XSLT&imagename=&siteId=5447" class="download-slide" data-path-from-xml="fqz023f1.tif">Download slide</a></div></div><div class="caption fig-caption"><p class="chapter-para">Simplified version (excerpt)</p></div></div><p class="chapter-para"><span class="xrefLink" id="jumplink-fqz023-F1"></span><a href="javascript:;" reveal-id="fqz023-F1" data-open="fqz023-F1" class="link link-reveal link-table xref-fig">Figures 1</a> and <span class="xrefLink" id="jumplink-fqz023-F2"></span><a href="javascript:;" reveal-id="fqz023-F2" data-open="fqz023-F2" class="link link-reveal link-table xref-fig">2</a> below show the original typeset document and its simplified version. <span class="xrefLink" id="jumplink-fqz023-F2"></span><a href="javascript:;" reveal-id="fqz023-F2" data-open="fqz023-F2" class="link link-reveal link-table xref-fig">Figure 2</a> shows characters and symbols highlighted in grey for removal. Furthermore, unrecognizable or missing characters were transcribed with placeholders represented by dots in the underlying edition. These dots were removed in the ‘simplified’ versions creating gaps. Such gaps are recognized differently by both OCR processors and were accounted for in the accuracy evaluation. In pre-processing, we created three different versions of the images to be scanned by the OCR: <ul class="bullet"><li><p class="chapter-para">‘original’—As shown in <span class="xrefLink" id="jumplink-fqz023-F2"></span><a href="javascript:;" reveal-id="fqz023-F2" data-open="fqz023-F2" class="link link-reveal link-table xref-fig">Fig. 2</a>, multilingual, with annotations and supralinear strokes.</p></li><li><p class="chapter-para">‘clean’—Not shown, same as <span class="xrefLink" id="jumplink-fqz023-F1"></span><a href="javascript:;" reveal-id="fqz023-F1" data-open="fqz023-F1" class="link link-reveal link-table xref-fig">Fig. 1</a> but supralinear strokes are preserved.</p></li><li><p class="chapter-para">‘simplified’—As shown in <span class="xrefLink" id="jumplink-fqz023-F1"></span><a href="javascript:;" reveal-id="fqz023-F1" data-open="fqz023-F1" class="link link-reveal link-table xref-fig">Fig. 1</a>, monolingual, without annotations and without supralinear strokes.</p></li></ul></p>                        <a id="190967129" scrollto-destination="190967129"></a>
+<div data-id="fqz023-F2" class="fig fig-section"><div class="label fig-label">Fig. 2</div><div class="graphic-wrap"><img class="content-image" src="https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/dsh/34/Supplement_1/10.1093_llc_fqz023/2/m_fqz023f2.png?Expires=1606915584&amp;Signature=o1ox23AkQl9BNji0n7fhMW09AfBKiKpOSclvmuCxCCAEOOuLjPp1T9CaT-DwbfxAX7WNc18HFV4S9zOSnkN-3heJQ6iMnOI~EEYzebTZTPvgcfutR3D7k3zsXZ29ghtRRtx6~QZnkYlDo-5Al2wscibIpkB3d6zXebdWw3bIr8KQzX63Mx1gNk0eaoTeKBXzFDoi8w-pWtoHxgHLBLDejudDRK-K1Q9IhSZ9iWaVWfzS2l6hn9yGH76r~~qCFsnjDpMiV4sPJ3Y1vs57atUWKYtmby-pW7Rpi~JAWlL~7y4piZ24~Wu-QF4L2UAAbp-kQWIJtVcx-3Ft5VTgJmWVQw__&amp;Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" alt="Original Image (excerpt), grey elements are missing in the simplified version" data-path-from-xml="fqz023f2.tif" /><div class="fig-orig original-slide"><a class="fig-view-orig js-view-large openInAnotherWindow" href="/view-large/figure/190967129/fqz023f2.tif" data-path-from-xml="fqz023f2.tif" target="_blank">Open in new tab</a><a data-section="190967129" href="/DownloadFile/DownloadImage.aspx?image=https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/dsh/34/Supplement_1/10.1093_llc_fqz023/2/fqz023f2.png?Expires=1606915584&Signature=01mldVTHgOQprboviHZsSnU1LarJEmstniP7B8ePmJY-1b46Qmt21po9lTIByW5pom7rSiFB6RNLqbopEle8S5-HjG0UZqrLTRMc1r2jw2MAq1uGJYbsg0baYV~azUbl63~pAjooPMWd~RpckWxhhlL1dJEnlB9u8e-aXxeh7s4UM7U5NlevTVcGcWIaMgAOkJ7GnT1cmPxr5H-UpNnCGRiNLdcRFQqZ4ZEZ~tjKjC7d8jU80fGKglDPdcZV5JPmoqohgPhk1UL8F5Cy9aBIcHaUEKdzAitrsurLP2JBT03rLTnPJIbkMuIkS-fKQ~72F5uSnrMcF7xWwkiGHm9G1w__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA&sec=190967129&ar=5476096&xsltPath=~/UI/app/XSLT&imagename=&siteId=5447" class="download-slide" data-path-from-xml="fqz023f2.tif">Download slide</a></div></div><div class="caption fig-caption"><p class="chapter-para">Original Image (excerpt), grey elements are missing in the simplified version</p></div></div><div content-id="fqz023-F2" class="fig fig-modal reveal-modal"><div class="label fig-label">Fig. 2</div><div class="graphic-wrap"><img class="content-image" src="https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/dsh/34/Supplement_1/10.1093_llc_fqz023/2/m_fqz023f2.png?Expires=1606915584&amp;Signature=o1ox23AkQl9BNji0n7fhMW09AfBKiKpOSclvmuCxCCAEOOuLjPp1T9CaT-DwbfxAX7WNc18HFV4S9zOSnkN-3heJQ6iMnOI~EEYzebTZTPvgcfutR3D7k3zsXZ29ghtRRtx6~QZnkYlDo-5Al2wscibIpkB3d6zXebdWw3bIr8KQzX63Mx1gNk0eaoTeKBXzFDoi8w-pWtoHxgHLBLDejudDRK-K1Q9IhSZ9iWaVWfzS2l6hn9yGH76r~~qCFsnjDpMiV4sPJ3Y1vs57atUWKYtmby-pW7Rpi~JAWlL~7y4piZ24~Wu-QF4L2UAAbp-kQWIJtVcx-3Ft5VTgJmWVQw__&amp;Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" alt="Original Image (excerpt), grey elements are missing in the simplified version" data-path-from-xml="fqz023f2.tif" /><div class="fig-orig original-slide"><a class="fig-view-orig js-view-large openInAnotherWindow" href="/view-large/figure/190967129/fqz023f2.tif" data-path-from-xml="fqz023f2.tif" target="_blank">Open in new tab</a><a data-section="190967129" href="/DownloadFile/DownloadImage.aspx?image=https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/dsh/34/Supplement_1/10.1093_llc_fqz023/2/fqz023f2.png?Expires=1606915584&Signature=01mldVTHgOQprboviHZsSnU1LarJEmstniP7B8ePmJY-1b46Qmt21po9lTIByW5pom7rSiFB6RNLqbopEle8S5-HjG0UZqrLTRMc1r2jw2MAq1uGJYbsg0baYV~azUbl63~pAjooPMWd~RpckWxhhlL1dJEnlB9u8e-aXxeh7s4UM7U5NlevTVcGcWIaMgAOkJ7GnT1cmPxr5H-UpNnCGRiNLdcRFQqZ4ZEZ~tjKjC7d8jU80fGKglDPdcZV5JPmoqohgPhk1UL8F5Cy9aBIcHaUEKdzAitrsurLP2JBT03rLTnPJIbkMuIkS-fKQ~72F5uSnrMcF7xWwkiGHm9G1w__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA&sec=190967129&ar=5476096&xsltPath=~/UI/app/XSLT&imagename=&siteId=5447" class="download-slide" data-path-from-xml="fqz023f2.tif">Download slide</a></div></div><div class="caption fig-caption"><p class="chapter-para">Original Image (excerpt), grey elements are missing in the simplified version</p></div></div>                    <h2 scrollto-destination=190967130 id="190967130" class="section-title" data-legacy-id=SEC4>4 Methodology</h2>
+<p class="chapter-para">Two different methods are required when training Tesseract and Ocropy for Coptic printed text prediction: <ul class="roman-lower"><li><p class="chapter-para">Ocropy requires no specific typeface for training and needs only a part transcription, or <em>ground truth</em>. Its neural network then uses this transcription to match the textual characters. A significant weakness in this process is that Ocropy cannot learn from an alphabet alone, as a <em>ground truth</em>. Instead, it requires several sample transcriptions with a typical character frequency of the given language. The training process is recorded by iteration, with Springmann having proposed a minimum of 30,000 iterations.<span class="xrefLink" id="jumplink-fqz023-en4"></span><a href="javascript:;" reveal-id="fqz023-en4" data-open="fqz023-en4" class="link link-ref link-reveal xref-fn js-xref-fn"><sup>4</sup></a></p></li><li><p class="chapter-para">Tesseract, in contrast, does require a template typeface and matches identified characters to this reference. This can prove very useful as typefaces will have very few variations within a document. Further typefaces can be added, although text prediction using multiple typeface references will take longer to process. To date, this research has employed Mekhaiel’s original model. It is now beginning to examine the use of characters of various typefaces, to improve output for individual texts.</p></li></ul></p><p class="chapter-para">This study utilized an Ocropy model, with <em>ground truth</em> files comprising circa 5,000 characters. These characters include supralinear strokes, braces, and foreign, non-Coptic characters. For OCR, however, multilingual texts and use of foreign characters are considered highly challenging. Furthermore, stains, poor image quality (e.g. blurred image, poor resolution, etc.), and annotations are also considered complex. For optimum output, specific, less complex versions were created for each source image. To create ‘clean’ <em>ground truth</em> and image files, line numbering and footnote annotations were removed, along with foreign characters, punctuation and other annotations. Finally, all supralinear strokes were removed to create a further, ‘simplified,’ <em>ground truth</em> file (<span class="xrefLink" id="jumplink-fqz023-F1"></span><a href="javascript:;" reveal-id="fqz023-F1" data-open="fqz023-F1" class="link link-reveal link-table xref-fig">Fig. 1</a>).</p><p class="chapter-para">The selected Coptic source files were then transcribed, with Ocropy referencing the ‘original’ (<span class="xrefLink" id="jumplink-fqz023-F2"></span><a href="javascript:;" reveal-id="fqz023-F2" data-open="fqz023-F2" class="link link-reveal link-table xref-fig">Fig. 2</a>), ‘clean,’ and ‘simplified’ (<span class="xrefLink" id="jumplink-fqz023-F1"></span><a href="javascript:;" reveal-id="fqz023-F1" data-open="fqz023-F1" class="link link-reveal link-table xref-fig">Fig. 1</a>) <em>ground truth</em> files. Each output file was subsequently compared with ‘Ocreval’<span class="xrefLink" id="jumplink-fqz023-en5"></span><a href="javascript:;" reveal-id="fqz023-en5" data-open="fqz023-en5" class="link link-ref link-reveal xref-fn js-xref-fn"><sup>5</sup></a> with reference to its ground truth.</p>                    <h2 scrollto-destination=190967134 id="190967134" class="section-title" data-legacy-id=SEC5>5 Results</h2>
+                    <h3 scrollto-destination=190967135 id="190967135" class="section-title" data-legacy-id=SEC5.1>5.1 Prediction accuracy</h3>
+<p class="chapter-para">As <span class="xrefLink" id="jumplink-fqz023-F3"></span><a href="javascript:;" reveal-id="fqz023-F3" data-open="fqz023-F3" class="link link-reveal link-table xref-fig">Fig. 3</a> shows, while Mekhaiel’s Tesseract model provided a superior character accuracy of &lt;95% on simplified source files, the new Ocropy model provided a better output on more complex files. However, transcription errors caused by the Tesseract model are often predictable, with, for example, the letter <em>shai</em> always represented as the letter <em>omega</em>. In contrast, Ocropy produces no such errors.</p>                    <h3 scrollto-destination=190967137 id="190967137" class="section-title" data-legacy-id=SEC5.2>5.2 Project management efficiency in digital Coptic processing</h3>
+<p class="chapter-para">Each page of manual transcription requires an average of 10 minutes for typing and 10 minutes for proofreading. As such, from a project management perspective, Coptic OCR processing offers significant advantages in terms of cost-saving and efficiency. While many Coptic texts have been published, there are no digital versions other than those published by Coptic digital projects such as Coptic SCRIPTORIUM (<span class="xrefLink" id="jumplink-fqz023-B10"></span><a href="javascript:;" reveal-id="fqz023-B10" data-open="fqz023-B10" class="link link-ref link-reveal xref-bibr">Schroeder and Zeldes, 2016</a>), CoptOT,<span class="xrefLink" id="jumplink-fqz023-en6"></span><a href="javascript:;" reveal-id="fqz023-en6" data-open="fqz023-en6" class="link link-ref link-reveal xref-fn js-xref-fn"><sup>6</sup></a> Papyri.info,<span class="xrefLink" id="jumplink-fqz023-en7"></span><a href="javascript:;" reveal-id="fqz023-en7" data-open="fqz023-en7" class="link link-ref link-reveal xref-fn js-xref-fn"><sup>7</sup></a> Institut für Neutestamentliche Textforschung,<span class="xrefLink" id="jumplink-fqz023-en8"></span><a href="javascript:;" reveal-id="fqz023-en8" data-open="fqz023-en8" class="link link-ref link-reveal xref-fn js-xref-fn"><sup>8</sup></a> Marcion,<span class="xrefLink" id="jumplink-fqz023-en9"></span><a href="javascript:;" reveal-id="fqz023-en9" data-open="fqz023-en9" class="link link-ref link-reveal xref-fn js-xref-fn"><sup>9</sup></a> the Packard Humanities Institute,<span class="xrefLink" id="jumplink-fqz023-en10"></span><a href="javascript:;" reveal-id="fqz023-en10" data-open="fqz023-en10" class="link link-ref link-reveal xref-fn js-xref-fn"><sup>10</sup></a> St Shenouda the Archimandrite Coptic Society,<span class="xrefLink" id="jumplink-fqz023-en11"></span><a href="javascript:;" reveal-id="fqz023-en11" data-open="fqz023-en11" class="link link-ref link-reveal xref-fn js-xref-fn"><sup>11</sup></a> Corpus dei Manoscritti Copti Letterari,<span class="xrefLink" id="jumplink-fqz023-en12"></span><a href="javascript:;" reveal-id="fqz023-en12" data-open="fqz023-en12" class="link link-ref link-reveal xref-fn js-xref-fn"><sup>12</sup></a> and Sahidica<span class="xrefLink" id="jumplink-fqz023-en13"></span><a href="javascript:;" reveal-id="fqz023-en13" data-open="fqz023-en13" class="link link-ref link-reveal xref-fn js-xref-fn"><sup>13</sup></a> or privately by scholars such as Wolf–Peter Funk and by several members of the Coptic community. In fact, Coptic SCRIPTORIUM, the largest digital project for annotated Coptic texts, used the OCR suite created in this study to process <em>Apophthegmata Patrum</em> texts edited by Marius Chaîne (<span class="xrefLink" id="jumplink-fqz023-B3"></span><a href="javascript:;" reveal-id="fqz023-B3" data-open="fqz023-B3" class="link link-ref link-reveal xref-bibr">Chaîne, 1960</a>). The model created on the <em>Apophthegmata Patrum</em> is now available on the GitHub repository of the KELLIA project (<a class="link link-uri openInAnotherWindow" href="https://github.com/KELLIA/CopticOCR/tree/master/ApophthegmataPatrum" target="_blank">https://github.com/KELLIA/CopticOCR/tree/master/ApophthegmataPatrum</a>; also see the homepage of the KELLIA project, <a class="link link-uri openInAnotherWindow" href="http://kellia.uni-goettingen.de/" target="_blank">http://kellia.uni-goettingen.de/</a>). Furthermore, this study also generated digital versions of manuscripts from the Bohairic translation of the Minor Prophets (<span class="xrefLink" id="jumplink-fqz023-B13"></span><a href="javascript:;" reveal-id="fqz023-B13" data-open="fqz023-B13" class="link link-ref link-reveal xref-bibr">Tattam, 1836</a>), which is now available on <a class="link link-uri openInAnotherWindow" href="https://github.com/KELLIA/CopticOCR/tree/master/MinorProphetsBohairic" target="_blank">https://github.com/KELLIA/CopticOCR/tree/master/MinorProphetsBohairic</a>.</p><p class="chapter-para">This study was unable to accurately calculate the time taken to extract an image typeface for Tesseract’s training process, due to limited data available. Ocropy models require initial human input by way of <em>ground truth</em> creation. Its training does not, however, require any further human interaction, although it does consume up to two days of CPU power (Core i3/5 2.4GHz/3.2GHz, 8GB RAM, SSD). Predictions require manual proofreading, which also takes up to 10 minutes per page with 33 lines on average. <span class="xrefLink" id="jumplink-fqz023-F4"></span><a href="javascript:;" reveal-id="fqz023-F4" data-open="fqz023-F4" class="link link-reveal link-table xref-fig">Figure 4</a> demonstrates an interpolation of optimal workload reduction using the two OCR tools contrasted with initial manual transcription workload. These calculations are based on the use of source files labeled as ‘clean.’ A more representative scenario is discussed below. </p>                        <a id="190967140" scrollto-destination="190967140"></a>
+<div data-id="fqz023-F3" class="fig fig-section"><div class="label fig-label">Fig. 3</div><div class="graphic-wrap"><img class="content-image" src="https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/dsh/34/Supplement_1/10.1093_llc_fqz023/2/m_fqz023f3.png?Expires=1606915584&amp;Signature=Jtmeh~C-el1W2AX~ZW97-DsNWCUu3ue9lph6ytSDZT4BzkGTk7gUk6Nf~smiPQJHm8oLtgaxmt5E8xSK31crSX5Lo7hq0aybt4g7e-DTzG2ktPMa9YhOLjpsTCz7gQVeE-1Tw26-27VOadgKHe-J~Oee78oArAjzb4VNYDpLmjS97hKTuUubSGS3HK67CLSnWwoU7TlLnCAtomDV8-HO58vpkLNB57E-wF0Xn5SzJC2MK8YWWZlqDDOELwSzJGDQ0dMPRHdFxMmea6du9lgacSRNzYc8ov435nBcSwjjFLPTTbGVY7fDrgnkVgDnKCF~CnLXYjC8q-o2TaYIJHzEFA__&amp;Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" alt="OCR accuracy according to text complexity: our comparisons between Mekhaiel’s Tesseract model and our new Ocropy model" data-path-from-xml="fqz023f3.tif" /><div class="fig-orig original-slide"><a class="fig-view-orig js-view-large openInAnotherWindow" href="/view-large/figure/190967140/fqz023f3.tif" data-path-from-xml="fqz023f3.tif" target="_blank">Open in new tab</a><a data-section="190967140" href="/DownloadFile/DownloadImage.aspx?image=https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/dsh/34/Supplement_1/10.1093_llc_fqz023/2/fqz023f3.png?Expires=1606915584&Signature=KdDlLoatd0N8m5-fh2d9ff4OBNLxmxUlNQnhTnsMC2Zg1O~ipUjEyk3v218olOByT~-uoeHBdOVc4pFRgLVkDbmPGQD9OyeMieMHjrl0xnu6HFdjFZwXB9cgGi2rD9Btr8B6RKyXsQGeIje1m1lrplwfOvWDrEUwCbM9o96a6rRmAJYLXqtb6jcpxGR8QWqxF6RmdlzzkaPZuWedNpErpznHCbpuwaZ0QHnra827DR1BjcVpV~kX8Zr~HXMT5WuJrPQXoGZHNFtr8k4ALIOM43U3z90AjkiL8JSAHaMg49uEAzkQ6NiU04we-dN5IPSm0HotIe3H3NARGKmRq9eEsw__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA&sec=190967140&ar=5476096&xsltPath=~/UI/app/XSLT&imagename=&siteId=5447" class="download-slide" data-path-from-xml="fqz023f3.tif">Download slide</a></div></div><div class="caption fig-caption"><p class="chapter-para">OCR accuracy according to text complexity: our comparisons between Mekhaiel’s Tesseract model and our new Ocropy model</p></div></div><div content-id="fqz023-F3" class="fig fig-modal reveal-modal"><div class="label fig-label">Fig. 3</div><div class="graphic-wrap"><img class="content-image" src="https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/dsh/34/Supplement_1/10.1093_llc_fqz023/2/m_fqz023f3.png?Expires=1606915584&amp;Signature=Jtmeh~C-el1W2AX~ZW97-DsNWCUu3ue9lph6ytSDZT4BzkGTk7gUk6Nf~smiPQJHm8oLtgaxmt5E8xSK31crSX5Lo7hq0aybt4g7e-DTzG2ktPMa9YhOLjpsTCz7gQVeE-1Tw26-27VOadgKHe-J~Oee78oArAjzb4VNYDpLmjS97hKTuUubSGS3HK67CLSnWwoU7TlLnCAtomDV8-HO58vpkLNB57E-wF0Xn5SzJC2MK8YWWZlqDDOELwSzJGDQ0dMPRHdFxMmea6du9lgacSRNzYc8ov435nBcSwjjFLPTTbGVY7fDrgnkVgDnKCF~CnLXYjC8q-o2TaYIJHzEFA__&amp;Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" alt="OCR accuracy according to text complexity: our comparisons between Mekhaiel’s Tesseract model and our new Ocropy model" data-path-from-xml="fqz023f3.tif" /><div class="fig-orig original-slide"><a class="fig-view-orig js-view-large openInAnotherWindow" href="/view-large/figure/190967140/fqz023f3.tif" data-path-from-xml="fqz023f3.tif" target="_blank">Open in new tab</a><a data-section="190967140" href="/DownloadFile/DownloadImage.aspx?image=https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/dsh/34/Supplement_1/10.1093_llc_fqz023/2/fqz023f3.png?Expires=1606915584&Signature=KdDlLoatd0N8m5-fh2d9ff4OBNLxmxUlNQnhTnsMC2Zg1O~ipUjEyk3v218olOByT~-uoeHBdOVc4pFRgLVkDbmPGQD9OyeMieMHjrl0xnu6HFdjFZwXB9cgGi2rD9Btr8B6RKyXsQGeIje1m1lrplwfOvWDrEUwCbM9o96a6rRmAJYLXqtb6jcpxGR8QWqxF6RmdlzzkaPZuWedNpErpznHCbpuwaZ0QHnra827DR1BjcVpV~kX8Zr~HXMT5WuJrPQXoGZHNFtr8k4ALIOM43U3z90AjkiL8JSAHaMg49uEAzkQ6NiU04we-dN5IPSm0HotIe3H3NARGKmRq9eEsw__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA&sec=190967140&ar=5476096&xsltPath=~/UI/app/XSLT&imagename=&siteId=5447" class="download-slide" data-path-from-xml="fqz023f3.tif">Download slide</a></div></div><div class="caption fig-caption"><p class="chapter-para">OCR accuracy according to text complexity: our comparisons between Mekhaiel’s Tesseract model and our new Ocropy model</p></div></div>                        <a id="190967141" scrollto-destination="190967141"></a>
+<div data-id="fqz023-F4" class="fig fig-section"><div class="label fig-label">Fig. 4</div><div class="graphic-wrap"><img class="content-image" src="https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/dsh/34/Supplement_1/10.1093_llc_fqz023/2/m_fqz023f4.png?Expires=1606915584&amp;Signature=zGPaxRuRMUJDScCmEG5xgc2nqE5lxaeoDA8v4Hr-4ZUsYpQD~~U-FVgM9cr7bIQpu~BfUiNdEVVZ5VJPwlhP2UdT972Z1NLLyooh2eU5gR8smYqyl~GWoiVI8pCT5sBg-pcATe4-f3z1~av9uv-8AgBervKRazQOxo0Zs~cTS1Xa68mKbeNK1X2JXtd4XTXr5S7suyCPnwm2qV3WDiSESEqfh~H6R64lBODGT~mzTF7S9JjdAs7hU64mUb7DStFPGJarg6MHIOZgExa1mOIKOQw1KvAMNHKieX6V6x2MmLI~dr5DqqGim-6FmkxqHZWVp-8Bjw0VFHxp4zCL6aDo7Q__&amp;Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" alt="Workload comparison" data-path-from-xml="fqz023f4.tif" /><div class="fig-orig original-slide"><a class="fig-view-orig js-view-large openInAnotherWindow" href="/view-large/figure/190967141/fqz023f4.tif" data-path-from-xml="fqz023f4.tif" target="_blank">Open in new tab</a><a data-section="190967141" href="/DownloadFile/DownloadImage.aspx?image=https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/dsh/34/Supplement_1/10.1093_llc_fqz023/2/fqz023f4.png?Expires=1606915584&Signature=esBUKwkrD-cnccgboysOy9H~F78bEQMYfl5UylwoKy0GLEB7Fr09mlTDmXhIZv0RK66WTnqV4pNiEAVapAwLm~-3q5Fxvg~cL~nxJNrbU70EmJls3EoYGYKNjnfES~1fjGGoBNwuYMYnOs7Oh-z3-P6mdLr~sMwQDPOwKyLV3UoArIzisnzDXGR-9zmGolbs9vMaSeT4YtXDwyptqwxEtP3Z-pIPcl6p~mov6e6wxvlaa8kuaFLzMykRAtc4~ZNHkWHqpakrFcJ0f6ZK42j5iJLA-XJB~ciR17ADtGE4Zdyy1zAZdBvry-ZuY8b5kXmbGWHvr1hM~MQlUEcDfhzSug__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA&sec=190967141&ar=5476096&xsltPath=~/UI/app/XSLT&imagename=&siteId=5447" class="download-slide" data-path-from-xml="fqz023f4.tif">Download slide</a></div></div><div class="caption fig-caption"><p class="chapter-para">Workload comparison</p></div></div><div content-id="fqz023-F4" class="fig fig-modal reveal-modal"><div class="label fig-label">Fig. 4</div><div class="graphic-wrap"><img class="content-image" src="https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/dsh/34/Supplement_1/10.1093_llc_fqz023/2/m_fqz023f4.png?Expires=1606915584&amp;Signature=zGPaxRuRMUJDScCmEG5xgc2nqE5lxaeoDA8v4Hr-4ZUsYpQD~~U-FVgM9cr7bIQpu~BfUiNdEVVZ5VJPwlhP2UdT972Z1NLLyooh2eU5gR8smYqyl~GWoiVI8pCT5sBg-pcATe4-f3z1~av9uv-8AgBervKRazQOxo0Zs~cTS1Xa68mKbeNK1X2JXtd4XTXr5S7suyCPnwm2qV3WDiSESEqfh~H6R64lBODGT~mzTF7S9JjdAs7hU64mUb7DStFPGJarg6MHIOZgExa1mOIKOQw1KvAMNHKieX6V6x2MmLI~dr5DqqGim-6FmkxqHZWVp-8Bjw0VFHxp4zCL6aDo7Q__&amp;Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" alt="Workload comparison" data-path-from-xml="fqz023f4.tif" /><div class="fig-orig original-slide"><a class="fig-view-orig js-view-large openInAnotherWindow" href="/view-large/figure/190967141/fqz023f4.tif" data-path-from-xml="fqz023f4.tif" target="_blank">Open in new tab</a><a data-section="190967141" href="/DownloadFile/DownloadImage.aspx?image=https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/dsh/34/Supplement_1/10.1093_llc_fqz023/2/fqz023f4.png?Expires=1606915584&Signature=esBUKwkrD-cnccgboysOy9H~F78bEQMYfl5UylwoKy0GLEB7Fr09mlTDmXhIZv0RK66WTnqV4pNiEAVapAwLm~-3q5Fxvg~cL~nxJNrbU70EmJls3EoYGYKNjnfES~1fjGGoBNwuYMYnOs7Oh-z3-P6mdLr~sMwQDPOwKyLV3UoArIzisnzDXGR-9zmGolbs9vMaSeT4YtXDwyptqwxEtP3Z-pIPcl6p~mov6e6wxvlaa8kuaFLzMykRAtc4~ZNHkWHqpakrFcJ0f6ZK42j5iJLA-XJB~ciR17ADtGE4Zdyy1zAZdBvry-ZuY8b5kXmbGWHvr1hM~MQlUEcDfhzSug__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA&sec=190967141&ar=5476096&xsltPath=~/UI/app/XSLT&imagename=&siteId=5447" class="download-slide" data-path-from-xml="fqz023f4.tif">Download slide</a></div></div><div class="caption fig-caption"><p class="chapter-para">Workload comparison</p></div></div>                    <h2 scrollto-destination=190967142 id="190967142" class="section-title" data-legacy-id=SEC6>6 Discussion</h2>
+<p class="chapter-para">As <span class="xrefLink" id="jumplink-fqz023-F3"></span><a href="javascript:;" reveal-id="fqz023-F3" data-open="fqz023-F3" class="link link-reveal link-table xref-fig">Fig. 3</a> indicates, the results of this study highlight that, when using simplified source files, Tesseract outperforms Ocropy in terms of accuracy and workload reduction. In more representative circumstances, however, source files will invariably contain some of the above-mentioned complexities; pre-processing is, therefore, crucial for achieving more accurate results. <span class="xrefLink" id="jumplink-fqz023-F4"></span><a href="javascript:;" reveal-id="fqz023-F4" data-open="fqz023-F4" class="link link-reveal link-table xref-fig">Figure 4</a> uses the second and third lines from the top to demonstrate more realistic circumstances, with a greater pre-processing workload when using Tesseract. This calculation demonstrates that the time taken for initial setup of an Ocropy model will be compensated when working on larger, more complex documents.</p><p class="chapter-para">Tesseract’s key benefit is that by utilizing Mekhaiel’s models no training is required, but the most accurate results are only achieved with monolingual unannotated inputs. However, while creation and testing of a new model can be more time-consuming than manual transcription, so too can the creation of clean images, even if the model is reusable. An Ocropy setup can therefore be more efficient on bigger datasets without the need of annotation removal beforehand. The workload is seen to be reduced by up to 50%.</p><p class="chapter-para">Unicode ambiguities (<span class="xrefLink" id="jumplink-fqz023-B14"></span><a href="javascript:;" reveal-id="fqz023-B14" data-open="fqz023-B14" class="link link-ref link-reveal xref-bibr">Unicode Consortium 2017</a>) unfortunately cause issues with text encoding, and need regulation and filtering beforehand if multilingual data is to be processed. Ambiguities such as the Roman numeral (‘XII’: U + 216B) which can be decomposed into a Roman numeral ten (‘X’: U + 2169) and two Roman numeral ones (‘I’: U + 2160), can cause problems if used together in one dataset. Were they not filtered, such encoding issues would not be recognized by humans, and would be overlooked during proofreading. In multilingual texts in particular, such ambiguity can cause characters from pages with different codes to be easily confused. As such, this study recommends that only pages of matching code are processed together. This is especially recommended in the case of multilingual models, to which future work will devote more attention.</p>                    <h2 scrollto-destination=190967146 id="190967146" class="section-title" data-legacy-id=SEC7>7 Conclusion</h2>
+<p class="chapter-para">While OCR processing of Coptic text remains a complex matter, the present study has shown that the transcription workload for Coptic texts can be reduced through use of an OCR tool. It has also demonstrated that even our ‘simplified’ source text could not be predicted with complete accuracy. As such, improved output quality will rely upon enhanced pre- and post-processing.</p><p class="chapter-para">Other than Mekhaiel’s, no Coptic OCR models are publicly available. Owing to the fact that large workloads can be significantly reduced through Coptic OCR, this study strongly recommends the publishing of models alongside their corresponding transcriptions, and argues that almost all well-preserved typeset texts could be encoded using OCR software. While the model created for this research was partly successful in recognizing multilingual documents, such as Coptic and English, additional work in this area is recommended. In general, multilingual texts demand specific training processes to ensure optimum accuracy. This is also partially true for Coptic text editions, since a small proportion of the text may contain non-Coptic vocabulary such as Latin, Greek, English, French, or German, especially in footnotes or on margins.</p><p class="chapter-para">Finally, the trained models which we generated through the process described above are available online on our GitHub repository (<a class="link link-uri openInAnotherWindow" href="https://github.com/KELLIA/CopticOCR" target="_blank">https://github.com/KELLIA/CopticOCR</a>) with CC BY-SA 4.0 license.</p>                    <h2 scrollto-destination=190967150 id="190967150" class="section-title" >Funding</h2>
+<p class="chapter-para">This work was supported by National Endowment of Humanities/German Research Foundation (DFG) Bilateral Digital Humanities Program within the project KELLIA (the Koptische/Coptic Electronic Language and Literature International Alliance) [NEH: grant number HG-229371-15, DFG: Projektnummer 273503199], eTRAP (electronic Text Reuse Acquisition Project) Early Career Research Group funded by the German Federal Ministry of Education and Research (BMBF) [no. 01UG1509] and German Research Foundation (DFG) Collaborative Research Centre 1136 “Education and Religion in Cultures of the Mediterranean and Its Environment from Ancient to Medieval Times and to the Classical Islam.”</p>                    <h2 scrollto-destination=190967152 id="190967152" class="backacknowledgements-title" data-legacy-id=ack1>Acknowledgements</h2>
+<p class="chapter-para">We are grateful to Lloyd Abercrombie, Laura Slaughter, and Julien Delhez for proofreading this article.</p>                    <h2 scrollto-destination=190967154 id="190967154" class="backfootnotegroup-title" >Footnotes</h2>
+<div content-id="fqz023-en1"><div class="fn"><div class="footnote-content"><p class="footnote-compatibility">1 Here, ‘documents’ denote texts to be OCRed.</p></div></div></div><div content-id="fqz023-en2"><div class="fn"><div class="footnote-content"><p class="footnote-compatibility">2 Tesseract OCR, available at <a class="link link-uri openInAnotherWindow" href="https://github.com/tesseract-ocr" target="_blank">https://github.com/tesseract-ocr</a> (accessed 30 December 2017).</p></div></div></div><div content-id="fqz023-en3"><div class="fn"><div class="footnote-content"><p class="footnote-compatibility">3 Ocropy, available at <a class="link link-uri openInAnotherWindow" href="https://github.com/tmbdev/ocropy" target="_blank">https://github.com/tmbdev/ocropy</a> (accessed 30 December 2017). Eliese-Sophia Lincke (Humboldt-Universität zu Berlin) has also been working on Ocropy for Coptic typeset texts with a different font.</p></div></div></div><div content-id="fqz023-en4"><div class="fn"><div class="footnote-content"><p class="footnote-compatibility">4 Recommendation made by Uwe Springmann in private conversation, based upon his own experience.</p></div></div></div><div content-id="fqz023-en5"><div class="fn"><div class="footnote-content"><p class="footnote-compatibility">5 OCR Evaluation Tools by Ryan Baumann. Accessible at <a class="link link-uri openInAnotherWindow" href="https://github.com/ryanfb/ancientgreekocr-ocr-evaluation-tools" target="_blank">https://github.com/ryanfb/ancientgreekocr-ocr-evaluation-tools</a> (accessed 1 November 2016). This program calculates the accuracy rate of OCR software comparing the result data of OCR with the <em>ground truth</em> file.</p></div></div></div><div content-id="fqz023-en6"><div class="fn"><div class="footnote-content"><p class="footnote-compatibility">6 The Digital Edition of the Coptic Old Testament is a long-term project at the Göttingen Academy of Sciences and Humanities led by Heike Behlmer and Frank Feder. <a class="link link-uri openInAnotherWindow" href="http://coptot.manuscriptroom.com/" target="_blank">http://coptot.manuscriptroom.com/</a> (accessed 30 December 2017). See <span class="xrefLink" id="jumplink-fqz023-B1"></span><a href="javascript:;" reveal-id="fqz023-B1" data-open="fqz023-B1" class="link link-ref link-reveal xref-bibr">Behlmer and Feder (2017)</a>.</p></div></div></div><div content-id="fqz023-en7"><div class="fn"><div class="footnote-content"><p class="footnote-compatibility">7 Papyri.info contains digital transcription of Coptic papyri and ostraca. <a class="link link-uri openInAnotherWindow" href="http://papyri.info/" target="_blank">http://papyri.info/</a> (accessed 31 December 2017).</p></div></div></div><div content-id="fqz023-en8"><div class="fn"><div class="footnote-content"><p class="footnote-compatibility">8 The database of Sahidic Biblical texts set up by Christian Askeland and Matthias Schulz at this institute is also available at the CrossWire Bible Society, see <a class="link link-uri openInAnotherWindow" href="http://www.crosswire.org/study/fulllibrary.jsp?show=SahidicBible" target="_blank">http://www.crosswire.org/study/fulllibrary.jsp?show=SahidicBible</a> (accessed 26 January 2019). The New Testament Virtual Manuscript Room provides digital transcriptions of manuscripts containing Coptic translations of books of the New Testament.</p></div></div></div><div content-id="fqz023-en9"><div class="fn"><div class="footnote-content"><p class="footnote-compatibility">9 A digital transcription of the Sahidic translation of the New Testament produced by the Packard Humanities Institute in 1991, which was edited by David Brakke.</p></div></div></div><div content-id="fqz023-en10"><div class="fn"><div class="footnote-content"><p class="footnote-compatibility">10 See <span class="xrefLink" id="jumplink-fqz023-B7"></span><a href="javascript:;" reveal-id="fqz023-B7" data-open="fqz023-B7" class="link link-ref link-reveal xref-bibr">Konvicka (2009–16)</a>. The digital transcriptions of Coptic texts in this software have some errors but they are being modified.</p></div></div></div><div content-id="fqz023-en11"><div class="fn"><div class="footnote-content"><p class="footnote-compatibility">11 See <span class="xrefLink" id="jumplink-fqz023-B15"></span><a href="javascript:;" reveal-id="fqz023-B15" data-open="fqz023-B15" class="link link-ref link-reveal xref-bibr">Takla (2006)</a>.</p></div></div></div><div content-id="fqz023-en12"><div class="fn"><div class="footnote-content"><p class="footnote-compatibility">12 See <span class="xrefLink" id="jumplink-fqz023-B9"></span><a href="javascript:;" reveal-id="fqz023-B9" data-open="fqz023-B9" class="link link-ref link-reveal xref-bibr">Orlandi (1990)</a>.</p></div></div></div><div content-id="fqz023-en13"><div class="fn"><div class="footnote-content"><p class="footnote-compatibility">13 The version of the Packard Humanities Institute was used as a base text for J. Warren Wells’ edition of the Sahidic New Testament, called Sahidica (2000–08).</p></div></div></div>                    <h2 scrollto-destination=190967168 id="190967168" class="backreferences-title" data-legacy-id=ref1>References</h2>
+<div class="ref-list"><div content-id="fqz023-B1" data-legacy-id="fqz023-B1"><div class="refLink-parent"><span class="refLink"><a name="jumplink-fqz023-B1" href="javascript:;" aria-label="jumplink-fqz023-B1"></a></span></div><div class="ref false"><div id="ref-auto-fqz023-B1" class="ref-content "><div class="mixed-citation citation"><p class="mixed-citation-compatibility"><span class="person-group"><span class="name string-name"><div class="surname">Behlmer</div> <div class="given-names">H.</div></span>, <span class="name string-name"><div class="surname">Feder</div> <div class="given-names">F.</div></span></span> <div class="year">2017</div>. <div class="article-title">The complete digital edition and translation of the Coptic Sahidic Old Testament: a new research project at the Göttingen Academy of Sciences and Humanities</div>. <div class="source ">Early Christianity</div> <div class="volume">8</div>: <div class="fpage">97</div>–<div class="lpage">107</div>.</p><!--citationLinks: case 1--><div class="citation-links"></div><div class="citation-links"><p class="citation-links-compatibility"><span class="google-scholar-ref-link"><a class="openInAnotherWindow" href="https://scholar.google.com/scholar_lookup?title=The%20complete%20digital%20edition%20and%20translation%20of%20the%20Coptic%20Sahidic%20Old%20Testament%3A%20a%20new%20research%20project%20at%20the%20G%C3%B6ttingen%20Academy%20of%20Sciences%20and%20Humanities&amp;author=H.%20Behlmer&amp;author=F.%20Feder&amp;publication_year=2017&amp;journal=Early%20Christianity&amp;volume=8&amp;pages=97-107" target="_blank">Google Scholar</a></span></p><div class="crossref-doi js-ref-link"><a class="openInAnotherWindow" href="http://dx.doi.org/10.1628/186870317X14876711440169" target="_blank">Crossref</a></div><div class="adsDoiReference hide"><a class="openInAnotherWindow" href="http://adsabs.harvard.edu/cgi-bin/basic_connect?qsearch=10.1628%2F186870317X14876711440169" target="_blank">Search ADS</a></div><div class="xslopenurl empty-target"><span class="inst-open-url-holders" data-targetId="10.1628%2F186870317X14876711440169"> </span></div><p class="citation-links-compatibility"><span class="worldcat-reference-ref-link js-worldcat-preview-ref-link" style="display:none"><a class="openInAnotherWindow" href="https://www.worldcat.org/search?q=ti:The%20complete%20digital%20edition%20and%20translation%20of%20the%20Coptic%20Sahidic%20Old%20Testament%3A%20a%20new%20research%20project%20at%20the%20G%C3%B6ttingen%20Academy%20of%20Sciences%20and%20Humanities&amp;qt=advanced&amp;dblist=638" target="_blank">WorldCat</a></span></p> </div></div></div></div></div><div content-id="fqz023-B2" data-legacy-id="fqz023-B2"><div class="refLink-parent"><span class="refLink"><a name="jumplink-fqz023-B2" href="javascript:;" aria-label="jumplink-fqz023-B2"></a></span></div><div class="ref false"><div id="ref-auto-fqz023-B2" class="ref-content "><div class="mixed-citation citation"><p class="mixed-citation-compatibility"><span class="person-group"><span class="name string-name"><div class="surname">Breuel</div> <div class="given-names">T. M.</div></span></span> <div class="year">2008</div>. The OCRopus open source OCR system. In <em>Proc. SPIE 6815, Doc. Recognit. Retr. XV</em>, 2008. DOI: <a class="link" href="https://doi.org/10.1117/12.783598" target="_blank">https://doi.org/10.1117/12.783598</a>.</p></div></div></div></div><div content-id="fqz023-B3" data-legacy-id="fqz023-B3"><div class="refLink-parent"><span class="refLink"><a name="jumplink-fqz023-B3" href="javascript:;" aria-label="jumplink-fqz023-B3"></a></span></div><div class="ref false"><div id="ref-auto-fqz023-B3" class="ref-content "><div class="mixed-citation citation"><p class="mixed-citation-compatibility"><span class="person-group"><span class="name string-name"><div class="surname">Chaîne</div> <div class="given-names">M.</div></span></span> <div class="year">1960</div>. <div class="source ">Le manuscrit de la version copte en dialecte sahidique des “Apophthegmata Patrum.”</div> Bibliothèque d’études coptes 6. <div class="publisher-loc">Cairo</div>: <div class="publisher-name">Imprimerie de l’IFAO</div>.</p><!--citationLinks: case 2--><div class="citation-links"><p class="citation-links-compatibility"><span class="google-scholar-ref-link"><a class="openInAnotherWindow" href="https://scholar.google.com/scholar_lookup?title=Le%20manuscrit%20de%20la%20version%20copte%20en%20dialecte%20sahidique%20des%20%E2%80%9CApophthegmata%20Patrum.%E2%80%9D&amp;author=M.%20Cha%C3%AEne&amp;publication_year=1960&amp;book=Le%20manuscrit%20de%20la%20version%20copte%20en%20dialecte%20sahidique%20des%20%E2%80%9CApophthegmata%20Patrum.%E2%80%9D" target="_blank">Google Scholar</a></span></p><p class="citation-links-compatibility"><span class="google-preview-ref-link js-google-preview-ref-link" style="display:none"><a class="openInAnotherWindow" href="https://www.google.com/search?q=Le%20manuscrit%20de%20la%20version%20copte%20en%20dialecte%20sahidique%20des%20%E2%80%9CApophthegmata%20Patrum.%E2%80%9D&amp;btnG=Search+Books&amp;tbm=bks&amp;tbo=1" target="_blank">Google Preview</a></span></p><div class="xslopenurl empty-target"><span class="js-inst-open-url-holders-nodoi"><a class="openInAnotherWindow js-open-url-link" target="_blank" data-href-template="{targetURL}?sid=oup:orr&amp;genre=book&amp;title=Le%20manuscrit%20de%20la%20version%20copte%20en%20dialecte%20sahidique%20des%20%E2%80%9CApophthegmata%20Patrum.%E2%80%9D&amp;aulast=Cha%C3%AEne&amp;date=1960" href="javascript:;"><span class="screenreader-text">OpenURL Placeholder Text</span></a></span></div><p class="citation-links-compatibility"><span class="worldcat-reference-ref-link js-worldcat-preview-ref-link" style="display:none"><a class="openInAnotherWindow" href="https://www.worldcat.org/search?q=ti:Le%20manuscrit%20de%20la%20version%20copte%20en%20dialecte%20sahidique%20des%20%E2%80%9CApophthegmata%20Patrum.%E2%80%9D&amp;qt=advanced&amp;dblist=638" target="_blank">WorldCat</a></span></p><div class="copac-reference-ref-link js-copac-preview-ref-link" style="display:none" data-pubtype="book"><span class="inst-copac"><a class="openInAnotherWindow" target="_blank" href="http://copac.ac.uk/search?ti=Le%20manuscrit%20de%20la%20version%20copte%20en%20dialecte%20sahidique%20des%20%E2%80%9CApophthegmata%20Patrum.%E2%80%9D">COPAC</a></span></div> </div></div></div></div></div><div content-id="fqz023-B4" data-legacy-id="fqz023-B4"><div class="refLink-parent"><span class="refLink"><a name="jumplink-fqz023-B4" href="javascript:;" aria-label="jumplink-fqz023-B4"></a></span></div><div class="ref false"><div id="ref-auto-fqz023-B4" class="ref-content "><div class="mixed-citation citation"><p class="mixed-citation-compatibility"><span class="person-group"><span class="name string-name"><div class="surname">Gupta</div> <div class="given-names">M. R.</div></span>, <span class="name string-name"><div class="surname">Jacobson</div> <div class="given-names">N. P.</div></span>, <span class="name string-name"><div class="surname">Garcia</div> <div class="given-names">E. K.</div></span></span> <div class="year">2007</div>. <div class="article-title">OCR binarization and image pre-processing for searching historical documents</div>. <div class="source ">Pattern Recognition</div> <div class="volume">40</div>(<div class="issue">2)</div>: <div class="fpage">389</div>–<div class="lpage">97</div>.</p><!--citationLinks: case 1--><div class="citation-links"></div><div class="citation-links"><p class="citation-links-compatibility"><span class="google-scholar-ref-link"><a class="openInAnotherWindow" href="https://scholar.google.com/scholar_lookup?title=OCR%20binarization%20and%20image%20pre-processing%20for%20searching%20historical%20documents&amp;author=M.%20R.%20Gupta&amp;author=N.%20P.%20Jacobson&amp;author=E.%20K.%20Garcia&amp;publication_year=2007&amp;journal=Pattern%20Recognition&amp;volume=40&amp;pages=389-97" target="_blank">Google Scholar</a></span></p><div class="crossref-doi js-ref-link"><a class="openInAnotherWindow" href="http://dx.doi.org/10.1016/j.patcog.2006.04.043" target="_blank">Crossref</a></div><div class="adsDoiReference hide"><a class="openInAnotherWindow" href="http://adsabs.harvard.edu/cgi-bin/basic_connect?qsearch=10.1016%2Fj.patcog.2006.04.043" target="_blank">Search ADS</a></div><div class="xslopenurl empty-target"><span class="inst-open-url-holders" data-targetId="10.1016%2Fj.patcog.2006.04.043"> </span></div><p class="citation-links-compatibility"><span class="worldcat-reference-ref-link js-worldcat-preview-ref-link" style="display:none"><a class="openInAnotherWindow" href="https://www.worldcat.org/search?q=ti:OCR%20binarization%20and%20image%20pre-processing%20for%20searching%20historical%20documents&amp;qt=advanced&amp;dblist=638" target="_blank">WorldCat</a></span></p> </div></div></div></div></div><div content-id="fqz023-B5" data-legacy-id="fqz023-B5"><div class="refLink-parent"><span class="refLink"><a name="jumplink-fqz023-B5" href="javascript:;" aria-label="jumplink-fqz023-B5"></a></span></div><div class="ref false"><div id="ref-auto-fqz023-B5" class="ref-content "><div class="mixed-citation citation"><p class="mixed-citation-compatibility"><span class="person-group"><span class="name string-name"><div class="surname">He</div> <div class="given-names">J.</div></span>, <span class="name string-name"><div class="surname">Do</div> <div class="given-names">Q. D. M.</div></span>, <span class="name string-name"><div class="surname">Downton</div> <div class="given-names">A. C.</div></span>, <span class="name string-name"><div class="surname">Kim</div> <div class="given-names">J. H.</div></span></span> <div class="year">2005</div>. <div class="article-title">A comparison of binarization methods for historical archive documents</div>. In <div class="source ">Eighth International Conference on Document Analysis and Recognition (ICDAR’05)</div> <div class="volume">1</div>: <div class="fpage">538</div>–<div class="lpage">542</div>.</p><!--citationLinks: case 2--><div class="citation-links"><p class="citation-links-compatibility"><span class="google-scholar-ref-link"><a class="openInAnotherWindow" href="https://scholar.google.com/scholar_lookup?title=A%20comparison%20of%20binarization%20methods%20for%20historical%20archive%20documents&amp;author=J.%20He&amp;author=Q.%20D.%20M.%20Do&amp;author=A.%20C.%20Downton&amp;author=J.%20H.%20Kim&amp;publication_year=2005&amp;journal=Eighth%20International%20Conference%20on%20Document%20Analysis%20and%20Recognition%20(ICDAR%E2%80%9905)&amp;volume=1&amp;pages=538-542" target="_blank">Google Scholar</a></span></p><div class="xslopenurl empty-target"><span class="js-inst-open-url-holders-nodoi"><a class="openInAnotherWindow js-open-url-link" target="_blank" data-href-template="{targetURL}?sid=oup:orr&amp;genre=article&amp;atitle=A%20comparison%20of%20binarization%20methods%20for%20historical%20archive%20documents&amp;aulast=He&amp;title=Eighth International Conference on Document Analysis and Recognition (ICDAR’05)&amp;date=2005&amp;spage=538&amp;epage=542&amp;volume=1" href="javascript:;"><span class="screenreader-text">OpenURL Placeholder Text</span></a></span></div><p class="citation-links-compatibility"><span class="worldcat-reference-ref-link js-worldcat-preview-ref-link" style="display:none"><a class="openInAnotherWindow" href="https://www.worldcat.org/search?q=ti:A%20comparison%20of%20binarization%20methods%20for%20historical%20archive%20documents&amp;qt=advanced&amp;dblist=638" target="_blank">WorldCat</a></span></p> </div></div></div></div></div><div content-id="fqz023-B6" data-legacy-id="fqz023-B6"><div class="refLink-parent"><span class="refLink"><a name="jumplink-fqz023-B6" href="javascript:;" aria-label="jumplink-fqz023-B6"></a></span></div><div class="ref false"><div id="ref-auto-fqz023-B6" class="ref-content "><div class="mixed-citation citation"><p class="mixed-citation-compatibility"><span class="person-group"><span class="name string-name"><div class="surname">Kluzner</div> <div class="given-names">V.</div></span>, <span class="name string-name"><div class="surname">Tzadok</div> <div class="given-names">A.</div></span>, <span class="name string-name"><div class="surname">Shimony</div> <div class="given-names">Y.</div></span>, <span class="name string-name"><div class="surname">Walach</div> <div class="given-names">E.</div></span>, <span class="name string-name"><div class="surname">Antonacopoulos</div> <div class="given-names">A.</div></span></span> <div class="year">2009</div>. <div class="article-title">Word-based adaptive OCR for historical books</div>. In <div class="source ">2009 10th International Conference on Document Analysis and Recognition</div>, <div class="fpage">501</div>–<div class="lpage">05</div>.</p><!--citationLinks: case 2--><div class="citation-links"><p class="citation-links-compatibility"><span class="google-scholar-ref-link"><a class="openInAnotherWindow" href="https://scholar.google.com/scholar_lookup?title=Word-based%20adaptive%20OCR%20for%20historical%20books&amp;author=V.%20Kluzner&amp;author=A.%20Tzadok&amp;author=Y.%20Shimony&amp;author=E.%20Walach&amp;author=A.%20Antonacopoulos&amp;publication_year=2009&amp;journal=2009%2010th%20International%20Conference%20on%20Document%20Analysis%20and%20Recognition&amp;volume=&amp;pages=501-05" target="_blank">Google Scholar</a></span></p><div class="xslopenurl empty-target"><span class="js-inst-open-url-holders-nodoi"><a class="openInAnotherWindow js-open-url-link" target="_blank" data-href-template="{targetURL}?sid=oup:orr&amp;genre=article&amp;atitle=Word-based%20adaptive%20OCR%20for%20historical%20books&amp;aulast=Kluzner&amp;title=2009 10th International Conference on Document Analysis and Recognition&amp;date=2009&amp;spage=501&amp;epage=05" href="javascript:;"><span class="screenreader-text">OpenURL Placeholder Text</span></a></span></div><p class="citation-links-compatibility"><span class="worldcat-reference-ref-link js-worldcat-preview-ref-link" style="display:none"><a class="openInAnotherWindow" href="https://www.worldcat.org/search?q=ti:Word-based%20adaptive%20OCR%20for%20historical%20books&amp;qt=advanced&amp;dblist=638" target="_blank">WorldCat</a></span></p> </div></div></div></div></div><div content-id="fqz023-B7" data-legacy-id="fqz023-B7"><div class="refLink-parent"><span class="refLink"><a name="jumplink-fqz023-B7" href="javascript:;" aria-label="jumplink-fqz023-B7"></a></span></div><div class="ref false"><div id="ref-auto-fqz023-B7" class="ref-content "><div class="mixed-citation citation"><p class="mixed-citation-compatibility"><span class="person-group"><span class="name string-name"><div class="surname">Konvicka</div> <div class="given-names">M.</div></span></span> <div class="year">2009–16</div>. Marcion - Revelator of True Gnosis software exploring original Gnostic scriptures, <a class="link link-uri openInAnotherWindow" href="http://marcion.sourceforge.net/" target="_blank">http://marcion.sourceforge.net/</a> (accessed 30 December 2017).</p></div></div></div></div><div content-id="fqz023-B16" data-legacy-id="fqz023-B16"><div class="refLink-parent"><span class="refLink"><a name="jumplink-fqz023-B16" href="javascript:;" aria-label="jumplink-fqz023-B16"></a></span></div><div class="ref false"><div id="ref-auto-fqz023-B16" class="ref-content "><div class="mixed-citation citation"><p class="mixed-citation-compatibility"><span class="person-group"><span class="name string-name"><div class="surname">Kuhn</div> <div class="given-names">K. H.</div></span></span> <div class="year">1956</div>. <div class="source ">Letters and Sermons of Besa</div>. Corpus Scriptorum Christianorum Orientalium 157. <div class="publisher-loc">Louvain</div>: <div class="publisher-name">Imprimerie Orientaliste L. Durbecq</div>.</p><!--citationLinks: case 2--><div class="citation-links"><p class="citation-links-compatibility"><span class="google-scholar-ref-link"><a class="openInAnotherWindow" href="https://scholar.google.com/scholar_lookup?title=Letters%20and%20Sermons%20of%20Besa&amp;author=K.%20H.%20Kuhn&amp;publication_year=1956&amp;book=Letters%20and%20Sermons%20of%20Besa" target="_blank">Google Scholar</a></span></p><p class="citation-links-compatibility"><span class="google-preview-ref-link js-google-preview-ref-link" style="display:none"><a class="openInAnotherWindow" href="https://www.google.com/search?q=Letters%20and%20Sermons%20of%20Besa&amp;btnG=Search+Books&amp;tbm=bks&amp;tbo=1" target="_blank">Google Preview</a></span></p><div class="xslopenurl empty-target"><span class="js-inst-open-url-holders-nodoi"><a class="openInAnotherWindow js-open-url-link" target="_blank" data-href-template="{targetURL}?sid=oup:orr&amp;genre=book&amp;title=Letters%20and%20Sermons%20of%20Besa&amp;aulast=Kuhn&amp;date=1956" href="javascript:;"><span class="screenreader-text">OpenURL Placeholder Text</span></a></span></div><p class="citation-links-compatibility"><span class="worldcat-reference-ref-link js-worldcat-preview-ref-link" style="display:none"><a class="openInAnotherWindow" href="https://www.worldcat.org/search?q=ti:Letters%20and%20Sermons%20of%20Besa&amp;qt=advanced&amp;dblist=638" target="_blank">WorldCat</a></span></p><div class="copac-reference-ref-link js-copac-preview-ref-link" style="display:none" data-pubtype="book"><span class="inst-copac"><a class="openInAnotherWindow" target="_blank" href="http://copac.ac.uk/search?ti=Letters%20and%20Sermons%20of%20Besa">COPAC</a></span></div> </div></div></div></div></div><div content-id="fqz023-B8" data-legacy-id="fqz023-B8"><div class="refLink-parent"><span class="refLink"><a name="jumplink-fqz023-B8" href="javascript:;" aria-label="jumplink-fqz023-B8"></a></span></div><div class="ref false"><div id="ref-auto-fqz023-B8" class="ref-content "><div class="mixed-citation citation"><p class="mixed-citation-compatibility"><span class="person-group"><span class="name string-name"><div class="surname">Mekhaiel</div> <div class="given-names">M. S.</div></span></span> <div class="year">2009–13</div>. Moheb’s Coptic Pages. <a class="link link-uri openInAnotherWindow" href="http://www.moheb.de/" target="_blank">http://www.moheb.de/</a> (accessed 30 December 2017).</p></div></div></div></div><div content-id="fqz023-B9" data-legacy-id="fqz023-B9"><div class="refLink-parent"><span class="refLink"><a name="jumplink-fqz023-B9" href="javascript:;" aria-label="jumplink-fqz023-B9"></a></span></div><div class="ref false"><div id="ref-auto-fqz023-B9" class="ref-content "><div class="mixed-citation citation"><p class="mixed-citation-compatibility"><span class="person-group"><span class="name string-name"><div class="surname">Orlandi</div> <div class="given-names">T.</div></span></span> <div class="year">1990</div>. <div class="article-title">The Corpus dei Manoscritti Copti Letterari</div>. <div class="source ">Computers and the Humanities</div>, <div class="volume">24</div>(<div class="issue">5/6</div>), <div class="fpage">397</div>–<div class="lpage">405</div>.</p><!--citationLinks: case 2--><div class="citation-links"><p class="citation-links-compatibility"><span class="google-scholar-ref-link"><a class="openInAnotherWindow" href="https://scholar.google.com/scholar_lookup?title=The%20Corpus%20dei%20Manoscritti%20Copti%20Letterari&amp;author=T.%20Orlandi&amp;publication_year=1990&amp;journal=Computers%20and%20the%20Humanities&amp;volume=24&amp;pages=397-405" target="_blank">Google Scholar</a></span></p><div class="xslopenurl empty-target"><span class="js-inst-open-url-holders-nodoi"><a class="openInAnotherWindow js-open-url-link" target="_blank" data-href-template="{targetURL}?sid=oup:orr&amp;genre=article&amp;atitle=The%20Corpus%20dei%20Manoscritti%20Copti%20Letterari&amp;aulast=Orlandi&amp;title=Computers and the Humanities&amp;date=1990&amp;spage=397&amp;epage=405&amp;volume=24&amp;issue=5/6" href="javascript:;"><span class="screenreader-text">OpenURL Placeholder Text</span></a></span></div><p class="citation-links-compatibility"><span class="worldcat-reference-ref-link js-worldcat-preview-ref-link" style="display:none"><a class="openInAnotherWindow" href="https://www.worldcat.org/search?q=ti:The%20Corpus%20dei%20Manoscritti%20Copti%20Letterari&amp;qt=advanced&amp;dblist=638" target="_blank">WorldCat</a></span></p> </div></div></div></div></div><div content-id="fqz023-B10" data-legacy-id="fqz023-B10"><div class="refLink-parent"><span class="refLink"><a name="jumplink-fqz023-B10" href="javascript:;" aria-label="jumplink-fqz023-B10"></a></span></div><div class="ref false"><div id="ref-auto-fqz023-B10" class="ref-content "><div class="mixed-citation citation"><p class="mixed-citation-compatibility"><span class="person-group"><span class="name string-name"><div class="surname">Schroeder</div> <div class="given-names">C. T.</div></span>, <span class="name string-name"><div class="surname">Zeldes</div> <div class="given-names">A.</div></span></span> <div class="year">2016</div>. <div class="article-title">Raiders of the lost corpus</div>. <div class="source ">Digital Humanities Quarterly</div>, <div class="volume">10</div>(<div class="issue">2</div>). <a class="link link-uri openInAnotherWindow" href="http://www.digitalhumanities.org/dhq/vol/10/2/000247/000247.html" target="_blank">http://www.digitalhumanities.org/dhq/vol/10/2/000247/000247.html</a> (accessed 22 March 2019).</p><!--citationLinks: case 2--><div class="citation-links"><p class="citation-links-compatibility"><span class="google-scholar-ref-link"><a class="openInAnotherWindow" href="https://scholar.google.com/scholar_lookup?title=Raiders%20of%20the%20lost%20corpus&amp;author=C.%20T.%20Schroeder&amp;author=A.%20Zeldes&amp;publication_year=2016&amp;journal=Digital%20Humanities%20Quarterly&amp;volume=10&amp;pages=" target="_blank">Google Scholar</a></span></p><div class="xslopenurl empty-target"><span class="js-inst-open-url-holders-nodoi"><a class="openInAnotherWindow js-open-url-link" target="_blank" data-href-template="{targetURL}?sid=oup:orr&amp;genre=article&amp;atitle=Raiders%20of%20the%20lost%20corpus&amp;aulast=Schroeder&amp;title=Digital Humanities Quarterly&amp;date=2016&amp;volume=10&amp;issue=2" href="javascript:;"><span class="screenreader-text">OpenURL Placeholder Text</span></a></span></div><p class="citation-links-compatibility"><span class="worldcat-reference-ref-link js-worldcat-preview-ref-link" style="display:none"><a class="openInAnotherWindow" href="https://www.worldcat.org/search?q=ti:Raiders%20of%20the%20lost%20corpus&amp;qt=advanced&amp;dblist=638" target="_blank">WorldCat</a></span></p> </div></div></div></div></div><div content-id="fqz023-B11" data-legacy-id="fqz023-B11"><div class="refLink-parent"><span class="refLink"><a name="jumplink-fqz023-B11" href="javascript:;" aria-label="jumplink-fqz023-B11"></a></span></div><div class="ref false"><div id="ref-auto-fqz023-B11" class="ref-content "><div class="mixed-citation citation"><p class="mixed-citation-compatibility"><span class="person-group"><span class="name string-name"><div class="surname">Schantz</div> <div class="given-names">H. F.</div></span></span> <div class="year">1982</div>. <div class="source ">The history of OCR, optical character recognition. Manchester Center</div>, <div class="publisher-loc">VT</div>: <div class="publisher-name">Recognition Technologies Users Association</div>.</p><!--citationLinks: case 2--><div class="citation-links"><p class="citation-links-compatibility"><span class="google-scholar-ref-link"><a class="openInAnotherWindow" href="https://scholar.google.com/scholar_lookup?title=The%20history%20of%20OCR%2C%20optical%20character%20recognition.%20Manchester%20Center&amp;author=H.%20F.%20Schantz&amp;publication_year=1982&amp;book=The%20history%20of%20OCR%2C%20optical%20character%20recognition.%20Manchester%20Center" target="_blank">Google Scholar</a></span></p><p class="citation-links-compatibility"><span class="google-preview-ref-link js-google-preview-ref-link" style="display:none"><a class="openInAnotherWindow" href="https://www.google.com/search?q=The%20history%20of%20OCR%2C%20optical%20character%20recognition.%20Manchester%20Center&amp;btnG=Search+Books&amp;tbm=bks&amp;tbo=1" target="_blank">Google Preview</a></span></p><div class="xslopenurl empty-target"><span class="js-inst-open-url-holders-nodoi"><a class="openInAnotherWindow js-open-url-link" target="_blank" data-href-template="{targetURL}?sid=oup:orr&amp;genre=book&amp;title=The%20history%20of%20OCR%2C%20optical%20character%20recognition.%20Manchester%20Center&amp;aulast=Schantz&amp;date=1982" href="javascript:;"><span class="screenreader-text">OpenURL Placeholder Text</span></a></span></div><p class="citation-links-compatibility"><span class="worldcat-reference-ref-link js-worldcat-preview-ref-link" style="display:none"><a class="openInAnotherWindow" href="https://www.worldcat.org/search?q=ti:The%20history%20of%20OCR%2C%20optical%20character%20recognition.%20Manchester%20Center&amp;qt=advanced&amp;dblist=638" target="_blank">WorldCat</a></span></p><div class="copac-reference-ref-link js-copac-preview-ref-link" style="display:none" data-pubtype="book"><span class="inst-copac"><a class="openInAnotherWindow" target="_blank" href="http://copac.ac.uk/search?ti=The%20history%20of%20OCR%2C%20optical%20character%20recognition.%20Manchester%20Center">COPAC</a></span></div> </div></div></div></div></div><div content-id="fqz023-B12" data-legacy-id="fqz023-B12"><div class="refLink-parent"><span class="refLink"><a name="jumplink-fqz023-B12" href="javascript:;" aria-label="jumplink-fqz023-B12"></a></span></div><div class="ref false"><div id="ref-auto-fqz023-B12" class="ref-content "><div class="mixed-citation citation"><p class="mixed-citation-compatibility"><span class="person-group"><span class="name string-name"><div class="surname">Springmann</div> <div class="given-names">U.</div></span>, <span class="name string-name"><div class="surname">Najock</div> <div class="given-names">D.</div></span>, <span class="name string-name"><div class="surname">Morgenroth</div> <div class="given-names">H.</div></span>, <span class="name string-name"><div class="surname">Schmid</div> <div class="given-names">H.</div></span>, <span class="name string-name"><div class="surname">Gotscharek</div> <div class="given-names">A.</div></span>, <span class="name string-name"><div class="surname">Fink</div> <div class="given-names">F.</div></span></span> <div class="year">2014</div>. <div class="article-title">OCR of historical printings of Latin texts: problems, prospects, progress</div>. In <div class="source ">DATeCH '14 Proceedings of the First International Conference on Digital Access to Textual Cultural Heritage</div>, <div class="volume">2014</div>, pp. <div class="fpage">71</div>–<div class="lpage">75</div>.</p><!--citationLinks: case 2--><div class="citation-links"><p class="citation-links-compatibility"><span class="google-scholar-ref-link"><a class="openInAnotherWindow" href="https://scholar.google.com/scholar_lookup?title=OCR%20of%20historical%20printings%20of%20Latin%20texts%3A%20problems%2C%20prospects%2C%20progress&amp;author=U.%20Springmann&amp;author=D.%20Najock&amp;author=H.%20Morgenroth&amp;author=H.%20Schmid&amp;author=A.%20Gotscharek&amp;author=F.%20Fink&amp;publication_year=2014&amp;journal=DATeCH%20'14%20Proceedings%20of%20the%20First%20International%20Conference%20on%20Digital%20Access%20to%20Textual%20Cultural%20Heritage&amp;volume=2014&amp;pages=71-75" target="_blank">Google Scholar</a></span></p><div class="xslopenurl empty-target"><span class="js-inst-open-url-holders-nodoi"><a class="openInAnotherWindow js-open-url-link" target="_blank" data-href-template="{targetURL}?sid=oup:orr&amp;genre=article&amp;atitle=OCR%20of%20historical%20printings%20of%20Latin%20texts%3A%20problems%2C%20prospects%2C%20progress&amp;aulast=Springmann&amp;title=DATeCH '14 Proceedings of the First International Conference on Digital Access to Textual Cultural Heritage&amp;date=2014&amp;spage=71&amp;epage=75&amp;volume=2014" href="javascript:;"><span class="screenreader-text">OpenURL Placeholder Text</span></a></span></div><p class="citation-links-compatibility"><span class="worldcat-reference-ref-link js-worldcat-preview-ref-link" style="display:none"><a class="openInAnotherWindow" href="https://www.worldcat.org/search?q=ti:OCR%20of%20historical%20printings%20of%20Latin%20texts%3A%20problems%2C%20prospects%2C%20progress&amp;qt=advanced&amp;dblist=638" target="_blank">WorldCat</a></span></p> </div></div></div></div></div><div content-id="fqz023-B15" data-legacy-id="fqz023-B15"><div class="refLink-parent"><span class="refLink"><a name="jumplink-fqz023-B15" href="javascript:;" aria-label="jumplink-fqz023-B15"></a></span></div><div class="ref false"><div id="ref-auto-fqz023-B15" class="ref-content "><div class="mixed-citation citation"><p class="mixed-citation-compatibility"><span class="person-group"><span class="name string-name"><div class="surname">Takla</div> <div class="given-names">H.</div></span></span> (ed.). <div class="year">2006</div>. <div class="source ">Coptic New Testament CD (NKCSC-CD1C) V.1</div>. <div class="publisher-loc">Los Angeles</div>: <div class="publisher-name">The Saint Shenouda the Archimandrite Coptic Society</div>.</p><!--citationLinks: case 2--><div class="citation-links"><p class="citation-links-compatibility"><span class="google-scholar-ref-link"><a class="openInAnotherWindow" href="https://scholar.google.com/scholar_lookup?title=Coptic%20New%20Testament%20CD%20(NKCSC-CD1C)%20V.1&amp;author=H.%20Takla&amp;publication_year=2006&amp;book=Coptic%20New%20Testament%20CD%20(NKCSC-CD1C)%20V.1" target="_blank">Google Scholar</a></span></p><p class="citation-links-compatibility"><span class="google-preview-ref-link js-google-preview-ref-link" style="display:none"><a class="openInAnotherWindow" href="https://www.google.com/search?q=Coptic%20New%20Testament%20CD%20(NKCSC-CD1C)%20V.1&amp;btnG=Search+Books&amp;tbm=bks&amp;tbo=1" target="_blank">Google Preview</a></span></p><div class="xslopenurl empty-target"><span class="js-inst-open-url-holders-nodoi"><a class="openInAnotherWindow js-open-url-link" target="_blank" data-href-template="{targetURL}?sid=oup:orr&amp;genre=book&amp;title=Coptic%20New%20Testament%20CD%20(NKCSC-CD1C)%20V.1&amp;aulast=Takla&amp;date=2006" href="javascript:;"><span class="screenreader-text">OpenURL Placeholder Text</span></a></span></div><p class="citation-links-compatibility"><span class="worldcat-reference-ref-link js-worldcat-preview-ref-link" style="display:none"><a class="openInAnotherWindow" href="https://www.worldcat.org/search?q=ti:Coptic%20New%20Testament%20CD%20(NKCSC-CD1C)%20V.1&amp;qt=advanced&amp;dblist=638" target="_blank">WorldCat</a></span></p><div class="copac-reference-ref-link js-copac-preview-ref-link" style="display:none" data-pubtype="book"><span class="inst-copac"><a class="openInAnotherWindow" target="_blank" href="http://copac.ac.uk/search?ti=Coptic%20New%20Testament%20CD%20(NKCSC-CD1C)%20V.1">COPAC</a></span></div> </div></div></div></div></div><div content-id="fqz023-B13" data-legacy-id="fqz023-B13"><div class="refLink-parent"><span class="refLink"><a name="jumplink-fqz023-B13" href="javascript:;" aria-label="jumplink-fqz023-B13"></a></span></div><div class="ref false"><div id="ref-auto-fqz023-B13" class="ref-content "><div class="mixed-citation citation"><p class="mixed-citation-compatibility"><span class="person-group"><span class="name string-name"><div class="surname">Tattam</div> <div class="given-names">H.</div></span></span> (ed.). <div class="year">1836</div>. <div class="source ">Duodecim prophetarum minorum libros in lingua Aegyptiaca vulgo Coptica seu Memphitica ex ms. Parisiensi descriptos et cum ms. Johannis Lee, J. C. D. collatos</div>. <div class="publisher-loc">Oxford</div>: <div class="publisher-name">Typ. acad</div>.</p><!--citationLinks: case 2--><div class="citation-links"><p class="citation-links-compatibility"><span class="google-scholar-ref-link"><a class="openInAnotherWindow" href="https://scholar.google.com/scholar_lookup?title=Duodecim%20prophetarum%20minorum%20libros%20in%20lingua%20Aegyptiaca%20vulgo%20Coptica%20seu%20Memphitica%20ex%20ms.%20Parisiensi%20descriptos%20et%20cum%20ms.%20Johannis%20Lee%2C%20J.%20C.%20D.%20collatos&amp;author=H.%20Tattam&amp;publication_year=1836&amp;book=Duodecim%20prophetarum%20minorum%20libros%20in%20lingua%20Aegyptiaca%20vulgo%20Coptica%20seu%20Memphitica%20ex%20ms.%20Parisiensi%20descriptos%20et%20cum%20ms.%20Johannis%20Lee%2C%20J.%20C.%20D.%20collatos" target="_blank">Google Scholar</a></span></p><p class="citation-links-compatibility"><span class="google-preview-ref-link js-google-preview-ref-link" style="display:none"><a class="openInAnotherWindow" href="https://www.google.com/search?q=Duodecim%20prophetarum%20minorum%20libros%20in%20lingua%20Aegyptiaca%20vulgo%20Coptica%20seu%20Memphitica%20ex%20ms.%20Parisiensi%20descriptos%20et%20cum%20ms.%20Johannis%20Lee%2C%20J.%20C.%20D.%20collatos&amp;btnG=Search+Books&amp;tbm=bks&amp;tbo=1" target="_blank">Google Preview</a></span></p><div class="xslopenurl empty-target"><span class="js-inst-open-url-holders-nodoi"><a class="openInAnotherWindow js-open-url-link" target="_blank" data-href-template="{targetURL}?sid=oup:orr&amp;genre=book&amp;title=Duodecim%20prophetarum%20minorum%20libros%20in%20lingua%20Aegyptiaca%20vulgo%20Coptica%20seu%20Memphitica%20ex%20ms.%20Parisiensi%20descriptos%20et%20cum%20ms.%20Johannis%20Lee%2C%20J.%20C.%20D.%20collatos&amp;aulast=Tattam&amp;date=1836" href="javascript:;"><span class="screenreader-text">OpenURL Placeholder Text</span></a></span></div><p class="citation-links-compatibility"><span class="worldcat-reference-ref-link js-worldcat-preview-ref-link" style="display:none"><a class="openInAnotherWindow" href="https://www.worldcat.org/search?q=ti:Duodecim%20prophetarum%20minorum%20libros%20in%20lingua%20Aegyptiaca%20vulgo%20Coptica%20seu%20Memphitica%20ex%20ms.%20Parisiensi%20descriptos%20et%20cum%20ms.%20Johannis%20Lee%2C%20J.%20C.%20D.%20collatos&amp;qt=advanced&amp;dblist=638" target="_blank">WorldCat</a></span></p><div class="copac-reference-ref-link js-copac-preview-ref-link" style="display:none" data-pubtype="book"><span class="inst-copac"><a class="openInAnotherWindow" target="_blank" href="http://copac.ac.uk/search?ti=Duodecim%20prophetarum%20minorum%20libros%20in%20lingua%20Aegyptiaca%20vulgo%20Coptica%20seu%20Memphitica%20ex%20ms.%20Parisiensi%20descriptos%20et%20cum%20ms.%20Johannis%20Lee%2C%20J.%20C.%20D.%20collatos">COPAC</a></span></div> </div></div></div></div></div><div content-id="fqz023-B14" data-legacy-id="fqz023-B14"><div class="refLink-parent"><span class="refLink"><a name="jumplink-fqz023-B14" href="javascript:;" aria-label="jumplink-fqz023-B14"></a></span></div><div class="ref false"><div id="ref-auto-fqz023-B14" class="ref-content "><div class="mixed-citation citation"><p class="mixed-citation-compatibility">Unicode Consortium. <div class="year">2017</div>. The Unicode® Standard Version 10.0 – Core Specification. <a class="link link-uri openInAnotherWindow" href="http://www.unicode.org/versions/Unicode10.0.0/ch03.pdf#G729" target="_blank">http://www.unicode.org/versions/Unicode10.0.0/ch03.pdf#G729</a> (accessed 1 December 2017).</p></div></div></div></div></div>        <!-- /foreach -->
+
+
+
+        <div class="article-metadata-standalone-panel clearfix"></div>
+
+        
+<div class="copyright copyright-statement">© The Author(s) 2019. Published by Oxford University Press on behalf of EADH. All rights reserved. For permissions, please email: journals.permissions@oup.com</div><div class="license"><div class="license-p">This article is published and distributed under the terms of the Oxford University Press, Standard Journals Publication Model (<a class="link link-uri openInAnotherWindow" href="https://academic.oup.com/journals/pages/open_access/funder_policies/chorus/standard_publication_model" target="_blank">https://academic.oup.com/journals/pages/open_access/funder_policies/chorus/standard_publication_model</a>)</div></div><!-- /foreach -->
+
+        <span id="UserHasAccess" data-userHasAccess="True"></span>
+
+    </div><!-- /.widget-items -->
+</div><!-- /.module-widget -->
+
+ 
+    </div>
+    <div class="widget widget-SolrResourceMetadata widget-instance-OUP_Article_ResourceMetadata_Widget">
+        
+    <div class=" add-border article-metadata-panel solr-resource-metadata">
+                <div class="article-metadata-tocSections">
+                    <div class="article-metadata-tocSections-title">Issue Section:</div>
+                        <a href="/dsh/search-results?f_TocHeadingTitle=Articles">Articles</a>
+                </div>
+
+    </div>
+
+
+ 
+    </div>
+    <div class="widget widget-EditorInformation widget-instance-OUP_Article_EditorInformation_Widget">
+        
+ 
+    </div>
+    <div class="widget widget-ArticleOpenScienceBadges widget-instance-OUP_Article_OpenScienceBadge_Widget">
+        
+ 
+    </div>
+
+                <div id="ContentTabFilteredView"></div>
+                <div class="downloadImagesppt js-download-images-ppt st-download-images-ppt">
+                    <a id="lnkDownloadAllImages"
+                       class="js-download-all-images-link btn"
+                       href="/DownloadFile/DownloadImage.aspx?image=&amp;PPTtype=SlideSet&amp;ar=5476096&amp;xsltPath=~/UI/app/XSLT&amp;siteId=5447">Download all slides</a>
+                </div>
+                    <div class="widget widget-ArticleDataRepositories widget-instance-Article_DryadLink">
+         
+    </div>
+
+                <div class="comments">
+    <div class="widget widget-UserCommentBody widget-instance-UserCommentBody_Article">
+        
+
+ 
+    </div>
+    <div class="widget widget-UserComment widget-instance-OUP_UserComment_Article">
+         
+    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div id="Sidebar" class="page-column page-column--right">
+    <div class="widget widget-AdBlock widget-instance-ArticlePageTopSidebar">
+        
+
+<div class="adBlockNone-wrap js-adBlockNone hide">
+    
+    <div id="adBlockNone"
+         style=" ">
+        <script>
+            googletag.cmd.push(function () { googletag.display('adBlockNone'); });
+        </script>
+    </div>
+        <div class="advertisement-text">Advertisement</div>
+</div> 
+    </div>
+<div class="widget widget-dynamic " data-count="1"> 
+
+    <div class="widget-dynamic-inner-wrap">
+
+<div class="widget widget-dynamic " data-count="10"> 
+
+    <div class="widget-dynamic-inner-wrap">
+
+    <div class="widget widget-ArticleLevelMetrics widget-instance-Article_RightRailB0Article_RightRail_ArticleLevelMetrics">
+        
+
+
+
+    <div class="artmet-wrapper horizontal-artmet">
+
+        <div class="artmet-condensed-wrap clearfix">
+
+            <div class="artmet-condensed-stats clearfix">
+                    <div class="artmet-item artmet-views">
+                        <span class="artmet-number">309</span>
+                        <span class="artmet-text">Views</span>
+                    </div>
+
+                <div class="artmet-item artmet-citations">
+                    <span class="artmet-number">
+0                    </span>
+                    <span class="artmet-text">Citations</span>
+                </div>
+                <div class="artmet-item artmet-badges-wrap">
+                        <div class="artmet-item artmet-altmetric">
+    <div class="widget widget-AltmetricLink widget-instance-ArticleLevelMetrics_AltmetricLinkSummary">
+            <!-- Altmetrics -->
+    <div id="altmetricEmbedId"
+         runat="server"
+         class='altmetric-embed'
+         data-badge-type="donut"
+         data-hide-no-mentions="false"
+         data-doi="10.1093/llc/fqz023"
+
+        
+
+        ></div>
+         <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+ 
+    </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="artmet-modal-trigger-wrap clearfix">
+                    <a class="artmet-modal-trigger" data-article-id="5476096"><i class="icon-metrics"></i><span>View Metrics</span></a>
+                </div>
+        </div>
+            <div class="artmet-modal" id="MetricsModal">
+                <div class="artmet-modal-contents">
+                    <a class="artmet-close-modal">&#215;</a>
+                </div>
+            </div>
+    </div>
+
+ 
+    </div>
+    <div class="widget widget-Alerts widget-instance-Article_RightRailB0Article_RightRail_Alerts">
+        
+    <div class="alertsWidget">
+        <h3>Email alerts</h3>
+                <div class="userAlert alertType-1">
+                    <a href="javascript:;" class="js-user-alert" role="button"
+                       data-userLoggedIn="False"
+                       data-alertType="1" href="javascript:;">Article activity alert</a>
+                </div>
+                <div class="userAlert alertType-3">
+                    <a href="javascript:;" class="js-user-alert" role="button"
+                       data-userLoggedIn="False"
+                       data-alertType="3" href="javascript:;">Advance article alerts</a>
+                </div>
+                <div class="userAlert alertType-5">
+                    <a href="javascript:;" class="js-user-alert" role="button"
+                       data-userLoggedIn="False"
+                       data-alertType="5" href="javascript:;">New issue alert</a>
+                </div>
+                    <div class="userAlert alertType-MarketingLink">
+                <a href="javascript:;" class="js-user-alert" role="button"
+                   data-userLoggedIn="False"
+                   data-additionalUrl="/my-account/communication-preferences" href="javascript:;">Receive exclusive offers and updates from Oxford Academic</a>
+            </div>
+        <div class="userAlertSignUpModal reveal-modal small" data-reveal>
+            <div class="userAlertSignUp"></div>
+            <a href="javascript:;" role="button" aria-label="Close" class="close-reveal-modal" href="javascript:;">
+                <i class="icon-general-close"></i>
+            </a>
+        </div>
+    </div>
+ 
+    </div>
+    <div class="widget widget-ArticleLinks widget-instance-Article_RightRailB0Article_RightRail_ArticleLinks">
+         
+    </div>
+    <div class="widget widget-RelatedContent widget-instance-Article_RightRailB0Article_RightRail_RelatedContent">
+         
+    </div>
+    <div class="widget widget-RelatedArticleIn widget-instance-Article_RightRailB0Article_RightRail_RelatedArticleIn">
+            <h3 class="relatedArticleIn-title">Related articles in</h3>
+    <div class="relatedArticleIn-content">
+        <ul>
+                <li>
+                    <a href="https://scholar.google.com/scholar?q=related:https%3a%2f%2facademic.oup.com%2fdsh%2farticle%2f34%2fSupplement_1%2fi135%2f5476096">Google Scholar</a>
+                </li>
+        </ul>
+    </div>
+ 
+    </div>
+    <div class="widget widget-ArticleCitedBy widget-instance-Article_RightRailB0Article_RightRail_ArticleCitedBy">
+        <div class="rail-widget_wrap vt-articles-cited-by">
+    <h3 class="article-cited-title">Citing articles via</h3>
+    <div class="widget-links_wrap">
+                    <div class="article-cited-link-wrap google-scholar-url">
+                <a href="http://scholar.google.com/scholar?q=link:https%3A%2F%2Facademic.oup.com%2Fdsh%2Farticle%2F34%2FSupplement_1%2Fi135%2F5476096" target="_blank">Google Scholar</a>
+            </div>
+                    <div class="article-cited-link-wrap crossref-citedby">
+                <a href='https://academic.oup.com/dsh/crossref-citedby/5476096'>Crossref</a>
+            </div>
+    </div>
+</div> 
+    </div>
+    <div class="widget widget-ArticleListNewAndPopular widget-instance-Article_RightRailB0Article_RightRail_ArticleNewPopularCombined">
+            <ul class="articleListNewAndPopularCombinedView">
+            <li>
+                <h3>
+                    <a href="javascript:;" class="articleListNewAndPopular-mode active" data-mode="MostRecent">Latest</a>
+                </h3>
+            </li>
+            <li>
+                <h3>
+                    <a href="javascript:;" class="articleListNewAndPopular-mode " data-mode="MostRead">Most Read</a>
+                </h3>
+            </li>
+            <li>
+                <h3>
+                    <a href="javascript:;" class="articleListNewAndPopular-mode " data-mode="MostCited">Most Cited</a>
+                </h3>
+            </li>
+    </ul>
+        <section class="articleListNewPopContent articleListNewAndPopular-ContentView-MostRecent hasContent">
+
+
+
+
+<div id="newPopularList-Article_RightRailB0Article_RightRail_ArticleNewPopularCombined" class="fb">
+
+    
+
+
+
+<div class="widget-layout widget-layout--vert">
+            <div class="widget-columns widget-col-1">
+                    <div class="col">
+
+<div class="widget-dynamic-entry">
+    <input id="hfDoi" name="hfDoi" type="hidden" value="10.1093/llc/fqaa039" />
+
+    
+
+<a href="/dsh/advance-article/doi/10.1093/llc/fqaa039/5940653?searchresult=1">
+        <div class="widget-dynamic-journal-title">
+Introduction    </div>
+</a>
+<div class="widget-dynamic-journal-image-synopsis">
+        <div class="widget-dynamic-journal-synopsis">
+            
+        </div>
+</div>
+</div>
+<div class="widget-dynamic-entry">
+    <input id="hfDoi" name="hfDoi" type="hidden" value="10.1093/llc/fqaa057" />
+
+    
+
+<a href="/dsh/advance-article/doi/10.1093/llc/fqaa057/5927539?searchresult=1">
+        <div class="widget-dynamic-journal-title">
+Cyberformalism: Histories of Linguistic Forms in the Digital Archive    </div>
+</a>
+<div class="widget-dynamic-journal-image-synopsis">
+        <div class="widget-dynamic-journal-synopsis">
+            
+        </div>
+</div>
+</div>
+<div class="widget-dynamic-entry">
+    <input id="hfDoi" name="hfDoi" type="hidden" value="10.1093/llc/fqaa029" />
+
+    
+
+<a href="/dsh/advance-article/doi/10.1093/llc/fqaa029/5921705?searchresult=1">
+        <div class="widget-dynamic-journal-title">
+Arabic part-of-speech tagging using a combined rule-based and data-driven approach    </div>
+</a>
+<div class="widget-dynamic-journal-image-synopsis">
+        <div class="widget-dynamic-journal-synopsis">
+            
+        </div>
+</div>
+</div>
+<div class="widget-dynamic-entry">
+    <input id="hfDoi" name="hfDoi" type="hidden" value="10.1093/llc/fqaa041" />
+
+    
+
+<a href="/dsh/advance-article/doi/10.1093/llc/fqaa041/5918973?searchresult=1">
+        <div class="widget-dynamic-journal-title">
+Big data or not enough? Zeta test reliability and the attribution of <em>Henry VI</em>    </div>
+</a>
+<div class="widget-dynamic-journal-image-synopsis">
+        <div class="widget-dynamic-journal-synopsis">
+            
+        </div>
+</div>
+</div>
+<div class="widget-dynamic-entry">
+    <input id="hfDoi" name="hfDoi" type="hidden" value="10.1093/llc/fqaa044" />
+
+    
+
+<a href="/dsh/article/35/3/723/5905110?searchresult=1">
+        <div class="widget-dynamic-journal-title">
+Playing with Feelings: Video Games and Affect. Aubrey Anable. <em>Minneapolis, MN: University of Minnesota Press, 2018, 176 pp. ISBN: 978-1-5179-0025-0. $25.00 (p/b).</em>    </div>
+</a>
+<div class="widget-dynamic-journal-image-synopsis">
+        <div class="widget-dynamic-journal-synopsis">
+            
+        </div>
+</div>
+</div>
+                    </div>
+            </div>
+
+</div></div>
+        </section>
+        <section class="articleListNewPopContent articleListNewAndPopular-ContentView-MostRead hide">
+        </section>
+        <section class="articleListNewPopContent articleListNewAndPopular-ContentView-MostCited hide">
+        </section>
+ 
+    </div>
+
+    </div>
+
+</div>
+    </div>
+
+</div>    <div class="widget widget-AdBlock widget-instance-ArticlePageTopMainBodyBottom">
+        
+
+<div class="adBlockNone-wrap js-adBlockNone hide">
+    
+    <div id="adBlockNone"
+         style=" ">
+        <script>
+            googletag.cmd.push(function () { googletag.display('adBlockNone'); });
+        </script>
+    </div>
+        <div class="advertisement-text">Advertisement</div>
+</div> 
+    </div>
+
+</div>
+
+</div>
+<input id="hfArticleTitle" name="hfArticleTitle" type="hidden" value="Optical character recognition of typeset Coptic text with neural networks | Digital Scholarship in the Humanities | Oxford Academic" />
+<input id="hfLeftNavStickyOffset" name="hfLeftNavStickyOffset" type="hidden" value="29" />
+<input id="hfAreOpFeaturesEnabled" name="hfAreOpFeaturesEnabled" type="hidden" value="False" />
+
+
+            </div><!-- /.center-inner-row no-overflow -->
+        </section>
+    </div>
+    <div class="mobile-mask">
+    </div>
+    <section class="footer_wrap vt-site-footer">
+        
+    <script type="text/javascript" src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"></script>
+    
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
+
+    <script type="text/javascript" src="//oup.silverchair-cdn.com/UI/app/jsdist/v-637389617100571406/article-page.min.js"></script>
+
+    <script type="text/javascript">
+        googletag.cmd.push(function () {
+            
+            googletag.pubads().setTargeting("jnlsdoi", "10.1093/llc/fqz023");
+            googletag.enableServices();
+        });
+    </script>
+
+
+
+        
+
+
+    <div class="widget widget-SitePageFooter widget-instance-SitePageFooter">
+        <div class="ad-banner ad-banner-footer">
+    <div class="widget widget-AdBlock widget-instance-FooterAd">
+        
+
+<div class="adBlockFooter-wrap js-adBlockFooter hide">
+    
+    <div id="adBlockFooter"
+         style=" ">
+        <script>
+            googletag.cmd.push(function () { googletag.display('adBlockFooter'); });
+        </script>
+    </div>
+        <div class="advertisement-text">Advertisement</div>
+</div> 
+    </div>
+
+</div>
+
+    <div class="journal-footer journal-bg">
+        <div class="center-inner-row">
+
+                <div class="journal-footer-menu">
+
+                    <ul>
+                                <li class="link-1">
+                                    <a href="/dsh/pages/About">About Digital Scholarship in the Humanities</a>
+                                </li>
+                                <li class="link-2">
+                                    <a href="/dsh/pages/Editorial_Board">Editorial Board</a>
+                                </li>
+                                <li class="link-3">
+                                    <a href="/dsh/pages/General_Instructions">Author Guidelines</a>
+                                </li>
+                                <li class="link-4">
+                                    <a href="http://eadh.org/about">Contact Us</a>
+                                </li>
+                                <li class="link-5">
+                                    <a href="https://www.facebook.com/DSHJournal/">Facebook</a>
+                                </li>
+</ul><ul>                                <li class="link-1">
+                                    <a href="https://twitter.com/DSHjournal">Twitter</a>
+                                </li>
+                                <li class="link-2">
+                                    <a href="/dsh/subscribe">Purchase</a>
+                                </li>
+                                <li class="link-3">
+                                    <a href="http://www.oxfordjournals.org/en/library-recommendation-form.html">Recommend to Your Librarian</a>
+                                </li>
+                                <li class="link-4">
+                                    <a href="http://www.oupmediainfo.com/">Advertising and Corporate Services</a>
+                                </li>
+                                <li class="link-5">
+                                    <a href="https://globaljobs-careernetwork.oxfordjournals.org/">Journals Career Network</a>
+                                </li>
+
+                    </ul>
+
+
+                </div><!-- /.journal-footer-menu -->
+
+            <div class="journal-footer-affiliations">
+                <!-- <h3>Affiliations</h3> -->
+            </div><!-- /.journal-footer-affiliations -->
+
+            <div class="journal-footer-colophon">
+                <ul>
+                        <li>Online ISSN 2055-768X</li>
+                                            <li>Print ISSN 2055-7671</li>
+                    <li>Copyright &#169; 2020 EADH: The European Association for Digital Humanities</li>
+                </ul>
+            </div><!-- /.journal-footer-colophon -->
+
+
+        </div><!-- /.center-inner-row -->
+    </div><!-- /.journal-footer -->
+ 
+    </div>
+
+<div class="oup-footer">
+    <div class="center-inner-row">
+    <div class="widget widget-SelfServeContent widget-instance-OupUmbrellaFooterSelfServe">
+        
+<div class="oup-footer-row journal-links">
+<div class="global-footer selfservelinks">
+<ul>
+    <li>
+    <a href="/journals/pages/about_us">About Us</a>
+    </li>
+    <li>
+    <a href="/journals/pages/contact_us">Contact Us</a>
+    </li>
+    <li>
+    <a href="http://global.oup.com/jobs">Careers</a>
+    </li>
+    <li>
+    <a href="/journals/pages/help">Help</a>
+    </li>
+    <li>
+    <a href="/journals/pages/access_purchase">Access &amp; Purchase</a></li>
+    <li>
+    <a href="/journals/pages/access_purchase/rights_and_permissions">Rights &amp; Permissions</a>
+    </li>
+    <li>
+    <a href="/journals/pages/open_access">Open Access</a>
+    </li>
+</ul>
+</div>
+<div class="global-footer selfservelinks">
+<h4 id="global-footer-customer services" class="title footerheader">Connect</h4>
+<ul>
+    <li>
+    <a href="/my-account/communication-preferences">Join Our Mailing List</a>
+    </li>
+    <li>
+    <a href="http://blog.oup.com/">OUPblog</a>
+    </li>
+    <li>
+    <a href="http://twitter.com/oupacademic">Twitter</a>
+    </li>
+    <li>
+    <a href="https://www.facebook.com/OUPAcademic">Facebook</a>
+    </li>
+    <li>
+    <a href="http://www.youtube.com/playlist?list=PL3MAPgqN8JWioLLTkU4mlFM4-SNt-f1Xs">YouTube</a>
+    </li>
+    <li>
+    <a href="http://oupacademic.tumblr.com/">Tumblr</a>
+    </li>
+</ul>
+</div>
+<div class="global-footer selfservelinks">
+<h4>Resources</h4>
+<ul>
+    <li><a href="/journals/pages/authors">Authors</a></li>
+    <li><a href="/journals/pages/librarians">Librarians</a></li>
+    <li><a href="/journals/pages/societies">Societies</a></li>
+    <li><a href="https://academic.oup.com/journals/pages/sponsorship_and_advertising">Sponsors &amp; Advertisers</a></li>
+    <li><a href="/journals/pages/press">Press &amp; Media</a></li>
+    <li><a href="/journals/pages/agents">Agents</a></li>
+</ul>
+</div>
+<div class="global-footer selfservelinks">
+<h4>Explore</h4>
+<ul>
+    <li><a href="http://global.oup.com/academic">Shop OUP Academic</a></li>
+    <li><a href="http://www.oxforddictionaries.com/">Oxford Dictionaries</a></li>
+    <li><a href="https://www.epigeum.com/">Epigeum</a></li>
+    <li><a href="http://global.oup.com/">OUP Worldwide</a></li>
+    <li><a href="http://www.ox.ac.uk/">University of Oxford</a></li>
+</ul>
+</div>
+<div class="OUP-mission">
+<p>Oxford University Press is a department of the University of Oxford. It furthers the University's objective of excellence in research, scholarship, and education by publishing worldwide</p>
+<img class="journal-footer-logo" src="//oup.silverchair-cdn.com/UI/app/svg/umbrella/oup-logo.svg" alt="Oxford University Press" width="150" height="42" />
+</div>
+</div>
+<div class="oup-footer-row">
+<div class="oup-footer-row-links">
+<ul>
+    <li>Copyright &copy; 2020 Oxford University Press</li>
+    <li><a href="https://global.oup.com/cookiepolicy/">Cookie Policy</a></li>
+    <li><a href="https://global.oup.com/privacy">Privacy Policy</a></li>
+    <li><a href="/journals/pages/about_us/legal/notices">Legal Notice</a></li>
+    <li><a href="/journals/pages/sitemap">Site Map</a></li>
+    <li><a href="/journals/pages/about_us/legal/accessibility">Accessibility</a></li>
+    <li><a href="https://get.adobe.com/reader/">Get Adobe Reader</a></li>
+</ul>
+</div>
+</div>
+<style type="text/css">
+    /* Issue right column fix for tablet/mobile */
+    @media (max-width: 1200px) {
+    .pg_issue .widget-instance-OUP_Issue {
+    width: 100%;
+    }
+    }
+    .sf-facet-list .sf-facet label, .sf-facet-list .taxonomy-label-wrap label {font-size: .9375rem;}
+    .issue-pagination-wrap .pagination-container {float: right;}
+</style>
+    
+    
+     
+    </div>
+
+    </div>
+</div>
+<div class="ss-ui-only">
+
+</div>
+
+    </section>
+</div>
+
+
+
+    
+
+
+
+    <div class="widget widget-SiteWideModals widget-instance-SiteWideModals">
+        <div id="revealModal" class="reveal-modal" data-reveal>
+    <div id="revealContent"></div>
+    <a class="close-reveal-modal" href="javascript:;"><i class="icon-general-close"></i><span class="screenreader-text">Close</span></a>
+</div>
+
+<div id="NeedSubscription" class="reveal-modal small" data-reveal>
+    <div class="subscription-needed">
+        <h5>This Feature Is Available To Subscribers Only</h5>
+        <p><a href="/sign-in">Sign In</a> or <a href="/my-account/register?siteId=5447&amp;returnUrl=%2fdsh%2farticle%2f34%2fSupplement_1%2fi135%2f5476096">Create an Account</a></p>
+    </div>
+    <a class="close-reveal-modal" href="javascript:;"><i class="icon-general-close"></i><span class="screenreader-text">Close</span></a>
+</div>
+
+<div id="noAccessReveal" class="reveal-modal tiny" data-reveal>
+    <p>This PDF is available to Subscribers Only</p>
+    <a class="hide-for-article-page" id="articleLinkToPurchase" data-reveal><span>View Article Abstract & Purchase Options</span></a>
+    <div class="issue-purchase-modal">
+        <p>For full access to this pdf, sign in to an existing account, or purchase an annual subscription.</p>
+    </div>
+    <a class="close-reveal-modal" href="javascript:;"><i class="icon-general-close"></i><span class="screenreader-text">Close</span></a>
+</div>
+ 
+    </div>
+
+
+    
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+<script src="//cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.min.js"></script>
+
+    <script type="text/javascript" src="//oup.silverchair-cdn.com/UI/app/jsdist/v-637389617150883412/footer.min.js"></script>
+    <script async="async" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-5265518246c10183&domready=1"></script>
+
+
+    
+
+    
+
+    
+    
+
+
+
+
+    
+
+
+    <!-- Copyright 2001-2010, IBM Corporation All rights reserved. -->
+    <script src="//ouptag.scholarlyiq.com/ntpagetag.js"></script>
+    <noscript>
+        <img src="//ouptag.scholarlyiq.com/ntpagetag.gif?js=0" height="1" width="1" border="0" hspace="0" vspace="0" alt="Scholarly IQ" />
+    </noscript>
+
+
+    <div class="ad-banner js-ad-riser ad-banner-riser">
+
+    <div class="widget widget-AdBlock widget-instance-RiserAd">
+         
+    </div>
+
+    </div>
+
+
+</body>
+</html>
+

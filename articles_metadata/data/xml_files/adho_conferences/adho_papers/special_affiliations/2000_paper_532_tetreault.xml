@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="paper">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">New Models for Electronic Publishing</title>
+                <author>
+                    <name>
+                        <forename type="first">Ronald</forename>
+                        <surname>Tetreault</surname>
+                        <affiliation>
+                            <name type="org">Dalhousie University</name>, Canada <email/>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="2000">2000</date>
+                <publisher>
+                    <name>University of Glasgow</name>
+                </publisher>
+                <pubPlace>Glasgow</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ALLC/ACH 2000</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first">Jean</forename>
+                        <surname>Anderson</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Amal</forename>
+                        <surname>Chatterjee</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Christian</forename>
+                        <forename type="middle">J.</forename>
+                        <surname>Kay</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Margaret</forename>
+                        <surname>Scott</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item>Digital Resources</item>
+                        <item> </item>
+                        <item> </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>Roger Chartier rightly warns us that reading on a computer screen is not the same as
+                reading a book when he says that <cit rend="block">
+                    <quote>"electronic representation of texts completely changes the text's status:
+                        for the materiality of the book, it substitutes the immateriality of texts
+                        without a unique location [...] in place of the immediate apprehension of
+                        the whole work, made visible by the object that embodies it, it introduces a
+                        lengthy navigation in textual archipelagos that have neither shores nor
+                        borders"</quote>
+                    <bibl>(18).</bibl>
+                </cit></p>
+            <p>Hence any project in the electronic medium that lays claim to scholarly authority
+                will require adaptations in both the presentation and the dissemination of its
+                materials. My work on developing an electronic edition of Lyrical Ballads (by
+                William Wordsworth and Samuel Taylor Coleridge, 1798-1805) helps illustrate how
+                these changes may be realized. Bringing such an edition before the public has made
+                it clear to me that the evolution of electronic publishing will necessitate
+                innovations that are not just technological but also institutional.</p>
+            <p>On the technical side, Peter Shillingsburg has set out the minimum requirements for a
+                scholarly electronic edition. Such works need to have 1) "a full accurate
+                transcription and full digital image of each source edition," 2) "a webbing or
+                networking of cross-references connecting variant texts, explanatory notes,
+                contextual materials, and parallel texts," and 3) "a navigational system" so that
+                readers can thread their way through this complex hypertext environment
+                (Shillingsburg 28). In preparing an electronic Lyrical Ballads we have tried to meet
+                these standards, first by painstakingly transcribing in text files each of the four
+                lifetime editions of the collection, and by gathering together digital images of
+                every page of every edition. These images will complement our e-texts by being
+                presented in windows set side-by-side on the computer screen. Second, our e-texts
+                will be encoded using TEI-conformant SGML to ensure the preservation of their
+                complex logical structure and to enable hypertext linking that will create a webbing
+                of cross-references and make possible their distribution in a networked environment.
+                The scholars engaged in this project have recently formed a decided preference for
+                online delivery over CD-ROM distribution. Not only is Internet dissemination more
+                efficient and cost effective, it also permits easy correction of errors that are
+                likely to plague any scholarly edition. More important, the fluid nature of the
+                World Wide Web will allow us to take ready advantage of new standards and new forms
+                of interface as they develop. We can constantly add new materials and we can explore
+                new paradigms for their presentation that will help accomplish Shillingsburg's third
+                goal of ready navigation through a multiplicity of variant texts. Lately our new
+                method of marshalling scholarly apparatus which I have called "dynamic collation"
+                has been enhanced by the addition of popup windows generated by javascript which
+                preview variant readings whenever the reader passes the cursor over a revised
+                passage in the electronic text. This reconceptualization of how variant readings can
+                be presented in the digital medium grounds in actual practice David Greetham's
+                proposition that "dismembering scholarly apparatus" will be a consequence of the
+                transition to the new medium (329).</p>
+            <p>The real challenge for online publication, however, is what might be called the lack
+                of mature institutional structures on the Web. So long as anyone can publish
+                anything on the WWW, the quality of its materials remains questionable. Certainly,
+                Matthew Kirschenbaum is right to remind us that "publication entails a great deal
+                more than simply the act of making public." Hitherto, some degree of authority has
+                been conferred on a website by its association with an institutional host such as a
+                university, as well as by the reputation of its author. But the imprimatur of an
+                established publisher would be an even greater guarantee of the reliability of these
+                immaterial texts. We are in the midst of negotiations that would see the electronic
+                Lyrical Ballads published under the auspices of Cambridge University Press, through
+                the good offices of the website of "Romantic Circles", a reputable online journal
+                hosted by the University of Maryland. By reporting on the progress of these
+                negotiations and their outcome, I hope to indicate ways in which both the Net and
+                established publishers will need to evolve in an electronic world in order to
+                guarantee standards of authority.</p>
+            <p>The future of electronic publishing depends upon us asking questions about more than
+                technical standards. Online scholarly archives must also meet standards of peer
+                evaluation, editorial practice, and institutional approval that have traditionally
+                ensured the quality of print publications.</p>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">Roger</forename>
+                                    <surname>Chartier</surname>
+                                </name>
+                            </author>
+                            <title level="m">Forms and Meanings: Texts, Performances, and Audiences
+                                from Codex to Computer</title>
+                            <imprint>
+                                <pubPlace>Philadelphia</pubPlace>
+                                <publisher>University of Pennsylvania Press</publisher>
+                                <date when="1995">1995</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">D.</forename>
+                                    <forename type="middle">C.</forename>
+                                    <surname>Greetham</surname>
+                                </name>
+                            </author>
+                            <title level="m">Theories of the Text</title>
+                            <imprint>
+                                <pubPlace>Oxford</pubPlace>
+                                <publisher>Oxford University Press</publisher>
+                                <date when="1999">1999</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <analytic>
+                            <author><name><forename type="first">Matthew</forename><forename
+                                        type="middle"
+                                    >G.</forename><surname>Kirschenbaum</surname></name></author>
+                            <title level="a">E-dissertations?</title>
+                        </analytic>
+                        <monogr>
+                            <title level="u">Online Posting. 4 Oct. 1998. Humanist Discussion Group.
+                                6 Oct. 1988</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date when="1988">1988</date>
+                            </imprint>
+                        </monogr>
+                        <note>&lt;humanist@kcl.ac.uk&gt;.</note>
+                    </biblStruct>
+                    <biblStruct type="bookChapter">
+                        <analytic>
+                            <author><name><forename type="first">Peter</forename>
+                                    <surname>Shillingsburg</surname></name></author>
+                            <title level="a">Principles for Electronic Archives, Scholarly Editions,
+                                and Tutorials</title>
+                        </analytic>
+                        <monogr>
+                            <editor>
+                                <name>
+                                    <forename type="first">Richard</forename>
+                                    <forename type="middle">J.</forename>
+                                    <surname>Finneran</surname>
+                                </name>
+                            </editor>
+                            <title level="m">The Literary Text in the Digital Age</title>
+                            <imprint>
+                                <pubPlace>Ann Arbor</pubPlace>
+                                <publisher>The University of Michigan Press</publisher>
+                                <date when="1996">1996</date>
+                                <biblScope type="pp">23-25</biblScope>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

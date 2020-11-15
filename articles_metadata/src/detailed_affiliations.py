@@ -35,8 +35,8 @@ def create_affiliations_set(path_of_files):
                                         # print(len(author['affiliation']))
                                         # print(author)
                                         # print(author['affiliation'])
-
-    affiliations_set.remove('')
+    
+    #affiliations_set.remove("")
 
     # for affiliation in affiliations_set:
     #     if len(affiliation) <= 1:
@@ -45,7 +45,7 @@ def create_affiliations_set(path_of_files):
 
 # Create a file with original and splitted names by comma. Testing a method to only query strings that communicate the university or institution and avoid noise
 def filter_affiliation_set(affiliations_set):    
-    with open("../data/json_files/affiliations_set.json", "w", encoding="utf-8") as f:
+    with open("../data/json_files/no_country_dataset/adho_papers/affiliations_set.json", "w", encoding="utf-8") as f:
         affiliations_to_query = []
         words_to_check = ["university", "universidade", "università", "universitat", "universidad", "universität", "université", "universiteit", "academy", "institute", "institut", "instituut", "college", "center", "centre"]
         for item in affiliations_set:
@@ -63,7 +63,7 @@ def filter_affiliation_set(affiliations_set):
             }
             affiliations_to_query.append(item_dict)
 
-        json.dump(affiliations_to_query, f)
+        json.dump(affiliations_to_query, f, ensure_ascii=False)
     return affiliations_to_query
 
 
@@ -75,10 +75,16 @@ def ror_queries(affiliations_to_query, file_path):
     for index, item in enumerate(affiliations_to_query):
         #print(item["query"])
         query = query_beginning + item["query"]
-        response = requests.get(query, verify=False, timeout=10).json()
+        response = requests.get(query, verify=False, timeout=10)
+        response_json = response.json()
+        print("-------------------RESPONSE-------------------\n\n")
+        print(response)
+        print("-------------------RESPONSE json-------------------\n\n")
+        print(response_json)
+        print("\n\n\n\n\n")
         #print(index, "  ", f'{item["query"]}')
         #print(response)
-        if response['number_of_results'] == 0:
+        if response_json['number_of_results'] == 0:
             queries_results.append({
                 "query": item["query"],
                 "original_name": item["original_name"],
@@ -89,7 +95,7 @@ def ror_queries(affiliations_to_query, file_path):
             queries_results.append({
                 "query": item["query"],
                 "original_name": item["original_name"],
-                "response": response['items']
+                "response": response_json['items']
             })
         # print()
         # if index == 5:
@@ -203,27 +209,27 @@ def fill_affiliations_json(path_of_files, data_affiliations_dict):
 
                 filename_without_extension = filename.split('.')[0]
                 new_filename = f'{filename_without_extension}_filled_aff.json'
-                with open(f"../data/json_files/complete_dataset/{new_filename}", "w", encoding="utf-8") as f:
+                with open(f"../data/json_files/no_country_dataset/adho_papers/{new_filename}", "w", encoding="utf-8") as f:
                     json.dump(filled_journal_dict, f, ensure_ascii=False)
-
-
 def main():
-    path_of_json_files = "../data/json_files/no_country_dataset/"
-    ror_queries_file_path = "../data/json_files/affiliations/ror_queries.json"
+    path_of_json_files = "../data/json_files/no_country_dataset/adho_papers"
+    ror_queries_file_path = "../data/json_files/no_country_dataset/adho_papers/ror_queries.json"
+    path_of_json_files_2 = "../data/json_files/no_country_dataset/adho_papers/ms_file"
 
     # Generate the set of the affiliation in the corpus of journals
-    # affiliations_set = create_affiliations_set(path_of_json_files)
+    affiliations_set = create_affiliations_set(path_of_json_files)
 
-    # filter_affiliation_set(affiliations_set)
+    filter_affiliation_set(affiliations_set)
 
     # Comment the following lines if ror queries have already been saved and load them with the next lines
-    """ queries_results = ror_queries(filter_affiliation_set(affiliations_set), ror_queries_file_path)
+    queries_results = ror_queries(filter_affiliation_set(affiliations_set), ror_queries_file_path)
     with open(ror_queries_file_path, "w", encoding="utf-8") as file:
-        json.dump(queries_results, file) """
+        json.dump(queries_results, file, ensure_ascii=False)
 
     # Comment the following lines if ror queries have NOT already been saved and save them with the previous lines
-    #with open(ror_queries_file_path, "r", encoding="utf-8") as file:
-    #    queries_results = json.load(file)
+    
+    with open(ror_queries_file_path, "r", encoding="utf-8") as file:
+        queries_results = json.load(file)
 
     # Chose a threshold with which ror results will be selected
     """ threshold = 0.9
@@ -232,14 +238,13 @@ def main():
     with open("../data/json_files/affiliations/ror_selected.json", "w", encoding="utf-8") as file:
         json.dump(selected_affiliations_dict, file) """
 
-    #chosen_results = chose_single_result(queries_results)
-   # with open("../data/json_files/affiliations/ror_single_result.json", "w", encoding="utf-8") as file:
-    #    json.dump(chosen_results, file)
+    chosen_results = chose_single_result(queries_results)
+    with open("../data/json_files/no_country_dataset/adho_papers/ror_single_result.json", "w", encoding="utf-8") as file:
+        json.dump(chosen_results, file, ensure_ascii=False)
 
-    #data_affiliations_dict = data_from_ror_results(chosen_results)
+    data_affiliations_dict = data_from_ror_results(chosen_results)
 
-    #fill_affiliations_json(path_of_json_files, data_affiliations_dict)
-
+    fill_affiliations_json(path_of_json_files_2, data_affiliations_dict)
 
 if __name__ == '__main__':
     main()

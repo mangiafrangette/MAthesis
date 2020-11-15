@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="paper">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Image Description at the William Blake Archive</title>
+                <author>
+                    <name>
+                        <forename type="first">Kari</forename>
+                        <surname>Kraus</surname>
+                        <affiliation>
+                            <name type="org">University of Rochester</name>, USA <email/>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="2000">2000</date>
+                <publisher>
+                    <name>University of Glasgow</name>
+                </publisher>
+                <pubPlace>Glasgow</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ALLC/ACH 2000</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first">Jean</forename>
+                        <surname>Anderson</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Amal</forename>
+                        <surname>Chatterjee</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Christian</forename>
+                        <forename type="middle">J.</forename>
+                        <surname>Kay</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Margaret</forename>
+                        <surname>Scott</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item>Text Encoding</item>
+                        <item> </item>
+                        <item> </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>The larger objective of this paper is to follow the lead of Matthew Kirschenbaum
+                    and the participants in his panel at last year's ALLC/ACH conference in
+                    Charlottesville, Virginia, in thinking about visual electronic resources as
+                    structured data. More specifically, I propose to turn the spotlight on a
+                    significant portion of the William Blake Archive's metadata: its SGML-encoded
+                    image descriptions. Introductory remarks will emphasize the image descriptions
+                    as a design feature intended to maximize use of and complement the Archive's
+                    other image resources, but the balance of the paper will consider more
+                    foundational issues: what exactly are image descriptions in formal terms? What
+                    is their relationship to their first-order objects? What kinds of problems do
+                    they present for the project team? What functions do they serve? My aim is to
+                    provide a broad overview of our practices and the challenges we face (both
+                    theoretical and practical) in describing images. The full version of this
+                    presentation will attend closely to the discursive features of the image
+                    descriptions and their principles of inclusion of pictorial data on the grounds
+                    that they serve as a barometer of the general reliability of the search and
+                    retrieval functions.</p>
+                <p>The image descriptions and their characteristic terms - which are best considered
+                    as a unit - are an integral part of the Archive's paradigm of image search and
+                    retrieval. General descriptions are available via a link to a separate window
+                    from all Object View pages in the Archive, and more specific descriptions are
+                    returned in the course of an image search. The descriptive commentary is also
+                    available to the user who invokes an Inote session from any of several windows
+                    and pages. (Inote, which has received much press in humanities computing circles
+                    since its public debut, is a java-based image annotation tool developed at IATH
+                    that superimposes a four-quadrant grid on an image. Clicking an area of interest
+                    opens a separate annotation viewer containing the editorial commentary targeted
+                    to the selected region.) The image descriptions are conceptually inextricable
+                    from the Archive's characteristic terms, a menu of which the user selects from
+                    when launching an image search. Though it is tempting to devote a portion of the
+                    paper to an evaluation of how the Archive's controlled vocabulary measures up
+                    when compared to other established classification and vocabulary browsers (such
+                    as IconClass, the Art and Architecture Thesaurus, and the Library of Congress
+                    Thesaurus for Graphic Materials), that subject is sufficiently complex to
+                    warrant separate treatment at some future date.</p>
+                <p>Strictly speaking, the Archive's search engine consults only the SGML-encoded
+                    characteristic terms when returning hits to a user. The exact function of the
+                    prose that appears between &lt;illusobjdesc&gt; tags is more difficult to
+                    define. My provisional account of the purpose of the descriptions is threefold:
+                    first, they illustrate that the visual-to-verbal transposition isn't a simple
+                    one-step operation: more complexly, images are first captured in prose and from
+                    the prose we extract smaller searchable units. Second, the descriptions provide
+                    a system of checks and balances that allow the user to cross-reference them with
+                    the characteristic terms, making the underlying logic of the hits returned in
+                    the course of a search session explicit. Third, they offer us a space where
+                    Willard McCarty's metadata rule of disambiguation can be violated: as I will
+                    explain in more detail in my talk, a fair amount of uncertainty and doubt is
+                    built into the descriptions as a response to iconographic ambiguities in the
+                    source material; this interpretive uncertainty is, if not effaced entirely, at
+                    least diluted at the characteristic level. These functions aside, it is my sense
+                    that the descriptions aren't being mined for information as effectively as they
+                    could be, though the beta version of WBA 2.0, scheduled for public release later
+                    this summer, should make it possible to harvest their data in new ways.</p>
+                <p>Because the Archive's image search and retrieval software, Dynaweb, must consult
+                    an SGML information base that is, of course, textual rather than pictorial in
+                    content, the descriptions and their corresponding characteristic terms serve as
+                    a verbal proxy for their visual objects. To put it otherwise, the annotations
+                    function as metatext (rather than, as in conventional print relationships,
+                    paratext) to the primary data, creating an unusual onus of responsibility for
+                    the editors and assistants to provide descriptions and terms that show as much
+                    fidelity as possible to the originals in order to guarantee optimum results for
+                    the user searching across the visual collection.</p>
+                <p>This process of faithfully, accurately, and thoroughly translating from one
+                    medium (the visual) to another (the verbal) is, as one would expect, beset by
+                    difficulties. But we are not without precedent or aid. In particular, the
+                    problems we encounter in the course of composing our image descriptions can be
+                    profitably understood by looking to the growing body of literature in Humanities
+                    Computing on encoding transcripts of source materials. My suggestion assumes
+                    that at heart the two endeavors (describing images and transcribing texts) are
+                    first and foremost acts of <emph rend="italics">translation</emph> - the former
+                    from pictorial data to linguistic data, the latter from - to take the example of
+                    the Beowulf Project - chirographical marks in a codex manuscript to the
+                    descriptive codes of SGML - and as such are prey to all the difficulties
+                    inherent in the translation process.</p>
+                <p>At last year's ALLC/ACH conference, Paul Caton and Julia Flanders raised the
+                    issue of the measurability of data as an important consideration for project
+                    teams interested in encoding renditional information: they stressed the
+                    necessity of <cit rend="block">
+                        <quote>"having a clear sense of what the units of information are, how to
+                            identify and distinguish them consistently, and how to record them
+                            accurately. It [the criterion of measurability] represents/requires an
+                            attempt to decide . . . what threshold of perceptibility will be
+                            maintained: . . . what will be considered either too small or too costly
+                            or difficult to record."</quote>
+                    </cit></p>
+                <p>At the Blake Archive, our efforts to extract iconographic content from the source
+                    material for the purposes of image description are routinely complicated by just
+                    the kinds of measurability and perceptibility difficulties outlined by Caton and
+                    Flanders. Should Blake's interlinear motifs be captured in as much detail as the
+                    large-scale designs? Should the hatched lines that appear meaningless in the 100
+                    dpi image but representational in the 300 dpi be described (and thus made
+                    searchable)? Should we even avail ourselves at all of the 300 dpi images as
+                    resources to transform our unaided human eyes into Argus eyes, or is this
+                    approach contrary to the central tenets of diplomatic editing? What about the
+                    left arm of that central figure on plate 16 in copy D of <title level="m">The
+                        Marriage of Heaven and Hell</title>, which was printed but colored on the
+                    impression so that it blends almost imperceptibly with the adjacent figure's
+                    gown? Is that wispy line extending from the ascender of the letter "b" a bird or
+                    a vine, or is it both? Indeed variations on the last question may reflect the
+                    most common kind of perceptual ambiguity the annotator of Blake encounters,
+                    attributable in part to Blake's almost profligate use of metaphors; his peculiar
+                    syncretic insight makes it dangerous to ever rule out the possibility that a
+                    design motif has multiple referents: flora and fauna are often
+                    indistinguishable, a human figure may be a composite of several characters, and
+                    a lock of hair easily morphs into a coiled serpent.</p>
+                <p>The final version of the paper will address our working solutions to the problems
+                    enumerated in the foregoing paragraph. I will conclude by briefly shifting the
+                    emphasis from the creation of image descriptions to their potential use,
+                    offering some parting thoughts and caveats on the kind of knowledge that the
+                    image descriptions might produce when used in conjunction with the Archive's
+                    other image tools and resources.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">Paul</forename>
+                                    <surname>Caton</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">Julia</forename>
+                                    <surname>Flanders</surname>
+                                </name>
+                            </author>
+                            <title level="a">Encoding Rendition in Primary Source Texts Using
+                                TEI</title>
+                        </analytic>
+                        <monogr>
+                            <title level="u">Unpublished essay, 1999. Presented at ACH-ALLC 99.
+                                University of Virginia, Charlottesville. 12 June 1999.</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date when="1999">1999</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">Morris</forename>
+                                    <surname>Eaves</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">Robert</forename>
+                                    <forename type="middle">N.</forename>
+                                    <surname>Essick</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">Joseph</forename>
+                                    <surname>Viscomi</surname>
+                                </name>
+                            </author>
+                            <title level="m">The William Blake Archive</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date/>
+                            </imprint>
+                        </monogr>
+                        <note>&lt;<ptr target="http://www.iath.virginia.edu/blake/"/>&gt;</note>
+                    </biblStruct>
+                    <biblStruct>
+                        <monogr>
+                            <title level="m">Inote. Software from the Institute for Advanced
+                                Technology in the Humanities</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date/>
+                            </imprint>
+                        </monogr>
+                        <note>&lt;<ptr target="http://www.iath.virginia.edu/inote/"/>&gt;</note>
+                    </biblStruct>
+                    <biblStruct type="bookChapter">
+                        <analytic>
+                            <author><name>
+                                    <forename type="first">Matthew</forename>
+                                    <surname>Kirschenbaum</surname>
+                                </name> et al</author>
+                            <title level="a">Refining Our Notions of What (Digital) Images Really
+                                Are.</title>
+                        </analytic>
+                        <monogr>
+                            <title level="u">ACH-ALLC 99. University of Virginia, Charlottesville.
+                                10 June 1999</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date when="1999">1999</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">Willard</forename>
+                                    <surname>McCarty</surname>
+                                </name>
+                            </author>
+                            <title level="a">Humanities Computing as Interdiscipline</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date/>
+                            </imprint>
+                        </monogr>
+                        <note>&lt;<ptr target="http://www.iath.virginia.edu/hcs/mccarty.html"
+                            />&gt;</note>
+                    </biblStruct>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

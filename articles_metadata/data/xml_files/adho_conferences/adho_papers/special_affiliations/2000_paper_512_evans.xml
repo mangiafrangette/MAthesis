@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="paper">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">A Corpus-Based Methodology for Identifying Non-nominal
+                    "It": Rule-Based and Machine Learning Approaches</title>
+                <author>
+                    <name>
+                        <forename type="first">Richard</forename>
+                        <surname>Evans</surname>
+                        <affiliation>
+                            <name type="org">University of Wolverhampton</name>, UK <email/>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="2000">2000</date>
+                <publisher>
+                    <name>University of Glasgow</name>
+                </publisher>
+                <pubPlace>Glasgow</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ALLC/ACH 2000</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first">Jean</forename>
+                        <surname>Anderson</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Amal</forename>
+                        <surname>Chatterjee</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Christian</forename>
+                        <forename type="middle">J.</forename>
+                        <surname>Kay</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Margaret</forename>
+                        <surname>Scott</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item>Computational / Corpus Linguistics</item>
+                        <item> </item>
+                        <item> </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>In this paper, seven uses of "it" are identified in English. These uses involve
+                    noun phrase anaphora (eg. "Do not sweep the dust when dry, you will only
+                    recirculate IT."), verb phrase anaphora (eg. "Raising money for your favourite
+                    charity can be fun. You can do IT on your own..."), reference to clauses (eg.
+                    "Not every city would be suited to this approach, IT must be admitted."),
+                    reference to entire discourse segments, (eg. "Always use a tool for the job it
+                    was intended to do. Always use tools correctly. If IT feels very awkward,
+                    stop."), cataphoric reference to entities (eg. "When IT fell, the glass
+                    broke."), pleonastic uses in which the pronoun has no reference and is used only
+                    due to a requirement of the grammar (eg. "IT was {raining, 4 o'clock, All
+                    Saints' day, etc.}", "IT's recommended that...", "IT's easier to..."), and uses
+                    in idiomatic constructions (eg. "I take IT you're going now."). Due to the
+                    absence of a suitable term in the literature, the term "non-nominal it" is used
+                    to identify all the cases in which "it" is not in an anaphoric relationship with
+                    a noun phrase in the text. Numerous researchers have so far proposed
+                    hand-crafted rule-based pattern matching techniques to identify pleonastic "it".
+                    These methods have the drawback that they require recognition of potentially
+                    large and open-ended lists of trigger words and complex expressions in order to
+                    succeed. The goal here was to compare a rule-based method with a method devised
+                    to use machine learning to make the identification. It was hoped that
+                    information such as the position of the pronoun and its complex relation to the
+                    surrounding syntactic context would contribute to the accuracy of the
+                    identification. We implemented both methods. Corpora were constructed, annotated
+                    and used to classify and evaluate the accuracy of these programs. A comparison
+                    was made between them.</p>
+                <p>The literature makes it easy to infer the importance of recognising non-nominal
+                    uses of "it" in the fields of anaphora resolution, information retrieval,
+                    machine translation and text summarisation. The task is especially crucial when
+                    it is considered that almost one third of the uses of "it" in our corpus of
+                    randomly selected texts were non-nominal.</p>
+                <p>In the full paper, the treatment of pleonastic "it" in surveys of English usage
+                    is reviewed, as is work by Paice &amp; Husk (1987), Lappin &amp; Leass (1994)
+                    and Denber (1998) on methods for automatic recognition of pleonastic "it". The
+                    application of machine learning to a different problem in linguistics is
+                    described in the review of Litman (1996) on the automatic classification of cue
+                    phrases. One of the methods in the present paper applies machine learning to the
+                    automatic identification of non-nominal "it".</p>
+                <p>A novel resource was required for this corpus-based research. A corpus was
+                    therefore constructed using 77 randomly selected texts from the BNC and stripped
+                    down versions of the Susanne corpus. We implemented a software tool that
+                    facilitates SGML mark up of instances of "it" that appear in the corpus by a
+                    human annotator. Non-Nominal uses of "it" are marked &lt;PLEO
+                    ID="XX"&gt;it&lt;/PLEO&gt; whereas other instances are left unmarked by the
+                    annotator. On completion, the corpus contained 368830 words, 3171 occurrences of
+                    "it" and 1025 non-nominal uses. A DTD was defined for the annotated corpus and
+                    the SGML aware LT-Chunker (Mikheev 1996) was used to tokenise the corpus while
+                    preserving the prior mark up. The tokenised file was then processed by a Perl
+                    program written to report the paragraph, sentence and word positions of the
+                    non-nominal instances of "it". This information was written to a data file and
+                    used to evaluate the methods implemented and described later.</p>
+                <p>We implemented a program based on Paice &amp; Husk's (1987) method for
+                    recognition of pleonastic "it". In the first step, a plain text version of the
+                    corpus was tagged using Tapanainen &amp; Jarvinen's (1997) SGML-blind
+                    FDG-Parser. The output from the tagger was converted to an SGML format by our
+                    software and then processed by our program based on Paice &amp; Husk's pattern
+                    recognition method. In this way a classification was assigned to each instance
+                    of "it". Evaluation was performed by comparing the output of the program with
+                    the contents of the data file produced earlier.</p>
+                <p>A machine learning approach was also implemented. It exploits Daelemans' (1999)
+                    TiMBL memory based learning method. TiMBL works by using a training file of
+                    feature-value vectors that have been given a classification: non-nominal; or
+                    not. The construction of the training file was made by processing a plain text
+                    version of the annotated corpus with the FDG-Parser and the SGML conversion
+                    program. The SGML file was input to a program that described each instance of
+                    "it" as a vector of feature values. The features used in our approach were
+                    designed to describe the position of non-nominal instances, the lemmas of
+                    significant "following" words such as verbs and adjectives, as well as the
+                    relation of "it" to other structures in the text, such as prepositions and noun
+                    phrases. A thorough description appears in the full paper. The vectors
+                    associated with the instances were classified by comparison with the data file
+                    constructed earlier. The set of classified vectors made this way was then used
+                    as the training file. TiMBL classifies query vectors according to their
+                    similarity to the examples in the training file. The method of ten-fold
+                    cross-validation was used to obtain an evaluation of the average accuracy of the
+                    technique over our corpus.</p>
+                <p>The results of our automatic evaluation showed no major differences in the level
+                    of accuracy between the two methods. However, it was noted that the method based
+                    on work by Paice &amp; Husk was slightly more accurate over this text (78.81%
+                    vs. 78.68%) but had a stronger tendency to misclassify instances as non-nominal
+                    (false positives: 265 vs. 243). If false positives are undesirable to the user,
+                    then the machine learning approach is better.</p>
+                <p>Further experiments in which the classification of instances in the training set
+                    was extended using a 7-ary system, in accordance with the uses given in the
+                    introduction, showed some improvement in making the binary distinction between
+                    nominal and non-nominal uses. The classification accuracy rose to 78.74% and the
+                    number of false positive classifications fell to 209. Predictably, the detection
+                    rate for each of the different types of usage was low (50.35% on average).</p>
+                <p>Given that TiMBL is reliant on a training file, it will also be beneficial to
+                    extend our resource in terms of size as well as information content. The present
+                    file, with 3171 instances, cannot be considered to be of sufficient size. The
+                    availability of a suitable resource for evaluation is also important for the
+                    application of optimisation techniques. Of course, non-nominal pronouns appear
+                    in languages other than English, and it would be valuable to generate resources
+                    in order to explore machine learning based methods to identify non-nominal
+                    pronouns for them.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">L.</forename>
+                                    <surname>Burnard</surname>
+                                </name>
+                            </author>
+                            <title level="m">Users Reference Guide British National Corpus Version
+                                1.0</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher>Oxford University Computing Services, UK</publisher>
+                                <date when="1995">1995</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">W.</forename>
+                                    <surname>Daelemans</surname>
+                                </name>
+                            </author>
+                            <title level="m">TiMBL: Tilburg Memory Based Learner version 2 Reference
+                                Guide,</title>
+                            <title level="s">ILK Technical Report - ILK 99-01</title>
+                            <imprint>
+                                <pubPlace>The Netherlands</pubPlace>
+                                <publisher>Tilburg University</publisher>
+                                <date when="1999">1999</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">M.</forename>
+                                    <surname>Denber</surname>
+                                </name>
+                            </author>
+                            <title level="m">Automatic Resolution of Anaphora in English</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher>Eastman Kodak Co., Imaging Science Division</publisher>
+                                <date when="1998">1998</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author><name><forename type="first">S.</forename>
+                                    <surname>Lappin</surname></name></author>
+                            <author><name><forename type="first">H.</forename>
+                                    <forename type="middle"
+                                    >J.</forename><surname>Leass</surname></name></author>
+                            <title level="a">An Algorithm for Pronominal Anaphora Resolution</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Computational Linguistics</title>
+                            <imprint>
+                                <biblScope type="vol">20</biblScope>
+                                <biblScope type="issue">4</biblScope>
+                                <biblScope type="pp"/>
+                                <date when="1994">1994</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author><name><forename type="first">D.</forename>
+                                    <forename type="middle"
+                                    >J.</forename><surname>Litman</surname></name></author>
+                            <title level="a">Cue Phrase Classification Using Machine
+                                Learning</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Journal of Artificial Intelligence Research</title>
+                            <imprint>
+                                <biblScope type="vol">5</biblScope>
+                                <biblScope type="issue"/>
+                                <biblScope type="pp">53-94</biblScope>
+                                <date when="1996">1996</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">A.</forename>
+                                    <surname>Mikheev</surname>
+                                </name>
+                            </author>
+                            <title level="m">LT_CHUNK V 2.1</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher>Language Technology Group, University of Edinburgh,
+                                    UK</publisher>
+                                <date when="1996">1996</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author><name><forename type="first">C.</forename>
+                                    <forename type="middle"
+                                    >D.</forename><surname>Paice</surname></name></author>
+                            <author><name><forename type="first">G.</forename>
+                                    <forename type="middle"
+                                    >D.</forename><surname>Husk</surname></name></author>
+                            <title level="a">Towards the Automatic Recognition of Anaphoric Features
+                                in English Text: The Impersonal Pronoun 'It'</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Computer Speech and Language</title>
+                            <imprint>
+                                <publisher>Academic Press</publisher>
+                                <biblScope type="vol">2</biblScope>
+                                <biblScope type="issue"/>
+                                <biblScope type="pp">109-32</biblScope>
+                                <date when="1987">1987</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">G.</forename>
+                                    <surname>Sampson</surname>
+                                </name>
+                            </author>
+                            <title level="m">English for the Computer: The SUSANNE Corpus and
+                                Analytic Scheme</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher>Oxford University Press</publisher>
+                                <date when="1995">1995</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="bookChapter">
+                        <analytic>
+                            <author><name><forename type="first">P.</forename>
+                                    <surname>Tapanainen</surname></name></author>
+                            <author><name><forename type="first">T.</forename>
+                                    <surname>Jarvinen</surname></name></author>
+                            <title level="a">A Non-Projective Dependency Parser</title>
+                        </analytic>
+                        <monogr>
+                            <title level="m">The Proceedings of The 5th Conference of Applied
+                                Natural Language Processing</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher>ACL</publisher>
+                                <date when="1997">1997</date>
+                                <biblScope type="pp">64-71</biblScope>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

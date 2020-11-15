@@ -1,0 +1,1870 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+
+        <title>Automatically extracted parallel corpora enriched with highly useful metadata? A Wikipedia case study combining machine learning and social technology | Digital Scholarship in the Humanities | Oxford Academic</title>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js" type="text/javascript"></script>
+<script>window.jQuery || document.write('<script src="//oup.silverchair-cdn.com/UI/app/vendor/jquery-2.2.4.js" type="text/javascript">\x3C/script>')</script>
+<script src="//oup.silverchair-cdn.com/Themes/Silver/app/vendor/v-637389614866021597/jquery-migrate-1.4.1.min.js" type="text/javascript"></script>
+
+
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+    
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <!-- Turn off telephone number detection. -->
+    <meta name="format-detection" content="telephone=no" />
+
+<!-- Bookmark Icons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="//oup.silverchair-cdn.com/UI/app/img/v-637389614697592184/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="//oup.silverchair-cdn.com/UI/app/img/v-637389614697748397/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="//oup.silverchair-cdn.com/UI/app/img/v-637389614697748397/favicon-16x16.png" sizes="16x16">
+  <link rel="mask-icon" href="//oup.silverchair-cdn.com/UI/app/img/v-637389614697748397/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="//oup.silverchair-cdn.com/UI/app/img/v-637389614697748397/favicon.ico">
+  <link rel="manifest" href="//oup.silverchair-cdn.com/UI/app/img/v-637389614697748397/manifest.json">
+  <meta name="msapplication-config" content="//oup.silverchair-cdn.com/UI/app/img/v-637389614697592184/browserconfig.xml">
+  <meta name="theme-color" content="#002f65">
+
+
+    
+
+
+
+
+<link rel="stylesheet" type="text/css" href="//oup.silverchair-cdn.com/UI/app/fonts/icons.css" />
+
+<link rel="stylesheet" type="text/css" href="//oup.silverchair-cdn.com/UI/app/css/v-637389617098071498/style.min.css" />
+
+        <link rel="stylesheet" type="text/css" href="//oup.silverchair-cdn.com/UI/app/vendor/oupCookiePolicy/css/v-637389614698998372/jquery.fancybox-1.3.4_1.css" />
+        <link rel="stylesheet" type="text/css" href="//oup.silverchair-cdn.com/UI/app/vendor/jscrollpane/v-637389614698998372/jscrollpane.css" />
+        <link rel="stylesheet" type="text/css" href="//oup.silverchair-cdn.com/UI/app/vendor/jquery.tablesorter/v-637389614698998372/theme.default.css" />
+
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Merriweather:300,400,400italic,700,700italic|Source+Sans+Pro:400,400italic,700,700italic" />
+
+
+        <link href=//oup.silverchair-cdn.com/data/SiteBuilderAssetsOriginals/Live/CSS/journals/global.css rel="stylesheet" type="text/css" />
+                <link href=//oup.silverchair-cdn.com/data/SiteBuilderAssets/Live/CSS/dsh/Site567563881.css rel="stylesheet" type="text/css" />
+
+
+
+    <script> var dataLayer = [{"event_type":"Login-full-text","supplier_tag":"SC_Journals","object_type":"Article","siteid":"dsh","authentication_method":"IP","authzrequired":"true","account_id":"2742389","authnips":"ov50dJkUotsDhFlFu/6qkw==","turnaway_id":"SUB_NONE","doi":"10.1093/llc/fqaa002"}]; </script>
+        <script>
+        (function (w, d, s, l, i) {
+          w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+              new Date().getTime(), event: 'gtm.js'
+          }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-W6DD7HV');
+        </script>
+
+    
+
+        <script type="text/javascript">
+            var App = App || {};
+            App.LoginUserInfo = {
+                isInstLoggedIn: 1,
+                isIndividualLoggedIn: 0
+            };
+
+            App.CurrentSubdomain = 'dsh';
+            App.SiteURL = 'academic.oup.com/dsh';
+        </script>
+    
+    
+    <link href="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css" rel="stylesheet" type="text/css" />
+    <script type="application/ld+json">
+        {"@context":"http://schema.org","@id":"https://academic.oup.com/dsh/advance-article/doi/10.1093/llc/fqaa002/5775571","@type":"ScholarlyArticle","name":"Automatically extracted parallel corpora enriched with highly useful metadata? A Wikipedia case study combining machine learning and social technology","datePublished":"2020-03-03","isPartOf":{"@id":"https://academic.oup.com/dsh/dsh","@type":"Periodical","name":"Digital Scholarship in the Humanities","issn":["2055-768X"]},"url":"http://dx.doi.org/10.1093/llc/fqaa002","inLanguage":"en","copyrightHolder":"EADH: The European Association for Digital Humanities","copyrightYear":"2020","publisher":"Oxford University Press","sameAs":"https://academic.oup.com/dsh/advance-article/doi/10.1093/llc/fqaa002/5775571","author":[{"name":"Aghaebrahimian, Ahmad","affiliation":"Department of Translation Studies , University of Innsbruck,  Austria","@type":"Person"},{"name":"Stauder, Andy","affiliation":"Department of Translation Studies , University of Innsbruck,  Austria","@type":"Person"},{"name":"Ustaszewski, Michael","affiliation":"Department of Translation Studies , University of Innsbruck,  Austria","@type":"Person","sameAs":"http://orcid.org/0000-0002-2000-5920"}],"description":"Abstract.  The extraction of large amounts of multilingual parallel text from web resources is a widely used technique in natural language processing. However, ","pageStart":"fqaa002","pageEnd":"","thumbnailURL":"//oup.silverchair-cdn.com/UI/app/img/generic-cover.png","headline":"Automatically extracted parallel corpora enriched with highly useful metadata? A Wikipedia case study combining machine learning and social technology","image":"//oup.silverchair-cdn.com/UI/app/img/generic-cover.png"}
+    </script>
+    <meta property="og:site_name" content="OUP Academic" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Automatically extracted parallel corpora enriched with highly useful metadata? A Wikipedia case study combining machine learning and social technology" />
+    <meta property="og:description" content="Abstract.  The extraction of large amounts of multilingual parallel text from web resources is a widely used technique in natural language processing. However, " />
+    <meta property="og:url" content="https://academic.oup.com/dsh/advance-article/doi/10.1093/llc/fqaa002/5775571" />
+    <meta property="og:image" content="//oup.silverchair-cdn.com/UI/app/img/generic-cover.png" />
+    <meta property="og:updated_time" content="2020-03-03" />
+<meta name="citation_author" content="Aghaebrahimian, Ahmad" /><meta name="citation_author_institution" content="Department of Translation Studies, University of Innsbruck, Austria" /><meta name="citation_author" content="Stauder, Andy" /><meta name="citation_author_institution" content="Department of Translation Studies, University of Innsbruck, Austria" /><meta name="citation_author" content="Ustaszewski, Michael" /><meta name="citation_author_institution" content="Department of Translation Studies, University of Innsbruck, Austria" /><meta name="citation_title" content="Automatically extracted parallel corpora enriched with highly useful metadata? A Wikipedia case study combining machine learning and social technology" /><meta name="citation_doi" content="10.1093/llc/fqaa002" /><meta name="citation_journal_title" content="Digital Scholarship in the Humanities" /><meta name="citation_journal_abbrev" content="Digital Scholarship Humanities" /><meta name="citation_reference" content="citation_author=Aghaebrahimian  A.; citation_author=Bender  E. M.; citation_author=Derczynski  L.; citation_author=Isabelle  P.; citation_publisher=Association for Computational Linguistics, Santa Fe, New Mexico;  citation_title=Proceedings of the 27th International Conference on Computational Linguistics;  citation_year=2018;  citation_pages=1372-83; " /><meta name="citation_reference" content="citation_author=Babych  B.; citation_author=Su  F.; citation_author=Hartley  A.; citation_author=Skadiņa  I.; citation_author=Gaizauskas  R.; citation_author=Babych  B.; citation_author=Ljubešić  N.; citation_author=Tufiş  D.; citation_author=Vasiļjevs  A.; citation_publisher=Springer International, Cham;  citation_title=Theory and Applications of Natural Language Processing. Using Comparable Corpora for Under-Resourced Areas of Machine Translation;  citation_year=2019;  citation_volume=1866;  citation_pages=13-53; " /><meta name="citation_reference" content="Barbosa L., Rangarajan Sridhar V. K., Yarmohammadi M., Bangalore S. ( 2012 ). Harvesting parallel text in multiple languages with limited supervision. In Kay, M. and Boitet, C. (eds), Proceedings of COLING 2012: Technical Papers. Mumbai: Association for Computational Linguistics, pp. 201–14. https://www.aclweb.org/anthology/C12-1013 (accessed 6 December 2019). " /><meta name="citation_reference" content="Barrón-Cedeño A., España-Bonet C., Boldoba J., Màrquez L. ( 2015 ). A factory of comparable corpora from Wikipedia. In Zweigenbaum, P., Sharoff, S. and Rapp, R. (eds), Proceedings of the Eighth Workshop on Building and Using Comparable Corpora. Beijing: Association for Computational Linguistics, pp. 3–13. https://doi.org/10.18653/v1/W15-3402 (accessed 6 December 2019). " /><meta name="citation_reference" content="citation_author=Bruce  T. R.; citation_author=Hillmann  D. I.; citation_author=Hillmann  D. I.; citation_author=Westbrooks  E. L.; citation_publisher=American Library Association, Chicago;  citation_title=Metadata in Practice;  citation_year=2004;  citation_pages=238-56; " /><meta name="citation_reference" content="citation_author=Chu  C.; citation_author=Dabre  R.; citation_author=Kurohashi  S.; citation_author=Calzolari  N.; citation_author=Choukri  K.; citation_author=Declerck  T.; citation_publisher=European Language Resources Association, Paris;  citation_title=Proceedings of the Tenth International Conference on Language Resources and Evaluation (LREC 2016);  citation_year=2016;  citation_pages=2931-5; " /><meta name="citation_reference" content="citation_author=Enright  J.; citation_author=Kondrak  G.; citation_author=Sidner  C.; citation_author=Schultz  T.; citation_author=Stone  M.; citation_author=Zhai  C.; citation_publisher=Association for Computational Linguistics, Stroudsburg;  citation_title=Human Language Technologies 2007: The Conference of the North American Chapter of the Association for Computational Linguistics; Companion Volume, Short Papers;  citation_year=2007;  citation_pages=29-32; " /><meta name="citation_reference" content="citation_title=An empirical analysis of NMT-derived interlingual embeddings and their use in parallel sentence identification; citation_author=España-Bonet  C.; citation_author=Varga  Á. C.; citation_author=Barrón-Cedeño  A.; citation_author=van Genabith  J.;  citation_journal_title=IEEE Journal of Selected Topics in Signal Processing;  citation_year=2017;  citation_volume=11;  citation_issue=8;  citation_pages=1340-50; " /><meta name="citation_reference" content="citation_title=A portable method for parallel and comparable document alignment; citation_author=Etchegoyhen  T.; citation_author=Azpeitia  A.;  citation_journal_title=Baltic Journal of Modern Computing;  citation_year=2016;  citation_volume=4;  citation_issue=2;  citation_pages=243-55; " /><meta name="citation_reference" content="citation_title=‘Anyone can edit’, not everyone does: Wikipedia’s infrastructure and the gender gap; citation_author=Ford  H.; citation_author=Wajcman  J.;  citation_journal_title=Social Studies of Science;  citation_year=2017;  citation_volume=47;  citation_issue=4;  citation_pages=511-27; " /><meta name="citation_reference" content="Fung P., Cheung P. ( 2004 ). Mining very-non-parallel corpora: parallel sentence and lexicon extraction via bootstrapping and EM. In Proceedings of the 2004 Conference on Empirical Methods in Natural Language Processing: 25-26 July 2004, Barcelona. Barcelona: Association for Computational Linguistics, pp. 57 – 63. " /><meta name="citation_reference" content="citation_author=Gambier  Y.; citation_author=Gambier  Y.; citation_author=van Doorslaer  L.; citation_publisher=John Benjamins, Amsterdam;  citation_title=Handbook of Translation Studies. Handbook of Translation Studies: Volume 1;  citation_year=2010;  citation_volume=1;  citation_pages=412-18; " /><meta name="citation_reference" content="citation_title=Big metadata, smart metadata, and metadata capital: toward greater synergy between data science and metadata; citation_author=Greenberg  J.;  citation_journal_title=Journal of Data and Information Science;  citation_year=2017;  citation_volume=2;  citation_issue=3;  citation_pages=19-36; " /><meta name="citation_reference" content="citation_author=Grégoire  F.; citation_author=Langlais  P.; citation_author=Bender  E. M.; citation_author=Derczynski  L.; citation_author=Isabelle  P.; citation_publisher=Association for Computational Linguistics, Santa Fe, New Mexico;  citation_title=Proceedings of the 27th International Conference on Computational Linguistics;  citation_year=2018;  citation_pages=1442-53; " /><meta name="citation_reference" content="citation_title=Wikipedia, Translation, and the Collaborative Production of Spatial Knowledge; citation_author=Jones  H.;  citation_journal_title=Alif: Journal of Comparative Poetics;  citation_year=2018;  citation_issue=38;  citation_pages=264-97; " /><meta name="citation_reference" content="Joyce E., Pike J. C. ( 2017 ). Too much information: the influence of user self-presentation on success in mass collaboration. In Proceedings of the 23rdAmericas Conference on Information Systems (AMCIS 2017). Boston: Association for Information Systems. http://aisel.aisnet.org/amcis2017/Virtual/Presentations/22. " /><meta name="citation_reference" content="citation_author=Koehn  P.;  citation_year=2005;  citation_pages=79-86; " /><meta name="citation_reference" content="citation_title=The impact of lacking metadata for the measurement of cultural and linguistic change using the Google Ngram data sets—reconstructing the composition of the German corpus in times of WWII; citation_author=Koplenig  A.;  citation_journal_title=Digital Scholarship in the Humanities;  citation_year=2017;  citation_volume=32;  citation_issue=1;  citation_pages=169-88; " /><meta name="citation_reference" content="Labaka G., Alegria I., Sarasola K. ( 2016 ). Domain adaptation in MT using titles in Wikipedia as a parallel corpus: resources and evaluation. In Calzolari, N., Choukri, K., Declerck, T. et al. (eds), Proceedings of the Tenth International Conference on Language Resources and Evaluation (LREC 2016) , Paris: European Language Resources Association, pp. 2209–13. http://www.lrec-conf.org/proceedings/lrec2016/pdf/632_Paper.pdf. " /><meta name="citation_reference" content="Mohammadi M. ( 2016 ). Parallel document identification using Zipf’s law. In Rapp, R., Zweigenbaum, P. and Sharoff, S. (eds), Proceedings of the 9 th Workshop on Building and Using Comparable Corpora , Portorož: Evaluations and Language resources Distribution Agency, pp. 21–5. " /><meta name="citation_reference" content="Morin E., Hazem A., Boudin F., Loginova-Clouet E. ( 2015 ). LINA: identifying comparable documents from Wikipedia. In Zweigenbaum, P., Sharoff, S. and Rapp, R. (eds), Proceedings of the Eighth Workshop on Building and Using Comparable Corpora , Beijing: Association for Computational Linguistics, pp. 88–91. https://doi.org/10.18653/v1/W15-3413. " /><meta name="citation_reference" content="citation_title=Massively open translation: unpacking the relationship between technology and translation in the 21st century; citation_author=O’Hagan  M.;  citation_journal_title=International Journal of Communication;  citation_year=2016;  citation_volume=10;  citation_pages=929-46; " /><meta name="citation_reference" content="Patry A., Langlais P. ( 2011 ). Identifying parallel documents from a large bilingual collection of texts: application to parallel article extraction in Wikipedia. In Zweigenbaum, P., Rapp, R. and Sharoff, S. (eds), Proceedings of the 4 th Workshop on Building and Using Comparable Corpora: Comparable Corpora and the Web , Portland: Association for Computational Linguistics, pp. 87 – 95. https://www.aclweb.org/anthology/W11-1212. " /><meta name="citation_reference" content="citation_author=Sharoff  S.; citation_author=Rapp  R.; citation_author=Zweigenbaum  P.; citation_author=Sharoff  S.; citation_author=Rapp  R.; citation_author=Zweigenbaum  P.; citation_author=Fung  P.; citation_publisher=Springer, Berlin, Heidelberg;  citation_title=Building and Using Comparable Corpora;  citation_year=2013;  citation_pages=1-17; " /><meta name="citation_reference" content="citation_title=Locating foci of translation on Wikipedia; citation_author=Shuttleworth  M.;  citation_journal_title=Translation Spaces;  citation_year=2017;  citation_volume=6;  citation_issue=2;  citation_pages=310-32; " /><meta name="citation_reference" content="citation_title=Translation and the production of knowledge in Wikipedia: chronicling the assassination of Boris Nemtsov; citation_author=Shuttleworth  M.;  citation_journal_title=Alif: Journal of Comparative Poetics;  citation_year=2018;  citation_issue=38;  citation_pages=231-63; " /><meta name="citation_reference" content="citation_author=Skadiņa  I.; citation_author=Gaizauskas  R.; citation_author=Vasiļjevs  A.; citation_author=Paramita  M. L.; citation_author=Skadiņa  I.; citation_author=Gaizauskas  R.; citation_author=Babych  B.; citation_author=Ljubešić  N.; citation_author=Tufiş  D.; citation_author=Vasiļjevs  A.; citation_publisher=Springer International, Cham;  citation_title=Theory and Applications of Natural Language Processing. Using Comparable Corpora for Under-Resourced Areas of Machine Translation;  citation_year=2019;  citation_volume=1866;  citation_pages=1-11; " /><meta name="citation_reference" content="Smith J. R., Quirk C., Toutanova K. ( 2010 ). Extracting parallel sentences from comparable corpora using document level alignment. In Kaplan, R., Burstein, J., Harper, M. and Penn, G. (eds), Human Language Technologies: The 2010 Annual Conference of the North American Chapter of the Association for Computational Linguistics. Los Angeles: Association for Computational Linguistics, pp. 403–11. https://www.aclweb.org/anthology/N10-1063. " /><meta name="citation_reference" content="Tiedemann J. ( 2011 ). Bitext Alignment. Morgan and Claypool. https://doi.org/10.2200/S00367ED1V01Y201106HLT014. " /><meta name="citation_reference" content="Ture F., Lin J. ( 2012 ). Why not grab a free lunch? mining large corpora for parallel sentences to improve translation modeling. In Fosler-Lussier, E., Riloff, E. and Bangalore, S. (eds), In Proceedings of the 2012 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies. Stroudsburg: Association for Computational Linguistics, pp. 626–30. https://www.aclweb.org/anthology/N12-1079. " /><meta name="citation_reference" content="Ustaszewski M., Stauder A. ( 2017 ). TransBank: Metadata as the missing link between NLP and traditional translation studies. In Temnikova, I., Orasan, C., Corpas Pastor, G. and Vogel, S. (eds), In Proceedings of the First Workshop on Human-Informed Translation and Interpreting Technology , pp. 29–35. https://doi.org/10.26615/978-954-452-042-7_004. " /><meta name="citation_reference" content="Wiggins A., Newman G., Stevenson R.D., Crowston K. ( 2011 ). Mechanisms for data quality and validation in citizen science. 2011 IEEE 7th International Conference on e-Science Workshops , pp. 14–19. https://doi.org/10.1109/eScienceW.2011.27. " /><meta name="citation_reference" content="Wikipedia. ( 2019 ). Wikipedia: Translation. https://en.wikipedia.org/w/index.php?title=Wikipedia:Translation&amp;oldid=888728057 (accessed 24 June 2019 ). " /><meta name="citation_reference" content="citation_title=The FAIR guiding principles for scientific data management and stewardship; citation_author=Wilkinson  M. D.; citation_author=Dumontier  M.; citation_author=Aalbersberg  I. J. J. et al.;  citation_journal_title=Scientific Data;  citation_year=2016;  citation_volume=3;  citation_pages=160018" /><meta name="citation_reference" content="citation_author=Zanettin  F.; citation_publisher=St. Jerome, Manchester, UK; Kinderhook, NY;  citation_title=Translation-driven Corpora. Corpus Resources for Descriptive and Applied Translation Studies;  citation_year=2012; " /><meta name="citation_pdf_url" content="https://academic.oup.com/dsh/advance-article-pdf/doi/10.1093/llc/fqaa002/32761699/fqaa002.pdf" /><meta name="description" content="Abstract.  The extraction of large amounts of multilingual parallel text from web resources is a widely used technique in natural language processing. However, " /><meta name="citation_xml_url" content="https://academic.oup.com/dsh/advance-article-xml/doi/10.1093/llc/fqaa002/5775571" />
+
+
+
+    <link rel="canonical" href="https://academic.oup.com/dsh/dsh/advance-article-abstract/doi/10.1093/llc/fqaa002/5775571" />
+
+
+
+
+
+
+
+    
+    
+
+
+<script async="async" src="https://www.googletagservices.com/tag/js/gpt.js"></script>
+<script>
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+</script>
+    
+        <script type='text/javascript'>
+            var gptAdSlots = [];
+            googletag.cmd.push(function() {
+                    
+                    var mapping_ad1 = googletag.sizeMapping()
+                        .addSize([1024, 0], [[970, 90], [728, 90]])
+                        .addSize([768, 0], [728, 90])
+                        .addSize([0, 0], [320, 50])
+                        .build();
+                    gptAdSlots["ad1"] = googletag.defineSlot('/116097782/dsh_InFront_Ad1',
+                            [[970, 90], [728, 90], [320, 50]], 'adBlockHeader')
+                        .defineSizeMapping(mapping_ad1)
+                        .addService(googletag.pubads());
+                    
+
+                    
+                    var mapping_ad2 = googletag.sizeMapping()
+                        .addSize([768, 0], [[300, 250], [300, 600], [160, 600]])
+                        .build();
+                    gptAdSlots["ad2"] = googletag.defineSlot('/116097782/dsh_InFront_Ad2',
+                            [[300, 250], [160, 600], [300, 600]], 'adBlockMainBodyTop')
+                        .defineSizeMapping(mapping_ad2)
+                        .addService(googletag.pubads());
+                    
+
+                    
+                    var mapping_ad3 = googletag.sizeMapping()
+                        .addSize([768, 0], [[300, 250], [300, 600], [160, 600]])
+                        .build();
+                    gptAdSlots["ad3"] = googletag.defineSlot('/116097782/dsh_InFront_Ad3',
+                        [[300, 250], [160, 600], [300, 600]], 'adBlockMainBodyBottom')
+                        .defineSizeMapping(mapping_ad3)
+                        .addService(googletag.pubads());
+                    
+
+                    
+                var mapping_ad4 = googletag.sizeMapping()
+                        .addSize([0,0], [728, 90])
+                        .addSize([768, 0], [728, 90])
+                        .build();
+                    gptAdSlots["ad4"] = googletag.defineSlot('/116097782/dsh_InFront_Ad4',
+                        [728, 90], 'adBlockFooter')
+                        .defineSizeMapping(mapping_ad4)
+                        .addService(googletag.pubads());
+                    
+
+                googletag.pubads().addEventListener('slotRenderEnded', function (event) {
+;                    if (!event.isEmpty) {
+                        $('.js-' + event.slot.getSlotElementId()).each(function () {
+                            if ($(this).find('iframe').length) {
+                                $(this).removeClass('hide');
+                            }
+                        });
+                    }
+                });
+
+                googletag.pubads().setTargeting("jnlspage", "advance-article-abstract");
+                googletag.pubads().setTargeting("jnlsurl", "dsh/advance-article-abstract/doi/10.1093/llc/fqaa002/5775571");
+                googletag.pubads().enableSingleRequest();
+                googletag.pubads().collapseEmptyDivs();
+            });
+        </script>
+    
+
+
+    
+
+
+    
+
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    <script>
+        var oupcookiepolicy_siteid = "journals";        // the website id
+        var oupcookiepolicy_messagetype = 'implied';                        // type of alert message e.g, implied / explicit
+        var oupcookiepolicy_preferredlanguage = "en";      // preferred language of the website
+        var oupcookiepolicy_impliedmessageclass = 'cookiepolicyimplied';    // the css class for implied alert message
+        var oupcookiepolicy_documentroot = '/';	  			                // the document root the cookie is set to
+    </script>
+    <noscript>We use cookies to enhance your experience on our website.By continuing to use our website, you are agreeing to our use of cookies. You can change your cookie settings at any time. <a href="https://global.oup.com/cookiepolicy/"> Find out more</a></noscript>
+    <script type="text/javascript">
+        var NTPT_PGEXTRA= 'event_type=Login-full-text&supplier_tag=SC_Journals&object_type=Article&siteid=dsh&authentication_method=IP&authzrequired=true&account_id=2742389&authnips=198.20.191.243&turnaway_id=SUB_NONE&doi=10.1093/llc/fqaa002';
+    </script>
+
+
+
+
+    <script src="https://scholar.google.com/scholar_js/casa.js" async></script>
+
+
+</head>
+
+<body data-sitename="digitalscholarshipinthehumanities" class="off-canvas pg_Article pg_article  " theme-dsh data-sitestyletemplate="Journal" >
+    
+        <noscript>
+            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W6DD7HV"
+                    height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
+        <a href="#skipNav" class="skipnav">Skip to Main Content</a>
+<input id="hdnSiteID" name="hdnSiteID" type="hidden" value="5447" /><input id="hdnAdDelaySeconds" name="hdnAdDelaySeconds" type="hidden" value="5000" /><input id="hdnAdConfigurationTop" name="hdnAdConfigurationTop" type="hidden" value="default" /><input id="hdnAdConfigurationRightRail" name="hdnAdConfigurationRightRail" type="hidden" value="sticky" />
+    
+
+
+
+
+
+
+<div class="master-container js-master-container">
+    <section class="master-header row js-master-header vt-site-page-header">
+    <div class="widget widget-SitePageHeader widget-instance-SitePageHeader">
+        
+    <div class="ad-banner js-ad-banner-header">
+    <div class="widget widget-AdBlock widget-instance-HeaderAd">
+        
+
+<div class="adBlockHeader-wrap js-adBlockHeader hide">
+    
+    <div id="adBlockHeader"
+         style=" ">
+        <script>
+            googletag.cmd.push(function () { googletag.display('adBlockHeader'); });
+        </script>
+    </div>
+        <div class="advertisement-text">Advertisement</div>
+</div> 
+    </div>
+
+    </div>
+
+    <div class="oup-header ">
+        <div class="center-inner-row">
+            <div class="oup-header-logo">
+                <a href="/">
+                    <img src="//oup.silverchair-cdn.com/UI/app/svg/umbrella/oxford-academic-logo.svg" alt="Oxford University Press" class="oup-header-image" />
+                </a>
+            </div>
+
+            <ul class="oup-header-menu account-menu">
+
+                
+                <li class="oup-header-menu-item mobile">
+                    <a href="javascript:;" class="mobile-dropdown-toggle mobile-search-toggle">
+                        <i class="icon-menu_search"><span class="screenreader-text">Search Menu</span></i>
+                    </a>
+                </li>
+
+                
+                <li class="oup-header-menu-item mobile">
+                        <a href="javascript:;" class="mobile-dropdown-toggle mobile-account-toggle">
+                            <i class="icon-menu_account"><span class="screenreader-text">Account Menu</span></i>
+                        </a>
+                </li>
+
+                
+                <li class="oup-header-menu-item mobile">
+                    <a href="javascript:;" class="mobile-dropdown-toggle mobile-nav-toggle">
+                        <i class="icon-menu_hamburger"><span class="screenreader-text">Menu</span></i>
+                    </a>
+                </li>
+
+                
+                    <li class="oup-header-menu-item desktop">
+                        
+                            <a href="" class="dropdown-toggle institution">Centre College <i class="icon-general-arrow-filled-down arrow-icon"></i></a>
+                        <div class="dropdown-panel dropdown-panel-institution">
+                            
+                            <div class="dropdown-menu">
+                                <ul>
+
+                                        <li class="dropdown-institution-item">
+
+Centre College
+                                        </li>
+
+                                </ul>
+
+                            </div>
+                        </div>
+                    </li>                <li class="oup-header-menu-item desktop">
+                        <a href="" class="dropdown-toggle signin js-header-account-info-user-fullname" id="header-account-info-user-fullname-desktop">
+Sign In                            <i class="icon-general-arrow-filled-down arrow-icon"></i>
+                        </a>
+                        <div class="dropdown-panel dropdown-panel-signin dropdown-panel-form">
+                            <div class="spinner"></div>
+                        </div>
+                </li>
+
+                
+                    <li class="oup-header-menu-item desktop"><a href="/my-account/register?siteId=5447&amp;returnUrl=%2fdsh%2fadvance-article-abstract%2fdoi%2f10.1093%2fllc%2ffqaa002%2f5775571%3fredirectedFrom%3dfulltext" class="register">Register</a></li>
+                
+            </ul>
+
+            <div class="login-box-placeholder js-login-box-placeholder hide">
+                <div class="spinner"></div>
+            </div>
+        </div>
+    </div>
+<div class="dropdown-panel-wrap">
+
+    
+    <div class="dropdown-panel mobile-search-dropdown">
+        <div class="mobile-search-inner-wrap">
+                <div class="navbar-search">
+                    <div id="MobileMicrositeSearch" class="mobile-microsite-search">
+                        <label for="mobile-navbar-search-filter" class="screenreader-text">Navbar Search Filter</label>
+                        <select class="navbar-search-filter" id="mobile-navbar-search-filter">
+                                                            <optgroup label="Search within this journal">
+<option class="header-search-bar-filters-item" value="">All  Digital Scholarship in the Humanities</option>
+                                </optgroup>
+                                <optgroup label="Search beyond this journal">
+<option class="header-search-bar-filters-item" value="Journals">All  Journals</option>                                </optgroup>
+                        </select>
+
+
+
+
+
+                        <label for="MobileMicrositeSearchTerm" class="screenreader-text">Mobile Microsite Search Term</label>
+                        <input class="mobile-search-input mobile-microsite-search-term" type="text" maxlength="255" placeholder="Search" id="MobileMicrositeSearchTerm">
+
+                        <a href="javascript:;" id="MobileMicrositeSearchIcon" class="mobile-microsite-search-icon mobile-search-submit icon-menu_search"><span class="screenreader-text">Search</span></a>
+
+                    </div>
+                </div>        </div>
+    </div>
+    
+    <div class="dropdown-panel mobile-account-dropdown">
+        <ul class="site-menu site-menu-lvl-0">
+            <li class="site-menu-item site-menu-lvl-0">
+                <a href="" class="nav-link mobile-account-signin dummy-link js-header-account-info-user-fullname" id="header-account-info-user-fullname-mobile">
+                    
+Sign In                    <i class="mobile-nav-arrow icon-general_arrow-down"></i>
+                </a>
+                <ul class="site-menu site-menu-lvl-1 individual-menu">
+                    <li class="dropdown-signin-form">
+                        <div class="spinner"></div>
+                    </li>
+                </ul>
+            </li>
+                <li class="site-menu-item site-menu-lvl-0">
+                        <a href="javascript:;" class="nav-link mobile-account-institution dummy-link">
+                            Centre College
+                        </a>
+
+                    <i class="mobile-nav-arrow icon-general_arrow-down"></i>
+                    <ul class="site-menu site-menu-lvl-1">
+                            <li class="dropdown-institution-item">
+
+Centre College
+                            </li>
+
+                        <li class="dropdown-institution-signout">
+                        </li>
+                    </ul>
+                </li>
+                            <li class="site-menu-item">
+                    <a href="/my-account/register?siteId=5447&amp;returnUrl=%2fdsh%2fadvance-article-abstract%2fdoi%2f10.1093%2fllc%2ffqaa002%2f5775571%3fredirectedFrom%3dfulltext" class="register nav-link">Register</a>
+                </li>
+        </ul>
+    </div>
+    
+    <div class="dropdown-panel mobile-nav-dropdown">
+
+
+    <i class="desktop-nav-arrow icon-general-arrow-filled-down arrow-icon"></i><i class="mobile-nav-arrow icon-general_arrow-down"></i>
+    <ul class="site-menu site-menu-lvl-0">
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426198">
+                <a href="/dsh/issue" class="nav-link ">Issues</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426199">
+                <a href="/dsh/advance-articles" class="nav-link ">Advance articles</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426196">
+                <a href="/dsh/#" class="nav-link dummy-link">Submit</a>
+                    <i class="desktop-nav-arrow icon-general-arrow-filled-down arrow-icon"></i><i class="mobile-nav-arrow icon-general_arrow-down"></i>
+    <ul class="site-menu site-menu-lvl-1">
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426200">
+                <a href="/dsh/pages/General_Instructions" class="nav-link ">Author Guidelines</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426201">
+                <a href="http://mc.manuscriptcentral.com/dsh" class="nav-link ">Submission Site</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426202">
+                <a href="/dsh/pages/General_Instructions" class="nav-link ">Open Access</a>
+                
+            </li>
+    </ul>
+
+            </li>
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426203">
+                <a href="/dsh/subscribe" class="nav-link ">Purchase</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426204">
+                <a href="/my-account/email-alerts" class="nav-link ">Alerts</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426197">
+                <a href="/dsh/#" class="nav-link dummy-link">About</a>
+                    <i class="desktop-nav-arrow icon-general-arrow-filled-down arrow-icon"></i><i class="mobile-nav-arrow icon-general_arrow-down"></i>
+    <ul class="site-menu site-menu-lvl-1">
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426205">
+                <a href="/dsh/pages/About" class="nav-link ">About Digital Scholarship in the Humanities</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426206">
+                <a href="http://eadh.org/about" class="nav-link ">About the European Association for Digital Humanities</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426207">
+                <a href="http://adho.org/about" class="nav-link ">About the Alliance of Digital Humanities Organizations</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426208">
+                <a href="/dsh/pages/Editorial_Board" class="nav-link ">Editorial Board</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426209">
+                <a href="http://www.oupmediainfo.com/" class="nav-link ">Advertising and Corporate Services</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426210">
+                <a href="https://globaljobs-careernetwork.oxfordjournals.org/" class="nav-link ">Journals Career Network</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426211">
+                <a href="https://academic.oup.com/journals/pages/access_purchase/rights_and_permissions/self_archiving_policy_f" class="nav-link ">Self-Archiving Policy</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426212">
+                <a href="http://www.oxfordjournals.org/en/access-purchase/dispatch-dates.html" class="nav-link ">Dispatch Dates</a>
+                
+            </li>
+    </ul>
+
+            </li>
+    </ul>
+    </div>
+
+</div>
+
+
+    <div class="journal-header journal-bg">
+        <div class="center-inner-row">
+                            <a href="/dsh" class="journal-logo-container">
+                    <img id="logo-DigitalScholarshipintheHumanities" class="journal-logo" src="//oup.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/dsh/dsh_title242156087.svg" alt="Digital Scholarship in the Humanities" />
+                </a>
+
+            <div class="society-logo-block">
+                    <div class="society-block-inner-wrap">
+                            <a href="http://eadh.org/" target="" class="society-logo-container">
+                                <img id="logo-EuropeanAssociationforDigitalHumanities" class="society-logo" src="//oup.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/dsh/dsh_h1-1114140978.png" alt="European Association for Digital Humanities" />
+                            </a>
+                                                    <a href="http://adho.org/" target="" class="society-logo-container">
+                                <img id="logo-AllianceofDigitalHumanitiesOrganizations" class="society-logo" src="//oup.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/dsh/dsh_h2-398941868.png" alt="Alliance of Digital Humanities Organizations" />
+                            </a>
+                    </div>            </div> 
+        </div>
+    </div>
+<div class="navbar">
+    <div class="center-inner-row">
+        <nav class="navbar-menu">
+
+
+    <i class="desktop-nav-arrow icon-general-arrow-filled-down arrow-icon"></i><i class="mobile-nav-arrow icon-general_arrow-down"></i>
+    <ul class="site-menu site-menu-lvl-0">
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426198">
+                <a href="/dsh/issue" class="nav-link ">Issues</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426199">
+                <a href="/dsh/advance-articles" class="nav-link ">Advance articles</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426196">
+                <a href="/dsh/#" class="nav-link dummy-link">Submit</a>
+                    <i class="desktop-nav-arrow icon-general-arrow-filled-down arrow-icon"></i><i class="mobile-nav-arrow icon-general_arrow-down"></i>
+    <ul class="site-menu site-menu-lvl-1">
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426200">
+                <a href="/dsh/pages/General_Instructions" class="nav-link ">Author Guidelines</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426201">
+                <a href="http://mc.manuscriptcentral.com/dsh" class="nav-link ">Submission Site</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426202">
+                <a href="/dsh/pages/General_Instructions" class="nav-link ">Open Access</a>
+                
+            </li>
+    </ul>
+
+            </li>
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426203">
+                <a href="/dsh/subscribe" class="nav-link ">Purchase</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426204">
+                <a href="/my-account/email-alerts" class="nav-link ">Alerts</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426197">
+                <a href="/dsh/#" class="nav-link dummy-link">About</a>
+                    <i class="desktop-nav-arrow icon-general-arrow-filled-down arrow-icon"></i><i class="mobile-nav-arrow icon-general_arrow-down"></i>
+    <ul class="site-menu site-menu-lvl-1">
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426205">
+                <a href="/dsh/pages/About" class="nav-link ">About Digital Scholarship in the Humanities</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426206">
+                <a href="http://eadh.org/about" class="nav-link ">About the European Association for Digital Humanities</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426207">
+                <a href="http://adho.org/about" class="nav-link ">About the Alliance of Digital Humanities Organizations</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426208">
+                <a href="/dsh/pages/Editorial_Board" class="nav-link ">Editorial Board</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426209">
+                <a href="http://www.oupmediainfo.com/" class="nav-link ">Advertising and Corporate Services</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426210">
+                <a href="https://globaljobs-careernetwork.oxfordjournals.org/" class="nav-link ">Journals Career Network</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426211">
+                <a href="https://academic.oup.com/journals/pages/access_purchase/rights_and_permissions/self_archiving_policy_f" class="nav-link ">Self-Archiving Policy</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426212">
+                <a href="http://www.oxfordjournals.org/en/access-purchase/dispatch-dates.html" class="nav-link ">Dispatch Dates</a>
+                
+            </li>
+    </ul>
+
+            </li>
+    </ul>
+        </nav>
+            <div class="navbar-search-container js-navbar-search-container">
+                <a href="javascript:;" class="navbar-search-close js_close-navsearch">Close</a>
+                    <div class="navbar-search">
+                        <div id="MicrositeSearch" class="microsite-search">
+                            <label for="navbar-search-filter" class="screenreader-text">search filter</label>
+                            <select class="navbar-search-filter" id="navbar-search-filter">
+                                                                    <optgroup label="Search within this journal">
+                                                <option class="header-search-bar-filters-item" value="" selected=&quot;selected&quot;>All  Digital Scholarship in the Humanities</option>
+
+                                    </optgroup>
+                                    <optgroup label="Search beyond this journal">
+                                                <option class="header-search-bar-filters-item" value="Journals" >All  Journals</option>
+                                    </optgroup>
+                            </select>
+
+                            <label for="MicrositeSearchTerm" class="screenreader-text">search input</label>
+                            <input class="navbar-search-input microsite-search-term" type="text" maxlength="255" id="MicrositeSearchTerm" title="search input">
+
+                            <a href="javascript:;" id="MicrositeSearchIcon" class="microsite-search-icon navbar-search-submit icon-menu_search"><span class="screenreader-text">Search</span></a>
+
+                        </div>
+                    </div>                <div class="navbar-search-advanced"><a href="/dsh/advanced-search" class="advanced-search js-advanced-search">Advanced Search</a></div>
+            </div>            <div class="navbar-search-collapsed"><a href="javascript:;" class="icon-menu_search js_expand-navsearch"><span class="screenreader-text">Search Menu</span></a></div>
+    </div>
+</div>
+
+<input id="hfEnableOupOnlineProductsFeatures" name="hfEnableOupOnlineProductsFeatures" type="hidden" value="False" />
+
+    <input type="hidden" name="searchScope" id="hfSolrJournalID" value="" />
+    <input type="hidden" id="hfSolrJournalName" value="" />
+    <input type="hidden" id="hfSolrMaxAllowSearchChar" value="100" />
+    <input type="hidden" id="hfJournalShortName" value="" />
+    <input type="hidden" id="hfSearchPlaceholder" value="" />
+    <input type="hidden" name="hfGlobalSearchSiteURL" id="hfGlobalSearchSiteURL" value="" />
+        <input type="hidden" name="parentSiteName" id="hfParentSiteName" value="Journals" />
+        <input type="hidden" name="parentSiteUrl" id="hfParentSiteUrl" value="academic.oup.com/journals" />
+        <input type="hidden" name="siteID" id="hfSiteID" value="5447" />
+        <input type="hidden" name="parentSiteID" id="hfParentSiteID" value="5567" />
+        <input type="hidden" name="journalSiteScope" id="hfJournalSiteScope" value="Journals" />
+        <input type="hidden" name="parentSiteScope" id="hfParentSiteScope" value="Parent" />
+        <input type="hidden" name="defaultSearchURL" id="hfDefaultSearchURL" value="search-results?page=1&amp;q=" />
+        <input type="hidden" name="issueSearch" id="hfIssueSearch" value="" />
+        <input type="hidden" name="issueSiteScope" id="hfIssueSiteScope" value="Issue" />
+<input id="hfDefaultAdvancedSearchUrl" name="hfDefaultAdvancedSearchUrl" type="hidden" value="advanced-search?page=1&amp;q=" />    <input type="hidden" name="hfSearchSiteURL" id="hfSiteURL" value="academic.oup.com/dsh" />
+    <script type="text/javascript">
+        (function () {
+            var hfSiteUrl = document.getElementById('hfSiteURL');
+            var siteUrl = hfSiteUrl.value;
+            var subdomainIndex = siteUrl.indexOf('/');
+
+            hfSiteUrl.value = location.host + (subdomainIndex >= 0 ? siteUrl.substring(subdomainIndex) : '');
+        })();
+    </script>
+<input id="routename" name="RouteName" type="hidden" value="dsh" /> 
+    </div>
+
+</section>
+
+    <div id="main" class="content-main js-main ui-base">
+        <section class="master-main row">
+            <div class="center-inner-row no-overflow">
+                <a href="#" id="skipNav" class="screenreader-text" tabindex="-1">Skip Nav Destination</a>
+                
+
+
+<div class="page-column-wrap">
+<div id="InfoColumn" class="page-column page-column--left js-left-nav-col">
+    <div class="mobile-content-topbar hide">
+        <button class="toggle-left-col toggle-left-col__article">Article Navigation</button>
+    </div>
+    <div class="info-inner-wrap js-left-nav">
+        <button class="toggle-left-col__close btn-as-icon icon-general-close">
+            <span class="screenreader-text">Close mobile search navigation</span>
+        </button>
+        <div class="responsive-nav-title">Article Navigation</div>
+        <div class="info-widget-wrap">
+
+            <div class="content-nav">
+
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="sticky-toolbar js-sticky-toolbar"></div>
+<div id="ContentColumn" class="page-column page-column--center">
+    <div class="article-browse-top article-browse-mobile-nav js-mobile-nav">
+        <div class="article-browse-mobile-nav-inner js-mobile-nav-inner">
+            <button class="toggle-left-col toggle-left-col__article btn-as-link">
+                Article Navigation
+            </button>
+        </div>
+    </div>
+    <div class="content-inner-wrap">
+    <div class="widget widget-ArticleTopInfo widget-instance-OUP_Abstract_ArticleTop_Info_Widget">
+        <div class="module-widget article-top-widget">
+
+    
+
+    
+        <div class="access-state-logos all-viewports">
+                        <span class="article-pubstate article-flag"></span>
+            </div>
+
+
+    <div class="widget-items">
+                <h1 class="wi-article-title article-title-main">
+                    Automatically extracted parallel corpora enriched with highly useful metadata? A Wikipedia case study combining machine learning and social technology
+<i class='' title='' ></i>                </h1>
+                <div class="wi-authors">
+                    <div class="al-authors-list">
+                                <span class="al-author-name-more js-flyout-wrap">
+
+
+
+
+                                    <a class="linked-name js-linked-name-trigger" href="javascript:;">Ahmad Aghaebrahimian</a><span class='delimiter'>, </span>
+
+                                    <span class="al-author-info-wrap arrow-up">
+<div id="authorInfo_OUP_Abstract_ArticleTop_Info_Widget" class="info-card-author authorInfo_OUP_Abstract_ArticleTop_Info_Widget">
+    <div class="name-role-wrap">
+        <div class="info-card-name">
+    Ahmad Aghaebrahimian
+</div>
+
+    </div>
+
+    <div class="info-card-affilitation">
+        <div class="aff"><div class="institution">Department of Translation Studies</div>, University of Innsbruck, <div class="country">Austria</div></div>
+    </div>
+
+    <div class="info-card-search-label">
+        Search for other works by this author on:
+    </div>
+
+<div class="info-card-search info-card-search-internal">
+    <a href="/dsh/search-results?f_Authors=Ahmad+Aghaebrahimian">Oxford Academic</a>
+</div>
+
+    <div class="info-card-search info-card-search-google">
+        <a href="http://scholar.google.com/scholar?q=author:%22Aghaebrahimian Ahmad%22">Google Scholar</a>
+    </div>
+</div>                                    </span>
+                                </span>
+                                <span class="al-author-name-more js-flyout-wrap">
+
+
+
+
+                                    <a class="linked-name js-linked-name-trigger" href="javascript:;">Andy Stauder</a><span class='delimiter'>, </span>
+
+                                    <span class="al-author-info-wrap arrow-up">
+<div id="authorInfo_OUP_Abstract_ArticleTop_Info_Widget" class="info-card-author authorInfo_OUP_Abstract_ArticleTop_Info_Widget">
+    <div class="name-role-wrap">
+        <div class="info-card-name">
+    Andy Stauder
+</div>
+
+    </div>
+
+    <div class="info-card-affilitation">
+        <div class="aff"><div class="institution">Department of Translation Studies</div>, University of Innsbruck, <div class="country">Austria</div></div>
+    </div>
+
+    <div class="info-card-search-label">
+        Search for other works by this author on:
+    </div>
+
+<div class="info-card-search info-card-search-internal">
+    <a href="/dsh/search-results?f_Authors=Andy+Stauder">Oxford Academic</a>
+</div>
+
+    <div class="info-card-search info-card-search-google">
+        <a href="http://scholar.google.com/scholar?q=author:%22Stauder Andy%22">Google Scholar</a>
+    </div>
+</div>                                    </span>
+                                </span>
+                                <span class="al-author-name-more js-flyout-wrap">
+
+
+
+
+                                    <a class="linked-name js-linked-name-trigger" href="javascript:;">Michael Ustaszewski</a><span class='delimiter'></span>
+
+                                    <span class="al-author-info-wrap arrow-up">
+<div id="authorInfo_OUP_Abstract_ArticleTop_Info_Widget" class="info-card-author authorInfo_OUP_Abstract_ArticleTop_Info_Widget">
+    <div class="name-role-wrap">
+        <div class="info-card-name">
+    Michael Ustaszewski
+            <span class="info-card-footnote"><span class="xrefLink" id="jumplink-fqaa002-cor1"></span><a href="javascript:;" reveal-id="fqaa002-cor1" data-open="fqaa002-cor1" class="link link-ref link-reveal xref-default"><!----></a></span>
+</div>
+
+    </div>
+
+    <div class="info-card-affilitation">
+        <div class="aff"><div class="institution">Department of Translation Studies</div>, University of Innsbruck, <div class="country">Austria</div></div>
+    </div>
+
+    <div class="info-author-correspondence">
+        <strong>Correspondence</strong>: Michael Ustaszewski, Institut für Translationswissenschaft, Universität Innsbruck, Herzog-Siegmund-Ufer 15, A-6020 Innsbruck, Austria. <strong>E-mail</strong>: <a href="mailto:michael.ustaszewski@uibk.ac.at" target="_blank">michael.ustaszewski@uibk.ac.at</a>
+    </div>
+    <div class="info-card-location">
+        <a id="contrib-orcid-0000-0002-2000-5920" href="https://orcid.org/0000-0002-2000-5920">
+            <img class="orchid-icon" alt="OrcId icon" aria-hidden="true" src="//oup.silverchair-cdn.com/Themes/Silver/app/img/mini-icon.png"/>&nbsp;&nbsp;https://orcid.org/0000-0002-2000-5920
+        </a>
+    </div>
+    <div class="info-card-search-label">
+        Search for other works by this author on:
+    </div>
+
+<div class="info-card-search info-card-search-internal">
+    <a href="/dsh/search-results?f_Authors=Michael+Ustaszewski">Oxford Academic</a>
+</div>
+
+    <div class="info-card-search info-card-search-google">
+        <a href="http://scholar.google.com/scholar?q=author:%22Ustaszewski Michael%22">Google Scholar</a>
+    </div>
+</div>                                    </span>
+                                </span>
+
+                    </div>
+                </div>
+<div class="pub-history-wrap clearfix">
+
+        <div class="pub-history-row clearfix">
+            <div class="ww-citation-primary"><em>Digital Scholarship in the Humanities</em>, fqaa002, <a href='https://doi.org/10.1093/llc/fqaa002'>https://doi.org/10.1093/llc/fqaa002</a></div>
+        </div>
+        <div class="pub-history-row clearfix">
+            <div class="ww-citation-date-wrap">
+                <div class="citation-label">Published:</div>
+                <div class="citation-date">03 March 2020</div>
+            </div>
+                <a href="javascript:;" class="ww-citation-history-wrap js-article-history st-article-history">
+                    <span>Article history</span><i class="icon-general-arrow-filled-down arrow-icon"></i>
+                </a>
+        </div>
+            <div class="history-entries-wrap js-history-entries-wrap">
+                <div class="history-entry">
+                    <div class="wi-state">Received:</div>
+                    <div class="wi-date">25 June 2019</div>
+                </div>
+                <div class="history-entry">
+                    <div class="wi-state">Revision received:</div>
+                    <div class="wi-date">12 December 2019</div>
+                </div>
+                <div class="history-entry">
+                    <div class="wi-state">Accepted:</div>
+                    <div class="wi-date">23 January 2020</div>
+                </div>
+                <div class="history-entry">
+                    <div class="wi-state">Published:</div>
+                    <div class="wi-date">03 March 2020</div>
+                </div>
+        </div>
+</div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $('.article-top-widget').on('click', '.ati-toggle-trigger', function () {
+            $(this).find('.icon-general-add, .icon-minus').toggleClass('icon-minus icon-general-add');
+            $(this).siblings('.ati-toggle-content').toggleClass('hide');
+        });
+
+        // In Chrome, an anchor tag with target="_blank" and a "mailto:" href opens a new tab/window as well as the email client
+        // I suspect this behavior will be corrected in the future
+        // Remove the target="_blank"
+        $('ul.wi-affiliationList').find('a[href^="mailto:"]').each(function () {
+            $(this).removeAttr('target');
+        });
+    });
+</script>
+
+ 
+    </div>
+    <div class="widget widget-ArticleLinks widget-instance-OUP_Article_Links_Widget">
+         
+    </div>
+
+
+        <div class="article-body js-content-body">
+            <div class="toolbar-wrap js-toolbar-wrap">
+                <div class="toolbar-inner-wrap">
+                    <ul id="Toolbar" role="navigation">
+                                                <li class="toolbar-item item-with-dropdown item-views">
+                            <a class="at-views-dropdown drop-trigger" href="javascript:;" data-dropdown="FilterDrop" aria-haspopup="true">
+                                <i class="icon-menu_views"></i>
+                                <div class="toolbar-label">
+                                    <div class="toolbar-text">Views</div>
+                                    <i class="icon-general-arrow-filled-down arrow-icon"></i>
+                                </div>
+                            </a>
+                            <ul id="ViewsDrop" class="f-dropdown" data-dropdown-content aria-label="submenu">
+                                <div class="arrow-up"></div>
+                                <li class="article-content-filter js-article-content-filter" data-content-filter="article-content">
+                                    <a href="javascript:;"><span>Article contents</span></a>
+                                </li>
+                                <li class="at-figures-tables article-content-filter js-article-content-filter" data-content-filter="figures-tables">
+                                    <a href="javascript:;"><span>Figures &amp; tables</span></a>
+                                </li>
+                                <li class="article-content-filter js-article-content-filter" data-content-filter="video">
+                                    <a href="javascript:;"><span>Video</span></a>
+                                </li>
+                                <li class="article-content-filter js-article-content-filter" data-content-filter="audio">
+                                    <a href="javascript:;"><span>Audio</span></a>
+                                </li>
+                                <li class="article-content-filter js-article-content-filter" data-content-filter="supplementary-data">
+                                    <a href="javascript:;"><span>Supplementary Data</span></a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="toolbar-item">
+    <div class="widget widget-ToolboxGetCitation widget-instance-OUP_Get_Citation">
+        <a href="#" class="js-cite-button" data-reveal-id="getCitation" data-reveal><i class="icon-read-more"></i><span>Cite</span></a>
+
+<div id="getCitation" class="reveal-modal" data-reveal>
+    <h3 class="modal-title">Cite</h3>
+        <div class="oxford-citation-text">
+            <p>Ahmad Aghaebrahimian, Andy Stauder, Michael Ustaszewski,  Automatically extracted parallel corpora enriched with highly useful metadata? A Wikipedia case study combining machine learning and social technology, <em>Digital Scholarship in the Humanities</em>, , fqaa002, <a href="https://doi.org/10.1093/llc/fqaa002">https://doi.org/10.1093/llc/fqaa002</a></p>
+        </div>
+
+    <div class="citation-download-wrap">
+        <form action="/Citation/Download" method="get" id="citationModal">
+            <input type="hidden" name="resourceId" value="5775571" />
+            <input type="hidden" name="resourceType" value="3" />
+            <label for="selectFormat" class="hide">Select Format</label>
+            <select required name="citationFormat" class="citation-download-format" id="selectFormat">
+                <option selected disabled >Select format</option>
+                        <option value="0" >.ris (Mendeley, Papers, Zotero)</option>
+                        <option value="1" >.enw (EndNote)</option>
+                        <option value="2" >.bibtex (BibTex)</option>
+                        <option value="3" >.txt (Medlars, RefWorks)</option>
+
+            </select>
+            <button class="btn citation-download-link disabled" type="submit">Download citation</button>
+        </form>
+    </div>
+
+    <a class="close-reveal-modal" href="javascript:;"><i class="icon-general-close"></i><span class="screenreader-text">Close</span></a>
+</div>
+ 
+    </div>
+
+                        </li>
+                        <li class="toolbar-item item-tools">
+    <div class="widget widget-ToolboxPermissions widget-instance-OUP_Get_Permissions">
+            <div class="module-widget">
+        <a href="https://s100.copyright.com/AppDispatchServlet?publisherName=OUP&amp;publication=2055-768X&amp;title=Automatically%20extracted%20parallel%20corpora%20enriched%20with%20highly%20useful%20metadata%3F%20A%20Wikipedia%20case%20study%20combining%20machine%20learning%20and%20social%20technology&amp;publicationDate=2020-03-03&amp;volumeNum=&amp;issueNum=&amp;author=Aghaebrahimian%2C%20Ahmad%3B%20Stauder%2C%20Andy&amp;startPage=1&amp;endPage=15&amp;contentId=10.1093%2Fllc%2Ffqaa002&amp;oa=&amp;copyright=Oxford%20University%20Press&amp;orderBeanReset=True" id="PermissionsLink" class="" target="_blank">
+            <i class="icon-menu_permissions">
+                <span class="screenreader-text">Permissions Icon</span>
+            </i>
+            Permissions
+        </a>
+    </div>
+ 
+    </div>
+
+                        </li>
+                        <li class="toolbar-item item-with-dropdown item-share last">
+                            <a class="drop-trigger" href="javascript:;" data-dropdown="ShareDrop" aria-haspopup="true">
+                                <i class="icon-menu_share"></i>
+                                <div class="toolbar-label">
+                                    <div class="toolbar-text">Share</div>
+                                    <i class="icon-general-arrow-filled-down arrow-icon"></i>
+                                </div>
+                            </a>
+                            <ul id="ShareDrop" class="addthis_toolbox addthis_default_style addthis_20x20_style f-dropdown" data-dropdown-content aria-label="submenu">
+                                <div class="arrow-up"></div>
+                                <li><a class="addthis_button_email"><span>Email</span></a></li>
+                                <li><a class="addthis_button_twitter"><span>Twitter</span></a></li>
+                                <li><a class="addthis_button_facebook"><span>Facebook</span></a></li>
+                                <li><a class="addthis_button_compact"><span>More</span></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="toolbar-search">
+    <div class="widget widget-SitePageHeader widget-instance-OUP_ArticleToolbarSearchBox">
+        
+
+
+<div class="dropdown-panel-wrap">
+
+    
+    <div class="dropdown-panel mobile-search-dropdown">
+        <div class="mobile-search-inner-wrap">
+                <div class="navbar-search">
+                    <div id="MobileMicrositeSearch" class="mobile-microsite-search">
+                        <label for="mobile-navbar-search-filter" class="screenreader-text">Navbar Search Filter</label>
+                        <select class="navbar-search-filter" id="mobile-navbar-search-filter">
+                                                            <optgroup label="Search within this journal">
+<option class="header-search-bar-filters-item" value="">All  Digital Scholarship in the Humanities</option>
+                                </optgroup>
+                                <optgroup label="Search beyond this journal">
+<option class="header-search-bar-filters-item" value="Journals">All  Journals</option>                                </optgroup>
+                        </select>
+
+
+
+
+
+                        <label for="MobileMicrositeSearchTerm" class="screenreader-text">Mobile Microsite Search Term</label>
+                        <input class="mobile-search-input mobile-microsite-search-term" type="text" maxlength="255" placeholder="Search" id="MobileMicrositeSearchTerm">
+
+                        <a href="javascript:;" id="MobileMicrositeSearchIcon" class="mobile-microsite-search-icon mobile-search-submit icon-menu_search"><span class="screenreader-text">Search</span></a>
+
+                    </div>
+                </div>        </div>
+    </div>
+    
+    <div class="dropdown-panel mobile-account-dropdown">
+        <ul class="site-menu site-menu-lvl-0">
+            <li class="site-menu-item site-menu-lvl-0">
+                <a href="" class="nav-link mobile-account-signin dummy-link js-header-account-info-user-fullname" id="header-account-info-user-fullname-mobile">
+                    
+Sign In                    <i class="mobile-nav-arrow icon-general_arrow-down"></i>
+                </a>
+                <ul class="site-menu site-menu-lvl-1 individual-menu">
+                    <li class="dropdown-signin-form">
+                        <div class="spinner"></div>
+                    </li>
+                </ul>
+            </li>
+                <li class="site-menu-item site-menu-lvl-0">
+                        <a href="javascript:;" class="nav-link mobile-account-institution dummy-link">
+                            Centre College
+                        </a>
+
+                    <i class="mobile-nav-arrow icon-general_arrow-down"></i>
+                    <ul class="site-menu site-menu-lvl-1">
+                            <li class="dropdown-institution-item">
+
+Centre College
+                            </li>
+
+                        <li class="dropdown-institution-signout">
+                        </li>
+                    </ul>
+                </li>
+                            <li class="site-menu-item">
+                    <a href="/my-account/register?siteId=5447&amp;returnUrl=%2fdsh%2fadvance-article-abstract%2fdoi%2f10.1093%2fllc%2ffqaa002%2f5775571%3fredirectedFrom%3dfulltext" class="register nav-link">Register</a>
+                </li>
+        </ul>
+    </div>
+    
+    <div class="dropdown-panel mobile-nav-dropdown">
+
+    </div>
+
+</div>
+
+
+
+<div class="navbar">
+    <div class="center-inner-row">
+        <nav class="navbar-menu">
+
+        </nav>
+            <div class="navbar-search-container js-navbar-search-container">
+                <a href="javascript:;" class="navbar-search-close js_close-navsearch">Close</a>
+                    <div class="navbar-search">
+                        <div id="MicrositeSearch" class="microsite-search">
+                            <label for="navbar-search-filter" class="screenreader-text">search filter</label>
+                            <select class="navbar-search-filter" id="navbar-search-filter">
+                                                                    <optgroup label="Search within this journal">
+                                                <option class="header-search-bar-filters-item" value="" selected=&quot;selected&quot;>All  Digital Scholarship in the Humanities</option>
+
+                                    </optgroup>
+                                    <optgroup label="Search beyond this journal">
+                                                <option class="header-search-bar-filters-item" value="Journals" >All  Journals</option>
+                                    </optgroup>
+                            </select>
+
+                            <label for="MicrositeSearchTerm" class="screenreader-text">search input</label>
+                            <input class="navbar-search-input microsite-search-term" type="text" maxlength="255" id="MicrositeSearchTerm" title="search input">
+
+                            <a href="javascript:;" id="MicrositeSearchIcon" class="microsite-search-icon navbar-search-submit icon-menu_search"><span class="screenreader-text">Search</span></a>
+
+                        </div>
+                    </div>                <div class="navbar-search-advanced"><a href="/dsh/advanced-search" class="advanced-search js-advanced-search">Advanced Search</a></div>
+            </div>            <div class="navbar-search-collapsed"><a href="javascript:;" class="icon-menu_search js_expand-navsearch"><span class="screenreader-text">Search Menu</span></a></div>
+    </div>
+</div>
+
+<input id="hfEnableOupOnlineProductsFeatures" name="hfEnableOupOnlineProductsFeatures" type="hidden" value="False" />
+
+<input id="routename" name="RouteName" type="hidden" value="dsh" /> 
+    </div>
+
+                    </div>
+                </div>
+            </div>
+            <div id="ContentTab" class="content active">
+    <div class="widget widget-ArticleFulltext widget-instance-OUP_Abstract_Article_FullText_Widget">
+        <div class="module-widget">
+    <div class="widget-items" data-widgetname="ArticleFulltext">
+
+
+
+
+
+                    <h2 scrollto-destination=200382177 id="200382177" class="abstract-title" >Abstract</h2>
+<section class="abstract"><p class="chapter-para">The extraction of large amounts of multilingual parallel text from web resources is a widely used technique in natural language processing. However, automatically collected parallel corpora usually lack precise metadata, which are crucial to accurate data analysis and interpretation. The combination of automated extraction procedures and manual metadata enrichment may help address this issue. Wikipedia is a promising candidate for the exploration of the potential of said combination of methods because it is a rich source of translations in a large number of language pairs and because its open and collaborative nature makes it possible to identify and contact the users who produce translations. This article tests to what extent translated texts automatically extracted from Wikipedia by means of neural networks can be enriched with pertinent metadata through a self-submission-based user survey. Special emphasis is placed on data usefulness, defined in terms of a catalogue of previously established assessment criteria, most prominently metadata quality. The results suggest that from a quantitative perspective, the proposed methodology is capable of capturing metadata otherwise not available. At the same time, the crowd-based collection of data and metadata may face important technical and social limitations.</p></section>                        <div class="article-metadata-panel clearfix"></div>
+        <!-- /foreach -->
+
+
+
+        <div class="article-metadata-standalone-panel clearfix"></div>
+
+        
+<div class="copyright copyright-statement">© The Author(s) 2020. Published by Oxford University Press on behalf of EADH. All rights reserved. For permissions, please email: journals.permissions@oup.com</div><div class="license"><div class="license-p">This article is published and distributed under the terms of the Oxford University Press, Standard Journals Publication Model (<a class="link link-uri openInAnotherWindow" href="https://academic.oup.com/journals/pages/open_access/funder_policies/chorus/standard_publication_model" target="_blank">https://academic.oup.com/journals/pages/open_access/funder_policies/chorus/standard_publication_model</a>)</div></div><!-- /foreach -->
+
+        <span id="UserHasAccess" data-userHasAccess="False"></span>
+
+    </div><!-- /.widget-items -->
+</div><!-- /.module-widget -->
+
+ 
+    </div>
+    <div class="widget widget-SolrResourceMetadata widget-instance-OUP_Article_ResourceMetadata_Widget">
+        
+    <div class=" add-border article-metadata-panel solr-resource-metadata">
+                <div class="article-metadata-tocSections">
+                    <div class="article-metadata-tocSections-title">Issue Section:</div>
+                        <a href="/dsh/search-results?f_TocHeadingTitle=Full Paper">Full Paper</a>
+                </div>
+
+    </div>
+
+
+ 
+    </div>
+    <div class="widget widget-EditorInformation widget-instance-OUP_Article_EditorInformation_Widget">
+        
+ 
+    </div>
+    <div class="widget widget-ArticleOpenScienceBadges widget-instance-OUP_Article_OpenScienceBadge_Widget">
+        
+ 
+    </div>
+
+                    <div class="article-top-info-user-restricted-options">
+                        You do not currently have access to this article.
+                    </div>
+                <div id="ContentTabFilteredView"></div>
+                <div class="downloadImagesppt js-download-images-ppt st-download-images-ppt">
+                    <a id="lnkDownloadAllImages"
+                       class="js-download-all-images-link btn"
+                       href="/DownloadFile/DownloadImage.aspx?image=&amp;PPTtype=SlideSet&amp;ar=5775571&amp;xsltPath=~/UI/app/XSLT&amp;siteId=5447">Download all slides</a>
+                </div>
+                    <div class="widget widget-ArticleDataRepositories widget-instance-Article_DryadLink">
+         
+    </div>
+
+                <div class="comments">
+    <div class="widget widget-UserCommentBody widget-instance-UserCommentBody_Article">
+        
+
+ 
+    </div>
+    <div class="widget widget-UserComment widget-instance-OUP_UserComment_Article">
+         
+    </div>
+
+                </div>
+            </div>
+        </div>
+
+            <div id="unauth" class="unauth-wrap">
+                <div id="article-purchase" class="unauth-row clearfix">
+<div id="unauth" class="unauth-wrap">
+<div class="unauth-row clearfix">
+    <h2 class="unauth-signin-title">Sign in</h2>
+        <div class="register-ribbon-wrap">
+            <div class="register-ribbon-text">
+                Don't already have an Oxford Academic account? <a class="register-ribbon-link" href="/my-account/register?siteId=5447&amp;returnUrl=%2fdsh%2fadvance-article-abstract%2fdoi%2f10.1093%2fllc%2ffqaa002%2f5775571%3fredirectedFrom%3dfulltext">Register</a>
+            </div>
+        </div>
+    <div class="unauth-column-wrap">
+            <div class="unauth-column account">
+    <div class="widget widget-LoginForm widget-instance-OUP_ArticlePage_LoginForm">
+        
+
+<div class="signin-form">
+
+    <div class="preloader-wrap hide">
+        <div class="preloader">
+            <div class="spinner"></div>
+        </div>
+    </div>
+
+    <!-- Errors -->
+    <div class="error">
+        <div class="login-primary-error">
+            You could not be signed in. Please check your email address / username and password and try again.
+        </div>
+    </div>
+        <div class="login-form__section">
+            <h3 class="login-form__heading">Oxford Academic account</h3>
+            <div class="login-form__row">
+                <label for="user_OUP_ArticlePage_LoginForm" class="login-form__label">
+                    <div class="login-form__label-text">Email address / Username</div>
+                    <a class="question-icon" href="#" data-reveal-id="modalSignInEmail"><span>?</span></a>
+                </label>
+                <input id="user_OUP_ArticlePage_LoginForm" type="text" class="username" autocomplete="off" />
+            </div>
+
+            <div class="login-form__row">
+                <label for="pass_OUP_ArticlePage_LoginForm" class="login-form__label-text">Password</label>
+                <input id="pass_OUP_ArticlePage_LoginForm" type="password" class="password" />
+            </div>
+
+            <div class="login-form__row">
+                <button class="signin-button button">Sign In</button>
+                <div class="login-form__link-wrap">
+                    <a class="logged-out-link" href="/my-account/forgot-password">Forgot password?</a>
+                </div>
+                <div class="login-form__link-wrap">
+                    <a class="logged-out-link" href="/my-account/register?siteId=5447&amp;returnUrl=%2fdsh%2fadvance-article-abstract%2fdoi%2f10.1093%2fllc%2ffqaa002%2f5775571%3fredirectedFrom%3dfulltext" data-target="register">Don't have an account?</a>
+                </div>
+            </div>
+
+        </div><!-- /.login-form-section -->
+
+
+    <div class="bearpan-wrap">
+        <label for="hpcName"><span class="screenreader-text">HPC</span><input type="text" id="hpcName" name="hpcName" /></label>
+    </div>
+
+    
+    <input type="hidden" class="loginInstanceName" value="signin" />
+</div>
+    <div id="modalSignInEmail" class="reveal-modal medium" data-reveal>
+        <h4>Email address / username</h4><p>Most users should sign in with their email address. If you originally registered with a username please use that to sign in.</p>
+        <a class="close-reveal-modal" href="javascript:;"><i class="icon-general-close"></i><span class="screenreader-text">Close</span></a>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            SCM.SiteJS.initLoginFormDropdown();
+        });
+    </script>
+
+ 
+    </div>
+
+            </div>
+                    <div class="unauth-column entities">
+                    <div class="unauth-society-row">
+
+                    </div>
+                                    <div class="unauth-society-row">
+                        <h3 class="login-form__heading">Sign in via your Institution</h3>
+                        <div><a class="shibboleth-signin" data-target="https://shibboleth2sp.sams2.oup.com/shib?dest={0}">Sign in</a></div>
+                    </div>
+            </div>
+    </div>
+</div>
+</div>
+    <div class="widget widget-PurchaseOptions widget-instance-OUP_ArticlePage_PurchaseOptions">
+            <div class="purchase-wrap">
+        <h2 class="purchase-title">Purchase</h2>
+        <a class="purchase-subscription-link" href="/dsh/Subscribe/CurrentYear">Subscription prices and ordering</a>
+
+            <div class="purchase-ppv-wrap-article clearfix">
+                <h3>Short-term Access</h3>
+
+
+                Automatically extracted parallel corpora enriched with highly useful metadata? A Wikipedia case study combining machine learning and social technology - 24 Hours access
+                <div class="purchase-currency-wrap">
+                        <div class="purchase-currency">
+                            EUR €37.00
+                        </div>
+                        <div class="purchase-currency">
+                            GBP &#163;29.00
+                        </div>
+                        <div class="purchase-currency">
+                            USD $47.00
+                        </div>
+                </div>
+                        <a class="button btn-green btn-big" href="//secureacademic.oup.com/basket.html?item_number=FA2PPV&amp;customer_type=PERSON&amp;rate_code=PPA&amp;year=2020&amp;journal=dsh&amp;identifier=10.1093/llc/fqaa002&amp;description=Automatically extracted parallel corpora enriched with highly useful metadata? A Wikipedia case study combining machine learning and social technology">Buy</a>
+                
+            </div><!-- /.purchase-ppv-wrap-article -->
+
+    </div><!-- /.purchase-wrap -->
+
+    <div id="divDeepDive" class="deep-dive-wrap js-deepdyve-link" data-issn="20557671" data-doi="10.1093/llc/fqaa002" data-fieldname="journal_doi" data-affiliate="OUP">
+        <h3 class="deep-dive-title">Rental</h3>
+        <div class="deep-dive-box">
+            <div class="deep-dive-img">
+                <a class="deepDiveLink" href="https://www.deepdyve.com/doc-view?docId=10.1093/llc/fqaa002&amp;fieldName=journal_doi&amp;affiliateId=OUP" target="_blank"><img src="https://www.deepdyve.com/assets/images/deepdyve-link-button.svg" style="border:none" alt="Read this now at DeepDyve" /></a>
+            </div>
+            <div class="deep-dive-text">
+                This article is also available for rental through DeepDyve.
+            </div>
+        </div>
+    </div>
+ 
+    </div>
+
+                </div>
+
+            </div>
+    </div>
+</div>
+<div id="Sidebar" class="page-column page-column--right">
+    <div class="widget widget-AdBlock widget-instance-ArticlePageTopSidebar">
+        
+
+<div class="adBlockMainBodyTop-wrap js-adBlockMainBodyTop hide">
+    
+    <div id="adBlockMainBodyTop"
+         style=" ">
+        <script>
+            googletag.cmd.push(function () { googletag.display('adBlockMainBodyTop'); });
+        </script>
+    </div>
+        <div class="advertisement-text">Advertisement</div>
+</div> 
+    </div>
+<div class="widget widget-dynamic " data-count="1"> 
+
+    <div class="widget-dynamic-inner-wrap">
+
+<div class="widget widget-dynamic " data-count="10"> 
+
+    <div class="widget-dynamic-inner-wrap">
+
+    <div class="widget widget-ArticleLevelMetrics widget-instance-Article_RightRailB0Article_RightRail_ArticleLevelMetrics">
+        
+
+
+
+    <div class="artmet-wrapper horizontal-artmet">
+
+        <div class="artmet-condensed-wrap clearfix">
+
+            <div class="artmet-condensed-stats clearfix">
+                    <div class="artmet-item artmet-views">
+                        <span class="artmet-number">73</span>
+                        <span class="artmet-text">Views</span>
+                    </div>
+
+                <div class="artmet-item artmet-citations">
+                    <span class="artmet-number">
+0                    </span>
+                    <span class="artmet-text">Citations</span>
+                </div>
+                <div class="artmet-item artmet-badges-wrap">
+                        <div class="artmet-item artmet-altmetric">
+    <div class="widget widget-AltmetricLink widget-instance-ArticleLevelMetrics_AltmetricLinkSummary">
+            <!-- Altmetrics -->
+    <div id="altmetricEmbedId"
+         runat="server"
+         class='altmetric-embed'
+         data-badge-type="donut"
+         data-hide-no-mentions="false"
+         data-doi="10.1093/llc/fqaa002"
+
+        
+
+        ></div>
+         <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+ 
+    </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="artmet-modal-trigger-wrap clearfix">
+                    <a class="artmet-modal-trigger" data-article-id="5775571"><i class="icon-metrics"></i><span>View Metrics</span></a>
+                </div>
+        </div>
+            <div class="artmet-modal" id="MetricsModal">
+                <div class="artmet-modal-contents">
+                    <a class="artmet-close-modal">&#215;</a>
+                </div>
+            </div>
+    </div>
+
+ 
+    </div>
+    <div class="widget widget-Alerts widget-instance-Article_RightRailB0Article_RightRail_Alerts">
+        
+    <div class="alertsWidget">
+        <h3>Email alerts</h3>
+                <div class="userAlert alertType-1">
+                    <a href="javascript:;" class="js-user-alert" role="button"
+                       data-userLoggedIn="False"
+                       data-alertType="1" href="javascript:;">Article activity alert</a>
+                </div>
+                <div class="userAlert alertType-3">
+                    <a href="javascript:;" class="js-user-alert" role="button"
+                       data-userLoggedIn="False"
+                       data-alertType="3" href="javascript:;">Advance article alerts</a>
+                </div>
+                <div class="userAlert alertType-5">
+                    <a href="javascript:;" class="js-user-alert" role="button"
+                       data-userLoggedIn="False"
+                       data-alertType="5" href="javascript:;">New issue alert</a>
+                </div>
+                    <div class="userAlert alertType-MarketingLink">
+                <a href="javascript:;" class="js-user-alert" role="button"
+                   data-userLoggedIn="False"
+                   data-additionalUrl="/my-account/communication-preferences" href="javascript:;">Receive exclusive offers and updates from Oxford Academic</a>
+            </div>
+        <div class="userAlertSignUpModal reveal-modal small" data-reveal>
+            <div class="userAlertSignUp"></div>
+            <a href="javascript:;" role="button" aria-label="Close" class="close-reveal-modal" href="javascript:;">
+                <i class="icon-general-close"></i>
+            </a>
+        </div>
+    </div>
+ 
+    </div>
+    <div class="widget widget-ArticleLinks widget-instance-Article_RightRailB0Article_RightRail_ArticleLinks">
+         
+    </div>
+    <div class="widget widget-RelatedContent widget-instance-Article_RightRailB0Article_RightRail_RelatedContent">
+         
+    </div>
+    <div class="widget widget-RelatedArticleIn widget-instance-Article_RightRailB0Article_RightRail_RelatedArticleIn">
+            <h3 class="relatedArticleIn-title">Related articles in</h3>
+    <div class="relatedArticleIn-content">
+        <ul>
+                <li>
+                    <a href="https://scholar.google.com/scholar?q=related:https%3a%2f%2facademic.oup.com%2fdsh%2fadvance-article%2fdoi%2f10.1093%2fllc%2ffqaa002%2f5775571">Google Scholar</a>
+                </li>
+        </ul>
+    </div>
+ 
+    </div>
+    <div class="widget widget-ArticleCitedBy widget-instance-Article_RightRailB0Article_RightRail_ArticleCitedBy">
+        <div class="rail-widget_wrap vt-articles-cited-by">
+    <h3 class="article-cited-title">Citing articles via</h3>
+    <div class="widget-links_wrap">
+                    <div class="article-cited-link-wrap google-scholar-url">
+                <a href="http://scholar.google.com/scholar?q=link:https%3A%2F%2Facademic.oup.com%2Fdsh%2Fadvance-article%2Fdoi%2F10.1093%2Fllc%2Ffqaa002%2F5775571" target="_blank">Google Scholar</a>
+            </div>
+                    <div class="article-cited-link-wrap crossref-citedby">
+                <a href='https://academic.oup.com/dsh/crossref-citedby/5775571'>Crossref</a>
+            </div>
+    </div>
+</div> 
+    </div>
+    <div class="widget widget-ArticleListNewAndPopular widget-instance-Article_RightRailB0Article_RightRail_ArticleNewPopularCombined">
+            <ul class="articleListNewAndPopularCombinedView">
+            <li>
+                <h3>
+                    <a href="javascript:;" class="articleListNewAndPopular-mode active" data-mode="MostRecent">Latest</a>
+                </h3>
+            </li>
+            <li>
+                <h3>
+                    <a href="javascript:;" class="articleListNewAndPopular-mode " data-mode="MostRead">Most Read</a>
+                </h3>
+            </li>
+            <li>
+                <h3>
+                    <a href="javascript:;" class="articleListNewAndPopular-mode " data-mode="MostCited">Most Cited</a>
+                </h3>
+            </li>
+    </ul>
+        <section class="articleListNewPopContent articleListNewAndPopular-ContentView-MostRecent hasContent">
+
+
+
+
+<div id="newPopularList-Article_RightRailB0Article_RightRail_ArticleNewPopularCombined" class="fb">
+
+    
+
+
+
+<div class="widget-layout widget-layout--vert">
+            <div class="widget-columns widget-col-1">
+                    <div class="col">
+
+<div class="widget-dynamic-entry">
+    <input id="hfDoi" name="hfDoi" type="hidden" value="10.1093/llc/fqaa039" />
+
+    
+
+<a href="/dsh/advance-article/doi/10.1093/llc/fqaa039/5940653?searchresult=1">
+        <div class="widget-dynamic-journal-title">
+Introduction    </div>
+</a>
+<div class="widget-dynamic-journal-image-synopsis">
+        <div class="widget-dynamic-journal-synopsis">
+            
+        </div>
+</div>
+</div>
+<div class="widget-dynamic-entry">
+    <input id="hfDoi" name="hfDoi" type="hidden" value="10.1093/llc/fqaa057" />
+
+    
+
+<a href="/dsh/advance-article/doi/10.1093/llc/fqaa057/5927539?searchresult=1">
+        <div class="widget-dynamic-journal-title">
+Cyberformalism: Histories of Linguistic Forms in the Digital Archive    </div>
+</a>
+<div class="widget-dynamic-journal-image-synopsis">
+        <div class="widget-dynamic-journal-synopsis">
+            
+        </div>
+</div>
+</div>
+<div class="widget-dynamic-entry">
+    <input id="hfDoi" name="hfDoi" type="hidden" value="10.1093/llc/fqaa029" />
+
+    
+
+<a href="/dsh/advance-article/doi/10.1093/llc/fqaa029/5921705?searchresult=1">
+        <div class="widget-dynamic-journal-title">
+Arabic part-of-speech tagging using a combined rule-based and data-driven approach    </div>
+</a>
+<div class="widget-dynamic-journal-image-synopsis">
+        <div class="widget-dynamic-journal-synopsis">
+            
+        </div>
+</div>
+</div>
+<div class="widget-dynamic-entry">
+    <input id="hfDoi" name="hfDoi" type="hidden" value="10.1093/llc/fqaa041" />
+
+    
+
+<a href="/dsh/advance-article/doi/10.1093/llc/fqaa041/5918973?searchresult=1">
+        <div class="widget-dynamic-journal-title">
+Big data or not enough? Zeta test reliability and the attribution of <em>Henry VI</em>    </div>
+</a>
+<div class="widget-dynamic-journal-image-synopsis">
+        <div class="widget-dynamic-journal-synopsis">
+            
+        </div>
+</div>
+</div>
+<div class="widget-dynamic-entry">
+    <input id="hfDoi" name="hfDoi" type="hidden" value="10.1093/llc/fqaa044" />
+
+    
+
+<a href="/dsh/article/35/3/723/5905110?searchresult=1">
+        <div class="widget-dynamic-journal-title">
+Playing with Feelings: Video Games and Affect. Aubrey Anable. <em>Minneapolis, MN: University of Minnesota Press, 2018, 176 pp. ISBN: 978-1-5179-0025-0. $25.00 (p/b).</em>    </div>
+</a>
+<div class="widget-dynamic-journal-image-synopsis">
+        <div class="widget-dynamic-journal-synopsis">
+            
+        </div>
+</div>
+</div>
+                    </div>
+            </div>
+
+</div></div>
+        </section>
+        <section class="articleListNewPopContent articleListNewAndPopular-ContentView-MostRead hide">
+        </section>
+        <section class="articleListNewPopContent articleListNewAndPopular-ContentView-MostCited hide">
+        </section>
+ 
+    </div>
+
+    </div>
+
+</div>
+    </div>
+
+</div>    <div class="widget widget-AdBlock widget-instance-ArticlePageTopMainBodyBottom">
+        
+
+<div class="adBlockMainBodyBottom-wrap js-adBlockMainBodyBottom hide">
+    
+    <div id="adBlockMainBodyBottom"
+         style=" ">
+        <script>
+            googletag.cmd.push(function () { googletag.display('adBlockMainBodyBottom'); });
+        </script>
+    </div>
+        <div class="advertisement-text">Advertisement</div>
+</div> 
+    </div>
+
+</div>
+
+</div>
+<input id="hfArticleTitle" name="hfArticleTitle" type="hidden" value="" />
+<input id="hfLeftNavStickyOffset" name="hfLeftNavStickyOffset" type="hidden" value="29" />
+<input id="hfAreOpFeaturesEnabled" name="hfAreOpFeaturesEnabled" type="hidden" value="False" />
+
+
+            </div><!-- /.center-inner-row no-overflow -->
+        </section>
+    </div>
+    <div class="mobile-mask">
+    </div>
+    <section class="footer_wrap vt-site-footer">
+        
+    <script type="text/javascript" src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"></script>
+    
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
+
+    <script type="text/javascript" src="//oup.silverchair-cdn.com/UI/app/jsdist/v-637389617100571406/article-page.min.js"></script>
+
+    <script type="text/javascript">
+        googletag.cmd.push(function () {
+            
+            googletag.pubads().setTargeting("jnlsdoi", "10.1093/llc/fqaa002");
+            googletag.enableServices();
+        });
+    </script>
+
+
+
+        
+
+
+    <div class="widget widget-SitePageFooter widget-instance-SitePageFooter">
+        <div class="ad-banner ad-banner-footer">
+    <div class="widget widget-AdBlock widget-instance-FooterAd">
+        
+
+<div class="adBlockFooter-wrap js-adBlockFooter hide">
+    
+    <div id="adBlockFooter"
+         style=" ">
+        <script>
+            googletag.cmd.push(function () { googletag.display('adBlockFooter'); });
+        </script>
+    </div>
+        <div class="advertisement-text">Advertisement</div>
+</div> 
+    </div>
+
+</div>
+
+    <div class="journal-footer journal-bg">
+        <div class="center-inner-row">
+
+                <div class="journal-footer-menu">
+
+                    <ul>
+                                <li class="link-1">
+                                    <a href="/dsh/pages/About">About Digital Scholarship in the Humanities</a>
+                                </li>
+                                <li class="link-2">
+                                    <a href="/dsh/pages/Editorial_Board">Editorial Board</a>
+                                </li>
+                                <li class="link-3">
+                                    <a href="/dsh/pages/General_Instructions">Author Guidelines</a>
+                                </li>
+                                <li class="link-4">
+                                    <a href="http://eadh.org/about">Contact Us</a>
+                                </li>
+                                <li class="link-5">
+                                    <a href="https://www.facebook.com/DSHJournal/">Facebook</a>
+                                </li>
+</ul><ul>                                <li class="link-1">
+                                    <a href="https://twitter.com/DSHjournal">Twitter</a>
+                                </li>
+                                <li class="link-2">
+                                    <a href="/dsh/subscribe">Purchase</a>
+                                </li>
+                                <li class="link-3">
+                                    <a href="http://www.oxfordjournals.org/en/library-recommendation-form.html">Recommend to Your Librarian</a>
+                                </li>
+                                <li class="link-4">
+                                    <a href="http://www.oupmediainfo.com/">Advertising and Corporate Services</a>
+                                </li>
+                                <li class="link-5">
+                                    <a href="https://globaljobs-careernetwork.oxfordjournals.org/">Journals Career Network</a>
+                                </li>
+
+                    </ul>
+
+
+                </div><!-- /.journal-footer-menu -->
+
+            <div class="journal-footer-affiliations">
+                <!-- <h3>Affiliations</h3> -->
+                    <a href="https://academic.oup.com/dsh" target="">
+                        <img id="footer-logo-DigitalScholarshipintheHumanities" class="journal-footer-affiliations-logo" src="//oup.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/dsh/dsh_f1242156087.svg" alt="Digital Scholarship in the Humanities" />
+                    </a>
+            </div><!-- /.journal-footer-affiliations -->
+
+            <div class="journal-footer-colophon">
+                <ul>
+                        <li>Online ISSN 2055-768X</li>
+                                            <li>Print ISSN 2055-7671</li>
+                    <li>Copyright &#169; 2020 EADH: The European Association for Digital Humanities</li>
+                </ul>
+            </div><!-- /.journal-footer-colophon -->
+
+
+        </div><!-- /.center-inner-row -->
+    </div><!-- /.journal-footer -->
+ 
+    </div>
+
+<div class="oup-footer">
+    <div class="center-inner-row">
+    <div class="widget widget-SelfServeContent widget-instance-OupUmbrellaFooterSelfServe">
+        
+<div class="oup-footer-row journal-links">
+<div class="global-footer selfservelinks">
+<ul>
+    <li>
+    <a href="/journals/pages/about_us">About Us</a>
+    </li>
+    <li>
+    <a href="/journals/pages/contact_us">Contact Us</a>
+    </li>
+    <li>
+    <a href="http://global.oup.com/jobs">Careers</a>
+    </li>
+    <li>
+    <a href="/journals/pages/help">Help</a>
+    </li>
+    <li>
+    <a href="/journals/pages/access_purchase">Access &amp; Purchase</a></li>
+    <li>
+    <a href="/journals/pages/access_purchase/rights_and_permissions">Rights &amp; Permissions</a>
+    </li>
+    <li>
+    <a href="/journals/pages/open_access">Open Access</a>
+    </li>
+</ul>
+</div>
+<div class="global-footer selfservelinks">
+<h4 id="global-footer-customer services" class="title footerheader">Connect</h4>
+<ul>
+    <li>
+    <a href="/my-account/communication-preferences">Join Our Mailing List</a>
+    </li>
+    <li>
+    <a href="http://blog.oup.com/">OUPblog</a>
+    </li>
+    <li>
+    <a href="http://twitter.com/oupacademic">Twitter</a>
+    </li>
+    <li>
+    <a href="https://www.facebook.com/OUPAcademic">Facebook</a>
+    </li>
+    <li>
+    <a href="http://www.youtube.com/playlist?list=PL3MAPgqN8JWioLLTkU4mlFM4-SNt-f1Xs">YouTube</a>
+    </li>
+    <li>
+    <a href="http://oupacademic.tumblr.com/">Tumblr</a>
+    </li>
+</ul>
+</div>
+<div class="global-footer selfservelinks">
+<h4>Resources</h4>
+<ul>
+    <li><a href="/journals/pages/authors">Authors</a></li>
+    <li><a href="/journals/pages/librarians">Librarians</a></li>
+    <li><a href="/journals/pages/societies">Societies</a></li>
+    <li><a href="https://academic.oup.com/journals/pages/sponsorship_and_advertising">Sponsors &amp; Advertisers</a></li>
+    <li><a href="/journals/pages/press">Press &amp; Media</a></li>
+    <li><a href="/journals/pages/agents">Agents</a></li>
+</ul>
+</div>
+<div class="global-footer selfservelinks">
+<h4>Explore</h4>
+<ul>
+    <li><a href="http://global.oup.com/academic">Shop OUP Academic</a></li>
+    <li><a href="http://www.oxforddictionaries.com/">Oxford Dictionaries</a></li>
+    <li><a href="https://www.epigeum.com/">Epigeum</a></li>
+    <li><a href="http://global.oup.com/">OUP Worldwide</a></li>
+    <li><a href="http://www.ox.ac.uk/">University of Oxford</a></li>
+</ul>
+</div>
+<div class="OUP-mission">
+<p>Oxford University Press is a department of the University of Oxford. It furthers the University's objective of excellence in research, scholarship, and education by publishing worldwide</p>
+<img class="journal-footer-logo" src="//oup.silverchair-cdn.com/UI/app/svg/umbrella/oup-logo.svg" alt="Oxford University Press" width="150" height="42" />
+</div>
+</div>
+<div class="oup-footer-row">
+<div class="oup-footer-row-links">
+<ul>
+    <li>Copyright &copy; 2020 Oxford University Press</li>
+    <li><a href="https://global.oup.com/cookiepolicy/">Cookie Policy</a></li>
+    <li><a href="https://global.oup.com/privacy">Privacy Policy</a></li>
+    <li><a href="/journals/pages/about_us/legal/notices">Legal Notice</a></li>
+    <li><a href="/journals/pages/sitemap">Site Map</a></li>
+    <li><a href="/journals/pages/about_us/legal/accessibility">Accessibility</a></li>
+    <li><a href="https://get.adobe.com/reader/">Get Adobe Reader</a></li>
+</ul>
+</div>
+</div>
+<style type="text/css">
+    /* Issue right column fix for tablet/mobile */
+    @media (max-width: 1200px) {
+    .pg_issue .widget-instance-OUP_Issue {
+    width: 100%;
+    }
+    }
+    .sf-facet-list .sf-facet label, .sf-facet-list .taxonomy-label-wrap label {font-size: .9375rem;}
+    .issue-pagination-wrap .pagination-container {float: right;}
+</style>
+    
+    
+     
+    </div>
+
+    </div>
+</div>
+<div class="ss-ui-only">
+
+</div>
+
+    </section>
+</div>
+
+
+
+    
+
+
+
+    <div class="widget widget-SiteWideModals widget-instance-SiteWideModals">
+        <div id="revealModal" class="reveal-modal" data-reveal>
+    <div id="revealContent"></div>
+    <a class="close-reveal-modal" href="javascript:;"><i class="icon-general-close"></i><span class="screenreader-text">Close</span></a>
+</div>
+
+<div id="NeedSubscription" class="reveal-modal small" data-reveal>
+    <div class="subscription-needed">
+        <h5>This Feature Is Available To Subscribers Only</h5>
+        <p><a href="/sign-in">Sign In</a> or <a href="/my-account/register?siteId=5447&amp;returnUrl=%2fdsh%2fadvance-article-abstract%2fdoi%2f10.1093%2fllc%2ffqaa002%2f5775571%3fredirectedFrom%3dfulltext">Create an Account</a></p>
+    </div>
+    <a class="close-reveal-modal" href="javascript:;"><i class="icon-general-close"></i><span class="screenreader-text">Close</span></a>
+</div>
+
+<div id="noAccessReveal" class="reveal-modal tiny" data-reveal>
+    <p>This PDF is available to Subscribers Only</p>
+    <a class="hide-for-article-page" id="articleLinkToPurchase" data-reveal><span>View Article Abstract & Purchase Options</span></a>
+    <div class="issue-purchase-modal">
+        <p>For full access to this pdf, sign in to an existing account, or purchase an annual subscription.</p>
+    </div>
+    <a class="close-reveal-modal" href="javascript:;"><i class="icon-general-close"></i><span class="screenreader-text">Close</span></a>
+</div>
+ 
+    </div>
+
+
+    
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+<script src="//cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.min.js"></script>
+
+    <script type="text/javascript" src="//oup.silverchair-cdn.com/UI/app/jsdist/v-637389617150883412/footer.min.js"></script>
+    <script async="async" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-5265518246c10183&domready=1"></script>
+
+
+    
+
+    
+
+    
+    
+
+
+
+
+    
+
+
+    <!-- Copyright 2001-2010, IBM Corporation All rights reserved. -->
+    <script src="//ouptag.scholarlyiq.com/ntpagetag.js"></script>
+    <noscript>
+        <img src="//ouptag.scholarlyiq.com/ntpagetag.gif?js=0" height="1" width="1" border="0" hspace="0" vspace="0" alt="Scholarly IQ" />
+    </noscript>
+
+
+    <div class="ad-banner js-ad-riser ad-banner-riser">
+
+    <div class="widget widget-AdBlock widget-instance-RiserAd">
+         
+    </div>
+
+    </div>
+
+
+</body>
+</html>
+

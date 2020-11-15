@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="poster/demo">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Multi Dimensions Concept-Based Information Retrieval
+                    System</title>
+                <author>
+                    <name>
+                        <forename type="first">Zainal</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Hasibaun</surname>
+                        <affiliation>
+                            <name type="org">University of Indonesia</name>, Indonesia <email/>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="2000">2000</date>
+                <publisher>
+                    <name>University of Glasgow</name>
+                </publisher>
+                <pubPlace>Glasgow</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ALLC/ACH 2000</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first">Jean</forename>
+                        <surname>Anderson</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Amal</forename>
+                        <surname>Chatterjee</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Christian</forename>
+                        <forename type="middle">J.</forename>
+                        <surname>Kay</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Margaret</forename>
+                        <surname>Scott</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item>Computational / Corpus Linguistics</item>
+                        <item> </item>
+                        <item> </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <div>
+                    <head>Introduction</head>
+                    <p>Most of the problems in information retrieval systems occur from three
+                        sources: impreciseness of query and document representations, the changing
+                        state of mind in document relevant judgement, and the discrepancy of
+                        retrieval technique to match query and information need. The traditional
+                        approach to information retrieval systems, such as Boolean based retrieval
+                        technique, cannot solve these problems (Belkin and Croft, 1987). According
+                        to McCain (1989) and Pao and Worthen (1989), retrieval by keywords and cited
+                        documents will end up with different sets of documents retrieved. There were
+                        relevant documents retrieved by keywords but not retrieved by references,
+                        and vice versa. Hence, a new approach to retrieval technique is needed.</p>
+                    <p>This study is intended to build a new approach to information retrieval
+                        systems by employing the inherent structure of a document collection in an
+                        effort to learn more about document components that might improve
+                        information retrieval performance. The document components examined are the
+                        pattern of keywords, citing documents, and cited documents. Three
+                        independent variables were studied: co-keyword, co-citing document, and
+                        co-cited document (Hasibuan, 1995). These three variables constitute the
+                        multi-dimensions concept-based information retrieval system. By providing
+                        such variables as entry points to search relevant documents, it is widening
+                        the naturalness of the system in order to accommodate users' information
+                        needs.</p>
+                </div>
+                <div>
+                    <head>Methodology</head>
+                    <p>A test collection was constructed from a collection of research articles
+                        published by National Atomic Research Agency (BATAN), covering the period
+                        1985 through 1998. An automatic program was written to build indexes of
+                        keywords, citing documents, and cited documents for each document. The
+                        relationship that may occur between two documents can be depicted as in
+                        Figure 1. Pair-wise document similarity is calculated on those three
+                        variables. As in Figure 1, the similarities between documents A and B can be
+                        viewed in terms of documents Q and S, which cite documents A and B
+                        (co-cited), and documents Y and Z, which are cited by A and B (co-citing).
+                        In addition to that, the similarity of documents A and B can be counted on
+                        the number of shared terms (co-keyword).</p>
+                    <figure>
+                        <head>Figure 1. Relationship of Two Documents (A and B)</head>
+                    </figure>
+                    <p>Document similarity is measured by using the simple matching coefficient
+                        proposed by Van Rijsbergen (1979) and Salton (1989). The similarity of
+                        document A and B is calculated as follows:<lb/><formula rend="block"
+                            >Similarity (A, B) = | X Ç Y | </formula></p>
+                    <p>The variables X and Y represent the sets of index terms occurring in two
+                        documents. Hence, the similarity of document A and B is measured in terms of
+                        the number of shared index terms. These sets of index terms can be expanded
+                        to include values for citing documents and cited documents. The retrieval
+                        technique used is based on this document similarity.</p>
+                </div>
+                <div>
+                    <head>Results</head>
+                    <p>The preliminary results of the research showed that relevant documents
+                        retrieved by one component did not always agree with other components (see
+                        Figure 1). Figure 1 shows document 0376 and document 0419 have 11 shared
+                        index terms, two shared cited documents and three shared citing documents.
+                        As we expected, most of the document pairs have zero frequency of shared
+                        cited document and shared citing document. This finding is in line with our
+                        previous research finding in Hasibuan (1995). According to these results, it
+                        is suggested to build a multi-dimension concept-based retrieval system. The
+                        system built is able to provide users with a facility to search several
+                        interrelated options of search strategy. Given that kind of facility, a user
+                        can be more flexible to start his/her search by using one of the dimensions,
+                        says keyword, then navigates the system using other dimensions of document
+                        similarity. At any moment, the documents retrieved can be viewed, evaluated
+                        and judged for their relevance.</p>
+                    <figure>
+                        <head>Figure 1. A Portion of Search Results of the Multi-dimension
+                            Concept-based Information Retrieval System</head>
+
+                    </figure>
+                    <p>The search results shown in Figure 1 are posted in a hypertext based, so that
+                        a user can continue browsing uninterruptedly, in order to further his/her
+                        search to retrieve more on the other possible relevant documents. For each
+                        pair of documents retrieved, the system will provide the frequency of its
+                        co-keyword, co-cited documents and co-citing documents. Furthermore, the
+                        non-zero frequency of each entry in the columns of co-citing and co-cited
+                        documents becomes an active icon. If we click 2 in column co-cited, then we
+                        can see the documents that are co-cited by document 0376 and 0419 (see
+                        Figure 2). There are documents 0523 and 0531. The abstract of each document
+                        retrieved can be viewed by clicking the number of the document (see Figure
+                        3).</p>
+                    <figure>
+                        <head>Figure 2. An Example of Co-cited Documents </head>
+                    </figure>
+                    <figure>
+                        <head>Figure 3. An Example of Abstract Document Retrieved</head>
+                    </figure>
+                </div>
+                <div>
+                    <head>Conclusion</head>
+                    <p>Multi-dimensions concept-based retrieval system provides relaxed facility in
+                        order to search information by utilizing the components of documents -
+                        co-keyword, co-cited documents, and co-citing documents. With this facility,
+                        the system can widely accommodate the range of user's search strategy in
+                        information seeking. The drawback of the system compared to the traditional
+                        system is that this new approach needs more space of computer storage in
+                        order to accommodate all its index files. Furthermore, it can slow down the
+                        search process. However, this trade-off is compensated for by the
+                        flexibility of the system to provide more search strategies, more
+                        comprehensive retrieval of relevant documents, and easy to browse from one
+                        document to another document. Ultimately, by utilizing these three
+                        components of a document, the system can reduce the possibility of low
+                        retrieval system performance due to the impreciseness of query and document
+                        representations, lack of relevant judgement, and lack of matching function
+                        between query and document.</p>
+                </div>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author><name><forename type="first">Nicholas</forename>
+                                    <forename type="middle"
+                                    >J.</forename><surname>Belkin</surname></name></author>
+                            <author><name><forename type="first">W.</forename>
+                                    <forename type="middle"
+                                    >Bruce</forename><surname>Croft</surname></name></author>
+                            <title level="a">Retrieval Techniques</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Annual Review of Information Science And
+                                Technology</title>
+                            <imprint>
+                                <biblScope type="vol">22</biblScope>
+                                <biblScope type="issue"/>
+                                <biblScope type="pp">109-145</biblScope>
+                                <date when="1987">1987</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <analytic>
+                            <author><name><forename type="first">Zainal</forename><forename
+                                        type="middle"
+                                    >A.</forename><surname>Hasibuan</surname></name></author>
+                            <title level="a">Document Similarity and Structure: Using Bibliometric
+                                Methods and Index Terms As Approaches to Improving Information
+                                Retrieval Performance</title>
+                        </analytic>
+                        <monogr>
+                            <edition>Doctoral Dissertation</edition>
+                            <imprint>
+                                <publisher>School of Library, Archive and Information Science,
+                                    Indiana University, Bloomington, Indiana</publisher>
+                                <date when="1995">1995</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author><name><forename type="first">Katherine</forename>
+                                    <forename type="middle"
+                                    >W.</forename><surname>McCain</surname></name></author>
+                            <title level="a">Descriptor and Citation Retrieval in the Medical
+                                Behavioral Sciences Literature: Retrieval Overlaps and
+                                Novelty</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Journal of the American Society for Information
+                                Science</title>
+                            <imprint>
+                                <biblScope type="vol">40</biblScope>
+                                <biblScope type="issue">2</biblScope>
+                                <biblScope type="pp">110-114</biblScope>
+                                <date when="1989">1989</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author><name><forename type="first">Miranda</forename>
+                                    <forename type="middle"
+                                    >L.</forename><surname>Pao</surname></name></author>
+                            <author><name><forename type="first">Dennis</forename>
+                                    <forename type="middle"
+                                    >B.</forename><surname>Worthen</surname></name></author>
+                            <title level="a">Retrieval Effectiveness by Semantic and Citation
+                                Searching</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Journal of the American Society for Information
+                                Science</title>
+                            <imprint>
+                                <biblScope type="vol">40</biblScope>
+                                <biblScope type="issue">4</biblScope>
+                                <biblScope type="pp">226-235</biblScope>
+                                <date when="1989">1989</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">Gerard</forename>
+                                    <surname>Salton</surname>
+                                </name>
+                            </author>
+                            <title level="m">Automatic Text Processing: The Transformation, Analysis
+                                and Retrieval of Information by Computer</title>
+                            <imprint>
+                                <pubPlace>New York</pubPlace>
+                                <publisher>Addison-Wesley Publishing Company</publisher>
+                                <date when="1989">1989</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">S.</forename>
+                                    <forename type="middle">R.</forename>
+                                    <surname>Van Rijsbergen</surname>
+                                </name>
+                            </author>
+                            <title level="m">Information Retrieval</title>
+                            <imprint>
+                                <pubPlace>London</pubPlace>
+                                <publisher>Butterworth</publisher>
+                                <date when="1979">1979</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

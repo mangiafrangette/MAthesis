@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="paper">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Poetic Prosthetics</title>
+                <author>
+                    <name>
+                        <forename type="first">Greg</forename>
+                        <surname>Lessard</surname>
+                        <affiliation>
+                            <name type="org">Queen's University</name>, Canada <email/>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Michael</forename>
+                        <surname>Levison</surname>
+                        <affiliation>
+                            <name type="org">Queen's University</name>, Canada <email/>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="2000">2000</date>
+                <publisher>
+                    <name>University of Glasgow</name>
+                </publisher>
+                <pubPlace>Glasgow</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ALLC/ACH 2000</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first">Jean</forename>
+                        <surname>Anderson</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Amal</forename>
+                        <surname>Chatterjee</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Christian</forename>
+                        <forename type="middle">J.</forename>
+                        <surname>Kay</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Margaret</forename>
+                        <surname>Scott</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item>Computational / Corpus Linguistics</item>
+                        <item> </item>
+                        <item> </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <div>
+                    <head>1. Introduction</head>
+                    <p>One of Chomsky's early distinctions separated 'rule-governed creativity' and
+                        'rule-changing creativity'. In the first, applications of a rule within a
+                        formal system produce new output, while in the second, some mechanism is
+                        used to change the set of rules themselves. While the overall concept of
+                        language as a rule-governed creative system has now gained general currency
+                        in linguistics, the distinction itself has found less favour. One group,
+                        however, which has used the concept, if not the term, is OuLiPo, the
+                        'Ouvroir de Littérature Potentielle' (Potential Literature Working Group), a
+                        group of French poets, novelists and mathematicians which for the past
+                        several decades has dedicated itself to the exploration of constraints as a
+                        device for enhancing poeticity. Most notable among them have been authors
+                        like Raymond Queneau and Georges Perec. Two well-known examples of their
+                        work are 'Cent mille milliards de poèmes' (One hundred billion poems) by
+                        Queneau, which uses sheets of substitutable lines of a sonnet to produce 10
+                        to the 14th power individual poems, and 'La Disparition' (The Disappearance)
+                        by Perec, a 300 plus page novel in which the letter e never appears. (See
+                        references for details.)</p>
+                    <p>More generally, OuLiPo has set as its goal the formulation and
+                        exemplification of a wide range of formal constraints which may be used to
+                        enhance and enrich poetic production. In what follows, we will survey some
+                        of the basic types of constraints. We will then show how some of these
+                        constraints may be embodied in a natural language generation system. The
+                        goal will be to illustrate how such a system may provide a prosthetic
+                        extension to humans' ability to exhaustively draw out the implications of a
+                        particular rule. Finally, we will show how such a system may also be used to
+                        modify the constraints themselves.</p>
+                </div>
+                <div>
+                    <head>2. A brief overview of some OuLiPo constructs</head>
+                    <p>The operations described in OuLiPo texts may apply at all linguistic levels,
+                        from phonemes, to letters, to words, sentences and texts. On the systemic
+                        level, they include addition and subtraction of elements and restriction of
+                        choices, while on the serial level they include concatenation and
+                        permutation. Operations may be purely formal, or involve semantics as well.
+                        Finally, the elements involved may be comparable or disparate. Let us
+                        consider some examples:</p>
+                    <div>
+                        <head>Phonemes or letters</head>
+                        <list type="bulleted">
+                            <item><emph rend="underscore">Lipograms:</emph> texts in which one or
+                                more letters is/are lacking (La Disparition, for example)</item>
+                            <item><emph rend="underscore">Shared initial letter:</emph> le chat, le
+                                chien, le chameau, ... for example, where all words in the list are
+                                based on the orthographic constraint</item>
+                            <item><emph rend="underscore">Sequences of letters:</emph> les agents,
+                                les ballons, les cambrioleurs... for example</item>
+                            <item><emph rend="underscore">Anagrams:</emph> for example, the various
+                                permutations of a word such as 'rose', including 'eros'</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>Lexical level:</head>
+                        <list type="bulleted">
+                            <item><emph rend="underscore">Synonymy:</emph> production of a text
+                                followed by systematic replacement of an initial lexical choice by a
+                                synonym</item>
+                            <item><emph rend="underscore">S + 7:</emph> replacement of each noun in
+                                a text by the seventh following noun in the dictionary</item>
+                            <item><emph rend="underscore">Word formation:</emph> for example,
+                                Raymond Queneau takes as a starting point the word 'dèvisager' (to
+                                stare someone in the face - le visage) and replaces this particular
+                                body part by two others: 'poitrine' (the chest) and 'jambe' (the
+                                leg) to create the new words 'dèpoitriner' (to stare someone in the
+                                chest) and 'dèjamber' (to stare someone in the leg). There is also
+                                an ironic secondary sense of 'removal of a body part'.</item>
+                            <item><emph rend="underscore">Word contamination:</emph> for example,
+                                Queneau blends 'formation' (training) and 'sillon' (furrow or
+                                groove) to produce 'formasillon', with its ironic identification of
+                                training and the straight and narrow path.</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>Syntactic level:</head>
+                        <list type="bulleted">
+                            <item><emph rend="underscore">Homosyntactic structures:</emph>
+                                repetition of the same syntactic frame. La Disparition contains many
+                                series of the sort, for example:<list type="bulleted">
+                                    <item>L'Alhambra brûlait, l'Institut fumait, l'Hôpital
+                                        Saint-Louis flambait. (The Alhambra burned, the Institute
+                                        smoked, Saint-Louis Hospital flamed.)</item>
+                                    <item>l'iris malin d'un cachalot colossal, narguant Jonas,
+                                        clouant Cain, fascinant Achab. (the evil iris of an enormous
+                                        sperm whale, mocking Jonas, striking Cain, fascinating
+                                        Ahab)</item>
+                                    <item>Suicida-t-il? Appuya-t-il un canon sur son zygoma?
+                                        S'ouvrait-il au rasoir dans un bain chaud? Avala-t-il un bol
+                                        d'acqua-toffana? Lança-t-il son auto dans un trou sans fond
+                                        tourbillonnant sans fin jusqu'au soir du Grand Jour,
+                                        jusqu'au jour du Grand Soir? (Did he commit suicide? Did he
+                                        put a barrel to his zygoma? Did he open his veins in a hot
+                                        bath? Did he swallow a bowl of acqua-toffana? Did he drive
+                                        his car into a bottomless pit which swirled without end
+                                        until the evening of The Day, or the day of The
+                                        Evening?)</item>
+                                </list></item>
+                        </list>
+                    </div>
+                </div>
+                <div>
+                    <head>3. Formalisation and generation of constructs</head>
+                    <p>The examples described above are formalisable, but they have been generated
+                        by humans, using their intuition at a particular point in space and time.
+                        From the computational perspective, it is interesting to ask to what extent
+                        the computer may provide us with a prosthetic device to exhaustively explore
+                        the consequences of a particular construct. In this vein, we have used the
+                        VINCI generation environment to model examples such as those above.</p>
+                    <p>Briefly, VINCI is a collection of metalanguages which allows a linguist to
+                        specify grammatical information, and an interpreter which produces
+                        utterances based on the specification provided. It includes the following components:<list>
+                            <item>a. Context-free phrase structure rules for specifying sequences.
+                                These include terminals (N, V, etc.) and attributes (masc, human,
+                                etc.). Output is in the form of structured trees. Generation of
+                                successive levels may be controlled by the characteristics of the
+                                parent level.</item>
+                            <item>b.Transformation rules, which allow systematic modification of
+                                initial trees.</item>
+                            <item>c. A lexicon, including semantic information, formal
+                                characteristics, and pointers to related forms (synonyms, antonyms,
+                                etc.)</item>
+                            <item>d. Word-formation rules, which may be applied either globally to
+                                an entire lexicon, or dynamically.</item>
+                            <item>e. Morphology rules, for inflexion.</item>
+                        </list></p>
+                    <p>Lessard and Levison (1995) and Levison and Lessard (1995) provide additional
+                        details.</p>
+                    <p>Most of the preceding examples can be captured by the VINCI formalism.</p>
+                    <p>
+                        <emph rend="underscore">Shared initial letter</emph>
+                    </p>
+                    <p>The following rule produces a sequence of masculine singular noun phrases,
+                        where each noun begins with the letter 'm'.</p>
+                    <eg rend="block">SN = DET[masc,sing,déf] N[masc,sing]/ "m*" </eg>
+                    <p>Sample output includes:<lb/><eg rend="block">le moyen, le maillot, le malheureux, le
+                            moment, le mètre, le mal</eg></p>
+                    <p>
+                        <emph rend="underscore">Lipograms in e</emph>
+                    </p>
+                    <p>These are more complex, since they require several steps, including a
+                        pre-sorting of the lexicon, to remove words containing 'e' internally, as
+                        well as those words whose morphology rule adds an 'e' (cf. grand - grande).
+                        An additional step can include a device for choosing words which begin with
+                        a vowel, thereby allowing the masculine article (cf. l'ami), or which are
+                        feminine singular (la condition). The following simple rule illustrates a
+                        specification of a small part of this:<lb/> 
+                        <eg>SN =
+                            
+                            {Masculine singular human nouns starting in 'a'} ( DET[masc, sing] N[masc, sing, humain]/ "a*" ADJ[masc, sing, humain]
+                            
+                            | {or}
+                            
+                            {Feminine singular human nouns followed by adjectives whose feminin is identical to the masculine form ($13) thus avoiding 'e'} DET[fém, sing] N[fém, sing, humain] ADJ[fém, sing, humain]/$13
+                            
+                            | {or} {etc. etc.}
+                            
+                            Sample output includes:
+                            
+                            l'ami obscur, l'amant amusant, l'avocat assis, la condition citron
+                            
+                            S+7</eg></p>
+                            
+                            <p>This can be achieved by pre-processing the lexicon so that each noun points to its seventh successor. A transformation can then be applied which replaces each noun by the word pointed to. If the pointers are in lexical field 13 with tag s7, we may write:<lb/>
+                            
+                            <eg>ROOT = S7 : SN
+                            
+                            SN = choose Ge : Genre, No : Nombre; DET[Ge,No] N[Ge,No]
+                            
+                            S7 = TRANSFORMATION DET N : 1 2/ @13:s7</eg>
+                       </p>
+                    <p>For the sake of clarity, we ignore a possible gender change.</p>
+                    <p><emph rend="underscore">Word formation</emph></p>
+                    <p>VINCI possesses a rich set of devices for forming new words. For example,
+                        given the example 'dèvisager' described above, the following rule
+                        systematically searches a lexicon for nouns having the semantic trait
+                        'partieducorps' (bodypart) and produces appropriate output:<lb/>
+                        <eg>"*e"|N|partieducorps.suj|?|?|?| _makes_ ["dé" + #1 + "r"]|V| | | | | %
+                        </eg><lb/>dévisager déventrer détêter dépoitriner dépatter déorganer
+                        déoreiller démembrer délanguer délèvrer déjouer déjamber dégorger défoier
+                        défacer déboucher débarber déailer déépauler</p>
+                    <p>Again, we have left the rule underspecified. Additional steps are required to
+                        add an -s before nouns beginning with a vowel.</p>
+                    <p><emph rend="underscore">Homosyntactic structures</emph></p>
+                    <p>It is clear that all the previous rules can be used iteratively to produce
+                        multiple occurrences of the same syntactic structure.</p>
+                </div>
+                <div>
+                    <head>4. Meta-generation</head>
+                    <p>In the cases discussed above, the goal has been to generate utterances based
+                        on grammatical descriptions, the rationale being that humans are less good
+                        than computers at exhaustively enumerating the products of a grammatical
+                        rule. It is however possible to carry the process one step further. Since
+                        VINCI grammatical specifications are themselves only text files, it is
+                        possible to use VINCI itself to generate grammatical rules which in turn
+                        generate new utterances. The advantage of such an approach comes in cases
+                        where the computer can be made to generate a large number of potential new
+                        rules, each of which generates a large number of possible products. The
+                        result can be to cause the human to see previously unthought-of rule
+                        possibilities.</p>
+                    <p>To illustrate this, consider the following problem. Languages like French
+                        (and English) allow for multiple prefixes to be added to a base form. For
+                        example, Queneau uses the word 'archidyssymètrique', which has two prefixes,
+                        while a form like 'non-anti-defoliant' is a possible English form. One way
+                        of capturing such possibilities would be to enumerate all rule combinations
+                        by hand. This would be tedious and prone to error. A better alternative
+                        would be to allow a meta-rule to generate a large number of possible
+                        prefixation rules and then to use these to produce typical examples. For
+                        example, consider the following meta-rules:<lb/>
+                        <eg>MANYPREFIXES = (PREFIX: MANYPREFIXES | PREFIX )
+                            PREFIX = (PREFIX_NON | PREFIX_RE | ...)
+                            ROOT = (MANYPREFIXES: N | MANYPREFIXES: V | MANYPREFIXES : ADJ )
+                            
+                            where PREFIX_NON etc. are transformations.
+                            
+                            When applied, these meta-rules produce grammatical rules like:
+                            
+                            ROOT = PREFIX_NON : N
+                            ROOT = PREFIX_NON : PREFIX_RE : V
+                            ROOT = PREFIX_RE : PREFIX_NON : ADJ
+                            ROOT = PREFIX_NON : PREFIX_NON : PREFIX_RE : ... V </eg>
+                        <lb/>and so on, which in turn can be used to generate actual
+                        utterances. Obviously, additional elements would be required to control more
+                        precisely the nature of the prefixes, but the essential principle should be
+                        clear.</p>
+                    <p>An intermediate step is also possible, in which VINCI hands control
+                        temporarily back to a user. So, for example, a researcher might have put in
+                        front of him or her a partially developed meta-rule and be asked to insert
+                        particular values. </p>
+                </div>
+                <div>
+                    <head>5. Conclusions</head>
+                    <p>We assume, with OuLiPo, that poeticity hinges at least partially on dynamic
+                        playing with constraints. Similarly, we have as a premise that at least some
+                        aspects of inspiration or creativity involve finding previously unseen
+                        patterns. Given these premises, a device which puts potential patterns
+                        before us (which prosthetically increases our power to envisage new devices)
+                        is of interest.</p>
+                    <p>In the proposed paper, we will illustrate these assumptions with a richer
+                        range of examples and with a more detailed discussion of the theoretical
+                        issues which underpin them.</p>
+                </div>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <biblStruct type="book">
+                    <monogr>
+                        <author>
+                            <name>
+                                <forename type="first">J.</forename>
+                                <surname>Bens</surname>
+                            </name>
+                        </author>
+                        <title level="m">OuLiPo 1960-1963</title>
+                        <imprint>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Christian Bourgeois</publisher>
+                            <date when="1980">1980</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct type="book">
+                    <monogr>
+                        <author>
+                            <name>
+                                <forename type="first">A.</forename>
+                                <surname>Bergens</surname>
+                            </name>
+                        </author>
+                        <title level="m">Raymond Queneau</title>
+                        <imprint>
+                            <pubPlace>Genève</pubPlace>
+                            <publisher>Droz</publisher>
+                            <date when="1963">1963</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct type="bookChapter">
+                    <analytic>
+                        <author><name><forename type="first">G.</forename>
+                                <surname>Lessard</surname></name></author>
+                        <author><name><forename type="first">M</forename>
+                                <surname>Levison</surname></name></author>
+                        <title level="a">Le logiciel VINCI: lexigrammaire et génération
+                            automatique</title>
+                    </analytic>
+                    <monogr>
+                        <editor>
+                            <name>
+                                <forename type="first">J.</forename>
+                                <surname>Labelle</surname>
+                            </name>
+                        </editor>
+                        <title level="m">Lexiques-grammaires comparès et traitements
+                            automatiques</title>
+                        <imprint>
+                            <pubPlace/>
+                            <publisher>Université du Québec à Montréal</publisher>
+                            <date when="1995">1995</date>
+                            <biblScope type="pp">175-185</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct type="journalArticle">
+                    <analytic>
+                        <author><name><forename type="first">M.</forename>
+                                <surname>Levison</surname></name></author>
+                        <author><name><forename type="first">G.</forename>
+                                <surname>Lessard</surname></name></author>
+                        <title level="a">New Words from Old: A Formalism for Word Formation</title>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Computers and the Humanities </title>
+                        <imprint>
+                            <biblScope type="vol">29</biblScope>
+                            <biblScope type="issue"/>
+                            <biblScope type="pp">463-479</biblScope>
+                            <date when="1995">1995</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct type="book">
+                    <monogr>
+                        <author>
+                            <name type="org">OuLiPo</name>
+                        </author>
+                        <title level="m">Atlas de littérature potentielle</title>
+                        <imprint>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date when="1981">1981</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct type="book">
+                    <monogr>
+                        <author>
+                            <name type="org">OuLiPo</name>
+                        </author>
+                        <title level="m">La bibliothèque oulipienne</title>
+                        <imprint>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Slatkine</publisher>
+                            <date when="1981">1981</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct type="book">
+                    <monogr>
+                        <author>
+                            <name>
+                                <forename type="first">G.</forename>
+                                <surname>Perec</surname>
+                            </name>
+                        </author>
+                        <title level="m">La Disparition</title>
+                        <imprint>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Denoel</publisher>
+                            <date when="1969">1969</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct type="book">
+                    <monogr>
+                        <author>
+                            <name>
+                                <forename type="first">R.</forename>
+                                <surname>Queneau</surname>
+                            </name>
+                        </author>
+                        <title level="m">Oeuvres complètes</title>
+                        <edition>Edition établie par Cl. Debon</edition>
+                        <imprint>
+                            <biblScope type="pp">tome I</biblScope>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date when="1989">1989</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct type="book">
+                    <monogr>
+                        <author>
+                            <name>
+                                <forename type="first">R.</forename>
+                                <surname>Queneau</surname>
+                            </name>
+                        </author>
+                        <title level="m">Chêne et chien</title>
+                        <imprint>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date when="1969">1969</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </div>
+        </back>
+    </text>
+</TEI>

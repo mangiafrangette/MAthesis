@@ -1,0 +1,1692 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+
+        <title>Beyond validation: Using programmed diagnostics to learn about, monitor, and successfully complete your DH project | Digital Scholarship in the Humanities | Oxford Academic</title>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js" type="text/javascript"></script>
+<script>window.jQuery || document.write('<script src="//oup.silverchair-cdn.com/UI/app/vendor/jquery-2.2.4.js" type="text/javascript">\x3C/script>')</script>
+<script src="//oup.silverchair-cdn.com/Themes/Silver/app/vendor/v-637389614866021597/jquery-migrate-1.4.1.min.js" type="text/javascript"></script>
+
+
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+    
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <!-- Turn off telephone number detection. -->
+    <meta name="format-detection" content="telephone=no" />
+
+<!-- Bookmark Icons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="//oup.silverchair-cdn.com/UI/app/img/v-637389614697592184/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="//oup.silverchair-cdn.com/UI/app/img/v-637389614697748397/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="//oup.silverchair-cdn.com/UI/app/img/v-637389614697748397/favicon-16x16.png" sizes="16x16">
+  <link rel="mask-icon" href="//oup.silverchair-cdn.com/UI/app/img/v-637389614697748397/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="//oup.silverchair-cdn.com/UI/app/img/v-637389614697748397/favicon.ico">
+  <link rel="manifest" href="//oup.silverchair-cdn.com/UI/app/img/v-637389614697748397/manifest.json">
+  <meta name="msapplication-config" content="//oup.silverchair-cdn.com/UI/app/img/v-637389614697592184/browserconfig.xml">
+  <meta name="theme-color" content="#002f65">
+
+
+    
+
+
+
+
+<link rel="stylesheet" type="text/css" href="//oup.silverchair-cdn.com/UI/app/fonts/icons.css" />
+
+<link rel="stylesheet" type="text/css" href="//oup.silverchair-cdn.com/UI/app/css/v-637389617098071498/style.min.css" />
+
+        <link rel="stylesheet" type="text/css" href="//oup.silverchair-cdn.com/UI/app/vendor/oupCookiePolicy/css/v-637389614698998372/jquery.fancybox-1.3.4_1.css" />
+        <link rel="stylesheet" type="text/css" href="//oup.silverchair-cdn.com/UI/app/vendor/jscrollpane/v-637389614698998372/jscrollpane.css" />
+        <link rel="stylesheet" type="text/css" href="//oup.silverchair-cdn.com/UI/app/vendor/jquery.tablesorter/v-637389614698998372/theme.default.css" />
+
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Merriweather:300,400,400italic,700,700italic|Source+Sans+Pro:400,400italic,700,700italic" />
+
+
+        <link href=//oup.silverchair-cdn.com/data/SiteBuilderAssetsOriginals/Live/CSS/journals/global.css rel="stylesheet" type="text/css" />
+                <link href=//oup.silverchair-cdn.com/data/SiteBuilderAssets/Live/CSS/dsh/Site567563881.css rel="stylesheet" type="text/css" />
+
+
+
+    <script> var dataLayer = [{"event_type":"full-text","supplier_tag":"SC_Journals","object_type":"Article","siteid":"dsh","authzrequired":"false","doi":"10.1093/llc/fqz011"}]; </script>
+        <script>
+        (function (w, d, s, l, i) {
+          w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+              new Date().getTime(), event: 'gtm.js'
+          }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-W6DD7HV');
+        </script>
+
+    
+
+        <script type="text/javascript">
+            var App = App || {};
+            App.LoginUserInfo = {
+                isInstLoggedIn: 0,
+                isIndividualLoggedIn: 0
+            };
+
+            App.CurrentSubdomain = 'dsh';
+            App.SiteURL = 'academic.oup.com/dsh';
+        </script>
+    
+    
+    <link href="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css" rel="stylesheet" type="text/css" />
+    <script type="application/ld+json">
+        {"@context":"http://schema.org","@id":"https://academic.oup.com/dsh/article/34/Supplement_1/i100/5381103","@type":"ScholarlyArticle","name":"Beyond validation: Using programmed diagnostics to learn about, monitor, and successfully complete your DH project","datePublished":"2019-03-14","isPartOf":{"@id":"https://academic.oup.com/dsh/dsh/issue/34/Supplement_1","@type":"PublicationIssue","issueNumber":"Supplement_1","datePublished":"2019-12-01","isPartOf":{"@id":"https://academic.oup.com/dsh/dsh","@type":"Periodical","name":"Digital Scholarship in the Humanities","issn":["2055-768X"]}},"url":"http://dx.doi.org/10.1093/llc/fqz011","inLanguage":"en","copyrightHolder":"EADH: The European Association for Digital Humanities","copyrightYear":"2020","publisher":"Oxford University Press","sameAs":"https://academic.oup.com/dsh/article/34/Supplement_1/i100/5381103","author":[{"name":"Holmes, Martin","affiliation":"Humanities Computing and Media Centre, University of Victoria ,  Canada","@type":"Person","sameAs":"http://orcid.org/0000-0002-3944-1116"},{"name":"Takeda, Joseph","affiliation":"Department of English Language and Literatures, University of British Columbia ,  Canada","@type":"Person"}],"description":"Abstract.  Digital humanities projects have long relied on various schema languages—chiefly, RELAX NG and Schematron—for validating the XML documents in their d","pageStart":"i100","pageEnd":"i109","thumbnailURL":"https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/dsh/Issue/34/Supplement_1/2/m_digitalsh_34_suppl_1cover.png?Expires=1667832954&Signature=lG32okJkYQMFgCU8FGVXCK61SifxtdVwQobf2rbosdKnn9zvJROtgx~ooTkihzpjuc34K9Z4l65Q8MbCN~PMjCSiSEmcHuFJk~6xXKHyfZnBQOj7WxS6VkareBw3S0YZB7lO9IA6JHT-rSh48AGcMpWxgXPUvkV35Zz96pVbIbJEzbI5p7zzo2f-NHujnIKKjbDxCn8k7wJ4yD14z5Hw9bMH8iHt9b96x2k7AuPr4FYmO9iYLhR00ThnFMiiM7bo6CrLtbBfNwDn8XgR13rwNFw-26PkR9QX1b6R5Vtyl7YIvSqqHHIOdr2tu9LILrgjFpWJmNqs0eKsH4YWdJfUZg__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA","headline":"Beyond validation: Using programmed diagnostics to learn about, monitor, and successfully complete your DH project","image":"https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/dsh/Issue/34/Supplement_1/2/m_digitalsh_34_suppl_1cover.png?Expires=1667832954&Signature=lG32okJkYQMFgCU8FGVXCK61SifxtdVwQobf2rbosdKnn9zvJROtgx~ooTkihzpjuc34K9Z4l65Q8MbCN~PMjCSiSEmcHuFJk~6xXKHyfZnBQOj7WxS6VkareBw3S0YZB7lO9IA6JHT-rSh48AGcMpWxgXPUvkV35Zz96pVbIbJEzbI5p7zzo2f-NHujnIKKjbDxCn8k7wJ4yD14z5Hw9bMH8iHt9b96x2k7AuPr4FYmO9iYLhR00ThnFMiiM7bo6CrLtbBfNwDn8XgR13rwNFw-26PkR9QX1b6R5Vtyl7YIvSqqHHIOdr2tu9LILrgjFpWJmNqs0eKsH4YWdJfUZg__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA"}
+    </script>
+    <meta property="og:site_name" content="OUP Academic" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Beyond validation: Using programmed diagnostics to learn about, monitor, and successfully complete your DH project" />
+    <meta property="og:description" content="Abstract.  Digital humanities projects have long relied on various schema languages—chiefly, RELAX NG and Schematron—for validating the XML documents in their d" />
+    <meta property="og:url" content="https://academic.oup.com/dsh/article/34/Supplement_1/i100/5381103" />
+    <meta property="og:image" content="https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/dsh/Issue/34/Supplement_1/2/m_digitalsh_34_suppl_1cover.png?Expires=1667832954&amp;Signature=lG32okJkYQMFgCU8FGVXCK61SifxtdVwQobf2rbosdKnn9zvJROtgx~ooTkihzpjuc34K9Z4l65Q8MbCN~PMjCSiSEmcHuFJk~6xXKHyfZnBQOj7WxS6VkareBw3S0YZB7lO9IA6JHT-rSh48AGcMpWxgXPUvkV35Zz96pVbIbJEzbI5p7zzo2f-NHujnIKKjbDxCn8k7wJ4yD14z5Hw9bMH8iHt9b96x2k7AuPr4FYmO9iYLhR00ThnFMiiM7bo6CrLtbBfNwDn8XgR13rwNFw-26PkR9QX1b6R5Vtyl7YIvSqqHHIOdr2tu9LILrgjFpWJmNqs0eKsH4YWdJfUZg__&amp;Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" />
+    <meta property="og:updated_time" content="2019-03-14" />
+<meta name="citation_author" content="Holmes, Martin" /><meta name="citation_author_institution" content="Humanities Computing and Media Centre, University of Victoria, Canada" /><meta name="citation_author" content="Takeda, Joseph" /><meta name="citation_author_institution" content="Department of English Language and Literatures, University of British Columbia, Canada" /><meta name="citation_title" content="Beyond validation: Using programmed diagnostics to learn about, monitor, and successfully complete your DH project" /><meta name="citation_firstpage" content="i100" /><meta name="citation_lastpage" content="i109" /><meta name="citation_doi" content="10.1093/llc/fqz011" /><meta name="citation_journal_title" content="Digital Scholarship in the Humanities" /><meta name="citation_journal_abbrev" content="Digital Scholarship Humanities" /><meta name="citation_volume" content="34" /><meta name="citation_issue" content="Supplement_1" /><meta name="citation_publication_date" content="2019/12/01" /><meta name="citation_issn" content="2055-7671" /><meta name="citation_publisher" content="Oxford Academic" /><meta name="citation_reference" content="Burnard L. ( 2016 ). How to Update Your ODD. TEI GitHub Repository. http://teic.github.io/PDF/purifyDoc.pdf (accessed 18 February 2019). " /><meta name="citation_reference" content="citation_author=Burnard  L.; citation_publisher=Victoria, BC;  citation_title=TEI 2017 Conference;  citation_year=2017; " /><meta name="citation_reference" content="citation_title=Using TEI for an endangered language lexical resource: The Nxaʔamxcín Database-Dictionary Project; citation_author=Czaykowska-Higgins  E.; citation_author=Holmes  M.; citation_author=Kell  S.;  citation_journal_title=Language Documentation &amp; Conservation;  citation_year=2014;  citation_volume=8;  citation_pages=1-37; " /><meta name="citation_reference" content="Durand J., Green S., Kulvatunyou S., Rutt T. ( 2009 ). Test assertions on steroids for XML artifacts. In Balisage: The Markup Conference Abstracts. https://www.balisage.net/Proceedings/vol3/html/Durand01/BalisageVol3-Durand01.html (accessed 18 February 2019). " /><meta name="citation_reference" content="Guidelines for Editors of Scholarly Editions. ( 2016 ). Modern Language Association. https://www.mla.org/Resources/Research/Surveys-Reports-and-Other-Documents/Publishing-and-Scholarship/Reports-from-the-MLA-Committee-on-Scholarly-Editions/Guidelines-for-Editors-of-Scholarly-Editions (accessed 18 February 2019). " /><meta name="citation_reference" content="Holmes M. ( 2010 ). Using the universal similarity metric to map correspondences between witnesses. In Digital Humanities 2010 Conference Abstracts, Kings College London. http://dh2010.cch.kcl.ac.uk/academic-programme/abstracts/papers/html/ab-693.html (accessed 18 February 2019). " /><meta name="citation_reference" content="Jacinto M. H., Librelotto G. R., José Carlos Ramalho J. C., Henriques P. R. ( 2002 ). Constraint Specification Languages: Comparing XCSL, Schematron and XML-Schemas. http://repositorium.sdum.uminho.pt/handle/1822/619 (accessed 18 February 2019). " /><meta name="citation_reference" content="citation_author=Jenstad  J.; citation_publisher=University of Victoria, ;  citation_title=The Map of Early Modern London;  citation_year=2018; " /><meta name="citation_reference" content="citation_title=Done: finishing projects in the digital humanities; citation_author=Kirschenbaum  M.;  citation_journal_title=DHQ;  citation_year=2009;  citation_volume=3;  citation_issue=2; " /><meta name="citation_reference" content="Proceedings of the International Symposium on Quality Assurance and Quality Control in XML ( 2012 ). http://www.balisage.net/Proceedings/vol9/contents.html (accessed 18 February 2019). " /><meta name="citation_reference" content="Rahtz S. ( 2007 ). Technology Overview and Discussion: Data Capture, Editing, and Schemas. Oxford, February 13. http://tei.it.ox.ac.uk/Talks/2007-02-13-oucs/talk-editing.xml (accessed 18 February 2019). " /><meta name="citation_reference" content="citation_author=Sternbach  R.; citation_author=Okuda  M.; citation_publisher=Pocket Books, New York;  citation_title=Star Trek, the next Generation: Technical Manual;  citation_year=1991; " /><meta name="citation_reference" content="TEI Consortium (eds) ( 2016 ). TEI P5: guidelines for electronic text encoding and interchange. 3.5.0. 29 January 2019. TEI Consortium. http://www.tei-c.org/Guidelines/P5/ (accessed 18 February 2019). " /><meta name="citation_reference" content="citation_title=Beyond schemas: schema adjuncts and the outside world; citation_author=Vorthmann  S.; citation_author=Robie  J.;  citation_journal_title=Markup Languages: Theory &amp; Practice;  citation_year=2001;  citation_volume=2;  citation_issue=3;  citation_pages=281-94; " /><meta name="citation_reference" content="Waldt D. ( 2012 ). Quality Assurance in the XML World: Beyond Validation. http://www.balisage.net/Proceedings/vol9/author-pkg/Waldt01/BalisageVol9-Waldt01.html (accessed 18 February 2019). " /><meta name="citation_pdf_url" content="https://academic.oup.com/dsh/article-pdf/34/Supplement_1/i100/31686004/fqz011.pdf" /><meta name="description" content="Abstract.  Digital humanities projects have long relied on various schema languages—chiefly, RELAX NG and Schematron—for validating the XML documents in their d" /><meta name="citation_xml_url" content="https://academic.oup.com/dsh/article-xml/34/Supplement_1/i100/5381103" />
+
+
+
+    <link rel="canonical" href="https://academic.oup.com/dsh/article/34/Supplement_1/i100/5381103" />
+
+
+
+
+
+
+
+    
+    
+
+
+<script async="async" src="https://www.googletagservices.com/tag/js/gpt.js"></script>
+<script>
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+</script>
+
+
+    
+
+
+    
+
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    <script>
+        var oupcookiepolicy_siteid = "journals";        // the website id
+        var oupcookiepolicy_messagetype = 'implied';                        // type of alert message e.g, implied / explicit
+        var oupcookiepolicy_preferredlanguage = "en";      // preferred language of the website
+        var oupcookiepolicy_impliedmessageclass = 'cookiepolicyimplied';    // the css class for implied alert message
+        var oupcookiepolicy_documentroot = '/';	  			                // the document root the cookie is set to
+    </script>
+    <noscript>We use cookies to enhance your experience on our website.By continuing to use our website, you are agreeing to our use of cookies. You can change your cookie settings at any time. <a href="https://global.oup.com/cookiepolicy/"> Find out more</a></noscript>
+    <script type="text/javascript">
+        var NTPT_PGEXTRA= 'event_type=full-text&supplier_tag=SC_Journals&object_type=Article&siteid=dsh&authzrequired=false&doi=10.1093/llc/fqz011';
+    </script>
+
+
+
+
+    <script src="https://scholar.google.com/scholar_js/casa.js" async></script>
+
+
+</head>
+
+<body data-sitename="digitalscholarshipinthehumanities" class="off-canvas pg_Article pg_article  " theme-dsh data-sitestyletemplate="Journal" >
+    
+        <noscript>
+            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W6DD7HV"
+                    height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
+        <a href="#skipNav" class="skipnav">Skip to Main Content</a>
+<input id="hdnSiteID" name="hdnSiteID" type="hidden" value="5447" /><input id="hdnAdDelaySeconds" name="hdnAdDelaySeconds" type="hidden" value="5000" /><input id="hdnAdConfigurationTop" name="hdnAdConfigurationTop" type="hidden" value="default" /><input id="hdnAdConfigurationRightRail" name="hdnAdConfigurationRightRail" type="hidden" value="sticky" />
+    
+
+
+
+
+
+
+<div class="master-container js-master-container">
+    <section class="master-header row js-master-header vt-site-page-header">
+    <div class="widget widget-SitePageHeader widget-instance-SitePageHeader">
+        
+    <div class="ad-banner js-ad-banner-header">
+    <div class="widget widget-AdBlock widget-instance-HeaderAd">
+        
+
+<div class="adBlockHeader-wrap js-adBlockHeader hide">
+    
+    <div id="adBlockHeader"
+         style=" ">
+        <script>
+            googletag.cmd.push(function () { googletag.display('adBlockHeader'); });
+        </script>
+    </div>
+        <div class="advertisement-text">Advertisement</div>
+</div> 
+    </div>
+
+    </div>
+
+    <div class="oup-header ">
+        <div class="center-inner-row">
+            <div class="oup-header-logo">
+                <a href="/">
+                    <img src="//oup.silverchair-cdn.com/UI/app/svg/umbrella/oxford-academic-logo.svg" alt="Oxford University Press" class="oup-header-image" />
+                </a>
+            </div>
+
+            <ul class="oup-header-menu account-menu">
+
+                
+                <li class="oup-header-menu-item mobile">
+                    <a href="javascript:;" class="mobile-dropdown-toggle mobile-search-toggle">
+                        <i class="icon-menu_search"><span class="screenreader-text">Search Menu</span></i>
+                    </a>
+                </li>
+
+                
+                <li class="oup-header-menu-item mobile">
+                        <a href="javascript:;" class="mobile-dropdown-toggle mobile-account-toggle">
+                            <i class="icon-menu_account"><span class="screenreader-text">Account Menu</span></i>
+                        </a>
+                </li>
+
+                
+                <li class="oup-header-menu-item mobile">
+                    <a href="javascript:;" class="mobile-dropdown-toggle mobile-nav-toggle">
+                        <i class="icon-menu_hamburger"><span class="screenreader-text">Menu</span></i>
+                    </a>
+                </li>
+
+                
+                <li class="oup-header-menu-item desktop">
+                        <a href="" class="dropdown-toggle signin js-header-account-info-user-fullname" id="header-account-info-user-fullname-desktop">
+Sign In                            <i class="icon-general-arrow-filled-down arrow-icon"></i>
+                        </a>
+                        <div class="dropdown-panel dropdown-panel-signin dropdown-panel-form">
+                            <div class="spinner"></div>
+                        </div>
+                </li>
+
+                
+                    <li class="oup-header-menu-item desktop"><a href="/my-account/register?siteId=5447&amp;returnUrl=%2fdsh%2farticle%2f34%2fSupplement_1%2fi100%2f5381103" class="register">Register</a></li>
+                
+            </ul>
+
+            <div class="login-box-placeholder js-login-box-placeholder hide">
+                <div class="spinner"></div>
+            </div>
+        </div>
+    </div>
+<div class="dropdown-panel-wrap">
+
+    
+    <div class="dropdown-panel mobile-search-dropdown">
+        <div class="mobile-search-inner-wrap">
+                <div class="navbar-search">
+                    <div id="MobileMicrositeSearch" class="mobile-microsite-search">
+                        <label for="mobile-navbar-search-filter" class="screenreader-text">Navbar Search Filter</label>
+                        <select class="navbar-search-filter" id="mobile-navbar-search-filter">
+                                                            <optgroup label="Search within this journal">
+<option class="header-search-bar-filters-item" value="Issue">This issue</option><option class="header-search-bar-filters-item" value="">All  Digital Scholarship in the Humanities</option>
+                                </optgroup>
+                                <optgroup label="Search beyond this journal">
+<option class="header-search-bar-filters-item" value="Journals">All  Journals</option>                                </optgroup>
+                        </select>
+
+
+
+
+
+                        <label for="MobileMicrositeSearchTerm" class="screenreader-text">Mobile Microsite Search Term</label>
+                        <input class="mobile-search-input mobile-microsite-search-term" type="text" maxlength="255" placeholder="Search" id="MobileMicrositeSearchTerm">
+
+                        <a href="javascript:;" id="MobileMicrositeSearchIcon" class="mobile-microsite-search-icon mobile-search-submit icon-menu_search"><span class="screenreader-text">Search</span></a>
+
+                    </div>
+                </div>        </div>
+    </div>
+    
+    <div class="dropdown-panel mobile-account-dropdown">
+        <ul class="site-menu site-menu-lvl-0">
+            <li class="site-menu-item site-menu-lvl-0">
+                <a href="" class="nav-link mobile-account-signin dummy-link js-header-account-info-user-fullname" id="header-account-info-user-fullname-mobile">
+                    
+Sign In                    <i class="mobile-nav-arrow icon-general_arrow-down"></i>
+                </a>
+                <ul class="site-menu site-menu-lvl-1 individual-menu">
+                    <li class="dropdown-signin-form">
+                        <div class="spinner"></div>
+                    </li>
+                </ul>
+            </li>
+                            <li class="site-menu-item">
+                    <a href="/my-account/register?siteId=5447&amp;returnUrl=%2fdsh%2farticle%2f34%2fSupplement_1%2fi100%2f5381103" class="register nav-link">Register</a>
+                </li>
+        </ul>
+    </div>
+    
+    <div class="dropdown-panel mobile-nav-dropdown">
+
+
+    <i class="desktop-nav-arrow icon-general-arrow-filled-down arrow-icon"></i><i class="mobile-nav-arrow icon-general_arrow-down"></i>
+    <ul class="site-menu site-menu-lvl-0">
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426198">
+                <a href="/dsh/issue" class="nav-link ">Issues</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426199">
+                <a href="/dsh/advance-articles" class="nav-link ">Advance articles</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426196">
+                <a href="/dsh/#" class="nav-link dummy-link">Submit</a>
+                    <i class="desktop-nav-arrow icon-general-arrow-filled-down arrow-icon"></i><i class="mobile-nav-arrow icon-general_arrow-down"></i>
+    <ul class="site-menu site-menu-lvl-1">
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426200">
+                <a href="/dsh/pages/General_Instructions" class="nav-link ">Author Guidelines</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426201">
+                <a href="http://mc.manuscriptcentral.com/dsh" class="nav-link ">Submission Site</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426202">
+                <a href="/dsh/pages/General_Instructions" class="nav-link ">Open Access</a>
+                
+            </li>
+    </ul>
+
+            </li>
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426203">
+                <a href="/dsh/subscribe" class="nav-link ">Purchase</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426204">
+                <a href="/my-account/email-alerts" class="nav-link ">Alerts</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426197">
+                <a href="/dsh/#" class="nav-link dummy-link">About</a>
+                    <i class="desktop-nav-arrow icon-general-arrow-filled-down arrow-icon"></i><i class="mobile-nav-arrow icon-general_arrow-down"></i>
+    <ul class="site-menu site-menu-lvl-1">
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426205">
+                <a href="/dsh/pages/About" class="nav-link ">About Digital Scholarship in the Humanities</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426206">
+                <a href="http://eadh.org/about" class="nav-link ">About the European Association for Digital Humanities</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426207">
+                <a href="http://adho.org/about" class="nav-link ">About the Alliance of Digital Humanities Organizations</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426208">
+                <a href="/dsh/pages/Editorial_Board" class="nav-link ">Editorial Board</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426209">
+                <a href="http://www.oupmediainfo.com/" class="nav-link ">Advertising and Corporate Services</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426210">
+                <a href="https://globaljobs-careernetwork.oxfordjournals.org/" class="nav-link ">Journals Career Network</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426211">
+                <a href="https://academic.oup.com/journals/pages/access_purchase/rights_and_permissions/self_archiving_policy_f" class="nav-link ">Self-Archiving Policy</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426212">
+                <a href="http://www.oxfordjournals.org/en/access-purchase/dispatch-dates.html" class="nav-link ">Dispatch Dates</a>
+                
+            </li>
+    </ul>
+
+            </li>
+    </ul>
+    </div>
+
+</div>
+
+
+    <div class="journal-header journal-bg">
+        <div class="center-inner-row">
+                            <a href="/dsh" class="journal-logo-container">
+                    <img id="logo-DigitalScholarshipintheHumanities" class="journal-logo" src="//oup.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/dsh/dsh_title242156087.svg" alt="Digital Scholarship in the Humanities" />
+                </a>
+
+            <div class="society-logo-block">
+                    <div class="society-block-inner-wrap">
+                            <a href="http://eadh.org/" target="" class="society-logo-container">
+                                <img id="logo-EuropeanAssociationforDigitalHumanities" class="society-logo" src="//oup.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/dsh/dsh_h1-1114140978.png" alt="European Association for Digital Humanities" />
+                            </a>
+                                                    <a href="http://adho.org/" target="" class="society-logo-container">
+                                <img id="logo-AllianceofDigitalHumanitiesOrganizations" class="society-logo" src="//oup.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/dsh/dsh_h2-398941868.png" alt="Alliance of Digital Humanities Organizations" />
+                            </a>
+                    </div>            </div> 
+        </div>
+    </div>
+<div class="navbar">
+    <div class="center-inner-row">
+        <nav class="navbar-menu">
+
+
+    <i class="desktop-nav-arrow icon-general-arrow-filled-down arrow-icon"></i><i class="mobile-nav-arrow icon-general_arrow-down"></i>
+    <ul class="site-menu site-menu-lvl-0">
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426198">
+                <a href="/dsh/issue" class="nav-link ">Issues</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426199">
+                <a href="/dsh/advance-articles" class="nav-link ">Advance articles</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426196">
+                <a href="/dsh/#" class="nav-link dummy-link">Submit</a>
+                    <i class="desktop-nav-arrow icon-general-arrow-filled-down arrow-icon"></i><i class="mobile-nav-arrow icon-general_arrow-down"></i>
+    <ul class="site-menu site-menu-lvl-1">
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426200">
+                <a href="/dsh/pages/General_Instructions" class="nav-link ">Author Guidelines</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426201">
+                <a href="http://mc.manuscriptcentral.com/dsh" class="nav-link ">Submission Site</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426202">
+                <a href="/dsh/pages/General_Instructions" class="nav-link ">Open Access</a>
+                
+            </li>
+    </ul>
+
+            </li>
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426203">
+                <a href="/dsh/subscribe" class="nav-link ">Purchase</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426204">
+                <a href="/my-account/email-alerts" class="nav-link ">Alerts</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1426197">
+                <a href="/dsh/#" class="nav-link dummy-link">About</a>
+                    <i class="desktop-nav-arrow icon-general-arrow-filled-down arrow-icon"></i><i class="mobile-nav-arrow icon-general_arrow-down"></i>
+    <ul class="site-menu site-menu-lvl-1">
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426205">
+                <a href="/dsh/pages/About" class="nav-link ">About Digital Scholarship in the Humanities</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426206">
+                <a href="http://eadh.org/about" class="nav-link ">About the European Association for Digital Humanities</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426207">
+                <a href="http://adho.org/about" class="nav-link ">About the Alliance of Digital Humanities Organizations</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426208">
+                <a href="/dsh/pages/Editorial_Board" class="nav-link ">Editorial Board</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426209">
+                <a href="http://www.oupmediainfo.com/" class="nav-link ">Advertising and Corporate Services</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426210">
+                <a href="https://globaljobs-careernetwork.oxfordjournals.org/" class="nav-link ">Journals Career Network</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426211">
+                <a href="https://academic.oup.com/journals/pages/access_purchase/rights_and_permissions/self_archiving_policy_f" class="nav-link ">Self-Archiving Policy</a>
+                
+            </li>
+            <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1426212">
+                <a href="http://www.oxfordjournals.org/en/access-purchase/dispatch-dates.html" class="nav-link ">Dispatch Dates</a>
+                
+            </li>
+    </ul>
+
+            </li>
+    </ul>
+        </nav>
+            <div class="navbar-search-container js-navbar-search-container">
+                <a href="javascript:;" class="navbar-search-close js_close-navsearch">Close</a>
+                    <div class="navbar-search">
+                        <div id="MicrositeSearch" class="microsite-search">
+                            <label for="navbar-search-filter" class="screenreader-text">search filter</label>
+                            <select class="navbar-search-filter" id="navbar-search-filter">
+                                                                    <optgroup label="Search within this journal">
+                                                <option class="header-search-bar-filters-item" value="Issue" >This issue</option>
+                                                <option class="header-search-bar-filters-item" value="" selected=&quot;selected&quot;>All  Digital Scholarship in the Humanities</option>
+
+                                    </optgroup>
+                                    <optgroup label="Search beyond this journal">
+                                                <option class="header-search-bar-filters-item" value="Journals" >All  Journals</option>
+                                    </optgroup>
+                            </select>
+
+                            <label for="MicrositeSearchTerm" class="screenreader-text">search input</label>
+                            <input class="navbar-search-input microsite-search-term" type="text" maxlength="255" id="MicrositeSearchTerm" title="search input">
+
+                            <a href="javascript:;" id="MicrositeSearchIcon" class="microsite-search-icon navbar-search-submit icon-menu_search"><span class="screenreader-text">Search</span></a>
+
+                        </div>
+                    </div>                <div class="navbar-search-advanced"><a href="/dsh/advanced-search" class="advanced-search js-advanced-search">Advanced Search</a></div>
+            </div>            <div class="navbar-search-collapsed"><a href="javascript:;" class="icon-menu_search js_expand-navsearch"><span class="screenreader-text">Search Menu</span></a></div>
+    </div>
+</div>
+
+<input id="hfEnableOupOnlineProductsFeatures" name="hfEnableOupOnlineProductsFeatures" type="hidden" value="False" />
+
+    <input type="hidden" name="searchScope" id="hfSolrJournalID" value="" />
+    <input type="hidden" id="hfSolrJournalName" value="" />
+    <input type="hidden" id="hfSolrMaxAllowSearchChar" value="100" />
+    <input type="hidden" id="hfJournalShortName" value="" />
+    <input type="hidden" id="hfSearchPlaceholder" value="" />
+    <input type="hidden" name="hfGlobalSearchSiteURL" id="hfGlobalSearchSiteURL" value="" />
+        <input type="hidden" name="parentSiteName" id="hfParentSiteName" value="Journals" />
+        <input type="hidden" name="parentSiteUrl" id="hfParentSiteUrl" value="academic.oup.com/journals" />
+        <input type="hidden" name="siteID" id="hfSiteID" value="5447" />
+        <input type="hidden" name="parentSiteID" id="hfParentSiteID" value="5567" />
+        <input type="hidden" name="journalSiteScope" id="hfJournalSiteScope" value="Journals" />
+        <input type="hidden" name="parentSiteScope" id="hfParentSiteScope" value="Parent" />
+        <input type="hidden" name="defaultSearchURL" id="hfDefaultSearchURL" value="search-results?page=1&amp;q=" />
+        <input type="hidden" name="issueSearch" id="hfIssueSearch" value="&amp;fl_IssueID=118775" />
+        <input type="hidden" name="issueSiteScope" id="hfIssueSiteScope" value="Issue" />
+<input id="hfDefaultAdvancedSearchUrl" name="hfDefaultAdvancedSearchUrl" type="hidden" value="advanced-search?page=1&amp;q=" />    <input type="hidden" name="hfSearchSiteURL" id="hfSiteURL" value="academic.oup.com/dsh" />
+    <script type="text/javascript">
+        (function () {
+            var hfSiteUrl = document.getElementById('hfSiteURL');
+            var siteUrl = hfSiteUrl.value;
+            var subdomainIndex = siteUrl.indexOf('/');
+
+            hfSiteUrl.value = location.host + (subdomainIndex >= 0 ? siteUrl.substring(subdomainIndex) : '');
+        })();
+    </script>
+<input id="routename" name="RouteName" type="hidden" value="dsh" /> 
+    </div>
+
+</section>
+
+    <div id="main" class="content-main js-main ui-base">
+        <section class="master-main row">
+            <div class="center-inner-row no-overflow">
+                <a href="#" id="skipNav" class="screenreader-text" tabindex="-1">Skip Nav Destination</a>
+                
+
+
+<div class="page-column-wrap">
+<div id="InfoColumn" class="page-column page-column--left js-left-nav-col">
+    <div class="mobile-content-topbar hide">
+        <button class="toggle-left-col toggle-left-col__article">Article Navigation</button>
+    </div>
+    <div class="info-inner-wrap js-left-nav">
+        <button class="toggle-left-col__close btn-as-icon icon-general-close">
+            <span class="screenreader-text">Close mobile search navigation</span>
+        </button>
+        <div class="responsive-nav-title">Article Navigation</div>
+        <div class="info-widget-wrap">
+    <div class="widget widget-IssueInfo widget-instance-OUP_IssueInfo_Article">
+        
+
+<div id="issueInfo-OUP_IssueInfo_Article" class="article-info-wrap clearfix">
+    <i class="icon-general-close mobile-nav-btn nav-open"></i>
+    <div class="article-issue-img">
+            <a href="/dsh/issue/34/Supplement_1"><img id="issueImage" class="fb-featured-image" src="https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/dsh/Issue/34/Supplement_1/2/m_digitalsh_34_suppl_1cover.png?Expires=1607784952&amp;Signature=TZdG~jd2yWZVUy93nFZf6OH5N7bk0IDQ6a3vMZe47ukN8uqvmumQkIVrwVS6qs7KKX3u6i-0ajtrtKsI8oN08DvXjQv-kD9dlufTINLFlzeZ3k18ttH1MvFTWc~LxRPQccWFvqqJ1SN63sYvw8OsbHGOpcJm~kLEbqqtXBdCywfdBq9EBP02nm9I2WGVJQ~k~pbjgldQV1Qq5~Kl~YiFathEur8ndhQPM19DSK99FITgfHLd778edSe4Cx2PBY0jGA8lV-ZvfD~GZ1iiN2uHJF5Fca7MbOgim3G1nKJehKU-DjEn1YDyhKXsbO2Tb1rHgjChU6bJEItAIbccaENnyA__&amp;Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" alt="Issue Cover" /></a>
+    </div>
+    <div class="article-issue-info">
+        <div class="volume-issue__wrap">
+
+            <a href="/dsh/issue/34/Supplement_1">
+                        <div class="volume trailing-comma">Volume 34</div>
+                        <div class="issue">Issue Supplement_1</div>
+
+            </a>
+
+        </div>
+        <div class="ii-pub-date">
+December 2019        </div>
+        
+    </div>
+
+</div> 
+    </div>
+
+            <div class="content-nav">
+    <div class="widget widget-ArticleJumpLinks widget-instance-OUP_ArticleJumpLinks_Widget">
+        
+
+<h3 class="contents-title" >Article Contents</h3>
+<ul class="jumplink-list">
+        <li class="section-jump-link head-1" link-destination="190966921">
+            <div class="section-jump-link__link-wrap">
+
+                <a class="js-jumplink scrollTo" href="#190966921">Abstract</a>
+            </div>
+        </li>
+        <li class="section-jump-link head-1" link-destination="190966925">
+            <div class="section-jump-link__link-wrap">
+
+                <a class="js-jumplink scrollTo" href="#190966925">1 Diagnostics</a>
+            </div>
+        </li>
+        <li class="section-jump-link head-1" link-destination="190966929">
+            <div class="section-jump-link__link-wrap">
+
+                <a class="js-jumplink scrollTo" href="#190966929">2 Level 1</a>
+            </div>
+        </li>
+        <li class="section-jump-link head-1" link-destination="190966937">
+            <div class="section-jump-link__link-wrap">
+
+                <a class="js-jumplink scrollTo" href="#190966937">3 Level 2</a>
+            </div>
+        </li>
+        <li class="section-jump-link head-1" link-destination="190966944">
+            <div class="section-jump-link__link-wrap">
+
+                <a class="js-jumplink scrollTo" href="#190966944">4 Level 3</a>
+            </div>
+        </li>
+        <li class="section-jump-link head-1" link-destination="190966951">
+            <div class="section-jump-link__link-wrap">
+
+                <a class="js-jumplink scrollTo" href="#190966951">5 Too Much of a Good Thing</a>
+            </div>
+        </li>
+        <li class="section-jump-link head-1" link-destination="190966953">
+            <div class="section-jump-link__link-wrap">
+
+                <a class="js-jumplink scrollTo" href="#190966953">6 Conclusion</a>
+            </div>
+        </li>
+        <li class="section-jump-link head-1" link-destination="190966955">
+            <div class="section-jump-link__link-wrap">
+
+                <a class="js-jumplink scrollTo" href="#190966955">Footnotes</a>
+            </div>
+        </li>
+        <li class="section-jump-link head-1 backReferenceLink" link-destination="190966967">
+            <div class="section-jump-link__link-wrap">
+
+                <a class="js-jumplink scrollTo" href="#190966967">References</a>
+            </div>
+        </li>
+</ul>
+ 
+    </div>
+
+            </div>
+    <div class="widget widget-ArticleNavLinks widget-instance-OUP_ArticleNavLinks_Article">
+        <ul class="inline-list">
+        <li class="prev arrow">
+            <a href="/dsh/article/34/Supplement_1/i80/5146726">&lt; Previous</a>
+        </li>        
+            <li class="next arrow">
+            <a href="/dsh/article/34/Supplement_1/i110/5443277">Next &gt;</a>
+        </li>
+</ul> 
+    </div>
+
+        </div>
+    </div>
+</div>
+<div class="sticky-toolbar js-sticky-toolbar"></div>
+<div id="ContentColumn" class="page-column page-column--center">
+    <div class="article-browse-top article-browse-mobile-nav js-mobile-nav">
+        <div class="article-browse-mobile-nav-inner js-mobile-nav-inner">
+            <button class="toggle-left-col toggle-left-col__article btn-as-link">
+                Article Navigation
+            </button>
+        </div>
+    </div>
+    <div class="content-inner-wrap">
+    <div class="widget widget-ArticleTopInfo widget-instance-OUP_ArticleTop_Info_Widget">
+        <div class="module-widget article-top-widget">
+
+    
+
+    
+        <div class="access-state-logos all-viewports">
+                    </div>
+
+
+    <div class="widget-items">
+                <h1 class="wi-article-title article-title-main">
+                    Beyond validation: Using programmed diagnostics to learn about, monitor, and successfully complete your DH project
+<i class='icon-availability_free' title='Free' ></i>                </h1>
+                <div class="wi-authors">
+                    <div class="al-authors-list">
+                                <span class="al-author-name-more js-flyout-wrap">
+
+
+
+
+                                    <a class="linked-name js-linked-name-trigger" href="javascript:;">Martin Holmes</a><span class='delimiter'>, </span>
+
+                                    <span class="al-author-info-wrap arrow-up">
+<div id="authorInfo_OUP_ArticleTop_Info_Widget" class="info-card-author authorInfo_OUP_ArticleTop_Info_Widget">
+    <div class="name-role-wrap">
+        <div class="info-card-name">
+    Martin Holmes
+            <span class="info-card-footnote"><span class="xrefLink" id="jumplink-fqz011-cor1"></span><a href="javascript:;" reveal-id="fqz011-cor1" data-open="fqz011-cor1" class="link link-ref link-reveal xref-default"><!----></a></span>
+</div>
+
+    </div>
+
+    <div class="info-card-affilitation">
+        <div class="aff"><div class="institution">Humanities Computing and Media Centre, University of Victoria</div>, <div class="country">Canada</div></div>
+    </div>
+
+    <div class="info-author-correspondence">
+        <strong>Correspondence:</strong> Martin Holmes, Humanities Computing and Media Centre, University of Victoria, Mearns Centre / McPherson Library, Room A316, 3800 Finnerty Road, Victoria BC, V8P 5C2, Canada. <strong>E-mail:</strong><a href="mailto:mholmes@uvic.ca" target="_blank">mholmes@uvic.ca</a>
+    </div>
+    <div class="info-card-location">
+        <a id="contrib-orcid-0000-0002-3944-1116" href="https://orcid.org/0000-0002-3944-1116">
+            <img class="orchid-icon" alt="OrcId icon" aria-hidden="true" src="//oup.silverchair-cdn.com/Themes/Silver/app/img/mini-icon.png"/>&nbsp;&nbsp;https://orcid.org/0000-0002-3944-1116
+        </a>
+    </div>
+    <div class="info-card-search-label">
+        Search for other works by this author on:
+    </div>
+
+<div class="info-card-search info-card-search-internal">
+    <a href="/dsh/search-results?f_Authors=Martin+Holmes">Oxford Academic</a>
+</div>
+
+    <div class="info-card-search info-card-search-google">
+        <a href="http://scholar.google.com/scholar?q=author:%22Holmes Martin%22">Google Scholar</a>
+    </div>
+</div>                                    </span>
+                                </span>
+                                <span class="al-author-name-more js-flyout-wrap">
+
+
+
+
+                                    <a class="linked-name js-linked-name-trigger" href="javascript:;">Joseph Takeda</a><span class='delimiter'></span>
+
+                                    <span class="al-author-info-wrap arrow-up">
+<div id="authorInfo_OUP_ArticleTop_Info_Widget" class="info-card-author authorInfo_OUP_ArticleTop_Info_Widget">
+    <div class="name-role-wrap">
+        <div class="info-card-name">
+    Joseph Takeda
+</div>
+
+    </div>
+
+    <div class="info-card-affilitation">
+        <div class="aff"><div class="institution">Department of English Language and Literatures, University of British Columbia</div>, <div class="country">Canada</div></div>
+    </div>
+
+    <div class="info-card-search-label">
+        Search for other works by this author on:
+    </div>
+
+<div class="info-card-search info-card-search-internal">
+    <a href="/dsh/search-results?f_Authors=Joseph+Takeda">Oxford Academic</a>
+</div>
+
+    <div class="info-card-search info-card-search-google">
+        <a href="http://scholar.google.com/scholar?q=author:%22Takeda Joseph%22">Google Scholar</a>
+    </div>
+</div>                                    </span>
+                                </span>
+
+                    </div>
+                </div>
+<div class="pub-history-wrap clearfix">
+
+        <div class="pub-history-row clearfix">
+            <div class="ww-citation-primary"><em>Digital Scholarship in the Humanities</em>, Volume 34, Issue Supplement_1, December 2019, Pages i100–i109, <a href='https://doi.org/10.1093/llc/fqz011'>https://doi.org/10.1093/llc/fqz011</a></div>
+        </div>
+        <div class="pub-history-row clearfix">
+            <div class="ww-citation-date-wrap">
+                <div class="citation-label">Published:</div>
+                <div class="citation-date">14 March 2019</div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $('.article-top-widget').on('click', '.ati-toggle-trigger', function () {
+            $(this).find('.icon-general-add, .icon-minus').toggleClass('icon-minus icon-general-add');
+            $(this).siblings('.ati-toggle-content').toggleClass('hide');
+        });
+
+        // In Chrome, an anchor tag with target="_blank" and a "mailto:" href opens a new tab/window as well as the email client
+        // I suspect this behavior will be corrected in the future
+        // Remove the target="_blank"
+        $('ul.wi-affiliationList').find('a[href^="mailto:"]').each(function () {
+            $(this).removeAttr('target');
+        });
+    });
+</script>
+
+ 
+    </div>
+    <div class="widget widget-ArticleLinks widget-instance-OUP_Article_Links_Widget">
+         
+    </div>
+
+
+        <div class="article-body js-content-body">
+            <div class="toolbar-wrap js-toolbar-wrap">
+                <div class="toolbar-inner-wrap">
+                    <ul id="Toolbar" role="navigation">
+    <li class="toolbar-item item-pdf">
+        <a class="al-link pdf article-pdfLink" data-article-id="5381103" href="/dsh/article-pdf/34/Supplement_1/i100/31686004/fqz011.pdf">
+            <img src=//oup.silverchair-cdn.com/UI/app/svg/pdf.svg alt="pdf" /><span class="pdf-link-text">PDF</span>
+        </a>
+    </li>
+                                                    <li class="toolbar-item item-link item-split-view">
+                                <a href="javascript:;"
+                                   class="split-view js-split-view st-split-view"
+                                   target="">
+                                    <i class="icon-menu_split"></i>
+                                    Split View
+                                </a>
+                            </li>
+                        <li class="toolbar-item item-with-dropdown item-views">
+                            <a class="at-views-dropdown drop-trigger" href="javascript:;" data-dropdown="FilterDrop" aria-haspopup="true">
+                                <i class="icon-menu_views"></i>
+                                <div class="toolbar-label">
+                                    <div class="toolbar-text">Views</div>
+                                    <i class="icon-general-arrow-filled-down arrow-icon"></i>
+                                </div>
+                            </a>
+                            <ul id="ViewsDrop" class="f-dropdown" data-dropdown-content aria-label="submenu">
+                                <div class="arrow-up"></div>
+                                <li class="article-content-filter js-article-content-filter" data-content-filter="article-content">
+                                    <a href="javascript:;"><span>Article contents</span></a>
+                                </li>
+                                <li class="at-figures-tables article-content-filter js-article-content-filter" data-content-filter="figures-tables">
+                                    <a href="javascript:;"><span>Figures &amp; tables</span></a>
+                                </li>
+                                <li class="article-content-filter js-article-content-filter" data-content-filter="video">
+                                    <a href="javascript:;"><span>Video</span></a>
+                                </li>
+                                <li class="article-content-filter js-article-content-filter" data-content-filter="audio">
+                                    <a href="javascript:;"><span>Audio</span></a>
+                                </li>
+                                <li class="article-content-filter js-article-content-filter" data-content-filter="supplementary-data">
+                                    <a href="javascript:;"><span>Supplementary Data</span></a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="toolbar-item">
+    <div class="widget widget-ToolboxGetCitation widget-instance-OUP_Get_Citation">
+        <a href="#" class="js-cite-button" data-reveal-id="getCitation" data-reveal><i class="icon-read-more"></i><span>Cite</span></a>
+
+<div id="getCitation" class="reveal-modal" data-reveal>
+    <h3 class="modal-title">Cite</h3>
+        <div class="oxford-citation-text">
+            <p>Martin Holmes, Joseph Takeda,  Beyond validation: Using programmed diagnostics to learn about, monitor, and successfully complete your DH project, <em>Digital Scholarship in the Humanities</em>, Volume 34, Issue Supplement_1, December 2019, Pages i100–i109, <a href="https://doi.org/10.1093/llc/fqz011">https://doi.org/10.1093/llc/fqz011</a></p>
+        </div>
+
+    <div class="citation-download-wrap">
+        <form action="/Citation/Download" method="get" id="citationModal">
+            <input type="hidden" name="resourceId" value="5381103" />
+            <input type="hidden" name="resourceType" value="3" />
+            <label for="selectFormat" class="hide">Select Format</label>
+            <select required name="citationFormat" class="citation-download-format" id="selectFormat">
+                <option selected disabled >Select format</option>
+                        <option value="0" >.ris (Mendeley, Papers, Zotero)</option>
+                        <option value="1" >.enw (EndNote)</option>
+                        <option value="2" >.bibtex (BibTex)</option>
+                        <option value="3" >.txt (Medlars, RefWorks)</option>
+
+            </select>
+            <button class="btn citation-download-link disabled" type="submit">Download citation</button>
+        </form>
+    </div>
+
+    <a class="close-reveal-modal" href="javascript:;"><i class="icon-general-close"></i><span class="screenreader-text">Close</span></a>
+</div>
+ 
+    </div>
+
+                        </li>
+                        <li class="toolbar-item item-tools">
+    <div class="widget widget-ToolboxPermissions widget-instance-OUP_Get_Permissions">
+            <div class="module-widget">
+        <a href="https://s100.copyright.com/AppDispatchServlet?publisherName=OUP&amp;publication=2055-768X&amp;title=Beyond%20validation%3A%20Using%20programmed%20diagnostics%20to%20learn%20about%2C%20monitor%2C%20and%20successfully%20complete%20your%20DH%20project&amp;publicationDate=2019-03-14&amp;volumeNum=34&amp;issueNum=Supplement_1&amp;author=Holmes%2C%20Martin%3B%20Takeda%2C%20Joseph&amp;startPage=i100&amp;endPage=i109&amp;contentId=10.1093%2Fllc%2Ffqz011&amp;oa=&amp;copyright=Oxford%20University%20Press&amp;orderBeanReset=True" id="PermissionsLink" class="" target="_blank">
+            <i class="icon-menu_permissions">
+                <span class="screenreader-text">Permissions Icon</span>
+            </i>
+            Permissions
+        </a>
+    </div>
+ 
+    </div>
+
+                        </li>
+                        <li class="toolbar-item item-with-dropdown item-share last">
+                            <a class="drop-trigger" href="javascript:;" data-dropdown="ShareDrop" aria-haspopup="true">
+                                <i class="icon-menu_share"></i>
+                                <div class="toolbar-label">
+                                    <div class="toolbar-text">Share</div>
+                                    <i class="icon-general-arrow-filled-down arrow-icon"></i>
+                                </div>
+                            </a>
+                            <ul id="ShareDrop" class="addthis_toolbox addthis_default_style addthis_20x20_style f-dropdown" data-dropdown-content aria-label="submenu">
+                                <div class="arrow-up"></div>
+                                <li><a class="addthis_button_email"><span>Email</span></a></li>
+                                <li><a class="addthis_button_twitter"><span>Twitter</span></a></li>
+                                <li><a class="addthis_button_facebook"><span>Facebook</span></a></li>
+                                <li><a class="addthis_button_compact"><span>More</span></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="toolbar-search">
+    <div class="widget widget-SitePageHeader widget-instance-OUP_ArticleToolbarSearchBox">
+        
+
+
+<div class="dropdown-panel-wrap">
+
+    
+    <div class="dropdown-panel mobile-search-dropdown">
+        <div class="mobile-search-inner-wrap">
+                <div class="navbar-search">
+                    <div id="MobileMicrositeSearch" class="mobile-microsite-search">
+                        <label for="mobile-navbar-search-filter" class="screenreader-text">Navbar Search Filter</label>
+                        <select class="navbar-search-filter" id="mobile-navbar-search-filter">
+                                                            <optgroup label="Search within this journal">
+<option class="header-search-bar-filters-item" value="Issue">This issue</option><option class="header-search-bar-filters-item" value="">All  Digital Scholarship in the Humanities</option>
+                                </optgroup>
+                                <optgroup label="Search beyond this journal">
+<option class="header-search-bar-filters-item" value="Journals">All  Journals</option>                                </optgroup>
+                        </select>
+
+
+
+
+
+                        <label for="MobileMicrositeSearchTerm" class="screenreader-text">Mobile Microsite Search Term</label>
+                        <input class="mobile-search-input mobile-microsite-search-term" type="text" maxlength="255" placeholder="Search" id="MobileMicrositeSearchTerm">
+
+                        <a href="javascript:;" id="MobileMicrositeSearchIcon" class="mobile-microsite-search-icon mobile-search-submit icon-menu_search"><span class="screenreader-text">Search</span></a>
+
+                    </div>
+                </div>        </div>
+    </div>
+    
+    <div class="dropdown-panel mobile-account-dropdown">
+        <ul class="site-menu site-menu-lvl-0">
+            <li class="site-menu-item site-menu-lvl-0">
+                <a href="" class="nav-link mobile-account-signin dummy-link js-header-account-info-user-fullname" id="header-account-info-user-fullname-mobile">
+                    
+Sign In                    <i class="mobile-nav-arrow icon-general_arrow-down"></i>
+                </a>
+                <ul class="site-menu site-menu-lvl-1 individual-menu">
+                    <li class="dropdown-signin-form">
+                        <div class="spinner"></div>
+                    </li>
+                </ul>
+            </li>
+                            <li class="site-menu-item">
+                    <a href="/my-account/register?siteId=5447&amp;returnUrl=%2fdsh%2farticle%2f34%2fSupplement_1%2fi100%2f5381103" class="register nav-link">Register</a>
+                </li>
+        </ul>
+    </div>
+    
+    <div class="dropdown-panel mobile-nav-dropdown">
+
+    </div>
+
+</div>
+
+
+
+<div class="navbar">
+    <div class="center-inner-row">
+        <nav class="navbar-menu">
+
+        </nav>
+            <div class="navbar-search-container js-navbar-search-container">
+                <a href="javascript:;" class="navbar-search-close js_close-navsearch">Close</a>
+                    <div class="navbar-search">
+                        <div id="MicrositeSearch" class="microsite-search">
+                            <label for="navbar-search-filter" class="screenreader-text">search filter</label>
+                            <select class="navbar-search-filter" id="navbar-search-filter">
+                                                                    <optgroup label="Search within this journal">
+                                                <option class="header-search-bar-filters-item" value="Issue" >This issue</option>
+                                                <option class="header-search-bar-filters-item" value="" selected=&quot;selected&quot;>All  Digital Scholarship in the Humanities</option>
+
+                                    </optgroup>
+                                    <optgroup label="Search beyond this journal">
+                                                <option class="header-search-bar-filters-item" value="Journals" >All  Journals</option>
+                                    </optgroup>
+                            </select>
+
+                            <label for="MicrositeSearchTerm" class="screenreader-text">search input</label>
+                            <input class="navbar-search-input microsite-search-term" type="text" maxlength="255" id="MicrositeSearchTerm" title="search input">
+
+                            <a href="javascript:;" id="MicrositeSearchIcon" class="microsite-search-icon navbar-search-submit icon-menu_search"><span class="screenreader-text">Search</span></a>
+
+                        </div>
+                    </div>                <div class="navbar-search-advanced"><a href="/dsh/advanced-search" class="advanced-search js-advanced-search">Advanced Search</a></div>
+            </div>            <div class="navbar-search-collapsed"><a href="javascript:;" class="icon-menu_search js_expand-navsearch"><span class="screenreader-text">Search Menu</span></a></div>
+    </div>
+</div>
+
+<input id="hfEnableOupOnlineProductsFeatures" name="hfEnableOupOnlineProductsFeatures" type="hidden" value="False" />
+
+<input id="routename" name="RouteName" type="hidden" value="dsh" /> 
+    </div>
+
+                    </div>
+                </div>
+            </div>
+            <div id="ContentTab" class="content active">
+    <div class="widget widget-ArticleFulltext widget-instance-OUP_Article_FullText_Widget">
+        <div class="module-widget">
+    <div class="widget-items" data-widgetname="ArticleFulltext">
+
+
+
+
+
+                    <h2 scrollto-destination=190966921 id="190966921" class="abstract-title" >Abstract</h2>
+<section class="abstract"><p class="chapter-para">Digital humanities projects have long relied on various schema languages—chiefly, RELAX NG and Schematron—for validating the XML documents in their data collections; however, these languages are limited in their ability to check for consistency, coherence, and completeness across the entire project. In our work as part of “Endings”, an umbrella project that comprises four diverse digital edition projects from different fields, we have developed a methodology for checking and enforcing correctness, completeness, and coherence across the entire document set. The following article describes the various stages (what we term “levels”) of our diagnostics process, all of which are driven by XSLT (Extensible Stylesheet Language Transformations) stylesheets, and produce a human readable report. These levels include checks for referential integrity, correct entity tagging, and potential duplicates in the data set. Using examples from the Endings projects, we show how diagnostic processes not only ensure correctness in the data set, but can also aid in determining project milestones and completion dates. Diagnostics, we argue, are thus a crucial extension to schema-based validation for complex digital projects and can provide concrete ways for digital humanities projects to enforce coherence and consistency and track their progress toward completion.</p></section>                        <div class="article-metadata-panel clearfix"></div>
+<p class="chapter-para">Schema-based validation of XML documents has long been a fundamental tool for quality control in digital edition projects, and the emergence of richer schema languages (RELAX NG and XML Schema) along with adjuncts such as Schematron has greatly improved the constraints and controls available to XML authors and encoders (<span class="xrefLink" id="jumplink-fqz011-B7"></span><a href="javascript:;" reveal-id="fqz011-B7" data-open="fqz011-B7" class="link link-ref link-reveal xref-bibr">Jacinto <em>et al.</em>, 2002</a>). However, schema-based validation typically takes place at the document level, whereas ‘most programs that use XML require information that is not encoded in the XML instance or in the schema that governs it’ (<span class="xrefLink" id="jumplink-fqz011-B13"></span><a href="javascript:;" reveal-id="fqz011-B13" data-open="fqz011-B13" class="link link-ref link-reveal xref-bibr">Vorthmann and Robie, 2001</a>). The modern digital edition project typically consists of multiple documents with large numbers of pointers between them: links between named entities and authority lists such as personographies, placeographies, and bibliographies;<span class="xrefLink" id="jumplink-fqz011-FN1"></span><a href="javascript:;" reveal-id="fqz011-FN1" data-open="fqz011-FN1" class="link link-ref link-reveal xref-fn js-xref-fn"><sup>1</sup></a> pointers to external documents and fragments, images and other media; and similar complex interrelationships within the collection, and to external resources and authority lists. These relationships need to be tested, checked, and validated too, but it is impractical to do this using document-level schemas. As <span class="xrefLink" id="jumplink-fqz011-B152"></span><a href="javascript:;" reveal-id="fqz011-B152" data-open="fqz011-B152" class="link link-ref link-reveal xref-bibr">Durand <em>et al.</em> (2009)</a> point out, ‘such testing requirements are in fact closer to conventional system or software testing requirements than to document testing in a narrow sense’. Most large- and medium-scale projects develop their own methods, programmed and/or impromptu, for addressing these problems, and these have been quite well-described and documented for enterprise-level and corporate contexts,<span class="xrefLink" id="jumplink-fqz011-FN2"></span><a href="javascript:;" reveal-id="fqz011-FN2" data-open="fqz011-FN2" class="link link-ref link-reveal xref-fn js-xref-fn"><sup>2</sup></a> but little has been published on project-level diagnostic testing for XML-based digital edition collections.<span class="xrefLink" id="jumplink-fqz011-FN3"></span><a href="javascript:;" reveal-id="fqz011-FN3" data-open="fqz011-FN3" class="link link-ref link-reveal xref-fn js-xref-fn"><sup>3</sup></a></p><p class="chapter-para">In our work as part of Endings,<span class="xrefLink" id="jumplink-fqz011-FN4"></span><a href="javascript:;" reveal-id="fqz011-FN4" data-open="fqz011-FN4" class="link link-ref link-reveal xref-fn js-xref-fn"><sup>4</sup></a> an umbrella project that comprises four diverse digital edition projects from different fields, we have been developing a structured approach to implementing methods for checking and enforcing project correctness, consistency, and coherence, which we will describe in this paper. Influenced by Star Trek,<span class="xrefLink" id="jumplink-fqz011-FN5"></span><a href="javascript:;" reveal-id="fqz011-FN5" data-open="fqz011-FN5" class="link link-ref link-reveal xref-fn js-xref-fn"><sup>5</sup></a> we have long referred to these processes as ‘diagnostics’, and in our description we follow the franchise tradition detailed in <span class="xrefLink" id="jumplink-fqz011-B12"></span><a href="javascript:;" reveal-id="fqz011-B12" data-open="fqz011-B12" class="link link-ref link-reveal xref-bibr">Sternbach and Okuda (1991)</a> in dividing diagnostics into levels; however, we depart from convention in ordering our levels from most granular/least comprehensive up to the most general. For each level, we provide real examples of processes applied to one of our projects.</p><p class="chapter-para">We stress that these diagnostics assume that a project is already making full use of RELAX NG and Schematron schemas for basic constraint. In the case of our projects, we use highly customized versions of the Text Encoding Initiative (TEI) schema (all TEI conformant<span class="xrefLink" id="jumplink-fqz011-FN6"></span><a href="javascript:;" reveal-id="fqz011-FN6" data-open="fqz011-FN6" class="link link-ref link-reveal xref-fn js-xref-fn"><sup>6</sup></a>) in addition to project-specific Schematron rules, which not only police tagging practices (e.g., enforcing the use of private Universal Resource Identifier (URI) schemes in pointing attributes, and checking the presence of appropriate custom dating attributes for pre-Gregorian dates) but also impose style guide rules such as prohibiting the use of straight apostrophes in document text. We are not suggesting that the diagnostics process described below should replace RELAX NG or Schematron validation, but instead we suggest that, for large scale XML-based projects, diagnostics are crucial for ensuring both document-level and project-level coherence, consistency, and correctness.</p>                    <h2 scrollto-destination=190966925 id="190966925" class="section-title" data-legacy-id=SEC1>1 Diagnostics</h2>
+<p class="chapter-para">Our diagnostic processes normally take the form of Ant scripts<span class="xrefLink" id="jumplink-fqz011-FN7"></span><a href="javascript:;" reveal-id="fqz011-FN7" data-open="fqz011-FN7" class="link link-ref link-reveal xref-fn js-xref-fn"><sup>7</sup></a> and Extensible Stylesheet Language (XSL) transformations, and are run on a Jenkins Continuous Integration server; every time changes are committed to a project repository, the Jenkins server checks out the changes, validates all documents, and runs the entire set of diagnostics processes, providing the results in the form of a public web page such as the one shown in <span class="xrefLink" id="jumplink-fqz011-F1"></span><a href="javascript:;" reveal-id="fqz011-F1" data-open="fqz011-F1" class="link link-reveal link-table xref-fig">Fig. 1</a>.</p>                        <a id="190966927" scrollto-destination="190966927"></a>
+<div data-id="fqz011-F1" class="fig fig-section"><div class="label fig-label">Fig. 1</div><div class="graphic-wrap"><img class="content-image" src="https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/dsh/34/Supplement_1/10.1093_llc_fqz011/2/m_fqz011f1.png?Expires=1606661360&amp;Signature=AJT4zcI0xv3mPsf82MmohsgxcO7pxVmODvahUc2cE9kebc0NxKxdtC8LckaC1g8RIjDDt1slEuMtaX14a-cVgSkfx15Iz8hAp-kZx9a4DIhrm7Lrefo89GZz7WcTAy6FEkHFE0ET1KXVU-u0~8-quvc90-uJXGzgVmXM0mpox-TdoUkxI5S0crHQPlUO7XPqAK9onPYADWp4LdXcdudEkwZq0~vmeEB3Rk9bvpoF4363Bw7XALCcGTBFvz0vynizciMJXVS3sZntthJnKPAzoeMKOS4XR22gQQ6WMn9rtmcbhdDulL1j-~GzdKlR3Zdc6ztJdUlF-KhPMDoaPdPpEA__&amp;Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" alt="A diagnostics output page from The Map of Early Modern London (MoEML) project8" data-path-from-xml="fqz011f1.tif" /><div class="fig-orig original-slide"><a class="fig-view-orig js-view-large openInAnotherWindow" href="/view-large/figure/190966927/fqz011f1.tif" data-path-from-xml="fqz011f1.tif" target="_blank">Open in new tab</a><a data-section="190966927" href="/DownloadFile/DownloadImage.aspx?image=https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/dsh/34/Supplement_1/10.1093_llc_fqz011/2/fqz011f1.png?Expires=1606661360&Signature=2~tTpXgXtEi-qfb7Y8xKj2Bu9yQUclR~pMd~2LzbjLstsnGxwJrMxgsnkDtPabaxn9ng5zlr5Gdqi6x~Xpq1hTVeKHij-F8rjsddX1MKR6pJqFJpKcz0ezPj2NIKqtGEcu5Twxt6VkdGhRoa1KG4rCn8UsJYc~con21AqwgOZVE4-InVdheK~x~54l-ITvDdiV0jGgJZMhqboLijRcrnJgDpjgLFzOyn1SaWPgdoo6g3R6BK4jwb7PvDWrWTKEPlWy96S5W~LSuYpbOSTvuCzCDKYS5qze~IYQBWdZTUcl9gaYV-N8KvbWUsDwAAVnOVG8g~XiHEtYzuNHCWwdExnA__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA&sec=190966927&ar=5381103&xsltPath=~/UI/app/XSLT&imagename=&siteId=5447" class="download-slide" data-path-from-xml="fqz011f1.tif">Download slide</a></div></div><div class="caption fig-caption"><p class="chapter-para">A diagnostics output page from <em>The Map of Early Modern London</em> (<em>MoEML</em>) project<span class="xrefLink" id="jumplink-fqz011-FN8"></span><a href="javascript:;" reveal-id="fqz011-FN8" data-open="fqz011-FN8" class="link link-ref link-reveal xref-fn js-xref-fn"><sup>8</sup></a></p></div></div><div content-id="fqz011-F1" class="fig fig-modal reveal-modal"><div class="label fig-label">Fig. 1</div><div class="graphic-wrap"><img class="content-image" src="https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/dsh/34/Supplement_1/10.1093_llc_fqz011/2/m_fqz011f1.png?Expires=1606661360&amp;Signature=AJT4zcI0xv3mPsf82MmohsgxcO7pxVmODvahUc2cE9kebc0NxKxdtC8LckaC1g8RIjDDt1slEuMtaX14a-cVgSkfx15Iz8hAp-kZx9a4DIhrm7Lrefo89GZz7WcTAy6FEkHFE0ET1KXVU-u0~8-quvc90-uJXGzgVmXM0mpox-TdoUkxI5S0crHQPlUO7XPqAK9onPYADWp4LdXcdudEkwZq0~vmeEB3Rk9bvpoF4363Bw7XALCcGTBFvz0vynizciMJXVS3sZntthJnKPAzoeMKOS4XR22gQQ6WMn9rtmcbhdDulL1j-~GzdKlR3Zdc6ztJdUlF-KhPMDoaPdPpEA__&amp;Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" alt="A diagnostics output page from The Map of Early Modern London (MoEML) project8" data-path-from-xml="fqz011f1.tif" /><div class="fig-orig original-slide"><a class="fig-view-orig js-view-large openInAnotherWindow" href="/view-large/figure/190966927/fqz011f1.tif" data-path-from-xml="fqz011f1.tif" target="_blank">Open in new tab</a><a data-section="190966927" href="/DownloadFile/DownloadImage.aspx?image=https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/dsh/34/Supplement_1/10.1093_llc_fqz011/2/fqz011f1.png?Expires=1606661360&Signature=2~tTpXgXtEi-qfb7Y8xKj2Bu9yQUclR~pMd~2LzbjLstsnGxwJrMxgsnkDtPabaxn9ng5zlr5Gdqi6x~Xpq1hTVeKHij-F8rjsddX1MKR6pJqFJpKcz0ezPj2NIKqtGEcu5Twxt6VkdGhRoa1KG4rCn8UsJYc~con21AqwgOZVE4-InVdheK~x~54l-ITvDdiV0jGgJZMhqboLijRcrnJgDpjgLFzOyn1SaWPgdoo6g3R6BK4jwb7PvDWrWTKEPlWy96S5W~LSuYpbOSTvuCzCDKYS5qze~IYQBWdZTUcl9gaYV-N8KvbWUsDwAAVnOVG8g~XiHEtYzuNHCWwdExnA__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA&sec=190966927&ar=5381103&xsltPath=~/UI/app/XSLT&imagename=&siteId=5447" class="download-slide" data-path-from-xml="fqz011f1.tif">Download slide</a></div></div><div class="caption fig-caption"><p class="chapter-para">A diagnostics output page from <em>The Map of Early Modern London</em> (<em>MoEML</em>) project<span class="xrefLink" id="jumplink-fqz011-FN8"></span><a href="javascript:;" reveal-id="fqz011-FN8" data-open="fqz011-FN8" class="link link-ref link-reveal xref-fn js-xref-fn"><sup>8</sup></a></p></div></div><p class="chapter-para">In combination with this paper, which is intended to be a useful primer and guide, we have developed a Diagnostics project hosted on GitHub (<a class="link link-uri openInAnotherWindow" href="http://github.com/projectEndings/diagnostics" target="_blank">http://github.com/projectEndings/diagnostics</a>) that can be used by researchers whose digital edition projects have grown to the point where ad hoc manual checking has become impractical. This tool provides a generic set of diagnostic checks that can be applied to any set of TEI XML files. This tool is meant to serve as a foundation for further work. As the specific implementations of diagnostics below demonstrate, individual projects will need to create their own diagnostic checks that address the project’s specific encoding methods as well as project-specific milestones. The code will probably need to be tailored for each individual project’s encoding practices; the Github project provides examples and instructions for adding additional, project-specific diagnostic checks to the base XSLT transformation.</p>                    <h2 scrollto-destination=190966929 id="190966929" class="section-title" data-legacy-id=SEC2>2 Level 1</h2>
+<p class="chapter-para">Level 1 diagnostics provide project-level, as opposed to document-level, consistency checking to establish the internal coherence of the project, primarily through ensuring referential integrity.<span class="xrefLink" id="jumplink-fqz011-FN9"></span><a href="javascript:;" reveal-id="fqz011-FN9" data-open="fqz011-FN9" class="link link-ref link-reveal xref-fn js-xref-fn"><sup>9</sup></a> This includes checking for pointers to non-existent targets, duplicate @xml:ids within the project, and erroneously encoded references (e.g., tagging a place name as a bibliography reference). Ensuring referential integrity is particularly complex for projects that use ‘abbreviated pointers’ to facilitate internal linking,<span class="xrefLink" id="jumplink-fqz011-FN10"></span><a href="javascript:;" reveal-id="fqz011-FN10" data-open="fqz011-FN10" class="link link-ref link-reveal xref-fn js-xref-fn"><sup>10</sup></a> since it may not be obvious to the encoder or the text editing program which resource is being referenced by a pointer. Thus, the first level of diagnostics checks both whether or not an object pointed to actually exists <em>and</em> whether or not the markup correctly represents the relationship between the element and the target resource. For instance, to check all instances of the relationship shown in <span class="xrefLink" id="jumplink-fqz011-F2"></span><a href="javascript:;" reveal-id="fqz011-F2" data-open="fqz011-F2" class="link link-reveal link-table xref-fig">Fig. 2</a>, a number of different tests are actually done: </p><ol class="number"><li><p class="chapter-para">Every &lt;name type=<span class="monospace">“</span>org<span class="monospace">”</span>&gt; points at an @xml:id which exists in the project.</p></li><li><p class="chapter-para">The element pointed at by &lt;name type=<span class="monospace">“</span>org<span class="monospace">”</span>&gt; is an &lt;org&gt; element in the ORGS1.xml document.</p></li><li><p class="chapter-para">Every &lt;name&gt; element which points at an &lt;org&gt; element in ORGS1.xml has @type=<span class="monospace">“</span>org<span class="monospace">”</span>.</p></li></ol>                        <a id="190966932" scrollto-destination="190966932"></a>
+<div data-id="fqz011-F2" class="fig fig-section"><div class="label fig-label">Fig. 2</div><div class="graphic-wrap"><img class="content-image" src="https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/dsh/34/Supplement_1/10.1093_llc_fqz011/2/m_fqz011f2.png?Expires=1606661360&amp;Signature=EhNBctG2VN8aYuSkFMLAULPQrSCMQbNAIPRr-Tvh~nFptcEBIzY-vckmOpEOPiE4J13t3sKllxjmukoAkH60DizcOfaa~YYLYuUAOFFQVGbt40qK3bHO4SMI2gfG3iRlVV6Lg9di-zmb~JcigNzfshD7794thysdBlekBtq0PQRqN6B9DbQsZYzXdmszvmUHAaHkRvmmlGyEtJ0Cwz1q8WGTkdPTLYhDEgoPwQio4RTdx42qdW0u0o3yFI98ZzOAyHKT6U6Oekl9YusBYanFAeCnIBFGzVAExGXxxlbqhqjeSJDKfywZ6jiqJjGdyYo0S2x9FCQHIEQ-oGnJk4OMrg__&amp;Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" alt="A simple referential integrity check" data-path-from-xml="fqz011f2.tif" /><div class="fig-orig original-slide"><a class="fig-view-orig js-view-large openInAnotherWindow" href="/view-large/figure/190966932/fqz011f2.tif" data-path-from-xml="fqz011f2.tif" target="_blank">Open in new tab</a><a data-section="190966932" href="/DownloadFile/DownloadImage.aspx?image=https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/dsh/34/Supplement_1/10.1093_llc_fqz011/2/fqz011f2.png?Expires=1606661360&Signature=p5MIn9aQ-bJ4ZNHDmF2wlBjM8wgk7n7pb2z2Ru6t1Sj4tKI3u6YkU1RJz~qg1W6b55wTaU0EK7cHj~lRUb2-lRZQL9E4lx78Lduog-9E35uDq6Ud-~rz-JcdQef0oGQgNmPxxl3DzVPR096aA4vR-veSU23RZrx1z8xxzI2JqUJZ9v9TrByJ3Wb~k4A2IWZ93NvK4E2rZ~e1i7pbVyA5IiHP6nfU4jTCkZ7Lxd7mWeGvKhQGXo7~iYyTPJxDS-paS1N-zAMG2NBS0WCIi0pMnDxKSRSKtBzxFHhbL9Ov0f6u325~dizOVwGbM~rZM5etD1dEXwKXapYAHYcdIb40IQ__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA&sec=190966932&ar=5381103&xsltPath=~/UI/app/XSLT&imagename=&siteId=5447" class="download-slide" data-path-from-xml="fqz011f2.tif">Download slide</a></div></div><div class="caption fig-caption"><p class="chapter-para">A simple referential integrity check</p></div></div><div content-id="fqz011-F2" class="fig fig-modal reveal-modal"><div class="label fig-label">Fig. 2</div><div class="graphic-wrap"><img class="content-image" src="https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/dsh/34/Supplement_1/10.1093_llc_fqz011/2/m_fqz011f2.png?Expires=1606661360&amp;Signature=EhNBctG2VN8aYuSkFMLAULPQrSCMQbNAIPRr-Tvh~nFptcEBIzY-vckmOpEOPiE4J13t3sKllxjmukoAkH60DizcOfaa~YYLYuUAOFFQVGbt40qK3bHO4SMI2gfG3iRlVV6Lg9di-zmb~JcigNzfshD7794thysdBlekBtq0PQRqN6B9DbQsZYzXdmszvmUHAaHkRvmmlGyEtJ0Cwz1q8WGTkdPTLYhDEgoPwQio4RTdx42qdW0u0o3yFI98ZzOAyHKT6U6Oekl9YusBYanFAeCnIBFGzVAExGXxxlbqhqjeSJDKfywZ6jiqJjGdyYo0S2x9FCQHIEQ-oGnJk4OMrg__&amp;Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" alt="A simple referential integrity check" data-path-from-xml="fqz011f2.tif" /><div class="fig-orig original-slide"><a class="fig-view-orig js-view-large openInAnotherWindow" href="/view-large/figure/190966932/fqz011f2.tif" data-path-from-xml="fqz011f2.tif" target="_blank">Open in new tab</a><a data-section="190966932" href="/DownloadFile/DownloadImage.aspx?image=https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/dsh/34/Supplement_1/10.1093_llc_fqz011/2/fqz011f2.png?Expires=1606661360&Signature=p5MIn9aQ-bJ4ZNHDmF2wlBjM8wgk7n7pb2z2Ru6t1Sj4tKI3u6YkU1RJz~qg1W6b55wTaU0EK7cHj~lRUb2-lRZQL9E4lx78Lduog-9E35uDq6Ud-~rz-JcdQef0oGQgNmPxxl3DzVPR096aA4vR-veSU23RZrx1z8xxzI2JqUJZ9v9TrByJ3Wb~k4A2IWZ93NvK4E2rZ~e1i7pbVyA5IiHP6nfU4jTCkZ7Lxd7mWeGvKhQGXo7~iYyTPJxDS-paS1N-zAMG2NBS0WCIi0pMnDxKSRSKtBzxFHhbL9Ov0f6u325~dizOVwGbM~rZM5etD1dEXwKXapYAHYcdIb40IQ__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA&sec=190966932&ar=5381103&xsltPath=~/UI/app/XSLT&imagename=&siteId=5447" class="download-slide" data-path-from-xml="fqz011f2.tif">Download slide</a></div></div><div class="caption fig-caption"><p class="chapter-para">A simple referential integrity check</p></div></div><p class="chapter-para">For small-scale projects, this kind of referential integrity check could be accomplished with Schematron, since a Schematron rule using XPath 2.0 can read external documents; such a referential integrity check could be written as follows: </p><p class="chapter-para"><blockquote><p class="chapter-para">&lt;sch:let name=<span class="monospace">“</span>thisDocUri<span class="monospace">”</span> value=<span class="monospace">“</span>document-uri(/)<span class="monospace">”</span>/&gt;</p><p class="chapter-para">&lt;sch:let name=<span class="monospace">“</span>projectUri<span class="monospace">”</span> value=<span class="monospace">“</span>replace($thisDocUri,<span class="monospace">’</span>^(.+/data/).+<span class="monospace">’</span>, <span class="monospace">’</span>$1<span class="monospace">’</span>)<span class="monospace">”</span>/&gt;</p><p class="chapter-para">&lt;sch:let name=<span class="monospace">“</span>docCollection<span class="monospace">”</span></p><p class="chapter-para">value=<span class="monospace"><span class="monospace">“</span></span>collection(concat($projectUri,<span class="monospace">’</span>?select=*.xml;recurse=yes<span class="monospace">’</span>))<span class="monospace">”</span>/&gt;</p><p class="chapter-para">&lt;sch:let name=<span class="monospace">“</span>orgsFile<span class="monospace">”</span> value=<span class="monospace">“</span>$docCollection//tei:TEI[@xml:id=<span class="monospace">’</span>ORGS1<span class="monospace">’</span>]<span class="monospace">”</span>/&gt;</p><p class="chapter-para">&lt;sch:let name=<span class="monospace">“</span>orgIds<span class="monospace">”</span> value=<span class="monospace">“</span>$orgsFile/descendant::tei:org/@xml:id<span class="monospace">”</span>/&gt;</p><p class="chapter-para">&lt;sch:pattern&gt;</p><p class="chapter-para">  &lt;sch:rule context=<span class="monospace">“</span>tei:name[@ref][starts-with(@ref,<span class="monospace">’</span>mol:<span class="monospace">’</span>)][@type=<span class="monospace">’</span>org<span class="monospace">’</span>]<span class="monospace">”</span>&gt;</p><p class="chapter-para">    &lt;sch:let name=<span class="monospace">“</span>ref<span class="monospace">”</span> value=<span class="monospace">“</span>substring-after(@ref,<span class="monospace">’</span>mol:<span class="monospace">’</span>)<span class="monospace">”</span>/&gt;</p><p class="chapter-para">    &lt;sch:assert test=<span class="monospace">“</span>$ref=$orgIds<span class="monospace">”</span>&gt;</p><p class="chapter-para">     ERROR: Reference to &lt;sch:value-of select=<span class="monospace">“</span>$ref<span class="monospace">”</span>/&gt; not found in</p><p class="chapter-para">     ORGS1.xml.</p><p class="chapter-para">    &lt;/sch:assert&gt;</p><p class="chapter-para">  &lt;/sch:rule&gt;</p><p class="chapter-para">&lt;/sch:pattern&gt;</p></blockquote></p><p class="chapter-para">The above Schematron pattern loads the external orgography file (ORGS1) and investigates whether or not the value of the @ref attribute corresponds with a declared organization in the orgography. If the pointer token cannot be found within the orgography, then a Schematron error is raised.</p><p class="chapter-para">However, for a project of any significant size, this is impractical. <em>The Map of Early Modern London</em> (<em>MoEML</em>) project, for instance, contains at the time of writing 44,167 &lt;name&gt; elements with pointers to &lt;person&gt;s, &lt;org&gt;s, and similar elements. When added to <em>MoEML</em>’s standalone Schematron, this rule adds nearly a second to the command-line validation of a relatively simple encyclopedia entry, while adding two seconds to validation time for the more densely encoded and interlinked edition of John Stow’s 1598 <em>Survey of London</em>. A further check for references to persons adds three more seconds to command-line validation of Stow. Simply checking that a linked location exists requires the processing of over a thousand files in this project, since each location is a distinct file. While the addition of a few seconds may be less of a concern for command-line validation, adding several seconds to validation in the Oxygen XML editor inevitably causes frustration for editors working in the files.</p>                    <h2 scrollto-destination=190966937 id="190966937" class="section-title" data-legacy-id=SEC3>3 Level 2</h2>
+<p class="chapter-para">While Level 1 diagnostics generally focus on coherence and consistency, Level 2 is more concerned with completeness. Level 2 diagnostics monitor progress, generate to-do lists, and identify situations that may indicate error, but require human judgement. These include cases in which: <ul class="bullet"><li><p class="chapter-para">Two bibliography or personography entries appear sufficiently similar that they may be duplicates.</p></li><li><p class="chapter-para">Several &lt;name&gt; elements point to the same authority record, but the text of one of them is significantly different from the others, so it may point at the wrong target.</p></li><li><p class="chapter-para">A document in the project is not linked from anywhere else, and therefore cannot be ‘reached’.</p></li></ul></p><p class="chapter-para">Such issues cannot be automatically rectified—they are not necessarily errors—but they must be examined. <span class="xrefLink" id="jumplink-fqz011-F3"></span><a href="javascript:;" reveal-id="fqz011-F3" data-open="fqz011-F3" class="link link-reveal link-table xref-fig">Figure 3</a> shows an example of the first check, which uses the Universal Similarity Metric (<span class="xrefLink" id="jumplink-fqz011-B6"></span><a href="javascript:;" reveal-id="fqz011-B6" data-open="fqz011-B6" class="link link-ref link-reveal xref-bibr">Holmes, 2010</a>) to identify potential duplicate bibliography entries. </p>                        <a id="190966940" scrollto-destination="190966940"></a>
+<div data-id="fqz011-F3" class="fig fig-section"><div class="label fig-label">Fig. 3</div><div class="graphic-wrap"><img class="content-image" src="https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/dsh/34/Supplement_1/10.1093_llc_fqz011/2/m_fqz011f3.png?Expires=1606661360&amp;Signature=EyKRJ-8H9tdoWui6vXgcYr7ARsmlVDLLJY1cK2JgShoq2Uw0DmQM~Itx7Go1EZBUQO2ccRJXdyGPKLukLQ0yWNZ-Ch1fgPfWVqNw1EF06DFLq1QKTakzJzOZ4QO-zbhTB0xBsdXg1nJ7LNrhLRmjP-uIo2E8G5PtPuvyTtSo8KwVB2wfw5nse~wpS00-RG8zN~MmXu-GfTbw4peX2ZQsoe~4Jb2XyOkmYgKZ30IXAf-v5A369vTTZpfdoqjNjtjqh-NxYRM9GFXNgzYmHioxW-fpXd24xeQi6-pP2izVG6uUvmBiFdViesMcIlk4m1KUCy0LN6nsufEQ0lea9zKbyA__&amp;Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" alt="Results of a Level 2 diagnostic check that attempts to identify duplicate bibliography entries" data-path-from-xml="fqz011f3.tif" /><div class="fig-orig original-slide"><a class="fig-view-orig js-view-large openInAnotherWindow" href="/view-large/figure/190966940/fqz011f3.tif" data-path-from-xml="fqz011f3.tif" target="_blank">Open in new tab</a><a data-section="190966940" href="/DownloadFile/DownloadImage.aspx?image=https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/dsh/34/Supplement_1/10.1093_llc_fqz011/2/fqz011f3.png?Expires=1606661360&Signature=Nzw--BTfvOxh-h88bK41HAYWFS6gPAUdIyMpIGeJJSh3YMfUoC-lKymk85bbWaoNLap~g9QX6Iz4cCZtDUOmtL27lu3pwpyzN2WJsgD9vAdH0CZNGC8FB9YvRB4F5vSUFFBnTC2v0PtAycEJ3mue31o0L7z49cQOc7onk7OMNeRrJIjIn1PiLPV6JQG4hcBZYp4Oj4xDziQw-jLlgh0ILqYS2ice6uf9TvMrd2YS5eSOXOxNQz8gOs6Ydd6Qiw6RkjW-0a2cgjASVEP9ElqDQw-Apzz7hPbo7DnOoWQj3WYyO6euqHny0WUeTpsVJPT3i1qooyAlTPUzWCZ7xyuUfA__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA&sec=190966940&ar=5381103&xsltPath=~/UI/app/XSLT&imagename=&siteId=5447" class="download-slide" data-path-from-xml="fqz011f3.tif">Download slide</a></div></div><div class="caption fig-caption"><p class="chapter-para">Results of a Level 2 diagnostic check that attempts to identify duplicate bibliography entries</p></div></div><div content-id="fqz011-F3" class="fig fig-modal reveal-modal"><div class="label fig-label">Fig. 3</div><div class="graphic-wrap"><img class="content-image" src="https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/dsh/34/Supplement_1/10.1093_llc_fqz011/2/m_fqz011f3.png?Expires=1606661360&amp;Signature=EyKRJ-8H9tdoWui6vXgcYr7ARsmlVDLLJY1cK2JgShoq2Uw0DmQM~Itx7Go1EZBUQO2ccRJXdyGPKLukLQ0yWNZ-Ch1fgPfWVqNw1EF06DFLq1QKTakzJzOZ4QO-zbhTB0xBsdXg1nJ7LNrhLRmjP-uIo2E8G5PtPuvyTtSo8KwVB2wfw5nse~wpS00-RG8zN~MmXu-GfTbw4peX2ZQsoe~4Jb2XyOkmYgKZ30IXAf-v5A369vTTZpfdoqjNjtjqh-NxYRM9GFXNgzYmHioxW-fpXd24xeQi6-pP2izVG6uUvmBiFdViesMcIlk4m1KUCy0LN6nsufEQ0lea9zKbyA__&amp;Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" alt="Results of a Level 2 diagnostic check that attempts to identify duplicate bibliography entries" data-path-from-xml="fqz011f3.tif" /><div class="fig-orig original-slide"><a class="fig-view-orig js-view-large openInAnotherWindow" href="/view-large/figure/190966940/fqz011f3.tif" data-path-from-xml="fqz011f3.tif" target="_blank">Open in new tab</a><a data-section="190966940" href="/DownloadFile/DownloadImage.aspx?image=https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/dsh/34/Supplement_1/10.1093_llc_fqz011/2/fqz011f3.png?Expires=1606661360&Signature=Nzw--BTfvOxh-h88bK41HAYWFS6gPAUdIyMpIGeJJSh3YMfUoC-lKymk85bbWaoNLap~g9QX6Iz4cCZtDUOmtL27lu3pwpyzN2WJsgD9vAdH0CZNGC8FB9YvRB4F5vSUFFBnTC2v0PtAycEJ3mue31o0L7z49cQOc7onk7OMNeRrJIjIn1PiLPV6JQG4hcBZYp4Oj4xDziQw-jLlgh0ILqYS2ice6uf9TvMrd2YS5eSOXOxNQz8gOs6Ydd6Qiw6RkjW-0a2cgjASVEP9ElqDQw-Apzz7hPbo7DnOoWQj3WYyO6euqHny0WUeTpsVJPT3i1qooyAlTPUzWCZ7xyuUfA__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA&sec=190966940&ar=5381103&xsltPath=~/UI/app/XSLT&imagename=&siteId=5447" class="download-slide" data-path-from-xml="fqz011f3.tif">Download slide</a></div></div><div class="caption fig-caption"><p class="chapter-para">Results of a Level 2 diagnostic check that attempts to identify duplicate bibliography entries</p></div></div><p class="chapter-para">In the example above, the output informs the encoder that a bibliographic entry appears to be suspiciously similar to another. In each example, although both pairs of bibliographic entries <em>do</em> refer to the same work, they are substantively different as one citation references the edition itself while the other references the primary text. This is a common situation in projects that refer to both primary sources and their subsequent editions. For <em>MoEML</em>, this distinction must be retained, so the project can take further steps, such as adding more granular encoding of elements or adding pointers between the items to encode the relationship, to clear these results from their diagnostics output.</p><p class="chapter-para">At Level 2, we also generate to-do lists for specific sub-projects, providing a set of tasks for the project team to focus on in order to reach a milestone or publish a particular document. The definition of ‘done’ for a specific document extends beyond the document. For instance, before we deem a particular edition of a text publishable, we may require that all authority records (people, places, and publications) linked from that document are themselves complete, so the to-do list for a given document may require work in a variety of other documents in the project. For example, <span class="xrefLink" id="jumplink-fqz011-F4"></span><a href="javascript:;" reveal-id="fqz011-F4" data-open="fqz011-F4" class="link link-reveal link-table xref-fig">Fig. 4</a> shows a list of referenced locations that need to be completed before <em>MoEML</em> can send a chapter of Stow’s <em>Survey of London</em> out for peer-review. </p>                        <a id="190966943" scrollto-destination="190966943"></a>
+<div data-id="fqz011-F4" class="fig fig-section"><div class="label fig-label">Fig. 4</div><div class="graphic-wrap"><img class="content-image" src="https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/dsh/34/Supplement_1/10.1093_llc_fqz011/2/m_fqz011f4.png?Expires=1606661360&amp;Signature=RMCxkpSN1NSAMoODgGJ-MtxTSluGYiwnmfKu~azdA-9IpvdliAMI8cPgBvbP-VQswFR0NIdpnyt0dniIeu9N1mCJ3Pwpw642iKdiTUBg5O3mF0efj43BCUkjer0it5aKr4rqiChHV4ZkyDyt7OkswFjpZCbLdR640NwjJLw8tVXaeSJjjNJvfZ07Tb1Yk-OFtkaJnSo4RNn1z-eNpGiD-pmpPFTmHOlxDDtOZddBAHcjfcyhIkHx-DOeGpXttHVp697LGqG7h2w2CVFSVzZYHR40izOMgk0MaloW3hZ9ZXcZ43pQlZ~PYRfm7UsameY~Vj3fQI3PeTxmuTQIP3I1sA__&amp;Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" alt="A diagnostics to-do list to be completed before a chapter of MoEML’s edition of Stow can be sent out for peer-review. MoEML requires that all locations contain a brief abstract, a zone outlined on the Agas map, and GIS coordinates (if possible); see Jenstad (2018) for more information" data-path-from-xml="fqz011f4.tif" /><div class="fig-orig original-slide"><a class="fig-view-orig js-view-large openInAnotherWindow" href="/view-large/figure/190966943/fqz011f4.tif" data-path-from-xml="fqz011f4.tif" target="_blank">Open in new tab</a><a data-section="190966943" href="/DownloadFile/DownloadImage.aspx?image=https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/dsh/34/Supplement_1/10.1093_llc_fqz011/2/fqz011f4.png?Expires=1606661360&Signature=uDYhFSJFFcaV9dJN-EMLmSsu-6p3khnTBmq5tAJE7naFYR9G8KuzJ62rtn-RggkVekdCovU5LmervK49NQn78EoJQqyHz1yULCH8mwFRc0pduRcAyy6ae9EYonrA2qKrtYxw~OsLnFgvTcmZPD4tgY9Kx9gpBqjp~URoIUNn6r28NKrUzPXvrBys11kt-eizID5M-ZZtEeWkB3gqOkTRXXd~cKuUP7soT8-V-ouTCUVFFeV3l7pPSr0SyziyWFaraV4q8YNjlWBw21NEzvZGW0wnxV9OpKl1E001iLcLBw-l89YMdx88LAMbKmWRLFADgezr7dfHlPGDG4DeqmcQBQ__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA&sec=190966943&ar=5381103&xsltPath=~/UI/app/XSLT&imagename=&siteId=5447" class="download-slide" data-path-from-xml="fqz011f4.tif">Download slide</a></div></div><div class="caption fig-caption"><p class="chapter-para">A diagnostics to-do list to be completed before a chapter of <em>MoEML’s</em> edition of Stow can be sent out for peer-review. <em>MoEML</em> requires that all locations contain a brief abstract, a zone outlined on the Agas map, and GIS coordinates (if possible); see <span class="xrefLink" id="jumplink-fqz011-B8"></span><a href="javascript:;" reveal-id="fqz011-B8" data-open="fqz011-B8" class="link link-ref link-reveal xref-bibr">Jenstad (2018)</a> for more information</p></div></div><div content-id="fqz011-F4" class="fig fig-modal reveal-modal"><div class="label fig-label">Fig. 4</div><div class="graphic-wrap"><img class="content-image" src="https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/dsh/34/Supplement_1/10.1093_llc_fqz011/2/m_fqz011f4.png?Expires=1606661360&amp;Signature=RMCxkpSN1NSAMoODgGJ-MtxTSluGYiwnmfKu~azdA-9IpvdliAMI8cPgBvbP-VQswFR0NIdpnyt0dniIeu9N1mCJ3Pwpw642iKdiTUBg5O3mF0efj43BCUkjer0it5aKr4rqiChHV4ZkyDyt7OkswFjpZCbLdR640NwjJLw8tVXaeSJjjNJvfZ07Tb1Yk-OFtkaJnSo4RNn1z-eNpGiD-pmpPFTmHOlxDDtOZddBAHcjfcyhIkHx-DOeGpXttHVp697LGqG7h2w2CVFSVzZYHR40izOMgk0MaloW3hZ9ZXcZ43pQlZ~PYRfm7UsameY~Vj3fQI3PeTxmuTQIP3I1sA__&amp;Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" alt="A diagnostics to-do list to be completed before a chapter of MoEML’s edition of Stow can be sent out for peer-review. MoEML requires that all locations contain a brief abstract, a zone outlined on the Agas map, and GIS coordinates (if possible); see Jenstad (2018) for more information" data-path-from-xml="fqz011f4.tif" /><div class="fig-orig original-slide"><a class="fig-view-orig js-view-large openInAnotherWindow" href="/view-large/figure/190966943/fqz011f4.tif" data-path-from-xml="fqz011f4.tif" target="_blank">Open in new tab</a><a data-section="190966943" href="/DownloadFile/DownloadImage.aspx?image=https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/dsh/34/Supplement_1/10.1093_llc_fqz011/2/fqz011f4.png?Expires=1606661360&Signature=uDYhFSJFFcaV9dJN-EMLmSsu-6p3khnTBmq5tAJE7naFYR9G8KuzJ62rtn-RggkVekdCovU5LmervK49NQn78EoJQqyHz1yULCH8mwFRc0pduRcAyy6ae9EYonrA2qKrtYxw~OsLnFgvTcmZPD4tgY9Kx9gpBqjp~URoIUNn6r28NKrUzPXvrBys11kt-eizID5M-ZZtEeWkB3gqOkTRXXd~cKuUP7soT8-V-ouTCUVFFeV3l7pPSr0SyziyWFaraV4q8YNjlWBw21NEzvZGW0wnxV9OpKl1E001iLcLBw-l89YMdx88LAMbKmWRLFADgezr7dfHlPGDG4DeqmcQBQ__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA&sec=190966943&ar=5381103&xsltPath=~/UI/app/XSLT&imagename=&siteId=5447" class="download-slide" data-path-from-xml="fqz011f4.tif">Download slide</a></div></div><div class="caption fig-caption"><p class="chapter-para">A diagnostics to-do list to be completed before a chapter of <em>MoEML’s</em> edition of Stow can be sent out for peer-review. <em>MoEML</em> requires that all locations contain a brief abstract, a zone outlined on the Agas map, and GIS coordinates (if possible); see <span class="xrefLink" id="jumplink-fqz011-B8"></span><a href="javascript:;" reveal-id="fqz011-B8" data-open="fqz011-B8" class="link link-ref link-reveal xref-bibr">Jenstad (2018)</a> for more information</p></div></div>                    <h2 scrollto-destination=190966944 id="190966944" class="section-title" data-legacy-id=SEC4>4 Level 3</h2>
+<p class="chapter-para">Armed with a comprehensive set of Level 1 and Level 2 diagnostics, and assuming our data is managed using a version-control repository such as Subversion or Git, we can now generate diachronic views of the project’s progress. A script can check out a sequence of incarnations of the project, weekly over a period of months, for instance, and run the entire current diagnostic suite against it; we can then combine these snapshots to get a clear sense of how our work is proceeding. This also means that every time we develop a new diagnostic procedure, we can apply it to the entire history of the project to see the trajectory of project work with respect to the datapoint in question. Two examples, this time from the <em>Nxaʔamxcín Dictionary</em> project,<span class="xrefLink" id="jumplink-fqz011-FN11"></span><a href="javascript:;" reveal-id="fqz011-FN11" data-open="fqz011-FN11" class="link link-ref link-reveal xref-fn js-xref-fn"><sup>11</sup></a> appear in <span class="xrefLink" id="jumplink-fqz011-F5"></span><a href="javascript:;" reveal-id="fqz011-F5" data-open="fqz011-F5" class="link link-reveal link-table xref-fig">Figs 5 and 6</a>. <span class="xrefLink" id="jumplink-fqz011-F5"></span><a href="javascript:;" reveal-id="fqz011-F5" data-open="fqz011-F5" class="link link-reveal link-table xref-fig">Figure 5</a> shows the number of completed dictionary entries on the second line from the top, rising steadily over a period of 18 months, and the number of occurrences of a known problem: duplicate instances of the same gloss. These duplicates rise along with the number of entries until October 2016, when this issue was added to our diagnostics process, and the encoders were able to address it. </p>                        <a id="190966946" scrollto-destination="190966946"></a>
+<div data-id="fqz011-F5" class="fig fig-section"><div class="label fig-label">Fig. 5</div><div class="graphic-wrap"><img class="content-image" src="https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/dsh/34/Supplement_1/10.1093_llc_fqz011/2/m_fqz011f5.png?Expires=1606661360&amp;Signature=g6jraFkP4wutZXJdWP80lnnB2p0UF4fSpf2hIX~al~0D7JQrgCRtUo0hqYU1aUplXOq5bZU61Zd6XPktWblz68rchikFuC8n~boHfWkuCk9qNSbP-QdoAB8-ugIj3Ur~eXHAWhgkg0MK8ZmfgbUn9NK~~JfrbKFCr6RcgXItaeSGly0g9ps-9hK3pejE~RpqezntknSgcgXukoUDzdNUGW9vU8r~8vgk1XlAOz9HVsa9l23NCnp2emuWx9okosH9xSvypLYNC1ZuYtapuSHLRL8xVOu69fwBLzhp6pQirUINxgGnTqSwkresuIm2LCzHnKSZt0LRYh765fzLqDt8rw__&amp;Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" alt="The number of instances of duplicate glosses, tracked against completed entries, in the Nxaʔamxcín Dictionary project" data-path-from-xml="fqz011f5.tif" /><div class="fig-orig original-slide"><a class="fig-view-orig js-view-large openInAnotherWindow" href="/view-large/figure/190966946/fqz011f5.tif" data-path-from-xml="fqz011f5.tif" target="_blank">Open in new tab</a><a data-section="190966946" href="/DownloadFile/DownloadImage.aspx?image=https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/dsh/34/Supplement_1/10.1093_llc_fqz011/2/fqz011f5.png?Expires=1606661360&Signature=VEqY-S2XxBmm9XP-5hzS-tUt1P-Re3GafZaSACANHqQq9w5NZwrZIKSHE18~-AdJRJBTLGe5kkeKZ2jChUvCN8qoSthsx03ITBP~IEaiSPPgumOv8BRNsZMXqkG7DlqCuPhwvqcCg0yJJIQ4hpsb9W-9GGiNF9EEWXEX~pcY6LARzQRqX5dzwrWg1YKXdg3USr7v6EHljxeDQ6XKM5hy~jWshfs5UQKnvlSM3tc~ziC3aimqw-5avDO3-yb1cevr-DKxpdieoBu5FERUDEW7lDyYpr6q6BbaEaluVsdtJY3J5CFmbYgFgE9S7YNhxO-QTew~hbAqIBFNSqdGgI41mA__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA&sec=190966946&ar=5381103&xsltPath=~/UI/app/XSLT&imagename=&siteId=5447" class="download-slide" data-path-from-xml="fqz011f5.tif">Download slide</a></div></div><div class="caption fig-caption"><p class="chapter-para">The number of instances of duplicate glosses, tracked against completed entries, in the <em>Nxaʔamxcín Dictionary</em> project</p></div></div><div content-id="fqz011-F5" class="fig fig-modal reveal-modal"><div class="label fig-label">Fig. 5</div><div class="graphic-wrap"><img class="content-image" src="https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/dsh/34/Supplement_1/10.1093_llc_fqz011/2/m_fqz011f5.png?Expires=1606661360&amp;Signature=g6jraFkP4wutZXJdWP80lnnB2p0UF4fSpf2hIX~al~0D7JQrgCRtUo0hqYU1aUplXOq5bZU61Zd6XPktWblz68rchikFuC8n~boHfWkuCk9qNSbP-QdoAB8-ugIj3Ur~eXHAWhgkg0MK8ZmfgbUn9NK~~JfrbKFCr6RcgXItaeSGly0g9ps-9hK3pejE~RpqezntknSgcgXukoUDzdNUGW9vU8r~8vgk1XlAOz9HVsa9l23NCnp2emuWx9okosH9xSvypLYNC1ZuYtapuSHLRL8xVOu69fwBLzhp6pQirUINxgGnTqSwkresuIm2LCzHnKSZt0LRYh765fzLqDt8rw__&amp;Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" alt="The number of instances of duplicate glosses, tracked against completed entries, in the Nxaʔamxcín Dictionary project" data-path-from-xml="fqz011f5.tif" /><div class="fig-orig original-slide"><a class="fig-view-orig js-view-large openInAnotherWindow" href="/view-large/figure/190966946/fqz011f5.tif" data-path-from-xml="fqz011f5.tif" target="_blank">Open in new tab</a><a data-section="190966946" href="/DownloadFile/DownloadImage.aspx?image=https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/dsh/34/Supplement_1/10.1093_llc_fqz011/2/fqz011f5.png?Expires=1606661360&Signature=VEqY-S2XxBmm9XP-5hzS-tUt1P-Re3GafZaSACANHqQq9w5NZwrZIKSHE18~-AdJRJBTLGe5kkeKZ2jChUvCN8qoSthsx03ITBP~IEaiSPPgumOv8BRNsZMXqkG7DlqCuPhwvqcCg0yJJIQ4hpsb9W-9GGiNF9EEWXEX~pcY6LARzQRqX5dzwrWg1YKXdg3USr7v6EHljxeDQ6XKM5hy~jWshfs5UQKnvlSM3tc~ziC3aimqw-5avDO3-yb1cevr-DKxpdieoBu5FERUDEW7lDyYpr6q6BbaEaluVsdtJY3J5CFmbYgFgE9S7YNhxO-QTew~hbAqIBFNSqdGgI41mA__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA&sec=190966946&ar=5381103&xsltPath=~/UI/app/XSLT&imagename=&siteId=5447" class="download-slide" data-path-from-xml="fqz011f5.tif">Download slide</a></div></div><div class="caption fig-caption"><p class="chapter-para">The number of instances of duplicate glosses, tracked against completed entries, in the <em>Nxaʔamxcín Dictionary</em> project</p></div></div>                        <a id="190966947" scrollto-destination="190966947"></a>
+<div data-id="fqz011-F6" class="fig fig-section"><div class="label fig-label">Fig. 6</div><div class="graphic-wrap"><img class="content-image" src="https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/dsh/34/Supplement_1/10.1093_llc_fqz011/2/m_fqz011f6.png?Expires=1606661360&amp;Signature=JoPE8mxmFh-atKsz9ssw8PTUPu4rNNKjEID5EdAKrsJc0tPbgV1z3F6OzB2trfwdWFXFWPBa0YIUvTaOadaUc9~IAZlucdRqJG3MPEXmimPHoOuZ3N3wctqSJg6w~XZGKYgoVh1ha6ieKT~jkypejCSbdHnbcnnHdK02drdrajYAOyeSwmg~fcAagqrIVmwDb-~7I1azbGQB3TmBfekauKUOL699GpiH8D7PuhubuVCv~tCX1T~zHxMWpPDps2RXvk9klAttiG-ozYf-Lqn3FOz7QYTfrF8m~gGJaucSBFUsiZS5GDKB63RPhtC~I2-fCoHi0fIHbaNLURcqdQwpww__&amp;Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" alt="The number of broken cross-references, tracked against completed entries" data-path-from-xml="fqz011f6.tif" /><div class="fig-orig original-slide"><a class="fig-view-orig js-view-large openInAnotherWindow" href="/view-large/figure/190966947/fqz011f6.tif" data-path-from-xml="fqz011f6.tif" target="_blank">Open in new tab</a><a data-section="190966947" href="/DownloadFile/DownloadImage.aspx?image=https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/dsh/34/Supplement_1/10.1093_llc_fqz011/2/fqz011f6.png?Expires=1606661360&Signature=FT0UCZoz2I72gS4-AVxWR6Q5CITeQtDC8Asczn5GSnYcJOT9ByDdcZE2551NW4pjzBkLS29XUT0b1aLLoSdLWYYvLfyKYByunpKDLi290qc0lohShWGnwbxqexS9gorqOSDvWmpp3jO1Ru~Kg0tVuWkgon1B4lA5nLvS1uecvSMD5G60yZU8dVPJogHgK9xQqSLXAEr9kS0KDDCy1qS0m64rdEsVQsnjQeoOMcaeeW8N9Aw98jDfWKF25E-oxV4rcr~qLy-Amtu4A6i17trC0i2SdkJkE2~Dz6iLhNCPsdRmlf4DIgrMtNpFYIiK2NHwr8lIM3GxlQIZvIzQ1BSHKQ__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA&sec=190966947&ar=5381103&xsltPath=~/UI/app/XSLT&imagename=&siteId=5447" class="download-slide" data-path-from-xml="fqz011f6.tif">Download slide</a></div></div><div class="caption fig-caption"><p class="chapter-para">The number of broken cross-references, tracked against completed entries</p></div></div><div content-id="fqz011-F6" class="fig fig-modal reveal-modal"><div class="label fig-label">Fig. 6</div><div class="graphic-wrap"><img class="content-image" src="https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/dsh/34/Supplement_1/10.1093_llc_fqz011/2/m_fqz011f6.png?Expires=1606661360&amp;Signature=JoPE8mxmFh-atKsz9ssw8PTUPu4rNNKjEID5EdAKrsJc0tPbgV1z3F6OzB2trfwdWFXFWPBa0YIUvTaOadaUc9~IAZlucdRqJG3MPEXmimPHoOuZ3N3wctqSJg6w~XZGKYgoVh1ha6ieKT~jkypejCSbdHnbcnnHdK02drdrajYAOyeSwmg~fcAagqrIVmwDb-~7I1azbGQB3TmBfekauKUOL699GpiH8D7PuhubuVCv~tCX1T~zHxMWpPDps2RXvk9klAttiG-ozYf-Lqn3FOz7QYTfrF8m~gGJaucSBFUsiZS5GDKB63RPhtC~I2-fCoHi0fIHbaNLURcqdQwpww__&amp;Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" alt="The number of broken cross-references, tracked against completed entries" data-path-from-xml="fqz011f6.tif" /><div class="fig-orig original-slide"><a class="fig-view-orig js-view-large openInAnotherWindow" href="/view-large/figure/190966947/fqz011f6.tif" data-path-from-xml="fqz011f6.tif" target="_blank">Open in new tab</a><a data-section="190966947" href="/DownloadFile/DownloadImage.aspx?image=https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/dsh/34/Supplement_1/10.1093_llc_fqz011/2/fqz011f6.png?Expires=1606661360&Signature=FT0UCZoz2I72gS4-AVxWR6Q5CITeQtDC8Asczn5GSnYcJOT9ByDdcZE2551NW4pjzBkLS29XUT0b1aLLoSdLWYYvLfyKYByunpKDLi290qc0lohShWGnwbxqexS9gorqOSDvWmpp3jO1Ru~Kg0tVuWkgon1B4lA5nLvS1uecvSMD5G60yZU8dVPJogHgK9xQqSLXAEr9kS0KDDCy1qS0m64rdEsVQsnjQeoOMcaeeW8N9Aw98jDfWKF25E-oxV4rcr~qLy-Amtu4A6i17trC0i2SdkJkE2~Dz6iLhNCPsdRmlf4DIgrMtNpFYIiK2NHwr8lIM3GxlQIZvIzQ1BSHKQ__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA&sec=190966947&ar=5381103&xsltPath=~/UI/app/XSLT&imagename=&siteId=5447" class="download-slide" data-path-from-xml="fqz011f6.tif">Download slide</a></div></div><div class="caption fig-caption"><p class="chapter-para">The number of broken cross-references, tracked against completed entries</p></div></div><p class="chapter-para"><span class="xrefLink" id="jumplink-fqz011-F6"></span><a href="javascript:;" reveal-id="fqz011-F6" data-open="fqz011-F6" class="link link-reveal link-table xref-fig">Figure 6</a> shows cases of broken cross-references, which also tend to increase along with the number of completed entries, but we can see from the graph that the issue was aggressively addressed in two separate campaigns in fall 2015 and summer 2016. New instances continue to appear, however.</p><p class="chapter-para"><span class="xrefLink" id="jumplink-fqz011-F7"></span><a href="javascript:;" reveal-id="fqz011-F7" data-open="fqz011-F7" class="link link-reveal link-table xref-fig">Figure 7</a>, from a different project, shows how this approach can be used to forecast completion dates for tasks in a project based on the progress rate so far. </p>                        <a id="190966950" scrollto-destination="190966950"></a>
+<div data-id="fqz011-F7" class="fig fig-section"><div class="label fig-label">Fig. 7</div><div class="graphic-wrap"><img class="content-image" src="https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/dsh/34/Supplement_1/10.1093_llc_fqz011/2/m_fqz011f7.png?Expires=1606661360&amp;Signature=xWH8NQGEIqE6RN5iMBQ3lZvBmxP3smrXmNS7YHHxGs995cCPvypah1~ods3jhiFiXf6F4jO0zfssPC-1buNbue3ke1Kjprb~z49xIzuJF-k3sSVgaCMqs-M7y~jt527ZiYK5hLccJsxzH1s2aRgpF~VNKA44tb7ocomhHCyuKvsdq5b8yOzs9ntMWXtu3lexIT61mTEs7yYnFGr8tzK4k4Vq8cTyA98YfIFHzy-gIGNsIOHHmITmV3ePMs0jfRAQV3g5vkr8I49giubu1Sr3Xm0YVMcT~~8v056Laivz7pHj5M1KWavECT--5DyQ9A93OaNzapUVgbZ8CbrtLvDCVw__&amp;Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" alt="Diachronic diagnostics used to project task completion dates" data-path-from-xml="fqz011f7.tif" /><div class="fig-orig original-slide"><a class="fig-view-orig js-view-large openInAnotherWindow" href="/view-large/figure/190966950/fqz011f7.tif" data-path-from-xml="fqz011f7.tif" target="_blank">Open in new tab</a><a data-section="190966950" href="/DownloadFile/DownloadImage.aspx?image=https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/dsh/34/Supplement_1/10.1093_llc_fqz011/2/fqz011f7.png?Expires=1606661360&Signature=HR6KNEzLhzeoxELKQhqJn2DytG54iYGElful0xQYqoM0VpKjeA-Vufa~1tjr2d9igxBJYunHSZMvwG08WZnLXuD7SdA5Aj95fGZ2pq~2zmA~xSj8k5YIOFLpcR06ZNZs5AaDwgw0YGVIHqSjo~50LayNpZNsyF7fbKN18isKBeTo~TRZyMMZbayo2rzdwGiQ7V2YeK8rD9B7RgL~-dk7W0jzSI~7kbFFQKNDULjJlTarZjCWr2V8W2tYYqFrFyOMtx6wm~P8USLrk~W-KURQdoCg9S-v-x--gle-qTLIyMK6kCHKIjkBm7fdyBNFfRXGOA2kfCRFji~lPoKy0XVzQg__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA&sec=190966950&ar=5381103&xsltPath=~/UI/app/XSLT&imagename=&siteId=5447" class="download-slide" data-path-from-xml="fqz011f7.tif">Download slide</a></div></div><div class="caption fig-caption"><p class="chapter-para">Diachronic diagnostics used to project task completion dates</p></div></div><div content-id="fqz011-F7" class="fig fig-modal reveal-modal"><div class="label fig-label">Fig. 7</div><div class="graphic-wrap"><img class="content-image" src="https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/dsh/34/Supplement_1/10.1093_llc_fqz011/2/m_fqz011f7.png?Expires=1606661360&amp;Signature=xWH8NQGEIqE6RN5iMBQ3lZvBmxP3smrXmNS7YHHxGs995cCPvypah1~ods3jhiFiXf6F4jO0zfssPC-1buNbue3ke1Kjprb~z49xIzuJF-k3sSVgaCMqs-M7y~jt527ZiYK5hLccJsxzH1s2aRgpF~VNKA44tb7ocomhHCyuKvsdq5b8yOzs9ntMWXtu3lexIT61mTEs7yYnFGr8tzK4k4Vq8cTyA98YfIFHzy-gIGNsIOHHmITmV3ePMs0jfRAQV3g5vkr8I49giubu1Sr3Xm0YVMcT~~8v056Laivz7pHj5M1KWavECT--5DyQ9A93OaNzapUVgbZ8CbrtLvDCVw__&amp;Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" alt="Diachronic diagnostics used to project task completion dates" data-path-from-xml="fqz011f7.tif" /><div class="fig-orig original-slide"><a class="fig-view-orig js-view-large openInAnotherWindow" href="/view-large/figure/190966950/fqz011f7.tif" data-path-from-xml="fqz011f7.tif" target="_blank">Open in new tab</a><a data-section="190966950" href="/DownloadFile/DownloadImage.aspx?image=https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/dsh/34/Supplement_1/10.1093_llc_fqz011/2/fqz011f7.png?Expires=1606661360&Signature=HR6KNEzLhzeoxELKQhqJn2DytG54iYGElful0xQYqoM0VpKjeA-Vufa~1tjr2d9igxBJYunHSZMvwG08WZnLXuD7SdA5Aj95fGZ2pq~2zmA~xSj8k5YIOFLpcR06ZNZs5AaDwgw0YGVIHqSjo~50LayNpZNsyF7fbKN18isKBeTo~TRZyMMZbayo2rzdwGiQ7V2YeK8rD9B7RgL~-dk7W0jzSI~7kbFFQKNDULjJlTarZjCWr2V8W2tYYqFrFyOMtx6wm~P8USLrk~W-KURQdoCg9S-v-x--gle-qTLIyMK6kCHKIjkBm7fdyBNFfRXGOA2kfCRFji~lPoKy0XVzQg__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA&sec=190966950&ar=5381103&xsltPath=~/UI/app/XSLT&imagename=&siteId=5447" class="download-slide" data-path-from-xml="fqz011f7.tif">Download slide</a></div></div><div class="caption fig-caption"><p class="chapter-para">Diachronic diagnostics used to project task completion dates</p></div></div>                    <h2 scrollto-destination=190966951 id="190966951" class="section-title" data-legacy-id=SEC5>5 Too Much of a Good Thing</h2>
+<p class="chapter-para">An automated build process which incorporates diagnostics can significantly aid in progress toward publication-readiness. However, it can also, paradoxically, slow a project down if not used with caution. Imagine a situation in which an encoder with the skills to add new diagnostic tests comes across an instance of an error which is not captured by the current set of tests. She might simply correct the error and move on; or she might write a new diagnostic to check for more instances of that error. The new diagnostic may uncover 2,000 more examples, pushing back the project’s completion date by several weeks. Diagnostics may also reveal new insights into the dataset which prompt changes in the working methods, or the encoding strategies. It may be more prudent to leave diagnostics for a specific target edition unchanged until that edition is actually published, and then refocus for the next edition.</p>                    <h2 scrollto-destination=190966953 id="190966953" class="section-title" data-legacy-id=SEC6>6 Conclusion</h2>
+<p class="chapter-para">As <span class="xrefLink" id="jumplink-fqz011-B9"></span><a href="javascript:;" reveal-id="fqz011-B9" data-open="fqz011-B9" class="link link-ref link-reveal xref-bibr">Kirschenbaum (2009)</a> tells us, there ‘is no more satisfying sequence of characters’ than ‘Done’. Despite the common tacit assumption that ‘nothing in digital form is ever really finished’ (<span class="xrefLink" id="jumplink-fqz011-B1"></span><a href="javascript:;" reveal-id="fqz011-B1" data-open="fqz011-B1" class="link link-ref link-reveal xref-bibr">Burnard, 2016</a>), this is hardly a desirable state of affairs, and the ultimate purpose of a digital edition project is to finish and publish an edition, even if work continues on the project and further editions are planned. This requires not only that the document-level encoding be valid but also that the entire dataset be coherent, consistent, and complete. To do so, digital edition projects must check their data both at the document level as well as the larger project level, ensuring that the project is coherent, consistent, and correct. Programmed diagnostics enable projects to enforce coherence and consistency, manage the workflow effectively, and measure their progress toward completeness.</p>                    <h2 scrollto-destination=190966955 id="190966955" class="backfootnotegroup-title" >Footnotes</h2>
+<div content-id="fqz011-FN1"><div class="fn"><div class="footnote-content"><p class="footnote-compatibility">1 Our use of the terms ‘personography’ and ‘placeography’ follows <em>The Map of Early Modern London</em>’s terminology. We use these terms because our resources differ from ordinary bibliographical lists or gazetteers in that both may contain fictional and mythological entities or locations.</p></div></div></div><div content-id="fqz011-FN2"><div class="fn"><div class="footnote-content"><p class="footnote-compatibility">2 For instance, see the papers (<span class="xrefLink" id="jumplink-fqz011-B14"></span><a href="javascript:;" reveal-id="fqz011-B14" data-open="fqz011-B14" class="link link-ref link-reveal xref-bibr">particularly Waldt, 2012</a>) presented at the <span class="xrefLink" id="jumplink-fqz011-B10"></span><a href="javascript:;" reveal-id="fqz011-B10" data-open="fqz011-B10" class="link link-ref link-reveal xref-bibr">International Symposium on Quality Assurance and Quality Control in XML</a>, <a class="link link-uri openInAnotherWindow" href="http://www.balisage.net/Proceedings/vol9/contents.html" target="_blank">http://www.balisage.net/Proceedings/vol9/contents.html</a>.</p></div></div></div><div content-id="fqz011-FN3"><div class="fn"><div class="footnote-content"><p class="footnote-compatibility">3 <span class="xrefLink" id="jumplink-fqz011-B11"></span><a href="javascript:;" reveal-id="fqz011-B11" data-open="fqz011-B11" class="link link-ref link-reveal xref-bibr">Rahtz (2007)</a> hints at project-level consistency checking, suggesting that editors do not ‘rely on the schema’ and find alternatives ‘beyond Schema and DTDs’.</p></div></div></div><div content-id="fqz011-FN4"><div class="fn"><div class="footnote-content"><p class="footnote-compatibility">4 Endings (<a class="link link-uri openInAnotherWindow" href="https://projectendings.github.io/" target="_blank">https://projectendings.github.io/</a>) is supported by the Social Sciences and Humanities Research Council of Canada.</p></div></div></div><div content-id="fqz011-FN5"><div class="fn"><div class="footnote-content"><p class="footnote-compatibility">5 For those unfamiliar with the series, Sternbach &amp; Okuda explain that ‘all key operating systems and subsystems aboard the <em>Enterprise</em> have a number of preprogrammed diagnostic software and procedures… generally classified into five different levels, each offering a different degree of crew verification of automated tests’ (46).</p></div></div></div><div content-id="fqz011-FN6"><div class="fn"><div class="footnote-content"><p class="footnote-compatibility">6 There has been considerable disagreement about the meaning of ‘TEI Conformant’ over many years (see, for example, <span class="xrefLink" id="jumplink-fqz011-B2"></span><a href="javascript:;" reveal-id="fqz011-B2" data-open="fqz011-B2" class="link link-ref link-reveal xref-bibr">Burnard 2017</a>). We use it to mean that any document which validates against our TEI-derived schema will also validate against the complete TEI schema ‘tei_all’.</p></div></div></div><div content-id="fqz011-FN7"><div class="fn"><div class="footnote-content"><p class="footnote-compatibility">7 Ant (<a class="link link-uri openInAnotherWindow" href="http://ant.apache.org/" target="_blank">http://ant.apache.org/</a>) is a Java tool for managing software build processes.</p></div></div></div><div content-id="fqz011-FN8"><div class="fn"><div class="footnote-content"><p class="footnote-compatibility">8 Although most of the diagnostic processes are carried out with pure XSLT, a few (such as external link checking) require the use of other command-line tools such as LinkChecker (<a class="link link-uri openInAnotherWindow" href="https://wummel.github.io/linkchecker/" target="_blank">https://wummel.github.io/linkchecker/</a>).</p></div></div></div><div content-id="fqz011-FN9"><div class="fn"><div class="footnote-content"><p class="footnote-compatibility">9 We borrow the phrase ‘referential integrity’ from the MLA’s ‘<span class="xrefLink" id="jumplink-fqz011-B4"></span><a href="javascript:;" reveal-id="fqz011-B4" data-open="fqz011-B4" class="link link-ref link-reveal xref-bibr">Guidelines for Editors of Scholarly Editions (2016)</a>’, which advises peer-reviewers of digital editions that link to multiple databases to see if ‘referential integrity [is] enforced within the database(s).’ The term originates in the relational database field.</p></div></div></div><div content-id="fqz011-FN10"><div class="fn"><div class="footnote-content"><p class="footnote-compatibility">10 See <span class="xrefLink" id="jumplink-fqz011-B151"></span><a href="javascript:;" reveal-id="fqz011-B151" data-open="fqz011-B151" class="link link-ref link-reveal xref-bibr">TEI Consortium (2016)</a>, <a class="link link-uri openInAnotherWindow" href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/SA.html#SAPU" target="_blank">http://www.tei-c.org/release/doc/tei-p5-doc/en/html/SA.html#SAPU</a>.</p></div></div></div><div content-id="fqz011-FN11"><div class="fn"><div class="footnote-content"><p class="footnote-compatibility">11 The <em>Nxaʔamxcín Dictionary</em> is an indigenous dictionary project described in detail in <span class="xrefLink" id="jumplink-fqz011-B3"></span><a href="javascript:;" reveal-id="fqz011-B3" data-open="fqz011-B3" class="link link-ref link-reveal xref-bibr">Czaykowska-Higgins <em>et al.</em> (2014</a>).</p></div></div></div>                    <h2 scrollto-destination=190966967 id="190966967" class="backreferences-title" data-legacy-id=ref1>References</h2>
+<div class="ref-list"><div content-id="fqz011-B1" data-legacy-id="fqz011-B1"><div class="refLink-parent"><span class="refLink"><a name="jumplink-fqz011-B1" href="javascript:;" aria-label="jumplink-fqz011-B1"></a></span></div><div class="ref false"><div id="ref-auto-fqz011-B1" class="ref-content "><div class="mixed-citation citation"><p class="mixed-citation-compatibility"><span class="person-group"><span class="name string-name"><div class="surname">Burnard</div> <div class="given-names">L.</div></span></span> (<div class="year">2016</div>). <em>How to Update Your ODD</em>. TEI GitHub Repository. <a class="link link-uri openInAnotherWindow" href="http://teic.github.io/PDF/purifyDoc.pdf" target="_blank">http://teic.github.io/PDF/purifyDoc.pdf</a> (accessed 18 February 2019).</p></div></div></div></div><div content-id="fqz011-B2" data-legacy-id="fqz011-B2"><div class="refLink-parent"><span class="refLink"><a name="jumplink-fqz011-B2" href="javascript:;" aria-label="jumplink-fqz011-B2"></a></span></div><div class="ref false"><div id="ref-auto-fqz011-B2" class="ref-content "><div class="mixed-citation citation"><p class="mixed-citation-compatibility"><span class="person-group"><span class="name string-name"><div class="surname">Burnard</div> <div class="given-names">L.</div></span></span> (<div class="year">2017</div>). What is TEI conformance, and why should you care? In <div class="source ">TEI 2017 Conference</div>, <div class="publisher-loc">Victoria, BC</div>. <a class="link link-uri openInAnotherWindow" href="https://hcmc.uvic.ca/tei2017/abstracts/t_119_burnard_teiconformance.html" target="_blank">https://hcmc.uvic.ca/tei2017/abstracts/t_119_burnard_teiconformance.html</a> (accessed 18 February 2019).</p><!--citationLinks: case 2--><div class="citation-links"><p class="citation-links-compatibility"><span class="google-scholar-ref-link"><a class="openInAnotherWindow" href="https://scholar.google.com/scholar_lookup?title=TEI%202017%20Conference&amp;author=L.%20Burnard&amp;publication_year=2017&amp;book=TEI%202017%20Conference" target="_blank">Google Scholar</a></span></p><p class="citation-links-compatibility"><span class="google-preview-ref-link js-google-preview-ref-link" style="display:none"><a class="openInAnotherWindow" href="https://www.google.com/search?q=TEI%202017%20Conference&amp;btnG=Search+Books&amp;tbm=bks&amp;tbo=1" target="_blank">Google Preview</a></span></p><div class="xslopenurl empty-target"><span class="js-inst-open-url-holders-nodoi"><a class="openInAnotherWindow js-open-url-link" target="_blank" data-href-template="{targetURL}?sid=oup:orr&amp;genre=book&amp;title=TEI%202017%20Conference&amp;aulast=Burnard&amp;date=2017" href="javascript:;"><span class="screenreader-text">OpenURL Placeholder Text</span></a></span></div><p class="citation-links-compatibility"><span class="worldcat-reference-ref-link js-worldcat-preview-ref-link" style="display:none"><a class="openInAnotherWindow" href="https://www.worldcat.org/search?q=ti:TEI%202017%20Conference&amp;qt=advanced&amp;dblist=638" target="_blank">WorldCat</a></span></p><div class="copac-reference-ref-link js-copac-preview-ref-link" style="display:none" data-pubtype="book"><span class="inst-copac"><a class="openInAnotherWindow" target="_blank" href="http://copac.ac.uk/search?ti=TEI%202017%20Conference">COPAC</a></span></div> </div></div></div></div></div><div content-id="fqz011-B3" data-legacy-id="fqz011-B3"><div class="refLink-parent"><span class="refLink"><a name="jumplink-fqz011-B3" href="javascript:;" aria-label="jumplink-fqz011-B3"></a></span></div><div class="ref false"><div id="ref-auto-fqz011-B3" class="ref-content "><div class="mixed-citation citation"><p class="mixed-citation-compatibility"><span class="person-group"><span class="name string-name"><div class="surname">Czaykowska-Higgins</div> <div class="given-names">E.</div></span>, <span class="name string-name"><div class="surname">Holmes</div> <div class="given-names">M.</div></span>, <span class="name string-name"><div class="surname">Kell</div> <div class="given-names">S.</div></span></span> (<div class="year">2014</div>). <div class="article-title">Using TEI for an endangered language lexical resource: The Nxaʔamxcín Database-Dictionary Project</div>. <div class="source ">Language Documentation &amp; Conservation</div>, <div class="volume">8</div>: <div class="fpage">1</div>–<div class="lpage">37</div>.</p><!--citationLinks: case 2--><div class="citation-links"><p class="citation-links-compatibility"><span class="google-scholar-ref-link"><a class="openInAnotherWindow" href="https://scholar.google.com/scholar_lookup?title=Using%20TEI%20for%20an%20endangered%20language%20lexical%20resource%3A%20The%20Nxa%CA%94amxc%C3%ADn%20Database-Dictionary%20Project&amp;author=E.%20Czaykowska-Higgins&amp;author=M.%20Holmes&amp;author=S.%20Kell&amp;publication_year=2014&amp;journal=Language%20Documentation%20%26%20Conservation&amp;volume=8&amp;pages=1-37" target="_blank">Google Scholar</a></span></p><div class="xslopenurl empty-target"><span class="js-inst-open-url-holders-nodoi"><a class="openInAnotherWindow js-open-url-link" target="_blank" data-href-template="{targetURL}?sid=oup:orr&amp;genre=article&amp;atitle=Using%20TEI%20for%20an%20endangered%20language%20lexical%20resource%3A%20The%20Nxa%CA%94amxc%C3%ADn%20Database-Dictionary%20Project&amp;aulast=Czaykowska-Higgins&amp;title=Language Documentation &amp; Conservation&amp;date=2014&amp;spage=1&amp;epage=37&amp;volume=8" href="javascript:;"><span class="screenreader-text">OpenURL Placeholder Text</span></a></span></div><p class="citation-links-compatibility"><span class="worldcat-reference-ref-link js-worldcat-preview-ref-link" style="display:none"><a class="openInAnotherWindow" href="https://www.worldcat.org/search?q=ti:Using%20TEI%20for%20an%20endangered%20language%20lexical%20resource%3A%20The%20Nxa%CA%94amxc%C3%ADn%20Database-Dictionary%20Project&amp;qt=advanced&amp;dblist=638" target="_blank">WorldCat</a></span></p> </div></div></div></div></div><div content-id="fqz011-B152" data-legacy-id="fqz011-B152"><div class="refLink-parent"><span class="refLink"><a name="jumplink-fqz011-B152" href="javascript:;" aria-label="jumplink-fqz011-B152"></a></span></div><div class="ref false"><div id="ref-auto-fqz011-B152" class="ref-content "><div class="mixed-citation citation"><p class="mixed-citation-compatibility"><span class="person-group"><span class="name string-name"><div class="surname">Durand</div> <div class="given-names">J.</div></span>, <span class="name string-name"><div class="surname">Green</div> <div class="given-names">S.</div></span>, <span class="name string-name"><div class="surname">Kulvatunyou</div> <div class="given-names">S.</div></span>, <span class="name string-name"><div class="surname">Rutt</div> <div class="given-names">T.</div></span></span> (<div class="year">2009</div>). Test assertions on steroids for XML artifacts. In Balisage: The Markup Conference Abstracts. <a class="link link-uri openInAnotherWindow" href="http://repositorium.sdum.uminho.pt/handle/1822/619" target="_blank">https://www.balisage.net/Proceedings/vol3/html/Durand01/BalisageVol3-Durand01.html</a> (accessed 18 February 2019).</p></div></div></div></div><div content-id="fqz011-B4" data-legacy-id="fqz011-B4"><div class="refLink-parent"><span class="refLink"><a name="jumplink-fqz011-B4" href="javascript:;" aria-label="jumplink-fqz011-B4"></a></span></div><div class="ref false"><div id="ref-auto-fqz011-B4" class="ref-content "><div class="mixed-citation citation"><p class="mixed-citation-compatibility">Guidelines for Editors of Scholarly Editions. (<div class="year">2016</div>). Modern Language Association. <a class="link link-uri openInAnotherWindow" href="https://www.mla.org/Resources/Research/Surveys-Reports-and-Other-Documents/Publishing-and-Scholarship/Reports-from-the-MLA-Committee-on-Scholarly-Editions/Guidelines-for-Editors-of-Scholarly-Editions" target="_blank">https://www.mla.org/Resources/Research/Surveys-Reports-and-Other-Documents/Publishing-and-Scholarship/Reports-from-the-MLA-Committee-on-Scholarly-Editions/Guidelines-for-Editors-of-Scholarly-Editions</a> (accessed 18 February 2019).</p></div></div></div></div><div content-id="fqz011-B6" data-legacy-id="fqz011-B6"><div class="refLink-parent"><span class="refLink"><a name="jumplink-fqz011-B6" href="javascript:;" aria-label="jumplink-fqz011-B6"></a></span></div><div class="ref false"><div id="ref-auto-fqz011-B6" class="ref-content "><div class="mixed-citation citation"><p class="mixed-citation-compatibility"><span class="person-group"><span class="name string-name"><div class="surname">Holmes</div> <div class="given-names">M.</div></span></span> (<div class="year">2010</div>). Using the universal similarity metric to map correspondences between witnesses. In Digital Humanities 2010 Conference Abstracts, Kings College London. <a class="link link-uri openInAnotherWindow" href="http://dh2010.cch.kcl.ac.uk/academic-programme/abstracts/papers/html/ab-693.html" target="_blank">http://dh2010.cch.kcl.ac.uk/academic-programme/abstracts/papers/html/ab-693.html</a> (accessed 18 February 2019).</p></div></div></div></div><div content-id="fqz011-B7" data-legacy-id="fqz011-B7"><div class="refLink-parent"><span class="refLink"><a name="jumplink-fqz011-B7" href="javascript:;" aria-label="jumplink-fqz011-B7"></a></span></div><div class="ref false"><div id="ref-auto-fqz011-B7" class="ref-content "><div class="mixed-citation citation"><p class="mixed-citation-compatibility"><span class="person-group"><span class="name string-name"><div class="surname">Jacinto</div> <div class="given-names">M. H.</div></span>, <span class="name string-name"><div class="surname">Librelotto</div> <div class="given-names">G. R.</div></span>, <span class="name string-name"><div class="surname">José Carlos Ramalho</div> <div class="given-names">J. C.</div></span>, <span class="name string-name"><div class="surname">Henriques</div> <div class="given-names">P. R.</div></span></span> (<div class="year">2002</div>). Constraint Specification Languages: Comparing XCSL, Schematron and XML-Schemas. <a class="link link-uri openInAnotherWindow" href="http://repositorium.sdum.uminho.pt/handle/1822/619" target="_blank">http://repositorium.sdum.uminho.pt/handle/1822/619</a> (accessed 18 February 2019).</p></div></div></div></div><div content-id="fqz011-B8" data-legacy-id="fqz011-B8"><div class="refLink-parent"><span class="refLink"><a name="jumplink-fqz011-B8" href="javascript:;" aria-label="jumplink-fqz011-B8"></a></span></div><div class="ref false"><div id="ref-auto-fqz011-B8" class="ref-content "><div class="mixed-citation citation"><p class="mixed-citation-compatibility"><span class="person-group"><span class="name string-name"><div class="surname">Jenstad</div> <div class="given-names">J.</div></span></span> (<div class="year">2018</div>). <div class="source ">The Map of Early Modern London</div>. <div class="publisher-name">University of Victoria</div>. <a class="link link-uri openInAnotherWindow" href="https://mapoflondon.uvic.ca" target="_blank">https://mapoflondon.uvic.ca</a> (accessed 18 February 2019).</p><!--citationLinks: case 2--><div class="citation-links"><p class="citation-links-compatibility"><span class="google-scholar-ref-link"><a class="openInAnotherWindow" href="https://scholar.google.com/scholar_lookup?title=The%20Map%20of%20Early%20Modern%20London&amp;author=J.%20Jenstad&amp;publication_year=2018&amp;book=The%20Map%20of%20Early%20Modern%20London" target="_blank">Google Scholar</a></span></p><p class="citation-links-compatibility"><span class="google-preview-ref-link js-google-preview-ref-link" style="display:none"><a class="openInAnotherWindow" href="https://www.google.com/search?q=The%20Map%20of%20Early%20Modern%20London&amp;btnG=Search+Books&amp;tbm=bks&amp;tbo=1" target="_blank">Google Preview</a></span></p><div class="xslopenurl empty-target"><span class="js-inst-open-url-holders-nodoi"><a class="openInAnotherWindow js-open-url-link" target="_blank" data-href-template="{targetURL}?sid=oup:orr&amp;genre=book&amp;title=The%20Map%20of%20Early%20Modern%20London&amp;aulast=Jenstad&amp;date=2018" href="javascript:;"><span class="screenreader-text">OpenURL Placeholder Text</span></a></span></div><p class="citation-links-compatibility"><span class="worldcat-reference-ref-link js-worldcat-preview-ref-link" style="display:none"><a class="openInAnotherWindow" href="https://www.worldcat.org/search?q=ti:The%20Map%20of%20Early%20Modern%20London&amp;qt=advanced&amp;dblist=638" target="_blank">WorldCat</a></span></p><div class="copac-reference-ref-link js-copac-preview-ref-link" style="display:none" data-pubtype="book"><span class="inst-copac"><a class="openInAnotherWindow" target="_blank" href="http://copac.ac.uk/search?ti=The%20Map%20of%20Early%20Modern%20London">COPAC</a></span></div> </div></div></div></div></div><div content-id="fqz011-B9" data-legacy-id="fqz011-B9"><div class="refLink-parent"><span class="refLink"><a name="jumplink-fqz011-B9" href="javascript:;" aria-label="jumplink-fqz011-B9"></a></span></div><div class="ref false"><div id="ref-auto-fqz011-B9" class="ref-content "><div class="mixed-citation citation"><p class="mixed-citation-compatibility"><span class="person-group"><span class="name string-name"><div class="surname">Kirschenbaum</div> <div class="given-names">M.</div></span></span> (<div class="year">2009</div>). <div class="article-title">Done: finishing projects in the digital humanities</div>. <div class="source ">DHQ</div>, <div class="volume">3</div>(<div class="issue">2</div>). <a class="link link-uri openInAnotherWindow" href="http://digitalhumanities.org:8081/dhq/vol/3/2/000037/000037.html" target="_blank">http://digitalhumanities.org:8081/dhq/vol/3/2/000037/000037.html</a> (accessed 18 February 2019).</p><!--citationLinks: case 2--><div class="citation-links"><p class="citation-links-compatibility"><span class="google-scholar-ref-link"><a class="openInAnotherWindow" href="https://scholar.google.com/scholar_lookup?title=Done%3A%20finishing%20projects%20in%20the%20digital%20humanities&amp;author=M.%20Kirschenbaum&amp;publication_year=2009&amp;journal=DHQ&amp;volume=3&amp;pages=" target="_blank">Google Scholar</a></span></p><div class="xslopenurl empty-target"><span class="js-inst-open-url-holders-nodoi"><a class="openInAnotherWindow js-open-url-link" target="_blank" data-href-template="{targetURL}?sid=oup:orr&amp;genre=article&amp;atitle=Done%3A%20finishing%20projects%20in%20the%20digital%20humanities&amp;aulast=Kirschenbaum&amp;title=DHQ&amp;date=2009&amp;volume=3&amp;issue=2" href="javascript:;"><span class="screenreader-text">OpenURL Placeholder Text</span></a></span></div><p class="citation-links-compatibility"><span class="worldcat-reference-ref-link js-worldcat-preview-ref-link" style="display:none"><a class="openInAnotherWindow" href="https://www.worldcat.org/search?q=ti:Done%3A%20finishing%20projects%20in%20the%20digital%20humanities&amp;qt=advanced&amp;dblist=638" target="_blank">WorldCat</a></span></p> </div></div></div></div></div><div content-id="fqz011-B10" data-legacy-id="fqz011-B10"><div class="refLink-parent"><span class="refLink"><a name="jumplink-fqz011-B10" href="javascript:;" aria-label="jumplink-fqz011-B10"></a></span></div><div class="ref false"><div id="ref-auto-fqz011-B10" class="ref-content "><div class="mixed-citation citation"><p class="mixed-citation-compatibility">Proceedings of the International Symposium on Quality Assurance and Quality Control in XML (<div class="year">2012</div>). <a class="link link-uri openInAnotherWindow" href="http://www.balisage.net/Proceedings/vol9/contents.html" target="_blank">http://www.balisage.net/Proceedings/vol9/contents.html</a> (accessed 18 February 2019).</p></div></div></div></div><div content-id="fqz011-B11" data-legacy-id="fqz011-B11"><div class="refLink-parent"><span class="refLink"><a name="jumplink-fqz011-B11" href="javascript:;" aria-label="jumplink-fqz011-B11"></a></span></div><div class="ref false"><div id="ref-auto-fqz011-B11" class="ref-content "><div class="mixed-citation citation"><p class="mixed-citation-compatibility"><span class="person-group"><span class="name string-name"><div class="surname">Rahtz</div> <div class="given-names">S.</div></span></span> (<div class="year">2007</div>). Technology Overview and Discussion: Data Capture, Editing, and Schemas. Oxford, February 13. <a class="link link-uri openInAnotherWindow" href="http://tei.it.ox.ac.uk/Talks/2007-02-13-oucs/talk-editing.xml" target="_blank">http://tei.it.ox.ac.uk/Talks/2007-02-13-oucs/talk-editing.xml</a> (accessed 18 February 2019).</p></div></div></div></div><div content-id="fqz011-B12" data-legacy-id="fqz011-B12"><div class="refLink-parent"><span class="refLink"><a name="jumplink-fqz011-B12" href="javascript:;" aria-label="jumplink-fqz011-B12"></a></span></div><div class="ref false"><div id="ref-auto-fqz011-B12" class="ref-content "><div class="mixed-citation citation"><p class="mixed-citation-compatibility"><span class="person-group"><span class="name string-name"><div class="surname">Sternbach</div> <div class="given-names">R.</div></span>, <span class="name string-name"><div class="surname">Okuda</div> <div class="given-names">M.</div></span></span> (<div class="year">1991</div>). <div class="source ">Star Trek, the next Generation: Technical Manual</div>. <div class="publisher-loc">New York</div>: <div class="publisher-name">Pocket Books</div>. <a class="link link-uri openInAnotherWindow" href="http://catalog.hathitrust.org/api/volumes/oclc/24648561.html" target="_blank">http://catalog.hathitrust.org/api/volumes/oclc/24648561.html</a> (accessed 18 February 2019).</p><!--citationLinks: case 2--><div class="citation-links"><p class="citation-links-compatibility"><span class="google-scholar-ref-link"><a class="openInAnotherWindow" href="https://scholar.google.com/scholar_lookup?title=Star%20Trek%2C%20the%20next%20Generation%3A%20Technical%20Manual&amp;author=R.%20Sternbach&amp;author=M.%20Okuda&amp;publication_year=1991&amp;book=Star%20Trek%2C%20the%20next%20Generation%3A%20Technical%20Manual" target="_blank">Google Scholar</a></span></p><p class="citation-links-compatibility"><span class="google-preview-ref-link js-google-preview-ref-link" style="display:none"><a class="openInAnotherWindow" href="https://www.google.com/search?q=Star%20Trek%2C%20the%20next%20Generation%3A%20Technical%20Manual&amp;btnG=Search+Books&amp;tbm=bks&amp;tbo=1" target="_blank">Google Preview</a></span></p><div class="xslopenurl empty-target"><span class="js-inst-open-url-holders-nodoi"><a class="openInAnotherWindow js-open-url-link" target="_blank" data-href-template="{targetURL}?sid=oup:orr&amp;genre=book&amp;title=Star%20Trek%2C%20the%20next%20Generation%3A%20Technical%20Manual&amp;aulast=Sternbach&amp;date=1991" href="javascript:;"><span class="screenreader-text">OpenURL Placeholder Text</span></a></span></div><p class="citation-links-compatibility"><span class="worldcat-reference-ref-link js-worldcat-preview-ref-link" style="display:none"><a class="openInAnotherWindow" href="https://www.worldcat.org/search?q=ti:Star%20Trek%2C%20the%20next%20Generation%3A%20Technical%20Manual&amp;qt=advanced&amp;dblist=638" target="_blank">WorldCat</a></span></p><div class="copac-reference-ref-link js-copac-preview-ref-link" style="display:none" data-pubtype="book"><span class="inst-copac"><a class="openInAnotherWindow" target="_blank" href="http://copac.ac.uk/search?ti=Star%20Trek%2C%20the%20next%20Generation%3A%20Technical%20Manual">COPAC</a></span></div> </div></div></div></div></div><div content-id="fqz011-B151" data-legacy-id="fqz011-B151"><div class="refLink-parent"><span class="refLink"><a name="jumplink-fqz011-B151" href="javascript:;" aria-label="jumplink-fqz011-B151"></a></span></div><div class="ref false"><div id="ref-auto-fqz011-B151" class="ref-content "><div class="mixed-citation citation"><p class="mixed-citation-compatibility">TEI Consortium (eds) (<div class="year">2016</div>). TEI P5: guidelines for electronic text encoding and interchange. 3.5.0. 29 January 2019. TEI Consortium. <a class="link link-uri openInAnotherWindow" href="http://www.tei-c.org/Guidelines/P5/" target="_blank">http://www.tei-c.org/Guidelines/P5/</a> (accessed 18 February 2019).</p></div></div></div></div><div content-id="fqz011-B13" data-legacy-id="fqz011-B13"><div class="refLink-parent"><span class="refLink"><a name="jumplink-fqz011-B13" href="javascript:;" aria-label="jumplink-fqz011-B13"></a></span></div><div class="ref false"><div id="ref-auto-fqz011-B13" class="ref-content "><div class="mixed-citation citation"><p class="mixed-citation-compatibility"><span class="person-group"><span class="name string-name"><div class="surname">Vorthmann</div> <div class="given-names">S.</div></span>, <span class="name string-name"><div class="surname">Robie</div> <div class="given-names">J.</div></span></span> (<div class="year">2001</div>). <div class="article-title">Beyond schemas: schema adjuncts and the outside world</div>. <div class="source ">Markup Languages: Theory &amp; Practice</div>, <div class="volume">2</div>(<div class="issue">3</div>): <div class="fpage">281</div>–<div class="lpage">94</div>.</p><!--citationLinks: case 1--><div class="citation-links"></div><div class="citation-links"><p class="citation-links-compatibility"><span class="google-scholar-ref-link"><a class="openInAnotherWindow" href="https://scholar.google.com/scholar_lookup?title=Beyond%20schemas%3A%20schema%20adjuncts%20and%20the%20outside%20world&amp;author=S.%20Vorthmann&amp;author=J.%20Robie&amp;publication_year=2001&amp;journal=Markup%20Languages%3A%20Theory%20%26%20Practice&amp;volume=2&amp;pages=281-94" target="_blank">Google Scholar</a></span></p><div class="crossref-doi js-ref-link"><a class="openInAnotherWindow" href="http://dx.doi.org/10.1162/109966200750363634" target="_blank">Crossref</a></div><div class="adsDoiReference hide"><a class="openInAnotherWindow" href="http://adsabs.harvard.edu/cgi-bin/basic_connect?qsearch=10.1162%2F109966200750363634" target="_blank">Search ADS</a></div><div class="xslopenurl empty-target"><span class="inst-open-url-holders" data-targetId="10.1162%2F109966200750363634"> </span></div><p class="citation-links-compatibility"><span class="worldcat-reference-ref-link js-worldcat-preview-ref-link" style="display:none"><a class="openInAnotherWindow" href="https://www.worldcat.org/search?q=ti:Beyond%20schemas%3A%20schema%20adjuncts%20and%20the%20outside%20world&amp;qt=advanced&amp;dblist=638" target="_blank">WorldCat</a></span></p> </div></div></div></div></div><div content-id="fqz011-B14" data-legacy-id="fqz011-B14"><div class="refLink-parent"><span class="refLink"><a name="jumplink-fqz011-B14" href="javascript:;" aria-label="jumplink-fqz011-B14"></a></span></div><div class="ref false"><div id="ref-auto-fqz011-B14" class="ref-content "><div class="mixed-citation citation"><p class="mixed-citation-compatibility"><span class="person-group"><span class="name string-name"><div class="surname">Waldt</div> <div class="given-names">D.</div></span></span> (<div class="year">2012</div>). Quality Assurance in the XML World: Beyond Validation. <a class="link link-uri openInAnotherWindow" href="http://www.balisage.net/Proceedings/vol9/author-pkg/Waldt01/BalisageVol9-Waldt01.html" target="_blank">http://www.balisage.net/Proceedings/vol9/author-pkg/Waldt01/BalisageVol9-Waldt01.html</a> (accessed 18 February 2019).</p></div></div></div></div></div>        <!-- /foreach -->
+
+
+
+        <div class="article-metadata-standalone-panel clearfix"></div>
+
+        
+<div class="copyright copyright-statement">© The Author(s) 2019. Published by Oxford University Press on behalf of EADH. All rights reserved. For permissions, please email: journals.permissions@oup.com</div><div class="license"><div class="license-p">This article is published and distributed under the terms of the Oxford University Press, Standard Journals Publication Model (<a class="link link-uri openInAnotherWindow" href="https://academic.oup.com/journals/pages/open_access/funder_policies/chorus/standard_publication_model" target="_blank">https://academic.oup.com/journals/pages/open_access/funder_policies/chorus/standard_publication_model</a>)</div></div><!-- /foreach -->
+
+        <span id="UserHasAccess" data-userHasAccess="True"></span>
+
+    </div><!-- /.widget-items -->
+</div><!-- /.module-widget -->
+
+ 
+    </div>
+    <div class="widget widget-SolrResourceMetadata widget-instance-OUP_Article_ResourceMetadata_Widget">
+        
+    <div class=" add-border article-metadata-panel solr-resource-metadata">
+                <div class="article-metadata-tocSections">
+                    <div class="article-metadata-tocSections-title">Issue Section:</div>
+                        <a href="/dsh/search-results?f_TocHeadingTitle=Articles">Articles</a>
+                </div>
+
+    </div>
+
+
+ 
+    </div>
+    <div class="widget widget-EditorInformation widget-instance-OUP_Article_EditorInformation_Widget">
+        
+ 
+    </div>
+    <div class="widget widget-ArticleOpenScienceBadges widget-instance-OUP_Article_OpenScienceBadge_Widget">
+        
+ 
+    </div>
+
+                <div id="ContentTabFilteredView"></div>
+                <div class="downloadImagesppt js-download-images-ppt st-download-images-ppt">
+                    <a id="lnkDownloadAllImages"
+                       class="js-download-all-images-link btn"
+                       href="/DownloadFile/DownloadImage.aspx?image=&amp;PPTtype=SlideSet&amp;ar=5381103&amp;xsltPath=~/UI/app/XSLT&amp;siteId=5447">Download all slides</a>
+                </div>
+                    <div class="widget widget-ArticleDataRepositories widget-instance-Article_DryadLink">
+         
+    </div>
+
+                <div class="comments">
+    <div class="widget widget-UserCommentBody widget-instance-UserCommentBody_Article">
+        
+
+ 
+    </div>
+    <div class="widget widget-UserComment widget-instance-OUP_UserComment_Article">
+         
+    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div id="Sidebar" class="page-column page-column--right">
+    <div class="widget widget-AdBlock widget-instance-ArticlePageTopSidebar">
+        
+
+<div class="adBlockNone-wrap js-adBlockNone hide">
+    
+    <div id="adBlockNone"
+         style=" ">
+        <script>
+            googletag.cmd.push(function () { googletag.display('adBlockNone'); });
+        </script>
+    </div>
+        <div class="advertisement-text">Advertisement</div>
+</div> 
+    </div>
+<div class="widget widget-dynamic " data-count="1"> 
+
+    <div class="widget-dynamic-inner-wrap">
+
+<div class="widget widget-dynamic " data-count="10"> 
+
+    <div class="widget-dynamic-inner-wrap">
+
+    <div class="widget widget-ArticleLevelMetrics widget-instance-Article_RightRailB0Article_RightRail_ArticleLevelMetrics">
+        
+
+
+
+    <div class="artmet-wrapper horizontal-artmet">
+
+        <div class="artmet-condensed-wrap clearfix">
+
+            <div class="artmet-condensed-stats clearfix">
+                    <div class="artmet-item artmet-views">
+                        <span class="artmet-number">235</span>
+                        <span class="artmet-text">Views</span>
+                    </div>
+
+                <div class="artmet-item artmet-citations">
+                    <span class="artmet-number">
+0                    </span>
+                    <span class="artmet-text">Citations</span>
+                </div>
+                <div class="artmet-item artmet-badges-wrap">
+                        <div class="artmet-item artmet-altmetric">
+    <div class="widget widget-AltmetricLink widget-instance-ArticleLevelMetrics_AltmetricLinkSummary">
+            <!-- Altmetrics -->
+    <div id="altmetricEmbedId"
+         runat="server"
+         class='altmetric-embed'
+         data-badge-type="donut"
+         data-hide-no-mentions="false"
+         data-doi="10.1093/llc/fqz011"
+
+        
+
+        ></div>
+         <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+ 
+    </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="artmet-modal-trigger-wrap clearfix">
+                    <a class="artmet-modal-trigger" data-article-id="5381103"><i class="icon-metrics"></i><span>View Metrics</span></a>
+                </div>
+        </div>
+            <div class="artmet-modal" id="MetricsModal">
+                <div class="artmet-modal-contents">
+                    <a class="artmet-close-modal">&#215;</a>
+                </div>
+            </div>
+    </div>
+
+ 
+    </div>
+    <div class="widget widget-Alerts widget-instance-Article_RightRailB0Article_RightRail_Alerts">
+        
+    <div class="alertsWidget">
+        <h3>Email alerts</h3>
+                <div class="userAlert alertType-1">
+                    <a href="javascript:;" class="js-user-alert" role="button"
+                       data-userLoggedIn="False"
+                       data-alertType="1" href="javascript:;">Article activity alert</a>
+                </div>
+                <div class="userAlert alertType-3">
+                    <a href="javascript:;" class="js-user-alert" role="button"
+                       data-userLoggedIn="False"
+                       data-alertType="3" href="javascript:;">Advance article alerts</a>
+                </div>
+                <div class="userAlert alertType-5">
+                    <a href="javascript:;" class="js-user-alert" role="button"
+                       data-userLoggedIn="False"
+                       data-alertType="5" href="javascript:;">New issue alert</a>
+                </div>
+                    <div class="userAlert alertType-MarketingLink">
+                <a href="javascript:;" class="js-user-alert" role="button"
+                   data-userLoggedIn="False"
+                   data-additionalUrl="/my-account/communication-preferences" href="javascript:;">Receive exclusive offers and updates from Oxford Academic</a>
+            </div>
+        <div class="userAlertSignUpModal reveal-modal small" data-reveal>
+            <div class="userAlertSignUp"></div>
+            <a href="javascript:;" role="button" aria-label="Close" class="close-reveal-modal" href="javascript:;">
+                <i class="icon-general-close"></i>
+            </a>
+        </div>
+    </div>
+ 
+    </div>
+    <div class="widget widget-ArticleLinks widget-instance-Article_RightRailB0Article_RightRail_ArticleLinks">
+         
+    </div>
+    <div class="widget widget-RelatedContent widget-instance-Article_RightRailB0Article_RightRail_RelatedContent">
+         
+    </div>
+    <div class="widget widget-RelatedArticleIn widget-instance-Article_RightRailB0Article_RightRail_RelatedArticleIn">
+            <h3 class="relatedArticleIn-title">Related articles in</h3>
+    <div class="relatedArticleIn-content">
+        <ul>
+                <li>
+                    <a href="https://scholar.google.com/scholar?q=related:https%3a%2f%2facademic.oup.com%2fdsh%2farticle%2f34%2fSupplement_1%2fi100%2f5381103">Google Scholar</a>
+                </li>
+        </ul>
+    </div>
+ 
+    </div>
+    <div class="widget widget-ArticleCitedBy widget-instance-Article_RightRailB0Article_RightRail_ArticleCitedBy">
+        <div class="rail-widget_wrap vt-articles-cited-by">
+    <h3 class="article-cited-title">Citing articles via</h3>
+    <div class="widget-links_wrap">
+                    <div class="article-cited-link-wrap google-scholar-url">
+                <a href="http://scholar.google.com/scholar?q=link:https%3A%2F%2Facademic.oup.com%2Fdsh%2Farticle%2F34%2FSupplement_1%2Fi100%2F5381103" target="_blank">Google Scholar</a>
+            </div>
+                    <div class="article-cited-link-wrap crossref-citedby">
+                <a href='https://academic.oup.com/dsh/crossref-citedby/5381103'>Crossref</a>
+            </div>
+    </div>
+</div> 
+    </div>
+    <div class="widget widget-ArticleListNewAndPopular widget-instance-Article_RightRailB0Article_RightRail_ArticleNewPopularCombined">
+            <ul class="articleListNewAndPopularCombinedView">
+            <li>
+                <h3>
+                    <a href="javascript:;" class="articleListNewAndPopular-mode active" data-mode="MostRecent">Latest</a>
+                </h3>
+            </li>
+            <li>
+                <h3>
+                    <a href="javascript:;" class="articleListNewAndPopular-mode " data-mode="MostRead">Most Read</a>
+                </h3>
+            </li>
+            <li>
+                <h3>
+                    <a href="javascript:;" class="articleListNewAndPopular-mode " data-mode="MostCited">Most Cited</a>
+                </h3>
+            </li>
+    </ul>
+        <section class="articleListNewPopContent articleListNewAndPopular-ContentView-MostRecent hasContent">
+
+
+
+
+<div id="newPopularList-Article_RightRailB0Article_RightRail_ArticleNewPopularCombined" class="fb">
+
+    
+
+
+
+<div class="widget-layout widget-layout--vert">
+            <div class="widget-columns widget-col-1">
+                    <div class="col">
+
+<div class="widget-dynamic-entry">
+    <input id="hfDoi" name="hfDoi" type="hidden" value="10.1093/llc/fqaa039" />
+
+    
+
+<a href="/dsh/advance-article/doi/10.1093/llc/fqaa039/5940653?searchresult=1">
+        <div class="widget-dynamic-journal-title">
+Introduction    </div>
+</a>
+<div class="widget-dynamic-journal-image-synopsis">
+        <div class="widget-dynamic-journal-synopsis">
+            
+        </div>
+</div>
+</div>
+<div class="widget-dynamic-entry">
+    <input id="hfDoi" name="hfDoi" type="hidden" value="10.1093/llc/fqaa057" />
+
+    
+
+<a href="/dsh/advance-article/doi/10.1093/llc/fqaa057/5927539?searchresult=1">
+        <div class="widget-dynamic-journal-title">
+Cyberformalism: Histories of Linguistic Forms in the Digital Archive    </div>
+</a>
+<div class="widget-dynamic-journal-image-synopsis">
+        <div class="widget-dynamic-journal-synopsis">
+            
+        </div>
+</div>
+</div>
+<div class="widget-dynamic-entry">
+    <input id="hfDoi" name="hfDoi" type="hidden" value="10.1093/llc/fqaa029" />
+
+    
+
+<a href="/dsh/advance-article/doi/10.1093/llc/fqaa029/5921705?searchresult=1">
+        <div class="widget-dynamic-journal-title">
+Arabic part-of-speech tagging using a combined rule-based and data-driven approach    </div>
+</a>
+<div class="widget-dynamic-journal-image-synopsis">
+        <div class="widget-dynamic-journal-synopsis">
+            
+        </div>
+</div>
+</div>
+<div class="widget-dynamic-entry">
+    <input id="hfDoi" name="hfDoi" type="hidden" value="10.1093/llc/fqaa041" />
+
+    
+
+<a href="/dsh/advance-article/doi/10.1093/llc/fqaa041/5918973?searchresult=1">
+        <div class="widget-dynamic-journal-title">
+Big data or not enough? Zeta test reliability and the attribution of <em>Henry VI</em>    </div>
+</a>
+<div class="widget-dynamic-journal-image-synopsis">
+        <div class="widget-dynamic-journal-synopsis">
+            
+        </div>
+</div>
+</div>
+<div class="widget-dynamic-entry">
+    <input id="hfDoi" name="hfDoi" type="hidden" value="10.1093/llc/fqaa044" />
+
+    
+
+<a href="/dsh/article/35/3/723/5905110?searchresult=1">
+        <div class="widget-dynamic-journal-title">
+Playing with Feelings: Video Games and Affect. Aubrey Anable. <em>Minneapolis, MN: University of Minnesota Press, 2018, 176 pp. ISBN: 978-1-5179-0025-0. $25.00 (p/b).</em>    </div>
+</a>
+<div class="widget-dynamic-journal-image-synopsis">
+        <div class="widget-dynamic-journal-synopsis">
+            
+        </div>
+</div>
+</div>
+                    </div>
+            </div>
+
+</div></div>
+        </section>
+        <section class="articleListNewPopContent articleListNewAndPopular-ContentView-MostRead hide">
+        </section>
+        <section class="articleListNewPopContent articleListNewAndPopular-ContentView-MostCited hide">
+        </section>
+ 
+    </div>
+
+    </div>
+
+</div>
+    </div>
+
+</div>    <div class="widget widget-AdBlock widget-instance-ArticlePageTopMainBodyBottom">
+        
+
+<div class="adBlockNone-wrap js-adBlockNone hide">
+    
+    <div id="adBlockNone"
+         style=" ">
+        <script>
+            googletag.cmd.push(function () { googletag.display('adBlockNone'); });
+        </script>
+    </div>
+        <div class="advertisement-text">Advertisement</div>
+</div> 
+    </div>
+
+</div>
+
+</div>
+<input id="hfArticleTitle" name="hfArticleTitle" type="hidden" value="Beyond validation: Using programmed diagnostics to learn about, monitor, and successfully complete your DH project | Digital Scholarship in the Humanities | Oxford Academic" />
+<input id="hfLeftNavStickyOffset" name="hfLeftNavStickyOffset" type="hidden" value="29" />
+<input id="hfAreOpFeaturesEnabled" name="hfAreOpFeaturesEnabled" type="hidden" value="False" />
+
+
+            </div><!-- /.center-inner-row no-overflow -->
+        </section>
+    </div>
+    <div class="mobile-mask">
+    </div>
+    <section class="footer_wrap vt-site-footer">
+        
+    <script type="text/javascript" src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"></script>
+    
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
+
+    <script type="text/javascript" src="//oup.silverchair-cdn.com/UI/app/jsdist/v-637389617100571406/article-page.min.js"></script>
+
+    <script type="text/javascript">
+        googletag.cmd.push(function () {
+            
+            googletag.pubads().setTargeting("jnlsdoi", "10.1093/llc/fqz011");
+            googletag.enableServices();
+        });
+    </script>
+
+
+
+        
+
+
+    <div class="widget widget-SitePageFooter widget-instance-SitePageFooter">
+        <div class="ad-banner ad-banner-footer">
+    <div class="widget widget-AdBlock widget-instance-FooterAd">
+        
+
+<div class="adBlockFooter-wrap js-adBlockFooter hide">
+    
+    <div id="adBlockFooter"
+         style=" ">
+        <script>
+            googletag.cmd.push(function () { googletag.display('adBlockFooter'); });
+        </script>
+    </div>
+        <div class="advertisement-text">Advertisement</div>
+</div> 
+    </div>
+
+</div>
+
+    <div class="journal-footer journal-bg">
+        <div class="center-inner-row">
+
+                <div class="journal-footer-menu">
+
+                    <ul>
+                                <li class="link-1">
+                                    <a href="/dsh/pages/About">About Digital Scholarship in the Humanities</a>
+                                </li>
+                                <li class="link-2">
+                                    <a href="/dsh/pages/Editorial_Board">Editorial Board</a>
+                                </li>
+                                <li class="link-3">
+                                    <a href="/dsh/pages/General_Instructions">Author Guidelines</a>
+                                </li>
+                                <li class="link-4">
+                                    <a href="http://eadh.org/about">Contact Us</a>
+                                </li>
+                                <li class="link-5">
+                                    <a href="https://www.facebook.com/DSHJournal/">Facebook</a>
+                                </li>
+</ul><ul>                                <li class="link-1">
+                                    <a href="https://twitter.com/DSHjournal">Twitter</a>
+                                </li>
+                                <li class="link-2">
+                                    <a href="/dsh/subscribe">Purchase</a>
+                                </li>
+                                <li class="link-3">
+                                    <a href="http://www.oxfordjournals.org/en/library-recommendation-form.html">Recommend to Your Librarian</a>
+                                </li>
+                                <li class="link-4">
+                                    <a href="http://www.oupmediainfo.com/">Advertising and Corporate Services</a>
+                                </li>
+                                <li class="link-5">
+                                    <a href="https://globaljobs-careernetwork.oxfordjournals.org/">Journals Career Network</a>
+                                </li>
+
+                    </ul>
+
+
+                </div><!-- /.journal-footer-menu -->
+
+            <div class="journal-footer-affiliations">
+                <!-- <h3>Affiliations</h3> -->
+                    <a href="https://academic.oup.com/dsh" target="">
+                        <img id="footer-logo-DigitalScholarshipintheHumanities" class="journal-footer-affiliations-logo" src="//oup.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/dsh/dsh_f1242156087.svg" alt="Digital Scholarship in the Humanities" />
+                    </a>
+            </div><!-- /.journal-footer-affiliations -->
+
+            <div class="journal-footer-colophon">
+                <ul>
+                        <li>Online ISSN 2055-768X</li>
+                                            <li>Print ISSN 2055-7671</li>
+                    <li>Copyright &#169; 2020 EADH: The European Association for Digital Humanities</li>
+                </ul>
+            </div><!-- /.journal-footer-colophon -->
+
+
+        </div><!-- /.center-inner-row -->
+    </div><!-- /.journal-footer -->
+ 
+    </div>
+
+<div class="oup-footer">
+    <div class="center-inner-row">
+    <div class="widget widget-SelfServeContent widget-instance-OupUmbrellaFooterSelfServe">
+        
+<div class="oup-footer-row journal-links">
+<div class="global-footer selfservelinks">
+<ul>
+    <li>
+    <a href="/journals/pages/about_us">About Us</a>
+    </li>
+    <li>
+    <a href="/journals/pages/contact_us">Contact Us</a>
+    </li>
+    <li>
+    <a href="http://global.oup.com/jobs">Careers</a>
+    </li>
+    <li>
+    <a href="/journals/pages/help">Help</a>
+    </li>
+    <li>
+    <a href="/journals/pages/access_purchase">Access &amp; Purchase</a></li>
+    <li>
+    <a href="/journals/pages/access_purchase/rights_and_permissions">Rights &amp; Permissions</a>
+    </li>
+    <li>
+    <a href="/journals/pages/open_access">Open Access</a>
+    </li>
+</ul>
+</div>
+<div class="global-footer selfservelinks">
+<h4 id="global-footer-customer services" class="title footerheader">Connect</h4>
+<ul>
+    <li>
+    <a href="/my-account/communication-preferences">Join Our Mailing List</a>
+    </li>
+    <li>
+    <a href="http://blog.oup.com/">OUPblog</a>
+    </li>
+    <li>
+    <a href="http://twitter.com/oupacademic">Twitter</a>
+    </li>
+    <li>
+    <a href="https://www.facebook.com/OUPAcademic">Facebook</a>
+    </li>
+    <li>
+    <a href="http://www.youtube.com/playlist?list=PL3MAPgqN8JWioLLTkU4mlFM4-SNt-f1Xs">YouTube</a>
+    </li>
+    <li>
+    <a href="http://oupacademic.tumblr.com/">Tumblr</a>
+    </li>
+</ul>
+</div>
+<div class="global-footer selfservelinks">
+<h4>Resources</h4>
+<ul>
+    <li><a href="/journals/pages/authors">Authors</a></li>
+    <li><a href="/journals/pages/librarians">Librarians</a></li>
+    <li><a href="/journals/pages/societies">Societies</a></li>
+    <li><a href="https://academic.oup.com/journals/pages/sponsorship_and_advertising">Sponsors &amp; Advertisers</a></li>
+    <li><a href="/journals/pages/press">Press &amp; Media</a></li>
+    <li><a href="/journals/pages/agents">Agents</a></li>
+</ul>
+</div>
+<div class="global-footer selfservelinks">
+<h4>Explore</h4>
+<ul>
+    <li><a href="http://global.oup.com/academic">Shop OUP Academic</a></li>
+    <li><a href="http://www.oxforddictionaries.com/">Oxford Dictionaries</a></li>
+    <li><a href="https://www.epigeum.com/">Epigeum</a></li>
+    <li><a href="http://global.oup.com/">OUP Worldwide</a></li>
+    <li><a href="http://www.ox.ac.uk/">University of Oxford</a></li>
+</ul>
+</div>
+<div class="OUP-mission">
+<p>Oxford University Press is a department of the University of Oxford. It furthers the University's objective of excellence in research, scholarship, and education by publishing worldwide</p>
+<img class="journal-footer-logo" src="//oup.silverchair-cdn.com/UI/app/svg/umbrella/oup-logo.svg" alt="Oxford University Press" width="150" height="42" />
+</div>
+</div>
+<div class="oup-footer-row">
+<div class="oup-footer-row-links">
+<ul>
+    <li>Copyright &copy; 2020 Oxford University Press</li>
+    <li><a href="https://global.oup.com/cookiepolicy/">Cookie Policy</a></li>
+    <li><a href="https://global.oup.com/privacy">Privacy Policy</a></li>
+    <li><a href="/journals/pages/about_us/legal/notices">Legal Notice</a></li>
+    <li><a href="/journals/pages/sitemap">Site Map</a></li>
+    <li><a href="/journals/pages/about_us/legal/accessibility">Accessibility</a></li>
+    <li><a href="https://get.adobe.com/reader/">Get Adobe Reader</a></li>
+</ul>
+</div>
+</div>
+<style type="text/css">
+    /* Issue right column fix for tablet/mobile */
+    @media (max-width: 1200px) {
+    .pg_issue .widget-instance-OUP_Issue {
+    width: 100%;
+    }
+    }
+    .sf-facet-list .sf-facet label, .sf-facet-list .taxonomy-label-wrap label {font-size: .9375rem;}
+    .issue-pagination-wrap .pagination-container {float: right;}
+</style>
+    
+    
+     
+    </div>
+
+    </div>
+</div>
+<div class="ss-ui-only">
+
+</div>
+
+    </section>
+</div>
+
+
+
+    
+
+
+
+    <div class="widget widget-SiteWideModals widget-instance-SiteWideModals">
+        <div id="revealModal" class="reveal-modal" data-reveal>
+    <div id="revealContent"></div>
+    <a class="close-reveal-modal" href="javascript:;"><i class="icon-general-close"></i><span class="screenreader-text">Close</span></a>
+</div>
+
+<div id="NeedSubscription" class="reveal-modal small" data-reveal>
+    <div class="subscription-needed">
+        <h5>This Feature Is Available To Subscribers Only</h5>
+        <p><a href="/sign-in">Sign In</a> or <a href="/my-account/register?siteId=5447&amp;returnUrl=%2fdsh%2farticle%2f34%2fSupplement_1%2fi100%2f5381103">Create an Account</a></p>
+    </div>
+    <a class="close-reveal-modal" href="javascript:;"><i class="icon-general-close"></i><span class="screenreader-text">Close</span></a>
+</div>
+
+<div id="noAccessReveal" class="reveal-modal tiny" data-reveal>
+    <p>This PDF is available to Subscribers Only</p>
+    <a class="hide-for-article-page" id="articleLinkToPurchase" data-reveal><span>View Article Abstract & Purchase Options</span></a>
+    <div class="issue-purchase-modal">
+        <p>For full access to this pdf, sign in to an existing account, or purchase an annual subscription.</p>
+    </div>
+    <a class="close-reveal-modal" href="javascript:;"><i class="icon-general-close"></i><span class="screenreader-text">Close</span></a>
+</div>
+ 
+    </div>
+
+
+    
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+<script src="//cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.min.js"></script>
+
+    <script type="text/javascript" src="//oup.silverchair-cdn.com/UI/app/jsdist/v-637389617150883412/footer.min.js"></script>
+    <script async="async" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-5265518246c10183&domready=1"></script>
+
+
+    
+
+    
+
+    
+    
+
+
+
+
+    
+
+
+    <!-- Copyright 2001-2010, IBM Corporation All rights reserved. -->
+    <script src="//ouptag.scholarlyiq.com/ntpagetag.js"></script>
+    <noscript>
+        <img src="//ouptag.scholarlyiq.com/ntpagetag.gif?js=0" height="1" width="1" border="0" hspace="0" vspace="0" alt="Scholarly IQ" />
+    </noscript>
+
+
+    <div class="ad-banner js-ad-riser ad-banner-riser">
+
+    <div class="widget widget-AdBlock widget-instance-RiserAd">
+         
+    </div>
+
+    </div>
+
+
+</body>
+</html>
+

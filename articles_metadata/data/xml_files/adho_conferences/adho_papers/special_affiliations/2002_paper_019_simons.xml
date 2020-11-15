@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/Users/saraschmidt/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="paper">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">The Open Language Archives Community: An Infrastructure
+                    for Distributed Archiving of Language Resources</title>
+                <author>
+                    <name>
+                        <forename type="first">Gary</forename>
+                        <surname>Simons</surname>
+                        <affiliation>
+                            <name type="org">SIL International</name>
+                            <email>gary_simons@sil.org</email>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Steven</forename>
+                        <surname>Bird</surname>
+                        <affiliation>
+                            <name type="org">University of Pennsylvania</name>
+                            <email>sb@ldc.upenn.edu</email>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="2002">2002</date>
+                <publisher>
+                    <name>University of Tübingen</name>
+                </publisher>
+                <pubPlace>Tübingen</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ALLC/ACH 2002</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first">Harald</forename>
+                        <surname>Fuchs</surname>
+                    </name>
+                    <name>
+                        <forename type="first"/>
+                        <forename type="middle"/>
+                        <surname/>
+                    </name>
+                    <name>
+                        <forename type="first"/>
+                        <surname/>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item> </item>
+                        <item> </item>
+                        <item> </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <div>
+                    <head>1. Introduction</head>
+                    <p>A current trend in humanities computing is the explosion of digital resources
+                        and tools. It is clear that the new electronic media in conjunction with
+                        distribution via the World-Wide Web offer a degree of access to resources
+                        that is unparalleled in history. But there is a gap between what users want
+                        and what they can achieve today. For instance, potential users cannot
+                        necessarily find the material they are interested in, different data
+                        providers use different formats and conventions, the average researcher has
+                        no idea how to prepare materials for publication via this medium, to name
+                        just a few of the problems.</p>
+                    <p>A new direction for humanities computing would be for the community to
+                        organize its efforts so as to bridge this gap. This paper describes what one
+                        subcommunity, namely, those working with language-related resources, is
+                        doing in pursuit of this goal. The Open Language Archives Community was
+                        founded in December of 2000 with the following purpose statement:<cit
+                            rend="block">
+                            <quote>OLAC, the Open Language Archives Community, is an international
+                                partnership of institutions and individuals who are creating a
+                                worldwide virtual library of language resources by: (1) developing
+                                consensus on best current practice for the digital archiving of
+                                language resources, and (2) developing a network of interoperating
+                                repositories and services for housing and accessing such
+                                resources.</quote>
+                        </cit></p>
+                    <p>This community involves both people and machines in cooperation. This paper
+                        describes the infrastructure that has been developed in order to support
+                        this cooperation. There are three aspects of infrastructure which are
+                        explained in the remaining sections:<list type="bulleted">
+                            <item>a technical infrastructure that defines how participating machines
+                                interact with other participating machines,</item>
+                            <item>a governance infrastructure that defines how participating people
+                                interact with other participating people, and</item>
+                            <item>a usage infrastructure that defines how participating people
+                                interact with participating machines.</item>
+                        </list></p>
+                </div>
+                <div>
+                    <head>2. Technical infrastructure</head>
+                    <p>The technical infrastructure for OLAC is built on an infrastructure developed
+                        within the digital libraries community by the Open Archives Initiative
+                        [OAI][2]. This infrastructure has two components: a metadata standard
+                        [OAI-DC] [3]and a metadata harvesting protocol [OAI-MHP] [4]. The OLAC
+                        versions of these are specializations that address the particular needs of
+                        language archiving. The two components of technical infrastructure are:<list
+                            type="bulleted">
+                            <item>The OLAC Metadata Set [ OLAC-MS] [6] defines the elements to be
+                                used in metadata descriptions of archive holdings and how such
+                                descriptions are to be represented in XML for publication to the
+                                community. The OLAC metadata set contains the 15 elements of the
+                                Dublin Core metadata set [DC-MS] [1], plus 8 refined elements that
+                                capture information of special interest to the language resources
+                                community. In order to improve recall and precision when searching
+                                for resources, the standard also defines a number of controlled
+                                vocabularies for descriptor terms. The most important of these is a
+                                standard for identifying languages [ Simons, 2000] [8].</item>
+                            <item>The OLAC Metadata Harvesting Protocol [ OLAC-MHP] [5] defines the
+                                protocol by which machines that are "service providers" query the
+                                machines that are "data providers" in order to harvest the metadata
+                                records they publish. In this model, every participating archive is
+                                a data provider. Any other site may use the protocol to collect
+                                metadata records in order to provide a service, such as offering a
+                                union catalog of all archives or a specialized search service
+                                pertaining to a particular topic. The protocol is based on HTTP.
+                                Requests to data providers are issued via URLs with parameters;
+                                responses are returned as XML documents.</item>
+                        </list>
+                    </p>
+                </div>
+                <div>
+                    <head>3. Governance infrastructure</head>
+                    <p>The infrastructure that supports the interaction among the human participants
+                        of the Open Language Archives Community is defined in the OLAC process
+                        document [ OLAC-Process] [7]. It defines three things:<list type="bulleted">
+                            <item>The governing ideas of OLAC. These are defined through a summary
+                                statement of its purpose, vision, and core values.</item>
+                            <item>The organization of OLAC. This is defined in terms of the groups
+                                of participants that play key roles: advisory board, participating
+                                archives and services, prospective participants, working groups,
+                                participating individuals, and coordinators.</item>
+                            <item>The operation of OLAC. It is through documents (such as standards
+                                and best practice recommendations) that OLAC defines itself and the
+                                practices that it promotes. The document process defines how
+                                documents are generated and how they progress from one status to the
+                                next along the five-phase life cycle of development, proposal,
+                                testing, adoption, and retirement.</item>
+                        </list></p>
+                </div>
+                <div>
+                    <head>4. Usage infrastructure</head>
+                    <p>The infrastructure that has been built to allow the community of users
+                        interested in language resources to interact with the machines that provide
+                        services for this community has four major components:<list type="bulleted">
+                            <item>A community gateway (hosted by the Linguistic Data Consortium at
+                                    <ptr target="http://www.language-archives.org"/>) provides
+                                access to all aspects of the community: news, documents, a directory
+                                of participants, links to service providers, resources for
+                                implementing data providers, and so on.</item>
+                            <item>A union catalog (to be hosted by Linguist List at <ptr
+                                    target="http://www.linguistlist.org"/>) of all records harvested
+                                from all OLAC data providers along with a full search engine.</item>
+                            <item>A language identification server ( hosted by SIL International at
+                                    <ptr target="http://www.ethnologue.com"/>) that documents the
+                                standard OLAC follows in identifying the 6,800+ living languages of
+                                the world.</item>
+                            <item>A proxied data provider (also hosted by the Linguistic Data
+                                Consortium) that gives individual researchers and small institutions
+                                that do not have the capacity to implement their own data provider
+                                an alternative way to publish their data and metadata as an OLAC
+                                archive.</item>
+                        </list></p>
+                </div>
+                <div>
+                    <head>5. Conclusion</head>
+                    <p>During its first year of operation, 2001, the basic infrastructure for OLAC
+                        has been developed. By the end of that year, twelve institutions have become
+                        full participants and implemented data providers that publish a total of
+                        18,000 metadata records. During the second year, 2002, the focus will be on
+                        enlarging the community of participating archives. The technical standards
+                        will be frozen in candidate status during that year so that archives need
+                        not worry about a moving target as they implement an OLAC data provider.
+                        Based on the experiences of the archives that participate in the first two
+                        years, the standards will be refined and formally adopted by the community
+                        during the third year, 2003. All individuals and institutions who have
+                        language-related resources to share are enthusiastically invited to take
+                        part in this new direction for humanities computing to build a distributed
+                        virtual library of digital resources for the documentation and study of
+                        human languages.</p>
+                </div>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <listBibl>
+                    <biblStruct n="1 [DC-MS]">
+                        <monogr>
+                            <title level="m">Dublin Core Metadata Element Set</title>
+                            <edition>Version 1.1: Reference Description</edition>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date when="1999">1999</date>
+                            </imprint>
+                        </monogr>
+                        <note>
+                            <ptr target="http://dublincore.org/documents/1999/07/02/dces/"/>
+                        </note>
+                    </biblStruct>
+                    <biblStruct n="2 [OAI]">
+                        <monogr>
+                            <title level="u">Open Archives Initiative</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date/>
+                            </imprint>
+                        </monogr>
+                        <note>
+                            <ptr target="http://www.openarchives.org/"/>
+                        </note>
+                    </biblStruct>
+                    <biblStruct n="3 [OAI-DC]">
+                        <monogr>
+                            <title level="m">Schema for OAI implementation of Dublin Core
+                                metadata</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date/>
+                            </imprint>
+                        </monogr>
+                        <note>
+                            <ptr target="http://www.openarchives.org/OAI/1.1/dc.xsd"/>
+                        </note>
+                    </biblStruct>
+                    <biblStruct n="4 [OAI-MHP]">
+                        <monogr>
+                            <title level="m">The Open Archives Initiative Protocol for Metadata
+                                Harvesting</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date/>
+                            </imprint>
+                        </monogr>
+                        <note>
+                            <ptr target="http://www.openarchives.org/OAI/openarchivesprotocol.html"
+                            />
+                        </note>
+                    </biblStruct>
+                    <biblStruct n="5 [OLAC-MHP]">
+                        <monogr>
+                            <title level="m">OLAC Metadata Harvesting Protocol</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date/>
+                            </imprint>
+                        </monogr>
+                        <note>To appear at <ptr
+                                target="http://www.language-archives.org/OLAC/protocol.html"
+                            /></note>
+                    </biblStruct>
+                    <biblStruct n="6 [OLAC-MS]">
+                        <monogr>
+                            <title level="m">OLAC Metadata Set</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date/>
+                            </imprint>
+                        </monogr>
+                        <note><ptr target="http://www.language-archives.org/OLAC/olacms.html"/> See
+                            also "The OLAC Metadata Set and Controlled Vocabularies," by Steven Bird
+                            and Gary Simons. <title level="m">Proceedings of the ACL/EACL Workshop
+                                on Sharing Tools and Resources for Research and Education, Toulouse,
+                                July 2001</title>, Association for Computational Linguistics. <ptr
+                                target="http://arxiv.org/abs/cs/0105030"/></note>
+                    </biblStruct>
+                    <biblStruct n="7 [OLAC-Process]">
+                        <monogr>
+                            <title level="m">OLAC Process</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date/>
+                            </imprint>
+                        </monogr>
+                        <note>
+                            <ptr target="http://www.language-archives.org/OLAC/process.html"/>
+                        </note>
+                    </biblStruct>
+                    <biblStruct n="8 [Simons, 2000]">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">Gary</forename>
+                                    <surname>Simons</surname>
+                                </name>
+                            </author>
+                            <title level="a">Language identification in metadata descriptions of
+                                language archive holdings</title>
+                        </analytic>
+                        <monogr>
+                            <title level="m">Proceedings of the Workshop on Web-Based Language
+                                Documentation and Description 12-15 December 2000, Philadelphia,
+                                USA</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date when="2000">2000</date>
+                            </imprint>
+                        </monogr>
+                        <note>
+                            <ptr
+                                target="http://www.ldc.upenn.edu/exploration/expl2000/papers/simons/simons.htm"
+                            />
+                        </note>
+                    </biblStruct>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

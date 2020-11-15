@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="paper">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Cluster Analysis of the Newcastle Electronic Corpus of
+                    Tyneside English: A comparison of Methods</title>
+                <author>
+                    <name>
+                        <forename type="first">Herbert</forename>
+                        <surname>Moisl</surname>
+                        <affiliation>
+                            <name type="org">University of Newcastle</name>
+                            <email>hermann.moisl@ncl.ac.uk</email>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Val</forename>
+                        <surname>Jones</surname>
+                        <affiliation>
+                            <name type="org">University of Twente</name>
+                            <email>jones@cs.utwente.nl</email>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="2003">2003</date>
+                <publisher>
+                    <name>University of Georgia</name>
+                </publisher>
+                <pubPlace>Athens, Georgia</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ACH/ALLC 2003</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first">Eric</forename>
+                        <surname>Rochester</surname>
+                    </name>
+                    <name>
+                        <forename type="first">William</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Kretzschmar</surname>, Jr.</name>
+                    <name>
+                        <forename type="first"/>
+                        <surname/>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item> </item>
+                        <item> </item>
+                        <item> </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <div>
+                    <p>The Newcastle Electronic Corpus of Tyneside English (NECTE) project is based
+                        on two separate corpora of recorded speech, one of them collected in the
+                        late 1960s as part of the Tyneside Linguistic Survey (TLS), and the other in
+                        1994 by the Phonological Variation and Change in Contemporary Spoken English
+                        (PVC) project. Its aim is to combine the TLS and the PVC collections into a
+                        single corpus and to make it available to the research community in a
+                        variety of formats: digitized sound, phonetic transcription, and standard
+                        orthographic transcription, all aligned and available on the Web.</p>
+                    <p>We are currently developing a methodology to study NECTE from a
+                        sociolinguistic point of view, and have begun by looking at the one
+                        formulated by the TLS, which was radical at the time and remains so today:
+                        in contrast to the then-universal and even now dominant theory-driven
+                        approach, where social and linguistic factors are selected by the analyst on
+                        the basis of a predefined model, the TLS proposed a fundamentally empirical
+                        approach in which salient factors are extracted from the data itself and
+                        then serve as the basis for model construction. To this end, an electronic
+                        corpus was created from a subset of the data, and various cluster analysis
+                        algorithms were applied to it in order to derive social and linguistic
+                        classifications of the sample. Stability of classifications across different
+                        clustering methods was already a known theoretical problem. The clustering
+                        techniques available at the time, and still widely used today, are sensitive
+                        to factors such as vector distance measure, clustering algorithm, and the
+                        order in which data items are presented —different combinations of these
+                        factors typically yield different analyses of the same dataset. These
+                        effects were observed in the TLS classifications. In an experiment on
+                        artificial data sets Jones (1979) demonstrated that certain combinations of
+                        clustering algorithms are capable of imposing erroneous structure on data
+                        which was inherently unclassifiable (by design). The types of structurings
+                        derived were consistent with theory and observation; for example Ward’s
+                        method tended to ‘discover’ spherical clusters irrespective of the natural
+                        structure of the data and classifications were shown to be sensitive to
+                        input order of datapoints. These properties of clustering techniques raise
+                        at least two issues relating to validation of classifications:<list
+                            type="bulleted">
+                            <item>objectivity—to what extent does a given analysis represent the
+                                actual structure of the data, and to what extent is it an artefact
+                                of the clustering method?</item>
+                            <item>selection—upon what criteria does one choose among alternative
+                                analyses?</item>
+                        </list></p>
+                    <p>We seek an approach to classification which improves on the methods available
+                        at the time when the first analyses of the TLS data were conducted, that is,
+                        techniques as insensitive as possible to variation in the sort of parameters
+                        identified above. In this paper we consider as a candidate a method that had
+                        not been invented when the TLS was active —the self-organizing map (SOM).
+                        The discussion is in three main parts. The first part outlines the TLS
+                        methodology, the second describes self-organizing maps, and the third
+                        compares the consistency of the analytical methods used by the TLS with that
+                        of the SOM relative to the TLS phonetic data.</p>
+                </div>
+                <div>
+                    <head>TLS METHODOLOGY</head>
+                    <p>The TLS aimed to model the overall linguistic variability of an urban
+                        community, that of Tyneside in north-east England, and more
+                            specifically<list type="bulleted">
+                            <item>to identify and exhaustively characterise the varieties of speech
+                                which co-occur in that area, and</item>
+                            <item>to determine the distribution of both the speech varieties and
+                                their constituent elements across the relevant social
+                                subgroups</item>
+                        </list></p>
+                    <p>To achieve this aim, a methodology was proposed which differed fundamentally
+                        from the one standard at the time, and which was taken to have important
+                        theoretical and practical consequences for the discipline of
+                        sociolinguistics. In place of the theory-driven approach which characterized
+                        the work of Labov and Trudgill, among others, in which a sociolinguistic
+                        model was defined and then used to select a relatively small number of
+                        social and linguistic variables for analysis, the TLS was conceived as a set
+                        of methods whereby the salient features of linguistic and social diversity
+                        were to be empirically determined by, rather than presupposed in, the model.
+                        This methodology was designed to generate multiple candidate hypotheses
+                        about the data by applying high-dimensional multivariate analysis methods to
+                        it in different ways, from which those most useful to the aims of the TLS
+                        could be selected.</p>
+                </div>
+                <div>
+                    <head>SELF-ORGANIZING MAPS</head>
+                    <p>The self-organizing map, also known as the Kohonen net after its inventor, is
+                        a k-dimensional surface of processing units, where k is usually 2, together
+                        with a buffer into which input vectors are loaded. Associated with each unit
+                        is a set of connections from the input buffer such that, for a buffer of
+                        length n, there are n connections per unit, and each connection can take on
+                        a real-number value or ‘strength’ in some range, typically -1..1 or 0..1
+                        (for clarity, only sample connections are shown in Figure 1):<figure>
+                            <head>Figure 1</head>
+                        </figure></p>
+                    <p>Because it is an artificial neural network, the SOM is not explicitly
+                        configured or ‘programmed’ to behave in some desired way like a conventional
+                        computer, but rather learns its behaviour by exposure to input data using a
+                        learning algorithm. A full explanation of SOM learning would take us too far
+                        afield; details can be found in most textbooks on artificial neural
+                        networks. In outline, though, learning takes place by repeated presentation
+                        of vectors drawn randomly from a set V, and adjustment of the connections at
+                        each presentation. The SOM is initialized by assigning random values in some
+                        range (ie, 0..1) to the connections. When the first vector vi is presented,
+                        it activates the processing units to varying degrees, depending on the
+                        differences in connection strengths between the input buffer and each unit;
+                        the most highly activated unit uj is selected, and the connections are
+                        adjusted so that, next time vi is presented, uj will be even more highly
+                        activated than before, thus associating vi ever more strongly with a
+                        specific location on the map. As learning proceeds over—usually—many
+                        thousands of presentations, each of the vectors in V is associated with a
+                        specific unit in the map. After learning is complete, the entire set V is
+                        presented once again. Each vector activates the unit with which it has
+                        learned to become associated, and the result is a pattern of activations on
+                        the map surface. That pattern is significant: the distances among activated
+                        units represent the similarity relations in the input vector space.</p>
+                </div>
+                <div>
+                    <head>COMPARATIVE STUDY</head>
+                    <p>This comparative study confines itself to the phonetic-level representation
+                        of the TLS corpus. In order to apply cluster analysis to this data, the TLS
+                        had to represent it numerically. The method was as follows. For each of the
+                        52 informants whose phonetic-level transcriptions had been digitized, the
+                        number of token occurrences of each of the 542 state types S defined in the
+                        transcription protocol was counted, where a ‘state’ is a discrete phonetic
+                        segment type. Each informant’s phonetic profile was thus represented as a
+                        542-element integer-valued vector V, in which any element Vi contained the
+                        number of token occurrences of state Si. The set of informant vectors was
+                        stored in a 52 x 542 matrix which, after normalization, served as input to
+                        the various clustering algorithms used in the analysis. The present study
+                        replicates the TLS data representation and cluster analyses, and then
+                        compares the performance of a SOM on the same data, using a variety of
+                        settings for initialization of connections, sequence of input vector
+                        presentations, and map dimension.</p>
+                </div>
+                <div>
+                    <head>CONCLUSIONS</head>
+                    <p>Preliminary results from a relatively small subset of the 52 TLS informants
+                        indicate that the SOM performs as well as the other clustering algorithms in
+                        terms of its ability to identify and represent clusters, but that it is far
+                        less affected by variation in processing parameters. Results for the full
+                        TLS dataset will be available if and when this paper is presented.</p>
+                </div>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>REFERENCES</head>
+                <listBibl>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">B.</forename>
+                                    <surname>Everit</surname>
+                                </name>
+                            </author>
+                            <title level="m">Cluster Analysis</title>
+                            <edition>3rd ed.</edition>
+                            <imprint>
+                                <pubPlace>London</pubPlace>
+                                <publisher>E. Arnold</publisher>
+                                <date when="1993">1993</date>
+                                <biblScope type="pp">170</biblScope>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">J.</forename>
+                                    <surname>Hair</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">R.</forename>
+                                    <surname>Anderson</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">R.</forename>
+                                    <surname>Tatham</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">C.</forename>
+                                    <surname>Black</surname>
+                                </name>
+                            </author>
+                            <title level="m">Multivariate Data Analysis</title>
+                            <edition>4th ed.</edition>
+                            <imprint>
+                                <pubPlace>Englewood Cliff, NJ</pubPlace>
+                                <publisher>Prentice Hall</publisher>
+                                <date when="1995">1995</date>
+                                <biblScope type="pp">751</biblScope>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">V.</forename>
+                                    <surname>Jones-Sargent</surname>
+                                </name>
+                            </author>
+                            <title level="m">Tyne Bytes: a computerized sociolinguistic study of
+                                Tyneside English</title>
+                            <imprint>
+                                <pubPlace>Frankfurt am Main and New York</pubPlace>
+                                <publisher>P. Lang</publisher>
+                                <date when="1983">1983</date>
+                                <biblScope type="pp">368</biblScope>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">T.</forename>
+                                    <surname>Kohonen</surname>
+                                </name>
+                            </author>
+                            <title level="m">Self-Organizing Maps</title>
+                            <edition>2nd ed.</edition>
+                            <imprint>
+                                <pubPlace>Berlin and New York</pubPlace>
+                                <publisher>Springer</publisher>
+                                <date when="1995">1995</date>
+                                <biblScope type="pp">312</biblScope>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">J.</forename>
+                                    <surname>Pellowe</surname>
+                                </name>
+                            </author>
+                            <title level="a">A dynamic modelling of linguistic variation: the urban
+                                (Tyneside) linguistic survey</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Lingua</title>
+                            <imprint>
+                                <biblScope type="vol">30</biblScope>
+                                <biblScope type="issue"/>
+                                <biblScope type="pp">1-30</biblScope>
+                                <date when="1972">1972</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="bookChapter">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">J.</forename>
+                                    <surname>Pellowe</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">V.</forename>
+                                    <surname>Jones</surname>
+                                </name>
+                            </author>
+                            <title level="a">On intonational variety in Tyneside speech</title>
+                        </analytic>
+                        <monogr>
+                            <editor>
+                                <name>
+                                    <forename type="first">P.</forename>
+                                    <surname>Trudgill</surname>
+                                </name>
+                            </editor>
+                            <title level="m">Sociolinguistic Patterns of British English</title>
+                            <imprint>
+                                <pubPlace>London</pubPlace>
+                                <publisher>Arnold</publisher>
+                                <date when="1978">1978</date>
+                                <biblScope type="pp">101-121</biblScope>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author>
+                                <name><forename type="first">V.</forename>
+                                    <surname>Sargent</surname>(nee Jones)</name>
+                            </author>
+                            <title level="a">Cycles and the equal society</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Classification Society Bulletin</title>
+                            <imprint>
+                                <biblScope type="vol">4</biblScope>
+                                <biblScope type="issue">3</biblScope>
+                                <biblScope type="pp">31-45</biblScope>
+                                <date when="1979">1979</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">B.</forename>
+                                    <surname>Strang</surname>
+                                </name>
+                            </author>
+                            <title level="a">The Tyneside Linguistic Survey</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Zeitschrift für Mundartforschung</title>
+                            <edition>Neue Folge</edition>
+                            <imprint>
+                                <biblScope type="vol">4</biblScope>
+                                <biblScope type="issue"/>
+                                <biblScope type="pp">788-794</biblScope>
+                                <date when="1968">1968</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

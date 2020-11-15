@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="paper">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Kirrkirr: Software for Browsing and Visual Exploration
+                    of a Structured Warlpiri Dictionary</title>
+                <author>
+                    <name>
+                        <forename type="first">Christopher</forename>
+                        <forename type="middle">D.</forename>
+                        <surname>Manning</surname>
+                        <affiliation>
+                            <name type="org">Stanford University</name>, USA <email/>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="2000">2000</date>
+                <publisher>
+                    <name>University of Glasgow</name>
+                </publisher>
+                <pubPlace>Glasgow</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ALLC/ACH 2000</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first">Jean</forename>
+                        <surname>Anderson</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Amal</forename>
+                        <surname>Chatterjee</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Christian</forename>
+                        <forename type="middle">J.</forename>
+                        <surname>Kay</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Margaret</forename>
+                        <surname>Scott</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item>Computational / Corpus Linguistics</item>
+                        <item> </item>
+                        <item> </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>This paper discusses the goals, architecture, and usability of Kirrkirr, a
+                    Java-based visualization tool for XML dictionaries, currently being used with a
+                    dictionary for Warlpiri, an Australian Aboriginal language.</p>
+                <p>While dictionaries on computers are now common, there has been surprisingly
+                    little work on innovative ways of utilising the capabilities of computers for
+                    visualization, hypertext linking and multimedia in order to provide a richer
+                    experience of dictionary content. Most electronic dictionaries present the
+                    search-dominated interface of classic information retrieval (IR) systems, which
+                    are only effective when the user has a clearly specified information need and a
+                    good understanding of the content being searched. The ability to browse often
+                    makes paper dictionaries easier and more pleasant to use than such electronic
+                    dictionaries. Search interfaces are ineffective for information needs such as
+                    exploring a concept. Some work in IR has emphasised the need for new methods of
+                    information access and visualization for browsing document collections (Pirolli
+                    et al. 1996), and we wish to extend such ideas into the domain of dictionaries,
+                    in part because indications are that current interfaces are unlikely to have
+                    much direct educational benefit for students (Kegl 1995).</p>
+                <p>Our goal has been to provide a fun dictionary tool that is effective for browsing
+                    and incidental language learning. In particular we attempt to address Sharpe's
+                    (1995) "distinction between information gained and knowledge sought". The speed
+                    of information retrieval that e-dictionaries deliver, and the focused
+                    decontextualized search results they provide, can frequently lead to loss of the
+                    memory retention benefits and chances for random learning that manually
+                    searching through paper dictionaries provides.</p>
+                <p>Within the Australian context, indigenous dictionary structure and usability are
+                    often dictated by professional linguists, while the needs of others (speakers,
+                    semi-speakers, young users, second language learners) are not met. Another major
+                    goal has been to design an interface usable by, and interesting to, young users
+                    and other language learners. From this viewpoint, the low level of literacy in
+                    the region, and the inherently captivating nature of computers suggests that an
+                    e-dictionary is potentially more useful than a paper edition. Among other
+                    benefits, we can provide an interface less dependent on good knowledge of
+                    spelling and alphabetical order.</p>
+                <p>Our dictionary interface initially targeted Warlpiri, a language of Central
+                    Australia, for which there has been an extensive on-going project for the
+                    compilation of semantically-rich lexical materials (Laughren and Nash 1983, Hale
+                    and Laughren [to appear]). We converted this data from a non-standard format
+                    into a richly-structured XML version (XML 1999). The current version uses ad hoc
+                    indexing of this textual version for efficient access, but we expect to move to
+                    XQL, as this standard matures. Our system is written in Java, using the Swing
+                    API, and runs on all major platforms (Windows, Mac, Unix).</p>
+                <p>For dictionaries with plain textual content behind them, there is little that
+                    they can provide in the way of output but an on-line reflection of a printed
+                    page. In contrast, XML allows definition of the precise semantics of the
+                    dictionary content, while leaving unspecified its form of presentation to the
+                    user. We exploit this flexibility in our application, by having the program
+                    mediate between the lexical data and the user. The interface can select from and
+                    choose how to present information, in ways customised to a user's preferences
+                    and abilities.</p>
+                <p>One dimension is that as well as the definitions of words, users frequently want
+                    to know their relationships to other words, and the patterning in these
+                    relationships. Kirrkirr provides a color-coded network display of semantic links
+                    between words, which can be explored, manipulated and customised interactively
+                    by the user (Jansz et al. 1999) using the animated graph-drawing techniques of
+                    (Eades et al. 1998, Huang et al. 1998). In their spring algorithm, a network of
+                    words become nodes which are held apart by gravitational repulsion, but kept
+                    from becoming too far apart by springs which have a natural length. This graph
+                    algorithm differs from most others by providing iterative updating of the graph
+                    layout, which means that users can drag nodes across the screen, and the
+                    algorithm will cause other nodes to flee out of the way, while words related to
+                    another word are dragged along. The detailed semantic markup of the dictionary,
+                    with many kinds of semantic links (such as synonyms, antonyms, hyponyms, and
+                    other forms of relationships) allows us to provide a rich browsing experience.
+                    For example, the ability to display different link types graphically as
+                    different colors solves one of the recurring problems of the present web, with
+                    its one type of link: users have some idea of what type of relationship there is
+                    to another word before clicking. Thinking of the lexicon as a semantic network
+                    with various kinds of links was a leading idea of the WordNet project (Miller et
+                    al. 1993), but the simple text based computer interface they provide fails to do
+                    justice to the richness of the underlying data. Others have attempted to remedy
+                    this lack (e.g., Plumbdesign 1998), but we feel that our work is better aimed at
+                    providing the kind of simple network display suitable for our users.</p>
+                <p>To augment traditional semantic relations in the dictionary, we provide also
+                    linkages derived automatically from collocational analysis (of the limited
+                    amount of online Warlpiri text), and present an interface derived from semantic
+                    domains. These interfaces both address the notion of "terminology sets" - words
+                    that belong together, a notion which seems particularly salient for native
+                    speakers (Goddard and Thieberger 1997). We discuss the determination of
+                    collocational bonds, using the method of Dunning (1993), and the limitations of
+                    what we can do with the data available.</p>
+                <p>Formatted dictionary entries, displayed using HTML, are produced from the
+                    underlying XML by the use of XSL stylesheets (XSL 1999). These provide
+                    conventional hypertext for navigating between entries, in particular providing a
+                    color-coding of different kinds of semantic relationships between words which is
+                    consistent with that in the network display. A variety of XSL stylesheets are
+                    provided, which can give different formatting to the dictionary content
+                    appropriate to different users. For instance, items such as abbreviations for
+                    parts of speech, and other grammatical notes, and detailed decompositional
+                    definitions can be confusing for most Aboriginal users (Corris et al. 1999), and
+                    style sheets can provide just the desired information in large easy-to-read
+                    type.</p>
+                <p>In addition to the above, the dictionary incorporates multimedia - the user can
+                    hear words and see appropriate pictures - and a conventional search interface.
+                    The dictionary provides a user-friendly console where search results can be
+                    sorted and manipulated. As well as standard keyword search, which can optionally
+                    be restricted to appearance within a specified XML entity, the system provides
+                    two features targeted towards two principal groups of users. Linguists often
+                    want to search for particular sound patterns (such as certain types of consonant
+                    clusters), and so the system allows regular expression matching for such expert
+                    users. On the other hand, the limited literacy level of many potential users
+                    means that they will have particular problems looking up words. In part this is
+                    due to particular problems whereby the phonetic orthography of Warlpiri does not
+                    match very closely to the (rather arcane) spelling rules of English in which
+                    their literacy skills are usually based. To alleviate this problem, we have
+                    implemented a "fuzzy spelling" algorithm which attempts to find the intended
+                    word by using rules which capture common mistakes, sound confusions and
+                    alternative spellings.</p>
+                <p>We have performed some preliminary trialling of the dictionary through visits by
+                    Mim Corris to Yuendumu and Willowra, and Jane Simpson to Lajamanu. This has
+                    involved completing dictionary tasks, and observational use with primary and
+                    lower secondary students and trainee Warlpiri literacy workers, and comments
+                    from teachers and other adults. In general reactions have been quite
+                    enthusiastic, and the dictionary does appear to succeed in creating and
+                    maintaining interest. We have received suggestions on how to make it a better
+                    basis for classroom activities, which we hope to incorporate in future versions.</p>
+                <p>The diversity of areas researched in this work is rare relative to past work in
+                    electronic dictionaries, which often addresses the problems of storage,
+                    processing and visualisation/teaching as unrelated. Despite some significant
+                    research into the construction of lexical databases that go beyond the confined
+                    dimensions of their paper ancestors, there has been little attempt at seeing
+                    this work through to benefiting people such as language learners, who could
+                    truly gain from a better interface to dictionary information. Additionally, the
+                    range of potential users here is considerably more diverse than encountered in
+                    typical studies of dictionary usability (e.g., Atkins and Varantola 1997). For
+                    instance, issues such as low levels of literacy are rarely touched on. Our
+                    system has attempted to reduce the importance of knowing the written form of the
+                    word before the application can be used, while having ample opportunities to
+                    learn written forms. Features such as an animated, clearly laid out network of
+                    words and their relationships, multimedia and hypertext aim at making the system
+                    interesting and enjoyable to use. At the same time, features such as advanced
+                    search capabilities and note-taking make the system practical as a reference
+                    tool. Having designed the system to be highly customisable by the user, it is
+                    also highly extensible, allowing new modules to be incorporated with relative
+                    ease. We thus think that it is a good foundation for an electronic dictionary,
+                    and while the focus of this research has been on Warlpiri, this research (and
+                    the software constructed) can be easily applied to other languages.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>References</head>
+                <listBibl>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">B.</forename>
+                                    <forename type="middle">T.</forename>
+                                    <forename type="middle">S.</forename>
+                                    <forename type="middle"/>
+                                    <surname>Atkins</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">K.</forename>
+                                    <surname>Varantola</surname>
+                                </name>
+                            </author>
+                            <title level="a">Monitoring dictionary use</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">International Journal of Lexicography</title>
+                            <imprint>
+                                <biblScope type="vol">10</biblScope>
+                                <biblScope type="issue">1</biblScope>
+                                <biblScope type="pp">1-45</biblScope>
+                                <date when="1997">1997</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">M.</forename>
+                                    <surname>Corris</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">C.</forename>
+                                    <surname>Manning</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">S.</forename>
+                                    <surname>Poetsch</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">J.</forename>
+                                    <surname>Simpson</surname>
+                                </name>
+                            </author>
+                            <title level="a">Using dictionaries of Australian Aboriginal
+                                languages</title>
+                        </analytic>
+                        <monogr>
+                            <title level="u">Paper presented at the Applied Linguistics Association
+                                of Australia Annual Congress, Perth</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date when="1999">1999</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">T.</forename>
+                                    <surname>Dunning</surname>
+                                </name>
+                            </author>
+                            <title level="a">Accurate methods for the statistics of surprise and
+                                coincidence</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Computational Linguistics</title>
+                            <imprint>
+                                <biblScope type="vol">19</biblScope>
+                                <biblScope type="issue"/>
+                                <biblScope type="pp">61-74</biblScope>
+                                <date when="1993">1993</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">P.</forename>
+                                    <surname>Eades</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">M.</forename>
+                                    <surname>Huang</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">J.</forename>
+                                    <surname>Wang</surname>
+                                </name>
+                            </author>
+                            <title level="a">Online Animated Graph Drawing using a Modified Spring
+                                Algorithm</title>
+                        </analytic>
+                        <monogr>
+                            <title level="m">Proceedings of the 21st Australian Computer Science
+                                Conference</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date when="1998">1998</date>
+                                <biblScope type="pp">17-28</biblScope>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="bookChapter">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">C.</forename>
+                                    <surname>Goddard</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">N.</forename>
+                                    <surname>Thieberger</surname>
+                                </name>
+                            </author>
+                            <title level="a">Lexicographic Research on Australian Languages 1968 -
+                                1993</title>
+                        </analytic>
+                        <monogr>
+                            <editor>
+                                <name>
+                                    <forename type="first">M.</forename>
+                                    <forename type="middle">J.</forename>
+                                    <surname>Walsh</surname>
+                                </name>
+                            </editor>
+                            <editor>
+                                <name>
+                                    <forename type="first">D.</forename>
+                                    <surname>Tyron</surname>
+                                </name>
+                            </editor>
+                            <title level="m">Boundary Rider: Essays in Honour of Geoffrey
+                                O'Grady</title>
+                            <imprint>
+                                <pubPlace>Canberra</pubPlace>
+                                <publisher>Pacific Linguistics</publisher>
+                                <date when="1997">1997</date>
+                                <biblScope type="pp">175-208</biblScope>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">K.</forename>
+                                    <forename type="middle">L.</forename>
+                                    <surname>Hale</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">M.</forename>
+                                    <surname>Laughren</surname>
+                                </name>
+                            </author>
+                            <title level="m">The Warlpiri Dictionary</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date>(to appear)</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">M.</forename>
+                                    <forename type="middle">L.</forename>
+                                    <surname>Huang</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">P.</forename>
+                                    <surname>Eades</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">R.</forename>
+                                    <forename type="middle">F.</forename>
+                                    <surname>Cohen</surname>
+                                </name>
+                            </author>
+                            <title level="a">WebOFDAV: Navigating and visualizing the Web on-line
+                                with animated context swapping</title>
+                        </analytic>
+                        <monogr>
+                            <title level="m">Proceedings of the 7th International World Wide Web
+                                Conference,</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date when="1998">1998</date>
+                                <biblScope type="pp">638-642</biblScope>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">K.</forename>
+                                    <surname>Jansz</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">C.</forename>
+                                    <forename type="middle">D.</forename>
+                                    <surname>Manning</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">N.</forename>
+                                    <surname>Indurkhya</surname>
+                                </name>
+                            </author>
+                            <title level="a">Kirrkirr: Interactive Visualisation And Multimedia From
+                                A Structured Warlpiri Dictionary</title>
+                        </analytic>
+                        <monogr>
+                            <title level="m">Proceedings of AusWeb99, the Fifth Australian World
+                                Wide Web Conference</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date when="1999">1999</date>
+                                <biblScope type="pp">302-316</biblScope>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="bookChapter">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">J.</forename>
+                                    <surname>Kegl</surname>
+                                </name>
+                            </author>
+                            <title level="a">Machine-Readable Dictionaries and Education</title>
+                        </analytic>
+                        <monogr>
+                            <editor>
+                                <name>
+                                    <forename type="first">D.</forename>
+                                    <surname>Walker</surname>
+                                </name>
+                            </editor>
+                            <editor>
+                                <name>
+                                    <forename type="first">A.</forename>
+                                    <surname>Zampolli</surname>
+                                </name>
+                            </editor>
+                            <editor>
+                                <name>
+                                    <forename type="first">N.</forename>
+                                    <surname>Calzolari</surname>
+                                </name>
+                            </editor>
+                            <title level="m">Automating the Lexicon: Research and Practice in a
+                                Multilingual Environment</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher>Oxford University Press, Clarendon</publisher>
+                                <date when="1995">1995</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">M.</forename>
+                                    <surname>Laughren</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">D.</forename>
+                                    <forename type="middle">G.</forename>
+                                    <surname>Nash</surname>
+                                </name>
+                            </author>
+                            <title level="a">Warlpiri Dictionary Project: Aims, method, organisation
+                                and problems of definition</title>
+                        </analytic>
+                        <monogr>
+                            <title level="m">Papers in Australian Linguistics No. 15: Australian
+                                Aboriginal Lexicography</title>
+                            <imprint>
+                                <pubPlace>Canberra</pubPlace>
+                                <publisher>Pacific Linguistics</publisher>
+                                <date when="1983">1983</date>
+                                <biblScope type="pp">109-133</biblScope>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="bookChapter">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">G.</forename>
+                                    <surname>Miller</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">R.</forename>
+                                    <surname>Beckwith</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">C.</forename>
+                                    <surname>Fellbaum</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">R.</forename>
+                                    <surname>Gross</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">K.</forename>
+                                    <surname>Miller</surname>
+                                </name>
+                            </author>
+                            <title level="a">Introduction to WordNet: An On-line Lexical
+                                Database</title>
+                        </analytic>
+                        <monogr>
+                            <editor>
+                                <name>
+                                    <forename type="first">C.</forename>
+                                    <surname>Felbaum</surname>
+                                </name>
+                            </editor>
+                            <title level="m">WordNet: An electronic lexical database</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher>MIT Press</publisher>
+                                <date when="1993">1993</date>
+                                <date when="1998">1998</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">P.</forename>
+                                    <surname>Pirolli</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">P.</forename>
+                                    <surname>Schank</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">M.</forename>
+                                    <forename type="middle">A.</forename>
+                                    <surname>Hearst</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">C.</forename>
+                                    <surname>Diehl</surname>
+                                </name>
+                            </author>
+                            <title level="a">Scatter/Gather Browsing Communicates the Topic
+                                Structure of a Very large Text Collection</title>
+                        </analytic>
+                        <monogr>
+                            <title level="m">Proceedings of the ACM SIGCHI Conference on Human
+                                Factors in Computing Systems (CHI '96)</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date when="1996">1996</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <monogr>
+                            <author>
+                                <name type="org">Plumbdesign</name>
+                            </author>
+                            <title level="u">Visual Thesaurus Java applet</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date when="1998">1998</date>
+                            </imprint>
+                        </monogr>
+                        <note>&lt;<ptr target="http://www.plumbdesign.com/thesaurus"
+                            />&gt;</note>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">P.</forename>
+                                    <surname>Sharpe</surname>
+                                </name>
+                            </author>
+                            <title level="a">Electronic Dictionaries with Particular Reference to an
+                                Electronic Bilingual Dictionary for English-speaking Learners of
+                                Japanese</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">International Journal of Lexicography</title>
+                            <imprint>
+                                <biblScope type="vol">8</biblScope>
+                                <biblScope type="issue">1</biblScope>
+                                <biblScope type="pp">39-54</biblScope>
+                                <date when="1995">1995</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <monogr>
+                            <editor>
+                                <name>
+                                    <forename type="first">T.</forename>
+                                    <surname>Bray</surname>
+                                </name>
+                            </editor>
+                            <editor>
+                                <name>
+                                    <forename type="first">J.</forename>
+                                    <surname>Paoli</surname>
+                                </name>
+                            </editor>
+                            <editor>
+                                <name>
+                                    <forename type="first">C.</forename>
+                                    <forename type="middle">M.</forename>
+                                    <surname>Sperberg-McQueen</surname>
+                                </name>
+                            </editor>
+                            <title level="u">Extensible Markup Language (XML) 1.0 W3C Recommendation
+                                10-February-1998</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date when="1998">1998</date>
+                            </imprint>
+                        </monogr>
+                        <note>&lt;<ptr target="http://www.w3.org/TR/1998/REC-xml-19980210"
+                            />&gt;</note>
+                    </biblStruct>
+                    <biblStruct>
+                        <monogr>
+                            <editor>
+                                <name>
+                                    <forename type="first">J.</forename>
+                                    <surname>Clark</surname>
+                                </name>
+                            </editor>
+                            <editor>
+                                <name>
+                                    <forename type="first">S.</forename>
+                                    <surname>Deach</surname>
+                                </name>
+                            </editor>
+                            <title level="u">Extensible Stylesheet Language (XSL) Version 1.0
+                                Working Draft</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date when="1998">1998</date>
+                            </imprint>
+                        </monogr>
+                        <note>&lt;<ptr target="http://www.w3.org/TR/WD-xsl"/>&gt;</note>
+                    </biblStruct>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

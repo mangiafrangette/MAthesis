@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="paper">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Text Structure vs. Encoded Structure - Dealing with
+                    Mixed Genres and Ambiguous Texts</title>
+                <author>
+                    <name>
+                        <forename type="first">Karl</forename>
+                        <forename type="middle">Johan</forename>
+                        <surname>Sæth</surname>
+                        <affiliation>
+                            <name type="org">University of Oslo</name>, Norway <email/>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Ingrid</forename>
+                        <surname>Falkenberg</surname>
+                        <affiliation>
+                            <name type="org">University of Oslo</name>, Norway <email/>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Ellen</forename>
+                        <forename type="middle">Margrete</forename>
+                        <surname>Nessheim</surname>
+                        <affiliation>
+                            <name type="org">University of Oslo</name>, Norway <email/>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Stine</forename>
+                        <forename type="middle">Brenna</forename>
+                        <surname>Taugbøl</surname>
+                        <affiliation>
+                            <name type="org">University of Oslo</name>, Norway <email/>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Mette</forename>
+                        <forename type="middle">Gismeroy</forename>
+                        <surname>Ekker</surname>
+                        <affiliation>
+                            <name type="org">University of Oslo</name>, Norway <email/>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="2000">2000</date>
+                <publisher>
+                    <name>University of Glasgow</name>
+                </publisher>
+                <pubPlace>Glasgow</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ALLC/ACH 2000</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first">Jean</forename>
+                        <surname>Anderson</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Amal</forename>
+                        <surname>Chatterjee</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Christian</forename>
+                        <forename type="middle">J.</forename>
+                        <surname>Kay</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Margaret</forename>
+                        <surname>Scott</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item>Text Encoding</item>
+                        <item> </item>
+                        <item> </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <div>
+                    <head>Introduction:</head>
+                    <p>'Henrik Ibsen's Writings' aims at producing and publishing both an electronic
+                        version and a book version of all Ibsen's writings: dramas, poems, drafts,
+                        letters, articles, notes. All manuscripts and editions in Norwegian/Danish
+                        from the playwright's lifetime will be encoded using SGML/TEI. Our encoding
+                        is rather detailed, as we wish to reproduce every text witness in full
+                        accuracy.</p>
+                    <p>In this paper we will examine some empirical problems which have surfaced
+                        when encoding text structure and textual features in Ibsen's plays. We will
+                        relate these to problems concerning how to encode the textual features in
+                        Ibsen's 'Norma' (1851). Based on genre one could define this text as a
+                        drama, but it could also be considered a covert article. An analytical
+                        perspective on the text would expose a good mixture of different genre
+                        elements. The text's physical representation, i.e. typography, shares the
+                        same ambiguity. These different approaches all form different 'logical'
+                        structures which overlap each other, and either approach forces us to
+                        consider an unfortunate priority in the encoding. To solve these problems we
+                        have looked into different solutions for encoding text structure and
+                        overlapping text features. Briefly we have asked the basic questions: What
+                        is text, what defines structure and other textual features, and how does
+                        this affect the encoding of texts?</p>
+                    <p>These questions have been much discussed within the text encoding society in
+                        the past, but the approach in this paper is somewhat different from much of
+                        the earlier work. We will try to examine the questions from a more practical
+                        point of view, with focus on the encoding of 'Norma', and we hope that we
+                        thus will be able to add a new perspective to the discussion.</p>
+                </div>
+                <div>
+                    <head>Ibsen's 'Norma':</head>
+                    <p>The problems of overlapping and ambiguous textual features and structures are
+                        particularly manifest when one has to deal with texts with mixed features
+                        which cannot easily be combined. Ibsen's 'Norma', which was written and
+                        published in the newspaper 'Andhrimner' in 1851, is an example of such a
+                        text. Choosing which textual features to encode in 'Norma' is not easy, as
+                        it is problematic to define the text as a drama, but even more problematic
+                        to define it as something else. We have chosen to regard it as a drama, but
+                        several textual elements in 'Norma' are difficult to incorporate in the
+                        drama structure. Particularly problematic is e.g. a 'speech' from 'the
+                        curtain' (which has no reference in the cast list) typographically rendered
+                        not as speech, but as a stage direction. Other problems concern footnotes
+                        (both in the cast list and in the speeches), speeches in brackets that do
+                        not seem to be 'asides' (asides are marked by stage directions) etc. These
+                        problems, and others like them, will be presented and further discussed at
+                        the conference.</p>
+                </div>
+                <div>
+                    <head>Encoding Text Structure:</head>
+                    <p>The nature of a text has been much discussed, in several different contexts.
+                        One answer to what a text is, is that it is made of several interwoven
+                        features, or content objects, which together form 'a text'. The nature of a
+                        text is thus complex, and it seems difficult, or even impossible, to find a
+                        single structure that 'is' the text. Some would argue that texts even seem
+                        to be able to include things 'outside' themselves. Another view on the text,
+                        much discussed within the text encoding society, is the claim that 'text is
+                        an ordered hierarchy of content objects', the so called OHCO-thesis. This
+                        claim has been thoroughly examined by Renear et al. (1993), and further
+                        discussed e.g. in Biggs &amp; Huitfeld (1997). We will leave this discussion
+                        aside here, and only point out that the OHCO-thesis (at least in its
+                        simplest form) may be appealing from a text encoding perspective, but that
+                        it is far from unproblematic.</p>
+                    <p>When encoding texts one generally chooses either declarative markup languages
+                        based on SGML, or its subset XML. We are using SGML/TEI, but are considering
+                        moving over to XML. As Sperberg-McQueen &amp; Huitfeldt (1998) have pointed
+                        out, SGML markup in its simplest forms uses a straightforward model for
+                        markup: elements nest within each other so that the SGML document forms a
+                        hierarchical structure. The basic model of SGML associates single
+                        occurrences of features with single SGML-elements. Tagging a textual element
+                        as a SGML-element of a particular type and giving it particular attribute
+                        values, thus claims that this element exhibits the textual features
+                        associated with that same element type and those attribute values. The
+                        relationship between SGML element types and text features depends, however,
+                        on the encoder's understanding and interpretation of the genre, structure
+                        and perspective of the text. The encoder defines text objects in elements
+                        matching the chosen hierarchical structure.</p>
+                    <p>One of the large challenges for application of SGML to existing texts is
+                        finding suitable representations in SGML's tree-based data model for
+                        multiple hierarchies and textual features which overlap each other. Such
+                        overlapping textual features seem to be an inescapable fact of textual life,
+                        but present a problem in the simple SGML-model because while two textual
+                        features/hierarchies may overlap, two SGML-elements may not.</p>
+                </div>
+                <div>
+                    <head>Encoding Overlapping Features:</head>
+                    <p>The problem of overlapping features has been discussed before. In the TEI
+                        Guidelines there are several ways to overcome some of the problems: one may
+                        e.g. use 'milestone' elements, in which a feature is predicated by the span
+                        of text between one milestone element and the next. Other techniques rely on
+                        the fragmentation of one element into multiple SGML elements and then
+                        knitting the fragments into a whole; this is the method used for example in
+                        the part attribute of the &lt;l&gt;-element and in the &lt;join&gt;-element.
+                        There are also several possibilities permitting 'true' overlapping features.
+                        Within SGML/TEI the 'concur'-feature allows a document to be marked up
+                        concurrently using more than one DTD, with each tag labelled with the name
+                        of the DTD to which it belongs. Other none-SGML systems include MECS
+                        (Multi-Encoding-System), a system developed at the Wittgenstein Archives at
+                        the University of Bergen. MECS permits any two codes to overlap, but has on
+                        the other hand no specific document grammar, and therefore no SGML-alike
+                        document validation is possible.</p>
+                    <p>We have chosen not to use such systems in our project, as they do not seem
+                        suitable for our purposes, partly because they make text encoding too
+                        complex. Furthermore, encoding 'true' overlapping structures with concur,
+                        MECS, or similar systems, does not really solve the problem of deciding how
+                        to structure the text: you have the possibility to encode overlapping
+                        features, but you still have to decide which feature(s) to encode, and even
+                        which not to encode.</p>
+                    <p>The boundaries of the different features are not always clear and text
+                        features seem to exist both dependent and independent of each other. Our
+                        project uses the first printed editions as base texts for the edition. When
+                        encoding texts, we try to reproduce these texts as accurately as possible.
+                        When choosing to use standard TEI, we thus have to deal with the problem of
+                        encoding the textual features into hierarchical SGML-documents. This also
+                        means choosing which text features to encode and which not to encode, when
+                        that is necessary.</p>
+                </div>
+                <div>
+                    <head>Encoding 'Norma':</head>
+                    <p>In the case of 'Norma' we have ended up encoding the text as an ordinary
+                        drama. The additional features of the text that do not seem to be part of a
+                        'normal' drama structure, but still can easily be encoded into the drama
+                        structure (e.g. footnotes and speeches in brackets), are also incorporated,
+                        even though this means 'violating' the logical structure of a drama. On the
+                        other hand additional features that depend on redefining the whole
+                        conceptualization of dramas (e.g. speeches in stage directions) so far are
+                        ignored in the encoding (but documented elsewhere, e.g. in the header of the
+                        document). 'Norma' is an ambiguous text, and while we want to incorporate as
+                        much as possible of this ambiguity in the encoded version of it, not all
+                        ambiguity can be kept, and however the encoding is done, the encoded text
+                        could possibly be ambiguous in new ways.</p>
+                    <p>It may seem like a paradox that the encoding of features necessary to give
+                        possibilities for electronic processing and analysis of texts, at the same
+                        time includes interpretation that may restrict the use of the texts. There
+                        is no simple way out of this problem, but if the interpretation in the
+                        encoding is restricted at a reasonable level, the encoding can open up the
+                        text more than delimit it. Renear et al. (1993) state that 'It should be a
+                        commonplace that machine-readable texts are "subjective" and "interpretive",
+                        but not especially subjective or interpretative.', and that encoding a text
+                        in this aspect is much like making a traditional edition.</p>
+                </div>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>Bibliography:</head>
+                <listBibl>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <editor>
+                                <name>
+                                    <forename type="first">Michael</forename>
+                                    <surname>Biggs</surname>
+                                </name>
+                            </editor>
+                            <editor>
+                                <name>
+                                    <forename type="first">Claus</forename>
+                                    <surname>Huitfeldt</surname>
+                                </name>
+                            </editor>
+                            <title level="a">Philosophy and Electronic Publishing. Theory and
+                                Metatheory in the Development of Text Encoding</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Monist</title>
+                            <imprint>
+                                <biblScope type="vol">80</biblScope>
+                                <biblScope type="issue">3</biblScope>
+                                <biblScope type="pp"/>
+                                <date when="1997">1997</date>
+                            </imprint>
+                        </monogr>
+                        <note>&lt;<ptr target="http://hhobel.phl.univie.ac.at/mii/mii/mii.html"
+                            />&gt;</note>
+                    </biblStruct>
+                    <biblStruct>
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">Henrik</forename>
+                                    <surname>Ibsen</surname>
+                                </name>
+                            </author>
+                            <title level="m">Norma</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Andhrimner</title>
+                            <imprint>
+                                <biblScope type="vol">9 &amp; 10</biblScope>
+                                <biblScope type="issue"/>
+                                <biblScope type="pp"/>
+                                <date when="1851">1851</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">Allen</forename>
+                                    <surname>Renear</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">Elli</forename>
+                                    <surname>Mylonas</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">David</forename>
+                                    <surname>Durand</surname>
+                                </name>
+                            </author>
+                            <title level="a">Refining our Notion of What Text Really Is: The Problem
+                                of Overlapping Hierarchies</title>
+                        </analytic>
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first"/>
+                                    <surname/>
+                                </name>
+                            </author>
+                            <title level="m"/>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date when="1993">1993</date>
+                            </imprint>
+                        </monogr>
+                        <note>&lt;<ptr
+                                target="http://www.stg.brown.edu/resources/stg/monographs/ohco.html"
+                            />&gt;</note>
+                    </biblStruct>
+                    <biblStruct>
+                        <analytic>
+                            <author>
+                                <name>
+                                    <forename type="first">C.</forename>
+                                    <forename type="middle">M.</forename>
+                                    <surname>Sperberg-McQueen</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">Claus</forename>
+                                    <surname>Huitfeldt</surname>
+                                </name>
+                            </author>
+                            <title level="a">Concurrent Document Hierarchies in MECS and
+                                SGML</title>
+                        </analytic>
+                        <monogr>
+                              <title level="u">ALLC/ACH98, Debrecen</title>
+                            <imprint>
+                                <pubPlace/>
+                                <publisher/>
+                                <date when="1998">1998</date>
+                            </imprint>
+                        </monogr>
+                        <note>&lt;<ptr target="http://www.oasis-open.org/cover/sperbergACH98.html"
+                            />&gt;</note>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <editor>
+                                <name>
+                                    <forename type="first">C.</forename>
+                                    <forename type="middle">M.</forename>
+                                    <surname>Sperberg-McQueen</surname>
+                                </name>
+                            </editor>
+                            <editor>
+                                <name>
+                                    <forename type="first">Lou</forename>
+                                    <surname>Burnard</surname>
+                                </name>
+                            </editor>
+                            <title level="m">Guidelines for Text Encoding and Interchange</title>
+                            <imprint>
+                                <pubPlace>Chicago</pubPlace>
+                                <pubPlace>Oxford</pubPlace>
+                                <publisher>Text Encoding Initiative</publisher>
+                                <date when="1994">1994</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>
