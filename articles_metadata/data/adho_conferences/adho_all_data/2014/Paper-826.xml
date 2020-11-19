@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:x="http://www.w3.org/1999/xhtml" xmlns:exsl="http://exslt.org/common" xml:id="Paper-826">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Extracting Relationships from an Online Digital Archive about Post-War Queensland Architecture</title>
+        <author>
+          <name>
+            <surname>Hunter</surname>, <forename>Jane </forename>
+          </name>
+          <affiliation>The University of Queensland, Australia</affiliation>
+          <email></email>
+        </author>
+        <author>
+          <name>
+            <surname>Macarthur</surname>, <forename>John </forename>
+          </name>
+          <affiliation>The University of Queensland, Australia</affiliation>
+          <email></email>
+        </author>
+        <author>
+          <name>
+            <surname> Van der Plaat</surname>, <forename>Deborah</forename>
+          </name>
+          <affiliation>The University of Queensland, Australia</affiliation>
+          <email></email>
+        </author>
+        <author>
+          <name>
+            <surname>Gosseye</surname>, <forename>Janina </forename>
+          </name>
+          <affiliation>The University of Queensland, Australia</affiliation>
+          <email></email>
+        </author>
+        <author>
+          <name>
+            <surname>Muys</surname>, <forename>Andrae </forename>
+          </name>
+          <affiliation>The University of Queensland, Australia</affiliation>
+          <email></email>
+        </author>
+        <author>
+          <name>
+            <surname>Macnamara</surname>, <forename>Craig </forename>
+          </name>
+          <affiliation>The University of Queensland, Australia</affiliation>
+          <email></email>
+        </author>
+        <author>
+          <name>
+            <surname>Bannerman</surname>, <forename>Gavin</forename>
+          </name>
+          <affiliation>The State Library of Queensland</affiliation>
+          <email></email>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority/>
+        <publisher>EPFL, Switzerland</publisher>
+        <distributor>
+          <name>EPFL Digital Humanities Laboratory</name>
+          <address>
+            <addrLine>GC D2 386</addrLine>
+            <addrLine>Station 18</addrLine>
+            <addrLine>CH-1015 Lausanne</addrLine>
+            <addrLine>frederic.kaplan@epfl.ch</addrLine>
+          </address>
+        </distributor>
+        <pubPlace>Lausanne, Switzerland</pubPlace>
+        <address>
+          <addrLine>EPFL</addrLine>
+          <addrLine>CH-1015 Lausanne</addrLine>
+        </address>
+        <availability>
+          <p/>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note type="abstract">The “Architectural Practice in Post-War Queensland: Building and Interpreting an Oral History Archive” project is a collaboration between the University of Queensland, the State Library of Queensland (SLQ) and four of the longest-standing architectural firms in Queensland. The project’s aim is to build a comprehensive online multimedia digital archive that documents architectural practice in post-war Queensland (1945-1975) – a period that was highly significant but largely undocumented. This paper describes the innovative Semantic Web technologies that have been implemented to link tacit knowledge extracted from individual oral histories to tangible knowledge (drawings, books, photographs, manuscripts) that has been retrieved from personal, firm and State archives, digitized and uploaded to this online archive. It also describes the services that have been developed to enable architectural historians to document and discuss relationships between architects, firms, buildings/places and events.</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>No source: created in electronic format.</p>
+        <p>
+          <date when="20140711"/>
+          <time when="11:00:00"/>
+        </p>
+		<p n="session">7</p>
+		<p n="room">319 - Amphipôle</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="original" n="category">
+          <term>Paper</term>
+        </keywords>
+        <keywords scheme="original" n="subcategory">
+          <term>Long Paper</term>
+        </keywords>
+        <keywords scheme="original" n="keywords">
+          <term>oral histories</term>
+          <term>architectural history</term>
+          <term>semantic processing</term>
+          <term></term>
+        </keywords>
+        <keywords scheme="original" n="topic">
+          <term>archives</term>
+          <term>repositories</term>
+          <term>sustainability and preservation</term>
+          <term>art history</term>
+          <term>ontologies</term>
+          <term>semantic analysis</term>
+          <term>content analysis</term>
+          <term>GLAM: galleries</term>
+          <term>libraries</term>
+          <term>archives</term>
+          <term>museums</term>
+          <term>networks</term>
+          <term>relationships</term>
+          <term></term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text type="paper">
+
+    <body>
+      <div>
+        <p>The “Architectural Practice in Post-War Queensland: Building and Interpreting an Oral History Archive” project is a collaboration between the University of Queensland, the State Library of Queensland (SLQ) and four of the longest-standing architectural firms in Queensland. The project’s aim is to build a comprehensive online multimedia digital archive that documents architectural practice in post-war Queensland (1945-1975) – a period that was highly significant in Queensland’s architectural history but that remains largely undocumented. The goal was to use innovative Semantic Web technologies to link tacit knowledge extracted from individual oral histories to tangible knowledge (drawings, books, photographs, manuscripts) that exists within personal archives, firm archives as well as State and institutional archives and libraries. </p>
+        <p> The approach involved firstly conducting and recording a series of oral history interviews and public forums with the key architects from this period. These events comprise both private interviews, one-on-one conversations between the project team and architect/s as well as a number of larger public forums held at the SLQ that focus on a specific theme (education, style, climate, regionalism, etc.)</p>
+        <p>The oral history interviews and the public forums are filmed, captured as digital files (.wav and .avi) and transcribed. Both manual tagging and text processing tools are applied to the transcripts to semantically tag key entities (architects, firms, structures, places, dates) mentioned in the interviews and extract new knowledge in the form of RDF graphs. The resulting RDF graphs document relationships between architects, firms and buildings (with attribution to the source) and are able to be displayed, edited, saved and re-used via the LORE compound object authoring software (Figure 4).</p>
+        <p>This paper describes our approach to establishing the online archive and evolving knowledge-base<hi rend="sup">1</hi> that together have been designed to be used for research, teaching and practice within the disciplines of history, architecture and design. </p>
+        <p> An overview of the system architecture is shown in Figure 1. The system uses the Omeka content management system to support the upload and description of content (oral history files, transcripts, photos, drawings, articles etc.) by the project collaborators. In addition the system provides the following components and functionality: </p>
+        <list type="unordered">
+          <item>An OWL Architecture ontology was defined that specifies the core classes, class hierarchy and properties associated with each class (Figure 1);</item>
+          <item>D2RQ is used to convert Omeka metadata to RDF and save it to a Sesame RDF triple store with a SPARQL query interface;</item>
+          <item>User-authenticated annotation tools enable users to semantically tag transcripts by identifying people, places, buildings, firms, and events mentioned in the interviews;</item>
+          <item> The EYE N3 Semantic Reasoner (N3) is applied to the Sesame RDF triple store to reconcile common entities (via URLs) and to infer relationships between key entities (architects, firms, structures/buildings and articles/publications);</item>
+          <item>A Search and Browse engine (based on Solr) enables users to search for specific entities or perform full-text searching across all transcripts and articles (and jump to the audio/video segments that contain the matching search term);</item>
+          <item>Word clouds and word frequency histograms (generated from the oral history transcripts using D3) enable architectural historians to understand the main themes and influences on key architects from this period;</item>
+          <item>Mapping and timeline interfaces enable users to interactively browse and retrieve information (interviews, photos, drawings) about buildings, people or events via maps and timelines;</item>
+          <item>The LORE tool enables the visualization, editing, sharing and re-use of RDF graphs that document relationships between architects, firms, buildings, and related documents (Figure 3)</item>
+        </list>
+        <p>At the time of writing this abstract, the archive/database contains 64 interviews, of average length 83 mins. It also contains 64 transcripts, 725 photos, 612 articles, 305 line drawings and detailed information about 464 architects, 119 firms and 357 buildings/structures. The archive is growing continuously as more interviews and associated content are uploaded and annotated. The architectural historians involved in the project and their students, review the transcripts and using the integrated annotation tools identify and tag the names of people/architects, firms/organizations, buildings/structures and places. As new people, structures, firms and places are tagged/identified, they are added to the ontology. Authenticated users can also annotate relationships between people, between people and firms and between people and buildings, by drawing on a controlled vocabulary of relationship types. The reasoning engine then reasons across these relationships to infer new implicit relationships that can be recorded, searched and visualized through the LORE RDF graph visualization tool.</p>
+        <p>Architects who studied and worked in Queensland during the post-war period are also invited to register, login and submit their own details including a chronology of practice and to provide feedback to the existing content. An additional blog monitored by the project team encourages the broader community (those outside the profession) to comment on aspects of post-war architecture (e.g., nominate their favourite building) and to upload related materials such as photographs or plans.</p>
+        <p>Future work plans include undertaking a detailed user evaluation of the system with a set of test users that comprises architectural historians from academic, government and industry as well as users from the local architectural community - and refining and extending the system based on user feedback.</p>
+        <p>Finally, our paper will also describe the challenges that this multi-disciplinary project faces including: how to attract and retain an active community of contributors; ensuring the archive’s sustainability, resolving issues of identity resolution and implementing quality control over the community-generated content.</p>
+    </div>
+    <div>
+        <head>Biography:</head>
+        <p>Professor Jane Hunter is the Director of the eResearch Lab at the University of Qld – where she leads a team of post-docs, PhD students and software engineers working on innovative e-research services for a wide range of applications and communities. She has published over 100 peer-reviewed papers on semantic web, digital libraries and e-research and is currently the Deputy Chair of the Australasian Association for Digital Humanities and Chair of the Academy of Sciences Committee for Data in Science. She is a CI on the Mellon-funded Open Annotation Collaboration (OAC) project, the NeCTAR-funded HuNI and Aust-ESE projects and the ARC Linkage Project “Architectural Practice in Post-War Queensland: Building and Interpreting an Oral History Archive”.</p>
+        <figure>
+          <graphic url="DH2014_548_Hunter-1"/>
+          <p>Fig. 1: Technical Components underlying the Post-War Queensland Architecture Knowledge Base</p>
+        </figure>
+        <figure>
+          <graphic url="DH2014_548_Hunter-2"/>
+          <p>Fig. 2: Overview of the Ontology underlying the Post-War Qld Architecture Knowledge-base</p>
+        </figure>
+        <figure>
+          <graphic url="DH2014_548_Hunter-3"/>
+          <p>Fig. 3: Screen Shot of the Web Portal: Digital Archive of Queensland Architecture</p>
+        </figure>
+        <figure>
+          <graphic url="DH2014_548_Hunter-4"/>
+          <p>Fig. 4: LORE Visualization and Editing Interface to a Relationship Graph about Karl Langer</p>
+        </figure>
+      </div>
+    </body>
+    <back>
+      <div type="References">
+        <listBibl>
+          <bibl><hi rend="italic">Digital Archive of Queensland Architecture Web Portal</hi> (2014).
+            <ref type="url" target="http://qldarch.net/">qldarch.net</ref></bibl>
+          <bibl>I (2014). Omeka.
+            <ref type="url" target="http://omeka.org/">omeka.org</ref></bibl>
+          <bibl><hi rend="bold">Gerber A. and Hunter, J.</hi> (2010). <hi rend="italic">Authoring,
+            editing and visualizing compound objects for literary scholarship</hi>.
+            Journal of Digital Information, 11(1), 2010.</bibl>
+          <bibl><hi rend="bold">Bizer, C. and Cyganiak, R. </hi>(2014). <hi rend="italic">D2RQ
+            Accessing Relationsl Databases as Virtual RDF Graphs</hi>.
+            <ref type="url" target="http://d2rq.org/">d2rq.org</ref></bibl>
+          <bibl><hi rend="bold">Verborgh, R. </hi>(2011). <hi rend="italic">Semantic
+            Reasoning with EYE</hi>.
+            <ref type="url" target="http://n3.restdesc.org/">n3.restdesc.org</ref></bibl>
+          <bibl><hi rend="bold">Bostock, M. </hi>(2013). <hi rend="italic">D3
+            Data-Driven Documents</hi><ref type="url" target="http://d3js.org/">d3js.org</ref></bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

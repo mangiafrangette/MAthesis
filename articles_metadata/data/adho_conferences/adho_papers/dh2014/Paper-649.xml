@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:x="http://www.w3.org/1999/xhtml" xmlns:exsl="http://exslt.org/common" xml:id="Paper-649">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Open content production in museums. A discourse and critical analysis of the museum in the digital age</title>
+        <author>
+          <name>
+            <surname>Hidalgo Urbaneja</surname>, <forename>María Isabel</forename>
+          </name>
+          <affiliation>Universidad de Málaga</affiliation>
+          <email>mbelhu@gmail.com</email>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority/>
+        <publisher>EPFL, Switzerland</publisher>
+        <distributor>
+          <name>EPFL Digital Humanities Laboratory</name>
+          <address>
+            <addrLine>GC D2 386</addrLine>
+            <addrLine>Station 18</addrLine>
+            <addrLine>CH-1015 Lausanne</addrLine>
+            <addrLine>frederic.kaplan@epfl.ch</addrLine>
+          </address>
+        </distributor>
+        <pubPlace>Lausanne, Switzerland</pubPlace>
+        <address>
+          <addrLine>EPFL</addrLine>
+          <addrLine>CH-1015 Lausanne</addrLine>
+        </address>
+        <availability>
+          <p/>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note type="abstract">As widespread interest in the Open Data movement has grown in recent years  some museums from all over the world have started to share and provide their digital content with Internet users. These new practices not only involve users’ interest and traffic increase on museums websites but also magnify the institutional transparency which provokes a different conception of the museum authority. Then, we can find different ways of making available to explore and download high resolution photographs or exhibition catalogues as well as more complex procedures as open APIs development in order to allow users to create their own application based on museums data.</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>No source: created in electronic format.</p>
+        <p>
+          <date when="20140711"/>
+          <time when="14:00:00"/>
+        </p>
+		<p n="session">8</p>
+		<p n="room">413 - Amphimax</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="original" n="category">
+          <term>Paper</term>
+        </keywords>
+        <keywords scheme="original" n="subcategory">
+          <term>Long Paper</term>
+        </keywords>
+        <keywords scheme="original" n="keywords">
+          <term>GLAM</term>
+          <term>discourse</term>
+          <term>open data</term>
+          <term>API</term>
+          <term>analysis</term>
+          <term>institutions</term>
+          <term></term>
+        </keywords>
+        <keywords scheme="original" n="topic">
+          <term>GLAM: Galleries</term>
+          <term>Libraries</term>
+          <term>Archives</term>
+          <term>Museums</term>
+          <term>open data</term>
+          <term>media studies</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text type="paper">
+    <front>
+      
+      <div>
+        <p></p>
+      </div>
+    </front>
+    <body>
+      <div>
+        <head>1. Introduction</head>
+        
+        <p>As widespread interest in the Open Data movement has grown in recent years  some museums from all over the world have started to share and provide their digital content with Internet users. These new practices not only involve users’ interest and traffic increase on museums websites but also magnify the institutional transparency which provokes a different conception of the museum authority. Then, we can find different ways of making available to explore and download high resolution photographs or exhibition catalogues as well as more complex procedures as open APIs development in order to allow users to create their own application based on museums data.
+</p>
+        <p>This paper seeks to establish the main issues related to museum discourses within the Open Data activities framework. Two case studies were chosen which construct their institutional and public digital identity on data openness. The Smithsonian Cooper-Hewitt Collection and the Rijksmuseum are well recognized by the professional museum community concerned with digital practices. Both museums had obtained important awards at the Museums and the Web 2013 conference as well as  being cited on several blog posts by some of the most relevant museum bloggers.</p>
+        <p>As L. Manovich argues: ‘The use of software re-configures most basic social and cultural practices and makes us rethink the concepts and theories we developed to describe them’ (2013, 33). This assertion implies a re-configuration of the museum in epistemological terms provoked by digital practices. Taking into account the Foucaultian notion of discourse, it is necessary to analyse both the museum digital content and the institution and professional framework that arrange and define the discourse itself.</p>
+        <p>The progressive Open Data implementation by institutions - not only by museums- could be interpreted as a sign of democratization even if this openness does not represent a new role for  museum institutions. However, as G. Lovink (2012, 49) states ‘visibility and transparency are no longer signs of democratic openness but rather of administrative availability.’ Then we could understand Open Data mechanisms in museums as just a public service which maintains the museum authority status according to digital age knowledge dissemination dynamics. Thus the question is whether open data is becoming merely a user service or something else?
+</p>
+        <p>In terms of open content access, users play an essential role receiving and reusing museum contents. Through open APIs they can elaborate computer mobile or tablet based applications. Eventually this option is oriented to amateurs, owners of specific informatics knowledge. The rise of amateurism and participatory culture argues for the author status dissolution. This is reflected in the reinterpretation of museum institutional authority. The museum is likely to maintain its status while granting more privileges to users.</p>
+        <head>2. Case Studies</head>
+        
+        <p>In order to study further this question, two case studies were chosen whose relevant use of Open Data is creating new museum models on the Internet, although the data typology used by them is diverse as well as their public strategy. On one side, the New York Smithsonian Cooper-Hewitt Collection<ref target="n1" rend="sup">1</ref> has presented a website in beta mode that reflects the physical state of the museum which is being refurbished at the same time. On the other hand, Amsterdam’s new Rijksmuseum website<ref target="n2" rend="sup">2</ref> has been launched at the same time as the reopening of the museum.
+</p>
+        <p>One of the most significant aspects is that both museums have published their database APIs on Github<ref target="n3" rend="sup">3</ref> allowing users to access the museum collections data or metadata and develop API based applications. The Rijksmuseum digital identity is defined by the appeal of high resolution images of the artworks - which are currently being offered in its own website app Rijksstudio- while the Cooper-Hewitt Collection strength lies in the provisional and documentary nature of its data - which is composed by the objects raw data and metadata- eventually improved by the museum staff as well as wikipedians. The museum become ‘human and fallible’, just like the public.  Moreover, the Smithsonian Cooper-Hewitt Collection website is making an exemplary use of open data including other features as biographical pages enhanced Wikipedia integration, public and open geographic identifiers or information concordances with other institutions.
+</p>
+        <p>The applications created by developers in both cases are a reflection of the museums digital strategy and conception. Clearly the Cooper-Hewitt collection apps -or visualizations- tend to be more experimental in contrast to the Rijksmuseum ones which also are similar to other museum applications -developed by the museums themselves- and are based on a definitive database. Likewise, Rijksmuseum apps play with the high quality of the artworks pictures rather than textual data on the  Cooper-Hewitt Collection apps, where developers draw  attention to data visualization or automated Tumblrs. 
+</p>
+        <p>Some of the Cooper-Hewitt collection applications best features are its digital work in progress  such as Curatorial Poetry Tumbrl<ref target="n4" rend="sup">4</ref> , a stream of decontextualized descriptive texts pulled from museum collection meta-data, elaborated by the museum staff, or the visualization by Ruben Abad about the collection colour history<ref target="n5" rend="sup">5</ref>, have been documented on the Cooper-Hewitt Collection Blog. The process of developing apps acquires value by itself and this is reflected on the blog that documents the museum staff working activities. On the other hand, some of the Rijksmuseum apps, such as Faces of the Rijksmuseum<ref target="n6" rend="sup">6</ref>, which uses facial recognition, or Riiksify<ref target="n7" rend="sup">7</ref>, that mix a music playlist with the collection, were developed during the TNW Kings of Code Hack Battle 2012 held in Amsterdam, confirming once again a definition of the amateur user profile who is interested on APIs usage. Referring to P. Gorgels from the Rijksmuseum, they identify several target groups: the culture snacker, art enthusiasts and professionals, then to which group does the amateur/hacker user belong?</p>
+        <p>Until the launch of the Live API on Github, the Rijsmuseum had shared on the museum website some of the apps developed with its OAI API<ref target="n8" rend="sup">8</ref> although it is worth noting that the Cooper-Hewitt Collection is going further, publishing on its blog interviews or text written by the developer itself about the elaboration of API based apps. Definitely this action could be interpreted as a sign of openness recognizing the value of users’ contributions. The use of Github, a collaborative revised hosting service for software development projects, reveals the museums interest on hackers/developers behaviour. Also the Github adoption by Rijsmuseum could be a symbol of openness and adaptation and make us to think whether it is the museum or the public who decide to introduce standards.</p>
+        <head>3. Conclusion
+</head>
+        <p>It is clearly evident that these Open Data museum practices can represent  different levels and a wide conception of openness. Although turning back to the introductory points, is the museum institution really breaking their walls thanks to this new trend or they are just building a new ones? In fact, these two cases reveal the existence of new boundaries, the terms and conditions webpage of the Rijsmuseum API, for example, shows how the museum control the use of its data. Therefore, should  users ever obtain the same status as the museum in terms of authority? By extension, are the applications developed by users being valued differently regarding the museums ones? Clearly museums do, in the digital age they still are institutions that decide what is worthy and deserves their recognition. Maybe two case studies hardly can explain the substantial changes that Open Data is bringing about or whether the general public is understanding them as a sign of openness or even if museums are using it as a marketing strategy. However those substantial changes and their new discourses about openness are modelling the museum idea in the digital age.</p>
+      </div>
+    </body>
+    <back>
+      <div type="References">
+        <listBibl>
+          <bibl><hi rend="bold"><hi rend="bold">Cairns, S. </hi></hi>A museum collection that never ends? Cooper-Hewitt’s new online collection <hi rend="italic">Museum Geek</hi> http://museumgeek.wordpress.com/2012/10/03/a-museum-collection-that-never-ends-cooper-hewitts-alpha-online-collection/ (accessed 6 March 2014)</bibl>
+          <bibl><hi rend="bold"><hi rend="bold">Chan, S., Walter,
+            M., Shelly, K., Solas, N., Barnes, G.</hi></hi><hi rend="italic">Cooper-Lewitt Labs</hi>, http://labs.cooperhewitt.org/ (accessed 21
+            February 2014)
+          </bibl>
+          <bibl><hi rend="bold"><hi rend="bold">Barthes, R.</hi></hi> (1977). The death of the author [La mort de l’auteur]
+            in <hi rend="italic">Image music text</hi> translated by
+            Heath, S. London: Fontana Press.
+            
+            
+            
+          </bibl>
+          <bibl><hi rend="bold"><hi rend="bold">Foucault, M.</hi></hi> (1972). <hi rend="italic">Archaeology
+            of knowledge [Archéologie du savoir]</hi>
+            translated by A.M. Sheridan Smith, London: Routledge.
+            
+            
+            
+          </bibl>
+          <bibl><hi rend="bold"><hi rend="bold">Foucault, M.</hi></hi> (1970). <hi rend="italic">The
+            order of things: an archaeology of the human sciences [Mots et les choses]</hi>. London: Routledge.
+            
+            
+            
+          </bibl>
+          <bibl><hi rend="bold"><hi rend="bold">Gorgels, P.</hi></hi> (2013). Rijksstudio: Make Your Own Masterpiece! In <hi rend="italic">Museums and the Web 2013</hi>, Proctor, N.
+            and Cherry, R. (eds). Silver Spring, MD: Museums and the Web. Published January
+            28, 2013. http://mw2013.museumsandtheweb.com/paper/rijksstudio-make-your-own-masterpiece/
+            (accessed 10 February 2014).
+            
+            
+            
+          </bibl>
+          <bibl><hi rend="bold"><hi rend="bold">Lovink, G.</hi></hi> (2012). <hi rend="italic">Networks
+            without a cause. A critique of social media</hi>, Cambridge: Polity Press.
+            
+            
+            
+          </bibl>
+          <bibl><hi rend="bold"><hi rend="bold">Manovich, L.</hi></hi> (2013). <hi rend="italic">Software
+            takes command</hi>, New York: Bloomsbury Academic.
+            
+            
+            
+          </bibl>
+          <bibl><hi rend="bold"><hi rend="bold">Parry, R.</hi></hi> (2013) The Trusted Artifice: Reconnecting with the
+            Museum’s Fictive Tradition Online, in Drotner, K. and Schrøder, K. C. (eds) <hi rend="italic">Museum
+              Communication and Social Media: The Connected Museum</hi><hi rend="bold"/>New York and
+            Abingdon, Oxon.: Routledge, pp. 17-32.
+            
+            
+            
+          </bibl>
+          <bibl><hi rend="bold"><hi rend="bold">Parry, R.</hi></hi> (2010). <hi rend="italic">Museums
+            in a digital age</hi>, London: Routledge, 2010. 
+            
+            
+            
+          </bibl>
+          <bibl><hi rend="bold"><hi rend="bold">Parry, R.</hi></hi> (2007). <hi rend="italic">Recoding
+            the museum: digital heritage and the technologies of change</hi>, London:
+            Routledge.
+            
+            
+            
+          </bibl>
+          <bibl><hi rend="bold"><hi rend="bold">Ridge, M.</hi></hi><hi rend="italic">Museums and the
+            machine-processable web</hi> http://museumapi.pbworks.com/w/page/21933420/Museum%C2%A0APIs
+            (accessed 21 February 2014)
+            
+            
+            
+          </bibl>
+          <bibl><hi rend="bold"><hi rend="bold">Waterton, E., Smith, L. and Campbell, G.</hi></hi> (2006). The Utility of Discourse Analysis to Heritage
+            Studies: The Burra Charter and Social Inclusion, <hi rend="italic">International Journal of Heritage Studies</hi>, <hi rend="bold"><hi rend="bold">12</hi></hi>:4, pp. 339-355. 10.1080/13527250600727000
+            
+            
+            
+          </bibl>
+          <bibl><hi rend="bold"><hi rend="bold">Wilson, R.J.</hi></hi> (2011). Behind the scenes of the museum website, <hi rend="italic">Museum Management and Curatorship</hi>, <hi rend="bold"><hi rend="bold">26</hi></hi>(4) London, Routledge, pp. 373-389. 10.1080/09647775.2011.603934</bibl>
+          <bibl>
+            1. <ref type="url" target="http://www.cooperhewitt.org/">www.cooperhewitt.org/‎</ref> (accessed 21 February 2014)
+          </bibl>
+          <bibl>
+            2. <ref type="url" target="http://www.rijksmuseum.nl/">www.rijksmuseum.nl/</ref> ‎(accessed 21 February 2014)
+          </bibl>
+          <bibl>
+            3. <ref type="url" target="http://archive.is/LYWKG#selection-839.0-839.34">archive.is/LYWKG#selection-839.0-839.34</ref> (accessed 14 February 2014)
+          </bibl>
+          <bibl>
+            4. <ref type="url" target="http://curatorialpoetry.tumblr.com/">curatorialpoetry.tumblr.com/</ref> (accessed 21 February 2014)
+          </bibl>
+          <bibl>
+            5. <ref type="url" target="http://dataclimber.net/blog/2014/1/19/cooper-hewitts-collection-color-history">dataclimber.net/blog/2014/1/19/cooper-hewitts-collection-color-history</ref> (accessed 21 February 2014)
+          </bibl>
+          <bibl>
+            6. <ref type="url" target="http://weblab.ab-c.nl/rijksmuseum">weblab.ab-c.nl/rijksmuseum</ref> (accessed 21 February 2014)
+          </bibl>
+          <bibl>
+            7. <ref type="url" target="http://hackbattle.thenextweb.com/index.php/Riiksify">hackbattle.thenextweb.com/index.php/Riiksify</ref> (accessed 21 February 2014)
+          </bibl>
+          <bibl>
+            8. <ref type="url" target="http://archive.is/LYWKG#selection-839.0-839.34">archive.is/LYWKG#selection-839.0-839.34</ref> (accessed 14 February 2014)
+          </bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:x="http://www.w3.org/1999/xhtml" xmlns:exsl="http://exslt.org/common" xml:id="Paper-300">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>The Ancient Coins of Thrace: A Numismatic Web Portal</title>
+        <author>
+          <name>
+            <surname>Hanrahan</surname>, <forename>Elise</forename>
+          </name>
+          <affiliation>BBAW, Germany</affiliation>
+          <email>walther@bbaw.de</email>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority/>
+        <publisher>EPFL, Switzerland</publisher>
+        <distributor>
+          <name>EPFL Digital Humanities Laboratory</name>
+          <address>
+            <addrLine>GC D2 386</addrLine>
+            <addrLine>Station 18</addrLine>
+            <addrLine>CH-1015 Lausanne</addrLine>
+            <addrLine>frederic.kaplan@epfl.ch</addrLine>
+          </address>
+        </distributor>
+        <pubPlace>Lausanne, Switzerland</pubPlace>
+        <address>
+          <addrLine>EPFL</addrLine>
+          <addrLine>CH-1015 Lausanne</addrLine>
+        </address>
+        <availability>
+          <p/>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note type="abstract">Thracian coins, found in museums and private collections throughout the world, can be virtually collected in an online data base that is free and open to the public.</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>No source: created in electronic format.</p>
+        <p>
+          <date when="20140711"/>
+          <time when="09:00:00"/>
+        </p>
+		<p n="session">6</p>
+		<p n="room">415 - Amphimax</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="original" n="category">
+          <term>Paper</term>
+        </keywords>
+        <keywords scheme="original" n="subcategory">
+          <term>Short Paper</term>
+        </keywords>
+        <keywords scheme="original" n="keywords">
+          <term>data base</term>
+          <term>web portal</term>
+          <term></term>
+        </keywords>
+        <keywords scheme="original" n="topic"/>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text type="paper">
+    <front>
+      <div>
+        <p></p>
+      </div>
+    </front>
+    <body>
+		<div>
+			<head>Project Summary</head>
+			<p>In the field of numismatics there have been many attempts to create overarching reference works for ancient Greek and Roman coins, with different degrees of success. Challenges include the sheer amount of coins to be documented and the difficulty of accessing them, being spread throughout the world. A virtual collection however opens up new possibilities and promises to come closer to this aim through collaboration and linked data.   </p>
+			<p>The Ancient Coins of Thrace concentrates on coins originating from a specific ancient region (Thrace—today's Bulgaria, northern Greece, and European Turkey) digitally collected from around the world. A web portal of this character is quite unique within the numismatic community. The project hopes to provide a method which others can emulate, perhaps leading to a group of online resources which together accomplish that which a printed edition could not. Funding comes from a three year DFG (Deutsche Forschungsgemeinschaft) grant. The project is located at the BBAW (the Berlin Brandenburg Academy of Sciences and Humanities) and is currently starting its second year. Its main partner is the Bode Museum Coin Cabinet, part of the Berlin State Museums.</p>
+			<p>The project has two goals. The first is the virtual collection itself: a web portal where ancient Thracian coins can be found. This is accomplished in three ways.</p>
+			<list type="unordered">
+			  <item>The BBAW: The academy has its own extensive collection-- numbering almost 33,000 plaster casts of about 16,500 Thracian coins. The coin data is being entered into the project data base along with scans of the plaster casts.</item>
+			  <item>Cooperation with museums and institutions: The project's first and main partner is the Bode Museum Coin Cabinet. They are providing data and photos from about 4,000 Thracian coins. Other museums and institutions have expressed themselves as ready partners, such as the ANS (American Numismatic Society).</item>
+			  <item>Individual entry: This is one of the project's more special features. Users will be able to register on the web portal and enter their own Thracian coins. This is especially for smaller museums that do not yet have data bases or for private collectors. Smaller museums would then have an online presentation of their Thracian coin collection.</item>
+			</list>
+			<p>The second goal is research-oriented: it involves the typification of Thracian designs (the pictures on coins) and legends (the texts on coins), together creating the 'type' of a coin. Through standardized design descriptions and legends, the identification of dies<ref target="n2" rend="sup">2</ref>
+is greatly furthered. All coins found in the portal will thus be linked to these standardized descriptions, and as a result dies can be identified and given a fixed number. This is an essential step for numismatic research.<ref target="n3" rend="sup">3</ref></p>
+		</div>
+		<div>
+			<head>What challenges arise from such an undertaking?</head>
+			<p><hi rend="bold">Digital standards</hi>: One important focus of the project is implementing and promoting numismatic digital standards. To this purpose nomisma IDs<ref target="n4" rend="sup">4</ref>
+are used for all relevant fields, and lists are being sent to nomisma for new IDs for those which do not yet exist. The nomisma data base standards (NUDS) were also used wherever possible. Such standards are essential for data exchange but will only become truly useful when implemented by other institutions. The Bode Museum Coin Cabinet is participating by entering nomisma IDs for Thracian coins. The ANS, being the main partner of nomisma, have nomisma IDs for their coin data as well. It is hoped through example to encourage the use of these standards in other numismatic data bases. </p>
+			<p><hi rend="bold">Import and web interfaces</hi>: the original concept for the portal was to import coin data from other institutions into its  own data base. This is currently the method in process for the ca. 4,000 coins from the Bode Museum Coin Cabinet. The Bode Museum is however a very involved partner, working actively and closely for a successful import. One could raise the question if perhaps web interfaces—something like windows into different Thracian coin collections—might not be a more practical solution for other institutions. It must not be forgotten, however, that all coin data must still be linked to its standardized description. Such questions are still being discussed. </p>
+			<p><hi rend="bold">Individual entry</hi>: This rather special feature of the web portal brings its own difficulties. Accessing collections which are not yet in data bases and involving these members of the numismatic community is essential to the project. Holding very high standards for coin data (both in terms of the numismatic research and digital standards) is however equally important. A very strict entry mask could alleviate difficulties but does not offer a final solution. It remains to be seen how much reworking the individually entered coins will require. </p>
+			<p><hi rend="bold">Data model</hi>:  The data model is complex and its conception took time. Yet the even greater challenge was translating numismatic research goals into the language of data modeling. In other words—as an initial step before creating the data model—the challenge of understanding the aims of the research, the relationships between numismatic concepts, and how the research process itself would enfold.</p>
+		</div>
+		<div>
+			<head>Conclusion</head>
+			<p>The Ancient Coins of Thrace strives to create a web portal that offers easy access to Thracian coins, that provides a typification of design and legend, and that furthers numismatic digital standards. It hopes to be of use to museums, private collectors, students and researchers. Because many aspects of the project are relatively new for the field of numismatics (such as a regional based web portal, individual coin entry, and linked data with nomisma IDs), it is certain that these efforts could be improved with time and experience. At the conference we wish to share our progress and developments thus far, receive feedback, and exchange ideas with other projects.</p>
+        </div>
+    </body>
+    <back>
+      <div type="References">
+        <listBibl>
+          <bibl>
+            1. See Robert Bracey's article 'Online Numismatic Databases – A Review' (2012) for a good overview of what's currently out there: <ref type="url" target="http://www.academia.edu/2335397/Online_Numismatic_Databases_-_A_Review">www.academia.edu/2335397/Online_Numismatic_Databases_-_A_Review</ref>
+          </bibl>
+          <bibl>
+            2. 'Metal piece engraved with the design used for stamping the coin.' <ref type="url" target="http://en.wikipedia.org/wiki/Glossary_of_numismatics">en.wikipedia.org/wiki/Glossary_of_numismatics</ref>
+          </bibl>
+          <bibl>
+            3. 'Research needs the die, not the exemplar' (Die Wissenschaft braucht den Stempel, nicht das Exemplar) wrote Mommsen in an expertise „über den wissenschaftlichen Werth … einer Gesammtpublikation der antiken Münzen“ 1887. Cited by H.-M. Kaenel, Schweizer Münzblätter 2004, here p. 85, see also idem., Theodor Mommsen. Zur wissenschaftlichen Edition antiker Münzen. Gutachten aus dem Jahre 1886, SNR 81, 2002, 7–20, here p. 9.
+          </bibl>
+          <bibl>
+            4. 'Nomisma.org is a collaborative project to provide stable digital representations of numismatic concepts according to the principles of Linked Open Data. These take the form of http URIs that also provide access to reusable information about those concepts, along with links to other resources.' <ref type="url" target="http://nomisma.org/">nomisma.org/</ref>
+          </bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

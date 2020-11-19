@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:x="http://www.w3.org/1999/xhtml" xmlns:exsl="http://exslt.org/common" xml:id="Paper-644">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>The Problem of Time and Space: The Difficulties in Visualising Spatiotemporal Change in Historical Data</title>
+				<author>
+					<name>
+						<surname>Ó Murchú</surname>, <forename>Tomás</forename>
+					</name>
+					<affiliation>Trinity College Dublin</affiliation>
+					<email>tomas808@gmail.com</email>
+				</author>
+				<author>
+					<name>
+						<surname>Lawless</surname>, <forename>Séamus</forename>
+					</name>
+					<affiliation>Trinity College Dublin</affiliation>
+					<email>seamus.lawless@scss.tcd.ie</email>
+				</author>
+			</titleStmt>
+			<publicationStmt>
+				<authority/>
+				<publisher>EPFL, Switzerland</publisher>
+				<distributor>
+					<name>EPFL Digital Humanities Laboratory</name>
+					<address>
+						<addrLine>GC D2 386</addrLine>
+						<addrLine>Station 18</addrLine>
+						<addrLine>CH-1015 Lausanne</addrLine>
+						<addrLine>frederic.kaplan@epfl.ch</addrLine>
+					</address>
+				</distributor>
+				<pubPlace>Lausanne, Switzerland</pubPlace>
+				<address>
+					<addrLine>EPFL</addrLine>
+					<addrLine>CH-1015 Lausanne</addrLine>
+				</address>
+				<availability>
+					<p></p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note type="abstract">This paper will investigate the problems associated with traditional spatiotemporal visualisations of historical data. It will examine our own comprehension of time and space and how understanding their vagueness, ambiguities and uncertainties are important when it comes to visualising and modelling changes in their components. Using data from the 1641 Depositions (testimonies documenting the experiences of witnesses of the 1641 Irish rebellion), a spatiotemporal visualisation is created to illustrate the difficulties in using historical information for this process.</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>No source: created in electronic format.</p>
+				<p>
+				  <date when="20140710"/>
+				  <time when="11:00:00"/>
+				</p>
+				<p n="session">5</p>
+				<p n="room">315.1 - Amphipôle</p>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<keywords scheme="original" n="category">
+					<term>Paper</term>
+				</keywords>
+				<keywords scheme="original" n="subcategory">
+					<term>Long Paper</term>
+				</keywords>
+				<keywords scheme="original" n="keywords">
+					<term>History</term>
+					<term>Visualisation</term>
+					<term></term>
+				</keywords>
+				<keywords scheme="original" n="topic">
+					<term>historical studies</term>
+					<term></term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text type="paper">
+		<front>
+			<div>
+				<p></p>
+			</div>
+		</front>
+		<body>
+			<div>
+				<head>The Problem of Time and Space: The Difficulties in Visualising Spatiotemporal Change in Historical Data</head>
+				<p><hi rend="bold">Proposal for Digital Humanities 2014 Conference</hi></p>
+				<p>1 November 2013</p><p> </p>
+				<p>Tomás Ó Murchú, MPhil Digital Humanities, Trinity College Dublin, Ireland</p>
+				<p>Professor Séamus Lawless, Trinity College Dublin, Ireland</p><p> </p>
+				<p>Visualisations take advantage of the fact that the human eye has the ability to identify patterns and structures in images that computers are yet to match. Visualisations do this by exploiting features of the human cognitive processing system<ref target="n1" rend="sup">1</ref>.
+While much of our communication is done through words, we are connected to our environment primarily through vision. This has resulted in our visual perception having evolved to actively seek meaningful patterns in what we see<ref target="n2" rend="sup">2</ref>.
+Using a digital visualisation system in combination with flexible human cognitive capabilities, such as pattern finding, is far more powerful than an unaided human cognitive process<ref target="n3" rend="sup">3</ref>.
+Visualising historical data in relation to the information’s geographic and temporal attributes can help uncover hidden links and relationships within the data. However traditional spatiotemporal methods for visualising change are often insufficient for providing a spatial and temporal framework within which historical data can be explored. Historians (especially since they normally do not possess the required skillset themselves) have had to live with, or at best modify, existing tools from other disciplines. Because of this they have been channelled down spatiotemporal visualisation routes that are frequently a poor fit for their research. </p>
+				<p>This paper takes murder information that has been extracted from the 1641 Depositions (testimonies documenting the experiences of witnesses of the 1641 Irish rebellion)<ref target="n4" rend="sup">4</ref> as a case study in creating a spatiotemporal visualisation using historical data. An existing online example that uses the data in an interface with Google Maps is taken as a starting point (<ref type="url" target="http://downsurvey.tcd.ie/1641-depositions.php">downsurvey.tcd.ie/1641-depositions.php</ref>). </p>
+				<figure>
+					<graphic url="DH2014_482_Screenshot1"/>
+					<p>Fig. 1: Murder information from the 1641 Depositions</p>
+				</figure>
+				<p>Using the same data from the 1641 Depositions, a spatiotemporal visualisation is created to illustrate the
+					difficulties in using historical information for this process.</p>
+					<figure>
+						<graphic url="DH2014_482_Screenshot2"/>
+						<p>Fig. 2: Spatiotemporal Visualisation for the 1641 Depositions</p>
+					</figure>
+					<p>This paper will investigate the problems associated with traditional spatiotemporal visualisations of historical data. It will examine our own comprehension of time and space and how understanding their vagueness, ambiguities and uncertainties are important when it comes to visualising and modelling changes in their components. </p>
+					<p>Most historical data has a spatiotemporal element to it. This could involve the movement of people over a temporal period within a specific area or the changing area of a political entity over time.  As these changes are normally recorded in written texts, historical spatiotemporal data can often exhibit a high degree of uncertainty. Texts are descriptive and by their very nature are vague and open to various interpretations. This qualitative nature of historical documents means that creating a spatiotemporal visualisation involves overcoming obstacles where descriptions of spatial areas or temporal periods are often vague or uncertain. The problem of ambiguity and uncertainty in data is an issue that visualisations do not deal with particularly well<ref target="n5" rend="sup">5</ref>.  When analysing spatial and temporal data historians need to be conscious of the uncertainties present within the data. Some of these ambiguities may not be immediately apparent and will require detailed analysis to identify.</p>
+					<p>In historical data there are several reasons why uncertainty occurs. Historians often use data that was intended for a different end use than the analysis that they are trying to accomplish. Trying to convert the data into something usable for a spatiotemporal visualisation inevitably leads to a degree of data compromise. The entities, times and spatial areas mentioned in texts were often meant purely as descriptions related to a specific event so are frequently only vaguely defined. Sometimes the historical sources are transcriptions or translations of lost documents and uncertainties may have occurred due to the transcription or translation process. Similarly, as sources may be transcriptions of oral depositions, cultural, educational and linguistic differences between the transcriber and deponent may cause misinterpretations.</p>
+					<p>How spatiotemporal data is modelled for spatiotemporal visualisations is an important factor when dealing with historical information. Data models are the conceptual core of an information system. Models should be designed to deal with uncertainties and to create meaningful visualisations of changes over time. Modelling the data includes defining data object types, relationships, operations and rules to maintain database integrity<ref target="n6" rend="sup">6</ref>.
+The data model needs to support the processes that the system will be required to carry out. When modelling spatiotemporal data, a further consideration is the fact that territorial structures and units change over time. The issue of situating (and thus visualising) the data within the correct spatial area at the correct moment in time needs to be effectively managed by the data model.</p>
+					<p>For historians trying to visualise spatiotemporal information, a data model needs to be able cope with uncertainty and changes over time. Additionally trying to create links between vague concepts in a visualisation is fraught with uncertainty. The data structure supporting the visualisation can be too rigid to show anything other than a few select relationships. One method to try and reduce and manage uncertainty in modelling historical data is to use what is known as fuzzy logic and fuzzy set theory. The aim of fuzzy logic is to provide a means to cope with ambiguous entities without losing a record of the ambiguity<ref target="n7" rend="sup">7</ref>.
+ This is achieved by using assessment rules that the researcher pre-defines and makes transparent so that they can be easily understood and evaluated by other researchers. Fuzzy logic and fuzzy set theory can be used for linguistic variables thus making it suitable for the modelling of textual sources. If used properly it can handle vague and uncertain linguistic labels such as ‘slightly’, ‘close to’ or ‘very’ (as in ‘is very old’). These linguistic variables are present everywhere in written and spoken communication but computers have difficulty in recognizing their correct application.</p>
+					<p>Modelling qualitative spatiotemporal information provides many challenges. The computational nature of traditional visualisation systems mean that information needs to be categorised into set groups. Historians often resist such demands as they feel that some vital characteristics or attribute inherent in the language describing it will be lost when they do not fit precisely a particular category<ref target="n8" rend="sup">8</ref>.
+The context in which an entity is described can be as important as the attributes of the entity itself. A death in a source text may be described as a murder by one witness, an accident by another or an act of self-defence by another. Trying to categorise it or by assigning it neutral label such as ‘unnatural death’ robs the entity of all meaning in a historical context. Extracting data from historical textual sources by computational means is likely to miss out on much key contextual data. Domain experts understand that there is meaning present in descriptions that can defy conventional numerical and computational approaches.</p>
+					<p>Overcoming uncertainties and vagueness in the Deposition texts proved challenging for existing spatiotemporal visualisation tools. In a text such as the 1641 Depositions, the multitude of ways dates are represented causes huge difficulties in linking particular events to the date they occurred. Phrases such as ‘at the beginning of lent of that year’ and ‘two months hence’ abound.  Representing all these different time periods on the same visualisation is very difficult. There may also be overlaps between the periods of time with one text identifying a particular event on a particular day while another text in the canon identifying the exact same event but it occurring somewhere in the period of a month. Similarly, identifying places in the Depositions is also problematic with many places referred to in uncertain terms. General terms such as ‘near’, ‘close to’ or ‘in the region of’ are used extensively in the texts. Anglicizations of Gaelic place names in the Depositions are inconsistent and often do not correlate to modern spellings.</p>
+					<p>Finally, future work on how Linked Data and the Semantic Web may have the ability to help historians to overcome spatiotemporal visualisation limitations is considered. The paper concludes that new tools and data models are required to effectively visualise spatiotemporal historical information.</p>
+				</div>
+			</body>
+			<back>
+				<div type="References">
+					<listBibl>
+						<bibl>1. <hi rend="bold">Keller, Tanja, and Sigmar-Olaf Tergan</hi> (2005). <hi rend="italic">Visualizing knowledge and information: An introduction.</hi> Knowledge and information visualisation p. 5.
+						</bibl>
+						<bibl>2. <hi rend="bold">Nöllenburg, Martin.</hi> (2007) <hi rend="italic">Geographic visualization</hi>. Human-Centered Visualization Environments p. 257.
+						</bibl>
+						<bibl>3. <hi rend="bold">Keller, Tanja, and Sigmar-Olaf Tergan</hi>. (2005) <hi rend="italic">Visualizing knowledge and information: An introduction.</hi> Knowledge and information visualization p. 5.
+						</bibl>
+						<bibl>4. <hi rend="italic">www.1641.tcd.ie</hi>
+						</bibl>
+						<bibl>5. <hi rend="bold">Amar, Robert A., and John T. Stasko</hi> (2005). <hi rend="italic">Knowledge precepts for design and evaluation of information visualizations.</hi> Visualization and Computer Graphics, IEEE Transactions p. 433.
+						</bibl>
+						<bibl>6. <hi rend="bold">Yuan, May.</hi> (1996) <hi rend="italic">Temporal GIS and spatio-temporal modelling.</hi> Proceedings of Third International Conference Workshop on Integrating GIS and Environment Modelling p.1.
+						</bibl>
+						<bibl>7. <hi rend="bold">Owens, J.B. and Coppola, Emory J.</hi> (2012) <hi rend="italic">Fuzzy Set Theory (or Fuzzy Logic) to Represent the Messy Data of Complex Human (and other) Systems.</hi> White Paper Presented to the US National Science Foundation p.2.
+						</bibl>
+						<bibl>8. <hi rend="bold">Owens, J.B. and Coppola, Emory J.</hi> (2012) <hi rend="italic">Fuzzy Set Theory (or Fuzzy Logic) to Represent the Messy Data of Complex Human (and other) Systems.</hi> White Paper Presented to the US National Science Foundation p.2.
+						</bibl>
+					</listBibl>
+				</div>
+			</back>
+		</text>
+	</TEI>

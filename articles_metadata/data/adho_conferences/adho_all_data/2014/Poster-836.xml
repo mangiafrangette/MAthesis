@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:x="http://www.w3.org/1999/xhtml" xmlns:exsl="http://exslt.org/common" xml:id="Poster-836">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Marked E-Books and Kindle’s popular highlight culture</title>
+        <author>
+          <name>
+            <surname>Rowberry</surname>, <forename>Simon</forename>
+          </name>
+          <affiliation>University of Winchester, United Kingdom</affiliation>
+          <email></email>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority/>
+        <publisher>EPFL, Switzerland</publisher>
+        <distributor>
+          <name>EPFL Digital Humanities Laboratory</name>
+          <address>
+            <addrLine>GC D2 386</addrLine>
+            <addrLine>Station 18</addrLine>
+            <addrLine>CH-1015 Lausanne</addrLine>
+            <addrLine>frederic.kaplan@epfl.ch</addrLine>
+          </address>
+        </distributor>
+        <pubPlace>Lausanne, Switzerland</pubPlace>
+        <address>
+          <addrLine>EPFL</addrLine>
+          <addrLine>CH-1015 Lausanne</addrLine>
+        </address>
+        <availability>
+          <p/>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note type="abstract">The current project analyses the evidence of readership available through the public facing popular highlights feature of Amazon's Kindle platform. In order to be considered a popular highlight, the text must be shared by three users. There are over one million quotations that meet this basic criteria and can be analyzed in similar ways to evidence of marginalia and provenance in book historical research. The present research analyses the popular highlights as a measure of various genre's popularity as well as observing usage patterns of the highlighting and sharing features.</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>No source: created in electronic format.</p>
+		<p>
+		  <date when="20140710"/>
+		  <time when="14:00:00"/>
+		</p>
+		<p n="session">1</p>
+		<p n="room">Amphipôle Common Area</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="original" n="category">
+          <term>Poster</term>
+        </keywords>
+        <keywords scheme="original" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="original" n="keywords">
+          <term>E-books</term>
+          <term>provenance</term>
+          <term>book history</term>
+          <term></term>
+        </keywords>
+        <keywords scheme="original" n="topic">
+          <term>publishing and delivery systems</term>
+          <term>user studies / user needs</term>
+          <term>bibliographic methods / textual studies</term>
+          <term>social media</term>
+          <term></term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text type="poster">
+    <front>
+      <div>
+        <p></p>
+      </div>
+    </front>
+    <body>
+      <div>
+        <p>The current project analyses the evidence of readership available through the public facing popular highlights feature of Amazon's Kindle platform. In order to be considered a popular highlight, the text must be shared by three users. There are over one million quotations that meet this basic criteria and can be analyzed in similar ways to evidence of marginalia and provenance in book historical research. The present research analyses the popular highlights as a measure of various genre's popularity as well as observing usage patterns of the highlighting and sharing features.</p>
+		<p>The static e-book has become embedded in the public’s imagination as an exemplar of the future of reading on the screen. The Kindle is one of the forerunners in the commercial e-book marketplace, encompassing a range of both software and hardware platforms and offering millions of titles. While others have begun to explore the impact of e-book culture, (Galey 2012; Lang 2012; Wu 2013; Thomas &amp; Round 2013), the current project focuses on the traces readers leave directly on their Kindles. Amazon offer tools to share annotations and highlights of their eBooks to replicate print marginalia. The data for popular highlights is shared on a public-facing webpage (Amazon.com, Inc. 2013) that can be collected for analysis. This research offers an approach to the empirical study of reception on a previously unprecedented scale and offers an insight into what users find interesting about the material they are reading.</p>
+		<p>The data was collected using wget on the Kindle Popular Highlights website, as Amazon.com does not currently offer an API for the dataset. The project focused on the Popular Highlights feature and the metadata pertaining to the book title, author, quotation and number of highlights. While this does not provide evidence of individual readers, it can be used to analyse patterns of readership and marginalia. An initial foray produced the first 100,000 popular highlights (out of a dataset of over 1,000,000 highlights) that were produced by over 8 million shared highlights. Unfortunately this method left many artefacts when converting certain characters, so the data was cleaned and organized.</p>
+		<p>The initial results revealed some interesting patterns. The most highlighted books were primarily Young Adult (YA) fiction, literary classics, pop science and self-help. Individual passages can be highlighted more than 1,000 times, with a quotation from Catching Fire (The Second Book of the Hunger Games) received over 17,000 highlights. Each genre’s annotations often fit into roughly categorized groups: literary classics and pop science produce pithy aphorisms; self-help books are quoted for their instructions; and YA generally highlighted “spoilers” and dialogue that is central to the novel’s plot. Over 90% of the quotations are under 350 characters, although occasionally readers will highlight a whole page. Since one of the core features of the popular highlight function is the ability to re-use the quotations as tweets, brevity of quotation length is expected and confirmed as 42% of the highlights are tweetable. As the number of highlights fall, the books’ genres tend to become more esoteric and the highlights become fuzzier. Some of these bear the marks of experimenting with the feature or more playful purposes, such as “THE” in the New Oxford American Dictionary receiving 73 highlights.</p>
+		<p>The analysis comes with a few caveats: (1) the Kindle is only one eBook provider and is not representative of digital reading; (2) it is unknown to what degree this data is representative of reading on the Kindle in general; (3) the data does not currently include 90% of the data; and (4) without a finer breakdown of the users’ demographics, the data can only tell us so much about what the readers are attempting to do through highlighting. Nonetheless, the Kindle Popular Highlights dataset offers a snapshot into the possible ways in which book historical research can be conducted in the early twenty-first century.  </p>
+      </div>
+    </body>
+    <back>
+      <div type="References">
+        <listBibl>
+			<bibl><hi rend="bold">Amazon.com, Inc.</hi>, 2013. <hi rend="italic">Most Highlighted Passages of All Time</hi>. Available at: https://kindle.amazon.com/most_popular/highlights_all_time/.</bibl>
+			<bibl><hi rend="bold">Galey, A.</hi>, 2012. <hi rend="italic">The Enkindling Reciter: E-Books in the Bibliographical Imagination</hi>. Book History, 15(1), pp.210–247.</bibl>
+			<bibl><hi rend="bold">Lang, A. ed.</hi>, 2012. <hi rend="italic">From Codex to Hypertext: Reading at the Turn of the Twenty-First Century</hi>, Amherst and Boston: University of Massachusetts Press.</bibl>
+			<bibl><hi rend="bold">Thomas, B. &amp; Round, J.</hi>, 2013. <hi rend="italic">Digital Reading Network</hi>. Available at: http://www.digitalreadingnetwork.com/ [Accessed October 27, 2013].</bibl>
+			<bibl><hi rend="bold">Wu, Y.-H.</hi>, 2013. <hi rend="italic">Kindling, Disappearing, Reading. , 7(1)</hi>. Available at: http://www.digitalhumanities.org/dhq/vol/7/1/000115/000115.html [Accessed October 27, 2013]. </bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

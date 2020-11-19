@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="../schema/xmod_web.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xmt="http://www.cch.kcl.ac.uk/xmod/tei/1.0" 
+     xml:id="ab-215">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Underspecified, Ambiguous or Formal. Problems in Creating Maps Based on Texts</title>
+                <author>
+                    <name>Eide, Øyvind</name>
+                    <affiliation>University of Oslo, Unit for Digital Documentation, Norway</affiliation>
+                    <email>oyvind.eide@edd.uio.no</email>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Jan Christoph Meister, Universität Hamburg</publisher>
+                <address>
+                   <addrLine>Von-Melle-Park 6, 20146 Hamburg, Tel. +4940 428 38 2972</addrLine>
+                   <addrLine>www.dh2012.uni-hamburg.de</addrLine>
+              </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>No source: created in electronic format.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2012-04-15</date>
+                <name>DH</name>
+                <desc>generate TEI-template with data from ConfTool-Export</desc>
+            </change>
+            <change>
+                <date>2012-04-13</date>
+                <name>LS</name>
+                <desc>provide metadata for publicationStmt</desc>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="paper">
+        <body>
+            <div>
+                <head>Introduction</head>
+                <p>How can a reading of a textual description of a landscape be expressed as a map?
+                    Maps form a medium different from verbal texts, and the differences have
+                    consequences not only for <hi rend="italic">how</hi> things are said, but also
+                    for <hi rend="italic">what</hi> can be said at all using maps. Where are these
+                    limitations to be found? </p>
+                <p>In this abstract, I will discuss the relationship between verbal and map based
+                    geographical communication. I have created a model of the geographical
+                    information read from a source text, then tried to express the contents of the
+                    model as maps. I will show that types of geographical information exist that can
+                    be stored in and read from verbal texts, but which are impossible to express as
+                    geographical maps without significant loss of meaning.</p>
+            </div>
+            <div>
+                <head> Object of study </head>
+                <p>I used a set of Scandinavian border protocols from the eighteenth century
+                    (Schnitler 1962) as source material for this research. The text is based on
+                    interrogations about geography with more than 100 different persons, of whom
+                    many presumably did not use maps very much if at all. It was created in a
+                    society, or a set of societies, on the brink of the transformation from oral to
+                    written cultures, where some were firmly placed within the written culture,
+                    while others had only been exposed to the activity of reading texts for a few
+                    decades. The voices in the text represent persons coming from different ethnic
+                    and professional backgrounds, e.g., Sami reindeer herders, Norwegian farmers,
+                    and Danish military officers, thus bringing a set of different perspectives into
+                    the geographical conversation.</p></div>
+                <div>
+                    <head> Method </head>
+                <p>Modelling is to create and manipulate models in order to learn from the
+                    experiences we gain through the process. Models are in this context
+                    representations of something which is created for the purpose of studying what
+                    is modelled more closely (McCarty 2005: 24). In the work reported on here, a
+                    computer based model was constructed based on the source text. Through
+                    experiments on this model, new knowledge about the text was gained. The creation
+                    of the model itself also led to problems giving new insights, so it was part of
+                    the series of experiments. The same can be said of the development and tailoring
+                    of the software used.</p>
+                <p>The whole experiment was performed in a qualitative manner. Occurrences in the
+                    text were not counted and compared, they were rather evaluated as individual
+                    cases, in accordance with traditional humanities research where seeking local
+                    knowledge about specific cases is the main activity (Galey 2010: 95-100).</p>
+                <p>The point of a modelling exercise lies in the process, not in the model as a
+                    product. Modelling mediates epistemologically between modeller and the modelled,
+                    that is, between the researcher and the data. The model was built through a
+                    combination between computer based tools and a thorough close reading in which
+                    all geographic information I was able to extract from the text was included. The
+                    model was stored as a set of connected facts in a computer application I
+                    developed in Java for this research.</p>
+                <p>In the application the results of the close readings are stored as triplets in a
+                    fact database. Then the ‘raw’ triplets go through several steps of
+                    interpretation, leading to more and more formal structures. These steps
+                    eventually result in the standard format RDF<note>Resource Description Framework:
+                        <ref target="http://www.w3.org/RDF/" type="external">http://www.w3.org/RDF/</ref> (checked 2011-10-31)</note>, then
+                    further interpretation leads to geographical vector data in a simplified version
+                    of the GML format<note>Geography Markup Language:
+                        <ref target="http://www.opengeospatial.org/standards/gml/" type="external">http://www.opengeospatial.org/standards/gml/</ref> (checked 2011-10-31)</note> which can be imported to GIS
+                    software to be viewed as maps. </p>
+                <p>The modelling process thus involves several steps, each formalising the data in a
+                    stricter sense. For each step, what ‘falls off,’ what is difficult to avoid
+                    loosing, is the interesting part. This ‘falling off’ will include things that
+                    cannot survive a transfer from one system to another, which misses the added
+                    level of formality. Through this process I attempted to translate geographical
+                    information from one medium to the other. The ‘fall-offs’ show us what was lost
+                    in the process; this was not always because of differences between the media,
+                    but candidates for further examination were found in the ‘fall-offs’. Examples
+                    from this modelling work will be shown in the paper, including some situations
+                    where ‘fall-off’ occurs.</p>
+                <p>As the goal is to understand how texts express geographical information, I made
+                    an effort to base the maps on what I read from the text only. While it is
+                    impossible to exclude all context information, I tried hard to exclude any local
+                    context based on geographical knowledge of the area. This makes the process
+                    different from mapping place name information in literary texts, as done by e.g.
+                    Smith and Crane (2001). The latter process includes adding a significant amount
+                    of contextual knowledge to the process through what is learned from the
+                    pre-existing map. </p></div>
+                    <div><head>Main results</head>
+                <p>The issues faced in the modelling experiments led to the development of the
+                    following typology of textual expressions:</p>
+                <p>1.  <hi rend="bold">Under-specified texts.</hi>
+                    <hi rend="italic">Based on such a text, more than one map can be drawn, and at
+                        least two of these maps are significantly different.</hi>
+                </p>
+                <p>This situation occurs when the geographical information in a text can be
+                    expressed as more than one significantly different map. This happens when
+                    directions such as ‘east’ or measurements such as ‘1-2 miles’ are used: given
+                    lack of other evidence in the text, a number of different geometrical
+                    interpretations of the statements are possible.</p>
+                <p>2.  <hi rend="bold">Fully specified textual descriptions.</hi><hi rend="italic">
+                        Only one map can be drawn based on the description. If the text mentions
+                        something, it is fully specified geometrically.</hi></p>
+                <p>Texts in formal languages, such as GML, are typical cases. I have not found
+                    examples of this type in natural language texts. </p>
+                <p>3.  <hi rend="bold">Ambiguity and negation.</hi>
+                    <hi rend="italic">The text includes expressions in the forms ‘A or B is located
+                        at C’ (ambiguity) or ‘There are no A’s in B’ (negation).</hi></p>
+                <p>The spatial information read from the text cannot be represented as one single
+                    map; one will need two or more maps, a dynamic map or a map with its geometry
+                    corrected by a textual description.</p>
+                <p>The choice of the words ‘significantly different’ as opposed to merely
+                    ‘different’ in the description of type 1 is necessary and highlights how the
+                    border to type 2 is fuzzy. Two maps can always be made which are slightly
+                    different, but which will occur as similar to the reader. Small adjustments in
+                    location are routinely made in cartographical work in order to improve the
+                    readability of maps. The choice of symbols can also change without its leading
+                    to significantly different maps. Any text, also of type 2, could be represented
+                    by two slightly different maps.</p>
+                <p>In the case of Schnitler, type 1 situations are abundant, we see a handful of
+                    type 3, and none of type 2. The groups are partly exclusive: 1 and 3 can exist
+                    in the same textual description, but is hard to see how a textual description
+                    can be both 2 and 1 or both 2 and 3.</p></div>
+            <div><head> Discussion </head>
+                <p>The discussion of the relationship between geographical maps and verbal texts
+                    fall into the long tradition of inter-art and intermedia studies. Two important
+                    oppositions established by Lessing (1893) can be summarised this way:</p>
+                <p>1.  Actions in time should be applied in poetry, and bodies in space in painting. </p>
+                <p>2.  What is hidden is not seen in painting, while things hidden can still be seen
+                    in poetry. </p>
+                <p>Whereas Lessing’s dichotomy between poetry and painting has been questioned,
+                    e.g., by Frank (1963) and Mitchell (1980) in connection to their discussions of
+                    spatial form in literature, it has never been eliminated. A recent way of
+                    formalising such distinctions is the model of Elleström (2010). Instead of
+                    starting from a set of different media or art forms, he takes a bottom-up
+                    approach, starting from a set of media modalities. His set includes four,
+                    namely, the material, sensorial, spatiotemporal and semiotic modalities. The
+                    differences between texts and maps fall mainly in the latter two categories.</p>
+                <p>The two problem areas found in the modelling of Schnitler, <hi rend="italic"
+                        >under-specified texts</hi> and <hi rend="italic">ambiguity and
+                        negation</hi>, are both connected to Lessing’s thinking. When ‘east’ in a
+                    text can mean a number of different things, potentially covering half of the
+                    possible directions from a place, the direction between two features on a map is
+                    measurable, with only a limited inaccuracy. Space is expressed differently in
+                    the two media. And when disjunction is hard to put on a map, it is also
+                    connected to the fact that the sign systems used to refer to the external
+                    reality are different. This will be discussed in light of Lessing’s opposition
+                    and Elleström’s system in the paper. Some comments will also be made as to how
+                    this links to narratology.</p></div>
+             
+                
+            
+        </body>
+        <back>
+            <div>
+                
+                    <head>References</head>
+                <p><hi rend="bold">Elleström, L</hi>. (2010). The Modalities of Media: A Model for
+                    Understanding Intermedial Relations. In L. Elleström (ed.), <hi rend="italic"
+                        >Media borders, multimodality and intermediality</hi>. Basingstoke: Palgrave
+                    McMillan, pp. 11-48.</p>
+                <p><hi rend="bold">Frank, J.</hi> (1963). Spatial Form in Modern Literature. In <hi
+                        rend="italic">The widening gyre: crisis and mastery in modern
+                        literature</hi>. (First published: 1945). New Brunswick, N.J.: Rutgers UP,
+                    pp. 3-62</p>
+                <p><hi rend="bold">Galey, A.</hi> (2010). The Human Presence in Digital Artefacts.
+                    In W. McCarty (ed.), <hi rend="italic">Text and Genre in Reconstruction: Effects
+                        of Digitalization on Ideas, Behaviours, Products and Institutions</hi>. Open
+                    Book Publishers, pp. 93-117.</p>
+                <p><hi rend="bold">Lessing, G. E.</hi> (1893). Laokoon: oder über die Grenzen der
+                    Mahlerey und Poesie. Erster Theil. In K. Lachmann and F. Muncker (eds.), <hi
+                        rend="italic">Gotthold Ephraim Lessings sämtliche Schriften. Neunter
+                        Band</hi> (3., aufs neue durchges. und verm. Aufl.). Stuttgart: Göschen.
+                    Photographic reprint. Berlin : de Gruyter 1968, pp. 1-177. First published:
+                    1766. </p>
+                <p><hi rend="bold">McCarty, W.</hi> (2005). <hi rend="italic">Humanities
+                        computing</hi>. Basingstoke: Palgrave Macmillan.</p>
+                <p><hi rend="bold">Mitchell, W. J. T.</hi> (1980). Spatial Form in Literature:
+                    Toward a General Theory. <hi rend="italic">Critical Inquiry</hi> 6 (3):
+                    539-567.</p>
+                <p><hi rend="bold">Schnitler, P.</hi> (1962). <hi rend="italic">Major Peter
+                        Schnitlers grenseeksaminasjonsprotokoller 1742 - 1745</hi>, Volume 1. Oslo:
+                    Norsk historisk kjeldeskrift-institutt.</p>
+                <p><hi rend="bold">Smith, D. A., and G. Crane</hi> (2001). Disambiguating Geographic
+                    Names in a Historical Digital Library. In <hi rend="italic">Research and
+                        Advanced Technology for Digital Libraries: 5th European conference, ECDL
+                        2001</hi>. Darmstadt: Springer, pp. 127-136.</p>
+            </div>
+        </back>
+    </text>
+</TEI>

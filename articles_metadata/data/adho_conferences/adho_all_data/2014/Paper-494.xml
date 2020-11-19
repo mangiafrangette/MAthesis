@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:x="http://www.w3.org/1999/xhtml" xmlns:exsl="http://exslt.org/common" xml:id="Paper-494">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Making Digital Humanities Work</title>
+        <author>
+          <name>
+            <surname>Munoz</surname>, <forename>Trevor</forename>
+          </name>
+          <affiliation>University of Maryland</affiliation>
+          <email>trevor.munoz@gmail.com</email>
+        </author>
+        <author>
+          <name>
+            <surname>Guiliano</surname>, <forename>Jennifer</forename>
+          </name>
+          <affiliation>University of Maryland</affiliation>
+          <email>jenguiliano@gmail.com</email>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority/>
+        <publisher>EPFL, Switzerland</publisher>
+        <distributor>
+          <name>EPFL Digital Humanities Laboratory</name>
+          <address>
+            <addrLine>GC D2 386</addrLine>
+            <addrLine>Station 18</addrLine>
+            <addrLine>CH-1015 Lausanne</addrLine>
+            <addrLine>frederic.kaplan@epfl.ch</addrLine>
+          </address>
+        </distributor>
+        <pubPlace>Lausanne, Switzerland</pubPlace>
+        <address>
+          <addrLine>EPFL</addrLine>
+          <addrLine>CH-1015 Lausanne</addrLine>
+        </address>
+        <availability>
+          <p/>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note type="abstract">To save Alan Liu's question of “Where is cultural criticism in the digital humanities?” from tendentiousness requires a richer, more precise account of the digital humanities as a set of material practices. To plan and enact a genuine partnership between the digital humanities and  (what Liu terms) “the mainstream humanities” requires intervening in these material practices through new ways of organizing and managing digital humanities work. We will discuss challenges that have arisen from a model of organizing work around “fellowships” (a structure inherited and adapted from the “mainstream humanities”) and we will highlight the creation and formulation of an alternative model, the Digital Humanities Incubator, that prizes long-term enrichment by all actors involved in the production of digital humanities work.</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>No source: created in electronic format.</p>
+        <p>
+          <date when="20140711"/>
+          <time when="14:00:00"/>
+        </p>
+		<p n="session">8</p>
+		<p n="room">412 - Amphimax</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="original" n="category">
+          <term>Paper</term>
+        </keywords>
+        <keywords scheme="original" n="subcategory">
+          <term>Long Paper</term>
+        </keywords>
+        <keywords scheme="original" n="keywords">
+          <term>collaboration</term>
+          <term>alt-ac</term>
+          <term>project design</term>
+          <term>institutional structures</term>
+          <term></term>
+        </keywords>
+        <keywords scheme="original" n="topic">
+          <term>digital humanities - institutional support</term>
+          <term>digital humanities - nature and significance</term>
+          <term>history of humanities computing/Digital Humanities</term>
+          <term></term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text type="paper">
+    <front>
+      
+      <div>
+        <p></p>
+        <p></p>
+      </div>
+    </front>
+    <body>
+      <div>
+        
+        <head>Abstract</head>
+        <p>In the many conversations touched off by Alan Liu’s question, “Where is cultural criticism in the digital humanities?”, there has been little attention paid to the first term of that question: <hi rend="italic">where</hi>? Treating this term abstractly has robbed many of the resulting discussions of the relationship between the digital humanities and (what Liu terms) “the mainstream humanities” of their usefulness. We argue that focusing precisely on the where of the digital humanities, that is on sets of material practices employed at a specific site during the production of digital humanities work opens stale questions to new analytical approaches and, much better, to new avenues of intervention. </p>
+        <head>Liu's Description of Digital Humanities as Caricature</head>
+        <p>Most responses to Liu’s question have pursued answers in terms of disciplinary identity and its accompanying political and organizational boundaries (intellectual history honed to an instrumentalist point) <ref target="n1" rend="sup">1</ref>. In the version of his essay on this question published in the Debates in the Digital Humanities volume, Liu himself focuses on the production and consumption of “the digital humanities” in terms of what he calls "the great postindustrial, neoliberal, corporate, and global flows of information-cum-capital"<ref target="n2" rend="sup">2</ref>. This commitment to examining the digital humanities from a world system view does much to explain, if not excuse, the caricature of digital humanities work that follows: “It is as if, when the order comes down from the funding agencies, university administrations, and other bodies … digital humanists just concentrate on pushing the “execute” button….” From previous work such as The Laws of Cool <ref target="n3" rend="sup">3</ref> through “Where is Cultural Criticism in the Digital Humanities?” and forward into essays such as “The Meaning of the Digital Humanities” <ref target="n4" rend="sup">4</ref>, Liu’s critical work has been intermixed with advocacy for a vision of the humanities that emphasizes resistance to an academic culture that is “postindustrial, neoliberal, corporate”, etc. Thus it would seem a willful misreading to understand Liu’s portrayal of digital humanities work in the Debates essay as something other than a continuation of his advocacy for a particular regime within the world system he constructs. Yet, many readers seem to have taken this figuration of digital humanities as descriptive rather than rhetorical.</p>
+        <head>Work Sites as Opportunities for Analysis</head>
+        <p>Indeed, to save the question of “Where is cultural criticism in the digital humanities?” from tendentiousness requires richer, more detailed accounts of the digital humanities as sets of material work practices <ref target="n5" rend="sup">5</ref>. As Clifford Geertz complained of structuralist accounts in anthropology, “Whatever, or wherever, symbol systems ‘in their own terms’ may be, we gain empirical access to them by inspecting events, not by arranging abstracted entities into unified patterns” <ref target="n6" rend="sup">6</ref>. As a contribution to the debate over the relationship of the digital humanities to the humanities, we offer an account of attending to, and then trying to re-make, specific material practices at a site of digital humanities work. The specific case we will discuss involves challenges that have arisen from a model of organizing work around “fellowships”, a structure inherited and adapted from the “mainstream humanities”. We will narrate the creation and formulation of a model for organizing work practices created in response to perceived structural flaws in the fellowship model. This “anti-fellowship” model, which we have called “The Digital Humanities Incubator” (henceforth, the Incubator) prizes long-term enrichment by the variety of participants engaged in DH work versus short-term gain by project-driven “fellows.” Our discussion of the Incubator then is a critical reflection on the the program and our thought process in revising it from one iteration to the next. The Incubator functions as a work of critical design <ref target="n7" rend="sup">7</ref>; it is one of our tools for thinking through how to make digital humanities work.</p>
+        <p>This example is drawn from the site we are best able to describe in sufficient detail, our own place of work, the Maryland Institute for Technology in the Humanities (MITH), an active digital humanities center in the U.S. Of course "digital humanities" is a purposefully capacious term used to cover many different types of work by many different practitioners <ref target="n8" rend="sup">8</ref>. Furthermore, we acknowledge that there are relatively few centers and therefore relatively few digital humanists who work in them relative to the scale of the global digital humanities field. Yet, as Donna Haraway argues in her essay on situated knowledges, the goal should not be “a doctrine of objectivity that promises transcendence, a story that loses track of its mediations just where someone might be held responsible for something, and unlimited instrumental power"
+<ref target="n9" rend="sup">9</ref>. We certainly do not mean to advance any singular account of digital humanities work practices nor do we make claim to “unlimited instrumental power” for our descriptions. Yet, it is our hope by focusing on the practice of DH labor related to fellowships that we can encourage practitioners to explore the material realities of their own practice.</p>
+        <head>Organizing Work: A Brief History of the Fellowship Model</head>
+        <p>Popularized by the Institute for Advanced Technology in the Humanities (IATH) at the University of Virginia and adapted at MITH and other digital humanities sites (not all officially centers), digital humanities fellowships have served to connect faculty---in established and ostensibly fixed and stable organizational roles--- to newer digital humanities activities. At the same time, these fix these novel, alternative and contingent digital activities to existing structures under the rubric of innovation or enhancement to scholarly activities. Fellowship experiences were most often configured as short-term (1-2 years), focused on the creation of a specific product, tool, project, and reliant divisions of labor between participants with unequal agency and power <ref target="n10" rend="sup">10</ref>. Faculty could be recruited as participants, supporters, and advocates and the digital humanities initiative could demonstrate its effect on the local academic community—as service, if nothing else. For a new endeavor in the fundamentally conservative academy, the adoption of a pre-made structure of organizing labor was politically astute and laid much of the groundwork for the wide success of the field today. Fellows became advocates for the digital humanities and examples of its proliferation into humanities disciplines. Yet it is crucial to remember that this model—leave from the assumed structures and schedules of faculty life, provision of technology, and access to staff with computational or other forms of alternative expertise—is an artifact of a particular historical moment. By historicizing “the fellowship” we mean to disrupt a tendency toward a teleological or developmental view of this type of work organization as a necessary step in the introduction of the digital humanities to a new site. We do not claim that these fellowship arrangements have not produced some excellent digital humanities scholarship. However, based on our experiences working in and managing these activities, we began to feel that the arrangement suffered from flaws not in just its execution in any particular case but structurally overall.</p>
+        <head>What Studying Work Can Do</head>
+        <p>The distinction between individual project successes and structural flaws is important to emphasize because it contains the most crucial lessons to be learned for the digital humanities and humanities enterprise. By shifting focus from particular work products or outputs (where Liu and many of his respondents focus their attention) to the structuring of material conditions at the site of work production, which make certain kinds of digital humanities possible, we engage issues raised by Richard Sennett's notion of "the workshop" as "a productive space in which people deal face-to-face with issues of authority"<ref target="n11" rend="sup">11</ref>. Sennett observes that “the successful workshop will establish legitimate authority in the flesh [in the form of recognized mastery of skill], not in rights or duties set down on paper.” In too many cases, a faculty fellow is not the head of a happy, successful workshop in these terms even if the end product is lauded. Using ethnographic approaches to the study of work, especially as filtered through fields such as science and technology studies (an avenue suggested by Liu himself), perspectives from critical and participatory design <ref target="n12" rend="sup">12</ref> <ref target="n13" rend="sup">13</ref>, feminist theory , and labor studies allows us to unpack the specific material practices of labor in the contemporary digital humanities project-as-work-site/workshop. As careful articulations of the material conditions and practices of a particular site of work intersect with questions of power and authority, the management of digital humanities work can provide productive interventions in questions such as the disciplinary identity of the humanities and, implicitly, their future.</p>
+      </div>
+    </body>
+    <back>
+      <div type="References">
+        <listBibl>
+          <bibl>1. <hi rend="bold">Ramsay, Stephen</hi>. (2013). <hi rend="italic">Why I’m In It.</hi> Stephen Ramsay. https://web.archive.org/web/20131026120131/<ref type="url" target="http://stephenramsay.us/2013/09/12/why_im_in_it/.">stephenramsay.us/2013/09/12/why_im_in_it/.</ref>
+          </bibl>
+          <bibl>2. <hi rend="bold">Liu, Alan</hi>. (2012). <hi rend="italic">Where Is Cultural Criticism in the Digital Humanities.</hi> In Debates in the Digital Humanities, edited by Matthew K. Gold. Minneapolis: University of Minnesota Press.
+          </bibl>
+          <bibl>3. <hi rend="bold">Liu, Alan</hi>. (2004). <hi rend="italic">The Laws of Cool Knowledge Work and the Culture of Information</hi>. Chicago: University of Chicago Press.
+          </bibl>
+          <bibl>4. <hi rend="bold">Liu, Alan</hi>. (2013). <hi rend="italic">The Meaning of the Digital Humanities.</hi> PMLA 128 (2): 409–23.
+          </bibl>
+          <bibl>5. <hi rend="bold">Latour, Bruno, and Steve Woolgar</hi>. (1986). <hi rend="italic">Laboratory Life: The Construction of Scientific Facts</hi>. Princeton, N.J.: Princeton University Press.
+          </bibl>
+          <bibl>6. <hi rend="bold">Geertz, Clifford</hi>. (1973). <hi rend="italic">The Interpretation of Cultures</hi>. [New York (N.Y.)]: Basic Books.
+          </bibl>
+          <bibl>7. <hi rend="bold">Dunne, Anthony, and Fiona Raby</hi>. (2013). <hi rend="italic">Speculative Everything: Design, Fiction, and Social Dreaming</hi>.
+          </bibl>
+          <bibl>8. <hi rend="bold">Kirschenbaum, Matthew G.</hi> (2010). <hi rend="italic">What Is Digital Humanities and What’s It Doing in  English Departments?</hi> ADE Bulletin, no. Number 150: 1–7.
+          </bibl>
+          <bibl>9. <hi rend="bold">Haraway, Donna</hi>. (1988). <hi rend="italic">Situated Knowledges: The Science Question in Feminism and the Privilege of Partial Perspective.</hi> Feminist Studies 14 (3): 575. doi:10.2307/3178066
+          </bibl>
+          <bibl>10. <hi rend="bold">Bradley, John</hi>. (2009). <hi rend="italic">What the Developer Saw: An Outsider’s View of Annotation, Interpretation and Scholarship.</hi> Digital Studies / Le Champ Numérique 1 (1). <ref type="url" target="http://www.digitalstudies.org/ojs/index.php/digital_studies/article/view/143.">www.digitalstudies.org/ojs/index.php/digital_studies/article/view/143.</ref>
+          </bibl>
+          <bibl>11. <hi rend="bold">Sennett, Richard</hi>. (2008). <hi rend="italic">The Craftsman</hi>. New Haven: Yale University Press.
+          </bibl>
+          <bibl>12. <hi rend="bold">Björgvinsson, Erling, Pelle Ehn, and Per-Anders Hillgren</hi>. (2010). <hi rend="italic">Participatory Design and ‘Democratizing Innovation.’</hi> In Proceedings of the 11th Biennial Participatory Design Conference, 41–50. PDC ’10. New York, NY, USA: ACM. doi:10.1145/1900441.1900448. <ref type="url" target="http://doi.acm.org/10.1145/1900441.1900448.">doi.acm.org/10.1145/1900441.1900448.</ref>
+          </bibl>
+          <bibl>13. <hi rend="bold">Dantec, Christopher A. Le, and Carl DiSalvo</hi>. (2013). <hi rend="italic">Infrastructuring and the Formation of Publics in Participatory Design.</hi> Social Studies of Science 43 (2): 241–64. doi:10.1177/0306312712471581.
+          </bibl>
+          <bibl>14. <hi rend="bold">Balsamo, Anne Marie</hi>. (2011). <hi rend="italic">Designing Culture: The Technological Imagination at Work</hi>. Durham [NC]: Duke University Press.
+          </bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

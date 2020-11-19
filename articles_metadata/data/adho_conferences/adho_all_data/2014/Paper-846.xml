@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:x="http://www.w3.org/1999/xhtml" xmlns:exsl="http://exslt.org/common" xml:id="Paper-846">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Quelle médiation numérique pour le patrimoine bâti ?</title>
+				<author>
+					<name>
+						<surname>Hennebert</surname>, <forename>Jérôme</forename>
+					</name>
+					<affiliation>Université de Lille 3, France</affiliation>
+					<email>jerome.hennebert@hotmail.fr </email>
+				</author>
+			</titleStmt>
+			<publicationStmt>
+				<authority/>
+				<publisher>EPFL, Switzerland</publisher>
+				<distributor>
+					<name>EPFL Digital Humanities Laboratory</name>
+					<address>
+						<addrLine>GC D2 386</addrLine>
+						<addrLine>Station 18</addrLine>
+						<addrLine>CH-1015 Lausanne</addrLine>
+						<addrLine>frederic.kaplan@epfl.ch</addrLine>
+					</address>
+				</distributor>
+				<pubPlace>Lausanne, Switzerland</pubPlace>
+				<address>
+					<addrLine>EPFL</addrLine>
+					<addrLine>CH-1015 Lausanne</addrLine>
+				</address>
+				<availability>
+					<p/>
+					</availability>
+				</publicationStmt>
+				<notesStmt>
+					<note type="abstract">Dans cette communication, nous approfondissons notre recherche sur la médiation culturelle et numérique en dehors du contexte muséal : à partir de chez soi, en préparation de la visite d’un monument, ou in situ en situation d’audioguidage. Nous souhaitons mieux cerner les enjeux d’une médiation numérique centrée sur les propriétés du patrimoine (cas de Pantheon Iview ) par opposition avec une médiation centrée sur l’expérience du visiteur ( Paris 3 D ) .Comment ces applications rendent-elles la complexité d’une architecture en reconfigurant l’expérience sensible de l’espace, du volume ? Notre problématique revient à interroger la puissance du numérique comme vision renouvelée du patrimoine et comme élargissement possible d’une expérience esthétique inédite. Cette communication questionne autant les modalités numériques de la médiation culturelle du patrimoine que la nature de l’information culturelle véhiculée par ces deux applications.</note>
+				</notesStmt>
+				<sourceDesc>
+					<p>No source: created in electronic format.</p>
+					<p>
+					  <date when="20140711"/>
+					  <time when="14:00:00"/>
+					</p>
+					<p n="session">8</p>
+					<p n="room">413 - Amphimax</p>
+				</sourceDesc>
+			</fileDesc>
+			<profileDesc>
+				<textClass>
+					<keywords scheme="original" n="category">
+						<term>Paper</term>
+					</keywords>
+					<keywords scheme="original" n="subcategory">
+						<term>Long Paper</term>
+					</keywords>
+					<keywords scheme="original" n="keywords">
+						<term>Numérisation du patrimoine</term>
+						<term>audioguidage</term>
+						<term></term>
+					</keywords>
+					<keywords scheme="original" n="topic">
+						<term>digitisation</term>
+						<term>resource creation</term>
+						<term></term>
+					</keywords>
+				</textClass>
+			</profileDesc>
+		</teiHeader>
+		<text type="paper">
+			<front>
+				<div>
+					<p></p>
+				</div>
+			</front>
+			<body>
+				<div>
+					<head>Résumé : </head>
+					<p>
+						<hi rend="italic">Dans un précédent projet de recherche et dans le contexte des musées de beaux-arts, nous avons échafaudé l’hypothèse selon laquelle la conception des audioguides de nouvelle génération, appelés « visioguide » (sur Iphone), ne répondait pas assez à la demande du visiteur, lequel souhaite d’abord augmenter son expérience esthétique (H2PTM, 2013). Nous proposons ici un nouveau modèle d’hypertextualisation des applications numériques destinées à la visite du patrimoine bâti, sur tablette de type Ipad, en suivant le modèle de l’abduction proposé par C. S. Peirce. Pour cela, nous comparons deux applications numériques qui correspondent à deux modèles opposés de médiation : par distanciation et par immersion 3d. Quel monde virtuel créer pour une médiation du patrimoine architectural par le numérique ? Quelles compétences sémiotiques l’usager doit-il mobiliser ?</hi>
+					</p>
+					<p>Dans cette communication, nous approfondissons notre recherche sur la médiation apportée par le numérique pour la découverte touristique du patrimoine bâti : visite in situ ou de chez soi pour préparer la visite d’un monument. Dans la perspective des SIC, nous nous posons plusieurs questions : quelles informations architecturales transmettre dans une application pour tablette ? Les commentaires limitent-ils ou enrichissent-ils ce que l’architecte Rasmussen a appelé « l’expérience architecturale » (Rasmussen, 1959) ? Selon l’architecte danois, celle-ci ne peut être réduite à l’observation de plans ou de maquettes, puisqu’il ne s’agit pas tant d’expliquer que d’éprouver l’espace architectural et d’interpréter ses signes. </p>
+					<p>Notre hypothèse est de renouveler l’approche du « document monumentaire » (Patrick Fraysse, 2012) en relayant un discours sur l’œuvre bâtie par un discours entre l’œuvre et le public visiteur. Autrement dit, comment mieux restituer le lien intime entre un patrimoine bâti et la vie des hommes via une application numérique interactive ? Nous proposons dans cette communication un modèle innovant pour combiner les enjeux de la médiation par le numérique tantôt centrée sur les propriétés du patrimoine (Pantheon Iview) tantôt sur l’expérience du visiteur (Paris 3d saga).</p>
+					<p>Nous comparons deux applications numériques répondant à deux modèles opposés de médiation (Flon, 2012) : la « distanciation » avec Pantheon Iview (audioguidage didactique) ou « l’immersion » dans Paris 3Dsaga. Comment ces applications numériques rendent-elles la complexité d’une architecture ? La première application enrichit les connaissances historiques sur le Panthéon de Rome (Pantheon Iview). La seconde présente la ville de Paris comme un « monde » reconstitué à travers les âges (Paris 3dsaga par Dassault systèmes, 2012). </p>
+					<p>Les théoriciens de l’école de Constance (Jauss, Iser), ainsi que les théoriciens de la sémiotique (Eco, Mucchielli), ont montré que le sens n’est pas une donnée de départ inhérente à l’œuvre, mais co-construite par le récepteur : comment faire en sorte que le spectateur participe à l’élaboration du sens d’un édifice ? Comment une application numérique constitue-t-elle un interprétant fiable du patrimoine ? Comment donner au visiteur d’un bâtiment des compétences sémiotiques qu’il n’a pas reçues par les programmes éducatifs (Segaud, 1994) ?</p>
+					<p>Afin de répondre à ces questions, nous nous référons à la conception du signe architectural selon Eco, comme « signe-fonction » </p>
+					<list type="ordered">
+						<item>1. La communication architecturale est d’abord une stimulation, un complexe de sensations. Ex. : la vue de l’escalier me dispose à monter / descendre, donc me dispose à un usage fonctionnel ; la forme architecturale (signifiant) rend possible la fonction (signifié). </item>
+						<item>2. Les signes architecturaux sont ensuite de l’ordre de la perception ; ils risquent de ne pas être interprétés à cause de nos habitudes (pour monter, nous oublions facilement la fonction de l’escalier) ou par méconnaissance du code architectural, d’où perte du sens. </item>
+					</list>
+					<p>Partant de ces postulats, les applications numériques analysées devraient :</p>
+					<list type="unordered">
+						<item>a. décrire des signifiants qui à la fois dénotentles fonctions de l’architecture mais surtout connotentdes idéologies (une conception de l’habitation à un moment donné). Ex : la courbe Art nouveau ou l’ogive gothique n’ont pas la même connotation pour déterminer l’objet fonctionnel « fenêtre ».</item>
+						<item>b. Evoquer le signe-fonction à partir de codesarchitecturaux qui appartiennent au passé (ex. : l’Art nouveau est un code contre la standardisation industrielle fin XIXe s. mais pour les thèses socialistes et progressistes.)</item>
+					</list>
+					<p>Force est de constater dans les deux applications que le jeu des connotations et l’expression du code architectural font défaut. La simulation architecturale par immersion 3d est bien une stimulation (un ensemble de sensations) dans Paris 3d saga mais il manque des perceptions fines des signes architecturaux. L’approche y est plus historique et synthétique qu’analytique (seulement les étapes de construction de la cathédrale Notre-Dame de Paris ou de la Tour Eiffel). </p>
+					<p>Autrement dit, la médiation par le numérique surdétermine le rapport au signifiant visuel (réalité virtuelle dans Paris 3d saga), au détriment du rapport connotatif entre le signifiant et le signifié. Les applications focalisent ensuite sur le référent (la construction dans Paris 3D saga, et le contexte historique dans tout le corpus), au détriment de la signification architecturale. Il s’agit moins d’une médiation semio-cognitive que d’une « ocularisation » stimulante de l’architecture – une médiatisation technologique. Certes, la médiation vise ici à renforcer les connaissances historiques de l’usager par des commentaires contextuels et hypertextuels mais sans visée fonctionnelle. Au final, comprendre est ici plus apprendre l’histoire qu’explorer ou « éprouver » les signes architecturaux au sens de Rasmussen.</p>
+					<p>Par ailleurs, l’architecture, comme l’ont montré Eco et Rasmussen, est mal appréhendée lorsque :</p>
+					<list type="ordered">
+						<item>1. le visiteur n’est pas relié directement à l’espace sensible d’un édifice </item>
+						<item>2. lorsque l’analyse du signe architectural n’est pas orientée vers un futur (une étude diachronique des signes</item>
+					</list>
+					<p>Le premier point est résolu grâce l’immersion 3D et au « gyroscope » dans Paris 3d saga. Le deuxième point reste problématique. Une œuvre d’art architecturale modifie les codes de son époque et programme une évolution des manières d’habiter. Cet aspect est négligé dans les deux applications. Paris 3d saga est une machine à remonter le temps, un feuilleté d’époques successives qui ne montre pas les différences de réception et d’usage d’un monument à travers différentes époques (la fonction « photogommage » dans Paris 3d saga est plus passéiste que visionnaire). Il n’est donc pas aisé pour le visiteur en quête de sens de se poser des questions sur l’architecture en phase d’immersion 3d, sans objectifs de recherche.</p>
+					<p>Repositionnons dès lors la médiation par le numérique comme une « mise en intrigue » du patrimoine et une « refiguration » du monde sensible du visiteur (Ricoeur, 1985). La refiguration est le troisième temps de la représentation pour le phénoménologue (« mimèsis3 »). Rappelons que le philosophe distingue :</p>
+					<list type="ordered">
+						<item>1. Le temps de l’action (l’histoire) = mimèsis 1</item>
+						<item>2. Le temps de la narration de l’action (récit) = mimesis 2</item>
+						<item>3. Le temps du lecteur qui renvoie le récit à son propre « monde » et à
+							sa sensibilité = mimèsis 3</item>
+						</list>
+						<p>Dès lors, une médiation par le numérique autre que celle proposée actuellement dans les processus d’audioguidage devient possible : une visite certes immersive comme dans Paris 3d saga, mais en plongeant l’usager dans un récit-enquête qui serait autant l’interprétant (mimèsis 2) qu’une source de plaisir (mimèsis 3). Un édifice constituant une énigme à résoudre (ex. la fiction possible d’une reconstitution), la médiation patrimoniale devient alors un récit exploratoire. Mais avec quel protagoniste ?</p>
+						<p>Afin de mieux articuler le signifié et l’éprouvé, afin de mettre en récit le patrimoine bâti, nous proposons de croiser deux modèles de médiation identifiés dans notre corpus : </p>
+						<list type="ordered">
+							<item>1. Pour structurer les informations architecturales, nous proposons d’appliquer le modèle de l’abduction proposé par Peirce : un questionnement « impliquant » au cours d’une enquête herméneutique (méthode du détective pour déchiffrer les signes), à partir d’indices, et selon trois niveaux d’expérimentation :
+								<list type="ordered">
+									<item>a. le sensoriel ou l’esthésie (Boutaud, 2007) : la perception de l’espace-temps architectural par l’immersion 3d.</item>
+									<item>b. le sensible ou l’esthétique : perception du rythme des ouvertures en façade etc.</item>
+									<item>c. le relationnel ou l’éthique : établir le lien entre le sujet et le bâtiment d’une part, voire la culture et le collectif d’autre part. </item>
+								</list>
+							</item>
+							<item>2. En raison de la double performativité qui caractérise les applications (dire l’architecture et organiser une visite), nous distinguons le faire-savoir architectural du « faire-visiter » (organiser la visite). Pour ne pas dissocier les deux, nous proposons un modèle hybride par immersion et identification de l’usager au rôle de l’architecte (position réflexive et sensible). </item>
+						</list>
+						<p>C’est donc le projet de l’architecte qui constitue le grand oubli de ces applications. Si le visiteur se met à la place fictive de l’architecte, il pourra mieux éprouver le patrimoine bâti, en se posant des questions pertinentes sur le projet d’édification et son idéologie (lien de l’édifice avec son environnement physique et sa culture etc.). </p>
+						<p>En conclusion, la mise en récit du patrimoine et du projet de l’architecte favorise une refiguration possible de la réalité virtuelle, une médiation par le numérique différente, en faveur d’un apprentissage sensible de l’architecture. La médiation apportée par l’immersion 3d est relayée par un questionnement abductif et hypertextuel, au choix du visiteur selon sa culture architecturale. Nous retrouvons les principes de base d’un « serious game » pédagogique, aux fins d’une meilleure information sur l’architecture complexe et sur l’organisation même de la visite (en ajoutant la géolocalisation), enfin aux fins d’une meilleure communication entre visiteurs d’un groupe (famille, amis…) qui partageraient leur « expérience architecturale » (Rasmussen) autour d’une même fiction exploratoire.</p>
+						<p>Comme le suggère Jacques Rancière, aux fins politiques d’une meilleure démocratisation de la culture : « sur un monde, on ne fait pas de théorie, on fait son propre poème » (Ebguy, 2012). On peut donc imaginer de nouveaux aspects à la fois heuristiques et inventifs dans les applications numériques. Chaque récepteur devrait idéalement se réapproprier l’œuvre architecturale comme « vision personnelle du monde » à partir d’une scénarisation, et non comme une vérité historique imposée.</p>
+					</div>
+				</body>
+				<back>
+					<div type="References">
+						<listBibl>
+							<bibl>
+								<hi rend="bold">Balpe J.-P.</hi> (1990), <hi rend="italic">Hyperdocuments, hypertextes, hypermédias</hi>, Paris, Eyrolles.
+							</bibl>
+							<bibl>
+								<hi rend="bold">Boutaud J.-J.</hi> (2007), <hi rend="italic">« Du sens, des sens. Sémiotique, marketing et communication en terrain sensible »</hi>, Semen, n°23, 2007 [consulté le 15 mars 2013]. URL : <ref type="url" target="http://semen.revues.org/5011">http://semen.revues.org/5011</ref>
+							</bibl>
+							<bibl>
+								<hi rend="bold">Ebguy J.-D. </hi>(2012), <hi rend="italic">« La mésentente : le philosophe (Jacques Rancière) et le poéticien (Gérard Genette) »</hi>, in Fabula-LhT, n° 10, « L'aventure poétique », décembre 2012, URL : <ref type="url" target="http://www.fabula.org/lht/10/ebguy.html">www.fabula.org/lht/10/ebguy.html</ref>, [consulté le 04 janvier 2014].
+							</bibl>
+							<bibl>
+								<hi rend="bold">Eco Umberto</hi> (1972),<hi rend="italic">La</hi><hi rend="italic">Structure absente, introduction à la recherche en sémiotique</hi>, Paris, Mercure de France (1<hi rend="sup">ère</hi> éd. 1968).
+							</bibl>
+							<bibl>
+								<hi rend="bold">Flon Émilie</hi> (2012), <hi rend="italic">Les Mises en scène du patrimoine: savoir, fiction et médiation</hi>. Paris : Hermès/Lavoisier .
+							</bibl>
+							<bibl>
+								<hi rend="bold">Fraysse Patrick </hi>(2012), <hi rend="italic">« Images du Moyen Âge dans la ville : l'inscription spatiale de médiévalité »</hi>Communication et langage, mars 2012, n°171, p. 3-17
+							</bibl>
+							<bibl>
+								<hi rend="bold">Rasmussen Steen Eiler</hi> (2002), <hi rend="italic">Découvrir l’architecture</hi>, du Linteau éd. (1<hi rend="sup">ère</hi> éd. 1959).
+							</bibl>
+							<bibl>
+								<hi rend="bold">Ricoeur Paul </hi>(1985), <hi rend="italic">Temps et récit, tome III : Le temps raconté</hi>, Paris, Le Seuil.
+							</bibl>
+							<bibl>
+								<hi rend="bold">Segaud Marion </hi>(1994), <hi rend="italic">« Compétence esthétique et culturelle architecturale du français ordinaire »</hi>, in Figures architecturales, formes urbaines, actes du congrès de Genève de l’Association internationales de sémiotique de l’espace, Anthropos, Lausanne, p. 209-220.
+							</bibl>
+							<bibl> <hi rend="bold">Varano Sandro</hi> (2010), <hi rend="italic">Un espace de navigation hypermédia dédié au patrimoine culturel bâti.</hi> Éditions Universitaires Européennes. </bibl>
+						</listBibl>
+					</div>
+				</back>
+			</text>
+		</TEI>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:x="http://www.w3.org/1999/xhtml" xmlns:exsl="http://exslt.org/common" xml:id="Paper-76">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Pushing Back the Boundary of Interpretation: Concept, Practice and Relevance of a Digital Heuristic</title>
+        <author>
+          <name>
+            <surname>Meister</surname>, <forename>Jan Christoph</forename>
+          </name>
+          <affiliation>University of Hamburg</affiliation>
+          <email>jan-c-meister@uni-hamburg.de</email>
+        </author>
+        <author>
+          <name>
+            <surname>Jacke</surname>, <forename>Janina</forename>
+          </name>
+          <affiliation>University of Hamburg</affiliation>
+          <email>janina.jacke@uni-hamburg.de</email>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority/>
+        <publisher>EPFL, Switzerland</publisher>
+        <distributor>
+          <name>EPFL Digital Humanities Laboratory</name>
+          <address>
+            <addrLine>GC D2 386</addrLine>
+            <addrLine>Station 18</addrLine>
+            <addrLine>CH-1015 Lausanne</addrLine>
+            <addrLine>frederic.kaplan@epfl.ch</addrLine>
+          </address>
+        </distributor>
+        <pubPlace>Lausanne, Switzerland</pubPlace>
+        <address>
+          <addrLine>EPFL</addrLine>
+          <addrLine>CH-1015 Lausanne</addrLine>
+        </address>
+        <availability>
+          <p/>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note type="abstract">This paper discusses the idea of a 'digital heuristic'. In part one we illustrate the concept's relevance in the context of heureCLÉA, a BMBF-funded eHumanities project in which two research teams (one computer scientists, the second narratologists) focus on an exemplary hermeneutic “use case”: the decoding of temporal information in narratives. Here, the goal is to develop a heuristic plug-in solution for our text annotation and analysis tool CATMA in order to support both the tagging and the interpretation of narrative time information. Against this backdrop part two of this paper reflects upon the idea of a digital heuristic in more general terms. We believe that the concept per se points us to the digital humanities' methodological challenge to “push back the boundary” of interpretation in a critically reflected manner.</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>No source: created in electronic format.</p>
+        <p>
+          <date when="20140709"/>
+          <time when="13:45:00"/>
+        </p>
+		<p n="session">3</p>
+		<p n="room">412 - Amphimax</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="original" n="category">
+          <term>Paper</term>
+        </keywords>
+        <keywords scheme="original" n="subcategory">
+          <term>Long Paper</term>
+        </keywords>
+        <keywords scheme="original" n="keywords">
+          <term>narratology</term>
+          <term>heuristics</term>
+          <term>hermeneutic markup</term>
+          <term>machine learning</term>
+          <term>collaborative markup</term>
+          <term>literature</term>
+          <term>interpretation</term>
+          <term/>
+        </keywords>
+        <keywords scheme="original" n="topic">
+          <term>narratology</term>
+          <term>heuristics</term>
+          <term>hermeneutic markup</term>
+          <term>machine learning</term>
+          <term>collaborative markup</term>
+          <term>literature</term>
+          <term>interpretation</term>
+          <term/>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text type="paper">
+    <front>
+      
+      <div>
+        <p/>
+        <p/>
+      </div>
+    </front>
+    <body>
+      <div>
+        <p>heureCLÉA (<ref type="url" target="http://www.heureclea.de">www.heureclea.de</ref>) is a BMBF-funded eHumanities project<ref target="n1" rend="sup">1</ref> which combines the two conceptual perspectives on object annotation that set apart the humanities and the 'hard sciences': strictly rule-based explication of uncontroversial object features as exemplified in the measurement of values, such as length, height, density, etc., versus the hermeneutic response for which observation and emotive engagement from a subjective point of view must go hand in hand in order to facilitate interpretation. These are of course ideal types and the actual practice of annotation in the humanities is situated at their interface, which is heuristics—the methodologically controlled 'art of finding' that goes beyond pure measurement, but whose purpose it is to generate relevant questions rather than conclusive answers. Against this backdrop heureCLÉA aims to implement a digital heuristics module for the text annotation tool CATMA (<ref type="url" target="http://www.catma.de">www.catma.de</ref>) so that we may benefit from synergies between the computationally automated and the subjectively motivated, human generated annotation of texts.</p>
+        </div>
+        <div>
+        <head>1. The heureCLÉA Project</head>
+        <p>The practical backbone of heureCLÉA are two software developments: <hi rend="italic">HeidelTime</hi>, which was developed at Heidelberg University, is a rule-based system for the extraction and normalization of temporal expressions.<ref target="n2" rend="sup">2</ref> It needs to be significantly modified to cope with the complexity of literary narratives.<ref target="n3" rend="sup">3</ref> – The <hi rend="italic">CATMA</hi> (<hi rend="italic">Computer Aided Textual Markup &amp; Analysis</hi>) markup tool was developed at Hamburg University. The current release of CATMA (version 4.0) is open source and provides a robust web based annotation environment for collaborative markup.<ref target="n4" rend="sup">4</ref> CATMA not only supports intuitive text annotation in a flexible, XML/TEI-compliant format, but also integrates markup with analytical and visualization functions (cf. Fig.1). This enables users to switch ad hoc between text annotation and text analysis in either direction as well as recursively. CATMA thus supports what Burnard referred to as the 'continuous turning of the hermeneutic wheel'<ref target="n5" rend="sup">5</ref>—i.e. the back and forth between formal text analysis and the generation of interpretative hypotheses. In its most recent development phase (called CLÉA)<ref target="n6" rend="sup">6</ref>, CATMA then progressed from a stand-alone desktop application to a web-based solution. This adds yet another conceptual dimension, that of collaborative markup:<ref target="n7" rend="sup">7</ref> in CATMA researchers can now share, reuse, amend and dispute each other's markup. </p>
+        <figure>
+          <graphic url="DH2014_65_1"/>
+          <p>Fig. 1: Exploration and Annotation in CATMA</p>
+        </figure>
+        <p>CATMA's overall design is based on the premise that a DH tool should emulate the methodological and social practice of traditional philology as closely as possible. This practice integrates three methodological primitives: analytical/declarative operations, hermeneutic operations, and discursive critique of explications and theories.<ref target="n8" rend="sup">8</ref> This conceptual high-level design goal also determined our choice between the two competing paradigms of embedded (in-line) markup and external standoff markup, which we regard as methodological rather than technological opposites. Accordingly, embedded markup represent the idea of objective taxonomic universality and the potential immanence of 'truth' in an object. External standoff markup, on the other hand, is based on the acknowledgment of the contingent nature and historical transience of object interpretation. In a contemporary philological perspective, embedded markup therefore constitutes something of a methodological anachronism: for conceptually it resembles the pre-enlightenment model of canonical text exegesis which the modern humanities have long replaced by a critical, self-reflexive hermeneutic approach. Yet this critique is of course of a purely philosophical nature when dealing with pre-interpretive analytical and declarative tasks, such as POS tagging. </p>
+        <p>However, once higher-level semantics are at stake, these considerations force us to adopt a truly 'hermeneutic' approach to markup.<ref target="n9" rend="sup">9</ref> Interpretation varies depending on interpreter, context and interpretive theory. Accordingly, even elementary markup produced in order to support higher-level interpretation must still remain transparent as one possible account among many, and users must be able to produce and store ambiguous and indeed even contradictory markup for the same text in a standoff manner. Since rich interpretations are best generated in a discursive practice, it is also necessary to enable the easy sharing and combining of markup generated by different interpreters.</p>
+        <p>However, while these desiderata can all be considered emulative goals which informed the development of CATMA, their conceptual benefit for the digital humanities at large lies elsewhere. A truly non-deterministic and discursive approach to markup yields diverse annotation data—and that type of data can subsequently be analyzed in order to "push back" the boundary separating interpretation and declaration. </p>
+        <p>What this means is best illustrated by outlining the three components and phases of heureCLÉA (cf. Fig. 2): </p>
+        <p><hi rend="italic">1. Narratological Analysis of Temporal Phenomena:</hi> In heureCLÉA the identification of the temporal structure of narrative texts is approached concurrently through</p>
+        <p>(a) manual collaborative annotation with CATMA, and </p>
+        <p>(b) automated temporal tagging with HeidelTime. </p>
+        <p>In (a) we draw upon (but do not restrict our taggers to) the narratological taxonomy of Genette<ref target="n10" rend="sup">10</ref>, 
+which is supplemented by a taxonomy suited to capture action and event segmentation. In (b) automated temporal annotations are generated via an UIMA pipeline<ref target="n11" rend="sup">11</ref> that includes HeidelTime as a rule-based temporal tagger, the TreeTagger<ref target="n12" rend="sup">12</ref> as a POS tagger, and Morphisto<ref target="n13" rend="sup">13</ref> for a morphological analysis.</p>
+        <p><hi rend="italic">2. Machine Learning Approach towards an Automation of Complex Time Annotation:</hi> The next step is the learning of new rules for automated annotation from the manually generated markup. Different methods for the derivation of rules—especially those for typical co-occurrence of temporal expressions—are used. Once integrated into the components of the heureCLÉA UIMA pipeline these rules enable the system to handle more complex annotations. This process is dynamic as growing quantities of markup facilitate more complex modeling strategies based on e.g. distributional approaches (such as Latent Semantic Analysis). Finally, patterns representing typical temporal sequences may be extracted (Sequence Mining).</p>
+        <p><hi rend="italic">3. Integration of the Heuristic heureCLÉA Module into CATMA:</hi><hi rend="bold"/>Once a functional threshold has been passed (i.e.: reliability of automated detection of temporal references of low complexity; performance/robustness) the heureCLÉA UIMA pipeline will be integrated into CATMA as a service. It then provides a 'digital heuristics' for the partially automated, partially interactive generation of temporal markup, and will be tested and evaluated to verify the adequateness of the automatically generated markup (partially through stochastic methods.)</p>
+        <figure>
+          <graphic url="DH2014_65_2"/>
+          <p>Fig. 2: heureCLÉA's interrelated areas of work</p>
+        </figure>
+	</div>
+	<div>        
+        <head>2. The Heuristics/Hermeneutics Divide As a Conceptual Boundary in the Digital Humanities</head>
+        <p>What is the methodological relevance of this work toward a digital heuristics? The realization that text markup is essentially interpretive <hi rend="italic">per se</hi> is anything but new.<ref target="n14" rend="sup">14</ref> Indeed, the argument about what markup <hi rend="italic">is</hi> seems somewhat artificial; it might have sufficed to ask literary scholars what markup <hi rend="italic">is there for</hi>: in their view the <hi rend="italic">raison d'être</hi> of any object annotation and classification is always interpretation. But is the boundary between a declarative and an interpretive method rigidly defined for the digital humanities? </p>
+        <p>Some experiences gained in the heureCLÉA project may offer an answer. To begin with, the hermeneutic nature of building time constructs from narratives proves to be only partially owed to the 'fuzziness' of natural language. As a complex symbolic system narrative is also characterized by the intricate coupling of a referential and an indexical semiotics. 'Time' illustrates this: on the surface it is referenced as chronological structure of a particular 'story world'.<ref target="n15" rend="sup">15</ref> Yet on a deeper level it is also communicated as an implicit processing instruction encoded in the form of temporal deixis and ellipsis, and of linguistic markers for the contraction or expansion of time (viz. a summary vs. a scenic description). This information is termed 'indexical' because it refers back to the instance of utterance (the narrator or narrating character). The reader needs to process that information in parallel with the referential in order to reconstruct two intersecting chronologies—that of the 'story world', and that of the representational discourse which he is trying to reverse engineer. However, the reach of the indexical extends beyond the text-reader-system: as we read we also become subject to the indexical temporality of the 'how' of representation (<hi rend="italic">discours</hi>) on an <hi rend="italic">existential</hi> level.<ref target="n16" rend="sup">16</ref> As Ricoeur argues, the reconstruction of temporality on the referential and discursive levels of narrative is indeed how we learn to experience temporality.<ref target="n17" rend="sup">17</ref></p>
+        <p>Time is only one of many phenomena of narrative representation and understanding characterized by this triple-layered semiotics—and against this backdrop it becomes clear why hermeneutic text interpretation cannot be automated. The machine is (as yet) not an interpreting agent able to engage reflexively and speculatively with its object. It is confined to a fully explicated, operational definition of 'relevance' in terms of known tasks and objectives. While it can resolve an indexical reference in order to compute, say, chronological order and extension, the interpretation of the existential relevance of that double-encoded message as one which also addresses the interpreting mind will remain beyond its ability for as long as it is not equipped with a concept of 'mind'. </p>
+        <p>However, the foundational human interpretive operations taking place on the elementary declarative and inferential levels <hi rend="bold">can</hi> in part be approximated statistically through recursive routines. This recursive approximation is the functional characteristic as well as the outer boundary of what we term a 'digital heuristic'. By this we mean a computational tool able to support the heuristic operations of analytical identification and categorization of phenomenological primitives that necessarily precede hermeneutic synthesis. These operations form the indispensable basis of any higher-order 'interpretation'. It is in this intersecting terrain of the hermeneutic and the heuristic that the digital humanities might help to "push back the border" and question the hegemony of interpretation. </p>
+      </div>
+    </body>
+    <back>
+      <div type="References">
+        <listBibl>
+          <bibl>1. <hi rend="bold">See <ref type="url" target="http://dbs.ifi.uni-heidelberg.de/index.php?id=129&amp;L=1">dbs.ifi.uni-heidelberg.de/index.php?id=129&amp;L=1</ref>.</hi>
+          </bibl>
+          <bibl>2. <hi rend="bold">Mazur, P. and Dale, R.</hi> (2010). <hi rend="italic">WikiWars: A New Corpus for Research on Temporal Expressions</hi>. "Proceedings of the 2010 Conference on Empirical Methods in Natural Language Processing (EMNLP 2010)". Massachusetts, pp. 913-922.
+          </bibl>
+          <bibl>3. <hi rend="bold">Ricoeur, P.</hi> (1983ff). <hi rend="italic">Time and Narrative (Temps et Récit)</hi>, 3 vols. trans. Kathleen McLaughlin and David Pellauer. Chicago: University of Chicago Press, 1984, 1985, 1988 (1983, 1984, 1985).
+          </bibl>
+          <bibl>4. <hi rend="bold">Burnard, L.</hi> (2001). <hi rend="italic">On the Hermeneutic Implications of Text Encoding</hi>. In Fiormonte, D. and Usher, J. (eds.), "New Media and the Humanities: Research and Applications". Oxford: Humanities Computing Unit, pp. 31-38. Available online in the 1998 version at <ref type="url" target="http://users.ox.ac.uk/~lou/wip/herman.htm">users.ox.ac.uk/~lou/wip/herman.htm</ref> [accessed 20 September 2013].
+          </bibl>
+          <bibl>5. "CLÉA" is short for "Collaborative Literature Éxploration &amp; Annotation". The accent deguis was added to highlight the diacritical concerns of Non-Anglo literary scholars. The CLÉA development phase of CATMA was generously supported by two Google Digital Humanities Awards (2010, 2011). For further details see <ref type="url" target="http://www.catma.de/clea">www.catma.de/clea</ref>.
+          </bibl>
+          <bibl>6. <hi rend="bold">Meister, J. C.</hi> (2012). Crowd Sourcing 'True Meaning'. A Collaborative Markup Approach to Textual Interpretation. In <hi rend="bold">McCarty, W. and Deegan, M.</hi> (eds.), <hi rend="italic">Collaborative Research in the Digital Humanities. Festschrift for Harold Short</hi>. Ashgate Publishers: Farnham, Surrey/Burlington, pp. 105-122.
+          </bibl>
+          <bibl>7. <hi rend="bold">McCarty, W.</hi> (1996). <hi rend="italic">Implicit Patterns in Ovid's Metamorphoses</hi>. "Centre for Computing in the Humanities (CHWP 1996)". <ref type="url" target="http://projects.chass.utoronto.ca/chwp/mccarty/mcc_8.html">projects.chass.utoronto.ca/chwp/mccarty/mcc_8.html</ref> (accessed 11 September 2013). First published 1991.
+          </bibl>
+          <bibl>8. <hi rend="bold">Piez, W.</hi> (2010): <hi rend="italic">Towards Hermeneutic Markup: an Architectural Outline</hi>. "Digital Humanities 2010. Conference Abstracts". London: Office for Humanities Communication, Centre for Computing in the Humanities, King’s College London, pp. 202-205.
+          </bibl>
+          <bibl>9. <hi rend="bold">Genette, G.</hi> (1972). <hi rend="italic">Discours du récit</hi>. In id., "Figures III". Paris: Editions Du Seuil, pp. 67-282.
+          </bibl>
+          <bibl>10. <hi rend="bold">Strötgen, J. and Gertz, M.</hi> (2010). <hi rend="italic">HeidelTime: High Quality Rule-based Extraction and Normalization of Temporal Expressions</hi>. "Proceedings of the 5th International Workshop on Semantic Evaluation (ACL 2010)". Uppsala, pp. 321-324.
+          </bibl>
+          <bibl>11. <hi rend="bold">Schmidt, H.</hi> (1994). <hi rend="italic">Probabilistic Part-of-Speech Tagging Using Decision Trees</hi>. "Proceedings of International Conference on New Methods in Language Processing". Manchester.
+          </bibl>
+          <bibl>12. <hi rend="bold">Zielinski, A., Simon, C., and Wittl, T.</hi> (2009). <hi rend="italic">Morphisto: Service-Oriented Open Source Morphology for German</hi>. "State of the Art in Computational Morphology: Workshop on Systems and Frameworks for Computational Morphology (SFCM 2009)". Zürich, pp. 64-75.
+          </bibl>
+          <bibl>
+            13. See among others <hi rend="bold">Coombs, J. H., DeRose, S. J., and Renear, A. H.</hi> (1987). <hi rend="italic">Markup systems and the future of scholarly text processing.</hi> "Communications of the ACM", 30 (11): 933-47; <hi rend="bold">Buzzetti, D.</hi> (2002). <hi rend="italic">Digital Representation and the Text Model. </hi>New Literary History, 33 (1): 61-88; <hi rend="bold">Burnard</hi> (2001); <hi rend="bold">Piez</hi> (2010).
+          </bibl>
+          <bibl>14. <hi rend="bold">Herman, D.</hi> (2002). <hi rend="italic">Story Logic: Problems and Possibilities of Narrative</hi>. Lincoln: University of Nebraska Press.
+          </bibl>
+          <bibl>15. <hi rend="bold">Genette (1972).</hi>
+          </bibl>
+          <bibl>16. <hi rend="bold">Ricoeur, P.</hi> (1983ff). <hi rend="italic">Time and Narrative (Temps et Récit)</hi>, 3 vols. trans. Kathleen McLaughlin and David Pellauer. Chicago: University of Chicago Press, 1984, 1985, 1988 (1983, 1984, 1985).
+          </bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="../schema/xmod_web.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xmt="http://www.cch.kcl.ac.uk/xmod/tei/1.0" 
+     xml:id="ab-425">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Connecting European Women Writers. The Selma Lagerlöf Archive and Women Writers Database</title>
+                <author>
+                    <name>Bergenmar, Jenny</name>
+                    <affiliation>University of Gothenburg, Sweden</affiliation>
+                    <email>jenny.bergenmar@lir.gu.se</email>
+                </author>
+                
+                <author>
+                    <name>Olsson, Leif-Jöran</name>
+                    <affiliation>University of Gothenburg, Sweden</affiliation>
+                    <email>leif-joran.olsson@svenska.gu.se</email>
+                </author>
+               
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Jan Christoph Meister, Universität Hamburg</publisher>
+                <address>
+                   <addrLine>Von-Melle-Park 6, 20146 Hamburg, Tel. +4940 428 38 2972</addrLine>
+                   <addrLine>www.dh2012.uni-hamburg.de</addrLine>
+              </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>No source: created in electronic format.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2012-04-15</date>
+                <name>DH</name>
+                <desc>generate TEI-template with data from ConfTool-Export</desc>
+            </change>
+            <change>
+                <date>2012-04-13</date>
+                <name>LS</name>
+                <desc>provide metadata for publicationStmt</desc>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="paper">
+        <body>
+            <div>
+            <head>Introduction</head>
+                <p>Arguments for investing time and resources in digital scholarly editions are
+                    often based upon the cultural and literary dignity of the authorship
+                    (Shillingsburg 2004). In the case of Selma Lagerlöf, as in the case of for
+                    example Ibsen, one can argue that her authorship is one of the most important in
+                    Swedish literary history and one of the most well known internationally of all
+                    Swedish authors. Following this line of argument, literary scholarly editions
+                    tend to be focused on single, canonized authorships, and since letters to the
+                    author and translations of his/her work are not usually included, the authorship
+                    is represented in splendid isolation.</p>
+            </div>
+            
+                <div>
+                    <head>From Work to Reception</head>
+                <p>We will discuss why and how the Selma Lagerlöf Archive (SLA), which makes the
+                    Selma Lagerlöf collection at the National Library of Sweden accessible and
+                    provides digital scholarly editions of her work, aims to create a broader
+                    historical context, including the intensive contacts within networks of European
+                    women translators and writers which were important for her success in Europe.
+                    What the research on Selma Lagerlöf until now lacks, is a more complete mapping
+                    of these patterns of dissemination, and also, of course, evidence of reception
+                    of her work in different countries. This has consequences for the Selma Lagerlöf
+                    Archive too. Charting the translations is not a small task, and investigating
+                    legal rights to be able to publish these translations online is perhaps even
+                    more difficult. This also needs to be a collective effort, since the source
+                    material is spread over Europe and written in different languages.</p>
+                </div>
+                
+                <div>
+                <head>Collaborative Methods</head>
+                <p>The Selma Lagerlöf Archive’s participation in the COST Action ISO901 ‘Women
+                    Writers in History: Towards a New Understanding of European Literary Culture’
+                    (2009-2013), facilitates the discovery of unknown or forgotten connections
+                    between European women in the literary field. By standardizing ‘author’ and
+                    ‘work’, but not ‘reception’, the Selma Lagerlöf Archive and the <hi
+                        rend="italic">WomenWriters </hi>database (<ref
+                        target="http://www.databasewomenwriters.nl/" type="external">www.databasewomenwriters.nl</ref>)
+                    can exchange information on these levels. ‘Reception’ is expressed as a relation
+                    between ‘author’ and ‘work’. Thus the ‘author’ can function in different roles –
+                    as ‘reader’, ‘critic’, ‘admirer’ etc. ‘Work’ can be specified by type –
+                    ‘letter’, obituary’ etc. This is a flexible model, since it covers many
+                    different kinds of research material, and there is no need to agree on a common
+                    definition of ‘reception’, which would not be adequate for all research material
+                    and research questions of the projects using the database.</p>
+                <p>By way of microservices that are currently being developed, the metadata in the
+                    xml-databases of SLA, can be shared within the agreed frame of Women
+                    Writers-database, in addition to our other APIs. This collaboration benefits the
+                    SLA in two ways. Considering the international reach of Women Writers-database,
+                    it may function as an important output to the otherwise limited target group of
+                    SLA. SLA can also collect the relevant data on translations or receptions
+                    registered in the <hi rend="italic">WomenWriters</hi> database and thereby
+                    making the time consuming task of finding and registering this information
+                    unnecessary.</p>
+                <p>The development of microservices follows the collective work carried out in COST
+                    Action ‘Interedition’ (van Zundert 2011), where the Selma Lagerlöf Archive also
+                    participated (although Sweden was not formally a member). The modular
+                    microservices developed will vary in implementation language and platform, but
+                    will be web-accessible to other services using REST-like interfaces. As for now,
+                    the Selma Lagerlöf Archive has not yet developed any standard format tool for
+                    visualizing the connections between European women writers, but evidently this
+                    will be an important task for the future and a powerful method for rewriting the
+                    European map of literary history.</p>
+                </div>
+                
+                <div>
+                    <head>Comparing Translations and Reception Documents</head>
+                <p>An inventory of translations is a first step towards discovering the mechanisms
+                    of dissemination of this – and other – authorships. But a qualitative analysis
+                    of the translations to different languages and of reception documents such as
+                    reviews, are also necessary for understanding the different national and
+                    cultural contexts in which the authorship was used. A possible tool in the
+                    qualitative analysis of the European translations of Selma Lagerlöf’s work is
+                    the development of Juxta and CollateX, which was also previously carried out in
+                    ‘Interedition’. The modularisation initiated in the previous COST Action ‘Open
+                    Scholarly Communities on the Web’ known as the Gothenburg model, had the
+                    objective to transform the collation from a ‘black box’ to a clear process with
+                    discrete chainable steps.</p>
+                <p>The web service versions of the collation step of Juxta and CollateX are
+                    primarily used interactively for comparing variants of Selma Lagerlöf’s work
+                    online within our own interface. But in addition to this, it allows for any
+                    electronic texts to be compared, thus creating the possibility of comparing
+                    different translations. Collation of translations is usually as laborious as
+                    collation of variants, but in this way we can more effectively trace how Selma
+                    Lagerlöf’s work has been transformed in different translations. Since the German
+                    translations were often used as sources for other European translations (for
+                    example to Czech and Russian), it is important to examine to what extent the
+                    translations were rewritten to accommodate to the cultural climate. For example,
+                    some of the German translations were explicitly directed towards the <hi
+                        rend="italic">Heimatkunstbewegung, </hi>which can be described as a
+                    precedent to the Blut und Boden-literature in the 1930s (Ljung Svensson 2011).
+                    It is a question still unexplored, how this ideological rhetoric was translated
+                    into other languages, nations and ideologies.</p>
+                <p>The possibility of comparing electronic texts through collation may also be
+                    applied for other purposes than showing the deviations between two editions or
+                    translations. It can be used to discover similarities between texts. One
+                    ambition of the COST Action ‘Women Writers in History’ is to bring data
+                    together, which has, up until now, been dispersed among different archives,
+                    physical and digital. This allows for a quantitative approach in estimating the
+                    reach of female writers activities in Europe. The collected data will also be
+                    used qualitatively, for example in exploring patterns in the reception of women
+                    writers by critics, and if these patterns correspond to specific themes in the
+                    literary texts. Provided that the reception documents (for example reviews) are
+                    in the same language and in an electronic format, reviews might also be compared
+                    through the microservices, in order to find out if certain ways of describing
+                    female authors, or focusing on certain themes in their texts, recur. The same
+                    method – although still at an experimental stage – may be used to compare texts
+                    by different female authors as a shortcut to discovering common topics or
+                    themes. The advantage of this method is that the researchers don’t have to know
+                    beforehand what to search for, as when you search electronic texts for certain
+                    keywords. Similarities may appear that researchers would not have imagined.</p>
+                
+                </div>
+                
+                <div>
+                <head>Conclusion</head>
+                <p>In order to revitalize the field of scholarly editing, the author’s work must be
+                    presented as nodes in cultural networks, involving different contexts and
+                    countries, where the texts were received, used and transformed, as well as
+                    different agents and institutions, participating in the dissemination of the
+                    authorship. This kind of scholarly editing is feasible if existing databases and
+                    tools are used to share and compare data. This method of working emphasizes both
+                    the text as a social object and digital scholarly edition as a collaborative
+                    activity (Robinson 2009).</p>
+            </div>
+        </body>
+        <back>
+            <div>
+               <head>References</head>
+
+            <p><hi rend="bold">Ljung Svensson, A. S.</hi> (2011). <hi rend="italic">Jordens dotter.
+                        Selma Lagerlöf och den tyska hembygdslitteraturen/Die Tochter der Erde.
+                        Selma Lagerlöf und die deutsche Heimatliteratur um 1900,</hi> Göteborg och
+                    Stockholm: Makadam förlag.</p>
+            <p><hi rend="bold">Robinson, P. M. W.</hi> (2009). The Ends of Editing. <hi
+                        rend="italic">Digital Humanities Quarterly</hi> 3(3). <ref
+                        target="http://digitalhumanities.org/dhq/vol/3/3/000051/000051.html"
+                        type="external"
+                        >http://digitalhumanities.org/dhq/vol/3/3/000051/000051.html</ref>.</p>
+            <p><hi rend="bold">Shillingsburg, P.</hi> (2004). Hagiolatry, Cultural Engineering,
+                Monument Building, and Other Functions of Scholarly Editing. In R. Mondiano, L. F.
+                Searle, and P. Shillingsburg (eds.), <hi rend="italic">Voice, Text, Hypertext.
+                    Emerging Practices in Textual Studies. </hi>Seattle, Washington: U of Washington
+                P, pp. 412-423.</p>
+            <p><hi rend="bold">van Zundert, J., et al.</hi> (2011). Interedition: Principles,
+                    Practice and Products of an Open Collaborative Development Model for Digital
+                    Scholarly Editions. <hi rend="italic">Book of Abstracts DH 2011</hi>, June
+                    19-22, Stanford, <ref
+                        target="http://dh2011abstracts.stanford.edu/xtf/view?docId=tei/ab-227.xml"
+                        type="external"
+                        >http://dh2011abstracts.stanford.edu/xtf/view?docId=tei/ab-227.xml</ref>.</p>
+            </div>
+        </back>
+    </text>
+</TEI>

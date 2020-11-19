@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="../schema/xmod_web.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xmt="http://www.cch.kcl.ac.uk/xmod/tei/1.0" xml:id="ab-423">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Experiments in Digital Philosophy – Putting new paradigms to the test in the Agora project</title>
+                <author>
+                    <name>Hrachovec, Herbert</name>
+                    <affiliation>Faculty of Philosophy, University of Vienna, Austria</affiliation>
+                    <email>herbert.hrachovec@univie.ac.at</email>
+                </author>
+                <author>
+                    <name>Carusi, Annamaria</name>
+                    <affiliation>Oxford e-Research Centre, University of Oxford, UK</affiliation>
+                    <email>annamaria.carusi@oerc.ox.ac.uk</email>
+                </author>
+                <author>
+                    <name>Huentelmann, Raphael</name>
+                    <affiliation>Ontos verlag, Heusenstamm nr. Frankfurt, Germany</affiliation>
+                    <email>info@ontosverlag.com</email>
+                </author>
+                <author>
+                    <name>Pichler, Alois</name>
+                    <affiliation>Wittgenstein Archives at the University of Bergen, Norway</affiliation>
+                    <email>Alois.Pichler@fof.uib.no</email>
+                </author>
+                <author>
+                    <name>Antonio, Lamarra</name>
+                    <affiliation>Istituto per il Lessico Intellettuale Europeo e la Storia delle Idee (ILIESI), Consiglio Nazionale delle Ricerche, Italy</affiliation>
+                    <email>antonio.lamarra@iliesi.cnr.it</email>
+                </author>
+                <author>
+                    <name>Cristina, Marras</name>
+                    <affiliation>Istituto per il Lessico Intellettuale Europeo e la Storia delle Idee (ILIESI), Italy</affiliation>
+                    <email>cmarras@gmail.com</email>
+                </author>
+                <author>
+                    <name>Alessio, Piccioli</name>
+                    <affiliation>Net7 srl, Internet Open Solutions, Pisa, Italy</affiliation>
+                    <email>piccioli@netseven.it</email>
+                </author>
+                <author>
+                    <name>Lou, Burnard</name>
+                    <affiliation>Oxford e-Research Centre, University of Oxford, UK</affiliation>
+                    <email>Lou.burnard@retired.ox.ac.uk</email>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Jan Christoph Meister, Universität Hamburg</publisher>
+                <address>
+                   <addrLine>Von-Melle-Park 6, 20146 Hamburg, Tel. +4940 428 38 2972</addrLine>
+                   <addrLine>www.dh2012.uni-hamburg.de</addrLine>
+              </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>No source: created in electronic format.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2012-04-15</date>
+                <name>DH</name>
+                <desc>generate TEI-template with data from ConfTool-Export</desc>
+            </change>
+            <change>
+                <date>2012-04-13</date>
+                <name>LS</name>
+                <desc>provide metadata for publicationStmt</desc>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="paper">
+        <body>
+            
+            <p>Agora extends an existing federation of
+                    semantically structured digital libraries named <hi rend="italic">Philosource</hi>, a collection of high quality OA content from classical to
+                    contemporary European philosophy. Agora intends to transform this federation
+                    into a specialised and highly innovative OA archive and publishing venue for new
+                    scholarship, by carrying out five experiments: (1) Semantic linking; (2) Linked
+                    Open Data (LOD); (3) Advanced Scholarly Linking; (4) Open Peer review; and (5)
+                    OA business models in the field of European philosophy. The LOD portal created
+                    within experiment (2) will serve as unique access point to the philosophical
+                    content of the federation and will expose its metadata to the LOD cloud. Agora’s
+                    ultimate goal is to arrive at a model for establishing and accessing a growing
+                    open research archive for scholarly publications in the humanities.</p>
+                <p>The presentation will focus on the rationale for the Agora project’s vision of
+                    innovative enhancement of Open Access resources in European Philosophy, and on
+                    the TEI framework. The experiments and evaluation strategies will not be
+                    presented in detail, and are briefly summarised below. More information can be
+                    found on the project website: <ref target="http://www.project-agora.eu" type="external">www.project-agora.eu</ref>.</p>
+            
+            
+            <div>
+                <head>TEI Framework</head>
+                <p>The general vision that underlies the Agora project, as well as the mark-up
+                    challenges that arose during Agora’s initial phase focused on content
+                    preparation for the experiments. It was decided to define a simple TEI-based
+                    interchange format which could be used both for existing and for newly published
+                    scientific journal articles, enabling different partners to combine these
+                    secondary resources seamlessly with other resources within the evolving AGORA
+                    framework. To define this format we surveyed about half a dozen different
+                    TEI-based publishing systems, as used by different journal publishers in Europe
+                    and North America, and identified a common subset of useful markup constructs.
+                    We documented this using the TEI’s ‘ODD’ system, which is also used to generate
+                    the schemas used to validate the content produced by all partners. For output to
+                    readable PDF and HTML formats we rely on a customization of the TEI Stylesheet
+                    library. In a parallel experiment, we have used the same library to define an
+                    input mapping from ‘docx’ format into TEI, enabling partners to draft new
+                    documents in the familiar Microsoft Word environment using a specially
+                    customized Word stylesheet.</p>
+            </div>
+            
+            <div>
+                <head>Experiments</head>
+                <p>Each of the Agora experiments is a trial of a mode of enhancing an aspect of
+                    philosophical scholarship through the possibilities offered by digital
+                    publications and repositories in philosophy.</p>
+                <p>The Semantic Linking Experiment has as the goal of enabling a novel way of
+                    building, querying, and browsing a knowledge network and to assess its
+                    suitability as a collaborative research tool as well as a learning device. A
+                    subset of the new content (secondary sources in the form of scholarly articles,
+                    monographs) will be interlinked via semantic annotations among each other and
+                    its underlying datasets (primary sources in the form of editions of texts,
+                    manuscripts) most of which are already available in the Philosource Federation.
+                    A subset of secondary sources will be connected with keywords that at the same
+                    time will make up domain concepts of the secondary sources ontology. The
+                    resulting ontology, in the form of RDF files, will be published on the web and
+                    the users will be offered the possibility to browse it, use the ontology to tag
+                    additional material, and add to the ontology generating their own notebooks. The
+                    semantically linked content will enhance browsing, querying, collaboration and
+                    learning.</p>
+                <p>The Linked Open Data (LOD) Experiment aims to offer users and machines a unique
+                    access point to the federation content and to augment the user search and
+                    browsing experience. The Philosource Federation is already a federation in the
+                    political sense by sharing common values and technological standards. The
+                    Federation Portal will mainly serve as a centralised aggregator of all the
+                    metadata (semantically structured and non-semantically structured) produced by
+                    the federation nodes. It will thereby interlink the federation nodes, and link
+                    the federation content with relevant external sources. It is hoped that the
+                    linking will make the content more interoperable, easier to discover and
+                    retrieve, and provide a richer context for the federation content. The metadata
+                    made available through the portal API will make the federation content usable to
+                    build other third party applications and aims to stimulate innovative and
+                    creative re-uses of our data. The portal will offer a unique SPARQL endpoint to
+                    access RDF metadata of all the federation content to third party data consumers;
+                    semiautomatically enrich the data to link certain type of resources (most
+                    notably books, people, places and events) via rdfs:sameAs properties, to other
+                    LOD providers such as DBPedia, Freebase, The Library of Congress, The Open
+                    Library, Geonames, Europeana; offering an augmented search facility by expanding
+                    queries with data extracted from third party LOD providers. Enhanced search will
+                    be offered in an appealing and easy to use interface, for example, by allowing
+                    visually browsing search results on a map and on a timeline.</p>
+                <p>The Open Collaborative Peer Review Experiment has as its goal to experiment in
+                    the field of open peer review in order to enhance and determine standards for
+                    peer review in the humanities and social sciences in the digital age. In this
+                    experiment authors submit their papers to two new online journals (Nordic
+                    Wittgenstein Review and Lexicon Philosophicum) via Open Journal System (OJS).
+                    Papers will undergo a general eligibility and quality check by the editors and
+                    editors-in-chief. Papers will undergo double blind review during which authors
+                    and reviewers will remain anonymous. Papers that are accepted for publication
+                    will go through one month of additional open review or commentary, during which
+                    registered users will be asked to comment on and to discuss the accepted papers.
+                    Editors and editors-in-chief will moderate discussions. Editors will proceed
+                    with suggesting revisions on the basis of the open review. Authors will be able
+                    to use the suggestions, comments and discussions from the open review / comment
+                    stage in finalizing their paper for publication. The online publication of the
+                    articles will include functionality for readers to evaluate, rate and recommend
+                    articles in a comment stage. The user will then be able to select from different
+                    criteria of evaluation, such as highest rated, most read, and most cited.</p>
+                <p>The goal of the PPP OA Business Models Experiment carried out by the philosophy
+                    publishing house Ontos is to experiment with different OA Business Models in
+                    order to gain insight into their effects on commercial business. A commercial
+                    publisher will republish a selection of monographs in digital format and make
+                    them available in Open Access, under a Creative Commons Attribution-Non
+                    Commercial-No Derivative license. It will study the effects on sales figures
+                    over time of re-publishing online in OA existing inprint closed access
+                    monographs. It will further study the effects of publishing the Nordic
+                    Wittgenstein Review under hybrid and delayed business models.</p>
+            </div>
+            
+            <div>
+                <head>Evaluation Strategy</head>
+                <p>The overarching evaluation strategy that is used has been adapted from Value
+                    Sensitive Design (VSD), a design methodology geared towards the values that are
+                    involved in technology customization and design, which consists of ongoing
+                    evaluation on three levels: conceptual, empirical and technical. VSD has been
+                    informed by philosophy from the outset of its development, and is therefore
+                    closer to a philosophical ethos, and also makes room for a philosophical as well
+                    as user-based evaluation of the technologies as they develop. Even though this
+                    methodology has been primarily used for ethical values of technology design and
+                    implementation, we will be extending it to epistemic values as well. This is
+                    particularly appropriate for technologies for scholarship where the two forms of
+                    values are very closely connected, and will also contribute to the further
+                    development of VSD as a methodology.</p>
+            
+            </div>
+         
+        </body>
+        <back>
+            <div>
+                <head>References</head>
+
+            <p><hi rend="bold">Bartscherer, T., and R. Coover, eds.</hi> (2011). <hi rend="italic">Switching Codes. Thinking through New Technology in the Humanities and the
+                    Arts</hi>. Chicago: U of Chicago P.</p>
+            <p><hi rend="bold">Bizer, C., T. Heath, and M. Hepp, eds.</hi> (2009). Special Issue on
+                Linked Data<hi rend="italic">. International Journal on Semantic Web and Information
+                    System</hi> 5(3).</p>
+            <p><hi rend="bold">D’Iorio, P.</hi> (2008). L’île des savoirs choisis. De HyperNietzsche
+                à Scholarsource: pour une infrastructure de recherche sur le Web. <hi rend="italic">Recherches &amp; Travaux</hi> 72. </p>
+            <p><hi rend="bold">D’Iorio, P., and M. Barbera</hi> (2011).  Scholarsource: A Digital
+                    Infrastructure for the Humanities. In T. Bartscherer and R. Coover (eds.), <hi
+                        rend="italic">Switching Codes. Thinking through New Technology in the
+                        Humanities and the Arts</hi>. Chicago: U of Chicago P.</p>
+            <p><hi rend="bold">Galey, A.</hi> (2011). Reading the Book of Mozilla: Web Browsers and
+                the Materiality of Digital Texts. In R. Crone and S.Towheed, <hi rend="italic">The
+                    History of Reading, Vol. 3: Methods, Strategies, Tactics</hi>. New York:
+                Palgrave Macmillan.</p>
+            <p><hi rend="bold">Luke, T. W., and J. Hunsinger, eds.</hi> (2009). <hi rend="italic">Putting Knowledge to Work and Letting Information Play</hi>. Blacksburg: Center
+                for Digital Discourse and Culture.</p>
+            <p><hi rend="bold">Mika, P., C. Bizer, M. C. Schaefel, and L. Rutledge</hi> (2010).
+                Semantic Web Challenge 2009: User Interaction in Semantic Web Research. Special
+                Issues of <hi rend="italic">Journal of Web Semantics</hi> 8(4).       </p>
+            <p><hi rend="bold">Pichler, A.</hi> 2010. Towards the new Bergen Electronic Edition. In
+                N. Venturinha (ed.), <hi rend="italic">Wittgenstein After His Nachlass</hi>.
+                Basingstoke: Palgrave Macmillan.</p>
+            <p>
+                    <hi rend="bold">Pichler, A., and S. Säätelä, eds.</hi> (2008). <hi rend="italic"
+                        >Philosophy of the Information Society: Proceedings of the 30th
+                        International Ludwig Wittgenstein Symposium, Kirchberg am Wechsel, Austria
+                        2007</hi>. Frankfurt: Ontos.</p>
+            </div>
+        </back>
+    </text>
+</TEI>

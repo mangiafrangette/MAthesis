@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:x="http://www.w3.org/1999/xhtml" xmlns:exsl="http://exslt.org/common" xml:id="Paper-171">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Discourses and Disciplines in the Enlightenment: Topic Modeling the French Encyclopédie</title>
+        <author>
+          <name>
+            <surname>Roe</surname>, <forename>Glenn</forename>
+          </name>
+          <affiliation>The Australian National University</affiliation>
+          <email>glenn.roe@anu.edu.au</email>
+        </author>
+        <author>
+          <name>
+            <surname>Gladstone</surname>, <forename>Clovis</forename>
+          </name>
+          <affiliation>The University of Chicago</affiliation>
+          <email>clovisgladstone@uchicago.edu</email>
+        </author>
+        <author>
+          <name>
+            <surname>Morrissey</surname>, <forename>Robert</forename>
+          </name>
+          <affiliation>The University of Chicago</affiliation>
+          <email>rmorriss@uchicago.edu</email>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority/>
+        <publisher>EPFL, Switzerland</publisher>
+        <distributor>
+          <name>EPFL Digital Humanities Laboratory</name>
+          <address>
+            <addrLine>GC D2 386</addrLine>
+            <addrLine>Station 18</addrLine>
+            <addrLine>CH-1015 Lausanne</addrLine>
+            <addrLine>frederic.kaplan@epfl.ch</addrLine>
+          </address>
+        </distributor>
+        <pubPlace>Lausanne, Switzerland</pubPlace>
+        <address>
+          <addrLine>EPFL</addrLine>
+          <addrLine>CH-1015 Lausanne</addrLine>
+        </address>
+        <availability>
+          <p/>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note type="abstract">Given the rapid growth of linguistic and historical datasets, and recent developments in information retrieval, we can begin to think about new computational approaches to discourse analysis across a wide variety of text corpora.This paper presents one such approach, using a Latent Dirichelet Allocation (LDA) topic modeling algorithm to analyse the more than 74,000 articles contained in the 18th-century French Encyclopédie. In deploying topic modeling as a discourse analysis tool, we aim to highlight the unique discursive makeup of encyclopaedic articles, treating them as a combination of various discourses independent of their original disciplinary classification. Some of these discourses might have been lost to the modern reader through the classification process itself, and others may prove useful in uncovering interdisciplinary connections between classes that would have otherwise gone unnoticed. This approach can then be used to identify similar 'philosophic' or Enlightenment discourses underpinning a wide variety of contemporary 18th-century texts.</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>No source: created in electronic format.</p>
+        <p>
+          <date when="20140709"/>
+          <time when="13:45:00"/>
+        </p>
+		<p n="session">3</p>
+		<p n="room">414 - Amphimax</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="original" n="category">
+          <term>Paper</term>
+        </keywords>
+        <keywords scheme="original" n="subcategory">
+          <term>Long Paper</term>
+        </keywords>
+        <keywords scheme="original" n="keywords">
+          <term>topic modeling</term>
+          <term>discourse analysis</term>
+          <term>enlightenment studies</term>
+          <term></term>
+        </keywords>
+        <keywords scheme="original" n="topic">
+          <term>historical studies</term>
+          <term>information retrieval</term>
+          <term>literary studies</term>
+          <term>ontologies</term>
+          <term>text analysis</term>
+          <term>french studies</term>
+          <term>cultural studies</term>
+          <term></term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text type="paper">
+    <front>
+      
+      <div>
+        <p></p>
+        <p></p>
+        <p></p>
+      </div>
+    </front>
+    <body>
+      <div>
+        <head>1. Introduction</head>
+        <p>Discourse analysis has for the past half century been a staple of the text-based historical and social sciences. Part and parcel of the ‘linguistic turn’ of the 1960s, French discourse analysis was furthermore one of the first disciplines to embrace computational text processing when Michel Pêcheux developed a computer program to identify ideological processes in textual corpora <ref target="n1" rend="sup">1</ref>. Steeped in contemporary linguistic theory, Pêcheux and his team sought an automated method for uncovering hidden ideological meanings in text corpora. That same year, Michel Foucault’s <hi rend="italic">L’Archéologie du savoir</hi> broadened the conception of ‘discourse’ and of the underlying power politics at play in its formation <ref target="n2" rend="sup">2</ref>. Diverging significantly with Pêcheux, Foucault’s analytical model of ‘archaeology’ brought with it a less strictly-linguistic approach to the discursive. By “loosening the embrace [...] of words and things”, discourses are understood “as practices that systematically form the objects of which they speak” <ref target="n3" rend="sup">3</ref>.</p>
+        <p>This expanded notion of discourse would go on to exert a strong influence on French historical studies, and in particular, on the historiography of the French Enlightenment and Revolutionary periods, as is evident in the work of François Furet, Lynn Hunt or Keith Baker <ref target="n4" rend="sup">4</ref><ref target="n5" rend="sup">5</ref><ref target="n6" rend="sup">6</ref>. More recently, Sophia Rosenfeld and Dan Edelstein have re-introduced the specifically linguistic elements of discourse analysis back into the historian’s and literary scholar’s toolbox, most notably through the analytical use of historical and linguistic databases  <ref target="n7" rend="sup">7</ref><ref target="n8" rend="sup">8</ref>.</p>
+        <p>With the rapid growth of digital text collections, a revisiting of Pêcheux’s earlier notion of an ‘Automatic Discourse Analysis’ approach would seem warranted, particularly given recent developments in information retrieval such as topic modeling <ref target="n9" rend="sup">9</ref>. This paper is thus an attempt at reconciling the computational and the discursive, using topic modeling to uncover Enlightenment discourses in the <hi rend="italic">Encyclopédie</hi> of Diderot and d'Alembert. Moreover, Foucault’s concept of archaeology is used to justify topic modeling’s ‘bag of words’ analytical model, as it frees us from exclusive interest in language structure, and what that structure conveys, and orients us more towards the association of the various ideas or ‘topics’ that form a discourse.</p>
+        <head>2. Topic Modeling as Discourse Analysis</head>
+        <p>Topic modeling is a machine learning approach that was originally designed as a way to classify large amounts of text with minimal human intervention <ref target="n10" rend="sup">10</ref>. David Newman and Sharon Block have furthermore demonstrated through their use of pLSA (Probabilistic Latent Semantic Analysis) that such unsupervised algorithms can provide a unique overall picture of the contents of a corpus by organizing the data in a manner that gives researchers an objective and wholly original perspective on the texts being analyzed <ref target="n11" rend="sup">11</ref>. Of course, categorizing texts with no human interaction is not something humanists can accept without question, and this critical point forms the basis of our previous experiments with supervised classification algorithms such as Naive Bayes and Vector Space <ref target="n12" rend="sup">12</ref><ref target="n13" rend="sup">13</ref>.</p>
+        <p>For this project, we employ the Latent Dirichlet Allocation (LDA) algorithm as it is built upon the important premise that documents, however focused, are never about one single topic, but are the result of multiple topics bound together in a single text unit <ref target="n14" rend="sup">14</ref>. Consequently, the documents analyzed by this algorithm will be identified by a unique signature: a distribution of topics that represents the variety of things discussed in them. As these clusters of words do not necessarily map onto what humanists consider a ‘topic’ or theme, we judge their coherence based less on their thematic consistency and more as the representation of a particular discourse, where closely related concepts are used together in a given context. One could imagine, for instance, finding a discourse that never seems to be the main subject of any document, but that nevertheless runs through a significant number of them.</p>
+        <head>3. Use Case: Topic Modeling the Encyclopédie</head>
+        <p>As a use case, we have chosen to examine one the Enlightenment’s exemplary texts, the <hi rend="italic">Encyclopédie </hi>of Diderot and d’Alembert <ref target="n15" rend="sup">15</ref>. Our aim here is to use LDA to go beyond the disciplinary boundaries of the editors’ original classification scheme, which was designed (along with the cross-references) to connect articles amongst themselves across the whole work, but in reality did little to provide guidance to its readers. The physical structure of the text, which caused articles to be read in relative isolation from others, made obtaining a full dialogic perspective of any given class or article unrealistic. By using topic modeling as a discourse analysis tool we aim to highlight each article’s unique discursive makeup. This will allow us to generate a more transversal view of the encyclopaedia and its contents. Whereas David Blei has asked: “What is the likely hidden topical structure that generated my observed documents?” <ref target="n16" rend="sup">16</ref>; we likewise ask, “what are the non-obvious discourses than span across multiple disciplines in the <hi rend="italic">Encyclopédie</hi>?” </p>
+        <p>From a methodological perspective, we are using the well-known machine learning toolkit MALLET with several Python wrap-arounds <ref target="n17" rend="sup">17</ref>. Since our goal is to uncover discourses across the entire <hi rend="italic">Encyclopédie</hi>, we settled on a relatively low number of topics (between 280 and 360) compared to the total number of classes of knowledge (2,900), but this number was consistent with our previous machine classification experiments <ref target="n18" rend="sup">18</ref>. Once our topic model was generated, we stored the results in a SQLite table, along with all available metadata. We then wrote a web interface to visualize this database and run queries against the original metadata.</p>
+        <p>Using the above interface we were able to identify many of the <hi rend="italic">Encyclopédie</hi>'s disciplinary vocabularies in our topic lists, which were verified using article metadata. Not surprisingly, the ‘chemistry’ topic was found most in chemistry articles, the ‘botany’ topic in botanical articles, mathematics in mathematics, etc. What interests us, however, are topics that are both distinct in nature -- i.e., identifiable with a particular ‘discourse’ -- and that span multiple disciplinary boundaries. Mapping these discourses through the various classes and articles in which they are prevalent leads to a greater understanding of the dialogic and discursive elements at play in the seemingly innocuous encyclopaedic classification system. </p>
+        <p>The topic we have identified with the discourse ‘droit naturel’, for instance, is present in more than 60 grammar articles, almost double that of its own class (Figure 1).</p>
+        <figure>
+          <graphic url="DH2014_148_topic56"/>
+          <p>Fig. 1: Topic #56: "Droit Naturel"</p>
+        </figure>
+        <p>Among the top grammar articles we find the small unsigned article ‘Inviolable’ that has since been attributed to Diderot. In it, alongside the grammatical definition of the term, we find a usage example that reads: “La liberté de conscience est un privilege inviolable” (8:864) -- a reference that subtly places freedom of thought amongst other ‘natural’ and unalienable rights. We find a similar treatment in the article ‘Supplanter’, which contains a thinly-veiled condemnation of tyranny as an unnatural state of governance.</p>
+        <p>Other classes function in much the same way as Grammar, allowing the <hi rend="italic">philosophes</hi> to smuggle controversial opinions into articles of a seemingly neutral scope. By tracing the presence of various discourses in an inter-disciplinary manner we can begin to uncover the various subversive, discursive, and ideological practices in play over the entirety of the <hi rend="italic">Encyclopédie</hi>. The discourse around morality, for instance, is found in no less than 94 articles from the ‘géographie ancienne’ class (Figure 2).</p>
+        <figure>
+          <graphic url="DH2014_148_topic227"/>
+          <p>Fig. 2: Topic #227: "Morale"</p>
+        </figure>
+        <p>Diderot is here again exemplary in his discursive acrobatics. Whilst describing a tribe of ancient Thracians in the article ‘Dranses’, he quickly turns the discussion towards moral relativism (in a move the prefigures his later work, <hi rend="italic">Le Supplément au voyage de Bougainville</hi>), with the assertion that: “Ce n'est pas la nature, c'est la tyrannie qui impose sur la tête des hommes un poids qui les fait gémir &amp; détester leur condition” (5:106). </p>
+        <p>A similar deployment of the discourse around ‘le culte religieux’ -- a subject on which the <hi rend="italic">encyclopédistes</hi> were forced to tread lightly -- can be found in the more than 100 articles labeled as ‘histoire moderne’ (Figure 3).</p>
+        <figure>
+          <graphic url="DH2014_148_topic242"/>
+          <p>Fig. 3: Topic #242: "Culte Religieux"</p>
+        </figure>
+        <p>The article ‘Schooubiak’, for instance, is another unsigned (but later attributed) article by Diderot, in which he describes an Islamic sect that practices an unusual form of religious tolerance. This seeming incongruence with the accepted cultural stereotypes of the time allows Diderot to raise the issue of religious intolerance thus using the sect as a proxy for the <hi rend="italic">philosophes</hi> themselves, and condemning those who would oppose them: "les prêtres étant les mêmes par-tout, il faut que la tolérance soit détestée par-tout" (14:778). </p>
+        <p>As we have seen above, many of these encyclopaedic discourses were deployed subversively in order to move the narrative of Enlightenment forward, and indeed, the discursive nature of the Enlightenment in France has recently been brought to light <ref target="n19" rend="sup">19</ref>. By extending the reach of our topic modeling approach to other Enlightenment texts we can begin to identify the discursive practices of texts and authors on an even greater scale and with a greater level of systematicity. As a philosophic war machine, as well as a contemporary reference work, the <hi rend="italic">Encyclopédie</hi> is an ideal starting point for this sort of work. Many of the discourses we find therein may have been lost to the modern reader through the classification process itself, and still others may prove useful in uncovering interdisciplinary connections that would have otherwise gone unnoticed.</p>
+      </div>
+    </body>
+    <back>
+      <div type="References">
+        <listBibl>
+          <bibl>1. <hi rend="bold">Michel Pêcheux</hi> (1969), <hi rend="italic">Analyse automatique du discours</hi>, Paris: Dunod.
+          </bibl>
+          <bibl>2. <hi rend="bold">Michel Foucault</hi> (1989), <hi rend="italic">L'Archéologie du savoir</hi>, Paris: Gallimard, (1969) [English translation: The Archaeology of Knowledge, London: Routledge].
+          </bibl>
+          <bibl>3. <hi rend="italic">Foucault</hi> (1989), p. 54.
+          </bibl>
+          <bibl>4. <hi rend="bold">François Furet</hi> (1978), <hi rend="italic">Penser la Révolution française</hi>, Paris: Gallimard.
+          </bibl>
+          <bibl>5. <hi rend="bold">Lynn Hunt</hi> (1984), <hi rend="italic">Politics, Culture and Class in the French Revolution Berkeley</hi>: University of California Press.
+          </bibl>
+          <bibl>6. <hi rend="bold">Keith Michael  Baker</hi> (1990), <hi rend="italic">Inventing the French Revolution: Essays on French Political Culture in the Eighteenth Century Cambridge</hi>: Cambridge University Press.
+          </bibl>
+          <bibl>7. <hi rend="bold">Sophia Rosenfeld</hi> (2001), <hi rend="italic">A Revolution in Language: The Problems of Signs in Late Eighteenth-Century France</hi>, Stanford: Stanford University Press.
+          </bibl>
+          <bibl>8. <hi rend="bold">Dan Edelstein</hi> (2009), <hi rend="italic">The Terror of Natural Right: Republicanism, the Cult of Nature, and the French Revolution Chicago</hi>: University of Chicago Press.
+          </bibl>
+          <bibl>
+            9. For a thorough introduction and discussion of topic modeling for humanistic research, see the special issue of the <hi rend="italic">Journal of Digital Humanities</hi> edited by <hi rend="bold">Scott Weingart and Elijah Meeks</hi> (2012): Journal of Digital Humanities Vol. 2, No. 1 Winter [<ref type="url" target="http://journalofdigitalhumanities.org/2-1/">journalofdigitalhumanities.org/2-1/</ref>].
+          </bibl>
+          <bibl>10. <hi rend="bold">David M. Blei, Andrew Y. Ng, and Michael I. Jordan</hi> (2003), <hi rend="italic">Latent Dirichlet Allocation</hi>, Journal of Machine Learning Research 3 (4–5): 993–1022.
+          </bibl>
+          <bibl>11. <hi rend="bold">David J. Newman and Sharon Block</hi> (2006), <hi rend="italic">Probabilistic Topic Decomposition of an Eighteenth-Century American Newspaper</hi>, Journal of the American Society for Information Science and Technology 57(6): 753–67.
+          </bibl>
+          <bibl>12. <hi rend="bold">Russell Horton, Robert Morrissey, Mark Olsen, Glenn Roe, and Robert Voyer</hi> (2009), <hi rend="italic">Mining Eighteenth Century Ontologies: Machine Learning and Knowledge Classification in the Encyclopédie</hi>, in: Digital Humanities Quarterly 3.2 Spring.
+          </bibl>
+          <bibl>13. <hi rend="bold">Charles Cooney, Russell Horton, Mark Olsen, Glenn Roe, and Robert Voyer</hi> (2008), <hi rend="italic">Hidden Roads and Twisted Paths: Intertextual Discovery using Clusters, Classiﬁcations, and Similarities</hi>, Digital Humanities 2008, eds. Lisa Opas-Hänninen, Mikko Jokelainen, Ikka Juuso, and Tapio Seppänen, Univeristy of Oulu, Finland: 93-4.
+          </bibl>
+          <bibl>14. <hi rend="bold">Blei et al. (2003).</hi>
+          </bibl>
+          <bibl>
+            15. All data and references are drawn from the ARTFL digital edition of the <hi rend="italic">Encyclopédie</hi>, developed by the University of Chicago's ARTFL Project: [<ref type="url" target="http://encyclopedie.uchicago.edu">encyclopedie.uchicago.edu</ref>].
+          </bibl>
+          <bibl>16. <hi rend="bold">David Blei</hi> (2013), <hi rend="italic">Topic Modeling and Digital Humanities</hi>, Journal of Digital Humanities 2.1.
+          </bibl>
+          <bibl>
+            17. See [<ref type="url" target="http://mallet.cs.umass.edu/">mallet.cs.umass.edu/</ref>].
+          </bibl>
+          <bibl>18. <hi rend="bold">Horton et al.</hi> (2009).
+          </bibl>
+          <bibl>19. <hi rend="bold">Dan Edelstein</hi> (2010), <hi rend="italic">The Enlightenment: A Genealogy Chicago</hi>: University of Chicago Press.
+          </bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="../schema/xmod_web.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xmt="http://www.cch.kcl.ac.uk/xmod/tei/1.0" 
+     xml:id="ab-139">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digital Humanities in the Classroom: Introducing a New Editing Platform for Source Documents in Classics</title>
+                <author>
+                    <name>Beaulieu, Marie-Claire</name>
+                    <affiliation>Tufts University, USA</affiliation>
+                    <email>Marie-Claire.Beaulieu@Tufts.edu</email>
+                </author>
+                <author>
+                    <name>Almas, Bridget</name>
+                    <affiliation>Tufts University, USA</affiliation>
+                    <email>bridget.almas@tufts.edu</email>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Jan Christoph Meister, Universität Hamburg</publisher>
+                <address>
+                   <addrLine>Von-Melle-Park 6, 20146 Hamburg, Tel. +4940 428 38 2972</addrLine>
+                   <addrLine>www.dh2012.uni-hamburg.de</addrLine>
+              </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>No source: created in electronic format.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2012-04-15</date>
+                <name>DH</name>
+                <desc>generate TEI-template with data from ConfTool-Export</desc>
+            </change>
+            <change>
+                <date>2012-04-13</date>
+                <name>LS</name>
+                <desc>provide metadata for publicationStmt</desc>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="paper">
+        <body><p>In this paper, I will introduce a new online teaching and research platform on which students can
+                collaboratively transcribe, edit, and translate Latin manuscripts and Greek
+                inscriptions, creating vetted open source digital editions. This platform was
+                created by a group of faculty, software developers, and library professionals at
+                Tufts University to enable students to work with original untranslated documents. By
+                doing so, students not only develop their own language skills and research
+                abilities, but they also contribute to the efforts of the scholarly community
+                worldwide to meet the challenge of publishing large numbers of primary source
+                documents online while preserving high editorial standards as described by Robinson
+                (2010). The platform will be made available as open-source software and since it is
+                language-independent, it can be used to edit and translate any source document in
+                any language and any Humanities field.   </p>
+            <p>The platform is an adaptation of Image J and Son of Suda Online (SoSOL). It allows
+                students to transcribe ancient texts directly from a high-resolution digital image
+                while mapping the text onto the lettering. The transcriptions thus produced are
+                automatically encoded in accordance with the EpiDoc markup guidelines, a standard
+                developed by an international consortium of scholars for the accurate description of
+                inscriptions and manuscripts in TEI XML (see Sosin 2010). This ensures greater
+                visibility for the collection and fosters scholarly dialogue since all documents
+                published under the EpiDoc standard are compatible and can be exploited together in
+                an open-access collaborative context (see Bodard 2008). The students’ work therefore
+                contributes to a worldwide effort to make ancient manuscripts and inscriptions
+                available online. To link all these resources and present the web interface, we used
+                the CITE services (‘Collections, Indexes, and Texts, with Extensions’) developed by
+                the Homer Multitext Project (see Blackwell and Smith 2009). We intend to investigate
+                ways to take advantage of the chain of authority supported by the SoSOL environment
+                to facilitate the process of the long-term archiving of the resources in the Tufts
+                institutional Fedora repository. We will make the data from this project available
+                to the broader humanities community through the Perseus Project.   </p>
+            <p>Initially, the students will be working with Latin manuscripts (ranging in date
+                between the 12th and 19th centuries) held in the Tufts University Library which have
+                been digitized and published online. The students will also edit and translate
+                ancient Greek funerary inscriptions which relate to Marie-Claire Beaulieu’s research
+                on the poetics of Greek epitaphs. The collection created by the students will form a
+                cohesive dataset of Latin and Greek texts which will be used at Tufts for ongoing
+                research projects on ancient literature but will also be a valuable addition to
+                corpora being developed by scholars worldwide such as the EpiDoc databases (see
+                Cayless et al. 2009, esp. 34).   </p>
+            <p>Students will begin their work with a high resolution image of a Latin or Greek
+                document published in our online collection. After receiving training on the
+                decipherment of ancient Greek and Latin scripts, they will transcribe the texts and
+                map them onto the image of the document using the software described above. The
+                transcription step is important since it allows for careful review: thanks to the
+                direct visual link created by the software between the image of the document and the
+                transcription, the instructor and the audience can instantly evaluate the accuracy
+                of the transcription (see figures 1 and 2).   </p>
+            <p>The second step is to produce a normalized edition of the texts, including the
+                resolution of abbreviations and lacunae, wherever possible. At this stage, two
+                important digital tool sets are integrated with each text. The Alpheios Greek and
+                Latin tools provide interactive lexical and grammatical analysis of each word, and
+                the Perseus tools compute dynamic word lists and help the students and their
+                instructors keep track of the progress accomplished in language learning (see figure
+                3). The Perseus tools can also be used to design personalized reading lists and
+                exams for each student. Although this project uses Latin and Greek language tools,
+                the design can easily accommodate the integration of similar tools for any language.
+                  </p>
+            <p>The third and final step is translation and annotation, which is crucial for making
+                the texts accessible to a wide-ranging audience of students and scholars in other
+                disciplines as well as the general public. At this stage, students will translate
+                the texts into English and gather as much information as possible on each text,
+                including its date and historical and literary significance. They will establish
+                parallels with other similar texts, which can be implemented as hyperlinks. The
+                entries are finally rounded out with a complete bibliography of the scholarship
+                available on each text and credits naming all contributors to the entry.    </p>
+            <p>After their publication online, the entries will be linked to the SAKAI/Trunk
+                software, an open-access collaborative learning management resource that allows
+                students to design personalized electronic portfolios. These portfolios can be used
+                by instructors to evaluate a student’s overall performance and progress and can also
+                serve in applications for grants, graduate school admission, or in the context of a
+                job search. An entry in this online collection should feature prominently in a
+                student’s portfolio, since it constitutes a valuable and quantifiable language
+                learning experience as well as a piece of original scholarship on a previously
+                unedited and/or untranslated text. Throughout this process, students participate in
+                the efforts of the scholarly community worldwide while perfecting their own language
+                and research skills, thus becoming true citizen scholars.</p>
+            <p><figure>
+                    <graphic url="img139-1.jpg" rend="left" height="256px" width="341px"
+                        mimeType="image/jpeg"/>
+                    <head>Figure 1: The transcription step</head>
+                </figure></p>
+            <p><figure>
+                    <graphic url="img139-2.jpg" rend="left" height="256px" width="341px"
+                        mimeType="image/jpeg"/>
+                    <head>Figure 2: The submission and evaluation step</head>
+                </figure></p>
+            <p><figure>
+                    <graphic url="img139-3.jpg" rend="left" height="256px" width="341px"
+                        mimeType="image/jpeg"/>
+                    <head>Figure 3: The Alpheios tools provide interactive lexical and
+                        grammatical analysis of each word</head>
+                </figure></p>
+        </body>
+        <back>
+            <div>
+                
+                    <head>References</head>
+                
+                    <p><hi rend="bold">Blackwell, Chr., and D. N. Smith</hi> (2009). Homer Multitext
+                    – Nine Year Update. <hi rend="italic">Digital Humanities 2009 Conference
+                        Abstracts</hi>, (June 2009): 6-8. <ref
+                        target="http://www.mith2.umd.edu/dh09/wp-content/uploads/dh09_conferencepreceedings_final.pdf" type="external" 
+                        >http://www.mith2.umd.edu/dh09/wp-content/uploads/dh09_conferencepreceedings_final.pdf</ref>
+                        (accessed March 9, 2012).</p>
+                    <p><hi rend="bold">Bodard, G</hi>. (2008). The <hi rend="italic">Inscriptions of
+                            Aphrodisias </hi>as Electronic Publication: A User’s Perspective and a Proposed Paradigm. <hi rend="italic">Digital
+                            Medievalist</hi> 4. <ref target="http://www.digitalmedievalist.org/journal/4/bodard/" type="external"
+                        >http://www.digitalmedievalist.org/journal/4/bodard/</ref>  (accessed March 9,
+                        2012).</p>
+                    <p><hi rend="bold">Cayless, H., Ch. Roueché, T. Elliott, and G. Bodard</hi>.
+                    (2009). Epigraphy in 2017. <hi rend="italic">Digital Humanities Quarterly</hi> 3
+                    (January 2009). <ref
+                        target="http://www.digitalhumanities.org/dhq/vol/3/1/000030.html"
+                        type="external">
+                        >http://www.digitalhumanities.org/dhq/vol/3/1/000030.html</ref> (accessed
+                    March 9, 2012).</p>
+                    <p><hi rend="bold">Robinson, P.</hi> (2010). Editing Without Walls. <hi
+                        rend="italic">Literature Compass</hi>, 7: 57-61. <ref
+                        target="http://dx.doi.org/10.1111/j.1741-4113.2009.00676.x" type="external"
+                        >http://dx.doi.org/10.1111/j.1741-4113.2009.00676.x</ref> (accessed March 9,
+                    2012).</p>
+                    <p><hi rend="bold">Sosin, J</hi>. (2010). ‘Digital Papyrology.’ Congress of the
+                    International Association of Papyrologists, Geneva, Switzerland. <ref
+                        target="https://exchange.tufts.edu/owa/redir.aspx?C=582e4a9690a04632b2997bc4c6836f47&amp;URL=http%3a%2f%2fwww.stoa.org%2farchives%2f1263"
+                        type="external">http://www.stoa.org/archives/1263</ref> (accessed March 12,
+                    2012).</p>
+                
+            </div>
+        </back>
+    </text>
+</TEI>

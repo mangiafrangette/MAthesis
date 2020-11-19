@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="../schema/xmod_web.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xmt="http://www.cch.kcl.ac.uk/xmod/tei/1.0" 
+     xml:id="ab-506">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Interfacing Diachrony: Visualizing Linguistic Change on the Basis of Digital Editions of Serbian 18th-Century Texts</title>
+                <author>
+                    <name>Tasovac, Toma</name>
+                    <affiliation>Center for Digtial HumanitiesBelgrade, Serbia</affiliation>
+                    <email>ttasovac@humanistika.org</email>
+                </author>
+                <author>
+                    <name>Ermolaev, Natalia</name>
+                    <affiliation>Program in Library and Information Science, Rutgers University, USA</affiliation>
+                    <email>n.ermolaev@rutgers.edu</email>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Jan Christoph Meister, Universität Hamburg</publisher>
+                <address>
+                   <addrLine>Von-Melle-Park 6, 20146 Hamburg, Tel. +4940 428 38 2972</addrLine>
+                   <addrLine>www.dh2012.uni-hamburg.de</addrLine>
+              </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>No source: created in electronic format.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2012-04-15</date>
+                <name>DH</name>
+                <desc>generate TEI-template with data from ConfTool-Export</desc>
+            </change>
+            <change>
+                <date>2012-04-13</date>
+                <name>LS</name>
+                <desc>provide metadata for publicationStmt</desc>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="paper">
+        <body>
+
+                <p>Analyzing, indexing and marking-up raw data and providing various types of
+                    annotations and metadata, named entities and other contextual information is
+                    essential for effective searching and retrieval of cultural heritage content
+                    (Borin et al.; Borin et al. 2007; Schreiber et al. 2008; Christopher 2011). With
+                    commercial search engines dominating our day-to-day interaction with information
+                    and framing our data access with non-transparent page-ranking mechanisms, it is
+                    especially important for institutions of learning and cultural preservation to
+                    use available technologies to encourage meaningful and profound engagement with
+                    digital content. In this respect, the interface must not only function as the
+                    frame for direct access and data retrieval, but also as the platform for the
+                    user’s cognitive, aesthetic and performative interaction with digital objects as
+                    such. DH projects, however, often approach interface design in a haphazard way,
+                    more as an afterthought than as an essential system component (Warwick et al.
+                    2008). They also tend to be dominated by task-oriented and efficiency-driven
+                    paradigms of machine engineering that disregard the performative nature of the
+                    interface as a reading space (Drucker 2011a, 2011b). </p>
+                <p>Ongoing research in digital humanities, human-computer interaction and interface
+                    design is focusing on ways to explore textual data by visualizing relations
+                    between different sets of data and identifying patterns such as word trends,
+                    named entities, collocations etc. (Bederson &amp; Schneiderman 2003; Unsworth
+                    2005; Don et al. 2007; Fry 2007; Greengrass &amp; Hughes 2008; Rockwell et al.
+                    2010). Collins (2010) has explored interactive interfaces that provide direct
+                    access to both the online natural language processes, such as statistical
+                    translation, keyword detection, and parsing, and the outcomes of sophisticated
+                    linguistic analysis. So far, however, no attempts have been made to visually
+                    link the user’s subjective experience of archaic texts with a graphic
+                    representation of diachronic changes in language. In this paper, we describe our
+                    design and development of an interface for representing and highlighting
+                    linguistic change on the basis of our annotated digital editions of Serbian
+                    18th-century literary texts (Tasovac &amp; Ermolaev 2011). We treat the
+                    interface not only as a dynamic framework for engaging with the text, but also
+                    as a ‘provocation to cognitive experience’ (Drucker 2011a: 9). </p>
+                <p>Unlike many European languages, which underwent relatively uninterrupted
+                    linguistic and cultural evolutions, the modern Serbian literary language, as
+                    codified by Vuk Stefanović Karadžić in the 19th century, was largely based on
+                    the vernacular of his time and had little in common with the literary standards
+                    of the previous epoch (<foreign>Ивић</foreign> 1990). As a consequence of this radical caesura,
+                    18th-century texts pose a formidable challenge to the modern reader who is
+                    unaccustomed to these archaic (Old Church Slavonic) and foreign (largely
+                    Russian) imprints (Albin 1970). That is why the Digital Library of Serbian
+                    Cultural Heritage of the 18th Century – a joint project of the Belgrade Center
+                    for Digital Humanities and the National Library of Serbia – employs a host of
+                    mark-up and annotating strategies to make these texts more accessible. The texts
+                    are encoded as a word-aligned corpus of TEI XML documents in two versions: one
+                    using traditional 18th-century orthography, including the graphemes that have
+                    since disappeared from Serbian, and one using modernized and standardized
+                    Serbian spelling that increases the legibility and, to a certain degree,
+                    searchability of these texts for modern users. Furthermore, the corpus contains
+                    lexical and semantic annotations that introduce a large number of modern-day
+                    equivalents to the largely archaic vocabulary of the corpus, as shown in the
+                    following table:</p>
+            
+            <table>
+                <row>
+                    <cell> Original orthography </cell>
+                    <cell> Modernized orthography </cell>
+                    <cell> Modern-day equivalent </cell>
+                    <cell> Type of change </cell>
+                </row>
+                <row>
+                    <cell> <foreign>богъ</foreign> </cell>
+                    <cell> <foreign>бог</foreign> </cell>
+                    <cell> <foreign>бог</foreign> </cell>
+                    <cell> orthographic </cell>
+                </row>
+                <row>
+                    <cell> <foreign>любовъ</foreign> </cell>
+                    <cell> <foreign>љубов</foreign> </cell>
+                    <cell> <foreign>љубав</foreign> </cell>
+                    <cell> phonetic </cell>
+                </row>
+                <row>
+                    <cell> <foreign>утѣшенїе</foreign> </cell>
+                    <cell> <foreign>утешеније</foreign> </cell>
+                    <cell> <foreign>утеха</foreign> </cell>
+                    <cell> morphological </cell>
+                </row>
+                <row>
+                    <cell> <foreign>благодѣтель</foreign> </cell>
+                    <cell> <foreign>благодетељ</foreign> </cell>
+                    <cell> <foreign>доброчинитељ</foreign> </cell>
+                    <cell> lexical </cell>
+                </row>
+                <row>
+                    <cell> <foreign>любезница</foreign> </cell>
+                    <cell> <foreign>љубезница</foreign> </cell>
+                    <cell> <foreign>драга</foreign> <foreign>особа</foreign> (<foreign>женског</foreign> <foreign>пола</foreign>) </cell>
+                    <cell> conceptual (term no longer lexicalized) </cell>
+                </row>
+            </table>
+            
+            <p>By applying basic techniques of cross-lingual information retrieval
+                    to a historical dimension of one language, and making provisions for multiple
+                    indexing and annotations, our project exposes a notoriously difficult chapter in
+                    the development of the Serbian language to a wider audience, without sacrificing
+                    the edition’s scholarly potential. The user can search the corpus not only using
+                    modern standardized spelling, but also the above-mentioned range of modern-day
+                    equivalents. This type of extended search, which results in a larger pool of
+                    data than a search based on original, non-standardized orthographic forms alone,
+                    has the potential of radically opening up the text for the modern reader and
+                    leading to discoveries of previously unnoticed thematic similarities and
+                    correspondences across different works and authors.</p>
+                <p>The interface is built dynamically using XQuery and advanced JavaScript on top of
+                the TEI XML files which are stored in the eXist database. We offer three basic views
+                of the text: a <hi rend="italic">static view</hi>, a <hi rend="italic">user-driven
+                    dynamic view</hi>, and the <hi rend="italic">system-driven dynamic view</hi>.
+                The <hi rend="italic">static view</hi> is the most basic: the user can choose to
+                read the text in either the original orthography (OO) or its modernized version
+                (MO). In either version, each word is also a hyperlink: clicking on a word reveals a
+                pop-up window which lists the form of the corresponding orthographic version as well
+                as the lexical or semantic annotation , when appropriate. In the static view, the
+                user can also choose to <hi rend="italic">juxtapose </hi>(place side by side), <hi
+                    rend="italic">interpolate </hi>(view line by line) or <hi rend="italic"
+                    >superimpose </hi>(merge and differentiate by means of color) the two
+                orthographic versions of the text. </p>
+                <p>The <hi rend="italic">user-driven dynamic view</hi> stresses the evolution of
+                linguistic change: it allows the reader to treat the original 18th-century text as a
+                temporal snapshot – a frozen expression of a certain time and age – that can be,
+                using the familiar UI device (slider) ‘updated’ (or ‘fast-forwarded’) to its other
+                more modern linguistic forms. The stages of transformation include: modernized
+                spelling that keeps the linguistic peculiarities of the original, phonetic changes
+                morphological changes, lexical changes and, finally, conceptual reformulations. Each
+                stage of transformation can be viewed separately or in combination with others. And
+                each change takes place inside the text by means of in-line animated transformations
+                of individual word forms. </p>
+                <p>Finally, the <hi rend="italic">system-driven dynamic view</hi> is the most
+                experimental: it creates a unique reading environment in which annotated words
+                change their linguistic form in-line, but each at its own, randomly assigned speed.
+                In this playful space, the linear reading act becomes predicated upon a chance
+                encounter with a traditional or modern form, an exercise in Benjaminian translation
+                (Benjamin 1972) where the site of alterity (in our case temporal alterity) quite
+                literally (and never in quite the same sequence of transformations) disturbs the
+                text’s imaginary stability. Reading becomes a performance in which the reader is
+                performing the text, and vice versa. </p>
+                <p>By providing these various visual interfaces in our Digital Library of Serbian
+                    Cultural Heritage of the 18th Century, we address for the first time in the
+                    framework of visual DH, the subjective perspective of the reader’s process of
+                    decoding archaic language. We treat the linguistic expression of the
+                    18th-century Serbian culture not as a stable and self-evident entity, but as a
+                    locus of meaning that can (and should) be transformed by the reader. While the
+                    interface provides access to systematic linguistic, cultural and historical
+                    annotations, it also creates an opportunity for playful interaction with the
+                    text as a space of linguistic and cultural mutability. </p>
+                <p>The more possibilities at a user’s disposal to engage with a digital cultural
+                    heritage object, the greater its impact will be at the levels of both individual
+                    and institutional experience. The framework of the Digital Library of Serbian
+                    18th-Century Texts can serve as a model for other smaller, lesser-resourced
+                    languages struggling with the quest to keep their cultural heritage alive after
+                    historical ruptures, linguistic caesuras, changes of alphabet etc.</p>
+            
+        </body>
+        <back>
+            <div>
+                <head>References</head>
+
+            <p><hi rend="bold">Albin, A.</hi> (1970). The Creation of the Slaveno-Serbski Literary
+                Language. <hi rend="italic">The Slavonic and East European Review</hi> 48(113):
+                483-91.</p>
+            <p><hi rend="bold">Bederson, B., and B. Schneiderman</hi> (2003). <hi rend="italic">The
+                        Craft of Information Visualization: Readings and Reflections.</hi> San
+                    Francisco, CA.: Morgan Kaufmann.</p>
+            <p><hi rend="bold">Benjamin, W.</hi> (1972). Die Aufgabe des Übersetzers. <hi
+                    rend="italic">Gesammelte Schriften IV/1</hi>, 9-21. Frankurt Main: Suhrkamp.</p>
+            <p><hi rend="bold">Borin, L., M. Forsberg, and D. Kokkinakis</hi> (2010). <hi
+                        rend="italic">Diabase: Towards a diachronic BLARK in support of historical
+                        studies</hi>. <ref
+                        target="http://spraakbanken.gu.se/personal/lars/pblctns/lrec2010-diabase.pdf"
+                        type="external"
+                        >http://spraakbanken.gu.se/personal/lars/pblctns/lrec2010-diabase.pdf</ref>.
+                    Accessed 15 March 2010.</p>
+            <p><hi rend="bold">Borin, L., D. Kokkinakis, and L.-J. Olsson</hi> (2007). Naming the
+                    past: Named entity and animacy recognition in 19th century Swedish literature.
+                        <hi rend="italic">Workshop on Language Technology for Cultural Heritage
+                        Data</hi>, pp. 1-8.</p>
+            <p><hi rend="bold">Christopher, A. (Cal) Lee</hi> (2011). A framework for contextual
+                information in digital collections. <hi rend="italic">Journal of Documentation</hi>
+                67(1): 95-143.</p>
+            <p><hi rend="bold">Collins, Ch. M.</hi> (2010). <hi rend="italic">Interactive
+                    Visualizations of Natural Language</hi>. University of Toronto.</p>
+            <p><hi rend="bold">Don, A., et al.</hi> (2007). Discovering Interesting Usage Patterns
+                in Text Collections: Integrating Text Mining With Visualization. <hi rend="italic"
+                    >Proceedings of the Sixteenth ACM Conference on Information and Knowledge
+                    Management</hi>, pp. 213-22.</p>
+            <p><hi rend="bold">Drucker, J.</hi> (2011a). Humanities Approaches to Interface Theory.
+                    <hi rend="italic">Culture Machine</hi>: 121-20.</p>
+            <p><hi rend="bold">Drucker, J.</hi> (2011b). Performative Materiality and Interpretative
+                Interface. <hi rend="italic">Digital Humanities 2011: Book of Abstracts</hi>, pp.
+                39-40.</p>
+            <p><hi rend="bold">Fry, B.</hi> (2007). V<hi rend="italic">isualizing Data: Exploring
+                    and Explaining Data With the Processing Environment. </hi>Sebastopol: O’Reilly
+                Media.</p>
+            <p><hi rend="bold">Greengrass, M., and L. Hughes, eds.</hi> (2008). <hi rend="italic"
+                    >The Virtual Representation of the Past. </hi>Aldershot Hants, England;
+                Burlington VT: Ashgate.</p>
+            <p><hi rend="bold">Rockwell, G., et al.</hi> (2010). Ubiquitous Text Analysis. <hi
+                    rend="italic">Poetess Archive</hi> 2(1): 1-19.</p>
+            <p><hi rend="bold">Schreiber, G., et al.</hi> (2008). Semantic annotation and search of
+                cultural-heritage collections: The MultimediaN E-Culture demonstrator. <hi
+                    rend="italic">Web Semantics: Science, Services and Agents on the World Wide
+                    Web</hi> 6(4): 243-49.</p>
+            <p><hi rend="bold">Tasovac, T., and N. Ermolaev</hi> (2011). Encoding Diachrony: Digital
+                Editions of Serbian 18th-Century Texts. <hi rend="italic">Lecture Notes in Computer
+                    Science</hi>, 6966497-500.</p>
+            <p><hi rend="bold">Unsworth, J.</hi> (2005). <hi rend="italic">New Methods for
+                    Humanities Research. The 2005 Lyman Award Lecture. November 11. National
+                    Humanities Center. Research Triangle Park, NC</hi>.
+                <ref target="http://www3.isrl.illinois.edu/~unsworth/lyman.htm" type="external">http://www3.isrl.illinois.edu/~unsworth/lyman.htm</ref>. Accessed June 10 2011.</p>
+            <p><hi rend="bold">Warwick, C., et al.</hi> (2008). If You Build It Will They Come? The
+                LAIRAH Study: Quantifying the Use of Online Resources in the Arts and Humanities
+                through Statistical Analysis of User Log Data. <hi rend="italic">Literary and
+                    Linguistic Computing</hi> 23(1): 85-102.</p>
+            <p><hi rend="bold"><foreign>Ивић</foreign>, <foreign>Милка</foreign></hi> (1990). <hi rend="italic"><foreign>О</foreign> j<foreign>езику</foreign> <foreign>Вуковом</foreign> <foreign>и</foreign>
+                        <foreign>вуковском</foreign></hi>. <foreign>Нови</foreign> <foreign>Сад</foreign>: <foreign>Књиж</foreign>. <foreign>за</foreign>j<foreign>едница</foreign> <foreign>Новог</foreign> <foreign>Сада</foreign>.</p>
+            </div>
+        </back>
+    </text>
+</TEI>

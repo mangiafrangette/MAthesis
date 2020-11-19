@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="../schema/xmod_web.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xmt="http://www.cch.kcl.ac.uk/xmod/tei/1.0" 
+     xml:id="ab-251">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Landscapes, languages and data structures: Issues in building the Placenames Database of Ireland</title>
+                <author>
+                    <name>Měchura, Michal Boleslav</name>
+                    <affiliation>Dublin City University, Ireland</affiliation>
+                    <email>mechrm@dcu.ie</email>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Jan Christoph Meister, Universität Hamburg</publisher>
+                <address>
+                   <addrLine>Von-Melle-Park 6, 20146 Hamburg, Tel. +4940 428 38 2972</addrLine>
+                   <addrLine>www.dh2012.uni-hamburg.de</addrLine>
+              </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>No source: created in electronic format.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2012-04-15</date>
+                <name>DH</name>
+                <desc>generate TEI-template with data from ConfTool-Export</desc>
+            </change>
+            <change>
+                <date>2012-04-13</date>
+                <name>LS</name>
+                <desc>provide metadata for publicationStmt</desc>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="paper">
+        <body>
+            <div>
+                <head>Introduction</head>
+                <p>The Placenames Database of Ireland is a bilingual database which records the
+                    official names in Irish and English of geographical objects on the island of
+                    Ireland. The database contains over 100,000 entries, is accessible to the public
+                    for free (<ref target="www.logainm.ie" type="external">www.logainm.ie</ref>) and serves around 150,000
+                    searches per month.</p>
+                <p>The public-facing website was launched in 2008 in the context of recently enacted
+                    legislation which gave more prominence to Irish-language placenames in the
+                    Republic of Ireland; for details on the legal and sociolinguistic situation of
+                    placenames in Ireland see Mac Giolla Easpaig (2008, 2009). For more insights
+                    into the history and role of placenames in Ireland, see Mac Mathúna (1990).</p>
+                <p>We will not attempt to describe the structure of the Placenames Database of
+                    Ireland holisticly here. Instead, we will concentrate on three sub-areas where
+                    interesting challenges have arisen. In many cases, the issues presented here are
+                    issues that have not been solved satisfactorily in our database yet, or a
+                    solution has not been implemented yet. In this sense, the paper is merely a
+                    discussion of issues rather than a catalogue of solutions.</p>
+            </div>
+            <div>
+                <head>Linguistic properties of placenames</head>
+                <p>Placenames databases differ in how much attention they pay to the linguistic
+                    properties of the names themselves, such as their gender, inflection and so on.
+                    Multilingual databases such as Geonames usually ignore such aspects completely.
+                    Smaller databases, however, often focus on only one or two languages and are
+                    conceived mainly as a <hi rend="italic">lexical</hi> database rather than a <hi
+                        rend="italic">geographic</hi> one. Linguistic properties relevant to
+                    placenames can be broadly subdivided into the following three areas.</p>
+                <p><hi rend="bold">Internal structure.</hi> Practically all placenames that consist
+                    of more than one word have an implicit internal structure, just like other
+                    linguistic expressions. Some aspects of this structure may need to be made
+                    explicit in a database. These include definite articles and other textual
+                    phenomena that get in the way of alphabetical sorting including initial
+                    mutations in Celtic languages; composite names such as <hi rend="italic"
+                        >Ballaghgowla and Froghan</hi>; and names with disambiguators such as <hi
+                        rend="italic">Black Lough (South)</hi>.</p>
+                <p><hi rend="bold">Combinatorial properties.</hi> These are linguistic properties
+                    relevant to how the placename interacts with the text in which it is being used
+                    and include language-specific features such as gender, grammatical number and
+                    inflection paradigms. In addition, the following combinatorial properties are
+                    relevant to placenames in particular: how the name can be combined with
+                    categorizers such as ‘town’ or ‘county’ (<hi rend="italic">Donegal <hi
+                            rend="italic">Town</hi></hi> but <hi rend="italic"><hi
+                            rend="italic">County</hi> Donegal</hi>); which locative prepositions
+                    are combined with the placename (<hi rend="italic"><hi rend="italic"
+                        >i</hi> nGaillimh</hi> ‘in Galway’ but <hi rend="italic"><hi
+                            rend="italic">ar</hi> an gCeathrú Rua</hi> ‘in Carrarow’, literally
+                    ‘on Carrarow’).</p>
+                <p><hi rend="bold">Lexical relations</hi> to other words in the language and to
+                    other placenames. The former include demonyms (terms for ‘people from’) and
+                    derived adjectives which are sometimes irregular. The latter include cases where
+                    one geographical object has been named after another, such as <hi rend="italic"
+                        >Ballybeg Road</hi> or <hi rend="italic">Lismore Terrace</hi>.</p>
+            </div>
+                <div>
+                    <head>Cross-linguistic issues</head>
+                <p>A separate cluster of issues stems from the fact that the Placenames Database of
+                    Ireland is bilingual. This does not seem to pose a challenge at first; the
+                    general principle is that every place has two names, one in each language, and
+                    this seems to call for a simple data structure: all we need is two text fields.
+                    However, that approach would fail to account for the following phenomena.</p>
+                <p><hi rend="bold">Borrowing and gaps. </hi>Sometimes, a place has the same name in
+                    both languages. An example is an area of Dublin called <hi rend="italic">Dún
+                        Laoghaire</hi>. This is an Irish name which is also used in English with
+                    unchanged spelling (but with anglicised pronunciation). An obvious solution
+                    would be to simply record <hi rend="italic">Dún Laoghaire</hi> twice, once as an
+                    Irish name and once as an English name. However, this is unsatisfactory as it
+                    fails to account for the fact that this name is not really <hi rend="italic">in
+                    </hi>English, it is merely <hi rend="italic">used </hi>in English.</p>
+                <p>On the other hand, in some strongly Irish-speaking areas, minor features such as
+                    crossroads, fields and wells only have Irish names and there are no known
+                    English names. One can only assume that if somebody needed to refer to such a
+                    place while speaking English, one would briefly code-switch into Irish to utter
+                    the name.</p>
+                <p>A fairly granular data structure is called for here, one that allows us to
+                    capture facts as to whether a name in a given language exists or not, whether
+                    the name <hi rend="italic">used </hi>in a given language is also a name <hi
+                        rend="italic">in</hi> that language, and whether the name has been borrowed
+                    from another language. </p>
+                <p><hi rend="bold">Anglicisation, translation and re-interpretation.</hi> Many
+                    English placenames in Ireland have been obtained from the original Irish names
+                    by a process of writing down an approximated pronunciation (<hi rend="italic"
+                        >Gaoth Dobhair</hi> -> <hi rend="italic">Gweedore</hi>). In other cases,
+                    when the English name was created first, the method used to coin the Irish name
+                    has often been translation, such as <hi rend="italic">Butler’s Bridge</hi> ->
+                        <hi rend="italic">Droichead an Bhuitléaraigh</hi>. In other cases still, the
+                    Irish and English names are independent coinages (example: <hi rend="italic"
+                        >Loch Garman/Wexford</hi>).</p>
+                <p>Translation is sometimes accompanied by re-interpretation. An example of this is
+                    an area of Dublin called <hi rend="italic">Barra an Teampaill/Temple
+                    Bar.</hi>The placename originated in English from the personal name <hi
+                        rend="italic">Temple</hi> but was later re-interpreted as the common noun
+                        <hi rend="italic">temple</hi> and hence the Irish name (literally ‘the bar
+                    of the temple’). Although based on a misunderstanding, it was decided to keep
+                    the Irish name as official because it is commonly used.</p>
+                <p>An ideal data structure would allow us to record these and other etymological
+                    relations between names of the same place in different languages. If such
+                    relations are explicated and annotated in the database, then we can not only
+                    provide better information to users but also extract interesting statistical
+                    observations about the relative proportion of these phenomena in the country’s
+                    body of placenames.</p></div>
+                    <div><head>Dealing with overlapping hierarchies</head>
+                <p>Most countries are subdivided into administrative units such as districts,
+                    provinces or counties. These units form a hierarchy and such hierarchies are
+                    deliberately designed as a <hi rend="italic">nested hierarchy</hi> to disallow
+                    overlapping and facilitate reasoning.</p>
+                <p>In Ireland, the situation is far from this computational ideal. The basic units
+                        (<hi rend="italic">counties -> baronies -> civil parishes -> townlands</hi>)
+                    may have originally been designed as a nested hierarchy but are no longer so
+                    because of boundary changes that have not been propagated up and down the
+                    hierarchy and because of the introduction of competing hierarchies which overlap
+                    with the traditional system.</p>
+                <p>The consequence when building a placenames database is that we must work with an
+                        <hi rend="italic">overlapping hierarchy</hi> where a child may have more
+                    than one parent. This complicates things; for example, reasoning is no longer
+                    always possible. If we know that A is in B and that B is in C1 and C2
+                    simultaneously, we can no longer infer whether A is in C1 or C2 or both. In
+                    fact, there is no way to know this other than by deriving it from a dataset of
+                    geographical boundaries, or by recording it explicitly.</p></div>
+                    <div><head>Place as an abstract concept</head>
+                <p>Consider the placename <hi rend="italic">Dún na nGall/Donegal</hi> which can be
+                    found in the north-west of Ireland. The question to ask is: how many places
+                    called <hi rend="italic">Dún na nGall/Donegal</hi> are there in this corner of
+                    Ireland? The answer will differ depending on one’s perspective. An outsider will
+                    see only one, a county of that name. A local inhabitant will probably see two,
+                    the county and its capital town of the same name. A local politician will
+                    probably see an electoral division of that name and also a town of that name
+                    with its town council. In total, there are five units called <hi rend="italic"
+                        >Dún na nGall/Donegal</hi> in that part of Ireland.</p>
+                <p>In our database, these are treated as separate objects which, as far as the
+                    database knows, only <hi rend="italic">happen</hi> to have the same name. That,
+                    however, is unsatisfactory as it fails to distinguish a case like this from
+                    cases such as the 19 places called <hi rend="italic">An Baile Mór</hi>
+                    (literally ‘the large town’) which can be found all over Ireland and which
+                    genuinely <hi rend="italic">happen </hi>to have the same name. Another reason
+                    why this is unsatisfactory is that it introduces a potential for inconsistency
+                    because data such as the Irish name’s grammatical information need to be
+                    recorded five times instead of once.</p>
+                <p>An ideal data structure would provide a way to connect several places to a single
+                    ‘abstract place’. The abstract place would contain all information common to the
+                    concrete places, such as names and historical citations, and these would then be
+                    inherited by the concrete places.</p></div>
+                    <div><head>Conclusion</head>
+                <p>Many of the issues illustrated here are inherently linguistic and stem from the
+                    fact that we conceive of our database as primarily a lexical database and only
+                    secondarily as a geographical database. A second cluster of issues is caused by
+                    the heritage of conflicting and overlapping administrative hierarchies and from
+                    the differences in perspective these hierarchies impose.</p></div>
+                
+        </body>
+        <back><div><head>References</head>
+                <p><hi rend="bold">A. Placenames databases</hi></p>
+                <p>Geonames: <ref target="http://www.geonames.org" type="external"
+                        >http://www.geonames.org/</ref></p><p>Placenames Database of Ireland:<ref
+                        target="http://www.logainm.ie/" type="external"
+                    >http://www.logainm.ie</ref></p>
+                <p><hi rend="bold">B. Literature</hi></p><p><hi rend="bold">Mac Giolla Easpaig,
+                        D.</hi> (2008). Placenames Policy and its Implementation. In Caoilfhionn Nic
+                    Pháidín, Seán Ó Cearnaigh (eds.), <hi rend="italic">A New View of the Irish
+                        Language</hi>. Dublin: Cois Life, pp. 164-177.</p><p><hi rend="bold">Mac
+                        Giolla Easpaig, D.</hi> (2009). Ireland’s heritage of geographical names.
+                        <hi rend="italic">Wiener Schriften zur Geographie und Kartographie</hi> 18:
+                    79-85.</p><p><hi rend="bold">Mac Mathúna, L.</hi> (1990). <hi rend="italic">Ár
+                        dTimpeallacht Logainmneacha: Inniu agus Amárach</hi> [our placenames
+                    environment: today and tomorrow]. Dublin: Coiscéim.</p>
+            </div>
+        </back>
+    </text>
+</TEI>

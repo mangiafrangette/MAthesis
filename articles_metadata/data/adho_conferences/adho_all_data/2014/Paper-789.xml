@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:x="http://www.w3.org/1999/xhtml" xmlns:exsl="http://exslt.org/common" xml:id="Paper-789">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Photogrammar: Organizing Visual Culture through Geography, Text Mining, and Statistical Analysis</title>
+        <author>
+          <name>
+            <surname>Tilton</surname>, <forename>Lauren</forename>
+          </name>
+          <affiliation>Yale University, United States of America</affiliation>
+          <email></email>
+        </author>
+        <author>
+          <name>
+            <surname>Leonard</surname>, <forename>Peter</forename>
+          </name>
+          <affiliation>Yale University, United States of America</affiliation>
+          <email></email>
+        </author>
+        <author>
+          <name>
+            <surname>Arnold</surname>, <forename>Taylor</forename>
+          </name>
+          <affiliation>Independent Scholar </affiliation>
+          <email></email>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority/>
+        <publisher>EPFL, Switzerland</publisher>
+        <distributor>
+          <name>EPFL Digital Humanities Laboratory</name>
+          <address>
+            <addrLine>GC D2 386</addrLine>
+            <addrLine>Station 18</addrLine>
+            <addrLine>CH-1015 Lausanne</addrLine>
+            <addrLine>frederic.kaplan@epfl.ch</addrLine>
+          </address>
+        </distributor>
+        <pubPlace>Lausanne, Switzerland</pubPlace>
+        <address>
+          <addrLine>EPFL</addrLine>
+          <addrLine>CH-1015 Lausanne</addrLine>
+        </address>
+        <availability>
+          <p/>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note type="abstract">The Photogrammar project examines the "Farm Security Administration – Office of War Information" dataset of over 170,000 monochrome and colour photographs, commissioned between 1935 and 1945 by the government of the United States of America. The subject of a successful Digital Humanities Start-Up Grant from the US National Endowment for the Humanities, the project seeks to answer research questions that emerged from scholars at Yale University. Our paper will focus on three Digital Humanities techniques that we have used to analyze the corpus: 1) Geospatial: Computational derivation of latitude and longitude; 2) Text Mining: Vector-space analysis to expose thematic similarity; and 3) Statistical Analysis: Contextual inference to “re-discover” missing metadata.</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>No source: created in electronic format.</p>
+        <p>
+          <date when="20140709"/>
+          <time when="09:00:00"/>
+        </p>
+		<p n="session">1</p>
+		<p n="room">321 - Amphipôle</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="original" n="category">
+          <term>Paper</term>
+        </keywords>
+        <keywords scheme="original" n="subcategory">
+          <term>Long Paper</term>
+        </keywords>
+        <keywords scheme="original" n="keywords">
+          <term>photography</term>
+          <term>american studies</term>
+          <term>geospatial</term>
+          <term>open source</term>
+          <term></term>
+        </keywords>
+        <keywords scheme="original" n="topic">
+          <term>archives</term>
+          <term>repositories</term>
+          <term>sustainability and preservation</term>
+          <term>art history</term>
+          <term>geospatial analysis</term>
+          <term>interfaces and technology</term>
+          <term>metadata</term>
+          <term>interdisciplinary collaboration</term>
+          <term>cultural studies</term>
+          <term>crowdsourcing</term>
+          <term>maps and mapping</term>
+          <term>spatio-temporal modeling</term>
+          <term></term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text type="paper">
+    <front>
+      
+      <div>
+        <p></p>
+        <p></p>
+        <p></p>
+      </div>
+    </front>
+    <body>
+      <div>
+        
+        <p>The <hi rend="italic">Farm Security Administration – Office of War Information photographic datase</hi>t is a
+collection of over 170,000 monochrome and colour photographs, commissioned between 1935
+and 1945 by the government of the United States of America. Offering a unique snapshot of the
+nation during the period, it serves as an important visual record for scholars and the
+public­at­large. The FSA­OWI photographic archive has been digitized by United States Library
+of Congress, and because the photographs were taken on behalf of the United States
+Government, access to and use of the collection is essentially free and open.
+</p>
+        <p>Under the direction of Professor Laura Wexler, (American Studies and Women, Gender &amp;
+Sexuality Studies, Yale University), the Photogrammar project takes the conditions of this
+archive (pre­digitized and publicly accessible) as the starting point for a digital, scholarly and
+open source platform that builds upon, and significantly extends, the Library of Congress’ online
+collection. The subject of a successful Digital Humanities Start­Up Grant from the United States
+National Endowment for the Humanities, the project seeks to answer research questions that
+emerged from scholars at Yale University. Our paper will focus on three Digital Humanities
+techniques that we have used to analyze the corpus:
+</p>
+        <p><hi rend="bold">Geospatial</hi>: Computational derivation of latitude and longitude;
+</p>
+        <p><hi rend="bold">Text Mining</hi>: Vector­space analysis to expose thematic similarity;
+</p>
+        <p><hi rend="bold">Statistical Analysis</hi>: Contextual inference to “re­discover” missing metadata.
+</p>
+        <p>Each of these techniques is associated with significant information gain, relative to the previous
+state of scholarship on the corpus:
+</p>
+        <p><hi rend="bold">Geographic</hi>: The collection is often characterized as being about the dust bowl and rural
+poverty in the American south during the Great Depression. In fact, by mapping the photographs
+and analyzing photograph density at the county level by year, the popular characterization of the
+FSA­OWI does not hold. Rather, the scope of sight was much broader including a large focus on
+the United States Northeast and Midwest, as well as photographs beyond the continental United States such as the Virgin Islands and Europe.</p>
+        <p><hi rend="bold">Text Mining</hi>: The 1940s ontology of the collection only allowed a photograph to be classified in
+one category at once. By looking at latent patterns in the free­form textual descriptions, we are
+able to surface photographs that participate in multiple and overlapping clusters. In this way, we
+can discover thematic similarity between the work of several different photographers, active at
+different times and in different places in the country (and around the world). This approach
+reflects a more general turn towards ‘latent’ patterns in unstructured data within the archive.
+</p>
+        <p><hi rend="bold">Statistical Analysis</hi>: The relatively large scale of the collection (available as both digitized
+negatives and physical prints) as well as constantly changing organizational systems through
+the years has unfortunately left a majority of the negatives with minimal documentation. Utilizing
+latent metadata attached to the photographs, we are able to take individual photographs and to
+put them back into strips of four and five. In turn, this allowed for us to insert new metadata into
+the photographs. For example, if a frame with an unknown photographer and location is between
+photos by John Vachon in Chicago, then we know the unknown frame is by this photographer in
+this location. We will discuss the statistical methods applied using R.
+</p>
+        <p>These three techniques open up new questions about this collection and historic period, and
+challenge previous scholarship. We believe the Photogrammar project can serve as one
+example of the general question of how to engage with large­scale digital archives of visual
+culture. This question is of particular importance for scholars who seek to bring Digital
+Humanities techniques to “Big Data” collections, whether those curated by libraries, museums,
+or scholars themselves. We anticipate both similarities — and important differences — with
+European archives of the same period, including the UK Mass Observation Archive
+(1937­1960s), and forthcoming collections hosted by Europeana Online.
+</p>
+        <p>In addition, we will discuss how this project offers a new, user­friendly way to access a visual
+archive of this size by sitting at the intersection of <hi rend="italic">public</hi> and <hi rend="italic">digital</hi> humanities. We will discuss
+the ways in which we intend to open up the collection to contributions from the public at large,
+with lessons learned from previous attempts to crowdsource metadata for this collection (Flickr
+Commons / New York Public Library 20084, Flickr Commons Library of Congress 20095). We
+will show a prototype of a publically­accessible Geographic Referencer, to allow end users to
+more accurately and appropriately locate photographs on both current and historic maps. And
+we will discuss some of the challenges in incorporating crowd­sourced metadata corrections
+into a historic archive, while preserving the integrity and historic character of a large visual
+collection. </p>
+     
+       
+      </div>
+    </body>
+    <back>
+      <div type="References">
+        <listBibl>
+          <bibl>http://www.loc.gov/pictures/collection/fsa/</bibl>
+          <bibl>http://www.loc.gov/rr/print/res/071_fsab.html</bibl>
+          <bibl>http://americanstudies.yale.edu/faculty/laura­wexler </bibl>
+          <bibl>http://www.flickr.com/photos/nypl/sets/72157610969038056/</bibl>
+          <bibl>http://www.flickr.com/photos/library_of_congress/sets/72157618541455384/ </bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

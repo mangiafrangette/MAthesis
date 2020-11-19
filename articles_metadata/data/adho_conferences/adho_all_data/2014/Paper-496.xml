@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:x="http://www.w3.org/1999/xhtml" xmlns:exsl="http://exslt.org/common" xml:id="Paper-496">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Leaves of Grass: Data Animation and XML Technologies</title>
+        <author>
+          <name>
+            <surname>Barney</surname>, <forename>Brett</forename>
+          </name>
+          <affiliation>University of Nebraska-Lincoln</affiliation>
+          <email>bbarney2@unl.edu</email>
+        </author>
+        <author>
+          <name>
+            <surname>Pytlik Zillig</surname>, <forename>Brian</forename>
+          </name>
+          <affiliation>University of Nebraska-Lincoln</affiliation>
+          <email>brian.pytlikzillig@gmail.com</email>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority/>
+        <publisher>EPFL, Switzerland</publisher>
+        <distributor>
+          <name>EPFL Digital Humanities Laboratory</name>
+          <address>
+            <addrLine>GC D2 386</addrLine>
+            <addrLine>Station 18</addrLine>
+            <addrLine>CH-1015 Lausanne</addrLine>
+            <addrLine>frederic.kaplan@epfl.ch</addrLine>
+          </address>
+        </distributor>
+        <pubPlace>Lausanne, Switzerland</pubPlace>
+        <address>
+          <addrLine>EPFL</addrLine>
+          <addrLine>CH-1015 Lausanne</addrLine>
+        </address>
+        <availability>
+          <p/>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note type="abstract">Because Whitman applied the title “Leaves of Grass” to more than ten distinctly different volumes, the goal of accurately tracing the book’s evolution has frustrated scholars. We have begun to experiment with distant reading strategies that provide views different from those offered by traditional critical opproaches. Such tools can begin to offer ways to assay and quantify some of the critical commonplaces that have grown up around Whitman’s masterwork. We have also been experimenting with a new way of visualizing textual phenomena and have created Indigo, an experimental XSLT-based tool to generate animated videos. Our experiment is in keeping with Whitman’s theories, in which “the reader . . . must himself or herself construct indeed the poem . . . .” In representing the literary work as an absorbing performance that comprises both "data" and "art," our work is, in the terms of Jerome McGann and Lisa Samuels, an act of “interpretive deformance.”</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>No source: created in electronic format.</p>
+        <p>
+          <date when="20140709"/>
+          <time when="13:45:00"/>
+        </p>
+		<p n="session">3</p>
+		<p n="room">321 - Amphipôle</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="original" n="category">
+          <term>Paper</term>
+        </keywords>
+        <keywords scheme="original" n="subcategory">
+          <term>Long Paper</term>
+        </keywords>
+        <keywords scheme="original" n="keywords"/>
+        <keywords scheme="original" n="topic">
+          <term>audio</term>
+          <term>video</term>
+          <term></term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text type="paper">
+    <front>
+      
+      <div>
+        <p></p>
+        <p></p>
+      </div>
+    </front>
+    <body>
+      <div>
+        
+        <p>Walt Whitman’s <hi rend="italic">Leaves of Grass</hi> is one of the most famous and often-studied works of American
+literature. In the century since Van Wyck Brooks declared Whitman the
+originator of “the sense of something organic in American life”—the first to
+combine high art and rude experience—Whitman’s masterwork has been thoroughly
+digested into a series of critical truisms that gives even new readers of the poems
+a sense of familiarity. Whether we have his poems committed to memory or have
+never actually read one of them, we “all know” that Whitman eschewed
+traditionally poetic diction, that his is a poetry of inclusiveness, that the
+first edition of his text in 1855 is more daring, lively, and experimental than
+later editions, etc. </p>
+        <p>Such axioms are comforting in the face of what is on many
+levels a difficult text (actually, a set of texts) to assimilate. Because
+Whitman applied the title “Leaves of Grass” to more than ten distinctly
+different volumes over the course of three and a half decades—not only adding
+poems but also retitling, cancelling, drastically revising, combining, and
+re-grouping existing ones—the goal of accurately tracing the book’s evolution
+has consistently frustrated scholars. Recognizing that “for the reader to
+understand how <hi rend="italic">Leaves of Grass</hi> grew
+from edition to edition, some sense had to be made of these often bewildering
+textual permutations,” a group of late-twentieth century scholars labored for
+over a decade to produce a variorum edition, a tremendous accomplishment that
+has, unfortunately, done little to alleviate the bewilderment of permutations. </p>
+        <p>The hope that digital technologies might offer a way, at
+last, to lucidly represent the various stages in the evolution of Leaves of Grass was one of the early motivations
+for the creators of the <hi rend="italic">Whitman Archive</hi>
+in the late 1990s. We have often revisited the question of how to convey
+visually the information represented in the arcane coding of the 3-volume print
+variorum and inherent in the separate digitized editions. Nearly two decades
+later, however, we haven’t made much progress. </p>
+        <p>Though they cannot provide the kind of detailed, objective
+understanding that might be conveyed by the schematic, interactive interfaces
+that we’ve sometimes (very hazily) imagined—ones that somehow collate whole
+texts, poems, lines, and phrases—we have begun to experiment with distant
+reading strategies that provide a different sort of view. So while collation
+tools do not cope well with the scope of transformation involved in Whitman’s
+reworking the first edition’s 10,000-word prose preface into the 4,000-word
+poem “By Blue Ontario’s Shore,” text analysis tools such as Voyant offer a
+number of potentially enlightening prospects on the two works and their
+relationship. </p>
+        <p>Likewise, such tools can begin to offer ways to assay and
+          quantify some of the critical commonplaces that have grown up around <hi rend="italic">Leaves of Grass</hi>: Is Whitman’s diction,
+in fact, innovative and what makes it so? How do Whitman’s early poems compare to
+his later poems? What basis might be found for claims that Whitman is the great
+poet of America, women, the body, male homoeroticism, or democracy?</p>
+        <p>At the University of Nebraska–Lincoln's Center for Digital
+Research in the Humanities we have been experimenting with a new way of
+visualizing phenomena in TEI corpora and have created Indigo, an experimental
+XSLT-based tool that queries TEI files and generates animated videos of the
+results. Using XPath and XQuery techniques, this tool makes it possible to ask
+specific or general questions of a corpus. The data are then output as scalable
+vector graphic (SVG) files that are converted to raster images and rendered in
+high definition H.264 video at 30 frames per second. At its core, Indigo is a
+program for performing scripted stop-motion animation, arranged in one or more
+scenes. What each scene contains is up to the user: it might include letters,
+numbers, shapes, colors, gradients, patterns, lines, paths, or imported raster
+images, each moving or not moving. The only requirement is that a scene must be
+modeled in XSLT, with SVG structures as the initial output. For the user
+wishing to visualize aspects of TEI text corpora, the news is good, for that format
+shares membership with XSLT and SVG in the XML ecosystem. Indigo provides a
+method for presenting, in fresh and unexpected ways, quantitative data relevant
+to scholarly questions in a way that is open-ended, making the user a
+co-creator with Whitman in the “meaning” of his texts. </p>
+        <p>
+
+Our experiment involves such activities as creating quantitive analyses of some of the linguistic characteristics of Whitman's poetic corpus, comparing them to those of some of his popular contemporaries, and then "presenting" the results as a video sequence. Such a procedure is admittedly outside the mainstream of critical methodology in the humanities, but it is entirely in keeping with
+Whitman’s own theories of the proper relationships among authors, readers, and
+texts. “The process of reading,” he said, “is not a half-sleep, but, in highest
+sense, an exercise, a gymnast’s struggle; . . . the reader is to do something
+for himself, . . . must himself or herself construct indeed the poem, argument,
+history, metaphysical essay—the text furnishing the hints, the clue, the start
+or frame-work.”<ref target="n1" rend="sup">1</ref></p>
+        <p>As Tanya Clement has recently observed, "sometimes the
+view facilitated by digital tools generates the same data human beings . . .
+could generate by hand, but more quickly," and sometimes "these
+vantage points are remarkably different . . . and provide us with a new
+perspective on texts."<ref target="n2" rend="sup">2</ref> And as Dana Solomon has written, "due in large
+part to its often powerful and aesthetically pleasing visual impact, relatively
+quick learning curve … and overall 'cool,' the practice of visualizing textual
+data has been widely adopted by the digital humanities."<ref target="n3" rend="sup">3</ref></p>
+        <p>In representing the literary work as an absorbing
+performance, one that comprises both "data" and "art," the
+method we are presenting is calculated to provoke responses in both
+informational and aesthetic registers. It is, in the terms of Jerome McGann and
+Lisa Samuels, an act of “interpretive deformance,” whereby “we are brought to a
+critical position in which we can imagine things about the text that we didn’t
+and perhaps couldn’t otherwise know.”<ref target="n4" rend="sup">4</ref></p>
+        
+        
+      </div>
+    </body>
+    <back>
+      <div type="References">
+        <listBibl>
+          <bibl>1. <hi rend="bold">Whitman, Walt</hi> (1892). <hi rend="italic">Democratic Vistas</hi> in Complete Prose Works, (Philadelphia: David McKay), p. 257.
+          </bibl>
+          <bibl>2. <hi rend="bold">Clement, T</hi> (2013). <hi rend="italic">Text Analysis, Data Mining, and Visualizations in Literary Scholarship</hi> in Literary Studies in the Digital Age: An Evolving Anthology (eds., Kenneth M. Price, Ray Siemens). Modern Language Association.
+          </bibl>
+          <bibl>3. <hi rend="bold">Solomon, D.</hi> (2013). <hi rend="italic">Building the Infrastructural Layer: Reading Data Visualization in the Digital Humanities.</hi> MLA 2013 Conference Presentation. url: <ref type="url" target="http://danaryansolomon.wordpress.com/2013/01/08/mla-2013-conference-presentation-from-sunday-162013/">danaryansolomon.wordpress.com/2013/01/08/mla-2013-conference-presentation-from-sunday-162013/</ref>
+          </bibl>
+          <bibl>4. <hi rend="bold">McGann, Jerome and Lisa Samuels.</hi> <hi rend="italic">Deformance and Interpretation</hi> url: <ref type="url" target="http://www2.iath.virginia.edu/jjm2f/old/deform.html">www2.iath.virginia.edu/jjm2f/old/deform.html</ref>
+          </bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

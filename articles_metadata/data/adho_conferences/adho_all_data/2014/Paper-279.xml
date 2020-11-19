@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:x="http://www.w3.org/1999/xhtml" xmlns:exsl="http://exslt.org/common" xml:id="Paper-279">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Collaboratively maximizing inter-ontology agreement for controversial domains: A case study of Jewish cultural heritage</title>
+        <author>
+          <name>
+            <surname>Zhitomirsky-Geffet</surname>, <forename>Maayan</forename>
+          </name>
+          <affiliation>Information Science Dept., Bar-Ilan University</affiliation>
+          <email>maayan.geffet@gmail.com</email>
+        </author>
+        <author>
+          <name>
+            <surname>Erez</surname>, <forename>Eden Shalom</forename>
+          </name>
+          <affiliation>Computer Science Dept., Bar-Ilan University</affiliation>
+          <email>tempeden@walla.com</email>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority/>
+        <publisher>EPFL, Switzerland</publisher>
+        <distributor>
+          <name>EPFL Digital Humanities Laboratory</name>
+          <address>
+            <addrLine>GC D2 386</addrLine>
+            <addrLine>Station 18</addrLine>
+            <addrLine>CH-1015 Lausanne</addrLine>
+            <addrLine>frederic.kaplan@epfl.ch</addrLine>
+          </address>
+        </distributor>
+        <pubPlace>Lausanne, Switzerland</pubPlace>
+        <address>
+          <addrLine>EPFL</addrLine>
+          <addrLine>CH-1015 Lausanne</addrLine>
+        </address>
+        <availability>
+          <p/>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note type="abstract">Ontologies are widely employed as formal shared vocabularies for many domains of knowledge. However, for some domains there is a variety of ontologies instead of one standard vocabulary. These ontologies are typically quite semantically diverse since they were constructed by different experts who possess contrary viewpoints on the domain. Reaching consensus and maximizing the agreement between the diverse ontologies constitutes a big research challenge, especially for controversial domains, such as cultural heritage. The goal of this research is to explore ways for maximizing inter-ontology agreement. We proposed a collaborative scheme for user evaluation of ontological relations. Our experimental results, based on the devised local and global agree-ment measures, show that collaborative evaluation can significantly improve the agreement between ontologies. Furthermore, despite the diversity of viewpoints, based on these evaluation scores most of the consensual truthful relations can be revealed and unified into one standard vocabulary.</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>No source: created in electronic format.</p>
+        <p>
+          <date when="20140709"/>
+          <time when="09:00:00"/>
+        </p>
+		<p n="session">1</p>
+		<p n="room">415 - Amphimax</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="original" n="category">
+          <term>Paper</term>
+        </keywords>
+        <keywords scheme="original" n="subcategory">
+          <term>Short Paper</term>
+        </keywords>
+        <keywords scheme="original" n="keywords">
+          <term>ontology matching</term>
+          <term>agreement between ontologies</term>
+          <term></term>
+        </keywords>
+        <keywords scheme="original" n="topic">
+          <term>ontology construction</term>
+          <term>ontology matching</term>
+          <term></term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text type="paper">
+    <front>
+      
+      <div>
+        <p></p>
+        <p></p>
+      </div>
+    </front>
+    <body>
+      <div>
+        
+        <p>Ontology
+is a semantic scheme which comprises the main classes (concepts) of the given
+domain of knowledge, their properties, inter-relationships and instances <ref target="n1" rend="sup">1</ref>. The basic ontological relationship types are IS-A
+(hyponymy) and instance-of (a concrete type-of) which are the basis of the
+conceptual taxonomy, and other thesauri-like (e.g. "part-of", "related-to")
+or content-driven relationships (e.g. "located-at",
+"produced-by") are allowed as well. One of the standards for formal
+encoding of ontologies is RDF (Resource Description Framework) <ref target="n2" rend="sup">2</ref>. RDF-based
+knowledge representation consists of triples (relations) of the form: (concept1
+– relationship type – concept2). For example, in the domain of Jewish cultural
+heritage the following relations could be included in the ontology: (Passover
+IS-A Jewish Holiday), (Holiday part-of Cultural Heritage), (Orthodox Jew preserves
+Jewish Tradition). Every triple corresponds to a certain statement or fact
+on the domain. </p>
+        
+        <p>Nowadays, ontologies are widely used as a formal
+domain vocabulary for content-specific agreements in a variety of
+knowledge-sharing activities, such as, information organization, retrieval and
+tagging <ref target="n3" rend="sup">3</ref>. However, in the current state of the Semantic Web for
+many domains there are multiple diverse ontologies rather than one standard
+vocabulary. This is due to the fact that they are typically constructed by
+different experts who often possess contrary viewpoints especially in cases of
+controversial domains. These domains include cultural heritage,
+economy, politics, history, religion, art and even medicine. Apparently, when using several ontologies in a common
+application, mismatches can create incoherent results for the users. Therefore,
+reaching maximal agreement between these ontologies is necessary to standardize
+and unify the domain vocabulary. Hence, building unified consensual ontologies has
+become a big research challenge. </p>
+        
+        <p>The objective of this work is to explore ways to maximize
+the inter-ontology agreement for controversial domains. Particularly, we
+experimented with the case of the Jewish life style domain which comprises cultural,
+religious and political aspects. We also aim to explore whether it is possible
+to identify consensual ontological relations from diverse ontologies and construct
+a maximal subset of consensual vocabulary for the controversial domain. </p>
+        <head>
+          <hi rend="bold">Research Methodology</hi>
+        </head>
+        <p>
+
+ 
+
+To overcome the semantic heterogeneity problem in
+ontologies a variety of ontology matching
+algorithms were presented in the past decade <ref target="n4" rend="sup">4</ref> , <ref target="n5" rend="sup">5</ref>. These systems
+usually focus on mapping individual concepts (and/or their taxonomic
+structures) of one ontology to similar concepts in the other one. However, the level
+of inter-ontology agreement assessed by the automated approaches is limited by
+the following major factors: </p>
+        
+        <list type="ordered">
+          <item>The algorithm's ability to recognize semantically similar
+concepts, which are frequently conveyed by different terms;</item>
+          <item>Matching of isolated concepts which does not reveal
+the maximal potential for semantic similarity of ontologies unless all the
+direct and indirect relations (triples) binding these concepts can be consistently
+matched as well. </item>
+          <item>The low overlap between the explicit terminologies
+of diverse ontologies (for both, concepts and relations) due to the viewpointdiversity of their composers (especially for controversial domains). </item>
+        </list>
+        <head>
+
+ 
+
+</head>
+        <p>Some partial solutions were lately proposed in the
+literature. Thus, in order to reduce the impact of the first factor, a recent
+study by <ref target="n6" rend="sup">6</ref>  proposed to employ "wisdom of crowds" for detecting
+similar concepts in two different ontologies. To resolve the second limitation,
+similarity between ontologies should be computed for relations rather than for
+individual concepts, as implemented by <ref target="n7" rend="sup">7</ref>. He counted exactly and
+partially matching triples from a pair of given ontologies. This methodology is
+adopted in the current research which further focuses on matching relations rather
+than individual concepts. However, the third and the most crucial factor, a
+relatively small amount of common relations, still remains unresolved.</p>
+        <p>
+
+ 
+
+
+
+ 
+
+The main question is how to reveal and assess the
+potential maximal agreement between ontologies despite the low overlap between
+them. The essence of this problem is the underlying
+assumption that relations, which are present in one ontology, but are missing
+from the other ontology, are automatically considered as unmatched and increase
+the ontology disagreement level. Nevertheless, it can be observed that if the
+ontology composer did not choose to add a relation to his personal ontology, it
+is unclear whether he agrees or disagrees with the truth of this relation. To this end, we introduce a new collaborative approach
+where independent ontology composers can explicitly express their opinions on
+the others' relations. Thus, after completing the construction of their own
+ontologies the participants are exposed to the relations of the others and are
+asked to decide for each of them whether it is true or false. Then, the
+"real" exhaustive inter-ontology agreement can be calculated based on
+these votes rather than by counting the common relations in the original
+ontologies. </p>
+        
+        <p>We distinguish between two levels of ontology
+agreement:</p>
+        
+        <list type="unordered">
+          <item>The <hi rend="italic">local </hi>agreement between a pair of ontologies that can be calculated
+as follows:</item>
+        </list>
+        
+        <figure>
+          <graphic url="DH2014_32_laformula"/>
+          <p>Fig. 1: The local agreement measure</p>
+        </figure>
+        <head>
+
+ 
+
+</head>
+        <list type="unordered">
+          <item>The <hi rend="italic">global </hi>agreement definition between all the ontologies for the domain:<figure><graphic url="DH2014_32_gaformula"/><p>Fig. 2: The global agreement measure</p></figure></item>
+        </list>
+        
+        <p>These relations constitute the consensual part of the ontologies. The other relations will be considered as controversial. The threshold descriminating the consensual and controversial relations can be computed by applying machine classification on the composer's votes as features for each relation as described in the next section. </p>
+        <head>
+
+ 
+
+</head>
+        <head>
+          <hi rend="bold">Experimental Setting and Results</hi>
+        </head>
+        
+        <p>Based on
+the above collaborative scheme for relation evaluation we conducted an
+experiment with 21 ontology composers (students of the Semantic web course in Information
+Science Department). At the first step, the group has chosen a set of 130
+concepts which are the most representative of the domain of Jewish life style.
+Then, every participant was required to construct up to 100 RDF-style triples
+(relations) with the above concepts and a set of 15 predefined relationships
+(such as, IS-A, instance-of, part-of, disjoint-with, entails, located-at, antonym-of)
+independently from the other members of the group. The relations were inserted
+into the web-based system implemented for this purpose. Further, each one of
+1175 distinct ontological relations, created by all the participants at the first
+step, was consecutively displayed by the system and independently evaluated as
+true or false by every participant of the group. The analysis of the results
+shows that the initial local agreement between the diverse ontologies (the <hi rend="italic">CR component of the measure</hi>) was very
+low (0-22%) reflecting the controversity of the domain. This is despite the fact that all the participants used the similar
+set of concepts and relationships for relation construction. The exhaustive local inter-ontology agreement assessed after applying the collaborative evaluation procedure
+appears to be much higher (39-90%), as demonstrated in Fig. 3. Thus, our
+collaborative scheme substantially enhances the local agreement level between ontologies.</p>
+        <figure>
+          <graphic url="DH2014_32_localagreement"/>
+          <p>Fig. 3: The local agreement rates computed by the amount of overlapping relations in the original ontologies as a baseline (the blue skew) vs. by the votes after applying the collaborative evaluation procedure (the red skew). Axis X represents pairs of different ontologies in our corpus. </p>
+        </figure>
+        <p>To create a golden standard evaluation required for the global agreement calculation, two experts were asked to annotate all the statements as correct (ground truth) or controversial (depending on one's personal beliefs). First, they worked independently and then reached full consensus through a discussion. Overall, 885 (out of 1175) relations were judged as correct facts (TRgoldstandard), and 290 as controversial viewpoints. For example, the correct relations (like, Passover – is-a – Jewish holiday; Reform Jew – disjoint-with – Orthodox Jew; Western Wall – located-in – Jerusalem) are expected to obtain the large majority of agreement ("true") votes in the collaborative procedure, while the controversial relations (such as, Ultra-Orthodox Jew – resists – Scientific progress; God – created – Universe; Bible – written by – Man) are supposed to gain intermediate scores for both agreement ("true") and disagreement ("false") voting categories. </p>
+        <p>The |<hi rend="italic">TRoverlap</hi>|<hi rend="italic"> </hi>component needed for the global agreement calculation was rather low 29% (232 out of 885) even with the threshold of 2,  as only 256 relations appeared in at least two ontologies. 919 (almost
+80%) of the relations appeared in one
+out of 21 ontologies), while only one relation was present in 9 out of 21 ontologies.
+ </p>
+        <p>Then, in
+order to estimate the global agreement after applying the collaborative evaluation
+procedure, we utilized the WEKA environment <ref target="n8" rend="sup">8</ref> to choose the optimal machine
+classification algorithm. Eventually,
+the best 10-cross validation results were achieved by the Multilayer Perceptron
+algorithm which yielded 90%
+average accuracy. As a result |<hi rend="italic">TRcollaborativevoting</hi>| of 876 was obtained. Interestingly, all 232 relations of <hi rend="italic">TRoverlap </hi>were included in <hi rend="italic">TRcollaborativevoting</hi>. Overall, 99% of the correct relations according to the golden standard
+were classified as correct by the automatic classifier. The classifier used as features the true and false voting scores. Most of the errors
+in classification were controversial relations probably reflecting some common
+viewpoint among the members of the group. So in the future research we intend
+to conduct crowdsourcing microtask-based experiment (like in <ref target="n9" rend="sup">9</ref>) with a much larger
+number of participants.</p>
+        <p>In summary, our
+collaborative method significantly increases the baseline agreement that can be
+achieved manually or automatically from the explicitly overlapping/matching
+relations. This methodology further leads to construction of a reliable large
+consensual ontology for controversial domains which seem impossible to achieve
+from the small overlap of the original ontologies. </p>
+      </div>
+    </body>
+    <back>
+      <div type="References">
+        <listBibl>
+          <bibl>1. <hi rend="bold">Noy, N.F. &amp; McGuinness, D.L.</hi> (2001). <hi rend="italic">Ontology Development 101: A Guide to Creating Your First Ontology</hi>. Technical Report KSL-01-05, Stanford Knowledge Systems Laboratory and Stanford Medical Informatics Technical Report SMI-2001-0880, Publisher: Citeseer, (pp. 1-25) doi: 10.1.1.136.5085
+          </bibl>
+          <bibl>2. <hi rend="bold">Hayes, P. and B. McBride</hi>. RDF Semantics. W3C Recommendation: <ref type="url" target="http://www.w3.org/TR/2004/REC-rdf-mt-20040210/">www.w3.org/TR/2004/REC-rdf-mt-20040210/</ref> (2004 last accessed July 2013).
+          </bibl>
+          <bibl>3. <hi rend="bold">Gruber, T. R.</hi> (1993). <hi rend="italic">Toward principles for the design of ontologies used for knowledge sharing</hi>. International Journal of Human-Computer Studies, 43(5-6), 907-928. Retrieved from <ref type="url" target="http://itee.uq.edu.au/~infs3101/_Readings/OntoEng.pdf">itee.uq.edu.au/~infs3101/_Readings/OntoEng.pdf</ref>
+          </bibl>
+          <bibl>4. <hi rend="bold">Shvaiko P. and J. Euzenat</hi> (2013). <hi rend="italic">Ontology matching: state of the art and future challenges</hi>. IEEE Transactions on Knowledge and Data Engineering, 25(1): 158-176.
+          </bibl>
+          <bibl>5. <hi rend="bold">Flouris G., Manakanatas D., Kondylakis H., Plexousakis D. and G. Antoniou</hi> (2008). <hi rend="italic">Ontology change: classification and survey</hi>. The Knowledge Engineering Review, 23(2), 117–152.
+          </bibl>
+          <bibl>6. <hi rend="bold">Sarasua, C., Simperl, E. and N.F. Noy. (2012)</hi> <hi rend="italic">Crowdmap: Crowdsourcing ontology alignment with microtasks</hi>. Proceedings of the International Semantic Web Conference, Boston, USA, pp. 525- 541.
+          </bibl>
+          <bibl>7. <hi rend="bold">d'Aquin, M.</hi> (2010), <hi rend="italic">Formally measuring agreement and disagreement in ontologies</hi>. Proceedings of the Fifth International Conference on Knowledge Capture, Redondo Beach, California, USA, pp. 145-152.
+          </bibl>
+          <bibl>8. <hi rend="bold">Hall, M., Frank, E., Holmes, G., Pfahringer, B., Reutemann, P. and I. H. Witten</hi> (2009). <hi rend="italic">The WEKA Data Mining Software: An Update.</hi>  SIGKDD Explorations. 11(1): 10-18.
+          </bibl>
+          <bibl>9. <hi rend="bold">Sarasua, C., Simperl, E. and N.F. Noy.</hi> (2012) <hi rend="italic">Crowdmap: Crowdsourcing ontology alignment with microtasks</hi>. Proceedings of the International Semantic Web Conference, Boston, USA, pp. 525- 541.
+          </bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

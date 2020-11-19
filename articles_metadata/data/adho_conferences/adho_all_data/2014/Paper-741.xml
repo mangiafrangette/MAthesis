@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:x="http://www.w3.org/1999/xhtml" xmlns:exsl="http://exslt.org/common" xml:id="Paper-741">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Distributed “Forms of Attention”:  eMOP and the Cobre Tool</title>
+				<author>
+					<name>
+						<surname>duPlessis</surname>, <forename>Anton Raymund</forename>
+					</name>
+					<affiliation>Texas A&amp;M University, United States of America</affiliation>
+					<email></email>
+				</author>
+				<author>
+					<name>
+						<surname>Mandell</surname>, <forename>Laura</forename>
+					</name>
+					<affiliation>Texas A&amp;M University, United States of America</affiliation>
+					<email></email>
+				</author>
+				<author>
+					<name>
+						<surname>Creel</surname>, <forename>James</forename>
+					</name>
+					<affiliation>Texas A&amp;M University, United States of America</affiliation>
+					<email></email>
+				</author>
+				<author>
+					<name>
+						<surname>Maslov</surname>, <forename>Alexey</forename>
+					</name>
+					<affiliation>Texas A&amp;M University, United States of America</affiliation>
+					<email></email>
+				</author>
+			</titleStmt>
+			<publicationStmt>
+				<authority/>
+				<publisher>EPFL, Switzerland</publisher>
+				<distributor>
+					<name>EPFL Digital Humanities Laboratory</name>
+					<address>
+						<addrLine>GC D2 386</addrLine>
+						<addrLine>Station 18</addrLine>
+						<addrLine>CH-1015 Lausanne</addrLine>
+						<addrLine>frederic.kaplan@epfl.ch</addrLine>
+					</address>
+				</distributor>
+				<pubPlace>Lausanne, Switzerland</pubPlace>
+				<address>
+					<addrLine>EPFL</addrLine>
+					<addrLine>CH-1015 Lausanne</addrLine>
+				</address>
+				<availability>
+					<p></p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note type="abstract">While digitizing large textual corpora seems to require a trade, quantity for quality, and to promote sloppy archiving and superficial reading, when working with early modern texts, more care is required to make the texts findable and readable than is typically given over the normal course of reading. The Early Modern Optical Character Recognition Project has built a "scholar-sourced" metadata correction and transcription tool that, if used widely by experts and citizen scholars, could give us better access to high quality materials published between 1473 and 1800 than we have yet been able to achieve, helping us find documents we did not know existed.</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>No source: created in electronic format.</p>
+				<p>
+				  <date when="20140710"/>
+				  <time when="11:00:00"/>
+				</p>
+				<p n="session">5</p>
+				<p n="room">413 - Amphimax</p>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<keywords scheme="original" n="category">
+					<term>Paper</term>
+				</keywords>
+				<keywords scheme="original" n="subcategory">
+					<term>Long Paper</term>
+				</keywords>
+				<keywords scheme="original" n="keywords">
+					<term>OCR</term>
+					<term>Comparing_editions</term>
+					<term>Metadata_correction</term>
+					<term>Crowdsourcing</term>
+					<term></term>
+				</keywords>
+				<keywords scheme="original" n="topic">
+					<term>encoding - theory and practice</term>
+					<term>digital humanities - nature and significance</term>
+					<term>scholarly editing</term>
+					<term>text analysis</term>
+					<term>bibliographic methods / textual studies</term>
+					<term>renaissance studies</term>
+					<term></term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text type="paper">
+		<front>
+			<div>
+				<p></p>
+			</div>
+		</front>
+		<body>
+			<div>
+				<p>A recent article by Paul Gooding, Melissa Terras, and Claire Warwick argues that a gap in our knowledge about the impact upon scholars of “large-scale digitized collections” of textual data has spawned “myths” about mass-digitization—those surrounding the distant- vs. close-reading debate, as well as dystopian arguments about digitally disrupted attention spans (Gooding et. al.; Moretti; Trumpener; Guillory; Hayles). “Where understanding lags behind innovation,” Gooding, Terras, and Warwick argue persuasively, “the rhetoric of technological determinism can fill the void” (633). Central to the myth that digital media produce “crowds of quick and sloppy readers” (632) is ignorance: the last decade has witnessed the emergence of a spate of digital editing and annotating tools as well as the emergence of what might be called “network editing.”[2] As has been amply revealed by the Australian Newspaper Digitisation Program, as well as other projects involving the crowd in correcting textual transcriptions such as Transcribe Bentham, people are as much engaged by the task of modifying digital textual archives as they are in using them (Halley, Terras), and textual “modding”[3] by networks of users requires paying close attention to texts, as might networked monasteries of monks in the process of transcribing them. The need for distributed networks of people helping to solve problems endemic to creating large textual corpora, in other words, fosters close attention to text. This fact is demonstrated by the Early Modern OCR Project (eMOP)[4]: the attempt to produce searchable text for 45 million page-images of texts published between 1473 and 1800 would fail were it not for the project’s adaptation of Cobre, a tool originally designed for closely examining various 16<hi rend="sup">th</hi> Century Iberoamerican imprints, and Cobre elicits careful scholarly attention from globally distributed experts and citizen scholars wishing to take part in improving the quality and kind of information available on the Internet.</p>
+				<p>The eMOP project focuses on how to digitize the archive of early modern texts, despite problems entailed. The printing process in the hand-press period (1473-1800), while systematized to a certain extent, nonetheless produced texts with fluctuating baselines, mixed fonts, and varied concentrations of ink (among many other variables). Adding to these factors, the quality of the digital images of these books is very poor: ProQuest’s Early English Books Online dataset (EEBO) and Gale’s Eighteenth-Century Collections Online (ECCO) contain page images that were digitized in the 1990s from microfilm created in the 1970s and 80s. Hand-press printing as well as skewed low-quality images with no gray-scale originals creates a problem for Optical Character Recognition (OCR) software. OCR engines are notoriously bad at translating into texts digital images of early modern texts even under the best of circumstances (Gooding, Terras, and Warwick). That is trying to translate the images of these pages into archiveable, mineable texts.</p>
+				<p>The Early English Books Online dataset (EEBO) consists of a collection of approximately 15 million digital page images of texts published between 1473 and 1700, and these page images are practically impenetrable to OCR engines. Moreover, metadata for such early texts is notoriously unreliable: according to David Foxon, title pages don't only lie, they sometimes joke, naming the printer typically used by a rival author as a way of implicating that author in the text's composition, or naming a bookseller in an area of London such as the theater district, for satirical purposes. Not only the binding of books, but the re-use of previously printed materials in "new" books makes it very difficult to know what is actually proffered by any title--what editions of other works might be included, unacknowledged in the metadata. A consortium of libraries called the Text Creation Partnership (TCP) has decided to key in, type by hand, one instance of each title in the collection, but obviously, in this context, “the same title” rarely indicates what “buried treasures” lie beneath its mark (Jackson). Moreover, it is even the case that individual witnesses of the same edition vary because of stop-press additions and corrections, changes made during the run of a single printing of one edition.</p>
+				<p>Gibbs muses that “even once we have more reliable OCR technology, it would be nice to have an infrastructure to allow the manuscripts to be viewed together and improved by user expertise” and expresses hope for a transcription editor with an unobtrusive, functional, and intuitive interface, that allows text to be easily (re)configured while displaying variations between versions. Cobre (COmparative Book REader), a suite of image viewers and tools developed to facilitate detailed interaction with the collection of 16<hi rend="sup">th</hi> Century New World imprints in the Proyecto losPrimeros Libros de las Américas: Impresos mexicanos y peruanos del Siglo XVI en la bibliotecas del mundo meets those needs.[5] Cobre ingests content from an OAI/PMH enabled digital repository. To populate a Cobre instance with texts for eMOP triage, we first structure the page images and their associated OCR transcriptions in the DSpace Simple Archive Format for ingestion into a DSpace repository, from which they can be imported into Cobre. Intrinsic to Cobre’s functionality is a Detailed View that not only places page images in context, via a filmstrip metaphor, but provides multiple zoom levels and the ability to drag the page in the viewer pane (Liles et al). Cobre’s Comparison View likewise uses a filmstrip view of two or more books together (Liles et al). These filmstrips can be locked, keeping them aligned when any one filmstrip is moved and when a thumbnail in the filmstrip is clicked, a side-by-side view of all the pages appears (Liles et al) in a Quick Comparative View.</p>
+				<figure>
+					<graphic url="DH2014_2_612-1"/>
+					<p>Fig. 1: Cobre's Detailed View with imported OCR and pane for text correction</p>
+				</figure>
+				<figure>
+					<graphic url="DH2014_2_612-2"/>
+					<p>Fig. 2: Cobre's Comparative View of multiples exemplars</p>
+				</figure>
+				<figure>
+					<graphic url="DH2014_2_612-3"/>
+					<p>Fig. 3: Cobre's Quick Comparative View of page images and OCR output side-by-side.</p>
+				</figure>
+				<p>Though the Cobre tool was built for the purposes of transcription and thus is technically a crowd-sourced transcription tool like the Bentham wiki and the other tools listed by Melissa Terras,[6] it resembles Ben Brumefield’s FromThePage, also mentioned by Terras, in being half transcription tool and half social editor of the sort described by Ray Siemens et. al. Like Bentham, Siemens’s own Devonshire ms. uses Wikimedia so that editing can be discussed as well as implemented. Cobre too allows for transcription, annotation, and—a key attraction for experts—editing and adding information to page images and to the metadata.</p>
+				<p>We performed user studies on the tool, bringing in book history experts James Raven and Robert D. Hume to test the tool, and we videotaped their eye movements while recording their comments. There are many things that they did not find intuitive which we fixed on our last development sprint. We will be performing another set of user studies when we teach approximately 50 people to use Cobre at a pre-conference workshop at the American Society for Eighteenth-Century Studies, to be held in Williamsburg, VA, 19 March 2014.</p>
+				<p>Transcribe Bentham and the ANDP have been very successful at recruiting experts and citizen scholars (Causer, et. al., and Holley). While the ANDP required a very light form of attention, transcription, and Transcribe Bentham slightly more – users were asked to encode as well – we will be asking users of Cobre to transcribe and compare transcriptions to multiple pages of various editions. Can a network of “authorized” users who will be carefully comparing pages of editions be generated of sufficient strength? Can there be networked—and so massive—close-reading? We will report on whether and how it is possible to generate distributed forms of attention that are required for careful digitization <hi rend="italic">en masse</hi>.</p>
+				<p>[1] Kermode’s phrase encapsulates the scholarly output over the last two centuries that have produced close readings of the meanings and forms of canonical works of art and literature</p>
+				<p>[2] Siemens et. al. describe “the social edition,” a procedure that was debated at a recent SSHRC-sponsored conference called “Social, Digital, Scholarly Editing,” hosted by Peter Robinson at the University of Saskatchewan (<ref type="url" target="https://ocs.usask.ca/conf/index.php/sdse/sdse13">ocs.usask.ca/conf/index.php/sdse/sdse13</ref>). Gibbs calls for a “community transcription tool [that] will reduce significantly the barrier to entry and encourage mark-up of texts,” such as: the CWRC (<ref type="url" target="http://www.dh2012.uni-hamburg.de/conference/programme/abstracts/cwrc-writer-an-in-browser-xml-editor/">www.dh2012.uni-hamburg.de/conference/programme/abstracts/cwrc-writer-an-in-browser-xml-editor</ref>), FromThePage (<ref type="url" target="http://beta.fromthepage.com/">beta.fromthepage.com</ref>) and “Textual Communities” (<ref type="url" target="http://www.textualcommunities.usask.ca/">www.textualcommunities.usask.ca</ref>)</p>
+				<p>[3] Craig Chappel’s view that game-modding is in decline may portend a trend against participation, but that view is arguable.</p>
+				<p>[4] <ref type="url" target="http://emop.tamu.edu">emop.tamu.edu</ref></p>
+				<p>[5] <ref type="url" target="http://primeroslibros.org">primeroslibros.org</ref>, <ref type="url" target="http://libros.library.tamu.edu">libros.library.tamu.edu</ref></p>
+				<p>[6] <ref type="url" target="http://melissaterras.blogspot.com/2010/03/crowdsourcing-manuscript-material.html">melissaterras.blogspot.com/2010/03/crowdsourcing-manuscript-material.html</ref>: Scratch, Remote Writer, and the tools hosted by the Australian National Digitisation Program (ANDP) and BYU Historica Journals.</p>
+			</div>
+		</body>
+		<back>
+			<div type="References">
+				<listBibl>
+					<bibl><hi rend="bold">Causer, T., J. Tonra, and V. Wallace</hi> (2012). <hi rend="italic">Transcription Maximized; Expense Minimized?: Crowdsourcing and editing The Collected Works of Jeremy Bentham.</hi> Literary and Linguistic Computing 27.2, pp. 119-137.</bibl>
+					<bibl><hi rend="bold">Causer, T., and V. Wallace</hi> (2012). <hi rend="italic">Building a Volunteer Community: Results and Findings from Transcribe Bentham.</hi> Digital Humanities Quarterly 6.1. <ref type="url" target="http://www.digitalhumanities.org/dhq/vol/6/2/000125/000125.html">www.digitalhumanities.org/dhq/vol/6/2/000125/000125.html</ref>. Accessed 8 January 2014</bibl>
+					<bibl><hi rend="bold">Chapple, Craig</hi> (2013). <hi rend="italic">An FPS Insurgency – Breaking into a Crowded Genre.</hi> 13 September 2013. <ref type="url" target="http://www.develop-online.net/interview/an-fps-insurgency-breaking-into-a-crowded-genre/0117719">www.develop-online.net/interview/an-fps-insurgency-breaking-into-a-crowded-genre/0117719</ref> Accessed 31 October 2013.</bibl>
+					<bibl><hi rend="bold">Dahlström, Mats.</hi> ( 2009). <hi rend="italic">The Compleat Edition.</hi> In Text Editing, Print and the Digital World. Eds. Marilyn and Kathryn Sutherland. Farnham, MA: Ashgate. 27-44.</bibl>
+					<bibl><hi rend="bold">Foxon, David, with James McLaverty</hi>. (1991). <hi rend="italic">Pope and the Early Eighteenth-Century Book Trade</hi>. Oxford: Clarendon Press.</bibl>
+					<bibl><hi rend="bold">Gibbs, Frederick W</hi> (2011). <hi rend="italic">New Textual Traditions from Community Transcription.</hi> Digital Medievalist 7. <ref type="url" target="http://www.digitalmedievalist.org/journal/7/gibbs/">www.digitalmedievalist.org/journal/7/gibbs</ref></bibl>
+					<bibl><hi rend="bold">Gooding, Paul, and Melissa Terras, Claire Warwick</hi> (2013). <hi rend="italic">The Myth of the New: Mass Digitization, Distant Reading, and the Future of the Book.</hi> Literary and Linguistic Computing 28.4: 629-39.</bibl>
+					<bibl><hi rend="bold">Guillory, John</hi> (2010). <hi rend="italic">Close Reading: Prologue and Epilogue,</hi> ADE Bulletin 149: 8-14.</bibl>
+					<bibl><hi rend="bold">Hayles, N. Katherine</hi> (2007). <hi rend="italic">Hyper and Deep Attention: The Generational Divide in Cognitive Models,</hi> Profession 2007: 187-199. </bibl>
+					<bibl><hi rend="bold">Holley, Rose.</hi> (2009) <hi rend="italic">How Good Can It Get: Analysing and Improving OCR Accuracy in Large Scale Historic Newspaper Digitisation Programs.</hi> D-Lib Magazine 1.3/4.</bibl>
+					<bibl>---. <hi rend="italic">Many Hands Make Light Work.</hi> March 2009. National Library of Australia. ISBN 978-0-642-27694-0</bibl>
+					<bibl><hi rend="bold">Jackson, Millie.</hi> (2008) <hi rend="italic">Using Metadata to Discover the Buried Treasure in Google Book Search.</hi> Journal of Library Administration 47.1/2: 165-73.</bibl>
+					<bibl><hi rend="bold">Kermode, Frank</hi> (1985). <hi rend="italic">Forms of Attention</hi>. Chicago: University of Chicago Press.</bibl>
+					<bibl><hi rend="bold">Liles, B., Creel, J., Maslov, A., Nuernberg, S., duPlessis, A., Mercer, H., McFarland, M. and Leggett, J.</hi> (2012). <hi rend="italic">Cobre: A Comparative Book Reader for Los Primeros Libros.</hi> Proceedings of the 45<hi rend="sup">th</hi> Hawaii International Conference on System Sciences (HICSS45), Maui, HI, USA. January 4-7, pp. 1707-16. <ref type="url" target="http://dx.doi.org/10.1109%2fHICSS.2012.155">dx.doi.org/10.1109%2fHICSS.2012.155</ref></bibl>
+					<bibl><hi rend="bold">Moretti, Franco.</hi> <hi rend="italic">Conjectures on World Literature,</hi> New Left Review 1: 54-68. (2000)</bibl>
+					<bibl>---. Graphs, Maps, and Trees: Abstract Models for a Literary History. New York: Verso, 2005. </bibl>
+					<bibl>---. <hi rend="italic">More Conjectures,</hi> New Left Review 20 (2003): 73-81.</bibl>
+					<bibl>---. <hi rend="italic">Style, Inc. Reflections ‘Relatively Blunt,’</hi> 172-174.</bibl>
+					<bibl><hi rend="bold">Robinson, Peter.</hi> <hi rend="italic">Textual Communities</hi>. <ref type="url" target="http://www.textualcommunities.usask.ca/">www.textualcommunities.usask.ca</ref></bibl>
+					<bibl><hi rend="bold">Siemens, Ray, and Meagan Timney, Cara Leitch, Corina Koolen, Alex Garnet.</hi> <hi rend="italic">Toward Modeling the Social Edition: An Approach to Understanding the Electronic Scholarly Edition in the Context of New and Emerging Social Media.</hi> Literary and Linguistic Computing 27.4 (2012): 445-461.</bibl>
+					<bibl><hi rend="bold">Terras, Melissa.</hi> (2010) <hi rend="italic">Crowdsourcing Manuscript Material.</hi> 2 March 2010. Adventures in Digital Humanities Blog. <ref type="url" target="http://melissaterras.blogspot.com/2010/03/crowdsourcing-manuscript-material.html">melissaterras.blogspot.com/2010/03/crowdsourcing-manuscript-material.html</ref>. Accessed 8 January 2014</bibl>
+					<bibl>---. <hi rend="italic">Crowdsourcing or crowdsifting? Results and experiences from Transcribe Bentham.</hi> Paper given at Social, Digital, Scholarly Editing Conference, University of Saskatchewan, Saskatoon,  Saskatchewan, Canada. 11 July 2013.</bibl>
+					<bibl><hi rend="bold">Trumpener, Katie.</hi> (2009). <hi rend="italic">Critical Response I: Paratext and Genre System,</hi> Critical Inquiry 3.1: 159–71.</bibl>
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

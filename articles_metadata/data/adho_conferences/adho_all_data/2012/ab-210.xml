@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="../schema/xmod_web.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xmt="http://www.cch.kcl.ac.uk/xmod/tei/1.0" 
+     xml:id="ab-210">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Networks of networks: a critical review of formal network methods in archaeology through citation network analysis and close reading</title>
+                <author>
+                    <name>Brughmans, Tom</name>
+                    <affiliation>Archaeological Computing Research Group, University of Southampton, UK</affiliation>
+                    <email>tb2g08@soton.ac.uk</email>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Jan Christoph Meister, Universität Hamburg</publisher>
+                <address>
+                   <addrLine>Von-Melle-Park 6, 20146 Hamburg, Tel. +4940 428 38 2972</addrLine>
+                   <addrLine>www.dh2012.uni-hamburg.de</addrLine>
+              </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>No source: created in electronic format.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2012-04-15</date>
+                <name>DH</name>
+                <desc>generate TEI-template with data from ConfTool-Export</desc>
+            </change>
+            <change>
+                <date>2012-04-13</date>
+                <name>LS</name>
+                <desc>provide metadata for publicationStmt</desc>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="paper">
+        <body>
+            <p>This paper will argue that archaeological network researchers are not well networked
+                themselves, resulting in a limited and sometimes uncritical adoption of formal
+                network methods within the archaeological discipline. This seems to have followed
+                largely from a general unawareness of the historicity of network-based approaches
+                which span at least eight decennia of multi-disciplinary research. Many network
+                analytical techniques that would only find a broader use in the last 15 years were
+                in fact introduced in the archaeological discipline as early as the 1970s. This
+                paper does not aim to argue that every archaeological network study should include a
+                historiography. It merely wishes to stress the need to explore the full range of
+                existing network techniques and models. I will illustrate that knowledge of the
+                diversity of archaeological and non-archaeological network methods is crucial to
+                their critical application and modification within archaeological research
+                contexts.</p>
+            <p>This paper will for the first time trace the academic traditions, network concepts,
+                models and techniques that have been most influential to archaeologists. I will do
+                this by combining a close reading of published archaeological network applications
+                with citation network analysis techniques (Batagelj 2003; Hummon &amp; Doreian 1989;
+                White 2011), an approach that has not been applied to archaeological literature
+                before. A citation network was created consisting of over 10,000 publications and
+                their internal citations. This network consists of all archaeological network
+                analysis applications, all publications cited by them and the citations between
+                those publications. This data was extracted from Web of  Knowledge (<ref
+                    target="http://wok.mimas.ac.uk/" type="external">http://wok.mimas.ac.uk/</ref>)
+                and manually when the publications were not included on Web of Knowledge.</p>
+            <p>The analysis revealed a number of issues surrounding the current use of network
+                methods in archaeology, as well as possible sources and explanations for these
+                issues. They include the following: (1) Although many network techniques are rooted
+                in graph theory, archaeological studies in graph theory were not influential at all
+                to more recent archaeological network studies. The introduction of graph theory and
+                social network analysis into the archaeological discipline happened largely
+                independently and, unlike social network analysts, archaeologists did not
+                collaborate with graph theorists to develop mathematical techniques tailored for
+                their needs. (2) The potential of social network analysis techniques was explored
+                (largely theoretically) by Cynthia Irwin-Williams no later than 1977. Many of the
+                techniques she described were not applied in archaeological research until the last
+                ten years, possibly because the limited availability of cheap and potent computing
+                power and large digital datasets in the late 1970s. (3) Some social network analysis
+                techniques (e.g. centrality measures) have received more attention than others (e.g.
+                ego-networks). The popularity of these techniques seems to be related with their use
+                by social network analysts rather than how archaeologists have used them before. (4)
+                The archaeological use of complex network models is largely limited to the extremely
+                popular small-world and scale-free models. Archaeologists have neglected to explore
+                the potential use of alternative complex network models. (5) The availability of
+                user-friendly software seems to determine the popularity of social network measures
+                used by archaeologists. (6) On the other hand, simulations of complex network models
+                by archaeologists are rare due to the required technological and mathematical
+                skills.</p>
+            <p>The results of the citation analysis expose the insufficiently explored potential of
+                formal network-based models and techniques and points out publications in other
+                disciplines that might have interesting archaeological applications. The paper
+                concludes that in order to move towards richer archaeological applications of formal
+                network methods archaeological network analysts should become better networked both
+                within and outside their discipline. The existing archaeological applications of
+                network analysis show clear indications of methods with great potential for our
+                discipline and methods that will remain largely fruitless, and archaeologists should
+                become aware of these advances within their discipline. The development of original
+                archaeological network methods should be driven by archaeological research problems
+                and a broad knowledge of formal network methods developed in different
+                disciplines.</p>
+        </body>
+        <back>
+            <div>
+                
+                    <head>References</head>
+                <p><hi rend="bold">Batagelj, V. </hi>(2003). Efficient Algorithms for Citation
+                    Network Analysis. <hi rend="italic">Arxiv preprint cs/03090 </hi>23: 1-27.</p>
+                <p><hi rend="bold">Irwin-Williams, C.</hi> (1977). A network model for the analysis
+                    of Prehistoric trade. In T. K. Earle, and J. E. Ericson (eds.), <hi
+                        rend="italic">Exchange systems in Prehistory</hi>. New York: Academic Press,
+                    pp. 141-151.</p>
+                <p><hi rend="bold">Hummon, N. P., and P. Dereian</hi> (1989). Connectivity in a
+                    citation network: The development of DNA theory. <hi rend="italic">Social
+                        Networks</hi> 11(1): 39-63.</p>
+                <p><hi rend="bold">White, H. D.</hi> (2011). Scientific and scholarly networks. In
+                    J. Scott, and P. J. Carrington (eds.), <hi rend="italic">The SAGE handbook of
+                        social network analysis</hi>. London: Sage, pp. 272-285.</p>
+            </div>
+        </back>
+    </text>
+</TEI>

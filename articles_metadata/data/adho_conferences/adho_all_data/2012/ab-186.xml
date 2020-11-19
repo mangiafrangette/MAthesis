@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="../schema/xmod_web.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xmt="http://www.cch.kcl.ac.uk/xmod/tei/1.0" 
+     xml:id="ab-186">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Patchworks and Field-Boundaries: Visualizing the History of English</title>
+                <author>
+                    <name>Alexander, Marc</name>
+                    <affiliation>University of Glasgow, UK</affiliation>
+                    <email>marc.alexander@glasgow.ac.uk</email>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Jan Christoph Meister, Universität Hamburg</publisher>
+                <address>
+                   <addrLine>Von-Melle-Park 6, 20146 Hamburg, Tel. +4940 428 38 2972</addrLine>
+                   <addrLine>www.dh2012.uni-hamburg.de</addrLine>
+              </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>No source: created in electronic format.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2012-04-15</date>
+                <name>DH</name>
+                <desc>generate TEI-template with data from ConfTool-Export</desc>
+            </change>
+            <change>
+                <date>2012-04-13</date>
+                <name>LS</name>
+                <desc>provide metadata for publicationStmt</desc>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="paper">
+        <body>
+            <div>
+            <head>Introduction</head>
+            <p>This paper uses the database of the <hi rend="italic">Historical Thesaurus of
+                        English</hi> (Kay et al. 2009; hereafter abbreviated to <hi rend="italic"
+                        >HT</hi>) to visualize change in the history of English, and in particular
+                    in the English lexicon. The <hi rend="italic">HT</hi>, published in 2009,<hi
+                        rend="italic"> </hi>is the world’s largest thesaurus and the most complete
+                    thesaurus of English, arranging into hierarchical semantic categories all the
+                    recorded meanings expressed in the language from Anglo-Saxon times to the
+                    present. The underlying <hi rend="italic">HT </hi>database (see Kay &amp; Chase
+                    1987; Wotherspoon 1992), held at the University of Glasgow, is a massive
+                    computational resource for analyzing the recorded words of English with regards
+                    to both their meaning and dates of use.</p>
+            <p>The present paper describes a methodology of visualizing English using data from the
+                    <hi rend="italic">HT</hi>, developed from an earlier pilot project (Alexander
+                2010). By combining visualization techniques with the high-quality humanities data
+                provided in the <hi rend="italic">HT</hi>, it is possible to give scholars a
+                long-range view of change in the history, culture and experiences of the
+                English-speaking peoples as seen through their language.</p>
+            </div>
+            
+            <div>
+                <head>The Data</head>
+            <p>The data stored within the <hi rend="italic">HT</hi> is a fine-grained conceptual
+                hierarchy containing almost all of the recorded words in English, arranged
+                semantically. Each category of words is nested within other, wider categories, so
+                that, for example, the verb category <hi rend="italic">Live dissolutely </hi>is
+                within <hi rend="italic">Licentiousness</hi>, itself adjacent to <hi rend="italic"
+                    >Guilt </hi>and <hi rend="italic">Rascalry</hi> and within the wider category
+                    <hi rend="italic">Morality</hi>. This hierarchical structure differs from the
+                organization of many other thesauri; <hi rend="italic">HT </hi>categories relate to
+                others not just linearly, but can operate either horizontally (on the same
+                hierarchical level) or vertically (on a higher or lower level, either containing or
+                being contained by another category). In addition, each concept is able to contain a
+                series of subcategories within itself, separate from the main sequence. It is this
+                complex hierarchical structure which helps make the <hi rend="italic">HT</hi>
+                database so useful for visualization: each individual point in the hierarchy can
+                contain both word entries for the concept represented by that point, and also all
+                the conceptual descendants which follow it, each surrounded by siblings of similar
+                meaning.</p>
+            <p>The size of the <hi rend="italic">HT</hi> also makes it amenable to computational
+                    analysis. The current version of the database (as of mid 2011) contains 793,747
+                    entries, compared to <hi rend="italic">OED2</hi>’s 616,500 (Algeo 1990: 137),
+                    all within 236,346 categories, each representing a distinct concept. Taking into
+                    account each field stored within it, the database itself contains approximately
+                    22.7 million pieces of data.</p></div>
+            
+            <div>
+                <head>Visualization</head>
+            <p>The normal metaphor for visualizing hierarchy is a tree-like system, like that often
+                used in organisation charts. <hi rend="italic">HT</hi> data is, however, far too
+                large to be used in such a way – even a spider-like tree or hypertree could not
+                represent the thesaurus, whose largest category alone (the adverb <hi rend="italic"
+                    >Immediately</hi>) contains over 250 synonyms.</p>
+            <p>Instead, the present paper will describe an alternative way of displaying the <hi
+                        rend="italic">HT </hi>hierarchy, representing each category as a nested
+                    rectangle on a plane. This technique produces a ‘treemap’ (see Shneiderman
+                    2009), wherein each entry in a hierarchy is represented by a rectangle which is
+                    large enough to contain smaller rectangles representing its descendants while
+                    simultaneously being itself small enough to nest within further rectangles
+                    representing its parent categories. In short, a treemap structure takes the
+                    organisational chart metaphor of <hi rend="italic">senior is up </hi>and
+                    replaces it with <hi rend="italic">senior is big</hi>.</p>
+            <p>Doing this for the full hierarchy of the <hi rend="italic">HT</hi> lets us view the
+                semantic structure of the English language as a whole. Figure 1 is therefore a
+                treemap showing all of present-day English in the <hi rend="italic">HT</hi>, with
+                every word represented by a small dot of ink. Those black dots are present-day words
+                which originated in Old English, and white dots represent those which entered the
+                language much more recently. The map is arranged by semantic field, so words in
+                close semantic proximity are also physically close to one another on the diagram. An
+                interactive display of this visualization allows an analyst to see which areas
+                correspond to which categories and lexemes.</p>
+            </div>
+            
+                
+            <div>
+                <head>Patchworks and Field-Boundaries</head>
+            <p>One effect which is visible from Figure 1 is that modern English has a ‘patchwork’
+                    effect in the visualization. Areas such as <hi rend="italic">Physics</hi> and
+                        <hi rend="italic">Chemistry</hi> are quite light, as are parts of <hi
+                        rend="italic">Number</hi> (which includes <hi rend="italic"
+                    >Mathematics</hi>) and <hi rend="italic">Language</hi>. This phenomenon makes it
+                    possible to visually view the areas where the English language has ‘stretched’
+                    in order to accommodate new vocabulary. These light patches within the greater
+                    patchwork are areas of recent lexical innovation, made up of clusters of words
+                    first cited in the <hi rend="italic">OED</hi> and recorded in the <hi
+                        rend="italic">HT </hi>from recent years. Therefore, we would expect this
+                    patchwork effect in areas affected by rapid social, technological or academic
+                    growth, such as <hi rend="italic">Computing</hi> (inside <hi rend="italic"
+                        >Number</hi>, adjacent to <hi rend="italic">Mathematics</hi>), <hi
+                        rend="italic">Physics, Chemistry, Linguistics, Communication, Travel</hi>,
+                    and so on. Conversely, darker and therefore older patches cover existence in <hi
+                        rend="italic">Time and Space, Creation, Causation, Faith, Emotion</hi>, and
+                    the parts of <hi rend="italic">Number</hi> which refer to <hi rend="italic"
+                        >Arithmetic</hi> or <hi rend="italic">Enumeration</hi>.</p>
+                
+            <p>This effect is pronounced in present-day English, but if other selections of the data
+                are taken, it reduces somewhat. If the present-day data is thought of as a ‘slice’
+                of the <hi rend="italic">HT</hi>, then other such slices can be taken between the
+                Old English period and the present day. Other slices reveal that this patchwork
+                effect, with its pronounced edges between new and old semantic fields, do not occur
+                throughout the rest of the history of the language. Proceeding backwards from the
+                present day through the Late Modern, Early Modern and Middle English periods, there
+                is a visible reduction in the patchwork effect observed above, so that by Middle
+                English almost no delineated rectangular patches of innovation can be found. The
+                paper compares these slices and offers an interpretation of various areas of
+                patchwork and patchwork-like effects across time, which, as a result of rapid
+                growth, generally indicates fundamental and rapid progress in the context of the
+                language.</p></div>
+            
+            <div>  
+                <head>Conclusion</head>
+            <p>In the ways outlined above, such visual displays of <hi rend="italic">HT</hi> data
+                    can provide useful entry points to a large, complex lexicographical and
+                    lexicological dataset. Firstly, in a pedagogical sense, these displays can give
+                    students and the public a new way of looking at humanities data, and of
+                    exploring them interactively. Secondly, as computer displays and online
+                    dictionary interfaces become more polished, new ways of encouraging exploration
+                    of lexical data online are needed to replace the lost experience of browsing a
+                    printed dictionary, rather than only providing users with a blank search
+                    interface. And finally, such visualizations can point analysts towards areas of
+                    possible semantic, lexical or cultural interest, whether areas of trauma in the
+                    history of the language, areas of rapid growth, or areas of relative stability.
+                    The paper will conclude by demonstrating some of these, including ‘slices’ of
+                    the data giving visualisations of various points in the history of English (eg
+                    in the time of Chaucer or Shakespeare), and in illustrating lacuna in our
+                    knowledge of earlier periods of the language, and will outline areas of future
+                    development of this approach.</p>
+            
+            <p><figure>
+                        <graphic url="img186-1.jpg" rend="left" height="256px" width="341px"
+                            mimeType="image/jpeg"/>
+                        <head>Figure 1: Present-day English from the HT, shaded by first cited
+                            date</head>
+                    </figure></p>
+            </div>    
+        </body>
+        <back>
+            <div>
+                <head>References</head>
+            <p><hi rend="bold">Alexander, M.</hi> (2010). ‘The Various Forms of Civilization
+                    Arranged in Chronological Strata’: Manipulating the <hi rend="italic">Historical
+                        Thesaurus of the OED.</hi> In M. Adams (ed.), <hi rend="italic">‘Cunning
+                        passages, contrived corridors’: Unexpected Essays in the History of
+                        Lexicography.</hi> Monza: Polimetrica.</p>
+            <p><hi rend="bold">Algeo, J.</hi> (1990). The Emperor’s New Clothes: The second edition
+                    of the society’s dictionary. <hi rend="italic">Transactions of the
+                        Philological Society</hi> 88(2): 131-150.</p>
+            <p><hi rend="bold">Kay, C., and T. J. P. Chase</hi> (1987). Constructing a Thesaurus
+                    Database. <hi rend="italic">Literary and Linguistic Computing</hi> 2(3):
+                    161–163.</p>
+            <p><hi rend="bold">Kay, C., J. Roberts, M. Samuels, and I. Wotherspoon</hi> (2009). <hi
+                    rend="italic">Historical Thesaurus of the OED</hi>. Oxford: Oxford UP.</p>
+            <p><hi rend="bold">Shneiderman, B</hi>. (2009). Treemaps for space-constrained
+                visualization of hierarchies. <ref target="http://www.cs.umd.edu/hcil/treemap-history/index.shtml" type="external">http://www.cs.umd.edu/hcil/treemap-history/index.shtml</ref>
+                (accessed 26 October 2011).</p>
+            <p><hi rend="bold">Simpson, J., and E. Weiner, eds</hi>. (1989). <hi rend="italic">The
+                        Oxford</hi>
+                    <hi rend="italic">English Dictionary</hi>, 2nd. ed. Oxford: Oxford UP.</p>
+            <p><hi rend="bold">Wotherspoon, I</hi>. (1992). Historical Thesaurus Database Using Ingres. <hi rend="italic">Literary and
+                    Linguistic Computing</hi> 7(4): 218-225.</p></div>
+                
+        </back>
+    </text>
+</TEI>

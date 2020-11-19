@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:x="http://www.w3.org/1999/xhtml" xmlns:exsl="http://exslt.org/common" xml:id="Paper-889">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>A vocabulary of the aesthetic experience for modern dance archives</title>
+        <author>
+          <name>
+            <surname>Paquette-Bigras</surname>, <forename>Ève</forename>
+          </name>
+          <affiliation>Université de Montréal, Canada </affiliation>
+          <email></email>
+        </author>
+        <author>
+          <name>
+            <surname>Forest</surname>, <forename>Dominic</forename>
+          </name>
+          <affiliation>Université de Montréal, Canada </affiliation>
+          <email></email>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority/>
+        <publisher>EPFL, Switzerland</publisher>
+        <distributor>
+          <name>EPFL Digital Humanities Laboratory</name>
+          <address>
+            <addrLine>GC D2 386</addrLine>
+            <addrLine>Station 18</addrLine>
+            <addrLine>CH-1015 Lausanne</addrLine>
+            <addrLine>frederic.kaplan@epfl.ch</addrLine>
+          </address>
+        </distributor>
+        <pubPlace>Lausanne, Switzerland</pubPlace>
+        <address>
+          <addrLine>EPFL</addrLine>
+          <addrLine>CH-1015 Lausanne</addrLine>
+        </address>
+        <availability>
+          <p/>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note type="abstract">The goal of this research is to contribute to the development of information management tools by evaluating the relevance of knowledge extraction in information resources maintenance and development for performing arts such as dance. We obtain through knowledge extraction a vocabulary for describing and analyzing aesthetic experience of modern dance in archives. We worked from a corpus of texts including Stéphane Mallarmé’s collections Divagations and Poésies. Choreographic works were described using this vocabulary.</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>No source: created in electronic format.</p>
+        <p>
+          <date when="20140711"/>
+          <time when="09:00:00"/>
+        </p>
+		<p n="session">6</p>
+		<p n="room">315 - Amphipôle</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="original" n="category">
+          <term>Paper</term>
+        </keywords>
+        <keywords scheme="original" n="subcategory">
+          <term>Short Paper</term>
+        </keywords>
+        <keywords scheme="original" n="keywords">
+          <term>Archives</term>
+          <term>Dance</term>
+          <term>Knowledge extraction</term>
+          <term>Text mining</term>
+          <term></term>
+        </keywords>
+        <keywords scheme="original" n="topic">
+          <term>archives</term>
+          <term>repositories</term>
+          <term>sustainability and preservation</term>
+          <term>french studies</term>
+          <term>creative and performing arts</term>
+          <term>including writing</term>
+          <term></term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text type="paper">
+    <front>
+
+      <div>
+        <p></p>
+        <p></p>
+      </div>
+    </front>
+    <body>
+      <div>
+        <head>Introduction</head>
+        <p>This research falls within the field of digital
+humanities; the arts and information science engage in dialogue. In the last
+few decades, dance has become a distinct research subject. Dance research needs
+data. Dance performances remain elusive, and the traces they leave in their wake need to be
+documented. However, the documentation practices of performance remain unsatisfactory (Couch 1994: 42;
+Rowat 2005; Desalme
+2007: 13; Chaffee
+2011: 125), and the
+specificity of performing arts such as dance is rarely and quite imperfectly
+taken into account (Le Boeuf 2002;
+Miller and Le
+Boeuf 2005).</p>
+        <p>Dance description in archives needs to be improved
+because, in this era of massive digital information, the quality of the
+description impinges on access to the documentation. Description is entangled
+with access. The better the description, the more efficient the access will be
+for information seekers. As Nena Couch (2004: 53) once said about dance
+collections, “If there is no standard language through which a patron may
+communicate his or her search, the material may be as lost as if the library
+had never acquired it.” Knowledge extraction seems to offer new opportunities
+in this regard.</p>
+        <head>Objectives</head>
+        <p>The goal of this research is to contribute to the
+development of information management tools by evaluating the relevance of
+knowledge extraction in information resources maintenance and development for
+performing arts such as dance. Aesthetic experience is an essential part of art;
+a part, however, that is hard to define, let alone describe, in an archives
+context. Through knowledge extraction, we obtain a vocabulary for describing the
+aesthetic experience of modern dance in archives. Choreographic works were
+described using this vocabulary.</p>
+
+        <head>Methodology</head>
+        <p>Many contemporary artists include
+archival material in their artistic practices (Poinsot 2004; Lemay 2009). Performing arts archives and
+archivists must be
+as creative as the art they keep records of (Johnson
+and Fuller Snyder 1999; Jones, Abbott and Ross
+2009: 166; Chaffee
+2011: 125). Artists are inspired by archives, and archivists
+should be inspired by artists in return.</p>
+        <p>To obtain a vocabulary for representing the aesthetic experience of modern dance,
+we drew on modern literature and modern art. At the end of the
+19th century, French writer Stéphane Mallarmé praised in <hi rend="italic">Autre étude de danse</hi> the dazzling performances of Loïe Fuller, a
+pioneer of modern dance. Mallarmé was an artist and an aesthete (Delfel
+1951), a “métaphysicien
+du ballet” (Levinson 1983). His work is an aesthetic experience in
+itself, and is related to dance in many ways (Richard 1961; Kristeva 1974: 537; Block 1977: 96; Levinson 1983; Zachmann 2001). Writing about Mallarmé,
+Mary Ann Caws (1998: 86) says, “[w]hat he gives us is everything that comes
+after him.” Gayle Zachmann (2001: 188) mentions that “writers and critics […]
+have highlighted this poet’s contributions to the theoretical underpinnings and
+reading of modern dance and/or the significance of his writings on dance for
+his own aesthetic.” His work foreshadowed the spring of modern dance.</p>
+        <p>We worked from a corpus of texts that includes Mallarmé’s collections <hi rend="italic">Divagations</hi> (1897 edition published by Eugène
+Fasquelle) and <hi rend="italic">Poésies</hi> (1899 edition published by Émile
+Deman) for a total of 119 documents (comprising poetic prose, poem, dialogue), 11,850
+types on 70,507 tokens (before lexical filtering) and 7,238 types (after
+lexical filtering). This
+corpus has been linked to modern dance for decades, and artists as well as
+experts in the field of dance studies have drawn on it for inspiration.</p>
+        <p>The vocabulary was obtained through knowledge extraction methods; to be
+specific, text mining algorithms combining term extraction and
+clustering. Documents were grouped into clusters using discriminant features
+(terms). Clustering is the method of choice for thematic discovery and terminology
+building (Ibekwe-SanJuan
+2007; Forest 2012) and, as
+such, a bottom-up hierarchical clustering method was used. Once the cluster
+structure was created, characteristic terms were extracted from each cluster to
+use as the basis for building a basic structured vocabulary of the aesthetic
+experience of modern dance.</p>
+        <head>Results</head>
+        <p>Two main clusters emerged from the corpus, one
+of 75 documents, the other of 34 documents. From the 75-document class were
+drawn three qualifiers, one for each subcluster, of the aesthetic experience of
+modern dance: <hi rend="italic">petit</hi> (small), <hi rend="italic">seul</hi> (in solo), <hi rend="italic">beau</hi> (beautiful). The antonyms were then drawn directly from the
+corpus: <hi rend="italic">grandiose</hi> (grandiose, great),
+<hi rend="italic">en couple</hi> (in duo) or <hi rend="italic">en troupe</hi> (in a body), <hi rend="italic">laid</hi> (ugly). From the 34-document class
+were drawn nine topics related to the aesthetic experience: <hi rend="italic">corps</hi> (body), <hi rend="italic">idéal</hi> (ideal), <hi rend="italic">nature</hi>
+(nature), <hi rend="italic">nudité</hi> (nudity), <hi rend="italic">pureté</hi> (purity), <hi rend="italic">rire</hi> (laughter), <hi rend="italic">solitude</hi>
+(solitude, loneliness), <hi rend="italic">temps</hi> (time),
+<hi rend="italic">voix</hi> (voice). The terms allow the description
+of what is happening visually onstage beyond the storyline, that is, the visual
+experience.</p>
+
+        <figure>
+          <graphic url="DH2014_548_535-1"/>
+          <p>Fig. 1: Vocabulary of the aesthetic experience extracted from Mallarmé’s work </p>
+        </figure>
+
+
+        <p>We were able to describe
+choreographic works with the vocabulary. For example, we described Dave
+St-Pierre’s <hi rend="italic">Un peu de tendresse, bordel
+de merde!</hi> using the following terms: <hi rend="italic">troupe,
+voix, nudité, rire</hi>. St-Pierre’s
+work is known for theatrical staging, shocking nudity and dark humour.</p>
+        <p>Exploring Mallarmé’s vocabulary has allowed us to
+better describe dance performance and to develop minimal yet innovative access
+points to traditional archives. Thus this initial experiment supports the
+relevance of knowledge extraction in information resources maintenance and
+development for performing arts such as dance. Knowledge extraction is one of
+many solutions for creating a vocabulary for dance archives.
+
+</p>
+        <head>Conclusion</head>
+        <p>In this research, we delved into the core of an
+art, literature, to find a vocabulary for describing art. Humanities computing
+and non-computing approaches are complementary here. The field of digital humanities, recent
+advances in information technology
+and opportunities offered by knowledge extraction all contribute to the possibility of exploring
+innovative solutions to improve the description of dance
+performance in archives, as well as fostering
+a better understanding of the art of dance. In this way, information
+science empowers the arts while the arts empower information science.
+
+</p>
+
+
+      </div>
+    </body>
+    <back>
+      <div type="References">
+        <listBibl>
+         <bibl><hi rend="bold">Block, H. </hi>(1977). <hi rend="italic">Mallarmé and the
+            Symbolist Drama</hi>. Westport: Greenwood Press.</bibl>
+         <bibl><hi rend="bold">Caws, M. </hi>(1998). <hi rend="italic">Mallarmé’s Progeny</hi>. In Cohn, R. and Gillepsie, G.
+            (eds), Mallarmé in the twentieth century.
+            Cranbury, London, Mississauga: Associated University Press, pp. 86-91.</bibl>
+         <bibl><hi rend="bold">Chaffee, G.</hi> (2011). <hi rend="italic">Preserving Transience: Ballet and Modern Dance Archives</hi>,
+            Libri: International Journal of Libraries
+            and Information Services, 61(2): 125-130.</bibl>
+         <bibl><hi rend="bold">Couch, N.</hi> (1994). <hi rend="italic">Dance Collections</hi>. In Sheehy, C. (ed), Managing Performing Arts Collections in
+            Academic and Public Libraries. Westport: Greenwood Press,
+            pp. 41-72.</bibl>
+         <bibl><hi rend="bold">Delfel, G. </hi>(1951). <hi rend="italic">L’esthétique de Stéphane Mallarmé</hi>. Paris:
+            Flammarion.</bibl>
+         <bibl><hi rend="bold">Desalme, A.</hi> (2007). <hi rend="italic">Sur
+            les pas de la danse: l’exemple des bibliothèques américaines</hi>, Bulletin des bibliothèques de France,
+            52(4): 13-22.</bibl>
+         <bibl><hi rend="bold">Forest, D. </hi>(2012). <hi rend="italic">Fouille de textes et analyse thématique:
+            techniques prédictive et descriptive pour la gestion et l’analyse de documents
+            textuels non structurés</hi>. Sarrebruck: Éditions universitaires européennes.</bibl>
+         <bibl><hi rend="bold">Ibekwe-SanJuan, F. </hi>(2007).
+            <hi rend="italic">Fouille de textes: méthodes, outils et
+              applications</hi>. Paris:
+            Hermès, Lavoisier.</bibl>
+         <bibl><hi rend="bold">Johnson, C. and Fuller Snyder, A. </hi>(1999). <hi rend="italic">Securing our Dance Heritage: Issues in the Documentation and
+            Preservation of Dance.</hi> Washington: Council on Library and Information
+            Resources.</bibl>
+         <bibl><hi rend="bold">Jones, S., Abbott, D. and Ross, S. </hi>(2009). <hi rend="italic">Redefining the Performing Arts
+            Archive, Archival Science</hi>, 9(3-4):
+            165-171.</bibl>
+         <bibl><hi rend="bold">Kristeva, J.</hi> (1974). <hi rend="italic">La révolution du langage poétique: l’avant-garde
+            à la fin du XIX<hi rend="sup">e</hi> siècle, Lautréamont et Mallarmé</hi>. Paris:
+            Éditions du Seuil.</bibl>
+         <bibl><hi rend="bold">Le Boeuf, P. </hi>(2002).
+            <hi rend="italic">Le spectacle vivant en tant qu’objet documentaire et le modèle conceptuel de
+              données des FRBR</hi>. In Arts du spectacle:
+            patrimoine et documentation, XXIII<hi rend="sup">e </hi>congrès international, Paris
+            25-30 septembre 2000. Paris: Société internationale des bibliothèques et
+            musées des arts du spectacle, Bibliothèque nationale de France.</bibl>
+         <bibl><hi rend="bold">Lemay, Y.</hi> (2009). <hi rend="italic">Art
+            et archives: une perspective archivistique</hi>, Encontros
+            Bibli, édition spéciale: 64-86.</bibl>
+         <bibl><hi rend="bold">Levinson, A. </hi>(1983). <hi rend="italic">The Idea of Dance: From Aristotle to Mallarmé</hi>. In
+            Copeland, R. and Cohen, M. (eds), What Is
+            Dance? New York: Oxford University Press, pp. 47-54.</bibl>
+         <bibl><hi rend="bold">Mallarmé, S. </hi>(1897). <hi rend="italic">Divagations</hi>.
+            Paris: Bibliothèque Charpentier, Eugène Fasquelle. http://fr.wikisource.org/wiki/Divagations
+            (accessed May 2013).</bibl>
+         <bibl><hi rend="bold">Mallarmé, S.</hi> (1899). <hi rend="italic">Poésies</hi>.
+            Bruxelles: Edmond Deman. http://fr.wikisource.org/wiki/Po%C3%A9sies_%28Mallarm%C3%A9%29/%C3%89dition_1899
+            (accessed May 2013).</bibl>
+         <bibl><hi rend="bold">Miller, D. and Le Boeuf,
+            P.</hi> (2005).<hi rend="italic"> “Such stuff
+              as dreams are made on”</hi>: How Does FRBR Fit Performing Arts, Cataloging &amp; Classification Quarterly, 39 (3/4): 151-178.</bibl>
+         <bibl><hi rend="bold">Poinsot, J.-M. </hi>(2004).
+            <hi rend="italic">Avant-propos</hi>. In Mokhtari, S. (ed), Les
+            artistes contemporains et l’archive. Rennes : Presses universitaires de
+            Rennes, pp. 5-8.</bibl>
+         <bibl><hi rend="bold">Richard, J.-P.</hi> (1961).
+            <hi rend="italic">L’univers imaginaire de Mallarmé</hi>. Paris:
+            Editions du Seuil.</bibl>
+         <bibl><hi rend="bold">Rowat, T.</hi> (2005). <hi rend="italic">Review of Recent
+            Approaches to Growing Dance Legacy</hi>. Ottawa: Canada Council for the Arts.</bibl>
+         <bibl><hi rend="bold">Valaskakis-Tembeck, I., Odom, S. and Fisher-Stitt, N.</hi> (1997). <hi rend="italic">Dance Research
+            in Canada</hi>, Dance Research Journal,
+            29(1): 107-110.</bibl>
+         <bibl><hi rend="bold">Zachmann, G. </hi>(2001).<hi rend="italic"> Offensive Moves in Mallarmé: Dancing with des
+            astres</hi>. In Grossman, K., Lane, M., Monicat, B. and Silverman, W. (eds), Confrontations: Politics and Aesthetics in
+            Nineteenth-Century France. Amsterdam, Atlanta: Rodopi, pp. 187-200.</bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

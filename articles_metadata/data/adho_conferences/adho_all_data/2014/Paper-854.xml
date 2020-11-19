@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:x="http://www.w3.org/1999/xhtml" xmlns:exsl="http://exslt.org/common" xml:id="Paper-854">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Developing for Distant Listening: Developing Computational Tools for Sound Analysis By Framing User Requirements within Critical Theories for Sound Studies</title>
+        <author>
+          <name>
+            <surname>Clement</surname>, <forename>Tanya</forename>
+          </name>
+          <affiliation>University of Texas at Austin, United States of America </affiliation>
+          <email></email>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority/>
+        <publisher>EPFL, Switzerland</publisher>
+        <distributor>
+          <name>EPFL Digital Humanities Laboratory</name>
+          <address>
+            <addrLine>GC D2 386</addrLine>
+            <addrLine>Station 18</addrLine>
+            <addrLine>CH-1015 Lausanne</addrLine>
+            <addrLine>frederic.kaplan@epfl.ch</addrLine>
+          </address>
+        </distributor>
+        <pubPlace>Lausanne, Switzerland</pubPlace>
+        <address>
+          <addrLine>EPFL</addrLine>
+          <addrLine>CH-1015 Lausanne</addrLine>
+        </address>
+        <availability>
+          <p/>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note type="abstract">The Council on Library and Information Resources and the Library of Congress issued a 2010 report that suggests that if we do not use sound archives, our cultural heritage institutions will not preserve them. Nancy Davenport, previous president of CLIR, concludes that users want unfettered access and better discovery tools for what she calls “deep listening” (what Charles Bernstein calls “close listening”) or “listening for content, in note, performance, mood, texture, and technology.” It is a typical digital humanities problem: Without a better understanding of what such listening entails, we cannot build tools that afford such listening; because we lack the tools, humanists struggle to imagine how to describe the access they want -- what Jerome McGann calls “imagining what you don’t know.” In an attempt to imagine how to facilitate distant listening with computation, this paper positions user requirements for critical listening software within the context of critical listening theories.</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>No source: created in electronic format.</p>
+        <p>
+          <date when="20140710"/>
+          <time when="11:00:00"/>
+        </p>
+		<p n="session">5</p>
+		<p n="room">321 - Amphipôle</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="original" n="category">
+          <term>Paper</term>
+        </keywords>
+        <keywords scheme="original" n="subcategory">
+          <term>Long Paper</term>
+        </keywords>
+        <keywords scheme="original" n="keywords">
+          <term>Information infrastructure</term>
+          <term>critical theory</term>
+          <term>sound</term>
+          <term>data mining</term>
+          <term>visualization</term>
+          <term></term>
+        </keywords>
+        <keywords scheme="original" n="topic">
+          <term>archives</term>
+          <term>repositories</term>
+          <term>sustainability and preservation</term>
+          <term>audio</term>
+          <term>video</term>
+          <term>multimedia</term>
+          <term>literary studies</term>
+          <term>data modeling and architecture including hypothesis-driven modeling</term>
+          <term>user studies / user needs</term>
+          <term>information architecture</term>
+          <term>content analysis</term>
+          <term></term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text type="paper">
+    <front>
+      
+      <div>
+        <p></p>
+      </div>
+    </front>
+    <body>
+      <div>
+        <head>Developing for Distant Listening: Developing Computational Tools for Sound Analysis
+By Framing User Requirements within Critical Theories for Sound Studies
+</head>
+        <p>The Council on Library and Information Resources (CLIR) and the Library of Congress
+(LoC) issued a 2010 report that suggests that if we do not use sound archives, our cultural
+heritage institutions will not preserve them. Nancy Davenport, previous president of
+CLIR, concludes that users want unfettered access and better discovery tools for what she
+calls “deep listening” (what Charles Bernstein calls “close listening”) or “listening for
+content, in note, performance, mood, texture, and technology.”  It is a typical digital
+humanities problem: Without a better understanding of what such listening entails, we
+cannot build tools that afford such listening; and, because we lack the tools, humanists
+struggle to imagine how to describe the access they want -- what Jerome McGann calls
+“imagining what you don’t know.” In an attempt to imagine how to facilitate distant
+listening with computation, this paper positions user requirements for critical listening
+software within the context of critical listening theories.
+</p>
+        <head>Critical Listening Theories</head>
+        <p>
+Walter J. Ong once announced that recording technologies have heralded a new age in
+the study of the “voice, muted by script and print.” Humanists hold a range of theories
+and perspectives on how to study music or sound aesthetics in experimental poetry or
+how to contextualize sounds of the recording space (such as the whir of an old air
+conditioning or babies crying in the background) or the recording machine (such as the
+clicks and pops and pauses).
+</p>
+        <p>In particular, theoretical perspectives on “the voice” are useful in identifying the
+role sonic features that are discoverable by computation can play while close listening.
+Most such theories, for example, position sonic vocal traits as meaningful only within the
+context of a structural code for meaning such as language. Roland Barthes identifies two
+aspects of the voice in vocal music, for instance, that contribute to meaning making: the
+pheno-song, which refers to the structured elements of a piece such as speech or melody
+(or language codes) and the geno-song, which is the material or corporal aspect of the
+voice, the “volume of the singing and speaking voice, the space where significations
+germinate” (or sonic features). 5Privileging the pheno-song as more productive for
+communicating meaning, Barthes maintains that the geno-song –having “nothing to do
+with communication, representation (of feelings), expression”—is a system for
+transmitting that meaning.
+</p>
+        <p>Similarly, Michael Chion asserts that sonic features have meaning but that it is
+our lack of a descriptive system or hermeneutics that precludes our ability to make sense
+of these features. Chion approaches sound study by parsing listening into causal (for the
+source of the sound), semantic (to interpret a message), and reduced (to identify sonic
+traits) listening. Chion argues that reduced listening precludes meaning making for two
+reasons: (1) the “fixity” of sonic features required for close listening to sonic traits makes
+sound “physical data” that do not represent what was actually spoken or actually heard in
+real time “presence”; and (2) our language for describing how we make meaning with
+such traits is “totally inadequate.” Consequently, because of issues of fixity and
+inadequate identifiers, reduced listening is “an enterprise that is new, fruitful, and hardly
+natural.”
+</p>
+        <p>This argument, however, that the voice is only meaningful in the context of speech that
+transmits a message is a logocentric theoretical stance that has been readily contested.
+Adriana Cavarero who seeks to “understand speech from the perspective of the voice
+instead of from the perspective of language” wants to “pull speech itself from the deadly
+grip of logocentrism.” Caravero critiques the viewpoint of scholars such as Walter Ong
+and Marshall MacLuhan who at once essentialize the voice as “presence” and disembody
+and mythicize orality. Similarly, Mladen Dolar considers a “linguistics of non-voices”
+including coughing, hiccups, babbling, screaming, laughing, and singing, placing these
+sounds outside of the phonemic structure yet not outside of the linguistic structure. He
+argues that “It is not that our vocabulary is scanty and its deficiency should be remedied:
+faced with the voice, words structurally fail.” Finding possibilities for study in aspects
+of the voice such as accent, intonation, and timbre, Dolar asks the question at the heart of
+all of these queries: “how can we pursue this dimension of the voice?”
+</p>
+        <head>User Needs</head>
+        <p>
+User perspectives on the kinds of access and analysis advanced technologies with sound
+can facilitate were gathered by Clement as part of the HiPSTAS (High Performance
+Sound Technologies for Access and Scholarship) project. HiPSTAS is an NEH-funded,
+year-long Institute for Advanced Topics in the Humanities for librarians, information
+scientists, and humanities scholars who work with spoken word collections. Such
+collections include PennSound’s poetry archive, the American Folklife Center of the
+Library of Congress, oral histories in StoryCorps, and recordings from more than 50 tribes
+across Native America in the American Philosophical Society’s Native American
+Collection among other collections of interest to the participants. User perspectives were
+gathered from the 20 participants in three ways: (1) through Institute applications; (2)
+through pre-Institute interviews; and (3) through post-Institute surveys and project
+reports.
+</p>
+        <p>This data shows that defining the sonic features that map to specific cultural
+characteristics of “the voice” in spoken word recordings was not how participants
+phrased their research interests. One participant, for example, who was interested in
+working with the PennSound archive, wanted to consider “media ecologies” by analyzing
+“sounded affinities between poets” or “concepts of community poetics through sound;”
+this participant wanted “to look at groups of poets who have a common locale in terms of
+their community formation” and to use these clusterings to investigate how software
+“may or may not track affinities across gender lines.” Another participant analyzing
+PennSound was interested in “identifying, exploring, and categorizing performance
+variants of the same texts” such as “an aural/visual equivalent to the Versioning
+Machine)” and enabling “a kind of distant listening, flagging and visualizing generic
+features of poetry performance traditions (Is there, for example, a New York School style
+of oral delivery?” Other concerns were focused on reorienting how the archive is
+discoverable by enabling a “batch analysis of an audio corpus to mark the
+aural/perceptual relationships of poetry performance and extra-poetic ‘asides’ (which
+often provide significant contextualization of the poems but which may be ‘invisible’ in
+the Pennsound archive).”
+</p>
+        <p>Another participant interested in the APS recordings wanted to discover what it meant to
+think through “how a digital archive can recover intangible and ephemeral yet deeply
+powerful social experiences of sound” including “[w]hat themes of identity, gendered
+relations, and intercultural relations, may be heard in the Native speakers’ and singers’
+expressions and performances of the recorded stories and songs in the collections;” this
+participant wondered, “how might we thematize and index sounds to address issues of
+indigenous sonic embodiment in files from which we can hear but not necessarily see the
+speakers and singers? What are the [sonic] differences and similarities among performers
+of similar source material? How do these performative differences/similarities map or not
+map onto other factors (race, gender, region, class, age, etc.)?” Also interested in the APS
+Native American collections, another participant wanted to analyze these holdings in
+order to classify Navajo speakers against a map of origin in order to illustrate the location
+of a speaker. With the ultimate goal of “develop[ing] a cultural map to show spheres of
+influence of those language-speaking approaches on the stories and motifs across time
+and in proximity to historical centers of tribal trauma,” this participant wanted to use
+software “to determine whether dialectical region or if proximity to historical centers of
+tribal trauma (e.g. boarding school experiences or Navajo Long Walk) influence that
+speaker’s . . . Beauty Way and Protection Way approaches to speaking the Diné
+language”.
+</p>
+        <head>Conclusion
+</head>
+        <p>Ultimately, can a computer be taught to distinguish between paralinguistic commentaries
+and formal (or informal) poetry readings or a Beauty Way speaker and a Protection Way
+speaker within a large collection of sound files? This paper attempts to imagine these
+possibilities by positioning what users want to do with sound within a critical framework
+of listening theories that understand “the voice” as a cultural phenomenon that reflects
+the resonance between linguistic and non-linguistic features of sound. This paper will
+primarily frame user requirements gathered as part of HiPSTAS within listening theories
+in the humanities. However, this paper will also briefly mention possible ways forward
+including a use case in which PennSound poets and scholars use TEI speech tags for
+tagging tempo, rhythm, loudness, pitch, tension, and voice across PennSound poetry files
+in order to enable machine learning with ARLO (Adaptive Recognition with Layered
+Optimization) software, a machine learning application for analyzing sound on Stampede,
+an NSF petascale HPC system at the Texas Advanced Computing Center. Finally, we
+need to understand what users want to do with sound and the theories behind critical
+listening in the humanities before we can design distant listening tools that afford sound
+scholarship.</p>
+      
+       
+        
+      </div>
+    </body>
+    <back>
+      <div type="References">
+        <listBibl>
+          <bibl>Council on Library and Information Resources and the Library of Congress, <hi rend="italic">The State of
+            Recorded Sound Preservation in the United States: A National Legacy at Risk in the Digital Age</hi>.
+            Washington DC: National Recording Preservation Board of the Library of Congress, 2010, 157.
+          </bibl>
+          <bibl><hi rend="bold">Jerome McGann </hi>(2008), <hi rend="italic">Radiant Textuality: Literature After the World Wide Web</hi> (New York:
+            Palgrave).</bibl>
+          <bibl><hi rend="bold">Walter J. Ong </hi>(1967), <hi rend="italic">The Presence of the Word: Some Prolegomena for Cultural and Religious
+            History</hi> (New Haven: Yale University Press), 88.</bibl>
+          <bibl><hi rend="bold">Marjorie Perloff and Craig Douglas Dworkin</hi> (2012),<hi rend="italic"> The Sound of Poetry, the Poetry of Sound</hi>,
+            Chicago: University of Chicago Press, 2009; Adalaide Morris, ed., Sound States: Innovative
+            Poetics and Acoustical Technologies, Chapel Hill, NC: The University of North Carolina Press,
+            1998; Jonathan Sterne, ed., The Sound Studies Reader (New York: Routledge).
+          </bibl>
+          <bibl><hi rend="bold">Roland Barthes</hi> (1978), <hi rend="italic">Image-Music-Text</hi>. (New York: Hill and Wang), 182.
+          </bibl>
+          <bibl><hi rend="bold">Barthes</hi>, <hi rend="italic">Image</hi>, 182.
+          </bibl>
+          <bibl>This seems related to <hi rend="bold">Roland Barthes</hi>’s three distinct types of listening in his essay “Listening”:
+            the first represents a listener on “alert” as prey or predator, as mother or child, as lover on the
+            lookout; the second represents "deciphering" or "what the ear tries to intercept are certain signs";
+            the third is the “intersubjective” listening of the psychoanalyst. <hi rend="bold">Roland Barthes</hi>, The
+            Responsibility of Form, trans. <hi rend="bold">Richard Howard </hi>(New York: Hill and Wang, 1985), 245; <hi rend="bold">Michael
+              Chion</hi>, “Three Listening Modes,” in The Sound Studies Reader, ed. Jonathan Sterne, 48-53 (New
+            York: Routledge, 2012), 50 - 51.
+          </bibl>
+          <bibl><hi rend="bold">Chion</hi>, “Three Listening Modes,” 51.</bibl>
+          <bibl><hi rend="bold">Chion</hi>, “Three Listening Modes,” 50; emphasis added.</bibl>
+          <bibl><hi rend="bold">Adriana Caravero</hi> (2012) <hi rend="italic">“Multiple Voices,”</hi> in The Sound Studies Reader, ed. Jonathan Sterne, 520-
+            532 (New York: Routledge), 530, 531.</bibl>
+          <bibl><hi rend="bold">Mladen Dolar</hi> (2012), <hi rend="italic">“The Linguistics of the Voice,” </hi>in The Sound Studies Reader, ed. Jonathan
+            Sterne, 539-554 (New York: Routledge), 552.</bibl>
+          <bibl><hi rend="bold">Dolar</hi>, <hi rend="italic">“Linguistics,”</hi> 539.</bibl>
+          <bibl><hi rend="bold">Dolar</hi>, <hi rend="italic">“Linguistics ,”</hi> 544.</bibl>
+          <bibl>Please see the project site at http://blogs.ischool.utexas.edu/hipstas/.</bibl>
+          <bibl>Please see the participant list and links to their project interests at
+            http://blogs.ischool.utexas.edu/hipstas/participants/.</bibl>
+          <bibl>Project reports are publically available at https://sites.google.com/site/nehhipstas/project-pages.
+          </bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

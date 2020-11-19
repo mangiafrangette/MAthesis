@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="../schema/xmod_web.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xmt="http://www.cch.kcl.ac.uk/xmod/tei/1.0" 
+     xml:id="ab-289">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Differentiation of Genres in Eighteenth- and Nineteenth-Century English Literature</title>
+                <author>
+                    <name>Underwood, Ted</name>
+                    <affiliation>University of Illinois, Urbana-Champaign, USA</affiliation>
+                    <email>tunder@illinois.edu</email>
+                </author>
+                <author>
+                    <name>Sellers, Jordan</name>
+                    <affiliation>University of Illinois, Urbana-Champaign, USA</affiliation>
+                    <email>eseller2@illinois.edu</email>
+                </author>
+                <author>
+                    <name>Auvil, Loretta</name>
+                    <affiliation>University of Illinois, Urbana-Champaign, USA</affiliation>
+                    <email>lauvil@illinois.edu</email>
+                </author>
+                <author>
+                    <name>Capitanu, Boris</name>
+                    <affiliation>University of Illinois, Urbana-Champaign, USA</affiliation>
+                    <email>capitanu@ncsa.illinois.edu</email>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Jan Christoph Meister, Universität Hamburg</publisher>
+                <address>
+                   <addrLine>Von-Melle-Park 6, 20146 Hamburg, Tel. +4940 428 38 2972</addrLine>
+                   <addrLine>www.dh2012.uni-hamburg.de</addrLine>
+              </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>No source: created in electronic format.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2012-04-15</date>
+                <name>DH</name>
+                <desc>generate TEI-template with data from ConfTool-Export</desc>
+            </change>
+            <change>
+                <date>2012-04-13</date>
+                <name>LS</name>
+                <desc>provide metadata for publicationStmt</desc>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="paper">
+        <body>
+            
+            <div>
+            <p>The title of this paper has changed, because our
+                    effort to answer one question (about linguistic register) exposed a larger
+                    question with broad relevance to literary study, and indeed to the definition of
+                    ‘literature.’</p>
+                <p>To start where the process of inquiry actually began: what happened to English
+                    poetic diction around 1800? William Wordsworth’s claim to have brought poetry
+                    back to ‘the language of conversation in the middle and lower classes of
+                    society’ in <hi rend="italic">Lyrical Ballads</hi> has long been represented as
+                    a turning point in literary history. Given the weight attributed to this claim,
+                    it is surprising that scholars haven’t tried to test it. Did the language of
+                    poetry actually become more formal or specialized in the eighteenth century? And
+                    if so, did the change reverse itself around 1798? Finally, was this phenomenon
+                    restricted to poetry, or was it a broader transformation of diction that
+                    affected other genres as well?</p>
+                <p>We are increasingly in a position to answer questions like these. True, we can’t
+                    ask eighteenth-century English speakers to demonstrate ‘the language of
+                    conversation in the middle and lower classes of society.’ Moreover, standard
+                    contemporary tests of difficulty (like the Flesch-Kincaid Readability Test) are
+                    not very applicable to earlier periods, because they rely on sentence length.
+                    Practices of punctuation have changed over time, making the average sentence
+                    steadily shorter from the seventeenth century through the twentieth.</p>
+                <p>It is more practical to assess the formality of diction. This assessment is
+                    particularly easy to make in English because of an important peculiarity of its
+                    history: English was for two hundred years (1066-1250) almost exclusively a
+                    spoken language, while French and Latin were used for writing. Any English word
+                    that survived this period had to be the kind of word that gets used in
+                    conversation. Words that entered the language afterwards were often borrowed
+                    from French or Latin to flesh out the learned vocabulary. Even today, the
+                    distinction between these two parts of the lexicon remains an important aspect
+                    of linguistic register. For instance, Laly Bar-Ilan and Ruth Berman have shown
+                    that contemporary spoken English is distinguished from writing by containing a
+                    higher proportion of words from Old English. Moreover, this differentiation
+                    between writing and speech increases as students enter high school, where they
+                    also learn to use a greater proportion of words from French and Latin in formal
+                    expository prose than they do in written narrative (Bar-Ilan &amp; Berman
+                    2007).</p>
+                <p>If learned and informal registers were distinguished this way in the thirteenth
+                    century, and the same thing holds true today, then one can reasonably infer that
+                    it held true in the eighteenth and nineteenth centuries as well (for further
+                    evidence, see DeForest &amp; Johnson 2001). Thus an etymological approach to
+                    diction can show us how the ‘register’ of a given genre changed across time,
+                    becoming more conversational or more formal.</p>
+                
+                <p><figure><graphic url="img289-1.jpg" rend="left" height="256px" width="341px" mimeType="image/jpeg"/><head>Figure 1</head></figure></p>
+                <p>We have explored this question in a collection
+                    of 3,724 volumes. The eighteenth-century part of the collection was manually
+                    keyed by ECCO-TCP; the nineteenth-century part of the collection was digitized
+                    by OCR, but has been corrected with a fuzzy-matching script that has a
+                    machine-learning component and is extensively optimized for nineteenth-century
+                    OCR (our strategy was based on Lasko &amp; Hauser 2002). More importantly, the
+                    comparative logic of this inquiry largely factors out the false negatives
+                    produced by imperfect OCR.</p>
+                <p>Instead of distinguishing ‘Germanic’ and ‘Latinate’ diction, we have used the
+                    first attested date for each word, choosing 1150 as a dividing line because it’s
+                    the midpoint of the period when English was not used in writing. But
+                    date-of-entry of course correlates strongly with the Germanic/Latinate division.
+                    One can in fact simply measure the average length of words and produce very
+                    similar results (the correlation between the pre/post-1150 ratio and average
+                    word length is usually -.85 or lower). We exclude a generous list of stopwords
+                    (determiners, prepositions, conjunctions, pronouns, and the verb to be). The
+                    reason is that, as Bar-Ilan and Berman point out, ‘register variation is
+                    essentially a matter of <hi rend="italic">choice</hi>’ (15). There is usually no
+                    alternative to stopwords, so they may not reveal much about register. We also
+                    exclude abbreviations, proper nouns, and words that entered the language after
+                    1699.</p>
+                <p>The results of this inquiry do suggest that the register of poetry took a new
+                    turn in the late eighteenth century. In the course of the nineteenth century
+                    older, pre-1150 words became dramatically more common in poetry. It is
+                    reasonable to infer that poetic diction became more familiar and less overtly
+                    learned. But this particular detail is hardly the most striking fact about Fig.
+                    1. What’s salient is rather a broader process of generic differention from 1700
+                    to 1899 that affected prose fiction and nonfiction as well as poetry. In the
+                    year 1700, these genres each had their own peculiarities of diction, but they
+                    didn’t belong to sharply distinguished registers of the language. By 1899, they
+                    did. The ratio of pre- to post-1150 words became almost twice as high in prose
+                    fiction as in nonfiction, and almost three times higher in poetry. This suggests
+                    that the story usually told about Wordsworth may be misleading: far from
+                    rebelling against specialized poetic diction, he was producing a manifesto for a
+                    style that was – less recondite, to be sure – but also <hi rend="italic"
+                        >more</hi> sharply differentiated from prose.</p>
+                <p>This result matters, more broadly, because it bears an interesting relationship
+                    to the emergence of ‘literature’ as a distinct cultural category in the same
+                    period. In the early eighteenth century, ‘literature’ could encompass anything
+                    read by the middle and upper classes, emphatically including nonfiction. By the
+                    end of the nineteenth century, ‘literature’ was a category sharply distinguished
+                    from nonfiction prose, and valued for special aesthetic qualities. If this
+                    conceptual shift was also accompanied by a systematic transformation of diction,
+                    we may be able to learn something about the nineteenth-century concept of
+                    ‘literature’ by paying close attention to the way diction changed.</p>
+                <p>To start a debate on this topic, we will present an argument with two parts.
+                    First, we will show that the differentiation of genres was not merely a matter
+                    of linguistic register. When we compare genres in a more general way (using
+                    metrics like Spearman correlation and cosine similarity) it remains true that
+                    poetry, fiction and, to some extent, drama became steadily less like nonfiction
+                    prose in the period 1700-1899 (for the rationale behind these metrics, see
+                    Kilgarriff 2001).</p>
+                
+                <p><figure><graphic url="img289-2.jpg" rend="left" height="256px" width="341px" mimeType="image/jpeg"/><head>Figure 2</head></figure></p>
+                <p>Second, we will begin to interpret the meaning of the
+                    divergence, by examining lists of words that became relatively more (or less)
+                    overrepresented in literary genres over this period. Briefly, we will suggest
+                    that the transformation of literary diction dramatizes a transformation of the
+                    logic of cultural capital. In the eighteenth century, literary diction
+                    explicitly thematized the social status associated with fine writing (‘muse,’
+                    ‘pomp,’ ‘taste,’ ‘applause,’ ‘genius,’ ‘merit,’ ‘talents.’) In the nineteenth
+                    century, literary diction became more concrete, to be sure, and less explicitly
+                    learned – but it also tended to disavow the social in favor of a pure
+                    subjectivity embodied, for instance, in nouns and verbs of perception
+                    (‘listened,’ ‘heard,’ ‘looked,’ ‘felt,’ ‘dream,’ ‘eye’). We propose that this
+                    emphasis on subjectivity and immediacy in fact dramatizes a mode of cultural
+                    capital associated with literature’s autonomy from other institutions (Ross
+                    1998). We don’t pretend to have proven that hypothesis. There is room for a
+                    great deal more study and argument. We do, however, claim to have shown that the
+                    diction of poetry, fiction, and nonfiction prose differentiate from each other
+                    over the period 1700-1899 – a puzzle that will need <hi rend="italic">some</hi>
+                    kind of explanation. We offer the puzzle itself as an example of the way
+                    text-mining is already beginning to shape debates in literary history and
+                    critical theory.</p>
+            </div>
+            
+            <div>
+                <p/>
+                <p><hi rend="bold">Acknowledgments</hi></p>
+                <p>The arguments and methods in this paper have been deeply shaped by conversation
+                    with Natalia Cecire, Tanya Clement, Katherine Harris, Ryan Heuser, Natalie
+                    Houston, Matt Jockers, Benjamin Schmidt, John Unsworth, and Scott Weingart.</p>
+            </div>
+            <div>
+                <p><hi rend="bold">Funding</hi></p>
+                <p>This work was supported by the Andrew W. Mellon Foundation grant, <hi
+                        rend="italic">Expanding SEASR Services.</hi></p>
+            </div>
+            
+            
+        </body>
+        <back>
+            <div>
+                
+           <head>References</head>
+
+            <p><hi rend="bold">Bar-Ilan, L., and R. A. Berman</hi> (2007). Developing register
+                differentiation: the Latinate-Germanic divide in English. <hi rend="italic"
+                    >Linguistics</hi> 45: 1-35.</p>
+            <p><hi rend="bold">DeForest, M., and E. Johnson</hi> (2001).The Density of Latinate
+                Words in the Speeches of Jane Austen’s Characters. <hi rend="italic">Literary and
+                    Linguistic Computing</hi> 16: 389-401.</p>
+            <p><hi rend="bold">Lasko, T. A., and S. E. Hauser</hi> (2002). Approximate String
+                Matching Algorithms for Limited-Vocabulary OCR Output Correction. <hi rend="italic"
+                    >US National Library of Medicine</hi><ref target="http://archive.nlm.nih.gov/pubs/hauser/Tompaper/tompaper.php" type="external"
+                >http://archive.nlm.nih.gov/pubs/hauser/Tompaper/tompaper.php.</ref></p>
+            <p><hi rend="bold">Kilgarriff, A.</hi> (2001). Comparing Corpora. <hi rend="italic"
+                    >International Journal of Corpus Linguistics</hi> 6: 97-133.</p>
+            <p><hi rend="bold">Ross, T.</hi> (1998). <hi rend="italic">The Making of the English
+                    Literary Canon.</hi> Montreal: McGill-Queen’s UP.</p>
+            
+                <p><hi rend="bold">Wordsworth, W.</hi> (1798). Advertisement. <hi rend="italic">Lyrical Ballads, with a Few Other
+                    Poems,</hi> by William Wordsworth and S. T. Coleridge. Bristol: Biggs &amp;
+                Cottle.</p>
+            </div>
+        </back>
+    </text>
+</TEI>

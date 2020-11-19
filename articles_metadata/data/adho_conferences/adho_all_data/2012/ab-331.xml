@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="../schema/xmod_web.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xmt="http://www.cch.kcl.ac.uk/xmod/tei/1.0" 
+     xml:id="ab-331">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Aiding the Interpretation of Ancient Documents</title>
+                <author>
+                    <name>Roued-Cunliffe, Henriette</name>
+                    <affiliation>Centre for the Study of Ancient Documents, University of Oxford, UK</affiliation>
+                    <email>henriette.roued@classics.ox.ac.uk</email>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Jan Christoph Meister, Universität Hamburg</publisher>
+                <address>
+                   <addrLine>Von-Melle-Park 6, 20146 Hamburg, Tel. +4940 428 38 2972</addrLine>
+                   <addrLine>www.dh2012.uni-hamburg.de</addrLine>
+              </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>No source: created in electronic format.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2012-04-15</date>
+                <name>DH</name>
+                <desc>generate TEI-template with data from ConfTool-Export</desc>
+            </change>
+            <change>
+                <date>2012-04-13</date>
+                <name>LS</name>
+                <desc>provide metadata for publicationStmt</desc>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="paper">
+        <body>
+            
+                <p>How can Decision Support System (DSS) software aid the interpretation process
+                    involved in the reading of ancient documents? This paper discusses the
+                    development of a DSS prototype for the reading of ancient texts. In this context
+                    the term ‘ancient documents’ is used to describe mainly Greek and Latin texts
+                    and the term ‘scholars’ is used to describe readers of these documents (e.g.
+                    papyrologists, epigraphers, palaeographers). However, the results from this
+                    research can be applicable to many other texts ranging from Nordic runes to 18th
+                    Century love letters. </p><p>In order to develop an appropriate tool it is
+                    important first to comprehend the interpretation process involved in reading
+                    ancient documents. This is not a linear process but rather a recursive process
+                    where the scholar moves between different levels of reading, such as
+                    ‘understanding the meaning of a character’ or ‘understanding the meaning of a
+                    phrase’ (Youtie 1963; Terras 2006). This realization has been paramount to the
+                    development of the DSS prototype.</p>
+                   <div><head>Aiding, not making decisions</head>
+                    <p>When examining whether a tool such as DSS can aid the reading of ancient
+                        documents it is important first to realize what such a tool can and should
+                        do and what it cannot and should not do. I did not set out to develop a tool
+                        that could automate the process of reading ancient documents without human
+                        interaction. Firstly, I did not wish to see humans removed from this
+                        interpretational process and replaced with robotics.</p>
+                    <p><hi rend="italic">Good reading is a reflective as well as a sensational
+                        process which engages our abstract mental faculties, and we give it up at
+                        our peril </hi>(Deegan &amp; Sutherland 2009: viii).</p>
+                    <p>Secondly, interpretation is a part of the ‘higher levels of analytic and
+                        creative functions which are the prerogative of the human mind’ (Busa 1980:
+                        89) and the symbol-processing powers of a computer should not be mistaken
+                        for this (Jonscher 2000: 149).</p>
+                    <p>Instead this research has examined how the use of DSS technology can support
+                        the interpretative process, among other things, by remembering the complex
+                        reasoning that forms a large part of this interpretation process.
+                        Remembering decisions and the complex reasoning leading up to decisions is
+                        something that DSS is good at. The DSS prototype has demonstrated how this
+                        is possible. </p>
+                    <p>Furthermore the prototype has demonstrated other aspects of reading ancient
+                        documents, apart from the interpretation process, where IT tools can provide
+                        support such as searching huge datasets and the automated publishing of
+                        editions.</p></div>
+                
+                    <div><head>The DSS Prototype</head>
+                    <p>The prototype was developed as a proof of concept. First I used existing
+                        research on reading ancient documents (Bowman &amp; Brady 2005; Terras 2006;
+                        Tarte 2011) to model the network of interpretation (Roued-Cunliffe 2010),
+                        and then I developed the DSS prototype to demonstrate how a DSS can aid the
+                        interpretation process based on this model. </p>
+                        <p><figure>
+                        <graphic url="img331-1.jpg" rend="left" height="256px" width="341px"
+                            mimeType="image/jpeg"/>
+                        <head>Figure 1: Screenshot from the DSS prototype (Roued-Cunliffe 2012:
+                            87)</head>
+                    </figure></p>
+                        
+            <p>The prototype (Fig. 1) demonstrates how it would be possible to input data and
+                    edit the structure and meaning of a document on different levels. Scholars can
+                    begin by entering basic structure such as line or character elements and work
+                    back and forth between this level and higher levels such as editing the meaning
+                    of a letter or word. Furthermore, the prototype enables scholars to use the
+                    letters and character elements they have input to search relevant corpora
+                    databases for possible parallels. </p><p>The prototype uses the concept of
+                    argumentation, which can be defined as ‘the process of constructing arguments
+                    about propositions, and the assignment of statements of confidence to those
+                    propositions based on the nature and relative strength of their supporting
+                    arguments’ (Fox et al. 1996: 428). In the prototype these statements of
+                    confidence are merely whether the user believes the reading to be right or
+                    wrong. It does not require users to signify how much they believe in a certain
+                    decision. Furthermore, the arguments are either <hi rend="bold">for</hi> or <hi
+                        rend="bold">against</hi> the interpretation in question. No matter how many
+                    arguments are <hi rend="bold">for</hi> or <hi rend="bold">against</hi> any one
+                    interpretation the prototype will not try to persuade the user to make a certain
+                    decision. The prototype is first and foremost flexible and user-driven and its
+                    role is purely that of a good assistant, reminding users of their own decisions
+                    and reflections. </p></div>
+                    <div><head>
+                        Future DSS</head>
+                    <p>The DSS prototype, presented in this paper, has been successful in
+                        illustrating how this technology can aid such a complex interpretation
+                        process, as is the reading of ancient documents. However, in future this
+                        prototype will need to be re-developed to contain, among others, a more
+                        advanced user interface. With this in hand it would be possible to conduct
+                        user testing, which would give a basis for the development of a fully
+                        working DSS. I have a suggestion for a future layer-based system that would
+                        be user-friendly and could work well in conjunction with a DSS and other
+                        useful tools for aiding the reading of ancient documents.</p>
+                        <p><figure>
+                        <graphic url="img331-2.jpg" rend="left" height="256px" width="341px"
+                            mimeType="image/jpeg"/>
+                        <head>Figure 2: Drawing of the layer-based DSS concept (Roued-Cunliffe
+                            2012: 132)</head>
+                    </figure></p>
+                        
+            <p>The layer-based system would contain four types of layers that users can swap and
+                    switch between so that they can edit the different layers at any time and edit
+                    one layer while others are visible below (Fig. 2). The first types of layers are
+                    the image layers. These image layers could be the original image of an object,
+                    PMT images of an object (Earl et al<hi rend="italic">,</hi> 2011) or enhanced
+                    images (e.g. with wood-grain removed or the illumination corrected (Tarte et
+                        al<hi rend="italic">, </hi>2011)). The second type of layers are the editor
+                    layers which can include a layer for hand-drawn transcriptions of the text, a
+                    layer in which to edit the structure of the text (i.e. lines, words, characters
+                    and spaces in the text) and a layer in which to add meaning to the text (i.e.
+                    this letter is <hi rend="italic">b</hi>). The third type of layers is the DSS
+                    layer which would resemble the DSS prototype. The fourth and final type of
+                    layers are the suggestion layers from which it would be possible to retrieve for
+                    example suggested words from a word search engine based on letters input in the
+                    earlier editor layer.  </p></div>
+                    <div><head>Conclusion</head>
+                    <p>The research presented in this paper aims to illustrate how DSS software
+                        could aid the interpretation of ancient documents and has been successful in
+                        doing this through the development of the DSS prototype. The DSS prototype
+                        covered different areas of the interpretation process from input to
+                        argumentation <hi rend="bold">for</hi> and <hi rend="bold">against</hi>
+                        different decisions. It has illustrated how DSS software can assist scholars
+                        by remembering their complex reasoning and suggesting readings along the
+                        way. Furthermore, the research describes an idea for a fully formed future
+                        DSS based on the finding from the development of the prototype. </p></div>
+                <div>
+                    <p><hi rend="bold">Acknowledgements</hi></p>
+                    <p>This research is a part of the author’s thesis: ‘A Decision Support System
+                        for the Reading of Ancient Documents’ at the Faculty of Classics, University
+                        of Oxford. It is funded by an AHRC Doctoral Studentship attached to the
+                        e-Science and Ancient Documents (eSAD) project
+                        (<ref target="http://esad.classics.ox.ac.uk/" type="external">http://esad.classics.ox.ac.uk/</ref>). I wish to thank Prof. Alan Bowman, Prof.
+                        Sir Michael Brady, Dr. Melissa Terras, Dr. Segolene Tarte, Dr. Charles
+                        Crowther, Margaret Sasanow and John Pybus for their support throughout my
+                        research.</p></div>
+        </body>
+        <back>
+            <div>
+               
+                    <head>References</head>
+                <p><hi rend="bold">Bowman, A. K., and M. Brady</hi> (2005). <hi rend="italic">Images
+                        and Artefacts of the Ancient World</hi>. London: British Academy.</p>
+                <p><hi rend="bold">Busa, R.</hi> (1980). The Annals of Humanities Computing: The
+                    Index Thomisticus. <hi rend="italic">Computers and the Humanities</hi> 14:
+                    83-90.</p>
+                <p><hi rend="bold">Deegan, M., and K. Sutherland</hi> (2009). <hi rend="italic"
+                        >Transferred Illusions: Digital Technology and the Forms of Print</hi>.
+                    London: Ashgate. </p>
+                <p><hi rend="bold">Earl, G., P. Basford, A. Bischoff, A. Bowman, C. Crowther, J.
+                        Dahl, M. Hodgson, L. Isaksen, E. Kotoula, K. Martinez, H. Pagi, and K. E.
+                        Piquette</hi> (2011). <hi rend="italic">Reflectance Transformation Imaging
+                        Systems for Ancient Documentary Artifacts.</hi><ref
+                        target="http://ewic.bcs.org/upload/pdf/ewic_ev11_s8paper3.pdf"
+                        type="external">http://ewic.bcs.org/upload/pdf/ewic_ev11_s8paper3.pdf</ref>
+                     (accessed 07.03.2012)</p>
+                <p><hi rend="bold">Fox, J., P. Krause, and M. Elvang-Gøransson</hi> (1996).
+                    Argumentation as a General Framework for Uncertain Reasoning. In D. Heckerman
+                    and E. H. Mamdani (eds.), <hi rend="italic">UAI ’93: Proceedings of the Ninth
+                        Annual Conference on Uncertainty in Artificial Intelligence, July 9-11,
+                        1993, The Catholic University of America, USA</hi>. San Fransisco: Morgan
+                    Kaufmann Publishers, pp. 428-434. </p>
+                <p><hi rend="bold">Jonscher, C.</hi> (2000).<hi rend="italic"> Wired Life: Who Are
+                        We in the Digital Age?</hi> London: Anchor.</p>
+                <p><hi rend="bold">Roued-Cunliffe, H.</hi> (2010). Towards an Interpretation Support
+                    System for Reading Ancient Documents. <hi rend="italic">Literary and Linguistics
+                        Computing</hi> 25(4): 365-379.</p>
+                <p><hi rend="bold">Roued-Cunliffe, H.</hi> (2012). <hi rend="italic">A decision
+                        Support System for the Reading of Ancient Documents</hi>. D.Phil Thesis,
+                    Classics Faculty, University of Oxford. </p>
+                <p><hi rend="bold">Tarte, S.</hi> (2011). Papyroligical Investigations: Transferring
+                    Perception and Interpretation into the Digital World. <hi rend="italic">Literary
+                        and Linguistics Computing</hi> 26(2): 233-247.</p>
+                <p><hi rend="bold">Tarte, S., M. Brady, A. K. Bowman, and M. Terras</hi> (2011).
+                    Image Capture and Processing for Enhancing the Legibility of Incised Texts. In
+                    V. Vahtikari, M. Hakkarainen, and  A. Nurminnen, <hi rend="italic">Eikonopoiia.
+                        </hi><hi rend="italic">Digital Imaging of Ancient Textual Heritage,
+                        Technological Challenges and Solutions</hi>. Commentationes Humanarum
+                    Litterarum 129. Helsinki: Academy of Finland, pp. 173-88. </p>
+                <p><hi rend="bold">Terras, M.</hi> (2006). <hi rend="italic">Image to
+                        Interpretation: Intelligent Systems to Aid Historians in the Reading of the
+                        Vindolanda Texts</hi>. Oxford Studies in Ancient Documents. Oxford: Oxford
+                    UP.</p>
+                <p><hi rend="bold">Youtie, H. C.</hi> (1963). The Papyrologist: Artificer of Fact
+                        <hi rend="italic">GRBS</hi> 4: 19-32.</p>
+            </div>
+        </back>
+    </text>
+</TEI>

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="../schema/xmod_web.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xmt="http://www.cch.kcl.ac.uk/xmod/tei/1.0" 
+     xml:id="ab-416">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>HyperMachiavel: a translation comparison tool</title>
+                <author>
+                    <name>Gedzelman, Séverine</name>
+                    <affiliation>ENS de Lyon, France</affiliation>
+                    <email>severine.gedzelman@ens-lyon.fr</email>
+                </author>
+                <author>
+                    <name>Zancarini, Jean-Claude</name>
+                    <affiliation>ENS de Lyon, France</affiliation>
+                    <email>jean-claude.zancarini@ens-lyon.fr</email>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Jan Christoph Meister, Universität Hamburg</publisher>
+                <address>
+                   <addrLine>Von-Melle-Park 6, 20146 Hamburg, Tel. +4940 428 38 2972</addrLine>
+                   <addrLine>www.dh2012.uni-hamburg.de</addrLine>
+              </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>No source: created in electronic format.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2012-04-15</date>
+                <name>DH</name>
+                <desc>generate TEI-template with data from ConfTool-Export</desc>
+            </change>
+            <change>
+                <date>2012-04-13</date>
+                <name>LS</name>
+                <desc>provide metadata for publicationStmt</desc>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="paper">
+        <body>
+            <div>
+                <head>Introduction</head>
+                <p>The HyperMachiavel project started with the idea of a tool that would aid
+                    research communities comparing several editions of one text and in particular
+                    comparing translations. </p>
+                <p>The Italian studies department (Triangle laboratory) at ENS de Lyon has been
+                    working for many years on fundamental texts, from Machiavelli, Guicciardini and
+                    other contemporary followers, that put forward new political concepts throughout
+                    Europe in the 16th century. The question addressed in the project was mainly
+                    about the transfer of these concepts from one language to another, and
+                    especially their reception in France. The first aligned corpora tested in our
+                    tool gathers different editions of Machiavelli’s <hi rend="italic">Il
+                        Principe</hi>, the <hi rend="italic">princeps edito</hi> from Blado in 1532
+                    and the first four French translations of the 16<hi rend="sup">th</hi> century.</p>
+                <p>Inspired by machine translation and lexicographic domains, the system presented
+                    in this paper proposes an annotation environment dedicated to the edition of
+                    lexical correspondences and offers different views to assist humanities
+                    researchers in their interpretations of the quality and the specificities of
+                    translator’s work.</p>
+            </div>
+            <div>
+                <head> Viewing and Searching in Aligned Corpora </head>
+                <div>
+                  
+                    <head> Synoptic View </head>
+                    <p>To be able to identify lexical correspondences, machine translation tools
+                        usually propose a frame of two panels, one for the source text and the other
+                        for the target text. The visualized interface is meant for annotators to
+                        easily revise the results obtained from automatic word alignment. In general
+                        it only considers a pair of texts at a time.</p>
+                    <p>In the world of digital editions, text comparison has always been of great
+                        interest and the request to view diplomatic vs normalized transcriptions, or
+                        simply different editions of one text increases all the more that digital
+                        data become truly available. Systems such as the Versioning Machine
+                        (Schreibman et al. 2007) already offers parallel views for TEI aligned
+                        corpora with no constraint on the number of displayed texts. Being able to
+                        take into consideration several target versions was an important starting
+                        point when designing <hi rend="bold">HyperMachiavel</hi>. Therefore the main
+                        panel offers a ‘Parallel view’ (see Fig. 1) to interact with processes that
+                        need global context visualization (e.g. concordancer results).</p>
+                </div>
+            <div>
+                
+                <head>Alignment</head>
+                    <p>To deal with text alignment, many tools working with pair of texts
+                        (bitext2tmx, alinea or mkAlign<note>Software ‘alinea’ is developed by O.
+                            Kraif (<ref
+                                target="http://w3.u-grenoble3.fr/kraif/index.php?Itemid=43&amp;id=27&amp;option=com_content&amp;task=view"
+                                type="external">
+                                http://w3.u-grenoble3.fr/kraif/index.php?Itemid=43&amp;id=27&amp;option=com_content&amp;task=view</ref>),
+                            ‘bitext2tmx’ (<ref target="http://bitext2tmx.sourceforge.net"
+                                type="external">http://bitext2tmx.sourceforge.net</ref> ) by S.
+                            Santos, S. Ortiz-Rojas, M. L. Forcada and now R. Martin, and ‘mkAlign’
+                            by S. Fleury (<ref target="http://www.tal.univ-paris3.fr/mkAlign"
+                                type="external">http://www.tal.univ-paris3.fr/mkAlign</ref>)</note>,
+                        Fleury et al. 2008) uses statistical measures of co-occurrence or combines
+                        word distribution algorithm with cognates detection. Although original
+                        investigation on automatic alignment has been proceeded for non modern texts
+                        like in the Holinshed Project (Cummings &amp; Mittelbach 2010), our focus
+                        was to fulfill the need for editing and controlling lexical correspondences.
+                        Exploring these techniques will be done in a second development phase but
+                        for the moment, HyperMachiavel imports aligned corpora encoded in XML-TMX or
+                        XML-TEI and proposes a manual alignment feature for additional text files. </p>
+                    <p>Because old edition texts usually present great variability in the lexical
+                        forms, we favored a computer-aided system for bilingual search and put
+                        efforts in the lexicography work environment. </p>
+            </div>
+            <div>
+                
+                <head> Lexicography and Lexical Tagging </head>
+                    <p>Linguistic annotation tools make use of external dictionaries to tag texts
+                        but cannot be applied on old texts per se. Combining this process with the
+                        user’s analysis of the text to build its own lexical resource, either by
+                        bringing corrections to the model or proposing partial tagging, is a
+                        necessary condition for our study. Recent work conducted by Lay et al. 2010
+                        have also emphasized the user’s interaction in the lexical exploration and
+                        offers customization of lexical resources. HyperMachiavel follows that path
+                        by presenting tokenizer’s choice (among which TreeTagger java implementation
+                        by Helmud Schmid) and a general framework to consolidate endogenous or
+                        external lexical resources that would work in harmony with the defined
+                        corpora.</p>
+                    <p>Information obtained from tokenization like category, lemma, word onset and
+                        offset localisation in the texts are registered in XML files. A full-text
+                        search engine, specially designed for the tool, uses this information, so
+                        does the ‘Vocabulary view’ listing all the forms for each language in the
+                        corpora. This view displays frequency information by text (see Fig. 2) and
+                        brings a first impression on lexical distribution among versions, or authors
+                        in our case.</p>
+                    <p>The use of concordancer (Key Word In Context) that classically links
+                        dictionary entries to corpora occurrences is central in the system (results
+                        of monolingual search or after a selection from the ‘Vocabulary view’, e.g.
+                        Fig. 3). As for equivalences detection are concerned, some authors have
+                        shown that bilingual concordancers (ParaConc; Barlow et al. 2004; ConcQuest;
+                        Kraif 2008) are very helpful. However viewing results of bilingual search
+                        with concordancers in our case is not sufficient. As we want to compare
+                        numerous source and target texts, a ‘Parallel Indexes view’ has been
+                        designed and is described hereafter.</p>
+            </div>
+                </div>
+            <div><head> Exploring Equivalences </head>
+                <div><head> Equivalences Detection and Validation </head>
+                    
+                    <p>Annotating equivalences is a long process and a semi-automatic scenario has
+                        been introduced with the bilingual search. Results from that search are
+                        displayed in the ‘Parallel indexes view’ (see Fig. 4). Some results will
+                        show co-presence in an aligned segment of at least one source and target
+                        searched items, but source or target occurrences could be found alone.</p>
+                    <p>When the user is faced with empty results (source or target), the ‘Parallel
+                        view’ helps detect other potential equivalence expression. In some cases, it
+                        could mean that no translation has been given or that the occurrence belong
+                        to another semantic group (e.g. homonyms, polysemes). </p>
+                    <p>Validation of real equivalences versus suggested equivalences from the
+                        bilingual search, is done by checking the lines. However manual completion
+                        is often required, especially when source or target refer to specific
+                        expressions or to other lexical terms that were not used in the search.</p></div>
+                <div><head> Graph Visualizations </head>
+                    <p>Exploring edited equivalences can be pursued in other environments like excel
+                        or any data analysis programs but HyperMachiavel has developed some feature
+                        to highlight thematic groups of equivalences and show stylistic differences
+                        between translations.</p>
+                    <p>For each dictionary entry, one can ask to see validated target equivalences.
+                        Information about their frequency and distribution between versions of text
+                        help the user evaluate translator’s appropriation of the source text (see
+                        Fig. 5). Graph visualizations illustrate the same information but the user
+                        can go further and ask to see equivalents of equivalents until no new
+                        information is provided. Groups of equivalences usually appear and
+                        interrogate the user on the conceptual themes exposed in the corpora. </p>
+                    <p>In the current aligned corpora, we have noticed that most French translators
+                        of <hi rend="italic">Il Principe</hi> depict the polysemic and complex
+                        reality of new political concepts at that time by giving various lexical
+                        equivalences. Yet one of the translators prefers to steadily deliver
+                        concepts with almost unique translation (e.g. ‘stato’ with only ‘estat(s)’)
+                        perhaps believing that the rest of the text would do the rest.</p></div></div>
+                <div><head>Conclusion</head>
+                    <p>This paper presents the state of development of HyperMachiavel<note>The software can be downloaded at <ref target="http://hypermachiavel.ens-lyon.fr" type="external">http://hypermachiavel.ens-lyon.fr</ref></note>, a tool
+                    distributed under a french open-source licence (Cecill-B). Although the
+                    demonstration was done with only french-italian texts the tool was defined to
+                    support manual edition of equivalences for aligned multilingual corpora and
+                    lexicography work. </p>
+                <p>Providing import and export formats recommended by the digital humanity community
+                    ensure reuse of corpora in other environment such as text mining platform using
+                    the full complexity of TEI encoded corpora (e.g. TXM<note>TXM is a collaborative, open-souce software initiated by S.Heiden and the textometrie project members (<ref target="http://textometrie.ens-lyon.fr/" type="external">http://textometrie.ens-lyon.fr/</ref>)</note> , Heiden 2010). Use of
+                    automatic alignment algorithms will be tested with another aligned corpora based
+                    on Machiavelli’s <hi rend="italic">The Art of War-</hi>translations. The idea is
+                    to extend our tool features for comparable corpora (different texts of authors
+                    highly influenced by Machiavelli’s work). </p></div>
+            <div><p><hi rend="bold">Funding</hi></p>
+                <p>The work presented here is carried out within the research project (2008-2011)
+                    ‘Naissance, formes et développements d’une pensée de la guerre, des guerres
+                    d’Italie à la paix de Westphalie (1494-1648)’, funded by the French Agence
+                    Nationale Recherche.</p>
+                <p><figure><graphic url="img416-1.jpg" rend="left" height="256px" width="341px" mimeType="image/jpeg"/><head>Figure 1: ‘Parallel view’ of the aligned texts (right panel) and ‘Corpus view’ are showing the text structure common to all versions (left panel)</head></figure></p>
+                <p><figure><graphic url="img416-2.jpg" rend="left" height="256px" width="341px" mimeType="image/jpeg"/><head>Figure 2: The ‘Vocabulary view’ presents lexical forms and their frequency (number of occurrences) in the different aligned texts</head></figure></p>
+                <p><figure><graphic url="img416-3.jpg" rend="left" height="256px" width="341px" mimeType="image/jpeg"/><head>Figure 3: The ‘KWIC view’ shows occurrences of the french old form ‘toutesfois’</head></figure></p>
+                <p><figure><graphic url="img416-4.jpg" rend="left" height="256px" width="341px" mimeType="image/jpeg"/><head>Figure 4: The ‘Parallel Indexes view’ shows searched source and target expressions that appear in the same localization. The bilingual search example was performed with ‘spetie’ as source expression and ‘espece(s)’ as target expressions</head></figure></p>
+                <p><figure><graphic url="img416-5.jpg" rend="left" height="256px" width="341px" mimeType="image/jpeg"/><head>Figure 5: Views of French equivalents for the Italian concept ‘ordine’</head></figure></p>
+            
+            </div>
+          
+        </body>
+        <back>
+            <div>
+                    <head>References</head>
+                <p><hi rend="bold">Bowker, L., and M. Barlow</hi> (2004). Bilingual concordancers
+                    and translation memories: A comparative evaluation. In E. Y. Rodrigo (ed.), <hi
+                        rend="italic">Proceedings of the</hi>
+                    <hi rend="italic">Second International Workshop on Language Resources for
+                        Translation Work, Research and Training.</hi> Geneva, Switzerland, August
+                    28, 2004, pp. 70-83<hi rend="bold"> </hi></p>
+                <p><hi rend="bold">Cummings, J., and A. Mittelbach</hi> (2010). The Holinshed
+                    Project: Comparing and linking two editions of Holinshed’s Chronicle. In <hi
+                        rend="italic">Citation Information. </hi>International Journal of Humanities
+                    and Arts Computing 4: 39-53 DOI 10.3366/ijhac.2011.0006, ISSN 1753-8548, October
+                    2010.</p>
+                <p><hi rend="bold">Fleury, S., and M. Zimina</hi> (2008). Utilisations de mkAlign
+                    pour la traduction philologique. <hi rend="italic">Actes JADT 2008, Journées
+                        Internationales d’Analyse Statistiques des Données Textuelles</hi>, Lyon,
+                    2008.</p>
+                <p><hi rend="bold">Heiden, S. </hi>(2010). The TXM Platform: Building Open-Source
+                    Textual Analysis Software Compatible with the TEI Encoding Scheme. In <hi
+                        rend="italic">24th Pacific Asia Conference on Language, Information and
+                        Computation</hi>, Sendai, Japan 2010.</p>
+                <p><hi rend="bold">Kraif, O.</hi> (2008). Comment allier la puissance du TAL et la
+                    simplicité d’utilisation ? L’exemple du concordancier bilingue ConcQuest. In <hi
+                        rend="italic">Actes JADT 2008, Journées Internationales d’Analyse
+                        Statistiques des Données Textuelles</hi>, Lyon, 2008.</p>
+                <p><hi rend="bold">Lay, M.-H., and B. Pincemin </hi>(2010). Pour une exploration
+                    humaniste des textes : AnaLog. In <hi rend="italic">Actes JADT 2010, Journées
+                        Internationales d’Analyse Statistiques des Données Textuelles</hi>, Roma,
+                    2010.</p>
+                <p><hi rend="bold">Schreibman, S., A. Hanlon, S. Daugherty, and T. Ross </hi>(2007).
+                    The Versioning Machine v3.1: A Tool for Displaying and Comparing Different
+                    Versions of Literary Texts. In <hi rend="italic">Digital Humanities 2007</hi>.
+                    Urbana, Illinois. Jun. 2007.</p>
+                <p><hi rend="bold">TEI Consortium. </hi>(2008). TEI P5: Guidelines for Electronic
+                    Text Encoding and Interchange. Version 1.1.0., </p>
+                <p><hi rend="bold">4th July.</hi> L. Burnard and S. Bauman, eds., TEI Consortium.
+                        <ref target="http://www.teic.org/Guidelines/P5" type="external"
+                        >http://www.teic.org/Guidelines/P5</ref></p>
+            </div>
+        </back>
+    </text>
+</TEI>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="../schema/xmod_web.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xmt="http://www.cch.kcl.ac.uk/xmod/tei/1.0" 
+     xml:id="ab-388">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digital editions with eLaborate: from practice to theory</title>
+                <author>
+                    <name>van Dalen-Oskam, Karina</name>
+                    <affiliation>Huygens Institute for the History of the Netherlands – Royal Dutch
+                        Academy of Arts and Sciences, The Netherlands</affiliation>
+                    <email>karina.van.dalen@huygens.knaw.nl</email>
+                </author>
+                <author>
+                    <name>van Zundert, Joris Job</name>
+                    <affiliation>Huygens Institute for the History of the Netherlands – Royal Dutch
+                        Academy of Arts and Sciences, The Netherlands</affiliation>
+                    <email>joris.van.zundert@huygens.knaw.nl</email>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Jan Christoph Meister, Universität Hamburg</publisher>
+                <address>
+                   <addrLine>Von-Melle-Park 6, 20146 Hamburg, Tel. +4940 428 38 2972</addrLine>
+                   <addrLine>www.dh2012.uni-hamburg.de</addrLine>
+              </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>No source: created in electronic format.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2012-04-15</date>
+                <name>DH</name>
+                <desc>generate TEI-template with data from ConfTool-Export</desc>
+            </change>
+            <change>
+                <date>2012-04-13</date>
+                <name>LS</name>
+                <desc>provide metadata for publicationStmt</desc>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="paper">
+        <body>
+            <div>
+            <head>Introduction</head>
+                <p>The aim of this paper is to show how the development and use of a web based
+                    scholarly environment for the creation of digital editions leads to meta
+                    reflection and further theorizing on what a digital edition could or should be.
+                    This effect of deploying and using virtual environments in turn may lead to
+                    improved versions of such working environments or to improvements to other tools
+                    facilitating the creation of digital editions.</p>
+                <p>However creative and inventive scholars may be, it is extremely difficult to
+                    contemplate all possibilities and consequences of digital editions without
+                    actual hands on experience in a digital environment in which such editions can
+                    be created and experimented with. For this and for other reasons, <hi
+                        rend="italic">eLaborate</hi> was developed by the Huygens Institute for the
+                    History of the Netherlands, an institute of the Royal Netherlands Academy of
+                    Arts and Sciences. eLaborate is an online research environment in which scholars
+                    can create an edition of a text, individually or in a group. They can upload
+                    scans of the manuscript or printed book they want to edit, transcribe the text
+                    using a zooming and panning tool, write annotations to the text, categorize
+                    these according to their own needs, and publish the edition online with minimal
+                    interference of IT developers. eLaborate version 3 was released in the Fall of
+                    2011. eLaborate3 is built on a new IT architecture, because the wishes and needs
+                    of users of eLaborate1 (2005) and eLaborate2 (2009) could not be accommodated in
+                    the technological framework that was chosen as the base at the start of the
+                    first project in 2003.</p>
+            </div>
+            
+            <div>
+                <head>How eLaborate changes editorial practice</head>
+                <p>For more information about the changing organizational practices that arise in a
+                    collaboratively made edition, we refer to (Beaulieu, van Dalen-Oskam &amp; van
+                    Zundert [to be published] and Pierazzo 2008). In this paper, we will focus on
+                    the edition itself, taking as the subject of our case one already published
+                    online digital edition made with eLaborate2.</p>
+                <p>The example we take is Marjolein Hogenbirk’s edition of the Middle
+                    Dutch Arthurian romance <hi rend="italic">Walewein ende Keye</hi> (‘Gawain and
+                    Kay’), published online at <ref target="http://www.waleweinendekeye.huygens.knaw.nl/"
+                    type="external">http://www.waleweinendekeye.huygens.knaw.nl/</ref> (Hogenbirk 2009). The most
+                    prominent representation of the edited text is per column in the manuscript. See
+                    for example 182ra (<ref target="http://www.waleweinendekeye.huygens.knaw.nl/path/editie/kolom/182r/182ra"
+                    type="external">http://www.waleweinendekeye.huygens.knaw.nl/path/editie/kolom/182r/182ra#</ref>).
+                    eLaborate shows the facsimile of this column, the transcription, and at the far
+                    right all the annotations to the transcription are listed. The user can adjust
+                    the placement of the facsimile in its panel and zoom in, change the width of the
+                    panels (cf. Fig. 1), or click panels away to give the other panels more
+                    space.</p>
+                
+                <p><figure>
+                        <graphic url="img388-1.jpg" rend="left" height="256px" width="341px"
+                            mimeType="image/jpeg"/>
+                        <head>Figure 1: The eLaborate <hi rend="italic">Walewein ende Keye</hi>
+                            edition opened on colum 182ra</head>
+                    </figure></p>
+                
+                <p>The freedom of customization available to the user goes even beyond this. The key here is the
+                    ‘Options’ button in the top right of the screen, where the user can adjust the
+                    display of abbreviations: show these in italics, or show these in roman font (in
+                    the example they are shown in italics). Another choice concerns line numbers:
+                    the user can choose the line numbers of the current edition as well as that of
+                    an earlier edition, or choose not to see any of these (in the example only the
+                    line numbers of the current edition are shown). The other Options-tab enables
+                    the user to choose which of the annotations to see (Fig. 2). The edition of <hi
+                        rend="italic">Walewein ende Keye</hi> has three different annotation
+                    categories, which are marked with three different colours in the transcription
+                    panel. Hovering over them with the mouse makes the content and categorization of
+                    the specific annotation visible. All annotations are visible in the right hand
+                    panel. But the user can deselect those categories that need not be visible for
+                    now. When deselected, they immediately disappear as coloured markings in the
+                    transcription panel and from the list in the right hand panel.</p>
+                
+                <p><figure>
+                        <graphic url="img388-2.jpg" rend="left" height="256px" width="341px"
+                            mimeType="image/jpeg"/>
+                        <head>Figure 2: The eLaborate <hi rend="italic">Walewein ende Keye</hi>
+                            options tab on ‘Annotatiecategorieeën’ (‘Annotation
+                            categories’)</head>
+                    </figure></p>
+                
+                <p>The editor has of course added markings of abbreviations,
+                    line numbers, and annotation categories in the work environment. This leads us
+                    to a very important new basic point of departure or principle for digital
+                    editions derived from current practice: everything that is explicitly marked in
+                    the edition should be easily made invisible on the fly by the user, whereas it
+                    is impossible for the user (as well as for the editor himself) to add
+                    non-systematical information on the fly. The occurrence of medieval
+                    abbreviations e.g. is unpredictable and therefore cannot be added by current
+                    technology correctly automatically. The same goes for the general presentation
+                    of the edition. The edition was made column for column, and chapter headings
+                    were marked. Therefore it can also be viewed chapter by chapter (‘Overzicht per
+                    hoofdstuk’) or as a complete text (‘Volledige tekst’). Should the editor have
+                    chosen for a complete text only, the column presentation would not have been
+                    possible.</p>
+            </div>
+            
+            <div>
+                <head>How practice leads to new theory</head>
+                <p>Simple as this new guideline may seem, it leads to a more theoretical reflection
+                    on the nature of digital editions in general and on its possible future(s). For
+                    example, we could also apply the principle to more fundamental levels. Based on
+                    a.o. funding possibilities, an editor of medieval texts until now had to choose
+                    for which audience he would prepare the edition. A diplomatic edition for
+                    linguistic and literary scholars, with the exact spelling as in the manuscript
+                    or print and with abbreviations marked in italics? Or a critical edition for
+                    students, with adaptation of spelling, interpunction and capitalization, and
+                    with solved abbreviations? With limited funding the last option usually seemed
+                    best. But a critical edition closes the edition down for certain kinds of
+                    research. Spelling and interpunction are changed and therefore cannot be
+                    researched anymore. This also makes it much more difficult to establish the
+                    probable date and location of writing. Such a ’closed-down’ edition has only
+                    limited usability and limited influence on the general progress of knowledge. It
+                    can even introduce difficult-to-check mistakes that could do harm (cf. van
+                    Dalen-Oskam &amp; Depuydt 1997).</p>
+                <p>Can we address both scholarly users and students in one and the same digital
+                    edition without closing down the edition? The basic approach seems to be that
+                    the text in a form as close as possible to the source is the basis of all types
+                    of representations and that almost all kinds of interpretations by the editors
+                    are kept separate from this basic text. The editor transcribes the words or
+                    signs diplomatically, for instance the word <hi rend="italic">auenture</hi>
+                    ‘adventure’. The word could receive an annotation that the critical
+                    representation of this word is <hi rend="italic">aventure</hi> (generated
+                    automatically if the editor has run a parser for lemmatization and
+                    part-of-speech tagging, having confirmed or corrected the results). The form of
+                    the added knowledge would be very different from now, but still depends on the
+                    expertise of the editor. Ofcourse we do need a user-friendly way to add all
+                    these layers of interpretation to the base text. It is clear that the stand-off
+                    mark-up approach as advocated by a.o. (Schmidt 2010) is a necessity to make this
+                    work. And then perhaps another problem can also be addressed. What if we have
+                    several versions of a text and we want to reconstruct the version as it may have
+                    functioned at a certain point in time? If we make one edition with one
+                    reconstruction, other kinds of research would again be excluded. So we need to
+                    experiment whether we can add a separate layer to editions based on the
+                    different manuscripts, with its own annotation categories, which could generate
+                    the text in the selection and the order the scholar needs. The user could then
+                    toggle between a representation of the original sources and the reconstructed
+                    text (van Dalen-Oskam, under review).</p>
+                <p>Should this be possible, text and interpretation will be separate for ever,
+                    making sure all kinds of research are still possible on (different
+                    representations of) the same digital edition. But the role of the editor as
+                    analyzing, reconstructing, and validating knowledge remains as firm as ever –
+                    with a much higher level of reusability.</p>
+            
+            </div>
+        </body>
+        <back><div>
+                <head>References</head>
+            
+            <p><hi rend="bold">Beaulieu, A., K. H. van Dalen-Oskam, and J. J. van Zundert</hi> (to
+                be published). Between tradition and Web 2.0: eLaborate as social experiment in
+                humanities scholarship. In T. Takseva (ed.), <hi rend="italic">Social Software and
+                    the Evolution of User Expertise: Future Trends in Knowledge Creation and
+                    Dissemination</hi>. To be published by IGI Global.</p>
+            <p><hi rend="bold">eLaborate: eLaborate1</hi> (2005). Not available anymore.</p>
+            <p><hi rend="bold">eLaborate: eLaborate2</hi> (2009). <ref
+                        target="http://www.e-laborate.nl/en/" type="external"
+                        >http://www.e-laborate.nl/en/</ref>.</p>
+            <p><hi rend="bold">eLaborate: eLaborate3</hi> (2011). <ref
+                        target="http://www.elaborate.huygens.knaw.nl/" type="external"
+                        >http://www.elaborate.huygens.knaw.nl</ref>.</p>
+            <p><hi rend="bold">Hogenbirk, M., ed.</hi> (2009). <hi rend="italic">Walewein ende Keye</hi>. Een dertiende-eeuwse
+                Arturroman overgeleverd in de <hi rend="italic">Lancelotcompilatie</hi>. Digitale
+                editie, bezorgd door Marjolein Hogenbirk, met medewerking van W. P. Gerritsen.
+                Eerste editie. November 2009, online op: <ref target="http://www.waleweinendekeye.huygens.knaw.nl"
+                type="external">http://www.waleweinendekeye.huygens.knaw.nl</ref>.</p>
+            <p><hi rend="bold">Pierazzo, E.</hi> (2008). Editorial Teamwork in a Digital
+                    Environment: The Edition of the Correspondence of Giacomo Puccini. <hi
+                        rend="italic">Jahrbuch für Computerphilologie</hi> 10, <ref
+                        target="http://computerphilologie.tu-darmstadt.de/jg08/pierazzo.html"
+                        type="externsl"
+                        >http://computerphilologie.tu-darmstadt.de/jg08/pierazzo.html</ref>.</p>
+            <p><hi rend="bold">Schmidt, D.</hi> (2010).’The inadequacy of embedded markup for
+                cultural heritage texts. <hi rend="italic">Literary and Linguistic Computing</hi>
+                25(3); 337-356.</p>
+            <p><hi rend="bold">van Dalen-Oskam, K., and K. Depuydt</hi> (1997). Lexicography and
+                philology. In K. H. van Dalen-Oskam, K. A. C. Depuydt, W. J. J. Pijnenburg, and T.
+                H. Schoonheim (eds),<hi rend="italic"> Dictionaries of Medieval Germanic Languages.
+                    A Survey of Current Lexicographical Projects</hi>. Turnhout: Brepols, pp.
+                189-197. (Selected Proceedings of the International Medieval Congress, University of
+                Leeds, 4-7 July 1994).</p>
+            <p><hi rend="bold">van Dalen-Oskam, K.</hi> (under review). All in one, one for all? A
+                possible world of digital editions. Under review for <hi rend="italic"
+                    >Variants.</hi></p>
+        </div>
+        </back>
+    </text>
+</TEI>

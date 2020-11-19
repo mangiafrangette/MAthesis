@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:x="http://www.w3.org/1999/xhtml" xmlns:exsl="http://exslt.org/common" xml:id="Paper-777">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Distant reading of naïve poetry: corpora comparison as research methodology</title>
+        <author>
+          <name>
+            <surname>Bonch-Osmolovskaya</surname>, <forename>Anastasia</forename>
+          </name>
+          <affiliation>National Research Unversity Higher School of Economics Moscow, Russian Federation </affiliation>
+          <email></email>
+        </author>
+        <author>
+          <name>
+            <surname>Orekhov</surname>, <forename>Boris</forename>
+          </name>
+          <affiliation>National Research Unversity Higher School of Economics Moscow, Russian Federation </affiliation>
+          <email></email>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority/>
+        <publisher>EPFL, Switzerland</publisher>
+        <distributor>
+          <name>EPFL Digital Humanities Laboratory</name>
+          <address>
+            <addrLine>GC D2 386</addrLine>
+            <addrLine>Station 18</addrLine>
+            <addrLine>CH-1015 Lausanne</addrLine>
+            <addrLine>frederic.kaplan@epfl.ch</addrLine>
+          </address>
+        </distributor>
+        <pubPlace>Lausanne, Switzerland</pubPlace>
+        <address>
+          <addrLine>EPFL</addrLine>
+          <addrLine>CH-1015 Lausanne</addrLine>
+        </address>
+        <availability>
+          <p/>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note type="abstract">In our paper we follow the distant reading method (Moretti 2005 , Moretti 2013) focusing on the phenomenon of naïve poetry – poetical opuses, composed by non-professional poets and distributed on special web-sites. We compare a corpora of Russian naive poetry with Russian Poetic corpus, which presents Russian poetical classics from the 18th century till the early 1930th. We look first of all at frequency measures in both resources and analyze the revealing fluctuations of different word frequencies. Then we make a qualitative analysis of the nouns that occur in the top 100 of each frequency list. We identify a range of semantic domains that can be expressed by these nouns and compare the domains of each poetical resource. As a result we define three main strategies of naïve composition: the imitative strategy , the self-actualization strategy and the extensive strategy .</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>No source: created in electronic format.</p>
+        <p>
+          <date when="20140711"/>
+          <time when="11:00:00"/>
+        </p>
+		<p n="session">7</p>
+		<p n="room">321 - Amphipôle</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="original" n="category">
+          <term>Paper</term>
+        </keywords>
+        <keywords scheme="original" n="subcategory">
+          <term>Long Paper</term>
+        </keywords>
+        <keywords scheme="original" n="keywords">
+          <term>distant reading</term>
+          <term>corpora</term>
+          <term>naive literature</term>
+          <term>poetry</term>
+          <term>literary canon</term>
+          <term></term>
+        </keywords>
+        <keywords scheme="original" n="topic">
+          <term>corpora and corpus activities</term>
+          <term>literary studies</term>
+          <term></term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text type="paper">
+    <front>
+      
+      <div>
+        <p></p>
+        <p></p>
+      </div>
+    </front>
+    <body>
+      <div><p>The method of distant reading - term proposed by Franco Moretti (Moretti 2005 , Moretti 2013) , or –
+using another term – macroanalysis (Jockers 2013) has become a mainstream in digital humanities in
+last couple of years. The general idea of the approach is to gain new knowledge about literary and
+cultural processes with the help of digital and quantitative models applied to all sorts of language or
+literary resources. In our paper we follow the distant reading method focusing on the phenomenon of
+naïve poetry – poetical opuses, composed by non-professional poets and distributed on special web-
+sites. One of them – Russian stihi.ru (<hi rend="italic">stihi</hi> means 'verses') – has nowadays become a giant collection of
+diletant literature with more than 5000 authors, about 21 mln of works and everyday update. It, thus,
+can be regarded as an extraordinary cultural linguistic resource made by crowd sourcing. At the same
+time Russian National Corpus resources possess a unique resource - Poetic corpus (Grishina et al. 2009;
+http://ruscorpora.ru/search-poetic.html). In contrast to stihi.ru, Russian Poetic Corpus has been
+collected and marked up by the team of experts in linguistic and literary studies and it presents Russian
+poetical classics from the 18th century till the early 1930th.
+</p><p>Comparison of the two poetic resources of naïve and classical poetry gives us an excellent possibility to
+use quantitative analysis to get some promising insights. We can understand more about the nature of
+literary imitations and epigone writings, the foundations and circulations of literary canon, the
+mechanisms of prosaic/poetic language shifts and many other topics related to sociology of textual
+culture that could not be studied with traditional methods. Some steps taken in this direction are
+presented in this paper.
+</p><p>We look first of all at frequency measures in both resources and analyze the revealing fluctuations of
+different word frequencies. We use the frequency list of Russian National Corpus (called below the
+general frequency list) as a controlling benchmark, that helps us to separate the words, which are most
+frequent in common Russian Lexicon, from those, which get high frequency exclusively in Russian
+verses, high or naïve. Then we make a qualitative analysis of the nouns that occur in the top 100 of each
+frequency list. We identified a range of semantic domains that can be expressed by these nouns and
+compared the domains of each poetical resource. As a result we defined three main strategies of naïve
+composition.
+</p><head>Preparation</head><p>For our research we have taken a sample of 50 mln word usage from naïve poetic corpus,
+which makes a representative corpus of more than 54 thousand authors. As our main aim was to find
+out what poetic patterns from high poetry are apt to be borrowed and imitated, we decided to extract a
+subcorpus of most typical imitating poetry. We searched for the authors who would bear in mind high
+poetical examples and try to go with them in their composition. The sorting has been made
+automatically. First we extracted all the bigramms from the high poetical corpus, and then we took only
+those documents from the naïve corpus, which a) have at least 50% bigrams that coincide with the
+bigrams of the high poetry list, b) are longer than 20 bigramms. Our final sample consisted of almost 9
+mln word usage. The high poetic corpus has about 8 mln word usage. We lemmatized all the words in
+both corpora. After lemmatization the naïve poetic corpus consisted of 84 thousand lemmas
+</p><head>Methodology</head><p>We conducted three analyses based on the comparison of the three frequency lists: the
+frequency list from naïve poetic sample, the frequency list from Russian Poetic Corpus and the general
+Russian frequency list based on Russian National Corpus. In the first experiment we compared the 		
+change of ranks of very high frequent words in the naïve sample relatively to high poetic and general
+lists. Secondly we considered outliers of naïve poetry frequency list: those words that demonstrate
+dramatically different frequency behavior. The last experiment consisted in relating all the top 100
+nouns of each frequency list to semantic domains, that they are most probably used for. Then the
+contents and the variety of each domain in each list has been analysed.
+</p><head>Results</head><p>The interpretation of the resource comparison results can be summarized by defining three
+basic strategies in naïve poetry: imitation, self-actualization and naming. Each of the strategies will be
+illustrated below by data examples. </p><p>1. The top frequency list of naïve poetical resource shows interesting deviation both from high
+poetical corpus list and general frequency list (see table 1) </p><table><row><cell role="label">Word (in Russian)</cell><cell role="label">Word (translation)</cell><cell role="label">Position rank in naïve list</cell><cell role="label">Position rank in high poetical list</cell><cell role="label">Position rank in general frequency list</cell></row><row><cell role="data"><p>И</p></cell><cell role="data"><p>and</p></cell><cell role="data"> 1</cell><cell role="data"> 1</cell><cell role="data"> 1</cell></row><row><cell role="data"> Я</cell><cell role="data"> I</cell><cell role="data">2 </cell><cell role="data"> 3</cell><cell role="data"> 5</cell></row><row><cell role="data"> не</cell><cell role="data"> not</cell><cell role="data"> 3</cell><cell role="data"> 4</cell><cell role="data"> 3</cell></row><row><cell role="data"> в</cell><cell role="data"> in</cell><cell role="data"> 4</cell><cell role="data"> 2</cell><cell role="data"> 2</cell></row><row><cell role="data"> ты</cell><cell role="data"> you</cell><cell role="data"> 5</cell><cell role="data"> 7</cell><cell role="data"><p> 33</p></cell></row><row><cell role="data"> то</cell><cell role="data"> this</cell><cell role="data"> 6</cell><cell role="data"> 5</cell><cell role="data"> 23</cell></row><row><cell role="data"> что</cell><cell role="data"> that</cell><cell role="data"> 7</cell><cell role="data"> 11</cell><cell role="data"> 9</cell></row><row><cell role="data"> быть</cell><cell role="data"> be</cell><cell role="data"> 8</cell><cell role="data"> 10</cell><cell role="data"> 6</cell></row><row><cell role="data"> на</cell><cell role="data"> on</cell><cell role="data"> 9</cell><cell role="data"> 6</cell><cell role="data"> 4</cell></row><row><cell role="data"> как</cell><cell role="data"> as</cell><cell role="data"> 10</cell><cell role="data"> 9</cell><cell role="data"> 19</cell></row><row><cell role="data"> с</cell><cell role="data"> with</cell><cell role="data"> 11</cell><cell role="data"> 8</cell><cell role="data"> 8</cell></row><row><cell role="data"> мы</cell><cell role="data"> we</cell><cell role="data"> 12</cell><cell role="data"> 13</cell><cell role="data">18 </cell></row><row><cell role="data"> а</cell><cell role="data"> but</cell><cell role="data"> 13</cell><cell role="data"> 17</cell><cell role="data"> 10</cell></row><row><cell role="data"> мой</cell><cell role="data"> my</cell><cell role="data"> 14</cell><cell role="data"> 15</cell><cell role="data"> 60</cell></row><row><cell role="data"> но</cell><cell role="data"> but</cell><cell role="data"> 15</cell><cell role="data"> 14</cell><cell role="data"> 16</cell></row><row><cell role="data"> так</cell><cell role="data"> so</cell><cell role="data"> 16</cell><cell role="data"> 27</cell><cell role="data"> 30</cell></row><row><cell role="data"> за</cell><cell role="data"> for|behind</cell><cell role="data"> 17</cell><cell role="data"> 22</cell><cell role="data"> 24</cell></row><row><cell role="data"> любовь</cell><cell role="data"> love (noun)</cell><cell role="data"> 18</cell><cell role="data"> 52</cell><cell role="data"> 307</cell></row><row><cell role="data"> любить</cell><cell role="data"> love (verb)</cell><cell role="data"> 19</cell><cell role="data"> 66</cell><cell role="data"> 181</cell></row></table>As we can see from the table, the naive poetry demonstrates important lexical features,
+some of them are specific, and some of them are typically poetic, being shared with the list
+of high poetry frequency. We observe an interesting tendency at the very top, where
+personal pronouns I and you displace the most common propositions in and on from the
+second and the forth positions correspondingly. Both pronouns I and you can be considered
+as lexical traits of poetical discourse. But the naïve poetry shows higher ranks for both of
+them (2 vs 3 in high poetry, and 5 vs. 7 in high poetry correspondingly). We see increase of
+frequency of those words which are already indicative for high poetical frequency list. The
+tendency to intensify specific poetical lexical features can be called the imitative strategy.
+The rank shift of the words love (noun and verb) is even more straightforward manifestation
+of the same strategy. While in general frequency list those words are not even in top 100,
+they occupy 52 and 66 positions in high poetical list and so far being an etalon of poetical
+shift they become the most frequent words in naïve poetry
+<p>2. The table below shows 5 nouns which have the biggest difference of ranks between naïve
+poetry list noun frequency of the Russian Poetical corpus (see table 2) </p><table><row><cell role="label"> word</cell><cell role="label"> word (translation)</cell><cell role="label">Position rank in naïve list </cell><cell role="label"> Position rank in high poetical list</cell><cell role="label"> Position rank in general frequency list</cell></row><row><cell role="data"> фото</cell><cell role="data"> photo</cell><cell role="data"> 971</cell><cell role="data"> 30827</cell><cell role="data"> 3400</cell></row><row><cell role="data"> сигарета</cell><cell role="data"> cigarette</cell><cell role="data"> 939</cell><cell role="data">28957 </cell><cell role="data">2109 </cell></row><row><cell role="data"> проблем</cell><cell role="data">problem </cell><cell role="data">610 </cell><cell role="data">12572 </cell><cell role="data">197 </cell></row><row><cell role="data">мама </cell><cell role="data">mum </cell><cell role="data">330 </cell><cell role="data">2125 </cell><cell role="data">309 </cell></row><row><cell role="data"> девчонка</cell><cell role="data">babe, gal (derivative from girl) </cell><cell role="data">865 </cell><cell role="data">5030 </cell><cell role="data">2563 </cell></row></table>These words behavior is various: some of them are more frequent comparing the general
+frequency list (<hi rend="italic">photo, cigarette</hi>), some of them stay on roughly the same rank (<hi rend="italic">mum</hi>), some
+are more rare than in general, but still show immense difference with the high poetical list
+(<hi rend="italic">problem</hi>). The gap between naïve and poetic frequency list signals that there are some
+semantic zones where naïve poetry seems to be independent from the classical poetic
+canon. This trend can be defined as a self-actualization strategy which is in some sense
+opposite to the imitative strategy. <p>
+				3. We took top 100 nouns of every list and compared their lexical distribution . The nouns had
+been grouped into abstract semantic domains. Some words could be associated with several
+domains due to their polysemy. As a result we have identified 13 semantic domains, 12 of
+them are shared between naïve poetry, high poetry and common frequency lists and the
+13<hi rend="sup">th</hi> is not presented in the naïve poetry list. The domains we have defined are as follows:
+</p><p>Mankind (everything that may characterize a person: <hi rend="italic">soul, beauty, name, heart, strength</hi>
+etc.), Body, Emotions, Mind, Existence (<hi rend="italic">God, world, truth, time, fate</hi> etc.), Speech, Person
+(<hi rend="italic">father, son, friend, enemy</hi> etc.), Event (<hi rend="italic">love, happiness, past, disaster</hi> etc.), Time, Nature,
+Geography (<hi rend="italic">road, hill</hi> etc.), Home (<hi rend="italic">window, door</hi> etc.). The 13th domain which is found only
+in the high poetical list and in the general frequency list is Social and it includes such words
+as people, labor, fame in the poetical list, and state, money, law etc. in the general list.
+</p><p>Analysis of the overlaps and varieties of the naïve and high poetical lists showed differences
+in the elaboration of the domains in two corpora. The general frequency list helped to draw
+out the words that are commonly frequent and their presence in the list cannot be
+understood as a signal of the poetic concentration on the domain. The results are
+demonstrated on the graph below: </p><figure><graphic url="DH2014_2_474-1"/></figure><p>As we can see from the graph, there are three zones of the naïve poetical sample that
+demonstrate high lexical variety of frequent nouns in comparison to the poetical corpus.
+These are Emotions, Event and Speech. Most of the words of those domains are not
+frequent in general lexicon. The lexical multiplicity can be explained by extensive strategy:
+the naïve poets do not use sophisticated verbal apparatus to express the conceptual space
+of the verse, but prefer straightforward lexical naming (<hi rend="italic">pain, wish, encounter, grief, love,
+question, answer</hi> etc.)</p></div>
+    </body>
+    <back>
+      <div type="References">
+        <listBibl>
+        <bibl><hi rend="bold">Grishina E., Korchagin K., Plungian V., Sitchinava D</hi>. <hi rend="italic">Poeticheskij korpus v ramkah NKRYa:
+obschaja struktura i perspektivy ispol'zovanija </hi>'Natsional'nyj korpus russkogo jazyka: 2006-2008. Novye rezul'taty I perspektivy'. Saint Petersburg, 2009. P. 71-113. [Poetic Corpus in
+RNC: general structure and using perspectives] </bibl><bibl><hi rend="bold">Moretti, Franco</hi>.<hi rend="italic"> Graphs, Maps, Trees: Abstract models for a literary history</hi>. Verso, 2005.</bibl><bibl><hi rend="bold">Moretti, Franco</hi>. <hi rend="italic">Distant Reading</hi>. Verso, 2013</bibl><bibl><hi rend="bold">Jockers, Matthew L</hi>. <hi rend="italic">Macroanalysis</hi>. University of Illinois Press, 2013</bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

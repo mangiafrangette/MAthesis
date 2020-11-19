@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="../schema/xmod_web.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xmt="http://www.cch.kcl.ac.uk/xmod/tei/1.0" 
+     xml:id="ab-344">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ptolemy’s Geography and the Birth of GIS</title>
+                <author>
+                    <name>Isaksen, Leif</name>
+                    <affiliation>University of Southampton, UK</affiliation>
+                    <email>leifuss@googlemail.com</email>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Jan Christoph Meister, Universität Hamburg</publisher>
+                <address>
+                   <addrLine>Von-Melle-Park 6, 20146 Hamburg, Tel. +4940 428 38 2972</addrLine>
+                   <addrLine>www.dh2012.uni-hamburg.de</addrLine>
+              </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>No source: created in electronic format.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2012-04-15</date>
+                <name>DH</name>
+                <desc>generate TEI-template with data from ConfTool-Export</desc>
+            </change>
+            <change>
+                <date>2012-04-13</date>
+                <name>LS</name>
+                <desc>provide metadata for publicationStmt</desc>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="paper">
+        <body>
+            
+                <p>The <hi rend="italic">Geographike hyphegesis
+                    </hi>of Claudius Ptolemy (c. 90-c. 168 CE) – more commonly known as the ‘<hi
+                        rend="italic">Geography</hi>’ but hereafter referred to as <hi rend="italic"
+                        >GH </hi>– is perhaps the most important text in the history of digital
+                    cartography. While its fame derives from the enormous catalogue of ancient
+                    places that have made it indispensable for those studying ancient geography, its
+                    central innovations of presenting locations as tables of coordinates and
+                    offering multiple projections by which to represent them make it the
+                    foundational work for all modern Geographic Information Systems (GIS). Yet
+                    despite this historic legacy it remains a deeply problematic text (Dilke 1987).
+                    The sheer quantity, breadth and apparent precision of the catalogue greatly
+                    surpass that of every other known work of ancient geography. How did a lone
+                    scholar, working with only published materials, compile such a comprehensive
+                    overview of the inhabited world (<hi rend="italic">oikumene</hi>)? And what
+                    provoked his revolutionary shift in methodology?</p>
+            <p>Several research
+                    projects have used digital methods to examine aspects of Ptolemy’s Geography in
+                    recent years. Most significant is Stückelberger and Graßhoff’s database of
+                    coordinates (2006) which forms the baseline data for the research presented.
+                    Despite creating this excellent resource, their analysis (Stückelberger &amp;
+                    Mittenhuber 2009) remains a fairly traditional close reading of the text, makes
+                    scant explicit use of the digital data. Tsorlini (2009) used digital methods to
+                    show coordinate discrepancies between different manuscripts, although these
+                    largely focus on the medieval maps, the provenance of which remains unclear
+                    (Mittenhuber 2010). Kleineberg et al. used digital transformations in order to
+                    ‘georectify’ the coordinates in the region of Germania Magna and thus propose
+                    the identification of many hitherto unidentified locations with modern sites
+                    (2010).</p>
+            <p>Conventional wisdom is that <hi rend="italic">GH</hi> is the culmination of a long
+                tradition of Greek geographical and astronomical science, augmented and improved at
+                each stage by contemporary sources such as merchant’s reports, itineraries and
+                astronomical observations (Berggren &amp; Jones 2000: 25-30). This paper will
+                present several arguments based on digital methods to demonstrate that this view is
+                almost certainly wrong and that Ptolemy’s treatise is a highly original work that
+                fuses two distinct traditions for a specific purpose: the calculation of local
+                celestial and solar phenomena for astrological prognostication. This goal required
+                the combined data of Greek <hi rend="italic">geographic maps</hi> – which
+                represented the inhabited world schematically but in relation to cosmological
+                constants such as the poles and equator – and Roman <hi rend="italic">chorographic
+                    maps</hi>, which represented the world in a series of densely populated but
+                geospatially unanchored regional images. It was the challenge of bringing together
+                these very different traditions which led Ptolemy to apply the data management
+                techniques he had used for astronomical data in the <hi rend="italic">Almagest</hi>
+                and thus the lay the groundwork for late medieval geography and ultimately the GIS
+                systems of today. </p>
+            <p>While
+                        <hi rend="italic">Digital Humanities</hi> is not the forum to lay out a full
+                    argument for Ptolemy’s motives and the nature of his sources – which will be
+                    expressed in a forthcoming paper – the following preliminary points should be
+                    made. First, his astrological ambitions are no surprise. Ptolemy’s <hi
+                        rend="italic">Tetrabiblos</hi> became the principle work on the topic for
+                    almost a millennium and he explicitly refers to the practice of calculating
+                    celestial phenomena for terrestrial locations in the <hi rend="italic"
+                        >Almagest</hi> (2.3; 8.6), <hi rend="italic">GH</hi> itself (1.1; 8.2) and
+                    the <hi rend="italic">Manual to the Handy Tables</hi>. No other practical motive
+                    is given for <hi rend="italic">GH</hi>’s construction and thus there is no
+                    reason to believe that it was ever intended for an alternative purpose. The
+                    second point is that while we have virtually no extant examples of pre-Ptolemaic
+                    geographic or chorographic maps, the written sources – including Ptolemy’s
+                    distinction between the two practices in <hi rend="italic">GH</hi> (1.1) – offer
+                    some important clues. The mathematical precision of <hi rend="italic"
+                        >geographia</hi> is explicitly stated by Ptolemy, but evidence as to the
+                    paucity of its content can be adduced from fragments of the three authors most
+                    likely to have been sources to Ptolemy – Eratosthenes, Hipparchus and Marinos of
+                    Tyre. Ignoring those on the Persian Royal Road, the places they mention are
+                    overwhelmingly (~90%) located on coastlines and boundaries. This is stark
+                    contrast to <hi rend="italic">GH</hi> in which interior locations outnumber
+                    liminal ones by about 3:2. In contrast, both Ptolemy and Strabo (<hi
+                        rend="italic">Geog</hi>. 2.5.17) refer to the richness of chorographic
+                    content but a strong indication of their unsuitability for astrology is given by
+                    the absence of any geodetic information for the Agrippan ‘World Map’ and other
+                    chorographic sources.</p>
+            
+            <div>
+            <head>Statistical distributions of precision</head>
+                <p>Ptolemy’s coordinates are expressed as fractions of a degree of latitude
+                    (measured from the equator) and longitude (measured from an arbitrarily defined
+                    prime meridian in the Atlantic ocean). Superficial examination makes clear that
+                    the smallest latitudinal and longitudinal increment is 1/12 of a degree (or 5
+                    minutes) of arc. As real world locations are themselves distributed randomly, we
+                    would expect a relatively even distribution of Ptolemaic locations with respect
+                    to the fraction of degree upon which they fall. In fact their distribution is
+                    highly uneven (Figure 1), a phenomenon also observed by Marx (2011). We know
+                    that some locations (which we shall refer to as ‘high precision’ locations) must
+                    have been assigned to the nearest twelfth of a degree, as they fall on divisions
+                    that are indivisible by lower denominators.<note>At 5 minutes (1/12), 25 minutes (5/12), 35 minutes (7/12) and 55 minutes (11/12)</note> However,
+                    the uneven distribution makes it clear that significantly more of the
+                    coordinates are assigned at lower levels of precision: sometimes just to the
+                    nearest degree. The challenge is to establish which of them have been plotted
+                    more or less precisely. While it is not possible to do this by considering each
+                    location individually the fact that Ptolemy’s principles are so closely aligned
+                    with GIS make it an ideal tool for investigating the data’s underlying
+                    structure.</p>
+                
+                <p><figure><graphic url="img344-1.jpg" rend="left" height="256px" width="341px" mimeType="image/jpeg"/><head>Figure 1: Quantity of coordinates falling on latitudinal (white) and longitudinal (black) degree divisions (in minutes)</head></figure></p>
+                
+            </div>
+            
+            <div>
+                <head>Spatial distribution of precision</head>
+                <p>The first clues as to the spatial distribution of ‘high precision’ locations
+                    emerge from plotting all locations which are definitely assigned to the nearest
+                    twelfth of a degree in a GIS<note>Those that fall on the traditional 2nd, 4th, 11th, 12th, 13th, anti-2nd and anti-4th Greek parallels (which also happen to be ‘high precision’ for arbitrary reasons) have also been removed here for reasons which will become clear.</note> (Figure 2). This
+                    demonstrates beyond all doubt that a core body of data – comprising Hispania,
+                    Italia and its major island neighbours, Greece, Asia Minor, the Levant and Egypt
+                    – contains virtually all known coordinates assigned to this high level of
+                    precision. The phenomenon appears in both manuscript traditions. In contrast,
+                    the peripheral regions, which include such well-established roman regions as
+                    Gaul and Africa Proconsularis, are almost entirely devoid of ‘high precision’
+                    locations. Furthermore, although latitude is generally more likely to be of high
+                    precision than longitude, this is not caused by the well-known ‘Problem of
+                    longitude’ (Sobel 1995). Latitude can be hopelessly incorrect in some ‘high
+                    precision’ regions (such as Sardinia) so it is evident that these values have
+                    not been determined from empirical measurements.</p>
+                
+                <p><figure><graphic url="img344-2.jpg" rend="left" height="256px" width="341px" mimeType="image/jpeg"/><head>Figure 2: Coordinates know to be assigned at a precision of 1/12 of a degree of latitude or longitude. The effect is observed in both <foreign>Ξ</foreign> (black) and <foreign>Ω</foreign> (red) recensionsFigure 2: Coordinates know to be assigned at a precision of 1/12 of a degree of latitude or longitude. The effect is observed in both <foreign>Ξ</foreign> (black) and <foreign>Ω</foreign> (red) recensions</head></figure></p>
+               
+                </div>
+            
+            <div>
+                <head>Linear interpolation</head>
+                <p>The order in which Ptolemy’s coordinates are listed is not random. The
+                    description of each region follows a strict sequence commencing with boundaries,
+                    followed by physical geography, continuing with inland cities and concluding
+                    with offshore islands. The boundaries and physical features are typically linear
+                    in form and so topographically adjacent locations are listed consecutively to
+                    facilitate the drawing of lines or iconography between them. Islands are also
+                    listed in the sequence in which they follow a coastline wherever possible. Much
+                    more interesting for this analysis are the cities of the interior, for there is
+                    no natural order for Ptolemy to follow and so they may betray information as to
+                    the manner in which they were obtained.</p>
+           <p>We can visualize this order
+                    very easily by simply ‘joining the dots’ in sequence and colour coding the
+                    individual regions. Once again, the results display a striking disparity between
+                    the core regions and the periphery. In the core data, coordinates group together
+                    in tightly bunched clusters. At the periphery they are generally ‘sketched out’
+                    in linear zig-zagging rows, usually horizontally (Europe, much of Asia) or
+                    vertically (Africa), but occasionally in a NE-SW sweep (India). A comparison
+                    with the ‘high precision’ coordinates over these features clearly demonstrates a
+                    correlation between this stylistic variation and the ‘core’ data we identified
+                    previously (Figure 3).</p>
+                
+                <p><figure><graphic url="img344-3.jpg" rend="left" height="256px" width="341px" mimeType="image/jpeg"/><head>Figure 3: Detail showing lines interpolated between settlements overlaid with ’high precision’ coordinates</head></figure></p>
+            </div>
+            
+            <div>
+                
+                <head>Two Coordinate Systems</head>
+                <p>We can push this further. Despite the apparent regularity of Ptolemy’s 180 x 360
+                    coordinate grid (first developed by Hipparchus (Dicks 1960: 32-33)), he also
+                    makes reference to a traditional series of irregular Greek parallels (based on
+                    the length of the longest day) and tripartite divisions of the ‘hour intervals’
+                    - the ‘time-zones’ of antiquity. So which coordinate system is Ptolemy using?
+                    The answer is most clearly illustrated by examining Ptolemy’s regional map of
+                    Arabia Felix and Karmania. Ptolemy lists a series of tribal and geographic
+                    divisions along the coast of the Arabian peninsula and it is apparent that their
+                    locations are defined with reference to the traditional coordinate system
+                    (Figure 4). Yet the interior, which contains no differentiation and is simply a
+                    list of towns conforms, to the entirely separate Hipparchan framework (Figure
+                    5).</p>
+                <p>We must be careful to jump to conclusions too readily for, as we
+                    have seen, there is much regional variation in Ptolemy’s sources, but a
+                    consistent pattern emerges in both core and periphery. Boundaries make reference
+                    to the coarse-grained and irregular, traditional Greek framework whereas
+                    internal cities generally conform to the fine-grained and regular coordinate
+                    system. Returning to our earlier argument, there is an obvious explanation.
+                    Ptolemy’s goals required him to use Greek <hi rend="italic">geographic</hi> maps
+                    as a framework if he was to compare terrestrial and celestial locations. Yet we
+                    know that the data they provide is scanty. His solution was to peg <hi
+                        rend="italic">chorographic</hi> maps to this global framework, thereby
+                    eliminating systemic error at the cost of local accuracy.</p>
+
+                <p><figure><graphic url="img344-4.jpg" rend="left" height="256px" width="341px" mimeType="image/jpeg"/><head>Figure 4: Ptolemy’s map of Arabia Felix and Karmania showing how tribal divisions and
+                            structure are associated with traditional Greek parallels and divisions
+                            of ‘hour intervals’</head></figure></p>
+                <p><figure><graphic url="img344-5.jpg" rend="left" height="256px" width="341px" mimeType="image/jpeg"/><head>Figure 5: Ptolemy’s map of Arabia Felix and Karmania showing how the order of undifferentiated cities of the interior is influenced by the Hipparchan coordinate system</head></figure></p>
+            </div>
+        </body>
+        <back>
+            <div>
+                
+                    <head>References</head>
+        
+            <p><hi rend="bold">Berggren, J. L., and A. Jones</hi> (2000). <hi rend="italic"
+                        >Ptolemy’s Geography. An Anntoated Translation of the Theoretical
+                        Chapters.</hi> Princeton: Princeton UP.</p>
+            <p><hi rend="bold">Dicks, D. R.</hi> (1960). <hi rend="italic">The Geographical
+                    Fragments of Hipparchus.</hi> London: Athlone Press.</p>
+            <p><hi rend="bold">Dilke, O. A. W.</hi> (1987). The Culmination of Greek Cartography in
+                    Ptolemy. In J. B. Harly and D. Woodward (eds.), <hi rend="italic">The History of
+                        Cartography.</hi> Chicago: U of Chicago P, vol. 1, pp. 177-200.</p>
+            <p><hi rend="bold">Kleineberg, A., et al. (</hi>2010). <hi rend="italic">Germania und
+                    die Insel Thule.</hi> Darmstadt: Wissenschaftliche Buchgesellschaft.</p>
+            <p><hi rend="bold">Marx, C.</hi> (2011). On the precision of Ptolemy’s geographic
+                coordinates in his Geographike Hyphegesis. <hi rend="italic">History of Geo- and
+                    Space Sciences</hi> 2(1): 29-37. </p>
+            <p><hi rend="bold">Mercier, R.</hi> (2011). <hi rend="italic">Ptolemaiou Procheiroi
+                    Kanones. Ptolemy’s Handy Tables</hi>. Leuven: Peeters.</p>
+            <p><hi rend="bold">Sobel, D.</hi> (1995). Longitude. The True Story of a Lone Genius Who
+                Solved the Greatest Scientific Problem of His Time. London: Fourth Estate.</p>
+            <p><hi rend="bold">Jones, H. L.</hi> (1917). The Georgraphy of Strabo. London:
+                Heinemann, vol. 1.</p>
+            <p><hi rend="bold">Stückelberger, A., and G. Graßhoff</hi> (2006). <hi rend="italic"
+                    >Ptolemaios. Handbuch der Geographie.</hi> Basel: Schwabe.</p>
+            <p><hi rend="bold">Stückelberger, A., and F. Mittenhuber</hi> (2009). <hi rend="italic"
+                        >Ptolemaios. Handbuch der Geographie.</hi>
+                    <hi rend="italic">Ergänzungsband.</hi> Basel: Schwabe.</p>
+            <p><hi rend="bold">Toomer, G. J.</hi> (1984). <hi rend="italic">Ptolemy’s Almagest</hi>,
+                London: Duckworth.</p>
+            <p><hi rend="bold">Tsorlini, A.</hi> (2009). Higher Order Systematic Effect in Ptolemy’s
+                Geographia Coordinate Description of Iberia. <hi rend="italic">e-Perimetron</hi>
+                4(2): 117-130.</p>
+
+</div>
+        </back>
+    </text>
+</TEI>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:x="http://www.w3.org/1999/xhtml" xmlns:exsl="http://exslt.org/common" xml:id="Paper-235">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Modelling digital editing: of texts, documents and works</title>
+        <author>
+          <name>
+            <surname>Pierazzo</surname>, <forename>Elena</forename>
+          </name>
+          <affiliation>King's College London</affiliation>
+          <email>elena.pierazzo@kcl.ac.uk</email>
+        </author>
+        <author>
+          <name>
+            <surname>Noël</surname>, <forename>Geoffroy</forename>
+          </name>
+          <affiliation>King's College London</affiliation>
+          <email>geoffroy.noel@kcl.ac.uk</email>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority/>
+        <publisher>EPFL, Switzerland</publisher>
+        <distributor>
+          <name>EPFL Digital Humanities Laboratory</name>
+          <address>
+            <addrLine>GC D2 386</addrLine>
+            <addrLine>Station 18</addrLine>
+            <addrLine>CH-1015 Lausanne</addrLine>
+            <addrLine>frederic.kaplan@epfl.ch</addrLine>
+          </address>
+        </distributor>
+        <pubPlace>Lausanne, Switzerland</pubPlace>
+        <address>
+          <addrLine>EPFL</addrLine>
+          <addrLine>CH-1015 Lausanne</addrLine>
+        </address>
+        <availability>
+          <p/>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note type="abstract">The paper presents a conceptual model for the editorial domain, providing a conceptual definition for entities such as document, text, work, user and author within such domain.</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>No source: created in electronic format.</p>
+        <p>
+          <date when="20140709"/>
+          <time when="09:00:00"/>
+        </p>
+		<p n="session">1</p>
+		<p n="room">414 - Amphimax</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="original" n="category">
+          <term>Paper</term>
+        </keywords>
+        <keywords scheme="original" n="subcategory">
+          <term>Long Paper</term>
+        </keywords>
+        <keywords scheme="original" n="keywords">
+          <term>editing</term>
+          <term>modelling</term>
+          <term>text</term>
+          <term>document</term>
+          <term></term>
+        </keywords>
+        <keywords scheme="original" n="topic">
+          <term>data modeling and architecture including hypothesis-driven modeling</term>
+          <term></term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text type="paper">
+    <front>
+
+      <div>
+        <p></p>
+        <p></p>
+      </div>
+    </front>
+    <body>
+      <div>
+        <p>Editing is one of the most important activities we have to perform as digital humanists: with the entire literary and historical production facing remediation, the need for a theoretical as well as practical understanding of what it is at stake and what does it mean to create a digital (scholarly) edition is of crucial importance. Many contributions in the past have dealt with the issue of what a text is, what a document is, how they relate to each other and which are the implications of their ontological status with respect to the work they manifest<ref target="n1" rend="sup">1</ref> <ref target="n2" rend="sup">2</ref> <ref target="n3" rend="sup">3</ref><ref target="n4" rend="sup">4</ref><ref target="n5" rend="sup">5</ref><ref target="n6" rend="sup">6</ref> <ref target="n7" rend="sup">7</ref><ref target="n8" rend="sup">8</ref> <ref target="n9" rend="sup">9</ref><ref target="n10" rend="sup">10</ref> <ref target="n11" rend="sup">11</ref><ref target="n12" rend="sup">12</ref> to name a few). The topic has been tackled from different points of view: sociological, cultural, psycholinguistic, philosophical, historical and computational. Why, then, is it necessary to return to the same topic once again? Because while some if not most of the previous contributions have touched upon it, none has tried to account for the whole concept of digital editing, and if a model is “a representation of something for purposes of study, or a design for realizing something new” (p. 21) <ref target="n13" rend="sup">13</ref>, a new purpose of study will require a new model. In order to perform an activity with the help of a computer, in order to digitize a workflow, such an activity (i.e. editing) needs to be modelled, as there is “the fundamental dependence of any computing system on an explicit, delimited conception of the world or ‘model’ of it” (p. 210)<ref target="n14" rend="sup">14</ref>. </p>
+        <p>The only existing model of text that has been developed explicitly for computational purposes is represented by the so-called OHCO model<ref target="n15" rend="sup">15</ref>, the limitations of which are widely known <ref target="n16" rend="sup">16</ref> <ref target="n17" rend="sup">17</ref> <ref target="n18" rend="sup">18</ref><ref target="n19" rend="sup">19</ref> <ref target="n20" rend="sup">20</ref>. However, as it reflects upon the fundamental way of functioning of the most important technology used so far for the production of digital editions, i.e. XML, in spite of its inadequacy, it still represents a fundamental approach for editorial endeavours: if one edits using XML and TEI, then one will have to adopt some sort of model which strongly relates to the OHCO model. But besides all the issues already pointed out by earlier critics, there is a series of facts and entities which are outside the scope of the OHCO model but which are nevertheless of fundamental importance in scholarly editing; namely, what is an edition? What is a work? What is the relationship between an edition and the text it edits, and the work the text represents? What is the function of the reader and of the editor in establishing the text and the edition? </p>
+        <p>The edition of a text, any text, embodies a model of the work which the text represents. In the same way that a map can be considered a model of the earth built for a specific purpose, an edition of a text can be considered as a model of the text itself, because it represents a selection of the infinite features of a text according to particular point of view, scholarly or not. Selecting also mean simplifying: a model is necessarily a simplification of a real life object, which makes it more apt to analysis and manipulation, In a contribution from 2009 Michael Sperberg-McQueen declared that there are three things to consider when we edit a text (p. 31)<ref target="n21" rend="sup">21</ref>:</p>
+        <list type="ordered">
+          <item>There is an infinite set of facts related to the work being edited.</item>
+          <item>Any edition records a selection from the observable and the recoverable portions of this infinite set of facts.</item>
+          <item>Each edition provides some specific presentation of its selection.</item>
+        </list>
+        <p>In saying this he declared an edition to be a model of a work, where the act of selecting features from the uninterrupted continuity of the reality is the defining act of modelling, the purpose of which in turn is to provide a discrete selection of facts to be interpreted. The present research stems from this consideration and proposes a new, comprehensive conceptual model of the editorial domain, which could be called the <hi rend="italic">Digital Editing Model</hi>, or DEM.</p>
+        <p>The conceptual model deals with the following entities:</p>
+        <list type="unordered">
+          <item><hi rend="bold">Documents</hi>, i.e. physical objects that contain some sort of information; therefore a book is a document, as is a leaf with some writing on, a stone, and so on. More generally, a document is a physical object that has some text on it, or more formally, a Verbal Text Bearing Object, or VTBO. This definition willingly and knowingly omits non-verbal documents, as the object of the present research is to analyze and model written and verbal texts with the purpose of editing them.[1]</item>
+          <item><hi rend="bold"><hi rend="bold">User-function</hi></hi>: any type of human interaction with the documents. The entity represents set of functions, more than human beings, such as, for instance, reading, editing, collecting, preserving, transcribing, analyzing etc.</item>
+        </list>
+        <p>As seen before, documents present an infinite set of <hi rend="bold">facts</hi>. A user-function selects a subset of these facts and, according to an organizing principle, groups them into <hi rend="bold">dimensions</hi>. As the dimensions that are potentially observable in a document are defined by the user-function’s purpose, consequently it is impossible to draw a stable and complete list of such dimensions; however, for the purpose of exemplification, such a list could include linguistic, semantic, literary, genetic, iconographic, codicological, and palaeographical dimensions.</p>
+        <p>The interaction of user-functions with documents generates</p>
+        <list type="unordered">
+          <item><hi rend="bold">Document models</hi>: the meaning(s) that user-functions give to the subset of dimensions they derive from a document and that they consider interesting. If the subset of dimensions considered by the user includes the verbal content of the document, such a document’s model is defined as a <hi rend="bold">text</hi>.</item>
+          <item><hi rend="bold">Works</hi>: an editorial statement of the fact that a number of documents aim to contain more or less the same verbal content. The sum of all possible texts derived from such documents, in a one-to-one or many-to-one relation, constitute the work.</item>
+        </list>
+        <p>The model does not necessarily need an <hi rend="bold">author-function</hi>, but it may, if the user-editor postulates it. If present, the author-function performs two main sub-functions, one <hi rend="italic">in posse</hi> and one <hi rend="italic">in esse</hi>, where the latter represents the activities of producing some of the facts present in the documents, especially, but not exclusively, the ones concerning the verbal content of the documents. The function in posse concerns instead the authorial intention, namely what the author-function wanted to produce but did not, or, if it did, the evidence for this is lost. It is in posse because it is unachieved (or perhaps is achieved but with no way of knowing this).</p>
+        <p>The DEM model sketched out here, will be supplemented by a second one on text transmission (how text migrates from one support to the next), where emerging theories of transcription will also fit very well <ref target="n22" rend="sup">22</ref> <ref target="n23" rend="sup">23</ref><ref target="n24" rend="sup">24</ref><ref target="n25" rend="sup">25</ref><ref target="n26" rend="sup">26</ref>.  However, these latter theories can also be thought as an instance of the user-function, encompassing the building of texts from the infinite set of facts available from the documents, and therefore are integrated into the DEM. In its full version, DEM will also deal with concepts such as versions and derivative works.</p>
+        <p>In conclusion the proposed DEM contributes to the elaboration of a set of models required by the renewed work and workflow of digital editing, in dialog with previous scholarly elaborations, providing a holistic and agnostic base for the understanding of the digital editorial endeavour.</p>
+        <p> </p>
+        <p>[1] A similar but more generalized definition is given by Huitfeldt and Sperberg-McQueen, who prefer to speak of ‘marks’ on a document, rather than of ‘verbal text’: ‘By a document we understand an individual object containing marks. A mark is a perceptible feature of a document (normally something visible, e.g. a line in ink)’ <ref target="n27" rend="sup">27</ref>.</p>
+      </div>
+    </body>
+    <back>
+      <div type="References">
+        <listBibl>
+          <bibl>1. <hi rend="bold">DeRose, S. J., D. G. Durand, E. Mylonas, and A. H. Renear</hi> (1990). <hi rend="italic">What is Text, Really?</hi> Journal of Computing in Higher Education 2:1 3-26.
+          </bibl>
+          <bibl>2. <hi rend="bold">Shillingsburg, P. L.</hi> (1991). <hi rend="italic">Text as matter, concept, and action</hi>. Studies in Bibliography, 44:31–83.
+          </bibl>
+          <bibl>3. <hi rend="bold">Shillingsburg, P.</hi> (2006). <hi rend="italic">From Gutenberg to Google: Electronic Representations of Literary Texts</hi>. Cambridge: Cambridge University Press.
+          </bibl>
+          <bibl>4. <hi rend="bold">Caton, P.</hi> (2013). <hi rend="italic">On the term text in digital humanities</hi>. Literary and Linguistic Computing, 28(2):209–220.
+          </bibl>
+          <bibl>5. <hi rend="bold">Gabler, H. W.</hi> (2012). <hi rend="italic">Beyond author-centricity in scholarly editing.</hi> Journal of Early Modern Studies, 1:15–35.
+          </bibl>
+          <bibl>6. <hi rend="bold">Eggert, P.</hi> (2009). <hi rend="italic">Securing the Past: Conservation in Art, Architecture and Literature</hi>. Cambridge: Cambridge University Press.
+          </bibl>
+          <bibl>7. <hi rend="bold">Tanselle, G. Thomas</hi>. <hi rend="italic">A Rationale of Textual Criticism</hi> Philadelphia: University of Pennsylvania Press, 1989. 104 pp.
+          </bibl>
+          <bibl>8. <hi rend="bold">Sperberg-McQueen, C. M.</hi> (2009). <hi rend="italic">How to teach your edition how to swim</hi>. Literary and Linguistic Computing, 24(1):27–52.
+          </bibl>
+          <bibl>9. <hi rend="bold">Robinson, P. M.</hi> (2009). <hi rend="italic">What text really is not, and why editors have to learn to swim</hi>. Literary and Linguistic Computing, 24(1):41–52.
+          </bibl>
+          <bibl>10. <hi rend="bold">Robinson, P. M. W.</hi> (2013). <hi rend="italic">Towards a theory of digital editions.</hi> Variants 10. 105-132.
+          </bibl>
+          <bibl>11. <hi rend="bold">Barthes, R.</hi> (1968). <hi rend="italic">La Mort De l'Auteur.</hi> Manteia (4e trimestre).
+          </bibl>
+          <bibl>12. <hi rend="bold">Ong, J. Walter</hi> (1975). <hi rend="italic">The Writer's Audience is Always a Fiction</hi>. PMLA, Vol. 90/1, pp. 9-21
+          </bibl>
+          <bibl>13. <hi rend="bold">McCarty, W.</hi> (2005). <hi rend="italic">Humanities Computing</hi>. Palgrave Macmillan.
+          </bibl>
+          <bibl>14. <hi rend="bold">McCarty, W.</hi> (2004). <hi rend="italic">Modeling: a Study in Words and Meanings</hi>. in Companion to the DigitalHumanities. Blackwell.
+          </bibl>
+          <bibl>15. <hi rend="bold">DeRose, S. J., D. G. Durand, E. Mylonas, and A. H. Renear</hi> (1990). <hi rend="italic">What is Text, Really?</hi> Journal of Computing in Higher Education 2:1 3-26.
+          </bibl>
+          <bibl>16. <hi rend="bold">Huitfeldt, C.</hi> (1994). <hi rend="italic">Multi-Dimensional Texts in a One-Dimensional Medium</hi>.  Computers and the Humanities, 28(4-5). Humanities Computing in Norway. 235-241.
+          </bibl>
+          <bibl>17. <hi rend="bold">Pichler, A.</hi> (1995). <hi rend="italic">Transcriptions, texts and interpretation</hi>. In Johannessen, K. and Nor- denstam, T., editors, Culture and Value: Philosophy and the Cultural Sciences, pages 690–695. Austrian Ludwig Wittgenstein Society, Wien.
+          </bibl>
+          <bibl>18. <hi rend="bold">Renear, A. H., Mylonas, E., and Durand, D.</hi> (1996). <hi rend="italic">Refining our notion of what text really is: The problem of overlapping hierarchies</hi>. In Ide, N. and Hockey, S., editors, Research in Humanities Computing. Oxford University Press.
+          </bibl>
+          <bibl>19. <hi rend="bold">Pierazzo, E. and Stokes, P. A.</hi> (2010). <hi rend="italic">Putting the text back into context: a codicological approach to manuscript transcription.</hi> In Fischer, F., Fritze, C., and Voelgler, G., editors, Kodikologie und Palographie im Digitalen Zeitalter 2 - Codicology and palaeography in the digital age 2, pages 397–430. Books on Demand, Norderstedt.
+          </bibl>
+          <bibl>20. <hi rend="bold">Deegan, M. and Sutherland, K.</hi> (2009). <hi rend="italic">Transferred Illusions</hi>. Digital Technology and the Forms of Print. Ashgate, Farnham.
+          </bibl>
+          <bibl>21. <hi rend="bold">Sperberg-McQueen, C. M.</hi> (2009). <hi rend="italic">How to teach your edition how to swim.</hi> Literary and Linguistic Computing, 24(1):27–52.
+          </bibl>
+          <bibl>22. <hi rend="bold">Huifeldt, C., and C. M. Sperberg-McQueen</hi> (2008). <hi rend="italic">What is transcription? Literary and Linguistic Computing</hi>. 23 (3). 295-310. doi:10.1093/llc/fqn013
+          </bibl>
+          <bibl>23. <hi rend="bold">Huitfeldt, Claus, Yves Marcoux and C. M. Sperberg-McQueen</hi> (2010). <hi rend="italic">Extension of the type/token distinction to document structure.</hi> In Balisage: The Markup Conference 2010. held August 3-6, 2010 in Montréal, Canada. In Proceedings of Balisage: The Markup C
+          </bibl>
+          <bibl>24. <hi rend="bold">Sperberg-McQueen, C. M.. Claus Huitfeldt, and Yves Marcoux</hi> (2009). <hi rend="italic">What is transcription? Part 2</hi>. Talk given at Digital Humanities 2009, College Park, Maryland. Slides on the Web at <ref type="url" target="http://blackmesatech.com/2009/06/dh2009/.">blackmesatech.com/2009/06/dh2009/.</ref>
+          </bibl>
+          <bibl>25. <hi rend="bold">Caton, Paul</hi> (2013=. <hi rend="italic">Pure transcriptional encoding.</hi> Paper given at Digital Humanities 2013, Lincoln, Nebraska.
+          </bibl>
+          <bibl>26. <hi rend="bold">Caton, P. </hi>(2013). <hi rend="italic">On the term text in digital humanities</hi>. Literary and Linguistic Computing, 28(2):209–220.
+          </bibl>
+          <bibl>27. <hi rend="bold">Huitfeldt, Claus, and C. M. Sperberg-McQueen.</hi> (2008) <hi rend="italic">What is transcription?</hi> Literary &amp; Linguistic Computing 23.3: 295-310.
+          </bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

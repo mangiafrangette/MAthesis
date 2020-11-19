@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="../schema/xmod_web.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xmt="http://www.cch.kcl.ac.uk/xmod/tei/1.0" 
+     xml:id="ab-151">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The ARTeFACT Movement Thesaurus: toward an open-source tool to mine movement-derived data</title>
+                <author>
+                    <name>Wiesner, Susan L.</name>
+                    <affiliation>University of Virginia, USA</affiliation>
+                    <email>slw4w@virginia.edu</email>
+                </author>
+                <author>
+                    <name>Bennett, Bradford</name>
+                    <affiliation>University of Virginia, USA</affiliation>
+                    <email>bcb3a@virginia.edu</email>
+                </author>
+                <author>
+                    <name>Stalnaker, Rommie L.</name>
+                    <affiliation>Kennesaw State University, USA</affiliation>
+                    <email>rstalnaker81@gmail.com</email>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Jan Christoph Meister, Universität Hamburg</publisher>
+                <address>
+                   <addrLine>Von-Melle-Park 6, 20146 Hamburg, Tel. +4940 428 38 2972</addrLine>
+                   <addrLine>www.dh2012.uni-hamburg.de</addrLine>
+              </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>No source: created in electronic format.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2012-04-15</date>
+                <name>DH</name>
+                <desc>generate TEI-template with data from ConfTool-Export</desc>
+            </change>
+            <change>
+                <date>2012-04-13</date>
+                <name>LS</name>
+                <desc>provide metadata for publicationStmt</desc>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="paper">
+        <body>
+            <div>
+                <head>Problem</head>
+                <p>The 20th century was a period of vast growth in dance especially in Western
+                    cultures, with multiple genres being created and codified techniques being
+                    developed. Along with the explosion of new works (danced texts) came an upsurge
+                    of research into dance and its acceptance as a scholarly discipline. However,
+                    research into movement, and movement-based arts, depends greatly on the ability
+                    to peruse documentation beyond static written texts and photographic (still)
+                    images. Thus, as visual capture technologies developed, the preferred means of
+                    recording and studying a dance work is film and/or video (i.e. visual data). As
+                    beneficial as access to film has been to the discipline, this method of
+                    preserving and accessing dance contains its own challenges. The current practice
+                    of viewing hours of film hinders researchers’ abilities to (a) find
+                    movement-derived data (b) find that data quickly (c) find data accurately
+                    described and (d) reuse the data. Further, while there are standards for
+                    preserving video, there are no standards for providing access and any attempt at
+                    mining data from a moving image is fraught with difficulty. Therefore, a new
+                    model is required, one that exploits advances in computer software and hardware
+                    and can enhance research and innovation into movement-based research in the
+                    humanities.</p>
+            </div>
+            <div>
+                <head>Our Solution</head>
+                <p> With funds from an NEH Level II Digital Start-up Grant, the ARTeFACT Movement
+                    Thesaurus (AMT) uses motion capture technologies to study movement patterns
+                    through a corpus of movement-derived data. In the third phase of the ARTeFACT
+                    project, a multi-disciplinary project first developed at the University of
+                    Virginia, the AMT includes over 200 movements derived from codified techniques:
+                    ballet, jazz, modern dance, and tai chi. Prior to motion capture of movements,
+                    we defined and categorized each movement ‘STEP’ in order to develop an ontology
+                    (saved as xml files). An eight-camera Vicon system captures individual movements
+                    and movement phrases typically seen in the studio and on stage. Using custom
+                    Matlab software, 3-D data of individual movements are quantified through
+                    mathematical interpretation of joint positions, using the ground truth data of
+                    the VICON motion capture system for its input to develop the algorithms. In
+                    future, the program, idMove, (developed for the DH SUG) will be modified to use
+                    only 2-D data.    </p>
+                <p>The second planned future component is the development of algorithms to convert
+                    2-D images from the video into files of position data (in practice the second
+                    component, creating the position data from video would be applied first to
+                    generate the data for movement identification). These two components will be
+                    worked on in parallel. In addition, work will be undertaken to examine and
+                    improve the robustness of the algorithms when data sets are incomplete. We will
+                    validate that the code works with dancers of different morphologies and levels
+                    of ability. Also there are often times in dances when body parts are obscured by
+                    other dancers or by the dancer him or herself and we will develop our algorithms
+                    to work when sections of movements can not be seen. Finally, we will consider
+                    movement phrases, a series of dance moves, (the current software is designed for
+                    films of a single dance move) and will develop the ability to identify the
+                    individual moves within a string of moves. </p>
+                <p>As choreographers rarely create dances based solely on individual STEPS, and
+                    prefer to use them to create a new vocabulary per the requirements of the dance
+                    work, we are moving beyond the codified technical movements to incorporate
+                    conceptualized movements into the AMT. At this time, we are using Lakoff and
+                    Johnson’s work on conceptual metaphor as a basis for pattern recognition of
+                    embodied semantics, and we plan to utilize corpus linguistics methods as a basis
+                    to formulate a statistical analysis of the STEPS (words) ‘spoken’ in a dance
+                    work. This approach is admittedly problematic, in that a movement phrase does
+                    not parallel written phrases; however, we are continuing to work with the ideas
+                    of statistical analysis against distinct movement vocabularies created as
+                    representative of a concept. Thereby we are creating a lexicon of dance based
+                    both upon technical description of the moves (STEPS) as well as theme based
+                    moves. We are striving toward a future in which researchers will be able to
+                    upload videos and have the dance “annotated” by the AMT software for data mining
+                    of movement-based texts. </p></div>
+                <div>
+                    <head>Rationale</head>
+                    <p>Dance movement, as a non-verbal language, cuts across cultures without the need of ‘translation.’ The body speaks through a kinesthetic voice. While appreciating that there may be cultural differences at work in choreography, in western theatre dance there is generalized understanding of movement techniques and vocabulary. Therefore, the response to a work, especially as to the meaning of a dance, allows most viewers to understand the work. In other words, there is a set of movements that can be read either by an understanding of the technical form or through mutual conceptual frameworks. That said, the most common verbal languages used in dance are English and French with steps codified to such an extent that dancers and researchers the world over understand a passé, a fondue, a frappe, a fouette, a flat back, a brush knee, etc. Thus, we have begun loading the AMT with codified movements. This will allow researchers to view these movements, performed by a subject-matter-expert, via the step name or by individual movements of body parts (at this time, the knee and foot). By extending the AMT to include conceptual movements, we will enable researchers to search based on an idea (the first conceptual set we are including incorporates movements based on the conceptual metaphor Conflict). </p>
+                
+            </div>
+                <div><head>Conclusion</head>
+                <p>We will present the NEH funded portion of the ARTeFACT project: the AMT. This is
+                    a major step toward providing access to movement-derived data through
+                    sophisticated data mining technologies. By using motion capture technologies we
+                    are developing a sophisticated, open source tool that can help make film
+                    searchable for single movements and movement phrases. By bringing together
+                    engineers, movement specialists, and mathematicians we will forge ahead to break
+                    new ground in movement research and take one step closer to the creation of an
+                    automated means of mining danced texts and filmed movements.</p></div>
+        </body>
+        <back>
+            <div>
+                    <head>References</head>
+                <p><hi rend="bold">Ahmad, K., A. Salway, J. Lansdale, H. Selvaraj, and B. Verma</hi>
+                    (1998). (An)Notating Dance: Multimedia Storage and Retrieval. Conference
+                    Proceedings, <hi rend="italic">International Conference on Computational
+                        Intelligence and Multimedia Applications</hi>, World Scientific. Singapore,
+                    p. 788.</p><p><hi rend="bold">Bailey, H., M. Bachler, S. Buckingham Shum, A. Le Blanc, S. Popat, A. Rowley, and
+                        M. Turner</hi> (2009). Dancing on the Grid: Using e-Science Tools to Extend Choreographic Research.
+                        <hi rend="italic">Philosophical Transactions of the Royal Society A</hi> (13
+                    July 2009) 367 (No. 1898): 2793.</p>
+                <p><hi rend="bold">Coartney J., and S. Wiesner</hi> (2009) Performance as digital
+                    text: Capturing signals and secret messages in a media-rich experience. <hi
+                        rend="italic">Literary and Linguistic Computing</hi> 24: 153.</p><p><hi rend="bold">Lakoff, G., and M. Johnson</hi> (1999). <hi rend="italic">Philosophy in the
+                        Flesh: The Embodied Mind and Its Challenges toWestern Thought.</hi> New
+                    York: Basic Books.</p><p><hi rend="bold">Lakoff, G., and M. Johnson</hi> (1980). <hi rend="italic">Metaphors We Live
+                        By</hi> Chicago: U of Chicago P.</p><p><hi rend="bold">Starkweather, J. A.</hi>
+                        (2003). Overview: Computer-Aided Approaches to Content Recognition. In G.
+                        Gerbner et al. (eds.), <hi rend="italic">The Analysis of Communication
+                            Content.</hi> New York: John Wiley &amp; Sons, p. 339.   </p><p><hi rend="bold">Turner, V.</hi> (1974). <hi rend="italic">Dramas, Fields, and Metaphors</hi>
+                    London: Cornell UP.</p><p><hi rend="bold">Wiesner, S. L.</hi> (2011) <hi rend="italic">Framing Dance Writing: A Corpus
+                        Linguistics</hi>. Saarbrücken: Lambert Academic Publishing.</p>
+            </div>
+        </back>
+    </text>
+</TEI>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:x="http://www.w3.org/1999/xhtml" xmlns:exsl="http://exslt.org/common" xml:id="Paper-786">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Harddrive Philology: Analysing the Writing Process on Thomas Kling's Archived Laptops</title>
+        <author>
+          <name>
+            <surname>Ries</surname>, <forename>Thorsten</forename>
+          </name>
+          <affiliation>Ghent University, Belgium </affiliation>
+          <email></email>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority/>
+        <publisher>EPFL, Switzerland</publisher>
+        <distributor>
+          <name>EPFL Digital Humanities Laboratory</name>
+          <address>
+            <addrLine>GC D2 386</addrLine>
+            <addrLine>Station 18</addrLine>
+            <addrLine>CH-1015 Lausanne</addrLine>
+            <addrLine>frederic.kaplan@epfl.ch</addrLine>
+          </address>
+        </distributor>
+        <pubPlace>Lausanne, Switzerland</pubPlace>
+        <address>
+          <addrLine>EPFL</addrLine>
+          <addrLine>CH-1015 Lausanne</addrLine>
+        </address>
+        <availability>
+          <p/>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note type="abstract">The proposed talk will discuss the application of forensic computer science tools and methods to born digital documents and parts of archives, focusing on the philological benefit for genetic scholarly editions and the critique génétique on the one hand as well as on issues of sane archiving and representation of the digital record in a scholarly edition on the other. Exemplary subject matter of the inquiry will be a selection of recovered materials from harddrives in the Thomas Kling archive which represents the range of retrievable transitory 'genetic' textual material, e.g. recoverable documents, temporary files, memory fragments and several disk operation artifacts on multiple generations of operating systems. The harddrives have been forensically imaged for longterm preservation by the author of this paper and by a forensic laboratory recently, and it will be the first time these findings are being publicly discussed.</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>No source: created in electronic format.</p>
+        <p>
+          <date when="20140710"/>
+          <time when="11:00:00"/>
+        </p>
+		<p n="session">5</p>
+		<p n="room">414 - Amphimax</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="original" n="category">
+          <term>Paper</term>
+        </keywords>
+        <keywords scheme="original" n="subcategory">
+          <term>Long Paper</term>
+        </keywords>
+        <keywords scheme="original" n="keywords">
+          <term>Thomas Kling</term>
+          <term>digital forensics</term>
+          <term>digital born archive material</term>
+          <term></term>
+        </keywords>
+        <keywords scheme="original" n="topic">
+          <term>archives</term>
+          <term>repositories</term>
+          <term>sustainability and preservation</term>
+          <term>literary studies</term>
+          <term>scholarly editing</term>
+          <term>philology</term>
+          <term></term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text type="paper">
+    <front>
+
+      <div>
+        <p></p>
+      </div>
+    </front>
+    <body>
+      <div>
+
+        <p>The
+proposed talk will discuss the application of forensic computer science tools
+and methods to born digital documents and parts of archives, focusing on the
+philological benefit for genetic scholarly editions and the <hi rend="italic">critique
+génétique</hi> on the one hand as well as on issues of sane archiving and
+representation of the digital record in a scholarly edition on the other. In
+the course of the talk, the conceptual impact of this digital forensic
+perspective on the term 'document', on our concepts of the 'materiality of the
+historical record' and on 'textual genetics' will also be discussed. </p>
+        <p>Exemplary
+subject matter of the inquiry will be a selection of recovered materials from
+harddrives in the Thomas Kling archive which represents the range of
+retrievable transitory 'genetic' textual material, e.g. recoverable documents,
+temporary files, memory fragments and several disk operation artifacts on
+multiple generations of operating systems reaching back from Microsoft Windows<hi rend="sup">®</hi> XP to 3.11. The harddrives have been
+forensically imaged for longterm preservation by the author of this paper and
+by a forensic laboratory recently, and it will be the first time these findings
+are being publicly discussed. </p>
+        <p>Thomas
+Kling (1957-2005) was one of the most influential contemporary poets of the
+last 30 years in the German-speaking countries. The historical, documentary
+quoting technique as well as his blending of poetry and performance inspired
+numerous other authors of his generation. Furthermore, his poetry is enormously
+aware of the effect that historical media development has on perception, on the
+way how storage media influence the concept of history and on poetic language
+itself (s.a. Trilcke 2012). As early as 1985, he wrote: „[...] and everyone
+knows: from now on, we cast out poetry on floppy disks only, sure thing.“
+(Thomas Kling: <hi rend="italic">Die verplemperten Sprachen</hi>; Wehr et al.
+2012: 13) At the same time, his work reflects not only the medial blending of
+historical levels and documents as „sondage“, but also the threat of losing the
+„burning archive“: „It is the tongue-loss. Everything is archive, everything is
+about to become archive and end up in smoke.“ (Kling 2001: 111) Fortunately,
+this does not apply to his own archive, nor to the harddrives of his last three
+laptops, all of which are being kept in the collections on the Raketenstation
+Hombroich (Scharfschwert 2012).</p>
+        <p>After
+a quick introduction to general archival aspects and methods of forensic work
+with bitstream-preserving images and the several levels of analysis (different
+kinds of file recovery, drive slack analysis, save operation artifacts, restore
+points etc., s.a. Ries 2010, Kirschenbaum
+et al. 2010, Reside 2011), the talk will discuss a couple of
+example findings from the Thomas Kling harddrive platters to show in which –
+sometimes surprising – places of these 'real life' case systems textual
+variants and fragments of poetic draft material actually reside. Possible
+candidates for this part are digital fragments of the <hi rend="italic">dossier génétique</hi>
+to the poems <hi rend="italic">third cartography</hi> and it's <hi rend="italic">abdomen in constant movement</hi>
+(selection to be finalised). The example materials will show Thomas Kling as
+one of the German poets who relatively early embraced IBM-compatible personal
+computers with Microsoft Windows<hi rend="sup">®</hi>,
+Word<hi rend="sup">®
+</hi>as a writing
+tool and used it for most of the draft process, going back and forth between
+the digital document and corrected printouts after a conception phase on
+notebook and manuscript pages.</p>
+        <p>Discussion
+will show to what extent the philological interpretation of these findings
+depend on the specifics of the operating system- and application context and
+that we sometimes have to deal with 'artificial' evidence. Furthermore, the
+range of variation in terms of completeness of the textual record will be
+mapped. A tentative genetic close reading of the fragments will also show how
+the reader's view on the writing process necessarily shifts, coming from a
+manuscript perspective, as one reads e.g. recovered digital born memory snaphot
+items. </p>
+        <p>Looking
+at the materials from a scholarly editing point of view, questions arise how
+these should be represented in a genetic edition, e.g. which metadata has to be
+included; in which meaningful way can the commentary cover the technical
+context of the mechanisms of historic software, and how is redundancy of the
+digital record to be dealt with? (s.a. Pierazzo 2011)
+How is the 'materiality' of the materials to be represented? (s.a. Ries 2010,
+Kirschenbaum 2006)</p>
+        <p>In
+this sense of the meaning, this talk aims to help „empowering“ scholarly
+editors, philologists and scholars as readers of future genetic editions to
+deal with digital heritage collections and digital born documents and material
+as part of scholarly editions. </p>
+        <p>Delivering
+this talk in German would be an obvious choice, as the discussed archive
+materials by Thomas Kling are also in German and I am a native speaker.
+However, the talk can be held in English as well to reach out for the
+international audience. Regarding the advantages of both options, I would like
+to leave the choice of language for this talk to the conference board. </p>
+
+
+
+      </div>
+    </body>
+    <back>
+      <div type="References">
+        <listBibl>
+          <bibl><hi rend="bold">Gitelman, Lisa</hi> (2006). <hi rend="italic">Always Already New</hi>.
+            Media, History, and the Data of Culture. Cambridge, London: MIT
+            Press; 2006.</bibl>
+          <bibl><hi rend="bold">Kirschenbaum,
+            Matthew G., Richard Ovenden, Gabriela Redwine</hi> (Eds.) (2010): <hi rend="italic">Digital Forensics and
+              Born-Digital Content in Cultural Heritage Collections</hi>. Council on Library and
+            Information Resources Washington, D.C. December 2010 (CLIR publication, no.
+            149).</bibl>
+          <bibl><hi rend="bold">Kling, Thomas</hi> (2001): <hi rend="italic">Rhapsoden am Sepik</hi>.
+            Botenstoffe. Cologne 2001. </bibl>
+          <bibl><hi rend="bold">Pierazzo, Elena</hi> (2011). <hi rend="italic">A rationale of
+            digital documentary editions</hi>. LL&amp;C 26.4 (2011), 463-77.</bibl>
+          <bibl><hi rend="bold">Reside,
+            Doug</hi> (2011): <hi rend="italic">"No Day But Today"</hi>: A look at Jonathan
+            Larson's Word Files. NYPL Blog, April 22, 2011,
+            URL: <ref type="url" target="http://www.nypl.org/blog/2011/04/22/no-day-today-look-jonathan-larsons-word-files">www.nypl.org/blog/2011/04/22/no-day-today-look-jonathan-larsons-word-files</ref>,
+            accessed: October 30, 2013.</bibl>
+          <bibl><hi rend="bold">Ries, Thorsten</hi> (2010). <hi rend="italic">"die geräte klüger als
+            ihre besitzer" Philologische Durchblicke hinter die Schreibszene des
+            Graphical User Interface. Überlegungen zur digitalen Quellenphilologie, mit
+            einer textgenetischen Studie zu Michael Speiers "ausfahrt st. nazaire"</hi>. editio 24.1 (2010), 149-199.</bibl>
+          <bibl><hi rend="bold">Ries, Thorsten</hi> (2012). Review: <hi rend="bold">Willard McCarty</hi> (Ed.). <hi rend="italic">Text and Genre in Reconstruction</hi> (2010)</bibl>
+          <bibl><hi rend="bold">Scharfschwert, Alena</hi> (2012): <hi rend="italic">Das
+            eingepflegte Archiv</hi>. Bericht über die Erschließung des Thomas Kling-Nachlasses.
+            Frieder von Ammon, Peer Trilcke, Alena Scharfschwert (Eds.) Das Gellen der
+            Tinte. Zum Werk Thomas Klings. Göttingen: V&amp;R unipress 2012, 383-400.</bibl>
+          <bibl><hi rend="bold">Stüssel, Kerstin, Gabriele Wix, et al. </hi>(Eds) (2013): <hi rend="italic">Zur Leitcodierung</hi>. [Manhattan Schreibszene; Katalog zur Ausstellung "Thomas
+            Kling: geschmolzener und/ wieder aufgeschmo-/lzener text" 2013/14 im
+            Universitätsmuseum der Universität Bonn] Göttingen: Wallstein 2013.</bibl>
+          <bibl><hi rend="bold">Trilcke,
+            Peer</hi> (2012):<hi rend="italic"> Historisches Rauschen</hi>. Das geschichtslyrische
+            Werk Thomas Klings. [The Historical Poetry of Thomas Kling].
+            PhD thesis Göttingen University 2011/12, URL: <ref type="url" target="http://hdl.handle.net/11858/00-1735-0000-0006-AEDE-3">hdl.handle.net/11858/00-1735-0000-0006-AEDE-3</ref>,
+            accessed: October 30, 2013.</bibl>
+          <bibl><hi rend="bold">Norbert Wehr, Ute Langanky, Marcel Beyer </hi>(Eds.) <hi rend="bold">Thomas Kling</hi> (2012). <hi rend="italic">Das brennende Archiv</hi>.
+            Unveröffentlichte Gedichte, Briefe, Handschriften und Photos aus dem Nachlass [...]. Berlin: Suhrkamp 2012.</bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

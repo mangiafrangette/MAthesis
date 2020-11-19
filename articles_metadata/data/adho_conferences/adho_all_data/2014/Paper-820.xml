@@ -1,0 +1,1447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:x="http://www.w3.org/1999/xhtml" xmlns:exsl="http://exslt.org/common" xml:id="Paper-820">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Analysis of perspectives in contemporary Japanese novels using computational stylistic methods</title>
+        <author>
+          <name>
+            <surname>Suzuki</surname>, <forename>Takafumi</forename>
+          </name>
+          <affiliation>Toyo University, Japan </affiliation>
+          <email></email>
+        </author>
+        <author>
+          <name>
+            <surname>Yamashita</surname>, <forename>Natsumi</forename>
+          </name>
+          <affiliation>Toyo University, Japan </affiliation>
+          <email></email>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority/>
+        <publisher>EPFL, Switzerland</publisher>
+        <distributor>
+          <name>EPFL Digital Humanities Laboratory</name>
+          <address>
+            <addrLine>GC D2 386</addrLine>
+            <addrLine>Station 18</addrLine>
+            <addrLine>CH-1015 Lausanne</addrLine>
+            <addrLine>frederic.kaplan@epfl.ch</addrLine>
+          </address>
+        </distributor>
+        <pubPlace>Lausanne, Switzerland</pubPlace>
+        <address>
+          <addrLine>EPFL</addrLine>
+          <addrLine>CH-1015 Lausanne</addrLine>
+        </address>
+        <availability>
+          <p/>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note type="abstract">Perspective in novels is an important research topic in literary studies. This study analyzes the textual differences among perspectives in contemporary novels using computational stylistic methods, i.e., text classification and feature analyses by random forests. We selected two novels by Kotaro Isaka, a popular Japanese novelist, who explicitly switches perspective in his novels section by section. The results indicate that (a) perspectives have specific textual characteristics, (b1) textual characteristics specific to respective scenes such as proper nouns are important for differentiating perspective, and (b2) stylistic characteristics such as pronouns and nouns that represent styles of speech are also important. We conclude that computational stylistic methods are effective for analyzing the difference among perspectives in contemporary novels.</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>No source: created in electronic format.</p>
+        <p>
+          <date when="20140710"/>
+          <time when="11:00:00"/>
+        </p>
+		<p n="session">5</p>
+		<p n="room">415 - Amphimax</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="original" n="category">
+          <term>Paper</term>
+        </keywords>
+        <keywords scheme="original" n="subcategory">
+          <term>Short Paper</term>
+        </keywords>
+        <keywords scheme="original" n="keywords">
+          <term>computational stylistics</term>
+          <term>Japanese novels</term>
+          <term>perspectives</term>
+          <term>random forests</term>ß
+          <term></term>
+        </keywords>
+        <keywords scheme="original" n="topic">
+          <term></term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text type="paper">
+    <front>
+      
+      <div>
+        <p></p>
+        <p></p>
+      </div>
+    </front>
+    <body>
+      <div>
+        
+        <head>1.
+Introduction</head>
+        <p>Perspective
+in novels has been an important subject of research in literary studies.
+Ishimaru (1985) defined perspectives as the viewpoint of narrators; she roughly
+classified perspectives in novels as the first-person perspective, where the
+central character narrates the story from his/her perspective, and the
+third-person perspective, where the omniscient narrator recounts the story from
+a neutral perspective. This is a basic classification of perspective in
+literature. These perspectives represent the spirit of the age, typically shown
+in the positivism in 19th century French novels (Ishimaru, 1985), and also
+affect a readers’ impression of the characters and involvement in the work, and
+thus perspective is an important subject in literary studies. </p>
+        <p>Computational stylistics has been one of
+the important subfields of Digital Humanities. Using computational methods with
+digitized text materials, we can obtain systematic findings that can complement
+traditional qualitative analyses. Although computational methods can be
+powerful tools for investigating issues in literary studies, perspective in
+novels has rarely been analyzed with such method.</p>
+        <p>Against this background, we used computational
+stylistic methods, i.e., text classification and feature analyses by random
+forests machine learning methods, to tackle the perspective issue in literary
+studies. We selected Kotaro Isaka, who is a popular Japanese novelist, as the
+object of study; he explicitly switches perspective in his novels section by
+section, and this is an important reason for the popularity of his novels. Note
+that Haruki Murakami, another popular novelist, uses this perspective switching
+between two perspectives (Kudo et al., 2012). However, Isaka uses more varied
+perspective-switching patterns (Yamashita and Suzuki, 2013). First, we generated
+text files and applied morphological analysis. We then conducted random forests
+text classification and feature extraction experiments using text-feature
+matrices for two of Isaka’s novels. Then, we investigated (a) whether textual
+differences among perspectives can be detected or not, and (b) if detected,
+what types of textual characteristics contribute to the detection of perspective.
+By tackling these points, we will show the effectiveness of computational
+methods for analyzing the perspective issue in literary studies.</p>
+        <head>2. Data and
+methods</head>
+        <p>We selected
+the following novels by Kotaro Isaka, “Odyubon no Inori” (Audubon’s Prayer; ADP,
+original 2000, pocket edition 2003) and “Gurasuhoppa” (Grasshopper; GHP, original
+2004, pocket edition 2007) as objects. ADP is a work representative of the
+earlier period of the author’s bibliography, and GHP is representative of the
+author’s middle period. We used the pocket editions of these two novels because
+Isaka is known to revise manuscripts when his work is published in pocket
+editions. We constructed the texts using a OCR document scanner and manually
+corrected OCR errors. We also removed the rubi, i.e., kanas printed alongside
+kanjis. We applied morphological analysis using MeCab,[1]
+Japanese morphological analyzer.</p>
+        <p>We divided the texts into sections and
+assigned perspective tags according to the perspective signs assigned by the
+author. Regarding ADP, we united all character perspectives except Ito, the central
+character, because the number of perspectives for each character is small.
+Without unification of perspective, it was difficult to perform meaningful
+classification and feature analysis experiments. Thus, we used two tags, Ito’s
+perspective and other characters’ perspectives. The numbers of sections was 56
+for Ito and 22 for other characters. It should be noted that Ito’s section
+appeared after another of his section. Regarding GHP, we used three tags for
+the three main characters’ perspectives (Suzuki, Kujira, and Semi) according to
+the signs assigned by the author. The sequences of these three characters’ perspectives
+are essentially fixed, Suzuki first, Kujira second, and Semi third. In
+addition, the death of a character leads to the removal of that character’s perspective.
+The numbers of sections was 17 for Suzuki, 15 for Kujira, and 10 for Semi.</p>
+        <p> We calculated the frequencies of
+morphemes and basic textual statistics, and then we constructed the
+text-feature matrices using the relative frequencies of morphemes appearing in
+each text. We applied random forests machine learning methods proposed by Breiman
+(2001) with these matrices as data and perspectives as labels. We calculated the
+valuable importance provided by random forests and extracted important variables
+for classification, which are effective for differentiation among perspectives.
+We selected the random forests method because it has shown the best possible
+performance for authorship attribution in Japanese (Jin and Murakami, 2007) and
+is effective for extracting and analyzing the features that contribute to
+classification in related tasks such as computational sociolinguistics (Suzuki,
+2009).</p>
+        <head>3. Results
+and discussion</head>
+        <head>3.1. Basic
+observation</head>
+        
+        <p>Table1. Basic data (ADP)</p>
+        
+        <table>
+          <row>
+            <cell role="data"/>
+            <cell role="data"/>
+            <cell role="data">
+  Number of tokens
+  </cell>
+          </row>
+          <row>
+            <cell role="data"/>
+            <cell role="data">
+  Number of texts
+  </cell>
+            <cell role="data">
+  sum
+  </cell>
+            <cell role="data">
+  mean
+  </cell>
+            <cell role="data">
+  s.d.
+  </cell>
+            <cell role="data">
+  c.v.
+  </cell>
+          </row>
+          <row>
+            <cell role="data">
+  Ito
+  </cell>
+            <cell role="data">
+  56
+  </cell>
+            <cell role="data">
+  118042
+  </cell>
+            <cell role="data">
+  2107.89
+  </cell>
+            <cell role="data">
+  1712.37
+  </cell>
+            <cell role="data">
+  0.81
+  </cell>
+          </row>
+          <row>
+            <cell role="data">
+  Others
+  </cell>
+            <cell role="data">
+  22
+  </cell>
+            <cell role="data">
+  23290
+  </cell>
+            <cell role="data">
+  1058.64
+  </cell>
+            <cell role="data">
+  1315.31
+  </cell>
+            <cell role="data">
+  1.24
+  </cell>
+          </row>
+        </table>
+        <p>
+
+
+
+ Table 1
+shows the basic data for ADP, the number of texts, and the sum, mean, standard
+deviation (s.d.), and coefficient of variations (c.v.) of the number of tokens
+for each perspective. It can be seen that Ito has more that 70% of all sections,
+and others have larger variances of the c.v. It is assumed that the larger
+variances were caused by the unification of characters.</p><p> </p>
+        <p>Table 2. Basic data (GHP)</p>
+        
+        <table>
+          <row>
+            <cell role="data">
+  　
+  </cell>
+            <cell role="data">
+  　
+  </cell>
+            <cell role="data">
+  Number of tokens
+  </cell>
+          </row>
+          <row>
+            <cell role="data">
+  　
+  </cell>
+            <cell role="data">
+  Number of texts
+  </cell>
+            <cell role="data">
+  sum
+  </cell>
+            <cell role="data">
+  mean
+  </cell>
+            <cell role="data">
+  s.d.
+  </cell>
+            <cell role="data">
+  c.v.
+  </cell>
+          </row>
+          <row>
+            <cell role="data">
+  Suzuki
+  </cell>
+            <cell role="data">
+  17
+  </cell>
+            <cell role="data">
+  51229
+  </cell>
+            <cell role="data">
+  3013.47
+  </cell>
+            <cell role="data">
+  1930.56
+  </cell>
+            <cell role="data">
+  0.65
+  </cell>
+          </row>
+          <row>
+            <cell role="data">
+  Kujira
+  </cell>
+            <cell role="data">
+  15
+  </cell>
+            <cell role="data">
+  33453
+  </cell>
+            <cell role="data">
+  2230.2
+  </cell>
+            <cell role="data">
+  1251.70
+  </cell>
+            <cell role="data">
+  0.56
+  </cell>
+          </row>
+          <row>
+            <cell role="data">
+  Semi
+  </cell>
+            <cell role="data">
+  10
+  </cell>
+            <cell role="data">
+  27153
+  </cell>
+            <cell role="data">
+  2715.3
+  </cell>
+            <cell role="data">
+  946.63
+  </cell>
+            <cell role="data">
+  0.35
+  </cell>
+          </row>
+        </table>
+        <p>
+
+
+
+ 
+Table 2 lists the basic data for GHP, the
+number of texts, and the sum, mean, s.d., and c.v. of the number of tokens for
+each perspective. The table shows that Suzuki has the largest section numbers
+and has the largest c.v. It is assumed that Suzuki’s perspective includes both
+small and long sections.</p>
+        <head>3.2. Classification by random forests
+
+</head>
+        <p>Table
+3. Classification results (ADP)</p>
+        
+        <table>
+          <row>
+            <cell role="data">
+  　
+  </cell>
+            <cell role="data">
+  Ito
+  </cell>
+            <cell role="data">
+  others
+  </cell>
+            <cell role="data">
+  error rates
+  </cell>
+          </row>
+          <row>
+            <cell role="data">
+  Ito
+  </cell>
+            <cell role="data">
+  55
+  </cell>
+            <cell role="data">
+  1
+  </cell>
+            <cell role="data">
+  0.02 
+  </cell>
+          </row>
+          <row>
+            <cell role="data">
+  Others
+  </cell>
+            <cell role="data">
+  17
+  </cell>
+            <cell role="data">
+  5
+  </cell>
+            <cell role="data">
+  0.77 
+  </cell>
+          </row>
+        </table>
+        <p>
+
+
+
+ Table 3
+shows the classification results obtained by random forests for ADP. Each
+column represents the original tags, and each row represents the results. It
+can be seen that 55 of 56 Ito texts were classified as Ito’s. It is assumed
+that Ito’s perspectives have special characteristics. In comparison, only 5 of 22
+texts by others were classified as others and 17 of 22 texts by others were
+classified as Ito. It is assumed that these results were partly caused by the
+limits of our experiments; the number of Ito texts was much larger than others,
+and the text from several characters was merged.
+
+ 
+
+        </p><p> </p>
+        <p>Table 4. Classification results
+(GHP)</p>
+        
+        <table>
+          <row>
+            <cell role="data">
+  　
+  </cell>
+            <cell role="data">
+  Suzuki
+  </cell>
+            <cell role="data">
+  Kujira
+  </cell>
+            <cell role="data">
+  Semi
+  </cell>
+            <cell role="data">
+  error rates
+  </cell>
+          </row>
+          <row>
+            <cell role="data">
+  Suzuki
+  </cell>
+            <cell role="data">
+  17
+  </cell>
+            <cell role="data">
+  0
+  </cell>
+            <cell role="data">
+  0 
+  </cell>
+            <cell role="data">
+  0
+  </cell>
+          </row>
+          <row>
+            <cell role="data">
+  Kujira
+  </cell>
+            <cell role="data">
+  0
+  </cell>
+            <cell role="data">
+  15
+  </cell>
+            <cell role="data">
+  0 
+  </cell>
+            <cell role="data">
+  0
+  </cell>
+          </row>
+          <row>
+            <cell role="data">
+  Semi
+  </cell>
+            <cell role="data">
+  0
+  </cell>
+            <cell role="data">
+  5
+  </cell>
+            <cell role="data">
+  5
+  </cell>
+            <cell role="data">
+  0.45
+  </cell>
+          </row>
+        </table>
+        <p>
+
+
+
+ Table 4 shows the classification results
+obtained by random forests for GHP. Each column represents the original tags,
+and each row shows the results given by random forests. It can be seen that all
+Suzuki texts were 17 were classified as Suzuki’s, and all Kujira texts were
+classified as Kujira’s. Only 5 of 10 texts were classified as Semi, and 5 other
+texts were classified as Kujira. It is assumed that there were special
+characteristics for Suzuki and Kujira’s perspective; however, in comparison, Semi’s
+perspectives were rather characterless and closer in nature to Kujira’s texts.
+It is worth noting that both Semi and Kujira are assassins, and Suzuki is an
+employee; therefore, it is assumed that the fact that Semi and Kujira are
+similar characteristics indicates the author’s intent to differentiate these
+two characters and Suzuki.</p>
+        <head>3.3.
+Feature analysis</head>
+        
+        <p>Table 5. Top 20 important features
+(ADP)</p>
+        
+        <table>
+          <row>
+            <cell role="data">
+  　
+  </cell>
+            <cell role="data">
+  feature
+  </cell>
+            <cell role="data">
+  readings
+  </cell>
+            <cell role="data">
+  translation
+  </cell>
+            <cell role="data">
+  pos
+  </cell>
+            <cell role="data">
+  variable importance
+  </cell>
+          </row>
+          <row>
+            <cell role="data">
+  1
+  </cell>
+            <cell role="data">
+  僕
+  </cell>
+            <cell role="data">
+  Boku
+  </cell>
+            <cell role="data">
+  I
+  </cell>
+            <cell role="data">
+  noun (pronoun)
+  </cell>
+            <cell role="data">
+  0.01911
+  </cell>
+          </row>
+          <row>
+            <cell role="data">
+  2
+  </cell>
+            <cell role="data">
+  だ
+  </cell>
+            <cell role="data">
+  da
+  </cell>
+            <cell role="data">
+  be
+  </cell>
+            <cell role="data">
+  auxiliary verb
+  </cell>
+            <cell role="data">
+  0.00661
+  </cell>
+          </row>
+          <row>
+            <cell role="data">
+  3
+  </cell>
+            <cell role="data">
+  日比野
+  </cell>
+            <cell role="data">
+  Hibino
+  </cell>
+            <cell role="data">
+  Hibino
+  </cell>
+            <cell role="data">
+  noun (proper)
+  </cell>
+            <cell role="data">
+  0.00404
+  </cell>
+          </row>
+          <row>
+            <cell role="data">
+  4
+  </cell>
+            <cell role="data">
+  ん
+  </cell>
+            <cell role="data">
+  n
+  </cell>
+            <cell role="data">
+  -
+  </cell>
+            <cell role="data">
+  noun, auxiliary verb,
+  particles
+  </cell>
+            <cell role="data">
+  0.00293
+  </cell>
+          </row>
+          <row>
+            <cell role="data">
+  5
+  </cell>
+            <cell role="data">
+  。
+  </cell>
+            <cell role="data">
+  -
+  </cell>
+            <cell role="data">
+  -
+  </cell>
+            <cell role="data">
+  symbol
+  </cell>
+            <cell role="data">
+  0.00267
+  </cell>
+          </row>
+          <row>
+            <cell role="data">
+  6
+  </cell>
+            <cell role="data">
+  を
+  </cell>
+            <cell role="data">
+  wo
+  </cell>
+            <cell role="data">
+  -
+  </cell>
+            <cell role="data">
+  particle
+  </cell>
+            <cell role="data">
+  0.00262
+  </cell>
+          </row>
+          <row>
+            <cell role="data">
+  7
+  </cell>
+            <cell role="data">
+  静香
+  </cell>
+            <cell role="data">
+  Shizuka
+  </cell>
+            <cell role="data">
+  Shizuka
+  </cell>
+            <cell role="data">
+  noun (proper)
+  </cell>
+            <cell role="data">
+  0.00253
+  </cell>
+          </row>
+          <row>
+            <cell role="data">
+  8
+  </cell>
+            <cell role="data">
+  」
+  </cell>
+            <cell role="data">
+  -
+  </cell>
+            <cell role="data">
+  -
+  </cell>
+            <cell role="data">
+  sign
+  </cell>
+            <cell role="data">
+  0.00246
+  </cell>
+          </row>
+          <row>
+            <cell role="data">
+  9
+  </cell>
+            <cell role="data">
+  声
+  </cell>
+            <cell role="data">
+  Koe
+  </cell>
+            <cell role="data">
+  Voice
+  </cell>
+            <cell role="data">
+  noun
+  </cell>
+            <cell role="data">
+  0.00214
+  </cell>
+          </row>
+          <row>
+            <cell role="data">
+  10
+  </cell>
+            <cell role="data">
+  しれ
+  </cell>
+            <cell role="data">
+  shire
+  </cell>
+            <cell role="data">
+  -
+  </cell>
+            <cell role="data">
+  verb
+  </cell>
+            <cell role="data">
+  0.00177
+  </cell>
+          </row>
+          <row>
+            <cell role="data">
+  11
+  </cell>
+            <cell role="data">
+  よ
+  </cell>
+            <cell role="data">
+  yo
+  </cell>
+            <cell role="data">
+  -
+  </cell>
+            <cell role="data">
+  particle
+  </cell>
+            <cell role="data">
+  0.00172
+  </cell>
+          </row>
+          <row>
+            <cell role="data">
+  12
+  </cell>
+            <cell role="data">
+  伊藤
+  </cell>
+            <cell role="data">
+  Ito
+  </cell>
+            <cell role="data">
+  Ito
+  </cell>
+            <cell role="data">
+  noun (proper)
+  </cell>
+            <cell role="data">
+  0.00165
+  </cell>
+          </row>
+          <row>
+            <cell role="data">
+  13
+  </cell>
+            <cell role="data">
+  かも
+  </cell>
+            <cell role="data">
+  kamo
+  </cell>
+            <cell role="data">
+  May
+  </cell>
+            <cell role="data">
+  particle
+  </cell>
+            <cell role="data">
+  0.00142
+  </cell>
+          </row>
+          <row>
+            <cell role="data">
+  14
+  </cell>
+            <cell role="data">
+  歯
+  </cell>
+            <cell role="data">
+  Ha
+  </cell>
+            <cell role="data">
+  Dent
+  </cell>
+            <cell role="data">
+  noun
+  </cell>
+            <cell role="data">
+  0.00126
+  </cell>
+          </row>
+          <row>
+            <cell role="data">
+  15
+  </cell>
+            <cell role="data">
+  に
+  </cell>
+            <cell role="data">
+  ni
+  </cell>
+            <cell role="data">
+  -
+  </cell>
+            <cell role="data">
+  particle
+  </cell>
+            <cell role="data">
+  0.00113
+  </cell>
+          </row>
+          <row>
+            <cell role="data">
+  16
+  </cell>
+            <cell role="data">
+  いや
+  </cell>
+            <cell role="data">
+  Iya
+  </cell>
+            <cell role="data">
+  -
+  </cell>
+            <cell role="data">
+  exclamations
+  </cell>
+            <cell role="data">
+  0.00106
+  </cell>
+          </row>
+          <row>
+            <cell role="data">
+  17
+  </cell>
+            <cell role="data">
+  島
+  </cell>
+            <cell role="data">
+  Shima
+  </cell>
+            <cell role="data">
+  Island
+  </cell>
+            <cell role="data">
+  noun
+  </cell>
+            <cell role="data">
+  0.00095
+  </cell>
+          </row>
+          <row>
+            <cell role="data">
+  18
+  </cell>
+            <cell role="data">
+  返事
+  </cell>
+            <cell role="data">
+  Henji
+  </cell>
+            <cell role="data">
+  Reply
+  </cell>
+            <cell role="data">
+  noun
+  </cell>
+            <cell role="data">
+  0.00094
+  </cell>
+          </row>
+          <row>
+            <cell role="data">
+  19
+  </cell>
+            <cell role="data">
+  目
+  </cell>
+            <cell role="data">
+  Me
+  </cell>
+            <cell role="data">
+  Eye
+  </cell>
+            <cell role="data">
+  noun
+  </cell>
+            <cell role="data">
+  0.00093
+  </cell>
+          </row>
+          <row>
+            <cell role="data">
+  20
+  </cell>
+            <cell role="data">
+  ？
+  </cell>
+            <cell role="data">
+  -
+  </cell>
+            <cell role="data">
+  -
+  </cell>
+            <cell role="data">
+  symbol
+  </cell>
+            <cell role="data">
+  0.00092
+  </cell>
+          </row>
+        </table>
+        <p>
+
+
+
+Table 5
+shows the top 20 variables that contributed to classification of ADP with English
+translations, indicates parts of speech, and shows the variable importance
+obtained by random forests. The variables include many proper nouns and content
+words such as “島” (Shima; Island) which simply represent contextual
+difference in the narrative. Table 5 also includes stylistic characteristics such
+as pronouns that represent the differences between the perspectives of Ito and
+others.
+
+</p>
+        <p>Table 6. Top 20 important features
+          (GHP)</p><p> </p>
+        
+        <table>
+          <row>
+            <cell role="data">
+  　
+  </cell>
+            <cell role="data">
+  feature
+  </cell>
+            <cell role="data">
+  reading
+  </cell>
+            <cell role="data">
+  translation
+  </cell>
+            <cell role="data">
+  pos
+  </cell>
+            <cell role="data">
+  variable importance
+  </cell>
+          </row>
+          <row>
+            <cell role="data">
+  1
+  </cell>
+            <cell role="data">
+  鈴木
+  </cell>
+            <cell role="data">
+  Suzuki
+  </cell>
+            <cell role="data">
+  Suzuki
+  </cell>
+            <cell role="data">
+  noun (proper)
+  </cell>
+            <cell role="data">
+  0.00947
+  </cell>
+          </row>
+          <row>
+            <cell role="data">
+  2
+  </cell>
+            <cell role="data">
+  妻
+  </cell>
+            <cell role="data">
+  Tsuma
+  </cell>
+            <cell role="data">
+  wife
+  </cell>
+            <cell role="data">
+  noun
+  </cell>
+            <cell role="data">
+  0.00938
+  </cell>
+          </row>
+          <row>
+            <cell role="data">
+  3
+  </cell>
+            <cell role="data">
+  比
+  </cell>
+            <cell role="data">
+  Hi
+  </cell>
+            <cell role="data">
+  -
+  </cell>
+            <cell role="data">
+  noun (proper)
+  </cell>
+            <cell role="data">
+  0.00812
+  </cell>
+          </row>
+          <row>
+            <cell role="data">
+  4
+  </cell>
+            <cell role="data">
+  亡き
+  </cell>
+            <cell role="data">
+  Naki
+  </cell>
+            <cell role="data">
+  dead
+  </cell>
+            <cell role="data">
+  adnominal
+  </cell>
+            <cell role="data">
+  0.00781
+  </cell>
+          </row>
+          <row>
+            <cell role="data">
+  5
+  </cell>
+            <cell role="data">
+  鯨
+  </cell>
+            <cell role="data">
+  Kujira
+  </cell>
+            <cell role="data">
+  Kujira
+  </cell>
+            <cell role="data">
+  noun (proper)
+  </cell>
+            <cell role="data">
+  0.00764
+  </cell>
+          </row>
+          <row>
+            <cell role="data">
+  6
+  </cell>
+            <cell role="data">
+  亡霊
+  </cell>
+            <cell role="data">
+  Borei
+  </cell>
+            <cell role="data">
+  ghost
+  </cell>
+            <cell role="data">
+  noun
+  </cell>
+            <cell role="data">
+  0.00699
+  </cell>
+          </row>
+          <row>
+            <cell role="data">
+  7
+  </cell>
+            <cell role="data">
+  僕
+  </cell>
+            <cell role="data">
+  Boku
+  </cell>
+            <cell role="data">
+  I
+  </cell>
+            <cell role="data">
+  noun (pronoun)
+  </cell>
+            <cell role="data">
+  0.00664
+  </cell>
+          </row>
+          <row>
+            <cell role="data">
+  8
+  </cell>
+            <cell role="data">
+  子
+  </cell>
+            <cell role="data">
+  Ko
+  </cell>
+            <cell role="data">
+  Ko
+  </cell>
+            <cell role="data">
+  noun (proper)
+  </cell>
+            <cell role="data">
+  0.00560
+  </cell>
+          </row>
+          <row>
+            <cell role="data">
+  9
+  </cell>
+            <cell role="data">
+  槿
+  </cell>
+            <cell role="data">
+  Asagao
+  </cell>
+            <cell role="data">
+  Asagao
+  </cell>
+            <cell role="data">
+  noun (proper)
+  </cell>
+            <cell role="data">
+  0.00524
+  </cell>
+          </row>
+          <row>
+            <cell role="data">
+  10
+  </cell>
+            <cell role="data">
+  西
+  </cell>
+            <cell role="data">
+  Nishi
+  </cell>
+            <cell role="data">
+   
+  </cell>
+            <cell role="data">
+  noun (proper)
+  </cell>
+            <cell role="data">
+  0.00477
+  </cell>
+          </row>
+          <row>
+            <cell role="data">
+  11
+  </cell>
+            <cell role="data">
+  岩
+  </cell>
+            <cell role="data">
+  Iwa
+  </cell>
+            <cell role="data">
+  -
+  </cell>
+            <cell role="data">
+  noun (proper)
+  </cell>
+            <cell role="data">
+  0.00475
+  </cell>
+          </row>
+          <row>
+            <cell role="data">
+  12
+  </cell>
+            <cell role="data">
+  与
+  </cell>
+            <cell role="data">
+  Yo
+  </cell>
+            <cell role="data">
+   
+  </cell>
+            <cell role="data">
+  noun (proper)
+  </cell>
+            <cell role="data">
+  0.00452
+  </cell>
+          </row>
+          <row>
+            <cell role="data">
+  13
+  </cell>
+            <cell role="data">
+  彼女
+  </cell>
+            <cell role="data">
+  Kanojo
+  </cell>
+            <cell role="data">
+  she
+  </cell>
+            <cell role="data">
+  noun (pronoun)
+  </cell>
+            <cell role="data">
+  0.00393
+  </cell>
+          </row>
+          <row>
+            <cell role="data">
+  14
+  </cell>
+            <cell role="data">
+  ねえ
+  </cell>
+            <cell role="data">
+  nee
+  </cell>
+            <cell role="data">
+  -
+  </cell>
+            <cell role="data">
+  noun
+  </cell>
+            <cell role="data">
+  0.00367
+  </cell>
+          </row>
+          <row>
+            <cell role="data">
+  15
+  </cell>
+            <cell role="data">
+  おまえ
+  </cell>
+            <cell role="data">
+  Omae
+  </cell>
+            <cell role="data">
+  you
+  </cell>
+            <cell role="data">
+  noun (pronoun)
+  </cell>
+            <cell role="data">
+  0.00354
+  </cell>
+          </row>
+          <row>
+            <cell role="data">
+  16
+  </cell>
+            <cell role="data">
+  長男
+  </cell>
+            <cell role="data">
+  Chonan
+  </cell>
+            <cell role="data">
+  eldest son
+  </cell>
+            <cell role="data">
+  noun
+  </cell>
+            <cell role="data">
+  0.00322
+  </cell>
+          </row>
+          <row>
+            <cell role="data">
+  17
+  </cell>
+            <cell role="data">
+  君
+  </cell>
+            <cell role="data">
+  Kimi
+  </cell>
+            <cell role="data">
+  you
+  </cell>
+            <cell role="data">
+  noun (pronoun)
+  </cell>
+            <cell role="data">
+  0.00297
+  </cell>
+          </row>
+          <row>
+            <cell role="data">
+  18
+  </cell>
+            <cell role="data">
+  つう
+  </cell>
+            <cell role="data">
+  Tsuu
+  </cell>
+            <cell role="data">
+  -
+  </cell>
+            <cell role="data">
+  auxiliary verb
+  </cell>
+            <cell role="data">
+  0.00268
+  </cell>
+          </row>
+          <row>
+            <cell role="data">
+  19
+  </cell>
+            <cell role="data">
+  なかっ
+  </cell>
+            <cell role="data">
+  nakatt
+  </cell>
+            <cell role="data">
+  -
+  </cell>
+            <cell role="data">
+  auxiliary verb
+  </cell>
+            <cell role="data">
+  0.00254
+  </cell>
+          </row>
+          <row>
+            <cell role="data">
+  20
+  </cell>
+            <cell role="data">
+  だろ
+  </cell>
+            <cell role="data">
+  daro
+  </cell>
+            <cell role="data">
+  -
+  </cell>
+            <cell role="data">
+  auxiliary verb
+  </cell>
+            <cell role="data">
+  0.00224
+  </cell>
+          </row>
+        </table>
+        <p>
+
+
+
+Table 6 shows the top 20 variables that
+contributed to the classification of GHP with translations in English, indicates
+part of speech and presents the variable importance obtained by random forests.
+Table 6 includes many [part of] proper nouns, indicating that they are the most
+important characteristics for discriminating the perspectives of the three main
+characters. In addition, Table 6 includes “つう” (Tsuu) and “ねえ” (Nee), which are style markers specific to several characters (e.g., Kujira)
+This indicates that these special style markers are also important characteristics
+for discriminating the perspectives among the three main characters.</p>
+        <head>4.
+Conclusion</head>
+        <p>This study
+analyzed the textual difference among perspectives in two contemporary Japanese
+novels. The results indicate that (a) respective perspectives have their
+specific textual characteristics, (b1) textual characteristics such as proper
+nouns that represent respective scenes are important for discriminating perspectives,
+and (b2) stylistic characteristics such as pronouns and nouns that represent
+styles of speech are also important. We conclude that computational stylistic
+methods can differentiate among perspectives in contemporary novels.</p>
+        <p> This study is a preliminary analysis of the
+study of perspectives using computational stylistic methods and is also part of
+an ongoing study of Kotaro Isaka’s work. In future, we would like to further investigate
+the effectiveness of computational methods for perspective issues and continue
+to analyze other work by Kotaro Isaka.</p>
+        <head>Acknowledgements</head>
+        <p>This study was supported by Grant-in-Aid
+for Scientific Research 23700288 for Young Scientists (B), from the Ministry of
+Education, Culture, Sports, Science and Technology, Japan. An earlier version
+of this study was presented at the 19th Annual Meeting of Japanese Natural
+Language Processing (NLP2008) at Nagoya University. This research includes
+revised and expanded content based on the gradation thesis presented by Natsumi
+Yamashita to the Faculty of Sociology, Toyo University.</p>
+        
+      
+        
+      </div>
+    </body>
+    <back>
+      <div type="References">
+        <listBibl>
+          <bibl><hi rend="bold">Breiman L. </hi>(2001) <hi rend="italic">Random
+            forests, Machine Learning</hi>, Vol.45,
+            pp.5-23.</bibl>
+          <bibl><hi rend="bold">Isaka, K. </hi>(2003)<hi rend="italic"> Odyubon
+            no Inori,</hi>Sincho Bunko, Tokyo.</bibl>
+          <bibl><hi rend="bold">Isaka, K. </hi>(2007)
+            <hi rend="italic">Gurasuhoppa</hi>, Kadokawa Bunko, Tokyo.</bibl>
+          <bibl><hi rend="bold">Ishimaru, A.</hi> (1985)
+            <hi rend="italic">Bunsyo ni okeru shiten</hi>, Nihongogaku, 4(12), 22-31.</bibl>
+          <bibl><hi rend="bold">Jin, M. and M. Murakami</hi>
+            (2007) <hi rend="italic">Authorship identification using random forests</hi>, Proceedings of the Institute of Statistical Mathematics, 55(2),
+            255-268.</bibl>
+          <bibl><hi rend="bold">Kudo, A., Murai, H. and
+            A. Tokosumi </hi>(2012) <hi rend="italic">Kyotsu go no fuchi to henka ni motoduku heiko keisiki
+              syosetsu no monogatari kouzo</hi>, Journal of
+            Japan Society of Information and Knowledge, 22(3) 187-202. </bibl>
+          <bibl><hi rend="bold">Suzuki, T.</hi> (2009)
+            <hi rend="italic">Extracting speaker-specific functional expressions from political speeches
+              using random forests in order to investigate speakers' political styles</hi>, Journal of the American Society for
+            Information Science and Technology, 60(8), 1596-1606.</bibl>
+          <bibl><hi rend="bold">Yamashita, N. and T. Suzuki </hi>(2013) <hi rend="italic">Keiryo tekisuto bunseki wo mochiita
+            syosetsu no shiten kenkyu: Isaka Kotaro wo rei to shite</hi>, Proceedings of 19th Annual Meeting of the Association of Natural
+            Language Processing (NLP2013), P1-3
+            (www.anlp.jp/proceedings/annual_meeting/2013).</bibl>
+          <bibl>mecab.sourceforge.net</bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

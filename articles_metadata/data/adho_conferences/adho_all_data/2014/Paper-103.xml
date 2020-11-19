@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:x="http://www.w3.org/1999/xhtml" xmlns:exsl="http://exslt.org/common" xml:id="Paper-103">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>The Landscapes of Casta Paintings: Depictions of Social Anxieties in XVIII Century New Spanish Art</title>
+        <author>
+          <name>
+            <surname>Caldas</surname>, <forename>Natalia </forename>
+          </name>
+          <affiliation>CulturePlex Lab, UWO</affiliation>
+          <email>ncaldas@uwo.ca</email>
+        </author>
+        <author>
+          <name>
+            <surname>Ortega</surname>, <forename>Élika</forename>
+          </name>
+          <affiliation>CulturePlex Lab, UWO</affiliation>
+          <email>eortegag@uwo.ca</email>
+        </author>
+        <author>
+          <name>
+            <surname>Jiménez Mavillard</surname>, <forename>Antonio </forename>
+          </name>
+          <affiliation>CulturePlex Lab, UWO</affiliation>
+          <email>ajimene6@uwo.ca</email>
+        </author>
+        <author>
+          <name>
+            <surname>Brown</surname>, <forename>David</forename>
+          </name>
+          <affiliation>CulturePlex Lab, UWO</affiliation>
+          <email>dbrow52@uwo.ca</email>
+        </author>
+        <author>
+          <name>
+            <surname>Suárez</surname>, <forename>Juan Luis</forename>
+          </name>
+          <affiliation>CulturePlex Lab, UWO</affiliation>
+          <email>jsuarez@uwo.ca</email>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority/>
+        <publisher>EPFL, Switzerland</publisher>
+        <distributor>
+          <name>EPFL Digital Humanities Laboratory</name>
+          <address>
+            <addrLine>GC D2 386</addrLine>
+            <addrLine>Station 18</addrLine>
+            <addrLine>CH-1015 Lausanne</addrLine>
+            <addrLine>frederic.kaplan@epfl.ch</addrLine>
+          </address>
+        </distributor>
+        <pubPlace>Lausanne, Switzerland</pubPlace>
+        <address>
+          <addrLine>EPFL</addrLine>
+          <addrLine>CH-1015 Lausanne</addrLine>
+        </address>
+        <availability>
+          <p/>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note type="abstract">Casta paintings, an eighteenth century genre of non-religious New Spanish art, depicts interracial unions and their offspring involved in various everyday activities. In this study, we have built a database with a corpus of over two hundred paintings and described the characters depicted in them by caste, gender, and activity. We provide an analysis to challenge the artificial division of castes presented in these paintings by providing insights into the underlying aspects of mestizaje such labor division. Our study identifies the paradox between the intent of the paintings to reaffirm the Spanish prominence in the Americas and the implicit anticipation of the demise of Spanish colonial rule.</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>No source: created in electronic format.</p>
+        <p>
+          <date when="20140711"/>
+          <time when="09:00:00"/>
+        </p>
+		<p n="session">6</p>
+		<p n="room">412 - Amphimax</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="original" n="category">
+          <term>Paper</term>
+        </keywords>
+        <keywords scheme="original" n="subcategory">
+          <term>Long Paper</term>
+        </keywords>
+        <keywords scheme="original" n="keywords">
+          <term>Casta painting</term>
+          <term>XVIII century art</term>
+          <term>Mestizo</term>
+          <term>Mulato</term>
+          <term>Indio</term>
+          <term></term>
+        </keywords>
+        <keywords scheme="original" n="topic">
+          <term>Art History</term>
+          <term>Content Analysis</term>
+          <term></term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text type="paper">
+    <front>
+      
+      <div>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+      </div>
+    </front>
+    <body>
+      <div>
+        <head>1. Introduction</head>
+        
+        <p>Casta painting was
+one of the most popular non-religious artistic genres in New Spain (present day
+Mexico) during the XVIII century. They come in series of up to sixteen scenes,
+each one showing an interracial couple and their offspring usually carrying out
+daily activities in everyday settings. In these paintings, artists depicted the
+three main ethnic groups making up Mexico’s colonial population: <hi rend="italic">Españoles</hi>,
+<hi rend="italic">Indios</hi>, and <hi rend="italic">Negros</hi>, and the process of <hi rend="italic">mestizaje</hi>. Produced mostly in Mexico
+City and Puebla, Casta paintings reached a peak in production between 1770 and
+1780, disappearing at the beginning of the 19th century as the War of
+Independence began and a generalized rejection of colonial structures took
+hold. In New Spanish society <hi rend="italic">casta</hi> referred to race, both in biological and
+social terms <ref target="n1" rend="sup">1</ref>. This notion was the basis of a caste system that pervaded New
+Spanish life at the time; a form of colonial control informing the kind of jobs
+people could do, where they could live, the civil liberties they had, and
+whether they paid taxes. According to Edward Long, the caste
+system had three general purposes: “first, to guarantee that each race occupy a
+social niche assigned by nature; second, to offer the possibility of improving
+one’s blood through the right pattern of mixing; third, to inhibit the mixture
+of Indians and Blacks, which was deemed the more dangerous to the Spanish
+social order” <ref target="n2" rend="sup">2</ref>. Blood mending–a process that was believed to make the
+offspring of interracial couples return to a pure European
+bloodline–was in the Spanish elite’s eyes a way to assert their prominence. A
+control mechanism serving colonial concerns, blood mending was commonly staged
+in Casta paintings and, along with hierarchical and structured serialization, appears
+to suggest an ordered and stable social system <ref target="n3" rend="sup">3</ref>.</p>
+        <p>Critics have
+suggested that Casta paintings served as souvenirs–postcards–of the new world
+and, thus, showed a functioning and harmonious society <ref target="n4" rend="sup">4</ref>. As a matter of
+fact, Magali Carrera has stated that “as visualizations of race, Casta paintings
+stabilize the ambiguity and complexity of physical race by locating the
+meanings of race in the confluence, interactions, and mediations between and
+among physical, social, and economic spaces” <ref target="n5" rend="sup">5</ref>. Because of the composition
+and titles of Casta paintings, much literature has focused on their function as
+documents cataloguing the existence of the main races and the many resulting
+combinations –upwards of fifty according to Nicolás León <ref target="n6" rend="sup">6</ref>. We take the
+painting’s titles as metadata rooted in the hegemonic perception of the groups depicted
+and explore their inconsistencies; for example, how in the<hi rend="italic">casta</hi> system ‘casta’ simultaneously
+refers to both a specific mix like ‘<hi rend="italic">Barcino</hi>’ or ‘<hi rend="italic">Coyote</hi>’ and to the whole set
+of possible <hi rend="italic">mestizaje</hi> instances. For Margarita de Orellana, the proliferation
+of terms and the representation of many <hi rend="italic">castas</hi>
+showed the discontinuity of the <hi rend="italic">mestizaje</hi> phenomenon. Furthermore, by dividing
+and fragmenting it, the complexity of <hi rend="italic">mestizaje</hi> was over simplified <ref target="n7" rend="sup">7</ref>. The
+fact that many of Casta paintings were commissioned by and for Spanish patrons,
+and even meant to be sent to Europe <ref target="n8" rend="sup">8</ref>, explains the intent to reduce the
+complexity of <hi rend="italic">mestizaje</hi> and to show the stability of life in the Americas.
+Moreover, the notion of blood mending in the caste system, observable in the
+paintings, sought to put an end to “the widely held notion in Europe that
+everybody in the Americas was hopelessly mixed” <ref target="n9" rend="sup">9</ref>. We argue that by
+artificially emphasizing the division of <hi rend="italic">castas</hi>, these paintings sought to reassure the Spanish who feared
+their demise in New Spanish society, but ultimately failed to do so.</p>
+        
+        <head>2. Overview and Methodology</head>
+        
+        <p>In this study we
+challenge the hierarchical catalogue view embedded in Casta paintings. Instead
+of looking at <hi rend="italic">castas</hi> in their rigid
+classifications, we have examined them as a group making up the larger and more
+complex figure of the <hi rend="italic">mestizo</hi>. In that sense, we take <hi rend="italic">casta</hi> as a group category referring to all <hi rend="italic">mestizos</hi> resulting out
+of <hi rend="italic">Español</hi>, <hi rend="italic">Indio</hi>, and <hi rend="italic">Negro</hi>. We base this assertion following Octavio Paz for whom,
+“among all the groups making up New Spain’s populations, <hi rend="italic">mestizos</hi> were the only
+ones embodying that society, its true children… Furthermore, they were those
+who made it not only new, but another” (our translation) <ref target="n10" rend="sup">10</ref>. In addition,
+instead of looking at particular series we have built a database with
+descriptions of over two hundred paintings. Painting description included
+extracting a total of 618 characters and marking them by <hi rend="italic">casta</hi> (as assigned to them in the paintings’ title), gender, as
+“parent” or “child”, and the activity they are doing. Casta painting critics
+have often pointed out that far from being a harmonious reflection of the caste
+system, they highlight the tensions and complexities underlying it. We build
+upon this through an extensive data approach and analysis. We believe this global
+approach has the capacity to show how, far from pacifying Spanish fears and
+concerns, Casta paintings confirm them and suggest prevalent <hi rend="italic">mestizaje</hi> and the
+loss of Spanish prominence.</p>
+        
+        <head>3. Results</head>
+        
+        <p>Data analysis has
+shown that the majority of the characters depicted in Casta paintings are
+either <hi rend="italic">Españoles</hi> or <hi rend="italic">Indios</hi>, followed by <hi rend="italic">Mulatos</hi> and <hi rend="italic">Mestizos</hi> (Fig. 1). Most
+interesting is a composite view of <hi rend="italic">casta</hi>
+and gender in which <hi rend="italic">Español</hi> males are the most represented group throughout and
+are present in almost half of the paintings we have described. The second
+largest group is <hi rend="italic">Indio</hi> females, present in over seventy paintings (Fig. 2). The
+recurrence of <hi rend="italic">Español</hi> male and <hi rend="italic">Indio</hi> females signals the basis of racial mixing
+resulting in the particular figure of the <hi rend="italic">Mestizo</hi>, which can be extrapolated as
+the general view of <hi rend="italic">casta</hi> as any of the mixes.</p>
+        <figure>
+          <graphic url="DH2014_91_casta_frequency"/>
+          <p>Fig. 1: Overall casta frequency.</p>
+        </figure>
+        <figure>
+          <graphic url="DH2014_91_casta_frequency_by_gender"/>
+          <p>Fig. 2: Casta frequency by gender.</p>
+        </figure>
+        <p>A look at the
+offspring sheds much light into the issues of blood mending and Spanish
+prominence. When we look at the offspring as separate <hi rend="italic">castas</hi>, it is indeed the <hi rend="italic">Español</hi> children who are most recurrent.
+The division of <hi rend="italic">castas</hi>, thus,
+fulfills the objective of showing Spanish prominence among the interracial
+diversity. Furthermore, as there are no couples composed of both <hi rend="italic">Español</hi> father
+and mother, the presence of <hi rend="italic">Español</hi> offspring highlights the possibility of
+blood mending through the right combinations (Fig. 3). In contrast, when we
+look at offspring after <hi rend="italic">casta</hi>
+grouping, the outlook is quite different. In Fig. 4, we show the proportion of
+two non-mixed offspring (<hi rend="italic">Español</hi> and <hi rend="italic">Indio</hi> as there are no <hi rend="italic">Negro</hi> offspring in
+the corpus) and the two biggest <hi rend="italic">casta</hi>
+groups (<hi rend="italic">Mestizo</hi> and <hi rend="italic">Mulato</hi>). This grouping highlights how, even though the <hi rend="italic">Españoles</hi> are the larger minority, their prominence quickly dwindles in
+comparison to <hi rend="italic">casta</hi> children. Fig. 5
+reinforces the sweeping presence of mixed-race offspring in comparison to the
+<hi rend="italic">Español</hi>. Our data on the offspring depicted suggest not only that blood mending
+and a return to whiteness are rather marginal, it also highlights that further
+mixing is the standard depicted in Casta paintings.</p>
+        
+        <figure>
+          <graphic url="DH2014_91_child_casta_frequency"/>
+          <p>Fig. 3: Overall offspring casta frequency.</p>
+        </figure>
+        
+        <figure>
+          <graphic url="DH2014_91_castas_pie_including_mestizo_etc"/>
+          <p>Fig. 4: Main castas and casta grouping.</p>
+        </figure>
+        
+        <figure>
+          <graphic url="DH2014_91_castas_pie_only_main_castas"/>
+          <p>Fig. 5: Español, Indio, Negro and Castas outloook.</p>
+        </figure>
+        <p>Additionally, we
+have identified forty activities being depicted in Casta paintings, and
+explored the three most recurrent ones in detail: carrying and holding children
+(Fig. 6), portrait posing (Fig. 7), and working (Figs. 8 and 9). We have looked
+at these activities with regards to <hi rend="italic">casta</hi>
+frequency. In terms of carrying and holding a child, females are seen to be the
+ones who carry out this activity the most; however, it is actually <hi rend="italic">Indio</hi> women
+who have the highest frequency. For the males, it is seen that <hi rend="italic">Español </hi>take
+charge and hold children over <hi rend="italic">Español </hi>women, and over every other male. <hi rend="italic">Español
+</hi>males are most frequently depicted as portrait posing, which sets them apart
+from the other characters in the corpus for their lack of association with
+different types of labour. In contrast, when we look at work activities, such
+as sewing, selling, shoe mending, and making pulque, it is <hi rend="italic">Indios</hi> and <hi rend="italic">Negros</hi>
+who have the highest frequency of working depictions. In ratio terms, almost
+40% of <hi rend="italic">Indios</hi> and almost 50% of <hi rend="italic">Negros </hi>are shown carrying out a work activity.
+These results indicate that the <hi rend="italic">Español </hi>characters were represented as
+prosperous figures, though largely passive, especially when compared to <hi rend="italic">Indios</hi>,
+<hi rend="italic">Negros</hi>, <hi rend="italic">Mestizos</hi>, and <hi rend="italic">Mulatos</hi> who are shown being in charge of most of the basic economic activities.</p>
+        <figure>
+          <graphic url="DH2014_91_holding_child_frequency"/>
+          <p>Fig. 6: Holding and carrying children by casta and gender frequency. </p>
+        </figure>
+        <figure>
+          <graphic url="DH2014_91_posing_frequency"/>
+          <p>Fig. 7: Posing by casta frequency.</p>
+        </figure>
+        
+        <figure>
+          <graphic url="DH2014_91_working_by_casta"/>
+          <p>Fig. 8: Working by casta frequency.</p>
+        </figure>
+        <figure>
+          <graphic url="DH2014_91_main_castas_working_by_percent"/>
+          <p>Fig. 9: Percentage by casta of working individuals.</p>
+        </figure>
+        
+        <head>4. Conclusions</head>
+        
+        <p>By taking a
+general <hi rend="italic">casta</hi>approach, this study
+argues that the notions of blood mending and Spanish prominence that informed
+and even produced Casta painting are fragile. These two principles of the caste
+system in place in New Spain at the time are consistent only as long as <hi rend="italic">castas</hi> are seen individually.
+Conversely, when viewed as a group, <hi rend="italic">castas</hi>
+not only outnumber the <hi rend="italic">Español</hi>, <hi rend="italic">Indio </hi>and <hi rend="italic">Negro</hi> characters, they also signal
+that miscegenation was the standard. Furthermore, the contrast between the depiction
+of the <hi rend="italic">Españoles</hi>’ apparent prominence through non-laborious activities and the frequency of representations of <hi rend="italic">Indio</hi>, <hi rend="italic">Negro</hi>,
+<hi rend="italic">Mulato</hi>, and <hi rend="italic">Mestizo</hi> characters working, suggests an economic tension revealing
+a loss of Spanish relevance in the changing social landscape. Finally, Casta paintings not only fail at remedying the Spanish
+elite’s anxieties, but, rather, stage the inevitability of miscegenation and
+even anticipate the demise of Spanish colonial rule.</p>
+        
+      </div>
+    </body>
+    <back>
+      <div type="References">
+        <listBibl>
+          <bibl>1. <hi rend="bold">Carrera, Magali</hi>. <hi rend="italic">Locating Race in Late Colonial Mexico.</hi> Art Journal 57.3 (1998). Web. p. 38.
+          </bibl>
+          <bibl>2. <hi rend="bold">Katzew, Ilona</hi>. <hi rend="italic">Casta Painting: Images of Race in Eighteenth-century Mexico</hi>. New Haven: Yale University Press, 2004. Print. p. 49.
+          </bibl>
+          <bibl>3. <hi rend="bold">Guzauskyte, Evelina</hi>. <hi rend="italic">Fragmented Borders, Fallen Men, Bestial Women: Violence in the Casta Paintings of Eighteenth-century New Spain.</hi> Bulletin of Spanish Studies 86.2 (2009). Print. p. 176.
+          </bibl>
+          <bibl>4. <hi rend="bold">García Sáiz, María Concepción</hi>. <hi rend="italic">Las castas mexicanas: Un género de pictórico americano</hi>. Milan: Olivetti, 1989. Print. p. 42.
+          </bibl>
+          <bibl>5. <hi rend="bold">Carrera, Magali</hi>. <hi rend="italic">Locating Race in Late Colonial Mexico.</hi> Art Journal 57.3 (1998). Web. p. 45.
+          </bibl>
+          <bibl>6. <hi rend="bold">Léon, Nicolás.</hi> <hi rend="italic">Las castas.</hi> Artes de Mexico 8 (1998). Print. p. 79.
+          </bibl>
+          <bibl>7. <hi rend="bold">De Orellana, Margarita.</hi> <hi rend="italic">La Fiebre De La Imagen En La Pintura De Castas.</hi> Artes de Mexico 8 (1998). Print. p.58.
+          </bibl>
+          <bibl>8. <hi rend="bold">Katzew, Ilona.</hi> <hi rend="italic">Casta Painting: Identity and Social Stratification in Colonial Mexico.</hi> New world orders: cata painting and colonial Latin America. University of Texas Press (1996). Print. p.13.
+          </bibl>
+          <bibl>9. <hi rend="bold">Katzew, Ilona</hi>. <hi rend="italic">Casta Painting: Images of Race in Eighteenth-century Mexico</hi>. New Haven: Yale University Press, 2004. Print. p.49.
+          </bibl>
+          <bibl>10. <hi rend="bold">Paz, Octavio</hi>. <hi rend="italic">Sor Juana Inés de la Cruz, o, Las trampas de la fe</hi>. Barcelona: Seix Barral, 1982. Print. p.42.
+          </bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

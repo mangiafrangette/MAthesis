@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="../schema/xmod_web.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xmt="http://www.cch.kcl.ac.uk/xmod/tei/1.0" 
+     xml:id="ab-321">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Swallow Flies Swiftly Through: An Analysis of Humanist</title>
+                <author>
+                    <name>Rockwell, Geoffrey</name>
+                    <affiliation>Department of Philosophy and Humanities Computing, University of Alberta, Canada</affiliation>
+                    <email>geoffrey.rockwell@ualberta.ca</email>
+                </author>
+                <author>
+                    <name>Sinclair, Stéfan</name>
+                    <affiliation>Department of Languages, Literatures &amp; Cultures, McGill University, Canada</affiliation>
+                    <email>stefan.sinclair@mcgill.ca</email>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Jan Christoph Meister, Universität Hamburg</publisher>
+                <address>
+                   <addrLine>Von-Melle-Park 6, 20146 Hamburg, Tel. +4940 428 38 2972</addrLine>
+                   <addrLine>www.dh2012.uni-hamburg.de</addrLine>
+              </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>No source: created in electronic format.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2012-04-15</date>
+                <name>DH</name>
+                <desc>generate TEI-template with data from ConfTool-Export</desc>
+            </change>
+            <change>
+                <date>2012-04-13</date>
+                <name>LS</name>
+                <desc>provide metadata for publicationStmt</desc>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="paper">
+        <body>
+            
+            
+                
+            <p><hi rend="italic">We’re 14 years old now, a venerable age in this medium, like
+                    everything else somewhere between coming into being and going out of it, ‘like
+                    the swift flight of a single sparrow through the banqueting-hall where you are
+                    sitting at dinner on a winter’s day with your thegns and counsellors. In the
+                    midst there is a comforting fire to warm the hall; outside, the storms of winter
+                    rain or snow are raging. This sparrow flies swiftly in through one door of the
+                    hall and out through another. While he is inside, he is safe from the winter
+                    storms; but after a few moments of comfort, he vanishes from sight into the
+                    wintry world from which he came.</hi>’<note>Humanist Discussion Group 15(1), see
+                        <ref
+                        target="www.digitalhumanities.org/humanist/Archives/Virginia/v15/0000.html"
+                        type="external"
+                        >www.digitalhumanities.org/humanist/Archives/Virginia/v15/0000.html</ref>.</note></p>
+            <p>HUMANIST has
+                    been one of the few stable discussion spaces where people in the digital
+                    humanities can discuss the field. The metaphor of the swallow flying though the
+                    banqueting-hall captures what we would like our commons to be, warm and
+                    comfortable compared to the winter outside, and a feast of methods, ideas, and
+                    conversation. This paper will fly though the hall of HUMANIST on the wings of
+                    analytical methods. Specifically this paper will take a retrospective look at
+                    the evolution of the digital humanities through an analysis of HUMANIST using
+                    Voyant, a suite of web text tools we have developed for handling large corpora
+                    like this. In the paper we will therefore, </p>
+            
+            <xmt:uList>
+                 <item>Ask why we might look at our history now?
+                 </item>
+                    
+                <item>Discuss the data analyzed and the methods used
+                </item>
+                
+                <item>Discuss the shift from humanities computing to the digital
+                            humanities
+                </item>
+            
+                <item>Look at the effect of the web on the field
+                </item>
+                
+            </xmt:uList>
+            
+            
+            
+            <div>
+                <head>Why look back now?</head>
+                <p>In the space of a very few years the digital humanities seems to have gone from a
+                    marginal field trying to gain respect to a favorite of many university
+                    administrators. Digital humanists now need to define (and justify) what the
+                    digital humanities is to people who <hi rend="italic">ask us</hi> – instead of
+                    trying to explain it to anyone willing to listen. It is difficult to pin down
+                    exactly when this transition happened, but one important moment was when William
+                    Pannapacker wrote in the Chronicle that ‘Amid all the doom and gloom of the 2009
+                    MLA Convention, one field seems to be alive and well: the digital humanities.’
+                    He continued with ‘the digital humanities seem like the first “next big thing”
+                    in a long time’.<note>Pannapacker, W. (2009). The MLA and the Digital Humanities. Brainstorm: The Chronicle Review’s blog, Dec. 28, 2009 <ref target="chronicle.com/blogPost/The-MLAthe-Digital/19468" type="external">chronicle.com/blogPost/The-MLAthe-Digital/19468/</ref>.</note> As John Unsworth noted in his ‘State of the Digital Humanties,
+                    2010’ address to the Digital Humanities Summer Institute (DHSI), when a field is
+                    perceived to have jobs (while other humanities fields are seeing a dramatic
+                    decline) ‘it’s bound to attract some notice, especially among bright,
+                    goal-oriented graduate students who are approaching the job market.’<note>Unsworth, J. (2010). The State of Digital Humanities, 2010. Address to the Digital Humanities Summer Institute, University of Victoria, Victoria, June 2010. The PDF is available at <ref target="www3.isrl.illinois.edu/~unsworth/state.of.dh.DHSI.pdf" type="external">www3.isrl.illinois.edu/~unsworth/state.of.dh.DHSI.pdf</ref>.</note> As
+                    universities try to get into the game by posting not jobs but clusters of jobs,
+                    and graduate students try to adapt to those jobs, issues of definition and
+                    self-definition became important.</p>
+                
+                <p>Alternatively this self-conscious turn could be due to funding agencies noticing
+                    and creating programs for the digital humanities like the <hi rend="italic"
+                        >Image, Text, Sound and Technology</hi> program of SSHRC that first made
+                    awards in 2003-4 and the Office of Digital Humanities programs of the US
+                    National Endowment for the Humanities. We shouldn’t underestimate the degree to
+                    which funding programs can get attention. </p>
+                <p>The self-conscious turn can also be seen in papers looking at the field and
+                    asking about it. Some examples include a paper by Wang and Inaba presented in
+                    Taipei and then published under the title, ‘Analyzing Structures and Evolution
+                    of Digital Humanities Based on Correspondence Analysis and Co-word Analysis.’<note>Wang, X., and M. Inaba (2009). Analyzing Structures and Evolution of Digital Humanities Based on Correspondence Analysis and Co-word Analysis. Art Research, No. 9, Mar. 2009, pp. 123-134.</note>
+                    Another is by Patrik Svensson titled ‘The Landscape of Digital Humanities.’<note>Svensson, P. (2010). The Landscape of Digital Humanities. Digital Humanities Quarterly 4(1). This is actually the first of a multi-part essay.</note>
+                    Both essays provide a ‘birds-eye’ view of the field, though in very different
+                    ways. Wang and Inaba use text analysis and text mining techniques to ask about
+                    the shift from ‘humanities computing’ to ‘digital humanities’; Svensson takes a
+                    cultural studies approach looking at the actors and discourse.</p>
+                </div>
+            
+            <div>
+                <head>Data and Methods</head>
+                
+                <p>Like Wang and Inaba our method is to use DH methods like correspondence analysis,
+                    but we analyzed a different, messier and fuller text, the archives of the
+                    HUMANIST listserv. HUMANIST is a discussion list that was started by Willard
+                    McCarty when he was at the Centre for Computing in the Humanities at the
+                    University of Toronto in 1987. The first message introducing the list started
+                    with, ‘HUMANIST is a Bitnet/NetNorth electronic mail network for people who
+                    support computing in the humanities.’<note>This is the opening line of the ‘Welcome to HUMANIST’ message, 14 May 1987. See <ref target="www.digitalhumanities.org/humanist/Archives/Virginia/v01/8705.1324.txt" type="external">www.digitalhumanities.org/humanist/Archives/Virginia/v01/8705.1324.txt</ref></note> The list is still running, and, except
+                    for an interlude of a few years, is still moderated by Willard. HUMANIST has
+                    limitations that will be discussed in the full paper, but it provides a rich
+                    text for understanding the field in the English-speaking world.</p>
+                <p>Voyant, formerly called Voyeur, is a suite of text analysis tools that can be
+                    used individually or combined into ‘skins’ on texts that you upload or link to.<note>See <ref target="voyant-tools.org" type="external">voyant-tools.org</ref> or <ref target="voyeurtools.org" type="externa">voyeurtools.org</ref></note>
+                    Voyant is a second generation of web analytical tools that benefited from
+                    lessons learned by HyperPo and TAPoR. Our first generation of tools could only
+                    handle smaller texts (up to about 500K or the equivalent of a book or two) and
+                    therefore weren’t suitable for the study of large corpora. These tools were also
+                    developed as close (re)reading tools in a context of literary study of a single
+                    text or small corpus. In this project we adapted Voyant to handle the sort of
+                    corpus that allows us to do diachronic analysis and distant reading; we added
+                    mining tools that facilitate the formation and validation of hypotheses.</p>
+                <p>Part of our methodological practice is to develop a series of hypotheses about
+                    the last 25 years of Humanist. These are then tested, adapting and adding
+                    features to Voyant as needed. The tool development is thus deeply integrated
+                    with the analytical process. We will use the hypotheses and unexpected themes to
+                    discuss our flight through the corpus.</p>
+            </div>
+            
+            <div>
+                <head>From Humanities Computing to Digital Humanities</head>
+                <p>We started with the expectation that there had been a shift from ‘humanities
+                    computing’ to ‘digital humanities’ as discussed by Wang and Inaba. While we
+                    certainly found ‘digital humanities’ taking off in 2004-5, we were surprised
+                    that ‘humanities computing’ continues to be a popular phrase. What is harder to
+                    do is to pinpoint why the term started to be used. One of the limitations of a
+                    public list is that it is suitable for epidemiological studies that tell you
+                    what happened and what correlated with what happened, but it is harder to tell
+                    what motivated people to change how they named the field.</p>
+            
+                <p><figure><graphic url="img321-1.jpg" rend="left" height="256px" width="341px" mimeType="image/jpeg"/><head>Figure 1: Digital humanities and humanities computing</head></figure></p>
+            </div>
+            
+            <div>
+                <head>The Passing of Centers</head>
+                <p>A second hypothesis we started with was that the 1980s and 1990s had been a time
+                    of centers that made computing available in labs, but that the field had moved
+                    on to a more distributed project model. We did not find evidence for this. While
+                    the word project becomes more popular and it is true that some centres has
+                    closed, we found others had started up. Perhaps our particular experience with
+                    certain centers closing biased us into thinking this was a larger
+                    phenomenon.</p>
+            </div>
+            
+            <div>
+                <head>The Turn of the Web</head>
+                <p>The most dramatic evidence of change was so obvious that we didn’t think about it
+                    or hypothesize it until we developed a tool that could show clusters of years
+                    and keywords using correspondence analysis.</p>
+                
+                <p><figure><graphic url="img321-2.jpg" rend="left" height="256px" width="341px" mimeType="image/jpeg"/><head>Figure 2: Scatter plot from correspondence analysis</head></figure></p>
+                
+                <p>The scatterplot display of the major dimensions
+                    generated showed a strong pull of patterns like ‘web’, ‘www’, and ‘html.’ There
+                    seem to be three phases in the data studied:</p>
+                
+                <xmt:uList>
+                    <item>
+                        1987-95: a phase when humanities computing is interested in
+                            computers, software, hardware, texts, and English.
+                    </item>
+                    
+                    <item>
+                        1996-2000: a transitional period which may be an artifact of
+                            the corpus.
+                    </item>
+                    
+                    <item>
+                        2001-present: a shift to digital web services and collaborative
+                            projects.
+                    </item>
+                    
+                </xmt:uList>
+                
+                <p><figure><graphic url="img321-3.jpg" rend="left" height="256px" width="341px" mimeType="image/jpeg"/><head>Figure 3: Net, web and internet</head></figure></p>           
+
+                
+                <p>We believe the use of the web
+                    by humanists in the mid 1990s was a transformative for the field and may explain
+                    why less and less of our discussion was about hardware and software.</p>
+                
+                <p><figure><graphic url="img321-4.jpg" rend="left" height="256px" width="341px" mimeType="image/jpeg"/><head>Figure 4: Software, services and hardware</head></figure></p>
+                
+                <p>As computers became
+                    ubiquitous in the 1970s and 1980s, humanities computing was concerned with
+                    supporting the new hardware and software. HUMANIST itself was initially
+                    conceived as a discussion list for those who supported others. Many humanists in
+                    1986 were just beginning to use computers for word-processing and most didn’t
+                    have email. With the web as a canvas for digital projects we started to pay less
+                    attention to ‘processing’ and more to ‘methods.’ We began to make our own tools
+                    after the hard work of developing scholarly electronic texts. Above all we
+                    returned to ‘content’ going beyond text to look at other ‘media’ and the
+                    ‘social.’</p>
+                
+                <p><figure><graphic url="img321-5.jpg" rend="left" height="256px" width="341px" mimeType="image/jpeg"/><head>Figure 5: Social, media and content</head></figure></p>
+            </div>
+            <div>
+                <head>Conclusion</head>
+                <p>The new-found traction of the digital humanities in academia is an opportunity to
+                    reflect on how the discipline has evolved and what it has become. Our
+                    contribution here is twofold: 1) a reading of HUMANIST that can help understand
+                    who we are and 2) a presentation of text analysis in practice. Of course, this
+                    is just our fly-through the corpus; with accessible web archives and tools like
+                    Voyant, the hall is open.</p>
+                    
+                 </div>
+            
+        </body>
+       
+    </text>
+</TEI>

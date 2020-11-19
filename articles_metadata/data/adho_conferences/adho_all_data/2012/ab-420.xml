@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="../schema/xmod_web.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xmt="http://www.cch.kcl.ac.uk/xmod/tei/1.0" 
+     xml:id="ab-420">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Pelagios: An Information Superhighway for the Ancient World</title>
+                <author>
+                    <name>Barker, Elton</name>
+                    <affiliation>Open University, UK</affiliation>
+                    <email>e.t.e.barker@open.ac.uk</email>
+                </author>
+                <author>
+                    <name>Simon, Rainer</name>
+                    <affiliation>Austrian Institute of Technology, Austria</affiliation>
+                    <email>Rainer.Simon@ait.ac.at</email>
+                </author>
+                <author>
+                    <name>Isaksen, Leif</name>
+                    <affiliation>University of Southampton, UK</affiliation>
+                    <email>leifuss@googlemail.com</email>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Jan Christoph Meister, Universität Hamburg</publisher>
+                <address>
+                   <addrLine>Von-Melle-Park 6, 20146 Hamburg, Tel. +4940 428 38 2972</addrLine>
+                   <addrLine>www.dh2012.uni-hamburg.de</addrLine>
+              </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>No source: created in electronic format.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2012-04-15</date>
+                <name>DH</name>
+                <desc>generate TEI-template with data from ConfTool-Export</desc>
+            </change>
+            <change>
+                <date>2012-04-13</date>
+                <name>LS</name>
+                <desc>provide metadata for publicationStmt</desc>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="paper">
+        <body>
+            <p>On-line resources that reference ancient places are multiplying rapidly, bringing
+                huge potential for the researcher provided that they can be found; but users
+                currently have no way of easily navigating between them or comparing their contents.
+                Pelagios, a growing international cooperative of online ancient world projects,<note>Pelagios includes: Arachne, <ref target="http://www.arachne.uni-koeln.de"
+                        >http://www.arachne.uni-koeln.de</ref>; CLAROS, <ref
+                        target="http://explore.clarosnet.org" type="external"
+                        >http://explore.clarosnet.org</ref>; GAP, <ref
+                        target="http://googleancientplaces.wordpress.com" type="external"
+                        >http://googleancientplaces.wordpress.com</ref>; Nomisma, <ref
+                        target="http://nomisma.org" type="external">http://nomisma.org</ref>; Open
+                    Context, <ref target="http://opencontext.org" type="external"
+                        >http://opencontext.org</ref>; Perseus, <ref
+                        target="http://www.perseus.tufts.edu" type="external"
+                        >http://opencontext.org</ref>; Pleiades, <ref
+                        target="http://pleiades.stoa.org" type="external"
+                        >http://pleiades.stoa.org</ref>; Ptolemy Machine, <ref
+                        target="http://ptolemymachine.appspot.com" type="external"
+                        >http://ptolemymachine.appspot.com</ref>; SPQR, <ref
+                        target="http://spqr.cerch.kcl.ac.uk" type="external"
+                        >http://spqr.cerch.kcl.ac.uk</ref>; Ure museum, <ref
+                        target="http://www.reading.ac.uk/Ure" type="external"
+                        >http://www.reading.ac.uk/Ure</ref>.</note> addresses the problems of
+                discovery and reuse with the twin aims of helping digital humanists to make their
+                data more discoverable, and of empowering real-world users (scholars, students and
+                the general public) to find information about particular ancient places and
+                visualize it in meaningful ways. While the project focuses on the ancient world, the
+                methodology and tools developed will be of interest to anyone working with data
+                containing spatial references. The Pelagios family purposefully includes partners
+                maintaining a wide range of different document types including texts, maps and
+                databases. In doing so we take some of the first steps towards building a Geospatial
+                Semantic Web for the Humanities.<note>See Harris et al. (2010).</note></p>
+            <p>In this paper we discuss two of the major workflows underpinning Pelagios.
+                    First, we address the method by which the partners prepare their data so that it
+                    can be linked together in an open and transparent manner: i.e. what are the
+                    processes that you should undertake if you want to make your data Pelagios
+                    compliant? Second, we consider the various ways in which the results can be
+                    visualized, paying particular attention to the tools and technologies used and
+                    the problems encountered. We end with a brief description of our visualization
+                    services – both a Graph Explorer and various embeddable web widgets – which, we
+                    believe, demonstrate the value of taking a lightweight Linked Open Data approach
+                    to addressing problems of discoverability, interconnectivity and reusability of
+                    online resources. At the same time, however, we use this paper to discuss
+                    real-world practical concerns as well as engage in deeper speculation about the
+                    significance of this type of approach for escaping the ‘siloing’ mentality that
+                    inhibits many other data integration initiatives.</p>
+            
+            <div>
+            <head>Ontology</head>
+                <p>The first part of the paper will sketch out and reflect upon the architectural
+                    aspects of Pelagios, in particular the requirements necessary to maximize the
+                    exposure and interconnectivity of the data themselves. The structure of the data
+                    is targeted at helping the user groups of each partner accomplish two kinds of
+                    task:</p>
+                <p>A) Discovering the references to places within a single document
+                    (text, map, database);</p>
+                <p>B) Discovering all the documents (texts, maps, databases) that reference a
+                    specified place.</p>
+                <p>In order to achieve this we (i) use a common RDF model
+                    to express place references (the OAC model); and (ii) align all local place
+                    references to the Pleiades Ancient World Gazetteer. The OAC annotation ontology
+                    provides an extremely lightweight framework for associating global concepts
+                    (such as places) with specific documents (and fragments of them).<note>OAC is a powerful information model in its own right and has recently been used as the basis for the SharedCanvas annotation system. See Sanderson et al. (2011)</note> An OAC
+                    annotation is a set of RDF triples which identify a target document (by means of
+                    its URI) and the body of the annotation itself, in our case a URI identifying a
+                    specific place in Pleaides. An example is given below:</p>
+                <p>ex:ann1 rdf:Type      oac:Annotation</p>
+                <p>            dcterms:title “Example annotation”</p>
+                <p>            oac:hasTarget &lt;some resource&gt;</p>
+                <p>            oac:hasBody   &lt;http://pleiades.stoa.org/places/[PLEIADES
+                    ID]&gt;</p>
+                
+                <p>The decision to use the OAC model typifies our pragmatic lightweight
+                    approach, which has not been to reinvent the wheel but to reduce, reuse and
+                    recycle wherever possible. Using a publicly available, lightweight core ontology
+                    permits modular extensions for different kinds of document so that details
+                    specific to each type do not add unnecessary complexity for users wishing to
+                    publish data in conformance with the core ontology. We have also found that
+                    Pelagios partners are afforded a great deal of flexibility in implementation.
+                    For example, the RDF may be expressed in a number of different formats (RDF/XML,
+                    Turtle, RDFa, SPARQL, etc.) and the simplicity of the ontology allows partners
+                    to focus on the considerably more challenging task of aligning local place
+                    referencing systems with the global Pleiades gazetteer.</p>
+
+                <p>Pelagios has been documenting the various processes by which each partner has identified
+                    place references and aligned those references to Pleiades: one significant
+                    outcome of the project will be a ‘cookbook’ guide for those looking to adopt a
+                    lightweight Linked Open Data approach to related domains, which we outline here.
+                    The Pelagios process, however, has greater extensibility than provision for
+                    digital classicists. Although we are using URIs for places in the ancient world,
+                    the OAC ontology is equally applicable to other gazetteers (including those
+                    based on modern placenames, such as GeoNames) or even non-spatial entities such
+                    as periods or people.</p>
+            </div>
+            
+            <div>
+                <head>The Pelagios Explorer and Embeddable Widgets</head>
+                <p>The second part of the paper assesses the possibilities for data exploration once
+                    different projects have adopted the core model for representing place
+                    references. Here we discuss the technologies exploited in developing the
+                    Pelagios Explorer, a prototype Web application that makes discovery and
+                    visualization of the aggregated data simple, and various web widgets that can
+                    sit on partner websites to provide a window onto the Pelagios linked data world.
+                    By aggregating Pelagios partners’ place metadata in a Graph Database, the
+                    Explorer supports a number of common types of query using visually-oriented
+                    interaction metaphors (‘which places are referenced in these datasets?’, ‘what
+                    is the geographical footprint of these datasets?’, ‘which datasets reference a
+                    particular place’) and displays results using a graph-based representation.<note>Network visualizations are ideal for representing bipartite networks such as this. See, for example: Schich et al. (2009).</note> In
+                    addition, the Pelagios Explorer exposes all data available in the visualizations
+                    through an HTTP API to enable machine-access. For their part the widgets that we
+                    are currently developing provide more specific views on Pelagios data than the
+                    graph explorer allows (such as an overview of the data about a particular
+                    place). But equally we are exploring ways of making these widgets easy to
+                    configure to, customise for and embed in external Websites, thereby maximizing
+                    the potential reuse value of the data.</p>
+                <p>There are at least two different
+                    user groups whose interests and concerns we address. For the ‘super users’
+                    interested in contributing data, adhering to the two principles of the OAC model
+                    and Pleiades URIs is the essential step in order to prepare data for use in
+                    these various Pelagios visualizations. With these basic issues established, we
+                    go on to discuss more detailed control over how data can be represented in a
+                    generic interface, for instance using names and titles to label data, or
+                    structuring a dataset hierarchically into subsets, such as individual books,
+                    volumes, chapters, and pages. Toolset and methods are still at an early stage
+                    but some useful resources have already been made available for general use via
+                    our blog.<note><ref target="http://pelagios-project.blogspot.com/p/useful-resources.html" type="external">http://pelagios-project.blogspot.com/p/useful-resources.html</ref></note></p>
+                <p>Our second user group represents scholars, students and
+                    members of the public who may wish to discover the resources that reference an
+                    ancient place of interest. We consider how the Pelagios framework is beginning
+                    to bring together an enormous diversity of online data – such as books that
+                    reference places, and archaeological finds discovered there – which a user can
+                    search through, combine and visualize in various ways depending on their needs.<note>See screencasts at: <ref target="http://pelagios.dme.ait.ac.at/screencasts/exploring-datasets.html" type="external">http://pelagios.dme.ait.ac.at/screencasts/exploring-datasets.html</ref>, and <ref target="http://pelagios.dme.ait.ac.at/screencasts/exploring-places.html" type="external">http://pelagios.dme.ait.ac.at/screencasts/exploring-places.html</ref>.</note> In particular, we consider the challenges, both technological and intellectual,
+                    regarding the development, production and use of such tools or services that aim
+                    to provide a useful and intuitive resource for non technically-minded subject
+                    specialists.</p>
+                <p>We conclude with a brief reflection on the processes by
+                    which the Pelagios family has been developing. In particular we stress the
+                    digital services that have made the coordination of such an international
+                    initiative possible, and outline the challenges that remain to anyone wishing to
+                    add their data to the Pelagios multiverse.<note>A vision that coincides well with the discussion of the future of Classical scholarship by Elliott and Gillies (2009).</note></p>
+                
+                <p><hi rend="bold">Funding</hi></p>
+                <p>This work has been supported by JISC (the Joint Information Systems Committee) as part of
+                    the Geospatial and Community Outreach programme (15/10) and the Resource and
+                    Discovery programme (13/11).</p>
+                <p>Screenshots of the Pelagios Explorer:</p>
+                <p><figure><graphic url="img420-1.jpg" rend="left" height="256px" width="341px" mimeType="image/jpeg"/></figure></p>
+                <p><figure><graphic url="img420-2.jpg" rend="left" height="256px" width="341px" mimeType="image/jpeg"/></figure></p>
+            </div>
+            
+        </body>
+        <back>
+            <div>
+
+                    <head>References</head>
+
+            <p><hi rend="bold">Elliott, T., and S. Gillies</hi> (2009). Digital Geography and
+                    Classics. <hi rend="italic">DHQ: Digital Humanities Quarterly</hi> 3(1).</p>
+            <p><hi rend="bold">Harris, T. M., L. J. Rouse, and S. Bergeron</hi> (2010). The
+                Geospatial Semantic Web, Pareto GIS, and the Humanities. In D. J. Bodenhamer, J.
+                Corrigan, and T. M. Harris (eds.), <hi rend="italic">The Spatial Humanities: GIS and
+                    the Future of Scholarship</hi>. Bloomington: Indiana UP.</p>
+            <p><hi rend="bold">Sanderson, R., B. Albritton, R. Schwemmer, and H. van de Sompel</hi>
+                    (2011). SharedCanvas: A Collaborative Model for Medieval Manuscript Layout
+                    Dissemination. <hi rend="italic">Proceedings of the 11th ACM/IEEE Joint
+                        Conference on Digital Libraries</hi>. Ottawa, Canada.</p>
+            <p><hi rend="bold">Schich, M., C. Hidalgo, S. Lehmann, and J. Park</hi> (2009). The
+                    network of subject co-popularity in Classical Archaeology. In <hi rend="italic"
+                        >Bolletino di Archaeologia On-line</hi>.</p>
+            </div>
+        </back>
+    </text>
+</TEI>

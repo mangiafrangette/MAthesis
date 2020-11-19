@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PaperDemo-001">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>A Preparatory Analysis of Peer-Grading for a Digital Humanities MOOC</title>
+        <author>
+          <name>
+            <surname>Kaplan</surname>, <forename>Frédéric</forename>
+          </name>
+          <affiliation>EPFL, Switzerland</affiliation>
+          <email>frederic.kaplan@epfl.ch</email>
+        </author>
+        <author>
+          <name>
+            <surname>Bornet</surname>, <forename>Cyril</forename>
+          </name>
+          <affiliation>EPFL, Switzerland</affiliation>
+          <email>cyril.bornet@epfl.ch</email>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority/>
+        <publisher>EPFL, Switzerland</publisher>
+        <distributor>
+          <name>EPFL Digital Humanities Laboratory</name>
+          <address>
+            <addrLine>GC D2 386</addrLine>
+            <addrLine>Station 18</addrLine>
+            <addrLine>CH-1015 Lausanne</addrLine>
+            <addrLine>frederic.kaplan@epfl.ch</addrLine>
+          </address>
+        </distributor>
+        <pubPlace>Lausanne, Switzerland</pubPlace>
+        <address>
+          <addrLine>EPFL</addrLine>
+          <addrLine>CH-1015 Lausanne</addrLine>
+        </address>
+        <availability>
+          <p/>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note type="abstract">This article presents a study regarding the use of peer-grading in the context of a Digital Humanities class at the masters level. 56 students had to grade the work of their peers, following an explicit notation grid. The results show a high correlation between the peer-grading marks and the professor’s marks. The grades obtained by this method are within an interval of 0.5 points of the professor’s grading in in about ¾ of the cases. We discuss these preliminary results in detail and the relevance of using this approach for a large-scale MOOC on Digital Humanities.</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>No source: created in electronic format.</p>
+        <p>
+          <date when="20140709"/>
+          <time when="11:00:00"/>
+        </p>
+		<p n="session">2</p>
+		<p n="room">415 - Amphimax</p>
+      </sourceDesc>
+    </fileDesc>
+      <profileDesc>
+        <textClass>
+          <keywords scheme="original" n="category">
+            <term>Paper</term>
+          </keywords>
+          <keywords scheme="original" n="subcategory">
+            <term>Short Paper</term>
+          </keywords>
+          <keywords scheme="original" n="keywords">
+            <term>MOOC</term>
+            <term>grading</term>
+            <term>teaching</term>
+            <term>peer-grading</term>
+          </keywords>
+          <keywords scheme="original" n="topic">
+          	<term>teaching and pedagogy</term>
+          	<term>digital humanities</term>
+          	<term>pedagogy and curriculum</term>
+          	<term>crowdsourcing</term>
+          </keywords>
+        </textClass>
+      </profileDesc>
+  </teiHeader>
+  <text type="paper">
+    <front>
+
+      <div>
+        <p></p>
+        <p></p>
+      </div>
+    </front>
+    <body>
+      <div>
+        <head>Introduction</head>
+        <p>Over the last two years, Massive Open Online Classes (MOOCs) have been unexpectedly successful in convincing large number of students to pursue online courses in a variety of domains. Contrary to the "learn anytime anywhere" moto, this new generation of courses are based on regular assignments that must be completed and corrected on a fixed schedule. Successful courses attracted about 50 000 students in the first week but typically stabilised around 10 000 in the following weeks, as most courses demand significant involvement. With 10 000 students, grading is obviously an issue, and the first successful courses tended to be technical, typically in computer science, where various options for automatic grading system could be envisioned. However, this posed a challenge for humanities courses. The solution that has been investigated for dealing with this issue is peer-grading: having students grade the work of one another. The intuition that this would work was based on some older results showing high correlation between professor grading, peer-grading and self-grading (Wagner et al. 2011<ref target="n1" rend="sup">1</ref>, Topping 1998<ref target="n2" rend="sup">2</ref>). The generality of this correlation can reasonably be questioned. There is a high chance that peer-grading works for certain domains, or for certain assignment, but not for others. Ideally this should be tested experimentally before launching any large-scale courses.</p>
+        <p>EPFL is one of the first European schools to experiment with MOOCs in various domains. Since the launch of these first courses, preparing an introductory MOOC on Digital Humanities was one of our top priorities. However, we felt it was important to first validate the kind of peer-grading strategy we were planning to implement on a smaller set of students, to determine if it would actually work for the assignments we envisioned. This motivated the present study which was conducted during the first semester of our masters level introductory course on Digital Humanities at EPFL. </p>
+        <head>Method</head>
+        <p>56 students were asked to produce a blogpost in which they had to identify trends in Digital Humanities based on the online proceedings of the DH2013 conference in Nebraska<ref target="n3" rend="sup">3</ref>. </p>
+        <p>Students had to choose three abstracts from the conference, summarise and compare them, then use the Wordpress blog dh101.ch to publish their post. Students were informed that their post would be graded by the professor but also by other students. Following the usual Swiss grading system, the grade range was from 0 to 6. The students were informed that only the grade given by the professor would count for their semester results but that 10% of their semester results depended on whether they took the peer-reviewing seriously. </p>
+        <p>The grading criteria was presented in detail to the class at the same time. Students had to check whether the blog post followed the guidelines of the assignment (discussing three articles, identifying a trend) (4 points); whether the English was correct and clearly understandable (+0.5); whether the keywords and post layout were adapted to its content (+0.5); whether the post was not just a summary of the three articles but really compared them, and, more subjectively, whether the post's content was well discussed (+0.5) and the identified trend interesting (+0.5). The students were also asked to verify that the blog post did not contained plagiarised content. </p>
+        <p>Each student had to anonymously grade five randomly chosen blog posts. In order to simplify the task and to reduce the risk of manipulation errors, we developed a simple dedicated Wordpress app<ref target="n4" rend="sup">4</ref> to organise this process. Students used their Wordpress account to log in and by doing so accessed a page listing the five posts that were assigned to them, as well as one checkbox per criteria to be checked. This assignment process was done beforehand in an automated way: each paper was assigned once to the professor and randomly to five students, but under the constraint that no student could get their own paper and no more than five papers in all. Although we are aware that more sophisticated systems exist for assigning work in peer-reviewing processes (e.g. The Caesar system developed at MIT <ref target="n5" rend="sup">5</ref>), we assumed that this random assignment process was relevant in this context, given the uniform nature of the content to be graded. The professor graded all the blog posts without any information on the results of the peer-grading process.</p>
+        <figure>
+          <graphic url="DH2014_2_image05"/>
+        </figure>Fig. 1: Wordpress app for peer-grading
+        <head>Results and Discussion</head>
+        <p>52 blogs posts were produced and published on the public website dh101.ch. 47 students completed the peer review grading, and all of them graded all of their five papers. Three students accessed the website without grading any papers, and two didn’t even attempt to log in.</p><p>The process drew a lot of interest and questions from the students. The criteria of the grading grid were questioned by many students, in particular the one linked with the more subjective evaluation of the posts (several students thought this was unfair). Other studies have shown that students’ writing and understanding in core courses can be improved through peer ranking (Rhett A. et al 2005<ref target="n6" rend="sup">6</ref>). Although it is difficult to measure, it seems that the precise explication of the grading criteria imposed by the peer-review system had a positive effect on the quality on the posts when compared to the last year's course, when this system was not included.</p>
+        <p>We measured a strong correlation between the average of the peer-graded marks and the mark of the professor ( r(50) = 0.39, p &lt; .01). </p>
+        <p>Figure 2 shows the level of matching between the professor's grade and the peer graded marks after normalisation to the closest half point. In 38% of the case, the peer-graded mark is the same as the professor's, in another 38% of the cases the mark shows a 0.5 difference. The remaining 24% of cases show a larger difference. These latter cases mostly correspond to situations where either the professor or one of the students concluded that the post did not respect the instructions for the exercise and therefore gave a sanctioning mark (0 in case of plagiarism, 3 in the case of uncompleted post).</p>
+        <figure><graphic url="DH2014_2_graph"/></figure>Fig. 2: Level of matching between professor and student grades
+        <p> </p>
+        <p>This relationship can also be shown by breaking down the ratios of validated criteria:</p>
+        <p>Figure 3 shows the average grades given by students (sorted ascending), the squared mean error intervals for each of them and the professor’s gradings (<hi rend="bold">x</hi> marks), confirming that 76% of the papers received an average grading within 0.5 to the professor’s. </p>
+        <figure><graphic url="DH2014_2_stddev"/></figure>Fig. 3: Average grades, per paper
+        <p> </p>
+        <p>Figure 4 shows a comparison between the grading criteria used by the students and the professor’s grading. The distribution is visually similar (we cannot perform a more detailed statistical analysis because of the sample size).</p>
+        <figure><graphic url="DH2014_2_criterias_distribution"/></figure>Fig. 4: Criterias Distribution<p> </p>
+        <p>Figure 5 presents the correlation between the student's grade and their own grading. Although it is not obvious at first sight, there is a marginal significant negative correlation between these two variable datasets ( r(50) = –0.26, p = .07). This could suggest that students who wrote good papers are more critical of their peers. </p>
+        <figure><graphic url="DH2014_2_given_received"/></figure>Fig. 5: Correlation between received and given grades<p> </p>
+        <p>Figure 6 presents the grades in the order published (the first posts are the ones submitted the earliest by the students). The professor graded the posts following this order. As expected, no correlation exists between the order and the grades in the students' gradings, as they were assigned randomly. However, there seems to be a tendency towards lower grades in the professor's grading sequence. This could be explained if a correlation existed between the quality of the post and their publication time (the best students would publish the first). However, this correlation was not found in the student’s grading. This could suggest a potential temporal bias observed through the fact that the last evaluations were tendentially lower that the first ones (the professor becoming more critical).</p>
+        <figure><graphic url="DH2014_2_prof_time"/></figure>Fig. 6: Evolution of grades with time
+        <head>Conclusion</head>
+        <p>This article presents a preliminary study for a Digital Humanities MOOC conducted on a class of 56 students. In the present context, we can conclude that peer-grading is highly correlated to the professor’s grading. In about ¾ of the cases, the grades obtained by this method are within a range of 0.5 points of the professor’s grading. Qualitative observations tend to show that the quality of the posts increased when compared to the previous year, likely because students had to reflect on the grading criteria and were cautious of producing good work when this work would be evaluated by their peers. In addition, our study may suggest some possible temporal biases in the way the professor grades a long sequence of work, reinforcing the idea that peer-grading may not only be an interesting positive alternative to traditional grading but also that it may, in some case, be less biased. </p><p>Nevertheless, these preliminary results, dependent of the particular context of this study, should be extrapolated with care and would not eliminate the need to conduct regular quality evaluation in the context of a MOOC on Digital Humanities. Indeed, these results do not guarantee that the same peer grading method could scale to a 10 000 student MOOCs without problem. As the number of students increases, and the cultural backgrounds and linguistic competencies diversify, part of the behavioural homogeneity that we observed in this prestudy may no longer be valid. For this reason, this research should definitely be completed with <hi rend="italic">a posteriori</hi> study testing the efficiency of peer-grading with a similar method in a randomly chosen set of learners of the entire MOOC. </p><p>Acknowledgments:</p><p>The authors would like to thanks Andrea Mazzei for fruitful discussions about the analysis of the results of this preliminary study. </p></div>
+    </body>
+    <back>
+      <div type="References">
+        <listBibl>
+          <bibl>1. <hi rend="bold">Wagner, M.L., Churl Suh, D., Cruz, S.</hi> (2011). <hi rend="italic">Peer- and Self-Grading Compared to Faculty Grading</hi>. American Journal of Pharmaceutical Education 75, 130.
+          </bibl>
+          <bibl>2. <hi rend="bold">Topping, K.</hi> (1998). <hi rend="italic">Peer Assessment between Students in Colleges and Universities</hi>. Review of Educational Research 68, 249–276.
+          </bibl>
+          <bibl>3. <hi rend="italic">DH2013 Abstracts</hi>, <ref type="url" target="http://dh2013.unl.edu/abstracts/">dh2013.unl.edu/abstracts/</ref>
+          </bibl>
+          <bibl>4. <hi rend="italic">Wordpress Login API</hi>, <ref type="url" target="http://codex.wordpress.org/Plugin_API/Action_Reference/wp_login">codex.wordpress.org/Plugin_API/Action_Reference/wp_login</ref>
+          </bibl>
+          <bibl>5. <hi rend="bold">Tang, M.</hi> (2011), <hi rend="italic">Caesar: A social code review tool for programming education</hi>, Master project, MIT
+          </bibl>
+          <bibl>6. <hi rend="bold">Rhett A. et al</hi> (2005), <hi rend="italic">Using peer ranking to enhance student writing</hi>, IOP Science
+          </bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:x="http://www.w3.org/1999/xhtml" xmlns:exsl="http://exslt.org/common" xml:id="Paper-61">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcriptional implicature:  a contribution to markup semantics</title>
+        <author>
+          <name>
+            <surname>Sperberg-McQueen</surname>, <forename>Michael</forename>
+          </name>
+		<affiliation>Black Mesa Technologies LLC, United States of America </affiliation>
+          <email>cmsmcq@blackmesatech.com</email>
+        </author>
+        <author>
+          <name>
+            <surname>Marcoux</surname>, <forename>Yves</forename>
+          </name>
+          <affiliation>Université de Montréal</affiliation>
+          <email>ymarcoux@gmail.com</email>
+        </author>
+        <author>
+          <name>
+            <surname>Huitfeldt</surname>, <forename>Claus</forename>
+          </name>
+          <affiliation>Universitetet i Bergen</affiliation>
+          <email>Claus.Huitfeldt@uib.no</email>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority/>
+        <publisher>EPFL, Switzerland</publisher>
+        <distributor>
+          <name>EPFL Digital Humanities Laboratory</name>
+          <address>
+            <addrLine>GC D2 386</addrLine>
+            <addrLine>Station 18</addrLine>
+            <addrLine>CH-1015 Lausanne</addrLine>
+            <addrLine>frederic.kaplan@epfl.ch</addrLine>
+          </address>
+        </distributor>
+        <pubPlace>Lausanne, Switzerland</pubPlace>
+        <address>
+          <addrLine>EPFL</addrLine>
+          <addrLine>CH-1015 Lausanne</addrLine>
+        </address>
+        <availability>
+          <p/>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note type="abstract">The concept of transcriptional implicature is proposed as a way of accounting for common practices in transcription while also making sense of  variations in practice.  The formal model implicit in default transcriptional implicature can be elaborated in different ways to reflect a number of common variations in transcription practice which have hitherto eluded precise description in formal terms. We regard the formalization of transcription as an essential step towards formalizing the semantics of colloquial XML vocabularies like TEI.</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>No source: created in electronic format.</p>
+        <p>
+          <date when="20140709"/>
+          <time when="11:00:00"/>
+        </p>
+		<p n="session">2</p>
+		<p n="room">321 - Amphipôle</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="original" n="category">
+          <term>Paper</term>
+        </keywords>
+        <keywords scheme="original" n="subcategory">
+          <term>Long Paper</term>
+        </keywords>
+        <keywords scheme="original" n="keywords"/>
+        <keywords scheme="original" n="topic">
+          <term></term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text type="paper">
+    <front>
+      <div>
+        <p></p>
+      </div>
+    </front>
+    <body>
+      <div>
+        <p>We may see, in a TEI transcription of an old book, the lines:</p><p> </p>
+        <eg>&lt;pb n="[iii]"/&gt; &lt;p&gt;Quaestiones, quae ad mathematicae fundamenta pertinent, etsi hisce temporibus a multis tractatae, satisfacienti solutione et adhuc carent.</eg><p> </p>
+        <p>What do they mean? How do we know what they mean? Can we model their meaning formally?</p>
+        <p>Formalizing the meaning of arbitrary natural-language utterances remains intractable today. But markup languages, being formally defined artificial languages, appear more approachable. So we may be able to explain what the &lt;pb&gt; and &lt;p&gt; elements mean, even if the sense of the Latin eludes formalization. Some propose to explicate the meaning of markup by specifying, for each construct in a markup vocabulary, a sentence schema in a natural language, with blanks to be filled in with data from the document <ref target="n1" rend="sup">1</ref>; others make a similar proposal but allow sentence schemata in formal languages like first-order predicate logic as well <ref target="n2" rend="sup">2</ref>. This appears straightforward, although far from trivial, for metadata <ref target="n3" rend="sup">3</ref><ref type="url" target="http://mlcd.blackmesatech.com/mlcd/2013/W/tip/dh2014-proposal.xml#fotbo"/>and perhaps even for born-digital texts, but how shall the meaning of &lt;p&gt; be formalized in a markup language which defines it as containing a <hi rend="italic">transcription of a text block in a manuscript</hi>? What does it mean for a document to be a transcription of another document? Can we formalize that?</p>
+        <p>Earlier work has explored the nature of the similarity between transcripts and their exemplars. Perhaps it consists simply in their containing the same sequence of characters? This can be formalized but proves disappointing, partly because it omits text structures like division into paragraphs and partly because it offers no way of describing disagreements among transcribers about how to read the exemplar, or which character distinctions (e.g. i/j, u/v, s/ſ) to retain and which to level. It is also wrong: few transcripts have exactly the same character sequence as their exemplar <ref target="n4" rend="sup">4</ref>. Later work extends the analysis from characters to higher-level textual structures and models transcriber agreement and disagreement explicitly <ref target="n5" rend="sup">5</ref> <ref target="n6" rend="sup">6</ref><ref type="url" target="http://mlcd.blackmesatech.com/mlcd/2013/W/tip/dh2014-proposal.xml#wit2"/><ref type="url" target="http://mlcd.blackmesatech.com/mlcd/2013/W/tip/dh2014-proposal.xml#ettdds"/>. (Paul Caton has built on this idea to propose <hi rend="italic">pure transcriptional markup</hi> as an approach to the problems of transcription semantics <ref target="n7" rend="sup">7</ref>.) By treating higher-level constructs as tokens of higher-level types and using the sentence schemata mentioned earlier, we believe one can formalize the meaning of tokens (characters, words, and XML elements like &lt;p&gt; and &lt;pb&gt; alike) in transcriptions.</p>
+        <p>Clearly, however, the meaning of tokens in a transcription depends on the transcription conventions adopted, which vary. There is hardly any universal transcription practice: for every generalization we find exceptions <ref target="n8" rend="sup">8</ref> <ref target="n9" rend="sup">9</ref> <ref target="n10" rend="sup">10</ref><ref target="n11" rend="sup">11</ref> . Is everything in the exemplar transcribed? Not when deletions and irrelevant material are excluded. Does everything in the transcription reproduce some word or character in the exemplar? Not when line breaks are marked explicitly with vertical bars, or notes are added. Many scholarly editions account for variations like these in an explicit statement of transcription practice. Such statements typically describe ways in which practice varies from the usual practice, but rarely the ways in which it exemplifies normal practice. In any community of scholarship, some common practice is typically felt to be so obvious that it needs no mention or explanation.</p>
+        <p>One job of formalization is to make explicit practices and assumptions otherwise passed over in silence.</p>
+        <p>We propose a notion we shall call <hi rend="italic">transcriptional implicature</hi>, denoting a set of rules which apply by default but which may be overridden in particular cases, analogous to the rules of conversational implicature proposed by H. P. Grice as a way of explicating the logic of everyday conversation<ref target="n12" rend="sup">12</ref>. The operational definition of transcriptional implicature for a given community is “the set of rules no one in the community bothers to mention explicitly”.</p>
+        <p>Different communities of transcription practice have different sets of tacit assumptions and thus different rules of transcriptional implicature. Is there a common core of transcriptional practice shared by all communities? Maybe; it's an empirical question. A serious answer would require detailed study of a wide variety of communities of practice. We postulate, however, that the transcriptional implicature of any community of practice can be described with reference to some default set of rules for transcriptional implicature.</p>
+        <p>The transcriptional practice of any given project is commonly documented by listing its deviations from the transcriptional implicature of the relevant community. If that transcriptional implicature can (as postulated) be described as a set of deviations from the default transcriptional implicature, then it follows that any project's transcription practice can be described with reference to the default transcriptional implicature, by merging the two lists of differences.</p>
+        <p>We propose to identify this hypothetical <hi rend="italic">default transcriptional implicature</hi> with the rules outlined below. In the formalizations, “<hi rend="italic">T</hi>” denotes a transcript, “<hi rend="italic">E</hi>” its exemplar.</p>
+        <p>Adopting the extended use of the type/token distinction mentioned above, the default transcriptional implicature can be summed up in a single rule:</p>
+        <list type="ordered">
+          <item>
+            <p>1. A transcript and its exemplar have the same type. Formally:</p>
+            <p>type(<hi rend="italic">T</hi>) = type(<hi rend="italic">E</hi>)</p>
+          </item>
+        </list>
+        <p>In interesting cases, <hi rend="italic">E</hi> will have a complex type consisting of some structure of smaller types (which in turn consist of smaller ones still), instantiated by a complex token which similarly consists of smaller tokens. It is a consequence of (1) that:</p>
+        <list type="ordered">
+          <item>
+            <p>2. There is a one-to-one correspondence between the tokens of a transcript and the tokens of its exemplar, such that every pair of corresponding tokens have the same type.  </p>
+            <p>Formally, this is a second-order statement, but we can approximate it using the following first-order sentence, which assumes a function <hi rend="italic">tokens</hi> which maps from a document to the set of tokens contained in that document, and the relations <hi rend="italic">RET</hi> (mapping from tokens(<hi rend="italic">E</hi>) to tokens(<hi rend="italic">T</hi>)) and <hi rend="italic">RTE</hi> (the other way round).</p>
+            <p>(∀ t1 : tokens(E))    (∃1 t2 : tokens(T))      (t2 = RET(t1)) ∧ (∀ t1 : tokens(T))    (∃1 t2 :tokens(E))      (t2 = RTE(t1)) ∧ (∀ t1 : tokens(E), t2 : tokens(T))    (t2 = RET(t1) ⇔ t1 = RTE(t2)    ∧ type(t1) = type(RET(t1)))</p>
+          </item>
+        </list>
+        <p>It is easier to relate variations in transcription practices to the default transcriptional implicature if we paraphrase (2) as a conjunction of simpler rules (3) - (6):</p>
+        <list type="ordered">
+          <item>
+            <p>3. For every token in the exemplar there is exactly one corresponding token in the transcript.</p>
+            <p>(∀ <hi rend="italic">t1</hi> : tokens(<hi rend="italic">E</hi>)) (∃1 <hi rend="italic">t2</hi> : tokens(<hi rend="italic">T</hi>)) (<hi rend="italic">t2</hi> = RTE(<hi rend="italic">t1</hi>))</p>
+            <p>Applied to the example with which this document begins, this means: each token in the exemplar maps to a token in the transcript. We can infer that the sentence quoted does not contain the word <hi rend="italic">non</hi>, because otherwise <hi rend="italic">non</hi> would appear in the transcript.</p>
+          </item>
+          <item>
+            <p>4. For every token in the transcript there is exactly one corresponding token in the exemplar.</p>
+            <p>(∀ <hi rend="italic">t1</hi> : tokens(<hi rend="italic">T</hi>)) (∃1 <hi rend="italic">t2</hi> : tokens(<hi rend="italic">E</hi>)) (t2 = RET(<hi rend="italic">t1</hi>))</p>
+            <p>Applied to the example: each token in the transcript maps to some token in the exemplar. We can infer that the exemplar contains some token corresponding to the word <hi rend="italic">Quaestiones</hi> in the transcript.</p>
+          </item>
+          <item>
+            <p>5. The relations identified in rules (3) and (4) are inverses: that is, for every pair of tokens <hi rend="italic">t1</hi> in the exemplar and <hi rend="italic">t2</hi> in the transcript, if <hi rend="italic">t2</hi> corresponds to <hi rend="italic">t1</hi> as described in rule (3), then <hi rend="italic">t1 </hi>corresponds to <hi rend="italic">t2</hi> as described in rule (4).</p>
+            <p>(∀ <hi rend="italic">t1</hi> : tokens(<hi rend="italic">E</hi>), <hi rend="italic">t2</hi> : tokens(<hi rend="italic">T</hi>)) (<hi rend="italic">t2</hi> = RET(<hi rend="italic">t1</hi>) ⇔ <hi rend="italic">t1</hi> = RTE(<hi rend="italic">t2</hi>))</p>
+          </item>
+          <item>
+            <p>6. In every pair of corresponding tokens, the two tokens are tokens of the same type.</p>
+            <p>(∀ <hi rend="italic">t1</hi> : tokens(<hi rend="italic">E</hi>)) (type(<hi rend="italic">t1</hi>) = type(RET(<hi rend="italic">t1</hi>)))</p>
+            <p>Applied to the example: we can infer that the token in the exemplar which corresponds to the word <hi rend="italic">Quaestiones</hi> in the transcript is itself a token of the same word type.</p>
+          </item>
+        </list>
+        <p>We observe that many, perhaps all, variations in transcription practice can be classified by which rule they override.</p>
+        <list type="unordered">
+          <item>
+            Silent expansion of abbreviations and normalization of spelling exclude some individual characters in <hi rend="italic">E</hi> and <hi rend="italic">T</hi> from the scope of rules (3) and (4); those rules typically still apply to words and higher-level tokens.
+          </item>
+          <item>
+            Expansion of abbreviations in brackets can preserve the character-level mapping, but introduces characters in <hi rend="italic">T</hi> which are exceptions to rule (4), since they lack corresponding characters in <hi rend="italic">E</hi>. The use of vertical bars (|) in <hi rend="italic">T</hi> to record line breaks in <hi rend="italic">E</hi> is also an exception to rule (4).
+          </item>
+          <item>
+            Omission of selected material (deleted words, additions from a second hand, ...) modifies rule (3) by identifying tokens in <hi rend="italic">E</hi> which are not represented in <hi rend="italic">T</hi>.
+          </item>
+          <item>
+            Both transcriptions which distinguish archaic allographs (i/j, u/v, s/ſ) and those which level non-graphemic distinctions obey rule (6), but they read the document with different type systems.
+          </item>
+          <item>
+           The principle of charity (“in cases of doubt assume <hi rend="italic">E</hi> is correct”) can also be interpreted as a further elaboration of rule (6).
+          </item>
+        </list>
+        <p>The full paper will explore these and further ways in which the practice of transcription can deviate from the default rules of transcriptional implicature as we proposed to define them, and show how the variations in practice can be described formally.</p>
+      </div>
+    </body>
+    <back>
+      <div type="References">
+        <listBibl>
+          <bibl>1. <hi rend="bold">Marcoux, Yves</hi> (2006). <hi rend="italic">A natural-language approach to modeling: Why is some XML so difficult to write?</hi> Paper given at Extreme Markup Languages, Montréal. Proceedings of Extreme Markup Languages 2006. On the Web at <ref type="url" target="http://conferences.idealliance.org/extreme/html/2006/Marcoux01/EML2006Marcoux01.html">conferences.idealliance.org/extreme/html/2006/Marcoux01/EML2006Marcoux01.html</ref>.
+          </bibl>
+          <bibl>2. <hi rend="bold">Sperberg-McQueen, C. M., Claus Huitfeldt, and Allen Renear</hi> (2001). <hi rend="italic">Meaning and interpretation of markup.</hi> Markup Languages: Theory &amp; Practice 2.3: 215–234. On the Web at <ref type="url" target="http://cmsmcq.com/2000/mim.html">cmsmcq.com/2000/mim.html</ref>
+          </bibl>
+          <bibl>3. <hi rend="bold">Wickett, Karen M., and Allen Renear</hi> (2009). <hi rend="italic">A first order theory of bibliographic objects.</hi> Proceedings of the American Society for Information Science and Technology 46.1: 1–8. On the Web at <ref type="url" target="http://onlinelibrary.wiley.com/doi/10.1002/meet.2009.1450460378/full">onlinelibrary.wiley.com/doi/10.1002/meet.2009.1450460378/full</ref> (subscription required).
+          </bibl>
+          <bibl>4. <hi rend="bold">Huitfeldt, Claus, and C. M. Sperberg-McQueen</hi> (2008). <hi rend="italic">What is transcription?</hi> Literary &amp; Linguistic Computing 23.3: 295-310.
+          </bibl>
+          <bibl>5. <hi rend="bold">Sperberg-McQueen, C. M.. Claus Huitfeldt, and Yves Marcoux</hi> (2009). <hi rend="italic">What is transcription? Part 2</hi>. Talk given at Digital Humanities, College Park, Maryland. Slides on the Web at <ref type="url" target="http://blackmesatech.com/2009/06/dh2009/">blackmesatech.com/2009/06/dh2009</ref>.
+          </bibl>
+          <bibl>6. <hi rend="bold">Huitfeldt, Claus, Yves Marcoux, and C. M. Sperberg-McQueen</hi> (2010). <hi rend="italic">Extension of the type/token distinction to document structure</hi>. Paper presented at Balisage: The Markup Conference 2010, Montréal, Canada, August 3 - 6, 2010. In Proceedings of Balisage: The Markup Conference 2010. Balisage Series on Markup Technologies, vol. 5. doi:10.4242/BalisageVol5.Huitfeldt01. On the Web at <ref type="url" target="http://www.balisage.net/Proceedings/vol5/html/Huitfeldt01/BalisageVol5-Huitfeldt01.html">www.balisage.net/Proceedings/vol5/html/Huitfeldt01/BalisageVol5-Huitfeldt01.html</ref>.
+          </bibl>
+          <bibl>7. <hi rend="bold">Caton, Paul</hi> (2013). <hi rend="italic">Pure transcriptional encoding.</hi> Paper given at Digital Humanities 2013, Lincoln, Nebraska.
+          </bibl>
+          <bibl>8. <hi rend="bold">Carter, Clarence E. Historical editing</hi>. <hi rend="italic">Bulletins of the national archives, Number 7</hi>.  [Washington, DC]: National Archives and Records Service, August 1952. National Archives publication number 53-4.
+          </bibl>
+          <bibl>9. <hi rend="bold">Tanselle, G. Thomas</hi> (1989). <hi rend="italic">A Rationale of Textual Criticism Philadelphia</hi>: University of Pennsylvania Press. 104 pp.
+          </bibl>
+          <bibl>10. <hi rend="bold">Vander Meulen, David, and G. Thomas Tanselle</hi> (1999), <hi rend="italic">A system of manuscript transcription</hi> Studies in Bibliography 52: 201-212.
+          </bibl>
+          <bibl>11. <hi rend="bold">Robinson, Peter, and Elizabeth Solopova</hi> (2006), <hi rend="italic">Guidelines for Transcription of the Manuscripts of The Wife of Bath's Prologue</hi>. 18 March 2006. On the Web at <ref type="url" target="http://www.canterburytalesproject.org/pubs/transguide-MI.pdf">www.canterburytalesproject.org/pubs/transguide-MI.pdf</ref>.
+          </bibl>
+          <bibl>12. <hi rend="bold">Grice, H.P.</hi> (1975). <hi rend="italic">Logic and Conversation,</hi> Syntax and Semantics, vol.3 edited by P. Cole and J. Morgan, Academic Press. Reprinted as ch.2 of his Studies in the Way of Words (Cambridge, Mass.: Harvard University Press, 1989), pp. 22–40.
+          </bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

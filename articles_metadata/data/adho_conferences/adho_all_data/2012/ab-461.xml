@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="../schema/xmod_web.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xmt="http://www.cch.kcl.ac.uk/xmod/tei/1.0" 
+     xml:id="ab-461">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Academic Research in the Blogosphere: Adapting to New Opportunities and Risks on the Internet</title>
+                <author>
+                    <name>Littauer, Richard</name>
+                    <affiliation>Universität des Saarlandes, Germany</affiliation>
+                    <email>richard.littauer@gmail.com</email>
+                </author>
+                <author>
+                    <name>Winters, James</name>
+                    <affiliation>Katholieke Universiteit Leuven, Belgium</affiliation>
+                    <email>wintzis@gmail.com</email>
+                </author>
+                <author>
+                    <name>Roberts, Sean</name>
+                    <affiliation>University of Edinburgh, UK</affiliation>
+                    <email>S.G.Roberts@sms.ed.ac.uk</email>
+                </author>
+                <author>
+                    <name>Little, Hannah</name>
+                    <affiliation>University of Edinburgh, UK</affiliation>
+                    <email>H.R.Little@sms.ed.ac.uk</email>
+                </author>
+                <author>
+                    <name>Pleyer, Michael</name>
+                    <affiliation>Ruprecht-Karls-Universität Heidelberg, Germany</affiliation>
+                    <email>Pleyer@stud.uni-heidelberg.de</email>
+                </author>
+                <author>
+                    <name>Benzon, Bill</name>
+                    <affiliation>QuestionCopyright.org, USA</affiliation>
+                    <email>BBenzon@mindspring.com</email>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Jan Christoph Meister, Universität Hamburg</publisher>
+                <address>
+                   <addrLine>Von-Melle-Park 6, 20146 Hamburg, Tel. +4940 428 38 2972</addrLine>
+                   <addrLine>www.dh2012.uni-hamburg.de</addrLine>
+              </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>No source: created in electronic format.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2012-04-15</date>
+                <name>DH</name>
+                <desc>generate TEI-template with data from ConfTool-Export</desc>
+            </change>
+            <change>
+                <date>2012-04-13</date>
+                <name>LS</name>
+                <desc>provide metadata for publicationStmt</desc>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="paper">
+        <body>
+           <div>
+            <p>Interdisciplinary research with the intent of publication to a wide audience is
+                    increasingly desired. <hi rend="italic">Blogging</hi> offers new opportunities
+                    for academics to collaborate with researchers from other fields and integrate
+                    data. The power to publish results and theories freely and get rapid feedback
+                    has positive and negative potential implications. On the positive side, new
+                    ideas can be presented and discussed easily with progress potentially much
+                    faster than a traditional journal peer-review. The internet also provides a
+                    forum to engage the public about ongoing research, an increasing concern for
+                    funding bodies. On the negative side, ideas can appear in public and affect
+                    research without being properly assessed. This could dilute the impact of
+                    relevant research. We review whether blogging can become part of research, by
+                    examining the case study of our blog on language evolution.</p>
+                <p><hi rend="italic">ReplicatedTypo.org</hi> has received 120,000~ hits in 3 years
+                    (counts gathered using Wordpress Analytics) and been awarded 8 editor’s
+                    selections from <hi rend="italic">ResearchBlogging.com</hi>. As well as
+                    reporting on recent publications and conferences, we have written basic
+                    introductions to Linguistics, Evolution, mathematical modeling and animal
+                    signaling. As a blog with multiple authors, our interests are varied, but our
+                    central research theme – evolutionary approaches to language and culture –
+                    remains the same. Our post topics include what makes humans unique, top-down
+                    versus bottom-up approaches to language evolution, the evolution of colour
+                    terms, Specific Language Impairment and Autism, the effect of second language
+                    learners on linguistic structure, cultural evolution and the singularity and
+                    genetic correlates of social sensitivity. We’ve written about the current trend
+                    for large-scale statistical analyses of linguistic features and social features,
+                    and contributed some of our own including phoneme inventory size and demography,
+                    alcohol consumption and morphological complexity and whether linguistic
+                    diversity is correlated with traffic accidents. As shown by the examples
+                    provided, Language Evolution is an inherently interdisciplinary field with many
+                    new ideas and which relies upon new techniques and analyses.</p>
+                    <p>Blogs are a useful source for discovering current research and a forum for open
+                    peer review, whether open (from the public) or closed (from co-authors on
+                    drafts). Linguistics blogs have been around for many years (e.g. Language Log),
+                    but blogs dedicated to language evolution have emerged, too (e.g. Babel’s dawn,
+                    Shared Symbolic Storage, Culture Evolves!, Biolinguistics Blog, Replicated
+                    Typo). One of these blog-authors has even published a book directed at a general
+                    audience about the theories he developed on his blog (E. B. Bolles 2011).
+                    However, there is no universal consensus on the method or acceptability of
+                    citing ideas from blogs. We argue that the devaluing of research and criticism
+                    appearing in open forums risks obstructing research. This is not merely a debate
+                    in Linguistics; much ink has been spilled on a similar grounds in evolutionary
+                    biology, in the so called <hi rend="italic">#arsenicgate</hi> scandal (see
+                    Zimmer 2011). Scholarship will not take advantage of the collaborative potential
+                    of the Internet if academic standards are not applied to Internet resources.
+                    Concerns about standards and plagiarism, from work that might considered to be
+                    in the public domain, are particularly important for blogs that are used to
+                    disseminating original work in progress such as small-scale experiments and
+                    theoretical essays. A particularly sensitive issue, in that it may stop one
+                    blogging about personal research, is public access to experiment data and model
+                    code. </p>
+                <p>On a note unrelated to research dissemination and publication models, writing for
+                    blogs can benefit students. It encourages wider reading, engagement with
+                    cutting-edge topics and helps integrate students from diverse backgrounds into
+                    the language evolution community. In an increasingly competitive academic
+                    environment, blogs are a vital tool for career development. We would like to see
+                    universities teach new media skills such as blogging.</p>
+                <p>Our aims as science bloggers on Replicated Typo are: to highlight and discuss new
+                    research on language evolution; to engage with the general public by presenting
+                    language evolution research in an accessible way; to be a platform for open
+                    science research into language evolution. We hope that presentation of research
+                    and discussion on the internet can, in conjunction with journal peer-review,
+                    lead to more productive, accurate and progressive research. Discussions of posts
+                    on our own blog have lead to revisions of our research and new avenues of
+                    research as well as collaborations and clarifications of research by the authors
+                    of the studies reviewed. Releasing code on our blog has lead to interactions
+                    that benefited both the readers and the researcher. We hope that model
+                    transparency and the sharing of code can help foster links between language evolution and other fields who use similar
+                    techniques and technologies (biology, informatics, etc.).</p>
+                <p>The aim of this paper is to provide a forum at Digital Humanities 2012 for
+                    discussing these issues, and the questions that arise from them, namely:</p>
+               
+               <xmt:uList>
+                    <item>Can blogged research be taken as seriously as peer-reviewed
+                    research?</item>
+                <item>What are the risks of publicly accessible research?</item>
+                <item>Is research blogging adaptable to other fields, in particular fields
+                    involving minorities or low resource groups?</item>
+                <item>Are there particular concerns with running experiments or soliciting
+                    feedback online?</item>
+                <item>Is the field of academia doing enough towards public engagement on the
+                    internet?</item>
+               </xmt:uList>
+                   
+                <p>We hope that providing a focus for these issues will ensure a
+                    productive and balanced response.</p>
+            
+            </div>
+        </body>
+        <back>
+            <div>
+                <head>References</head>
+            
+            <p><hi rend="bold">Bolles, E., ed.</hi> (n.d.). <hi rend="italic">Babel’s dawn</hi>.
+                <ref target="http://wwww.babelsdawn.com" type="external">http://wwww.babelsdawn.com</ref>.</p>
+            <p><hi rend="bold">Bolles, E. B.</hi> (2011). <hi rend="italic">Babel’s dawn: A natural
+                    history of the origins of speech.</hi> Berkeley, CA: Counterpoint.</p>
+            <p><hi rend="bold">Jordan, F. </hi>(n.d.). <hi rend="italic">Culture evolves!
+            </hi> <ref target="http://evolutionaryanthropology.wordpress.com" type="external">http://evolutionaryanthropology.wordpress.com</ref>.</p>
+            <p><hi rend="bold">Liberman, M., and G. Pullum, eds.</hi> (n.d.). <hi rend="italic"
+                >Language Log</hi>. <ref target="http://languagelog.ldc.upenn.edu" type="external">http://languagelog.ldc.upenn.edu</ref>.</p>
+            <p><hi rend="bold">Martín, T., ed.</hi> (n.d.). <hi rend="italic">Biolinguistics
+                blog</hi>. <ref target="http://biolingblog.blogspot.com" type="external">http://biolingblog.blogspot.com</ref>.</p>
+            <p><hi rend="bold">Munger, D., ed.</hi> (n.d.). <hi rend="italic">Research
+                blogging</hi>. <ref target="http://www.researchblogging.com" type="external">http://www.researchblogging.com</ref>.</p>
+            <p><hi rend="bold">Pleyer, M.</hi> (n.d.). <hi rend="italic">Shared symbolic
+                storage.</hi> <ref target="http://sharedsymbolicstorage.blogspot.com" type="external">http://sharedsymbolicstorage.blogspot.com</ref>.</p>
+            <p><hi rend="bold">Winters, J., ed.</hi> (n.d.). <hi rend="italic">Replicated typo.</hi>
+                <ref target="http://www.replicatedtypo.com" type="external">http://www.replicatedtypo.com</ref></p>
+            <p><hi rend="bold">Zimmer, C.</hi> (2011) Happy Birthday, #arseniclife. <hi rend="italic"
+                >The Loom</hi>, December 2, 2011. <ref
+                    target="http://blogs.discovermagazine.com/loom/2011/12/02/happy-birthday-arseniclife/"
+                    type="external">http://blogs.discovermagazine.com/loom/2011/12/02/happy-birthday-arseniclife</ref> (accessed March 14 2012).</p>
+            </div>
+        </back>
+    </text>
+</TEI>

@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="../schema/xmod_web.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xmt="http://www.cch.kcl.ac.uk/xmod/tei/1.0" 
+     xml:id="ab-449">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Estimating the Distinctiveness of Graphemes and Allographs in Palaeographic Classification</title>
+                <author>
+                    <name>Levy, Noga</name>
+                    <affiliation>Tel-Aviv University, Israel</affiliation>
+                    <email>nogaor@gmail.com</email>
+                </author>
+                <author>
+                    <name>Wolf, Lior</name>
+                    <affiliation>Tel-Aviv University, Israel</affiliation>
+                    <email>wolf@cs.tau.ac.il</email>
+                </author>
+                <author>
+                    <name>Dershowitz, Nachum</name>
+                    <affiliation>Tel-Aviv University, Israel</affiliation>
+                    <email>nachumd@post.tau.ac.il</email>
+                </author>
+                <author>
+                    <name>Stokes, Peter</name>
+                    <affiliation>King’s College London, UK</affiliation>
+                    <email>peter.stokes@kcl.ac.uk</email>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Jan Christoph Meister, Universität Hamburg</publisher>
+                <address>
+                   <addrLine>Von-Melle-Park 6, 20146 Hamburg, Tel. +4940 428 38 2972</addrLine>
+                   <addrLine>www.dh2012.uni-hamburg.de</addrLine>
+              </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>No source: created in electronic format.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2012-04-15</date>
+                <name>DH</name>
+                <desc>generate TEI-template with data from ConfTool-Export</desc>
+            </change>
+            <change>
+                <date>2012-04-13</date>
+                <name>LS</name>
+                <desc>provide metadata for publicationStmt</desc>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="paper">
+        <body>
+            <div>
+            <head>Introduction</head>
+                <p>Within the discipline of palaeography, the ‘morphological’ approach tries to describe
+                    the letter-shape as a whole, so a letter may be described as a ‘Caroline <hi
+                        rend="italic">a</hi>’ or as an ‘insular <hi rend="italic">r</hi>’. Aspects
+                    of this approach are visible in almost all palaeographical handbooks,
+                    particularly those that provide alphabets or selections of letter-forms. An
+                    example is Albert Derolez’s, <hi rend="italic">Palaeography of Gothic Manuscript
+                        Books,</hi> which also provides a useful discussion of morphology as a
+                    palaeographical method.</p>
+                <p>Commonly, a morphological system of descriptors contains two main categories: One category is the grapheme or
+                    perhaps, more correctly, character: the letter as an abstract entity but with
+                    physical form, such as <hi rend="italic">a,</hi>
+                    <hi rend="italic">æ</hi>, or a single punctuation mark. The second category is
+                    the allograph, namely, a particular way of writing the letter; typical examples
+                    include ‘Caroline’ or ‘insular’.</p>
+                <p>A key question, given any system of descriptors, is to evaluate the relative importance of each of the components of
+                    this system. For example, it is well known among palaeographers that the
+                    grapheme <hi rend="italic">a</hi> is very distinctive for late Anglo-Saxon
+                    minuscule (Ker 1957; Dumville 1988; Stokes 2005); however, subjective evaluation
+                    of distinctiveness could potentially be misleading. It is therefore quite useful
+                    to conduct a statistical analysis of significance, and potentially contribute
+                    thereby to the practice of palaeography, provided the results can be presented
+                    in a meaningful form.</p>
+                <p>In this work, we employ methods that are commonly
+                    used for mining insights from biological experiments regarding underlying
+                    genetic mechanisms. We show that in the context of palaeography such an approach
+                    also provides insightful observations.</p>
+            </div>
+            
+            <div>
+                <head>Methods</head>
+                <p>A dataset consisting of 456 scribal handwritings in English Vernacular
+                    minuscule, ca. 990 – ca. 1035, is used (Stokes 2005). ‘Scribal handwriting’ here
+                    refers to a single stint or block of writing by one person; these samples are
+                    spread across some 198 manuscripts and range from the main text of the book to
+                    later additions and notes or glosses between the lines or in the margins.</p>
+                <p>The handwritings were described using 289 descriptors (Stokes 2007-2008),
+                    where each descriptor indicates whether a certain grapheme (or group of similar
+                    graphemes) written as specific allograph(s) appear in the manuscript, as well as
+                    forms of certain parts of letters such as ascenders, descenders, and pen-angle.
+                    Every sample of handwriting is described by its known or predicted place of
+                    writing (where possible) and the estimated range of dates of writing. For
+                    classification purposes, the dataset was divided into classes that are
+                    homogeneous in time and place.</p>
+                <p>First, we measure for each descriptor how informative it is. This is done using
+                    the <hi rend="italic">information gain</hi> method (Mitchell 1997), which is
+                    often used for feature selection in text categorization tasks. The information
+                    gain score measures the decrease in entropy when a descriptor is given vs. the
+                    baseline in which it is absent. That is, the information gain measures the
+                    discriminative power added by each single descriptor.</p>
+                <p>Measuring the power of each descriptor by itself is
+                    of limited power. That a certain descriptor is ranked high tells us very little
+                    about how informative other similar descriptors are. Using an analogy to
+                    biology, it is helpful to know which genes express differently in a specific
+                    experiment testing different classes of biological conditions. However, if we
+                    want to learn about biological functions and processes, we must go beyond the
+                    level of the specific gene by aggregating the information from multiple genes of
+                    the same family. In palaeography, the importance of a specific character, for
+                    example, cannot be reliably detected just by looking at the ranking of one of
+                    the associated descriptors, no matter how highly it is ranked.</p>
+                <p>The Gene Set Enrichment Analysis (GSEA) is a statistically valid tool to evaluate how
+                    prominent a set (that is, a family) of descriptors is (Subramanian 2005). This
+                    computational method determines whether an a priori defined set of features
+                    presents itself in a statistically significant and coherent manner among a
+                    ranked list of descriptors.</p>
+                <p>The input of the GSEA method is a ranked
+                    list of features and a list of families of features. Context is important, and
+                    so we conduct one experiment using families derived from graphemes and another
+                    experiment for families of allographs. The GSEA method is based on elaborate
+                    order statistic mechanisms that can compare, on a leveled ground, between large
+                    and small families of features.</p>
+            </div>
+            
+            <div>
+                <head>Results</head>
+                <p>The information gain method was used to automatically rank all 289
+                    descriptors. The first, most significant, 30 features are listed in Table 1.</p>
+            
+                <p><figure><graphic url="tabl449-1.jpg" rend="left" height="256px" width="341px" mimeType="image/jpeg"/><head>Table 1: The 30 single descriptors that were found to be the most informative using the information gain score</head></figure></p>
+            
+            
+                    
+                    <p>GSEA was then applied to these results, finding 16 families of graphemes (and
+                    stylistic issues, like aspect) that are ‘enriched’ in a statistically
+                    significant way, and 20 families of ‘enriched’ allographs. Tables 2 and 4 show
+                    the enriched families. The GSEA tool also provides another output: a list of
+                    descriptor families that are statistically speaking irrelevant. These lists
+                    (Tables 3 and 5) contain 5 graphemes and 9 allographs whose descriptors are
+                    ranked so consistently low that it is unlikely to be by chance. As can be seen,
+                    the GSEA results contain both expected results and surprising ones; see (Ker
+                    1957; Dumville1988, 1993, 1994) for general background for script of this
+                    period.</p>
+                    <table>
+                        <head>Table 2: The 16 graphemes (and stylistic issues) that were found to be
+                            discriminative in a statistically significant way by the GSEA method.
+                            The enrichment score (ES) reflects the degree to which a feature-set is
+                            overrepresented at the top. The normalized ES accounts for differences
+                            in set size and the correlations between the sets</head>
+                        <row>
+                            <cell>
+                                <hi rend="bold">Rank</hi>
+                            </cell>
+                            <cell>
+                                <hi rend="bold">Grapheme+</hi>
+                            </cell>
+                            <cell>
+                                <hi rend="bold">Normalized ES</hi>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell> 1 </cell>
+                            <cell> æ </cell>
+                            <cell> 1.73 </cell>
+                        </row>
+                        <row>
+                            <cell> 2 </cell>
+                            <cell> 7 (Tironean nota) </cell>
+                            <cell> 1.31 </cell>
+                        </row>
+                        <row>
+                            <cell> 3 </cell>
+                            <cell> a </cell>
+                            <cell> 1.31 </cell>
+                        </row>
+                        <row>
+                            <cell> 4 </cell>
+                            <cell> c </cell>
+                            <cell> 1.15 </cell>
+                        </row>
+                        <row>
+                            <cell> 5 </cell>
+                            <cell> f </cell>
+                            <cell> 1.10 </cell>
+                        </row>
+                        <row>
+                            <cell> 6 </cell>
+                            <cell> d </cell>
+                            <cell> 0.86 </cell>
+                        </row>
+                        <row>
+                            <cell> 7 </cell>
+                            <cell> g </cell>
+                            <cell> 0.82 </cell>
+                        </row>
+                        <row>
+                            <cell> 8 </cell>
+                            <cell> Aspect </cell>
+                            <cell> 0.79 </cell>
+                        </row>
+                        <row>
+                            <cell> 9 </cell>
+                            <cell> e </cell>
+                            <cell> 0.76 </cell>
+                        </row>
+                        <row>
+                            <cell> 10 </cell>
+                            <cell> y </cell>
+                            <cell> 0.64 </cell>
+                        </row>
+                        <row>
+                            <cell> 11 </cell>
+                            <cell> Ascender </cell>
+                            <cell> 0.60 </cell>
+                        </row>
+                        <row>
+                            <cell> 12 </cell>
+                            <cell> h </cell>
+                            <cell> 0.58 </cell>
+                        </row>
+                        <row>
+                            <cell> 13 </cell>
+                            <cell> Þð </cell>
+                            <cell> 0.58 </cell>
+                        </row>
+                        <row>
+                            <cell> 14 </cell>
+                            <cell> k </cell>
+                            <cell> 0.57 </cell>
+                        </row>
+                        <row>
+                            <cell> 15 </cell>
+                            <cell> Descender </cell>
+                            <cell> 0.56 </cell>
+                        </row>
+                        <row>
+                            <cell> 16 </cell>
+                            <cell> s </cell>
+                            <cell> 0.50 </cell>
+                        </row>
+                    </table>
+                    <p>It is unsurprising that the ash (æ) is most significant, since it is a combination of
+                        <hi rend="italic">a </hi>and <hi rend="italic">e</hi>, both of which are in
+                    themselves significant (Dumville 1988). It is quite surprising that the Tironean
+                    nota for <hi rend="italic">and</hi> (which looks like the numeral 7) is
+                    discriminating, as this is not noted by any of the palaeographers cited. It also
+                    came as a surprise that <hi rend="italic">c </hi>and <hi rend="italic">y
+                    </hi>turned out to be highly significant, because they are not generally
+                    recognised as such, though some of their specific forms certainly are (Dumville
+                    1993). It was also surprising, from a palaeographer’s viewpoint, to see <hi
+                        rend="italic">h</hi> in the list, as it is not included in those published
+                    by palaeographers (Ker1957; Dumville 1993; 1994; Stokes 2005).</p>
+                
+                <table>
+                        <head>Table 3: The five graphemes and stylistic issues that were found to be
+                            irrelevant to the discrimination task to a statistically significant
+                            degree</head>
+                                <row>
+                                    <cell>
+                                        <hi rend="bold">Rank</hi>
+                                    </cell>
+                                    <cell>
+                                        <hi rend="bold">Graphemes+</hi>
+                                    </cell>
+                                    <cell>
+                                        <hi rend="bold">Normalized ES</hi>
+                                    </cell>
+                                </row>
+                                <row>
+                                    <cell> 1 </cell>
+                                    <cell> Minim </cell>
+                                    <cell> -1.20 </cell>
+                                </row>
+                                <row>
+                                    <cell> 2 </cell>
+                                    <cell> Pen </cell>
+                                    <cell> -0.90 </cell>
+                                </row>
+                                <row>
+                                    <cell> 3 </cell>
+                                    <cell> hmn </cell>
+                                    <cell> -0.76 </cell>
+                                </row>
+                                <row>
+                                    <cell> 4 </cell>
+                                    <cell> r </cell>
+                                    <cell> -0.70 </cell>
+                                </row>
+                                <row>
+                                    <cell> 5 </cell>
+                                    <cell> ð </cell>
+                                    <cell> -0.62 </cell>
+                                </row>
+                            </table>
+                
+                    <p>Here, it is very interesting to see that ð is
+                    insignificant, since its form varies very widely between scribes. Perhaps some
+                    of its features are better discriminants than others.</p>
+                
+                <p><figure><graphic url="tabl449-4.jpg" rend="left" height="256px" width="341px" mimeType="image/jpeg"/><head>Table 4: The 20 allographs that were found to be discriminative in a statistically significant way by the GSEA method</head></figure></p>
+               
+                    <p>Table 4 is also quite insightful. While HORNED is widely accepted as
+                    significant (Ker 1957), ANGLED_SW (angled southwest quadrant) is not, although
+                    it has been suggested as discriminative (Stokes, 2005). LONG_TONGUE is not
+                    attested in the literature as significant, as are the related ANGLED_TONGUE and
+                    HORIZ._TONGUE: it will be interesting to study if they are strongly correlated,
+                    and if they are even more distinctive in combination. Since TEARDROP, ROUND, and
+                    SEMI_CAROLINE are all forms of the letter <hi rend="italic">a</hi>, their
+                    significance is expected and is supported by related literature on the minuscule
+                    of the period (Ker, 1957; Dumville, 1994), and is strongly argued as relevant
+                    for this period in the thesis from which this dataset is taken (Stokes 2005). 
+                    ROTUND_MINIM is unrecognized as being discriminative. LOW_LIG (low ligature) is
+                    less recognized in the literature than TALL_LIG (Ker, 1957) which is correlated
+                    with it. BULGING_LIG is well recognized (Ker 1957; Stokes 2005). SQUINTING is
+                    recognised as distinctive in Latin (Dumville 1993) but not in the script
+                    normally used for the vernacular.</p>
+                        
+                <p><figure><graphic url="tabl449-5.jpg" rend="left" height="256px" width="341px" mimeType="image/jpeg"/><head>Table 5: The nine allographs that were found to be irrelevant in a statistically significant manner to the discrimination task. Most of these results are expected since these allographs are either very common in the corpus  or present the ‘default’ values for the script of the period</head></figure></p>
+                    </div>
+                
+                
+                
+                <div>
+                    
+              <head>Discussion</head>
+                    <p>Computerized systems that perform digital palaeography have been criticized in the past for reducing
+                    script entirely to statistical processes that are themselves difficult or
+                    impossible to evaluate (Stokes 2009). In fact, the struggle to elicit meaning
+                    out of statistical inference tools is common to many scientific domains. Here we
+                    begin to show that, by using the appropriate statistical tools, computers can be
+                    used to mine meaningful insights in palaeography.</p>
+                    <p>The proposed method is not without its limitations. First, it relies on a specific definition of
+                    ‘distinctive descriptors’ that is derived from the choice of the feature ranking
+                    algorithm used. The IG method used focuses on the ability to discriminate
+                    between the classes; by choosing another ranking method one could focus, for
+                    example, on scribal variation, which is also a question of interest to
+                    palaeographers. A second limitation is that the method cannot go beyond the
+                    assumptions made in the initial coding system. For example, there is a
+                    normalization quality to GSEA, in the sense that, if the palaeographer recorded
+                    more varieties of <hi rend="italic">a, </hi>say, than of other letters,
+                    precisely because he expects that letter to be more significant, the GSEA method
+                    will counterbalance this by looking at the overall distribution of all
+                    varieties. However, presumably there could have been other letters and features
+                    that are in fact more distinctive but that were not recorded in the database
+                    because they were mistakenly deemed to be relatively insignificant. Future work
+                    should therefore aim to augment the database with automatically extracted
+                    features, with the potential benefit of adding a new (robotic) perspective to
+                    morphological analysis. Another limitation of the method is its dependence on
+                    verbal descriptors for features which are visual, or, indeed, which are a
+                    function of the physical movements of the scribe’s arm, hand and pen,
+                    particularly given the lack of standard palaeographical terminology for such
+                    detailed features (Stokes 2011-2012). These difficulties could potentially be
+                    overcome by providing greater rigour in nomenclature and by connecting these
+                    labels to particular images. Both approaches are already being tested in the
+                    DigiPal project (<ref target="http://digipal.eu/" type="external">http://digipal.eu/</ref>), and discussions are already underway to combine the work done there with
+                    that described here.</p>
+                    <p>Despite these limitations, the method described
+                    is still very promising. One of the difficulties in palaeographical study is the
+                    vast quantity of detail that must be processed, and so helping the human expert
+                    to identify distinctive features would be enormously beneficial in managing that
+                    data. For instance, identifying patterns in variation such as those by region,
+                    date or group of scribes would be invaluable in identifying manuscripts by their
+                    writing. Applying the method to other corpora of scribal handwriting could also
+                    lead to valuable insights. For example, if particular features prove to be
+                    discriminative across many different script-systems then this could be an
+                    important clue into identifying scribes independently of the script that they
+                    wrote, something very necessary given that most scribes routinely wrote in a
+                    number of very different scripts. Finally, with further testing and refinement,
+                    this approach promises an important and large step towards a method for
+                    distinguishing handwriting that can be described explicitly, that can be
+                    communicated effectively in ways that palaeographers and other humanities
+                    scholars can understand, and that can also enjoy the support of quantitative
+                    data. This goal is one that has been sought for a very long time (Stokes
+                    2009).</p>
+           
+            </div>
+        </body>
+        <back>
+            <div>
+               <head>References</head>
+               
+
+            <p><hi rend="bold">Bishop, T. A. M.</hi> (1971). <hi rend="italic">English Caroline
+                    Minuscule</hi>. Oxford: Clarendon Press.</p>
+            <p><hi rend="bold">Dumville, D. N.</hi> (1988). Beowulf come lately: some notes on the
+                palaeography of the Nowell Codex. <hi rend="italic">Archiv für das Studium der
+                    neueren Sprachen und Literaturen</hi> 225: 49–63.</p>
+            <p><hi rend="bold">Dumville, D. N.</hi> (1993). <hi rend="italic">English Caroline
+                    Script and Monastic History</hi>. Boydell: Woodbridge.</p>
+            <p><hi rend="bold">Dumville, D. N.</hi> (1994). English Square Minuscule script: the
+                mid-century phases. <hi rend="italic">Anglo-Saxon England</hi> 23: 133–64.</p>
+            <p><hi rend="bold">Ker, N. R.</hi> (1957). <hi rend="italic">Catalogue of Manuscripts
+                    Containing Anglo-Saxon</hi>. Oxford: Clarendon Press</p>
+            <p><hi rend="bold">Mitchell, T. M.</hi> (1997). <hi rend="italic">Machine Learning</hi>.
+                New York: McGraw-Hill.</p>
+            <p><hi rend="bold">Stokes, P. A.</hi> (2005). <hi rend="italic">English Vernacular
+                    Script ca 990–ca 1035</hi>. Cambridge [unpublished Ph.D. dissertation].</p>
+            <p><hi rend="bold">Stokes, P. A.</hi> (2007-2008). Palaeography and image-processing:
+                    some solutions and problems. <hi rend="italic">Digital Medievalist</hi> 3. <ref
+                        target="http://digitalmedievalist.org/journal/3/stokes/" type="external"
+                        >http://digitalmedievalist.org/journal/3/stokes/</ref> (accessed 15 March
+                    2012).</p>
+            <p><hi rend="bold">Stokes, P. A.</hi> (2009). Computer-aided palaeography: present and
+                future. In Rehbein, M., <hi rend="italic">et al</hi>. (eds), <hi rend="italic"
+                    >Kodikologie und Paläographie im Digitalen Zeitalter</hi>. Norderstedt: Books on
+                Demand. 309–338. <ref target="http://kups.ub.uni-koeln.de/2978/" type="external">http://kups.ub.uni-koeln.de/2978</ref> 
+                    (accessed 15 March 2012).</p>
+            <p><hi rend="bold">Stokes, P. A.</hi> (2011-2012). Describing script [Parts i–]. <hi
+                rend="italic">DigiPal Project Blog</hi>. King’s College London. <ref target="http://digipal.eu/blogs/blog/describing-handwriting-part-i/"
+                    type="external">http://digipal.eu/blogs/blog/describing-handwriting-part-i/</ref>
+                (accessed 15 March 2012).</p>
+            <p><hi rend="bold">Subramanian, A., et al.</hi> (2005). Gene set enrichment analysis: a
+                knowledge-based approach for interpreting genome-wide expression profiles. <hi
+                    rend="italic">Proceedings of the National Academy of Sciences of the United
+                    States of America</hi> 102(43): 15545-50.</p>
+            </div>
+        </back>
+    </text>
+</TEI>

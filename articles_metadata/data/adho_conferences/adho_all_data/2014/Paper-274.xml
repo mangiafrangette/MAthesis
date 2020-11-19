@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:x="http://www.w3.org/1999/xhtml" xmlns:exsl="http://exslt.org/common" xml:id="Paper-274">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Hartmut Skerbisch – Envisioning association processes of a conceptual artist</title>
+        <author>
+          <name>
+            <surname>Semlak</surname>, <forename>Martina</forename>
+          </name>
+          <affiliation>Centre for Information Modelling, University of Graz</affiliation>
+          <email>martina.semlak@uni-graz.at</email>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority/>
+        <publisher>EPFL, Switzerland</publisher>
+        <distributor>
+          <name>EPFL Digital Humanities Laboratory</name>
+          <address>
+            <addrLine>GC D2 386</addrLine>
+            <addrLine>Station 18</addrLine>
+            <addrLine>CH-1015 Lausanne</addrLine>
+            <addrLine>frederic.kaplan@epfl.ch</addrLine>
+          </address>
+        </distributor>
+        <pubPlace>Lausanne, Switzerland</pubPlace>
+        <address>
+          <addrLine>EPFL</addrLine>
+          <addrLine>CH-1015 Lausanne</addrLine>
+        </address>
+        <availability>
+          <p/>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note type="abstract">The contribution will present the digital genetic edition of the notebooks of the Austrian conceptual artist Hartmut Skerbisch. The central research question is how a digital genetic and semantically enriched edition can support the appreciation of an artist’s concepts and associations during the process of a work’s creation.  Therefore, prominent issues are (1) identifying the need for editions of (hand)written sources in art historical research, (2) addressing the difficulties in encoding the origination process of an edition and the application of the TEI recommendations for genetic edition to resolve them, and (3) using semantic annotation of concepts to track influences and association processes of the artist in order to facilitate the interpretation and comprehension of his work.</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>No source: created in electronic format.</p>
+        <p>
+          <date when="20140711"/>
+          <time when="09:00:00"/>
+        </p>
+		<p n="session">6</p>
+		<p n="room">315 - Amphipôle</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="original" n="category">
+          <term>Paper</term>
+        </keywords>
+        <keywords scheme="original" n="subcategory">
+          <term>Short Paper</term>
+        </keywords>
+        <keywords scheme="original" n="keywords">
+          <term>genetic edition</term>
+          <term>art historical edition</term>
+          <term>artists notebooks</term>
+          <term>semantic annotation</term>
+          <term></term>
+        </keywords>
+        <keywords scheme="original" n="topic">
+          <term>art history</term>
+          <term>encoding - theory and practice</term>
+          <term>scholarly editing</term>
+          <term></term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text type="paper">
+    <front>
+      
+      <div>
+        <p></p>
+      </div>
+    </front>
+    <body>
+      <div>
+        
+        <p>The paper will
+present the digital genetic edition of the notebooks of the Austrian conceptual
+artist Hartmut Skerbisch (1945-2009). The edition is currently emerging as part
+of a PhD project which explores the use and advantages of applying semantic
+technologies to art historical source materials. Therefore, the central
+research question is how a digital genetic and semantically enriched edition
+can support the appreciation of an artist’s concepts and associations during
+the process of a work’s creation. Such insights should facilitate the interpretation
+and comprehension of his work.
+
+</p>
+        <p>Hartmut Skerbisch dealt conceptually with an
+extended notion of sculpture and space and applied these ideas to his works. He
+explored the relation between these entities, especially how space in general is
+generated or changed through the interaction of sculpture with audience and
+setting (e.g. how can electricity generate or compress space) and how
+electronic media change our perception of space.<ref target="n1" rend="sup">1</ref><ref target="n2" rend="sup">2</ref>
+In his notes, he mentioned different authors, philosophers and novelists like
+James Joyce, Franz Kafka, Kathy Acker or Rudolf Steiner, as well as musicians
+and bands, ranging from classical to rock to blues music. He frequently cited
+passages from their works, commented on their ideas and theories, and consequently
+reflected them in his artistic expressions. </p>
+        <p> 
+The 35 notebooks originated between 1969 and 2008 and have a scope of around
+2100 pages. They include handwritten texts, calculations, formulas and sketches.
+The major editorial challenge regarding this source material is dealing with
+painted over or torn out passages, deletions and corrections. Skerbisch’s notes
+do not follow a linear construction, they are often fragmentary and lacking
+formal notation. Additionally, the interconnection between text, graphics,
+annotations and references to other text passages itself generates an artistic
+composition in the two-dimensional medium of the notebook. At first glance, texts
+and sketches seem to be randomly arranged on the surface: Closer inspection,
+however, reveals an underlying principle of the different building blocks,
+whose form, shape, size and placement give the entire text additional meaning. This
+feature of the notebooks calls for special attention to a document-oriented
+view in addition to a work-oriented view.<ref target="n3" rend="sup">3</ref></p>
+        <p>Consequently, the paper will discuss three key
+issues: </p>
+        <list type="ordered">
+          <item>The need for editions of (hand)written
+sources in art historical research is evident. The recent editions of the
+sketchbooks by Max Beckmann<ref target="n4" rend="sup">4</ref> as well as the class notes on form and
+design theory by Paul Klee<ref target="n5" rend="sup">5</ref> show that traditional
+philological edition methods are not entirely sufficient for art historical
+needs. Issues of text-image relationships - especially for these types of
+sources, where images are of equal value as texts or text passages themselves
+become graphic elements – have not been adequately resolved. </item>
+          <item>Writing a notebook is a process manifested in time and
+space, therefore the evolution of a text over time is an important aspect. A
+genetic edition focuses on the document aspect and attempts to trace the
+origination process with a view on corrections, deletions and additions of the
+text to envision the author’s original intentions.  Especially modern manuscripts, with
+fragmentary and cursory notes, often exist as unfinished drafts and put
+different demands on the editors.<ref target="n6" rend="sup">6</ref><ref target="n7" rend="sup">7</ref><ref target="n8" rend="sup">8</ref> The difficulties with digitally encoding such handwritten sources of visual
+artists with TEI are addressed: The paper will report on the benefits and
+drawbacks of the already implemented elements and attributes for genetic
+editions in the TEI guidelines and demonstrate their application on the
+material at hand.</item>
+          <item>Finally, the paper focuses on how semantic
+technologies could help to uncover the cultural and intellectual background of
+Hartmut Skerbisch’s creative work, through relating textual references to
+concepts. Recent research projects like the Theodor Fontane’s notebooks
+<ref target="n9" rend="sup">9</ref>
+pursue a similar approach and emphasize the importance of linking concepts for semantic
+analysis of the source material.</item>
+        </list>
+        <p>Thus, in addition to the content-related and
+formal structure of the text, recurring concepts like people, places, works of
+literature, music and film are annotated. For uniquely referencing such
+entities, controlled vocabularies as well as authority files such as VIAF, GND
+and GeoNames are used. Beyond
+that, the aforementioned concepts are further classified. The identified concepts
+are extracted from the TEI document, mapped to a RDF model and stored in a
+triple store to facilitate reasoning.<ref target="n10" rend="sup">10</ref> In this manner, implicit
+relationships between these concepts are established which are not explicitly
+present in the texts. For example, a quotation from a novel is linked to that
+novel’s author and other works of the same author. Thus, it is possible to
+compare and juxtapose the concepts used which allows for a variety of different
+analyses of the content. </p>
+        <p>
+
+ The advantages of these methods are a) bringing
+the fragmentary entries of the notebook into a content-related sequence, b) visualizing
+unexpected combinations and associative chains of concepts to show the
+many-faceted influences on the artist’s work, c) establishing a relation
+between the notebook entries and Skerbisch’s realized works of art and finally
+d) tracing the creative process to promote the understanding of his work. The
+insights gained in the process will provide a basis for further research questions
+and analysis in art history and digital edition.</p>
+      </div>
+    </body>
+    <back>
+      <div type="References">
+        <listBibl>
+          <bibl>1. <hi rend="bold">Fiedler, E.</hi> (2005). <hi rend="italic">Hartmut Skerbisch</hi>. Sphäre 315. <ref type="url" target="http://www.museum-joanneum.at/de/skulpturenpark/skulpturen/hartmut-skerbisch-1?overlay=true">www.museum-joanneum.at/de/skulpturenpark/skulpturen/hartmut-skerbisch-1?overlay=true</ref> (accessed 7 March 2014).
+          </bibl>
+          <bibl>2. <hi rend="bold">Fenz, W.</hi> (1994). <hi rend="italic">Hartmut Skerbisch</hi>. Werkauswahl 1969-1994. Graz: Neue Galerie.
+          </bibl>
+          <bibl>3. <hi rend="bold">Robinson, P.</hi> (2013). <hi rend="italic">Towards a Theory of Digital Editions</hi>, Variants – Journal of the European Society for Textual Scholarship, 10: 105-131.
+          </bibl>
+          <bibl>4. <hi rend="bold">Zeiller, C.</hi> (2010). <hi rend="italic">Max Beckmann. Die Skizzenbücher</hi>. Ein kritischer Katalog. München: Hatje Cantz.
+          </bibl>
+          <bibl>5. <hi rend="bold">Zentrum Paul Klee</hi> (2011). <hi rend="italic">Paul Klee – Bildnerische Form- und Gestaltungslehre</hi>. <ref type="url" target="http://www.kleegestaltungslehre.zpk.org">www.kleegestaltungslehre.zpk.org</ref> (accessed 7 March 2014).
+          </bibl>
+          <bibl>6. <hi rend="bold">Brüning, G., Henzel, K. and Pravida, D.</hi> (2013). <hi rend="italic">Multiple Encoding in Genetic Editions: The Case of ‘Faust’</hi>, Journal of the Text Encoding Initiative. <ref type="url" target="http://jtei.revues.org/697">jtei.revues.org/697</ref> (accessed 7 March 2014).
+          </bibl>
+          <bibl>7. <hi rend="bold">Burnard, L., Jannidis F., Pierazzo, E. and Rehbein, M. </hi>(2008-2013), <hi rend="italic">An Encoding Model for Genetic Editions.</hi> <ref type="url" target="http://www.tei-c.org/Activities/Council/Working/tcw19.html">www.tei-c.org/Activities/Council/Working/tcw19.html</ref> (accessed 7 March 2014).
+          </bibl>
+          <bibl>8. <hi rend="bold">Pierazzo, E.</hi> (2009). <hi rend="italic">Digital Genetic Editions</hi>. The Encoding of Time in Manuscript Transcription. In: Deegan, M. and Sutherland, K. (eds.), Text Editing, Print and the Digital World. Farnham: Ashgate, 169-186.
+          </bibl>
+          <bibl>9. <hi rend="bold">de la Iglesia, M. and Göbel, M.</hi> (2013). <hi rend="italic">From entity description to semantic analysis: The case of Theodor Fontane’s notebooks</hi>. In: Ciotti, F. and Ciula, A. (eds.), The Linked TEI: Text Encoding in the Web. TEI Conference and Members Meeting 2013, Rome: UniversItalia,  24-29.
+          </bibl>
+          <bibl>10. <hi rend="bold">Allemang, D. and Hendler, J.</hi> (2011). <hi rend="italic">Semantic Web for the Working Ontologist</hi>. Effective Modeling in RDFS and OWL. Burlington: Morgan Kaufmann.
+          </bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

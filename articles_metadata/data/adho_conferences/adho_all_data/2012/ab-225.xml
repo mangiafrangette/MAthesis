@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="../schema/xmod_web.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xmt="http://www.cch.kcl.ac.uk/xmod/tei/1.0" 
+     xml:id="ab-225">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Distractorless Authorship Verification</title>
+                <author>
+                    <name>Noecker Jr., John</name>
+                    <affiliation>Evaluating Variations in Language Laboratory, Duquesne University, USA</affiliation>
+                    <email>jnoecker@jgaap.com</email>
+                </author>
+                <author>
+                    <name>Ryan, Michael</name>
+                    <affiliation>Evaluating Variations in Language Laboratory, Duquesne University, USA</affiliation>
+                    <email>mryan@jgaap.com</email>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Jan Christoph Meister, Universität Hamburg</publisher>
+                <address>
+                   <addrLine>Von-Melle-Park 6, 20146 Hamburg, Tel. +4940 428 38 2972</addrLine>
+                   <addrLine>www.dh2012.uni-hamburg.de</addrLine>
+              </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>No source: created in electronic format.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2012-04-15</date>
+                <name>DH</name>
+                <desc>generate TEI-template with data from ConfTool-Export</desc>
+            </change>
+            <change>
+                <date>2012-04-13</date>
+                <name>LS</name>
+                <desc>provide metadata for publicationStmt</desc>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="paper">
+        <body>
+            
+            <div>
+                <head>Introduction</head>
+                <p>In traditional authorship attribution, our task is to assign an author label (or
+                    a similar categorical label such as genre, publication date, etc.) to a work of
+                    unlabeled authorship. In the closed-set problem, we assign a label from a set of
+                    potential authors for whom we have some labeled training data. In the open-set
+                    problem, we also allow for the answer ‘none of the above’. We build upon this
+                    here with the authorship verification task, which is essentially an open-class
+                    authorship attribution problem with only one author in the candidate pool. Thus
+                    for a given document D and candidate author A, we attempt to answer the question
+                    ‘Was D written by A?’.</p>
+            </div>
+            <div>
+                <head>Background</head>
+                <p>Previous approaches to this problem [1-2] have involved the creation of a
+                    distractor set, which is normally controlled for genre, tone, length, etc. and
+                    performing an a traditional authorship attribution-style analysis to see whether
+                    the unlabeled document is more likely to be by the candidate author or one of
+                    the authors in the distractor set. This approach is not ideal because it relies
+                    heavily on the creation of an appropriate distractor set. That is, enough
+                    information was available about the candidate author and the training documents
+                    to choose a set of distractor authors that were appropriate for the task. Thus,
+                    although these methods performed well at the verification task, they do not lend
+                    themselves well to automation. Indeed, the entire result of this type of
+                    authorship verification hinges upon the documents chosen for the distractor set.
+                    This creates a sort of chicken-and-egg problem wherein it is necessary to know
+                    the answer in order to evaluate the suitability of the distractor set, yet it is
+                    necessary to know whether the distractor set is appropriate in order to evaluate
+                    the results.</p>
+                <p>We will attempt to remedy the errors introduced by the distractor set by
+                    eliminating the set entirely. Instead, we will consider only the document in
+                    question as well as a sample of writing known to belong to the candidate author.
+                    Thus, the validity of the verification task hinges only on obtaining a
+                    representative model of the candidate author’s work, a requirement shared by
+                    traditional verification tasks, and does not involve any guesswork. </p>
+            </div>
+            <div>
+                
+                <head>Materials and Methods</head>
+            
+            <div>    
+                <head>Distractorless Authorship Verification</head>
+                <p><hi rend="italic">Goal</hi>: Given a document <hi rend="italic">D</hi>, and a
+                    candidate author <hi rend="italic">A</hi>, determine the likelihood that <hi
+                        rend="italic">D</hi> is written by <hi rend="italic">A</hi>.</p>
+                <p><hi rend="italic">Method:</hi></p>
+                
+                <xmt:oList rend="arabic">
+                <item>Compile a set of <hi rend="italic">training data</hi>, which is known to be
+                    written by <hi rend="italic">A</hi>.</item>
+                <item>Compile a <hi rend="italic">model</hi> from the training data. This is
+                    normally accomplished by extracting linguistic or token-level features from the
+                    text and compiling a feature vector using any of various standard techniques
+                    from the authorship attribution field. We will label this feature vector <hi
+                        rend="italic">M = &lt;m1, m2, …, mn&gt;.</hi></item>
+                <item>Extract a <hi rend="italic">feature set</hi>, <hi rend="italic">F</hi>, from
+                        <hi rend="italic">D</hi> in the form of <hi rend="italic">F = &lt;f1, f2, …,
+                        fn&gt;</hi>, where <hi rend="italic">fi </hi>corresponds to <hi
+                        rend="italic">mi </hi>for all <hi rend="italic">i</hi>. </item>
+                <item>Choose a ‘distance like’ function, <hi rend="italic"><foreign>δ</foreign></hi>, such that if
+                        <hi rend="italic"><foreign>δ</foreign>(x, y) &gt; <foreign>δ</foreign>(x, z)</hi>, we can say that <hi
+                        rend="italic">x</hi> is ‘closer to’ or ‘more similar to’ <hi rend="italic"
+                        >y</hi> than to <hi rend="italic">z</hi> (in some meaningful way).</item>
+                <item>Choose a threshold, <hi rend="italic">t</hi>, such that if <hi rend="italic"
+                        ><foreign>δ</foreign>(M, F) &gt; t</hi>, we accept the premise that <hi rend="italic">M</hi>
+                    and <hi rend="italic">F</hi> are written by the same author, <hi rend="italic"
+                        >A</hi>. This threshold is found empirically by analyzing the average <foreign>δ</foreign>
+                    between documents of the same author.</item>
+                </xmt:oList>
+                </div>
+            
+                <div>
+                <head>The Corpora</head>
+                <p>To evaluate the performance of our authorship verification algorithms, we used
+                    two publically-available corpora. We made use of the Ad-hoc Authorship
+                    Attribution Competition corpus (AAAC) [3] and the PAN 2011 Authorship
+                    Identification Training Corpus [4].</p>
+                              
+                <p><hi rend="bold">Ad-hoc Authorship Attribution Competition Corpus</hi></p>
+                    <p>The AAAC was an experiment in authorship attribution held as part of the 2004
+                        Joint International Conference of the Association for Literary and
+                        Linguistic Computing and the Association for Computers and the Humanities.
+                        The AAAC provides texts from a wide variety of different genres, languages
+                        and document lengths, assuring that the results will be useful for a wide
+                        variety of applications. The AAAC corpus consists of 264 training documents,
+                        98 test documents and 63 authors, distributed across 13 different problems
+                        (labeled A-M). A description of each problem is found in Table 1.</p>
+               
+                    <p><figure><graphic url="tabl225-1.jpg" rend="left" height="256px" width="341px" mimeType="image/jpeg"/><head>Table 1: AAAC Breakdown</head></figure></p>
+                    
+                    <p><hi rend="bold">PAN 2011 Authorship Identification Training Corpus</hi></p>
+                    <p>The PAN 2011 Authorship Identification Training Corpus consists of
+                        ‘real-world texts’ (described by the originators as ‘often short and messy’
+                        [4]). These texts appear to come primarily from the Enron Email Dataset [5].
+                        Each text contained authorship information within the text itself, which was
+                        removed during the preprocessing stage. They are included to ensure that the
+                        results obtained herein are applicable in real-world situations, and to
+                        avoid overtraining on the AAAC data. The PAN corpus contained 5,064 training
+                        documents and 1,251 test documents across 10 authors.</p>
+                
+                        
+                </div> 
+            <div>
+                    <head>Preprocessing</head>
+                    <p>Preprocessing was performed on the text based on current best practices from
+                        traditional authorship attribution. Both corpora were preprocessed to
+                        standardize whitespace and character case. Any sequence of whitespace
+                        characters in the documents converted to a single space, and all characters
+                        were converted to lower case. As previously mentioned, for the PAN corpus,
+                        we also removed the author tags from each document.</p>
+                </div>
+            
+            <div>
+                    <head>Features</head>
+                    <p>We used a variety of features, also chosen for their known performance in
+                        traditional authorship attribution, in our approach. Current research [6]
+                        shows that character n-grams are strong performers in traditional authorship
+                        attribution tasks. As such, we have focused on these features, examining
+                        results for character n-grams for n from 1 to 20. For completeness, we also
+                        provide results for word n-grams for n from 1 to 10. Here, a word is defined
+                        as any series of non-whitespace characters separated by whitespace. The
+                        n-grams are generated using a sliding window of size <hi rend="italic"
+                            >n</hi> and slide 1. We have limited ourselves to these simple features
+                        as they can be calculated very rapidly and without risk of error (such as
+                        that introduced by imperfect part-of-speech taggers), and thus lend
+                        themselves well to rapid, confident analysis. </p>
+                </div>
+            <div>
+                    <head>Author Model</head>
+                    <p>In order to perform the distractorless authorship verification, it is
+                        necessary to accurately model the writing style of the candidate author. We
+                        accomplished this using the centroid of the feature vectors for each
+                        training document. The centroid was calculated by using the average <hi
+                            rend="italic">relative</hi> frequency of each event across the training
+                        documents, to adjust for variations in training document length. </p>
+            </div>
+            <div>
+                <head>Analysis Method</head>
+                <p>For this study, we have limited ourselves to the use of a normalized
+                        dot-product (<hi rend="italic">Cosine Distance</hi>) analysis method. This
+                        method was shown in [7] to be among the best performing and simplest methods
+                        for authorship attribution. The advantage to using the Cosine Distance,
+                        particularly in conjunction with the simple features described above, is
+                        that it is possible to perform this verification extremely quickly, even on
+                        very large data sets. In order to answer the verification task, we need only
+                        consider the dot product of the unknown document with the candidate author
+                        model. So, let: </p>
+            
+                <p><figure><graphic url="img225-1.jpg" rend="left" height="256px" width="341px" mimeType="image/jpeg"/></figure></p>
+            </div>
+            
+            <div>
+                    <head>Evaluation Metrics</head>
+                    <p>For each set of results below we report the ‘accuracy’ of a particular
+                        experiment. For the purposes of this paper, we define the accuracy as the
+                        number of correctly classified texts divided by the total number of
+                        attempts.</p>
+            </div>
+            </div>
+            
+            
+            <div>           
+                    <head>Results</head>
+            
+            <div>
+                 <head>AAAC Corpus Results</head>
+                <p><hi rend="bold">Characters</hi></p>
+                    <p>For the AAAC Corpus with character n-grams, we achieved our best results
+                        using Character 12-grams. Our highest accuracy was 87.44% with a threshold,
+                        t, of t=0.099387. For character n-grams of various values of n, our best
+                        accuracies varied from about 86% to about 88% as seen in Figure 1.</p>
+                
+                <p><figure>
+                            <graphic url="img225-2.jpg" rend="left" height="256px" width="341px"
+                                mimeType="image/jpeg"/>
+                            <head>Figure 1: AAAC Character n-grams by Highest Accuracy</head>
+                        </figure></p>
+                
+                <p><hi rend="bold">Words</hi></p>
+                    <p>For the AAAC Corpus with word n-grams, we achieved our best results using
+                        Word 4-grams. Our highest accuracy was 88.04. These results were achieved by
+                        setting a threshold t=0. For word n-grams of various values of n, our best
+                        accuracies varied from about 86% to about 88% as shown in Figure 2.</p>
+            
+                <p><figure>
+                            <graphic url="img225-3.jpg" rend="left" height="256px" width="341px"
+                                mimeType="image/jpeg"/>
+                            <head>Figure 2: AAAC Word n-grams by Highest Accuracy</head>
+                        </figure></p>
+                
+            </div>
+                
+            <div>
+                <head>PAN Corpus Results</head>
+                <p><hi rend="bold">Characters</hi></p>
+                <p>For the PAN Corpus with character n-grams, we achieved our best results using
+                        Character 7-grams. Our highest accuracy was 92.23% with <hi rend="italic">t
+                            = 0.1643</hi> and <hi rend="italic">t = 0.1707 </hi>respectively. For
+                        character n-grams of various values of n, our best accuracies varied from
+                        about 90% to about 92% as shown in Figure 3.</p>
+             
+                <p><figure>
+                            <graphic url="img225-4.jpg" rend="left" height="256px" width="341px"
+                                mimeType="image/jpeg"/>
+                            <head>Figure 3: PAN Character n-grams by Highest Accuracy</head>
+                        </figure></p>
+                
+            </div>
+             
+            <div>
+                <p><hi rend="bold">Words</hi></p>
+                <p>For the PAN Corpus with word n-grams, we achieved our best results using Word
+                        2-grams. Our highest accuracy was 91.53%. These results were achieved by
+                        setting a threshold, <hi rend="italic">t</hi>, of<hi rend="italic"> t =
+                            0.1518</hi>. For word n-grams of various values of n, our best
+                        accuracies varied from about 90% to about 92% as shown in Figure 4.</p>
+             
+                <p><figure>
+                            <graphic url="img225-5.jpg" rend="left" height="256px" width="341px"
+                                mimeType="image/jpeg"/>
+                            <head>Figure 4: PAN Word n-grams by Highest Accuracy</head>
+                        </figure></p>
+            </div>   
+             </div>
+            
+             <div>
+              <head>Discussion and Conclusion</head>
+                    <p>These results are as expected, and show that distractorless authorship
+                        verification is a viable technique with high accuracy even on extremely
+                        difficult problems. The lower accuracy rates on the AAAC Corpus are
+                        expected, as this corpus contains many times more authors than the PAN
+                        corpus with fewer training documents per author. Despite this, we were able
+                        to achieve accuracy rates of up to 88% on this more difficult corpus, and
+                        92% on the ‘easier’ PAN corpus.</p>
+                    <p>It should be noted that the results of this technique are extremely tunable.
+                        For instance, we can tune for any combination of accuracy, precision and
+                        recall as desired. That is, this distractorless authorship verification
+                        technique allows us to tune the Type I (false positive) vs. Type II (false
+                        negative) error rates depending on the application of the technology. For
+                        instance, in a forensic context we may want to err on the side of saying
+                        ‘no’, and thus prefer to reduce false positives, while in a less stringent
+                        application we may wish to improve the overall accuracy at a cost of
+                        possibly having more false positives.</p>
+                    <p>Given the performance on both the PAN corpus, which consisted mainly of
+                        real-life e-mail messages, and the AAAC corpus, which contained a wide
+                        variety of documents, the distractorless authorship verification technique
+                        shows promise for a wide range of genres and document lengths, and appears
+                        to work across a variety of languages, all without much tuning. Indeed, the
+                        only difficulty appears to be in finding an appropriate threshold, <hi
+                            rend="italic">t</hi>, for given candidate author. This is possible by
+                        analyzing the average <foreign>δ</foreign> between documents by the candidate author. It can
+                        also be approximated from a large corpus, as was done here, although these
+                        results make it clear that there will be some of the same problems in
+                        controlling the corpus for genre, document length, etc. that were present in
+                        forming a distractor set for traditional authorship verification. </p>
+                    <p>Future work will focus on improving these results, mainly through the
+                        addition of confidence ratings for the verification answers. That is, by
+                        allowing the system to decline to answer some percentage of the verification
+                        questions asked (or, effectively, to answer ‘I don’t know’), we have seen
+                        some improvement in these experimental results. Although full results for
+                        this study are not yet available, we have seen that by dropping the 20%
+                        ‘most difficult’ verification problems, we see an increase in accuracy to
+                        approximately 96% (from 92% on the strict binary problem). Whether or not
+                        this is truly an increase in accuracy depends upon the intended application
+                        of the technology, but we believe this future work will provide interesting
+                        results in application-specific tradeoffs, as described above.</p>
+                    <p>Overall, we believe we have shown this distractorless authorship verification
+                        to be a useful tool on the stylometrist’s workbench. Although no tool is
+                        itself a panacea, we are also planning efforts to combine this technique
+                        with a mixture-of-experts style voting system, effectively using multiple
+                        distance functions and feature sets on the same problem to increase
+                        confidence in our answer. Finally, we hope to both more fully explore the
+                        process of determining the appropriate threshold without the need for
+                        extraneous texts, and to find an acceptable ‘default’ threshold for cases
+                        where there is little training data. </p>
+                </div>
+                
+        </body>
+        <back>
+            <div>
+               <head>References</head>
+           
+            <p><hi rend="bold">[1] Koppel, M., and J. Schler</hi> (2004). Authorship Verification as
+                    a One-Class Classification Problem. <hi rend="italic">ICML ’04 Proceedings of
+                        the Twenty-First International Conference on Machine Learning</hi>. New
+                    York, NY</p>
+            <p><hi rend="bold">[2] Koppel, M., and J. Schler</hi> (2004). Text Categorization for
+                    Authorship Verification. <hi rend="italic">8th Symposium on Artificial
+                        Intelligence</hi>.</p>
+            <p><hi rend="bold">[3] Juola, P.</hi> (2004). Ad-Hoc Authorship Attribution Competition.
+                        <hi rend="italic">ALLC/ACH 2004 Conference Abstracts</hi>. Gothenberg:
+                    University of Gothenberg.</p>
+            <p><hi rend="bold">[4] PAN 2011 Lab</hi> (2011). Uncovering Plagiarism, Authorship, and
+                    Social Software Misuse. <hi rend="italic">Authorship Identification Training
+                        Corpus</hi>. Amsterdam.</p>
+            <p><hi rend="bold">[5] Enron Email Dataset</hi>. <ref
+                        target="http://www.cs.cmu.edu/~enron/" type="external"
+                        >http://www.cs.cmu.edu/~enron/</ref>.</p>
+            <p><hi rend="bold">[6] Juola, P., and M. Ryan</hi> (2008). Authorship Attribution,
+                    Similarity, and Noncommutative Divergence Measures. In <hi rend="italic"
+                        >Selected Papers from the Chicago DHCS Colloquium</hi>. 2008. Chicago, IL,:
+                    Chicago Colloquium on Digital Humanities and Computer Science.</p>
+           <p><hi rend="bold">[7] Noecker Jr, J., and P. Juola</hi> (2009). Cosine Distance
+                    Nearest-Neighbor Classification for Authorship Attribution. In <hi rend="italic"
+                        >Proceedings from Digital Humanities 2009</hi>. College Park, Md.: Digital
+                    Humanities.</p>
+        </div>
+        </back>
+    </text>
+</TEI>

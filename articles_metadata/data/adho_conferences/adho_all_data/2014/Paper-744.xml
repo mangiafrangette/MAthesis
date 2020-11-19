@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:x="http://www.w3.org/1999/xhtml" xmlns:exsl="http://exslt.org/common" xml:id="Paper-744">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>ClipNotes: Digital Annotation and Data­Mining for Film &amp; Television Analysis</title>
+        <author>
+          <name>
+            <surname>deWaard</surname>, <forename>Andrew</forename>
+          </name>
+          <affiliation>University of California, Los Angeles, United States of America</affiliation>
+          
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority/>
+        <publisher>EPFL, Switzerland</publisher>
+        <distributor>
+          <name>EPFL Digital Humanities Laboratory</name>
+          <address>
+            <addrLine>GC D2 386</addrLine>
+            <addrLine>Station 18</addrLine>
+            <addrLine>CH-1015 Lausanne</addrLine>
+            <addrLine>frederic.kaplan@epfl.ch</addrLine>
+          </address>
+        </distributor>
+        <pubPlace>Lausanne, Switzerland</pubPlace>
+        <address>
+          <addrLine>EPFL</addrLine>
+          <addrLine>CH-1015 Lausanne</addrLine>
+        </address>
+        <availability>
+          <p/>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note type="abstract">This presentation will demonstrate a UCLA software project entitled ClipNotes, a collaborative, XML-based Windows/iPad app project that facilitates quick annotation, segmentation and presentation of film clips. The design of ClipNotes is deceptively simple: it allows users to mark up video files with metadata in easily-produced XML files that when connected to a video file, allow for precise, granular analysis that is easily disseminated and presented. All XML files are archived in a public database, which allows for widespread sharing of textual analysis and provides an invaluable teaching resource. Examples will be shown of traditional textual analysis amplified by software, as well as a demonstration of how ClipNotes can be integrated into the classroom, allowing students to contribute to an open-access database. ClipNotes demonstrates how software applications can be utilized to enact detailed analysis, archive and disseminate insights, and welcome students into the sphere of knowledge production.</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>No source: created in electronic format.</p>
+        <p>
+          <date when="20140710"/>
+          <time when="09:00:00"/>
+        </p>
+		<p n="session">4</p>
+		<p n="room">415 - Amphimax</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="original" n="category">
+          <term>Paper</term>
+        </keywords>
+        <keywords scheme="original" n="subcategory">
+          <term>Short Paper</term>
+        </keywords>
+        <keywords scheme="original" n="keywords">
+          <term>Audiovisual Analysis</term>
+          <term>Digital Annotation</term>
+          <term>Cultural Analytics</term>
+          <term></term>
+        </keywords>
+        <keywords scheme="original" n="topic">
+          <term>image processing</term>
+          <term>audio</term>
+          <term>video</term>
+          <term>multimedia</term>
+          <term>encoding - theory and practice</term>
+          <term>film and cinema studies</term>
+          <term>metadata</term>
+          <term>software design and development</term>
+          <term>text analysis</term>
+          <term>xml</term>
+          <term>content analysis</term>
+          <term>bibliographic methods / textual studies</term>
+          <term>media studies</term>
+          <term></term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text type="paper">
+    <front>
+      
+      <div>
+        <p></p>
+      </div>
+    </front>
+    <body>
+      <div>
+        <p>In the age of Big Data and technology­assisted research, scholarship in the humanities is
+developing innovative new approaches and methodologies, be they quantifiable and visual (Moretti,
+2005), algorithmic (Ramsay, 2011), built upon ‘distant’ and ‘machine’ readings (Hayles, 2012) and
+‘cultural analytics’ (Manovich, 2009), or of the many possibilities and techniques offered in the field of
+Digital Humanities (Burdick et al, 2012). Film and television analysis, however, has been slow to adapt
+digital data­driven research. This presentation will demonstrate a software project entitled ClipNotes, a
+software application created by Dr. Stephen Mamber at UCLA along with a team of graduate students
+that are helping to develop it. Examples will be shown of both traditional textual analysis amplified by the
+software and my own research that quantifies product placement and brand integration in film and
+television. </p>
+        <p>Though cinema and media studies has rightfully continued on its course of splintering and
+diversifying into a multitude of interdisciplinary amalgamations and sub­disciplines, close textual analysis
+remains at the heart of what we do, particularly with regards to teaching. Technology has dramatically
+increased our ability to deconstruct a film text, from VHS to DVD to digital interfaces which allow even
+more minute control over image and sound. Creating clips and screengrabs is becoming easier and is an
+increasingly common feature of lectures and presentations, but the method of visual analysis itself hasn’t
+advanced very much, nor has the incorporation of many other research technologies. Notably, the use
+of programming and algorithmic analysis is quite limited in film studies research compared to other
+disciplines within the humanities which are utilizing digital tools to invigorate their methods and broaden their scope.</p>
+        <p>ClipNotes is an iPad and Windows 8 app that facilitates quick segmentation, annotation and presentation of film clips, an example of the research possibilities that are provided in a collaborative,
+database-­driven, XML-­based software environment. The design of ClipNotes is deceptively simple: it
+allows users to mark up video files with metadata and present this analysis. Start/stop times, clip
+descriptions, and captions are assembled in easily­produced XML files, which stands for extensible
+markup language that is both human and machine readable. When the XML file is linked to the video
+file, precise, granular analysis is made possible and is easily presented and disseminated. A public
+repository for these XML files is available at clipnotes.org, which will allow for widespread sharing of
+textual analysis and should provide an invaluable teaching resource. Users are encouraged to upload
+their own XML files for inclusion and we have begun building an extensive database of freely available
+teaching and research materials. For obvious copyright reasons, the films are not included, but guides
+are available to demonstrate how DVDs can be easily and legally encoded into digital files under fair use
+exemptions. Then, the video is linked together with the XML file by the application. In practice,
+ClipNotes collapses the research and presentation process by bridging the two: your textual research
+and analysis is the development of your presentation.
+</p>
+        <p>To get the archive started, a series of films have been coded in XML and are available for
+teaching usage.<hi rend="italic"> Citizen Kane</hi>, of course, has been catalogued, providing quick access to its landmark
+visual style. All instances of deep focus, triangular framings, door and window framings, graphic
+matches, media representations, and the motifs of light and bulbs, bars and fences, and mirrors are
+quickly and easily accessible through ClipNotes. The ability to quickly but briefly demonstrate a series
+of scenes ­­ particularly ones involving sound or camera and character movement ­­ is a tremendous 		
+	
+	
+		
+			
+				
+					
+						resource in a lecture or presentation situation. One of the distinct strengths of film is the symphonic
+arrangement of audiovisual patterns, something that is lost in merely showing screen grabs or a few
+extended scenes.</p>
+        <p>Beyond this kind of instructional usage, however, the practice of granular analysis can reveal
+new discoveries in even the most well­worn films. Hitchcock is likely the most thoroughly researched
+auteur, but with the ability to isolate and compare shots on a frame­by­frame basis, very subtle visual
+patterns can be identified. For instance, the ability to document the most minute patterns in <hi rend="italic">Psycho</hi>
+reveals a micro­detailed facial dramaturgy that adds significant visual emphasis to Hitchcock’s already
+complex exploration of identity. </p>
+        <p>Douglas Sirk is another master of this kind of over-­determined mise-­en-­scene, and a fitting
+subject for ClipNotes, as well as my own work that concerns the political economy of media as a textual phenomenon. <hi rend="italic">Written on the Wind</hi> is a fine example, and for my analysis I catalogued over 100
+examples of 4 distinct patterns: frame within frames and obscured frames, the mirror motif, vertical
+objects as phallic imagery, and what I hope is a new addition to the already ­extensive Sirk Studies
+archive: the product shot. While Sirk’s satirical savvy is well­documented by scholars, the contradictory
+impulse ­­ the ways in which he helped promote and fetishize the very consumer culture he was satirizing
+­­ is a less prominent element of his legacy. Barbara Klinger provides a useful corrective of his body of
+work in <hi rend="italic">Melodrama and Meaning: History, Culture, and the Films of Douglas Sirk</hi>, in which she
+considers the various extra­-textual discourses (academic, industrial, trade, popular press, star, gossip,
+camp) that have contributed to Sirk’s legacy, but she expressly decides not to engage in any textual
+analysis, as her interest is in the surrounding discourse. I believe textual analysis could be a useful
+addition to furthering her nuanced reading of Sirk, particularly the industrial and promotional elements of 		
+	
+	
+		
+			
+				
+					
+						his work that get overlooked in favour of his more critical characteristics. </p>
+        <p>Klinger shows how <hi rend="italic">Written on the Wind</hi> was heavily promoted in women’s magazines as a part of lifestyle marketing, particular tie-­ins with its fashion, make-­up and home decor. Textual analysis
+of the film itself reveals a similar impetus for commercial promotion, catalogued here as the “product
+shot.” At least two dozen shots of consumer products are featured in the film, most prominently luxury
+cars, fashion, and jewellery. The first scene immediately establishes the patterns of framing, mirrors and
+vertical objects, but it also quickly pronounces the importance of products, by featuring Kyle’s shiny,
+yellow sportscar. Far from claiming that this kind of quasi­product placement deems Sirk some sort of
+sell­out or salesman, I think a more complete picture of all that Sirk accomplished in his films just adds
+to his stature. That he was able to satisfy the high standards of critics, scholars, studio executives, and
+promotional agents is a testament to the complexity of his filmmaking ability. It also provides some
+insight into the early history of product placement, brand integration, and transmedia.</p>
+        <p>ClipNotes and XML­-encoding provides the opportunity to generate and catalogue large data sets of analytic material for audiovisual texts, lending quantification and data ­processing possibilities in
+the future. Sound and image are inherently more difficult to catalogue and quantify than the written word,
+which accounts for some of the delay in the use of digital humanities methods in cinema and media
+studies, but creative new digital tools should be able to bridge this gap. Similar to the Text Encoding
+Initiative, the data­mining prospects generated by ClipNotes are impressive. With the assistance of
+digital tools, we will be able to both dig deep into solitary texts, discovering and quantifying
+micro-­relationships, while also mapping broad, macro-­cultural dynamics as a result of this wide-­ranging
+data. In a digital era marked by the vast proliferation of complex texts, software applications can be
+utilized to enact a more rigorously detailed analysis, to archive and disseminate provocative insights, and 		
+	
+	
+		
+			
+				
+					
+						to extend digital scholarship. </p>
+        <p>Thank you, and please visit clipnotes.org for more information.</p>
+     
+        
+      </div>
+    </body>
+    <back>
+      <div type="References">
+        <listBibl>
+          <bibl><hi rend="bold">Burdick, Anne et al.</hi><hi rend="italic">Digital_Humanities</hi>. The MIT Press, 2012.
+          </bibl>
+          <bibl><hi rend="bold">Hayles, N. Katherine.</hi><hi rend="italic">How We Think: Digital Media and Contemporary Technogenesis</hi>. University
+            Of Chicago Press, 2012.
+          </bibl>
+          <bibl><hi rend="bold">Klinger, Barbara.</hi><hi rend="italic">Melodrama and Meaning : History, Culture, and the Films of Douglas Sirk</hi>.
+            Bloomington: Indiana University Press, 1994.
+          </bibl>
+          <bibl><hi rend="bold">Manovich, Lev.</hi><hi rend="italic">"Cultural analytics: Visualizing cultural patterns in the era of more media."</hi> Domus: 923
+            (2009).
+          </bibl>
+          <bibl><hi rend="bold">Moretti, Franco</hi>. <hi rend="italic">Graphs, Maps, Trees: Abstract Models For A Literary History</hi>. Verso, 2005.
+          </bibl>
+          <bibl><hi rend="bold">Ramsay, Stephen</hi>. <hi rend="italic">Reading Machines: Toward an Algorithmic Criticism.</hi> University of Illinois Press,
+            2011. </bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

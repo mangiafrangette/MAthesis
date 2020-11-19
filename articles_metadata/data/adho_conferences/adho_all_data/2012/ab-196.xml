@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="../schema/xmod_web.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xmt="http://www.cch.kcl.ac.uk/xmod/tei/1.0" 
+     xml:id="ab-196">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Intertextuality and Influence in the Age of Enlightenment: Sequence Alignment Applications for Humanities Research</title>
+                <author>
+                    <name>Roe, Glenn H.</name>
+                    <affiliation>University of Oxford, UK</affiliation>
+                    <email>glenn.roe@mod-langs.ox.ac.uk</email>
+                </author>
+                <author>
+                    <name>The ARTFL Project</name>
+                    <affiliation>University of Chicago, USA</affiliation>
+                   
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Jan Christoph Meister, Universität Hamburg</publisher>
+                <address>
+                   <addrLine>Von-Melle-Park 6, 20146 Hamburg, Tel. +4940 428 38 2972</addrLine>
+                   <addrLine>www.dh2012.uni-hamburg.de</addrLine>
+              </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>No source: created in electronic format.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2012-04-15</date>
+                <name>DH</name>
+                <desc>generate TEI-template with data from ConfTool-Export</desc>
+            </change>
+            <change>
+                <date>2012-04-13</date>
+                <name>LS</name>
+                <desc>provide metadata for publicationStmt</desc>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="paper">
+        <body>
+            <div>
+                <head>Introduction</head>
+                <p>The relationships between texts are multifaceted and complex, ranging from
+                    directly attributed quotations to indirect influences and faint allusions.
+                    Tracing these links at all levels is a core humanistic endeavor that can
+                    illuminate the meaning and reception of texts through the identification and
+                    examination of references, commonplaces, borrowings, re-workings, and even
+                    plagiarism. To aid in this sort of intertextual discovery, computational methods
+                    for examining literary text reuse can draw upon sequence alignment techniques
+                    developed primarily for gene sequencing programs in bio-informatics and
+                    plagiarism detection systems, with specific adaptations to suit the needs of
+                    humanities scholars. This paper examines just such an approach, first describing
+                    an open-source software package developed by the ARTFL Project at the University
+                    of Chicago for text reuse discovery in digitized text collections, and then
+                    offering a concrete application of this technique for literary critical
+                    research.</p>
+                <p>The software, named ‘PAIR: Pairwise Alignment for Intertextual Relations’ (Horton
+                    et al. 2010), applies sequence alignment techniques to large collections of
+                    literary and historical texts over several languages. The PAIR system first
+                    indexes documents by breaking them into overlapping sequences of words, called
+                    ‘n-grams’ or ‘shingles,’ and then creates a database of the occurrences of each
+                    shingle in a given corpus. This index allows for the discovery of text reuse by
+                    looking for occurrences of the same word sequences shared between documents or
+                    within different parts of the same document. Through various tuning parameters,
+                    this technique can be made flexible enough to find sequence matches with minor
+                    differences in word order, missing words, orthographic variations, misrecognized
+                    characters, and other textual variants. The first part of this paper will thus
+                    examine the philosophy behind the PAIR approach, the algorithmic design, its
+                    implementation as an open-source Perl module, and its eventual application to a
+                    variety of tasks relevant to humanities and social science research.</p>
+            </div>
+            <div><head>Background</head><p>While technology is a relatively new entrant to the
+                    domain of textual studies, it nonetheless offers scholars important tools for
+                    tracing the currents of literary text reuse. Indeed, this form of
+                    ‘intertextuality’ can be considered a specific case of the more general problem
+                    of sequence alignment; that is, the task of identifying regions of similarity
+                    shared by two strings or sequences, often thought of as the longest common
+                    substring problem. This technique is widely applied in the field
+                    bio-informatics, where it is used to identify repeated genetic sequences, and
+                    for plagiarism detection in texts or computer programs (Clough et al. 2002; Lyon
+                    et al. 2001; Bourdaillet &amp; Ganascia 2007). </p><p>In creating PAIR, we
+                    attempted to adapt existing techniques to suit the particular needs of
+                    humanities scholarship. Many algorithms such as BLAST exist for identifying
+                    duplicated DNA, for example, but these tend to emphasize speed over
+                    completeness. In text analysis, our corpora are small enough and our interest
+                    deep enough that we can emphasize retrieving as many hits as possible, since
+                    computation time is cheap and literary scholars are not traditionally in a
+                    hurry. The scholar’s time, however, is quite valuable, so we want to return
+                    results that are of maximal interest, avoiding a preponderance of banal
+                    commonplaces such as ‘Your devoted, humble servant.’</p><p>PAIR is thus based on <hi rend="italic">k-tuple</hi> heuristics that provide a suitable balance
+                    of efficiency against completeness. Applied to text data, this involves the
+                    generation of ‘shingles’ (or n-grams), which are overlapping sequences of words.
+                    Preprocessing, such as removal of function and short words and reduction of
+                    orthographic variants (accents, spelling changes, case, etc.), is performed
+                    during shingle generation. This has the effect of folding numerous shingles into
+                    one underlying form for matching purposes, thus eliminating minor textual
+                    variations, which makes matching more flexible or ‘fuzzy.’ It also somewhat
+                    reduces the overall number of unique shingles, which aids speed of search (Seo
+                    &amp; Croft 2008).</p><p>Once
+                    identified, the shingles within a defined window surrounding the shared shingle
+                    in each document are compared and evaluated. PAIR allows the user to set
+                    criteria for the acceptability of matches, such as the minimum overlap in
+                    shingles between the two sets, the minimum length of a shared shingle sequence,
+                    or the maximum number of consecutive gaps allowed between matching sequences in
+                    either set. If the criteria are met, the match is expanded, examining wider
+                    contexts in each document, until the criteria are violated, at which point the
+                    match is terminated and recorded. Furthermore, user configurable parameters for
+                    match retention and expansion allow for the fine-tuning of results, which is
+                    particularly important given the often ‘noisy’ information space of many
+                    humanities text collections.</p></div>
+                <div><head>Use Case: Voltaire and the
+                    Encyclopédie</head><p>As a concrete use case for the PAIR approach outlined
+                    above, we examined the intertextual relationships of two of the 18th-century’s
+                    most important text collections: Denis Diderot and Jean d’Alembert’s philosophic
+                    war machine, the <hi rend="italic">Encyclopédie</hi> (28 <hi rend="italic"
+                        >in-folio </hi>volumes, published from 1751 to 1772 – digital edition
+                    provided by the ARTFL Project, University of Chicago), and the Complete Works of
+                    Voltaire (over 100 volumes, data provided by the Voltaire Foundation, University
+                    of Oxford). Both resources represent monuments of Enlightenment thought as well
+                    as model digital humanities databases: highly curated collections of
+                    historically significant texts built using the open-source PhiloLogic search and
+                    analysis software developed at the University of Chicago. By comparing these two
+                    data sets using the PAIR sequence alignment approach, we can come to a better
+                    understanding of the multifaceted and at times problematic relationship – one of
+                    influence, anxiety, and intertextuality – between the French Enlightenment’s
+                    most emblematic writer and its most widely-read text.</p><p>Though initially
+                    enthusiastic about the promise and ambitions of Diderot and d’Alembert’s
+                    project, Voltaire nonetheless contributed only 45 articles to the enterprise
+                    (Voltaire 1987). This curious lack of engagement on the part of one of the
+                    leading <hi rend="italic">philosophes</hi> in the most important publication of
+                    the mid-18th century has led many to conclude that this diminished role was due
+                    to philosophical differences between Voltaire and the <hi rend="italic"
+                        >Encyclopédie</hi>’s editors (Jacob 2006). Or, as Jonathan Israel has
+                    recently contended, as a leading figure of the ‘mainstream’ brand of
+                    enlightenment (essentially Lockean-Newtonian in nature), Voltaire was in no way
+                    eager to follow the <hi rend="italic">Encyclopédie</hi> as it steadily moved in
+                    the direction of a more ‘Radical Enlightenment,’ fundamentally
+                    Spinozist-materialist in inspiration (Israel 2006). The validity of this
+                    interpretation, however – which relies on a superficial reading of Voltaire as
+                    ‘author’ in the <hi rend="italic">Encyclopédie</hi> rather than as ‘authority’ –
+                    begins to break down once one is presented with the results of the PAIR
+                    comparison. Indeed, even a cursory examination of the more than 10,000 matching
+                    sequences between Voltaire’s Complete Works and the <hi rend="italic"
+                        >Encyclopédie</hi>, demonstrates the preponderance of Voltaire’s textual
+                    presence as an authority over and against his relatively restrained role as an
+                    encyclopedic author; a fact that without sequence alignment would have likely
+                    gone largely unnoticed or at least greatly underestimated.</p><p>Nowhere is
+                    this interaction between Voltaire and the <hi rend="italic">Encyclopédie</hi>
+                    more pronounced than in his last, longest, and perhaps least known work, the <hi
+                        rend="italic">Questions sur l’Encyclopédie</hi> (1770-74). Here, Voltaire
+                    revisits the ‘encyclopedic moment’ of the 1750s and recasts many of the concerns
+                    still relevant to he and his fellow <hi rend="italic">philosophes</hi> some 20
+                    years later. Adopting the same textual strategies as the <hi rend="italic"
+                        >encyclopédistes</hi> before him – indirect citation, playful borrowings,
+                    veiled references, etc. – Voltaire’s reassessment of the encyclopedic texts is a
+                    treasure-trove of hidden intertextual associations. Our exploration of the <hi
+                        rend="italic">Questions</hi> using the PAIR system will thus, for the first
+                    time, give us a more general idea of the scope and scale of Voltaire’s prolonged
+                    engagement with the <hi rend="italic">Encyclopédie</hi> and its contributors.
+                    Finally, this extended vision (or version) of Voltaire’s ‘encyclopedism’ – made
+                    possible through the application of the sequence alignment techniques outlined
+                    above – implies a certain continuity of Enlightenment thought (at least by its
+                    main protagonists) from 1750 to 1775. By way of this ‘intertextual’ continuity,
+                    we thus arrive at a more comprehensive understanding of the French Enlightenment
+                    than is currently reflected by recent attempts (Jacob 2006; Israel 2006) at
+                    dividing its participants into binomial ‘mainstream’ and ‘radical’ camps.</p>
+                    </div>
+        </body>
+        <back>
+            <div>
+                
+                    <head>References</head>
+              
+                    <p><hi rend="bold">Altschul, S. F., W. Gish, W. Miller, et al.</hi> (1990).
+                    Basic Local Alignment Search Tool. <hi rend="italic">The Journal of Molecular
+                        Biology</hi> 215: 403–10.</p>
+                    <p><hi rend="bold">Bourdaillet, J., and J.-G. Ganascia</hi> (2007). Alignment of
+                    noisy unstructured data, <hi rend="italic">IJCAI-2007</hi>, Hyderabad, India -
+                    January 8, 2007.</p>
+                    <p><hi rend="bold">Clough, P., R. Gaizauskas, S. S. L. Piao, and Y. Wilks</hi>
+                    (2002). METER: MEasuring TExt Reuse. <hi rend="italic">Proceedings of the 40th
+                        Anniversary Meeting for the Association for Computational Linguistics,</hi>
+                    pp. 152-159. </p>
+                    <p><hi rend="bold">Lyon, C., J. Malcolm, and B. Dickerson</hi> (2001). Detecting
+                    Short Passages of Similar Text in Large Document Collections. <hi rend="italic"
+                        >Proceedings of the 2001 Conference on Empirical Methods in Natural Language
+                        Processing</hi>, pp. 118-125</p>
+                    <p><hi rend="bold">Horton, R., M. Olsen, and G. Roe</hi> (2010). Something
+                    Borrowed: Sequence Alignment and the Detection of Similar Passages in Large Text
+                    Collections. <hi rend="italic">Digital Studies - Le Champ numérique</hi> 2.1. </p>
+                    <p><hi rend="bold">Israel, J.</hi> (2006). <hi rend="italic">Contested
+                            Enlightenment: Philosophy, Modernity, and the Emancipation of Man
+                            1670-1752</hi>. Oxford: Oxford UP. </p>
+                    <p><hi rend="bold">Jacob, M</hi>. (2006). <hi rend="italic">The Radical
+                            Enlightenment: Pantheists, Freemasons and Republicans</hi>. London:
+                        Cornerstone Publishing. </p>
+                    <p><hi rend="bold">Seo, J., and B. W. Croft</hi> (2008). Local text reuse
+                    detection. <hi rend="italic">SIGIR ’08: Proceedings of the 31st annual
+                        international ACM SIGIR conference on Research and development in
+                        information retrieval</hi>. New York, NY, pp. 571-578. </p>
+                    <p><hi rend="bold">Voltaire</hi> (1987). <hi rend="italic">Œuvres complètes.
+                            Volume 33</hi>. Oxford: Voltaire Foundation.</p></div>
+                    <div>
+                        <head>Digital resources</head>
+                    <p>The ARTFL <hi rend="italic">Encyclopédie</hi> Project (University of
+                        Chicago): <ref target="http://encyclopedie.uchicago.edu/"
+                        type="external">http://encyclopedie.uchicago.edu/</ref></p>
+                    <p><hi rend="italic">Voltaire électronique</hi> database (Voltaire Foundation,
+                        University of Oxford): <ref
+                            target="http://www.lib.uchicago.edu/efts/VOLTAIRE/"
+                        type="external">http://www.lib.uchicago.edu/efts/VOLTAIRE/</ref></p>
+                    <p>PAIR: <ref target="http://code.google.com/p/text-pair/"
+                        type="external">http://code.google.com/p/text-pair/</ref></p>
+
+            </div>
+        </back>
+    </text>
+</TEI>
