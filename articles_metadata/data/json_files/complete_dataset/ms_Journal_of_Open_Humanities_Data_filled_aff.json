@@ -1,1 +1,237 @@
-[{"url": "http://doi.org/10.5334/johd.16", "identifier": {"string_id": "10.5334/johd.16", "id_scheme": "DOI"}, "abstract": "Dramatic changes in the ethnic composition of countries in the last decades have sparked new interest among social scientists in studying and uncovering the role of ethnic diversity on social, political and economic outcomes. Yet, most ethnic fractionalization indices used by scholars to study these effects treat ethnic heterogeneity as time-invariant, thus concealing its long-term effects. However, failing to take into account historical developments in ethnic composition might seriously hinder our understanding of their effects on social, economic, and political outcomes. This paper introduces a new dataset containing an annual ethnic fractionalization index for 162 countries across all continents in the period of 1945–2013. The Historical Index of Ethnic Fractionalization (HIEF) dataset is a natural extension of previous ethnic fractionalization indices. It offers the opportunity to study the effects of ethnic fractionalization across countries and over time. The article concludes by offering some preliminary descriptive analysis of patterns of change in ethnic fractionalization over time.", "article_title": "Introducing the Historical Index of Ethnic Fractionalization (HIEF) Dataset: Accounting for Longitudinal Changes in Ethnic Diversity", "authors": [{"given": "Lenka", "family": "Drazanova", "affiliation": [{"original_name": "Migration Policy Centre, European University Institute, IT", "normalized_name": "European University Institute", "country": "Italy", "identifiers": {"ror": "https://ror.org/0031wrj91", "GRID": "grid.15711.33"}}]}], "publisher": "Ubiquity Press", "date": "2020-09-11", "keywords": ["ethnic fractionalization", "ethnic diversity", "ethnic groups", "intergroup relations"], "journal_title": "Journal of Open Humanities Data", "volume": "6", "issue": "1", "ISSN": [{"value": "2059-481X", "type": "electronic"}]}, {"url": "http://doi.org/10.5334/johd.12", "identifier": {"string_id": "10.5334/johd.12", "id_scheme": "DOI"}, "abstract": "Historical language comparison opens windows onto a human past, long before the availability of written records. Since traditional language comparison within the framework of the comparative method is largely based on manual data comparison, requiring the meticulous sifting through dictionaries, word lists, and grammars, the framework is difficult to apply, especially in times where more and more data have become available in digital form. Unfortunately, it is not possible to simply automate the process of historical language comparison, not only because computational solutions lag behind human judgments in historical linguistics, but also because they lack the flexibility that would allow them to integrate various types of information from various kinds of sources. A more promising approach is to integrate computational and classical approaches within a computer-assisted framework, “neither completely computer-driven nor ignorant of the assistance computers afford” [1, p. 4]. In this paper, we will illustrate what we consider the current state of the art of computer-assisted language comparison by presenting a workflow that starts with raw data and leads up to a stage where sound correspondence patterns across multiple languages have been identified and can be readily presented, inspected, and discussed. We illustrate this workflow with the help of a newly prepared dataset on Hmong-Mien languages. Our illustration is accompanied by Python code and instructions on how to use additional web-based tools we developed so that users can apply our workflow for their own purposes.", "article_title": "Computer-Assisted Language Comparison: State of the Art", "authors": [{"given": "Mei-Shin", "family": "Wu", "affiliation": [{"original_name": "Department of Linguistic and Cultural Evolution, Max Planck Institute for the Science of Human History, Jena, DE", "normalized_name": "Max Planck Institute for the Science of Human History", "country": "Germany", "identifiers": {"ror": "https://ror.org/05mjrzy91", "GRID": "grid.469873.7"}}]}, {"given": "Nathanael E.", "family": "Schweikhard,", "affiliation": [{"original_name": "Department of Linguistic and Cultural Evolution, Max Planck Institute for the Science of Human History, Jena, DE", "normalized_name": "Max Planck Institute for the Science of Human History", "country": "Germany", "identifiers": {"ror": "https://ror.org/05mjrzy91", "GRID": "grid.469873.7"}}]}, {"given": "Timotheus A.", "family": "Bodt", "affiliation": [{"original_name": "SOAS, University of London, London, GB", "normalized_name": "University of London", "country": "United Kingdom", "identifiers": {"ror": "https://ror.org/04cw6st05", "GRID": "grid.4464.2"}}]}, {"given": "Nathan W.", "family": "Hill", "affiliation": [{"original_name": "SOAS, University of London, London, GB", "normalized_name": "University of London", "country": "United Kingdom", "identifiers": {"ror": "https://ror.org/04cw6st05", "GRID": "grid.4464.2"}}]}, {"given": "Johann-Mattis", "family": "List", "affiliation": [{"original_name": "Department of Linguistic and Cultural Evolution, Max Planck Institute for the Science of Human History, Jena, DE", "normalized_name": "Max Planck Institute for the Science of Human History", "country": "Germany", "identifiers": {"ror": "https://ror.org/05mjrzy91", "GRID": "grid.469873.7"}}]}], "publisher": "Ubiquity Press", "date": "2020-05-22", "keywords": ["computer-assisted", "language comparison", "historical linguistics", "Hmong-Mien language family"], "journal_title": "Journal of Open Humanities Data", "volume": "6", "issue": "1", "ISSN": [{"value": "2059-481X", "type": "electronic"}]}, {"url": "http://doi.org/10.5334/johd.3", "identifier": {"string_id": "10.5334/johd.3", "id_scheme": "DOI"}, "abstract": "The HathiTrust Digital Library (HTDL) is a digital library containing about 14 million volumes which comprise billions of pages of content. The HathiTrust Research Center (HTRC) is a collaborative research initiative jointly led by Indiana University and the University of Illinois at Urbana-Champaign. This paper describes the development of a collections data model by the Workset Creation for Scholarly Analysis project, a HTRC research initiative funded by the Andrew W. Mellon Foundation. The resulting HTRC Workset data model is designed to aid humanities scholars by helping them to describe selected portions of the HTDL corpus that serve as the objects of their research. The resulting worksets are persistent, citable, and can be assessed by other scholars for reuse in additional research processes.", "article_title": "The HathiTrust Research Center Workset Ontology: A Descriptive Framework for Non-Consumptive Research Collections", "authors": [{"given": "Jacob", "family": "Jett", "affiliation": [{"original_name": "University of Illinois at Urbana-Champaign, US", "normalized_name": "University of Illinois at Urbana-Champaign", "country": "United States", "identifiers": {"ror": "https://ror.org/047426m28", "GRID": "grid.35403.31"}}]}, {"given": "Timothy W.", "family": "Cole", "affiliation": [{"original_name": "University of Illinois at Urbana-Champaign, US", "normalized_name": "University of Illinois at Urbana-Champaign", "country": "United States", "identifiers": {"ror": "https://ror.org/047426m28", "GRID": "grid.35403.31"}}]}, {"given": "Christopher", "family": "Maden", "affiliation": [{"original_name": "University of Illinois at Urbana-Champaign, US", "normalized_name": "University of Illinois at Urbana-Champaign", "country": "United States", "identifiers": {"ror": "https://ror.org/047426m28", "GRID": "grid.35403.31"}}]}, {"given": "J. Stephen", "family": "Downie", "affiliation": [{"original_name": "University of Illinois at Urbana-Champaign, US", "normalized_name": "University of Illinois at Urbana-Champaign", "country": "United States", "identifiers": {"ror": "https://ror.org/047426m28", "GRID": "grid.35403.31"}}]}], "publisher": "Ubiquity Press", "date": "2016-03-18", "keywords": ["research collections", "formalisms", "data models", "digital libraries", "large-scale corpuses"], "journal_title": "Journal of Open Humanities Data", "volume": "2", "issue": null, "ISSN": [{"value": "2059-481X", "type": "electronic"}]}]
+[
+    {
+        "url": "http://doi.org/10.5334/johd.16",
+        "identifier": {
+            "string_id": "10.5334/johd.16",
+            "id_scheme": "DOI"
+        },
+        "abstract": "Dramatic changes in the ethnic composition of countries in the last decades have sparked new interest among social scientists in studying and uncovering the role of ethnic diversity on social, political and economic outcomes. Yet, most ethnic fractionalization indices used by scholars to study these effects treat ethnic heterogeneity as time-invariant, thus concealing its long-term effects. However, failing to take into account historical developments in ethnic composition might seriously hinder our understanding of their effects on social, economic, and political outcomes. This paper introduces a new dataset containing an annual ethnic fractionalization index for 162 countries across all continents in the period of 1945–2013. The Historical Index of Ethnic Fractionalization (HIEF) dataset is a natural extension of previous ethnic fractionalization indices. It offers the opportunity to study the effects of ethnic fractionalization across countries and over time. The article concludes by offering some preliminary descriptive analysis of patterns of change in ethnic fractionalization over time.",
+        "article_title": "Introducing the Historical Index of Ethnic Fractionalization (HIEF) Dataset: Accounting for Longitudinal Changes in Ethnic Diversity",
+        "authors": [
+            {
+                "given": "Lenka",
+                "family": "Drazanova",
+                "affiliation": [
+                    {
+                        "original_name": "Migration Policy Centre, European University Institute, IT",
+                        "normalized_name": "European University Institute",
+                        "country": "Italy",
+                        "identifiers": {
+                            "ror": "https://ror.org/0031wrj91",
+                            "GRID": "grid.15711.33"
+                        }
+                    }
+                ]
+            }
+        ],
+        "publisher": "Ubiquity Press",
+        "date": "2020-09-11",
+        "keywords": [
+            "ethnic fractionalization",
+            "ethnic diversity",
+            "ethnic groups",
+            "intergroup relations"
+        ],
+        "journal_title": "Journal of Open Humanities Data",
+        "volume": "6",
+        "issue": "1",
+        "ISSN": [
+            {
+                "value": "2059-481X",
+                "type": "electronic"
+            }
+        ]
+    },
+    {
+        "url": "http://doi.org/10.5334/johd.12",
+        "identifier": {
+            "string_id": "10.5334/johd.12",
+            "id_scheme": "DOI"
+        },
+        "abstract": "Historical language comparison opens windows onto a human past, long before the availability of written records. Since traditional language comparison within the framework of the comparative method is largely based on manual data comparison, requiring the meticulous sifting through dictionaries, word lists, and grammars, the framework is difficult to apply, especially in times where more and more data have become available in digital form. Unfortunately, it is not possible to simply automate the process of historical language comparison, not only because computational solutions lag behind human judgments in historical linguistics, but also because they lack the flexibility that would allow them to integrate various types of information from various kinds of sources. A more promising approach is to integrate computational and classical approaches within a computer-assisted framework, “neither completely computer-driven nor ignorant of the assistance computers afford” [1, p. 4]. In this paper, we will illustrate what we consider the current state of the art of computer-assisted language comparison by presenting a workflow that starts with raw data and leads up to a stage where sound correspondence patterns across multiple languages have been identified and can be readily presented, inspected, and discussed. We illustrate this workflow with the help of a newly prepared dataset on Hmong-Mien languages. Our illustration is accompanied by Python code and instructions on how to use additional web-based tools we developed so that users can apply our workflow for their own purposes.",
+        "article_title": "Computer-Assisted Language Comparison: State of the Art",
+        "authors": [
+            {
+                "given": "Mei-Shin",
+                "family": "Wu",
+                "affiliation": [
+                    {
+                        "original_name": "Department of Linguistic and Cultural Evolution, Max Planck Institute for the Science of Human History, Jena, DE",
+                        "normalized_name": "Max Planck Institute for the Science of Human History",
+                        "country": "Germany",
+                        "identifiers": {
+                            "ror": "https://ror.org/05mjrzy91",
+                            "GRID": "grid.469873.7"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Nathanael E.",
+                "family": "Schweikhard,",
+                "affiliation": [
+                    {
+                        "original_name": "Department of Linguistic and Cultural Evolution, Max Planck Institute for the Science of Human History, Jena, DE",
+                        "normalized_name": "Max Planck Institute for the Science of Human History",
+                        "country": "Germany",
+                        "identifiers": {
+                            "ror": "https://ror.org/05mjrzy91",
+                            "GRID": "grid.469873.7"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Timotheus A.",
+                "family": "Bodt",
+                "affiliation": [
+                    {
+                        "original_name": "SOAS, University of London, London, GB",
+                        "normalized_name": "University of London",
+                        "country": "United Kingdom",
+                        "identifiers": {
+                            "ror": "https://ror.org/04cw6st05",
+                            "GRID": "grid.4464.2"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Nathan W.",
+                "family": "Hill",
+                "affiliation": [
+                    {
+                        "original_name": "SOAS, University of London, London, GB",
+                        "normalized_name": "University of London",
+                        "country": "United Kingdom",
+                        "identifiers": {
+                            "ror": "https://ror.org/04cw6st05",
+                            "GRID": "grid.4464.2"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Johann-Mattis",
+                "family": "List",
+                "affiliation": [
+                    {
+                        "original_name": "Department of Linguistic and Cultural Evolution, Max Planck Institute for the Science of Human History, Jena, DE",
+                        "normalized_name": "Max Planck Institute for the Science of Human History",
+                        "country": "Germany",
+                        "identifiers": {
+                            "ror": "https://ror.org/05mjrzy91",
+                            "GRID": "grid.469873.7"
+                        }
+                    }
+                ]
+            }
+        ],
+        "publisher": "Ubiquity Press",
+        "date": "2020-05-22",
+        "keywords": [
+            "computer-assisted",
+            "language comparison",
+            "historical linguistics",
+            "Hmong-Mien language family"
+        ],
+        "journal_title": "Journal of Open Humanities Data",
+        "volume": "6",
+        "issue": "1",
+        "ISSN": [
+            {
+                "value": "2059-481X",
+                "type": "electronic"
+            }
+        ]
+    },
+    {
+        "url": "http://doi.org/10.5334/johd.3",
+        "identifier": {
+            "string_id": "10.5334/johd.3",
+            "id_scheme": "DOI"
+        },
+        "abstract": "The HathiTrust Digital Library (HTDL) is a digital library containing about 14 million volumes which comprise billions of pages of content. The HathiTrust Research Center (HTRC) is a collaborative research initiative jointly led by Indiana University and the University of Illinois at Urbana-Champaign. This paper describes the development of a collections data model by the Workset Creation for Scholarly Analysis project, a HTRC research initiative funded by the Andrew W. Mellon Foundation. The resulting HTRC Workset data model is designed to aid humanities scholars by helping them to describe selected portions of the HTDL corpus that serve as the objects of their research. The resulting worksets are persistent, citable, and can be assessed by other scholars for reuse in additional research processes.",
+        "article_title": "The HathiTrust Research Center Workset Ontology: A Descriptive Framework for Non-Consumptive Research Collections",
+        "authors": [
+            {
+                "given": "Jacob",
+                "family": "Jett",
+                "affiliation": [
+                    {
+                        "original_name": "University of Illinois at Urbana-Champaign, US",
+                        "normalized_name": "University of Illinois at Urbana-Champaign",
+                        "country": "United States",
+                        "identifiers": {
+                            "ror": "https://ror.org/047426m28",
+                            "GRID": "grid.35403.31"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Timothy W.",
+                "family": "Cole",
+                "affiliation": [
+                    {
+                        "original_name": "University of Illinois at Urbana-Champaign, US",
+                        "normalized_name": "University of Illinois at Urbana-Champaign",
+                        "country": "United States",
+                        "identifiers": {
+                            "ror": "https://ror.org/047426m28",
+                            "GRID": "grid.35403.31"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Christopher",
+                "family": "Maden",
+                "affiliation": [
+                    {
+                        "original_name": "University of Illinois at Urbana-Champaign, US",
+                        "normalized_name": "University of Illinois at Urbana-Champaign",
+                        "country": "United States",
+                        "identifiers": {
+                            "ror": "https://ror.org/047426m28",
+                            "GRID": "grid.35403.31"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "J. Stephen",
+                "family": "Downie",
+                "affiliation": [
+                    {
+                        "original_name": "University of Illinois at Urbana-Champaign, US",
+                        "normalized_name": "University of Illinois at Urbana-Champaign",
+                        "country": "United States",
+                        "identifiers": {
+                            "ror": "https://ror.org/047426m28",
+                            "GRID": "grid.35403.31"
+                        }
+                    }
+                ]
+            }
+        ],
+        "publisher": "Ubiquity Press",
+        "date": "2016-03-18",
+        "keywords": [
+            "research collections",
+            "formalisms",
+            "data models",
+            "digital libraries",
+            "large-scale corpuses"
+        ],
+        "journal_title": "Journal of Open Humanities Data",
+        "volume": "2",
+        "issue": null,
+        "ISSN": [
+            {
+                "value": "2059-481X",
+                "type": "electronic"
+            }
+        ]
+    }
+]

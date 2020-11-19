@@ -12,42 +12,94 @@
                 "given": "Samantha",
                 "family": "Blickhan",
                 "affiliations": [
-                    "Adler Planetarium [Chicago]"
+                    {
+                        "original_name": "Adler Planetarium [Chicago]",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    
                 ]
             },
             {
                 "given": "Coleman",
                 "family": "Krawczyk",
                 "affiliations": [
-                    "University of Portsmouth"
+                    {
+                        "original_name": "University of Portsmouth",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    
                 ]
             },
             {
                 "given": "Daniel",
                 "family": "Hanson",
                 "affiliations": [
-                    "University of Minnesota [Twin Cities]"
+                    {
+                        "original_name": "University of Minnesota [Twin Cities]",
+                        "normalized_name": "University of Minnesota",
+                        "country": "United States",
+                        "identifiers": {
+                            "ror": "https://ror.org/017zqws13",
+                            "GRID": "grid.17635.36"
+                        }
+                    }
                 ]
             },
             {
                 "given": "Amy",
                 "family": "Boyer",
                 "affiliations": [
-                    "The Adler Planetarium, USA"
+                    {
+                        "original_name": "The Adler Planetarium, USA",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    
                 ]
             },
             {
                 "given": "Andrea",
                 "family": "Simenstad",
                 "affiliations": [
-                    "University of Minnesota [Twin Cities]"
+                    {
+                        "original_name": "University of Minnesota [Twin Cities]",
+                        "normalized_name": "University of Minnesota",
+                        "country": "United States",
+                        "identifiers": {
+                            "ror": "https://ror.org/017zqws13",
+                            "GRID": "grid.17635.36"
+                        }
+                    }
                 ]
             },
             {
                 "given": "Victoria",
                 "family": "van Hyning",
                 "affiliations": [
-                    "Library of Congress"
+                    
+                    {
+                        "original_name": "Library of Congress",
+                        "normalized_name": "Library of Congress",
+                        "country": "United States",
+                        "identifiers": {
+                            "ror": "https://ror.org/04p405e02",
+                            "GRID": "grid.241525.5"
+                        }
+                    }
                 ]
             }
         ],
@@ -81,21 +133,48 @@
                 "given": "Bruno",
                 "family": "Bureau",
                 "affiliations": [
-                    "HiSoMA - Histoire et Sources des Mondes antiques"
+                    {
+                        "original_name": "HiSoMA - Histoire et Sources des Mondes antiques",
+                        "normalized_name": "Histoire et Sources des Mondes Antiques",
+                        "country": "France",
+                        "identifiers": {
+                            "ror": "https://ror.org/01yx7av22",
+                            "GRID": "grid.463934.f"
+                        }
+                    }
+                    
                 ]
             },
             {
                 "given": "Christian",
                 "family": "Nicolas",
                 "affiliations": [
-                    "HiSoMA - Histoire et Sources des Mondes antiques"
+                    {
+                        "original_name": "HiSoMA - Histoire et Sources des Mondes antiques",
+                        "normalized_name": "Histoire et Sources des Mondes Antiques",
+                        "country": "France",
+                        "identifiers": {
+                            "ror": "https://ror.org/01yx7av22",
+                            "GRID": "grid.463934.f"
+                        }
+                    }
+                    
                 ]
             },
             {
                 "given": "Ariane",
                 "family": "Pinche",
                 "affiliations": [
-                    "CIHAM - Histoire, Archéologie et Littératures des mondes chrétiens et musulmans médiévaux"
+                    {
+                        "original_name": "CIHAM - Histoire, Archéologie et Littératures des mondes chrétiens et musulmans médiévaux",
+                        "normalized_name": "Histoire et Sources des Mondes Antiques",
+                        "country": "France",
+                        "identifiers": {
+                            "ror": "https://ror.org/01yx7av22",
+                            "GRID": "grid.463934.f"
+                        }
+                    }
+                    
                 ]
             }
         ],
@@ -137,8 +216,25 @@
                 "given": "Emmanuel",
                 "family": "van Elverdinghe",
                 "affiliations": [
-                    "Fonds de la Recherche Scientifique [FNRS]",
-                    "INCAL - Institut des Civilisations Arts et Lettres (INCAL)"
+                    {
+                        "original_name": "Fonds de la Recherche Scientifique [FNRS]",
+                        "normalized_name": "Histoire et Sources des Mondes Antiques",
+                        "country": "France",
+                        "identifiers": {
+                            "ror": "https://ror.org/01yx7av22",
+                            "GRID": "grid.463934.f"
+                        }
+                    }
+                    ,
+                    {
+                        "original_name": "INCAL - Institut des Civilisations Arts et Lettres (INCAL)",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
                 ]
             }
         ],
@@ -182,7 +278,16 @@
                 "given": "Régis",
                 "family": "Schlagdenhauffen",
                 "affiliations": [
-                    "IRIS - Institut de Recherche Interdisciplinaire sur les enjeux Sociaux - sciences sociales, politique, santé"
+                    {
+                        "original_name": "IRIS - Institut de Recherche Interdisciplinaire sur les enjeux Sociaux - sciences sociales, politique, santé",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    
                 ]
             }
         ],
@@ -222,7 +327,15 @@
                 "given": "Bastien",
                 "family": "Kindt",
                 "affiliations": [
-                    "INCAL - Institut des Civilisations Arts et Lettres (INCAL)"
+                    {
+                        "original_name": "INCAL - Institut des Civilisations Arts et Lettres (INCAL)",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
                 ]
             }
         ],
@@ -271,21 +384,48 @@
                 "given": "Marie-Laure",
                 "family": "Massot",
                 "affiliations": [
-                    "CAPHÉS - Centre d’Archives en Philosophie, Histoire et Édition des Sciences"
+                    {
+                        "original_name": "CAPHÉS - Centre d’Archives en Philosophie, Histoire et Édition des Sciences",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    
                 ]
             },
             {
                 "given": "Arianna",
                 "family": "Sforzini",
                 "affiliations": [
-                    "TRIANGLE - Triangle : action, discours, pensée politique et économique"
+                    {
+                        "original_name":"TRIANGLE - Triangle : action, discours, pensée politique et économique",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    
                 ]
             },
             {
                 "given": "Vincent",
                 "family": "Ventresque",
                 "affiliations": [
-                    "TRIANGLE - Triangle : action, discours, pensée politique et économique"
+                    {
+                        "original_name":"TRIANGLE - Triangle : action, discours, pensée politique et économique",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    
                 ]
             }
         ],
@@ -324,14 +464,31 @@
                 "given": "Félicie Faizand",
                 "family": "de Maupeou",
                 "affiliations": [
-                    "HAR - Histoire des Arts et des Représentations"
+                    {
+                        "original_name": "HAR - Histoire des Arts et des Représentations",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    
                 ]
             },
             {
                 "given": "Ségolène",
                 "family": "Le Men",
                 "affiliations": [
-                    "HAR - Histoire des Arts et des Représentations"
+                    {
+                        "original_name": "HAR - Histoire des Arts et des Représentations",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
                 ]
             }
         ],
@@ -365,7 +522,16 @@
                 "given": "Nicolai",
                 "family": "Winther-Nielsen",
                 "affiliations": [
-                    "FIUC-Dk - Fjellhaug International University College Denmark"
+                    {
+                        "original_name": "FIUC-Dk - Fjellhaug International University College Denmark",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    
                 ]
             }
         ],
@@ -411,14 +577,31 @@
                 "given": "Athanasios",
                 "family": "Paparnakis",
                 "affiliations": [
-                    "Department of Pastoral and Social Theology"
+                    {
+                        "original_name":"Department of Pastoral and Social Theology",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    
                 ]
             },
             {
                 "given": "Constantinos",
                 "family": "Domouchtsis",
                 "affiliations": [
-                    "Department of Pastoral and Social Theology"
+                    {
+                        "original_name":"Department of Pastoral and Social Theology",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
                 ]
             }
         ],
@@ -459,14 +642,32 @@
                 "given": "Pablo",
                 "family": "Ruiz",
                 "affiliations": [
-                    "LILPA - Linguistique, Langues et Parole "
+                    {
+                        "original_name":"LILPA - Linguistique, Langues et Parole ",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    
                 ]
             },
             {
                 "given": "Thierry",
                 "family": "Poibeau",
                 "affiliations": [
-                    "LattIce - Lattice - Langues, Textes, Traitements informatiques, Cognition - UMR 8094"
+                    {
+                        "original_name":"LattIce - Lattice - Langues, Textes, Traitements informatiques, Cognition - UMR 8094",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    
                 ]
             }
         ],
@@ -506,46 +707,142 @@
                 "given": "Oumayma",
                 "family": "Bounou",
                 "affiliations": [
-                    "SED - Service Expérimentation et Développement  [Paris Rocquencourt]",
-                    "ENC - École nationale des chartes",
-                    "LIGM - Laboratoire d'Informatique Gaspard-Monge"
+                    {
+                        "original_name":"SED - Service Expérimentation et Développement  [Paris Rocquencourt]",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    ,
+                    
+                        {
+                            "original_name": "ENC - École nationale des chartes",
+                            "normalized_name": "École Nationale des Chartes",
+                            "country": "France",
+                            "identifiers": {
+                                "ror": "https://ror.org/013xvg556",
+                                "GRID": "grid.462175.3"
+                            }
+                        }
+                        
+                    ,
+                    {
+                        "original_name": "LIGM - Laboratoire d'Informatique Gaspard-Monge",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    
                 ]
             },
             {
                 "given": "Tom",
                 "family": "Monnier",
                 "affiliations": [
-                    "ENC - École nationale des chartes",
-                    "LIGM - Laboratoire d'Informatique Gaspard-Monge",
-                    "WILLOW - Models of visual object recognition and scene understanding"
+                    
+                        {
+                            "original_name": "ENC - École nationale des chartes",
+                            "normalized_name": "École Nationale des Chartes",
+                            "country": "France",
+                            "identifiers": {
+                                "ror": "https://ror.org/013xvg556",
+                                "GRID": "grid.462175.3"
+                            }
+                        }
+                        
+                    ,
+                    {
+                        "original_name": "LIGM - Laboratoire d'Informatique Gaspard-Monge",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    ,
+                    {
+                        "original_name": "WILLOW - Models of visual object recognition and scene understanding",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    
                 ]
             },
             {
                 "given": "Ilaria",
                 "family": "Pastrolin",
                 "affiliations": [
-                    "ENC - École nationale des chartes"
+                    {
+                        "original_name": "ENC - École nationale des chartes",
+                        "normalized_name": "École Nationale des Chartes",
+                        "country": "France",
+                        "identifiers": {
+                            "ror": "https://ror.org/013xvg556",
+                            "GRID": "grid.462175.3"
+                        }
+                    }
+                    
                 ]
             },
             {
                 "given": "Xi",
                 "family": "Shen",
                 "affiliations": [
-                    "LIGM - Laboratoire d'Informatique Gaspard-Monge"
+                    {
+                        "original_name": "LIGM - Laboratoire d'Informatique Gaspard-Monge",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    
                 ]
             },
             {
                 "given": "Christine",
                 "family": "Benevent",
                 "affiliations": [
-                    "ENC - École nationale des chartes"
+                    {
+                        "original_name": "ENC - École nationale des chartes",
+                        "normalized_name": "École Nationale des Chartes",
+                        "country": "France",
+                        "identifiers": {
+                            "ror": "https://ror.org/013xvg556",
+                            "GRID": "grid.462175.3"
+                        }
+                    }
+                    
                 ]
             },
             {
                 "given": "Marie-Françoise",
                 "family": "Limon-Bonnet",
                 "affiliations": [
-                    "ENC - École nationale des chartes",
+                    
+                        {
+                            "original_name": "ENC - École nationale des chartes",
+                            "normalized_name": "École Nationale des Chartes",
+                            "country": "France",
+                            "identifiers": {
+                                "ror": "https://ror.org/013xvg556",
+                                "GRID": "grid.462175.3"
+                            }
+                        }
+                        
+                    ,
                     "Archives nationales"
                 ]
             },
@@ -553,35 +850,80 @@
                 "given": "François",
                 "family": "Bougard",
                 "affiliations": [
-                    "IRHT - Institut de recherche et d'histoire des textes"
+                    {
+                        "original_name": "IRHT - Institut de recherche et d'histoire des textes",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    
                 ]
             },
             {
                 "given": "Mathieu",
                 "family": "Aubry",
                 "affiliations": [
-                    "LIGM - Laboratoire d'Informatique Gaspard-Monge"
+                    {
+                        "original_name": "LIGM - Laboratoire d'Informatique Gaspard-Monge",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    
                 ]
             },
             {
                 "given": "Marc H.",
                 "family": "Smith",
                 "affiliations": [
-                    "ENC - École nationale des chartes"
+                    {
+                        "original_name": "ENC - École nationale des chartes",
+                        "normalized_name": "École Nationale des Chartes",
+                        "country": "France",
+                        "identifiers": {
+                            "ror": "https://ror.org/013xvg556",
+                            "GRID": "grid.462175.3"
+                        }
+                    }
+                    
                 ]
             },
             {
                 "given": "Olivier",
                 "family": "Poncet",
                 "affiliations": [
-                    "ENC - École nationale des chartes"
+                    {
+                        "original_name": "ENC - École nationale des chartes",
+                        "normalized_name": "École Nationale des Chartes",
+                        "country": "France",
+                        "identifiers": {
+                            "ror": "https://ror.org/013xvg556",
+                            "GRID": "grid.462175.3"
+                        }
+                    }
+                    
                 ]
             },
             {
                 "given": "Pierre-Guillaume",
                 "family": "Raverdy",
                 "affiliations": [
-                    "SED - Service Expérimentation et Développement  [Paris Rocquencourt]"
+                    {
+                        "original_name": "SED - Service Expérimentation et Développement  [Paris Rocquencourt]",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    
                 ]
             }
         ],
@@ -621,21 +963,48 @@
                 "given": "Elysabeth",
                 "family": "Hue-Gay",
                 "affiliations": [
-                    "HiSoMA - Histoire et Sources des Mondes antiques"
+                    {
+                        "original_name": "HiSoMA - Histoire et Sources des Mondes antiques",
+                        "normalized_name": "Histoire et Sources des Mondes Antiques",
+                        "country": "France",
+                        "identifiers": {
+                            "ror": "https://ror.org/01yx7av22",
+                            "GRID": "grid.463934.f"
+                        }
+                    }
+                    
                 ]
             },
             {
                 "given": "Laurence",
                 "family": "Mellerin",
                 "affiliations": [
-                    "HiSoMA - Histoire et Sources des Mondes antiques"
+                    {
+                        "original_name": "HiSoMA - Histoire et Sources des Mondes antiques",
+                        "normalized_name": "Histoire et Sources des Mondes Antiques",
+                        "country": "France",
+                        "identifiers": {
+                            "ror": "https://ror.org/01yx7av22",
+                            "GRID": "grid.463934.f"
+                        }
+                    }
+                    
                 ]
             },
             {
                 "given": "Emmanuelle",
                 "family": "Morlock",
                 "affiliations": [
-                    "HiSoMA - Histoire et Sources des Mondes antiques"
+                    {
+                        "original_name": "HiSoMA - Histoire et Sources des Mondes antiques",
+                        "normalized_name": "Histoire et Sources des Mondes Antiques",
+                        "country": "France",
+                        "identifiers": {
+                            "ror": "https://ror.org/01yx7av22",
+                            "GRID": "grid.463934.f"
+                        }
+                    }
+                    
                 ]
             }
         ],
@@ -685,7 +1054,15 @@
                 "given": "Joel",
                 "family": "Kalvesmaki",
                 "affiliations": [
-                    "DO - Dumbarton Oaks"
+                    {
+                        "original_name": "Dumbarton Oaks",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
                 ]
             }
         ],
@@ -726,35 +1103,78 @@
                 "given": "Mark",
                 "family": "Hedges",
                 "affiliations": [
-                    "King‘s College London"
+                    {
+                        "original_name": "King‘s College London",
+                        "normalized_name": "King's College London",
+                        "country": "United Kingdom",
+                        "identifiers": {
+                            "ror": "https://ror.org/0220mzb33",
+                            "GRID": "grid.13097.3c"
+                        }
+                    }
+                    
                 ]
             },
             {
                 "given": "Anna",
                 "family": "Jordanous",
                 "affiliations": [
-                    "University of Kent [Canterbury]"
+                    {
+                        "original_name": "University of Kent [Canterbury]",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    
                 ]
             },
             {
                 "given": "K. Faith",
                 "family": "Lawrence",
                 "affiliations": [
-                    "King‘s College London"
+                    {
+                        "original_name": "King‘s College London",
+                        "normalized_name": "King's College London",
+                        "country": "United Kingdom",
+                        "identifiers": {
+                            "ror": "https://ror.org/0220mzb33",
+                            "GRID": "grid.13097.3c"
+                        }
+                    }
                 ]
             },
             {
                 "given": "Charlotte",
                 "family": "Roueché",
                 "affiliations": [
-                    "King‘s College London"
+                    {
+                        "original_name": "King‘s College London",
+                        "normalized_name": "King's College London",
+                        "country": "United Kingdom",
+                        "identifiers": {
+                            "ror": "https://ror.org/0220mzb33",
+                            "GRID": "grid.13097.3c"
+                        }
+                    }
                 ]
             },
             {
                 "given": "Charlotte",
                 "family": "Tupman",
                 "affiliations": [
-                    "University of Exeter"
+                    {
+                        "original_name": "University of Exeter",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    
                 ]
             }
         ],
@@ -798,14 +1218,32 @@
                 "given": "Caroline T.",
                 "family": "Schroeder",
                 "affiliations": [
-                    " University of Oklahoma, United States of America"
+                    {
+                        "original_name": " University of Oklahoma, United States of America",
+                        "normalized_name": "University of Oklahoma",
+                        "country": "United States",
+                        "identifiers": {
+                            "ror": "https://ror.org/02aqsxs83",
+                            "GRID": "grid.266900.b"
+                        }
+                    }
+                    
                 ]
             },
             {
                 "given": "Amir",
                 "family": "Zeldes",
                 "affiliations": [
-                    "Georgetown University, United States of America"
+                    {
+                        "original_name": "Georgetown University, United States of America",
+                        "normalized_name": "Georgetown University",
+                        "country": "Qatar",
+                        "identifiers": {
+                            "ror": "https://ror.org/029e47x73",
+                            "GRID": "grid.452129.9"
+                        }
+                    }
+                    
                 ]
             }
         ],
@@ -839,7 +1277,16 @@
                 "given": "Lucía",
                 "family": "Rodríguez-Noriega",
                 "affiliations": [
-                    "Universidad de Oviedo [Oviedo]"
+                    
+                    {
+                        "original_name": "Universidad de Oviedo [Oviedo]",
+                        "normalized_name": "University of Oviedo",
+                        "country": "Spain",
+                        "identifiers": {
+                            "ror": "https://ror.org/006gksa02",
+                            "GRID": "grid.10863.3c"
+                        }
+                    }
                 ]
             }
         ],
@@ -877,14 +1324,30 @@
                 "given": "Marja",
                 "family": "Vierros",
                 "affiliations": [
-                    "Department of World Cultures"
+                    {
+                        "original_name": "Department of World Cultures",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
                 ]
             },
             {
                 "given": "Erik",
                 "family": "Henriksson",
                 "affiliations": [
-                    "Department of World Cultures"
+                    {
+                        "original_name": "Department of World Cultures",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
                 ]
             }
         ],
@@ -928,14 +1391,32 @@
                 "given": "Pramit",
                 "family": "Chaudhuri",
                 "affiliations": [
-                    "University of Texas at Austin, USA"
+                    {
+                        "original_name": "University of Texas at Austin, USA",
+                        "normalized_name": "The University of Texas at Austin",
+                        "country": "United States",
+                        "identifiers": {
+                            "ror": "https://ror.org/00hj54h04",
+                            "GRID": "grid.89336.37"
+                        }
+                    }
+                    
                 ]
             },
             {
                 "given": "Joseph P.",
                 "family": "Dexter",
                 "affiliations": [
-                    "Harvard University, USA"
+                    {
+                        "original_name": "Harvard University, USA",
+                        "normalized_name": "Harvard University",
+                        "country": "United States",
+                        "identifiers": {
+                            "ror": "https://ror.org/03vek6s52",
+                            "GRID": "grid.38142.3c"
+                        }
+                    }
+                   
                 ]
             }
         ],
@@ -969,28 +1450,61 @@
                 "given": "Orna",
                 "family": "Almogi",
                 "affiliations": [
-                    "UHH - Universität Hamburg"
+                    {
+                        "original_name": "UHH - Universität Hamburg",
+                        "normalized_name": "Universität Hamburg",
+                        "country": "Germany",
+                        "identifiers": {
+                            "ror": "https://ror.org/00g30e956",
+                            "GRID": "grid.9026.d"
+                        }
+                    }
                 ]
             },
             {
                 "given": "Lena",
                 "family": "Dankin",
                 "affiliations": [
-                    "TAU-CS - School of Computer Science "
+                    {
+                        "original_name": "TAU-CS - School of Computer Science ",
+                        "normalized_name": "Universität Hamburg",
+                        "country": "Israel",
+                        "identifiers": {
+                            "ror": "https://ror.org/04mhzgx49",
+                            "GRID": "grid.12136.37"
+                        }
+                    }
+                    
                 ]
             },
             {
                 "given": "Nachum",
                 "family": "Dershowitz",
                 "affiliations": [
-                    "TAU-CS - School of Computer Science "
+                    {
+                        "original_name": "TAU-CS - School of Computer Science ",
+                        "normalized_name": "Universität Hamburg",
+                        "country": "Israel",
+                        "identifiers": {
+                            "ror": "https://ror.org/04mhzgx49",
+                            "GRID": "grid.12136.37"
+                        }
+                    }
                 ]
             },
             {
                 "given": "Lior",
                 "family": "Wolf",
                 "affiliations": [
-                    "TAU-CS - School of Computer Science "
+                    {
+                        "original_name": "TAU-CS - School of Computer Science ",
+                        "normalized_name": "Universität Hamburg",
+                        "country": "Israel",
+                        "identifiers": {
+                            "ror": "https://ror.org/04mhzgx49",
+                            "GRID": "grid.12136.37"
+                        }
+                    }
                 ]
             }
         ],
@@ -1032,21 +1546,47 @@
                 "given": "Nathan P.",
                 "family": "Gibson",
                 "affiliations": [
-                    "Vanderbilt University, USA"
+                    {
+                        "original_name": "Vanderbilt University, USA",
+                        "normalized_name": "Vanderbilt University",
+                        "country": "United States",
+                        "identifiers": {
+                            "ror": "https://ror.org/02vm5rt34",
+                            "GRID": "grid.152326.1"
+                        }
+                    }
+                    
                 ]
             },
             {
                 "given": "David A.",
                 "family": "Michelson",
                 "affiliations": [
-                    "Vanderbilt University, USA"
+                    {
+                        "original_name": "Vanderbilt University, USA",
+                        "normalized_name": "Vanderbilt University",
+                        "country": "United States",
+                        "identifiers": {
+                            "ror": "https://ror.org/02vm5rt34",
+                            "GRID": "grid.152326.1"
+                        }
+                    }
                 ]
             },
             {
                 "given": "Daniel L.",
                 "family": "Schwartz",
                 "affiliations": [
-                    "Texas A&M University, USA"
+                    {
+                        "original_name": "Texas A&M University, USA",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    
                 ]
             }
         ],
@@ -1080,14 +1620,30 @@
                 "given": "Mike",
                 "family": "Kestemont",
                 "affiliations": [
-                    "University of Antwerp, Belgium"
+                    {
+                        "original_name": "University of Antwerp, Belgium",
+                        "normalized_name": "University of Antwerp",
+                        "country": "Belgium",
+                        "identifiers": {
+                            "ror": "https://ror.org/008x57b05",
+                            "GRID": "grid.5284.b"
+                        }
+                    }
                 ]
             },
             {
                 "given": "Jeroen",
                 "family": "De Gussem",
                 "affiliations": [
-                    "Ghent University, Belgium"
+                    {
+                        "original_name": "Ghent University, Belgium",
+                        "normalized_name": "Ghent University",
+                        "country": "Belgium",
+                        "identifiers": {
+                            "ror": "https://ror.org/00cv9y106",
+                            "GRID": "grid.5342.0"
+                        }
+                    }
                 ]
             }
         ],
@@ -1121,14 +1677,32 @@
                 "given": "Tom",
                 "family": "Cheesman",
                 "affiliations": [
-                    "Swansea University"
+                    {
+                        "original_name": "Swansea University",
+                        "normalized_name": "Swansea University",
+                        "country": "United Kingdom",
+                        "identifiers": {
+                            "ror": "https://ror.org/053fq8t95",
+                            "GRID": "grid.4827.9"
+                        }
+                    }
+                    
                 ]
             },
             {
                 "given": "Avraham",
                 "family": "Roos",
                 "affiliations": [
-                    "UvA - Universiteit van Amsterdam"
+                    {
+                        "original_name": "UvA - Universiteit van Amsterdam",
+                        "normalized_name": "University of Amsterdam",
+                        "country": "Netherlands",
+                        "identifiers": {
+                            "ror": "https://ror.org/04dkp9463",
+                            "GRID": "grid.7177.6"
+                        }
+                    }
+                    
                 ]
             }
         ],
@@ -1175,7 +1749,16 @@
                 "given": "Luc",
                 "family": "Herren",
                 "affiliations": [
-                    "University of Münster, Germany"
+                    {
+                        "original_name": "University of Münster, Germany",
+                        "normalized_name": "University of Münster",
+                        "country": "Germany",
+                        "identifiers": {
+                            "ror": "https://ror.org/00pd74e08",
+                            "GRID": "grid.5949.1"
+                        }
+                    }
+                    
                 ]
             }
         ],
@@ -1209,21 +1792,71 @@
                 "given": "Avi",
                 "family": "Shmidman",
                 "affiliations": [
-                    "Department of Computer Science, Bar-Ilan University, Israel, and Dicta: The Israel Center for Text Analysis"
+                    {
+                        "original_name": "Department of Computer Science, Bar-Ilan University, Israel",
+                        "normalized_name": "Bar-Ilan University",
+                        "country": "Israel",
+                        "identifiers": {
+                            "ror": "https://ror.org/03kgsv495",
+                            "GRID": "grid.22098.31"
+                        }
+                    }
+                    ,{
+                        "original_name": "Dicta: The Israel Center for Text Analysis",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                     
                 ]
             },
             {
                 "given": "Moshe",
                 "family": "Koppel",
                 "affiliations": [
-                    "Department of Computer Science, Bar-Ilan University, Israel, and Dicta: The Israel Center for Text Analysis"
+                    {
+                        "original_name": "Department of Computer Science, Bar-Ilan University, Israel",
+                        "normalized_name": "Bar-Ilan University",
+                        "country": "Israel",
+                        "identifiers": {
+                            "ror": "https://ror.org/03kgsv495",
+                            "GRID": "grid.22098.31"
+                        }
+                    }, {
+                        "original_name": "Dicta: The Israel Center for Text Analysis",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
                 ]
             },
             {
                 "given": "Ely",
                 "family": "Porat",
                 "affiliations": [
-                    "Department of Computer Science, Bar-Ilan University, Israel, and Dicta: The Israel Center for Text Analysis"
+                    {
+                        "original_name": "Department of Computer Science, Bar-Ilan University, Israel",
+                        "normalized_name": "Bar-Ilan University",
+                        "country": "Israel",
+                        "identifiers": {
+                            "ror": "https://ror.org/03kgsv495",
+                            "GRID": "grid.22098.31"
+                        }
+                    }, {
+                        "original_name": "Dicta: The Israel Center for Text Analysis",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
                 ]
             }
         ],
@@ -1257,21 +1890,46 @@
                 "given": "Claire",
                 "family": "Clivaz",
                 "affiliations": [
-                    "SIB - Swiss Institute of Bioinformatics [Lausanne]"
+                    {
+                        "original_name": "SIB - Swiss Institute of Bioinformatics [Lausanne]",
+                        "normalized_name": "Swiss Institute of Bioinformatics",
+                        "country": "Switzerland",
+                        "identifiers": {
+                            "ror": "https://ror.org/002n09z45",
+                            "GRID": "grid.419765.8"
+                        }
+                    }
+                    
                 ]
             },
             {
                 "given": "Sara",
                 "family": "Schulthess",
                 "affiliations": [
-                    "SIB - Swiss Institute of Bioinformatics [Lausanne]"
+                    {
+                        "original_name": "SIB - Swiss Institute of Bioinformatics [Lausanne]",
+                        "normalized_name": "Swiss Institute of Bioinformatics",
+                        "country": "Switzerland",
+                        "identifiers": {
+                            "ror": "https://ror.org/002n09z45",
+                            "GRID": "grid.419765.8"
+                        }
+                    }
                 ]
             },
             {
                 "given": "Martial",
                 "family": "Sankar",
                 "affiliations": [
-                    "SIB - Swiss Institute of Bioinformatics [Lausanne]"
+                    {
+                        "original_name": "SIB - Swiss Institute of Bioinformatics [Lausanne]",
+                        "normalized_name": "Swiss Institute of Bioinformatics",
+                        "country": "Switzerland",
+                        "identifiers": {
+                            "ror": "https://ror.org/002n09z45",
+                            "GRID": "grid.419765.8"
+                        }
+                    }
                 ]
             }
         ],
@@ -1311,7 +1969,16 @@
                 "given": "Patrick J.",
                 "family": "Burns",
                 "affiliations": [
-                    " Institute for the Study of the Ancient World"
+                    {
+                        "original_name": " Institute for the Study of the Ancient World",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    
                 ]
             }
         ],
@@ -1353,14 +2020,32 @@
                 "given": "Timo",
                 "family": "Korkiakangas",
                 "affiliations": [
-                    "UiO - University of Oslo"
+                    {
+                        "original_name": "UiO - University of Oslo",
+                        "normalized_name": "University of Oslo",
+                        "country": "Norway",
+                        "identifiers": {
+                            "ror": "https://ror.org/01xtthb56",
+                            "GRID": "grid.5510.1"
+                        }
+                    }
+                    
                 ]
             },
             {
                 "given": "Matti",
                 "family": "Lassila",
                 "affiliations": [
-                    "Open Science Centre [Jyväskylä]"
+                    {
+                        "original_name": "Open Science Centre [Jyväskylä]",
+                        "normalized_name": "Center for Open Science",
+                        "country": "United States",
+                        "identifiers": {
+                            "ror": "https://ror.org/05d5mza29",
+                            "GRID": "grid.466501.0"
+                        }
+                    }
+                    
                 ]
             }
         ],
@@ -1399,24 +2084,73 @@
                 "given": "Mbarek",
                 "family": "Marwan",
                 "affiliations": [
-                    "UCD - Université Chouaib Doukkali",
-                    "Département Télécommunications, Réseaux et Informatique"
+                    {
+                        "original_name": "UCD - Université Chouaib Doukkali",
+                        "normalized_name": "Chouaib Doukkali University",
+                        "country": "Morocco",
+                        "identifiers": {
+                            "ror": "https://ror.org/036kgyt43",
+                            "GRID": "grid.440482.e"
+                        }
+                    },
+                    {
+                        "original_name": "Département Télécommunications, Réseaux et Informatique",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    
                 ]
             },
             {
                 "given": "Ali",
                 "family": "Kartit",
                 "affiliations": [
-                    "Département Télécommunications, Réseaux et Informatique",
-                    "UCD - Université Chouaib Doukkali"
+                    {
+                        "original_name": "UCD - Université Chouaib Doukkali",
+                        "normalized_name": "Chouaib Doukkali University",
+                        "country": "Morocco",
+                        "identifiers": {
+                            "ror": "https://ror.org/036kgyt43",
+                            "GRID": "grid.440482.e"
+                        }
+                    },
+                    {
+                        "original_name": "Département Télécommunications, Réseaux et Informatique",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
                 ]
             },
             {
                 "given": "Hassan",
                 "family": "Ouahmane",
                 "affiliations": [
-                    "Département Télécommunications, Réseaux et Informatique",
-                    "UCD - Université Chouaib Doukkali"
+                    {
+                        "original_name": "UCD - Université Chouaib Doukkali",
+                        "normalized_name": "Chouaib Doukkali University",
+                        "country": "Morocco",
+                        "identifiers": {
+                            "ror": "https://ror.org/036kgyt43",
+                            "GRID": "grid.440482.e"
+                        }
+                    },
+                    {
+                        "original_name": "Département Télécommunications, Réseaux et Informatique",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
                 ]
             }
         ],
@@ -1455,21 +2189,47 @@
                 "given": "Mouhcine",
                 "family": "Rabi",
                 "affiliations": [
-                    "IRF-SIC - Laboratoire Image et Reconnaissance de Formes - Systèmes Intelligents et Communicants"
+                    {
+                        "original_name": "IRF-SIC - Laboratoire Image et Reconnaissance de Formes - Systèmes Intelligents et Communicants",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    
+
                 ]
             },
             {
                 "given": "Mustapha",
                 "family": "Amrouch",
                 "affiliations": [
-                    "IRF-SIC - Laboratoire Image et Reconnaissance de Formes - Systèmes Intelligents et Communicants"
+                    {
+                        "original_name": "IRF-SIC - Laboratoire Image et Reconnaissance de Formes - Systèmes Intelligents et Communicants",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
                 ]
             },
             {
                 "given": "Zouhair",
                 "family": "Mahani",
                 "affiliations": [
-                    "IRF-SIC - Laboratoire Image et Reconnaissance de Formes - Systèmes Intelligents et Communicants"
+                    {
+                        "original_name": "IRF-SIC - Laboratoire Image et Reconnaissance de Formes - Systèmes Intelligents et Communicants",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
                 ]
             }
         ],
@@ -1508,15 +2268,41 @@
                 "given": "Tamara",
                 "family": "Pataridze",
                 "affiliations": [
-                    "Fonds de la Recherche Scientifique [FNRS]",
-                    "INCAL - Institut des Civilisations Arts et Lettres (INCAL)"
+                    {
+                        "original_name": "Fonds de la Recherche Scientifique [FNRS]",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    ,
+                    {
+                        "original_name": "INCAL - Institut des Civilisations Arts et Lettres (INCAL)",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    
                 ]
             },
             {
                 "given": "Bastien",
                 "family": "Kindt",
                 "affiliations": [
-                    "INCAL - Institut des Civilisations Arts et Lettres (INCAL)"
+                    {
+                        "original_name": "INCAL - Institut des Civilisations Arts et Lettres (INCAL)",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
                 ]
             }
         ],
@@ -1561,21 +2347,48 @@
                 "given": "Djibril",
                 "family": "Diarra",
                 "affiliations": [
-                    "Checksem"
+                    {
+                        "original_name": "Checksem",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    
                 ]
             },
             {
                 "given": "Martine",
                 "family": "Clouzot",
                 "affiliations": [
-                    "ARTeHiS - Archéologie, Terre, Histoire, Sociétés [Dijon]"
+                    {
+                        "original_name": "ARTeHiS - Archéologie, Terre, Histoire, Sociétés [Dijon]",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    
                 ]
             },
             {
                 "given": "Christophe",
                 "family": "Nicolle",
                 "affiliations": [
-                    "Checksem"
+                    {
+                        "original_name": "Checksem",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    
                 ]
             }
         ],
@@ -1615,7 +2428,16 @@
                 "given": "David",
                 "family": "Pastorelli",
                 "affiliations": [
-                    "AU - Avignon Université"
+                    {
+                        "original_name": "AU - Avignon Université",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    
                 ]
             }
         ],
@@ -1653,29 +2475,74 @@
                 "given": "Jalil",
                 "family": "Elhassouni",
                 "affiliations": [
-                    "GSCM-LRIT - Laboratoire de Recherche en Informatique et Télécommunications [Rabat]"
+                    {
+                        "original_name": "GSCM-LRIT - Laboratoire de Recherche en Informatique et Télécommunications [Rabat]",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    
                 ]
             },
             {
                 "given": "Mehdi",
                 "family": "Bazzi",
                 "affiliations": [
-                    "LIAD Laboratory, FSAC, Hassan II University, Morocco"
+                    {
+                        "original_name": "LIAD Laboratory, FSAC, Hassan II University, Morocco",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    
                 ]
             },
             {
                 "given": "Abderrahim",
                 "family": "Qadi",
                 "affiliations": [
-                    "Ecole Supérieure de Technologie de Meknès",
-                    "GSCM-LRIT - Laboratoire de Recherche en Informatique et Télécommunications [Rabat]"
+                    {
+                        "original_name": "Ecole Supérieure de Technologie de Meknès",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    ,
+                    {
+                        "original_name": "GSCM-LRIT - Laboratoire de Recherche en Informatique et Télécommunications [Rabat]",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    
                 ]
             },
             {
                 "given": "Mohamed",
                 "family": "Haziti",
                 "affiliations": [
-                    "GSCM-LRIT - Laboratoire de Recherche en Informatique et Télécommunications [Rabat]"
+                    {
+                        "original_name": "GSCM-LRIT - Laboratoire de Recherche en Informatique et Télécommunications [Rabat]",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    
                 ]
             }
         ],
@@ -1713,28 +2580,63 @@
                 "given": "Anne",
                 "family": "Tchounikine",
                 "affiliations": [
-                    "BD - Base de Données"
+                    {
+                        "original_name": "BD - Base de Données",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    
                 ]
             },
             {
                 "given": "Maryvonne",
                 "family": "Miquel",
                 "affiliations": [
-                    "BD - Base de Données"
+                    {
+                        "original_name": "BD - Base de Données",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
                 ]
             },
             {
                 "given": "Thierry",
                 "family": "Pécout",
                 "affiliations": [
-                    "LEM - Laboratoire d'Etudes sur les Monothéismes"
+                    {
+                        "original_name": "LEM - Laboratoire d'Etudes sur les Monothéismes",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    
                 ]
             },
             {
                 "given": "Jean-Luc",
                 "family": "Bonnaud",
                 "affiliations": [
-                    "Universite de Moncton, Canada"
+                    {
+                        "original_name": "Universite de Moncton, Canada",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    
                 ]
             }
         ],
@@ -1768,7 +2670,16 @@
                 "given": "Atzmueller",
                 "family": "Martin",
                 "affiliations": [
-                    "University of Kassel"
+                    {
+                        "original_name": "University of Kassel",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    
                 ]
             }
         ],
@@ -1802,14 +2713,31 @@
                 "given": "Hicham",
                 "family": "Gibet Tani",
                 "affiliations": [
-                    "LIST - Laboratoire d'Informatique, Système et Télécommunications"
+                    {
+                        "original_name": "LIST - Laboratoire d'Informatique, Système et Télécommunications",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    
                 ]
             },
             {
                 "given": "Chaker",
                 "family": "El Amrani",
                 "affiliations": [
-                    "LIST - Laboratoire d'Informatique, Système et Télécommunications"
+                    {
+                        "original_name": "LIST - Laboratoire d'Informatique, Système et Télécommunications",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
                 ]
             }
         ],
@@ -1853,21 +2781,48 @@
                 "given": "Sorin Adam",
                 "family": "Matei",
                 "affiliations": [
-                    "Purdue University"
+                    {
+                        "original_name": "Purdue University",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    
                 ]
             },
             {
                 "given": "Nicholas K.",
                 "family": "Rauh",
                 "affiliations": [
-                    "Alexandria Institute, CA"
+                    {
+                        "original_name": "Alexandria Institute, CA",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    
                 ]
             },
             {
                 "given": "Eric C.",
                 "family": "Kansa",
                 "affiliations": [
-                    "Purdue University"
+                    {
+                        "original_name": "Purdue University",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    
                 ]
             }
         ],
@@ -1901,24 +2856,72 @@
                 "given": "Mbarek",
                 "family": "Marwan",
                 "affiliations": [
-                    "UCD - Université Chouaib Doukkali",
-                    "Département Télécommunications, Réseaux et Informatique"
+                    {
+                        "original_name": "UCD - Université Chouaib Doukkali",
+                        "normalized_name": "Chouaib Doukkali University",
+                        "country": "Morocco",
+                        "identifiers": {
+                            "ror": "https://ror.org/036kgyt43",
+                            "GRID": "grid.440482.e"
+                        }
+                    },
+                    {
+                        "original_name": "Département Télécommunications, Réseaux et Informatique",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
                 ]
             },
             {
                 "given": "Ali",
                 "family": "Kartit",
                 "affiliations": [
-                    "Département Télécommunications, Réseaux et Informatique",
-                    "UCD - Université Chouaib Doukkali"
+                    {
+                        "original_name": "UCD - Université Chouaib Doukkali",
+                        "normalized_name": "Chouaib Doukkali University",
+                        "country": "Morocco",
+                        "identifiers": {
+                            "ror": "https://ror.org/036kgyt43",
+                            "GRID": "grid.440482.e"
+                        }
+                    },
+                    {
+                        "original_name": "Département Télécommunications, Réseaux et Informatique",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
                 ]
             },
             {
                 "given": "Hassan",
                 "family": "Ouahmane",
                 "affiliations": [
-                    "Département Télécommunications, Réseaux et Informatique",
-                    "UCD - Université Chouaib Doukkali"
+                    {
+                        "original_name": "UCD - Université Chouaib Doukkali",
+                        "normalized_name": "Chouaib Doukkali University",
+                        "country": "Morocco",
+                        "identifiers": {
+                            "ror": "https://ror.org/036kgyt43",
+                            "GRID": "grid.440482.e"
+                        }
+                    },
+                    {
+                        "original_name": "Département Télécommunications, Réseaux et Informatique",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
                 ]
             }
         ],
@@ -1957,7 +2960,16 @@
                 "given": "Fabienne",
                 "family": "Baider",
                 "affiliations": [
-                    "UCY - University of Cyprus"
+                    {
+                        "original_name": "UCY - University of Cyprus",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    
                 ]
             }
         ],
@@ -2002,14 +3014,31 @@
                 "given": "Kuang-hua",
                 "family": "Chen",
                 "affiliations": [
-                    "National Taiwan University"
+                    {
+                        "original_name": "National Taiwan University",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    
                 ]
             },
             {
                 "given": "Bi-Shin",
                 "family": "Hsueh",
                 "affiliations": [
-                    "National Taiwan University"
+                    {
+                        "original_name": "National Taiwan University",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
                 ]
             }
         ],
@@ -2043,14 +3072,32 @@
                 "given": "David",
                 "family": "Skillicorn",
                 "affiliations": [
-                    "School of computing [Kingston]"
+                    {
+                        "original_name": "School of computing [Kingston]",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    
                 ]
             },
             {
                 "given": "Christian",
                 "family": "Leuprecht",
                 "affiliations": [
-                    "RMCC - Royal Military College of Canada"
+                    {
+                        "original_name": "RMCC - Royal Military College of Canada",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    
                 ]
             }
         ],
@@ -2090,21 +3137,47 @@
                 "given": "Mariam",
                 "family": "Adedoyin-Olowe",
                 "affiliations": [
-                    "School of Computing Science and Digital Media, Robert Gordon University"
+                    {
+                        "original_name": "School of Computing Science and Digital Media, Robert Gordon University",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    
                 ]
             },
             {
                 "given": "Mohamed Medhat",
                 "family": "Gaber",
                 "affiliations": [
-                    "School of Computing Science and Digital Media, Robert Gordon University"
+                    {
+                        "original_name": "School of Computing Science and Digital Media, Robert Gordon University",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
                 ]
             },
             {
                 "given": "Frederic",
                 "family": "Stahl",
                 "affiliations": [
-                    "School of Systems Engineering, University of Reading"
+                    {
+                        "original_name": "School of Systems Engineering, University of Reading",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    
                 ]
             }
         ],
@@ -2138,7 +3211,16 @@
                 "given": "Nicolas",
                 "family": "Turenne",
                 "affiliations": [
-                    "Université Paris Est"
+                    {
+                        "original_name": "Université Paris Est",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    
                 ]
             }
         ],
@@ -2172,8 +3254,26 @@
                 "given": "Matthias",
                 "family": "Scholz",
                 "affiliations": [
-                    "Ernst-Moritz-Arndt-University, Greifswald, Germany",
-                    "University of Trento, Italy"
+                    {
+                        "original_name": "Ernst-Moritz-Arndt-University, Greifswald, Germany",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    ,
+                    {
+                        "original_name": "University of Trento, Italy",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    
                 ]
             }
         ],
@@ -2207,15 +3307,42 @@
                 "given": "Fionn",
                 "family": "Murtagh",
                 "affiliations": [
-                    "University of Derby, UK",
-                    "Goldsmiths University of London, UK"
+                    {
+                        "original_name": "University of Derby, UK",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    ,
+                    {
+                        "original_name": "Goldsmiths University of London, UK",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    
                 ]
             },
             {
                 "given": "Adam",
                 "family": "Ganz",
                 "affiliations": [
-                    "Royal Holloway, University of London, UK"
+                    {
+                        "original_name": "Royal Holloway, University of London, UK",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    
                 ]
             }
         ],
@@ -2249,14 +3376,31 @@
                 "given": "Chaya",
                 "family": "Liebeskind",
                 "affiliations": [
-                    "JCT - Jerusalem College of Technology"
+                    {
+                        "original_name": "JCT - Jerusalem College of Technology",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    
                 ]
             },
             {
                 "given": "Shmuel",
                 "family": "Liebeskind",
                 "affiliations": [
-                    "JCT - Jerusalem College of Technology"
+                    {
+                        "original_name": "JCT - Jerusalem College of Technology",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
                 ]
             }
         ],
@@ -2295,22 +3439,58 @@
                 "given": "Barbara",
                 "family": "McGillivray",
                 "affiliations": [
-                    "The Alan Turing Institute",
-                    "University of Cambridge"
+                    {
+                        "original_name": "The Alan Turing Institute",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    ,
+                    {
+                        "original_name": "University of Cambridge",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    
                 ]
             },
             {
                 "given": "Gard",
                 "family": "Jenset",
                 "affiliations": [
-                    "Independent Researcher"
+                    {
+                        "original_name": "Independent Researcher",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    
                 ]
             },
             {
                 "given": "Dominik",
                 "family": "Heil",
                 "affiliations": [
-                    "University of the Witwatersrand, Johannesburg"
+                    {
+                        "original_name": "University of the Witwatersrand, Johannesburg",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    
                 ]
             }
         ],
@@ -2344,10 +3524,41 @@
                 "given": "Thibault",
                 "family": "Clérice",
                 "affiliations": [
-                    "PSL - Université Paris sciences et lettres",
-                    "ENC - École nationale des chartes",
+                    {
+                        "original_name": "PSL - Université Paris sciences et lettres",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    ,
+                    
+                        {
+                            "original_name": "ENC - École nationale des chartes",
+                            "normalized_name": "École Nationale des Chartes",
+                            "country": "France",
+                            "identifiers": {
+                                "ror": "https://ror.org/013xvg556",
+                                "GRID": "grid.462175.3"
+                            }
+                        }
+                        
+                    ,
                     "CJM - Centre Jean Mabillon",
-                    "HiSoMA - Histoire et Sources des Mondes antiques"
+                    
+                        {
+                            "original_name": "HiSoMA - Histoire et Sources des Mondes antiques",
+                            "normalized_name": "Histoire et Sources des Mondes Antiques",
+                            "country": "France",
+                            "identifiers": {
+                                "ror": "https://ror.org/01yx7av22",
+                                "GRID": "grid.463934.f"
+                            }
+                        }
+                        
+                    
                 ]
             }
         ],
@@ -2387,21 +3598,46 @@
                 "given": "Fan",
                 "family": "Wei",
                 "affiliations": [
-                    "Lawrence Technological University, USA"
+                    {
+                        "original_name": "Lawrence Technological University, USA",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    
                 ]
             },
             {
                 "given": "Yuan",
                 "family": "Li",
                 "affiliations": [
-                    "Lawrence Technological University, USA"
+                    {
+                        "original_name": "Lawrence Technological University, USA",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
                 ]
             },
             {
                 "given": "Lior",
                 "family": "Shamir",
                 "affiliations": [
-                    "Lawrence Technological University, USA"
+                    {
+                        "original_name": "Lawrence Technological University, USA",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
                 ]
             }
         ],
@@ -2435,7 +3671,16 @@
                 "given": "M. Zakaria",
                 "family": "Kurdi",
                 "affiliations": [
-                    "University of Lynchburg, USA"
+                    {
+                        "original_name": "University of Lynchburg, USA",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    
                 ]
             }
         ],
@@ -2469,29 +3714,73 @@
                 "given": "Andrea",
                 "family": "Bertino",
                 "affiliations": [
-                    "SUB Göttingen - Göttingen State and University Library"
+                    {
+                        "original_name": "SUB Göttingen - Göttingen State and University Library",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    
                 ]
             },
             {
                 "given": "Luca",
                 "family": "Foppiano",
                 "affiliations": [
-                    "ALMAnaCH - Automatic Language Modelling and ANAlysis & Computational Humanities"
+                    {
+                        "original_name": "ALMAnaCH - Automatic Language Modelling and ANAlysis & Computational Humanities",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    
                 ]
             },
             {
                 "given": "Laurent",
                 "family": "Romary",
                 "affiliations": [
-                    "ALMAnaCH - Automatic Language Modelling and ANAlysis & Computational Humanities"
+                    {
+                        "original_name": "ALMAnaCH - Automatic Language Modelling and ANAlysis & Computational Humanities",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
                 ]
             },
             {
                 "given": "Pierre",
                 "family": "Mounier",
                 "affiliations": [
-                    "CLEO - Centre pour l'édition électronique ouverte",
-                    "EHESS - École des hautes études en sciences sociales"
+                    {
+                        "original_name": "CLEO - Centre pour l'édition électronique ouverte",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    ,
+                    {
+                        "original_name": "EHESS - École des hautes études en sciences sociales",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    
                 ]
             }
         ],
@@ -2531,21 +3820,48 @@
                 "given": "Hsuan-Lei",
                 "family": "Shao",
                 "affiliations": [
-                    "Department of East Asian Studies, National Taiwan Normal University"
+                    {
+                        "original_name": "Department of East Asian Studies, National Taiwan Normal University",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    
                 ]
             },
             {
                 "given": "Sieh-Chuen",
                 "family": "Huang",
                 "affiliations": [
-                    "College of Law, National Taiwan University"
+                    {
+                        "original_name": "College of Law, National Taiwan University",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    
                 ]
             },
             {
                 "given": "Yun-Cheng",
                 "family": "Tsai",
                 "affiliations": [
-                    "Center for General Education, National Taiwan University"
+                    {
+                        "original_name": "Center for General Education, National Taiwan University",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                    
                 ]
             }
         ],

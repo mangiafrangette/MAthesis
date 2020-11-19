@@ -204,22 +204,22 @@ def fill_affiliations_json(path_of_files, data_affiliations_dict):
 
                 filename_without_extension = filename.split('.')[0]
                 new_filename = f'{filename_without_extension}_filled_aff.json'
-                with open(f"../data/json_files/no_country_dataset/adho_papers/{new_filename}", "w", encoding="utf-8") as f:
+                with open(f"../data/json_files/no_country_dataset/{new_filename}", "w", encoding="utf-8") as f:
                     json.dump(filled_journal_dict, f, ensure_ascii=False)
 def main():
-    path_of_json_files = "../data/json_files/no_country_dataset/adho_papers"
-    ror_queries_file_path = "../data/json_files/no_country_dataset/adho_papers/ror_queries.json"
-    path_of_json_files_2 = "../data/json_files/no_country_dataset/adho_papers/ms_file"
+    path_of_json_files = "../data/json_files/complete_dataset/A"
+    ror_queries_file_path = "../data/json_files/complete_dataset/Aror_queries.json"
+    path_of_json_files_2 = "../data/json_files/complete_dataset/A"
 
     # Generate the set of the affiliation in the corpus of journals
-    #affiliations_set = create_affiliations_set(path_of_json_files)
+    affiliations_set = create_affiliations_set(path_of_json_files)
 
-    #filter_affiliation_set(affiliations_set)
+    filter_affiliation_set(affiliations_set)
 
     # Comment the following lines if ror queries have already been saved and load them with the next lines
-    #queries_results = ror_queries(filter_affiliation_set(affiliations_set), #ror_queries_file_path)
-    # with open(ror_queries_file_path, "w", encoding="utf-8") as file:
-    #    json.dump(queries_results, file, ensure_ascii=False)
+    queries_results = ror_queries(filter_affiliation_set(affiliations_set), ror_queries_file_path)
+    with open(ror_queries_file_path, "w", encoding="utf-8") as file:
+        json.dump(queries_results, file, ensure_ascii=False)
 
     # Comment the following lines if ror queries have NOT already been saved and save them with the previous lines
     
