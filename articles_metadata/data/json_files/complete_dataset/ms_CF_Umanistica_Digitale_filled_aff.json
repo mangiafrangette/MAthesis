@@ -1012,7 +1012,18 @@
             },
             {
                 "given": "Andrea",
-                "family": "Marchetti"
+                "family": "Marchetti",
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
             }
         ],
         "publisher": null,
