@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="../schema/xmod_web.rnc" type="compact"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xmlns:xmt="http://www.cch.kcl.ac.uk/xmod/tei/1.0"
+    xml:id="ab-673">
+   
+    <TEI>
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Mapping the Flow of “Digital Humanities”</title>
+                    <author>
+                        <name>Akdag Salah, Alkim Almila</name>
+                        <affiliation>Virtual Knowledge Studio of the Netherlands Royal Academy of
+                            Arts and Sciences, The Netherlands</affiliation>
+                        <email>almila.akdagsalah@knaw.vks.nl</email>
+                    </author>
+                    <author>
+                        <name>Loet Leydesdorff</name>
+                        <affiliation>Amsterdam School of Communications Research (ASCoR), University
+                            of Amsterdam, The Netherlands</affiliation>
+                        <email>loet@leydesdorff.net</email>
+                    </author>
+                    <author><name>Andrea Scharnhorst</name>
+                        <affiliation>Virtual Knowledge Studio of the Netherlands Royal Academy of
+                            Arts and Sciences, The Netherlands</affiliation>
+                        <email>andrea.scharnhorst@vks.knaw.nl</email></author>
+
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Centre for Computing in the Humanities, King's College
+                        London</publisher>
+                    <address>
+                    <addrLine>Strand, London WC2R 2LS, England, United Kingdom. Tel:+44 (0) 20 7836 5454</addrLine>
+                    <addrLine>http://www.kcl.ac.uk/cch/</addrLine>
+                </address>
+                </publicationStmt>
+                <sourceDesc>
+                    <p>No source: created in electronic format.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc>
+                <change>
+                    <date>2009-04-30</date>
+                    <name>JL</name>
+                    <desc>CCHLite encoding</desc>
+                </change>
+            </revisionDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div>
+
+                    <p> In this paper, we propose novel ways of charting out activity in digital
+                        humanities research. In particular, we apply a combination of classic
+                        bibliometric analysis<note>‘Scientometrics’ or ‘bibliometrics’ is a research
+                            venue specialized in evaluating growth, relations and interactions in
+                            scientific fields with the help of citation data collected above all
+                            from journal papers. Scientometrics is traced back to the beginnings of the
+                            1900s, but the more official start can be settled to 1964, when Garfield
+                            founded Institute for Scientific Information; today it is a product of
+                            Thompson ISI and called Web of Science. From the 80’s onwards, the research in
+                            this area accelerated with the advancement of computers and various
+                            combinations of statistical methods used to extract and evaluate
+                            information such as citations, cocitations with reference of various
+                            bibliometric data. The end-results are usually rendered as so-called
+                            ‘citation networks’ which are a variation of social networks. Now it is
+                            a common practice to evaluate a scholar or a journal according to how
+                            many times it/he/she is cited. To read more on the history of
+                            scientometrics see Katy Börner, Jeegar T. Marus, and Robert L.
+                            Goldstone. (2004). The Simultaneous Evolution Of Author And Paper
+                            Networks, PNAS 101 (suppl.1): 5266-5273. For more information on
+                            citation networks, please see Doreian Patrick. (1985). A Measure Of
+                            Standing Of Journals in Stratified Networks. Journal of the American
+                            Society for lnformation Science, 8(5/6): 341-363. For a critique of
+                            bibliometric analysis see Lindsey D. (1989). Using Citation Counts As A
+                            Measure Of Quality In Science Measuring What's Measurable Rather Than
+                            What's Valid., Scientometrics, Vol. 15, No 3-4: 189-203; Leydesdorff L.
+                            (2006). Can Scientific Journals Be Classified in Terms of Aggregated
+                            Journal-Journal Citation Relations Using the Journal Citation Reports?
+                            Journal Of The American Society For Information Science And
+                            Technology—March: 601-614.</note> focusing on citation patterns and a
+                        broader text and actor network analysis based on various data sets collected
+                        from different sources, such as standardized scientific information
+                        databases and web data in general.</p>
+                    <p>"Digital humanities" is the latest term for "humanities computing", almost a
+                        century old enterprise that made use of computational methods and tools in
+                        humanities research. Today, this enterprise has become a hot topic supported
+                        by significant government funding agencies like National Endowment in
+                        Humanities (NEH) in the United States<note>NEH has an office dedicated for
+                            Digital Humanities research: <ptr
+                                target="http://www.neh.gov/whoweare/divisions/DigitalHumanities/index.html"
+                            />
+                        </note> and the European Framework programs of EU.<note>One of the FP7
+                            projects is titled PREPARINGDARIAH (Preparing for the construction of
+                            the Digital Research Infrastructure for the Arts and Humanities) and is
+                            devoted to enriching DH: <ptr target="http://www.dariah.eu"/></note> The
+                        topic attracts attention from scholars coming from a wide range of
+                        disciplines like computer science and art history, and its future is the
+                        focus of a heated debate on certain weblogs dedicated to this research
+                        initiative. Depending on the research environment, the idea of Digital
+                        Humanities (DH) is envisioned in diverse ways; some research institutes or
+                        universities view it as a methodology, others incorporate it into their
+                        research agendas as a tool for analysis. Others view it as a discourse,
+                        investigating how knowledge is produced with new media technologies, while
+                        at the same time making use of these technologies in humanities research
+                        itself.</p>
+                    <p>Usually, the applications and methodology of DH ask for a collaborative
+                        commission, and these interdisciplinary collaborations forge beneficial
+                        links that enable the use of technological tools in a way to serve
+                        humanities research questions. However, recent findings (Leydesdorff &amp;
+                        Akdag Salah, in preparation)<note>Leydesdorff L., Akdag Salah, A.
+                            (forthcoming). Maps on the basis of the Arts &amp; Humanities Citation
+                            Index: the journals Leonardo and Art Journal¸ and “Digital Humanities”
+                            as a topic, Journal of the American Society for Information Science and
+                            Technology, available at <ptr
+                                target="http://www.leydesdorff.net/ahci/ahci.pdf"/></note> show that
+                        the scholarly activities around DH are less broad than one could expect. One
+                        might even say that DH falls short of reaching out to an interdisciplinary
+                        audience. A bibliometric study of the citation patterns of papers that are
+                        tagged in Web of Science’s all three databases under the topic of "digital
+                        humanities" reveals that the knowledge base of DH is confined to two groups
+                        of journals, namely the ones that are dedicated to humanities computing, and
+                        the others dealing with library and information sciences (see Figures 1
+                        &amp; 2). This outcome should not be surprising, as research in the arena of
+                        humanities computing was centered upon text mining and analysis of
+                        humanities literature, and the publication of these research results were
+                        confined to specialized journals such as Humanities Computing. Beside text
+                        analysis, a main focus of DH activities was the digitization of archives and
+                        libraries, hence the second group of journals are specialized in this area. </p>
+
+
+                    <p>
+                        <figure>
+                            <head/>
+                            <graphic url="673_fig2.png" xmt:type="full" rend="left-img"
+                                mimeType="image/png"/>
+                            <head>Figure 1: Journal co-citation patterns of 33 documents citing
+                                46 documents about “Digital Humanities” in 2008; threshold 0.5%;
+                                cosine ≥ 0.0; N = 15, from Leydesdorff &amp; Akdag Salah
+                                (forthcoming).</head>
+                        </figure>
+                        <figure>
+                            <head/>
+                            <graphic url="673_fig3.png" xmt:type="full" rend="left-img"
+                                mimeType="image/png"/>
+                            <head>Figure 2: k-core group of 36 journals bibliographically coupled
+                                in 46 documents about “digital humanities”; threshold 0.5%; cosine >
+                                0.2, from Leydesdorff &amp; Akdag Salah (forthcoming).</head>
+                        </figure>
+                    </p>
+
+                    <p>Currently, it is not clear whether DH is in the first formations of either
+                        becoming a discipline on its own, or whether it will become merged into the
+                        infrastructure of future humanities departments by offering a platform for
+                        collaborative research environment enriched by media technologies of today.
+                        In either case, our initial findings on DH’s position and its present
+                        inability to reach an interdisciplinary audience led us to conclude that
+                        policy makers and scholars, both of whom contribute to the development of DH
+                        could benefit from an expansion of our analysis.</p>
+                    <p>We assume that DH activities that are very innovative and still in an
+                        emergent state might not be fully reflected by the journals sampled in <hi
+                            rend="italic">Web of Science</hi>. We furthermore suppose that a more
+                        in-depth analysis that goes beyond journal-journal citation networks will
+                        reveal interesting patterns. We will present the results of a social network
+                        analysis and a semantic map of DH based on a dataset extracted from papers
+                        published on leading DH journals such as <hi rend="italic">Humanities
+                            Computing</hi>, <hi rend="italic">Calica</hi>, <hi rend="italic"
+                            >Literary and Linguistic Computing</hi>, as well as papers retrieved
+                        from online publication venues such as <hi rend="italic">Text
+                            Technology</hi>, <hi rend="italic">Digital Studies</hi>, <hi
+                            rend="italic">Digital Medievalist</hi>. We believe that online journals
+                        will alter the recent findings of the knowledge dissemination of DH to a
+                        considerable extend. Here one should not be limited with classical database
+                        providers like <hi rend="italic">Web of Science</hi> or <hi rend="italic"
+                            >Scopus</hi>, but also make full use of Google Scholar search-engine.
+                        Even then, a bibliometric study of the topic confined to journal-journal
+                        citation maps will not deliver a complete picture of the flux of DH. To
+                        capture this change and the debate around it, we propose a methodology that
+                        will incorporate different type of social networks in rendering and
+                        interpreting this new research area.</p>
+                    <p> DH scholars can use virtual research environments for collaboration and
+                        production of knowledge, as well as for publication of their results. Hence,
+                        information retrieval from online communities, mailing lists, discussion
+                        forums and blogs dedicated to DH research is crucial for understanding the
+                        state of the art in projects, programs, and research done in the name of DH.
+                        A social network based on the shared keywords of such a dataset reveals what
+                        topics are of recent interest to DH scholars. Furthermore, this dataset is
+                        used in preparing a second network that shows the links of websites and
+                        blogs (in and out), which facilitates the drawing of information flow inside
+                        DH community, as well the community's relation to other scholarly
+                        communities.</p>
+                    <p> A very interesting extension is a map that depicts the connection between
+                        institutions and the resources they draw upon. As we have already mentioned,
+                        the structural formation of DH is different in every institution. Thus,
+                        every DH research environment is built on different premises, and the
+                        development of each of these settings is mainly based on internal resources
+                        (which are usually delivered in terms of equipment or the availability of
+                        technical staff and scholars) and on external support (governmental or
+                        private agencies). Today, when the main attention of DH scholars are on
+                        combining their past experience and their ideas about DH to create a better
+                        platform for humanities departments in general, to depict the flow of
+                        resources, financial and otherwise, is as vital as following the flow of
+                        information in DH. </p>
+
+                </div>
+
+            </body>
+
+        </text>
+    </TEI>
+
+</teiCorpus>

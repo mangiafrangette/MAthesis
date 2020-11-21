@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="../schema/xmod_web.rnc" type="compact"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xmlns:xmt="http://www.cch.kcl.ac.uk/xmod/tei/1.0"
+    xml:id="ab-673">
+        <TEI>
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Dickens' Double Narrative: Network Analysis of Bleak House</title>
+                    <author>
+                        <name>Borovsky, Zoe</name>
+                        <affiliation>Academic Technology Services and the Center for Digital
+                            Humanities, University of California, Los Angeles</affiliation>
+                        <email>zoe@ats.ucla.edu</email>
+                    </author>
+
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Centre for Computing in the Humanities, King's College
+                        London</publisher>
+                    <address>
+                    <addrLine>Strand, London WC2R 2LS, England, United Kingdom. Tel:+44 (0) 20 7836 5454</addrLine>
+                    <addrLine>http://www.kcl.ac.uk/cch/</addrLine>
+                </address>
+                </publicationStmt>
+                <sourceDesc>
+                    <p>No source: created in electronic format.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc>
+                <change>
+                    <date>2009-04-30</date>
+                    <name>JL</name>
+                    <desc>CCHLite encoding</desc>
+                </change>
+            </revisionDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div>
+
+
+                    <p>My presentation extends Masahiro Hori’s collocational analysis of Dickens’
+                        style (2004) <note>Hori, M. (2004). Investigating Dickens' style, Palgrave
+                            Macmillan.</note> using network content analysis tools. Because DH2010
+                        will be held in London, and since Hori devotes a chapter in his book to
+                        Dickens’ novel, <hi rend="italic">Bleak House</hi>, I will focus the
+                        presentation on this novel. My goals are three-fold: First, I will show how
+                        network analysis provides additional insights and metrics for studying the
+                        collocational patterns in texts. Secondly, I will demonstrate how this
+                        analysis provides new insights into the gender issues in Dickens’ novel.
+                        Finally, I will extend my analysis to the field of Digital Humanities and
+                        reflect on how it, too, can be read as a “double-narrative” with a deep
+                        structure similar to the one Dickens depicts in <hi rend="italic">Bleak
+                            House</hi>.</p>
+                    <p> Network Analysis has been applied to many different types of systems:
+                        sociological, biological, ecological, as well as the Internet. In addition,
+                        human language has been examined for evidence of network behavior—the laws
+                        that have been shown to govern other complex systems. Beginning with the
+                        2001 publication of “The Small World of Human Language”.<note>Cancho, R.F.I.
+                            &amp; Solé, R.V. (2001). The Small World of Human Language. Proceedings
+                            of the Royal Society of London. Series b, biological sciences, 268,
+                            2261--2266.</note> I will present a brief overview of scholarship on
+                        network analysis to provide some background. Typically, humanities scholars
+                        have used network analysis to model networks described in texts (e.g. the
+                        characters in Shakespeare’s plays).<note>Stiller, J., Nettle, D. &amp;
+                            Dunbar, R. (2003). The small world of Shakespeare’s plays. Human Nature,
+                            14(4): 397-408.</note> However, the main purpose of this paper is to
+                        demonstrate the implications of these more theoretical studies upon text
+                        analysis.</p>
+                    <p> Having provided the context for my analysis, I will show how
+                            Wordij,<note>Danowski, J., WORDij, Chicago: University of Illinois at
+                            Chicago. Available at: <ptr target="http://wordij.net/"/></note> a suite
+                        of network content analysis tools designed to analyze unstructured texts,
+                        can be used to extend Hori’s analysis of the collocates<note>Collocates, or
+                            word-pairs, have been defined and analyzed in various ways. Hori
+                            provides a useful short history in his book. Wordij generates collocates
+                            or pairs of words that occur within a user-specified span of surrounding
+                            text. See Danowski, J. (2009). Network analysis of message content. In
+                            Krippendorff, K &amp; Bock, M. (eds), The content analysis reader. Sage
+                            Publications, pp. 421-430 for a detailed description of how Wordij
+                            generates and ranks collocates.</note> of the two narrators in Dickens’
+                        text. Against the prevailing view that the first-person narrative of the
+                        central female character, Esther, is plain and boring, Hori compares the
+                        unusual collocates of both narrators. His careful analysis reveals that
+                        Esther’s narrative is “linguistically experimental and satisfactorily
+                        creative” (Hori 2004, p. 206). My analysis builds upon Hori’s and
+                        illustrates that through the course of the novel, the narrative of the
+                        anonymous third-person narrator becomes “tainted” with collocates that have
+                        led scholars to judge Esther’s narrative as overly sentimental and
+                        boring.</p>
+                    <p> Because Wordij allows us to analyze texts as a network, with links created
+                        between collocates, we can use it to calculate the distance between concepts
+                        that are connected through other links. Using the network diagrams produced
+                        from collocates of both these narrative sections, I will demonstrate how
+                        this type of “semantic map” can be used to compare the distance between
+                        words. As examples, I compare the distance between the words “man” and
+                        “woman” in each narrator’s section. Opticomm (one of the programs in Wordij)
+                        measures the distance between nodes (the words) by counting the number of
+                        links between words and calculating the distance or path and the average
+                        pair frequency.</p>
+                    <!-- use of rightarrow symbol -->
+                    <p> For example, one of the shortest paths from the word “man” to “woman” in
+                        Esther’s text takes the following route:
+                            man<foreign>→</foreign>said<foreign>→</foreign>woman. Opticomm
+                        calculates the “distance” using the frequency of the pairs. The pair
+                            “man<foreign>→</foreign>said” occurs 27 times (1/27 = .0370), and the
+                        pair “said<foreign>→</foreign>woman” occurs 19 times (1/19 =.0526). The sum
+                        of the distances equals .0897. The average pair frequency of the path is
+                        low: 23. A higher frequency path takes advantage of more frequently used
+                        pairs. One of the “hubs” (a word that has many connections) in Esther’s
+                        narrative is the word “little”. By adding the word “little” to the path
+                            (man<foreign>→</foreign>said<foreign>→</foreign>little<foreign>→</foreign>woman), the
+                        distance between “man” and “woman” becomes shorter (.0673) and more frequent
+                        (53.6667) [See Figure 1]. </p>
+
+                    <p>
+                        <figure>
+                            <head/>
+                            <graphic url="673_fig1.png" xmt:type="full" rend="left-img"
+                                mimeType="image/png"/>
+                            <head>Figure 1: Network of collocates of Esther's narrative, Dickens,
+                                Bleak House. Visualization is created with NetDraw 2.087 using
+                                collocates and distances generated with Wordij. Frequencies of the
+                                pairs (shown by weighted lines) are greater than or equal to
+                                18.</head>
+                        </figure>
+                    </p>
+
+                    <p>The results of this analysis show how the third-person narrator’s change in
+                        style (employing collocate patterns used in Esther’s text) reflects and
+                        mirrors the character development in the novel—the rezoning of the
+                        hyper-masculine characters: Sir Leicester Dedlock and Mr. George. I will
+                        argue that the deep structure of the novel hinges on this “rezoning” of the
+                        masculine-- a plot structure that is remarkably similar to the occult horror
+                        films analyzed by Carol Clover in her book: <hi rend="italic">Men, Women and
+                            Chainsaws: Gender in the Modern Horror Film</hi>.<note>Clover, C.J.
+                            (1993). Men, Women, and Chain Saws: Gender in the Modern Horror Film.
+                            Princeton University Press.</note> Like occult films, I will present
+                        that the aim of Bleak House is a reconstruction of the masculine, a process
+                        that typically takes place almost invisibly, as the texts foregrounds the
+                        excesses of the female characters. Thus the narrative technique, one that
+                        “opens up” to the sentimental expressions characteristic of Esther’s
+                        narrative, reflects the deep-structure “rezoning” on the periphery of Bleak
+                        House; George’s Shooting Gallery and Sir Leicester’s Chesney Wold are
+                        radically transformed in the novel.</p>
+                    <p>Finally, I will draw comparisons between the cultural conditions that evoke
+                        these types of structures and double narratives, and reflect on how the
+                        field of Digital Humanities can be read in this light. Scholarship in
+                        Digital Humanities is a “double-narrative” brought about by the rezoning of
+                        hard and soft sciences, a project similar to the reconstruction undertaken
+                        by Dickens’ <hi rend="italic">Bleak House</hi>.</p>
+
+                </div>
+            </body>
+        </text>
+    </TEI>
+    
+</teiCorpus>

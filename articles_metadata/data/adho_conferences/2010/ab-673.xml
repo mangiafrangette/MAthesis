@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="../schema/xmod_web.rnc" type="compact"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xmlns:xmt="http://www.cch.kcl.ac.uk/xmod/tei/1.0"
+    xml:id="ab-673">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Networks of Stories, Structures and Digital Humanities</title>
+                <author>
+                    <name>Akdag Salah, Almila</name>
+                    <affiliation>KNAW <orgName>Royal Netherlands Academy of Arts and Sciences</orgName>,
+                        <country>Netherlands</country></affiliation>
+                    <email>almila.akdagsalah@vks.knaw.nl </email>
+                </author>
+                <author>
+                    <name>De Nooy, Wouter</name>
+                    <affiliation>UVA, Faculty of Social and Behavioral Sciences,
+                        <reg><orgName>University of Amsterdam</orgName></reg>
+                        <country>Netherlands</country></affiliation>
+                    <email>w.denooy@uva.nl</email>
+                </author>
+                <author>
+                    <name>Borovsky, Zoe</name>
+                    <affiliation><orgName>UCLA</orgName>, ATS, LA, <country>USA</country></affiliation>
+                    <email>zoe@ats.ucla.edu</email>
+                </author>
+
+
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Centre for Computing in the Humanities, King's College London</publisher>
+                <address>
+                    <addrLine>Strand, London WC2R 2LS, England, United Kingdom. Tel:+44 (0) 20 7836 5454</addrLine>
+                    <addrLine>http://www.kcl.ac.uk/cch/</addrLine>
+                </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>No source: created in electronic format.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2009-04-29</date>
+                <name>JL</name>
+                <desc>CCHLite encoding</desc>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <TEI>
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title/>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Centre for Computing in the Humanities, King's College
+                        London</publisher>
+                    <address>
+                        <addrLine>Strand, London WC2R 2LS, England, United Kingdom. Tel:+44 (0) 20 7836 5454</addrLine>
+                        <addrLine>http://www.kcl.ac.uk/cch/</addrLine>
+                    </address>
+                </publicationStmt>
+                <sourceDesc>
+                    <p>No source: created in electronic format.</p>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+
+        <text>
+            <body>
+                <div>
+                    <p>In March 2004, Slashdot, the online news aggregator 'for nerds', cited a web
+                        page featuring animated network visualizations of the relationships between
+                        characters in Shakespeare’s plays.<note><ptr
+                                target="http://www.jibble.org/shakespeare/"/></note> The Shakespeare
+                        site began getting hits at a rate of 250,000 hits per hour. Programmer Paul
+                        Mutton created the diagrams by feeding Shakespeare’s plays into an IRC
+                        (Internet Relay Chat) bot designed to visualize social networks. The
+                        Slashdot story promised that the diagrams would allow users to “see
+                        Shakespeare in an entirely new light”.<note>
+                            <ptr
+                                target="http://tech.slashdot.org/story/04/03/11/0151256/Tracking-Social-Networking-In-Shakespeare-Plays?art_pos=24"
+                            /> Mutton also presented his work at a conference on Information
+                            Visualization in 2004. See <ptr
+                                target="http://www.cs.kent.ac.uk/pubs/2004/1931/content.pdf"
+                            /></note>
+                    </p>
+                    <p>Social network analysis, the mapping of relationships as networks, has truly
+                        provided new insights in the social and life sciences with increasing
+                        participation from mathematicians and computer scientists. The idea that
+                        there are laws that govern networks--such as the notion that everyone is at
+                        most six steps away from any other person on earth, and that networks evolve
+                        in predictable ways--has led to remarkable discoveries in fields from
+                        sociology to biology. These insights furthered publications such as Six
+                        Degrees (by sociologist Duncan Watts)<note>Watts, D.J. (2003). Six Degrees:
+                            The Science of a Connected Age 1st ed., W. W. Norton &amp;
+                            Company</note> presenting these discoveries (and the science behind
+                        them) to a more general audience. In addition, online communities such as
+                        Facebook, Twitter, MySpace, etc., have demonstrated the utility and power of
+                        network theory in our daily lives.</p>
+                    <p>With popular awareness of these tools and techniques, combined with the
+                        promise of new insights into ever-increasing amounts of data, network
+                        analysis has significant appeal to digital humanities scholars. However,
+                        these investigations call for tools and software to gather and clean large
+                        amounts of data, even when the researcher opts for analyzing only a tiny
+                        fraction of these vast data sets. Moreover, to interpret these datasets, a
+                        good understanding of network analysis, as well as other visualization means
+                        is necessary. Overcoming the hurdle of handling complicated technological
+                        tools and acquisition of the necessary expertise in network theory both
+                        demand investment on the side of researchers, a risky investment that only a
+                        handful of humanities scholars are willing to make.<note>Social network
+                            analysis is a more popular tool among social scientist then humanities
+                            scholars. A search at Web of Science for the search term returns around
+                            150 hits for social sciences, whereas if the search is refined to arts
+                            and humanities only, it has less than 30 results.</note> Typically,
+                        researchers familiar with the tools perform these analyses, posing the
+                        questions and interpreting the results. In this session, we will first
+                        provide a brief overview of social network analysis and related tools. Then,
+                        we will focus on three examples of how we, as humanities scholars, have made
+                        use of network analysis tools and techniques in our research, both to
+                        illustrate the potential of these approaches, and to discuss some common
+                        problems and their possible solutions.</p>
+                    <p>The names and affiliation of confirmed authors are as follows: <xmt:uList>
+                            <item>Zoe Borovsky, Academic Technology Services and the Center for
+                                Digital Humanities, University of California, Los Angeles</item>
+                            <item>Wouter de Nooy, Amsterdam School of Communication Research
+                                (ASCoR), University of Amsterdam, The Netherlands </item>
+                            <item>Loet Leydesdorff, Amsterdam School of Communication Research
+                                (ASCoR), University of Amsterdam, The Netherlands</item>
+                            <item>Andrea Scharnhorst, Virtual Knowledge Studio of the Netherlands
+                                Royal Academy of Arts and Sciences, The Netherlands</item>
+                            <item>Almila Akdag Salah, Virtual Knowledge Studio of the Netherlands
+                                Royal Academy of Arts and Sciences, The Netherlands</item>
+                        </xmt:uList></p>
+                </div>
+            </body>
+        </text>
+
+    </TEI>
+
+</teiCorpus>

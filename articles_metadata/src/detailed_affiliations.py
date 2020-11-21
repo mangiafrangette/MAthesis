@@ -45,7 +45,7 @@ def create_affiliations_set(path_of_files):
 
 # Create a file with original and splitted names by comma. Testing a method to only query strings that communicate the university or institution and avoid noise
 def filter_affiliation_set(affiliations_set):    
-    with open("../data/json_files/no_country_dataset/adho_papers/affiliations_set.json", "w", encoding="utf-8") as f:
+    with open("../data/json_files/affiliations_set.json", "w", encoding="utf-8") as f:
         affiliations_to_query = []
         words_to_check = ["university", "universidade", "università", "universitat", "universidad", "universität", "université", "universiteit", "academy", "institute", "institut", "instituut", "college", "center", "centre"]
         for item in affiliations_set:
@@ -105,7 +105,7 @@ def load_ror_queries(file_path):
         return json.load(file)
 
 
-# Select ror results with a score grater than or equal to the threshold in input. Default threshold is 0.7.
+""" # Select ror results with a score grater than or equal to the threshold in input. Default threshold is 0.7.
 # The output is a dictionary with the same structure of the input.
 def select_results(affiliations_dict, threshold=0.7):
     if threshold > 1.0 or threshold < 0.0:
@@ -119,7 +119,7 @@ def select_results(affiliations_dict, threshold=0.7):
                     for result in results_list:
                         if result['score'] >= threshold and (result['matching_type'] == "PHRASE" or result['matching_type'] == "COMMON TERMS"):
                             selected_affiliations_dict[affiliation].append(result)
-        return selected_affiliations_dict
+        return selected_affiliations_dict """
 
 
 # Chose only the first ror result for every affiliation (i.e. with the highest score, descending order by score value
@@ -132,7 +132,7 @@ def chose_single_result(queries_results):
         elif len(affiliation_dict["response"]) > 0:
             for result in affiliation_dict["response"]:
                 if not any(aff['original_name'] == affiliation_dict['original_name'] for aff in chosen_affiliations):
-                    if result['score'] >= 0.8 and (result['matching_type'] == "PHRASE" or result['matching_type'] == "COMMON TERMS"):                        
+                    if result['score'] >= 1 and (result['matching_type'] == "PHRASE" or result['matching_type'] == "COMMON TERMS"):                        
                         affiliation_dict["response"] = result
                         chosen_affiliations.append(affiliation_dict)
                     else: 
@@ -171,15 +171,14 @@ def data_from_ror_results(chosen_results):
     return def_affiliations
 
 
-# NEED TO STUDY https://www.dimensions.ai/dimensions-apis/
+""" # NEED TO STUDY https://www.dimensions.ai/dimensions-apis/
 # useful links:
 def add_grid_data(data_affiliations_dict):
-    added_data_affiliations_dict = {}
+    added_data_affiliations_dict = {} """
 
 
-# NEED TO BE TESTED WITH ALL JSON FILES
 # Create COPIES of journals' json files with filled affiliations.
-def fill_affiliations_json(path_of_files, data_affiliations_dict):
+def fill_affiliations_json(path_of_files, path_of_new_files, data_affiliations_dict):
     folder = os.fsencode(path_of_files)
     affiliations_set = set()
     for file in os.listdir(folder):
@@ -204,12 +203,12 @@ def fill_affiliations_json(path_of_files, data_affiliations_dict):
 
                 filename_without_extension = filename.split('.')[0]
                 new_filename = f'{filename_without_extension}_filled_aff.json'
-                with open(f"../data/json_files/no_country_dataset/{new_filename}", "w", encoding="utf-8") as f:
+                with open(f'{path_of_new_files}/{new_filename}', "w", encoding="utf-8") as f:
                     json.dump(filled_journal_dict, f, ensure_ascii=False)
 def main():
-    path_of_json_files = "../data/json_files/complete_dataset/A"
-    ror_queries_file_path = "../data/json_files/complete_dataset/Aror_queries.json"
-    path_of_json_files_2 = "../data/json_files/complete_dataset/A"
+    path_of_json_files = "../data/json_files/no_country_dataset"
+    path_of_new_files = "../data/json_files/filled_aff"
+    ror_queries_file_path = "../data/json_files/ror_queries.json"
 
     # Generate the set of the affiliation in the corpus of journals
     affiliations_set = create_affiliations_set(path_of_json_files)
@@ -226,20 +225,13 @@ def main():
     with open(ror_queries_file_path, "r", encoding="utf-8") as file:
         queries_results = json.load(file)
 
-    # Chose a threshold with which ror results will be selected
-    """ threshold = 0.9
-    selected_affiliations_dict = select_results(affiliations_dict, threshold)
-    #print(selected_affiliations_dict)
-    with open("../data/json_files/affiliations/ror_selected.json", "w", encoding="utf-8") as file:
-        json.dump(selected_affiliations_dict, file) """
-
     chosen_results = chose_single_result(queries_results)
     with open("../data/json_files/no_country_dataset/adho_papers/ror_single_result.json", "w", encoding="utf-8") as file:
         json.dump(chosen_results, file, ensure_ascii=False)
 
     data_affiliations_dict = data_from_ror_results(chosen_results)
 
-    fill_affiliations_json(path_of_json_files_2, data_affiliations_dict)
+    fill_affiliations_json(path_of_json_files, path_of_new_files, data_affiliations_dict)
 
 if __name__ == '__main__':
     main()
