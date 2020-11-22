@@ -1,7 +1,7 @@
 import json
 import os
 
-def create_abstract_txt(folder_path):
+def create_abstract_txt(folder_path, folder_final_path):
     # these variables are necessary for files that do not have a doi
     
     counter = 0
@@ -21,15 +21,18 @@ def create_abstract_txt(folder_path):
             articles = json.load(file) 
         #each abstract is a document
             for article in articles:
-                if article["identifier"]["string_id"] is not None:
-                    with open(f'../data/test_DSH_abstracts/{article["identifier"]["string_id"]}.txt', 'w', encoding='utf-8') as g:
-                        g.write(article["abstract"])
-                else:
-                    counter += 1
-                    with open(f'../data/test_DSH_abstracts/{no_id_name}.txt', 'w', encoding='utf-8') as g:
-                        g.write(article["abstract"])
+                if article["abstract"] is not None:
+                    if article["identifier"]["string_id"] is not None:
+                        single_file_name = f'{article["date"][0:4]}/{article["identifier"]["string_id"].replace("/", "_")}'
+                    else:
+                        counter += 1
+                        single_file_name = f'{article["date"][0:4]}/{no_id_name}'
 
+                    with open(f'{folder_final_path}/{single_file_name}.txt', 'w', encoding='utf-8') as g:
+                        #print(article["identifier"]["string_id"])
+                        g.write(article["abstract"])
 
 folder_path = "../data/research_papers/complete_dataset"
+folder_final_path = "../data/research_papers/single_abstracts"
 
-create_abstract_txt(folder_path)
+create_abstract_txt(folder_path, folder_final_path)

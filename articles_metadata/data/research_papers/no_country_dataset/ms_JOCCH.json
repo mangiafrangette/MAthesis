@@ -5919,7 +5919,7 @@
             "string_id": "10.1145/2822899",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": "We have experienced rapid development in Augmented Reality (AR) systems and platforms in the world of cultural heritage, namely in cultural settings and historical museums. However, we still face a range of challenges to design an AR system that meets the requirements for an AR installation working autonomously in a cultural heritage setting for an extended duration. This article describes the development of two installations for the visualization of a 3D reconstruction of a castle chapel, running autonomously during open hours in the location of a castle museum. We present a convincing 3D visualization running at interactive frame-rates on modern tablets. In one installation, the tablet is connected to a large screen TV for an immersive experience, and, in another, the tablet is hand-held, thus facilitating translational freedom in the chapel. Both installations allow unsupervised usage during museum visiting hours. Based on in-field observations and on-device logging of application usage, user behavior is analyzed and evaluated. Results indicate that users spent a limited amount of time using the application and did not fully explore the visual area of the chapel. In order for the user to spend more time with the application, additional information must be presented to the user.",
         "article_title": "Handheld Visual Representation of a Castle Chapel Ruin",
         "authors": [
             {
@@ -5962,7 +5962,7 @@
             "string_id": "10.1145/2812814",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": "Storytelling, especially in the form called drama, is pervasive across cultures and ages. Though much attention has been devoted to the preservation of the physical supports of drama (e.g., films and tapes), there is a widespread acknowledgment that such tangible heritage is the expression of an intangible notion of drama. This article introduces drama as a form of intangible cultural heritage and presents a solution for its preservation in terms of a formal encoding through a computational ontology. After the review of a formal representation of drama, called Drammar, developed in previous works, we show how an abstraction of drama can be encoded into a digital item. We also show how the method proposed is compliant with the major initiatives for the documentation of cultural heritage, namely CIDOC-CRM and FRBR. Finally, we test the applicability of our solution by showing how the major tenets of two well-known theories of drama can be encoded in Drammar and presenting the results of a focus group of drama scholars and practitioners who have accessed the encoding through a visualization system. The encoding and visualization system have turned out to be a promising support for teaching and investigating drama.",
         "article_title": "Safeguarding and Accessing Drama as Intangible Cultural Heritage",
         "authors": [
             {
@@ -6010,7 +6010,7 @@
             "string_id": "10.1145/2795233",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": "By collecting images of heritage assets from members of the public and processing them to create 3D-reconstructed models, the HeritageTogether project has accomplished the digital recording of nearly 80 sites across Wales, UK. A large amount of data has been collected and produced in the form of photographs, 3D models, maps, condition reports, and more. Here we discuss some of the different methods used to realize the potential of this data in different formats and for different purposes. The data are explored in both virtual and tangible settings, and—with the use of a touch table—a combination of both. We examine some alternative representations of this community-produced heritage data for educational, research, and public engagement applications.",
         "article_title": "Alternative Representations of 3D-Reconstructed Heritage Data",
         "authors": [
             {
@@ -6116,7 +6116,7 @@
             "string_id": "10.1145/2810040",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": "We present an approach to shorten Ancient Greek sentences by using morpho-syntactic information attached to each word in a sentence. This work underpins the content of our eLearning application, AncientGeek, whose unique teaching technique draws from primary Greek sources. By applying a technique that skips the clausal dependents of a main verb, we reached a well-formed rate of 89% of the sentences.",
         "article_title": "Sentence Shortening via Morpho-Syntactic Annotated Data in Historical Language Learning",
         "authors": [
             {
@@ -6171,7 +6171,7 @@
             "string_id": "10.1145/2770877",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": "The 3D reconstruction of archeological sites is still an expensive and time-consuming task. In this article, we present a novel interactive, low-cost approach to 3D reconstruction and compare it to a standard photogrammetry pipeline based on high-resolution photographs. Our novel real-time reconstruction pipeline is based on a low-cost, consumer-level hand-held RGB-D sensor. While scanning, the user sees a live view of the current reconstruction, allowing the user to intervene immediately and adapt the sensor path to the current scanning result. After a raw reconstruction has been acquired, the digital model is interactively warped to fit a geo-referenced map using a handle-based deformation paradigm. Even large sites can be scanned within a few minutes, and no costly postprocessing is required. The quality of the acquired digitized raw 3D models is evaluated by comparing them to actual imagery, a geo-referenced map of the excavation site, and a photogrammetry-based reconstruction. We made extensive tests under real-world conditions on an archeological excavation in Metropolis, Ionia, Turkey. We found that the reconstruction quality of our approach is comparable to that of photogrammetry. Yet, both approaches have advantages and shortcomings in specific setups, which we analyze and discuss.",
         "article_title": "Low-Cost Real-Time 3D Reconstruction of Large-Scale Excavation Sites",
         "authors": [
             {
@@ -6247,7 +6247,7 @@
             "string_id": "10.1145/2786760",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": "This article reports on a successful project for 3D imaging research, digital applications, and use of new technologies in the museum. The article will focus on the development and implementation of a viable workflow for the production of high-quality 3D models of museum objects, based on the 3D laser scanning and photogrammetry of selected ancient Egyptian artefacts. The development of a robust protocol for the complete process chain for imaging cultural heritage artefacts, from the acquisition of 2D and/or 3D images to the development of interactive applications for the public audience, was a specific objective of the project. The workflow devised by the university museum team combines reference photography and 3D imaging with a curatorial review of the actual object to its digital counterpart. It also integrates methodologies for managing the accompanying metadatasets to record these activities. As final stage deliverables from the process, the museum is making high-quality 3D images of artefacts from its collection available through creation and dissemination of digital 3D multiplatform interactive applications in order to allow remote access and to enhance the museum's public engagement. This short article concludes with practical considerations for a 3D imaging workflow such as time and skills needed, 3D model quality, and expectation management.",
         "article_title": "Developing 3D Imaging Programmes--Workflow and Quality Control",
         "authors": [
             {
@@ -6316,7 +6316,7 @@
             "string_id": "10.1145/3051480",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": "Cultural heritage artifacts connect us to past generations and provide links to previous worlds that are beyond our reach. We developed TombSeer, an augmented reality application that aims to immerse the wearer in a museum space engaging two senses (seeing and gesturing) through a holographic heads-up interface that brings virtual, historical artifacts “back to life” through gestural interactivity. This article introduces the TombSeer software prototype and highlights the application of embodied interaction to museum visits using an emerging hardware platform for 3D interactive holographic images (e.g., Meta head-mounted display). This article discusses the TombSeer prototype's development and functionality testing with the Tomb of Kitines exhibit, which was conducted at The Royal Ontario Museum in Toronto, Canada. TombSeer's embodied gestural and visual augmented reality experience functions to aesthetically enhance museum exhibits, cultural heritage sites, and galleries.",
         "article_title": "More than Meets the Eye",
         "authors": [
             {
@@ -6371,7 +6371,7 @@
             "string_id": "10.1145/2996859",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": "We present a system for automatically extracting hieroglyph strokes from images of degraded ancient Maya codices. Our system adopts a region-based image segmentation framework. Multi-resolution super-pixels are first extracted to represent each image. A Support Vector Machine (SVM) classifier is used to label each super-pixel region with a probability to belong to foreground glyph strokes. Pixelwise probability maps from multiple super-pixel resolution scales are then aggregated to cope with various stroke widths and background noise. A fully connected Conditional Random Field model is then applied to improve the labeling consistency. Segmentation results show that our system preserves delicate local details of the historic Maya glyphs with various stroke widths and also reduces background noise. As an application, we conduct retrieval experiments using the extracted binary images. Experimental results show that our automatically extracted glyph strokes achieve comparable retrieval results to those obtained using glyphs manually segmented by epigraphers in our team.",
         "article_title": "Extracting Maya Glyphs from Degraded Ancient Documents via Image Segmentation",
         "authors": [
             {
@@ -6419,7 +6419,7 @@
             "string_id": "10.1145/2996469",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": "We propose three automatic algorithms for analyzing digitized medieval manuscripts, text block computation, text line segmentation, and special component extraction, by taking advantage of previous clustering algorithms and a template-matching technique. These three methods are completely automatic, so no user intervention or input is required to make them work. Moreover, they are all per-page based; that is, unlike some prior methods—that need a set of pages from the same manuscript for training purposes—they are able to analyze a single page without requiring any additional pages for input, eliminating the need for training on additional pages with similar layout. We extensively evaluated the algorithms on 1,771 images of pages of six different publicly available historical manuscripts, which differ significantly from each other in terms of layout structure, acquisition resolution, writing style, and so on. The experimental results indicate that they are able to achieve very satisfactory performance, that is, the average precision and recall values obtained by the text block computation method can reach as high as 98% and 99%, respectively.",
         "article_title": "Automatic Single Page-Based Algorithms for Medieval Manuscript Analysis",
         "authors": [
             {
@@ -6474,7 +6474,7 @@
             "string_id": "10.1145/3009905",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": "The problem of the restoration of broken artifacts, where large parts could be missing, is of high importance in archaeology. The typical manual restoration can become a tedious and error-prone process, which also does not scale well. In recent years, many methods have been proposed for assisting the process, most of which target specialized object types or operate under very strict constraints. We propose a digital shape restoration pipeline consisting of proven, robust methods for automatic fragment reassembly and shape completion of generic three-dimensional objects of arbitrary type. In this pipeline, first we introduce a novel unified approach for handling the reassembly of objects from heavily damaged fragments by exploiting both fracture surfaces and salient features on the intact sides of fragments, when available. Second, we propose an object completion procedure based on generalized symmetries and a complementary part extraction process that is suitable for driving the fabrication of missing geometry. We demonstrate the effectiveness of our approach using real-world fractured objects and software implemented as part of the European Union--funded PRESIOUS project, which is also available for download from the project site.",
         "article_title": "From Reassembly to Object Completion",
         "authors": [
             {
@@ -6550,7 +6550,7 @@
             "string_id": "10.1145/3003435",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "Multi-View Feature Combination for Ancient Paintings Chronological Classification",
         "authors": [
             {
@@ -6612,7 +6612,7 @@
             "string_id": "10.1145/2994151",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "Semiautomatic Construction of Cross-Period Thesaurus",
         "authors": [
             {
@@ -6660,7 +6660,7 @@
             "string_id": "10.1145/2964911",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "Visual Recognition of Ancient Inscriptions Using Convolutional Neural Network and Fisher Vector",
         "authors": [
             {
@@ -6708,7 +6708,7 @@
             "string_id": "10.1145/2943778",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "Analyzing the Decorative Style of 3D Heritage Collections Based on Shape Saliency",
         "authors": [
             {
@@ -6749,7 +6749,7 @@
             "string_id": "10.1145/2915919",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "Digital Mont’e Prama",
         "authors": [
             {
@@ -6811,7 +6811,7 @@
             "string_id": "10.1145/3064527",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "ARIADNE",
         "authors": [
             {
@@ -6978,7 +6978,7 @@
             "string_id": "10.1145/3012288",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "Innovation through Large-Scale Integration of Legacy Records",
         "authors": [
             {
@@ -7026,7 +7026,7 @@
             "string_id": "10.1145/3097571",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "Supporting Semantic Interoperability in Conservation-Restoration Domain",
         "authors": [
             {
@@ -7109,7 +7109,7 @@
             "string_id": "10.1145/3012289",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "A Knowledge Management Architecture for Digital Cultural Heritage",
         "authors": [
             {
@@ -7157,7 +7157,7 @@
             "string_id": "10.1145/3012287",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "A Web-Based Infrastructure for the Assisted Annotation of Heritage Collections",
         "authors": [
             {
@@ -7205,7 +7205,7 @@
             "string_id": "10.1145/2983917",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "Improving Archaeologists’ Online Archive Experiences Through User-Centred Design",
         "authors": [
             {
@@ -7302,7 +7302,7 @@
             "string_id": "10.1145/2983918",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "The Digital Music Lab",
         "authors": [
             {
@@ -7371,7 +7371,7 @@
             "string_id": "10.1145/3004457",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "The European Holocaust Research Infrastructure Portal",
         "authors": [
             {
@@ -7447,7 +7447,7 @@
             "string_id": "10.1145/3012286",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "Big Data Meets Digital Cultural Heritage",
         "authors": [
             {
@@ -7523,7 +7523,7 @@
             "string_id": "10.1145/3012285",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "Digging Wikipedia",
         "authors": [
             {
@@ -7592,7 +7592,7 @@
             "string_id": "10.1145/3012284",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "Ubiquitous Access to Digital Cultural Heritage",
         "authors": [
             {
@@ -7689,7 +7689,7 @@
             "string_id": "10.1145/3075645",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "Mass Digitization of Early Modern Texts With Optical Character Recognition",
         "authors": [
             {
@@ -7758,7 +7758,7 @@
             "string_id": "10.1145/3057929",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "An Interoperable Spatio-Temporal Model for Archaeological Data Based on ISO Standard 19100",
         "authors": [
             {
@@ -7806,7 +7806,7 @@
             "string_id": "10.1145/3064644",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "A Framework to Design, Develop, and Evaluate Immersive and Collaborative Serious Games in Cultural Heritage",
         "authors": [
             {
@@ -7889,7 +7889,7 @@
             "string_id": "10.1145/3084547",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "Wall Painting Reconstruction Using a Genetic Algorithm",
         "authors": [
             {
@@ -7930,7 +7930,7 @@
             "string_id": "10.1145/3099618",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "Data-Driven Analysis of Virtual 3D Exploration of a Large Sculpture Collection in Real-World Museum Exhibitions",
         "authors": [
             {
@@ -7992,7 +7992,7 @@
             "string_id": "10.1145/3040200",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "Cultural Heritage Routing",
         "authors": [
             {
@@ -8033,7 +8033,7 @@
             "string_id": "10.1145/3084546",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "An Innovative Cloud-Based System for the Diachronic Analysis in Numismatics",
         "authors": [
             {
@@ -8102,7 +8102,7 @@
             "string_id": "10.1145/3097570",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "Warcbase",
         "authors": [
             {
@@ -8157,7 +8157,7 @@
             "string_id": "10.1145/3051487",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "Enhancing Semantic Expressivity in the Cultural Heritage Domain",
         "authors": [
             {
@@ -8219,7 +8219,7 @@
             "string_id": "10.1145/3097569",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "Handmade Narrations",
         "authors": [
             {
@@ -8274,7 +8274,7 @@
             "string_id": "10.1145/3064419",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "Parametric Shape Grammar Formalism for Moorish Geometric Design Analysis and Generation",
         "authors": [
             {
@@ -8315,7 +8315,7 @@
             "string_id": "10.1145/3195727",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "Finding Parallel Passages in Cultural Heritage Archives",
         "authors": [
             {
@@ -8370,7 +8370,7 @@
             "string_id": "10.1145/3127090",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "Generating Islamic Quasi-Periodic Patterns",
         "authors": [
             {
@@ -8411,7 +8411,7 @@
             "string_id": "10.1145/3131610",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "A Probabilistic, Ontological Framework for Safeguarding the Intangible Cultural Heritage",
         "authors": [
             {
@@ -8466,7 +8466,7 @@
             "string_id": "10.1145/3117801",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "A Conceptual Framework for Designing Virtual Heritage Environment for Cultural Learning",
         "authors": [
             {
@@ -8507,7 +8507,7 @@
             "string_id": "10.1145/3127324",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "A Natural User Interface for Gestural Expression and Emotional Elicitation to Access the Musical Intangible Cultural Heritage",
         "authors": [
             {
@@ -8597,7 +8597,7 @@
             "string_id": "10.1145/3131778",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "Region of Interest-Based 3D Inpainting of Cultural Heritage Artifacts",
         "authors": [
             {
@@ -8638,7 +8638,7 @@
             "string_id": "10.1145/3092906",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "The CENDARI Infrastructure",
         "authors": [
             {
@@ -8728,7 +8728,7 @@
             "string_id": "10.1145/3287272",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "Evaluating Digital Cultural Heritage ‘In the Wild’",
         "authors": [
             {
@@ -8769,7 +8769,7 @@
             "string_id": "10.1145/3283253",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "Communicating Museum Collections Information Online",
         "authors": [
             {
@@ -8810,7 +8810,7 @@
             "string_id": "10.1145/3230671",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "Digital Editions of Text",
         "authors": [
             {
@@ -8858,7 +8858,7 @@
             "string_id": "10.1145/3230672",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "Computer-Assisted Orientation and Drawing of Archaeological Pottery",
         "authors": [
             {
@@ -8934,7 +8934,7 @@
             "string_id": "10.1145/3230674",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "Exploring RGB-D Cameras for 3D Reconstruction of Cultural Heritage",
         "authors": [
             {
@@ -8982,7 +8982,7 @@
             "string_id": "10.1145/3230670",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "How to Tell Ancient Signs Apart? Recognizing and Visualizing Maya Glyphs with CNNs",
         "authors": [
             {
@@ -9030,7 +9030,7 @@
             "string_id": "10.1145/3230675",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "Augmented Experiences in Cultural Spaces through Social Participation",
         "authors": [
             {
@@ -9085,7 +9085,7 @@
             "string_id": "10.1145/3230673",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "CHER-Ob",
         "authors": [
             {
@@ -9154,7 +9154,7 @@
             "string_id": "10.1145/3216463",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "Munsell Color Specification using ARCA (Automatic Recognition of Color for Archaeology)",
         "authors": [
             {
@@ -9209,7 +9209,7 @@
             "string_id": "10.1145/3316414",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "Cultural Heritage and the Intelligent Internet of Things",
         "authors": [
             {
@@ -9250,7 +9250,7 @@
             "string_id": "10.1145/3303767",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "Virtual Inpainting for Dazu Rock Carvings Based on a Sample Dataset",
         "authors": [
             {
@@ -9312,7 +9312,7 @@
             "string_id": "10.1145/3300972",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "Computer Algorithm for Archaeological Projectile Points Automatic Classification",
         "authors": [
             {
@@ -9388,7 +9388,7 @@
             "string_id": "10.1145/3284425",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "Wedge Cameras for Minimally Invasive Archaeology",
         "authors": [
             {
@@ -9443,7 +9443,7 @@
             "string_id": "10.1145/3284388",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "Improved Hieroglyph Representation for Image Retrieval",
         "authors": [
             {
@@ -9498,7 +9498,7 @@
             "string_id": "10.1145/3276772",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "Egocentric Visitors Localization in Cultural Sites",
         "authors": [
             {
@@ -9560,7 +9560,7 @@
             "string_id": "10.1145/3275522",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "A New Projection-based Exhibition System for a Museum",
         "authors": [
             {
@@ -9622,7 +9622,7 @@
             "string_id": "10.1145/3242901",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "From Point Cloud Data to Structural Analysis Through a Geometrical hBIM-Oriented Model",
         "authors": [
             {
@@ -9684,7 +9684,7 @@
             "string_id": "10.1145/3343871",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "Creating a Knowledge Base to Research the History of UK Museums through Rapid Application Development",
         "authors": [
             {
@@ -9746,7 +9746,7 @@
             "string_id": "10.1145/3344383",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "Digital Dance Ethnography",
         "authors": [
             {
@@ -9794,7 +9794,7 @@
             "string_id": "10.1145/3341882",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "Supporting the Cross-cultural Appreciation of Traditional Chinese Puppetry Through a Digital Gesture Library",
         "authors": [
             {
@@ -9856,7 +9856,7 @@
             "string_id": "10.1145/3336125",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "Mapping Medieval Christianity. CARE-GIS",
         "authors": [
             {
@@ -9904,7 +9904,7 @@
             "string_id": "10.1145/3340936",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "VISE",
         "authors": [
             {
@@ -9945,7 +9945,7 @@
             "string_id": "10.1145/3317552",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "Development of an Augmented Reality Tour Guide for a Cultural Heritage Site",
         "authors": [
             {
@@ -10007,7 +10007,7 @@
             "string_id": "10.1145/3402440",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "Building Semantic Metadata for Historical Archives through an Ontology-driven User Interface",
         "authors": [
             {
@@ -10076,7 +10076,7 @@
             "string_id": "10.1145/3402443",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "Art for Space",
         "authors": [
             {
@@ -10110,7 +10110,7 @@
             "string_id": "10.1145/3383314",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "Detection of Disaster-Affected Cultural Heritage Sites from Social Media Images Using Deep Learning Techniques",
         "authors": [
             {
@@ -10165,7 +10165,7 @@
             "string_id": "10.1145/3382771",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "An Interactive Narrative to Improve Cultural Heritage Experience in Elementary School Children",
         "authors": [
             {
@@ -10213,7 +10213,7 @@
             "string_id": "10.1145/3382773",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "“Let Them Talk!”",
         "authors": [
             {
@@ -10296,7 +10296,7 @@
             "string_id": "10.1145/3386730",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "Automatic Shape Feature Recognition for Ceramic Finds",
         "authors": [
             {
@@ -10351,7 +10351,7 @@
             "string_id": "10.1145/3383781",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "SIAT",
         "authors": [
             {
@@ -10392,7 +10392,7 @@
             "string_id": "10.1145/3386314",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "Open Workflows for Polychromatic Reconstruction of Historical Sculptural Monuments in 3D",
         "authors": [
             {
@@ -10447,7 +10447,7 @@
             "string_id": "10.1145/3383782",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "From the Engraved Tablet to the Digital Tablet, History of a 15th-Century Music Score",
         "authors": [
             {
@@ -10509,7 +10509,7 @@
             "string_id": "10.1145/3376925",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "A Data-driven Approach for Architectural History Knowledge. Capturing Buildings’ Construction Events for Historical Research Collaboration",
         "authors": [
             {
@@ -10543,7 +10543,7 @@
             "string_id": "10.1145/3376120",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "Damage Assessment of Earthen Sites of the Ming Great Wall in Qinghai Province",
         "authors": [
             {
@@ -10612,7 +10612,7 @@
             "string_id": "10.1145/3372421",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "Earthquake Simulation on Ancient Masonry Buildings",
         "authors": [
             {
@@ -10660,7 +10660,7 @@
             "string_id": "10.1145/3373357",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "Accurate Overlapping Method of Ultra-Long Interval Time-Lapse Images for World Heritage Site Investigation",
         "authors": [
             {
@@ -10722,7 +10722,7 @@
             "string_id": "10.1145/3359590",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "Ambient Information Visualisation and Visitors’ Technology Acceptance of Mixed Reality in Museums",
         "authors": [
             {
@@ -10770,7 +10770,7 @@
             "string_id": "10.1145/3355395",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "Technology-Enhanced Interaction with Cultural Heritage",
         "authors": [
             {
@@ -10839,7 +10839,7 @@
             "string_id": "10.1145/3352933",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "The Effects of VR Environments on the Acceptance, Experience, and Expectations of Cultural Heritage Learning",
         "authors": [
             {
@@ -10894,7 +10894,7 @@
             "string_id": "10.1145/3352590",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "ShadowPlay2.5D",
         "authors": [
             {
@@ -10935,7 +10935,7 @@
             "string_id": "10.1145/3354002",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "Adding Culture to UX",
         "authors": [
             {
@@ -10976,7 +10976,7 @@
             "string_id": "10.1145/3350427",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "Situated Tangible Gamification of Heritage for Supporting Collaborative Learning of Young Museum Visitors",
         "authors": [
             {
@@ -11045,7 +11045,7 @@
             "string_id": "10.1145/3350428",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "Data-Driven Modelling of Daylight Scattering by Roman Window Glass",
         "authors": [
             {
@@ -11093,7 +11093,7 @@
             "string_id": "10.1145/3343196",
             "id_scheme": "DOI"
         },
-        "abstract": [],
+        "abstract": null,
         "article_title": "A Procedural Approach to Creating American Second Empire Houses",
         "authors": [
             {
