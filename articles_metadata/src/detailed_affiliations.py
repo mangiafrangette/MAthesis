@@ -35,8 +35,8 @@ def create_affiliations_set(path_of_files):
                                         # print(len(author['affiliation']))
                                         # print(author)
                                         # print(author['affiliation'])
-    
-    #affiliations_set.remove("")
+    if "" in affiliations_set:
+        affiliations_set.remove("")
 
     # for affiliation in affiliations_set:
     #     if len(affiliation) <= 1:
@@ -45,7 +45,7 @@ def create_affiliations_set(path_of_files):
 
 # Create a file with original and splitted names by comma. Testing a method to only query strings that communicate the university or institution and avoid noise
 def filter_affiliation_set(affiliations_set):    
-    with open("../data/json_files/affiliations_set.json", "w", encoding="utf-8") as f:
+    with open("../data/research_papers_affiliations_set.json", "w", encoding="utf-8") as f:
         affiliations_to_query = []
         words_to_check = ["university", "universidade", "università", "universitat", "universidad", "universität", "université", "universiteit", "academy", "institute", "institut", "instituut", "college", "center", "centre"]
         for item in affiliations_set:
@@ -104,24 +104,6 @@ def load_ror_queries(file_path):
     with open(file_path, "r", encoding="utf-8") as file:
         return json.load(file)
 
-
-""" # Select ror results with a score grater than or equal to the threshold in input. Default threshold is 0.7.
-# The output is a dictionary with the same structure of the input.
-def select_results(affiliations_dict, threshold=0.7):
-    if threshold > 1.0 or threshold < 0.0:
-        raise ValueError("threshold value must be between 0 and 1")
-    else:
-        selected_affiliations_dict = {}
-        for affiliation, results_list in affiliations_dict.items():
-            if results_list is not None: # two if statements in order to have a robust algorithm independently from previous
-                if len(results_list) > 0:
-                    selected_affiliations_dict[affiliation] = []
-                    for result in results_list:
-                        if result['score'] >= threshold and (result['matching_type'] == "PHRASE" or result['matching_type'] == "COMMON TERMS"):
-                            selected_affiliations_dict[affiliation].append(result)
-        return selected_affiliations_dict """
-
-
 # Chose only the first ror result for every affiliation (i.e. with the highest score, descending order by score value
 # is automatically provided by ror queries). The output is a dictionary with the same structure of the input.
 def chose_single_result(queries_results):
@@ -132,7 +114,7 @@ def chose_single_result(queries_results):
         elif len(affiliation_dict["response"]) > 0:
             for result in affiliation_dict["response"]:
                 if not any(aff['original_name'] == affiliation_dict['original_name'] for aff in chosen_affiliations):
-                    if result['score'] >= 1 and (result['matching_type'] == "PHRASE" or result['matching_type'] == "COMMON TERMS"):                        
+                    if result['score'] >= 0.9 and (result['matching_type'] == "PHRASE" or result['matching_type'] == "COMMON TERMS"):                        
                         affiliation_dict["response"] = result
                         chosen_affiliations.append(affiliation_dict)
                     else: 
@@ -191,24 +173,35 @@ def fill_affiliations_json(path_of_files, path_of_new_files, data_affiliations_d
                         for author in article['authors']:
                             if isinstance(author, dict):
                                 if 'affiliation' in author.keys():
-                                    if author['affiliation'] is not None:
-                                        list_of_affiliations = []
-                                        """ if len(author['affiliation']) > 0 and isinstance(author['affiliation'][0], str): """
-                                        for affiliation, result in itertools.product(author['affiliation'], data_affiliations_dict):
-                                            if affiliation == result["original_name"]:
-                                                #print(affiliation)
-                                                #print(result["original_name"])
-                                                list_of_affiliations.append(result)
-                                        author['affiliation'] = list_of_affiliations
+                                    if author['affiliation'] is None:
+                                        author['affiliation'] = [{
+                                                "original_name": None,
+                                                "normalized_name": None,
+                                                "country": None,
+                                                "identifiers": {
+                                                    "ror": None,
+                                                    "GRID": None
+                                                }                    
+                                            }]
+                                    elif author['affiliation'] is not None:
+                                            list_of_affiliations = []
+                                            
+                                            for affiliation, result in itertools.product(author['affiliation'], data_affiliations_dict):
+                                                if affiliation == result["original_name"]:
+                                                    #print(affiliation)
+                                                    #print(result["original_name"])
+                                                    list_of_affiliations.append(result)
+                                            author['affiliation'] = list_of_affiliations
+                                    
 
                 filename_without_extension = filename.split('.')[0]
                 new_filename = f'{filename_without_extension}_filled_aff.json'
                 with open(f'{path_of_new_files}/{new_filename}', "w", encoding="utf-8") as f:
                     json.dump(filled_journal_dict, f, ensure_ascii=False)
 def main():
-    path_of_json_files = "../data/json_files/no_country_dataset"
-    path_of_new_files = "../data/json_files/filled_aff"
-    ror_queries_file_path = "../data/json_files/ror_queries.json"
+    path_of_json_files = "../data/research_papers/no_country_dataset"
+    path_of_new_files = "../data/research_papers/complete_dataset"
+    ror_queries_file_path = "../data/research_papers_ror_queries.json"
 
     # Generate the set of the affiliation in the corpus of journals
     affiliations_set = create_affiliations_set(path_of_json_files)
@@ -216,9 +209,9 @@ def main():
     filter_affiliation_set(affiliations_set)
 
     # Comment the following lines if ror queries have already been saved and load them with the next lines
-    queries_results = ror_queries(filter_affiliation_set(affiliations_set), ror_queries_file_path)
-    with open(ror_queries_file_path, "w", encoding="utf-8") as file:
-        json.dump(queries_results, file, ensure_ascii=False)
+    #queries_results = ror_queries(filter_affiliation_set(affiliations_set), ror_queries_file_path)
+    #with open(ror_queries_file_path, "w", encoding="utf-8") as file:
+    #    json.dump(queries_results, file, ensure_ascii=False)
 
     # Comment the following lines if ror queries have NOT already been saved and save them with the previous lines
     
@@ -226,7 +219,7 @@ def main():
         queries_results = json.load(file)
 
     chosen_results = chose_single_result(queries_results)
-    with open("../data/json_files/no_country_dataset/adho_papers/ror_single_result.json", "w", encoding="utf-8") as file:
+    with open("../data/research_papers_ror_single_result.json", "w", encoding="utf-8") as file:
         json.dump(chosen_results, file, ensure_ascii=False)
 
     data_affiliations_dict = data_from_ror_results(chosen_results)
