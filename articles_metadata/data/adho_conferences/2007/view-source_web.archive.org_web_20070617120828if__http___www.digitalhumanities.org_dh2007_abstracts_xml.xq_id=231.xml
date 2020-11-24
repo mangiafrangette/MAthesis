@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI.2 id="panel_231_smith"><teiHeader><fileDesc><titleStmt><title>Agora.Techno.Phobia.Philia: Gender, Knowledge Building, and Digital Media</title><author><name reg="Smith, Martha Nell">Martha Nell Smith</name></author><author><name reg="Guertin, Carolyn">Carolyn Guertin</name></author><author><name reg="Mandell, Laura C.">Laura C. Mandell </name></author><author><name reg="Harris, Katherine D.">Katherine D. Harris</name></author><respStmt><resp>Marked up by</resp><name reg="Schmidt, Sara A.">Sara A. Schmidt</name></respStmt></titleStmt><publicationStmt><p>Marked up to be included in the Digital Humanities 2007 Conference Abstracts
+                    book.</p></publicationStmt><sourceDesc><p>None</p></sourceDesc></fileDesc><profileDesc><textClass><classCode>panel</classCode><keywords><list type="simple"><item>knowledge representation</item><item>gender studies</item><item>queer studies</item><item>knowledge production</item></list></keywords></textClass></profileDesc><revisionDesc><list type="simple"><item>SAS: Created from Martha Nell Smith's doc <date value="2007-05">May
+                    2007</date></item></list></revisionDesc></teiHeader><text><front><docTitle n="Agora.Techno.Phobia.Philia: Gender, Knowledge Building, and Digital Media"><titlePart type="main">Agora.Techno.Phobia.Philia: Gender, Knowledge Building, and
+                    Digital Media</titlePart></docTitle><docAuthor><name reg="Smith, Martha Nell">Martha Nell Smith</name><address><addrLine>mnsmith@umd.edu</addrLine></address></docAuthor><titlePart type="affil">University of Maryland (MITH)</titlePart><docAuthor><name reg="Guertin, Carolyn">Carolyn Guertin</name><address><addrLine>carolyn.guertin@gmail.com</addrLine></address></docAuthor><titlePart type="affil">University of Texas at Arlington<lb/>McLuhan Program in Culture
+                and Technology</titlePart><docAuthor><name reg="Mandell, Laura C.">Laura C. Mandell</name><address><addrLine>mandellc@muohio.edu</addrLine></address></docAuthor><titlePart type="affil">Department of English<lb/>Miami University</titlePart><docAuthor><name reg="Harris, Katherine D.">Katherine D. Harris</name><address><addrLine>kharris@email.sjsu.edu</addrLine></address></docAuthor><titlePart type="affil">San Jose State University</titlePart></front><body><div0><p>The editors of a special issue of <title level="j">Signs: Journal of Women in
+                        Culture and Society</title>, a prominent scholarly feminist journal, wrote
+                    in 1990 that “the degree to which American society has embraced and absorbed
+                    computer technologies is astonishing. The degree to which the changes provoked
+                    by computers leave prevailing inequalities is troubling.”<note n="1">Jean F.
+                        O’Barr, ed.,<title level="m"> From Hard Drive to Software: Gender,
+                            Computers, and Difference</title>. Special Issue of <title level="j">
+                            Signs: Journal of Women in Culture and Society</title> 16:1 (Autumn
+                        1990).</note> This observation preceded the development of the World Wide
+                    Web, which has enabled computational tools to suffuse much work of the
+                    humanities. The questions that have informed our work as feminist theorists and
+                    scholars—how do our items of knowledge come into being, who made them, for what
+                    purposes, and how does gender play a role in knowledge making—inhere in our
+                    digital humanities work. That the two fields are or should be inextricably
+                    intertwined seems, therefore, an inevitable fact of life. But is this just
+                    personal coincidence, a fact produced by the trajectory of our careers and
+                    interests? What is humanities computing anyway, and why should it be important
+                    for feminist cultural, social, and intellectual work? Concomitantly, can
+                    feminism enhance and improve the world and work of computer science, of
+                    humanities computing, of digital humanities? After all, “very early in life,
+                    computing is claimed as a male territory. At each step from early childhood
+                    through college, computing is both actively claimed as “guy stuff” by boys and
+                    men and passively ceded by girls and women. The claiming is largely the work of
+                    a culture and society that links interest and success with computers to boys and
+                        men.”<note n="2"> Jane Margolis and Allan Fisher.<title level="m"> Unlocking
+                            the Clubhouse: Women in Computing</title> (Cambridge, Massachusetts and
+                        London England: The MIT Press, 2002), p. 4.</note></p><p>A culture that says to use computing tools expertly one must know how machines
+                    work, or at least must be deft programmers, dominates much of the world of
+                    humanities computing. It is as if those who have fretted over literary and other
+                    humanities fields becoming feminized or soft have been rescued by a field that
+                    is hard science. Thus through computing, humanities is being remasculinized.
+                    Scientific matters of mathematics and computation, objective and hard, are not
+                    subject to the concerns of gender, race, or sexuality. Either explicitly or
+                    implicitly, concerns that had taken over so much academic work in literature—of
+                    gender, race, class, sexuality—were assumed to be irrelevant to humanities
+                    computing. 2 + 2, so the reasoning goes, always equals 4, whether you are black,
+                    female, queer, or straight. The codes always work, whatever one’s personal
+                    identity or social group, and, as matters of objective and hard science, are
+                    best dealt with by those who have been most interested in being engineers and
+                    computational scientists of critical inquiry. So surely those interested are
+                    also folks who do not want to clutter sharp, disciplined, methodical philosophy
+                    with considerations of the gender-, race-, and class-determined facts of life.
+                    After all, in the wake of the sixties, the humanities in general and their
+                    standings in particular had suffered, according to some, from being feminized by
+                    these things. Humanities computing seemed to offer a space free from all this
+                    messiness and a return to objective questions of representation.</p><p>Yet such dreams of a return to the “objective,” uncluttered by messy identity
+                    questions, are nostalgic. That humanities disciplines were in fact
+                    foundationally changed by feminist scholarship of the twentieth century is
+                    obvious from project development within humanities computing itself, and each of
+                    the panelists is deeply involved with a major digital humanities project
+                    informed by feminist scholarship—the <emph>Dickinson Electronic Archives</emph>,
+                        <emph>The Poetess Archive</emph>, <emph>The Forget-Me-Not Hypertextual
+                        Archive</emph>, a <emph>cyberfeminist archive</emph>, <emph>The Assemblage
+                        Gallery</emph>. Our work as feminists leads us to concur with social
+                    scientist Jane Margolis and computer scientist Allan Fisher that “the goal is
+                    not to fit women into computer science [digital humanities] as it is currently
+                    taught and conceived. Rather, a cultural and curricular revolution is required
+                    to change computer science [digital humanities] so that the valuable
+                    contributions and perspectives of women are respected within the
+                        discipline.”<note n="3"><title level="m">Unlocking the Clubhouse</title>, p.
+                        6.</note> In other words, this panel will posit ways in which the methods of
+                    feminist, queer, and race critical inquiry might benefit the work of digital
+                    humanists across the board (or screen, as it were) rather than serving as a
+                    special niche of interest (for example, the methods might benefit the
+                    multi-institutional NORA project, <xptr to="http://noraproject.org" from="ROOT" targOrder="U"/>, and its second phase, MONK, tremendously). </p><p>Descriptions of the roundtable presenters are below and we trust will serve to
+                    show the range of experience and expertise on which we will draw to pose our
+                    questions, posit ways in which the messiness of such critical inquiry can
+                    advance digital humanities, entertain questions and suggestions before, during,
+                    and after our session in order to collaborate with audience members in knowledge
+                    production.</p></div0><div0><p>Martha Nell Smith is Professor of English and Founding Director of the Maryland
+                    Institute for Technology in the Humanities (MITH) at the University of Maryland.
+                    Author of more than 40 articles, including “Electronic Scholarly Editing” in the
+                        <title level="m">Blackwell Companion to Digital Humanities</title>, her
+                    publications include <title level="m">Open Me Carefully: Emily Dickinson’s
+                        Intimate Letters to Susan Dickinson</title>, with Ellen Louise Hart (1998);
+                        <title level="m">Comic Power in Emily Dickinson</title>, with Cristanne
+                    Miller and Suzanne Juhasz (1993); and <title level="m">Rowing in Eden: Rereading
+                        Emily Dickinson</title> (1992). With Mary Loeffelholz, she is editing the
+                        <title level="m">Blackwell Companion to Emily Dickinson</title> (forthcoming
+                    in 2007). She is also Coordinator and Executive Editor of the <emph>Dickinson
+                        Electronic Archives</emph> projects at the Institute for Advanced Technology
+                    in the Humanities (IATH) at the University of Virginia. With Lara Vetter, she is
+                    a general editor of <title level="m">Emily Dickinson’s Correspondence: A
+                        Born-Digital Inquiry</title>, forthcoming from the Mellon-sponsored
+                    University of Virginia Press Rotunda Electronic Imprint. Her digital humanities
+                    work is an extension of her work as a feminist literary theorist and scholar.
+                    Because her interest in the possibilities afforded by computers as powerful and
+                    empowering tools of humanities scholarly work became so keen as the World Wide
+                    Web was gaining precedence, her work in humanities computing has been powerfully
+                    influenced by cyberculture and new media studies. As a digital humanities
+                    specialist she has focused on the sociologies of knowledge production in our
+                    technology-saturated world—what data is reproduced and made accessible, and to
+                    whom, and what new knowledge has been produced by computational tools. Her
+                    questions, suggestions, and models will be drawn from the multi-institutional
+                    data mining and visualization NORA Project (<xptr to="http://noraproject.org" from="ROOT" targOrder="U"/>). </p></div0><div0><p>Carolyn Guertin is an Assistant Professor of Digital Media and Director of the
+                    eCreate Lab in the Department of English at the University of Texas at
+                    Arlington. During the 2004 to 2006 academic years, she was a Senior McLuhan
+                    Fellow and SSHRC Postdoctoral Fellow in the McLuhan Program in Culture and
+                    Technology at the University of Toronto ~ most recently giving the closing
+                    keynote address at "Re-Reading McLuhan: An International Conference on Media and
+                    Culture in the 21st Century" at the University of Bayreuth in Germany. She does
+                    both theoretical and applied work in cyberfeminism, digital narrative, digital
+                    design, media literacy (or postliteracy) and performance. She is a founding
+                    editor of the online journal <title level="j">MediaTropes</title>, and a
+                    literary advisor to the Electronic Literature Organization. She has written
+                    textbooks on hypertext and literature and information aesthetics, and is
+                    currently working on a new book project called <title level="m">Connective
+                        Tissue: Queer Bodies, Postdramatic Performance and New Media
+                    Aesthetics</title>. Guertin is best known as curator and founder of
+                        <emph>Assemblage: The Women's New Media Gallery</emph><xptr to="http://tracearchive.ntu.ac.uk:80/traced/guertin/assemblage.htm" from="ROOT" targOrder="U"/>, the only site devoted exclusively to
+                    born-digital art and lit by women on the Web ~ soon to be relaunched in a 2.0
+                    version. She will be examining the trend toward personal media and participatory
+                    culture that is a product (or fallout) of the politicizing of diversity, the
+                    women’s movement, and queer issues. Where notions of interactivity focused on
+                    the technology as the most important component, participatory or user-generated
+                    culture—from wikis to podcasts to FaceBook to <emph>Second Life</emph>—puts the
+                    backchannel into the foreground, and puts people of all genders back as active
+                    users in the system.</p></div0><div0><p>Laura Mandell is Associate Professor in eighteenth-century and Romantic British
+                    literature at Miami University. Her book, <title level="m">Misogynous Economies:
+                        The Business of Literature in Eighteenth-Century Britain</title>, discusses
+                    the feminist potential of anti-feminist writings produced during the long
+                    eighteenth century. She has published essays in ELH, MLQ, European Romantic
+                    Review, Studies in Romanticism, and Nineteenth-Century Prose. She has edited The
+                    Castle of Otranto and <emph>The Poetess Archive Database</emph> (<xptr to="http://unixgen.muohio.edu/~poetess" from="ROOT" targOrder="U"/>), a
+                    TEI-encoded bibliographic finding aid and full-text resource about the men and
+                    women who wrote popular poetry in Britain and America between 1750 and 1900.
+                    Within the next year, this resource will contain author and title information
+                    from tables of contents of all the major anthologies and literary annuals.
+                    Within the next few years, it will expand to periodicals.</p></div0><div0><p>Katherine D. Harris, Assistant Professor, San Jose State University, has created
+                    an online hypertextual archive of the first literary annual, the Forget Me Not,
+                    re-presenting various aspects of the book as well as the poetry, prose and
+                    engravings: “Forget Me Not: A Hypertextual Archive of Ackermann’s 19th-Century
+                    Literary Annual” <xptr to="http://www.orgs.muohio.edu/anthologies/FMN/Index.htm" from="ROOT" targOrder="U"/>. With Laura Mandell, she serves as an editor of
+                        <emph>The Poetess Archive Database</emph>, which now contains a bibliography
+                    of over 4,000 entries for works by and about writers working in and against the
+                    “poetess tradition,” the extraordinarily popular, but much criticized, flowery
+                    poetry written in Britain and America between 1750 and 1900. Their presentation
+                    for this panel will not be a show-and-tell of these archives, but an in-depth
+                    consideration of ways in which the feminist theories that have identified the
+                    scholarly needs for this resource and informed their development can advance the
+                    work of digital humanities at large. </p></div0></body></text></TEI.2>

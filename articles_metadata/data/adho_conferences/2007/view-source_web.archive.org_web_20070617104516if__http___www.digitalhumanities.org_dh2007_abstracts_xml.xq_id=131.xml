@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI.2 id="panel_131_rehm"><teiHeader><fileDesc><titleStmt><title>Digital Text Resources for the Humanities – Legal Issues</title><author><name reg="Rehm, Georg">Georg Rehm</name></author><author><name reg="Witt, Andreas">Andreas Witt</name></author><author><name reg="Hinrichs, Erhard">Erhard Hinrichs</name></author><author><name reg="Lehmberg, Timm">Timm Lehmberg</name></author><author><name reg="Chiarcos, Christian">Christian Chiarcos</name></author><author><name reg="Zimmermann, Felix">Felix Zimmermann</name></author><author><name reg="Zinsmeister, Heike">Heike Zinsmeister</name></author><author><name reg="Dellert, Johannes">Johannes Dellert</name></author><respStmt><resp>Marked up by</resp><name reg="Schmidt, Sara A.">Sara A. Schmidt</name></respStmt></titleStmt><publicationStmt><p>Marked up to be included in the Digital Humanities 2007 Conference Abstracts
+                    book.</p></publicationStmt><sourceDesc><p>None</p></sourceDesc></fileDesc><profileDesc><textClass><classCode>panel</classCode><keywords><list type="simple"><item>sustainability</item><item>corpora</item><item>legal issues</item><item>preservation</item></list></keywords></textClass></profileDesc><revisionDesc><list type="simple"><item>SAS: Created from Georg Rehm's html<date value="2007-05">May
+                2007</date></item></list></revisionDesc></teiHeader><text><front><docTitle n="Digital Text Resources for the Humanities – Legal Issues"><titlePart type="main">Digital Text Resources for the Humanities – Legal
+                Issues</titlePart></docTitle><docAuthor><name reg="Rehm, Georg">Georg Rehm</name><address><addrLine>georg.rehm@uni-tuebingen.de</addrLine></address></docAuthor><titlePart type="affil">Tübingen University</titlePart><docAuthor><name reg="Witt, Andreas">Andreas Witt</name><address><addrLine>andreas.witt@uni-tuebingen.de</addrLine></address></docAuthor><titlePart type="affil">Tübingen University</titlePart><docAuthor><name reg="Hinrichs">Erhard Hinrichs</name><address><addrLine>eh@sfs.uni-tuebingen.de</addrLine></address></docAuthor><titlePart type="affil">Tübingen University</titlePart><docAuthor><name reg="Lehmberg, Timm">Timm Lehmberg</name><address><addrLine>timm.lehmberg@uni-hamburg.de</addrLine></address></docAuthor><titlePart type="affil">Hamburg University</titlePart><docAuthor><name reg="Chiarcos, Christian">Christian Chiarcos</name><address><addrLine>chiarcos@ling.uni-potsdam.de</addrLine></address></docAuthor><titlePart type="affil">Potsdam University</titlePart><docAuthor><name reg="Zimmermann, Felix">Felix Zimmermann</name><address><addrLine>mail@felix-zimmermann.eu</addrLine></address></docAuthor><titlePart type="affil">Institute for Legal Informatics<lb/>Hannover University </titlePart><docAuthor><name reg="Zinsmeister, Heike">Heike Zinsmeister</name><address><addrLine>heike.zinsmeister@uni-tuebingen.de</addrLine></address></docAuthor><titlePart type="affil">Tübingen University </titlePart><docAuthor><name reg="Dellert, Johannes">Johannes Dellert</name><address><addrLine>jdellert@sfs.uni-tuebingen.de</addrLine></address></docAuthor><titlePart type="affil">Tübingen University </titlePart></front><body><div0><p>The session "Digital Text Resources for the Humanities – Legal Issues"
+                        consists of three papers that address the legal aspects connected to several
+                        crucial phases of handling text resources: collecting, compiling, curating,
+                        analysing, distributing, and archiving text resources such as corpora, are
+                        tasks carried out on a day-to-day basis by people involved in fields such
+                        as, for example, humanities computing, computational and corpus linguistics,
+                        information retrieval and text mining. Despite the ubiquity of document
+                        collections, the legal issues that are intrinsically tied to virtually all
+                        texts created and published by third parties (most importantly, their
+                        copyright, as well as privacy issues), do not typically attract a lot of
+                        interest. Though these issues are acknowledged, they are often regarded as
+                        rather insignificant for the research question at hand, or a project does
+                        not have any jurisprudential expertise to deal with legal issues in an
+                        adequate way. As a consequence, distributing a corpus (for example, to other
+                        interested researchers) whose provenance is unknown or questionable, or
+                        publishing excerpts from a document collection on a website, may become next
+                        to impossible from a legal point of view. This is why scholars often decide
+                        not to publish their collections (or parts thereof) online at all, in order
+                        to avoid any potential legal problems. The session aims to provide an
+                        overview of the following legal aspects: <list type="unordered"><item>The first contribution, "Language Corpora – Copyright – Data
+                                Protection: The Legal Point of View" (Timm Lehmberg, and Felix
+                                Zimmermann), highlights the legal requirements that hold with regard
+                                to the construction of digital text resources, special emphasis is
+                                given to the aspect of copyright and data protection (for example,
+                                potential reasons for the need to anonymise text corpora).</item><item>The second presentation, "Collecting Legally Relevant Metadata by
+                                Means of a Decision-Tree-Based Questionnaire System" (Timm Lehmberg,
+                                Christian Chiarcos, Erhard Hinrichs, Georg Rehm, and Andreas Witt),
+                                consists of two parts: first, a web-based questionnaire is
+                                introduced that was developed to capture the requirements research
+                                projects have with regard to the archiving and distribution of their
+                                corpora; second, initial results from a study that spans three large
+                                research centres and more than 60 individual research projects are
+                                reported.</item><item>The final paper, "Corpus Masking: Legally Bypassing Licensing
+                                Restrictions for the Free Distribution of Text Collections" (Georg
+                                Rehm, Andreas Witt, Heike Zinsmeister, and Johannes Dellert),
+                                introduces the idea of masking an annotated text corpus whose
+                                original source text collection is copyright-protected, so that the
+                                masked version can be distributed without any restrictions;
+                                furthermore, a fully working tool for masking an XML-annotated
+                                corpus is presented.</item></list></p><p>The authors of the three papers are associated with a joint project situated
+                        in three Collaborative Research Centres (SFB, Sonderforschungsbereich) that
+                        are sponsored by the German Research Foundation (DFG, Deutsche
+                        Forschungsgemeinschaft): SFB 441 (<emph>Linguistic Data Structures</emph>,
+                        Tübingen University), SFB 538 (<emph>Multilingualism</emph>, Hamburg
+                        University), and SFB 632 (<emph>Information Structure</emph>, Potsdam
+                        University). Each of these three research centres consists of about 15 to 20
+                        research projects. Most projects work with digital text collections, in
+                        practically all cases these collections and corpora are constructed by the
+                        respective researchers themselves. A problem people involved in the fields
+                        of digital humanities or computational linguistics are often confronted with
+                        concerns the fact that the sustainability and reusability of corpora is not
+                        given too much attention – or that these aspects, in a worst case scenario,
+                        are completely ignored. Corpora are often created for an application or for
+                        a project that has a very specific research question, but when the project
+                        is finished it becomes next to impossible (especially for third parties) to
+                        gain access to the resource that took several months or maybe even years to
+                        create. The joint project <emph>Sustainability of Linguistic Data</emph> was
+                        therefore established to provide the conceptual, technical and
+                        infrastructural basis for a solution to the problem of sustainably archiving
+                        these digital text collections, addressing issues as diverse as, for
+                        example, annotation and metadata frameworks, best practice guidelines, legal
+                        issues of distributing text collections, and unifying diverse tag sets by
+                        means of an ontology.</p><p><hi rend="bold">Session Chairs:</hi> Georg Rehm and Andreas Witt</p><div1><head>Language Corpora – Copyright – Data Protection: The Legal Point of View</head><p rend="Presenter">Felix Zimmermann and Timm Lehmberg</p><div2><head>1 Introduction</head><p>Creating comprehensive and sustainable archives of linguistic data and
+                            making them (or parts of them) accessible to the research community
+                            leads to a number of essential legal questions being raised by different
+                            aspects of law. Like any discipline handling large amounts of data, the
+                            digital humanities are confronted with a complex system of authorities
+                            and restrictions. From acquisition, through storing and processing to
+                            the annotation and finally publication of the data, there are a number
+                            of rights as well as duties each participant in this process has to
+                            consider. Additionally, some legal systems provide special rules for the
+                            use of data for scientific purposes. On the one hand the opacity of the
+                            legal position leads to the assumption that, in many cases, linguistic
+                            data are used and transferred in a way that does not comply with legal
+                            requirements. On the other hand there is a noticeable tendency not to
+                            transfer linguistic data for fear of breaking the law (see Jüttner 2000,
+                            and Patzelt 2003).</p></div2><div2><head>2 Relevant Areas of Law</head><p>Two different areas of law play an important role in the use of
+                            linguistic data for research purposes: <list type="unordered"><item>"<emph>Intellectual Property Rights</emph>" provide legal
+                                    protection of non-material goods which are any kind of
+                                    intellectual property of a third party. This includes, amongst
+                                    others, literary works as well as <emph>databases</emph>,
+                                    software and utility patents. In terms of law language corpora
+                                    are defined as databases.</item><item>"<emph>Privacy and Personal Data Protection Law</emph>"
+                                    imposes restrictions for the processing of any personal data,
+                                    i.e., any data that can be linked to an individual. In the face
+                                    of linguistic data processing any audio and video recordings
+                                    (and their transcriptions) as well as metadata that contain
+                                    personal information on speakers are covered by this law.</item></list>Both areas are relevant to the complete process of data
+                            processing and have to be considered from the initial step of the data
+                            based work (normally the acquisition of the data) to the time of
+                            publication.</p></div2><div2><head>3 Aspects of National and International Law</head><p>In everyday legal practice a particularly relevant role is played by
+                            those legislative rulesets that are based on constitutional norms.
+                            Within these, interests and entitlements of other involved individuals
+                            and institutions, which are worthy of protection, are often outlined in
+                            minute detail in relation to the procurement, processing, and transfer
+                            of linguistic primary data.</p><p>Federal states, which contain individual member states with their own
+                            legislative authority (such as the US, Germany, Switzerland, Austria,
+                            Spain) may have enacted specific member state rules. This leads to the
+                            possibility that there may be complex and potentially internally
+                            conflicting legislation within a state in a federation.</p><p>It is not just, however, the original national legal situation which
+                            regulates the use of linguistic data. International obligations may,
+                            through direct or indirect applicability, have considerable impact. In
+                            2007, 27 member states of the European Union adhere to European legal
+                            instruments (such as directives and regulations) in relation to the
+                            national and international use of data. Pursuant to the doctrine of
+                            direct applicability enshrined in Article 10 of the Treaty establishing
+                            the European Communities, these norms have priority in relation to
+                            potentially conflicting national norms. What needs to be borne in mind
+                            is that the individual member states have some leeway in the
+                            implementation of the instruments, which may lead to minute differences
+                            in the level of protection.</p><p>Finally, public international treaties which oblige their signatories to
+                            adhere to certain minimal standards need to be taken into consideration.
+                            In relation to linguistic data and the problem of copyright, the <title level="m">Copyright Treaty of the World Intellectual Property
+                                Organisation</title> (<emph>WIPO</emph>, 1996) is to be considered
+                            as particularly relevant. The question of personality rights with a view
+                            to individuals whose data are processed is addressed in the <title level="m">Convention on Human Rights and Fundamental
+                            Freedoms</title> (1950). Additionally, the <title level="m">Convention
+                                for the Protection of Individuals with regard to Automatic
+                                Processing of Personal Data</title> (1981) provides further
+                            normative guidance for the member states of the European Union.</p></div2><div2><head>4 The Legal Impact of Intellectual Property</head><p>Copyright protection of language corpora is provided by different aspects
+                            of applicable law. In order to simplify the presentation, there will be
+                            a focus on the law of harmonised rules by the European Communities that
+                            are placed within the framework of the World Intellectual Property
+                            Organisation (WIPO).</p><div3><head>4.1 Directive 91/250/EC on the Legal Protection of Computer
+                                Programs</head><p>The different tasks of linguistic data processing (transcription as
+                                well as annotation etc.) require a considerable number of software
+                                tools. For this purpose, apart from commercial development, software
+                                is written by the research establishment's employees. The
+                                participants in this process rarely bother with legal protection of
+                                their work. By implementing the Directive 91/250/EC, computer
+                                programs in all Member States of the European Community are
+                                protected by copyright law. In accordance with Article 1.3 of the
+                                Directive 91/250/EC, a computer program is protected, if it is
+                                original in the sense that it is the author's own intellectual
+                                creation. Ideas and principles of a computer program are not
+                                protected by this Directive. The term of protection is the author's
+                                lifetime plus a period of 50 years. The author owns the exclusive
+                                rights to reproduce, translate, adapt and publicly distribute his
+                                computer program.</p><p>If a computer program has been created by an employee, in accordance
+                                with Article 2.3 of the Directive 91/250/EC, the employer is, unless
+                                otherwise provided by contract, the copyright holder of the
+                                resource. In the case of software being developed within a research
+                                project, from this point of view the copyright is held by the
+                                respective research establishment (University etc.).</p></div3><div3><head>4.2 Directive 96/9/EC on the Legal Protection of Databases</head><p>In accordance with Article 1.2 of the Directive 96/9/EC, a database
+                                is defined as a "collection of independent works, data or other
+                                materials arranged in a systematic or methodical way and
+                                individually accessible by electronic or other means". Without
+                                exception, linguistic corpus data come under this protection. This
+                                Directive makes two significant stipulations. First, it offers
+                                protection by copyright to databases which, by reason of the
+                                selection or arrangement of their contents, constitute the author's
+                                own intellectual creation. Thereby the author owns the exclusive
+                                right to carry out or authorise the reproduction, alteration and
+                                distribution. Secondly the Directive creates an exclusive right
+                                protection <emph>sui generis</emph> for makers of databases,
+                                independent of the degree of innovation. This protection of any
+                                investment allows the makers of databases to prevent unauthorised
+                                extraction and/or re-utilisation.</p></div3><div3><head>4.3 Copyright Directive 2001/29/EC</head><p>The Copyright Directive 2001/29/EC adapts legislation on copyright
+                                and related rights to reflect technological developments into
+                                European Community law. In this process, it discusses and harmonises
+                                the property of reproduction, communication and distribution rights.
+                                Concerning linguistic research data, attention should be paid to
+                                Article 5.3(a) of the Copyright Directive. It gives freedom to
+                                Member States in supporting non-commercial science by making
+                                copyright less restrictive for academic use of copyrighted work.</p></div3></div2><div2><head>5 The Legal Impact of Data Protection</head><p>Directive 95/46/EC on the protection of individuals with regard to the
+                            processing of personal data imposes strict restrictions for the
+                            elevation and utilisation of personal data. Personal data are pieces of
+                            information which can be linked to a specific person. The processing of
+                            personal data only is permitted by law, if there is a clear and lawful
+                            purpose at the time of data procurement, and if the respective person
+                            has expressed his/her consent. Further restrictions are imposed, if the
+                            racial, national or ethnical origin, political opinion, religious or
+                            philosophical beliefs are apparent. The same applies to the disclosure
+                            of health conditions or sexual life. If personal data are transferred to
+                            countries outside of the European Union (Transborder Dataflow to third
+                            countries), a level of protection has to be guaranteed that is
+                            equivalent to the European level, for example by means of the
+                                <emph>Safe-Harbour-Principles</emph>. The respective person may
+                            enforce his/her rights by means such as disclosure and deletion of the
+                            data. Article 6.2, Article 11.2 and Article 13.2 of the Data Protection
+                            Directive contain privileges for academic research. An escape strategy
+                            in respect of data protection law problems is complete anonymisation
+                            (disguising by removing personal information by abbreviating names,
+                            locations etc.) or pseudonymisation (disguising by aliasing individuals,
+                            locations, etc.) of the personal data. However, it remains unsolved
+                            which level of abstraction constitutes sufficient anonymisation,
+                            particularly if it is possible to draw conclusions by joining the data
+                            with other resources.</p><p>Figure 1 gives an overview about the different types of right holders to
+                            a database.</p><figure rend="ImageLink"><head/><p><xref to="DITTO" from="ROOT" targOrder="U">panel_131_rehm_1.jpg</xref></p><figDesc>Figure 1: The different types of right holders</figDesc></figure></div2><div2><head>Legal Competence by Trusted Third Parties</head><p>An additional option is given by the use of a trusted third party hosting
+                            the information that has been disguised by anonymisation or
+                            pseudonymisation. It may act as a trustee, passing the aliased or
+                            anonymised data from its origin to a requesting research institution.
+                            The trusted party is not required by law, but it has the ability to
+                            provide a high level of data security, integrity and protection during
+                            the whole data transaction process (Kilian et al 1995, p. 63).
+                            Additionally a trusted party can provide specialist advice in technical
+                            and copyright matters. Further, we suggest proceedings to increase legal
+                            certainty in case of creating and using linguistic databases.</p></div2></div1><div1><head>Bibliography</head><listBibl><biblStruct><analytic><author><name reg="Jüttner, Irmtraud">Irmtraud Jüttner</name></author><title level="a">Mannheimer Korpus und Urheberrecht. Die
+                                    Einbeziehung zeitgenössischer digitalisierter Texte in die
+                                    computergespeicherten Korpora des IDS und ihre juristischen
+                                    Grundlagen</title></analytic><monogr><title level="j">Sprachreport</title><imprint><biblScope type="vol">3</biblScope><date value="2000">2000</date><biblScope>11-13</biblScope></imprint></monogr></biblStruct><biblStruct><analytic><author><name reg="Kilian, Wolfgang">Wolfgang Kilian</name></author><title level="a">Daten für die Forschung im Gesundheitswesen</title></analytic><monogr><title level="m">Gutachten II</title><imprint><publisher>Toeche-Mittler Verlag</publisher><date value="1995">1995</date><biblScope type="pages">57-76</biblScope></imprint></monogr></biblStruct><biblStruct><analytic><author><name reg="Patzelt, Johannes">Johannes Patzelt</name></author><title level="a">Unter juristischem Blickwinkel: Textkorpora und
+                                    Urheberrecht</title></analytic><monogr><editor role="editor"><name reg="Wegstein, Werner">Werner Wegstein</name></editor><editor role="editor"><name reg="Schwitalla, Johannes">Johannes Schwitalla</name></editor><title level="m">Korpuslinguistik deutsch: synchron – diachron –
+                                    kontrastiv: Würzburger Kolloqium 2003,</title><imprint><pubPlace>Würzburg</pubPlace><date value="2003">2003</date></imprint></monogr></biblStruct></listBibl></div1></div0><div0 type="EmbeddedDoc"><div1><head>Collecting Legally Relevant Metadata by Means of a Decision-Tree-Based
+                        Questionnaire System</head><p rend="Presenter">Timm Lehmberg, Christian Chiarcos, Erhard Hinrichs, Georg
+                        Rehm, and Andreas Witt</p><div2><head>1 Introduction and Overall Concept</head><p>Most metadata standards used for corpus linguistic purposes (TEI, OLAC,
+                            IMDI etc., for a complete overview see Lehmberg and Wörner 2007) require
+                            elements that contain legal information about the rights holder to the
+                            particular resource and/or its accessibility. Normally these metadata
+                            elements are kept very abstract and do neither distinguish between the
+                            different types of personal rights nor do they consider the option of
+                            multiple holders of copyright.</p><p>The legal situation upon which the evaluation of linguistic data to be
+                            used for scientific purposes is based is clearly defined, but too
+                            complex to be understood completely by non-experts. Furthermore, it
+                            varies from one country to the other and is in a constant state of flux.</p><p>In the framework of our joint sustainability initiative (see the
+                            introduction to this session), a large number of heterogeneous corpora
+                            have been acquired from multiple sources and multiple projects, and
+                            processed with regard to different individual requirements (Schmidt et
+                            al. 2006). This heterogeneity is responsible for the problem that the
+                            legal metadata that need to be collected strongly vary with regard to
+                            the respective corpus and data situation. Only for a small number of
+                            projects associated with our sustainability initiative are detailed sets
+                            of legal metadata that inform a potential user of the corpus about, for
+                            example, stipulations or copyright holders, readily available. For the
+                            majority of projects and corpora, this task has to be performed
+                            retroactively.</p><figure rend="ImageLink"><head/><p><xref to="DITTO" from="ROOT" targOrder="U">panel_131_rehm_2.jpg</xref></p><figDesc>Figure 1: A concept map visualising the query
+                            structure</figDesc></figure><p>Facing the complexity of the legal context (see Zimmermann and Lehmberg,
+                            in this session), it is almost impossible for non-experts to evaluate
+                            the situation of their language data and to extract the relevant
+                            metadata without professional advice.</p><p>To reduce the complexity of this task, concept maps were created with the
+                            goal of making the legal situation as well as the legal terminology
+                            transparent and understandable to non-professionals. Unlike mindmaps
+                            that are primarily used for the (often spontaneous and intuitive)
+                            mapping of ideas and processes, the technique of concept mapping is
+                            intended more for knowledge modelling: concepts are represented by
+                            nodes, links represent the relations between them.</p><p>As a utility to create the concept maps modelling the legal situation
+                            within our joint sustainability initiative we used
+                            <emph>CmapTools</emph>, a program distributed by the Institute for Human
+                            and Machine Cognition (IHMC). IHMC CmapTools provide a client/server
+                            architecture that allows users at different locations to work
+                            collectively on Concept Maps and to discuss their structure and content
+                            online.</p><p>Based on these schemata and following the principles of decision-trees,
+                            we built an additional concept map representing the query structure of a
+                            questionnaire. Digressing from the original principles of concept
+                            mapping mentioned above, in this map queries are represented as nodes
+                            whereas responses are represented as links between them. The primary
+                            query given in the centre node (see figure 1) corresponds to two central
+                            aspects of law (data protection and copyright, see Zimmermann and
+                            Lehmberg, in this session). Each response leads to a large number of
+                            additional queries that again, depending on the users' response, have
+                            subordinated queries. Further sections of the concept map deal with the
+                            accessibility of the data as well as their respective principles and
+                            standards of data processing.</p><p>In same manner we modelled the query structure that surveys the meta
+                            information that ideally has been collected in connection with the
+                            compilation process of corpora. Therefore it contains queries asking for
+                            established metadata standards (TEI, DC, OLAC, IMDI etc.) that may have
+                            been used, and if necessary asks for additional information.</p><p>Due to the fact that the IHMC CmapTools provide an export of concept maps
+                            into an XML-based format, the content and structure of the concept map
+                            can be processed automatically to create the web based questionnaire
+                            that is described in the following section.</p><p>The complete concept map structures will be demonstrated in conjunction
+                            with example scenarios in our presentation.</p></div2><div2><head>2 Implementation</head><p>As the questionnaire has to be accessible from different research project
+                            locations, it has been implemented using a XAMP (any operating system,
+                            Apache, MySQL and PHP) architecture to create a user-friendly, web-based
+                            interface. The conceptual structure represented by the concept map is
+                            transformed into a relational database model. Accordingly, it is
+                            possible both to model the tree structure of the queries (Celko, 2004)
+                            and to save responses to these questions within the database.
+                            Additionally, the database includes user data (as well as user access
+                            control data) and links them to the metadata sets of the resource being
+                            acquired by the questionnaire.</p><figure rend="ImageLink"><head/><p><xref to="DITTO" from="ROOT" targOrder="U">panel_131_rehm_3.jpg</xref></p><figDesc>Figure 2: A web-based wizard guides the user through the
+                                questionnaire</figDesc></figure><p>The user interface is generated by a script that parses the database and
+                            guides the user though the questionnaire tree with the help of a
+                            web-based wizard (see figure 2). This architecture has several
+                            advantages: <figure rend="ImageLink"><head/><p><xref to="DITTO" from="ROOT" targOrder="U">panel_131_rehm_4.jpg</xref></p><figDesc>Figure 3: An overview page gives information about the data
+                                    collection progress</figDesc></figure><list type="unordered"><item>Subordinate queries that refer to specific details of some
+                                    legal aspects automatically can be skipped if they become
+                                    superfluous. For instance, there is no need to query contractual
+                                    agreements with subjects if there is no personal data contained
+                                    in the corpus.</item><item>The data model provides users with the option of registering
+                                    multiple corpora and running the questionnaire wizard
+                                    individually. Furthermore, users can share the data they entered
+                                    into the system with other registered users so that it is
+                                    possible to edit the data across project locations (for example,
+                                    queries can be skipped, answered later, or left to other users).</item><item>Should the structure or content of the questionnaire tree be
+                                    changed, the database will be modified accordingly. If the
+                                    change leads to unanswered queries, this will be indicated to
+                                    the user in a status page. For this reason, every user account
+                                    has an overview page that gives information about the state of
+                                    progress of every registered resource (see figure 3).</item><item>The questionnaire includes queries about metadata content and
+                                    standards that already have been applied to the registered
+                                    corpora, so that users do not have to insert redundant
+                                    information already contained in existing metadata sets.</item><item>Administrator users have unlimited access to all data in the
+                                    database, so that users can be provided with support, if needed.</item></list></p><p>We are currently in the process of collecting legally relevant metadata
+                            from about 60 different research projects with the aid of the
+                            questionnaire system described in this paper. Content and structure of
+                            the concept maps is available on our project homepage at <xptr to="http://www.sfb441.uni-tuebingen.de/c2/" from="ROOT" targOrder="U"/>.</p></div2></div1><div1><head>Bibliography</head><listBibl><biblStruct><monogr><author><name reg="Celko, Joe">Joe Celko</name></author><title level="m">Trees and Hierarchies in SQL for Smarties</title><imprint><pubPlace>San Mateo</pubPlace><publisher>Morgan Kaufmann</publisher><date value="2004">2004</date></imprint></monogr></biblStruct><biblStruct><analytic><author><name reg="Lehmberg, Timm">Timm Lehmberg</name></author><author><name reg="Wörner, Kai">Kai Wörner</name></author><title level="a">Annotation Standards</title></analytic><monogr><editor role="editor"><name reg="Lüdeling, Anke">Anke Lüdeling</name></editor><editor role="editor"><name reg="Kytö, Merja">Merja Kytö</name></editor><title level="m">Corpus Linguistics, Handbücher zur Sprach- und
+                                    Kommunikationswissenschaft (HSK)</title><imprint><pubPlace>Berlin</pubPlace><pubPlace>New York</pubPlace><publisher>de Gruyter</publisher><date value="2007">In press</date></imprint></monogr></biblStruct><biblStruct><analytic><author><name reg="Schmidt, Thomas">Thomas Schmidt</name></author><author><name reg="Chiarcos, Christian">Christian Chiarcos</name></author><author><name reg="Lehmberg, Timm">Timm Lehmberg</name></author><author><name reg="Rehm, Georg">Georg Rehm</name></author><author><name reg="Witt, Andreas">Andreas Witt</name></author><author><name reg="Hinrichs, Erhard">Erhard Hinrichs</name></author><title level="a">Avoiding Data Graveyards: From Heterogeneous Data
+                                    Collected in Multiple Research Projects to Sustainable
+                                    Linguistic Resources</title></analytic><monogr><title level="m">Proceedings of the E-MELD 2006 Workshop on Digital
+                                    Language Documentation: Tools and Standards – The State of the
+                                    Art, East Lansing, Michigan, June 2006</title><imprint><date value="2006">2006</date></imprint></monogr></biblStruct></listBibl></div1></div0><div0 type="EmbeddedDoc"><div1><head>Corpus Masking: Legally Bypassing Licensing Restrictions for the Free
+                        Distribution of Text Collections</head><p rend="Presenter">Georg Rehm, Andreas Witt, Heike Zinsmeister, and Johannes
+                        Dellert</p><div2><head>1 Introduction</head><p>Though XML-annotated text collections are commonplace in humanities
+                            computing, the value of the annotation is often underestimated, as
+                            interesting applications can be realised by ignoring the content and
+                            considering the annotation exclusively. At the same time, the
+                            distribution of text collections (e. g., linguistic resources) is often
+                            restricted by rigid licence agreements. Usually, a corpus consists of a
+                            source text collection (STC) acquired from third parties such as web
+                            sites or publishers, and annotation layers that refer to, for example,
+                            structural or linguistic properties. In practically all cases the STC is
+                            a copyrighted property, so that it is up to the copyright holder to
+                            decide if, and under which conditions, the corpus - a crucial part of
+                            which is the STC - can be made available to the public or to the
+                            research community.</p><p>The example we use in this paper is TüBa-D/Z ("Tübingen Treebank of
+                            Written German" (Telljohann et al, 2004 &amp; Telljohann et al,
+                            2006)). This manually annotated treebank is based on a CD ROM that
+                            contains an archive of the issues the newspaper <emph>die tageszeitung
+                                (taz)</emph> has published since 1986. If a researcher (the
+                            licencee) wants to obtain TüBa-D/Z, available for academic purposes free
+                            of charge, he or she has to sign a licence agreement with Tübingen
+                            University's Linguistics Department (the licencer) which states that the
+                            licencer is the copyright holder of the annotation and that the STC, as
+                            published on the <emph>taz</emph> CD ROM, is copyrighted by contrapress
+                            media GmbH. The licencee has to certify that he, she or the institution
+                            the person works for has a valid licence for this CD ROM.<note n="1">The
+                                    <emph>taz</emph> CD ROM costs about 50 Euros. Licences for other
+                                corpora are often more expensive.</note><figure rend="ImageLink"><head/><p><xref to="DITTO" from="ROOT" targOrder="U">panel_131_rehm_5.jpg</xref></p><figDesc>Figure 1: Masking linguistic corpora by example of the
+                                    TüBa-D/Z treebank</figDesc></figure> We propose the notion of corpus masking, i. e., obfuscating
+                            the STC, but not the annotation layer(s), the STC is "removed", so that
+                            the original licensing restrictions no longer hold for the "new"
+                            resource. The advantage is that the valuable annotation information can
+                            be made available for free (see figure 1).<note n="2">The institution
+                                that created the annotation holds its copyright and can decide the
+                                distribution conditions. As modern corpora may comprise several
+                                annotation layers created by more than one research group, each
+                                group can be considered the creator of its annotation layer and can
+                                decide its terms of distribution (as a consequence, every annotation
+                                layer should potentially comprise a complete metadata record).
+                                Commercially available software tools that were used in the
+                                annotation process might restrict the terms of distribution of the
+                                resulting data set as well.</note></p></div2><div2><head>2 Corpora – Licence Restrictions – Sustainability</head><p>When linguists have created a corpus it can become quite difficult to
+                            gain access to the corpus once the project is finished. In an ideal
+                            world, academics can turn to a sustainability initiative in order to
+                            archive their datasets and to make them available to other researchers,
+                            e. g., by means of a web-based corpus platform (Dipper et al, 2006
+                            &amp; Schmidt et al 2006). Apart from issues such as providing
+                            standardised markup languages and metadata sets (Chiarcos et al, 2006
+                            &amp; Wörner et al, 2006), sustainability initiatives have to take
+                            the copyright of the original data into account.</p><p>We developed a tool that is able to mask corpora on the fly. Should
+                            someone who is interested in a corpus that is available under a rigid
+                            licence model not have a valid STC licence, he or she can still receive
+                            the corpus, albeit in masked form. A corpus potentially can be
+                            associated with <emph>several</emph> accessibility regulations: full
+                            access to TüBa-D/Z requires a licence for the <emph>taz</emph> CD ROM,
+                            whereas masked versions can be placed under, say, the GNU Free
+                            Documentation or a Creative Commons Licence. Therefore, a sustainability
+                            initiative has to come up with a flexible system of representing the
+                            relationships and dependencies between the STC and the different
+                            annotation layers and their individual licence restrictions.</p></div2><div2><head>3 How to Mask Linguistic Resources</head><p>The easiest option to obfuscate an annotated corpus is to remove the
+                            text. A less radical solution substitutes every STC character with, for
+                            example, "x" and every digit with "0". In addition to preserving word
+                            length, this process retains information on upper and lower case by
+                            substituting these with "x" and "X" (Toms &amp; Campbell, 1999).</p><p>We developed <emph>CorpusMasker</emph>, a Java-based tool for the
+                            parameterised masking of linguistic resources represented as XML
+                            documents. The XML element(s) or attribute(s) that comprise the actual
+                            words or tokens to be masked (in case of TüBa-D/Z, the <hi rend="code">&lt;orth&gt;</hi> element) can be specified to handle
+                            arbitrary annotation schemes. CorpusMasker features a dictionary
+                            approach: after collecting all word forms, every word is mapped onto a
+                            randomly generated string and replaced by that string. Word length can
+                            be retained, as well as information on the distribution and positioning
+                            of vowels and consonants. If a word is usually written with an initial
+                            lower case character and that word appears with an initial upper case
+                            character, the same randomised word is used (e. g., "dort" -&gt; "kulp",
+                            "Dort" -&gt; "Kulp"). CorpusMasker performs an affix analysis that is
+                            similar to morphology induction. The algorithm analyses certain words,
+                            masks the roots, but retains the affixes, so that the text is masked but
+                            valuable linguistic information that in itself is insufficient to
+                            reconstruct the source text or even to interpret the masked text, is
+                            kept intact for further analysis. Parameterised masking can be performed
+                            with several different degrees of retaining linguistic information, from
+                            the complete removal of the STC to a rather light but sufficient masking
+                            that keeps, e. g., closed word classes unchanged (see table 1; affixes
+                            are marked in italics).<note n="3">After DH 2007, a downloadable version
+                                of CorpusMasker will be available on our web site under an Open
+                                Source licence (<xptr to="http://www.sfb441.uni-tuebingen.de/c2/" from="ROOT" targOrder="U"/>).</note></p><p>Linguistic corpora often contain POS information so that the
+                            randomisation process results in a list that could act as a key to
+                            unlock the masked corpus, i. e., to reconstruct the STC. As publication
+                            of this complete list would contradict the purpose of the tool, we will
+                            only provide a reduced version of the file so that the randomly
+                            generated words can be mapped onto POS tags.</p><figure rend="ImageLink"><head/><p><xref to="DITTO" from="ROOT" targOrder="U">panel_131_rehm_6.jpg</xref></p><figDesc/></figure></div2><div2><head>4 Masked Corpora: What are They Good for?</head><p>Our original goal had been to give researchers interested in TüBa-D/Z the
+                            option of examining the annotation without ordering the <emph>die
+                                tageszeitung</emph> CD ROM first. As our sustainability platform
+                            will give access to copyrighted corpora, we will implement the option of
+                            masking a corpus archive before every single download to enhance
+                            security. Furthermore, a password protected dictionary lookup could be
+                            provided that enables researchers to retrieve a small amount of
+                            translations from randomised strings back to original words. Following,
+                            we sketch some application scenarios for masked corpora.</p><p><emph rend="bold">Unlexicalised parsing</emph> A masked corpus can be
+                            used for all sorts of unlexicalised training. Charniak (1996) shows that
+                            an unlexicalised PCFG trained on treebank annotations is compatible with
+                            other unlexicalised parsers. In addition to the masked training data, a
+                            minimal amount of testing data was required. In the case of TüBa-D/Z
+                            this subcorpus could consist of randomly shuffled example sentences from
+                            the treebank with unmasked text and full annotation. Hinrichs et al.
+                            (2005) discuss experiments in memory-based learning of anaphora
+                            resolution. Their tool is trained on the annotation of TüBa-D/Z and does
+                            not take lexical information into account. The features refer to
+                            morphological properties, parts-of-speech, syntactic boundaries and
+                            grammatical functions, all of which are available in the annotation. In
+                            this case even the test data could be generated directly from the masked
+                            resource since the annotation includes marking of equivalence classes
+                            comprising pronouns and noun phrases. The gold standard for testing
+                            consists of these equivalence classes only in which the words are
+                            represented by positional indices. The evaluation would then test
+                            whether the relevant indices are grouped together correctly. A
+                            comparable tool trained on masked corpus data could as well be applied
+                            to `real' German texts.</p><p><emph rend="bold">Qualitative and quantitative analyses</emph> TüBa-D/Z's
+                            annotation can be used for qualitative and quantitative analyses, it
+                            includes both syntactic categories as well as grammatical functions. A
+                            linguist can, for example, examine which categories occur as
+                            predicatives (element <distinct>PRED</distinct>). In addition to this
+                            qualitative investigation, the corpus also allows a quantitative
+                            analysis: what percentage of predicatives is realised by a noun phrase,
+                            what percentage is realised by an adjectival phrase or by a
+                            prepositional phrase? To give a second example, coordinate structures
+                            are marked with the label <distinct>KONJ</distinct>; even without
+                            knowledge of the word level the treebank annotation gives sufficent
+                            information to examine parallelism effects with respect to the structure
+                            of the conjuncts: syntactic categories, grammatical functions,
+                            modifiers, and length, see, e. g., Levy (2004), and Steiner (2006).</p><p><emph rend="bold">Teaching linguistics and computational
+                            linguistics</emph> The masked version of TüBa-D/Z contains an unnatural
+                            language that acts like German syntaxwise, but the lexicon of this
+                            language contains, for the most part, random strings and associated POS
+                            tags. This fact makes the masked treebank a valuable resource in the
+                            context of teaching computational linguistics. If students have to work
+                            with a language that has a known syntax and a rudimentary morphology but
+                            lexical entries that bear no meaning whatsoever, they might be able to
+                            concentrate better on the tasks of developing grammar rules or improving
+                            parsing efficiency (e. g., with regard to unlexicalised parsing). This
+                            approach of blanking out semantics is compatible with Chomsky's notion
+                            of language as processing a set of symbols.<note n="4">For centuries,
+                                typographers and graphic designers use the "Lorem ipsum dolor sit
+                                amet" text fragment to evaluate new layouts without resorting to
+                                writing actual text. The blind text gives the impression of a
+                                natural distribution of characters and whitespace without
+                                distracting the reader by conveying any meaning that could be
+                                interpreted intuitively. This approach might be useful for
+                                visualising masked corpora by means of XML to SVG transformations
+                                (Piez, 2004).</note></p><p><emph rend="bold">Evaluating NLP software</emph> Another promising
+                            application scenario is the evaluation of NLP software. Most tools use
+                            n-gram language models, more sophisticated applications can be trained
+                            on annotated corpora. With a masked resource it is possible to measure
+                            the influence syntactic annotations have concerning precision and
+                            recall, as the performance data of an NLP tool with regard to original,
+                            as well as slightly and fully masked corpora can be compared. This
+                            approach could result in substantial arguments in favour, or against the
+                            use of treebanks for training NLP tools.</p></div2><div2><head>5 Related Work</head><p>Anonymisation methods remove proper nouns and other identity-revealing
+                            phrases to protect the privacy of the people mentioned in a text (for
+                            example, medical or legal records (Corti et al, 2006, Medlock, 2006,
+                            Poesio et al, 2006, &amp; Rock, 2001)). A second application area is
+                            concerned with the removal of cues that might reveal the identity of the
+                            author of a text. A third area concerns the masking, or obfuscation of
+                            texts, as described in the present paper; we are not aware of similar
+                            approaches to the masking of linguistic resources.<note n="5">In a
+                                message posted to Corpora-List on Aug 19th, 2006, Péter Halácsy
+                                suggested an interesting method to distribute a copyrighted corpus
+                                under "fair use" conditions. Part of the copyright notice Halácsy et
+                                al. apply to the Creative Commons-based licence of the "Hunglish"
+                                corpus (D. Varga et al, 2005) reads: "We prevented the illegal use
+                                of copyrighted material by shuffling the texts at sentence level.
+                                This form is still useful for research purposes, while it does not
+                                infringe upon the rightholders' interests."</note></p></div2><div2><head>6 Concluding Remarks</head><p>We call our approach parameterised masking because the randomisation
+                            process can be influenced with regard to several parameters, so that,
+                            for example, certain word classes are not randomised. Typically, when
+                            closed word classes such as determiners and prepositions are kept
+                            intact, at least part of the original meaning of a sentence can be
+                            guessed. This leads us to a crucial question: what happens if we choose
+                            to mask only a small number of words (for example, only proper nouns)?
+                            Do we have to mask a certain percentage of words, in order to bypass the
+                            STC's licensing restrictions? When does a text that has been masked only
+                            minimally become the original text again, so that the licence
+                            restrictions <emph>prohibited</emph> the distribution of the
+                            pseudo-masked linguistic resource?</p></div2><div2><head>Acknowledgements</head><p>The authors would like to thank Timm Lehmberg (Hamburg) and Felix
+                            Zimmermann (Hannover) for valuable comments with regard to legal aspects
+                            of the approach presented in this contribution. Furthermore, we would
+                            like to thank our colleague Holger Wunsch for valuable discussions.</p></div2></div1><div1 type="Bibliography"><head>Bibliography</head><listBibl><biblStruct><analytic><author><name reg="Charniak, E.">E. Charniak</name></author><title level="a">Tree-bank Grammars</title></analytic><monogr><title level="m">Proceedings of the 13th National Conference on
+                                    Artificial Intelligence (AAAI-96)</title><imprint><publisher>MIT Press</publisher><date value="1996">1996</date><biblScope type="pages">1031-1036</biblScope></imprint></monogr></biblStruct><biblStruct><monogr><author><name reg="Chiarcos, Christian">Christian Chiarcos</name></author><author><name reg="Lehmberg, Timm">Timm Lehmberg</name></author><author><name reg="Rehm, Georg">Georg Rehm</name></author><author><name reg="Witt, Andreas">Andreas Witt</name></author><title level="m">Regulating Access to the Sustainability Platform.
+                                    Technical report</title><imprint><publisher>SFB 441 (Tübingen University)</publisher><publisher>SFB 538 (Hamburg University)</publisher><publisher>SFB 632 (Potsdam University, Humboldt-University
+                                        Berlin)</publisher><date value="2006">2006</date></imprint></monogr></biblStruct><biblStruct><analytic><author><name reg="Corti, L.">L. Corti</name></author><author><name reg="Day, A.">A. Day</name></author><author><name reg="Backhouse, G.">G. Backhouse</name></author><title level="a">Confidentiality and Informed Consent: Issues for
+                                    Consideration in the Preservation of and Provision of Access to
+                                    Qualitative Data Archives</title></analytic><monogr><title level="j">Forum: Qualitative Social Research</title><imprint><biblScope type="vol">1.3</biblScope><date value="2000">2000</date></imprint></monogr></biblStruct><biblStruct><analytic><author><name reg="Dipper, S.">S. Dipper</name></author><author><name reg="Hinrichs, E.">E. Hinrichs</name></author><author><name reg="Schmidt, T.">T. Schmidt</name></author><author><name reg="Wagner, A.">A. Wagner</name></author><author><name reg="Witt, A."> A. Witt</name></author><title level="a">Sustainability of Linguistic Resources</title></analytic><monogr><editor role="editor"><name reg="Hinrichs, E.">E. Hinrichs</name></editor><editor role="editor"><name reg="Ide, N.">N. Ide</name></editor><editor role="editor"><name reg="Palmer, M.">M. Palmer</name></editor><editor role="editor"><name reg="Pustejovsky, J.">J. Pustejovsky</name></editor><title level="m">Proceedings of the LREC 2006 Workshop Merging and
+                                    Layering Linguistic Information, Genoa, Italy</title><imprint><date value="2006">2006</date><biblScope type="pages">48-54</biblScope></imprint></monogr></biblStruct><biblStruct><analytic><author><name reg="Hinrichs, E.">E. Hinrichs</name></author><author><name reg="Filippova, K.">K. Filippova</name></author><author><name reg="Wunsch, H.">H. Wunsch</name></author><title level="a">What Treebanks Can Do For You: Rule-based and
+                                    Machine-learning Approaches to Anaphora Resolution in
+                                German</title></analytic><monogr><editor role="editor"><name reg="Civit, M.">M. Civit</name></editor><editor role="editor"><name reg="Kübler, S.">S. Kübler</name></editor><editor role="editor"><name reg="Martí, Ma. Antònia">Ma. Antònia Martí</name></editor><title level="m">Proceedings of the 4th Workshop on Treebanks and
+                                    Linguistic Theories (TLT 2005), Barcelona, Spain</title><imprint><date value="2005">2005</date><biblScope type="pages">77-88</biblScope></imprint></monogr></biblStruct><biblStruct><analytic><author><name reg="Levy, Roger">Roger Levy</name><title level="a">The Statistical Properties of Coordinate Noun
+                                        Phrases</title></author></analytic><monogr><title level="u">Presented at the Department of Linguistics,
+                                    University of Colorado-Boulder, March 11, 2004</title><imprint><date value="2004">2004</date></imprint></monogr></biblStruct><biblStruct><analytic><author><name reg="Medlock, B.">B. Medlock</name></author><title level="a">An Introduction to NLP-based Textual
+                                Anonymisation</title></analytic><monogr><editor role="editor"><name reg="Calzolari, N.">N. Calzolari</name></editor><editor role="editor"><name reg="Choukri, K.">K. Choukri</name></editor><editor role="editor"><name reg="Gangemi, A.">A. Gangemi</name></editor><editor role="editor"><name reg="Mariani, J.">J. Mariani</name></editor><editor role="editor"><name reg="Maegaard, B.">B. Maegaard</name></editor><editor role="editor"><name reg="Odjik, J.">J. Odjik</name></editor><editor role="editor"><name reg="Tapias, D.">D. Tapias</name></editor><title level="m">Proceedings of the 5th International Conference on
+                                    Language Resources and Evaluation (LREC 2006), Genoa, Italy</title><imprint><date value="2006">2006</date><biblScope type="pages">1051-1056</biblScope></imprint></monogr></biblStruct><biblStruct><analytic><author><name reg="Piez, Wendell">Wendell Piez</name></author><title level="a">Way Beyond Powerpoint: XML-driven SVG for
+                                    Presentations</title></analytic><monogr><editor role="editor"><name reg="Wood, Lauren">Lauren Wood</name></editor><title level="m">Proceedings of XML 2004, Washington, November 2004.
+                                    IDEA</title><imprint><date value="2004">2004</date></imprint></monogr></biblStruct><biblStruct><analytic><author><name reg="Poesio, M.">M. Poesio</name></author><author><name reg="Kabadjov, M. A.">M. A. Kabadjov</name></author><author><name reg="Goux, P.">P. Goux</name></author><author><name reg="Kruschwitz, U.">U. Kruschwitz</name></author><author><name reg="Bishop, E.">E. Bishop</name></author><author><name reg="Corti, L.">L. Corti</name></author><title level="a">An Anaphora Resolution-Based Anonymization
+                                Module</title></analytic><monogr><editor role="editor"><name reg="Calzolari, N.">N. Calzolari</name></editor><editor role="editor"><name reg="Choukri, K.">K. Choukri</name></editor><editor role="editor"><name reg="Gangemi, A.">A. Gangemi</name></editor><editor role="editor"><name reg="Mariani, J.">J. Mariani</name></editor><editor role="editor"><name reg="Maegaard, B.">B. Maegaard</name></editor><editor role="editor"><name reg="Odjik, J.">J. Odjik</name></editor><editor role="editor"><name reg="Tapias, D.">D. Tapias</name></editor><title level="m">Proceedings of the 5th International Conference on
+                                    Language Resources and Evaluation (LREC 2006), Genoa, Italy</title><imprint><date value="2006">2006</date><biblScope type="pages">1191-1193</biblScope></imprint></monogr></biblStruct><biblStruct><analytic><author><name reg="Rock, F.">F. Rock</name></author><title level="a">Policy and Practice in the Anonymisation of
+                                    Linguistic Data</title></analytic><monogr><title level="j">International Journal of Corpus Linguistics</title><imprint><biblScope type="vol">6.1</biblScope><date value="2001">2001</date><biblScope type="pages">1-26</biblScope></imprint></monogr></biblStruct><biblStruct><analytic><author><name reg="Schmidt, Thomas">Thomas Schmidt</name></author><author><name reg="Chiarcos, Christian">Christian Chiarcos</name></author><author><name reg="Lehmberg, Timm">Timm Lehmberg</name></author><author><name reg="Rehm, Georg">Georg Rehm</name></author><author><name reg="Witt, Andreas">Andreas Witt</name></author><author><name reg="Hinrichs, Erhard">Erhard Hinrichs</name></author><title level="a">Avoiding Data Graveyards: From Heterogeneous Data
+                                    Collected in Multiple Research Projects to Sustainable
+                                    Linguistic Resources</title></analytic><monogr><title level="m">Proceedings of the E-MELD 2006 Workshop on Digital
+                                    Language Documentation: Tools and Standards – The State of the
+                                    Art, East Lansing, Michigan</title><imprint><date value="2006">2006</date></imprint></monogr></biblStruct><biblStruct><analytic><author><name reg="Steiner, Ilona">Ilona Steiner</name></author><title level="a">Coordinate Structures: On the Relationship between
+                                    Parsing Preferences and Corpus Frequencies</title></analytic><monogr><title level="m">Pre-Proceedings of the International Conference on
+                                    Linguistic Evidence 2006, Tübingen, February 2006</title><imprint><date value="2006">2006</date></imprint></monogr></biblStruct><biblStruct><analytic><author><name reg="Telljohann, Heinke">Heinke Telljohann</name></author><author><name reg="Hinrichs, Erhard">Erhard Hinrichs</name></author><author><name reg="Kübler, Sandra">Sandra Kübler</name></author><title level="a"> The TüBa-D/Z Treebank – Annotating German with a
+                                    Context-Free Backbone</title></analytic><monogr><title level="m">Proceedings of the 4th International Conference on
+                                    Language Resources and Evaluation (LREC 2004), Lisbon, Portugal,
+                                    2004</title><imprint><date value="2004">2004</date></imprint></monogr></biblStruct><biblStruct><monogr><author><name reg="Telljohann, Heike">Heike Telljohann</name></author><author><name reg="Hinrichs, Erhard">Erhard Hinrichs</name></author><author><name reg="Kübler, Sandra">Sandra Kübler</name></author><author><name reg="Zinsmeister, Heike">Heike Zinsmeister</name></author><title level="m">Stylebook for the Tübingen Treebank of Written
+                                    German (TüBa-D/Z). Technical report</title><imprint><pubPlace>Tübingen</pubPlace><publisher>Seminar für Sprachwissenschaft, Universität Tübingen</publisher><date value="2006">2006</date></imprint></monogr></biblStruct><biblStruct><analytic><author><name reg="Toms, E. G.">E. G. Toms</name></author><author><name reg="Campbell, D. G.">D. G. Campbell</name></author><title level="a"> Genre as Interface Metaphor: Exploiting Form and
+                                    Function in Digital Environments</title></analytic><monogr><title level="m">Proceedings of the 32nd Hawaii International
+                                    Conference on Systems Sciences (HICSS-32)</title><imprint><publisher>IEEE Computer Society</publisher><date value="1999">1999</date></imprint></monogr></biblStruct><biblStruct><analytic><author><name reg="Varga, D.">D. Varga</name></author><author><name reg="Halácsy, P.">P. Halácsy</name></author><author><name reg="Kornai, A.">A. Kornai</name></author><author><name reg="Nagy, V.">V. Nagy,</name></author><author><name reg="Németh, L.">L. Németh</name></author><author><name reg="Trón, V.">V. Trón</name></author><title level="a">Parallel Corpora for Medium Density
+                                Languages</title></analytic><monogr><editor role="editor"><name reg="Angelova, G.">G. Angelova</name></editor><editor role="editor"><name reg="Bontcheva, K.">K. Bontcheva</name></editor><editor role="editor"><name reg="Mitkov, R.">R. Mitkov</name></editor><editor role="editor"><name reg="Nicolov, N.">N. Nicolov</name></editor><editor role="editor"><name reg="Nikolov, N.">N. Nikolov</name></editor><title level="m">International Conference on Recent Advances in
+                                    Natural Language Processing, Borovets, Bulgaria, 2005</title><imprint><date value="2005">2005</date><biblScope type="pages">590-596</biblScope></imprint></monogr></biblStruct><biblStruct><analytic><author><name reg="Wörner, Kai">Kai Wörner</name></author><author><name reg="Witt, Andreas">Andreas Witt</name></author><author><name reg="Rehm, Georg">Georg Rehm</name></author><author><name reg="Dipper, Stefanie">Stefanie Dipper</name></author><title level="a">Modelling Linguistic Data Structures</title></analytic><monogr><editor role="editor"><name reg="Usdin, B. T.">B. T. Usdin</name></editor><title level="m">Proceedings of Extreme Markup Languages 2006,
+                                    Montréal, Québec, August 2006</title><imprint><date value="2006">2006</date></imprint></monogr></biblStruct></listBibl></div1></div0></body></text></TEI.2>

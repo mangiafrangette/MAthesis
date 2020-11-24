@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI.2 id="poster_159_zafrin"><teiHeader><fileDesc><titleStmt><title><emph>RolandHT</emph> and Reconceiving the Notion of Corpus</title><author><name reg="Zafrin, Vika">Vika Zafrin</name></author><respStmt><resp>Marked up by</resp><name reg="Schmidt, Sara A.">Sara A. Schmidt</name></respStmt></titleStmt><publicationStmt><p>Marked up to be included in the Digital Humanities 2007 Conference Abstracts
+                    book.</p></publicationStmt><sourceDesc><p>None</p></sourceDesc></fileDesc><profileDesc><textClass><classCode>poster</classCode><keywords><list type="simple"><item>corpus</item><item>encoding</item><item>RolandHT</item></list></keywords></textClass></profileDesc><revisionDesc><list type="simple"><item>SAS: Created from Vika Zafrin's rtf <date value="2007-04">April
+                2007</date></item></list></revisionDesc></teiHeader><text><front><docTitle n="RolandHT and Reconcieivng the Notion of Corpus"><titlePart type="main"><emph>RolandHT</emph> and Reconceiving the Notion of
+                Corpus</titlePart></docTitle><docAuthor><name reg="Zafrin, Vika">Vika Zafrin</name><address><addrLine>vika@wordsend.org</addrLine></address></docAuthor><titlePart type="affil">Brown University</titlePart></front><body><div0><head><emph>RolandHT</emph></head><p>For the past several years I have been pursuing the study of a semi-fictional
+                    character's manifestations in different art forms, throughout Europe and North
+                    America, in the last thousand years. Roland is the protagonist of the French
+                    epic <emph>Song of Roland</emph> and France's national hero. He first appeared
+                    in written record at the end of the eleventh century, and hasn't left us since
+                    then – although his character has undergone significant changes. He has easily
+                    passed from one culture to another; but Roland is not merely borrowed – he is
+                    mercurial. He has been used by writers and artists as a container for the
+                    promotion of moral and political exigencies relevant to their circumstances.
+                    Thus, in France he is a staunch protector of the Christian faith (<emph>Song of
+                        Roland</emph>); in Germany, a religious martyr (Konrad); in Italy, a lover
+                    and a comedic character (Boiardo, Ariosto); in England, a mystical traveler
+                    (Browning); in the United States, a roadie (Silverstein) and a gunslinger
+                    (King). </p><p>Nevertheless, the French Roland has easily identifiable personality traits, such
+                    as his infamous pride (which cost him and twenty thousand of Charlemagne's best
+                    men their lives) and his physical prowess. There are also artifacts, such as his
+                    enchanted sword and his sounding horn that can be heard for miles. These
+                    features have prompted me to make a case for the existence of a Roland corpus
+                    that is held together by recurrent themes and imagery. In my dissertation titled
+                        <emph>RolandHT</emph>I show these recurrences by encoding them in XML.<note n="1">The electronic part of the dissertation can be found at <xptr to="http://wordsend.org/rht/xml/index_2006.php"/>. N.B.: it is a work in
+                        progress. New content is being added often. Please note also that the
+                        project can only be viewed using Firefox/Mozilla or another XSLT-aware
+                        browser.</note> This corpus has never been considered as a whole. An
+                    examination of themes recurrent in it offers insight into the evolution of art
+                    and the pace of intercultural transmission. This insight is relevant to the
+                    study of literature at the dawn of Western secular writing; but it also sheds
+                    light on our own literary present, in an age of widely accessible electronic
+                    writing, when the processes of composition and transmission are changing again. </p><p>The Roland corpus consists of works in such diverse media as literature, live and
+                    puppet theater, opera, sculpture and stone carvings, painting, film,
+                    contemporary music, and comics. This presents a problem in my use of the word
+                        <emph>corpus</emph>, which conforms to its theoretical definition but not to
+                    any of its prior use in practice. I propose that the electronic medium, and
+                    semantic encoding in particular, allow for the study of corpora bound not by
+                    format or authorship, but by semantic content. </p><p><emph>RolandHT</emph> is a collection of excerpts from works that feature Roland,
+                    encoded for recurring characters, imagery and themes. Some annotations are
+                    present. Works span most of Europe and the United States, and date from between
+                    the late 1090s to 1995. Most of the corpus objects are text-based – poems,
+                    prose, drama, operatic lyrics. One particularly interesting corpus object – Greg
+                    Roach's computer game <emph>The Madness of Roland</emph> – is a blend of text
+                    and images. Other image-based corpus objects include comic-book panels and
+                    photographs of medieval stonework found in France and Croatia. Included are also
+                    excerpts from the 1999 film <emph>Beowulf</emph>, in QuickTime (.mov) format.
+                    Other objects will be added as time and copyright restrictions allow.</p></div0><div0><head>Technical Details</head><p>The project is processed for web presentation using XSLT, JavaScript and CSS. The
+                    website is a technical collaboration with Ethan Fremen.</p><p>Our approach is standards- and client-based. All features except bookmarking can
+                    be used with static files accessed locally. This permits <emph>RolandHT</emph>
+                    to be archived on a CD, DVD or other storage device; access to a networked
+                    server is not necessary to view the work. This is an advantage for the purposes
+                    of submitting a doctoral thesis, but being entirely client-side, our method
+                    would not scale well: a substantially larger corpus will require an XML database
+                    in order to remain efficient. As it stands, the roughly 800KB XML file
+                    containing all text data (but not the separately-stored images or multimedia
+                    files) must be loaded entirely before the project is viewed, rendering it
+                    unwieldy for slow connections if <emph>RolandHT</emph> is accessed over the web.
+                    However, once it is loaded, subsequent operations are performed client-side and
+                    connection speed no longer matters, except when fetching the aforementioned
+                    images and multimedia files. </p></div0><div0><head>The notion of corpus</head><p>The notion of <emph>corpus</emph> is used in the study of languages (corpus
+                    linguistics), literature, and objects (architecture, archaeology). Definitions
+                    of <emph>_corpus_</emph> provided by several different dictionaries of English
+                    and of literary terms are variations of "a related 'body' of writings, usually
+                    sharing the same author or subject-matter." (Baldick 52) It is almost never
+                    further defined in the context of specific studies. Instead, <emph>corpus</emph>
+                    is taken for granted, and is found far more often in headings than in
+                    discussion. When it is used in the text itself, the set of objects under
+                    consideration invariably has an author, time period and/or geographical area in
+                    common. None of these things can usefully delimit the Roland corpus. However,
+                    some past uses of <emph>corpus</emph> would justify the use of the word to
+                    describe works about Roland. </p><p>Most often the contested word is used in corpus linguistics. One book in
+                    particular defines <emph>corpus</emph> as "a subset of an ETL [electronic text
+                    library], built according to explicit design criteria for a specific purpose."
+                    (Ghadessy et al. 179) This is the only non-dictionary definition I have found,
+                    and if we substitute "Western artistic production" for "ETL," it becomes
+                    relevant to the construction of <emph>RolandHT</emph>. The purpose of defining
+                    it is to shed light on how its protagonist has survived so unusually long while
+                    at the same time undergoing fundamental changes. However, the subjective nature
+                    of the definition process demands a willingness to alter design criteria as
+                    texts are encoded, and a leap of faith that scholars may be reluctant to make.
+                    Working with a semantically encoded body of work requires acceptance of XML as a
+                    valid format for making a scholarly argument. This in turn calls for critical
+                    responses that are also at least partly expressed in XML. ("I disagree with this
+                    encoding. How about this alternative instead?") </p><p>Roland is a flexible corpus that emerges and evolves in the course of its
+                    analysis. Its unifying subject may be a default connecting thread by virtue of
+                    Roland's name, but since the actual connecting threads are recurrent themes and
+                    imagery, the way to ascertain a work's status as a corpus object (or not) is a
+                    close reading of it. In this case, micro-results of the close reading are
+                    recorded by XML encoding.</p><p>The above describes a practical application of Gregory Ulmer's theory of
+                    heuretics. In his 1994 <title level="m">Heuretics: The Logic of
+                    Invention</title>, Ulmer states that theory is assimilated into the humanities
+                    in two principal ways: by critical interpretation and by artistic experiment.
+                    Heuretics is the latter – it is a heuristic approach to theory, a reading
+                    process that, instead of attempting to theorize "what might be the meaning of an
+                    existing work," guides "a generative experiment: Based on a given theory, how
+                    might another text be composed?" (5) </p><p>Why not use words that have been used more frequently to describe Roland, such as
+                        <emph>myth</emph> or <emph>legend</emph>? Both of these terms imply
+                    homogeneity that the corpus does not possess, and deny Roland's historicity,
+                    however tenuous. Similarly, the terms closest to <emph>corpus</emph> –
+                        <emph>oeuvre</emph> and <emph>canon</emph> – are limiting to the point of
+                    inaccuracy: the Roland corpus has too many authors to be called oeuvre and too
+                    little institutionalized authority to be a canon. </p><p>Finally, <emph>RolandHT</emph> is not an archive. It does not strive for
+                    completeness, either within single works (only excerpts are presented) or within
+                    the corpus (which is, to date, representative but incomplete). More importantly,
+                        <emph>RolandHT</emph> is intended to be the opposite of a static collection
+                    of unchanging documents; its primary-source contents, encoding and annotations
+                    are all meant to change as research progresses. </p></div0><div0><head>Summary</head><p>If semantic encoding is to be taken seriously as a research tool by philologists,
+                    art historians and other humanists used to working in more traditional ways, a
+                    common language must first be built and justified. At Digital Humanities 2007 I
+                    hope to contribute to the effort of expanding the inflluence of digital research
+                    methods into mainstream humanities. I will do this by expanding the notion of
+                        <emph>corpus</emph> to include bodies of works that, because of their
+                    disparate formats, do not lend themselves to formal study using traditional
+                    methods.</p></div0></body><back><div type="Bibliography"><head>Bibliography</head><listBibl><biblStruct><monogr><author><name reg="Ariosto, Ludovico">Ludovico Ariosto</name></author><title level="m">Orlando Furioso; Selections from the Translation of Sir
+                                John Harrington</title><editor role="editor"><name reg="Gottfried, Rudolf">Rudolf Gottfried</name></editor><imprint><pubPlace>Bloomington, IN</pubPlace><publisher>Indiana University Press</publisher><date value="1963">1963</date></imprint></monogr></biblStruct><biblStruct><monogr><author><name reg="Baldick, Chris">Chris Baldick</name></author><title level="m">The Concise Oxford Dictionary of Literary Terms</title><imprint><pubPlace>Oxford</pubPlace><publisher>Oxford University Press</publisher><date value="2004">2004</date></imprint></monogr></biblStruct><biblStruct><monogr><title level="m">Beowulf</title><respStmt><resp>Dir.</resp><name reg="Baker, Graham">Graham Baker</name></respStmt><respStmt><resp>Perfs.</resp><name reg="Lambert, Christopher">Perfs. Christopher Lambert</name><name reg="Mitra, Rhona">Rhona Mitra</name><name reg="Cotton, Oliver">Oliver Cotton</name><name reg="Otto, Götz">Götz Otto</name></respStmt><edition>DVD</edition><imprint><publisher>Panorama Entertainment</publisher><date value="1999">1999</date></imprint></monogr></biblStruct><biblStruct><monogr><author><name reg="Boiardo, Matteo Maria">Matteo Maria Boiardo</name></author><title level="m">Orlando Innamorato</title><respStmt><resp>Trans.</resp><name reg="Ross, Charles Stanley">Charles Stanley Ross</name></respStmt><imprint><pubPlace>Berkley, CA</pubPlace><publisher>University of California Press</publisher><date value="1989">1989</date></imprint></monogr></biblStruct><biblStruct><analytic><author><name reg="Browning, Robert">Robert Browning</name></author><title level="a">Childe Roland to the Dark Tower Came</title></analytic><monogr><title level="u">English Poetry Full-Text Database</title><imprint><pubPlace>Cambridge, UK</pubPlace><publisher>Chadwick-Healey Ltd</publisher></imprint></monogr><note>Accessed 2004-03-26.</note></biblStruct><biblStruct><monogr><author><name reg="King, Stephen">Stephen King</name></author><title level="m">Dark Tower I-VII</title><imprint><pubPlace>New York</pubPlace><publisher>Signet</publisher><publisher>Scribner</publisher><date value="1989-2003">1989-2003</date></imprint></monogr></biblStruct><biblStruct><monogr><author><name reg="Konrad, Der Pfaffe">Der Pfaffe Konrad</name></author><title level="m">Priest Konrad's Song of Roland</title><respStmt><resp>Trans.</resp><name reg="Thomas, J. W.">J. W. Thomas</name></respStmt><imprint><pubPlace>Columbia, SC</pubPlace><publisher>Camden House</publisher><date value="1994">1994</date></imprint></monogr></biblStruct><biblStruct><monogr><author><name reg="Roach, Greg">Greg Roach</name></author><title level="m">Madness of Roland</title><edition>CD-ROM</edition><imprint><pubPlace>Los Angeles, CA</pubPlace><publisher>HyperBole Studios</publisher><date value="1995">1995</date></imprint></monogr></biblStruct><biblStruct><analytic><author><name reg="Silverstein, Shel">Shel Silverstein</name></author><title level="a">Roland the Roadie And Gertrude the Groupie</title></analytic><monogr><respStmt><resp>Perf.</resp><name>Dr. Hook and the Medicine Show</name></respStmt><title level="m">Belly Up!</title><imprint><publisher>CBS</publisher><date value="1973">1973</date></imprint></monogr></biblStruct><biblStruct><monogr><title level="m">Small Corpus Studies and ELT: Theory and Practice</title><editor role="editor"><name reg="Ghadessy, Mohsen">Mohsen Ghadessy</name></editor><editor role="editor"><name reg="Henry, Alex">Alex Henry</name></editor><editor role="editor"><name reg="Roseberry, Robert L."> Robert L. Roseberry</name></editor><imprint><pubPlace>Amsterdam</pubPlace><publisher>J. Benjamins Pub. Co.</publisher><date value="2001">2001</date></imprint></monogr></biblStruct><biblStruct><monogr><title level="m">The Song of Roland</title><respStmt><resp>Trans.</resp><name reg="Sayers, Dorothy L.">Dorothy L. Sayers</name></respStmt><imprint><pubPlace>Harmondsworth, UK</pubPlace><publisher>Penguin Books</publisher><date value="1957">1957</date></imprint></monogr></biblStruct><biblStruct><monogr><author><name reg="Ulmer, Gregory L.">Gregory L. Ulmer</name></author><title level="m">Heuretics: The Logic of Invention</title><imprint><pubPlace>Baltimore, MD</pubPlace><publisher>Johns Hopkins University Press</publisher><date value="1994">1994</date></imprint></monogr></biblStruct></listBibl></div></back></text></TEI.2>

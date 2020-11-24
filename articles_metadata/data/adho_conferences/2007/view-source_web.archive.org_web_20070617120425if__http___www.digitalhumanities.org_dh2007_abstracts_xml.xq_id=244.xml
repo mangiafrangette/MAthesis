@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI.2 id="poster_244_smith"><teiHeader><fileDesc><titleStmt><title>Lost in the Archives, Found in Digital Collections</title><author><name reg="Smith, Natalia (Natasha)">Natalia (Natasha) Smith</name></author><author><name reg="Xie, Dongqing">Dongqing Xie</name></author><author><name reg="McAulay, Elizabeth">Elizabeth McAulay</name></author><author><name reg="Cooper, Todd">Todd Cooper</name></author><author><name reg="MacKay, Adrienne W.">Adrienne W. MacKay</name></author><respStmt><resp>Marked up by</resp><name reg="Field, Hana S.">Hana S. Field</name></respStmt></titleStmt><publicationStmt><p>Marked up to be included in the Digital Humanities 2007 Conference Abstracts
+                    book.</p></publicationStmt><sourceDesc><p>None</p></sourceDesc></fileDesc><profileDesc><textClass><classCode>poster</classCode><keywords><list type="simple"><item>digital library</item><item>scholarly digital publishing</item><item>metadata</item><item>TEI</item><item>Java</item><item>open-source technology</item></list></keywords></textClass></profileDesc><revisionDesc><list><item>HSF: Created from Natalia (Natasha) Smith's doc <date value="2007-04"> April
+                        2007</date></item><item>SAS: Revised <date value="2007-05"> May 2007</date></item></list></revisionDesc></teiHeader><text><front><docTitle n="Lost in the Archives, Found in Digital Collections"><titlePart type="main">Lost in the Archives, Found in Digital
+                Collections</titlePart></docTitle><docAuthor><name reg="Smith, Natalia (Natasha)">Natalia (Natasha) Smith</name><address><addrLine>nsmith@email.unc.edu</addrLine></address></docAuthor><titlePart type="affil">University of North Carolina at Chapel Hill Library</titlePart><docAuthor><name reg="Xie, Dongqing">Xie Dongqing</name><address><addrLine>dongqing.xie@gmail.com</addrLine></address></docAuthor><titlePart type="affil">University of North Carolina at Chapel Hill Library</titlePart><docAuthor><name reg="McAulay, Elizabeth">Elizabeth McAulay</name><address><addrLine>elizabethmcaulay1@yahoo.com</addrLine></address></docAuthor><titlePart type="affil">University of North Carolina at Chapel Hill Library</titlePart><docAuthor><name reg="Cooper, Todd">Todd Cooper</name><address><addrLine>cojere@email.unc.edu</addrLine></address></docAuthor><titlePart type="affil">University of North Carolina at Chapel Hill Library</titlePart><docAuthor><name reg="MacKay, Adrienne M.">Adrienne M. MacKay</name><address><addrLine>awmackay@gmail.com</addrLine></address></docAuthor><titlePart type="affil">University of North Carolina at Chapel Hill Library</titlePart></front><body><div0><head>Abstract</head><p>The proliferation of digital collections on the web has dramatically expanded
+                    access to content that would remain otherwise underutilized or undiscovered.
+                    Organizations that have been actively involved in large scale
+                    digitization—through Google, the Open Content Alliance (OCA), or other
+                    means—most often limit the scope of these projects to digital replication of
+                    materials. Not surprisingly, given the size and extent of many collections
+                    selected for digitization, the costs of applying extensive research and
+                    scholarship to primary documents are often prohibitive, if such actions are even
+                    considered by project staff. Digital scholarly editions offer many research
+                    advantages that exceed the limitations of traditional and linear print
+                    publications. Their potential has been already instantiated by a few prominent
+                    projects, among them Rotunda by the University of Virginia Press and the Perseus
+                    Digital Library. <note n="1"><xptr to="http://rotunda.upress.virginia.edu/index.php?page_id=About " from="ROOT" targOrder="U"/> and <lb/><xptr to="http://www.perseus.tufts.edu/" from="ROOT" targOrder="U"/></note> Encouraged by these exemplars, <emph>Documenting the American
+                        South</emph> (DocSouth), UNC-Chapel Hill Library’s digital publishing
+                    program, sought to create two online scholarly documentary histories: a
+                    collection of documents related to antebellum student life at the University of
+                    North Carolina and a collection of documents about the institutional development
+                    of the university during the same period. Through careful planning and analysis,
+                    collaboration with research scholars and subject librarians, and the application
+                    of open-source technology and international standards, DocSouth's "True and
+                    Candid Compositions: The Lives and Writings of Antebellum Students at the
+                    University of North Carolina" and "The First Century of the First State
+                    University" <note n="2">"True and Candid Compositions: The Lives and Writings of
+                        Antebellum Students of the University of North Carolina."<title level="m">
+                            Documenting the American South</title> Ed. Erika Lindeman. (University
+                        of North Carolina at Chapel Hill Libraries). <xptr to="http://docsouth.unc.edu/true/" from="ROOT" targOrder="U"/>"The
+                        Carolina at Chapel Hill Libraries</note> represent rare examples of
+                    scholarly publications with annotations and interpretive essays that include
+                    both color facsimile and transcription access to unique primary documents.</p><p>Documenting the American South has ten years of experience encoding printed
+                    materials using TEI guidelines; however, creating online documentary histories
+                    required a more complex approach than had previously been employed with our
+                    collections. "True and Candid Compositions", for example, was originally
+                    conceived as a monograph including diplomatic transcription of manuscript
+                    documents; textual, biographical, and interpretive annotations; several
+                    scholarly essays; and an extensive index—all prepared by Dr. Erika Lindemann,
+                    professor of composition at the UNC-Chapel Hill. In presenting Lindemann's
+                    project on the web, we strove to include all of the features of her project,
+                    plus features only possible through and valuable for an online publication. [See
+                    Figure 1 and Figure 2 for screenshots.]</p></div0><figure rend="ImageLink"><head/><p><xref to="DITTO" from="ROOT" targOrder="U">poster_244_smith_1.jpg</xref></p><figDesc>Figure 1: Screenshot of True and Candid index page</figDesc></figure><figure rend="ImageLink"><head/><p><xref to="DITTO" from="ROOT" targOrder="U">poster_244_smith_2.jpg</xref></p><figDesc>Figure 2: Screenshot of document with image of manuscript</figDesc></figure><div0><head>Application of Technologies</head><p>In both online publications, we wanted to provide users with several options to
+                    fully explore and discover content in these unique collections. We offer several
+                    "browse by" indices that were compiled by extracting information from the
+                    TEI-XML files. For "True and Candid Compositions" and for "The First Century," a
+                    total of 500 transcribed manuscript documents and over 20 scholarly essays were
+                    encoded by graduate students from the English Department and School of
+                    Information and Library Science using "TEI in the Libraries" recommendations for
+                    level 5 of encoding.<note n="3">The TEI Consortium, "TEI Text Encoding in
+                        Libraries. Guidelines for Best Encoding Practices" <xptr to="http://www.diglib.org/standards/tei.htm" from="ROOT" targOrder="U"/>.</note> All personal, place, and organization names were disambiguated by
+                    scholars and assigned a unique id number, a regularized name, and one of three
+                    type descriptors (i.e., person, place, organization). This information was then
+                    encoded within <hi rend="code">&lt;name&gt;</hi> elements with relevant
+                    attributes as part of each document XML file. Images of all manuscript pages
+                    were scanned and saved in TIFF and JPEG formats. </p><p>The XML and image files became input for a publishing mechanism comprised of two
+                    distinct parts: (1) conversion of XML to XHTML and (2) generation of search and
+                    browse functionality in XHTML pages on the web. [See Figure 3: Document
+                    Processing Workflow.]</p><figure rend="ImageLink"><head/><p><xref to="DITTO" from="ROOT" targOrder="U">poster_244_smith_3.jpg</xref></p><figDesc>Figure 3: Document Processing Workflow</figDesc></figure><p>First, we extracted metadata from each XML file (one XML file per document) and
+                    then converted the XML files to XHTML. The resulting XHTML files have the
+                    distinctive DocSouth format and include links to images and biographical
+                    annotations, both of which open in separate windows (pop-ups). This step is
+                    accomplished with the use of the XSLT technology, available from the
+                    &lt;teiPublisher&gt; software<note n="4"><xptr to="http://sourceforge.net/projects/teipublisher/" from="ROOT" targOrder="U"/></note>, which we modified to meet our project needs. We used
+                    &lt;teiPublisher&gt; with locally customized XSLT files to transform
+                    manuscript and essay XML files into XHTML files. Our customizations included:
+                    displaying the TEIHeader under tabbed buttons; highlighting names for which
+                    regularized names are viewable as a mouseover; adding icons to personal names to
+                    indicate that biographical essays are available in pop-up window, and adding URL
+                    links to scanned page images in separate XHTML files.</p><p>Second, we generated indices with a custom Java program and our primary MySQL
+                    database, using JAXP/JDBC/XPath technologies. "XML is a good match for Java. It
+                    pairs Java’s code portability feature with its data portability…"<note n="5">Akmal B. Chaudhri, <title level="m"> XML Data Management: Native XML and XML-Enabled
+                        Database Systems</title> (Boston: Addison-Wesley, 2003) p. 342.</note> The Java
+                    programming language has a number of proven APIs for working with XML, including
+                    the Java API for XML Processing (JAXP). In concert with XPath and JDBC (Java API
+                    for database interactions), the language is a powerful tool for performing a
+                    variety of operations with XML documents. Additionally, Java is platform
+                    agnostic and secure. We designed this program to perform a wide range of
+                    operations, including: reporting errors in XML files for quality control;
+                    retrieving a variety of data from XML files; exporting data into the MySQL
+                    database; generating an XHTML file for every page image of each document; and
+                    extracting data from the database to create indices of personal names,
+                    geographic names, organization names, authors, genres, and topics.</p><p>This Java program extracted rich metadata from the XML files, specifically from
+                    the <hi rend="code">&lt;teiHeader&gt;</hi> and from the key, reg, and
+                    type attributes of the <hi rend="code">&lt;name&gt;</hi> element. These
+                    varied data were stored in the primary DocSouth MySQL database, which contains
+                    all the metadata for all DocSouth online collections. In processing, the Java
+                    program extracted all encoded names and recorded their regularized names, types,
+                    and occurrence locations in the XML files to the database. In a similar process,
+                    biographical information contained in an additional XML file was processed and
+                    stored in the same database. A number of scholars and subject librarians wrote
+                    this expansive biographical information for hundreds of identified and
+                    researched proper names, which has served to add valuable contextual richness to
+                    the collection. </p><p>We also designed our Java program to generate two types of "browse by"
+                    indices—proper name indices and document indices. The program generated proper
+                    name indices by type; these indices are hyperlinked to a PHP program that
+                    searches the database and provides a list of documents in which the name
+                    appears. Each linked document displays a document page highlighting the selected
+                    name. Finally, the program uses available metadata to generate document indices
+                    that offer other chapter-level "browse by" options, including: documents listed
+                    by chapter, topic, genre, and author. As a result of this Java processing, these
+                    two online documentary histories have 2,340 personal names, 170 organization
+                    names, and 420 place names in indices generated from the XML files.</p><p>DocSouth's "True and Candid Compositions" and "First Century" collections
+                    represent exciting additions to our digital library. More than just collections
+                    of digitized manuscripts, these online histories benefit from collaboration with
+                    scholars and DocSouth's considerable experience and technical expertise. The
+                    confluence of unique primary documents, scholarship, and judicious application
+                    of open-source technology solutions allowed us to develop two online scholarly
+                    documentary histories that far exceed the limitations of traditional print
+                    publications. No longer lost in the archives, these enhanced digitized primary
+                    source materials are readily available to enthusiasts, scholars, and learners
+                    everywhere.</p></div0></body></text></TEI.2>

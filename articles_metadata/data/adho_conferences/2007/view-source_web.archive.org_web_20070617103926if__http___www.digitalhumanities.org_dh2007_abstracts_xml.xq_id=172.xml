@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI.2 id="paper_172_pierazzo"><teiHeader><fileDesc><titleStmt><title>The Encoding of Time in Manuscripts Transcription: Toward Genetic Digital
+                    Editions</title><author><name reg="Pierazzo, Elena">Elena Pierazzo</name></author><respStmt><resp>Marked up by</resp><name reg="Schmidt, Sara A.">Sara A. Schmidt</name></respStmt></titleStmt><publicationStmt><p>Marked up to be included in the Digital Humanities 2007 Conference Abstracts
+                    book.</p></publicationStmt><sourceDesc><p>None</p></sourceDesc></fileDesc><profileDesc><textClass><classCode>paper</classCode><keywords><list type="simple"><item>genetic criticism</item><item>timing</item><item>XML</item></list></keywords></textClass></profileDesc><revisionDesc><list type="simple"><item>SAS: Created from Elena Pierazzo's doc<date value="2007-04">April and May
+                2007</date></item></list></revisionDesc></teiHeader><text><front><docTitle n="The Encoding of Time in Manuscripts Transcription: Toward Genetic Digital Editions"><titlePart type="main">The Encoding of Time in Manuscripts Transcription: Toward
+                    Genetic Digital Editions</titlePart></docTitle><docAuthor><name reg="Pierazzo, Elena">Elena Pierazzo</name><address><addrLine>elena.pierazzo@kcl.ac.uk</addrLine></address></docAuthor><titlePart type="affil">King's College London</titlePart></front><body><div0><p>Writing is a process that occurs in time. This simple and obvious consideration
+                    involves many issues both from a theoretical and practical point of view. A
+                    critical evaluation of timing is really crucial in the case of modern authors'
+                    autograph draft manuscripts because different layers of corrections, deletions
+                    and additions can give insight into an author’s way of working, key to the
+                    interpretations of his/her works and the evolution of the author’s
+                        <emph>Weltanschaung</emph>, as highlighted in genetic criticism over the
+                    last few years.<note n="1">The question is too complex just to try to give some
+                        basic references; anyway Gresillon 1994 will offer a good starting
+                    point.</note> Medieval manuscripts copied by one ore more scribes are also, of
+                    course, the result of a process that occurred in time, but the different kind of
+                    authorship involved in such cases seems to involve a difference in the
+                    evaluation of the cultural weight of recorded variants. </p><p>When a scholar inspects a written text, especially a manuscript, s/he has in
+                    his/her hands the final result of that process and can choose whether to
+                    approach it from a codicological/documentary point of view, “photographing” the
+                    resulting product, or from a genetic point of view, trying to describe the
+                    teleological flow of authoring. The first approach is more typical of scribes’
+                    copies, the latter of autographic (draft) manuscripts.</p><p>Practically, time based editions are really difficult to represent in printed
+                    works, because of the bi-dimensionality of paper sheets.</p><ab><cit rend="block"><q>On voudrait représenter dans la bidimensionalité des pages un processus
+                            génétique dont on s’est pourtant appliqué à montrer que sa proprieté est
+                            d’ajouter à l’écrit, qui est bidimensionel, une troisième dimension, qui
+                            est celle du temps!</q><bibl>Gresillon 1994:121</bibl></cit></ab><p>In a digital framework bi-dimensionality can be overruled by a
+                    hypertextual/multimedia approach that can allow the creation of a more flexible
+                    context for the presentation of a genetic edition. The problem of a time based
+                    encoding has been discussed in several circumstances (i.e. TEI Manuscripts SIG
+                    Meeting Report 01, Vanhoutte 2002 that suggests the usage of the markup solution
+                    employed in the transcription of speech for the purpose), but – up till now – a
+                    coherent encoding model for such editions has not been proposed. And for a good
+                    reasons: while it is possible to describe a relative-timed process, it is very
+                    complicated, if not impossible, to draw a general absolute-timed framework.</p></div0><div0><head>Analysis and time-based encoding of authorial interventions</head><p>Let us consider a couple of examples taken from page 3595 of <title type="m">Zibaldone</title> of Giacomo Leopardi.</p><figure rend="ImageLink"><head>Ex. 1 line 6</head><p><xref to="DITTO" from="ROOT" targOrder="U">paper_172_pierazzo_1.jpg</xref></p><figDesc>Fig. 1</figDesc></figure><figure rend="ImageLink"><head/><p><xref to="DITTO" from="ROOT" targOrder="U">paper_172_pierazzo_2.jpg</xref></p><figDesc/></figure><p>In this line we can detect two corrections: 1) deletion of the line under “si”
+                    and 2) deletion of “dotti” corrected into “denti”.</p><p>We can try to draw the timing of the creation of the segment as follow:</p><lg><l>Time 1: writing “che e’ si rechi a dotti”</l><l>Time 2: deletion of “dotti”; consequent writing of “denti”</l><l>Time 3: underlying of “si”</l><l>Time 4: deletion of the line under “si”</l><l>Time 5: underlying of “rechi” and “denti”</l><l>Time 6: writing of “l’un d’essi cibi”</l></lg><p>Other timetables are also possible, but let’s assume this is the more probable
+                    one. The text can be encoded using a TEI-based mark-up with the help of a new
+                    global attribute (<hi rend="code">@time</hi>), intending that it’s just an
+                    example to help the conceptualization of the problem: <hi rend="code">
+                        &lt;seg time="1"&gt;che e' &lt;del type="underline deletion"
+                        time="4"&gt;<lb/> &lt;hi rend="underline"
+                        time="3"&gt;si&lt;/hi&gt;<lb/>&gt; &lt;/del&gt;<lb/>
+                        &lt;hi rend="underline" time="5"&gt;rechi a'&lt;/hi&gt;<lb/>
+                        &lt;del type="overstrike" time="2"&gt;dotti&lt;/del&gt;<lb/>
+                        &lt;/seg&gt;<lb/>&gt; &lt;seg time="2"&gt;<lb/> &lt;hi
+                        rend="underline" time="5"&gt;denti&lt;/hi&gt;<lb/>
+                        &lt;/seg&gt;<lb/> &lt;seg time="6"&gt;l'un d'essi
+                        cibi&lt;/seg&gt;<lb/></hi></p><p>Such transcription tries to model the real flow of writing, but such a model may
+                    not be workable. In fact, it will fragment the flow of the plain writing in
+                    potentially infinite pieces. To simplify it, we can assume as Time 0 (default)
+                    the time of the normal plain writing flow, timing just editorial interventions.</p><p>The schedule will then be modified as follows:</p><lg><l>Time 0: writing “che e’ si rechi a dotti”</l><l>Time 1: deletion of : “dotti”</l><l>Time 0: writing of “denti”</l><l>Time 2: underlying of “si”</l><l>Time 3: deletion of the underline under “si”</l><l>Time 4: underlying of “rechi” and “denti”</l><l>Time 0: writing of “l’un d’essi cibi”</l></lg><p>A further simplification is also possible: assuming that – in genetic criticism
+                    terms – so-called “writing variant” (deletion of a single word substituted by
+                    another that immediately follows on the same line) occurs during the normal
+                    writing flow, the following model can be drawn:</p><lg><l>Time 0: writing “che si rechi a dotti”; deletion of : “dotti”; writing of
+                        “denti”; writing of “l’un d’essi cibi”</l><l>Time 1: underlying of “si”</l><l>Time 2: deletion of the underline under “si”</l><l>Time 3: underlying of “rechi” and “denti”</l></lg><p>This will be the consequent new encoding: <hi rend="code">che e' &lt;del
+                        type="underline deletion" time="2"&gt; &lt;hi rend="underline"
+                        time="1"&gt;si&lt;/hi&gt;&lt;/del&gt; &lt;hi
+                        rend="underline" time="3"&gt;rechi a'&lt;/hi&gt; &lt;del
+                        type="overstrike"&gt;dotti&lt;/del&gt; &lt;hi
+                        rend="underline" time="3"&gt;denti&lt;/hi&gt; l'un d'essi
+                    cibi</hi></p><p>The last possibility should not imply that any inline correction is to be
+                    considered as done in Time 0, but just the one followed by the correction. In
+                    fact, in the case of a deletion of an adjective or of any other word not
+                    essential from a syntactical point of view, the correction can occur in any
+                    time.</p><figure rend="ImageLink"><head>Ex. 2 line 11</head><p><xref to="DITTO" from="ROOT" targOrder="U">paper_172_pierazzo_3.jpg</xref></p><figDesc>Fig. 2</figDesc></figure><figure rend="ImageLink"><head/><p><xref to="DITTO" from="ROOT" targOrder="U">paper_172_pierazzo_4.jpg</xref></p><figDesc/></figure><p>This passage can be timed as follow:</p><lg><l>Time 1: writing “che di due Eroi a”;</l><l>Time 2: deletion of “a”;</l><l>Time 3: writing of “quanto si voglia pari di”</l><l>Time 4: interlinear addition of “o più” after “Eroi”</l><l>Time 5: deletion of the addition</l><l>Time 6: interlinear addition of “o più” after “due”</l></lg><p>Or, in the simplified version, as follow:</p><lg><l>Time 0: writing of “che di due Eroi a”; deletion of “a”; writing of “quanto
+                        si voglia pari di”</l><l>Time 1: interlinear addition of “o più” after “Eroi”</l><l>Time 2: deletion of the addition</l><l>Time 3: interlinear addition of “o più” after “due”</l></lg><p>The encoding model (simplified version): <hi rend="code">che di due &lt;add
+                        place="intralinear" time="3"&gt;o più&lt;/add&gt; Eroi
+                        &lt;del type="overstrike"&gt;a&lt;/del&gt; &lt;del
+                        type="overstrike" time="2"&gt;&lt;add place="intralinear"
+                        time="1"&gt;o più&lt;/add&gt;&lt;/del&gt; quanto si
+                        voglia pari di </hi></p><p>By applying different stylesheets to the encoded texts, it will be possible to
+                    show all the different stages and to give the user the possibility of browsing
+                    among them.</p><figure rend="ImageLink"><head/><p><xref to="DITTO" from="ROOT" targOrder="U">paper_172_pierazzo_5.jpg</xref></p><figDesc/></figure></div0><div0><head>Relative or absolute?</head><p>The two above examples occur on the same page: shall we then consider Time 1 of
+                    the first example the same of Time 1 of the second example? The answer should
+                    be: no; very little can be said about the timing of editorial/authorial
+                    intervention in two different segments. The possibility of establishing an
+                    absolute timing for correction is applicable only where we have strong
+                    palaeographic evidences or authorial declarations dating or describing a
+                    revision.</p><p>For instance, we can imagine an author used to typewrite his/her texts and then
+                    to correct them by hand: in this case the assumption of an absolute time is
+                    possible. But as different layers of hand corrections can also occur, there will
+                    be, in this case also, the necessity of considering relative-timed
+                    interventions. This situation can be represented in encoding distinguishing
+                    absolute and relative timing for instance by the application of two different
+                    attributes, i.e. <hi rend="code">@timeRel</hi> and <hi rend="code">@timeAbs</hi>
+                    In a digital framework an incorrect consideration of time as absolute or
+                    relative can bring to display texts that never existed. Let us imagine for a
+                    moment that we build an XSLT based tool able to display at a time either Time 1,
+                    Time 2 or Time 3 etc. variants: the results would be the display of variants
+                    that might have lived in different moments. </p><p>I think that, in absence of explicit authorial declarations or of palaeographic
+                    evidence, the only possible display would be to show timing of variants segment
+                    by segment, i.e. to give evidence just of relative timed corrections.</p><p>In the presentation I will present some examples from different authors (Giacomo
+                    Leopardi, Jane Austen, Virginia Woolf and some others) to examine the complexity
+                    of representation of temporal factors in digital genetic editions.</p></div0></body><back><div type="Bibliography"><head>Bibliography</head><listBibl><biblStruct><monogr><author><name reg="Grésillon, A.">A. Grésillon</name></author><title level="m">Eléments de critique génétique. Lire les manuscrits modernes</title><imprint><pubPlace>Paris</pubPlace><publisher>Presses Universitaires de France</publisher><date value="1994">1994</date></imprint></monogr></biblStruct><biblStruct><monogr><title level="m">TEI P4: Guidelines for Electronic Text Encoding and
+                                Interchange, XML Compatible Edition</title><editor role="editor"><name reg="Sperberg-McQueen, C. M.">C. M. Sperberg-McQueen</name></editor><editor role="editor"><name reg="Burnard, Lou">Lou Burnard</name></editor><imprint><pubPlace>Oxford</pubPlace><pubPlace>Providence, RI</pubPlace><pubPlace>Charlottesville, VA</pubPlace><pubPlace>Bergen, NO</pubPlace><publisher>TEI Consortium</publisher><date value="2002">2002</date></imprint></monogr><note><xptr to="http://www.tei-c.org/P4X/index.html" from="ROOT" targOrder="U"/></note></biblStruct><biblStruct><monogr><author><name reg="TEI Manuscripts SIG">TEI Manuscripts SIG</name></author><title level="m"> Meeting Report 01</title><imprint><pubPlace>Nancy</pubPlace><publisher>ATILF</publisher><date value="2003">November 8th 2003 </date></imprint></monogr><note><xptr to="at http://www.tei-c.org.uk/Activities/SIG/Manuscript/mssigr01.xml.ID=body.1_div.3" from="ROOT" targOrder="U"/></note></biblStruct><biblStruct><analytic><author><name reg="Vanhoutte, Edward">Edward Vanhoutte</name></author><title level="a">Putting Time Back in Manuscripts. Text Ontology, Critique
+                                Génétique and Modern Manuscript</title></analytic><monogr><title level="u">Paper presented at ALLC/ACH 2002 Tübingen: University of
+                                Tübingen, 25 July 2002</title><imprint><date value="2002">2002</date></imprint></monogr><note><xptr to="http://www.uni-tuebingen.de/cgi-bin/abs/abs?propid=93" from="ROOT" targOrder="U"/></note></biblStruct></listBibl></div></back></text></TEI.2>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI.2 id="panel_236_sdhsemi"><teiHeader><fileDesc><titleStmt><title>SDH/SEMI Panel: Explorations in a Variety of Interfaces for the Reading of a
+                    Database</title><author><name reg="Vandendorpe, Christian">Christian Vandendorpe </name></author><author><name reg="Rueker, Stan">Stan Ruecker </name></author><author><name reg="Sinclair, Stéfan">Stéfan Sinclair</name></author><author><name reg="Forest, Dominic">Dominic Forest</name></author><respStmt><resp>Marked up by</resp><name reg="Schmidt, Sara A.">Sara A. Schmidt</name></respStmt></titleStmt><publicationStmt><p>Marked up to be included in the Digital Humanities 2007 Conference Abstracts
+                    book.</p></publicationStmt><sourceDesc><p>None</p></sourceDesc></fileDesc><profileDesc><textClass><classCode>panel</classCode><keywords><list type="simple"><item>society panel</item><item>interfaces</item><item>databases</item><item>reading</item><item>reves</item><item>Mandala</item><item>semantic interfaces</item><item>text mining</item><item>computer-assisted text analysis tools</item></list></keywords></textClass></profileDesc><revisionDesc><list type="simple"><item>SAS: Created from Christian Vandendorpe's doc <date value="2007-05"> May 2007</date></item></list></revisionDesc></teiHeader><text><front><docTitle n="SDH/SEMI Panel: Explorations in a Variety of Interfaces for the Reading of a                 Database"><titlePart type="main">SDH/SEMI Panel: Explorations in a Variety of Interfaces for
+                    the Reading of a Database</titlePart></docTitle><docAuthor><name reg="Vandendorpe, Christian">Christian Vandendorpe </name><address><addrLine>Christian.Vandendorpe@uottawa.ca</addrLine></address></docAuthor><titlePart type="affil">Département de lettres françaises<lb/>Université d’Ottawa</titlePart><docAuthor><name reg="Ruecker, Stan">Stan Ruecker</name><address><addrLine>sruecker@ualberta.ca</addrLine></address></docAuthor><titlePart type="affil">University of Alberta</titlePart><docAuthor><name reg="Sinclair, Stéfan">Stéfan Sinclair</name><address><addrLine>sgsinclair@gmail.com</addrLine></address></docAuthor><titlePart type="affil">McMaster University</titlePart><docAuthor><name reg="Forest, Dominic">Dominic Forest</name><address><addrLine>dominic.forest@umontreal.ca</addrLine></address></docAuthor><titlePart type="affil">École de bibliothéconomie et des sciences de
+                l'information<lb/>Université de Montréal</titlePart></front><body><div0><div1><head>A Textual Database of Dreams and the New Context of Reading</head><p><emph rend="bold">Christian Vandendorpe </emph> (Département de letters françaises, Université d’Ottawa)</p><p>The advent of the web has fostered the development of specialised textual
+                    databases, dedicated to tabular collections of snippets of our literary
+                    heritage. Their purpose is to facilitate the study of a particular phenomenon
+                    through the centuries. Henceforth, the act of reading tends to adopt a tabular
+                    way of reading as the one advocated by Claude Levy Strauss for the study of
+                    myths. In order to focus on a specific case, we shall examine the textual mysql
+                    database <xptr to="http://www.reves.ca" from="ROOT" targOrder="U"/>, a
+                    collection of some fifteen hundred dream narratives from various cultures since
+                    Homer and the Bible, and discuss its goals and its initial interface. The
+                    challenge is to design an interface that would be both efficient and exciting,
+                    inducing in the reader the desire of reading and helping him or her to explore
+                    the database and to make meaningful relations between the data.</p></div1><div1><head>The Mandala as an Interface to a Textual Database</head><p><emph rend="bold">Stan Ruecker </emph> (University of Alberta) and <emph rend="bold">Stéfan Sinclair </emph> (McMaster University) </p><p>The Mandala is a Java-xml application that makes visible the relations between
+                    sets of data. Its playful interface is designed to elicit a meaningful reading
+                    activity by the user in order to facilitate an in-depth exploration of the
+                    contents. We shall examine how it works with <xptr to="http://www.reves.ca" from="ROOT" targOrder="U"/>, its potential and its pertinence in the new
+                    context of reading.</p></div1><div1><head>Towards More Powerful Semantic Interfaces</head><p><emph rend="bold">Dominic Forest </emph> (École de bibliothéconomie et des sciences de l'information,
+                    Université de Montréal)</p><p>In this presentation, I will discuss the preliminary results of a research
+                    initiative where we explored the relevance of applying text mining techniques on
+                    a literary corpus. The corpus used in this work is composed of short
+                    thematically-related literary texts stored in a database. The main objective of
+                    this project is twofold. First, we want to explore if traditional text mining
+                    techniques can successfully be used to assist the extraction and analysis of
+                    relevant information found in literary texts. Secondly, we also want to explore
+                    if computer-assisted text analysis tools and text mining techniques can be
+                    useful to help access to valuable literary information stored in a textual
+                    database. This talk will be divided in three main parts. First, I will present
+                    the fundamental text mining concepts and techniques. In the second part, I will
+                    describe the computer-assisted text analysis processes that were applied on the
+                    online textual database (<xptr to="http://www.reves.ca" from="ROOT" targOrder="U"/>).
+                    Finally, I will discuss some of the results we obtained and give an overview of
+                    the future work that will be done in this project. </p></div1></div0></body></text></TEI.2>

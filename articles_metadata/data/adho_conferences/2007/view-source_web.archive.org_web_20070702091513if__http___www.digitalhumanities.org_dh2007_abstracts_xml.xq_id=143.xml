@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI.2 id="poster_143_bradley"><teiHeader><fileDesc><titleStmt><title>Making a Contribution: Modularity, Integration and Collaboration Between
+                    Tools in <emph>Pliny</emph></title><author><name reg="Bradley, John">John Bradley</name></author><respStmt><resp>Marked up by</resp><name reg="Schmidt, Sara A.">Sara A. Schmidt</name></respStmt></titleStmt><publicationStmt><p>Marked up to be included in the Digital Humanities 2007 Conference Abstracts
+                    book.</p></publicationStmt><sourceDesc><p>None</p></sourceDesc></fileDesc><profileDesc><textClass><classCode>poster</classCode><keywords><list type="simple"><item>tool modularity</item><item>tool building</item><item>collaboration</item></list></keywords></textClass></profileDesc><revisionDesc><list type="simple"><item>SAS: Created from John Bradley's doc <date value="2007-04">April
+                2007</date></item><item>SAS: Revised incorporating Bradley's revisions <date value="2007-05"> May 2007</date></item></list></revisionDesc></teiHeader><text><front><docTitle n="Making a Contribution: Modularity, Integration and Collaboration Between                 Tools in Pliny"><titlePart type="main">Making a Contribution: Modularity, Integration and
+                    Collaboration Between Tools in <emph>Pliny</emph></titlePart></docTitle><docAuthor><name reg="Bradley, John">John Bradley</name><address><addrLine>john.bradley@kcl.ac.uk</addrLine></address></docAuthor><titlePart type="affil">Centre for Computing in the Humanities<lb/>King's College London</titlePart></front><body><div0><p>Computing tools have been an issue since the foundation of Humanities Computing,
+                    and building modular tools that work together has been recognised as important
+                    since at least the CETH meetings in 1995. Geoffrey Rockwell and I first raised
+                    issues of modularity in our paper given at the Canadian Learned Societies
+                    Conference in June 1992 entitled “Towards new Research Tools in
+                    Computer-Assisted Text Analysis”. Our proposed tool framework combined data-flow
+                    tool modularity with the ability to create pages that mixed scholarly writing
+                    with interactive elements like in a <emph>Mathematica</emph> “Notebook”. Of
+                    course the WWW was sweeping all this away by 1995 and when we took a paper
+                    (Bradley, Rockwell 1995) to the CETH “tools” meeting we were merging our modular
+                    view with the WWW as it was then emerging. </p><p>In our community “modularity” often comes down to the sharing of file formats.
+                    Separate tools that can all read the same file format can all operate on common
+                    data, and therefore can contribute their particular facilities to the task at
+                    hand. File- or Unix-style modularity is a part of what I called the
+                    “transformation model” of computing (Bradley 2005), and provides a powerful
+                    approach to manipulating data. TuStep (described in Ott 2000) is a splendid
+                    example. The model holds a strong attraction within the Digital Humanities
+                    community – even extraordinarily creative projects as TAPoR’s text analysis
+                    portal (TAPoR 2006) or the Nora project (Nora 2006) are, in fact, primarily
+                    based on this. However, thinking of modularity primarily in those terms limits
+                    our views to those of computing about 25 years ago – before the advent of the
+                    graphical user interface (GUI).</p><p>The GUI radically changed the way we think about computing, and even today, more
+                    than 25 years later, its significance continues to reverberate. It is surely
+                    true to say that most humanists have the GUI as a model driving how they think
+                    of their computer. The impact has been twofold: <list type="unordered"><item>First, users now expect that the computer screen will allow them to
+                            directly manipulate materials that interest them. Think of the words in
+                            a word processor.</item><item>Second, interaction between tools needs to be possible not only
+                            between files, but also on the screen as well. Users expect to be able
+                            to incorporate parts of spreadsheets inside word documents, for
+                        example.</item></list></p><p>To reflect this broader sense of collaboration between tools, we need some
+                    different language. In this paper I will use the word <emph>integration</emph>
+                    for that aspect of tool collaboration that focuses on GUI issues. The use of
+                        <emph>integration</emph> might make us also think of the integrative nature
+                    of humanities scholarship – an intentional parallel. </p><p>Integration in the GUI presents challenges. First, the development of tools
+                    allowing for direct manipulation of objects on the screen is more complex and
+                    costly than resolving file-sharing issues. Furthermore, if independent tools are
+                    to interact on the screen – elements maintained by potentially different tools
+                    sharing screen space – then they must operate in a computing framework that
+                    makes this kind of thing practical.</p><p><emph>Pliny</emph> (Pliny 2006) has been developed precisely to draw attention to
+                    these two issues and to encourage some thinking about cooperating tools beyond
+                    file-oriented “modularity”. It both significantly broadens how computers can
+                    support humanities research and suggests a much richer and more acceptable
+                    interface to those tools that might well attract a larger number of scholars.
+                        <emph>Pliny</emph> tackles this in two ways. First, it is supports
+                    annotation and note taking – functions central to several aspects of humanities
+                    scholarship and which I believe have been largely neglected by the DH community
+                    – and, second, it is built using a framework called Eclipse (Eclipse 2006) which
+                    is deliberatively created to support GUI-level interaction between tools of the
+                    kind I mentioned above. Eclipse also supports rich collaboration between tools
+                    developed by independent developers.</p><p>Personal annotation and note-taking compels us to think about tool integration
+                    because it is widespread in humanities scholarship and runs across all kinds of
+                    scholarly work. Scholars write notes to record their reactions to not only books
+                    they read, but also web pages they view. Furthermore, if they have tools that do
+                    (say) text analysis, they would probably want to record notes about that as
+                    well. The provision of note-taking within a <emph>particular</emph> website is
+                    insufficient for personal note-taking (although it might well fulfil a useful
+                    need supporting public comment about the material the website offers) because
+                    most scholars work across a broad range of materials, and their note taking
+                    capability must reflect this. Notes from a book will at some point need to be
+                    brought in contact with notes about, say, an online archive or a journal, or
+                    about findings from the text analysis tool. Personal scholarly note taking
+                    integrates by its very nature.</p><p>Personal annotation also draws our attention back to the <emph>software
+                        application</emph> as the context in which tools can and should be built,
+                    rather than thinking of the browser as the context for tool delivery. It is
+                    surprising how difficult it is to make this point to those in the Digital
+                    Humanities. Of course part of the reason is that XML, one of the key
+                    technologies that fuels some portion of the DH community, has been developed
+                    specifically to work in the context of the WWW. However, if we wish to develop a
+                    more broadly based humanities community who use technology in more sophisticated
+                    ways to support their research we need to broaden our focus beyond the WWW.
+                    Providing scholarly resources on the WWW supports scholars, of course, and
+                    there remains some excitement that they can get materials readily right to their
+                    desktop. However, as I argued in Bradley 2005, once on that desktop all they can
+                    do with them is read them on the screen or print them out – a webpage, even one
+                    designed with all the clever parts of CSS and AJAX, allows only manipulation
+                    within its own page context. It contributes little to the integrative aspect of
+                    personal scholarship which must, by its very nature, often bring materials
+                    together from disparate sources. </p><p>Software Applications work with personal materials. Surely this is a central
+                    element of humanities scholarship. A word processor creates materials that
+                        <emph>belong</emph> to the researcher. Until web browsers can be used to
+                    create materials that are stored as personal data – on the user’s own machine –
+                    they cannot replace applications (see a similar assertion from a technical
+                    perspective in Charland 2005). Even the XML folk – part of the community driving
+                    a WWW view of humanities computing because of XML’s compatibility with website
+                    creation – use an application such as Oxygen to create XML materials in the
+                    first place. For the same reason that the creation of an XML file involves an
+                    editor rather than a web browser, the creation of personal notes – especially
+                    those gathered from reactions across a great range of sources – requires a
+                    personal application. Furthermore, more than one study into computing and
+                    humanities scholarship (see both Brockman <emph>et al</emph> and Siemens
+                        <emph>et al</emph> 2004) has found that scholars have tried to apply
+                    inappropriate applications such as word processors to support this need, and
+                    have not been very satisfied with the result.</p><p>Applications can be built in several different frameworks. <emph>Pliny</emph> is
+                    written in Java using the Eclipse framework rather than the one provided by Sun
+                    to create desktop tools. I didn’t choose Eclipse because it was easy for me to
+                    use it – indeed I had to learn it from the beginning during the past year or so.
+                    I choose Eclipse because it is designed specifically to support the integration
+                    of tools developed by separate developers. Eclipse provides a way to share out
+                    screen space between windows managed by different tools. Furthermore, it also
+                    provides mechanisms for elements from separate tools to share the same window
+                    (called “making a contribution” in Eclipse). Tools built with the Eclipse
+                    plug-in model need not operate in isolation from other related tools. A text
+                    analysis tool built in Eclipse could use <emph>Pliny</emph> elements to allow
+                    users to record notes while using the TA tool, and the notes that were recorded
+                    in this way would also be visible in the context of notes created with other
+                    materials – say from reading a book, or annotating a web page.</p><p>So, in this presentation I have an impossible task. First, I am promoting the
+                    idea that we focus more on application development than web development, a
+                    technically more demanding activity, and one that goes against the grain of much
+                    work in DH over the last decade. Second, for those who might subscribe to this
+                    idea, I am promoting that we build our tools according to the Eclipse model
+                    rather than the more widely understood Sun/Java framework. Perhaps I won’t
+                    convince anyone here. However, I believe that unless we start to think of tools
+                    in the context of applications, as our scholarly community does, and unless we
+                    start to think more seriously of tool building in the context of GUI integration
+                    in addition to data sharing, we will never get the attention of most scholars in
+                    the humanities.</p></div0></body><back><div type="Bibliography"><head>Bibliography</head><listBibl><biblStruct><analytic><author><name reg="Bradley, John">John Bradley</name></author><author><name reg="Rockwell, Geoffrey">Geoffrey Rockwell</name></author><title level="a">Towards New Research Tools in Computer-Assisted Text
+                                Analysis</title></analytic><monogr><title level="u">Paper presented at The Canadian Learned Societies
+                                Conference, June 1992</title><imprint><date value="1992">1992</date></imprint></monogr><note><xptr to="http://www.cch.kcl.ac.uk/legacy/staff/jdb/papers/learneds.html" from="ROOT" targOrder="U"/></note></biblStruct><biblStruct><analytic><author><name reg="Bradley, John">John Bradley</name></author><author><name reg="Rockwell, Geoffrey">Geoffrey Rockwell</name></author><title level="a">The Components of a System for Computer Assisted Text
+                                Analysis</title></analytic><monogr><title level="u">Paper presented at the CETH Workshop on Future Text
+                                Analysis Tools, October 1995</title><imprint><date value="1995">1995</date></imprint></monogr><note><xptr to="http://www.cch.kcl.ac.uk/legacy/staff/jdb/papers/ceth95.html" from="ROOT" targOrder="U"/></note></biblStruct><biblStruct><analytic><author><name reg="Bradley, John">John Bradley</name></author><title level="a">What You (Fore)see is What You Get: Thinking about
+                                Usage Paradigms for Computer Assisted Text Analysis</title></analytic><monogr><title level="j">Text Techology</title><imprint><biblScope type="vol">14.2</biblScope><date value="2005">2005</date><biblScope type="pages">1-19</biblScope></imprint></monogr><note><xptr crdate="2006-09-01" to="http://texttechnology.mcmaster.ca/pdf/vol14_2/bradley14-2.pdf" from="ROOT" targOrder="U"/></note></biblStruct><biblStruct><monogr><author><name reg="Brockman, William S.">William S. Brockman</name></author><author><name reg="Neumann, Laura">Laura Neumann</name></author><author><name reg="Palmer, Carole L.">Carole L. Palmer</name></author><author><name reg="Tidline, Tonyia J.">Tonyia J. Tidline</name></author><title level="m">Scholarly Work in the Humanities and the Evolving
+                                Information Environment</title><imprint><pubPlace>Washington, D.C.</pubPlace><publisher>Digital Libary Federation and Council on Library and Information Resources</publisher><date value="2001">2001</date></imprint></monogr></biblStruct><biblStruct><analytic><author><name reg="Charland, Andre">Andre Charland</name></author><title level="a">Will Ajax Replace the Desktop?</title></analytic><monogr><title level="m">developer.com</title><imprint><date value="2005">2005</date></imprint></monogr><note><xptr crdate="2006-10-01" to="http://www.developer.com/design/article.php/10925_3574116_1" from="ROOT" targOrder="U"/></note></biblStruct><biblStruct><monogr><title level="m"><name reg="Pliny">Pliny</name></title><imprint><date value="2006">2006</date></imprint></monogr><note><xptr crdate="2006-10-01" to="http://pliny.cch.kcl.ac.uk/" from="ROOT" targOrder="U"/></note></biblStruct><biblStruct><monogr><title level="m"><name reg="Eclipse">Eclipse</name></title><imprint><date value="2006">2006</date></imprint></monogr><note><xptr crdate="2006-10-01" to="http://www.eclipse.org/" from="ROOT" targOrder="U"/></note></biblStruct><biblStruct><monogr><title level="m"><name reg="m">Nora</name></title><imprint><date value="2006">2006</date></imprint></monogr><note><xptr crdate="2006-10-01" to="http://www.noraproject.org/" from="ROOT" targOrder="U"/></note></biblStruct><biblStruct><analytic><author><name reg="Ott, Wilhelm">Wilhelm Ott</name></author><title level="a">Strategies and Tools for Textual Scholarship: the
+                                Tübingen System of Text Processing Programs (TUSTEP)</title></analytic><monogr><title level="j">Literary &amp; Linguistic Computing</title><imprint><biblScope type="vol">15.1</biblScope><date value="2000">2000</date><biblScope type="pages">93-108</biblScope></imprint></monogr></biblStruct><biblStruct><analytic><author><name reg="Siemens, Ray">Ray Siemens</name></author><author><name reg="Toms, Elaine">Elaine Toms</name></author><author><name reg="Sinclair, Stéfan">Stéfan Sinclair</name></author><author><name reg="Rockwell, Geoffrey">Geoffrey Rockwell</name></author><author><name reg="Siemens, Lynne"/>Lynne Siemens</author><title level="a">The Humanities Scholar in the Twenty-first Century: How
+                                Research is Done and What Support is Needed</title></analytic><monogr><title level="m">ALLC/ACH 2004 Conference Abstracts</title><imprint><pubPlace>Göteborg</pubPlace><publisher>Göteborg University</publisher><date value="2004">2004</date></imprint></monogr></biblStruct><biblStruct><monogr><title level="m"><name reg="TAPoR: Text Analysis Portal for Research">TAPoR: Text Analysis Portal for Research</name></title><imprint><date value="2006">2006</date></imprint></monogr><note><xptr to="http://test-tapor.mcmaster.ca/portal/portal" from="ROOT" targOrder="U"/></note></biblStruct></listBibl></div></back></text></TEI.2>

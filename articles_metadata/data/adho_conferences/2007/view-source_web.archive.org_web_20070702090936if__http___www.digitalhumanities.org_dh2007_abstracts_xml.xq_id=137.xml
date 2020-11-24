@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI.2 id="poster_137_eder"><teiHeader><fileDesc><titleStmt><title>How Rhythmical is Hexameter: A Statistical Approach to Ancient Epic Poetry</title><author><name reg="Eder, Maciej">Maciej Eder</name></author><respStmt><resp>Marked up by</resp><name reg="Field, Hana S.">Hana S. Field</name></respStmt></titleStmt><publicationStmt><p>Marked up to be included in the Digital Humanities 2007 Conference Abstracts
+                    book.</p></publicationStmt><sourceDesc><p>None</p></sourceDesc></fileDesc><profileDesc><textClass><classCode>poster</classCode><keywords><list type="simple"><item>oral literature</item><item>versification</item><item>rhythm</item><item>hexameter</item><item>Greek and Latin languages</item></list></keywords></textClass></profileDesc><revisionDesc><list><item>HSF: Created from Maciej Eder's doc<date value="2007-04">April
+                    2007</date></item><item>SAS: Revised <date value="2007-05">May 2007</date></item></list></revisionDesc></teiHeader><text><front><docTitle n="How Rhythmical is Hexameter: A Statistical Approach to Ancient Epic Poetry"><titlePart type="main">How Rhythmical is Hexameter: A Statistical Approach to
+                    Ancient Epic Poetry</titlePart></docTitle><docAuthor><name reg="Eder, Maciej.">Maciej Eder</name><address><addrLine>maciejeder@poczta.ijp-pan.krakow.pl</addrLine></address></docAuthor><titlePart type="affil">Polish Academy of Sciences</titlePart></front><body><div0><p>In this paper, I argue that the later a given specimen of hexamater is, the less
+                    rhythmical it tends to be. A brief discussion of the background of ancient Greek
+                    and Latin metrics and its connections to orality is followed by an account of
+                    spectral density analysis as my chosen method. I then go on to comment on the
+                    experimental data obtained by representing several samples of ancient poetry as
+                    coded sequences of binary values. Hexameter’s decreasing rhythmicity is then
+                    illustrated with reference to particular authors. In the last section, I suggest
+                    how spectral density analysis may help to account for other features of ancient
+                    meter.</p><p>The ancient epic poems, especially the most archaic Greek poetry attributed to
+                    Homer, are usually referred as an extraordinary fact in the history of European
+                    literature. For present-day readers educated in a culture of writing, it seems
+                    unbelievable that such a large body of poetry should have been composed in a
+                    culture based on oral transmission. In fact, despite of genuine singers' and
+                    audience's memory, epic poems did not emerge at once as fixed texts, but they
+                    were re-composed in each performance (Lord 2000, Foley 1993, Nagy 1996). The
+                    surviving ancient epic poetry displays some features that reflect archaic
+                    techniques of oral composition, formulaic structure being probably the most
+                    characteristic (Parry 1971: 37-117).</p><p>Since formulaic diction prefers some fixed rhythmical patterns (Parry 1971:
+                    8-21), we can ask some questions about the role of both versification and rhythm
+                    in oral composition. Why was all of ancient epic poetry, both Greek and Latin,
+                    composed in one particular type of meter called hexameter? Does the choice of
+                    meter influence the rhythmicity of a text? Why does hexameter, in spite of its
+                    relatively restricted possibilities of shaping rhythm, differ so much from one
+                    writer to another some (cf. Duckworth 1969: 37-87)? And, last but not least,
+                    what possible reasons are there for those wide differences between particular
+                    authors?</p><p>It is commonly known that poetry is in general easier to memorize than prose,
+                    because rhythm itself tends to facilitate memorization. In a culture without
+                    writing, memorization is crucial, and much depends on the quality of oral
+                    transmission. In epic poems from an oral culture rhythm is thus likely to be
+                    particularly important for both singers and hearers, even though they need not
+                    consciously perceive poetic texts as rhythmical to benefit from rhythm as an aid
+                    to memory.</p><p>It may then be expected on theoretical grounds that non-oral poems, such as the
+                    Latin epic poetry or the Greek hexameter of the Alexandrian age, will be largely
+                    non-rhythmical, or at least display weaker rhythm effects than the archaic poems
+                    of Homer and Hesiod. Although formulaic diction and other techniques of oral
+                    composition are noticeable mostly in Homer’s epics (Parry 1971, Lord 2000, Foley
+                    1993, etc.), the later hexameters, both Greek and Latin, also display some
+                    features of oral diction (Parry 1971: 24-36). The metrical structure of
+                    hexameter might be quite similar: strongly rhythmical in the oldest (or rather,
+                    the most archaic) epic poems, and less conspicuous in poems composed in written
+                    form a few centuries after Homer. The aim of the present study is to test the
+                    hypothesis that the later a given specimen of hexameter is, the less rhythmical
+                    it tends to be.</p><p>Because of its nature versification easily lends itself to statistical analysis.
+                    A great deal of work has already been done in this field, including studies of
+                    Greek and Latin hexameter (Jones &amp; Gray 1972, Duckworth 1969, Foley
+                    1993, etc.). However, the main disadvantage of the methods applied in existing
+                    research is that they describe a given meter as if it were a set of independent
+                    elements, which is actually not true. In each versification system, the specific
+                    sequence of elements plays a far more important role in establishing a
+                    particular type of rhythm than the relations between those elements regardless
+                    their linear order (language "in the mass" vs. language "in the line"; cf.
+                    Pawlowski 1999).</p><p>Fortunately, there are a few methods of statistical analysis (both numeric and
+                    probabilistic) that study verse by means of an ordered sequence of elements.
+                    These methods include, for example, time series modeling, Fourier analysis, the
+                    theory of Markov chains and Shannon's theory of information. In the present
+                    study, spectral density analysis was used (Gottman 1999, Priestley 1981, etc.).
+                    Spectral analysis seems to be a very suitable tool because it provides a
+                    cross-section of a given time series: it allows us to detect waves, regularities
+                    and cycles which are not otherwise manifest and open to inspection. In the case
+                    of a coded poetry sample, the spectrogram shows not only simple repetitions of
+                    metrical patterns, but also some subtle rhythmical relations, if any, between
+                    distant lines or stanzas.</p><p>To verify the hypothesis of hexameter’s decreasing rhythmicity, 7 samples of
+                    Greek and 3 samples of Latin epic poetry were chosen. The specific selection of
+                    sample material was as follows: 3 samples from Homeric hexameter (books 18 and
+                    22 from the Iliad, book 3 from the Odyssey), 1 sample from Hesiod (Theogony),
+                    Apollonius (Argonautica, book 1), Aratos (Phainomena), Nonnos (Dionysiaca, book
+                    1), Vergil (Aeneid, book 3), Horace (Ars poetica), and Ovid (Metamorphoses, book
+                    1). In each sample, the first 500 lines were coded in such a way that each long
+                    syllable was assigned value 1, and each short syllable value 0. Though it is
+                    disputed whether ancient verse was purely quantitative or whether it also had
+                    some prosodic features (Pawlowski &amp; Eder 2001), the quantity-based
+                    nature of Greek and Roman meter was never questioned. It is possible that rhythm
+                    was generated not only by quantity, but it is certain that quantity itself
+                    played an essential role in ancient meter. Thus, in the coding procedure, all
+                    prosodic features were left out except the quantity of syllables (cf. Jones
+                    &amp; Gray 1972, Duckworth 1969, Foley 1993, etc.). A binary-coded series
+                    was then obtained for each sample, e.g., book 22 of the Iliad begins as a series
+                    of values:<lb/> 1110010010010011100100100100111001110010010011...</p><p>The coded samples were analyzed by means of the spectral density function. As
+                    might be expected, on each spectogram there appeared a few peaks indicating the
+                    existence of several rhythmical waves in the data. However, while the peaks
+                    suggesting the existence of 2- and 3-syllable patterns it the text were very
+                    similar for all the spectograms and quite obvious, the other peaks showed some
+                    large differences between the samples. Perhaps the most surprising was the peak
+                    echoing the wave with a 16-syllable period, which could be found in the samples
+                    of early Greek poems by Homer, Hesiod, Apollonius, and Aratos. The same peak was
+                    far less noticeable in the late Greek hexameter of Nonnos, and totally absent in
+                    the samples of Latin writers. Other differences between the spectograms have
+                    corroborated the observation: the rhythmical effects of the late poems were, in
+                    general, weaker as compared with the rich rhythmical structure of the earliest,
+                    orally composed epic poems.</p><p>Although the main hypothesis has been verified, the results also showed some
+                    peculiarities. For example, the archaic poems by Homer and Hesiod did not differ
+                    significantly from the poems of the Alexandrian age (Apollonius, Aratos), which
+                    was rather unexpected. Again, the rhythm of the Latin hexameter turned out to
+                    have a different underlying structure than that of all the Greek samples. There
+                    are some possible explanations of those facts, such as that the weaker rhythm of
+                    the Latin samples may relate to inherent differences between Latin and Greek.
+                    More research, both in statistics and in philology, is needed, however, to make
+                    such explanations more nuanced and more persuasive.</p></div0></body><back><div type="Bibliography"><head>Bibliography</head><listBibl><biblStruct><monogr><author><name reg="Duckworth, George E.">George E. Duckworth</name></author><title level="m">Vergil and Classical Hexameter Poetry: A Study in
+                                Metrical Variety</title><imprint><pubPlace>Ann Arbor</pubPlace><publisher>University of Michigan Press</publisher><date value="1969">1969</date></imprint></monogr></biblStruct><biblStruct><monogr><author><name reg="Foley, John Miles">John Miles Foley</name></author><title level="m">Traditional Oral Epic: "The Odyssey", "Beowulf" and the
+                                Serbo-Croatian Return Song</title><imprint><pubPlace>Berkeley</pubPlace><publisher>University of California Press</publisher><date value="1993">1993</date></imprint></monogr></biblStruct><biblStruct><monogr><author><name reg="Gottman, John Mordechai">John Mordechai Gottman</name></author><author><name reg="Roy, Anup Kumar">Anup Kumar Roy</name></author><title level="m">Sequential Analysis: A Guide for Behavioral Researchers</title><imprint><pubPlace>Cambridge</pubPlace><publisher>Cambridge University Press</publisher><date value="1990">1990</date></imprint></monogr></biblStruct><biblStruct><analytic><author><name reg="Jones, Frank Pierce">Frank Pierce Jones</name></author><author><name reg="Gray, Florence E.">Florence E. Gray</name></author><title level="a">Hexameter Patterns, Statistical Inference, and the
+                                Homeric Question: An Analysis of the La Roche Data</title></analytic><monogr><title level="j">Transactions and Proceedings of the American
+                                Philological Association</title><imprint><biblScope type="vol">103</biblScope><date value="1972">1972</date><biblScope type="pages">187-209</biblScope></imprint></monogr></biblStruct><biblStruct><monogr><author><name reg="Lord, Albert B.">Albert B. Lord</name></author><title level="m">The Singer of Tales</title><editor role="editor"><name reg="Mitchell, Stephen">Stephen Mitchell</name></editor><editor role="editor"><name reg="Nagy, Gregory">Gregory Nagy</name></editor><imprint><pubPlace>Cambridge, MA</pubPlace><publisher>Harvard University Press</publisher><date value="2000">2000</date></imprint></monogr></biblStruct><biblStruct><monogr><author><name reg="Nagy, Gregory">Gregory Nagy</name></author><title level="m">Poetry as Performance: Homer and Beyond</title><imprint><pubPlace>Cambridge</pubPlace><publisher>Cambridge University Press</publisher><date value="1996">1996</date></imprint></monogr></biblStruct><biblStruct><monogr><author><name reg="Parry, Milman">Milman Parry</name></author><title level="m">The Making of Homeric Verse: The Collected Papers of
+                                Milman Parry</title><editor role="editor"><name reg="Parry, Adam">Adam Parry</name></editor><imprint><pubPlace>Oxford</pubPlace><publisher>Clarendon Press</publisher><date value="1971">1971</date></imprint></monogr></biblStruct><biblStruct><analytic><author><name reg="Pawlowski, Adam">Adam Pawlowski</name></author><title level="a">Language in the Line vs. Language in the Mass: On the
+                                Efficiency of Sequential Modeling in the Analysis of Rhythm</title></analytic><monogr><title level="j">Journal of Quantitative Linguistics</title><imprint><biblScope type="vol">6.1</biblScope><date value="1999">1999</date><biblScope type="pages">70-77</biblScope></imprint></monogr></biblStruct><biblStruct><analytic><author><name reg="Pawlowski, Adam">Adam Pawlowski</name></author><author><name reg="Eder, Maciej">Maciej Eder</name></author><title level="a">Quantity or Stress? Sequential Analysis of Latin
+                                Prosody</title></analytic><monogr><title level="j">Journal of Quantitative Linguistics</title><imprint><biblScope type="vol">8.1</biblScope><date value="2001">2001</date><biblScope type="pages">81-97</biblScope></imprint></monogr></biblStruct><biblStruct><monogr><author><name reg="Priestly, M. B.">M. B. Priestly</name></author><title level="m">Spectral Analysis and Time Series</title><imprint><pubPlace>London</pubPlace><publisher>Academic Press</publisher><date value="1981">1981</date></imprint></monogr></biblStruct></listBibl></div></back></text></TEI.2>

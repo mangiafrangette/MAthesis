@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI.2 id="poster_181_miyake"><teiHeader><fileDesc><titleStmt><title>A Network Structure of the Synoptic Gospels Employing Clustering Coefficients</title><author><name reg="Miyake, Maki">Maki Miyake</name></author><respStmt><resp>Marked up by</resp><name reg="Field, Hana S.">Hana S. Field</name></respStmt></titleStmt><publicationStmt><p>Marked up to be included in the Digital Humanities 2007 Conference Abstracts
+                    book.</p></publicationStmt><sourceDesc><p>None</p></sourceDesc></fileDesc><profileDesc><textClass><classCode>poster</classCode><keywords><list type="simple"><item>semantic network</item><item>graph clustering</item><item>Marov Clustering</item><item>biblical studies</item></list></keywords></textClass></profileDesc><revisionDesc><list><item>HSF: Created from Maki Miyake's text<date value="2007-04">April
+                    2007</date></item><item>SAS: Revised <date value="2007-05">May 2007</date></item></list></revisionDesc></teiHeader><text><front><docTitle n="A Network Structure of the Synoptic Gospels Employing Clustering Coefficients"><titlePart type="main">A Network Structure of the Synoptic Gospels Employing
+                    Clustering Coefficients</titlePart></docTitle><docAuthor><name reg="Miyake, Maki">Maki Miyake</name><address><addrLine>mmiyake@lang.osaka-u.ac.jp</addrLine></address></docAuthor><titlePart type="affil">Osaka University</titlePart></front><body><div0><p>In this presentation, we propose a graph-theory approach to the systematization
+                    of the texts of the Synoptic Gospels. Specifically, we apply a new
+                    graph-clustering technique for data processing that utilizes a
+                    clustering-coefficient threshold in creating semantic networks for the Gospels.
+                    Taking Greek texts (Nestle-Aland, 1979) as the textual source, an adjacency
+                    matrix for graphs is created from word co-occurrence data for a given range of
+                    the texts. We also develop a web-based application for the dynamic
+                    representation of the network structures based on the relationships between
+                    words and concepts.</p><p>Network representations are useful in modeling natural language semantics
+                    (Stevers, &amp; Tenenbaum, 2005). Recently, Dorow (2006) has proposed the
+                    notion of curvature (clustering coefficient) as a clustering tool to detect
+                    ambiguity and to acquire semantic classes rather than using word frequencies.
+                    The clustering coefficient represents the interconnective strength between
+                    neighboring nodes in a graph. Following Watts and Strogatz (1998), the
+                    clustering coefficient of the node (n) can be defined as: (number of links among
+                    n's neighbors)/(N(n)*(N)-1)/2), where N(n) denotes the set of n's neighbors. The
+                    coefficient assumes values between 0 and 1.</p><p>In processing a text, word pairs are computed by a windowing method (Takayama,
+                    Flournoy, Kaufmann, &amp;. Peters). The windowing method provides a
+                    relatively simple representation of similarity levels that is suitable for
+                    clustering. The technique involves moving a certain sized window over a text to
+                    extract all fixed-sized word grams (Vechthomova, Roberston, &amp; Jones,
+                    2003). Word pairings are subsequently made by combining all extracted words.
+                    Co-occurrence data is computed with two window sizes that reflect syntactic and
+                    semantic considerations. The first size is set at 2 for the nearest
+                    co-occurrence, while the second size is set to 20 to collect words both before
+                    and after a sentence. Morphological data for the BibleWorks Greek New Testament
+                    Morphology (BNM) was used in a stemming process to obtain base word forms from
+                    morphological variants. Consequently, 2,688 word occurrences were identified.</p><p>In Figure 1, the degree distribution for the word occurrences nodes are plotted
+                    in log-log coordinates with showing the best fitting power law distribution
+                    (r=1.4). Following Barabasi and Albert (1999), the feature of power-law degree
+                    distribution indicates the small-world structure of the semantic network. Figure
+                    2 is a plot for the clustering coefficient as a function of degree. There are 16
+                    words that have a clustering coefficient value of less than 0.1. These are
+                    articles, prepositions, pronouns, and conjunctions, which are usually regarded
+                    as "noise" words. We use the clustering coefficient value as a threshold in
+                    order to eliminate such noise words and to control the datasets for graph
+                    clustering. In applying the clustering technique, nine datasets were created
+                    with 0.1 increments in the value of the clustering coefficient (from 0.1 to
+                    0.9). The datasets for each window size were converted into adjacency matrices
+                    for Recurrent Markov Clustering (RMCL) (Jung, Miyake, &amp; Akama, 2006).</p><p>RMCL is an improved form of Markov Clustering (MCL) (van Dongen, 2000). The MCL
+                    algorithm is based on random walks for a graph, and its model simulates flow by
+                    using the two simple algebraic operations of expansion and inflation on the
+                    stochastic transition matrix. The method has been applied to a number of
+                    corpora, such as a French synonym dictionary (Gfeller, 2005) and the British
+                    National Corpus (Dorow, Widdows, Ling, Eckmann, Danilo, and Moses, 2005). In
+                    contrast, RMCL allows for greater control over the sizes of concept domains by
+                    modifying graph granularity and the generality of concepts. The recurrent
+                    process gets feedback from the state of overlapping clustering before the output
+                    of MCL. This reversal procedure is a key feature of RMCL in generating a virtual
+                    adjacency matrix for the non overlapping clusters as a resultant state of
+                    convergence actually yielded by the MCL process. The resultant downsized matrix
+                    provides a simpler graph of the conceptual structures underlying similar words.</p><p>Figure 3 shows the transitions in cluster sizes for the MCL and RMCL processes as
+                    a function of the clustering coefficient with a window size of 2, while Figure 4
+                    shows similar data with a window size of 20. The term input data refers to the
+                    initial adjacency matrices. Figure 4 indicates that while cluster sizes are
+                    almost identical for RMCL and MCL at clustering coefficient values of 0.6 or
+                    more, RMCL clearly yields smaller clusters at values of 0.5 or less. The MCL
+                    clustering results in Figure 4 for the window size of 20 indicate the strong
+                    connectedness between nodes, as all nodes are grouped into a single cluster for
+                    coefficient values of 0.2 or less.</p><p>The results for both the MCL and RMCL processes are implemented as graph network
+                    structures in a web application, which has been developed to dynamically
+                    represent the relationships between words and how MCL components might
+                    correspond to concepts. Figure 5 is a screen shot of the web application, which
+                    uses Apache2 as an http server and Tomcat5 as a JSP and servlet engine.
+                    WebMathematica is used to call a Mathematica kernal to calculate the graphs.</p><p>In conclusion, the clustering coefficient represents a useful tool for
+                    manipulating datasets to eliminate noise words. The RMCL methods allows for the
+                    creation of compact semantic networks, which clearly present the relationships
+                    between words.</p><p>In future works, we will apply different clustering-coefficient thresholds to
+                    detect ambiguous words, particularly words with low coefficient-low degree
+                    values. We will also evaluate systematizations of the Synoptic Gospels by
+                    biblical scholars and explore the effectiveness of our approach in furthering
+                    biblical studies.</p><figure rend="ImageLink"><head/><p><xref to="DITTO" from="ROOT" targOrder="U">poster_181_miyake_1.jpg</xref></p><figDesc>Figure 1: The Degree Distributions</figDesc></figure><figure rend="ImageLink"><head/><p><xref to="DITTO" from="ROOT" targOrder="U">poster_181_miyake_2.jpg</xref></p><figDesc>Figure 2: Clustering coefficient plotted as a function of
+                    degree</figDesc></figure><figure rend="ImageLink"><head/><p><xref to="DITTO" from="ROOT" targOrder="U">poster_181_miyake_3.jpg</xref></p><figDesc>Figure 3: Clustering Coefficient (window size =2)</figDesc></figure><figure rend="ImageLink"><head/><p><xref to="DITTO" from="ROOT" targOrder="U">poster_181_miyake_4.jpg</xref></p><figDesc>Figure 4: Clustering Coefficient (window size =20)</figDesc></figure><figure rend="ImageLink"><head/><p><xref to="DITTO" from="ROOT" targOrder="U">poster_181_miyake_5.jpg</xref></p><figDesc>Figure 5: Screen shot of a web application</figDesc></figure></div0></body><back><div type="Bibliography"><head>Bibliography</head><listBibl><biblStruct><analytic><author><name reg="Baranbasi, A.L.">A.L. Baranbasi</name></author><author><name reg="Albert R.&gt;">R. Albert</name></author><title level="a">Emergence of Scaling in Random Networks</title></analytic><monogr><title level="j">Science</title><imprint><biblScope type="vol">286</biblScope><date value="1999">1999</date><biblScope type="pages">509-512</biblScope></imprint></monogr></biblStruct><biblStruct><analytic><author><name reg="Dorow, B.">B. Dorow</name></author><author><name reg="Widdows, D.">D. Widdows</name></author><author><name reg="Ling, K.">K. Ling</name></author><author><name reg="Eckmann, J.">J. Eckmann</name></author><author><name reg="Sergi, D.">D. Sergi</name></author><author><name reg="Moses, E..">E. Moses</name></author><title level="a">Using Curvature and Markov Clustering in Graphs for
+                                Lexical Acquisition and Word Sense Discrimination</title></analytic><monogr><title level="m">MEANING-2005, 2nd Workshop organized by the MEANING
+                                Project, February 3rd-4th 2005, Trento, Italy</title><imprint><pubPlace>Trento,Italy</pubPlace><date value="2005">2005</date></imprint></monogr></biblStruct><biblStruct><monogr><author><name reg="Dorow, K.">K. Dorow</name></author><title level="u">"A Graph Model for Words and Their Meaning"</title><edition>Doctoral Thesis</edition><imprint><publisher>University of Stuttgart</publisher><date value="2006">2006</date></imprint></monogr><note><xptr to="http://elib.uni-stuttgart.de/opus/volltexte/2007/2985/pdf/diss_27022007.pdf" from="ROOT" targOrder="U"/></note></biblStruct><biblStruct><analytic><author><name reg="Gfeller, D.">D. Gfeller</name></author><author><name reg="Chappelier, J. C.">J. C. Chappelier</name></author><author><name reg="De Los Rios, P.">P. De Los Rios</name></author><title level="a">Synonym Dictionary Improvement through Markov
+                                Clustering and Clustering Stability</title></analytic><monogr><title level="m">International Symposium on Applied Stochastic Models
+                                and Data Analysis</title><imprint><biblScope type="pages">106-113</biblScope></imprint></monogr></biblStruct><biblStruct><analytic><author><name reg="Jung, J.">J. Jung</name></author><author><name reg="Miyake, Maki">Maki Miyake</name></author><author><name reg="Akama, H.">H. Akama</name></author><title level="a">Recurrent Markov Cluster (RMCL) &amp;
+                                #12288; Algorithm for the Refinement of the Semantic Network,
+                                LREC2006lity</title></analytic><monogr><title level="m">International Conference on Language Resources and
+                                Evaluation</title><imprint><biblScope type="pages">1428-1432</biblScope></imprint></monogr></biblStruct><biblStruct><monogr><author><name reg="Nestle-Aland">Nestle-Aland</name></author><title level="m">Novum Testmentum Graece </title><edition>26th edition</edition><imprint><pubPlace>Stuttgart</pubPlace><publisher>German Bible Society</publisher><date value="1987">1987</date></imprint></monogr></biblStruct><biblStruct><monogr><author><name reg="Takayama, Y.">Y. Takayama</name></author><author><name reg="Flournoy, R.">R. Flournoy</name></author><author><name reg="Kaufmann, S.">S. Kaufmann</name></author><author><name reg="Peters, S.">S. Peters</name></author><title level="m" type="WWW document"><name reg="Information Mapping: Concept-based Information Retrieval Based on Word Associations">Information Mapping: Concept-based Information Retrieval Based
+                                    on Word Associations.</name></title><imprint/></monogr><note><xptr to="http://www-csli.stanford.edu/semlab-hold/infomap/theory.html" from="ROOT" targOrder="U"/></note></biblStruct><biblStruct><monogr><author><name reg="van Dongen, Stijn Marinus">Stijn Marinus van Dongen</name></author><title level="u">"Graph Clustering by Flow Simulation"</title><edition>PhD Thesis</edition><imprint><publisher>University of Utrecht</publisher><date value="2000">2000</date></imprint></monogr><note><xptr to="http://igitur-archive.library.uu.nl/dissertations/1895620/inhoud.htm" from="ROOT" targOrder="U"/></note></biblStruct><biblStruct><analytic><author><name reg="Steyvers, M.">M. Steyvers</name></author><author><name reg="Tenenbaum, J. B.">J. B. Tenenbaum</name></author><title level="a">The Large-Scale Structure of Semantic Networks:
+                                Statistical Analyses and a Model of Semantic Growth</title></analytic><monogr><title level="j">Cognitive Science</title><imprint><biblScope type="vol">29.1</biblScope><date value="2005">2005</date><biblScope type="pages">41-78</biblScope></imprint></monogr></biblStruct><biblStruct><analytic><author><name reg="Vechthomova, O.">O. Vechthomova</name></author><author><name reg="Robertson, S.">S. Robertson</name></author><author><name reg="Jones, S.">S. Jones</name></author><title level="a">Query Expansion With Long-Span Collocate</title></analytic><monogr><title level="j">Information Retrieval</title><imprint><biblScope type="vol">6</biblScope><date value="2003">2003</date><biblScope type="pages">251-273</biblScope></imprint></monogr></biblStruct><biblStruct><analytic><author><name reg="Watts, D.">D. Watts</name></author><author><name reg="Strogatz, S.">S. Strogatz</name></author><title level="a">Collective Dynamics of ‘Small-World’ Networks</title></analytic><monogr><title level="j">Nature</title><imprint><biblScope type="vol">393</biblScope><date value="1998">1998</date><biblScope type="pages">440-442</biblScope></imprint></monogr></biblStruct></listBibl></div></back></text></TEI.2>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI.2 id="poster_178_hu"><teiHeader><fileDesc><titleStmt><title>Distinguishing Editorial and Customer Critiques of Cultural Objects Using
+                    Text Mining</title><author><name reg="Hu, Xiao">Xiao Hu</name></author><author><name reg="Downie, J. Stephen">J. Stephen Downie</name></author><author><name reg="Ehmann, Andreas">Andreas Ehmann</name></author><respStmt><resp>Marked up by</resp><name reg="Schmidt, Sara A.">Sara A. Schmidt</name></respStmt></titleStmt><publicationStmt><p>Marked up to be included in the Digital Humanities 2007 Conference Abstracts
+                    book.</p></publicationStmt><sourceDesc><p>None</p></sourceDesc></fileDesc><profileDesc><textClass><classCode>poster</classCode><keywords><list type="simple"><item>stylistics</item><item>editorial and customer critiques</item><item>text categorization</item><item>feature analysis</item><item>function words</item></list></keywords></textClass></profileDesc><revisionDesc><list type="simple"><item>SAS: Created from Xiao Hu's pdf<date value="2007-05">May 2007</date></item></list></revisionDesc></teiHeader><text><front><docTitle n="Distinguishing Editorial and Customer Critiques of Cultural              Objects Using Text Mining              "><titlePart type="main">Distinguishing Editorial and Customer Critiques of Cultural
+                    Objects Using Text Mining </titlePart></docTitle><docAuthor><name reg="Hu, Xiao">Xiao Hu</name><address><addrLine>xiaohu@uiuc.edu</addrLine></address></docAuthor><titlePart type="affil">University of Illinois at Urbana-Champaign</titlePart><docAuthor><name reg="Downie, J. Stephen">J. Stephen Downie</name><address><addrLine>jdownie@uiuc.edu</addrLine></address></docAuthor><titlePart type="affil">University of Illinois at Urbana-Champaign</titlePart><docAuthor><name reg="Ehmann, Andreas">Andreas Ehmann</name><address><addrLine>aehmann@uiuc.edu</addrLine></address></docAuthor><titlePart type="affil">University of Illinois at Urbana-Champaign</titlePart></front><body><div0><head>1. Introduction:</head><p>There exists a large number of critical writings regarding humanities objects
+                    such as reviews, forum posts, mailing lists and blogs. In many cases, readers do
+                    not necessarily know the authenticity and credibility of such writings. It is
+                    desirable to have a tool that is able to distinguish professional criticisms
+                    from lay comments, and furthermore, to measure the authenticity of criticisms on
+                    humanities objects. Such tools can have many applications ranging from mass mail
+                    filtering to customized criticism recommendation and summarization. In a
+                    preceding study we demonstrated that a simple machine learning model can be used
+                    to automatically differentiate <emph><emph rend="bold">editorial</emph></emph> critiques
+                    (i.e., those written by professional critics) from <emph><emph rend="bold">customer</emph></emph> critiques (i.e., those written by interested members of the
+                    general public) (Hu et al. 2006a). In this poster, we extend and build upon our
+                    earlier work to include a new class of cultural objects (i.e., United States
+                    Literature) and to uncover the set of influential features that contribute to
+                    making “editorial” and “customer” reviews distinct.</p><p>For the sake of comparison, we use the same dataset as in (Hu et al 2006a),
+                    namely reviews from amazon.com, the largest online retailer of various
+                    humanities materials including books and music. On amazon.com, many book and
+                    music objects have both editorial reviews and customer reviews. The former are
+                    written by editors in amazon.com, who can be seen as experts, while the latter
+                    are written by arbitrary users from the general public. Besides the two product
+                    categories analyzed in (Hu et al 2006a), British Classic Literature books and
+                    Classical music CDs, we add a third category, United States Classic Literature.
+                    The three categories are among the most relevant to the humanities, yet cover
+                    different media and cultures. To eliminate possible product bias, we downloaded
+                    both editorial and customer reviews of the same objects that were randomly
+                    selected through the Amazon Web Services open APIs<note n="1">aws.amazon.com</note>. The descriptive statistics are shown in Table 1. It is
+                    noteworthy that the length of the customer reviews is highly variable. Also,
+                    customer reviews on classical music have a smaller vocabulary than editorial
+                    reviews. </p><figure rend="ImageLink"><head/><p><xref to="DITTO" from="ROOT" targOrder="U">poster_178_hu_1.jpg</xref></p><figDesc>Table 1</figDesc></figure></div0><div0><head>2. Experimental Setup:</head><p>Hu (Hu et al 2006a) demonstrated that a binary text classifier based on a Naïve
+                    Bayesian model was able to classify editorial and customer reviews at accuracies
+                    of about 86%. Two sets of features were used in building the models. The first
+                    one is unigrams of all original tokens including content words, function words
+                    and punctuations, with the purpose of preserving all stylistic clues carried by
+                    the original writings. The second one is unigrams of all function words<note n="2"> The list of function words was edited by the Laboratory of Linguistic
+                        Cognition at Illinois Institute of Technology. It is available at <xptr to="http://shekel.jct.ac.il/~argamon/gender-style/function-words.txt" from="ROOT" targOrder="U"/></note> which can carry important stylistic fingerprints (Stamatatos et al.,
+                    2002, Argamon et al., 2003). We discovered interesting features unique to each
+                    type of criticism. For example, professional critiques tend to use numbers while
+                    customers tend to use terms referring to personal experiences. However, unigram
+                    features bear virtually no context information. Therefore in this poster, we
+                    deepen our understanding by analyzing features with broader context information:
+                    bigrams and trigrams of the aforementioned two sets of tokens (Banerjee
+                    &amp; Pedersen 2003). For easy comparison, the results of the classification
+                    experiments are presented in Table 2. It shows function words, though a small
+                    token set, can capture most of the differences of the two kinds of criticism.
+                    Comparing features with varying depths of context, we found bigram features
+                    consistently improve classification accuracies (to a level of 87.22% -- 89.25%)
+                    while trigram features do not achieve consistent improvement on classification
+                    accuracies. It is noteworthy that trigrams of function words are not as good as
+                    other feature sets. In fact, the genuine function word trigrams are too sparse
+                    in the datasets, so here we define a function word trigram is a sequence of 3
+                    function words that occur within a window of 5 tokens in the text.</p><figure rend="ImageLink"><head/><p><xref to="DITTO" from="ROOT" targOrder="U">poster_178_hu_2.jpg</xref></p><figDesc>Table 2</figDesc></figure><p>Upon a closer examination of the classification result on British Literature
+                    review set using trigrams of all tokens where the mean accuracy (72.80%)
+                    significantly worsened compared to its bigram and unigram counterparts, we found
+                    only 1.1% editorial reviews were wrongly classified as customer reviews but
+                    53.1% customer reviews were misclassified as editorial reviews. This means the
+                    model can identify features unique to customer reviews but cannot reliably
+                    identify those unique to editorial reviews. A possible reason for this
+                    phenomenon is the British Literature dataset is dominated by reviews of similar
+                    books. This is supported by the bigram and trigram feature analyses described in
+                    next section. A large portion of the top features in this dataset is related to
+                    Shakespeare.</p></div0><div0><head>3. Feature Analyses:</head><p>Knowing that editorial and customer reviews are separable is not sufficient in
+                    and of itself; rather, we must strive toward understanding what features make
+                    them distinct. The binary Naïve Bayesian text classifiers applied here can rank
+                    the terms according to their relative importance in the construction of the
+                    categorization model (Hu &amp; Downie 2006). Table 3 – 8 list the top 10
+                    features from each of the six feature sets in each review categories.</p><figure rend="ImageLink"><head/><p><xref to="DITTO" from="ROOT" targOrder="U">poster_178_hu_3.jpg</xref></p><figDesc>Table 3</figDesc></figure><figure rend="ImageLink"><head/><p><xref to="DITTO" from="ROOT" targOrder="U">poster_178_hu_4.jpg</xref></p><figDesc>Table 4</figDesc></figure><figure rend="ImageLink"><head/><p><xref to="DITTO" from="ROOT" targOrder="U">poster_178_hu_5.jpg</xref></p><figDesc>Table 5</figDesc></figure><figure rend="ImageLink"><head/><p><xref to="DITTO" from="ROOT" targOrder="U">poster_178_hu_6.jpg</xref></p><figDesc>Table 6</figDesc></figure><figure rend="ImageLink"><head/><p><xref to="DITTO" from="ROOT" targOrder="U">poster_178_hu_7.jpg</xref></p><figDesc>Table 7</figDesc></figure><figure rend="ImageLink"><head/><p><xref to="DITTO" from="ROOT" targOrder="U">poster_178_hu_8.jpg</xref></p><figDesc>Table 8</figDesc></figure></div0><div0><head>4. Discussion:</head><p>As we can see from the tables, there are features consistent in editorial reviews
+                    across the three types of humanities objects that distinguish editorial
+                    critiques from customer critiques: <list type="ordered"><item>Numbers, both ordinal and cardinal, e.g., “in the
+                            twentieth”, “than forty”, “hundredth”</item><item>Technical terms e.g., “songwriter”, “bassist”, “in D
+                            Major”</item><item>Author or artist names using diacritical characters:
+                            e.g., “Brontë”, “Bartók”, “Takács"</item><item>Authoritative resources, e.g., “Folger Shakespeare
+                            Library”, “CliffsNotes study guides”</item><item>Emphasis of the third person voice</item></list></p><p>Similarly, there are important features found in the customer reviews that
+                    contribute to their identity: <list type="ordered"><item>Terms referring to personal experience and the first
+                            person voice: e.g., “I found”, “I’m”, “I read”</item><item>Exclamation marks (“!”): from unigram to trigram, “!”
+                            consistently appear as top features.</item><item>Adverbs: e.g., “definitely”, “actually”, “possibly”</item><item>Contractions: e.g., “I’d”, “won’t”, “you’re”,
+                            “that’s”, “wouldn’t”,</item><item>Variations of artist names without diacritical
+                            characters: e.g., “Bartok”, “Takacs”</item><item>Quotations (“&amp;quot;” in XML documents) :
+                            e.g., “. quot; The ”, “, quot; is”</item><item>Colloquial phrases, e.g., “is like”, “is actually”,
+                            “have to say</item><item>Nonstandard words and marks: e.g., “_”, “cd”, “cds”</item></list></p><p>Most of the observed differences seem reasonable. Experts like to have more
+                    accurate descriptions by using numbers, citing authoritative resources, etc.
+                    While experts write in a more objective manner by using a third person voice,
+                    ordinary readers tend to connect humanities objects with their own personal
+                    experiences and prefer to express their emotions. Experts also use many
+                    technical terms while ordinary readers tend to use informal writing styles such
+                    as spoken language, contractions and nonstandard marks. Both experts and common
+                    readers refer to authors or artists, but very few readers bother using proper
+                    diacritical characters, instead opting to use basic Latin letters. It is
+                    interesting to see that common readers use more quotations, adverbs and
+                    punctuations than experts.</p></div0><div0><head>5. Conclusions and Future Work:</head><p>We extended our previous work on classifying editorial/professional reviews and
+                    customer reviews on humanities objects, and then examined the influential
+                    features in each of the review categories. Particularly, we examined two feature
+                    sets, “all tokens” and “function words only”, with context depths ranging from
+                    unigrams to trigrams. Results show that the two kinds of reviews are distinct.
+                    By using the NB feature ranking method, we found interesting and unique features
+                    associated with each type of review. Such features are important in enriching
+                    digital humanities repositories and facilitating criticism filtering and
+                    recommendation. The feature analyses also disclose new questions such as how
+                    criticism on literatures from various countries (e.g. British vs. U.S.) differs
+                    among one another. This will be part of our future work. We will also examine
+                    other critical writing resources such as mailing lists and forums for similar
+                    patterns between “expert” and “lay” contributors.</p></div0></body><back><div type="Bibliography"><head>Bibliography</head><listBibl><biblStruct><analytic><author><name reg="Argamon, Shlomo">Shlomo Argamon</name></author><author><name reg="Koppel, Moshe">Moshe Koppel</name></author><author><name reg="Fine, Jonathan">Jonathan Fine</name></author><author><name reg="Shimoni, Anat Rachel">Anat Rachel Shimoni</name></author><title level="a">Gender, Genre and Writing Style in Formal Written Texts</title></analytic><monogr><title level="j">Text</title><imprint><biblScope type="vol">23.3</biblScope><date value="2003">2003</date><biblScope type="pages">321–346</biblScope></imprint></monogr></biblStruct><biblStruct><analytic><author><name reg="Banerjee, Satanjeev">Santanjeev Banerjee</name></author><author><name reg="Pedersen, Ted">Ted Pedersen</name></author><title level="a">The Design, Implementation, and Use of the Ngram Statistic Package</title></analytic><monogr><title level="m">Proceedings of the Fourth International Conference on Intelligent Text Processing and Computational Linguistics, 
+                                Feb. 2003</title><imprint><pubPlace>Mexico City, Mexico</pubPlace><date value="2003">2003</date></imprint></monogr></biblStruct><biblStruct><analytic><author><name reg="Hu, Xiao">Xiao Hu</name></author><author><name reg="Downie, J. Stephen">J. Stephen Downie</name></author><author><name reg="Lee, Jin Ha">Jin Ha Lee</name></author><title level="a">Stylistic Analysis on Reviews of Humanities Objects</title></analytic><monogr><title level="u">Poster presented at the Chicago 
+                                Colloquium on Digital Humanities and Computer Science, Nov. 2006,
+                                Chicago, Illinois</title><imprint><date value="2006">2006a</date></imprint></monogr><note><xptr to="http://dhcs.uchicago.edu/abstracts/hu.pdf" from="ROOT" targOrder="U"/></note></biblStruct><biblStruct><analytic><author><name reg="Hu, Xiao">Xiao Hu</name></author><author><name reg="Downie, J. Stephen">J. Stephen Downie</name></author><author><name reg="Jones, M. Cameron">M. Cameron Jones</name></author><title level="a">Criticism Mining: Text Mining Experiments on Book, Movie and 
+                                Music Reviews</title></analytic><monogr><title level="m">Digital Humanities 2006 Conference Abstracts</title><imprint><pubPlace>Paris</pubPlace><publisher>CATI, Université Paris-Sorbonne</publisher><date value="2006">2006b</date><biblScope type="pages">88-93</biblScope></imprint></monogr></biblStruct><biblStruct><analytic><author><name reg="Hu, Xiao">Xiao Hu</name></author><author><name reg="Downie, J. Stephen">J. Stephen Downie</name></author><title level="a">Stylistics in Customer Reviews of Cultural Objects,</title></analytic><monogr><title level="m">Proceedings of the 2nd 
+                                SIGIR 2006 Stylistics for Text Retrieval Workshop, Aug. 2006,
+                                Seattle, Washington</title><imprint><date value="2006">2006</date></imprint></monogr></biblStruct><biblStruct><analytic><author><name reg="Stamatatos, E.">E. Stamatatos</name></author><author><name reg="Fakotakis, N.">N. Fakotakis</name></author><author><name reg="Kokkinakis, G.">G. Kokkinakis</name></author><title level="a">Text Genre Detection Using Common Word 
+                                Frequencies</title></analytic><monogr><title level="m">Proceedings of 18th International Conference on
+                                Computational Linguistics, July 2000, 
+                                Saarbrücken, Germany</title><imprint><date value="2000">2000</date></imprint></monogr></biblStruct></listBibl></div></back></text></TEI.2>

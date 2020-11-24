@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI.2 id="paper_179_furuta"><teiHeader><fileDesc><titleStmt><title>Viewing Texts: An Art-Centered Representation of Picasso’s Writings</title><author><name reg="Audenaert, Neal">Neal Audenaert</name></author><author><name reg="Karadkar, Unmil">Unmil Karadkar</name></author><author><name reg="Mallen, Enrique">Enrique Mallen</name></author><author><name reg="Furuta, Richard">Richard Furuta</name></author><author><name reg="Tonner, Sarah">Sarah Tonner</name></author><respStmt><resp>Marked up by</resp><name reg="Field, Hana S.">Hana S. Field</name></respStmt></titleStmt><publicationStmt><p>Marked up to be included in the Digital Humanities 2007 Conference Abstracts
+                    book.</p></publicationStmt><sourceDesc><p>None</p></sourceDesc></fileDesc><profileDesc><textClass><classCode>paper</classCode><keywords><list type="simple"><item>Picasso</item><item>texts and images</item><item>information presentation</item></list></keywords></textClass></profileDesc><revisionDesc><list><item>HSF: Created from Richard Furuta's doc<date value="2007-04">April
+                    2007</date></item><item>SAS: Revised <date value="2007-05">May 2007</date></item></list></revisionDesc></teiHeader><text><front><docTitle n="Viewing Texts: An Art-Centered Representation of Picasso’s Writings"><titlePart type="main">Viewing Texts: An Art-Centered Representation of Picasso’s
+                    Writings</titlePart></docTitle><docAuthor><name reg="Audenaert, Neal">Neal Audenaert</name><address><addrLine>neal@csdl.tamu.edul</addrLine></address></docAuthor><titlePart type="affil">Texas A&amp;M University</titlePart><docAuthor><name reg="Karadkar, Unmil">Unmil Karadkar</name><address><addrLine>unmil@csdi.tamu.edu</addrLine></address></docAuthor><titlePart type="affil">Texas A&amp;M University</titlePart><docAuthor><name reg="Mallen, Enrique">Enrique Mallen</name><address><addrLine>e-mallen@tamu.edu</addrLine></address></docAuthor><titlePart type="affil">Texas A&amp;M University</titlePart><docAuthor><name reg="Furuta, Richard">Richard Furuta</name><address><addrLine>furuta@cs.tamu.edu</addrLine></address></docAuthor><titlePart type="affil">Texas A&amp;M University</titlePart><docAuthor><name reg="Tonner, Sarah">Sarah Tonner</name><address><addrLine>sarahtonner1@yahoo.com</addrLine></address></docAuthor><titlePart type="affil">Texas A&amp;M University</titlePart></front><body><div0><head>Introduction</head><p>The <emph>Picasso Project</emph> is a web-based, dynamic <emph>catalogue raisonné</emph>currently containing digital images and descriptive metadata for more
+                    than 11,000 of Picasso’s works (Mallen, 2006). The catalogue includes commentary
+                    for many artworks, along with notes detailing sales of the item, exhibitions in
+                    which it has been displayed, and scholarly literature in which it has been
+                    cited. In addition to these works, the catalogue also provides extensive
+                    biographical information including nearly 7,500 entries. The biography is linked
+                    to artworks, photographs of key people, maps of the various places Picasso lived
+                    and worked, and related documents (for example, Picasso’s birth certificate).
+                    Tools are provided to support side-by-side comparisons of two artworks and to
+                    build custom subcollections from which an illustrated, color catalogue can be
+                    automatically generated for printing. Within this context, we have become
+                    increasingly interested in exploring Picasso’s writings which have, until
+                    recently, been largely neglected in favor of his more well known work in
+                    painting, sculpture, and collage.</p><p>Picasso, first and foremost an artist, wrote texts that are strikingly visual,
+                    both in terms of the design of the texts themselves, as well as the decorative
+                    elements that adorn the pages on which these texts are found. These intensely
+                    visual writings present his editor with significant challenges—challenges that
+                    exemplify the TEI consortium's guidelines for when TEI should not be used
+                    (Lavagnino, 2006). As Lavagnino points out, "to make the [TEI] edition work as
+                    intended it is generally necessary to interpret features and not merely
+                    reproduce their appearance." Picasso's writings do not readily yield to a single
+                    fixed interpretation that can be understood by an editor and transcribed in some
+                    definitive form. Indeed, their interest stems, in part, from their complex and
+                    indeterminate nature. Furthermore, transcription involves the selection of
+                    relevant features of a work and production of a digital (text plus encoding)
+                    description of them. In cases where this digital description has little value
+                    for analysis, alternative forms of presentation must be pursued. The two
+                    examples of this cited by Lavagnino, "works intended as mixtures of words and
+                    images, and very complex draft manuscripts in which the sequence of text or
+                    inscription is difficult to make out," are both characteristic of Picasso's
+                    writings.</p><p>Despite these difficulties, there have been a number of efforts to produce
+                    transcriptions of Picasso’s writings as published books (Bernadac, 1998;
+                    Michaël, 2005). This approach gives primacy to the textual content of these
+                    works, at the expense of losing almost all of the visual elements. To remedy
+                    this, most editions include facsimile reproductions of illustrative samples of
+                    his writings alongside the transcriptions. While this is helpful in conveying a
+                    sense of the original context of these works, it remains inadequate for many
+                    purposes. Beyond limitations of scale (it is only feasible to include a limited
+                    number of facsimiles), this approach treats the literal textual elements of
+                    Picasso’s writings as 
+                    <figure rend="ImageLink"><head/><p><xref to="DITTO" from="ROOT" targOrder="U">paper_179_furuta_1.jpg</xref></p><figDesc>Figure 1: Two of Picasso's intensely visual texts.</figDesc></figure> primary, bringing in the images of the original, visually constructed
+                    pages in order to illustrate and elaborate. This approach to remediate the
+                    writings of Picasso divorces Picasso the writer from Picasso the artist,
+                    limiting the productive interchange of ideas that might result from a blending
+                    of literary and art history-based approaches.</p><p>While Picasso’s writings provide a compelling example of the limitations of a
+                    purely textual approach to representing manuscripts and other documents, this
+                    problem is not unique. Within the digital textual studies community there is an
+                    increasing recognition of the need to pair robust text encoding with access to
+                    images of the original source material (Dicks, 1997; McGann, 2001). Over the
+                    past decade, a number of projects have focused on presenting documents as images
+                    while providing additional support via transcriptions (McGann, 1996; Viscomi,
+                    2002). Others have supplemented textually-oriented systems by providing access
+                    to digitized images of the original documents in a variety of formats (Furuta,
+                    2001; Robinson, 1996). Image based representations of documents have placed
+                    particular strain on hierarchical methods for representing and encoding the
+                    features of a text and alternative formal models have been proposed (Dekhtyar,
+                    2006; Renear, Durand, and Mylonas, 1993).</p></div0><div0><head>Approach</head><p>Within the <emph>Picasso Project</emph>, we have encountered the
+                    problem of developing digital representations of texts from a different
+                    perspective than that found in either print based transcriptions or in digital
+                    textual projects—namely, we have treated Picasso’s writings, first as works of
+                    art, and secondarily as art that contains text. By conceiving of and
+                    contextualizing the writings of Picasso in a form common to traditional
+                    approaches to art (that is, the <emph>catalogue raisonné</emph>)
+                    we are able to reap immediate benefits for understanding these texts in ways not
+                    readily supported by the tools grounded in a textual approach to these works.
+                    This approach to visualizing Picasso's texts places them squarely within the
+                    context of the other works that he was painting and thinking about at the same
+                    time. This helps inform our understanding of both the artworks that Picasso
+                    produced as well as his writings. For example, Figure 2 shows a typical
+                    thumbnail view of the last fifteen items in the catalogue for the year 1935. In
+                    the poem in the center of the last line (OPP.35:004), Picasso refers to a small
+                    girl. In the context of drawings made by Picasso around the same time we see
+                    connections with Picasso’s daughter, Maya, at three and three and a half months
+                    old (OPP.35:031 and OPP.35:032), followed by Marie-Thérèse, Maya’s mother
+                    (OPP.35:034). Similarly, using the comparison tool to compare a text dated 28
+                    November 1935 with a painting made earlier that year highlights possible
+                    connections between verbal imagery of the text and the visual imagery of the
+                    painting. References in the text to "tongue of fire," "stabbing," and "the eye
+                    of the bull" take on new meanings when seen in this context.</p><p>In addition to visually contextualizing writings in relationship to Picasso’s
+                    other works, the digital <emph>catalogue raisonné</emph> (unlike
+                    a corresponding print version) allows us to make accessible images of Picasso’s
+                    writings suitable for reading and analysis. Closer examinations of the text
+                    enables scholars to consider multiple states of a text, to see annotations,
+                    deletions, and additions to a text, to explore Picasso’s use of color to provide
+                    structural divisions or graphical bars rather than traditional punctuation to
+                    divide conceptual segments of the text. These tasks, which are difficult or
+                    impossible to perform</p><figure rend="ImageLink"><head/><p><xref to="DITTO" from="ROOT" targOrder="U">paper_179_furuta_2.jpg</xref></p><figDesc>Figure 2: la petite fille" with drawings of Maya and
+                    Marie-Thérèse</figDesc></figure><figure rend="ImageLink"><head/><p><xref to="DITTO" from="ROOT" targOrder="U">paper_179_furuta_3.jpg</xref></p><figDesc>Figure 3: Courses de taureaux and "lengua de fuego"</figDesc></figure><p>using transcriptions alone, are encouraged by the online presentation. To further
+                    enable access to the textual component of these works, we are initially adding
+                    transcriptions of these texts to the biographical section of the catalogue.
+                    Since the online catalogue presents the biographical text in parallel with the
+                    artworks, this technique permits easy cross-referencing between the
+                    transcriptions and images while we investigate more sophisticated means for
+                    encoding and presenting the content of these writings.</p></div0><div0><head>Implications and Future Work</head><p>Framing our approach to Picasso’s writings in terms of artworks that contain
+                    text, encourages us to look for text in artworks in general. Like many other
+                    artists of his day, Picasso began incorporating words into his artworks in a
+                    variety of ways and forms, notably in the newspaper clippings pasted into his
+                        <emph>papiers-collés</emph>. These works reinforce our
+                    conviction that we need develop tools for working with text in art grounded to
+                    the needs of the artistic disciplines rather than those of the traditional
+                    textual studies community.</p><p>Picasso's unique works offer fertile ground for exploring the techniques and
+                    tools that can be applied to visually constructed texts but much work is
+                    needed—both in terms of understanding the needs of the scholars and other
+                    readers interested in Picasso’s writings as well as formulating new models for
+                    representing and working with these texts in a digital environment. We are
+                    currently investigating the potential for techniques based in spatial hypertext
+                    research for interpreting and presenting these texts. In spatial hypertext,
+                    Figure 3: Courses de taureaux and "lengua de fuego" nodes of information that
+                    are connected by visual elements (for example, text style, 2-D position, color)
+                    rather than by explicit links (Shipman, 1999). Our current efforts are focused
+                    in understanding how the texts might be sub-divided into their constituent parts
+                    and manipulated in a 2-D space in ways that enhance understanding. We are also
+                    looking at how formal relationships between these parts can be incrementally
+                    added as an expression of an editor/reader's evolving understanding. In addition
+                    to purely image based approaches, we are interested in studying methods of
+                    encoding the textual content of Picasso's works to support content based
+                    retrieval, enable automatic processing, and facilitate reading.</p><div1><head>Summary</head><p>By translating a traditional print-based approach for working with a large
+                        corpus of artworks, the <emph>catalogue raisonné</emph>, into
+                        a digital format, we increase the level of support provided for three
+                        scholarly primitives (Unsworth, 2000): comparing (either two works side by
+                        side, or many works in a thumbnail view), sampling select artworks from the
+                        collection as a whole, and representing the artworks not merely as
+                        thumbnails, but also with higher resolution images. With these enhancements,
+                        the digital <emph>catalogue raisonné</emph>, though not its
+                        printed counter-part, provides a natural medium for presenting the writings
+                        of Picasso. In this context, his writings are presented against the backdrop
+                        of other artworks while enabling the textual elements of these artworks to
+                        be read and carefully studied as texts. In addition to the immediate
+                        benefits that this approach brings in terms of accessing Picasso’s writings,
+                        it also offers a new paradigm for working with these texts that suggests
+                        several promising directions for further work.</p></div1></div0></body><back><div type="Bibliography"><head>Bibliography</head><listBibl><biblStruct><monogr><title level="m">Picasso: Collected Writings</title><editor role="editor"><name reg="Bernadac, M. L.">M. L. Bernadac</name></editor><imprint><pubPlace>London</pubPlace><publisher>Aurum Press Ltd</publisher><date value="1989">1989</date></imprint></monogr></biblStruct><biblStruct><analytic><author><name reg="Dekhtyar, Alex, et al.">Alex Dekhtyar et al</name></author><title level="a">Support for XML Markup of Image-based Electronic
+                                Editions</title></analytic><monogr><title level="j">International Journal on Digital Libraries</title><imprint><biblScope type="vol">6.1</biblScope><date value="2006">2006</date><biblScope type="pages">55-69</biblScope></imprint></monogr></biblStruct><biblStruct><analytic><author><name reg="Dicks, R. S.">R. S. Dicks</name></author><title level="a">Third Commentary on “What is Text Really?”</title></analytic><monogr><title level="j">SIGDOC Asterisk J. Computer Documentation </title><imprint><biblScope type="vol">21.3</biblScope><date value="1997">1997</date><biblScope type="pages">36-39</biblScope></imprint></monogr></biblStruct><biblStruct><analytic><author><name reg="Furuta, Richard, et al.">Richard Furuta, et al.</name></author><title level="a">The Cervantes Project: Steps to a Customizable and
+                                Interlinked On-Line Electronic Variorum Edition Supporting
+                                Scholarship</title></analytic><monogr><title level="s">ECDL 2001, Lecture Notes In Computer Science</title><editor role="role"><name reg="Constantopoulos, P.">P. Constantopoulos</name></editor><editor role="role"><name reg="Sølvberg I.">I. Sølvberg </name></editor><imprint><biblScope type="vol">2163</biblScope><pubPlace>Heidelberg</pubPlace><publisher>Springer-Verlag</publisher><date value="2006">2006</date></imprint></monogr></biblStruct><biblStruct><analytic><author><name reg="Lavagnino, John">John Lavagnino</name></author><title level="a">When Not to Use TEI</title></analytic><monogr><title level="m">Electronic Textual Editing</title><editor role="editor"><name reg="Burnard, Lou">Lou Burnard</name></editor><editor role="editor"><name reg="O'Brien O'Keeffe, Katherine">Katherine O'Brien O'Keeffe</name></editor><editor role="editor"><name reg="Unsworth, Johhn">John Unsworth</name></editor><imprint><pubPlace>New York</pubPlace><publisher>Modern Language Association of America</publisher><date value="2006">2006</date><biblScope type="pages">334-338</biblScope></imprint></monogr><note><xptr crdate="2006-11-10" to="http://www.tei-c.org/Activities/ETE/Preview/lavagnino.xml" from="ROOT" targOrder="U"/></note></biblStruct><biblStruct><monogr><title level="m" type="WWW document"><name reg="The Picasso Project">The Picasso Project</name></title><editor role="editor"><name reg="Mallen, Enrique">Enrique Mallen</name></editor><imprint><pubPlace>Texas A&amp;M University</pubPlace></imprint></monogr><note><xptr crdate="2006-11-06" to="http://picasso.tamu.edu/ " from="ROOT" targOrder="U"/></note></biblStruct><biblStruct><analytic><author><name reg="McGann, Jerome">Jerome McGann</name></author><title level="a">The Rosetti Archive and Image-Based Electronic
+                            Editing</title></analytic><monogr><title level="m">The Literary Text in the Digital Age</title><editor role="editor"><name reg="Finneran, Richard J.">Richard J. Finneran</name></editor><imprint><pubPlace>Ann Arbor</pubPlace><publisher>University of Michigan Press</publisher><date value="1996">1996</date></imprint></monogr></biblStruct><biblStruct><analytic><author><name reg="McGann, Jerome">Jerome McGann</name></author><title level="a">Rethinking Textuality</title></analytic><monogr><title level="m">Radiant Textuality</title><imprint><pubPlace>New York</pubPlace><publisher>Palgrave-Macmillian</publisher><date value="2001">2001</date></imprint></monogr><note><xptr crdate="11-6-2006" to="http://www.iath.virginia.edu/~jjm2f/old/jj2000aweb.html " from="ROOT" targOrder="U"/></note></biblStruct><biblStruct><monogr><title level="m">Picasso: Poèmes</title><editor role="editor"><name reg="Michaël, A.">A. Michaël</name></editor><imprint><pubPlace>Paris</pubPlace><publisher>Le Cherche Midi</publisher><date value="2005">2005</date></imprint></monogr></biblStruct><biblStruct><monogr><author><name reg="Renear, Allen">Allen Renear</name></author><author><name reg="Durand, David">David Durand</name></author><author><name reg="Mylonas, Elli">Elli Mylonas</name></author><title level="m" type="WWW document">
+                                Refining Our Notion of What Text Really Is: The Problem of
+                                    Overlapping Hierarchies
+                            </title><imprint/></monogr><note><xptr crdate="2006-11-01" to="http://www.stg.brown.edu/resources/stg/monographs/ohco.html " from="ROOT" targOrder="U"/></note></biblStruct><biblStruct><analytic><author><name reg="Robinson, P. M. W.">P. M. W. Robinson</name></author><title level="a">Is There a Text in These Variants'</title></analytic><monogr><title level="m">The Literary Text in the Digital Age</title><editor role="editor"><name reg="Finneran, Richard J.">Richard J. Finneran.</name></editor><imprint><pubPlace>Ann Arbor</pubPlace><publisher>University of Michigan Press</publisher><date value="1996">1996</date></imprint></monogr></biblStruct><biblStruct><analytic><author><name reg="Shipman, F. M.">F. M. Shipman</name></author><author><name reg="Marshall, C. C.">C. C. Marshall</name></author><title level="a">Spatial Hypertext: An Alternative to Navigational and
+                                Semantic Links</title></analytic><monogr><title level="j">ACM Computing Surveys </title><imprint><biblScope type="vol">31.4</biblScope><date value="1999">1999</date></imprint></monogr><note><xptr crdate="" to="http://doi.acm.org/10.1145/345966.346001" from="ROOT" targOrder="U"/></note></biblStruct><biblStruct><analytic><author><name reg="Unsworth, John">John Unsworth</name></author><title level="a">Scholarly Primitives: What Methods Do Humanities
+                                Researchers Have in Common, and How Might Our Tools Reflect
+                            This?</title></analytic><monogr><title level="u">Paper presented at Humanities Computing: Formal
+                                Methods, Experimental Practice, London, May 13, 2000</title><imprint><date value="2003">2003</date></imprint></monogr><note><xptr crdate="11-6-2006" to="http://www.iath.virginia.edu/~jmu2m/Kings.5-00/primitives.html " from="ROOT" targOrder="U"/></note></biblStruct><biblStruct><analytic><author><name reg="Viscomi, J.">J. Viscomi</name></author><title level="a">Digital Facsimiles: Reading the William Blake
+                            Archive</title></analytic><monogr><title level="j">Image-based Humanities Computing</title><edition>Special Issue of<title level="j"> Computers and the
+                                Humanities</title></edition><editor role="editor"><name reg="Finneran, Richard J.">Richard J. Finneran.</name></editor><imprint><biblScope type="vol">36.1</biblScope><date value="2002">2002</date><biblScope type="pages">27-48</biblScope></imprint></monogr></biblStruct></listBibl></div></back></text></TEI.2>

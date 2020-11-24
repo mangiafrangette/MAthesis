@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI.2 id="poster_186_poster"><teiHeader><fileDesc><titleStmt><title>Extracting Stylistic Distances from Texts for Forensic Linguistics Purposes</title><author><name reg="Frantzi, Katerina T.">Katerina T. Frantzi</name></author><respStmt><resp>Marked up by</resp><name reg="Field, Hana S.">Hana S. Field</name></respStmt></titleStmt><publicationStmt><p>Marked up to be included in the Digital Humanities 2007 Conference Abstracts
+                    book.</p></publicationStmt><sourceDesc><p>None</p></sourceDesc></fileDesc><profileDesc><textClass><classCode>poster</classCode><keywords><list><item>forensic linguistics</item><item>corpus linguistics</item><item>author identification</item></list></keywords></textClass></profileDesc><revisionDesc><list><item>HSF: Created from Katerina T. Frantzi's doc<date value="2007-03"> March
+                    2007</date></item><item>SAS: Revised <date value="2007-05"> May 2007</date></item></list></revisionDesc></teiHeader><text><front><docTitle n="Extracting Stylistic Distances from Texts for Forensic Linguistics                 Purposes"><titlePart type="main">Extracting Stylistic Distances from Texts for Forensic
+                    Linguistics Purposes</titlePart></docTitle><docAuthor><name reg="Frantzi, Katerina T.">Katerina T. Frantzi</name><address><addrLine>frantzi@rhodes.aegean.gr</addrLine></address></docAuthor><titlePart>Department of Mediterranean Studies<lb/>University of the Aegean </titlePart></front><body><div0><p>The paper proposes a method for the automatic processing of forensic texts for
+                    the extraction of similarities and dissimilarities to be used for authorship
+                    identification purposes. Forensic Linguistics expresses the application of
+                    linguistics to the analysis of forensic language in written or oral form, the
+                    study of the language of the law, the study of legal interpretation and
+                    translation, the alleviation of disadvantage produced by language in legal
+                    processes, the provision of forensic linguistic evidence and of linguistic
+                    expertise in issues of legal drafting and interpretation (Conley &amp;
+                    O’Barr, 1998; Shy 1998; Cotterill, 2002; McMenamin &amp; Dongdoo 2002;
+                    Semino &amp; Culpeper, 2002; Gibbons, 2003). Our forensic texts belong to a
+                    Greek terrorist organization, “17 November” (Kassimeris, 1997; Παπαχελάς
+                    &amp; Τέλλογλου, 2002; Frantzi, 2004). 17N started its action in 1975, while
+                    the summer/autumn of 2002, all (or most) of the members were arrested. The case
+                    is currently in court for the second time. 84 of the proclamations, that used to
+                    follow a 17N attack, have been characterized as genuine (Κάκτος, 2002). Their
+                    authorship is an open issue. The final aim of this project is to map each of the
+                    17N proclamations to its possible author (Frantzi &amp; Ananiadou, 2006). In
+                    this work we propose a way to characterise an organization’s text, i.e.
+                    proclamation, pleading, replication, by values on its stylistic characteristics.
+                    The values are used for extracting similarities and dissimilarities among texts.</p><p>We consider the following stylistics features: the average sentence and word
+                    length, the number of different nouns, proper nouns, adjectives, active voice
+                    verbs, passive voice verbs, adverbs, the number of future tense references, the
+                    use of conjunctions, preposition, pronouns, particles, determiners, articles,
+                    question words, punctuation, content words. For each pair of possibly owned by
+                    the same author writings, we create a matrix which we call
+                    <emph>distance-matrix</emph> (Table 1). Each cell of the matrix contains a
+                    number that corresponds to a stylistic feature distance between the two
+                    writings.</p><figure rend="ImageLink"><head/><p><xref to="DITTO" from="ROOT" targOrder="U">poster_186_frantzi_1.jpg</xref></p><figDesc/></figure><p>In order to compute the <emph>distance-matrix</emph> for a pair of writings, we
+                    need to assign a value to each cell that corresponds to a particular stylistic
+                    feature. This value gives the difference (distance) between the two writings
+                    regarding the specific feature. Then the distance between the two writings is
+                    evaluated by the average value of all the <emph>feature-distances</emph> in the
+                        <emph>distance-matrix</emph>. A <emph>feature-distance</emph> is assigned to
+                    a cell and is calculated by the average of all phenomena distances for that
+                    feature. The phenomena distances for a feature are calculated by their
+                    normalized frequencies of occurrence in the two writings. The algorithm for the
+                    processing of the <emph>feature-distances</emph> is the following:</p><figure rend="ImageLink"><head/><p><xref to="DITTO" from="ROOT" targOrder="U">poster_186_frantzi_2.jpg</xref></p><figDesc/></figure><p>Each author is characterized by his/her pleadings and replications. If we could
+                    match a proclamation to a pleading (and replication) then we could possibly
+                    match a proclamation to the corresponding author. We need to compare all
+                    pleadings (and replications) to the proclamations, to find the smallest
+                    “distance” in terms of their feature values. The smallest distance assigns a
+                    proclamation to a pleading, i.e. an author.</p><p>In this work we apply the <emph>distance-table</emph> method for comparisons
+                    between the pleadings and replications: we already know the authors of the
+                    pleadings and proclamations, so we can present how the
+                    <emph>distance-table</emph> works. We apply the method to three writings: one
+                    pleading and two replications. Let us consider Yotopoulos’s (the person accused
+                    to be the main leader and one of the main authors of the proclamations) pleading
+                    of 18321 words, and replication of 2036 words, and Koufontinas’s (also accused
+                    to be a leading member) replication of 326 words. We will evaluate the
+                        <emph>distance-matrix</emph> for the pairs of writings (Yotopoulos’s
+                    pleading, Yotopoulos’s replication) and (Yotopoulos’s pleading, Koufontinas’s
+                    replication). We will show the evaluation for one of the cells of the two
+                        <emph>distance-matrixes</emph>, the <emph>distance-matrix</emph>[1,1], i.e.
+                    the cell that keeps the distance regarding the stylistic feature of the
+                    particles’ use, while the evaluation is analogous for the rest of the
+                        cells.<note n="1">We cannot present the evaluation of all cells here due to
+                        space restrictions.</note> There are five particles in Greek: “να”, “για”,
+                    “θα”, “ας” and “μα”. Table 2 gives the frequencies of occurrence and normalized
+                    frequencies (to 10,000 words) for the five particles found in Yotopoulos’s
+                    pleading (Yp) and replication (Yr) and those in Koufodinas’s replication (Kr).</p><figure rend="ImageLink"><head/><p><xref to="DITTO" from="ROOT" targOrder="U">poster_186_frantzi_3.jpg</xref></p><figDesc/></figure><p>The <emph>distance-matrix</emph>[1,1] cell for the (Yotopoulos’s pleading,
+                    Yotopoulos’s replication) <emph>distance-matrix</emph> holds the distance
+                    regarding the use of particles. We evaluate the distance on the use of each of
+                    the five particle between the two writings and we assign to the
+                        <emph>distance-matrix</emph>1,1] cell the average of all the particles’
+                    distances. Then we do the same for the <emph>distance-matrix</emph>1,1] cell of
+                    the (Yotopoulos’s pleading, Koufodinas’s replication)
+                    <emph>distance-matrix</emph>. The particles’ distances for the particle “να” for
+                    the two pair of writings are calculated according the above-given algorithm
+                    as:The <emph>distance-matrix</emph>[1,1] cell for the (Yotopoulos’s pleading,
+                    Yotopoulos’s replication) <emph>distance-matrix</emph> holds the distance
+                    regarding the use of particles. We evaluate the distance on the use of each of
+                    the five particle between the two writings and we assign to the
+                        <emph>distance-matrix</emph>[1,1] cell the average of all the particles’
+                    distances. Then we do the same for the <emph>distance-matrix</emph>[1,1] cell of
+                    the (Yotopoulos’s pleading, Koufodinas’s replication)
+                    <emph>distance-matrix</emph>. The particles’ distances for the particle “να” for
+                    the two pair of writings are calculated according the above-given algorithm as:</p><l>Particles_distance(Yp,Yr)[να]=|245.619 - 294.695| / (245.619 + 294.695)=0.091</l><l>Particles_distance(Yp,Κr)[να]=|245.619 - 122.699| / (245.619 + 122.699)=0.334</l><p>Table 3 gives the results of the calculations for all the particles’ distances
+                    for those pair of writings. We get the average for each of the columns of Table
+                    3, i.e. 0.289 and 0.409. These averages will be assigned to
+                        <emph>distance-matrixes.</emph>[1,1] cells for the two pairs of writings
+                        <emph>distance-matrixes.</emph></p><figure rend="ImageLink"><head/><p><xref to="DITTO" from="ROOT" targOrder="U">poster_186_frantzi_4.jpg</xref></p><figDesc/></figure><p>Table 4 gives all the <emph>feature-distances</emph> for the (Yotopoulos’s
+                    pleading, Yotopoulos’s replication) <emph>distance-matrix</emph>while Table 5
+                    for the (Yotopoulos’s pleading, Koufodinas’s replication) one. </p><figure rend="ImageLink"><head/><p><xref to="DITTO" from="ROOT" targOrder="U">poster_186_frantzi_5.jpg</xref></p><figDesc/></figure><figure rend="ImageLink"><head/><p><xref to="DITTO" from="ROOT" targOrder="U">poster_186_frantzi_6.jpg</xref></p><figDesc/></figure><p>When matrixes are filled up, we can evaluate the total distances for the pairs of
+                    writings as the average of all the cell values:</p><l><emph>matrix-distance</emph>(Yp, Kr)= 0.5593</l><l><emph>matrix-distance</emph> (Yp,Yr)= 0.3382</l><p>As a result Yotopoulos’s pleading is linked to Yotopoulos’s replication (smaller
+                    distance), which actually means that these two writings have been found to be
+                    closer as for their language style than the writings of Yotopoulos’s pleading
+                    and Koufodinas’s replication.</p><p>Future work involves: <list type="unordered"><item>Augmentation of the <emph>distance-matrix</emph> with more stylistics
+                            features, e.g. the use of collocations (Frantzi &amp; Ananiadou,
+                            2007),</item><item>use of weights for the stylistics features,</item><item>application of the method for characterizing the proclamations for the
+                            provision of authorship evidence,</item><item>comparisons among the proclamations for their grouping according to
+                            their linguistic profile.</item></list></p></div0></body><back><div type="Bibliography"><head>Bibliography</head><listBibl><biblStruct><monogr><author><name reg="Conley, John M.">John M. Conley</name></author><author><name reg="O'Barr, William M..">William M. O'Barry</name></author><title level="m">Just Words – Law, Language, and Power</title><imprint><pubPlace>Chicago and London</pubPlace><publisher>The University of Chicago Press</publisher><date value="1998">1998</date></imprint></monogr></biblStruct><biblStruct><monogr><title level="m">Language in the Legal Process</title><editor role="editor"><name reg="Cotterill, Janet">Janet Cotterill</name></editor><imprint><publisher>MacMillan</publisher><date value="2002">2002</date></imprint></monogr></biblStruct><biblStruct><monogr><author><name reg="Gibbons, John">John Gibbons</name></author><title level="m">Forensic Linguistics: An Introduction to Language in
+                                the Justice System</title><title level="s">Language in Society 32</title><imprint><publisher>Blackwell Publishing Ltd</publisher><date value="2003">2003</date></imprint></monogr></biblStruct><biblStruct><analytic><author><name reg="Frantzi, Katerina T.">Katerina T. Frantzi</name></author><author><name reg="Ananiadou, Sophia">Sophia Ananiadou</name></author><title level="a">Automatic Authorship Identification</title></analytic><monogr><title level="m">Proceedings of the International Association of
+                                Forensic Linguistics 2nd European Conference on Forensic Linguistics
+                                / Language &amp; the Law</title><imprint><pubPlace>Barcelona, Spain</pubPlace><biblScope type="pages">14-16</biblScope></imprint></monogr></biblStruct><biblStruct><analytic><author><name reg="Frantzi, Katerina T.">Katerina T. Frantzi</name></author><author><name reg="Ananiadou, Sophia">Sophia Ananiadou</name></author><title level="a">C-value for Authorship Identification</title></analytic><monogr><title level="m">Proceedings of the International Association of
+                                Forensic Linguistics 8th Biennial International Conference on
+                                Forensic Linguistics / Language &amp; the Law – IAFL 8, Seattle,
+                                Washington, July 12-15 2007</title><imprint><date value="forthcoming">forthcoming</date></imprint></monogr></biblStruct><biblStruct><analytic><author><name reg="Frantzi, Katerina T.">Katerina T. Frantzi</name></author><title level="a">Corpus Linguistics: What can it do with
+                            Terrorism?</title></analytic><monogr><title level="j">International Journal of Humanities</title><imprint><biblScope type="vol">2.2</biblScope><date value="2004">2004</date><biblScope type="pages">1603-1608</biblScope></imprint></monogr></biblStruct><biblStruct><monogr><author><name reg="Κάκτος">Κάκτος</name></author><title level="m">17N – Οι προκηρύξεις</title><imprint><pubPlace>Αθήνα</pubPlace><publisher>Κάκτος</publisher><date value="2002">2002</date></imprint></monogr></biblStruct><biblStruct><monogr><author><name reg="Kassimeris, George">George Kassimeris</name></author><title level="m">Europe’s Last Red Terrorists: The Revolutionary
+                                Organization 17 November</title><imprint><publisher>C. Hurst &amp; Co. Ltd</publisher><date value="1997">1997</date></imprint></monogr></biblStruct><biblStruct><monogr><title level="m">Forensic Linguistics : Advances in Forensic Stylistics</title><editor role="editor"><name reg="McMenamin, Gerald R.">Gerald R. McMenamin</name></editor><editor role="editor"><name reg="Dongdoo, Choi">Choi Dongdoo</name></editor><imprint><publisher>CRC Press</publisher><date value="2002">2002</date></imprint></monogr></biblStruct><biblStruct><monogr><author><name reg="Παπαχελάς, Α.">A. Παπαχελάς</name></author><author><name reg="Τέλλογλου, Τ.">T. Τέλλογλου</name></author><title level="a">Φάκελος 17 Νοέμβρη</title><imprint><pubPlace>Αθήνα, Ελλάδα</pubPlace><publisher>Εστία</publisher><date value="2002">2002</date></imprint></monogr></biblStruct><biblStruct><monogr><editor role="editor"><name reg="Semino, Elena">Elena Semino</name></editor><editor role="editor"><name reg="Culpeper, Jonathan">Jonathan Culpeper</name></editor><title level="m">Cognitive Stylistics: Language and Cognition in Text
+                                Analysis</title><title level="s">Linguistic Approaches to Literature 1</title><imprint><publisher>John Benjamins Publishing Company</publisher><date value="2002">2002</date></imprint></monogr></biblStruct><biblStruct><monogr><author><name reg="Shuy, Roger W.&gt;">Roger W. Shuy</name></author><title level="m">The Language of Confession, Interrogation and Deception </title><title level="s">Empirical Linguistics Series</title><imprint><publisher>Sage Publications</publisher><date value="1998">1998</date></imprint></monogr></biblStruct></listBibl></div></back></text></TEI.2>

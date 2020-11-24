@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI.2 id="poster_184_votincevenglish"><teiHeader><fileDesc><titleStmt><title>The Use of TEI and OAI in Manuscript, an Informational-Analytical System</title><author><name reg="Votincev, Pavel A.">Pavel A. Votincev</name></author><respStmt><resp>Marked up by</resp><name reg="Hawkins, Kevin S.">Kevin S. Hawkins</name><lb/><name reg="Schmidt, Sara A.">Sara A. Schmidt</name></respStmt></titleStmt><publicationStmt><p>Marked up to be included in the Digital Humanities 2007 Conference Abstracts
+                    book.</p></publicationStmt><sourceDesc><p>None</p></sourceDesc></fileDesc><profileDesc><textClass><classCode>poster</classCode><keywords><list type="simple"><item>XML-TEI</item><item>OAI</item><item>database</item><item>information systems</item></list></keywords></textClass></profileDesc><revisionDesc><list type="simple"><item>SAS: Created from Kevin S. Hawkins' translation of Pavel A. Votincev's doc
+                        <date value="2007-03">March 2007</date></item><item>SAS: Additional information added to header and some revisions made to
+                    encoding <date value="2007-04">April 2007</date></item></list></revisionDesc></teiHeader><text><front><docTitle n="The Use of TEI and OAI in Manuscript, an Informational-Analytical System"><titlePart type="main">The Use of TEI and OAI in Manuscript, an
+                    Informational-Analytical System</titlePart></docTitle><docAuthor><name reg="Votincev, Pavel A.">Pavel A. Votincev</name><address><addrLine>pvl@udsu.ru</addrLine></address></docAuthor><titlePart type="affil">Udmurtia State University, Izhevsk, Russia</titlePart></front><body><div0><p>Currently there are at least a few hundred ancient Slavic manuscripts of the 11th
+                    to 14th centuries, which, despite their significant scholarly, cultural, and
+                    historic value, are not accessible to a wide range of researchers of various
+                    specialties and to all who are interested in Russian history and culture. The
+                    reason is simple: a large portion of the manuscripts are still unpublished, and
+                    if they are published, these editions are rareties, accessible only in major
+                    research libraries, which are often located far from scholars' places of work.
+                    Even publishing a manuscript often requires constant consultation of the
+                    original, especially if studying its paleography, appearance, or other similar
+                    questions. Furthermore, existing print editions unfortunately usually lack
+                    reference material necessary for getting acquainted with a text and studying it,
+                    and the manuscripts themselves are published with poor quality. The solution to
+                    the inaccessibility of ancient and medieval manuscripts for research, teaching,
+                    and popular use is the creation of electronic publications capable not only of
+                    replacing print editions but also of exceeding their capabilities: (a) by
+                    providing continual access to digital copies of manuscripts and reference
+                    material on the Internet; (b) by providing the user with the capability of
+                    retrieving data from a multifunctional interface not only on the level of meta-
+                    and analytical data but also on the level of grammatical, semantic, and thematic
+                    characteristics of texts; and (c) by allowing collaborative work on a
+                    manuscript.</p></div0><div0><p>One example of an information system designed to solve some of the above problems
+                    is Manuscript, an informational-analytical system.</p><p>Manuscript is oriented toward the entry, storage, automatic manipulation,
+                    research, and publication of ancient texts having an identical
+                    graphico-orthographic appearance and structure to the original. Currently
+                    Manuscript contains a few dozen unique ancient and medieval Slavic texts.</p><p>Currently Manuscript consists of a few multifunctional modules that interact with
+                    a single database containing a hierarchically structured data: <list type="unordered"><item>a specialized editor,</item><item>a query and retrieval module,</item><item>a module for electronic publishing,</item><item>a module of linguistic dictionaries, and</item><item>a module for loading texts and reference material for print
+                            publication.</item></list></p><p>The main task right now of the team behind Manuscript is to present the
+                    accumulated information for analysis and study by a wide range of researchers.
+                    The main path: to create specialized modules intended for muti-function,
+                    user-friendly, and straightforward manipulation of the data. The second task is
+                    to create the means to exchange meta-, analytical, and textual data between
+                    teams of researchers creating analogous collections of material, with the goal
+                    of presenting users with the ability to use manuscript- and text-specific tools
+                    for working with ancient documents, created by various teams.</p><p>It's essential to use standard formats and protocols to maximize access to the
+                    various tools for aggregating information in Manuscript.</p></div0><div0><p>The Open Archive Initiative (OAI) and Text Encoding Initiative (TEI) were chosen
+                    as the basis for solving this task: <list type="unordered"><item>OAI – for indexing the existing texts and their fragments;</item><item>TEI – for presenting meta- and analytical information, and likewise
+                            the texts themselves.</item></list></p><div1><p>Manuscript is currently working to become an OAI data provider. A new module
+                        is being developed to present the metadata in Dublin Core format. This
+                        module will allow the gathering of metadata not only from the texts
+                        themselves but also from their fragments (various elements of the
+                        hierarchy).</p><p>Users can retrieve metadata or full text from Manuscript in TEI XML format
+                        using a unique identifier.</p></div1><div1><p>The TEI Guidelines are well-established around the world, so it was entirely
+                        logical for the developers of Manuscript to use it for the metadata and full
+                        text of the manuscripts.</p><p>Manuscript uses a network model of data for describing the objects (entities)
+                        of manuscripts and the relations between them, so the main problem with
+                        using TEI was XML's requirement of a strict hierarchy. One consequence of
+                        this is that it's impossible to receive all information about a text in
+                        Manuscript in one document.</p></div1><div1><p>Two modules are being developed to integrate the technology of Manuscript
+                        with the TEI.</p><p>The module for storage and manipulation of meta- and analytical data is
+                        intended for working with archeographical, textological, and other findings
+                        from the manuscripts, texts, and fragments themselves, and also for
+                        formulating queries and retrieving information using these findings.
+                        Searching in this module is possible only using meta- and analytical data.</p><p>A special module processes user queries for retrieving certain elements of
+                        text in TEI format from Manuscript. The main capabilities of the module are
+                        the following: <list type="unordered"><item>retrieving of any element of text, stored in Manuscript as an
+                                independent unit, in TEI format;</item><item>setting priorities in the creation of a TEI document: This option
+                                is necessary in order to get around the single-hierarchy limitation
+                                of XML. The user can rank the priority of various structures within
+                                a document;</item><item>receiving meta- and analytical information with or without full
+                                text;</item><item>The queried document is created at the moment of query, so any
+                                change will be available immediately.</item></list></p></div1></div0><div0><p>Manuscript and its tools are being continually developed.</p><p>During the presentation, Manuscript, including the above modules and
+                    technologies, will be demonstrated.</p><p/><p>Translated from the Russian by Kevin S. Hawkins.</p></div0></body></text></TEI.2><TEI.2 id="poster_184_votincevrussian"><teiHeader><fileDesc><titleStmt><title>Применение технологий TEI и OAI в информационно-аналитической системе
+                    «Манускрипт»</title><author><name reg="Вотинцев Павел Анатольевич">Вотинцев Павел Анатольевич</name></author><respStmt><resp>Marked up by</resp><name reg="Hawkins, Kevin S.">Kevin S. Hawkins</name><lb/><name reg="Schmidt, Sara A.">Sara A. Schmidt</name></respStmt></titleStmt><publicationStmt><p>Marked up to be included in the Digital Humanities 2007 Conference Abstracts
+                    book.</p></publicationStmt><sourceDesc><p>None</p></sourceDesc></fileDesc><profileDesc><textClass><classCode>poster</classCode><keywords><list type="simple"><item>XML-TEI</item><item>OAI</item><item>database</item><item>information systems</item></list></keywords></textClass></profileDesc><revisionDesc><list type="simple"><item>SAS: Created from Pavel Votincev's doc<date value="2007-03">March 2007</date></item><item>SAS: Additional information added to header and some revisions made to
+                    encoding <date value="2007-04">April 2007</date></item></list></revisionDesc></teiHeader><text><front><docTitle n="Применение технологий TEI и OAI в информационно-аналитической системе «Манускрипт»"><titlePart type="main">Применение технологий TEI и OAI в информационно-аналитической
+                    системе «Манускрипт»</titlePart></docTitle><docAuthor><name reg="Вотинцев Павел Анатольевич">Вотинцев Павел Анатольевич</name><address><addrLine>pvl@udsu.ru</addrLine></address></docAuthor><titlePart type="affil">Удмуртский государственный университет, Ижевск,
+            Россия</titlePart></front><body><div0><p>В настоящее время по крайней мере несколько сотен древнейших славянских
+                    письменных памятников XI-XIV вв., имеющих большую научную, культурную,
+                    историческую ценность, недоступны широкому кругу исследователей разных
+                    специальностей и всем, кто интересуется русской историей и культурой. Причины
+                    просты: большая часть рукописей еще не издана, а если и есть издание, то оно
+                    является раритетом и работа с ним возможна только в крупных центральных
+                    библиотеках. Работа же непосредственно с рукописью часто осложняется
+                    удаленностью места работу исследователя от места хранения памятника. Но даже
+                    издание памятника в ряде случаев требует постоянного обращения к оригиналу, если
+                    дело касается его палеографии, оформления и других аналогичных вопросов. Кроме
+                    того, в существующих печатных изданиях, к сожалению, часто отсутствуют
+                    необходимые для знакомства с текстом и для его исследования справочные
+                    материалы, а сами рукописи изданы со значительным упрощением оригинала. Выходом
+                    из существующей ситуации недоступности письменных памятников древности и
+                    средневековья для научной, учебной и популяризаторской деятельности является
+                    создание электронных публикаций, которые способны не только заменить печатные
+                    издания, но и во многом перевести работу с ними на функционально иной уровень:
+                    (а) предоставить постоянный доступ к электронным копиям рукописей и к справочным
+                    материалом через интернет, (b) предоставить пользователю возможность выборки
+                    данных на основе многофункциональных справочных интерфейсов как на уровне мета-
+                    и аналитических данных, так и на уровне собственно грамматических,
+                    семантических, тематических характеристик текстов, (c) дать возможность
+                    коллективной работы над изучением памятника.</p></div0><div0><p>Одним из примеров информационной системы, предназначенной для решения части
+                    указанных проблем, является информационно-аналитическая система «Манускрипт»
+                    (ИАС «Манускрипт»)</p><p>ИАС «Манускрипт» ориентирована на ввод, хранение, автоматизированную обработку,
+                    исследование и издание древних текстов, имеющих идентичные оригиналу
+                    графико-орфографический вид и структуру. В настоящее время ИАС «Манускрипт» уже
+                    содержит несколько десятков уникальных древних и средневековых славянских
+                    текстов.</p><p>В настоящее время ИАС «Манускрипт» состоит из нескольких разнофункциональных
+                    модулей, взаимодействующих с единой базой данных, в которой хранятся
+                    иерархически структурированные данные: <list type="unordered"><item>специализированный редактор,</item><item>модуль запросов и выборок,</item><item>модуль электронных изданий,</item><item>модуль лингвистических словарей,</item><item>модуль выгрузки текстов и справочных материалов для печатных
+                            публикаций.</item></list></p><p>Основной задачей коллектива авторов и разработчиков на данном этапе развития
+                    системы является предоставление накопленной информации для анализа и изучения
+                    широкому кругу исследователей. Основной путь – создание специализированных
+                    модулей, предназначенных для и функционально разнообразного, дружественного и
+                    понятного манипулирования данными. Второй задачей является создание средств
+                    обмена мета-, аналитическими и текстовыми данными между коллективами, которые
+                    создают аналогичные по материалу коллекции, с целью предоставления пользователям
+                    возможностей использовать для анализа рукописей и текстов инструментальные
+                    средства работы с древними документами, созданные различными коллективами.</p><p>Для обеспечения максимально широкого доступа различными инструментальными
+                    средствами к накопленной в ИАС информации необходимо использовать
+                    стандартизованные форматы и средства обмена данными.</p></div0><div0><p>В качестве основы для решения этой задачи решено использовать технологии Open
+                    Archive Initiative (OAI) и Text Encoding Initiative (TEI): <list type="unordered"><item>OAI – для индексации существующих текстов и их фрагментов;</item><item>TEI – для предоставления мета и аналитической информации, а также
+                            самих текстов.</item></list></p><div1><p>В настоящее время ведутся работы по включению ИАС «Манускрипт» в состав
+                        открытого сообщества OAI в качестве Data Provider. Для предоставления
+                        метаинформации в формате Dublin Core разрабатывается отдельный модуль
+                        системы. Данный модуль позволит собирать метаинформацию не только по самим
+                        текстам, но и по их фрагментам (различные элементы иерархий).</p><p>Найденный уникальный идентификатор средствами интерфейса OAI возможно
+                        использовать для получения метаинформации или полного текста из системы
+                        «Манускрипт» в формате XML-TEI.</p></div1><div1><p>Сегодня рекомендации консорциума TEI являются общепризнанными в мире. Поэтому
+                        вполне логичным стало решение разработчиков ИАС «Манускрипт» использовать
+                        именно этот инструмент для описания метаинформации и полных документов для
+                        обмена данными.</p><p>ИАС «Манускрипт» использует сетевую модель данных для описания объектов
+                        (единиц) рукописей и связей между ними, поэтому при создании записей в
+                        формате XML-TEI основной проблемой стали структурные ограничения,
+                        накладываемые стандартами XML: структура XML документа, которым является
+                        документ в формате XML-TEI, должна быть строго иерархической. Следствием
+                        этого, например, является невозможность получить всю информацию о тексте
+                        (имеющуюся в системе «Манускрипт») в виде одного документа.</p></div1><div1><p>Для реализации интегрирования технологий ИАС «Манускрипт» с технологиями TEI
+                        разрабатываются два модуля.</p><p>Модуль хранения и обработки мета- и аналитических данных предназначен для
+                        работы с археографическими, текстологическими и иными сведениями о самих
+                        рукописях, текстах и их фрагментах, а также для формирования запросов и
+                        выборок на основе этих сведений. Средствами этого модуля поиск возможен
+                        только по мета- и аналитическим данным.</p><p>Запросы пользователей на получение определенных элементов текста в формате
+                        XML-TEI из системы «Манускрипт» обрабатывает специальный модуль. Основные
+                        возможности данного модуля: <list type="unordered"><item>получение любого элемента текста в формате XML-TEI, описанного в
+                                ИАС «Манускрипт» в качестве самостоятельной единицы;</item><item>расстановка приоритетов по созданию документов XML-TEI. Данная
+                                опция необходима ввиду накладываемых ограничений на структуру XML
+                                документа. Пользователь сам может выбирать, какая структура для него
+                                является приоритетной, а какая – менее приоритетной. Иначе говоря,
+                                при создании документа максимально отображается приоритетная
+                                структура, внутри нее отображается следующая по приоритету и т.д.;</item><item>получение мета и аналитической информации как вместе с полным
+                                текстом, так и отдельно;</item><item>запрашиваемый документ собирается в момент запроса, поэтому любое
+                                изменение в тексте тут же будет использовано.</item></list></p></div1></div0><div0><p>ИАС «Манускрипт» постоянно развивается, и вместе с ней модернизируются указанные
+                    инструменты.</p><p>Во время доклада будет продемонстрирована работа ИАС «Манускрипт», описанных
+                    модулей и технологий.</p></div0></body></text></TEI.2>
