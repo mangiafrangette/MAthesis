@@ -1,947 +1,947 @@
 [
-    {
-        "url": "https://umanisticadigitale.unibo.it/article/view/7250",
-        "identifier": {
-            "string_id": "10.6092/issn.2532-8816/7250",
-            "id_scheme": "DOI"
-        },
-        "abstract": "We present DanteSources, a focused Digital Library that aims at building innovative services supporting scholars in creating, evolving and consulting a digital encyclopaedia of Dante Alighieri’s works. DanteSources is endowed with Web services that allow extracting and visualizing data about Dante Alighieri’s primary sources, i.e. other authors’ works which Dante referred to in his own works. The heart of the digital library is a knowledge base built on an ontology that was developed in the RDF/S language, representing Dante’s works and the knowledge about them, extracted from some authoritative commentaries. Finally, on top of this graph, we developed DanteSources, which allows users to extract and display the knowledge stored in the knowledge base in the form of charts and tables. The methodology and the tool we developed are easily reusable to represent the knowledge about primary sources of other authors of the Italian or the international literature.",
-        "article_title": "DanteSources: a Digital Library for Studying Dante Alighieri’s Primary Sources",
-        "authors": [
-            {
-                "given": "Valentina",
-                "family": "Bartalesi",
-                "affiliation": [
-                    {
-                        "original_name": "Istituto di Scienza e Tecnologie dell’Informazione “Alessandro Faedo”, Consiglio Nazionale delle Ricerche (CNR)",
-                        "normalized_name": "National Research Council",
-                        "country": "Italy",
-                        "identifiers": {
-                            "ror": "https://ror.org/04zaypm56",
-                            "GRID": "grid.5326.2"
-                        }
-                    }
-                ]
-            },
-            {
-                "given": "Carlo",
-                "family": "Meghini",
-                "affiliation": [
-                    {
-                        "original_name": "Istituto di Scienza e Tecnologie dell’Informazione “Alessandro Faedo”, Consiglio Nazionale delle Ricerche (CNR)",
-                        "normalized_name": "National Research Council",
-                        "country": "Italy",
-                        "identifiers": {
-                            "ror": "https://ror.org/04zaypm56",
-                            "GRID": "grid.5326.2"
-                        }
-                    }
-                ]
-            },
-            {
-                "given": "Daniele",
-                "family": "Metilli",
-                "affiliation": [
-                    {
-                        "original_name": "Istituto di Scienza e Tecnologie dell’Informazione “Alessandro Faedo”, Consiglio Nazionale delle Ricerche (CNR)",
-                        "normalized_name": "National Research Council",
-                        "country": "Italy",
-                        "identifiers": {
-                            "ror": "https://ror.org/04zaypm56",
-                            "GRID": "grid.5326.2"
-                        }
-                    }
-                ]
-            },
-            {
-                "given": "Paola",
-                "family": "Andriani",
-                "affiliation": [
-                    {
-                        "original_name": "Dipartimento di Filologia, Letteratura e Linguistica, Università di Pisa",
-                        "normalized_name": "University of Pisa",
-                        "country": "Italy",
-                        "identifiers": {
-                            "ror": "https://ror.org/03ad39j10",
-                            "GRID": "grid.5395.a"
-                        }
-                    }
-                ]
-            },
-            {
-                "given": "Mirko",
-                "family": "Tavoni",
-                "affiliation": [
-                    {
-                        "original_name": "Dipartimento di Filologia, Letteratura e Linguistica, Università di Pisa",
-                        "normalized_name": "University of Pisa",
-                        "country": "Italy",
-                        "identifiers": {
-                            "ror": "https://ror.org/03ad39j10",
-                            "GRID": "grid.5395.a"
-                        }
-                    }
-                ]
-            }
-        ],
-        "publisher": "Bologna: AlmaDL",
-        "date": "2017-10-13",
-        "keywords": null,
-        "journal_title": "Umanistica Digitale",
-        "volume": null,
-        "issue": null,
-        "ISSN": [
-            {
-                "value": "2532-8816",
-                "type": "electronic"
-            }
-        ]
-    },
-    {
-        "url": "https://umanisticadigitale.unibo.it/article/view/7230",
-        "identifier": {
-            "string_id": "10.6092/issn.2532-8816/7230",
-            "id_scheme": "DOI"
-        },
-        "abstract": "Oral archives collected by professional scholars and ordinary people interested in dialects and ethnology are a precious resource for various fields of study (from linguistics to anthropology, from economy to history and politics, etc.) and may contain documents that could be labeled as products of intangible cultural heritage, thus deserving safeguard. Grammo-foni. Le soffitte della voce (Gra.fo), a two-year project jointly conducted by Scuola Normale Superiore and the University of Siena (Regione Toscana PAR FAS 2007-13), discovered, digitized, cataloged and disseminated via a web portal nearly 3000 hours of speech recordings stemming from around 30 oral archives collected by scholars and amateurs in the Tuscan territory. Having preserved such a significant collection of oral documents (e.g. oral biographies, ethno-texts, linguistic questionnaires, oral literature), Gra.fo constitutes a precious repository of Tuscan memory and provides a first-hand documentation of Tuscan language varieties from the early 1960s to the present day [7], [9]. In this article, the Gra.fo project will be described in all its stages, which involve: fostering the level of awareness on the importance of preserving this valuable cultural heritage product; contacting the oral recordings’ owners and co-signing legal agreements for the temporary borrowing of the recordings and accompanying materials; collecting and digitizing the recordings and the accompanying materials; cataloging (with the self-developed software Audiografo) and partially transcribing the oral documents; implementing the downloadable online catalog , an open-ended repository of oral texts which have hitherto been known to a very limited number of potential users. Some problematic issues related to the treatment of oral archives will also be discussed, together with the proposed solutions. These concern the carrier / document relation, the treatment of confidential information, and the cataloging of documents within other documents.",
-        "article_title": "The Gra.fo project: from collection to dissemination",
-        "authors": [
-            {
-                "given": "Silvia",
-                "family": "Calamai",
-                "affiliation": [
-                    {
-                        "original_name": "Dipartimento di Scienze della Formazione, Scienze Umane e della Comunicazione Interculturale, Università di Siena",
-                        "normalized_name": null,
-                        "country": null,
-                        "identifiers": {
-                            "ror": null,
-                            "GRID": null
-                        }
-                    }
-                ]
-            },
-            {
-                "given": "Francesca",
-                "family": "Biliotti",
-                "affiliation": [
-                    {
-                        "original_name": "Dipartimento di Scienze della Formazione, Scienze Umane e della Comunicazione Interculturale, Università di Siena",
-                        "normalized_name": null,
-                        "country": null,
-                        "identifiers": {
-                            "ror": null,
-                            "GRID": null
-                        }
-                    }
-                ]
-            }
-        ],
-        "publisher": "Bologna: AlmaDL",
-        "date": "2017-10-13",
-        "keywords": null,
-        "journal_title": "Umanistica Digitale",
-        "volume": null,
-        "issue": null,
-        "ISSN": [
-            {
-                "value": "2532-8816",
-                "type": "electronic"
-            }
-        ]
-    },
-    {
-        "url": "https://umanisticadigitale.unibo.it/article/view/7196",
-        "identifier": {
-            "string_id": "10.6092/issn.2532-8816/7196",
-            "id_scheme": "DOI"
-        },
-        "abstract": "Impact and sustainability are the leitmotiv of current Research Policies in Europe. Science is required to show its positive socio-economic influence on Society, and Humanities Research is not exempted from this requirement. Within this context, Digital Humanities might enhance the external impact of Humanities Research, more specifically the commitment to public engagement, by means of strategic opportunities offered by digital techniques. To pursue this objective, intermediation seems necessary in order ‘to switch Humanities on’ within Society. Actually, virtual objects might be as speechless as real ones, i.e. books in a library without users. The value of a Digital approach lies in its usability, in the additional tools and helps it supplies, and in stimulating users in becoming active agents of their reading. As in a good storytelling the attention to what can provoke reactions is as important as the action narrated itself, digital objects need hints to stimulate and activate users’ curiosity, questions and original solutions. The paper concentrates on three elements: the requirement for external impact of research activities; the need for intermediary agents and a concrete experimentation of intermediation. Digital Humanities are analysed in the context of the Humanities and beyond the academic realm, in their targeting diverse recipients, external to the scientific community. The test conducted so far is addressed to the specific stakeholder community of teachers, called to act as intermediaries between Humanities Research outcomes and the Scholastic Community.",
-        "article_title": "Digital Humanities and Society: an impact requiring ‘intermediation’",
-        "authors": [
-            {
-                "given": "Carla",
-                "family": "Basili",
-                "affiliation": [
-                    {
-                        "original_name": "Istituto IRCrES, Consiglio Nazionale delle Ricerche",
-                        "normalized_name": "National Research Council",
-                        "country": "Italy",
-                        "identifiers": {
-                            "ror": "https://ror.org/04zaypm56",
-                            "GRID": "grid.5326.2"
-                        }
-                    }
-                ]
-            },
-            {
-                "given": "Grazia",
-                "family": "Biorci",
-                "affiliation": [
-                    {
-                        "original_name": "Istituto IRCrES, Consiglio Nazionale delle Ricerche",
-                        "normalized_name": "National Research Council",
-                        "country": "Italy",
-                        "identifiers": {
-                            "ror": "https://ror.org/04zaypm56",
-                            "GRID": "grid.5326.2"
-                        }
-                    }
-                ]
-            },
-            {
-                "given": "Antonella",
-                "family": "Emina",
-                "affiliation": [
-                    {
-                        "original_name": "Istituto IRCrES, Consiglio Nazionale delle Ricerche",
-                        "normalized_name": "National Research Council",
-                        "country": "Italy",
-                        "identifiers": {
-                            "ror": "https://ror.org/04zaypm56",
-                            "GRID": "grid.5326.2"
-                        }
-                    }
-                ]
-            }
-        ],
-        "publisher": "Bologna: AlmaDL",
-        "date": "2017-10-13",
-        "keywords": null,
-        "journal_title": "Umanistica Digitale",
-        "volume": null,
-        "issue": null,
-        "ISSN": [
-            {
-                "value": "2532-8816",
-                "type": "electronic"
-            }
-        ]
-    },
-    {
-        "url": "https://umanisticadigitale.unibo.it/article/view/9063",
-        "identifier": {
-            "string_id": "10.6092/issn.2532-8816/9063",
-            "id_scheme": "DOI"
-        },
-        "abstract": "This paper pursues the analysis, modelling and representation of the relationships between the different entities concerned by genetic criticism (documents and publications), in the context of a scholarly digital edition. Our cases study are taken from the project \"Gustave Roud, Œuvres complètes\", whose principal aim is to edit the complete works of the Swiss author Gustave Roud (1897-1976). Roud's writing process is rooted in his diary: a first note, for instance taken during a walk in the countryside, can be typed or copied together with other notes in a dedicated notebook, and then inserted in a journal article, which will be itself modified and assembled with others to form a poetic collection. This mechanism of rhapsodic montage is used at various stages of the writing processes, allowing for multiple assemblages of the same materials, for new texts to be produced from existing ones and for the same diary note to appear in multiple texts. In this article, we present an ontology for modelling the genetic relationships between the documents. The available data-model for genetic criticism are firstly discussed: they concentrate on a single document or on the textual variation between them, but no formal model for their relationships is available. Existing visualizations of those relationships are then taken into account. The ontology that we propose to fill this void is detailed and its compatibility with widespread conceptual models, such as FRBRoo and CIDOC CRM, is discussed. Two case studies are presented to test the ontology. In the article we consider the application of our model to other corpora and we conclude with suggestions for the improvement of this work.",
-        "article_title": "Modeling genetic networks. Gustave Roud's œuvre, from diary to poetry collections",
-        "authors": [
-            {
-                "given": "Alessio",
-                "family": "Christen",
-                "affiliation": [
-                    {
-                        "original_name": "Université de Lausanne",
-                        "normalized_name": "University of Lausanne",
-                        "country": "Switzerland",
-                        "identifiers": {
-                            "ror": "https://ror.org/019whta54",
-                            "GRID": "grid.9851.5"
-                        }
-                    }
-                ]
-            },
-            {
-                "given": "Elena",
-                "family": "Spadini",
-                "affiliation": [
-                    {
-                        "original_name": "Université de Lausanne",
-                        "normalized_name": "University of Lausanne",
-                        "country": "Switzerland",
-                        "identifiers": {
-                            "ror": "https://ror.org/019whta54",
-                            "GRID": "grid.9851.5"
-                        }
-                    }
-                ]
-            }
-        ],
-        "publisher": "Bologna: AlmaDL",
-        "date": "2019-12-18",
-        "keywords": null,
-        "journal_title": "Umanistica Digitale",
-        "volume": null,
-        "issue": null,
-        "ISSN": [
-            {
-                "value": "2532-8816",
-                "type": "electronic"
-            }
-        ]
-    },
-    {
-        "url": "https://umanisticadigitale.unibo.it/article/view/9162",
-        "identifier": {
-            "string_id": "10.6092/issn.2532-8816/9162",
-            "id_scheme": "DOI"
-        },
-        "abstract": "Within the “Museo Virtuale della Musica BellinInRete” project, a corpus of letters, written by the renowned composer Vincenzo Bellini (1801 - 1835) from Catania, will be encoded and made publicly available. This contribution aims at illustrating the part of the project regarding the implementation of the prototype for the metadata and text encoding, indexing and visualisation of Bellini’s correspondence. The encoding scheme has been defined according to the latest guidelines of the Text Encoding Initiative and it has been instantiated on a sample of letters. Contextually, a first environment has been implemented by customizing two open source tools: Edition Visualization Technology and Omega Scholarly platform. The main objective of the digital edition is to engage general public with the cultural heritage held by the Belliniano Civic Museum of Catania. This wide access to Bellini’s correspondence has been conceived preserving the scholarly transcriptions of the letters edited by Seminara within her most recent critical edition (Olschki, 2017). The digital edition of the corpus takes care of handling the correspondence metadata by means of the correspDesc TEI tagset. Finally, Bellini's letters will be accessible via the Web platform as well as integrated into a forthcoming interactive and multimedia tour hosted at the museum.",
-        "article_title": "Bellini’s Correspondence: a Digital Scholarly Edition for a Multimedia Museum",
-        "authors": [
-            {
-                "given": "Angelo Mario",
-                "family": "Del Grosso",
-                "affiliation": [
-                    {
-                        "original_name": "Istituto di Linguistica Computazionale - Consiglio Nazionale delle Ricerche",
-                        "normalized_name": "National Research Council",
-                        "country": "Italy",
-                        "identifiers": {
-                            "ror": "https://ror.org/04zaypm56",
-                            "GRID": "grid.5326.2"
-                        }
-                    }
-                ]
-            },
-            {
-                "given": "Erica",
-                "family": "Capizzi",
-                "affiliation": [
-                    {
-                        "original_name": "Cultore della materia in musicologia, Università di Catania",
-                        "normalized_name": "University of Catania",
-                        "country": "Italy",
-                        "identifiers": {
-                            "ror": "https://ror.org/03a64bh57",
-                            "GRID": "grid.8158.4"
-                        }
-                    }
-                ]
-            },
-            {
-                "given": "Salvatore",
-                "family": "Cristofaro",
-                "affiliation": [
-                    {
-                        "original_name": "Istituto di Scienze e Tecnologie della Cognizione - Consiglio Nazionale delle Ricerche",
-                        "normalized_name": "National Research Council",
-                        "country": "Italy",
-                        "identifiers": {
-                            "ror": "https://ror.org/04zaypm56",
-                            "GRID": "grid.5326.2"
-                        }
-                    }
-                ]
-            },
-            {
-                "given": "Maria Rosa",
-                "family": "De Luca",
-                "affiliation": [
-                    {
-                        "original_name": "Università di Catania",
-                        "normalized_name": "University of Catania",
-                        "country": "Italy",
-                        "identifiers": {
-                            "ror": "https://ror.org/03a64bh57",
-                            "GRID": "grid.8158.4"
-                        }
-                    }
-                ]
-            },
-            {
-                "given": "Emiliano",
-                "family": "Giovannetti",
-                "affiliation": [
-                    {
-                        "original_name": "Istituto di Linguistica Computazionale - Consiglio Nazionale delle Ricerche",
-                        "normalized_name": "National Research Council",
-                        "country": "Italy",
-                        "identifiers": {
-                            "ror": "https://ror.org/04zaypm56",
-                            "GRID": "grid.5326.2"
-                        }
-                    }
-                ]
-            },
-            {
-                "given": "Simone",
-                "family": "Marchi",
-                "affiliation": [
-                    {
-                        "original_name": "Istituto di Linguistica Computazionale - Consiglio Nazionale delle Ricerche",
-                        "normalized_name": "National Research Council",
-                        "country": "Italy",
-                        "identifiers": {
-                            "ror": "https://ror.org/04zaypm56",
-                            "GRID": "grid.5326.2"
-                        }
-                    }
-                ]
-            },
-            {
-                "given": "Graziella",
-                "family": "Seminara",
-                "affiliation": [
-                    {
-                        "original_name": "Università di Catania",
-                        "normalized_name": "University of Catania",
-                        "country": "Italy",
-                        "identifiers": {
-                            "ror": "https://ror.org/03a64bh57",
-                            "GRID": "grid.8158.4"
-                        }
-                    }
-                ]
-            },
-            {
-                "given": "Daria",
-                "family": "Spampinato",
-                "affiliation": [
-                    {
-                        "original_name": "Istituto di Scienze e Tecnologie della Cognizione - Consiglio Nazionale delle Ricerche",
-                        "normalized_name": "National Research Council",
-                        "country": "Italy",
-                        "identifiers": {
-                            "ror": "https://ror.org/04zaypm56",
-                            "GRID": "grid.5326.2"
-                        }
-                    }
-                ]
-            }
-        ],
-        "publisher": "Bologna: AlmaDL",
-        "date": "2019-12-18",
-        "keywords": null,
-        "journal_title": "Umanistica Digitale",
-        "volume": null,
-        "issue": null,
-        "ISSN": [
-            {
-                "value": "2532-8816",
-                "type": "electronic"
-            }
-        ]
-    },
-    {
-        "url": "https://umanisticadigitale.unibo.it/article/view/8585",
-        "identifier": {
-            "string_id": "10.6092/issn.2532-8816/8585",
-            "id_scheme": "DOI"
-        },
-        "abstract": "Data visualization is a powerful tool for digital scholarship yet not without its pitfalls. Based on the dissertation “Visualizing Gender Balance” comparing ten computer science conferences, several visualization techniques and tools undergo a critical review. The dataset underlying the visualizations contains data researchers encounter daily: bibliographic information. Analyzing larger sets of authors writing and publishing for conferences in computer science changes our perception of the gender (im)balance in this academic research area. But only a careful curation and visualization can truly reveal what goes on behind the scenes. Still the more complicated, detailed and nuanced the visualization, the harder it becomes for an untrained eye to interpret the patterns.",
-        "article_title": "Visualizing Gender Balance in Conferences",
-        "authors": [
-            {
-                "given": "Sytze",
-                "family": "Van Herck",
-                "affiliation": [
-                    {
-                        "original_name": "Center for Contemporary Digital History, University of Luxembourg",
-                        "normalized_name": "University of Luxembourg",
-                        "country": "Luxembourg",
-                        "identifiers": {
-                            "ror": "https://ror.org/036x5ad56",
-                            "GRID": "grid.16008.3f"
-                        }
-                    }
-                ]
-            }
-        ],
-        "publisher": "Bologna: AlmaDL",
-        "date": "2019-05-28",
-        "keywords": null,
-        "journal_title": "Umanistica Digitale",
-        "volume": null,
-        "issue": null,
-        "ISSN": [
-            {
-                "value": "2532-8816",
-                "type": "electronic"
-            }
-        ]
-    },
-    {
-        "url": "https://umanisticadigitale.unibo.it/article/view/8555",
-        "identifier": {
-            "string_id": "10.6092/issn.2532-8816/8555",
-            "id_scheme": "DOI"
-        },
-        "abstract": "In this contribution, two open problems in computational stemmatology are being considered. The first one is contamination, an umbrella term referring to all phenomena of admixture of text variants resulting from scribes considering more than one manuscript or even memory when copying a text. This problem is one of the biggest to date in stemmatology since it implies an entirely different formal approach to the reconstruction of the copy history of a tradition and in turn to the reconstruction of an urtext. (Maas 1937) famously stated that there is no remedy against contamination and (Pasquali and Pieraccioni 1952) coined the terms 'open' vs. 'closed' recensions to distinguish contaminated from uncontaminated. We present a graph theoretical model which formally accommodates traditions with any degree of contamination while maintaining a temporal ordering and give combinatorial numbers and formula on the implication for numbers of possible scenarios.",
-        "article_title": "An open problem in computational stemmatology -  a model for contamination",
-        "authors": [
-            {
-                "given": "Armin",
-                "family": "Hoenen",
-                "affiliation": [
-                    {
-                        "original_name": "Goethe University Frankfurt, Academy of Sciences Göttingen",
-                        "normalized_name": "Goethe University Frankfurt",
-                        "country": "Germany",
-                        "identifiers": {
-                            "ror": "https://ror.org/04cvxnb49",
-                            "GRID": "grid.7839.5"
-                        }
-                    }
-                ]
-            }
-        ],
-        "publisher": "Bologna: AlmaDL",
-        "date": "2019-05-28",
-        "keywords": null,
-        "journal_title": "Umanistica Digitale",
-        "volume": null,
-        "issue": null,
-        "ISSN": [
-            {
-                "value": "2532-8816",
-                "type": "electronic"
-            }
-        ]
-    },
-    {
-        "url": "https://umanisticadigitale.unibo.it/article/view/8575",
-        "identifier": {
-            "string_id": "10.6092/issn.2532-8816/8575",
-            "id_scheme": "DOI"
-        },
-        "abstract": "The Digital Humanities (DH), as Rob Kitchin reminds us, have always been interested in the building of infrastructure for research (Kitchin 2014, Loc. 222 of 6164). Imagining how emerging technologies could first be applied to Humanities problems and then scaled up to infrastructure for others to use has been one of the defining features of the field, by which we mean the field has evolved through projects that experimented with the application of new computing technologies to the difficult problems of the Humanities. Such experimentation began with Father Busaís Index Thomisticus (IT) project (Busa 1980; Winter 1999; Busa 1974-1980) which is why many genetic descriptions of the field returns to the Index. The Index Thomisticus (IT) project was not only the first, but also one of the largest Digital Humanities projects of all time, even though the outcome might, by today’s standards be considered “small”. The project lasted 34 years and at its peak (1962) involved a staff of as many as 70 persons all housed in a large ex-textile factory in Gallarate. For that time they were dealing with big data, we might even say really big data, and the infrastructure they had to build was unlike any ever built before. If we want to understand what is involved in scaling up to big infrastructure we should look back to the beginnings of the field and the emergence of big projects like the Index. This paper will therefore look at the Busa’s project as a way to think through big projects by first discussing the historiography of the IT project and DH projects in general. We will ask how can we study projects as bearers of ideas? What resources do we need/have? Then we will look at specific aspects of the project that shed light on DH projects in general. In particular we will look at how the project was communicated, conceived, and the data processing innovations. Finally, we will reflect on what lessons the IT project has for us at a time when big data has become an end in itself. What can we learn from Busa’s attention to data in the face of the temptations of automatically gathered data?",
-        "article_title": "The Index Thomisticus as a Big Data Project",
-        "authors": [
-            {
-                "given": "Geoffrey",
-                "family": "Rockwell",
-                "affiliation": [
-                    {
-                        "original_name": "University of Alberta, Canada",
-                        "normalized_name": "University of Alberta",
-                        "country": "Canada",
-                        "identifiers": {
-                            "ror": "https://ror.org/0160cpw27",
-                            "GRID": "grid.17089.37"
-                        }
-                    }
-                ]
-            },
-            {
-                "given": "Marco",
-                "family": "Passarotti",
-                "affiliation": [
-                    {
-                        "original_name": "Università Cattolica del Sacro Cuore, Milano",
-                        "normalized_name": "Catholic University of the Sacred Heart",
-                        "country": "Italy",
-                        "identifiers": {
-                            "ror": "https://ror.org/03h7r5v07",
-                            "GRID": "grid.8142.f"
-                        }
-                    }
-                ]
-            }
-        ],
-        "publisher": "Bologna: AlmaDL",
-        "date": "2019-05-28",
-        "keywords": null,
-        "journal_title": "Umanistica Digitale",
-        "volume": null,
-        "issue": null,
-        "ISSN": [
-            {
-                "value": "2532-8816",
-                "type": "electronic"
-            }
-        ]
-    },
-    {
-        "url": "https://umanisticadigitale.unibo.it/article/view/8511",
-        "identifier": {
-            "string_id": "10.6092/issn.2532-8816/8511",
-            "id_scheme": "DOI"
-        },
-        "abstract": "In this essay, we reflect on distant reading as one of the various takes on reading that currently prevail in literary scholarship as well as the teaching of literature. We focus on three concepts of reading which for various reasons can be considered inter-related: close reading, surface reading and distant reading. We offer a theoretical treatment of distant reading and demonstrate why it is closely related to the concept of machine reading (part of artificial intelligence). Throughout, we focus on the role of the individual reader in all this and argue that Digital Literary Studies have much to gain from paying closer attention to the so-called “natural” reading process of individual humans.",
-        "article_title": "Can Machines Read (Literature)?",
-        "authors": [
-            {
-                "given": "Mike",
-                "family": "Kestemont",
-                "affiliation": [
-                    {
-                        "original_name": null,
-                        "normalized_name": null,
-                        "country": null,
-                        "identifiers": {
-                            "ror": null,
-                            "GRID": null
-                        }
-                    }
-                ]
-            },
-            {
-                "given": "Luc",
-                "family": "Herman",
-                "affiliation": [
-                    {
-                        "original_name": null,
-                        "normalized_name": null,
-                        "country": null,
-                        "identifiers": {
-                            "ror": null,
-                            "GRID": null
-                        }
-                    }
-                ]
-            }
-        ],
-        "publisher": "Bologna: AlmaDL",
-        "date": "2019-05-28",
-        "keywords": null,
-        "journal_title": "Umanistica Digitale",
-        "volume": null,
-        "issue": null,
-        "ISSN": [
-            {
-                "value": "2532-8816",
-                "type": "electronic"
-            }
-        ]
-    },
-    {
-        "url": "https://umanisticadigitale.unibo.it/article/view/8174",
-        "identifier": {
-            "string_id": "10.6092/issn.2532-8816/8174",
-            "id_scheme": "DOI"
-        },
-        "abstract": "This article presents the rationale and the proposal of a preliminary architecture of a formal ontology of the Text Encoding Initiative markup language. The reasons to have a formal and machine-readable semantics for TEI are manifold. In the first place, it would have a number of pragmatic and technical benefits, like better support for semantic interoperability in text encoding practices, easier cross-corpora query processing, seamless integration with Linked Open Data ecosystem. In second place, it would give a formalized account of the quasi-formal notion of the TEI abstract model, fostering the consistency and soundness of the TEI model. Given the complexity of the TEI encoding schema, such an ontology must necessarily have a very complex architecture, and its thorough definition will be a time consuming intellectual activity: in a first stage, we propose to limit its scope to a well-defined subdomain of the TEI, and to build it adopting pre-existing meta-ontology like EARMARK. The final part of the article gives some preliminary details of this design",
-        "article_title": "A Formal Ontology for the Text Encoding Initiative",
-        "authors": [
-            {
-                "given": "Fabio",
-                "family": "Ciotti",
-                "affiliation": [
-                    {
-                        "original_name": "Università di Roma Tor Vergata",
-                        "normalized_name": null,
-                        "country": null,
-                        "identifiers": {
-                            "ror": null,
-                            "GRID": null
-                        }
-                    }
-                ]
-            }
-        ],
-        "publisher": "Bologna: AlmaDL",
-        "date": "2018-11-30",
-        "keywords": null,
-        "journal_title": "Umanistica Digitale",
-        "volume": null,
-        "issue": null,
-        "ISSN": [
-            {
-                "value": "2532-8816",
-                "type": "electronic"
-            }
-        ]
-    },
-    {
-        "url": "https://umanisticadigitale.unibo.it/article/view/8161",
-        "identifier": {
-            "string_id": "10.6092/issn.2532-8816/8161",
-            "id_scheme": "DOI"
-        },
-        "abstract": "This paper consists of the cataloguing, mapping, and the study of the street poetry of Rome, written on the walls of the Italian capital by a group of street artists who started their activity in 2012: The Poeti der Trullo (The poets of the Trullo). Through the use of digital humanities tools, the article describes the Poeti der Trullo and their district, developing some considerations on the themes and the language that characterise their poems. The aim is to understand the cultural and social roots of this street poetry phenomenon and its effects on contemporary society. This study, which combines tools such as WordSmith, TXM, RStudio, Q-GIS, CartoDB, and Gephi, explains how the Poeti der Trullo interpret and interact with society through an interdisciplinary approach. The activity of the Poeti der Trullo, which blends the tradition of Roman graffiti and Pasquinate with the urban culture of slam poetry, shows a poetic resistance towards the image of contemporary society. Through a simple gesture such as writing a poetic message on a wall, these young performers reveal the strength of a cultural tradition that discloses a new act of resistance which has a pragmatic effect on society. In only six years of existence, these poets have effectively created a movement able to generate effective change in their district.",
-        "article_title": "Rethinking Rome as an Anthology: The Poeti der Trullo’s Street Poetry",
-        "authors": [
-            {
-                "given": "Giovanni Pietro",
-                "family": "Vitali",
-                "affiliation": [
-                    {
-                        "original_name": "Université de Poitiers",
-                        "normalized_name": "University of Poitiers",
-                        "country": "France",
-                        "identifiers": {
-                            "ror": "https://ror.org/04xhy8q59",
-                            "GRID": "grid.11166.31"
-                        }
-                    }
-                ]
-            }
-        ],
-        "publisher": "Bologna: AlmaDL",
-        "date": "2018-11-30",
-        "keywords": null,
-        "journal_title": "Umanistica Digitale",
-        "volume": null,
-        "issue": null,
-        "ISSN": [
-            {
-                "value": "2532-8816",
-                "type": "electronic"
-            }
-        ]
-    },
-    {
-        "url": "https://umanisticadigitale.unibo.it/article/view/7305",
-        "identifier": {
-            "string_id": "10.6092/issn.2532-8816/7305",
-            "id_scheme": "DOI"
-        },
-        "abstract": "Conceptual Analysis (CA) is a matter-of-course practice for philosophers and other scholars in the humanities. Exploring one author’s corpus of texts in order to discover the various properties of a concept is a classic example of CA. Recently, a corpus-based computational framework for CA has been emerging in response to the methodological challenges brought about by the massive digitization of texts. In this framework, CA is approached by implementing a computer-assisted text analysis method, within which algorithms are used to support the various cognitive operations involved in CA. In this article, we focus on the retrieval of relevant text segments for analysis. However, this is a complex issue within a computational framework, since the relation between concept and natural language depends on several semantic phenomena, including synonymy, polysemy, and contextual modulation. The main contribution of this article is methodological because it explores the computational approach to CA. We present three algorithmic methods, which identify relevant text segments while taking into account various semantic phenomena. The results show the potential of computer-assisted CA, thereby highlighting the need to overcome the limitations of these first experiments. An additional contribution of this work takes the form of knowledge transfer from Artificial Intelligence to the Humanities.",
-        "article_title": "Conceptual Analysis in a computer-assisted framework: mind in Peirce",
-        "authors": [
-            {
-                "given": "Davide",
-                "family": "Pulizzotto",
-                "affiliation": [
-                    {
-                        "original_name": "LANCI-UQAM (Laboratoire d'ANalyse Cognitive de l'Information)",
-                        "normalized_name": null,
-                        "country": null,
-                        "identifiers": {
-                            "ror": null,
-                            "GRID": null
-                        }
-                    }
-                ]
-            },
-            {
-                "given": "Jean-François",
-                "family": "Chartier",
-                "affiliation": [
-                    {
-                        "original_name": "LANCI-UQAM (Laboratoire d'ANalyse Cognitive de l'Information)",
-                        "normalized_name": null,
-                        "country": null,
-                        "identifiers": {
-                            "ror": null,
-                            "GRID": null
-                        }
-                    }
-                ]
-            },
-            {
-                "given": "Francis",
-                "family": "Lareau",
-                "affiliation": [
-                    {
-                        "original_name": "LANCI-UQAM (Laboratoire d'ANalyse Cognitive de l'Information)",
-                        "normalized_name": null,
-                        "country": null,
-                        "identifiers": {
-                            "ror": null,
-                            "GRID": null
-                        }
-                    }
-                ]
-            },
-            {
-                "given": "Jean-Guy",
-                "family": "Meunier",
-                "affiliation": [
-                    {
-                        "original_name": "LANCI-UQAM (Laboratoire d'ANalyse Cognitive de l'Information)",
-                        "normalized_name": null,
-                        "country": null,
-                        "identifiers": {
-                            "ror": null,
-                            "GRID": null
-                        }
-                    }
-                ]
-            },
-            {
-                "given": "Louis",
-                "family": "Chartrand",
-                "affiliation": [
-                    {
-                        "original_name": "LANCI-UQAM (Laboratoire d'ANalyse Cognitive de l'Information)",
-                        "normalized_name": null,
-                        "country": null,
-                        "identifiers": {
-                            "ror": null,
-                            "GRID": null
-                        }
-                    }
-                ]
-            }
-        ],
-        "publisher": "Bologna: AlmaDL",
-        "date": "2018-05-23",
-        "keywords": null,
-        "journal_title": "Umanistica Digitale",
-        "volume": null,
-        "issue": null,
-        "ISSN": [
-            {
-                "value": "2532-8816",
-                "type": "electronic"
-            }
-        ]
-    },
-    {
-        "url": "https://umanisticadigitale.unibo.it/article/view/7253",
-        "identifier": {
-            "string_id": "10.6092/issn.2532-8816/7253",
-            "id_scheme": "DOI"
-        },
-        "abstract": "How can we study, present and teach complex cultural phenomena such as the Russian philological culture of the 1920s? To achieve this goal, we elaborated a knowledge representation that facilitates scientific collaboration, enables distant reading, improves the navigation of scholarly literature, links classical texts to rich international scholarship, and provides a basis of effective visualization. Digital Humanities offer an ideal framework for the intense human-computer collaboration required to carry out such a project. We focus on the network of relations both within and between three key communities of the early Soviet philological milieu – the Formalists, the Marrists and the Bakhtinists – approaching them through the optics of two major philological romans à clef of the period. To this end, we (1) prepared a collection of primary texts; (2) built a repository of secondary literature; (3) using this research literature, enriched primary texts with both general and ad locum annotations; (4) adapted the nano-publications method as a comprehensive approach for representing this scholarly knowledge in the Semantic Web. We make use of the quantitative methods toolkit of the VicoGlossia  system, which was developed as part of an international and inter-institutional collaboration.",
-        "article_title": "VICOGLOSSIA: Annotatable and Commentable Library as a Bridge between Reader and Scholar (a proof of concept study: Early Soviet Philological Culture)",
-        "authors": [
-            {
-                "given": "Michail",
-                "family": "Maiatsky",
-                "affiliation": [
-                    {
-                        "original_name": "University of Lausanne",
-                        "normalized_name": "University of Lausanne",
-                        "country": "Switzerland",
-                        "identifiers": {
-                            "ror": "https://ror.org/019whta54",
-                            "GRID": "grid.9851.5"
-                        }
-                    }
-                ]
-            },
-            {
-                "given": "Alexey",
-                "family": "Boyarsky",
-                "affiliation": [
-                    {
-                        "original_name": "Leiden University",
-                        "normalized_name": "Leiden University",
-                        "country": "Netherlands",
-                        "identifiers": {
-                            "ror": "https://ror.org/027bh9e22",
-                            "GRID": "grid.5132.5"
-                        }
-                    }
-                ]
-            },
-            {
-                "given": "Natalia",
-                "family": "Boyarskaya",
-                "affiliation": [
-                    {
-                        "original_name": "EPFL, Lausanne",
-                        "normalized_name": null,
-                        "country": null,
-                        "identifiers": {
-                            "ror": null,
-                            "GRID": null
-                        }
-                    }
-                ]
-            },
-            {
-                "given": "Ekaterina",
-                "family": "Velmezova",
-                "affiliation": [
-                    {
-                        "original_name": "Faculté des Lettres",
-                        "normalized_name": null,
-                        "country": null,
-                        "identifiers": {
-                            "ror": null,
-                            "GRID": null
-                        }
-                    }
-                ]
-            },
-            {
-                "given": "Michael",
-                "family": "Piotrowski",
-                "affiliation": [
-                    {
-                        "original_name": "University of Lausanne",
-                        "normalized_name": "University of Lausanne",
-                        "country": "Switzerland",
-                        "identifiers": {
-                            "ror": "https://ror.org/019whta54",
-                            "GRID": "grid.9851.5"
-                        }
-                    }
-                ]
-            }
-        ],
-        "publisher": "Bologna: AlmaDL",
-        "date": "2018-05-23",
-        "keywords": null,
-        "journal_title": "Umanistica Digitale",
-        "volume": null,
-        "issue": null,
-        "ISSN": [
-            {
-                "value": "2532-8816",
-                "type": "electronic"
-            }
-        ]
-    },
-    {
-        "url": "https://umanisticadigitale.unibo.it/article/view/8053",
-        "identifier": {
-            "string_id": "10.6092/issn.2532-8816/8053",
-            "id_scheme": "DOI"
-        },
-        "abstract": "In this paper we study, analyse and comment on rhetorical figures present in a selected body of poetry of the first half of the 20th century. These figures are at first traced back to famous poets of the past and then compared to classical Latin prose. Linguistic theory is then called upon to show how these rethorical figures can be represented in syntactic structures and classified as noncanonical structures, by positioning discontinuous or displaced linguistic elements in SpecXP projections at various levels of constituency. We then introduce LFG – Lexical Functional Grammar – as the theory that allows us to connect syntactic noncanonical structures with informational structure and psycholinguistic theories for complexity evaluation. We end up with two computational linguistics experiments and then evaluate the results. The first experiment uses the best performing online parsers of Italian to parse poetic structures; the second experiment use Getarun – a system created at the Computational Linguistics Laboratory of Ca' Foscari. As will be shown, the first approach is unable to cope with these structures because only statistical probabilistic information is used. Conversely, as a symbolic rule-based system, the second approach is much superior and facilitates both semantic and pragmatic analyses.",
-        "article_title": "Syntax and Semantics of Italian Poetry in the First Half of the 20th Century",
-        "authors": [
-            {
-                "given": "Rodolfo",
-                "family": "Delmonte",
-                "affiliation": [
-                    {
-                        "original_name": "Università Ca'Foscari Venezia",
-                        "normalized_name": "Ca Foscari University of Venice",
-                        "country": "Italy",
-                        "identifiers": {
-                            "ror": "https://ror.org/04yzxz566",
-                            "GRID": "grid.7240.1"
-                        }
-                    }
-                ]
-            }
-        ],
-        "publisher": "Bologna: AlmaDL",
-        "date": "2018-05-23",
-        "keywords": null,
-        "journal_title": "Umanistica Digitale",
-        "volume": null,
-        "issue": null,
-        "ISSN": [
-            {
-                "value": "2532-8816",
-                "type": "electronic"
-            }
-        ]
-    },
-    {
-        "url": "https://umanisticadigitale.unibo.it/article/view/7814",
-        "identifier": {
-            "string_id": "10.6092/issn.2532-8816/7814",
-            "id_scheme": "DOI"
-        },
-        "abstract": "This paper introduces two projects in the realm of Digital Humanities, Mapping Visions of Rome and Digital Roman Heritage. The first project was conceived as a digital aid to my traditional research, while the second developed as a digital aid to the collaboration with other people and projects. Together they reflect how I, trained as a Latinist, entered the field of Digital Humanities, in which I have no specific training. The goal of this paper is therefore primarily to explore the opportunities offered by Digital Humanities for humanities researchers like myself who do not regard this field as their native soil but still wish to contribute to it and benefit from digital research infrastructures and technologies. In particular, it will reflect on the way in which Digital Humanities can further interdisciplinary collaboration and exchange, which I consider to be one of its greatest assets.",
-        "article_title": "Mapping Visions of Rome and Digital Roman Heritage Connectivity between Literary and Artistic Heritage in a Digital Age",
-        "authors": [
-            {
-                "given": "Susanna De",
-                "family": "Beer",
-                "affiliation": [
-                    {
-                        "original_name": null,
-                        "normalized_name": null,
-                        "country": null,
-                        "identifiers": {
-                            "ror": null,
-                            "GRID": null
-                        }
-                    }
-                ]
-            }
-        ],
-        "publisher": "Bologna: AlmaDL",
-        "date": "2018-05-23",
-        "keywords": null,
-        "journal_title": "Umanistica Digitale",
-        "volume": null,
-        "issue": null,
-        "ISSN": [
-            {
-                "value": "2532-8816",
-                "type": "electronic"
-            }
-        ]
-    }
+ {
+ "url": "https://umanisticadigitale.unibo.it/article/view/7250",
+ "identifier": {
+ "string_id": "10.6092/issn.2532-8816/7250",
+ "id_scheme": "DOI"
+ },
+ "abstract": "We present DanteSources, a focused Digital Library that aims at building innovative services supporting scholars in creating, evolving and consulting a digital encyclopaedia of Dante Alighieri’s works. DanteSources is endowed with Web services that allow extracting and visualizing data about Dante Alighieri’s primary sources, i.e. other authors’ works which Dante referred to in his own works. The heart of the digital library is a knowledge base built on an ontology that was developed in the RDF/S language, representing Dante’s works and the knowledge about them, extracted from some authoritative commentaries. Finally, on top of this graph, we developed DanteSources, which allows users to extract and display the knowledge stored in the knowledge base in the form of charts and tables. The methodology and the tool we developed are easily reusable to represent the knowledge about primary sources of other authors of the Italian or the international literature.",
+ "article_title": "DanteSources: a Digital Library for Studying Dante Alighieri’s Primary Sources",
+ "authors": [
+ {
+ "given": "Valentina",
+ "family": "Bartalesi",
+ "affiliation": [
+ {
+ "original_name": "Istituto di Scienza e Tecnologie dell’Informazione “Alessandro Faedo”, Consiglio Nazionale delle Ricerche (CNR)",
+ "normalized_name": "National Research Council",
+ "country": "Italy",
+ "identifiers": {
+ "ror": "https://ror.org/04zaypm56",
+ "GRID": "grid.5326.2"
+ }
+ }
+ ]
+ },
+ {
+ "given": "Carlo",
+ "family": "Meghini",
+ "affiliation": [
+ {
+ "original_name": "Istituto di Scienza e Tecnologie dell’Informazione “Alessandro Faedo”, Consiglio Nazionale delle Ricerche (CNR)",
+ "normalized_name": "National Research Council",
+ "country": "Italy",
+ "identifiers": {
+ "ror": "https://ror.org/04zaypm56",
+ "GRID": "grid.5326.2"
+ }
+ }
+ ]
+ },
+ {
+ "given": "Daniele",
+ "family": "Metilli",
+ "affiliation": [
+ {
+ "original_name": "Istituto di Scienza e Tecnologie dell’Informazione “Alessandro Faedo”, Consiglio Nazionale delle Ricerche (CNR)",
+ "normalized_name": "National Research Council",
+ "country": "Italy",
+ "identifiers": {
+ "ror": "https://ror.org/04zaypm56",
+ "GRID": "grid.5326.2"
+ }
+ }
+ ]
+ },
+ {
+ "given": "Paola",
+ "family": "Andriani",
+ "affiliation": [
+ {
+ "original_name": "Dipartimento di Filologia, Letteratura e Linguistica, Università di Pisa",
+ "normalized_name": "University of Pisa",
+ "country": "Italy",
+ "identifiers": {
+ "ror": "https://ror.org/03ad39j10",
+ "GRID": "grid.5395.a"
+ }
+ }
+ ]
+ },
+ {
+ "given": "Mirko",
+ "family": "Tavoni",
+ "affiliation": [
+ {
+ "original_name": "Dipartimento di Filologia, Letteratura e Linguistica, Università di Pisa",
+ "normalized_name": "University of Pisa",
+ "country": "Italy",
+ "identifiers": {
+ "ror": "https://ror.org/03ad39j10",
+ "GRID": "grid.5395.a"
+ }
+ }
+ ]
+ }
+ ],
+ "publisher": "Bologna: AlmaDL",
+ "date": "2017-10-13",
+ "keywords": null,
+ "journal_title": "Umanistica Digitale",
+ "volume": null,
+ "issue": null,
+ "ISSN": [
+ {
+ "value": "2532-8816",
+ "type": "electronic"
+ }
+ ]
+ },
+ {
+ "url": "https://umanisticadigitale.unibo.it/article/view/7230",
+ "identifier": {
+ "string_id": "10.6092/issn.2532-8816/7230",
+ "id_scheme": "DOI"
+ },
+ "abstract": "Oral archives collected by professional scholars and ordinary people interested in dialects and ethnology are a precious resource for various fields of study (from linguistics to anthropology, from economy to history and politics, etc.) and may contain documents that could be labeled as products of intangible cultural heritage, thus deserving safeguard. Grammo-foni. Le soffitte della voce (Gra.fo), a two-year project jointly conducted by Scuola Normale Superiore and the University of Siena (Regione Toscana PAR FAS 2007-13), discovered, digitized, cataloged and disseminated via a web portal nearly 3000 hours of speech recordings stemming from around 30 oral archives collected by scholars and amateurs in the Tuscan territory. Having preserved such a significant collection of oral documents (e.g. oral biographies, ethno-texts, linguistic questionnaires, oral literature), Gra.fo constitutes a precious repository of Tuscan memory and provides a first-hand documentation of Tuscan language varieties from the early 1960s to the present day [7], [9]. In this article, the Gra.fo project will be described in all its stages, which involve: fostering the level of awareness on the importance of preserving this valuable cultural heritage product; contacting the oral recordings’ owners and co-signing legal agreements for the temporary borrowing of the recordings and accompanying materials; collecting and digitizing the recordings and the accompanying materials; cataloging (with the self-developed software Audiografo) and partially transcribing the oral documents; implementing the downloadable online catalog , an open-ended repository of oral texts which have hitherto been known to a very limited number of potential users. Some problematic issues related to the treatment of oral archives will also be discussed, together with the proposed solutions. These concern the carrier / document relation, the treatment of confidential information, and the cataloging of documents within other documents.",
+ "article_title": "The Gra.fo project: from collection to dissemination",
+ "authors": [
+ {
+ "given": "Silvia",
+ "family": "Calamai",
+ "affiliation": [
+ {
+ "original_name": "Dipartimento di Scienze della Formazione, Scienze Umane e della Comunicazione Interculturale, Università di Siena",
+ "normalized_name": null,
+ "country": null,
+ "identifiers": {
+ "ror": null,
+ "GRID": null
+ }
+ }
+ ]
+ },
+ {
+ "given": "Francesca",
+ "family": "Biliotti",
+ "affiliation": [
+ {
+ "original_name": "Dipartimento di Scienze della Formazione, Scienze Umane e della Comunicazione Interculturale, Università di Siena",
+ "normalized_name": null,
+ "country": null,
+ "identifiers": {
+ "ror": null,
+ "GRID": null
+ }
+ }
+ ]
+ }
+ ],
+ "publisher": "Bologna: AlmaDL",
+ "date": "2017-10-13",
+ "keywords": null,
+ "journal_title": "Umanistica Digitale",
+ "volume": null,
+ "issue": null,
+ "ISSN": [
+ {
+ "value": "2532-8816",
+ "type": "electronic"
+ }
+ ]
+ },
+ {
+ "url": "https://umanisticadigitale.unibo.it/article/view/7196",
+ "identifier": {
+ "string_id": "10.6092/issn.2532-8816/7196",
+ "id_scheme": "DOI"
+ },
+ "abstract": "Impact and sustainability are the leitmotiv of current Research Policies in Europe. Science is required to show its positive socio-economic influence on Society, and Humanities Research is not exempted from this requirement. Within this context, Digital Humanities might enhance the external impact of Humanities Research, more specifically the commitment to public engagement, by means of strategic opportunities offered by digital techniques. To pursue this objective, intermediation seems necessary in order ‘to switch Humanities on’ within Society. Actually, virtual objects might be as speechless as real ones, i.e. books in a library without users. The value of a Digital approach lies in its usability, in the additional tools and helps it supplies, and in stimulating users in becoming active agents of their reading. As in a good storytelling the attention to what can provoke reactions is as important as the action narrated itself, digital objects need hints to stimulate and activate users’ curiosity, questions and original solutions. The paper concentrates on three elements: the requirement for external impact of research activities; the need for intermediary agents and a concrete experimentation of intermediation. Digital Humanities are analysed in the context of the Humanities and beyond the academic realm, in their targeting diverse recipients, external to the scientific community. The test conducted so far is addressed to the specific stakeholder community of teachers, called to act as intermediaries between Humanities Research outcomes and the Scholastic Community.",
+ "article_title": "Digital Humanities and Society: an impact requiring ‘intermediation’",
+ "authors": [
+ {
+ "given": "Carla",
+ "family": "Basili",
+ "affiliation": [
+ {
+ "original_name": "Istituto IRCrES, Consiglio Nazionale delle Ricerche",
+ "normalized_name": "National Research Council",
+ "country": "Italy",
+ "identifiers": {
+ "ror": "https://ror.org/04zaypm56",
+ "GRID": "grid.5326.2"
+ }
+ }
+ ]
+ },
+ {
+ "given": "Grazia",
+ "family": "Biorci",
+ "affiliation": [
+ {
+ "original_name": "Istituto IRCrES, Consiglio Nazionale delle Ricerche",
+ "normalized_name": "National Research Council",
+ "country": "Italy",
+ "identifiers": {
+ "ror": "https://ror.org/04zaypm56",
+ "GRID": "grid.5326.2"
+ }
+ }
+ ]
+ },
+ {
+ "given": "Antonella",
+ "family": "Emina",
+ "affiliation": [
+ {
+ "original_name": "Istituto IRCrES, Consiglio Nazionale delle Ricerche",
+ "normalized_name": "National Research Council",
+ "country": "Italy",
+ "identifiers": {
+ "ror": "https://ror.org/04zaypm56",
+ "GRID": "grid.5326.2"
+ }
+ }
+ ]
+ }
+ ],
+ "publisher": "Bologna: AlmaDL",
+ "date": "2017-10-13",
+ "keywords": null,
+ "journal_title": "Umanistica Digitale",
+ "volume": null,
+ "issue": null,
+ "ISSN": [
+ {
+ "value": "2532-8816",
+ "type": "electronic"
+ }
+ ]
+ },
+ {
+ "url": "https://umanisticadigitale.unibo.it/article/view/9063",
+ "identifier": {
+ "string_id": "10.6092/issn.2532-8816/9063",
+ "id_scheme": "DOI"
+ },
+ "abstract": "This paper pursues the analysis, modelling and representation of the relationships between the different entities concerned by genetic criticism (documents and publications), in the context of a scholarly digital edition. Our cases study are taken from the project \"Gustave Roud, Œuvres complètes\", whose principal aim is to edit the complete works of the Swiss author Gustave Roud (1897-1976). Roud's writing process is rooted in his diary: a first note, for instance taken during a walk in the countryside, can be typed or copied together with other notes in a dedicated notebook, and then inserted in a journal article, which will be itself modified and assembled with others to form a poetic collection. This mechanism of rhapsodic montage is used at various stages of the writing processes, allowing for multiple assemblages of the same materials, for new texts to be produced from existing ones and for the same diary note to appear in multiple texts. In this article, we present an ontology for modelling the genetic relationships between the documents. The available data-model for genetic criticism are firstly discussed: they concentrate on a single document or on the textual variation between them, but no formal model for their relationships is available. Existing visualizations of those relationships are then taken into account. The ontology that we propose to fill this void is detailed and its compatibility with widespread conceptual models, such as FRBRoo and CIDOC CRM, is discussed. Two case studies are presented to test the ontology. In the article we consider the application of our model to other corpora and we conclude with suggestions for the improvement of this work.",
+ "article_title": "Modeling genetic networks. Gustave Roud's œuvre, from diary to poetry collections",
+ "authors": [
+ {
+ "given": "Alessio",
+ "family": "Christen",
+ "affiliation": [
+ {
+ "original_name": "Université de Lausanne",
+ "normalized_name": "University of Lausanne",
+ "country": "Switzerland",
+ "identifiers": {
+ "ror": "https://ror.org/019whta54",
+ "GRID": "grid.9851.5"
+ }
+ }
+ ]
+ },
+ {
+ "given": "Elena",
+ "family": "Spadini",
+ "affiliation": [
+ {
+ "original_name": "Université de Lausanne",
+ "normalized_name": "University of Lausanne",
+ "country": "Switzerland",
+ "identifiers": {
+ "ror": "https://ror.org/019whta54",
+ "GRID": "grid.9851.5"
+ }
+ }
+ ]
+ }
+ ],
+ "publisher": "Bologna: AlmaDL",
+ "date": "2019-12-18",
+ "keywords": null,
+ "journal_title": "Umanistica Digitale",
+ "volume": null,
+ "issue": null,
+ "ISSN": [
+ {
+ "value": "2532-8816",
+ "type": "electronic"
+ }
+ ]
+ },
+ {
+ "url": "https://umanisticadigitale.unibo.it/article/view/9162",
+ "identifier": {
+ "string_id": "10.6092/issn.2532-8816/9162",
+ "id_scheme": "DOI"
+ },
+ "abstract": "Within the “Museo Virtuale della Musica BellinInRete” project, a corpus of letters, written by the renowned composer Vincenzo Bellini (1801 - 1835) from Catania, will be encoded and made publicly available. This contribution aims at illustrating the part of the project regarding the implementation of the prototype for the metadata and text encoding, indexing and visualisation of Bellini’s correspondence. The encoding scheme has been defined according to the latest guidelines of the Text Encoding Initiative and it has been instantiated on a sample of letters. Contextually, a first environment has been implemented by customizing two open source tools: Edition Visualization Technology and Omega Scholarly platform. The main objective of the digital edition is to engage general public with the cultural heritage held by the Belliniano Civic Museum of Catania. This wide access to Bellini’s correspondence has been conceived preserving the scholarly transcriptions of the letters edited by Seminara within her most recent critical edition (Olschki, 2017). The digital edition of the corpus takes care of handling the correspondence metadata by means of the correspDesc TEI tagset. Finally, Bellini's letters will be accessible via the Web platform as well as integrated into a forthcoming interactive and multimedia tour hosted at the museum.",
+ "article_title": "Bellini’s Correspondence: a Digital Scholarly Edition for a Multimedia Museum",
+ "authors": [
+ {
+ "given": "Angelo Mario",
+ "family": "Del Grosso",
+ "affiliation": [
+ {
+ "original_name": "Istituto di Linguistica Computazionale - Consiglio Nazionale delle Ricerche",
+ "normalized_name": "National Research Council",
+ "country": "Italy",
+ "identifiers": {
+ "ror": "https://ror.org/04zaypm56",
+ "GRID": "grid.5326.2"
+ }
+ }
+ ]
+ },
+ {
+ "given": "Erica",
+ "family": "Capizzi",
+ "affiliation": [
+ {
+ "original_name": "Cultore della materia in musicologia, Università di Catania",
+ "normalized_name": "University of Catania",
+ "country": "Italy",
+ "identifiers": {
+ "ror": "https://ror.org/03a64bh57",
+ "GRID": "grid.8158.4"
+ }
+ }
+ ]
+ },
+ {
+ "given": "Salvatore",
+ "family": "Cristofaro",
+ "affiliation": [
+ {
+ "original_name": "Istituto di Scienze e Tecnologie della Cognizione - Consiglio Nazionale delle Ricerche",
+ "normalized_name": "National Research Council",
+ "country": "Italy",
+ "identifiers": {
+ "ror": "https://ror.org/04zaypm56",
+ "GRID": "grid.5326.2"
+ }
+ }
+ ]
+ },
+ {
+ "given": "Maria Rosa",
+ "family": "De Luca",
+ "affiliation": [
+ {
+ "original_name": "Università di Catania",
+ "normalized_name": "University of Catania",
+ "country": "Italy",
+ "identifiers": {
+ "ror": "https://ror.org/03a64bh57",
+ "GRID": "grid.8158.4"
+ }
+ }
+ ]
+ },
+ {
+ "given": "Emiliano",
+ "family": "Giovannetti",
+ "affiliation": [
+ {
+ "original_name": "Istituto di Linguistica Computazionale - Consiglio Nazionale delle Ricerche",
+ "normalized_name": "National Research Council",
+ "country": "Italy",
+ "identifiers": {
+ "ror": "https://ror.org/04zaypm56",
+ "GRID": "grid.5326.2"
+ }
+ }
+ ]
+ },
+ {
+ "given": "Simone",
+ "family": "Marchi",
+ "affiliation": [
+ {
+ "original_name": "Istituto di Linguistica Computazionale - Consiglio Nazionale delle Ricerche",
+ "normalized_name": "National Research Council",
+ "country": "Italy",
+ "identifiers": {
+ "ror": "https://ror.org/04zaypm56",
+ "GRID": "grid.5326.2"
+ }
+ }
+ ]
+ },
+ {
+ "given": "Graziella",
+ "family": "Seminara",
+ "affiliation": [
+ {
+ "original_name": "Università di Catania",
+ "normalized_name": "University of Catania",
+ "country": "Italy",
+ "identifiers": {
+ "ror": "https://ror.org/03a64bh57",
+ "GRID": "grid.8158.4"
+ }
+ }
+ ]
+ },
+ {
+ "given": "Daria",
+ "family": "Spampinato",
+ "affiliation": [
+ {
+ "original_name": "Istituto di Scienze e Tecnologie della Cognizione - Consiglio Nazionale delle Ricerche",
+ "normalized_name": "National Research Council",
+ "country": "Italy",
+ "identifiers": {
+ "ror": "https://ror.org/04zaypm56",
+ "GRID": "grid.5326.2"
+ }
+ }
+ ]
+ }
+ ],
+ "publisher": "Bologna: AlmaDL",
+ "date": "2019-12-18",
+ "keywords": null,
+ "journal_title": "Umanistica Digitale",
+ "volume": null,
+ "issue": null,
+ "ISSN": [
+ {
+ "value": "2532-8816",
+ "type": "electronic"
+ }
+ ]
+ },
+ {
+ "url": "https://umanisticadigitale.unibo.it/article/view/8585",
+ "identifier": {
+ "string_id": "10.6092/issn.2532-8816/8585",
+ "id_scheme": "DOI"
+ },
+ "abstract": "Data visualization is a powerful tool for digital scholarship yet not without its pitfalls. Based on the dissertation “Visualizing Gender Balance” comparing ten computer science conferences, several visualization techniques and tools undergo a critical review. The dataset underlying the visualizations contains data researchers encounter daily: bibliographic information. Analyzing larger sets of authors writing and publishing for conferences in computer science changes our perception of the gender (im)balance in this academic research area. But only a careful curation and visualization can truly reveal what goes on behind the scenes. Still the more complicated, detailed and nuanced the visualization, the harder it becomes for an untrained eye to interpret the patterns.",
+ "article_title": "Visualizing Gender Balance in Conferences",
+ "authors": [
+ {
+ "given": "Sytze",
+ "family": "Van Herck",
+ "affiliation": [
+ {
+ "original_name": "Center for Contemporary Digital History, University of Luxembourg",
+ "normalized_name": "University of Luxembourg",
+ "country": "Luxembourg",
+ "identifiers": {
+ "ror": "https://ror.org/036x5ad56",
+ "GRID": "grid.16008.3f"
+ }
+ }
+ ]
+ }
+ ],
+ "publisher": "Bologna: AlmaDL",
+ "date": "2019-05-28",
+ "keywords": null,
+ "journal_title": "Umanistica Digitale",
+ "volume": null,
+ "issue": null,
+ "ISSN": [
+ {
+ "value": "2532-8816",
+ "type": "electronic"
+ }
+ ]
+ },
+ {
+ "url": "https://umanisticadigitale.unibo.it/article/view/8555",
+ "identifier": {
+ "string_id": "10.6092/issn.2532-8816/8555",
+ "id_scheme": "DOI"
+ },
+ "abstract": "In this contribution, two open problems in computational stemmatology are being considered. The first one is contamination, an umbrella term referring to all phenomena of admixture of text variants resulting from scribes considering more than one manuscript or even memory when copying a text. This problem is one of the biggest to date in stemmatology since it implies an entirely different formal approach to the reconstruction of the copy history of a tradition and in turn to the reconstruction of an urtext. (Maas 1937) famously stated that there is no remedy against contamination and (Pasquali and Pieraccioni 1952) coined the terms 'open' vs. 'closed' recensions to distinguish contaminated from uncontaminated. We present a graph theoretical model which formally accommodates traditions with any degree of contamination while maintaining a temporal ordering and give combinatorial numbers and formula on the implication for numbers of possible scenarios.",
+ "article_title": "An open problem in computational stemmatology - a model for contamination",
+ "authors": [
+ {
+ "given": "Armin",
+ "family": "Hoenen",
+ "affiliation": [
+ {
+ "original_name": "Goethe University Frankfurt, Academy of Sciences Göttingen",
+ "normalized_name": "Goethe University Frankfurt",
+ "country": "Germany",
+ "identifiers": {
+ "ror": "https://ror.org/04cvxnb49",
+ "GRID": "grid.7839.5"
+ }
+ }
+ ]
+ }
+ ],
+ "publisher": "Bologna: AlmaDL",
+ "date": "2019-05-28",
+ "keywords": null,
+ "journal_title": "Umanistica Digitale",
+ "volume": null,
+ "issue": null,
+ "ISSN": [
+ {
+ "value": "2532-8816",
+ "type": "electronic"
+ }
+ ]
+ },
+ {
+ "url": "https://umanisticadigitale.unibo.it/article/view/8575",
+ "identifier": {
+ "string_id": "10.6092/issn.2532-8816/8575",
+ "id_scheme": "DOI"
+ },
+ "abstract": "The Digital Humanities (DH), as Rob Kitchin reminds us, have always been interested in the building of infrastructure for research (Kitchin 2014, Loc. 222 of 6164). Imagining how emerging technologies could first be applied to Humanities problems and then scaled up to infrastructure for others to use has been one of the defining features of the field, by which we mean the field has evolved through projects that experimented with the application of new computing technologies to the difficult problems of the Humanities. Such experimentation began with Father Busaís Index Thomisticus (IT) project (Busa 1980; Winter 1999; Busa 1974-1980) which is why many genetic descriptions of the field returns to the Index. The Index Thomisticus (IT) project was not only the first, but also one of the largest Digital Humanities projects of all time, even though the outcome might, by today’s standards be considered “small”. The project lasted 34 years and at its peak (1962) involved a staff of as many as 70 persons all housed in a large ex-textile factory in Gallarate. For that time they were dealing with big data, we might even say really big data, and the infrastructure they had to build was unlike any ever built before. If we want to understand what is involved in scaling up to big infrastructure we should look back to the beginnings of the field and the emergence of big projects like the Index. This paper will therefore look at the Busa’s project as a way to think through big projects by first discussing the historiography of the IT project and DH projects in general. We will ask how can we study projects as bearers of ideas? What resources do we need/have? Then we will look at specific aspects of the project that shed light on DH projects in general. In particular we will look at how the project was communicated, conceived, and the data processing innovations. Finally, we will reflect on what lessons the IT project has for us at a time when big data has become an end in itself. What can we learn from Busa’s attention to data in the face of the temptations of automatically gathered data?",
+ "article_title": "The Index Thomisticus as a Big Data Project",
+ "authors": [
+ {
+ "given": "Geoffrey",
+ "family": "Rockwell",
+ "affiliation": [
+ {
+ "original_name": "University of Alberta, Canada",
+ "normalized_name": "University of Alberta",
+ "country": "Canada",
+ "identifiers": {
+ "ror": "https://ror.org/0160cpw27",
+ "GRID": "grid.17089.37"
+ }
+ }
+ ]
+ },
+ {
+ "given": "Marco",
+ "family": "Passarotti",
+ "affiliation": [
+ {
+ "original_name": "Università Cattolica del Sacro Cuore, Milano",
+ "normalized_name": "Catholic University of the Sacred Heart",
+ "country": "Italy",
+ "identifiers": {
+ "ror": "https://ror.org/03h7r5v07",
+ "GRID": "grid.8142.f"
+ }
+ }
+ ]
+ }
+ ],
+ "publisher": "Bologna: AlmaDL",
+ "date": "2019-05-28",
+ "keywords": null,
+ "journal_title": "Umanistica Digitale",
+ "volume": null,
+ "issue": null,
+ "ISSN": [
+ {
+ "value": "2532-8816",
+ "type": "electronic"
+ }
+ ]
+ },
+ {
+ "url": "https://umanisticadigitale.unibo.it/article/view/8511",
+ "identifier": {
+ "string_id": "10.6092/issn.2532-8816/8511",
+ "id_scheme": "DOI"
+ },
+ "abstract": "In this essay, we reflect on distant reading as one of the various takes on reading that currently prevail in literary scholarship as well as the teaching of literature. We focus on three concepts of reading which for various reasons can be considered inter-related: close reading, surface reading and distant reading. We offer a theoretical treatment of distant reading and demonstrate why it is closely related to the concept of machine reading (part of artificial intelligence). Throughout, we focus on the role of the individual reader in all this and argue that Digital Literary Studies have much to gain from paying closer attention to the so-called “natural” reading process of individual humans.",
+ "article_title": "Can Machines Read (Literature)?",
+ "authors": [
+ {
+ "given": "Mike",
+ "family": "Kestemont",
+ "affiliation": [
+ {
+ "original_name": null,
+ "normalized_name": null,
+ "country": null,
+ "identifiers": {
+ "ror": null,
+ "GRID": null
+ }
+ }
+ ]
+ },
+ {
+ "given": "Luc",
+ "family": "Herman",
+ "affiliation": [
+ {
+ "original_name": null,
+ "normalized_name": null,
+ "country": null,
+ "identifiers": {
+ "ror": null,
+ "GRID": null
+ }
+ }
+ ]
+ }
+ ],
+ "publisher": "Bologna: AlmaDL",
+ "date": "2019-05-28",
+ "keywords": null,
+ "journal_title": "Umanistica Digitale",
+ "volume": null,
+ "issue": null,
+ "ISSN": [
+ {
+ "value": "2532-8816",
+ "type": "electronic"
+ }
+ ]
+ },
+ {
+ "url": "https://umanisticadigitale.unibo.it/article/view/8174",
+ "identifier": {
+ "string_id": "10.6092/issn.2532-8816/8174",
+ "id_scheme": "DOI"
+ },
+ "abstract": "This article presents the rationale and the proposal of a preliminary architecture of a formal ontology of the Text Encoding Initiative markup language. The reasons to have a formal and machine-readable semantics for TEI are manifold. In the first place, it would have a number of pragmatic and technical benefits, like better support for semantic interoperability in text encoding practices, easier cross-corpora query processing, seamless integration with Linked Open Data ecosystem. In second place, it would give a formalized account of the quasi-formal notion of the TEI abstract model, fostering the consistency and soundness of the TEI model. Given the complexity of the TEI encoding schema, such an ontology must necessarily have a very complex architecture, and its thorough definition will be a time consuming intellectual activity: in a first stage, we propose to limit its scope to a well-defined subdomain of the TEI, and to build it adopting pre-existing meta-ontology like EARMARK. The final part of the article gives some preliminary details of this design",
+ "article_title": "A Formal Ontology for the Text Encoding Initiative",
+ "authors": [
+ {
+ "given": "Fabio",
+ "family": "Ciotti",
+ "affiliation": [
+ {
+ "original_name": "Università di Roma Tor Vergata",
+ "normalized_name": null,
+ "country": null,
+ "identifiers": {
+ "ror": null,
+ "GRID": null
+ }
+ }
+ ]
+ }
+ ],
+ "publisher": "Bologna: AlmaDL",
+ "date": "2018-11-30",
+ "keywords": null,
+ "journal_title": "Umanistica Digitale",
+ "volume": null,
+ "issue": null,
+ "ISSN": [
+ {
+ "value": "2532-8816",
+ "type": "electronic"
+ }
+ ]
+ },
+ {
+ "url": "https://umanisticadigitale.unibo.it/article/view/8161",
+ "identifier": {
+ "string_id": "10.6092/issn.2532-8816/8161",
+ "id_scheme": "DOI"
+ },
+ "abstract": "This paper consists of the cataloguing, mapping, and the study of the street poetry of Rome, written on the walls of the Italian capital by a group of street artists who started their activity in 2012: The Poeti der Trullo (The poets of the Trullo). Through the use of digital humanities tools, the article describes the Poeti der Trullo and their district, developing some considerations on the themes and the language that characterise their poems. The aim is to understand the cultural and social roots of this street poetry phenomenon and its effects on contemporary society. This study, which combines tools such as WordSmith, TXM, RStudio, Q-GIS, CartoDB, and Gephi, explains how the Poeti der Trullo interpret and interact with society through an interdisciplinary approach. The activity of the Poeti der Trullo, which blends the tradition of Roman graffiti and Pasquinate with the urban culture of slam poetry, shows a poetic resistance towards the image of contemporary society. Through a simple gesture such as writing a poetic message on a wall, these young performers reveal the strength of a cultural tradition that discloses a new act of resistance which has a pragmatic effect on society. In only six years of existence, these poets have effectively created a movement able to generate effective change in their district.",
+ "article_title": "Rethinking Rome as an Anthology: The Poeti der Trullo’s Street Poetry",
+ "authors": [
+ {
+ "given": "Giovanni Pietro",
+ "family": "Vitali",
+ "affiliation": [
+ {
+ "original_name": "Université de Poitiers",
+ "normalized_name": "University of Poitiers",
+ "country": "France",
+ "identifiers": {
+ "ror": "https://ror.org/04xhy8q59",
+ "GRID": "grid.11166.31"
+ }
+ }
+ ]
+ }
+ ],
+ "publisher": "Bologna: AlmaDL",
+ "date": "2018-11-30",
+ "keywords": null,
+ "journal_title": "Umanistica Digitale",
+ "volume": null,
+ "issue": null,
+ "ISSN": [
+ {
+ "value": "2532-8816",
+ "type": "electronic"
+ }
+ ]
+ },
+ {
+ "url": "https://umanisticadigitale.unibo.it/article/view/7305",
+ "identifier": {
+ "string_id": "10.6092/issn.2532-8816/7305",
+ "id_scheme": "DOI"
+ },
+ "abstract": "Conceptual Analysis (CA) is a matter-of-course practice for philosophers and other scholars in the humanities. Exploring one author’s corpus of texts in order to discover the various properties of a concept is a classic example of CA. Recently, a corpus-based computational framework for CA has been emerging in response to the methodological challenges brought about by the massive digitization of texts. In this framework, CA is approached by implementing a computer-assisted text analysis method, within which algorithms are used to support the various cognitive operations involved in CA. In this article, we focus on the retrieval of relevant text segments for analysis. However, this is a complex issue within a computational framework, since the relation between concept and natural language depends on several semantic phenomena, including synonymy, polysemy, and contextual modulation. The main contribution of this article is methodological because it explores the computational approach to CA. We present three algorithmic methods, which identify relevant text segments while taking into account various semantic phenomena. The results show the potential of computer-assisted CA, thereby highlighting the need to overcome the limitations of these first experiments. An additional contribution of this work takes the form of knowledge transfer from Artificial Intelligence to the Humanities.",
+ "article_title": "Conceptual Analysis in a computer-assisted framework: mind in Peirce",
+ "authors": [
+ {
+ "given": "Davide",
+ "family": "Pulizzotto",
+ "affiliation": [
+ {
+ "original_name": "LANCI-UQAM (Laboratoire d'ANalyse Cognitive de l'Information)",
+ "normalized_name": null,
+ "country": null,
+ "identifiers": {
+ "ror": null,
+ "GRID": null
+ }
+ }
+ ]
+ },
+ {
+ "given": "Jean-François",
+ "family": "Chartier",
+ "affiliation": [
+ {
+ "original_name": "LANCI-UQAM (Laboratoire d'ANalyse Cognitive de l'Information)",
+ "normalized_name": null,
+ "country": null,
+ "identifiers": {
+ "ror": null,
+ "GRID": null
+ }
+ }
+ ]
+ },
+ {
+ "given": "Francis",
+ "family": "Lareau",
+ "affiliation": [
+ {
+ "original_name": "LANCI-UQAM (Laboratoire d'ANalyse Cognitive de l'Information)",
+ "normalized_name": null,
+ "country": null,
+ "identifiers": {
+ "ror": null,
+ "GRID": null
+ }
+ }
+ ]
+ },
+ {
+ "given": "Jean-Guy",
+ "family": "Meunier",
+ "affiliation": [
+ {
+ "original_name": "LANCI-UQAM (Laboratoire d'ANalyse Cognitive de l'Information)",
+ "normalized_name": null,
+ "country": null,
+ "identifiers": {
+ "ror": null,
+ "GRID": null
+ }
+ }
+ ]
+ },
+ {
+ "given": "Louis",
+ "family": "Chartrand",
+ "affiliation": [
+ {
+ "original_name": "LANCI-UQAM (Laboratoire d'ANalyse Cognitive de l'Information)",
+ "normalized_name": null,
+ "country": null,
+ "identifiers": {
+ "ror": null,
+ "GRID": null
+ }
+ }
+ ]
+ }
+ ],
+ "publisher": "Bologna: AlmaDL",
+ "date": "2018-05-23",
+ "keywords": null,
+ "journal_title": "Umanistica Digitale",
+ "volume": null,
+ "issue": null,
+ "ISSN": [
+ {
+ "value": "2532-8816",
+ "type": "electronic"
+ }
+ ]
+ },
+ {
+ "url": "https://umanisticadigitale.unibo.it/article/view/7253",
+ "identifier": {
+ "string_id": "10.6092/issn.2532-8816/7253",
+ "id_scheme": "DOI"
+ },
+ "abstract": "How can we study, present and teach complex cultural phenomena such as the Russian philological culture of the 1920s? To achieve this goal, we elaborated a knowledge representation that facilitates scientific collaboration, enables distant reading, improves the navigation of scholarly literature, links classical texts to rich international scholarship, and provides a basis of effective visualization. Digital Humanities offer an ideal framework for the intense human-computer collaboration required to carry out such a project. We focus on the network of relations both within and between three key communities of the early Soviet philological milieu – the Formalists, the Marrists and the Bakhtinists – approaching them through the optics of two major philological romans à clef of the period. To this end, we (1) prepared a collection of primary texts; (2) built a repository of secondary literature; (3) using this research literature, enriched primary texts with both general and ad locum annotations; (4) adapted the nano-publications method as a comprehensive approach for representing this scholarly knowledge in the Semantic Web. We make use of the quantitative methods toolkit of the VicoGlossia system, which was developed as part of an international and inter-institutional collaboration.",
+ "article_title": "VICOGLOSSIA: Annotatable and Commentable Library as a Bridge between Reader and Scholar (a proof of concept study: Early Soviet Philological Culture)",
+ "authors": [
+ {
+ "given": "Michail",
+ "family": "Maiatsky",
+ "affiliation": [
+ {
+ "original_name": "University of Lausanne",
+ "normalized_name": "University of Lausanne",
+ "country": "Switzerland",
+ "identifiers": {
+ "ror": "https://ror.org/019whta54",
+ "GRID": "grid.9851.5"
+ }
+ }
+ ]
+ },
+ {
+ "given": "Alexey",
+ "family": "Boyarsky",
+ "affiliation": [
+ {
+ "original_name": "Leiden University",
+ "normalized_name": "Leiden University",
+ "country": "Netherlands",
+ "identifiers": {
+ "ror": "https://ror.org/027bh9e22",
+ "GRID": "grid.5132.5"
+ }
+ }
+ ]
+ },
+ {
+ "given": "Natalia",
+ "family": "Boyarskaya",
+ "affiliation": [
+ {
+ "original_name": "EPFL, Lausanne",
+ "normalized_name": null,
+ "country": null,
+ "identifiers": {
+ "ror": null,
+ "GRID": null
+ }
+ }
+ ]
+ },
+ {
+ "given": "Ekaterina",
+ "family": "Velmezova",
+ "affiliation": [
+ {
+ "original_name": "Faculté des Lettres",
+ "normalized_name": null,
+ "country": null,
+ "identifiers": {
+ "ror": null,
+ "GRID": null
+ }
+ }
+ ]
+ },
+ {
+ "given": "Michael",
+ "family": "Piotrowski",
+ "affiliation": [
+ {
+ "original_name": "University of Lausanne",
+ "normalized_name": "University of Lausanne",
+ "country": "Switzerland",
+ "identifiers": {
+ "ror": "https://ror.org/019whta54",
+ "GRID": "grid.9851.5"
+ }
+ }
+ ]
+ }
+ ],
+ "publisher": "Bologna: AlmaDL",
+ "date": "2018-05-23",
+ "keywords": null,
+ "journal_title": "Umanistica Digitale",
+ "volume": null,
+ "issue": null,
+ "ISSN": [
+ {
+ "value": "2532-8816",
+ "type": "electronic"
+ }
+ ]
+ },
+ {
+ "url": "https://umanisticadigitale.unibo.it/article/view/8053",
+ "identifier": {
+ "string_id": "10.6092/issn.2532-8816/8053",
+ "id_scheme": "DOI"
+ },
+ "abstract": "In this paper we study, analyse and comment on rhetorical figures present in a selected body of poetry of the first half of the 20th century. These figures are at first traced back to famous poets of the past and then compared to classical Latin prose. Linguistic theory is then called upon to show how these rethorical figures can be represented in syntactic structures and classified as noncanonical structures, by positioning discontinuous or displaced linguistic elements in SpecXP projections at various levels of constituency. We then introduce LFG – Lexical Functional Grammar – as the theory that allows us to connect syntactic noncanonical structures with informational structure and psycholinguistic theories for complexity evaluation. We end up with two computational linguistics experiments and then evaluate the results. The first experiment uses the best performing online parsers of Italian to parse poetic structures; the second experiment use Getarun – a system created at the Computational Linguistics Laboratory of Ca' Foscari. As will be shown, the first approach is unable to cope with these structures because only statistical probabilistic information is used. Conversely, as a symbolic rule-based system, the second approach is much superior and facilitates both semantic and pragmatic analyses.",
+ "article_title": "Syntax and Semantics of Italian Poetry in the First Half of the 20th Century",
+ "authors": [
+ {
+ "given": "Rodolfo",
+ "family": "Delmonte",
+ "affiliation": [
+ {
+ "original_name": "Università Ca'Foscari Venezia",
+ "normalized_name": "Ca Foscari University of Venice",
+ "country": "Italy",
+ "identifiers": {
+ "ror": "https://ror.org/04yzxz566",
+ "GRID": "grid.7240.1"
+ }
+ }
+ ]
+ }
+ ],
+ "publisher": "Bologna: AlmaDL",
+ "date": "2018-05-23",
+ "keywords": null,
+ "journal_title": "Umanistica Digitale",
+ "volume": null,
+ "issue": null,
+ "ISSN": [
+ {
+ "value": "2532-8816",
+ "type": "electronic"
+ }
+ ]
+ },
+ {
+ "url": "https://umanisticadigitale.unibo.it/article/view/7814",
+ "identifier": {
+ "string_id": "10.6092/issn.2532-8816/7814",
+ "id_scheme": "DOI"
+ },
+ "abstract": "This paper introduces two projects in the realm of Digital Humanities, Mapping Visions of Rome and Digital Roman Heritage. The first project was conceived as a digital aid to my traditional research, while the second developed as a digital aid to the collaboration with other people and projects. Together they reflect how I, trained as a Latinist, entered the field of Digital Humanities, in which I have no specific training. The goal of this paper is therefore primarily to explore the opportunities offered by Digital Humanities for humanities researchers like myself who do not regard this field as their native soil but still wish to contribute to it and benefit from digital research infrastructures and technologies. In particular, it will reflect on the way in which Digital Humanities can further interdisciplinary collaboration and exchange, which I consider to be one of its greatest assets.",
+ "article_title": "Mapping Visions of Rome and Digital Roman Heritage Connectivity between Literary and Artistic Heritage in a Digital Age",
+ "authors": [
+ {
+ "given": "Susanna De",
+ "family": "Beer",
+ "affiliation": [
+ {
+ "original_name": null,
+ "normalized_name": null,
+ "country": null,
+ "identifiers": {
+ "ror": null,
+ "GRID": null
+ }
+ }
+ ]
+ }
+ ],
+ "publisher": "Bologna: AlmaDL",
+ "date": "2018-05-23",
+ "keywords": null,
+ "journal_title": "Umanistica Digitale",
+ "volume": null,
+ "issue": null,
+ "ISSN": [
+ {
+ "value": "2532-8816",
+ "type": "electronic"
+ }
+ ]
+ }
 ]

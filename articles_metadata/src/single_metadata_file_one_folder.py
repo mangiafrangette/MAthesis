@@ -24,9 +24,11 @@ def create_abstract_txt(folder_path, folder_final_path):
                 if article["abstract"] is not None:
                     if article["identifier"]["string_id"] is not None:
                         single_file_name = f'{article["identifier"]["string_id"].replace("/", "_")}'
+                        article['date']= article["date"][0:4]
                     else:
                         counter += 1
                         single_file_name = f'{no_id_name}'
+                        article['date']= article["date"][0:4]
 
                     with open(f'{folder_final_path}/{single_file_name}.json', 'w', encoding='utf-8') as g:
                         #print(article["identifier"]["string_id"])

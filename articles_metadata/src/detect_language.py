@@ -20,9 +20,12 @@ def detect_lang(folder_path):
 
             for article in articles:
                 #print(article["article_title"])
+                if article["abstract"] is None:
+                    print("NONE")
+                    print(article["article_title"]) 
                 if article["abstract"] is not None and len(article["abstract"]) < 10:
                     print("CHECK")
-                    print(article["abstract"]) 
+                    print(article["article_title"]) 
                 
                 elif article["abstract"] is not None and detect(article["abstract"]) != "en":
                     print(article["article_title"])
