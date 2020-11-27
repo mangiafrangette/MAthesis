@@ -25,7 +25,9 @@ def fix_crossref_dates(crossref_folder, ms_folder):
     for file_path in filenames:
         with open(f'{crossref_folder}/{file_path}', "r", encoding="utf-8") as file:
             crossref = json.load(file) 
+            
             for result in crossref:
+                
                 if result is not None:
                     #print(result)
                     date = ""
@@ -33,31 +35,39 @@ def fix_crossref_dates(crossref_folder, ms_folder):
                     if "published-online" in result.keys():
                         for index, num in enumerate(result["published-online"]["date-parts"][0]):
                             if len(result["published-online"]["date-parts"][0]) <= 1:
-                                date = num
+                                date = f'{num}'
                             elif index < 2:
                                 date += f'{num}-'
                             else:
                                 date += f'{num}'
-                    
+                        
                     elif "published-print" in result.keys():
                         for index, num in enumerate(result["published-print"]["date-parts"][0]):
                             if len(result["published-print"]["date-parts"][0]) <= 1:
-                                date = num
+                                date = f'{num}'
                             elif index < 2:
                                 date += f'{num}-'
                             else:
                                 date += f'{num}'
                     #print(date)
+                    
                     for file_path2 in filenames2:
+                        date_is_changed = False
                         with open(f'{ms_folder}/{file_path2}', "r", encoding="utf-8") as file2:
                             ms = json.load(file2)
+                            
                             for article in ms:
+                                
                                 if article["identifier"]["string_id"] == result["DOI"]:
-                                    print(article["date"])
+                                    #print(article["date"])
                                     article["date"] = date
-                                    print(article["date"])
-                        with open(f'{crossref_folder}/{file_path}', "w", encoding="utf-8") as file:
-                            crossref = json.load(file)
+                                    date_is_changed = True
+                                    #print(article["date"])
+                        if date_is_changed:
+                            with open(f'{ms_folder}/{file_path2}', "w", encoding="utf-8") as fd:
+                                json.dump(ms, fd, ensure_ascii=False)
+                            #print(result["DOI"])
+                            #print(f'{file_path2}done!')
     
 
-fix_crossref_dates("../data/unused_files/crossref_api", "../data/research_papers/no_country_dataset")
+fix_crossref_dates("../data/unused_files/crossref_api", "../data/research_papers/complete_dataset")
