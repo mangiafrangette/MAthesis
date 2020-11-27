@@ -5,7 +5,6 @@ def create_abstract_txt(folder_path, folder_final_path):
     # these variables are necessary for files that do not have a doi
     
     counter = 0
-    no_id_name = f'no_id_{counter}'
 
     # define list of files from a folder
     folder = os.fsencode(folder_path)
@@ -26,7 +25,7 @@ def create_abstract_txt(folder_path, folder_final_path):
                         single_file_name = f'{article["date"][0:4]}/{article["identifier"]["string_id"].replace("/", "_")}'
                     else:
                         counter += 1
-                        single_file_name = f'{article["date"][0:4]}/{no_id_name}'
+                        single_file_name = f'{article["date"][0:4]}/no_id_{counter}'
 
                     with open(f'{folder_final_path}/{single_file_name}.json', 'w', encoding='utf-8') as g:
                         #print(article["identifier"]["string_id"])
