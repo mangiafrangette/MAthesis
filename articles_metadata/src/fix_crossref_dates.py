@@ -64,10 +64,10 @@ def fix_crossref_dates(crossref_folder, ms_folder):
                                     date_is_changed = True
                                     #print(article["date"])
                         if date_is_changed:
-                            #with open(f'{ms_folder}/{file_path2}', "w", encoding="utf-8") as fd:
-                            #    json.dump(ms, fd, ensure_ascii=False)
+                            with open(f'{ms_folder}/{file_path2}', "w", encoding="utf-8") as fd:
+                                json.dump(ms, fd, ensure_ascii=False)
                             #print(result["DOI"])
                             #print(f'{file_path2}done!')
     
 
-fix_crossref_dates("../data/unused_files/crossref_api", "../data/research_papers/complete_dataset")
+#fix_crossref_dates("../data/unused_files/crossref_api", "../data/research_papers/complete_dataset")
