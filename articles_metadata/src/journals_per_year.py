@@ -23,11 +23,10 @@ def journals_per_year(folder_path):
     for year in years_set:
         final_dict = {
         "year": "",
-        "num_of_journals": int,
-        "list_of_journals": list(),
-        "num_of_articles": int, 
-        "list_of_articles": list(),
-        "articles_journals_ratio": int
+        "num_of_journals": 0,
+        "num_of_articles": 0, 
+        "articles_journals_ratio": 0,
+        "dict_of_journals": dict()        
     }
         final_dict["year"] = year
         final_list.append(final_dict)   
@@ -37,29 +36,16 @@ def journals_per_year(folder_path):
             article = json.load(file)
             for year_dict in final_list:
                 if article["date"][0:4] == year_dict["year"]:
-                    for key, value in year_dict.items():
-                        if key == "list_of_journals":
-                            value = value.append(article["journal_title"])
-                        if key == "list_of_articles":
-                            value = value.append(article["article_title"])
-
-# take away duplicates of journals
-    for year_dict in final_list:
-        new_value = list()
-        for li in year_dict["list_of_journals"]:
-            if li not in new_value:
-                new_value.append(li)
-        year_dict["list_of_journals"] = new_value
-
-        # create metrics
-        year_dict["num_of_articles"] = len(year_dict["list_of_articles"])
-        year_dict["num_of_journals"] = len(year_dict["list_of_journals"])
-        year_dict["articles_journals_ratio"] = len(year_dict["list_of_articles"]) / len(year_dict["list_of_journals"])
-
-        if year_dict["articles_journals_ratio"] < 15 or year_dict["articles_journals_ratio"] > 20:
-            print(f'Check year {year_dict["year"]}')
-#print(list_of_journals)
-    
+                    if article["journal_title"] not in year_dict["dict_of_journals"].keys():
+                        year_dict["dict_of_journals"][article["journal_title"]] = 1
+                        
+                    else:
+                        year_dict["dict_of_journals"][article["journal_title"]] += 1
+                    
+                    #write metrics
+                    year_dict["num_of_articles"] +=1
+                    year_dict["num_of_journals"] = len(year_dict["dict_of_journals"].keys())
+                    year_dict["articles_journals_ratio"] = year_dict["num_of_articles"] / year_dict["num_of_journals"]    
 
     # write the dict to a file
     with open("../data/journals_per_year.json", "w", encoding="utf-8") as fd:
