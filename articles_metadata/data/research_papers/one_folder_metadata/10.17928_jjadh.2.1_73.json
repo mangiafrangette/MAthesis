@@ -1,1 +1,142 @@
-{"url": "http://dx.doi.org/10.17928/jjadh.2.1_73", "identifier": {"string_id": "10.17928/jjadh.2.1_73", "id_scheme": "DOI"}, "abstract": "Wikipedia: The Free Encyclopedia was launched in January 2001, and its articles now represent a major resource for understanding the world. Many of these articles have been negotiated and edited for a decade or more, and the history of that editing can provide insight into the recent history of ideas. This paper describes the development of a tool called WIScker that works with the Wikipedia Application Programming Interface (API) to scrape, or \"wisck,\" the revision history of any Wikipedia article, in order to build a corpus for subsequent text analysis and visualization. As an example, we examine a fourteen-year revision history of the article \"Terrorism,\" first introduced into Wikipedia in October 2001, the month after 9/11, and subsequently expanded to provide a more historically informed, though still politically motivated, entry.", "article_title": "WIScking Ideas", "authors": [{"given": "Andrea", "family": "Budac", "affiliation": [{"original_name": "University of Alberta", "normalized_name": "University of Alberta", "country": "Canada", "identifiers": {"ror": "https://ror.org/0160cpw27", "GRID": "grid.17089.37"}}]}, {"given": "Geoffrey", "family": "Rockwell", "affiliation": [{"original_name": "University of Alberta", "normalized_name": "University of Alberta", "country": "Canada", "identifiers": {"ror": "https://ror.org/0160cpw27", "GRID": "grid.17089.37"}}]}, {"given": "Zachary", "family": "Palmer", "affiliation": [{"original_name": "University of Alberta", "normalized_name": "University of Alberta", "country": "Canada", "identifiers": {"ror": "https://ror.org/0160cpw27", "GRID": "grid.17089.37"}}]}, {"given": "Robert", "family": "Budac", "affiliation": [{"original_name": "University of Alberta", "normalized_name": "University of Alberta", "country": "Canada", "identifiers": {"ror": "https://ror.org/0160cpw27", "GRID": "grid.17089.37"}}]}, {"given": "Todd", "family": "Suomela", "affiliation": [{"original_name": "Bucknell University", "normalized_name": "Bucknell University", "country": "United States", "identifiers": {"ror": "https://ror.org/00fc1qt65", "GRID": "grid.253363.2"}}]}, {"given": "Stéfan", "family": "Sinclair", "affiliation": [{"original_name": "McGill University", "normalized_name": "McGill University", "country": "Canada", "identifiers": {"ror": "https://ror.org/01pxwe438", "GRID": "grid.14709.3b"}}]}, {"given": "Stan", "family": "Ruecker", "affiliation": [{"original_name": "The University of Illinois at Urbana-Champaign", "normalized_name": "University of Illinois at Urbana-Champaign", "country": "United States", "identifiers": {"ror": "https://ror.org/047426m28", "GRID": "grid.35403.31"}}]}, {"family": "the INKE Team", "affiliation": [{"original_name": null, "normalized_name": null, "country": null, "identifiers": {"ror": null, "GRID": null}}]}], "publisher": "Japanese Association for Digital Humanities", "date": "2017", "keywords": null, "journal_title": "Journal of the Japanese Association for Digital Humanities", "volume": "2", "issue": "1", "ISSN": [{"value": "2188-7276", "type": "electronic"}]}
+{
+    "url": "http://dx.doi.org/10.17928/jjadh.2.1_73",
+    "identifier": {
+        "string_id": "10.17928/jjadh.2.1_73",
+        "id_scheme": "DOI"
+    },
+    "abstract": "Wikipedia: The Free Encyclopedia was launched in January 2001, and its articles now represent a major resource for understanding the world. Many of these articles have been negotiated and edited for a decade or more, and the history of that editing can provide insight into the recent history of ideas. This paper describes the development of a tool called WIScker that works with the Wikipedia Application Programming Interface (API) to scrape, or \"wisck,\" the revision history of any Wikipedia article, in order to build a corpus for subsequent text analysis and visualization. As an example, we examine a fourteen-year revision history of the article \"Terrorism,\" first introduced into Wikipedia in October 2001, the month after 9/11, and subsequently expanded to provide a more historically informed, though still politically motivated, entry.",
+    "article_title": "WIScking Ideas",
+    "authors": [
+        {
+            "given": "Andrea",
+            "family": "Budac",
+            "affiliation": [
+                {
+                    "original_name": "University of Alberta",
+                    "normalized_name": "University of Alberta",
+                    "country": "Canada",
+                    "identifiers": {
+                        "ror": "https://ror.org/0160cpw27",
+                        "GRID": "grid.17089.37"
+                    }
+                }
+            ]
+        },
+        {
+            "given": "Geoffrey",
+            "family": "Rockwell",
+            "affiliation": [
+                {
+                    "original_name": "University of Alberta",
+                    "normalized_name": "University of Alberta",
+                    "country": "Canada",
+                    "identifiers": {
+                        "ror": "https://ror.org/0160cpw27",
+                        "GRID": "grid.17089.37"
+                    }
+                }
+            ]
+        },
+        {
+            "given": "Zachary",
+            "family": "Palmer",
+            "affiliation": [
+                {
+                    "original_name": "University of Alberta",
+                    "normalized_name": "University of Alberta",
+                    "country": "Canada",
+                    "identifiers": {
+                        "ror": "https://ror.org/0160cpw27",
+                        "GRID": "grid.17089.37"
+                    }
+                }
+            ]
+        },
+        {
+            "given": "Robert",
+            "family": "Budac",
+            "affiliation": [
+                {
+                    "original_name": "University of Alberta",
+                    "normalized_name": "University of Alberta",
+                    "country": "Canada",
+                    "identifiers": {
+                        "ror": "https://ror.org/0160cpw27",
+                        "GRID": "grid.17089.37"
+                    }
+                }
+            ]
+        },
+        {
+            "given": "Todd",
+            "family": "Suomela",
+            "affiliation": [
+                {
+                    "original_name": "Bucknell University",
+                    "normalized_name": "Bucknell University",
+                    "country": "United States",
+                    "identifiers": {
+                        "ror": "https://ror.org/00fc1qt65",
+                        "GRID": "grid.253363.2"
+                    }
+                }
+            ]
+        },
+        {
+            "given": "Stéfan",
+            "family": "Sinclair",
+            "affiliation": [
+                {
+                    "original_name": "McGill University",
+                    "normalized_name": "McGill University",
+                    "country": "Canada",
+                    "identifiers": {
+                        "ror": "https://ror.org/01pxwe438",
+                        "GRID": "grid.14709.3b"
+                    }
+                }
+            ]
+        },
+        {
+            "given": "Stan",
+            "family": "Ruecker",
+            "affiliation": [
+                {
+                    "original_name": "The University of Illinois at Urbana-Champaign",
+                    "normalized_name": "University of Illinois at Urbana-Champaign",
+                    "country": "United States",
+                    "identifiers": {
+                        "ror": "https://ror.org/047426m28",
+                        "GRID": "grid.35403.31"
+                    }
+                }
+            ]
+        },
+        {
+            "family": "the INKE Team",
+            "affiliation": [
+                {
+                    "original_name": null,
+                    "normalized_name": null,
+                    "country": null,
+                    "identifiers": {
+                        "ror": null,
+                        "GRID": null
+                    }
+                }
+            ]
+        }
+    ],
+    "publisher": "Japanese Association for Digital Humanities",
+    "date": "2017",
+    "keywords": null,
+    "journal_title": "Journal of the Japanese Association for Digital Humanities",
+    "volume": "2",
+    "issue": "1",
+    "ISSN": [
+        {
+            "value": "2188-7276",
+            "type": "electronic"
+        }
+    ]
+}

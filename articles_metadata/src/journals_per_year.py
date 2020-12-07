@@ -1,7 +1,7 @@
 import json
 import os
 
-def journals_per_year(folder_path):
+def journals_per_year(folder_path, destination_path):
     # define list of files from a folder
     folder = os.fsencode(folder_path)
     filenames = []
@@ -48,7 +48,28 @@ def journals_per_year(folder_path):
                     year_dict["articles_journals_ratio"] = year_dict["num_of_articles"] / year_dict["num_of_journals"]    
 
     # write the dict to a file
-    with open("../data/journals_per_year.json", "w", encoding="utf-8") as fd:
+    with open(destination_path, "w", encoding="utf-8") as fd:
         json.dump(final_list, fd, ensure_ascii=False) 
     
-journals_per_year("../data/research_papers/one_folder_metadata")
+destination_path = "../data/journals_per_year.json"
+
+#journals_per_year("../data/research_papers/one_folder_metadata", destination_path)
+
+def create_csv(csv_path):
+    with open(csv_path, "r", encoding="utf-8") as file:
+        csv = json.load(file)
+        first_line = ""
+        txt = ""
+        for year_dict in csv:
+            second_line = f'{year_dict["year"]}'
+            for journal, num in year_dict["dict_of_journals"].items():
+                first_line += f'{journal}'
+                second_line += f'{num}'
+                txt += first_line + second_line
+        print()
+
+    # write the dict to a file
+    #with open("../data/journals_per_year.csv", "w", encoding="utf-8") as fd:
+    #    json.dump(final_list, fd, ensure_ascii=False) 
+    
+create_csv(destination_path)
