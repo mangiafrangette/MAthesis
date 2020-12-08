@@ -1,5 +1,23 @@
 # Topics interpretation (bow, lemmatized, 16topics, 0.6 lambda)
 
+## Summary of topics
+1. NLP - alignments/language models/translations +ling -comput?
+2. Interactive games for CH
+3. NLP - directed towards a very specific language segment or variation
+4. linguistic analysis @@@
+5. Digital scholarly editing
+6. Finding style differences/similarity in various domains (metadata from conservation records, social media language, binary file formats, American Second Empire Houses)
+7. Data preservation process (qua non c'è l'idea di dare un modello forse? più descrittivo?)
+8. Research and researchers for data availability
+9. @@@ linguistica/analisi testo
+10. NLP with focus on critics/evaluation of something
+11. Digital text analysis with focus on space (as landscape, as history, print or electronic, "distant" reading)
+12. Models to find relatedness/patterns/correlation (especially in literature, strong authorship attribution)
+13. The fundamentals of DH (non emerge niente...)
+14. Models for data curation and data sharing (vedi topic 7)
+15. Literature analysis (poetry, musica, film), topic molto di nicchia
+16. Images/visuals in DH
+
 to derive topics i used top relevant words + close reading of the 5 most significant documents for a topic. 
 ## Topic 1: @@@ NLP - alignments/language models/translations +ling -comput?
 ### top 30 most relevant words
@@ -139,7 +157,7 @@ digit, research, human, scholar, develop, literari, articl, text, cultur, tool, 
 5. Beyond humanities qua digital: Spatial and material development for digital research infrastructures in HumlabX1
 6. A digital corpus resource of authentic anonymized French text messages: 88milSMS—What about transcoding and linguistic annotation?
 
-## Topic 14: Models for data curation and data sharing  (vedi topic 7)
+## Topic 14: Models for data curation and data sharing (vedi topic 7)
 ### top 30 most relevant words
 data, curat, research, resourc, translat, repositori, share, digit, reus, metadata, manag, collect, model, project, scientif, studi, work, scienc, inform, use, dataset, topic, paper, crowdsourc, open, process, scientist, polici, provid, public
 ### interpretation
@@ -149,13 +167,25 @@ data, curat, research, resourc, translat, repositori, share, digit, reus, metada
 4. We present a case study of data integration and reuse involving 12 researchers who published datasets in Open Context, an online data publishing platform, as part of collaborative archaeological research on early domesticated animals in Anatolia.
 5. citizen science-produced datasets
 
-## Topic 15: poetry, 
+## Topic 15: Literature analysis (poetry, musica, film), topic molto di nicchia
 ### top 30 most relevant words
 hypertext, syllabl, model, coptic, charact, digit, urban, vers, organolog, densiti, proven, student, poetri, remix, knowledg, network, use, distract, ocropi, campaign, ancient, stress, tune, mediev, calvino, world, armenian, mora, work, humour
 ### interpretation
 1. A Metrical Analysis of Medieval German Poetry Using Supervised Learning
 2. Puttenham rehabilitated: the significance of ‘tune’ in The Arte of English Poesie
-3. 
+3. characters encoding ... This report briefly describes the Chaon model and the CHISE (Character Information Service Environment) project, and focuses on how to represent Chinese characters and their glyphs in the context of multiple unification rules.
+4. Digital Humanities (DH) within Coptic Studies, an emerging field of development, will be much aided by the digitization of large quantities of typeset Coptic texts
+5. Rule-Based Generation of Ancient Chinese Architecture from the Song Dynasty
+6. merging hypertext and film theory ... software for breaking a film down and examining its composition, montage, transitions, subliminal messages, and motifs - a process that may then be applied to hypertext
+7. Network Narration in John Dos Passos’s U.S.A. Trilogy
+
+## Topic 16: Images/visuals in DH
+### top 30 most relevant words
+imag, document, histor, use, inform, studi, topic, inpaint, result, virtual, method, automat, font, visual, camera, realiti, propos, reconstruct, fragment, guqin, extract, damag, approach, color, base, heritag, time, articl, present, translat
+### interpretation
+1. Virtual Inpainting for Dazu Rock Carvings Based on a Sample Dataset
+2. A Framework for Interrogating Social Media Images to Reveal an Emergent Archive of War
+3. Improved color acquisition and mapping on 3D models via flash-based photography
 
 
 
