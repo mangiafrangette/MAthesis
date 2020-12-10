@@ -187,7 +187,16 @@ imag, document, histor, use, inform, studi, topic, inpaint, result, virtual, met
 2. A Framework for Interrogating Social Media Images to Reveal an Emergent Archive of War
 3. Improved color acquisition and mapping on 3D models via flash-based photography
 
+# Topics interpretation (tfidf, lemmatized, 17topics, 0.6 lambda)
 
+## Topic 15 (66.2% of tokens): DH basics
+### top 30 most relevant words
+digit, text, data, edit, translat, research, project, manuscript, model, languag, word, method, game, work, studi, analysi, paper, corpus, archiv, human, comput, tool, develop, use, system, literari, scholar, network, differ, read
 
+## Topic 14
+### top 30 most relevant words
+stemma, feminist, migrat, scientif, citat, simul, team, risk, googl, behaviour, stemmata, hypertext, sit, teacher, women, nois, holocaust, countri, ehri, viewpoint, inquiri, portal, reus, color, sophist, alter, occup, data, updat, obsolesc
 
-
+## Topic 7
+### top 30 most relevant words
+and, wikipedia, translat, remix, cinema, proven, game, svms, goldsmith, polish, dant, distract, typolog, buddhist, frbr, hysteria, parsa, pole, vise, headlin, contextualis, basqu, pertin, jazz, indigen, blumenbach, divadiawi, radic, disagr

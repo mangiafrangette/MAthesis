@@ -39,6 +39,7 @@ def new_create_articles_dfs(path_of_files):
                     for affiliation in author['affiliation']:
                         curr_aff = {'journal': article_dict['journal_title'],
                                     'article': os.path.splitext(filename)[0],
+                                    'date': article_dict['date'],
                                     'author': f"{author['given']} {author['family']}",
                                     'affiliation': affiliation['original_name'],
                                     'original_name': affiliation['original_name'],
@@ -113,20 +114,20 @@ def random_tests():
     path_of_files = "../../data/research_papers/one_folder_metadata"
     path_of_topics_csv = "doc_topics.csv"
 
-    #df_art, df_aff = new_create_articles_dfs(path_of_files)
-    # print(df_art)
-    # print(df_aff)
+    df_art, df_aff = new_create_articles_dfs(path_of_files)
+    print(df_art)
+    print(df_aff)
     df_topics = create_topics_df(path_of_topics_csv)
     # call function find correlation after dataframe is loaded from topicsXdocuments csv
 
     #print(df_topics)
     #print("\n\n")
-    print(find_correlation(df_topics))
+    #print(find_correlation(df_topics))
     #print(find_correlation(df_topics, "10", "12", 0.3))
 
     # are topics correlated? 
     
-    #print(df_aff)
+    #print(df_topics)
 
 
 
