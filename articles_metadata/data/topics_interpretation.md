@@ -187,6 +187,9 @@ imag, document, histor, use, inform, studi, topic, inpaint, result, virtual, met
 2. A Framework for Interrogating Social Media Images to Reveal an Emergent Archive of War
 3. Improved color acquisition and mapping on 3D models via flash-based photography
 
+
+
+
 # Topics interpretation (tfidf, lemmatized, 17topics, 0.6 lambda)
 
 ## Topic 15 (66.2% of tokens): DH basics
