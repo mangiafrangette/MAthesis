@@ -22,7 +22,7 @@ def parse_and_write(file_path):
         "identifier": {'string_id': None, 'id_scheme': None}, 
         "abstract": './/tei:text/tei:body', 
         "article_title": './/tei:titleStmt/tei:title', 
-        "authors": './/tei:sourceDesc/../tei:author', 
+        "authors": './/tei:sourceDesc//tei:author', 
         "given": './/tei:forename', 
         "family": './/tei:surname', 
         "affiliation": './/tei:affiliation/tei:orgName', 
@@ -35,7 +35,7 @@ def parse_and_write(file_path):
     final_dict = {
         "url": None, 
         "identifier": {'string_id': None, 'id_scheme': None}, "abstract": "", 
-        "article_title": "", "authors": [], "publisher": "", "date": "2017", "keywords": [], "journal_title": "ADHO Conference Abstracts", "volume": None, "issue": None, "ISSN": [ { "value": None, "type": None }] 
+        "article_title": "", "authors": [], "publisher": None, "date": "2017", "keywords": None, "journal_title": "ADHO Conference Abstracts", "volume": None, "issue": None, "ISSN": [ { "value": None, "type": None }] 
     }
 
     # find values and write to dict
@@ -57,7 +57,7 @@ def parse_and_write(file_path):
             # AUTHORS
             elif key == "authors":
                 authors_list = root.findall(value, ns)
-                print(authors_list)
+                #print(authors_list)
                 
                 for author in authors_list:
                     author_dict = {
@@ -66,15 +66,19 @@ def parse_and_write(file_path):
                             "affiliation": []
                         }
                     #print(final_dict["article_title"])
-                    for element in author.find(path_to_find['given'], ns).itertext():
-                        author_dict["given"] += remove_spaces(element)
-                    for element in author.find(path_to_find['family'], ns).itertext():
-                        author_dict["family"] += remove_spaces(element)
-                    for affiliation in author.findall(path_to_find['affiliation'], ns):
-                        current_aff_string = ""
-                        for element in affiliation.itertext():
-                            current_aff_string += remove_spaces(element)
-                        author_dict["affiliation"].append(current_aff_string)
+                    if author.find(path_to_find['given'], ns) is not None and author.find(path_to_find['family'], ns) is not None:
+                        for element in author.find(path_to_find['given'], ns).itertext():
+                            author_dict["given"] += remove_spaces(element)
+                        for element in author.find(path_to_find['family'], ns).itertext():
+                            author_dict["family"] += remove_spaces(element)
+                        
+                        if author.findall(path_to_find['affiliation'], ns) is not None:
+                            for affiliation in author.findall(path_to_find['affiliation'], ns):
+                                current_aff_string = ""
+                                for element in affiliation.itertext():
+                                    current_aff_string += remove_spaces(element)
+                                author_dict["affiliation"].append(current_aff_string)
+
                     final_dict["authors"].append(author_dict)
                     #print(author_dict)
 
@@ -95,7 +99,7 @@ def parse_and_write(file_path):
                     
 
             # other keys 
-            elif key != "given" and key != "family" and key != "affiliation" and key != "keywords" and key != "abstract" and key != "date":   
+            elif key != "given" and key != "family" and key != "affiliation" and key != "keywords" and key != "abstract" and key != "date" and key != "authors":   
                 for element in root.find(value, ns).itertext():
                     final_dict[key] += remove_spaces(element)
     #print(final_dict)
@@ -103,7 +107,7 @@ def parse_and_write(file_path):
 
 def write_new_json():
     # Create list of files to pass as input to the function and call the function
-    path = '../data/adho_conferences/2016'
+    path = '../data/adho_conferences/2017'
     # comment the following from 114 to 119 for one file test
     folder = os.fsencode(path)
     filenames = []
@@ -112,16 +116,18 @@ def write_new_json():
         if filename.endswith('.xml'): # whatever file types you're using...
             filenames.append(filename)
     
-    for file_xml in filenames:
-        parse_and_write(f'{path}/{file_xml}')
+    #for testing without writing
+    """ for file_xml in filenames:
+        parse_and_write(f'{path}/{file_xml}') """
+    
     # Create the final json file
-    """ with open(f"../data/adho_conferences/ms_ADHO_2016.json", "w", encoding="utf-8") as fd:
+    with open(f"../data/adho_conferences/ms_ADHO_2017.json", "w", encoding="utf-8") as fd:
         fd.write("[")
         # comment 125-127 and uncomment the following for one file test
         for file_xml in filenames: 
             json.dump(parse_and_write(f'{path}/{file_xml}'), fd, ensure_ascii=False)
             fd.write(",")
-        fd.write("]") """
+        fd.write("]")
 
 write_new_json()           
         

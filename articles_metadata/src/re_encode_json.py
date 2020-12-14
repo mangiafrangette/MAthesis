@@ -9,5 +9,5 @@ def rencode(file_path):
                 json.dump(loaded, fd, ensure_ascii=False)
 
 # call function
-file_path = "../data/json_files/no_country_dataset/adho_papers/ms_ADHO_Conference_special_affs.json"
+file_path = "../data/adho_conferences/ms_ADHO_2017.json"
 rencode(file_path)
