@@ -38,28 +38,18 @@ def mean_abstract_length(articles_df):
     return pd.DataFrame({'iso_a3': mean_countries_dict.keys(), 'mean number of character per abstract': mean_countries_dict.values()}).set_index('iso_a3')
 
 
-
-
-def productivity_country_per_topic(df_affiliations, df_topics, years_list):
-    df_out = pd.DataFrame()
-    for year in years_list:
-        df_aff_selected = df_affiliations.query(f'date == "{year}"')
-        # precomputation:
-        num_affs_series = df_aff_selected.reset_index().groupby('article').size()#['affiliation']
-        #print(num_affs_series)
-        df_affs_topics = pd.DataFrame({'article': num_affs_series.index, 'num affs': num_affs_series.values}).set_index('article').merge(df_topics, on='article')
-        #print(df_affs_topics)
-        # test = df_affs_topics.iloc[:, 1::]/df_affs_topics.iloc[:, 0].values#['affiliation']
-        test1 = df_affs_topics.iloc[:, 1::].div(df_affs_topics.iloc[:, 0], axis='rows')
-        test2 = df_aff_selected.reset_index().set_index('article').merge(test1, on='article')
-        # correct code test3
-        test3 = test2.groupby('iso_a3').sum()
-        #my test
-        #test3a = test2.groupby('date').sum()
-
-        test4 = test3.div(test3.sum(axis=1), axis=0)
-        test4.loc[:, 'date'] = year
-    print(test4)
+def productivity_country_per_topic(df_affiliations, df_topics):
+    # precomputation:
+    num_affs_series = df_affiliations.reset_index().groupby('article').size()#['affiliation']
+    # print(pd.DataFrame({'article': num_affs_series.index, 'num affs': num_affs_series.values}).set_index('article').merge(df_affiliations['year'], on='article'))
+    df_affs_topics = pd.DataFrame({'article': num_affs_series.index, 'num affs': num_affs_series.values}).set_index('article').merge(df_topics, on='article').merge(df_affiliations['year'], on='article')
+    # print(df_affs_topics)#.set_index(['year', 'iso_a3']))
+    # test = df_affs_topics.iloc[:, 1::].div(df_affs_topics.iloc[:, 0], axis='rows')
+    # test = df_affs_topics.loc[:, (df_topics.columns != 'num affs') & (df_topics.columns != 'year')].div(df_affs_topics.iloc[:, 0], axis='rows')
+    test = df_affs_topics[df_affs_topics.columns.difference(['num affs', 'year'])].div(df_affs_topics.iloc[:, 0], axis='rows')
+    test2 = df_affiliations.reset_index().set_index('article').merge(test, on='article')
+    test3 = test2.groupby(['iso_a3', 'year']).sum()
+    test4 = test3.div(test3.sum(axis=1), axis=0)
     # print(test4.query('country=="Italy"').idxmax(axis="columns"))
     # print(test4['1'].max())
     return test4
@@ -86,9 +76,9 @@ def random_tests():
     # print("\n\n\n")
     # print(df3)
 
-    df_prod = productivity_country_per_topic(df_aff, df_topics, "2011")
-    df_prod.to_csv("df_prod.csv", index=True, header=True)
-    #print(df_prod)
+    df_prod = productivity_country_per_topic(df_aff, df_topics)
+    # df_prod.to_csv("df_prod.csv", index=True, header=True)
+    print(df_prod)
 
 
 

@@ -1,0 +1,3727 @@
+[
+    {
+        "url": "http://dx.doi.org/10.4000/jtei.210",
+        "identifier": {
+            "string_id": "10.4000/jtei.210",
+            "id_scheme": "DOI"
+        },
+        "abstract": "If the notion of the methodological commons is as centrally located as we believe it to be in any visualization accurately depicting the intellectual structure of the digital humanities and digital literary studies (McCarty 2005, 119), then so, too, must be the community itself whose members provide that which populates the commons. As an interdiscipline, humanities computing has always well-understood its methodologies; indeed, the digital humanities (of which digital literary studies is a part), more generally, have made a virtue of the way in which they render explicit and tangible the theoretical models that govern the representative and analytical endeavour of their fields via computational application.  So, too, have those in the field understood and documented its formal structures and institutional manifestations, a chief example being the Text Encoding Initiative itself.  Less explicitly rendered and less formally documented–though intuited by its chief practitioners and builders–is the exact nature of the community itself, its depth and breadth, its own centre and, perhaps more important in a field whose embrace of interdisciplinarity is far from self-serving, its periphery and those aspects of which promise to become central.",
+        "article_title": "‘The Apex of Hipster XML GeekDOM’",
+        "authors": [
+            {
+                "given": "Lynne",
+                "family": "Siemens",
+                "affiliation": [
+                    {
+                        "original_name": "School of Public Administration, University of Victoria, Canada",
+                        "normalized_name": "University of Victoria",
+                        "country": "Canada",
+                        "identifiers": {
+                            "ror": "https://ror.org/04s5mat29",
+                            "GRID": "grid.143640.4"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Ray",
+                "family": "Siemens",
+                "affiliation": [
+                    {
+                        "original_name": "Department of English, University of Victoria, Canada",
+                        "normalized_name": "University of Victoria",
+                        "country": "Canada",
+                        "identifiers": {
+                            "ror": "https://ror.org/04s5mat29",
+                            "GRID": "grid.143640.4"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Hefeng (Eddie)",
+                "family": "Wen",
+                "affiliation": [
+                    {
+                        "original_name": "Faculty of Business, University of Victoria, Canada",
+                        "normalized_name": "University of Victoria",
+                        "country": "Canada",
+                        "identifiers": {
+                            "ror": "https://ror.org/04s5mat29",
+                            "GRID": "grid.143640.4"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Cara",
+                "family": "Leitch",
+                "affiliation": [
+                    {
+                        "original_name": "Electronic Textual Cultures Lab, University of Victoria, Canada",
+                        "normalized_name": "University of Victoria",
+                        "country": "Canada",
+                        "identifiers": {
+                            "ror": "https://ror.org/04s5mat29",
+                            "GRID": "grid.143640.4"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Dot",
+                "family": "Porter",
+                "affiliation": [
+                    {
+                        "original_name": "Digital Library Content & Services, Indiana University",
+                        "normalized_name": "Indiana University",
+                        "country": "United States",
+                        "identifiers": {
+                            "ror": "https://ror.org/01kg8sb98",
+                            "GRID": "grid.257410.5"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Liam",
+                "family": "Sherriff",
+                "affiliation": [
+                    {
+                        "original_name": "Electronic Textual Cultures Lab, University of Victoria, Canada",
+                        "normalized_name": "University of Victoria",
+                        "country": "Canada",
+                        "identifiers": {
+                            "ror": "https://ror.org/04s5mat29",
+                            "GRID": "grid.143640.4"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Karin",
+                "family": "Armstrong",
+                "affiliation": [
+                    {
+                        "original_name": "Electronic Textual Cultures Lab, University of Victoria, Canada",
+                        "normalized_name": "University of Victoria",
+                        "country": "Canada",
+                        "identifiers": {
+                            "ror": "https://ror.org/04s5mat29",
+                            "GRID": "grid.143640.4"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Melanie",
+                "family": "Chernyk",
+                "affiliation": [
+                    {
+                        "original_name": "Electronic Textual Cultures Lab, University of Victoria, Canada",
+                        "normalized_name": "University of Victoria",
+                        "country": "Canada",
+                        "identifiers": {
+                            "ror": "https://ror.org/04s5mat29",
+                            "GRID": "grid.143640.4"
+                        }
+                    }
+                ]
+            }
+        ],
+        "publisher": "OpenEdition",
+        "date": "2011-12-02",
+        "keywords": null,
+        "journal_title": "Journal of the Text Encoding Initiative",
+        "volume": null,
+        "issue": "Issue 1",
+        "ISSN": [
+            {
+                "value": "2162-5603",
+                "type": "electronic"
+            }
+        ]
+    },
+    {
+        "url": "http://dx.doi.org/10.4000/jtei.142",
+        "identifier": {
+            "string_id": "10.4000/jtei.142",
+            "id_scheme": "DOI"
+        },
+        "abstract": "This paper formulates a proposal for standardising spoken language transcription, as practised in conversation analysis, sociolinguistics, dialectology and related fields, with the help of the TEI guidelines. Two areas relevant to standardisation are identified and discussed: first, the macro structure of transcriptions, as embodied in the data models and file formats of transcription tools such as ELAN, Praat or EXMARaLDA; second, the micro structure of transcriptions as embodied in transcription conventions such as CA, HIAT or GAT. A two-step process is described in which first the macro structure is represented in a generic TEI format based on elements defined in the P5 version of the Guidelines. In the second step, character data in this representation is parsed according to the regularities of a transcription convention resulting in a more fine-grained TEI markup which is also based on P5. It is argued that this two step process can, on the one hand, map idiosyncratic differences in tool formats and transcription conventions onto a unified representation. On the other hand, differences motivated by different theoretical decisions can be retained in a manner which still allows a common processing of data from different sources. In order to make the standard usable in practice, a conversion tool—TEI Drop—is presented which uses XSL transformations to carry out the conversion between different tool formats (CHAT, ELAN, EXMARaLDA, FOLKER and Transcriber) and the TEI representation of transcription macro structure (and vice versa) and which also provides methods for parsing the micro structure of transcriptions according to two different transcription conventions (HIAT and cGAT). Using this tool, transcribers can continue to work with software they are familiar with while still producing TEI-conformant transcription files. The paper concludes with a discussion of the work needed in order to establish the proposed standard. It is argued that both tool formats and the TEI guidelines are in a sufficiently mature state to serve as a basis for standardisation. Most work consequently remains in analysing and standardising differences between different transcription conventions.",
+        "article_title": "A TEI-based Approach to Standardising Spoken Language Transcription",
+        "authors": [
+            {
+                "given": "Thomas",
+                "family": "Schmidt",
+                "affiliation": [
+                    {
+                        "original_name": "Research Centre on Multilingualism, University of Hamburg",
+                        "normalized_name": "Universität Hamburg",
+                        "country": "Germany",
+                        "identifiers": {
+                            "ror": "https://ror.org/00g30e956",
+                            "GRID": "grid.9026.d"
+                        }
+                    }
+                ]
+            }
+        ],
+        "publisher": "OpenEdition",
+        "date": "2011-12-02",
+        "keywords": null,
+        "journal_title": "Journal of the Text Encoding Initiative",
+        "volume": null,
+        "issue": "Issue 1",
+        "ISSN": [
+            {
+                "value": "2162-5603",
+                "type": "electronic"
+            }
+        ]
+    },
+    {
+        "url": "http://dx.doi.org/10.4000/jtei.203",
+        "identifier": {
+            "string_id": "10.4000/jtei.203",
+            "id_scheme": "DOI"
+        },
+        "abstract": "In Transition: Selected Poems by the Baroness Elsa von Freytag-Loringhoven is a publicly available scholarly edition of twelve unpublished poems written by Freytag-Loringhoven between 1923 and 1927. This edition provides access to a textual performance of her creative work in a digital environment. It is encoded using the Text Encoding Initiative’s (TEI) P5 Guidelines for critical apparatuses including parallel segmentation and location-referenced encoding. The encoded text is rendered into an interactive web interface using XSLT, CSS, and JavaScript available through the Versioning Machine (http://www.v-machine.org/). One aspect of textual performance theory I am exploring within In Transition concerns the social text network. The social text network these twelve texts always and already represent presupposes the notion of a constant circulation of networked social text systems. The network represented by In Transition is based primarily on issues of reception, materiality, and themes which engage and reflect the social nature of the text in the 1920s and now. This is to say two things: (1) that the concept of the network is not new with digital scholarly editions; and (2) that these networks in a digital edition foreground the situated 1920s history of these texts as well as the real-time, situated electronic reading environment. The argument of a digital edition like In Transition is formed as much by the underlying theory of text as it is by its content and the particular application or form it takes. This discussion employs the language of knowledge representation in computation (through terms like domain, ontology, and logic) in order to situate this scholarly edition within two existing frameworks: theories of knowledge representation in computation and theories of scholarly textual editing.",
+        "article_title": "Knowledge Representation and Digital Scholarly Editions in Theory and Practice",
+        "authors": [
+            {
+                "given": "Tanya",
+                "family": "Clement",
+                "affiliation": [
+                    {
+                        "original_name": "Associate Director, Digital Cultures and Creativity, University of Maryland, College Park",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    },
+                    {
+                        "original_name": "Research Associate, Maryland Institute for Technology in the Humanities, University of Maryland, College Park",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
+            }
+        ],
+        "publisher": "OpenEdition",
+        "date": "2011-12-02",
+        "keywords": null,
+        "journal_title": "Journal of the Text Encoding Initiative",
+        "volume": null,
+        "issue": "Issue 1",
+        "ISSN": [
+            {
+                "value": "2162-5603",
+                "type": "electronic"
+            }
+        ]
+    },
+    {
+        "url": "http://dx.doi.org/10.4000/jtei.215",
+        "identifier": {
+            "string_id": "10.4000/jtei.215",
+            "id_scheme": "DOI"
+        },
+        "abstract": "This essay will address the challenges and possibilities presented to the Text Encoding Initiative, particularly in the area of interoperability, by the very large text collections (on the order of millions of volumes) being made available for computational work in environments where the texts can be reprocessed into new representations, in order to be manipulated with analytical tools.  It will also consider TEI’s potential role in the design of these environments, these representations, and these tools.  The argument of the piece is that interoperability is a process as well as a state, that it requires mechanisms that would sustain it, and that TEI is one of those mechanisms.",
+        "article_title": "Computational Work with Very Large Text Collections",
+        "authors": [
+            {
+                "given": "John",
+                "family": "Unsworth",
+                "affiliation": [
+                    {
+                        "original_name": "Graduate School of Library and Information Science, University of Illinois at Urbana-Champaign",
+                        "normalized_name": "University of Illinois at Urbana-Champaign",
+                        "country": "United States",
+                        "identifiers": {
+                            "ror": "https://ror.org/047426m28",
+                            "GRID": "grid.35403.31"
+                        }
+                    }
+                ]
+            }
+        ],
+        "publisher": "OpenEdition",
+        "date": "2011-12-02",
+        "keywords": null,
+        "journal_title": "Journal of the Text Encoding Initiative",
+        "volume": null,
+        "issue": "Issue 1",
+        "ISSN": [
+            {
+                "value": "2162-5603",
+                "type": "electronic"
+            }
+        ]
+    },
+    {
+        "url": "http://dx.doi.org/10.4000/jtei.432",
+        "identifier": {
+            "string_id": "10.4000/jtei.432",
+            "id_scheme": "DOI"
+        },
+        "abstract": "This paper presents a newly developed framework for online publishing of scholarly text editions based on the TEI Guidelines. At the core of our publishing framework is support for delivery of TEI-encoded documents in Drupal, a popular, fairly powerful, and modular content management system (CMS). In this article we present the TEICHI suite of modules for Drupal that we developed, as well as a prototype implementation. TEICHI consists of a collection of modules for displaying TEI files online (via XSLT and CSS), interacting with them (via JavaScript), as well as uploading, searching, and downloading them. To showcase the particular strengths and possible use cases of our framework, we compare our tool to other currently available systems. Here, we focus on those tools which are suitable for textual scholars new to Digital Humanities and the TEI who would like to use the powerful encoding mechanisms provided by the TEI but have relatively little technical expertise. Therefore, we compare the TEICHI framework specifically to the Versioning Machine (VM) and the Scalable Architecture for Digital Editions (SADE). We look at these tools from four perspectives: that of the user interacting with the digital edition or archive, of the editor encoding and publishing texts, of the administrator setting up the publishing tool, and of the programmer possibly modifying or enhancing the tool. Our more general aim here is to investigate, from the perspective of tool development in the area of online delivery of TEI-encoded documents, what could be called the “tools paradox”: there is evidence for textual scholars’ need of such tools, and a number of them are available; however, the existing tools are not widely adopted by scholars. Our findings suggest that tool development has to address two aims which seem to be mutually exclusive, that of “keeping it simple” and that of “going generic”. In fact, we suggest that tool developers need to find ways of turning these conflicting aims into concurrent aims if they want to build successful tools and broaden their user base.",
+        "article_title": "TEICHI and the Tools Paradox",
+        "authors": [
+            {
+                "given": "Sebastian",
+                "family": "Pape",
+                "affiliation": [
+                    {
+                        "original_name": "University of Kassel",
+                        "normalized_name": "University of Kassel",
+                        "country": "Germany",
+                        "identifiers": {
+                            "ror": "https://ror.org/04zc7p361",
+                            "GRID": "grid.5155.4"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Christof",
+                "family": "Schöch",
+                "affiliation": [
+                    {
+                        "original_name": "University of Würzburg, Germany",
+                        "normalized_name": "University of Würzburg",
+                        "country": "Germany",
+                        "identifiers": {
+                            "ror": "https://ror.org/00fbnyb24",
+                            "GRID": "grid.8379.5"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Lutz",
+                "family": "Wegner",
+                "affiliation": [
+                    {
+                        "original_name": "University of Kassel",
+                        "normalized_name": "University of Kassel",
+                        "country": "Germany",
+                        "identifiers": {
+                            "ror": "https://ror.org/04zc7p361",
+                            "GRID": "grid.5155.4"
+                        }
+                    }
+                ]
+            }
+        ],
+        "publisher": "OpenEdition",
+        "date": "2012-07-20",
+        "keywords": null,
+        "journal_title": "Journal of the Text Encoding Initiative",
+        "volume": null,
+        "issue": "Issue 2",
+        "ISSN": [
+            {
+                "value": "2162-5603",
+                "type": "electronic"
+            }
+        ]
+    },
+    {
+        "url": "http://dx.doi.org/10.4000/jtei.425",
+        "identifier": {
+            "string_id": "10.4000/jtei.425",
+            "id_scheme": "DOI"
+        },
+        "abstract": "Croatiae auctores Latini (CroALa), a text collection first published in 2009, makes freely accessible Latin texts written by or about people of Croatian origin from the Middle Ages to the twentieth century. The collection is intended primarily for scholars of Latin and neo-Latin literature and language and of Croatian history and culture. Texts are encoded in TEI XML and made searchable and readable online using PhiloLogic.",
+        "article_title": "CroALa",
+        "authors": [
+            {
+                "given": "Neven",
+                "family": "Jovanović",
+                "affiliation": [
+                    {
+                        "original_name": "University of Zagreb",
+                        "normalized_name": "University of Zagreb",
+                        "country": "Croatia",
+                        "identifiers": {
+                            "ror": "https://ror.org/00mv6sv71",
+                            "GRID": "grid.4808.4"
+                        }
+                    }
+                ]
+            }
+        ],
+        "publisher": "OpenEdition",
+        "date": "2012-07-20",
+        "keywords": null,
+        "journal_title": "Journal of the Text Encoding Initiative",
+        "volume": null,
+        "issue": "Issue 2",
+        "ISSN": [
+            {
+                "value": "2162-5603",
+                "type": "electronic"
+            }
+        ]
+    },
+    {
+        "url": "http://dx.doi.org/10.4000/jtei.416",
+        "identifier": {
+            "string_id": "10.4000/jtei.416",
+            "id_scheme": "DOI"
+        },
+        "abstract": "In early 2010, the Austrian Academy of Sciences’ ICLTT instituted an experiment in selective metadata creation for a medium-sized collection (<100 million tokens) of digitised periodicals. The project has two main objectives: (a) assigning basic structures to previously digitised texts, so-called divisions in TEI nomenclature, thus creating a set of new digital objects, and (b) the subsequent categorisation of these texts with the purpose of being able to create thematically organised sub-corpora. An additional objective was to have metadata stored as TEI headers.",
+        "article_title": "Towards Finer Granularity in Metadata",
+        "authors": [
+            {
+                "given": "Gerhard",
+                "family": "Budin",
+                "affiliation": [
+                    {
+                        "original_name": "University of Vienna",
+                        "normalized_name": "University of Vienna",
+                        "country": "Austria",
+                        "identifiers": {
+                            "ror": "https://ror.org/03prydq77",
+                            "GRID": "grid.10420.37"
+                        }
+                    },
+                    {
+                        "original_name": "Austrian Academy of Sciences",
+                        "normalized_name": "Austrian Academy of Sciences",
+                        "country": "Austria",
+                        "identifiers": {
+                            "ror": "https://ror.org/03anc3s24",
+                            "GRID": "grid.4299.6"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Heinrich",
+                "family": "Kabas",
+                "affiliation": [
+                    {
+                        "original_name": "Austrian Academy of Sciences",
+                        "normalized_name": "Austrian Academy of Sciences",
+                        "country": "Austria",
+                        "identifiers": {
+                            "ror": "https://ror.org/03anc3s24",
+                            "GRID": "grid.4299.6"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Karlheinz",
+                "family": "Mörth",
+                "affiliation": [
+                    {
+                        "original_name": "University of Vienna",
+                        "normalized_name": "University of Vienna",
+                        "country": "Austria",
+                        "identifiers": {
+                            "ror": "https://ror.org/03prydq77",
+                            "GRID": "grid.10420.37"
+                        }
+                    },
+                    {
+                        "original_name": "Austrian Academy of Sciences",
+                        "normalized_name": "Austrian Academy of Sciences",
+                        "country": "Austria",
+                        "identifiers": {
+                            "ror": "https://ror.org/03anc3s24",
+                            "GRID": "grid.4299.6"
+                        }
+                    }
+                ]
+            }
+        ],
+        "publisher": "OpenEdition",
+        "date": "2012-07-20",
+        "keywords": null,
+        "journal_title": "Journal of the Text Encoding Initiative",
+        "volume": null,
+        "issue": "Issue 2",
+        "ISSN": [
+            {
+                "value": "2162-5603",
+                "type": "electronic"
+            }
+        ]
+    },
+    {
+        "url": "http://dx.doi.org/10.4000/jtei.407",
+        "identifier": {
+            "string_id": "10.4000/jtei.407",
+            "id_scheme": "DOI"
+        },
+        "abstract": "The standard workflow for preparing digital editions for display involves writing XSL to transform handcrafted TEI into either 1) HTML for the web or 2) XSL-FO for conversion into a print friendly format such as PDF. With either method we implicitly recognize that TEI, even coupled with CSS, is not designed as a presentation technology. Many born-digital documents, however, are encoded in formats that are, such as HTML. Hypothetical future editions of such documents would most likely need to be supplemented by a document description that goes beyond the facilities of HTML to meet the needs of editors. Thus we foresee cases where born-HTML documents could be supplemented and described by TEI in much the same way as TEI currently supplements and describes manuscripts and printed books. In this paper we investigate ways that XHTML documents both with and without RDFa can be “transformed backward” into TEI. In addition to the digital edition use case, we also investigate a process for converting HTML content to TEI-based language corpora.",
+        "article_title": "Transforming Backward",
+        "authors": [
+            {
+                "given": "Grant Leyton",
+                "family": "Simpson",
+                "affiliation": [
+                    {
+                        "original_name": "Indiana University",
+                        "normalized_name": "Indiana University",
+                        "country": "United States",
+                        "identifiers": {
+                            "ror": "https://ror.org/01kg8sb98",
+                            "GRID": "grid.257410.5"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Dot",
+                "family": "Porter",
+                "affiliation": [
+                    {
+                        "original_name": "Indiana University",
+                        "normalized_name": "Indiana University",
+                        "country": "United States",
+                        "identifiers": {
+                            "ror": "https://ror.org/01kg8sb98",
+                            "GRID": "grid.257410.5"
+                        }
+                    }
+                ]
+            }
+        ],
+        "publisher": "OpenEdition",
+        "date": "2012-07-20",
+        "keywords": null,
+        "journal_title": "Journal of the Text Encoding Initiative",
+        "volume": null,
+        "issue": "Issue 2",
+        "ISSN": [
+            {
+                "value": "2162-5603",
+                "type": "electronic"
+            }
+        ]
+    },
+    {
+        "url": "http://dx.doi.org/10.4000/jtei.398",
+        "identifier": {
+            "string_id": "10.4000/jtei.398",
+            "id_scheme": "DOI"
+        },
+        "abstract": "It is incumbent upon libraries holding Arabic manuscripts to provide access to digitized surrogates of their holdings. Users require access both by authority list and by content. Thus, an exhaustive cataloguing method is essential. The TEI P5 Manuscript Description module is a suitable tool for manuscript cataloguing, but it lacks certain features that would allow for exhaustive description of ancient Arabic manuscripts. In this article we make several suggestions that would augment the TEI P5 Manuscript Description module allowing for a richer and more accurate description and cataloging of ancient Arabic manuscripts.",
+        "article_title": "A TEI P5 Manuscript Description Adaptation for Cataloguing Digitized Arabic Manuscripts",
+        "authors": [
+            {
+                "given": "Mohammed Ourabah",
+                "family": "Soualah",
+                "affiliation": [
+                    {
+                        "original_name": "Equipe de recherche de Lyon en Information et Communication (ELICO), Lyon, France",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Mohamed",
+                "family": "Hassoun",
+                "affiliation": [
+                    {
+                        "original_name": "Professeur des universités at ENSSIB Lyon ELICO, France",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
+            }
+        ],
+        "publisher": "OpenEdition",
+        "date": "2012-07-20",
+        "keywords": null,
+        "journal_title": "Journal of the Text Encoding Initiative",
+        "volume": null,
+        "issue": "Issue 2",
+        "ISSN": [
+            {
+                "value": "2162-5603",
+                "type": "electronic"
+            }
+        ]
+    },
+    {
+        "url": "http://dx.doi.org/10.4000/jtei.392",
+        "identifier": {
+            "string_id": "10.4000/jtei.392",
+            "id_scheme": "DOI"
+        },
+        "abstract": "Within the Teuchos Group at the University of Hamburg we developed a software package that integrates a graphical user interface (GUI) as well as modules for automatic annotation of manuscripts. The main advantage of such a system is that the user works entirely in plain text, not needing to learn markup, with the system only saving in TEI P5 once the manuscript description is complete. This paper presents our software package, which includes a module for generating P5-conformant manuscript descriptions as well as several modules for automatic deep annotation of the manuscript transcription at the phrase level.",
+        "article_title": "A TEI-based Application for Editing Manuscript Descriptions",
+        "authors": [
+            {
+                "given": "Cristina",
+                "family": "Vertan",
+                "affiliation": [
+                    {
+                        "original_name": "University of Hamburg",
+                        "normalized_name": "Universität Hamburg",
+                        "country": "Germany",
+                        "identifiers": {
+                            "ror": "https://ror.org/00g30e956",
+                            "GRID": "grid.9026.d"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Stefanie",
+                "family": "Reimers",
+                "affiliation": [
+                    {
+                        "original_name": "University of Hamburg",
+                        "normalized_name": "Universität Hamburg",
+                        "country": "Germany",
+                        "identifiers": {
+                            "ror": "https://ror.org/00g30e956",
+                            "GRID": "grid.9026.d"
+                        }
+                    }
+                ]
+            }
+        ],
+        "publisher": "OpenEdition",
+        "date": "2012-07-20",
+        "keywords": null,
+        "journal_title": "Journal of the Text Encoding Initiative",
+        "volume": null,
+        "issue": "Issue 2",
+        "ISSN": [
+            {
+                "value": "2162-5603",
+                "type": "electronic"
+            }
+        ]
+    },
+    {
+        "url": "http://dx.doi.org/10.4000/jtei.372",
+        "identifier": {
+            "string_id": "10.4000/jtei.372",
+            "id_scheme": "DOI"
+        },
+        "abstract": "This article provides a detailed analysis of the current state, needs, and desires of members of the TEI community working with manuscript material, based on the results of a survey carried out by the authors. An analysis of the survey results provides insights into the practices, problems, and limitations of the community utilizing the TEI for manuscript encoding. The results demonstrate the existence of a steep learning curve  for the TEI, where many practitioners are self-taught and where learning-by-doing dominates; there exists a long gap between the first encounter with the TEI and its actual use in projects. Survey results highlight the need for user-friendly, bespoke tools facilitating the processing, analysis, and publishing of TEI-encoded texts.  Feedback on the Guidelines themselves reveals aspects that do not fully meet the needs of those encoding manuscript material. To better address these needs, a strengthening of the Special Interest Groups is proposed.",
+        "article_title": "The Present and Future of the TEI Community for Manuscript Encoding",
+        "authors": [
+            {
+                "given": "Marjorie",
+                "family": "Burghart",
+                "affiliation": [
+                    {
+                        "original_name": "Ecole des Hautes Etudes en Sciences Sociales (EHESS) in Lyon, France",
+                        "normalized_name": "School for Advanced Studies in the Social Sciences",
+                        "country": "France",
+                        "identifiers": {
+                            "ror": "https://ror.org/02d9dg697",
+                            "GRID": "grid.17673.34"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Malte",
+                "family": "Rehbein",
+                "affiliation": [
+                    {
+                        "original_name": "Würzburg University",
+                        "normalized_name": "University of Würzburg",
+                        "country": "Germany",
+                        "identifiers": {
+                            "ror": "https://ror.org/00fbnyb24",
+                            "GRID": "grid.8379.5"
+                        }
+                    }
+                ]
+            }
+        ],
+        "publisher": "OpenEdition",
+        "date": "2012-07-20",
+        "keywords": null,
+        "journal_title": "Journal of the Text Encoding Initiative",
+        "volume": null,
+        "issue": "Issue 2",
+        "ISSN": [
+            {
+                "value": "2162-5603",
+                "type": "electronic"
+            }
+        ]
+    },
+    {
+        "url": "http://dx.doi.org/10.4000/jtei.2573",
+        "identifier": {
+            "string_id": "10.4000/jtei.2573",
+            "id_scheme": "DOI"
+        },
+        "abstract": "A schema, in general, is intended to be used to check a document for errors before those errors cause problems in processing. However, schemas can also help us write our documents. The TEI ODD language (and the more modern version thereof, Pure ODD), in particular, can be used for two related but distinctly different purposes: 1) to create a markup language, including documentation and schemas; and 2) to customize a markup language that was already written in ODD. There are several examples of (1), including the TEI Guidelines, the Music Encoding Initiative, the ISO Feature Structure encoding system, and the W3C Internationalization Tag Set. And there are several well known examples of (2), including TEI Lite, TEI Tite, TEI Simple Print, Comic Book Markup Language, Digital Humanities Quarterly, TEI-in-Libraries, and the markup language for this journal.1 ",
+        "article_title": "A TEI Customization for Writing TEI Customizations",
+        "authors": [
+            {
+                "given": "Syd",
+                "family": "Bauman",
+                "affiliation": [
+                    {
+                        "original_name": "Northeastern University, Digital Scholarship Group",
+                        "normalized_name": "Universidad del Noreste",
+                        "country": "Mexico",
+                        "identifiers": {
+                            "ror": "https://ror.org/02ahky613",
+                            "GRID": "grid.441462.1"
+                        }
+                    }
+                ]
+            }
+        ],
+        "publisher": "OpenEdition",
+        "date": "2020-01-04",
+        "keywords": null,
+        "journal_title": "Journal of the Text Encoding Initiative",
+        "volume": null,
+        "issue": "Issue 12",
+        "ISSN": [
+            {
+                "value": "2162-5603",
+                "type": "electronic"
+            }
+        ]
+    },
+    {
+        "url": "http://dx.doi.org/10.4000/jtei.1777",
+        "identifier": {
+            "string_id": "10.4000/jtei.1777",
+            "id_scheme": "DOI"
+        },
+        "abstract": "The recommendations of the Text Encoding Initiative (TEI) seem to have become a defining feature of the methodological framework of the Digital Humanities, despite recurrent concerns that the system they define is at the same time both too rigorous for the manifold variability of humanistic text, and not precise enough to guarantee interoperability of resources defined using it. In this paper I question the utility of standardization in a scholarly context, proposing however that documentation of formal encoding practice is an essential part of scholarship. After discussing the range of information such documentation entails, I explore the notion of conformance proposed by the TEI Guidelines, suggesting that this must operate at both a technical syntactic level, and a less easily verifiable semantic level. One of the more noticeable features of the Guidelines is their desire to have (as the French say) both the butter and the money for the butter; I will suggest that this polymorphous multiplicity is an essential component of the system, and has been a key factor in determining the TEI’s continued relevance.",
+        "article_title": "What is TEI Conformance, and Why Should You Care?",
+        "authors": [
+            {
+                "given": "Lou",
+                "family": "Burnard",
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
+            }
+        ],
+        "publisher": "OpenEdition",
+        "date": "2019-07-03",
+        "keywords": null,
+        "journal_title": "Journal of the Text Encoding Initiative",
+        "volume": null,
+        "issue": "Issue 12",
+        "ISSN": [
+            {
+                "value": "2162-5603",
+                "type": "electronic"
+            }
+        ]
+    },
+    {
+        "url": "http://dx.doi.org/10.4000/jtei.2800",
+        "identifier": {
+            "string_id": "10.4000/jtei.2800",
+            "id_scheme": "DOI"
+        },
+        "abstract": "This paper describes the ongoing development of a TEI-conformant model for the encoding of hybrid primary sources containing text and graphical components on a similar level of semantic meaning. The subsequent considerations are part of the digital scholarly edition project representing the notebooks of the Austrian conceptual artist Hartmut Skerbisch (1945–2009), a handwritten corpus created over a period of almost 40 years. Besides text, drawings were an important visual means of expression for the artist. In the context of digitally representing the numerous graphics embedded in the notes with equivalent depth to the text, a three-step model is proposed. This model takes into account the (1) graphical components characterizing the composition, (2) textual functions describing and directing the execution of artworks, and (3) interpretation of the graphics and their contextualization with connected material and information. The paper discusses the existing methods of representing graphics in TEI, presents the combination of these methods in the actual scholarly edition project, and introduces the semantic enrichment of the TEI sources through formal descriptions in RDF/XML taxonomies using linked open data. Thus, the genealogy of artistic concepts and artworks documented in the notebooks will become traceable.",
+        "article_title": "Taking Note: Challenges of Dealing with Graphical Content in TEI",
+        "authors": [
+            {
+                "given": "Martina",
+                "family": "Scholger",
+                "affiliation": [
+                    {
+                        "original_name": "University of Graz",
+                        "normalized_name": "University of Graz",
+                        "country": "Austria",
+                        "identifiers": {
+                            "ror": "https://ror.org/01faaaf77",
+                            "GRID": "grid.5110.5"
+                        }
+                    }
+                ]
+            }
+        ],
+        "publisher": "OpenEdition",
+        "date": "2020-02-13",
+        "keywords": null,
+        "journal_title": "Journal of the Text Encoding Initiative",
+        "volume": null,
+        "issue": "Issue 12",
+        "ISSN": [
+            {
+                "value": "2162-5603",
+                "type": "electronic"
+            }
+        ]
+    },
+    {
+        "url": "http://dx.doi.org/10.4000/jtei.1996",
+        "identifier": {
+            "string_id": "10.4000/jtei.1996",
+            "id_scheme": "DOI"
+        },
+        "abstract": "This paper presents a markup model for encoding non-SI units and measurements. Historical texts contain many examples of compound measurements, composed of sets of units and numerical components. Instead of using the <measure> element, which requires a single set of @unit and @quantity, we propose a newly defined set of tags for encoding idiosyncratic measurement semantics, namely <unitDecl> (model.encodingDescPart), <unitDef> (model.global and contained by <unitDecl>), <unit> (model.measureLike), and a relevant attribute @factor (which shows factors of numerical values given in a referenced <unit> element). All of these elements and attributes will be included in the TEI P5 Guidelines, and they are especially useful when encoding units that are not based on the decimal system. Though this paper offers example encodings based on a Japanese historical source, the Engi-Shiki, this model is also applicable to the markup of units used for measurement within various cultural spheres other than Japan.",
+        "article_title": "Toward a Model for Marking up Non-SI Units and Measurements",
+        "authors": [
+            {
+                "given": "Naoki",
+                "family": "Kokaze",
+                "affiliation": [
+                    {
+                        "original_name": "University of Tokyo",
+                        "normalized_name": "University of Tokyo",
+                        "country": "Japan",
+                        "identifiers": {
+                            "ror": "https://ror.org/057zh3y96",
+                            "GRID": "grid.26999.3d"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Kiyonori",
+                "family": "Nagasaki",
+                "affiliation": [
+                    {
+                        "original_name": "International Institute for Digital Humanities in Tokyo",
+                        "normalized_name": "International Institute for Digital Humanities",
+                        "country": "Japan",
+                        "identifiers": {
+                            "ror": "https://ror.org/0454arg59",
+                            "GRID": "grid.474291.d"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Makoto",
+                "family": "Gotō",
+                "affiliation": [
+                    {
+                        "original_name": "National Museum of Japanese History",
+                        "normalized_name": "National Museum of Japanese History",
+                        "country": "Japan",
+                        "identifiers": {
+                            "ror": "https://ror.org/008yfsh88",
+                            "GRID": "grid.471895.6"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Yuta",
+                "family": "Hashimoto",
+                "affiliation": [
+                    {
+                        "original_name": "National Museum of Japanese History",
+                        "normalized_name": "National Museum of Japanese History",
+                        "country": "Japan",
+                        "identifiers": {
+                            "ror": "https://ror.org/008yfsh88",
+                            "GRID": "grid.471895.6"
+                        }
+                    },
+                    {
+                        "original_name": "National Institutes for the Humanities",
+                        "normalized_name": "National Institutes for the Humanities",
+                        "country": "Japan",
+                        "identifiers": {
+                            "ror": "https://ror.org/040xx6p34",
+                            "GRID": "grid.471880.2"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "A. Charles",
+                "family": "Muller",
+                "affiliation": [
+                    {
+                        "original_name": "University of Tokyo",
+                        "normalized_name": "University of Tokyo",
+                        "country": "Japan",
+                        "identifiers": {
+                            "ror": "https://ror.org/057zh3y96",
+                            "GRID": "grid.26999.3d"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Masahiro",
+                "family": "Shimoda",
+                "affiliation": [
+                    {
+                        "original_name": "University of Tokyo",
+                        "normalized_name": "University of Tokyo",
+                        "country": "Japan",
+                        "identifiers": {
+                            "ror": "https://ror.org/057zh3y96",
+                            "GRID": "grid.26999.3d"
+                        }
+                    }
+                ]
+            }
+        ],
+        "publisher": "OpenEdition",
+        "date": "2019-08-31",
+        "keywords": null,
+        "journal_title": "Journal of the Text Encoding Initiative",
+        "volume": null,
+        "issue": "Issue 12",
+        "ISSN": [
+            {
+                "value": "2162-5603",
+                "type": "electronic"
+            }
+        ]
+    },
+    {
+        "url": "http://dx.doi.org/10.4000/jtei.2301",
+        "identifier": {
+            "string_id": "10.4000/jtei.2301",
+            "id_scheme": "DOI"
+        },
+        "abstract": "The Landscapes of Injustice project seeks to encode mid-twentieth-century documents by and about the Japanese-Canadian community so they are accessible to modern audiences. The fundamental problem is that some of the kanji used at that time have been replaced since then by different kanji, and others have been removed from lists of formally acceptable characters. This report documents our efforts with two technologies designed to address this situation. The first is the Standardized Variation Sequence (SVS) feature of Unicode. Our work revealed that this set of variation sequences does not completely cover the old and new glyph pairs identified by the Japanese authorities, and that the pairs formally identified by the Japanese authorities do not completely cover all the new glyph forms in general use. We turned to TEI’s <charDecl>, <glyph>, and <mapping> elements as a second technology to augment the support provided by Unicode. Lastly, we dealt with the issue of finding suitably qualified people to do the markup. The result is markup which retains the original glyphs and relates them to the modern glyphs, so that in our output products we will be able to support search and display using either form of the glyph.",
+        "article_title": "Encoding Disappearing Characters: The Case of Twentieth-Century Japanese-Canadian Names",
+        "authors": [
+            {
+                "given": "Stewart",
+                "family": "Arneil",
+                "affiliation": [
+                    {
+                        "original_name": "University of Victoria, Canada",
+                        "normalized_name": "University of Victoria",
+                        "country": "Canada",
+                        "identifiers": {
+                            "ror": "https://ror.org/04s5mat29",
+                            "GRID": "grid.143640.4"
+                        }
+                    }
+                ]
+            }
+        ],
+        "publisher": "OpenEdition",
+        "date": "2019-08-31",
+        "keywords": null,
+        "journal_title": "Journal of the Text Encoding Initiative",
+        "volume": null,
+        "issue": "Issue 12",
+        "ISSN": [
+            {
+                "value": "2162-5603",
+                "type": "electronic"
+            }
+        ]
+    },
+    {
+        "url": "http://dx.doi.org/10.4000/jtei.2222",
+        "identifier": {
+            "string_id": "10.4000/jtei.2222",
+            "id_scheme": "DOI"
+        },
+        "abstract": "The cryptic crossword is a highly sophisticated and challenging type of intellectual puzzle that has been a daily feature of British newspapers1 for nearly a century, and yet the culture and traditions surrounding it have received little scholarly attention. This article outlines a short history of the cryptic crossword and explains how cryptic clues work. I argue that cryptic crossword clues have a great deal in common with poetry, and that we have much to learn from their structure. Many cryptic clues depend for their effect on confusing the solver through the use of overlapping syntactic and semantic hierarchies, so they serve as evidence that overlapping hierarchies are not merely an unfortunate limitation afflicting XML languages but are psychologically and linguistically real. Finally, I present a TEI schema and an approach to encoding the components of cryptic crossword clues in a way that enables algorithmic analysis of trends, features, and clue types, with a view to creating a historical corpus of encoded clues which will illuminate the evolution of the tradition.",
+        "article_title": "Encoding Cryptic Crossword Clues with TEI",
+        "authors": [
+            {
+                "given": "Martin",
+                "family": "Holmes",
+                "affiliation": [
+                    {
+                        "original_name": "University of Victoria Humanities Computing and Media Centre",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
+            }
+        ],
+        "publisher": "OpenEdition",
+        "date": "2019-08-31",
+        "keywords": null,
+        "journal_title": "Journal of the Text Encoding Initiative",
+        "volume": null,
+        "issue": "Issue 12",
+        "ISSN": [
+            {
+                "value": "2162-5603",
+                "type": "electronic"
+            }
+        ]
+    },
+    {
+        "url": "http://dx.doi.org/10.4000/jtei.2926",
+        "identifier": {
+            "string_id": "10.4000/jtei.2926",
+            "id_scheme": "DOI"
+        },
+        "abstract": "The paper discusses the question of how genetic encoding can be taught in order to introduce encoding strategies of text genesis to less technologically adept scholars. The TEI Guidelines have offered ways to encode manuscript genetics for almost a decade (chapter 11.7). However, this topic is considered to be relatively advanced, and is rarely covered in introductory courses or teaching materials. The paper is based on two encoding workshops at the University of Vienna in different settings. Participants produced a dossier génétique (genetic dossier) in a collaborative writing process. They had at their disposal several writing tools (pens, typewriters) and different kinds of paper, in order to produce a text with several layers, while the whole process was recorded on video. The products were then digitized, and each group got digital copies of a different one. Participants analyzed the specific phenomena of the primary sources, such as additions, corrections, deletions or scribal hands. The participants were then introduced to the necessary encoding strategies to represent the genesis of texts. After the introduction to the transcription tool Transkribus, the students transcribed one of the texts, exported it, and enriched it further with Oxygen Author using a dedicated framework.",
+        "article_title": "Collaborative Encoding of Text Genesis: A Pedagogical Approach for Teaching Genetic Encoding with the TEI",
+        "authors": [
+            {
+                "given": "Stefano",
+                "family": "Apostolo",
+                "affiliation": [
+                    {
+                        "original_name": "Università degli Studi di Milano",
+                        "normalized_name": "University of Milan",
+                        "country": "Italy",
+                        "identifiers": {
+                            "ror": "https://ror.org/00wjc7c48",
+                            "GRID": "grid.4708.b"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Ingo",
+                "family": "Börner",
+                "affiliation": [
+                    {
+                        "original_name": "Austrian Academy of Sciences",
+                        "normalized_name": "Austrian Academy of Sciences",
+                        "country": "Austria",
+                        "identifiers": {
+                            "ror": "https://ror.org/03anc3s24",
+                            "GRID": "grid.4299.6"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Angelika",
+                "family": "Hechtl",
+                "affiliation": [
+                    {
+                        "original_name": "Vienna University of Economics and Business",
+                        "normalized_name": "Vienna University of Economics and Business",
+                        "country": "Austria",
+                        "identifiers": {
+                            "ror": "https://ror.org/03yn8s215",
+                            "GRID": "grid.15788.33"
+                        }
+                    }
+                ]
+            }
+        ],
+        "publisher": "OpenEdition",
+        "date": "2020-05-20",
+        "keywords": null,
+        "journal_title": "Journal of the Text Encoding Initiative",
+        "volume": null,
+        "issue": "Issue 12",
+        "ISSN": [
+            {
+                "value": "2162-5603",
+                "type": "electronic"
+            }
+        ]
+    },
+    {
+        "url": "http://dx.doi.org/10.4000/jtei.1804",
+        "identifier": {
+            "string_id": "10.4000/jtei.1804",
+            "id_scheme": "DOI"
+        },
+        "abstract": "This article offers methods for implementing what Diane Jakacki and Katherine Faull identify as a digital humanities course at the assignment level, specifically one using TEI in college and university literature classrooms. The author provides an overview of his in-class activities and lesson plans, which range from traditional instruction to in-class laboratory exercises, in order to demonstrate an approach to teaching TEI that anticipates students’ anxieties and provides a gradual means of learning this new approach to literary texts. The article concludes by reflecting on how TEI in the classroom complicates critiques of the digital humanities’ proclivity to endorse neoliberal education models. By challenging simplistic renderings of the field and its tools, and by offering interconnections between TEI and traditional humanities practices, the author aims to supply a conscientious approach to designing TEI assignments to those interested but hesitant to include such assignments.",
+        "article_title": "The TEI Assignment in the Literature Classroom: Making a Lord Mayor’s Show in University and College Classrooms",
+        "authors": [
+            {
+                "given": "Mark",
+                "family": "Kaethler",
+                "affiliation": [
+                    {
+                        "original_name": "Medicine Hat College",
+                        "normalized_name": "Medicine Hat College",
+                        "country": "Canada",
+                        "identifiers": {
+                            "ror": "https://ror.org/02kz5f065",
+                            "GRID": "grid.462529.e"
+                        }
+                    },
+                    {
+                        "original_name": "University of Victoria",
+                        "normalized_name": "University of Victoria",
+                        "country": "Canada",
+                        "identifiers": {
+                            "ror": "https://ror.org/04s5mat29",
+                            "GRID": "grid.143640.4"
+                        }
+                    }
+                ]
+            }
+        ],
+        "publisher": "OpenEdition",
+        "date": "2019-07-03",
+        "keywords": null,
+        "journal_title": "Journal of the Text Encoding Initiative",
+        "volume": null,
+        "issue": "Issue 12",
+        "ISSN": [
+            {
+                "value": "2162-5603",
+                "type": "electronic"
+            }
+        ]
+    },
+    {
+        "url": "http://dx.doi.org/10.4000/jtei.2994",
+        "identifier": {
+            "string_id": "10.4000/jtei.2994",
+            "id_scheme": "DOI"
+        },
+        "abstract": "This article analyses the current situation of the Text Encoding Initiative (TEI) in a Spanish-speaking digital humanities (DH) education and research context. It also examines the challenges faced when teaching TEI in Spanish and takes into consideration two main issues: the still not well-defined DH curriculum in many Spanish-speaking countries and the different pedagogical approaches to the TEI depending on the learning context: face-to-face instruction, distance education, and the Foreign Language Classroom. It aims as well to raise awareness about the lack of basic pedagogical materials—tutorials or guidelines—devoted to TEI in Spanish, an obstacle that has hindered the growth of a TEI community of practice from Spain and Latin America. It also offers some strategies and new resources that could benefit the outreach and adoption of the TEI inside and outside the Spanish-speaking DH community, while facilitating a new TEI curriculum in a higher education context.",
+        "article_title": "The Switchover: Teaching and Learning the Text Encoding Initiative in               Spanish",
+        "authors": [
+            {
+                "given": "Susanna",
+                "family": "Allés-Torrent",
+                "affiliation": [
+                    {
+                        "original_name": "University of Miami",
+                        "normalized_name": "University of Miami",
+                        "country": "United States",
+                        "identifiers": {
+                            "ror": "https://ror.org/02dgjyy92",
+                            "GRID": "grid.26790.3a"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Gimena del Rio",
+                "family": "Riande",
+                "affiliation": [
+                    {
+                        "original_name": "Instituto de Investigaciones Bibliográficas y Crítica Textual (IIBICRIT-CONICET, Argentina)",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    },
+                    {
+                        "original_name": "Humanidades CAICYT Lab at the Centro Argentino de Información en Ciencia y Tecnología (CAICYT-CONICET)",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    },
+                    {
+                        "original_name": "Universidad de Buenos Aires (UBA)",
+                        "normalized_name": "University of Buenos Aires",
+                        "country": "Argentina",
+                        "identifiers": {
+                            "ror": "https://ror.org/0081fs513",
+                            "GRID": "grid.7345.5"
+                        }
+                    },
+                    {
+                        "original_name": "LINHD-UNED (Spain)",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
+            }
+        ],
+        "publisher": "OpenEdition",
+        "date": "2020-05-20",
+        "keywords": null,
+        "journal_title": "Journal of the Text Encoding Initiative",
+        "volume": null,
+        "issue": "Issue 12",
+        "ISSN": [
+            {
+                "value": "2162-5603",
+                "type": "electronic"
+            }
+        ]
+    },
+    {
+        "url": "http://dx.doi.org/10.4000/jtei.2185",
+        "identifier": {
+            "string_id": "10.4000/jtei.2185",
+            "id_scheme": "DOI"
+        },
+        "abstract": "In this essay, we describe our collaborative work as students and teachers on a TEI edition of Dinah Mulock Craik’s correspondence. Inside Digital Dinah Craik, our pedagogy is collaborative and inclusive, attentive to the material conditions of both the text and our labor, and is reproducible. We follow a cognitive apprenticeship model of education that emphasizes a community of practice where learners become increasingly proficient until, ideally, they are no longer apprentices but genuine collaborators. In this paper, we demonstrate how the five stages of apprenticeship learning—modeling, approximating, fading, self-directed learning, and generalizing (Hansman 2001, 47)—help us to foster what scholars such as Anne Balsamo, Elizabeth Losh, Jacqueline Wernimont, Laura Wexler, and Hong-An Wu call the “foundational ethical principles” (Balsamo 2011, 162–3) and “feminist virtues” (Losh et al. para. 26) of collaboration—confidence, humility, flexibility, integrity, and intellectual generosity.",
+        "article_title": "Inside Digital Dinah Craik: Feminist Pedagogy, Cognitive Apprenticeship, and the TEI",
+        "authors": [
+            {
+                "given": "Kailey",
+                "family": "Fukushima",
+                "affiliation": [
+                    {
+                        "original_name": "University of Victoria",
+                        "normalized_name": "University of Victoria",
+                        "country": "Canada",
+                        "identifiers": {
+                            "ror": "https://ror.org/04s5mat29",
+                            "GRID": "grid.143640.4"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Karen",
+                "family": "Bourrier",
+                "affiliation": [
+                    {
+                        "original_name": "University of Calgary",
+                        "normalized_name": "University of Calgary",
+                        "country": "Canada",
+                        "identifiers": {
+                            "ror": "https://ror.org/03yjb2x39",
+                            "GRID": "grid.22072.35"
+                        }
+                    }
+                ]
+            }
+        ],
+        "publisher": "OpenEdition",
+        "date": "2019-08-31",
+        "keywords": null,
+        "journal_title": "Journal of the Text Encoding Initiative",
+        "volume": null,
+        "issue": "Issue 12",
+        "ISSN": [
+            {
+                "value": "2162-5603",
+                "type": "electronic"
+            }
+        ]
+    },
+    {
+        "url": "http://dx.doi.org/10.4000/jtei.2144",
+        "identifier": {
+            "string_id": "10.4000/jtei.2144",
+            "id_scheme": "DOI"
+        },
+        "abstract": "This paper focuses on recent work by the TEI Archiving, Preservation, and Access Service (TAPAS) on pedagogy with TEI, and specifically on a recent initiative called “TAPAS Classroom” focused on exploring pedagogical uses of TEI. We provide some background on TAPAS, describe several case studies involving pedagogical partners who used TAPAS in teaching, and finally describe the TAPAS Classroom initiative and its outcomes.",
+        "article_title": "TEI Pedagogy and TAPAS Classroom",
+        "authors": [
+            {
+                "given": "Julia",
+                "family": "Flanders",
+                "affiliation": [
+                    {
+                        "original_name": "Northeastern University Library",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Syd",
+                "family": "Bauman",
+                "affiliation": [
+                    {
+                        "original_name": "Northeastern University, Digital Scholarship Group",
+                        "normalized_name": "Universidad del Noreste",
+                        "country": "Mexico",
+                        "identifiers": {
+                            "ror": "https://ror.org/02ahky613",
+                            "GRID": "grid.441462.1"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Ashley",
+                "family": "Clark",
+                "affiliation": [
+                    {
+                        "original_name": "Northeastern University Library’s Digital Scholarship Group",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Benjamin Love",
+                "family": "(Doyle)",
+                "affiliation": [
+                    {
+                        "original_name": "Northeastern University",
+                        "normalized_name": "Universidad del Noreste",
+                        "country": "Mexico",
+                        "identifiers": {
+                            "ror": "https://ror.org/02ahky613",
+                            "GRID": "grid.441462.1"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Scott",
+                "family": "Hamlin",
+                "affiliation": [
+                    {
+                        "original_name": "Stonehill College",
+                        "normalized_name": "Stonehill College",
+                        "country": "United States",
+                        "identifiers": {
+                            "ror": "https://ror.org/023288525",
+                            "GRID": "grid.419689.b"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "William",
+                "family": "Quinn",
+                "affiliation": [
+                    {
+                        "original_name": "Northeastern University",
+                        "normalized_name": "Universidad del Noreste",
+                        "country": "Mexico",
+                        "identifiers": {
+                            "ror": "https://ror.org/02ahky613",
+                            "GRID": "grid.441462.1"
+                        }
+                    }
+                ]
+            }
+        ],
+        "publisher": "OpenEdition",
+        "date": "2019-08-31",
+        "keywords": null,
+        "journal_title": "Journal of the Text Encoding Initiative",
+        "volume": null,
+        "issue": "Issue 12",
+        "ISSN": [
+            {
+                "value": "2162-5603",
+                "type": "electronic"
+            }
+        ]
+    },
+    {
+        "url": "http://dx.doi.org/10.4000/jtei.1535",
+        "identifier": {
+            "string_id": "10.4000/jtei.1535",
+            "id_scheme": "DOI"
+        },
+        "abstract": "Sonification is a complementary technique to visualization that uses sound to describe relationships in data. We describe work to aid exploratory textual analysis by sonifying textual variants. The sonification presented focuses on using pitch and tones to help the user listen to differences in the structure between variations of a text or texts encoded in Text Encoding Initiative (TEI) XML. Extracting hyperstructures, we describe our conversion of TEI elements and attributes into sounds for a listener. We discuss our approaches to creating the sounds used to represent the data from the Bodleian Libraries’ First Folio project and early visualizations, and we consider the issues raised by the use of this novel technique. The use of sound provides an exciting alternative way of exploring textual structures to determine differences between them. While the novelty in this area is a major challenge, we suggest that this method can be useful in the exploration of variants between texts marked up with TEI.",
+        "article_title": "“It will discourse most eloquent music”: Sonifying Variants of Hamlet",
+        "authors": [
+            {
+                "given": "Iain",
+                "family": "Emsley",
+                "affiliation": [
+                    {
+                        "original_name": "Oxford e-Research Centre",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "David De",
+                "family": "Roure",
+                "affiliation": [
+                    {
+                        "original_name": "University of Oxford",
+                        "normalized_name": "University of Oxford",
+                        "country": "United Kingdom",
+                        "identifiers": {
+                            "ror": "https://ror.org/052gg0110",
+                            "GRID": "grid.4991.5"
+                        }
+                    }
+                ]
+            }
+        ],
+        "publisher": "OpenEdition",
+        "date": "2017-01-31",
+        "keywords": null,
+        "journal_title": "Journal of the Text Encoding Initiative",
+        "volume": null,
+        "issue": "Issue 10",
+        "ISSN": [
+            {
+                "value": "2162-5603",
+                "type": "electronic"
+            }
+        ]
+    },
+    {
+        "url": "http://dx.doi.org/10.4000/jtei.1643",
+        "identifier": {
+            "string_id": "10.4000/jtei.1643",
+            "id_scheme": "DOI"
+        },
+        "abstract": "In this paper we provide a systematic and comprehensive set of modeling principles for representing etymological data in digital dictionaries using TEI. The purpose is to integrate in one coherent framework both digital representations of legacy dictionaries and born-digital lexical databases that are constructed manually or semi-automatically.",
+        "article_title": "Deep Encoding of Etymological Information in TEI",
+        "authors": [
+            {
+                "given": "Jack",
+                "family": "Bowers",
+                "affiliation": [
+                    {
+                        "original_name": "Austrian Academy of Sciences (ÖAW)—Austrian Center for Digital Humanities (ACDH)",
+                        "normalized_name": "Austrian Academy of Sciences",
+                        "country": "Austria",
+                        "identifiers": {
+                            "ror": "https://ror.org/03anc3s24",
+                            "GRID": "grid.4299.6"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Laurent",
+                "family": "Romary",
+                "affiliation": [
+                    {
+                        "original_name": "Directeur de Recherche at Inria, France",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    },
+                    {
+                        "original_name": "European infrastructure DARIAH",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    },
+                    {
+                        "original_name": "Centre Marc Bloch and the Academy of Sciences in Berlin.",
+                        "normalized_name": "Centre Marc Bloch",
+                        "country": "Germany",
+                        "identifiers": {
+                            "ror": "https://ror.org/043bqfp86",
+                            "GRID": "grid.469511.e"
+                        }
+                    }
+                ]
+            }
+        ],
+        "publisher": "OpenEdition",
+        "date": "2017-08-08",
+        "keywords": null,
+        "journal_title": "Journal of the Text Encoding Initiative",
+        "volume": null,
+        "issue": "Issue 10",
+        "ISSN": [
+            {
+                "value": "2162-5603",
+                "type": "electronic"
+            }
+        ]
+    },
+    {
+        "url": "http://dx.doi.org/10.4000/jtei.1650",
+        "identifier": {
+            "string_id": "10.4000/jtei.1650",
+            "id_scheme": "DOI"
+        },
+        "abstract": "This paper presents work in progress on the DTA “Base Format” for Manuscripts (DTABf-M), an extension to the DTA “Base Format” (DTABf) for the TEI-conformant annotation of manuscripts. The DTABf is a TEI-subset for the consistent, yet unambiguous, annotation of large amounts of historical text. During our work on the DTA corpora, the DTABf has continuously been subject to further adaptations to specific annotation needs. The latest addition, the DTABf-M, contains elements, attributes, and values necessary for the annotation of (historical) handwritten documents. The goal is to provide a TEI format for diverse manuscripts in large text corpora.",
+        "article_title": "Enabling the Encoding of Manuscripts within the DTABf: Extension and Modularization of the Format",
+        "authors": [
+            {
+                "given": "Susanne",
+                "family": "Haaf",
+                "affiliation": [
+                    {
+                        "original_name": "Berlin-Brandenburg Academy of Sciences and Humanities",
+                        "normalized_name": "Berlin-Brandenburg Academy of Sciences and Humanities",
+                        "country": "Germany",
+                        "identifiers": {
+                            "ror": "https://ror.org/05jgq9443",
+                            "GRID": "grid.420264.6"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Christian",
+                "family": "Thomas",
+                "affiliation": [
+                    {
+                        "original_name": "Berlin-Brandenburg Academy of Sciences and Humanities",
+                        "normalized_name": "Berlin-Brandenburg Academy of Sciences and Humanities",
+                        "country": "Germany",
+                        "identifiers": {
+                            "ror": "https://ror.org/05jgq9443",
+                            "GRID": "grid.420264.6"
+                        }
+                    }
+                ]
+            }
+        ],
+        "publisher": "OpenEdition",
+        "date": "2017-09-10",
+        "keywords": null,
+        "journal_title": "Journal of the Text Encoding Initiative",
+        "volume": null,
+        "issue": "Issue 10",
+        "ISSN": [
+            {
+                "value": "2162-5603",
+                "type": "electronic"
+            }
+        ]
+    },
+    {
+        "url": "http://dx.doi.org/10.4000/jtei.1742",
+        "identifier": {
+            "string_id": "10.4000/jtei.1742",
+            "id_scheme": "DOI"
+        },
+        "abstract": "The web service correspSearch collects correspondence metadata from diverse scholarly editions by using the TEI XML–based “Correspondence Metadata Interchange Format” developed by the TEI Correspondence SIG. The web service provides the aggregated data not only on a website, but also via an API in different machine-readable formats and under a free license. The API also makes it possible to automatically refer or even link a letter in one digital edition to related letters provided by other editions. Collecting edited letters in correspSearch and linking them via the API helps overcome certain methodological disadvantages of scholarly editions of letters, since it enables the contextualization and connection of single letters within an entire correspondence network.",
+        "article_title": "correspSearch – Connecting Scholarly Editions of Letters",
+        "authors": [
+            {
+                "given": "Stefan",
+                "family": "Dumont",
+                "affiliation": [
+                    {
+                        "original_name": "Berlin-Brandenburg Academy of Sciences and Humanities",
+                        "normalized_name": "Berlin-Brandenburg Academy of Sciences and Humanities",
+                        "country": "Germany",
+                        "identifiers": {
+                            "ror": "https://ror.org/05jgq9443",
+                            "GRID": "grid.420264.6"
+                        }
+                    }
+                ]
+            }
+        ],
+        "publisher": "OpenEdition",
+        "date": "2018-02-26",
+        "keywords": null,
+        "journal_title": "Journal of the Text Encoding Initiative",
+        "volume": null,
+        "issue": "Issue 10",
+        "ISSN": [
+            {
+                "value": "2162-5603",
+                "type": "electronic"
+            }
+        ]
+    },
+    {
+        "url": "http://dx.doi.org/10.4000/jtei.1838",
+        "identifier": {
+            "string_id": "10.4000/jtei.1838",
+            "id_scheme": "DOI"
+        },
+        "abstract": "Stand-off techniques are well documented in the TEI Guidelines and their use is encouraged. They are not widely adopted, however, except in their simplest forms, because they introduce considerable managerial overhead to a project’s workflow. This article argues that stand-off markup is becoming increasingly relevant to a wider range of TEI projects, partly due to recent developments in the theory of textual modeling that strongly acknowledge the multidimensional nature of text. As a consequence, there is a need to considerably simplify the authoring, management, and processing of stand-off markup; but to what extent is this possible? Can tools make stand-off techniques more approachable without substantially disrupting workflows familiar to TEI encoders? This article focuses on the complexities of stand-off markup authoring through two examples, one from the now completed project Freischütz Digital and one from ongoing development at the Shelley-Godwin Archive. More specifically, these examples present situations in which stand-off has been essential for bridging competing editorial representations of text, an operation that is becoming fundamental in the multidimensional modeling of text. The coreBuilder, an open source web-based visual environment for authoring stand-off markup, was created to aid the encoding workflow for these TEI projects. coreBuilder was awarded the first Rahtz Prize for TEI Ingenuity in 2017. The tool is presented here as an example of simplifying the creation of stand-off markup without hiding the XML from the expert encoder.",
+        "article_title": "Why TEI Stand-off Markup Authoring Needs Simplification",
+        "authors": [
+            {
+                "given": "Raffaele",
+                "family": "Viglianti",
+                "affiliation": [
+                    {
+                        "original_name": "University of Maryland",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
+            }
+        ],
+        "publisher": "OpenEdition",
+        "date": "2019-07-03",
+        "keywords": null,
+        "journal_title": "Journal of the Text Encoding Initiative",
+        "volume": null,
+        "issue": "Issue 10",
+        "ISSN": [
+            {
+                "value": "2162-5603",
+                "type": "electronic"
+            }
+        ]
+    },
+    {
+        "url": "http://dx.doi.org/10.4000/jtei.1746",
+        "identifier": {
+            "string_id": "10.4000/jtei.1746",
+            "id_scheme": "DOI"
+        },
+        "abstract": "The Indiana University (IU) Libraries have a long history of using the TEI markup standard to encode and publish electronic texts, but choosing the best publishing platform has been challenging for certain projects. Before formally launching an open access journal publishing program in 2008, the Libraries collaborated with two scholarly journals to provide open access publishing using P3 SGML and P4 XML TEI encoding delivered through the DSpace and XTF platforms. Both journals used complex encoding, transformation, and delivery workflows that required copious amounts of custom software development to function properly. As these systems aged, the time and effort required to maintain them steadily increased. In 2013, the Libraries began planning to migrate these journals into the Open Journal Systems (OJS)1 platform while preserving the TEI markup.",
+        "article_title": "Migrate, Publish, Repeat: TEI Journals in the Open Journal Systems Platform",
+        "authors": [
+            {
+                "given": "Nicholas",
+                "family": "Homenda",
+                "affiliation": [
+                    {
+                        "original_name": "Indiana University Bloomington Libraries",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Shayna",
+                "family": "Pekala",
+                "affiliation": [
+                    {
+                        "original_name": "Georgetown University Library",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
+            }
+        ],
+        "publisher": "OpenEdition",
+        "date": "2018-03-27",
+        "keywords": null,
+        "journal_title": "Journal of the Text Encoding Initiative",
+        "volume": null,
+        "issue": "Issue 10",
+        "ISSN": [
+            {
+                "value": "2162-5603",
+                "type": "electronic"
+            }
+        ]
+    },
+    {
+        "url": "http://dx.doi.org/10.4000/jtei.1520",
+        "identifier": {
+            "string_id": "10.4000/jtei.1520",
+            "id_scheme": "DOI"
+        },
+        "abstract": "The various mechanisms offered by the TEI schema and Guidelines for the encoding of critical editions suffer from one major shortcoming: the lack of user-friendly tools allowing philologists and their readers to display and process TEI-encoded editions. After witnessing –and personally experiencing– this frustration, I decided to develop an application especially dedicated to supporting philologists in their work, and helping them to fully benefit from their encoding work. The TEI Critical Apparatus Toolbox is now available online (http://ciham-digital.huma-num.fr/teicat/). This article describes the context in which this application was developed, its current features, and the plans for future improvements.",
+        "article_title": "The TEI Critical Apparatus Toolbox: Empowering Textual Scholars through Display, Control, and Comparison Features",
+        "authors": [
+            {
+                "given": "Marjorie",
+                "family": "Burghart",
+                "affiliation": [
+                    {
+                        "original_name": "French National Center for Academic Research (CNRS - Centre National de la Recherche Scientifique).",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
+            }
+        ],
+        "publisher": "OpenEdition",
+        "date": "2017-01-31",
+        "keywords": null,
+        "journal_title": "Journal of the Text Encoding Initiative",
+        "volume": null,
+        "issue": "Issue 10",
+        "ISSN": [
+            {
+                "value": "2162-5603",
+                "type": "electronic"
+            }
+        ]
+    },
+    {
+        "url": "http://dx.doi.org/10.4000/jtei.1680",
+        "identifier": {
+            "string_id": "10.4000/jtei.1680",
+            "id_scheme": "DOI"
+        },
+        "abstract": "This article considers the possibilities and challenges in using TEI-based XML markup for curation of objects mentioned in historical documents such as catalogues and inventories, but also in unstructured forms such as diaries and personal correspondence. It takes as a case study documents related to early modern collections of curiosities. It first considers how far the current guidelines for manuscript description can be generalized for encoding other kinds of material objects and their contexts. It then examines what more is required for treating mentions and descriptions of objects in historical documents. It argues that the core affordance of curation for such materials is the ability to identify and select what constitutes a mention of an object and to relate that mention to its immediate context, including its relationships to object groupings.",
+        "article_title": "Curating Object-Oriented Collections Using the TEI",
+        "authors": [
+            {
+                "given": "Brent",
+                "family": "Nelson",
+                "affiliation": [
+                    {
+                        "original_name": "University of Saskatchewan",
+                        "normalized_name": "University of Saskatchewan",
+                        "country": "Canada",
+                        "identifiers": {
+                            "ror": "https://ror.org/010x8gc63",
+                            "GRID": "grid.25152.31"
+                        }
+                    }
+                ]
+            }
+        ],
+        "publisher": "OpenEdition",
+        "date": "2017-12-16",
+        "keywords": null,
+        "journal_title": "Journal of the Text Encoding Initiative",
+        "volume": null,
+        "issue": "Issue 9",
+        "ISSN": [
+            {
+                "value": "2162-5603",
+                "type": "electronic"
+            }
+        ]
+    },
+    {
+        "url": "http://dx.doi.org/10.4000/jtei.1463",
+        "identifier": {
+            "string_id": "10.4000/jtei.1463",
+            "id_scheme": "DOI"
+        },
+        "abstract": "By combining traditional historical enquiry with TEI XML encoding and decoding in a corpus analysis phase, the project aims at addressing research questions mainly related to the French and British positions on the topics of armament design and production and of armament control within the Western European Union (WEU) from 1954 to 1982. The paper focuses on the annotation of speakers (different countries and institutional representatives) and their discourse in a selection of institutional documents (minutes, notes, studies, memoranda) (encoding phase) and the identification of linguistic patterns on armament issues in their discourse, as well as the interpretation of results (decoding phase).",
+        "article_title": "Materiality of TEI Encoding and Decoding: An Analysis of the Western European Union Archives on Armament Policy",
+        "authors": [
+            {
+                "given": "Florentina",
+                "family": "Armaselu",
+                "affiliation": [
+                    {
+                        "original_name": "University of Luxembourg",
+                        "normalized_name": "University of Luxembourg",
+                        "country": "Luxembourg",
+                        "identifiers": {
+                            "ror": "https://ror.org/036x5ad56",
+                            "GRID": "grid.16008.3f"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Verónica",
+                "family": "Martins",
+                "affiliation": [
+                    {
+                        "original_name": "Centre Virtuel de la Connaissance sur l’Europe",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Catherine Emma",
+                "family": "Jones",
+                "affiliation": [
+                    {
+                        "original_name": "University of Luxembourg",
+                        "normalized_name": "University of Luxembourg",
+                        "country": "Luxembourg",
+                        "identifiers": {
+                            "ror": "https://ror.org/036x5ad56",
+                            "GRID": "grid.16008.3f"
+                        }
+                    }
+                ]
+            }
+        ],
+        "publisher": "OpenEdition",
+        "date": "2016-09-23",
+        "keywords": null,
+        "journal_title": "Journal of the Text Encoding Initiative",
+        "volume": null,
+        "issue": "Issue 9",
+        "ISSN": [
+            {
+                "value": "2162-5603",
+                "type": "electronic"
+            }
+        ]
+    },
+    {
+        "url": "http://dx.doi.org/10.4000/jtei.1480",
+        "identifier": {
+            "string_id": "10.4000/jtei.1480",
+            "id_scheme": "DOI"
+        },
+        "abstract": "The debate on the semantic role of markup languages has been quite lively and the TEI community has played an active part in it. It is commonly acknowledged that markup conveys semantic information. However, XML is a poor language for semantic data modeling. Several proposals have previously been drawn up in the past to provide XML with formalized and computable semantics. In our opinion, the formalisms offered by the Semantic Web paradigm are mature enough to build a workable semantic extension of the TEI.",
+        "article_title": "Formal Ontologies, Linked Data, and TEI Semantics",
+        "authors": [
+            {
+                "given": "Fabio",
+                "family": "Ciotti",
+                "affiliation": [
+                    {
+                        "original_name": "University of Roma Tor Vergata",
+                        "normalized_name": "University of Rome Tor Vergata",
+                        "country": "Italy",
+                        "identifiers": {
+                            "ror": "https://ror.org/02p77k626",
+                            "GRID": "grid.6530.0"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Francesca",
+                "family": "Tomasi",
+                "affiliation": [
+                    {
+                        "original_name": "University of Bologna",
+                        "normalized_name": "University of Bologna",
+                        "country": "Italy",
+                        "identifiers": {
+                            "ror": "https://ror.org/01111rn36",
+                            "GRID": "grid.6292.f"
+                        }
+                    }
+                ]
+            }
+        ],
+        "publisher": "OpenEdition",
+        "date": "2016-09-23",
+        "keywords": null,
+        "journal_title": "Journal of the Text Encoding Initiative",
+        "volume": null,
+        "issue": "Issue 9",
+        "ISSN": [
+            {
+                "value": "2162-5603",
+                "type": "electronic"
+            }
+        ]
+    },
+    {
+        "url": "http://dx.doi.org/10.4000/jtei.1453",
+        "identifier": {
+            "string_id": "10.4000/jtei.1453",
+            "id_scheme": "DOI"
+        },
+        "abstract": "Are the data of an edition means to a particular and privileged presentation, or is the presentation a side effect? Because of the changing nature of computer systems, with constant progression in hardware and software, the encoded texts are the most important long-term outcome of the project—the representation of the knowledge— and presentation within a particular application is destined to become obsolete relatively quickly.",
+        "article_title": "Challenging the Myth of Presentation in Digital Editions",
+        "authors": [
+            {
+                "given": "Magdalena",
+                "family": "Turska",
+                "affiliation": [
+                    {
+                        "original_name": "eXist Solutions",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    },
+                    {
+                        "original_name": "TEI Consortium’s Technical Council",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "James",
+                "family": "Cummings",
+                "affiliation": [
+                    {
+                        "original_name": "University of Oxford",
+                        "normalized_name": "University of Oxford",
+                        "country": "United Kingdom",
+                        "identifiers": {
+                            "ror": "https://ror.org/052gg0110",
+                            "GRID": "grid.4991.5"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Sebastian",
+                "family": "Rahtz",
+                "affiliation": [
+                    {
+                        "original_name": "University of Oxford",
+                        "normalized_name": "University of Oxford",
+                        "country": "United Kingdom",
+                        "identifiers": {
+                            "ror": "https://ror.org/052gg0110",
+                            "GRID": "grid.4991.5"
+                        }
+                    }
+                ]
+            }
+        ],
+        "publisher": "OpenEdition",
+        "date": "2016-09-23",
+        "keywords": null,
+        "journal_title": "Journal of the Text Encoding Initiative",
+        "volume": null,
+        "issue": "Issue 9",
+        "ISSN": [
+            {
+                "value": "2162-5603",
+                "type": "electronic"
+            }
+        ]
+    },
+    {
+        "url": "http://dx.doi.org/10.4000/jtei.1433",
+        "identifier": {
+            "string_id": "10.4000/jtei.1433",
+            "id_scheme": "DOI"
+        },
+        "abstract": "The encoding of letters has a long tradition in the TEI but there have been no official recommendations in the TEI Guidelines on how to deal with correspondence. Two TEI customizations present exemplary models: DALF: Digital Archive of Letters in Flanders and Carl Maria von Weber—Collected Works (WeGA). These were the basis of the work of the TEI Correspondence Special Interest Group that formed a task force—consisting of the three authors of this article—for developing encoding guidelines. This article discusses correspondence theory in brief, letters as an act of communication, and how these aspects of correspondence can be expressed by TEI entities. The development of the communication-oriented concept of correspondence and its direct implementation in correspondence-specific metadata structures will be discussed. Central is the new wrapper element <correspDesc> (correspondence description), which stores key metadata about the encoded piece of correspondence. After addressing this first question of how one should encode correspondence with the TEI, we will discuss the question of linking and interchange between projects and editions dealing with correspondence material. To facilitate this, the Correspondence Metadata Interchange (CMI) format has been developed by the TEI Correspondence SIG’s task force as a subset of <correspDesc>. Finally, we will describe some organizational difficulties in implementing the new elements and encoding model into the TEI Guidelines in 2015.",
+        "article_title": "Towards a Model for Encoding Correspondence in the TEI: Developing and Implementing <correspDesc>",
+        "authors": [
+            {
+                "given": "Peter",
+                "family": "Stadler",
+                "affiliation": [
+                    {
+                        "original_name": "University of Paderborn, Germany",
+                        "normalized_name": "University of Paderborn",
+                        "country": "Germany",
+                        "identifiers": {
+                            "ror": "https://ror.org/058kzsd48",
+                            "GRID": "grid.5659.f"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Marcel",
+                "family": "Illetschko",
+                "affiliation": [
+                    {
+                        "original_name": "Austrian National Library",
+                        "normalized_name": "Austrian National Library",
+                        "country": "Austria",
+                        "identifiers": {
+                            "ror": "https://ror.org/03dscga50",
+                            "GRID": "grid.426076.1"
+                        }
+                    },
+                    {
+                        "original_name": "Bundesinstitut für Bildungsforschung, Innovation & Entwicklung des österreichischen Schulwesens, BIFIE",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Sabine",
+                "family": "Seifert",
+                "affiliation": [
+                    {
+                        "original_name": "Humboldt University Berlin",
+                        "normalized_name": "Humboldt University of Berlin",
+                        "country": "Germany",
+                        "identifiers": {
+                            "ror": "https://ror.org/01hcx6992",
+                            "GRID": "grid.7468.d"
+                        }
+                    },
+                    {
+                        "original_name": "Theodor Fontane Archive at Potsdam University",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
+            }
+        ],
+        "publisher": "OpenEdition",
+        "date": "2016-09-09",
+        "keywords": null,
+        "journal_title": "Journal of the Text Encoding Initiative",
+        "volume": null,
+        "issue": "Issue 9",
+        "ISSN": [
+            {
+                "value": "2162-5603",
+                "type": "electronic"
+            }
+        ]
+    },
+    {
+        "url": "http://dx.doi.org/10.4000/jtei.1322",
+        "identifier": {
+            "string_id": "10.4000/jtei.1322",
+            "id_scheme": "DOI"
+        },
+        "abstract": "In the early days of the TEI Guidelines, academic libraries extended their access and preservation mandates to include electronic text, providing expertise in authority control, subject analysis, and bibliographic description. But the advent of mass digitization efforts involving simple scanning of pages and OCR called into question such a role for libraries in text encoding. This paper presents the results of a survey targeting library employees to learn more about text-encoding practices and to gauge current attitudes toward text encoding.",
+        "article_title": "“Reports of My Death Are Greatly Exaggerated”: Findings from the TEI in Libraries Survey",
+        "authors": [
+            {
+                "given": "Michelle",
+                "family": "Dalmau",
+                "affiliation": [
+                    {
+                        "original_name": "Indiana University Libraries",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Kevin",
+                "family": "Hawkins",
+                "affiliation": [
+                    {
+                        "original_name": "University of North Texas Libraries",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
+            }
+        ],
+        "publisher": "OpenEdition",
+        "date": "2015-11-03",
+        "keywords": null,
+        "journal_title": "Journal of the Text Encoding Initiative",
+        "volume": null,
+        "issue": "Issue 8",
+        "ISSN": [
+            {
+                "value": "2162-5603",
+                "type": "electronic"
+            }
+        ]
+    },
+    {
+        "url": "http://dx.doi.org/10.4000/jtei.1285",
+        "identifier": {
+            "string_id": "10.4000/jtei.1285",
+            "id_scheme": "DOI"
+        },
+        "abstract": "In this article we illustrate a work in progress related to the design of a library of software components devoted to editing, processing, and visualizing TEI-annotated documents in the domain of philological studies, in particular in the subdomain of collaborative philology, which concerns the social activity of scholars focused on shared philological tasks. We discuss the technologies related to XML markup languages and the processing of marked-up documents. We describe the method used to design and implement the TeiCoPhiLib, outlining the design patterns as well as discussing general benefits of the overall architecture. Finally, we present case studies in which some components of our library currently implemented in Java have been used.",
+        "article_title": "TeiCoPhiLib: A Library of Components for the Domain of Collaborative Philology",
+        "authors": [
+            {
+                "given": "Federico",
+                "family": "Boschetti",
+                "affiliation": [
+                    {
+                        "original_name": "A. Zampolli Institute for Computational Linguistics of the Italian National Research Council (ILC-CNR) of Pisa",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Angelo Mario",
+                "family": "Del Grosso",
+                "affiliation": [
+                    {
+                        "original_name": "University of Pisa",
+                        "normalized_name": "University of Pisa",
+                        "country": "Italy",
+                        "identifiers": {
+                            "ror": "https://ror.org/03ad39j10",
+                            "GRID": "grid.5395.a"
+                        }
+                    },
+                    {
+                        "original_name": "A. Zampolli Institute for Computational Linguistics of the Italian National Research Council (ILC-CNR) of Pisa",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
+            }
+        ],
+        "publisher": "OpenEdition",
+        "date": "2015-09-26",
+        "keywords": null,
+        "journal_title": "Journal of the Text Encoding Initiative",
+        "volume": null,
+        "issue": "Issue 8",
+        "ISSN": [
+            {
+                "value": "2162-5603",
+                "type": "electronic"
+            }
+        ]
+    },
+    {
+        "url": "http://dx.doi.org/10.4000/jtei.1242",
+        "identifier": {
+            "string_id": "10.4000/jtei.1242",
+            "id_scheme": "DOI"
+        },
+        "abstract": "This article shows how, with a focus on user-friendliness and a bottom-up approach, the digital work environment ediarum was successfully developed. With ediarum, researchers can comfortably encode and edit in TEI, as well as publish their results in an online or print edition. This solution, developed by the TELOTA initiative of Berlin-Brandenburg Academy of Sciences and Humanities, is based on three software components: eXistdb, Oxygen XML Author, and ConTeXt. These components are combined, supplemented with additional functions, and tailored to fit a project’s needs. After a pilot run, ediarum has been implemented for multiple internal and external research projects. The experience that was gained and our self developed program components are available to the Digital Humanities community.",
+        "article_title": "Bridging the Gap: Greater Usability for TEI encoding",
+        "authors": [
+            {
+                "given": "Stefan",
+                "family": "Dumont",
+                "affiliation": [
+                    {
+                        "original_name": "Berlin-Brandenburg Academy of Sciences and Humanities",
+                        "normalized_name": "Berlin-Brandenburg Academy of Sciences and Humanities",
+                        "country": "Germany",
+                        "identifiers": {
+                            "ror": "https://ror.org/05jgq9443",
+                            "GRID": "grid.420264.6"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Martin",
+                "family": "Fechner",
+                "affiliation": [
+                    {
+                        "original_name": "Berlin-Brandenburg Academy of Sciences and Humanities",
+                        "normalized_name": "Berlin-Brandenburg Academy of Sciences and Humanities",
+                        "country": "Germany",
+                        "identifiers": {
+                            "ror": "https://ror.org/05jgq9443",
+                            "GRID": "grid.420264.6"
+                        }
+                    }
+                ]
+            }
+        ],
+        "publisher": "OpenEdition",
+        "date": "2015-09-21",
+        "keywords": null,
+        "journal_title": "Journal of the Text Encoding Initiative",
+        "volume": null,
+        "issue": "Issue 8",
+        "ISSN": [
+            {
+                "value": "2162-5603",
+                "type": "electronic"
+            }
+        ]
+    },
+    {
+        "url": "http://dx.doi.org/10.4000/jtei.1171",
+        "identifier": {
+            "string_id": "10.4000/jtei.1171",
+            "id_scheme": "DOI"
+        },
+        "abstract": "In this article we describe how textual encoding is used in our current project of constructing a digital archive of Fernando Pessoa’s Livro do Desassossego [LdoD]. Our model for virtualizing the authorial and editorial forms of this unfinished work aims to create a dynamic archive that is open to user interaction and collaboration. A brief introduction to the theoretical rationale of the archive is followed by a description of our technical solution for TEI XML encoding that is responsive to dynamic changes over time. With our software architecture proposal for processing TEI markup, the Collaborative Digital Archive of the Book of Disquiet will be able to instantiate the cooperative and social editing functionalities of Web 2.0 environments.",
+        "article_title": "TEI4LdoD: Textual Encoding and Social Editing in Web 2.0 Environments",
+        "authors": [
+            {
+                "given": "António Rito",
+                "family": "Silva",
+                "affiliation": [
+                    {
+                        "original_name": "University of Lisbon",
+                        "normalized_name": "University of Lisbon",
+                        "country": "Portugal",
+                        "identifiers": {
+                            "ror": "https://ror.org/01c27hj86",
+                            "GRID": "grid.9983.b"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Manuel",
+                "family": "Portela",
+                "affiliation": [
+                    {
+                        "original_name": "University of Coimbra, Portugal",
+                        "normalized_name": "University of Coimbra",
+                        "country": "Portugal",
+                        "identifiers": {
+                            "ror": "https://ror.org/04z8k9a98",
+                            "GRID": "grid.8051.c"
+                        }
+                    }
+                ]
+            }
+        ],
+        "publisher": "OpenEdition",
+        "date": "2015-09-21",
+        "keywords": null,
+        "journal_title": "Journal of the Text Encoding Initiative",
+        "volume": null,
+        "issue": "Issue 8",
+        "ISSN": [
+            {
+                "value": "2162-5603",
+                "type": "electronic"
+            }
+        ]
+    },
+    {
+        "url": "http://dx.doi.org/10.4000/jtei.1077",
+        "identifier": {
+            "string_id": "10.4000/jtei.1077",
+            "id_scheme": "DOI"
+        },
+        "abstract": "The TEI schemas and guidelines have made it possible for many scholars and researchers to encode texts of any kind for (almost) all kinds of purposes, but this excellent standard is matched by an astounding diversity of publishing tools, which is particularly true when it comes to image-based digital editions. The different needs of scholars, coupled with the constant search for an effective price/result ratio and the local availability of technical skills, have led to a remarkable fragmentation: publishing solutions range from simple HTML pages produced using the TEI stylesheets (or the TEI Boilerplate software) to very complex frameworks based on CMS and SQL search engines. Researchers of the Digital Vercelli Book project started looking into a simple, user-friendly solution and eventually decided to build their own: EVT (Edition Visualization Technology) has been under development since about 2010 and has turned into a flexible tool that can be used to create a web-based digital edition starting from transcription files encoded in TEI XML. This paper describes why this tool was created, how it works, and developments planned for the future.",
+        "article_title": "Edition Visualization Technology: A Simple Tool to Visualize TEI-based Digital Editions",
+        "authors": [
+            {
+                "given": "Roberto Rosselli",
+                "family": "Del Turco",
+                "affiliation": [
+                    {
+                        "original_name": "University of Torino",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    },
+                    {
+                        "original_name": "University of Pisa",
+                        "normalized_name": "University of Pisa",
+                        "country": "Italy",
+                        "identifiers": {
+                            "ror": "https://ror.org/03ad39j10",
+                            "GRID": "grid.5395.a"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Giancarlo",
+                "family": "Buomprisco",
+                "affiliation": [
+                    {
+                        "original_name": "University of Pisa",
+                        "normalized_name": "University of Pisa",
+                        "country": "Italy",
+                        "identifiers": {
+                            "ror": "https://ror.org/03ad39j10",
+                            "GRID": "grid.5395.a"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Chiara Di",
+                "family": "Pietro",
+                "affiliation": [
+                    {
+                        "original_name": "University of Pisa",
+                        "normalized_name": "University of Pisa",
+                        "country": "Italy",
+                        "identifiers": {
+                            "ror": "https://ror.org/03ad39j10",
+                            "GRID": "grid.5395.a"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Julia",
+                "family": "Kenny",
+                "affiliation": [
+                    {
+                        "original_name": "University of Pisa",
+                        "normalized_name": "University of Pisa",
+                        "country": "Italy",
+                        "identifiers": {
+                            "ror": "https://ror.org/03ad39j10",
+                            "GRID": "grid.5395.a"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Raffaele",
+                "family": "Masotti",
+                "affiliation": [
+                    {
+                        "original_name": "University of Pisa",
+                        "normalized_name": "University of Pisa",
+                        "country": "Italy",
+                        "identifiers": {
+                            "ror": "https://ror.org/03ad39j10",
+                            "GRID": "grid.5395.a"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Jacopo",
+                "family": "Pugliese",
+                "affiliation": [
+                    {
+                        "original_name": "University of Pisa",
+                        "normalized_name": "University of Pisa",
+                        "country": "Italy",
+                        "identifiers": {
+                            "ror": "https://ror.org/03ad39j10",
+                            "GRID": "grid.5395.a"
+                        }
+                    }
+                ]
+            }
+        ],
+        "publisher": "OpenEdition",
+        "date": "2015-02-01",
+        "keywords": null,
+        "journal_title": "Journal of the Text Encoding Initiative",
+        "volume": null,
+        "issue": "Issue 8",
+        "ISSN": [
+            {
+                "value": "2162-5603",
+                "type": "electronic"
+            }
+        ]
+    },
+    {
+        "url": "http://dx.doi.org/10.4000/jtei.1253",
+        "identifier": {
+            "string_id": "10.4000/jtei.1253",
+            "id_scheme": "DOI"
+        },
+        "abstract": "Within the last few decades, TEI has become a major instrument for philologists in the digital age, particularly since a set of mechanisms has recently been incorporated which facilitates the encoding of genetic editions. Editors use the XML syntax while aiming to preserve the quantity and quality of old books and manuscripts and publish many more of them online, mostly under free licenses. Scholars all over the world are now able to use huge datasets for further research. There are now many digital editions available, but only a few tools to analyze them. This article explores how web technologies (XML and related technologies as well as JavaScript) can be used to enrich the forthcoming edition of Theodor Fontane’s notebooks with data-driven visualizations of named entities and how at the same time applications can be built on these visualizations which are reusable for other edition projects in the TEI world. Because of the density and historical scope of references to named entities and the variety of entity types, Fontane’s notebooks lend themselves to advanced methods of semantic analysis.",
+        "article_title": "From Entity Description to Semantic Analysis: The Case of Theodor Fontane’s             Notebooks",
+        "authors": [
+            {
+                "given": "Martin",
+                "family": "de la Iglesia",
+                "affiliation": [
+                    {
+                        "original_name": "Göttingen State and University Library",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Mathias",
+                "family": "Göbel",
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
+            }
+        ],
+        "publisher": "OpenEdition",
+        "date": "2015-09-21",
+        "keywords": null,
+        "journal_title": "Journal of the Text Encoding Initiative",
+        "volume": null,
+        "issue": "Issue 8",
+        "ISSN": [
+            {
+                "value": "2162-5603",
+                "type": "electronic"
+            }
+        ]
+    },
+    {
+        "url": "http://dx.doi.org/10.4000/jtei.1356",
+        "identifier": {
+            "string_id": "10.4000/jtei.1356",
+            "id_scheme": "DOI"
+        },
+        "abstract": "Academic dictionary writing is making greater and greater use of the TEI Guidelines’ dictionary module. And as increasing numbers of TEI dictionaries become available, there is an ever more palpable need to work towards greater interoperability among dictionary writing systems and other language resources that are needed by dictionaries and dictionary tools. In particular this holds true for the crucial role that statistical data obtained from language resources play in lexicographic workflow—a role that also has to be reflected in the model of the data produced in these workflows. Presenting a range of current projects, the authors address two main questions in this area: How can the relationship between a dictionary and other language resources be conceptualized, irrespective of whether they are used in the production of the dictionary or to enrich existing lexicographic data? And how can this be documented using the TEI Guidelines? Discussing a variety of options, this paper proposes a customization of the TEI dictionary module that tries to respond to the emerging requirements in an environment of increasingly intertwined language resources.",
+        "article_title": "Modeling Frequency Data: Methodological Considerations on the Relationship between Dictionaries and Corpora",
+        "authors": [
+            {
+                "given": "Karlheinz",
+                "family": "Mörth",
+                "affiliation": [
+                    {
+                        "original_name": "Austrian Academy of Sciences",
+                        "normalized_name": "Austrian Academy of Sciences",
+                        "country": "Austria",
+                        "identifiers": {
+                            "ror": "https://ror.org/03anc3s24",
+                            "GRID": "grid.4299.6"
+                        }
+                    },
+                    {
+                        "original_name": "University of Vienna",
+                        "normalized_name": "University of Vienna",
+                        "country": "Austria",
+                        "identifiers": {
+                            "ror": "https://ror.org/03prydq77",
+                            "GRID": "grid.10420.37"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Laurent",
+                "family": "Romary",
+                "affiliation": [
+                    {
+                        "original_name": "INRIA (France)",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    },
+                    {
+                        "original_name": "Humboldt University (Berlin, Germany)",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Gerhard",
+                "family": "Budin",
+                "affiliation": [
+                    {
+                        "original_name": "University of Vienna",
+                        "normalized_name": "University of Vienna",
+                        "country": "Austria",
+                        "identifiers": {
+                            "ror": "https://ror.org/03prydq77",
+                            "GRID": "grid.10420.37"
+                        }
+                    },
+                    {
+                        "original_name": "Austrian Academy of Sciences",
+                        "normalized_name": "Austrian Academy of Sciences",
+                        "country": "Austria",
+                        "identifiers": {
+                            "ror": "https://ror.org/03anc3s24",
+                            "GRID": "grid.4299.6"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Daniel",
+                "family": "Schopper",
+                "affiliation": [
+                    {
+                        "original_name": "Austrian Academy of Sciences",
+                        "normalized_name": "Austrian Academy of Sciences",
+                        "country": "Austria",
+                        "identifiers": {
+                            "ror": "https://ror.org/03anc3s24",
+                            "GRID": "grid.4299.6"
+                        }
+                    }
+                ]
+            }
+        ],
+        "publisher": "OpenEdition",
+        "date": "2015-11-29",
+        "keywords": null,
+        "journal_title": "Journal of the Text Encoding Initiative",
+        "volume": null,
+        "issue": "Issue 8",
+        "ISSN": [
+            {
+                "value": "2162-5603",
+                "type": "electronic"
+            }
+        ]
+    },
+    {
+        "url": "http://dx.doi.org/10.4000/jtei.1274",
+        "identifier": {
+            "string_id": "10.4000/jtei.1274",
+            "id_scheme": "DOI"
+        },
+        "abstract": "This paper describes the technical structure of the project ReMetCa (Repertorio Digital de Métrica Medieval Castellana), the first online repertoire of Medieval Spanish metrics and poetry. ReMetCa is based on the combination of traditional metrical and poetic studies (rhythm and rhyme patterns) with digital humanities technology, TEI-XML integrated into a Relational Database Management System (RDBMS) through an XMLType field, thus opening up the possibility of launching simultaneous searches and queries by using a searchable, user-friendly interface. The use of the TEI Verse module to tag metrical and poetic structures is especially important for two reasons: first, because it lets us tag different kinds of poems with a variable metadata structure, making it possible to express a very high level of detail for poetry description that cannot be registered in a conventional database; and second, as it enables extensibility and adds more information to enrich the conceptual model, which is under constant development.",
+        "article_title": "ReMetCa: A Proposal for Integrating RDBMS and TEI-Verse",
+        "authors": [
+            {
+                "given": "Elena",
+                "family": "González-Blanco",
+                "affiliation": [
+                    {
+                        "original_name": "Universidad Nacional de Educación a Distancia (Open University) of Spain in Madrid",
+                        "normalized_name": "Universidade Aberta",
+                        "country": "Portugal",
+                        "identifiers": {
+                            "ror": "https://ror.org/02rv3w387",
+                            "GRID": "grid.26693.38"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "José Luis",
+                "family": "Rodríguez",
+                "affiliation": [
+                    {
+                        "original_name": "Royal Library, Madrid",
+                        "normalized_name": "Royal Library",
+                        "country": "Denmark",
+                        "identifiers": {
+                            "ror": "https://ror.org/03vvy0v27",
+                            "GRID": "grid.474779.e"
+                        }
+                    }
+                ]
+            }
+        ],
+        "publisher": "OpenEdition",
+        "date": "2015-09-26",
+        "keywords": null,
+        "journal_title": "Journal of the Text Encoding Initiative",
+        "volume": null,
+        "issue": "Issue 8",
+        "ISSN": [
+            {
+                "value": "2162-5603",
+                "type": "electronic"
+            }
+        ]
+    },
+    {
+        "url": "http://dx.doi.org/10.4000/jtei.1114",
+        "identifier": {
+            "string_id": "10.4000/jtei.1114",
+            "id_scheme": "DOI"
+        },
+        "abstract": "In this article we describe the DTA “Base Format” (DTABf), a strict subset of the TEI P5 tag set. The purpose of the DTABf is to provide a balance between expressiveness and precision as well as an interoperable annotation scheme for a large variety of text types of historical corpora of printed text from multiple sources. The DTABf has been developed on the basis of a large amount of historical text data in the core corpus of the project Deutsches Textarchiv (DTA) and text collections from 15 cooperating projects with a current total of 210 million tokens. The DTABf is a “living” TEI format which is continuously adjusted when new text candidates for the DTA containing new structural phenomena are encountered. We also focus on other aspects of the DTABf including consistency, interoperability with other TEI dialects, HTML and other presentations of the TEI texts, and conversion into other formats, as well as linguistic analysis. We include some examples of best practices to illustrate how external corpora can be losslessly converted into the DTABf, thus enabling third parties to use the DTABf in their specific projects. The DTABf is comprehensively documented, and several software tools are available for working with it, making it a widely used format for the encoding of historical printed German text.",
+        "article_title": "The DTA “Base Format”: A TEI Subset for the Compilation of a Large Reference Corpus of Printed Text from Multiple Sources",
+        "authors": [
+            {
+                "given": "Susanne",
+                "family": "Haaf",
+                "affiliation": [
+                    {
+                        "original_name": "Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)",
+                        "normalized_name": "Berlin-Brandenburg Academy of Sciences and Humanities",
+                        "country": "Germany",
+                        "identifiers": {
+                            "ror": "https://ror.org/05jgq9443",
+                            "GRID": "grid.420264.6"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Alexander",
+                "family": "Geyken",
+                "affiliation": [
+                    {
+                        "original_name": "Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)",
+                        "normalized_name": "Berlin-Brandenburg Academy of Sciences and Humanities",
+                        "country": "Germany",
+                        "identifiers": {
+                            "ror": "https://ror.org/05jgq9443",
+                            "GRID": "grid.420264.6"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Frank",
+                "family": "Wiegand",
+                "affiliation": [
+                    {
+                        "original_name": "Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)",
+                        "normalized_name": "Berlin-Brandenburg Academy of Sciences and Humanities",
+                        "country": "Germany",
+                        "identifiers": {
+                            "ror": "https://ror.org/05jgq9443",
+                            "GRID": "grid.420264.6"
+                        }
+                    }
+                ]
+            }
+        ],
+        "publisher": "OpenEdition",
+        "date": "2015-09-21",
+        "keywords": null,
+        "journal_title": "Journal of the Text Encoding Initiative",
+        "volume": null,
+        "issue": "Issue 8",
+        "ISSN": [
+            {
+                "value": "2162-5603",
+                "type": "electronic"
+            }
+        ]
+    },
+    {
+        "url": "http://dx.doi.org/10.4000/jtei.1054",
+        "identifier": {
+            "string_id": "10.4000/jtei.1054",
+            "id_scheme": "DOI"
+        },
+        "abstract": "The Italian Central Institute of Cataloguing (ICCU) has developed a web application to export manuscript descriptions from Manus OnLine (MOL), the Italian national catalogue of manuscripts, into TEI XML documents. As of June 2013, single descriptions can be downloaded from the MOL Online Public Access Catalogue (OPAC) as TEI XML documents by any user. The aim of the first tool is to supply manuscript descriptions to the institutions which produced them using MOL, because libraries and research organizations need to use their own data, outside the MOL project. The aim of the second service – exporting manuscript catalogues of entire collections as TEI XML files - is to promote exchange of data with other national and international projects. For these purposes, the ICCU needs a rich schema, not only a partial set of metadata, in order to be able to export complete structured manuscript descriptions. As bibliographical standards (MARC, Unimarc) cannot represent the entire structure of MOL descriptions adequately, ICCU adopted the TEI schema as an interchange standard. This paper describes solutions adopted by ICCU in encoding MOL contents within the TEI <msDesc> element and problems they encountered in performing this work. The encoding of information about material (<material>), number of folios and physical dimensions of manuscripts (<extent>) are discussed as well as a list of data pertaining to original letter cataloguing.",
+        "article_title": "Manus OnLine and the Text Encoding Initiative Schema",
+        "authors": [
+            {
+                "given": "Giliola",
+                "family": "Barbero",
+                "affiliation": [
+                    {
+                        "original_name": "Università Cattolica, Milan",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Francesca",
+                "family": "Trasselli",
+                "affiliation": [
+                    {
+                        "original_name": "Central Institute of Cataloguing",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
+            }
+        ],
+        "publisher": "OpenEdition",
+        "date": "2015-02-01",
+        "keywords": null,
+        "journal_title": "Journal of the Text Encoding Initiative",
+        "volume": null,
+        "issue": "Issue 8",
+        "ISSN": [
+            {
+                "value": "2162-5603",
+                "type": "electronic"
+            }
+        ]
+    },
+    {
+        "url": "http://dx.doi.org/10.4000/jtei.1270",
+        "identifier": {
+            "string_id": "10.4000/jtei.1270",
+            "id_scheme": "DOI"
+        },
+        "abstract": "The introduction in 2011 of additional “document-focused” (as opposed to “text-focused”) elements represents a significant additional commitment to modeling two distinct ontologies for textual data within the standard governed by the Text Encoding Initiative (TEI) Guidelines. A brief review of projects using the new elements suggests that scholars generally treat the “document-focused” and “text-focused” models as distinct and even severable—the tools of separate interpretive communities within literary studies. This paper will describe challenges encountered by members of the development and editorial teams of the Shelley-Godwin Archive (S-GA) in attempting to produce TEI-encoded data (as well as an accompanying reading environment) that supports both document-focused and text-focused approaches through automated conversion. Based on the experience of the S-GA teams, the increase in expressiveness achieved through the addition of document-focused elements to the TEI standard also raises the stakes for “interchange” between and among data modeled according to these parallel approaches.",
+        "article_title": "Texts and Documents: New Challenges for TEI Interchange and Lessons from the Shelley-Godwin Archive",
+        "authors": [
+            {
+                "given": "Trevor",
+                "family": "Muñoz",
+                "affiliation": [
+                    {
+                        "original_name": "University of Maryland Libraries",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    },
+                    {
+                        "original_name": "Maryland Institute for Technology (MITH)",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Raffaele",
+                "family": "Viglianti",
+                "affiliation": [
+                    {
+                        "original_name": "Maryland Institute for Technology in the Humanities (MITH)",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
+            }
+        ],
+        "publisher": "OpenEdition",
+        "date": "2015-09-26",
+        "keywords": null,
+        "journal_title": "Journal of the Text Encoding Initiative",
+        "volume": null,
+        "issue": "Issue 8",
+        "ISSN": [
+            {
+                "value": "2162-5603",
+                "type": "electronic"
+            }
+        ]
+    },
+    {
+        "url": "http://dx.doi.org/10.4000/jtei.1191",
+        "identifier": {
+            "string_id": "10.4000/jtei.1191",
+            "id_scheme": "DOI"
+        },
+        "abstract": "This paper discusses the relationships between TEI and ontologies from the perspective of computer-based modeling, understood here as a way to establish meaning. The distinctions between creation and use of models as well as between modeling for production and modeling for understanding are presented and compared with other categorizations or models of modeling. One method of establishing meaning in TEI documents is achieved via linking mechanisms between TEI and external ontologies. How such linking can be done and what it may imply for the semantic openness and usability of TEI documents is the practical focus of this article.",
+        "article_title": "Ontologies, Data Modeling, and TEI",
+        "authors": [
+            {
+                "given": "Øyvind",
+                "family": "Eide",
+                "affiliation": [
+                    {
+                        "original_name": "University of Passau, Germany",
+                        "normalized_name": "University of Passau",
+                        "country": "Germany",
+                        "identifiers": {
+                            "ror": "https://ror.org/05ydjnb78",
+                            "GRID": "grid.11046.32"
+                        }
+                    }
+                ]
+            }
+        ],
+        "publisher": "OpenEdition",
+        "date": "2015-09-21",
+        "keywords": null,
+        "journal_title": "Journal of the Text Encoding Initiative",
+        "volume": null,
+        "issue": "Issue 8",
+        "ISSN": [
+            {
+                "value": "2162-5603",
+                "type": "electronic"
+            }
+        ]
+    },
+    {
+        "url": "http://dx.doi.org/10.4000/jtei.1337",
+        "identifier": {
+            "string_id": "10.4000/jtei.1337",
+            "id_scheme": "DOI"
+        },
+        "abstract": "LMNL (the Layered Markup and Annotation Language) is a small, if ambitious, research project in text encoding. Unlike XML, LMNL markup does not represent document components or constituents (as “elements”) within a structure, but rather simply labels ranges of text within the document for identification and processing. Avoiding choices between structures, any and all structures can be elucidated; this reveals not only new capabilities for the digital processing of humanities texts—simultaneously building on TEI and extending it to new uses—but also something about the way our tools condition our view of our objects of study.",
+        "article_title": "TEI in LMNL: Implications for Modeling",
+        "authors": [
+            {
+                "given": "Wendell",
+                "family": "Piez",
+                "affiliation": [
+                    {
+                        "original_name": "Rockville, Maryland",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
+            }
+        ],
+        "publisher": "OpenEdition",
+        "date": "2015-11-03",
+        "keywords": null,
+        "journal_title": "Journal of the Text Encoding Initiative",
+        "volume": null,
+        "issue": "Issue 8",
+        "ISSN": [
+            {
+                "value": "2162-5603",
+                "type": "electronic"
+            }
+        ]
+    },
+    {
+        "url": "http://dx.doi.org/10.4000/jtei.1218",
+        "identifier": {
+            "string_id": "10.4000/jtei.1218",
+            "id_scheme": "DOI"
+        },
+        "abstract": "This paper presents a joint project of the Humboldt Chair of Digital Humanities at the University of Leipzig, the Perseus Digital Library at Tufts University, and the Harvard Center for Hellenic Studies to produce a new open series of Greek and Latin fragmentary authors. Such authors are lost and their works are preserved only thanks to quotations and text reuses in later texts. The project is undertaking two tasks: (1) the digitization of paper editions of fragmentary works with links to the source texts from which the fragments have been extracted; (2) the production of born-digital editions of fragmentary works. The ultimate goals are the creation of open, linked, machine-actionable texts for the study and advancement of the field of Classical textual fragmentary heritage and the development of a collaborative environment for crowdsourced annotations. These goals are being achieved by implementing the Perseids Platform and by encoding the Fragmenta Historicorum Graecorum, one of the most important and comprehensive collections of fragmentary authors.",
+        "article_title": "The Linked Fragment: TEI and the Encoding of Text Reuses of Lost Authors",
+        "authors": [
+            {
+                "given": "Monica",
+                "family": "Berti",
+                "affiliation": [
+                    {
+                        "original_name": "University of Leipzig",
+                        "normalized_name": "Leipzig University",
+                        "country": "Germany",
+                        "identifiers": {
+                            "ror": "https://ror.org/03s7gtk40",
+                            "GRID": "grid.9647.c"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Bridget",
+                "family": "Almas",
+                "affiliation": [
+                    {
+                        "original_name": "Tufts University",
+                        "normalized_name": "Tufts University",
+                        "country": "United States",
+                        "identifiers": {
+                            "ror": "https://ror.org/05wvpxv85",
+                            "GRID": "grid.429997.8"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "David",
+                "family": "Dubin",
+                "affiliation": [
+                    {
+                        "original_name": "University of Illinois Graduate School of Library and Information Science",
+                        "normalized_name": "University of Illinois at Urbana-Champaign",
+                        "country": "United States",
+                        "identifiers": {
+                            "ror": "https://ror.org/047426m28",
+                            "GRID": "grid.35403.31"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Greta",
+                "family": "Franzini",
+                "affiliation": [
+                    {
+                        "original_name": "UCL Centre for Digital Humanities",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    },
+                    {
+                        "original_name": "Göttingen Centre for Digital Humanities",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Simona",
+                "family": "Stoyanova",
+                "affiliation": [
+                    {
+                        "original_name": "University of Leipzig",
+                        "normalized_name": "Leipzig University",
+                        "country": "Germany",
+                        "identifiers": {
+                            "ror": "https://ror.org/03s7gtk40",
+                            "GRID": "grid.9647.c"
+                        }
+                    },
+                    {
+                        "original_name": "King’s College London",
+                        "normalized_name": "King's College London",
+                        "country": "United Kingdom",
+                        "identifiers": {
+                            "ror": "https://ror.org/0220mzb33",
+                            "GRID": "grid.13097.3c"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Gregory R.",
+                "family": "Crane",
+                "affiliation": [
+                    {
+                        "original_name": "Tufts University",
+                        "normalized_name": "Tufts University",
+                        "country": "United States",
+                        "identifiers": {
+                            "ror": "https://ror.org/05wvpxv85",
+                            "GRID": "grid.429997.8"
+                        }
+                    },
+                    {
+                        "original_name": "University of Leipzig",
+                        "normalized_name": "Leipzig University",
+                        "country": "Germany",
+                        "identifiers": {
+                            "ror": "https://ror.org/03s7gtk40",
+                            "GRID": "grid.9647.c"
+                        }
+                    }
+                ]
+            }
+        ],
+        "publisher": "OpenEdition",
+        "date": "2015-09-21",
+        "keywords": null,
+        "journal_title": "Journal of the Text Encoding Initiative",
+        "volume": null,
+        "issue": "Issue 8",
+        "ISSN": [
+            {
+                "value": "2162-5603",
+                "type": "electronic"
+            }
+        ]
+    },
+    {
+        "url": "http://dx.doi.org/10.4000/jtei.1365",
+        "identifier": {
+            "string_id": "10.4000/jtei.1365",
+            "id_scheme": "DOI"
+        },
+        "abstract": "This paper presents the rationales and the logical architecture of Geolat — Geography for Latin Literature, a project for the enrichment of Latin literature which makes use of a complex mix of TEI markup, Semantic Web technologies and formal ontologies. The purpose of Geolat is the annotation of the geographical and personal references in a corpus of Latin TEI encoded texts. These annotations are linked to a set of ontologies that give them formal semantics, and can finally be exposed the as linked open data, in order to improve the documents’ interoperability with other existing LOD and to enhance information retrieval possibilities. The paper is organized as follows: first we introduce the project in order to explain the steps needed to complete it (section 2); then we describe the ontological modeling and the TEI encoding in Geolat, by focusing on both places and persons (section 3). We then discuss the annotation data model (section 4). In conclusion, we introduce some future directions (section 5).",
+        "article_title": "TEI, Ontologies, Linked Open Data: Geolat and Beyond",
+        "authors": [
+            {
+                "given": "Fabio",
+                "family": "Ciotti",
+                "affiliation": [
+                    {
+                        "original_name": "University of Roma Tor Vergata",
+                        "normalized_name": "University of Rome Tor Vergata",
+                        "country": "Italy",
+                        "identifiers": {
+                            "ror": "https://ror.org/02p77k626",
+                            "GRID": "grid.6530.0"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Maurizio",
+                "family": "Lana",
+                "affiliation": [
+                    {
+                        "original_name": "Università del Piemonte Orientale",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Francesca",
+                "family": "Tomasi",
+                "affiliation": [
+                    {
+                        "original_name": "University of Bologna",
+                        "normalized_name": "University of Bologna",
+                        "country": "Italy",
+                        "identifiers": {
+                            "ror": "https://ror.org/01111rn36",
+                            "GRID": "grid.6292.f"
+                        }
+                    }
+                ]
+            }
+        ],
+        "publisher": "OpenEdition",
+        "date": "2015-11-29",
+        "keywords": null,
+        "journal_title": "Journal of the Text Encoding Initiative",
+        "volume": null,
+        "issue": "Issue 8",
+        "ISSN": [
+            {
+                "value": "2162-5603",
+                "type": "electronic"
+            }
+        ]
+    },
+    {
+        "url": "http://dx.doi.org/10.4000/jtei.842",
+        "identifier": {
+            "string_id": "10.4000/jtei.842",
+            "id_scheme": "DOI"
+        },
+        "abstract": "This paper proposes a minor but significant modification to the TEI ODD language and explores some of its implications. Can we improve on the present compromise whereby TEI content models are expressed in RELAX NG? A very small set of additional elements would permit the ODD language to cut its ties with any existing schema language, and thus permit it to support exactly and only the subset or intersection of their facilities which makes sense in the TEI context. It would make the ODD language an integrated and independent whole rather than an uneasy hybrid, and pave the way for future developments in the management of structured text beyond the XML paradigm.",
+        "article_title": "Resolving the Durand Conundrum",
+        "authors": [
+            {
+                "given": "Lou",
+                "family": "Burnard",
+                "affiliation": [
+                    {
+                        "original_name": null,
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
+            }
+        ],
+        "publisher": "OpenEdition",
+        "date": "2014-01-24",
+        "keywords": null,
+        "journal_title": "Journal of the Text Encoding Initiative",
+        "volume": null,
+        "issue": "Issue 6",
+        "ISSN": [
+            {
+                "value": "2162-5603",
+                "type": "electronic"
+            }
+        ]
+    },
+    {
+        "url": "http://dx.doi.org/10.4000/jtei.907",
+        "identifier": {
+            "string_id": "10.4000/jtei.907",
+            "id_scheme": "DOI"
+        },
+        "abstract": "The TEI Guidelines has for years contained a section on XPointer schemes which, unfortunately, has suffered from a lack of implementations. The reasons for this include the difficulty of the concepts in this section and a lack of sufficient detail in their specification. Despite this lack of use, the author feels that TEI pointers address an important set of use cases and should receive more attention. The chief advantage of TEI pointers is that they permit stand-off markup and annotation of text that is either unmarked or marked up inappropriately for the intended annotation. Their promise is a mechanism for leveraging stand-off markup and annotations of TEI documents—for example, being able to link to annotations in a document view because those annotations point to parts of the document. This paper provides some background on TEI pointers and their possible uses, and outlines the state of efforts under way to rework this section of the Guidelines by providing a more detailed specification and reference implementations.",
+        "article_title": "Rebooting TEI Pointers",
+        "authors": [
+            {
+                "given": "Hugh A.",
+                "family": "Cayless",
+                "affiliation": [
+                    {
+                        "original_name": "Duke Collaboratory for Classics Computing (DC3)",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
+            }
+        ],
+        "publisher": "OpenEdition",
+        "date": "2014-01-25",
+        "keywords": null,
+        "journal_title": "Journal of the Text Encoding Initiative",
+        "volume": null,
+        "issue": "Issue 6",
+        "ISSN": [
+            {
+                "value": "2162-5603",
+                "type": "electronic"
+            }
+        ]
+    },
+    {
+        "url": "http://dx.doi.org/10.4000/jtei.926",
+        "identifier": {
+            "string_id": "10.4000/jtei.926",
+            "id_scheme": "DOI"
+        },
+        "abstract": "This article examines the process of customization, digitization, up-conversion, and proofreading that took place as part of the Stationers' Register Online (SRO) project at the University of Oxford. This pilot SRO project received institutional funding to digitize the first four volumes of the book-entry Register of the Stationers' Company. This is an important source for book history in Britain as the Stationers' Register was the primary means through which ownership of texts was asserted, disputed, regulated, and monitored from 1577 until 1924. The article concentrates on the technical aspects of creating a byte-reduced TEI schema (tei_corset) which, because of the arrangement with the keying company, saved a significant amount of money. It looks at the creation of that schema, the up-conversion of the resulting XML, and the difficulties of proofreading such a large quantity of material. ",
+        "article_title": "Stationers' Register Online: A Case Study of a Byte-Reduced TEI Schema for Digitization (tei_corset)",
+        "authors": [
+            {
+                "given": "James",
+                "family": "Cummings",
+                "affiliation": [
+                    {
+                        "original_name": "University of Oxford",
+                        "normalized_name": "University of Oxford",
+                        "country": "United Kingdom",
+                        "identifiers": {
+                            "ror": "https://ror.org/052gg0110",
+                            "GRID": "grid.4991.5"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Pip",
+                "family": "Willcox",
+                "affiliation": [
+                    {
+                        "original_name": "University of Oxford",
+                        "normalized_name": "University of Oxford",
+                        "country": "United Kingdom",
+                        "identifiers": {
+                            "ror": "https://ror.org/052gg0110",
+                            "GRID": "grid.4991.5"
+                        }
+                    }
+                ]
+            }
+        ],
+        "publisher": "OpenEdition",
+        "date": "2014-01-25",
+        "keywords": null,
+        "journal_title": "Journal of the Text Encoding Initiative",
+        "volume": null,
+        "issue": "Issue 6",
+        "ISSN": [
+            {
+                "value": "2162-5603",
+                "type": "electronic"
+            }
+        ]
+    },
+    {
+        "url": "http://dx.doi.org/10.4000/jtei.895",
+        "identifier": {
+            "string_id": "10.4000/jtei.895",
+            "id_scheme": "DOI"
+        },
+        "abstract": "This paper focuses on a thought experiment in which the authors propose an encoding system not unlike the contextual markup of prosopographies or gazetteers using TEI P5 that could be used to capture the particular financial semantics involved in HFRs. This possible system is expressed as a TEI “extension” customization, and is flexible enough to encode the subgenre of financial records called “double-entry accounts,” a bookkeeping method for recording transfers of goods or services in exchange for currency or credit.",
+        "article_title": "Encoding Financial Records for Historical Research",
+        "authors": [
+            {
+                "given": "Kathryn",
+                "family": "Tomasek",
+                "affiliation": [
+                    {
+                        "original_name": "Wheaton College in Massachusetts",
+                        "normalized_name": "Wheaton College - Massachusetts",
+                        "country": "United States",
+                        "identifiers": {
+                            "ror": "https://ror.org/055ja0v85",
+                            "GRID": "grid.422659.e"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Syd",
+                "family": "Bauman",
+                "affiliation": [
+                    {
+                        "original_name": "Northeastern University",
+                        "normalized_name": "Universidad del Noreste",
+                        "country": "Mexico",
+                        "identifiers": {
+                            "ror": "https://ror.org/02ahky613",
+                            "GRID": "grid.441462.1"
+                        }
+                    }
+                ]
+            }
+        ],
+        "publisher": "OpenEdition",
+        "date": "2014-01-25",
+        "keywords": null,
+        "journal_title": "Journal of the Text Encoding Initiative",
+        "volume": null,
+        "issue": "Issue 6",
+        "ISSN": [
+            {
+                "value": "2162-5603",
+                "type": "electronic"
+            }
+        ]
+    },
+    {
+        "url": "http://dx.doi.org/10.4000/jtei.882",
+        "identifier": {
+            "string_id": "10.4000/jtei.882",
+            "id_scheme": "DOI"
+        },
+        "abstract": "Students in two graduate English seminars at Texas A&M were offered an introduction to TEI encoding and were surveyed as to their experiences. Four students presented short papers to the TEI meeting that incorporated both the survey responses and their own perspectives as relative newcomers to TEI. These papers demonstrate why it is important to incorporate TEI in the graduate curriculum, how that incorporation might best be approached, and what happens when TEI is viewed through a disciplinary lens.",
+        "article_title": "Encoding the Discipline: English Graduate Student Reflections on Working with TEI",
+        "authors": [
+            {
+                "given": "Maura",
+                "family": "Ives",
+                "affiliation": [
+                    {
+                        "original_name": "Texas A&M",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Victor Del",
+                "family": "Hierro",
+                "affiliation": [
+                    {
+                        "original_name": "Texas A&M",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Bailey",
+                "family": "Kelsey",
+                "affiliation": [
+                    {
+                        "original_name": "Texas A&M",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Laura Catherine",
+                "family": "Smith",
+                "affiliation": [
+                    {
+                        "original_name": "Texas A&M",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Christina",
+                "family": "Sumners",
+                "affiliation": [
+                    {
+                        "original_name": "Texas A&M",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
+            }
+        ],
+        "publisher": "OpenEdition",
+        "date": "2014-01-25",
+        "keywords": null,
+        "journal_title": "Journal of the Text Encoding Initiative",
+        "volume": null,
+        "issue": "Issue 6",
+        "ISSN": [
+            {
+                "value": "2162-5603",
+                "type": "electronic"
+            }
+        ]
+    },
+    {
+        "url": "http://dx.doi.org/10.4000/jtei.739",
+        "identifier": {
+            "string_id": "10.4000/jtei.739",
+            "id_scheme": "DOI"
+        },
+        "abstract": "Among mass digitization methods, double-keying is considered to be the one with the lowest error rate. This method requires two independent transcriptions of a text by two different operators. It is particularly well suited to historical texts, which often exhibit deficiencies like poor master copies or other difficulties such as spelling variation or complex text structures. ",
+        "article_title": "Measuring the Correctness of Double-Keying: Error Classification and Quality Control in a Large Corpus of TEI-Annotated Historical Text",
+        "authors": [
+            {
+                "given": "Susanne",
+                "family": "Haaf",
+                "affiliation": [
+                    {
+                        "original_name": "Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)",
+                        "normalized_name": "Berlin-Brandenburg Academy of Sciences and Humanities",
+                        "country": "Germany",
+                        "identifiers": {
+                            "ror": "https://ror.org/05jgq9443",
+                            "GRID": "grid.420264.6"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Frank",
+                "family": "Wiegand",
+                "affiliation": [
+                    {
+                        "original_name": "Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)",
+                        "normalized_name": "Berlin-Brandenburg Academy of Sciences and Humanities",
+                        "country": "Germany",
+                        "identifiers": {
+                            "ror": "https://ror.org/05jgq9443",
+                            "GRID": "grid.420264.6"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Alexander",
+                "family": "Geyken",
+                "affiliation": [
+                    {
+                        "original_name": "Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)",
+                        "normalized_name": "Berlin-Brandenburg Academy of Sciences and Humanities",
+                        "country": "Germany",
+                        "identifiers": {
+                            "ror": "https://ror.org/05jgq9443",
+                            "GRID": "grid.420264.6"
+                        }
+                    }
+                ]
+            }
+        ],
+        "publisher": "OpenEdition",
+        "date": "2013-03-09",
+        "keywords": null,
+        "journal_title": "Journal of the Text Encoding Initiative",
+        "volume": null,
+        "issue": "Issue 4",
+        "ISSN": [
+            {
+                "value": "2162-5603",
+                "type": "electronic"
+            }
+        ]
+    },
+    {
+        "url": "http://dx.doi.org/10.4000/jtei.727",
+        "identifier": {
+            "string_id": "10.4000/jtei.727",
+            "id_scheme": "DOI"
+        },
+        "abstract": "Since XML and HTML are routinely partnered in achieving the same goal—the global interchange of information that is the Digital Humanities; since this interchange more and more frequently involves the World Wide Web; and since a fundamental goal of Web technologies, like HTML, is display, the problems of and solutions for display must become more central to TEI.",
+        "article_title": "TEI P5 and Special Characters Outside Unicode",
+        "authors": [
+            {
+                "given": "Joel",
+                "family": "Fredell",
+                "affiliation": [
+                    {
+                        "original_name": "Southeastern Louisiana University",
+                        "normalized_name": "Southeastern Louisiana University",
+                        "country": "United States",
+                        "identifiers": {
+                            "ror": "https://ror.org/0531xck41",
+                            "GRID": "grid.263831.d"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Charles",
+                "family": "Borchers IV",
+                "affiliation": [
+                    {
+                        "original_name": "Southeastern Louisiana University",
+                        "normalized_name": "Southeastern Louisiana University",
+                        "country": "United States",
+                        "identifiers": {
+                            "ror": "https://ror.org/0531xck41",
+                            "GRID": "grid.263831.d"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Terri",
+                "family": "Ilgen",
+                "affiliation": [
+                    {
+                        "original_name": "Southeastern Louisiana University",
+                        "normalized_name": "Southeastern Louisiana University",
+                        "country": "United States",
+                        "identifiers": {
+                            "ror": "https://ror.org/0531xck41",
+                            "GRID": "grid.263831.d"
+                        }
+                    }
+                ]
+            }
+        ],
+        "publisher": "OpenEdition",
+        "date": "2013-03-09",
+        "keywords": null,
+        "journal_title": "Journal of the Text Encoding Initiative",
+        "volume": null,
+        "issue": "Issue 4",
+        "ISSN": [
+            {
+                "value": "2162-5603",
+                "type": "electronic"
+            }
+        ]
+    },
+    {
+        "url": "http://dx.doi.org/10.4000/jtei.722",
+        "identifier": {
+            "string_id": "10.4000/jtei.722",
+            "id_scheme": "DOI"
+        },
+        "abstract": "This article describes an XSLT-based logging framework developed for Abbot, a markup conversion and interoperability tool. Abbot logs structural and textual divergence from an XML source. Logging is a useful component of verification when there are too many text alterations, or too many texts, to verify closely and individually. Abbot’s conversion and logging transformations are built inside XSLT templates which are self-identifying, self-describing, and self-differencing. Abbot’s templates identify themselves and indicate where in a source text they made any changes. Moreover, they describe what they do and perform a differencing function to calculate divergences between element names, attribute names, and the contents of text nodes. ",
+        "article_title": "Logging the Abbot: Reflection-Oriented XSLT Programming for Corpora Conversion and Verification",
+        "authors": [
+            {
+                "given": "Brian L.",
+                "family": "Pytlik Zillig",
+                "affiliation": [
+                    {
+                        "original_name": "Center for Digital Research in the Humanities",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
+            }
+        ],
+        "publisher": "OpenEdition",
+        "date": "2013-03-09",
+        "keywords": null,
+        "journal_title": "Journal of the Text Encoding Initiative",
+        "volume": null,
+        "issue": "Issue 4",
+        "ISSN": [
+            {
+                "value": "2162-5603",
+                "type": "electronic"
+            }
+        ]
+    },
+    {
+        "url": "http://dx.doi.org/10.4000/jtei.715",
+        "identifier": {
+            "string_id": "10.4000/jtei.715",
+            "id_scheme": "DOI"
+        },
+        "abstract": "This paper presents the Register of Early Modern Slovenian Manuscripts, which includes manuscripts from the 17th and 18th centuries that have been overlooked by scholars focused on printed books from the same era. The Register attempts to address this gap in Slovenian manuscript studies by describing these unknown and forgotten early modern manuscripts with facsimiles, an index of basic manuscript citations, and a bibliography containing publications where these manuscripts are mentioned. It is encoded in TEI P5 using the manuscript description module and available via a web interface. The paper discusses the specifics of early modern manuscripts, explains the structure and encoding of the Register (especially encoding of temporal and geographic data), and presents the portal built using the Fedora Commons repository software that allows the user to browse and search manuscripts and export data in TEI format, and that enables metadata harvesting.",
+        "article_title": "A Register of Early Modern Slovenian Manuscripts",
+        "authors": [
+            {
+                "given": "Matija",
+                "family": "Ogrin",
+                "affiliation": [
+                    {
+                        "original_name": "Slovenian Academy of Sciences, Ljubljana, Slovenia",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Jan Jona",
+                "family": "Javoršek",
+                "affiliation": [
+                    {
+                        "original_name": "Jožef Stefan Institute, Ljubljana, Slovenia",
+                        "normalized_name": "Jožef Stefan International Postgraduate School",
+                        "country": "Slovenia",
+                        "identifiers": {
+                            "ror": "https://ror.org/01hdkb925",
+                            "GRID": "grid.445211.7"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Tomaž",
+                "family": "Erjavec",
+                "affiliation": [
+                    {
+                        "original_name": "Jožef Stefan Institute, Ljubljana, Slovenia",
+                        "normalized_name": "Jožef Stefan International Postgraduate School",
+                        "country": "Slovenia",
+                        "identifiers": {
+                            "ror": "https://ror.org/01hdkb925",
+                            "GRID": "grid.445211.7"
+                        }
+                    }
+                ]
+            }
+        ],
+        "publisher": "OpenEdition",
+        "date": "2013-03-09",
+        "keywords": null,
+        "journal_title": "Journal of the Text Encoding Initiative",
+        "volume": null,
+        "issue": "Issue 4",
+        "ISSN": [
+            {
+                "value": "2162-5603",
+                "type": "electronic"
+            }
+        ]
+    },
+    {
+        "url": "http://dx.doi.org/10.4000/jtei.707",
+        "identifier": {
+            "string_id": "10.4000/jtei.707",
+            "id_scheme": "DOI"
+        },
+        "abstract": "This paper introduces the digital edition Letters and Texts: Intellectual Berlin around 1800, which is being developed by the junior research group \"Berlin Intellectuals 1800–1830\" at the Institute for German Literature of the Humboldt University in Berlin. The aim of the edition is to shed new light on literary and intellectual networks in the Prussian capital city around 1800 by making accessible valuable letters, manuscripts, and other documents that have been neglected by researchers. The focus is on writers, scholars, and publishers who contributed to the intense intellectual activity in Berlin around 1800 and whose edited texts afford the reader with a deeper knowledge of their writings as well as their position within the intellectual community of their time.",
+        "article_title": "The Project \"Berlin Intellectuals 1800–1830\" between Research and Teaching",
+        "authors": [
+            {
+                "given": "Anne",
+                "family": "Baillot",
+                "affiliation": [
+                    {
+                        "original_name": "Humboldt University in Berlin",
+                        "normalized_name": "Humboldt University of Berlin",
+                        "country": "Germany",
+                        "identifiers": {
+                            "ror": "https://ror.org/01hcx6992",
+                            "GRID": "grid.7468.d"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Sabine",
+                "family": "Seifert",
+                "affiliation": [
+                    {
+                        "original_name": "Humboldt University in Berlin",
+                        "normalized_name": "Humboldt University of Berlin",
+                        "country": "Germany",
+                        "identifiers": {
+                            "ror": "https://ror.org/01hcx6992",
+                            "GRID": "grid.7468.d"
+                        }
+                    }
+                ]
+            }
+        ],
+        "publisher": "OpenEdition",
+        "date": "2013-03-09",
+        "keywords": null,
+        "journal_title": "Journal of the Text Encoding Initiative",
+        "volume": null,
+        "issue": "Issue 4",
+        "ISSN": [
+            {
+                "value": "2162-5603",
+                "type": "electronic"
+            }
+        ]
+    },
+    {
+        "url": "http://dx.doi.org/10.4000/jtei.697",
+        "identifier": {
+            "string_id": "10.4000/jtei.697",
+            "id_scheme": "DOI"
+        },
+        "abstract": "The aim of the present paper is to show how, and to what extent, the standards of critical genetic editions as applied to Goethe's Faust can be attained within a TEI framework. It proposes and argues for the introduction of two separate transcripts: documentary and textual. Despite the apparent disadvantages of multiple encoding, this approach recommends itself for practical reasons (e.g., avoidance of overlapping hierarchies), and it conveniently reflects the idea that any written document must be considered a material object on the one hand and a medium of textual transmission on the other. In the course of the paper, some aspects and problems of chapter 11 of version 2.0.0 of TEI P5 (the definition and use of the elements <line> and <mod> and related issues) will be discussed.",
+        "article_title": "Multiple Encoding in Genetic Editions: The Case of \"Faust\"",
+        "authors": [
+            {
+                "given": "Gerrit",
+                "family": "Brüning",
+                "affiliation": [
+                    {
+                        "original_name": "Freies Deutsches Hochstift in Frankfurt on the Main",
+                        "normalized_name": null,
+                        "country": null,
+                        "identifiers": {
+                            "ror": null,
+                            "GRID": null
+                        }
+                    },
+                    {
+                        "original_name": "University of Würzburg",
+                        "normalized_name": "University of Würzburg",
+                        "country": "Germany",
+                        "identifiers": {
+                            "ror": "https://ror.org/00fbnyb24",
+                            "GRID": "grid.8379.5"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Katrin",
+                "family": "Henzel",
+                "affiliation": [
+                    {
+                        "original_name": "Klassik Stiftung Weimar",
+                        "normalized_name": "Klassik Stiftung Weimar",
+                        "country": "Germany",
+                        "identifiers": {
+                            "ror": "https://ror.org/02ad32n85",
+                            "GRID": "grid.461706.2"
+                        }
+                    }
+                ]
+            },
+            {
+                "given": "Dietmar",
+                "family": "Pravida",
+                "affiliation": [
+                    {
+                        "original_name": "Goethe-Universität Frankfurt am Main",
+                        "normalized_name": "Goethe University Frankfurt",
+                        "country": "Germany",
+                        "identifiers": {
+                            "ror": "https://ror.org/04cvxnb49",
+                            "GRID": "grid.7839.5"
+                        }
+                    }
+                ]
+            }
+        ],
+        "publisher": "OpenEdition",
+        "date": "2013-03-09",
+        "keywords": null,
+        "journal_title": "Journal of the Text Encoding Initiative",
+        "volume": null,
+        "issue": "Issue 4",
+        "ISSN": [
+            {
+                "value": "2162-5603",
+                "type": "electronic"
+            }
+        ]
+    },
+    {
+        "url": "http://dx.doi.org/10.4000/jtei.691",
+        "identifier": {
+            "string_id": "10.4000/jtei.691",
+            "id_scheme": "DOI"
+        },
+        "abstract": "Much research and effort has been invested in creating a versatile format for digital texts and the TEI is now widely used in many communities.  Much less consolidated thought has been spend to publish and distribute digital texts in ways that are most useful to scholars.",
+        "article_title": "Beyond TEI: Returning the Text to the Reader",
+        "authors": [
+            {
+                "given": "Christian",
+                "family": "Wittern",
+                "affiliation": [
+                    {
+                        "original_name": "Kyoto University, Japan",
+                        "normalized_name": "Kyoto University",
+                        "country": "Japan",
+                        "identifiers": {
+                            "ror": "https://ror.org/02kpeqv85",
+                            "GRID": "grid.258799.8"
+                        }
+                    }
+                ]
+            }
+        ],
+        "publisher": "OpenEdition",
+        "date": "2013-03-09",
+        "keywords": null,
+        "journal_title": "Journal of the Text Encoding Initiative",
+        "volume": null,
+        "issue": "Issue 4",
+        "ISSN": [
+            {
+                "value": "2162-5603",
+                "type": "electronic"
+            }
+        ]
+    }
+]

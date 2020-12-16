@@ -39,10 +39,10 @@ def new_create_articles_dfs(path_of_files):
                     for affiliation in author['affiliation']:
                         curr_aff = {'journal': article_dict['journal_title'],
                                     'article': os.path.splitext(filename)[0],
-                                    'date': article_dict['date'],
                                     'author': f"{author['given']} {author['family']}",
                                     'affiliation': affiliation['original_name'],
                                     'original_name': affiliation['original_name'],
+                                    'year': article_dict['date'],
                                     'country': None,
                                     'iso_a3': None
                                     }
@@ -66,27 +66,6 @@ def load_world_df():
     world_df = gpd.read_file(gpd.datasets.get_path('naturalearth_lowres'))
     world_df = world_df[(world_df.pop_est > 0) & (world_df.name != "Antarctica")]
     return world_df.set_index('iso_a3')
-
-def find_correlation(df_topics):
-
-    """ selectedrows = df_topics[(df_topics[topic_n] >= threshold) & (df_topics[topic_m] >= threshold)]
-    return selectedrows[[topic_n, topic_m]] """
-    correlation_matrix = df_topics.corr(method ='kendall')
-    # select only relevant correlations
-    '''Get diagonal and lower triangular pairs of correlation matrix'''
-    pairs_to_drop = set()
-    cols = df_topics.columns
-    for i in range(0, df_topics.shape[1]):
-        for j in range(0, i+1):
-            pairs_to_drop.add((cols[i], cols[j]))
-
-    n = 5
-    au_corr = correlation_matrix.abs().unstack()
-    labels_to_drop = pairs_to_drop
-    au_corr = au_corr.drop(labels=labels_to_drop).sort_values(ascending=False)
-    print(correlation_matrix["9"])
-
-    return au_corr[0:n]
 
 
 # # aggiunge una colonna ad articles_df per indicare i countries di ogni articolo
@@ -115,22 +94,13 @@ def random_tests():
     path_of_topics_csv = "doc_topics.csv"
 
     df_art, df_aff = new_create_articles_dfs(path_of_files)
-    print(df_art)
-    print(df_aff)
+    # print(df_art)
+    # print(df_aff)
     df_topics = create_topics_df(path_of_topics_csv)
-    # call function find correlation after dataframe is loaded from topicsXdocuments csv
-
-    #print(df_topics)
-    #print("\n\n")
-    #print(find_correlation(df_topics))
-    #print(find_correlation(df_topics, "10", "12", 0.3))
-
-    # are topics correlated? 
-    
-    #print(df_topics)
-
-
-
+    print(df_topics)
+    print("\n\n")
+    # print(df_art.query('date >= "2015"')['date'])
+    print(df_aff)
 
 if __name__ == '__main__':
     random_tests()

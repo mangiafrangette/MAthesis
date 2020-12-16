@@ -30,7 +30,7 @@ def detect_lang(folder_path):
                 elif article["abstract"] is not None and detect(article["abstract"]) != "en":
                     print(article["article_title"])
 
-folder_path = "../data/research_papers/complete_dataset"
+folder_path = "../data/adho_conferences/complete_dataset"
 
 
 detect_lang(folder_path)

@@ -45,7 +45,7 @@ def create_affiliations_set(path_of_files):
 
 # Create a file with original and splitted names by comma. Testing a method to only query strings that communicate the university or institution and avoid noise
 def filter_affiliation_set(affiliations_set):    
-    with open("../data/research_papers_affiliations_set.json", "w", encoding="utf-8") as f:
+    with open("../data/conference_affiliations_set.json", "w", encoding="utf-8") as f:
         affiliations_to_query = []
         words_to_check = ["university", "universidade", "università", "universitat", "universidad", "universität", "université", "universiteit", "academy", "institute", "institut", "instituut", "college", "center", "centre"]
         for item in affiliations_set:
@@ -92,6 +92,7 @@ def ror_queries(affiliations_to_query, file_path):
                 "original_name": item["original_name"],
                 "response": response_json['items']
             })
+            print(query)
         # print()
         # if index == 5:
         #     write_json("../data/json_files/ror_queries.json", queries_affiliations_dict)
@@ -199,9 +200,9 @@ def fill_affiliations_json(path_of_files, path_of_new_files, data_affiliations_d
                 with open(f'{path_of_new_files}/{new_filename}', "w", encoding="utf-8") as f:
                     json.dump(filled_journal_dict, f, ensure_ascii=False)
 def main():
-    path_of_json_files = "../data/research_papers/no_country_dataset"
-    path_of_new_files = "../data/research_papers/complete_dataset"
-    ror_queries_file_path = "../data/research_papers_ror_queries.json"
+    path_of_json_files = "../data/adho_conferences/no_country_dataset"
+    path_of_new_files = "../data/adho_conferences/complete_dataset"
+    ror_queries_file_path = "../data/conference_ror_queries.json"
 
     # Generate the set of the affiliation in the corpus of journals
     affiliations_set = create_affiliations_set(path_of_json_files)
@@ -209,17 +210,17 @@ def main():
     filter_affiliation_set(affiliations_set)
 
     # Comment the following lines if ror queries have already been saved and load them with the next lines
-    #queries_results = ror_queries(filter_affiliation_set(affiliations_set), ror_queries_file_path)
-    #with open(ror_queries_file_path, "w", encoding="utf-8") as file:
-    #    json.dump(queries_results, file, ensure_ascii=False)
+    queries_results = ror_queries(filter_affiliation_set(affiliations_set), ror_queries_file_path)
+    with open(ror_queries_file_path, "w", encoding="utf-8") as file:
+        json.dump(queries_results, file, ensure_ascii=False)
 
     # Comment the following lines if ror queries have NOT already been saved and save them with the previous lines
     
-    with open(ror_queries_file_path, "r", encoding="utf-8") as file:
-        queries_results = json.load(file)
+    """ with open(ror_queries_file_path, "r", encoding="utf-8") as file:
+        queries_results = json.load(file) """
 
     chosen_results = chose_single_result(queries_results)
-    with open("../data/research_papers_ror_single_result.json", "w", encoding="utf-8") as file:
+    with open("../data/conference_ror_single_result.json", "w", encoding="utf-8") as file:
         json.dump(chosen_results, file, ensure_ascii=False)
 
     data_affiliations_dict = data_from_ror_results(chosen_results)
