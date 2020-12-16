@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="../schema/xmod_web.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xmt="http://www.cch.kcl.ac.uk/xmod/tei/1.0" 
+     xml:id="ab-307">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Citygram One: Visualizing Urban Acoustic Ecology</title>
+                <author>
+                    <name>Park, Tae Hong</name>
+                    <affiliation>Georgia State University, USA</affiliation>
+                    <email>park@gsu.edu</email>
+                </author>
+                <author>
+                    <name>Miller, Ben</name>
+                    <affiliation>Georgia State University, USA</affiliation>
+                    <email>miller@gsu.edu</email>
+                </author>
+                <author>
+                    <name>Shrestha, Ayush</name>
+                    <affiliation>Georgia State University, USA</affiliation>
+                    <email>ashrestha2@student.gsu.edu</email>
+                </author>
+                <author>
+                    <name>Lee, Sangmi</name>
+                    <affiliation>Georgia State University, USA</affiliation>
+                    <email>esangmi@gmail.com</email>
+                </author>
+                <author>
+                    <name>Turner, Jonathan</name>
+                    <affiliation>Georgia State University, USA</affiliation>
+                    <email>johnturner@me.com</email>
+                </author>
+                <author>
+                    <name>Marse, Alex</name>
+                    <affiliation>Georgia State University, USA</affiliation>
+                    <email>aemarse@gmail.com</email>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Jan Christoph Meister, Universität Hamburg</publisher>
+                <address>
+                   <addrLine>Von-Melle-Park 6, 20146 Hamburg, Tel. +4940 428 38 2972</addrLine>
+                   <addrLine>www.dh2012.uni-hamburg.de</addrLine>
+              </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>No source: created in electronic format.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2012-04-15</date>
+                <name>DH</name>
+                <desc>generate TEI-template with data from ConfTool-Export</desc>
+            </change>
+            <change>
+                <date>2012-04-13</date>
+                <name>LS</name>
+                <desc>provide metadata for publicationStmt</desc>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="paper">
+        <body>
+            <div>
+                <head>Introduction</head>
+                <p>The surfaces and spaces of our planet, and particularly metropolitan areas, are
+                    not only manifestations of visible physical shapes, but also include dimensions
+                    that go beyond the ocular. Furthermore, these invisible energies are often in a
+                    state of flux and could potentially yield insights into the living and breathing
+                    dimensions of our surroundings that are underexplored in contemporary mapping
+                    research. The Citygram project explores and develops ideas and concepts for
+                    novel mapping paradigms that reflect aspects of dynamicity and ‘the invisible’
+                    pertinent to cityscapes. The project’s main goal is to contribute to existing
+                    geospatial research by embracing the idea of time-variant, poly-sensory
+                    cartography. Our multi-layered and multi-format custom maps are <hi
+                        rend="italic">data-driven</hi> and based on continuous data streams captured
+                    by remote sensors. These dynamic maps can inform us of the flux in our built
+                    environments, such as parks, museums, alleys, bus stations, freeways, and
+                    university campuses.</p>
+                <p>Citygram is a large-scale project divided into a number of manageable iterations.
+                    The current iteration focuses on visualizing acoustic ecology and
+                    computationally inferring meaningful information such as emotion and mood. We
+                    are currently focusing our attention on small public spaces at the following
+                    university campuses: Georgia State University and Georgia Institute of
+                    Technology in Atlanta; California Institute of the Arts in Los Angeles; and
+                    Massey University in Wellington, New Zealand. Our aim is to render dynamic,
+                    non-intrusive acoustic maps that are scale accurate and topologically
+                    oriented.</p>
+            </div>
+            <div>
+                <head>Current Mapping Paradigms and Technologies</head>
+                <p>The most commonly used mapping paradigms are represented by Google Maps and and
+                    Bing Maps (PC World 2010). Many supplemental features are provided by these
+                    platforms: street-views, webcams (1 frame/hour), and pre-recorded videos taken
+                    from locations. Other mapping systems, such as UCLA’s <hi rend="italic"
+                        >Hypercities </hi>(‘Hypercities’ 2010), BBC’s <hi rend="italic">Save Our
+                        Sounds</hi> (‘Save Our Sounds’ 2011) and the <hi rend="italic">Locus Stream
+                        Project</hi> (‘Locus Sonus &gt; Locustream’ 2011) are more creative. <hi
+                        rend="italic">Hypercities</hi> is an interactive mapping system that allows
+                    temporal navigation via layers of historic maps, which are overlaid on modern
+                    maps via the <hi rend="italic">Google Earth</hi> interface. <hi rend="italic"
+                        >Save Our Sounds</hi> gathers crowd-sourced audio snapshots, archives them,
+                    and makes ‘endangered sounds’ available on a web interface. The <hi
+                        rend="italic">Locustream SoundMap</hi> project is based on the notion of
+                    networked ‘open mic’ audio streaming where site-specific, unmodified audio is
+                    broadcast on the Internet through a mapping interface. It seems that the project
+                    has its roots in artistic endeavors where ‘streamers,’ persons who install the
+                        <hi rend="italic">Locustream boxes</hi> in their apartments, share
+                    ‘non-spectacular or non-event based quality of the streams’ thereby revisiting a
+                    mode of listening exemplified by the composer John Cage.</p>
+            </div>
+            <div>
+                <head>Citygram One: Goals, Structure, and Focus</head>
+                <p>The project’s main goals are to (1) investigate potential avenues for capturing
+                    the flux of crowds, machines, ambient noise, and noise pollution; (2) map,
+                    visualize, and sonify sensory data; (3) automatically infer and measure
+                    emotion/mood in public spaces through sound analysis, pattern recognition, and
+                    text analytics; (4) provide clues to waves of contemplation and response in
+                    public spaces; (5) provide hints into the invisible dynamics between Citygram
+                    maps and aspects of urban ecology such as crime and census statistics,
+                    correlations to municipal boundaries, population density, school performance,
+                    real-estate trends, stock-market correlations, local, regional, national, and
+                    global news headlines, voting trends, and traffic patterns; (6) seek additional
+                    regional, national, and international collaborators.</p>
+                <p>Figure 1 shows the system overview. The data collecting devices (<hi
+                        rend="italic">d</hi>) are small computers that wirelessly transmit feature
+                    vectors (<hi rend="italic">v</hi>[<hi rend="italic">n</hi>]) to a central
+                    server. The minicomputers autonomously run the signal processing modules for the
+                    optimal efficiency of the entire system. Low-level acoustic feature vectors
+                    streamed to the server are <hi rend="italic">unintelligible</hi> and cannot be
+                    exploited to reconstruct the original audio waveforms or ‘eavesdrop’ on private
+                    conversations. This protects the privacy of individuals in public spaces.
+                    However, to enable users to hear the ‘texture’ of a space without compromising
+                    privacy we employ a modified granular synthesis techniques (Gabor 1946) which
+                    results in shuffling the temporal microstructure of audio signals.</p>
+                
+                <p><figure>
+                        <graphic url="img307-1.jpg" rend="left" height="256px" width="341px"
+                            mimeType="image/jpeg"/>
+                        <head>Figure 1: System architecture Top: Autonomous remote sensing
+                            devices transmitting feature vectors Bottom: Measurement of acoustic
+                            energy (dB)</head>
+                    </figure></p>
+           
+                <p>Citygram focuses on inferring useful information from invisible energies. One
+                    type of avisual information is environmental emotion or mood. Although
+                    interdisciplinary sentiment research is still in its nascent stages, automatic
+                    mood detection has found increasing interest in the field of music (Liu et al.
+                    2003; Wieczorkowska et al. 2006; Meyer 2007), speech analysis (Chuang &amp; Wu
+                    2004; Vidrascu 2005; Schuller 2008; Shafran 2011), face-recognition (Cohn &amp;
+                    Katz 1998; Yoshitomi et al<hi rend="italic">.</hi> 2000; Nagpal et al. 2010),
+                    and natural language processing (Xia et al. 2008; Tao 2004). As far as emotion
+                    detection in music is concerned, much of the research can be traced to Kate
+                    Hevner’s (Hevner 1936) seminal work in musical expression (see Figure 2) and
+                    other models developed by Thayer and Tellegen-Waston-Clark (Thayer 1989;
+                    Tellegen et al<hi rend="italic">.</hi> 1999) as shown in Figure 3 and 4.</p>
+                
+                <p><figure><graphic url="img307-2.jpg" rend="left" height="256px" width="341px" mimeType="image/jpeg"/><head>Figure 2: Hevner’s adjective circle</head></figure></p>
+                <p><figure><graphic url="img307-3.jpg" rend="left" height="256px" width="341px" mimeType="image/jpeg"/><head>Figure 3: Thayer’s model of mood</head></figure></p>
+                <p><figure><graphic url="img307-4.jpg" rend="left" height="256px" width="341px" mimeType="image/jpeg"/><head>Figure 4: Tellegen-Waston-Clark mood model</head></figure></p>
+            </div>
+            <div>
+                <head>Automatic Emotion Detection</head>
+                <p>The fundamental architecture of automatic emotion detection is shown in Figure 5.
+                    Features are extracted from audio signals, followed by training of the machine
+                    learning (ML) algorithms via a set of training samples; at the final stage, the
+                    machine classifies emotion ratings for unknown signals. Although much of the
+                    emotion/mood detection research for sound has been in the realm of music, there
+                    is strong potential that algorithms and methodologies similar to those used in
+                    music will translate to non-musical signals – many of the low-level feature
+                    vectors are <hi rend="italic">timbral</hi> rather than <hi rend="italic"
+                        >musical</hi> and reflect acoustic dimensions of sound.</p>
+                <p>We are exploring application of radial and elliptical basis functions (RBF/EBF)
+                    artificial neural networks (ANN) for automatic emotion classification as it has
+                    shown promise in previous research (Park 2004; Park and Cook 2005). We plan to
+                    compare Support Vector Machines (SVM) with RBF/EBF ANNs as each is based on
+                    contrasting approaches – RBF/EBF is hyperspherical/hyperellipsoid based and SVM
+                    is hyperplane based. We are also investigating ‘knowledge-based’ approaches for
+                    automatic verbal aggression detection in acoustically complex social
+                    environments already in use in public spaces (van Hengel et al. 2007). Feature
+                    vectors will be archived on our server to provide users a hub for future
+                    research on public spaces.</p>
+                
+                <p><figure><graphic url="img307-5.jpg" rend="left" height="256px" width="341px" mimeType="image/jpeg"/><head>Figure 5: Mood/Emotion Detection Architecture</head></figure></p>
+            
+        <p>Natural language processing techniques will further enrich the project’s assessment of
+            environmental sentiments via site-specific emotional readings from on-line sources.
+            Recent examples of localized text sentiment visualization from blogs and micro-blogs can
+            be found in ‘Pulse of the Nation’ (Mislove et al<hi rend="italic">.</hi> 2010) and ‘We
+            Feel Fine’ (Harris &amp; Kamvar 2011). In conjunction with spatial acoustic emotion
+            detection, this analysis will help us render comprehensive, dynamically changing emotion
+            indices through our on-line visualization mapping formats. The general structure for
+            sentiment analysis in the context of ML is similar to general practices in ML for sound;
+            both apply algorithms aimed at revealing patterns through features. We are currently
+            concentrating on keyword spotting (Ortony et al. 1987) supplemented by ‘common sense
+            reasoning.’ Keyword spotting relies on a pre-established lexicon of scored, significant
+            language. Common sense reasoning utilizes a database like Open Mind Common Sense (OMCS)
+            to infer meaning from text. A toolkit like ConceptNet is used in conjunction with OMCS
+            to facilitate sentiment analysis. This combination will allow us to recognize both
+            pre-coded and emergent sentiments. For instance, a keyword approach utilizes lists of
+            significant language and modifiers to recognize that ‘unhappy,’ preceded by ‘very,’ is
+            more significant than just ‘unhappy’ by itself. Recognizing that a capitalized or
+            exclamatory modifier, i.e.’VERY!!,’ accentuates the keyword and intensifies its positive
+            or negative valence (intrinsic attractiveness vs. aversiveness) scale, requires
+            OMCS.</p>
+           <p>This research, to better understand the dynamic life and mood of urban
+            spaces via acoustic ecology, mapping, pattern recognition, and data visualization, is
+            the first iteration in the larger Citygram project. Subsequent iterations of this
+            project will include analyzing additional types of avisual energies, such as
+            electromagnetic fields, humidity, temperature, color, and brightness and extending this
+            dynamic, poly-sensory cartographic data into a resource for inquiry on topics ranging
+            from urban ontology and climate change to sonification, and environmental kinetics.</p>
+       </div>
+    </body>
+        <back><div>
+                <head>References</head>
+            
+            <p><hi rend="bold">Baum, D.</hi> (2006). Emomusic – Classifying Music According to
+                        Emotion<hi rend="italic">. Proceedings of the 7<hi rend="sup">th</hi>
+                        Workshop on Data Analysis</hi>, Kosice, Slovakia, July 2009.</p>
+            <p><hi rend="bold">British Broadcasting Corporation</hi> (2011). Save Our Sounds. <ref
+                    target="http://www.bbc.co.uk/worldservice/specialreports/saveoursounds.shtml" type="external"
+                >http://www.bbc.co.uk/worldservice/specialreports/saveoursounds.shtml</ref>  (accessed 10
+                October 2011).</p>
+            <p><hi rend="bold">Chuang, Z., and H. Wu</hi> (2004). Multi-Modal Emotion Recognition
+                    from Speech and Text. <hi rend="italic">International Journal of Computational
+                        Linguistics and Chinese Language Processing</hi> 9(2): 45-62. </p>
+            <p><hi rend="bold">Cohn, J., and G. Katz</hi> (1998). Bimodal Expression of Emotion by
+                    Face and Voice<hi rend="italic">. Proceedings of the Sixth ACM International
+                        Multimedia Conference,</hi> New York, NY, September 1998.</p>
+            <p><hi rend="bold">Cohn J., and G. Katz</hi> (1998). Workshop on Face / Gesture
+                Recognition and Their Applications.<hi rend="italic"> Proceedings of the Sixth ACM
+                    International Multimedia Conference</hi>, New York, NY, September 1998.</p>
+            <p><hi rend="bold">Davies, A.</hi> (2011). <hi rend="italic">Acoustic Trauma :
+                        Bioeffects of Sound</hi>. Honors Thesis, University of South Wales.</p>
+            <p><hi rend="bold">Devillers, L., V. Laurence, and L. Lori</hi> (2005). Challenges in
+                    Real-Life Emotion Annotation and Machine Learning Based Detection. <hi
+                        rend="italic">Neural Networks</hi> 18(4): 407-422.</p>
+            <p><hi rend="bold">Fragopanagos, N., and J. Taylor</hi> (2005). Emotion Recognition in
+                    Human-Computer Interaction. <hi rend="italic">Neural Networks</hi> 18(4):
+                    389-405. </p>
+            <p><hi rend="bold">Gabor, D.</hi> (1946). Theory of Communication. <hi rend="italic"
+                        >Journal of the Institute of Electrical Engineers</hi> 93: 429-457. </p>
+            <p><hi rend="bold">Gupta, P., and N. Rajput</hi> (2007). Two-Stream Emotion Recognition
+                    for Call Center Monitoring. <hi rend="italic">Proceedings of Interspeech,</hi>
+                    Antwerp, Belgium, August 2007. </p>
+            <p><hi rend="bold">Harris, J., and S. Kamvar</hi> (2011). We Feel Fine and Searching the
+                    Emotional Web.<hi rend="italic"> Proceedings of the Web Search And Data Mining
+                        Conference,</hi> Hong Kong, China, November 2011.</p>
+            <p><hi rend="bold">Hevner, K.</hi> (1936). Experimental Studies of the Elements of
+                    Expression in Music. <hi rend="italic">American Journal of Psychology</hi> 48:
+                    246-268. </p>
+            <p><hi rend="bold">Kessous, L., G. Castellano, and G. Caridakis</hi> (2004). Multimodal
+                    Emotion Recognition in Speech-Based Interaction Using Facial Expression, Body
+                    Gesture and Acoustic Analysis. <hi rend="italic">J Multimodal User
+                        Interfaces</hi> 3: 33-48.</p>
+            <p><hi rend="bold">Li, T., and M. Ogihara</hi> (2003). Detecting Emotion in Music.<hi
+                        rend="italic"> Proceedings of the International Society for Music Information Retrieval</hi>,
+                    Baltimore, Maryland, October 2003.</p>
+            <p><hi rend="bold">Li, T., and M. Ogihara</hi> (2004). Content-Based Music Similarity
+                    Search and Emotion Detection.<hi rend="italic"> Proceedings of the</hi>
+                    <hi rend="italic">International Society for Music Information Retrieval</hi>,
+                    Quebec, Canada, May 2004. </p>
+            <p><hi rend="bold">Liu, D., L. Lu, and H. Zhang</hi> (2003). Automatic Mood Detection
+                    from Acoustic Music Data. <hi rend="italic"> Proceedings of the International
+                        Society for Music Information Retrieval,</hi> Baltimore, Maryland, October
+                    2003. </p>
+            <p><hi rend="bold">Liu, H.</hi> (2002). Automatic Affective Feedback in an Email
+                Browser. In <hi rend="italic">MIT Media Lab Software Agents Group.</hi></p>
+            <p><hi rend="bold">Liu, H., H. Lieberman, and T. Selker</hi> (2003). A Model of Textual
+                    Affect Sensing Using Real-World Knowledge<hi rend="italic">. International
+                        Conference on Intelligent User Interfaces,</hi> Miami, FL, January 2003.</p>
+            <p><hi rend="bold">Liu, H., and P. Singh</hi> (2004). Conceptnet: A Practical
+                    Commonsense Reasoning Toolkit. <hi rend="italic">BT Technology Journal </hi>22:
+                    211-26.</p>
+            <p><hi rend="bold">Locus Sonus</hi> (2008). LocusStream. <ref
+                        target="http://locusonus.org/w/?page=Locustream" type="external"
+                        >http://locusonus.org/w/?page=Locustream</ref>. (accessed 10 October
+                    2011).</p>
+            <p><hi rend="bold">Meyers, O. C.</hi> (2007). <hi rend="italic">A Mood-Based Music
+                        Classification and Exploration System</hi>. Master’s thesis, Massachusetts
+                    Institute of Technology.</p>
+            <p><hi rend="bold">Mislove, A., S. Lehmann, and Y. Ahn</hi> (2010). Pulse of the Nation:
+                    U.S. Mood Throughout the Day Inferred from Twitter. <ref
+                        target="http://ccs.neu.edu/home/amislove/twittermood/" type="external"
+                        >http://ccs.neu.edu/home/amislove/twittermood/</ref>. (accessed 1 November
+                    2011).</p>
+            <p><hi rend="bold">Nagpal, R., P. Nagpal, and S. Kaur</hi> (2010). Hybrid Technique for
+                    Human Face Emotion Detection. <hi rend="italic">International Journal of
+                        Advanced Computer Science and Applications</hi> 1(6).</p>
+            <p><hi rend="bold">Null, C.</hi> (2010). Which Online Mapping Service Is Best? <hi
+                        rend="italic">PC World</hi>. <ref
+                        target="http://www.pcworld.com/article/206702-2/which_online_mapping_service_is_best.html"
+                        type="external"
+                        >http://www.pcworld.com/article/206702-2/which_online_mapping_service_is_best.html.</ref>
+                    (accessed 30 October 2011).</p>
+            <p><hi rend="bold">Ortony, A., G. L. Clore, and M. A. Foss</hi> (1987). The Referential
+                    Structure of the Affective Lexicon. <hi rend="italic">Cognitive Science</hi> 11:
+                    341-364.</p>
+            <p><hi rend="bold">Park, T. H.</hi> (2004). <hi rend="italic">Towards Automatic Musical
+                        Instrument Timbre Recognition</hi>. Ph.D. thesis, Princeton University.</p>
+            <p><hi rend="bold">Park, T. H., and P. Cook</hi> (2005). Radial/Elliptic Basis Functions
+                    Neural Networks for Musical Instrument Classification. <hi rend="italic"
+                        >Journées d’Informatique Musicale</hi>.</p>
+            <p><hi rend="bold">Presner, T.</hi> (2010). Hypercities: Building a Web 2.0 Learning
+                Platform. In A. Natsina and T. Kyalis (eds.), <hi rend="italic">Teaching Literature
+                    at a Distance</hi>.London: Continuum Books, pp. 171-182. </p>
+            <p><hi rend="bold">Schnaps, J.</hi> (2009). Age and Clarity of Imagery. <ref
+                        target="http://sites.google.com/site/earthhowdoi/Home/ageandclarityofimagery"
+                        type="external"
+                        >http://sites.google.com/site/earthhowdoi/Home/ageandclarityofimagery</ref>
+                     (accessed 10 October 2011).</p>
+            <p><hi rend="bold">Schuller, B. W.</hi> (2008). Speaker, Noise, and Acoustic Space
+                Adaptation for Emotion Recognition in the Automotive Environment.<hi rend="italic">
+                    Proceedings of ITG Conference on Voice Communication (SprachKommunikation),</hi>
+                pp. 1-4. </p>
+            <p><hi rend="bold">Shafran, I., and M. Mohri</hi> (2005). A Comparison of Classifiers
+                    for Detecting Emotion from Speech. <hi rend="italic">Proceedings of IEEE
+                        International Conference on Acoustics, Speech and Signal Processing,</hi>
+                    May 2005. </p>
+            <p><hi rend="bold">Singh, P., T. Lin, E. Mueller, G. Lim, T. Perkins, and W. Zhu</hi>
+                (2002). Open Mind Common Sense: Knowledge Acquisition from the General Public. <hi
+                    rend="italic">Lecture Notes in Computer Science</hi>, pp. 1223-1237.</p>
+            <p><hi rend="bold">Tao, J.</hi> (2004). Context based emotion detection from text
+                    input.<hi rend="italic"> Proceedings ofInternational Conference on Spoken
+                    Language Processing,</hi> Jeju Island, Korea, October 2004.</p>
+            <p><hi rend="bold">Tellegen, A., D. Watson, and L. A. Clark</hi> (1999). On the
+                dimensional and hierarchical structure of affect. <hi rend="italic">Psychological
+                    Science</hi> 10: 297-303. </p>
+            <p><hi rend="bold">Thayer, R.</hi> (1989). <hi rend="italic">The Biospychology of Mood
+                    and Arousal.</hi> Cambridge: Oxford  UP.</p>
+            <p><hi rend="bold">van Hengel, P., and T. Andringa</hi> (2007). Verbal aggression
+                    detection in complex social environments. <hi rend="italic">Fourth IEEE
+                        International Conference on Advanced Video and Signal Based
+                        Surveillance</hi>, London, United Kingdom, September, 2007.</p>
+            <p><hi rend="bold">Vidrascu, L., and L. Devillers</hi> (2005). Annotation and detection
+                of blended emotions in real human-human dialogs recorded in a call center.<hi
+                    rend="italic"> Proceedings of the IEEE International Conference on Multimedia
+                    and Expo</hi>, Amsterdam, Netherlands, July 2006.</p>
+            <p><hi rend="bold">Wieczorkowska, A., P. Synak, and Z. W. Ras</hi> (2006). Multi-Label
+                Classification of Emotions in Music. <hi rend="italic">Intelligent Information
+                    Processing and Web Mining</hi> 35: 307-315. </p>
+            <p><hi rend="bold">Xia, Y., L. Wang, K. Wong, and M. Xu</hi> (2008). Sentiment vector
+                    space model for lyric-based song sentiment classification<hi rend="italic">.
+                        Proceedings of the 46th Annual Meeting of the Association for Computational
+                        Linguistics on Human Language Technologies: Short Papers</hi>, Association
+                    for Computational Linguistics, Stroudsburg, PA, USA.</p>
+            <p><hi rend="bold">Yoshitomi, Y., S. I. Kim, T. Kawano, and T. Kitazoe</hi> (2000).
+                    Effect of Sensor Fusion for Recognition of Emotional States Using Voice, Face
+                    Image and Thermal Image of Face.
+                    <hi rend="italic">IEEE International Workshop on Robot and Human Interactive
+                        Communication</hi>, Osaka, Japan, September 2000.</p>
+        </div>
+        </back></text>
+</TEI>

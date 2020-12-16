@@ -1,0 +1,445 @@
+<html>
+<head><script src="//archive.org/includes/analytics.js?v=cf34f82" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app202.us.archive.org';v.server_ms=540;archive_analytics.send_pageview({});});</script><script type="text/javascript" src="/_static/js/playback.bundle.js?v=SOX25l-I" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=cRqOKCOw" charset="utf-8"></script>
+<script type="text/javascript">
+  __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://www.hum.gu.se:80/allcach2004/AP/html/prop100.html","20040903094353","http://web.archive.org/","web","/_static/",
+	      "1094204633");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=bsmaklHF" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=qtvMKcIJ" />
+<!-- End Wayback Rewrite JS Include -->
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>ALLC/ACH Conference 2004 Abstract: An open source implementation of PhiloLogic for large TEI-Lite document collections</title>
+</head>
+<body bgcolor="#FFFFE0"><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<style type="text/css">
+body {
+  margin-top:0 !important;
+  padding-top:0 !important;
+  /*min-width:800px !important;*/
+}
+</style>
+<script>__wm.rw(0);</script>
+<div id="wm-ipp-base" lang="en" style="display:none;direction:ltr;">
+<div id="wm-ipp" style="position:fixed;left:0;top:0;right:0;">
+<div id="wm-ipp-inside">
+  <div style="position:relative;">
+    <div id="wm-logo" style="float:left;width:110px;padding-top:12px;">
+      <a href="/web/" title="Wayback Machine home page"><img src="/_static/images/toolbar/wayback-toolbar-logo-200.png" srcset="/_static/images/toolbar/wayback-toolbar-logo-100.png, /_static/images/toolbar/wayback-toolbar-logo-150.png 1.5x, /_static/images/toolbar/wayback-toolbar-logo-200.png 2x" alt="Wayback Machine" style="width:100px" border="0" /></a>
+    </div>
+    <div class="r" style="float:right;">
+      <div id="wm-btns" style="text-align:right;height:25px;">
+                  <div id="wm-save-snapshot-success">success</div>
+          <div id="wm-save-snapshot-fail">fail</div>
+          <a id="wm-save-snapshot-open" href="#"
+	     title="Share via My Web Archive" >
+            <span class="iconochive-web"></span>
+          </a>
+          <a href="https://archive.org/account/login.php"
+             title="Sign In"
+             id="wm-sign-in"
+          >
+            <span class="iconochive-person"></span>
+          </a>
+          <span id="wm-save-snapshot-in-progress" class="iconochive-web"></span>
+        	<a href="http://faq.web.archive.org/" title="Get some help using the Wayback Machine" style="top:-6px;"><span class="iconochive-question" style="color:rgb(87,186,244);font-size:160%;"></span></a>
+	<a id="wm-tb-close" href="#close" onclick="__wm.h(event);return false;" style="top:-2px;" title="Close the toolbar"><span class="iconochive-remove-circle" style="color:#888888;font-size:240%;"></span></a>
+      </div>
+      <div id="wm-share">
+          <a href="/web/20040903094353/http://web.archive.org/screenshot/http://www.hum.gu.se/allcach2004/AP/html/prop100.html"
+             id="wm-screenshot"
+             title="screenshot">
+            <span class="wm-icon-screen-shot"></span>
+          </a>
+	<a id="wm-share-facebook" href="#" data-url="http://web.archive.org/web/20040903094353/http://www.hum.gu.se:80/allcach2004/AP/html/prop100.html" title="Share on Facebook" style="margin-right:5px;" target="_blank"><span class="iconochive-facebook" style="color:#3b5998;font-size:160%;"></span></a>
+	<a id="wm-share-twitter" href="#" data-url="http://web.archive.org/web/20040903094353/http://www.hum.gu.se:80/allcach2004/AP/html/prop100.html" title="Share on Twitter" style="margin-right:5px;" target="_blank"><span class="iconochive-twitter" style="color:#1dcaff;font-size:160%;"></span></a>
+      </div>
+    </div>
+    <table class="c" style="">
+      <tbody>
+	<tr>
+	  <td class="u" colspan="2">
+	    <form target="_top" method="get" action="/web/submit" name="wmtb" id="wmtb"><input type="text" name="url" id="wmtbURL" value="http://www.hum.gu.se/allcach2004/AP/html/prop100.html" onfocus="this.focus();this.select();" /><input type="hidden" name="type" value="replay" /><input type="hidden" name="date" value="20040903094353" /><input type="submit" value="Go" /></form>
+	  </td>
+	  <td class="n" rowspan="2" style="width:110px;">
+	    <table>
+	      <tbody>
+		<!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+		<tr class="m">
+		  <td class="b" nowrap="nowrap">Aug</td>
+		  <td class="c" id="displayMonthEl" title="You are here: 09:43:53 Sep 03, 2004">SEP</td>
+		  <td class="f" nowrap="nowrap"><a href="http://web.archive.org/web/20041025014724/http://www.hum.gu.se:80/allcach2004/AP/html/prop100.html" title="25 Oct 2004"><strong>Oct</strong></a></td>
+		</tr>
+		<!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+		<tr class="d">
+		  <td class="b" nowrap="nowrap"><img src="/_static/images/toolbar/wm_tb_prv_off.png" alt="Previous capture" width="14" height="16" border="0" /></td>
+		  <td class="c" id="displayDayEl" style="width:34px;font-size:24px;white-space:nowrap;" title="You are here: 09:43:53 Sep 03, 2004">03</td>
+		  <td class="f" nowrap="nowrap"><a href="http://web.archive.org/web/20041025014724/http://www.hum.gu.se:80/allcach2004/AP/html/prop100.html" title="01:47:24 Oct 25, 2004"><img src="/_static/images/toolbar/wm_tb_nxt_on.png" alt="Next capture" width="14" height="16" border="0" /></a></td>
+		</tr>
+		<!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+		<tr class="y">
+		  <td class="b" nowrap="nowrap">2003</td>
+		  <td class="c" id="displayYearEl" title="You are here: 09:43:53 Sep 03, 2004">2004</td>
+		  <td class="f" nowrap="nowrap">2005</td>
+		</tr>
+	      </tbody>
+	    </table>
+	  </td>
+	</tr>
+	<tr>
+	  <td class="s">
+	    	    <div id="wm-nav-captures">
+	      	      <a class="t" href="/web/20040903094353*/http://www.hum.gu.se/allcach2004/AP/html/prop100.html" title="See a list of every capture for this URL">6 captures</a>
+	      <div class="r" title="Timespan for captures of this URL">03 Sep 2004 - 21 Apr 2005</div>
+	      </div>
+	  </td>
+	  <td class="k">
+	    <a href="" id="wm-graph-anchor">
+	      <div id="wm-ipp-sparkline" title="Explore captures for this URL" style="position: relative">
+		<canvas id="wm-sparkline-canvas" width="625" height="27" border="0"></canvas>
+	      </div>
+	    </a>
+	  </td>
+	</tr>
+      </tbody>
+    </table>
+    <div style="position:absolute;bottom:0;right:2px;text-align:right;">
+      <a id="wm-expand" class="wm-btn wm-closed" href="#expand" onclick="__wm.ex(event);return false;"><span id="wm-expand-icon" class="iconochive-down-solid"></span> <span style="font-size:80%">About this capture</span></a>
+    </div>
+  </div>
+    <div id="wm-capinfo" style="border-top:1px solid #777;display:none; overflow: hidden">
+                    <div id="wm-capinfo-collected-by">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center">COLLECTED BY</div>
+    <div style="padding:3px;position:relative" id="wm-collected-by-content">
+            <div style="display:inline-block;vertical-align:top;width:50%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/alexacrawls);"></span>
+		Organization: <a style="color:#33f;" href="https://archive.org/details/alexacrawls" target="_new"><span class="wm-title">Alexa Crawls</span></a>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Starting in 1996, <a href="http://www.alexa.com/">Alexa Internet</a> has been donating their crawl data to the Internet Archive.  Flowing in every day, these data are added to the <a href="http://web.archive.org/">Wayback Machine</a> after an embargo period.
+	</div>
+	      </div>
+      <div style="display:inline-block;vertical-align:top;width:49%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/alexa_dy)"></span>
+		<div>Collection: <a style="color:#33f;" href="https://archive.org/details/alexa_dy" target="_new"><span class="wm-title">Alexa Crawls DY</span></a></div>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Crawl data donated by Alexa Internet. This data is currently not publicly accessible
+	</div>
+	      </div>
+    </div>
+    </div>
+    <div id="wm-capinfo-timestamps">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center" title="Timestamps for the elements of this page">TIMESTAMPS</div>
+    <div>
+      <div id="wm-capresources" style="margin:0 5px 5px 5px;max-height:250px;overflow-y:scroll !important"></div>
+      <div id="wm-capresources-loading" style="text-align:left;margin:0 20px 5px 5px;display:none"><img src="/_static/images/loading.gif" alt="loading" /></div>
+    </div>
+    </div>
+  </div></div></div></div><div id="donato" style="position:relative;width:100%;">
+  <div id="donato-base">
+    <iframe id="donato-if" src="https://archive.org/includes/donate.php?as_page=1&amp;platform=wb&amp;referer=http%3A//web.archive.org/web/20040903094353/http%3A//www.hum.gu.se/allcach2004/AP/html/prop100.html"
+	    scrolling="no" frameborder="0" style="width:100%; height:100%">
+    </iframe>
+  </div>
+</div><script type="text/javascript">
+__wm.bt(625,27,25,2,"web","http://www.hum.gu.se/allcach2004/AP/html/prop100.html","20040903094353",1996,"/_static/",["/_static/css/banner-styles.css?v=bsmaklHF","/_static/css/iconochive.css?v=qtvMKcIJ"]);
+  __wm.rw(1);
+</script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+<h2 align="center">An open source implementation of PhiloLogic for large TEI-Lite document collections</h2>
+<p align="CENTER">
+<i>
+Paper
+</i>
+</p>
+<p align="CENTER">
+Olsen, Mark (University of Chicago) mark@barkov.uchicago.edu<br>
+Voyer, Robert (University of Chicago) rlvoyer@diderot.uchicago.edu<br>
+Montoya, Orion (University of Chicago) orion@valla.uchicago.edu<br>
+Andreev, Leonid (Harvard University) leonid@latte.harvard.edu<br>
+
+</p>
+<center>
+<table border="1">
+<tr>
+<td>
+<p>
+<b>Contact Information recorded for this paper is:</b>
+</p>
+Mark Olsen<br>
+Department of Romance Languages<br>
+ARTFL Project<br>
+University of Chicago<br>
+Chicago, IL 60637<br>
+
+<br>
+<i>Telephone: </i>773-702-8687<br>
+<i>FAX: </i>773-702-8488<br>
+</td>
+</tr>
+</table>
+<br>
+<br>
+<table border="1">
+<tr>
+<td colspan="2">
+<p>
+<b>The equipment requirements recorded for this paper are:</b>
+</p>
+</td>
+</tr>
+<tr>
+<td width="50%"><b>Computer Requirements:</b>
+<br>
+<i>(nothing recorded)</i>
+
+<br>
+
+</td><td width="50%"><b>Special Equipment:</b>
+<br>
+<i>(nothing recorded)</i>
+
+<br>
+
+</td>
+</tr>
+</table>
+</center>
+<hr>
+
+<p>
+The wide array of XML data specifications and the recent deployment 
+of basic XML processing tools provides an important opportunity for 
+the collaborative development of higher-level, interoperable tools 
+for Humanities Computing applications.  The sophistication and power 
+of the TEI-XML encoding specification supports the development of 
+extremely rich textual data representations that encourage, if not 
+require, development of sets of tools to exploit features 
+of encoded text to perform particular tasks.  It may be the case that one
+general tool will never fit all possible uses for encoded documents, 
+but that a set of more specialized, interoperable tools for 
+end-user applications will provide mechanism for cost-effective
+deployment of end-user applications.  
+</p>
+<p>
+As the ARTFL Project's contribution to the collaborative development of 
+these tools, this paper will outline recent work on PhiloLogic<a href="#en"><sup>2</sup></a> 
+to support a wide variety of TEI-Lite (XML and SGML) encoded documents 
+optionally using the Unicode character specification.  We will present 
+a general design overview, indicating the current features and 
+limitations, of this implementation, which the ARTFL Project is 
+releasing under the GNU General Public License.<a href="#en"><sup>3</sup></a>  We feel 
+that Humanities Computing applications are particularly well suited 
+to open source development by a community with wide ranging technical 
+abilities that is not well supported by the commercial sector.
+</p>
+<p>
+PhiloLogic is the primary full-text search, retrieval and analysis 
+tool developed by the ARTFL Project and Digital Library Development
+Center (DLDC) at the University of Chicago.  Originally implemented to 
+support large databases of French literature, PhiloLogic has been extended
+to support a wide variety of textual and hypermedia databases in 
+collaboration with numerous academic institutions and, more recently, 
+commercial organizations.<a href="#en"><sup>4</sup></a> PhiloLogic is a modular system, 
+in which a textbase is treated as a set of coordinated or related 
+databases, typically including an object (units of text such as a 
+letter, scene, document, etc) database, a word forms database, a 
+word concordance index mapped to textual objects, and an object 
+manager mapping text objects to byte offsets in data files.  Each of 
+these databases is stored and managed using its own subsystem. 
+</p>
+<p>
+Textual metadata, for example, is extracted from the database and 
+loaded into a subsystem that handles delimited field data using 
+appropriate functionality, including arithmetic, boolean, and 
+regular expression searching and may be implemented using variety of
+systems including standard open-source packages such as MYSQL
+or PostgreSQL.  This model also supports extensive use of standoff
+markup<a href="#en"><sup>5</sup></a>, since objects in the document tree may be linked to
+extensive records in relational databases describing these objects.
+</p>
+<p>
+As with most full text search and retrieval systems, the amount 
+of text processing actually involved in a user search is very limited,
+typically being only that required to extract an element from a
+document and format it on output.  Similarly, building a PhiloLogic
+database typically requires a data pass to extract, in a consistent
+way, structured data from the text.  The addition of TEI-Lite support 
+for PhiloLogic required creation of new loaders and output formatters.
+We are using various approaches to both tasks and will discuss the
+strengths and weaknesses using SGML/XML-aware tools as opposed to 
+more general programming techniques.  It appears that certain
+tasks, particularly those involving data extraction from heavily
+nested elements, are better implemented using a tree based
+approach, while others, such as calculating the position of words
+and byte offsets in an abstract document object hierarchy are
+better approached as streams.  Output formatting of objects 
+also appear to present similar options, depending on the complexity
+of the encoding and display requirements.
+</p>
+<p>
+The current development version of PhiloLogic is also able to process
+Unicode in the form of UTF-8.<a href="#en"><sup>6</sup></a>  The internal word and object 
+indexing system of PhiloLogic has been UTF-8 capable for some time, 
+since it is independent of language or character specifications.  Word 
+searches are performed independently of look-ups in the word occurrence 
+indexes.  We are using several different approaches to Unicode support based on 
+a multifield word management subsystem.  While index entries are 
+stored in UTF-8, search fields can be configured for various 
+languages and combined with slightly modified regular expression 
+matching which allows for searching on Unicode representations or various 
+simplified representations.  Romanizations, for our current 
+experiments, are performed by Perl module (Obliterator) developed 
+by ARTFL and the DLDC for transliterating and transcoding among ISCII, 
+Unicode, and a host of romanizations of Indic scripts.<a href="#en"><sup>7</sup></a>   This
+model may be extended to handle many more writing systems. 
+</p>
+<p>
+We are basing this paper on the 2t/2e series of the PhiloLogic
+engine.  While fast, robust, and well proven, it is based on
+a fixed object depth word indexing architecture.  This has two
+distinct limitations: it flattens object depths  and it does not 
+provide for a word "attribute" field to indicate that a word 
+belongs to particular types of objects that users may want to 
+include or exclude from searches (such as notes or stage directions).  
+We will describe current work on the 3t generation of engine and 
+hope to be able to include a development version of this variant 
+in 2004.  Even then, the possible variations of document encoding 
+possible within the TEI-Lite specification may not be treated in 
+ways that original encoders had in mind.  
+</p>
+<p>
+We are planning for a base release of PhiloLogic with examples of
+how to implement a wide variety of options required for different 
+document types and collections.  Based on the long history of
+PhiloLogic use and development at ARTFL and among various 
+collaborators, we are planning that the base release will 
+include as many features as possible while not requiring 
+significant administrative or development work to use effectively.   
+</p>
+<p>
+Humanities Computing needs to foster collaborative tool development.
+It is our belief that these tools will be specialized, focusing
+on the theoretical orientations and practical experience of various
+humanities computing organizations.  PhiloLogic is a result of
+ARTFL's need for tools to handle large amounts of relatively
+lightly encoded text with a significant orientation to the
+manipulation of large amounts of descriptive and analytical metadata.
+Encouraging interoperability and collaborative development,
+particularly the use of standard processing tools and 
+encoding systems, will provide for a way to leverage development 
+work being done at various institutions.
+</p>
+<p>
+Some sample prototypes of PhiloLogic for TEI (XML/SGML)
+are available at:</p>
+
+   
+<p>
+<tt><a href="http://web.archive.org/web/20040903094353/http://www.lib.uchicago.edu/efts/ARTFL/philologic/tei-samples/">http://www.lib.uchicago.edu/efts/ARTFL/philologic/tei-samples/</a></tt>
+
+
+</p>
+
+<h3>Notes</h3>
+<table>
+<tr>
+<td valign="TOP" width="50"><a name="en1">1.</a></td><td>
+
+Contact: Mark Olsen, <i>mark@barkov.uchicago.edu</i>.  
+Affiliations: Andreev, Virtual Data Center, Harvard University;
+Montoya, Digital Library Development Center, University of Chicago;
+Olsen and Voyer, ARTFL Project, University of 2. A general description and PhiloLogic manual available at
+<tt><a href="http://web.archive.org/web/20040903094353/http://www.lib.uchicago.edu/efts/ARTFL/philologic/">http://www.lib.uchicago.edu/efts/ARTFL/philologic/</a></tt>.  More
+recent development descriptions and technical overviews are 
+found in Olsen, "Words, Objects, and Attributes: Leveraging the Full 
+Power of TEI Encoding in Database Searching", October 9, 2002, Second
+Annual TEI Consortium Meeting, Newberry Library, Chicago
+(<tt><a href="http://web.archive.org/web/20040903094353/http://barkov.uchicago.edu/talks/TEI2002/">http://barkov.uchicago.edu/talks/TEI2002/</a></tt>) and 
+"Rich Textual 
+Metadata: Implementation and Theory", Poster Session, ALLC/ACH 2002 
+Conference, University of T&uuml;bingen, July 24-29, 2002
+(<tt><a href="http://web.archive.org/web/20040903094353/http://barkov.uchicago.edu/talks/ACH2002/rich-metadata.html">http://barkov.uchicago.edu/talks/ACH2002/rich-metadata.html</a>
+</tt>).
+
+</td>
+</tr>
+<tr>
+<td valign="TOP" width="50"><a name="en2">2.</a></td><td>  
+The GNU General Public License 
+(<tt><a href="http://web.archive.org/web/20040903094353/http://www.gnu.org/licenses/gpl.html">http://www.gnu.org/licenses/gpl.html</a></tt>)
+allows unrestricted use, but requires that distribution of
+the software be accompanied by the source code (or an offer for it),
+and does not allow anyone other than the copyright holder to add or
+remove restrictions on redistribution.
+</td>
+</tr>
+<tr>
+<td valign="TOP" width="50"><a name="en3">3.</a></td><td>Academic collaborations include Opera del Vocabolario Italiano 
+(<tt><a href="http://web.archive.org/web/20040903094353/http://www.lib.uchicago.edu/efts/ARTFL/projects/OVI/">http://www.lib.uchicago.edu/efts/ARTFL/projects/OVI/</a>
+</tt>),
+The Abraham Lincoln Historical Digitization Project
+(<tt><a href="http://web.archive.org/web/20040903094353/http://lincoln.lib.niu.edu/">http://lincoln.lib.niu.edu/</a></tt>) 
+and the Artemene Project 
+(<tt><a href="http://web.archive.org/web/20040903094353/http://www.artamene.org/">http://www.artamene.org/</a></tt>).  Commercial 
+collaborations include Alexander Street Press 
+(<tt><a href="http://web.archive.org/web/20040903094353/http://www.alexanderst.com/">http://www.alexanderst.com/</a></tt>)
+and Editions Champion
+(<tt><a href="http://web.archive.org/web/20040903094353/http://www.lib.uchicago.edu/efts/ARTFL/databases/champion/b%0Aasile/">http://www.lib.uchicago.edu/efts/ARTFL/databases/champion/b
+asile/</a></tt>).
+</td>
+</tr>
+<tr>
+<td valign="TOP" width="50"><a name="en4">4.</a></td><td>There are a number of ways to implement standoff markup.  See, for
+example, 
+<tt><a href="http://web.archive.org/web/20040903094353/http://www.tei-c.org/Activities/SO/sow06.html">http://www.tei-c.org/Activities/SO/sow06.html</a></tt>.
+Our implementation uses a non-standard model of relational links from 
+databases in SQL to objects identified in PhiloLogic object trees.
+</td>
+</tr>
+<tr>
+<td valign="TOP" width="50"><a name="en5">5.</a></td><td>See <tt><a href="http://web.archive.org/web/20040903094353/http://www.unicode.org/">http://www.unicode.org</a></tt>.
+</td>
+</tr>
+<tr>
+<td valign="TOP" width="50"><a name="en6">6.</a></td><td>
+Originally evolving from stream-oriented Perl scripts using hashes to
+transpose source and target characters, it now treats strings as
+objects, initialized with a source string, with methods that return
+the various target strings.  We are currently replacing the internal 
+hash-table approach with SWIG 
+(<tt><a href="http://web.archive.org/web/20040903094353/http://www.swig.org/">http://www.swig.org/</a></tt>) wrappers around 
+IBM's International Components for Unicode 
+(<tt><a href="http://web.archive.org/web/20040903094353/http://oss.software.ibm.com/icu/">http://oss.software.ibm.com/icu/</a></tt>).
+
+
+</td>
+</tr>
+</table>
+</body>
+</html>
+<!--
+     FILE ARCHIVED ON 09:43:53 Sep 03, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:08:19 Nov 27, 2020.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 441.155
+  exclusion.robots: 0.28
+  exclusion.robots.policy: 0.266
+  RedisCDXSource: 2.301
+  esindex: 0.017
+  LoadShardBlock: 384.007 (3)
+  PetaboxLoader3.datanode: 142.422 (4)
+  CDXLines.iter: 50.278 (3)
+  load_resource: 92.585
+  PetaboxLoader3.resolve: 26.664
+-->

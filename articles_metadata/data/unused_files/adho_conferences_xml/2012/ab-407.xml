@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="../schema/xmod_web.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xmt="http://www.cch.kcl.ac.uk/xmod/tei/1.0" 
+     xml:id="ab-407">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A flexible model for the collaborative annotation of digitized literary works</title>
+                <author>
+                    <name>Gayoso-Cabada, Joaquin</name>
+                    <affiliation>Universidad Complutense de Madrid, Spain</affiliation>
+                    <email>gayoxo@gmail.com</email>
+                </author>
+                <author>
+                    <name>Ruiz, Cesar</name>
+                    <affiliation>Universidad Complutense de Madrid, Spain</affiliation>
+                    <email>cruiz85@gmail.com</email>
+                </author>
+                <author>
+                    <name>Pablo-Nuñez, Luis</name>
+                    <affiliation>Universidad Complutense de Madrid, Spain</affiliation>
+                    <email>lpnunez@filol.ucm.es</email>
+                </author>
+                <author>
+                    <name>Sarasa-Cabezuelo, Antonio</name>
+                    <affiliation>Universidad Complutense de Madrid, Spain</affiliation>
+                    <email>asarasa@fdi.ucm.es</email>
+                </author>
+                <author>
+                    <name>Goicoechea-de-Jorge, Maria</name>
+                    <affiliation>Universidad Complutense de Madrid, Spain</affiliation>
+                    <email>mgoico@filol.ucm.es</email>
+                </author>
+                <author>
+                    <name>Sanz-Cabrerizo, Amelia</name>
+                    <affiliation>Universidad Complutense de Madrid, Spain</affiliation>
+                    <email>amsanz@filol.ucm.es</email>
+                </author>
+                <author>
+                    <name>Sierra-Rodriguez, Jose-Luis</name>
+                    <affiliation>Universidad Complutense de Madrid, Spain</affiliation>
+                    <email>jlsierra@fdi.ucm.es</email>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Jan Christoph Meister, Universität Hamburg</publisher>
+                <address>
+                   <addrLine>Von-Melle-Park 6, 20146 Hamburg, Tel. +4940 428 38 2972</addrLine>
+                   <addrLine>www.dh2012.uni-hamburg.de</addrLine>
+              </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>No source: created in electronic format.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2012-04-15</date>
+                <name>DH</name>
+                <desc>generate TEI-template with data from ConfTool-Export</desc>
+            </change>
+            <change>
+                <date>2012-04-13</date>
+                <name>LS</name>
+                <desc>provide metadata for publicationStmt</desc>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="paper">
+        <body>
+            <div>
+            <head>Introduction</head>
+                <p>The Complutense University has been one of the first European universities that
+                    has collaborated with Google’s  project<note><ref target="http://www.ucm.es/BUCM/atencion/25403.php" type="external">http://www.ucm.es/BUCM/atencion/25403.php</ref></note> by putting on
+                    the Web 100,000 volumes from its ancient fund. However scholars notice that
+                    these digitized texts are often of no much use to
+                    professors-researchers-students in literature unless additional tools are
+                    provided, to enhance the educational and research value of this material. In
+                    particular, the ability of making annotations on these texts has been largely
+                    recognized as a basic mean of adding value to this kind of digitized resources
+                    (Rios da Rocha et al. 2009). In this paper we present the annotation model used
+                    in @Note 1.0, a system developed at UCM funded by the Google’s 2010 Digital
+                    Humanities Award program.</p>
+                <p>@Note 1.0 allows us to retrieve digitized works from Google Books collection and
+                    add annotations to enrich the texts with research and learning purposes:
+                    critical editions, reading activities, e-learning tasks, etc. One of the main
+                    features of @Note annotation model, which distinguishes it from similar
+                    approaches (Azouaou &amp; Desmoulins 2006; Bechhofer at al. 2002; Koivunen 2005;
+                    Rios da Rocha et al. 2009; Schroeter et al. 2006; Tazi et al. 2003), is to
+                    promote the collaborative creation of annotation schemas by communities of
+                    researchers, teachers and students, and the use of these schemas in the
+                    definition of annotation activities on literary works. It results in a very
+                    flexible and adaptive model, able to be used by many different communities of
+                    experts in literature defending different critical literary theories and for
+                    different annotation tasks. In this paper we present this annotation model.</p>
+            </div>
+            <div>
+                <head>The @Note Annotation Model</head>
+            
+            <div>   
+                <head>Structure of the model</head>
+                <p>The structure of the @Note annotation model is summarized in the UML class
+                    diagram (Booch et al. 2005) of Fig. 1. In this model:</p>
+                <xmt:uList>
+                <item><hi rend="italic">Annotation management communities </hi>are groups of
+                        <hi rend="italic">annotation managers</hi>, experts in literature (teachers,
+                    researchers, etc) who act as administrators to create activities, to select
+                    works and to organize activity groups.</item>
+                <item><hi rend="italic">Annotation communities</hi>, in their turn, are
+                    groups of <hi rend="italic">annotators</hi>, students / pupils interested in
+                    literature who perform proposed annotation activities.</item>
+                <item>Each a<hi rend="italic">nnotation activity</hi> comprises (i) a <hi
+                        rend="italic">digitized work</hi>, (ii) a <hi rend="italic"
+                        >metalevel-oriented annotation schema</hi>, (iii) a <hi rend="italic"
+                        >work-oriented annotation schema</hi>.</item>
+                <item>In this context, the <hi rend="italic">works</hi> are the literary texts that
+                            can be annotated during the annotation activities. <hi rend="italic"
+                                >Annotations</hi>, in their turn, are characterized by: (i) an <hi
+                                rend="italic">annotation anchor </hi>(the region of the work to
+                            which the annotation refers), (ii) an <hi rend="italic">annotation
+                                content </hi>(a free rich-text piece that actually configure the
+                            annotation), (iii) a set of <hi rend="italic">annotation types</hi>
+                            (semantic qualifiers for annotations) chosen from the annotation schemas
+                            attached to the annotation activity (at least one from the
+                            metalevel-oriented annotation schema).</item>
+             
+                </xmt:uList>
+                
+                    <p><figure>
+                            <graphic url="img407-1.jpg" rend="left" height="256px" width="341px"
+                                mimeType="image/jpeg"/>
+                            <head>Figure 1: @Note information model</head>
+                        </figure></p>
+                 
+                
+                <xmt:uList>
+                <item>The <hi rend="italic">annotation schemas</hi> are explicit formalization
+                            of the types of annotations that can be carried out on works. In @Note,
+                            annotation schemas are hierarchies formed by annotation types and <hi
+                                rend="italic">annotation categories</hi> (sets of annotation types
+                            and/or others, more specifically, annotation categories). In their turn,
+                            they can be <hi rend="italic">metalevel-oriented annotation schemas</hi>
+                            (schemas which usually comprise concepts concerning particular literary
+                            theories around which the annotation activities are articulated), or <hi
+                                rend="italic">work-oriented annotation schemas</hi> (schemas that
+                            capture aspects relative to the relationships between annotations and
+                            their anchors). While schemas of the first type are created by
+                            annotation managers, schemas of the second type are usually created by
+                            annotators.</item>
+                    
+                </xmt:uList>   
+                
+                <p><figure>
+                            <graphic url="img407-2.jpg" rend="left" height="256px" width="341px"
+                                mimeType="image/jpeg"/>
+                            <head>Figure 2: Example of rules governing the annotation process
+                                (informally described using natural language)</head>
+                        </figure></p>
+                
+            </div>
+            
+            <div>
+                <head>The annotation process</head>
+                <p>The @Note annotation process governs how to create the different types of
+                    information elements envisioned in the annotation model. For this purpose, @Note
+                    introduces a set of rules governing aspects like information visibility,
+                    creation and modification privileges of annotations and annotation schemas,
+                    etc.  Although, by lack of space, these rules will not be detailed here, in Fig.
+                    2 we include an example concerning an informal description of some of the rules
+                    governing the management of annotation schemas.</p>
+            </div>
+            
+            <div>
+                <head>Annotation browsing and recovering</head>
+                <p>Annotation schemas in @Note are seen as T-<hi rend="italic">boxes</hi> of
+                    description logic theories (Brachman &amp; Levesque 2004). For instance, Fig 3a
+                    shows, edited in @Note, a fragment of the annotation schema used at UCM in an
+                    English Literature introductory course, while  Fig 3b despites the description
+                    logic’s counterpart. This simple interpretation is still powerful-enough to
+                    enable powerful <hi rend="italic">annotation browsing</hi> and <hi rend="italic"
+                        >annotation recovering</hi> behavior. Indeed:</p>
+                
+                <p><figure>
+                            <graphic url="img407-3.jpg" rend="left" height="256px" width="341px"
+                                mimeType="image/jpeg"/>
+                            <head>Figure 3: (a) A fragment of annotation schema (b) description
+                                logic counterpart</head>
+                        </figure></p>
+                
+                <xmt:uList>
+                <item>Annotations can be browsed using annotation
+                    schemas, in a similar way to a folder explorer in a filesystem. In each step,
+                    there is a category or a type selected, and the user will <hi rend="italic"
+                        >see</hi> all the annotations entailed by such a selected element.</item>
+                <item>Queries consist of arbitrary Boolean formulae involving annotation
+                    types and categories, being the outcomes the annotations entailed by such
+                    formulae.</item>
+                </xmt:uList>
+                
+                <p>In both cases, since entailment will be performed according to the description
+                    logic principles, the process will take into account the<hi rend="italic"> is-a
+                    </hi>relationship made explicit by the annotation schema.</p>
+                
+            </div>
+            
+            <div>
+                <head>Some technical details</head>
+                <p>The system has been entirely developed using Google technologies for the
+                    development of Rich-Internet Applications (RIAs) (Fraternali et al. 2010): GWT
+                    in the client side and the Google App Engine’s facilities in the server side
+                    (Unruh 2010). Fig. 4 shows some snapshots of the system. The current version
+                    runs on the fully free-access books integrated in Google Books, and, in
+                    particular, on the UCM-Google collection. The works retrieval is achieved by the
+                    use of the Google Books API through REST (Richardson &amp; Ruby 2007), and then
+                    presented to clients in an asynchronous way to keep them responsive to their
+                    events.</p>
+                
+                <p><figure>
+                            <graphic url="img407-4.jpg" rend="left" height="256px" width="341px"
+                                mimeType="image/jpeg"/>
+                            <head>Figure 4: Some snapshots of @Note</head>
+                        </figure></p>
+            </div>
+            </div>
+            
+            <div>
+                
+                <head>Conclusions and Future Works</head>
+                <p>@Note promotes a fully collaborative annotation process, in which not only
+                    literary works are collaboratively annotated, but also annotation schemas are
+                    collaboratively created. The @Note system has been evaluated at UCM by several
+                    researchers and students in literature. They highlighted the flexibility of the
+                    annotation model, and, in particular, the ability to create and share annotation
+                    schemas tailored according to different critical perspectives and annotation
+                    activities. Additionally, they appreciate a sufficient expressive power from a
+                    browsing and recovering point of view. They also remarked the educational
+                    potential of the tool, although some advanced features could add some conceptual
+                    difficulties for students. </p>
+                <p>Currently we are working to adapt the annotation tool in order to facilitate its
+                    connection to a repository of learning objects, so as to allow the storage of
+                    literary texts’ annotations as learning objects (Polsani 2003), and to make
+                    possible the recovery of those annotations and move about them according to the
+                    associated metadata. Thus, we are developing a communal working space for the
+                    creation of written compositions in different traditions and languages. We are
+                    also experimenting with the students’ capability for developing their own
+                    catalogues, annotating the literary texts according to them and reusing their
+                    annotations in the production of critical essays. Additionally, we are working
+                    on connecting our system with other digital libraries (in particular, with Hathi
+                    Trust<note><ref target="http://www.hathitrust.org/" type="external">http://www.hathitrust.org/</ref></note>). Finally, we are planning to address
+                    interoperability issues, in order to enable the interchange of annotations
+                    according to some of the emerging standards proposed by the digital humanities
+                    community (e.g., OAC<note><ref target="http://www.openannotation.org/" type="external">http://www.openannotation.org/</ref></note>).</p>
+                <p/>
+                <p/>
+            </div>
+            <div>
+                <p><hi rend="bold">Acknowledgements</hi></p>
+            <p>This work has been funded by Google with a grant of the
+                Google’s 2010 Digital Humanities award program entitled <hi rend="italic"
+                    >Collaborative annotation of digitalized literary texts</hi>. Additionally, this
+                work has been performed in the context of the project grants of the Spanish Ministry
+                for Research and Innovation (FF12008-06924-C02-01 and TIN2010-21288-C02-01), UCM
+                (PIMCDs 2010/177 and 2011/313) and Santander-UCM (GR 42/10 - 962022).</p>
+                </div>
+        </body>
+
+        
+        <back><div>
+                <head>References</head>
+
+            <p><hi rend="bold">Azouaou, F., and C. Desmoulins</hi> (2006). MemoNote, a context-aware
+                    annotation tool for teachers. <hi rend="italic">Proceedings of the 7th
+                        International Conference on Information Technology Based Higher Education
+                        and Training</hi> ITHET’06, Sidney, Australia, July 2006.</p>
+            <p><hi rend="bold">Bechhofer, S., L. Carr, C. Goble, S. Kampa,
+                        and T. Miles-Board</hi> (2002). The Semantics of Semantic Annotation.
+                    <hi rend="italic">Proceedings of the First International Conference on
+                    Ontologies, DataBases, and Applications of Semantics for Large Scale Information
+                    Systems</hi> ODBASE’02, Irvine, CA, USA, October 2002.</p>
+            <p><hi rend="bold">Booch, G., J. Rumbaugh, and I.
+                    Jacobson</hi> (2005). <hi rend="italic">The Unified Modeling Language User
+                    Guide</hi> (<hi rend="italic">2nd Edition</hi>). Boston: Adisson-Wesley.</p>
+            <p><hi rend="bold">Brachman, R., and H. Levesque</hi>
+                (2004). <hi rend="italic">Knowledge Representation and Reasoning</hi>. Amsterdam:
+                Morgan-Kauffmann. </p>
+            <p><hi rend="bold">Fraternali, P., R. Gustavo, and F.
+                        Sánchez-Figueroa</hi> (2010). Rich Internet Applications. IEEE <hi
+                    rend="italic">Internet Computing</hi> 14(3): 9-12. </p>
+            <p><hi rend="bold">Koivunen, M.-R</hi>. (2005). Annotea and Semantic Web Supported
+                    Collaboration. <hi rend="italic">Proceedings of the UserSWeb Workshop</hi> – <hi
+                        rend="italic">2nd European Semantic Web Conference</hi>, Heraklion, Grece,
+                    June 2005.</p>
+            <p><hi rend="bold">Polsani, P</hi>. (2003). Use and abuse of
+                reusable learning objects. <hi rend="italic">Journal of Digital Information</hi>
+                3(4). </p>
+            <p><hi rend="bold">Richardson, L., and S. Ruby</hi> (2007).
+                    <hi rend="italic">Restful web services</hi>. Beijing: O’Reilly. </p>
+            <p><hi rend="bold">Rios da Rocha, T., R. Willrich, R. Fileto, and
+                        S. Tazi</hi> (2009). Supporting Collaborative Learning Activities with
+                a Digital Library and Annotations. <hi rend="italic">Proceedings of the 9th IFIP
+                    World Conference on Computers in Education</hi> WCCE’09, Bento Gonçalves,
+                Brazil, July 2009.</p>
+            <p><hi rend="bold">Schroeter, R., J. Hunter, J. Guerin, I. Khan,
+                        I., and M. A. Henderson</hi> (2006). Synchronous Multimedia Annotation
+                System for Secure Collaboratories. <hi rend="italic">Proceedings of the Second IEEE
+                    International Conference on e-Science and Grid Computing</hi> e-Science ’06,
+                Amsterdam, Netherlands, December 2006. </p>
+            <p><hi rend="bold">Tazi, S., Y. Al-Tawki, and K. Drira K.</hi> (2003). Editing
+                    pedagogical intentions for document reuse. <hi rend="italic">Proceedings of the
+                        4th IEEE Technology Based Higher Education and Training</hi> ITHET’03,
+                    Marrakesh, Morocco, July 7-9, 2003.</p>
+            <p><hi rend="bold">Unruh, A.</hi> (2010 ). <hi rend="italic">Google App Engine Java and
+                        GWT Application Development</hi>. Birmingham: Packt Publishing.</p>
+        </div>
+        </back>
+    </text>
+</TEI>

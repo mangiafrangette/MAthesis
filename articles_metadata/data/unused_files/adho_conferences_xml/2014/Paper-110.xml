@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:x="http://www.w3.org/1999/xhtml" xmlns:exsl="http://exslt.org/common" xml:id="Paper-110">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Geoweb 2.0 and Design Empowerment: A Critical Evaluation of Eleven Cases</title>
+        <author>
+          <name>
+            <surname>Pak</surname>, <forename>Burak</forename>
+          </name>
+          <affiliation>KU Leuven Faculty of Architecture</affiliation>
+          <email>burak.pak@kuleuven.be</email>
+        </author>
+        <author>
+          <name>
+            <surname>Verbeke</surname>, <forename>Johan</forename>
+          </name>
+          <affiliation>KU Leuven Faculty of Architecture</affiliation>
+          <email>johan.verbeke@kuleuven.be</email>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority/>
+        <publisher>EPFL, Switzerland</publisher>
+        <distributor>
+          <name>EPFL Digital Humanities Laboratory</name>
+          <address>
+            <addrLine>GC D2 386</addrLine>
+            <addrLine>Station 18</addrLine>
+            <addrLine>CH-1015 Lausanne</addrLine>
+            <addrLine>frederic.kaplan@epfl.ch</addrLine>
+          </address>
+        </distributor>
+        <pubPlace>Lausanne, Switzerland</pubPlace>
+        <address>
+          <addrLine>EPFL</addrLine>
+          <addrLine>CH-1015 Lausanne</addrLine>
+        </address>
+        <availability>
+          <p/>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note type="abstract">In this paper, we present a critical evaluation of the intended levels of design empowerment in various Web 2.0-based social and geographic applications (Geoweb 2.0). This evaluation covers a survey of eleven cases which specifically relate to urban and spatial issues (OpenPlans, Nextdoor, CitySourced, Neighborland, LocalWiki, Spacehive, MindMixer,LocalData, mySociety, Ideavibes, Community Planit ). By this way, we aim to provide an insight into the inclusion strategies and tools employed for Geoweb 2.0-supported citizen involvement.   As a result, we observed that the aforementioned organizations view higher levels of design empowerment as secondary priorities. According to the survey participants, their focus was on data collection and providing information rather than active citizen empowerment in collaborative urban design processes.</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>No source: created in electronic format.</p>
+        <p>
+          <date when="20140711"/>
+          <time when="14:00:00"/>
+        </p>
+		<p n="session">8</p>
+		<p n="room">414 - Amphimax</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="original" n="category">
+          <term>Paper</term>
+        </keywords>
+        <keywords scheme="original" n="subcategory">
+          <term>Long Paper</term>
+        </keywords>
+        <keywords scheme="original" n="keywords">
+          <term>Participation</term>
+          <term>Design Empowerment</term>
+          <term>Web 2.0</term>
+          <term></term>
+        </keywords>
+        <keywords scheme="original" n="topic"/>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text type="paper">
+    <front>
+      
+      <div>
+        <p></p>
+        <p></p>
+      </div>
+    </front>
+    <body>
+      <div>
+        <head>1. Introduction </head>
+        <p>The concept of public
+participation was brought onto the agenda of urban design and planning prominently
+after the May events of 1968 (Jencks, 2011). Arnstein (1969)<ref target="n1" rend="sup">1</ref>was the first to identify various ways of
+participation: <hi rend="italic">manipulation, therapy,
+informing, consultation, placation, partnership, delegated power and citizen
+control</hi>. After this study, it became more evident that facilitating
+participation practices do not necessarily grant planning power to the citizens;
+they may manipulate them as well.</p>
+        <p>Following
+the Arnstein's ladder, the understanding of participation shifted towards the greater
+democratization of the processes and deeper involvement of citizens. Connor (1988)<ref target="n2" rend="sup">2</ref>,
+Dorcey et al. (1994)<ref target="n3" rend="sup">3</ref> and Rocha (1997)<ref target="n4" rend="sup">4</ref> have proposed their updated versions of
+the participation ladder, each focusing on slightly different aspects. Connor (1988)'s point of view was oriented
+more towards conflict resolution whereas
+Dorcey et al. (1994) suggested ongoing
+involvement and consensus building
+as the highest level of participation. Rocha (1997) placed political empowerment at the top and atomic empowerment at the bottom of her version of the
+participation ladder. </p>
+        <p>Senbel and Church
+(2011)<ref target="n5" rend="sup">5</ref> linked various forms of empowerment and visualization media while proposing a more "enabling" version of Arnstein's ladder. Their ladder involved six "instances" of <hi rend="bold"><hi rend="bold">design empowerment</hi></hi>.The
+highest level on this ladder is <hi rend="bold">independent design</hi>, <hi rend="bold">when ordinary citizens gain the capacity to create their own plans and visions; reaching autonomy.</hi></p>
+        <p>Overall, the brief
+review above illustrates the theoretical shift or the "communicative turn" from rational planning to deliberative planning.</p>
+        <p>From the perspective
+of <hi rend="bold">geospatial
+participatory technologies</hi>, it is possible to track similar layers of
+transformation regarding the production and dissemination of geographic
+information. From top-down to bottom-up, referring to the public participation
+GIS (PPGIS), from "requested production" to "voluntary
+production", and finally, towards the wikification of
+GIS and <hi rend="bold">Web 2.0-based social-geographic applications (Geoweb 2.0)</hi>(Roche et. al., 2012)<ref target="n6" rend="sup">6</ref>.
+</p>
+        <p>Relying on a combination of social software and information aggregation
+services, Geoweb 2.0-based participatory planning practices stand as a strong alternative to the
+traditional linear and hierarchical knowledge production methods. These  are loaded with
+constructivist learning and production principles embedded in the ways they
+enable social knowledge construction (Pak and Verbeke, 2012)<ref target="n7" rend="sup">7</ref>. </p>
+        <p>In this context, we
+would like to critically address the following questions in our study:</p>
+        <list type="unordered">
+          <item>Which
+inclusion strategies and tools are used for design empowerment in popular Geoweb 2.0 supported participatory  planning practices?</item>
+          <item>To what
+extent do these practices facilitate participation in urban planning?</item>
+        </list>
+        <p>Motivated with the
+questions above, we made an evaluation of relevant practices through an online survey. We
+will share the method and results of this survey and discuss our findings in
+Section 2. This discussion will be followed by the conclusion (Section 3), in which we summarize
+the findings and discuss their possible implications for future developments.</p>
+</div>
+<div>
+        <head>2. Evaluation of Design Empowerment Strategies Employed in Practice </head>
+        <p>We grounded our
+survey on Senbel and Church's (2011) theoretical framework for "<hi rend="bold">design
+empowerment</hi>". As briefly described in the introduction, the authors
+proposed six instances of citizen involvement in design (Figure 1). In this framework, <hi rend="italic">independent design</hi> is depicted as the highest level of empowerment, followed by <hi rend="italic">integration</hi> which involves the coproduction of plans. <hi rend="italic">Inclusion </hi>of the thoughts of the participants among other priorities, <hi rend="italic">ideation</hi> about the plans and<hi rend="italic"> inspiration</hi> triggering response to an alternative and <hi rend="italic">information</hi> are the relatively lower instances of design empowerment.</p>
+        <figure>
+          <graphic url="DH2014_98_dh2014 figure 1"/>
+          <p>Fig. 1: Senbel and Church's (2011) Instances of Design Empowerment </p>
+        </figure>
+        <p>Based on the
+instances and forms of design empowerment above, we prepared an online
+survey to analyze the inclusion strategies and tools used for design
+empowerment in the existing Geoweb 2.0 supported practices. In January 2013, we distributed the survey to thirty organizations listed by the
+crowdsourcing.org<ref target="n8" rend="sup">8</ref> directory as related to urban design and planning. These
+organizations were contacted via three different communication channels: email,
+phone and their facebook pages.</p>
+        <p>Eleven organizations have accepted to attend
+our survey <hi rend="italic">(OpenPlans, Nextdoor, CitySourced, Neighborland, LocalWiki, Spacehive, MindMixer, LocalData, mySociety, Ideavibes, CommunityPlanIt). </hi>At the time of the survey, these organizations represented dominant North America and UK-based practices which operate globally, including the Continental Europe. 64 percent of the participants were private organizations. The remaining 36 percent were NGOs, Social
+enterprises and University laboratories.</p>
+        <p>In relation to
+Senbel and Church (2011)’s instances of design empowerment, we asked the participants to rank the priorities (Table 1) of their practices. A legal representative of each organization answered our survey. </p>
+        <figure>
+          <graphic url="DH2014_98_dh2014 chart"/>
+          <p>Fig. 2: Average rankings of the priorities of the Geoweb 2.0 applications (higher levels of design empowerment are indicated as darker colors)</p>
+        </figure>
+        <p>According to the participants, Ideation (empowerment level 3) was the most important priority, followed by Information (level 1) and inclusion (level 4). The two highest levels of empowerment -Independence and Integration- were ranked as the two least important priorities (Figure 2).</p>
+        <p>Following the ranking, six of the participants chose to answer an open question on
+the design empowerment potentials of their Geoweb 2.0 applications. One participant expressed that their application <hi rend="italic">"can be leveraged
+by people trying citizen design"</hi>. According to another
+participant, the organization <hi rend="italic">"had lots of broad efforts around planning,
+driven entirely by citizens. But it had little official use by city planners or
+professional planners"</hi>. </p>
+        <p>One of the other participants indicated that their <hi rend="italic">"toolkit
+is less about formulating citizen-designed plans, but it rather provides a more
+efficient method for data collection already taking place</hi>". Similar to this
+comment, another wrote that their application was<hi rend="italic">"designed more for reporting
+problems with the local area (e.g. potholes, broken street lights) than for any
+integration with urban planning”</hi>.  </p>
+        <p>In addition to the observations above, we made a brief analysis of the provided functions (Table 1). The most common ones were: commenting on other users' contents (91 percent), followed by adding a placemark and descriptive text (82), tagging content based on
+predefined categories (64) and uploading a document (55 percent).</p>
+        <p><hi rend="bold">Only one of the Geoweb 2.0 applications supported annotated drafting and drawing tools, </hi>which are necessary for the empowerment of citizens in the independent and collaborative design of plans and projects. </p>
+        <table>
+          <row>
+            <cell role="data">
+              <hi rend="bold">
+                <hi rend="bold">Provided Functions</hi>
+              </hi>
+            </cell>
+            <cell role="data">
+              <hi rend="bold">
+                <hi rend="bold">Percentage</hi>
+              </hi>
+            </cell>
+          </row>
+          <row>
+            <cell role="data">
+  Commenting on other users'
+  contents 
+  </cell>
+            <cell role="data">
+  91%
+  </cell>
+          </row>
+          <row>
+            <cell role="data">
+  Adding a placemark and descriptive
+  text 
+  </cell>
+            <cell role="data">
+  82%
+  </cell>
+          </row>
+          <row>
+            <cell role="data">
+  Tagging content based on
+  predefined categories 
+  </cell>
+            <cell role="data">
+  64%
+  </cell>
+          </row>
+          <row>
+            <cell role="data">
+  Uploading a document 
+  </cell>
+            <cell role="data">
+  55%
+  </cell>
+          </row>
+          <row>
+            <cell role="data">
+  Adding a geolocated photo 
+  </cell>
+            <cell role="data">
+  45%
+  </cell>
+          </row>
+          <row>
+            <cell role="data">
+  Editing other users'
+  contents 
+  </cell>
+            <cell role="data">
+  45%
+  </cell>
+          </row>
+          <row>
+            <cell role="data">
+  Tagging content based on
+  user-defined categories 
+  </cell>
+            <cell role="data">
+  55%
+  </cell>
+          </row>
+          <row>
+            <cell role="data">
+  Forum 
+  </cell>
+            <cell role="data">
+  36%
+  </cell>
+          </row>
+          <row>
+            <cell role="data">
+  Internal Messaging 
+  </cell>
+            <cell role="data">
+  27%
+  </cell>
+          </row>
+          <row>
+            <cell role="data">
+  User controlled thematic
+  layers 
+  </cell>
+            <cell role="data">
+  18%
+  </cell>
+          </row>
+          <row>
+            <cell role="data">
+  Timeline 
+  </cell>
+            <cell role="data">
+  18%
+  </cell>
+          </row>
+          <row>
+            <cell role="data">
+  Other: Search, Video, Organizer
+  moderation, Civic profile, Email notifications, shapefile/kml; data management; survey creation
+  </cell>
+            <cell role="data">
+  18%
+  </cell>
+          </row>
+          <row>
+            <cell role="data">
+  Drawing polygons on the map and
+  adding a description 
+  </cell>
+            <cell role="data">
+  9%
+  </cell>
+          </row>
+        </table>
+        <p>The last finding was on the intended target audience of the Geoweb applications. According to the participants these were Neighborhood Organizations (100 percent), Community Residents/inhabitants
+(100 percent), Governmental Administrations (91 percent), Governmental Planning
+Organizations, NGOs and Umbrella Organizations, Urban Designers, Research
+Organizations  (73 percent), Property and
+Land Owners and Project, Real Estate Developers 
+(55 percent), Architects (36 percent), Others (18 percent) and Financers
+(9 percent).</p>
+</div>
+<div>
+        <head>3. Conclusion and Discussion</head>
+        <p>Our analysis results suggest that the strategic positioning of the sampled set of Geoweb 2.0 applications was less towards higher levels of design empowerment and more towards<hi rend="bold"> data collection, information and ideation</hi>.
+This finding was evident in the individual rankings of empowerment intentions as well as the provided tools and functions.</p>
+        <p>As a response to the open question, participants reported a specific scenario in which the authorities and experts were empowered through the collection of information from the citizens. The intended levels of design empowerment of the citizens were indirect and limited. </p>
+        <p>Only 9 percent of the practices provided drafting-drawing tools which are evidently essential for the citizens to create their own plans/visions and reach autonomy.  </p>
+        <p>When combined with the self-reported target audiences, our findings suggest that the sampled Geoweb 2.0 applications were primarily intended to be used as<hi rend="bold"> a single-sided communication channel between the citizens and the planning organizations</hi>. None of them included convincing mechanisms to guarantee the consideration of the data collected from the citizens and the inclusion of these into the design and planning processes. </p>
+        <p>Furthermore, according to the survey results, the majority of the practices (64 percent) were controlled by private organizations. Reflecting on the negative experiences of Facebook and Google (Bucher, 2012)<ref target="n9" rend="sup">9</ref> and (Habermas, 2006)<ref target="n10" rend="sup">10</ref> we can claim that public opinion on urban planning cannot be formed in a truly democratic manner without separation of tax-based state from market-based society. Unregulated private social networks may encourage disempowerment due to the commodification of personal and sensitive information on citizens, triggering counter results.</p>
+        <p>Therefore, for better practices in the future, it is of utmost importance to construct self-regulating and independent systems which can: </p>
+        <list type="unordered">
+          <item>Operate as a mediating interface between the planning authorities and the society,</item>
+          <item>Enable inclusion and equal opportunity for participation in innovative ways,</item>
+          <item>Ensure the privacy and security of the participants,</item>
+          <item>Mobilize discussion on relevant topics and claims and planning actions,</item>
+          <item>Promote critical evaluation from different perspectives.</item>
+        </list>
+        <p>In this context, the potentials of Geoweb 2.0 to empower ordinary citizens to develop their own plans are yet to be harnessed. Reporting potholes can raise awareness but is only a small step in the empowerment ladder.</p>
+</div>
+<div>
+        <head>Acknowledgements</head>
+        <p>This paper is
+partially based on 
+post-doctoral research project supported by INNOVIRIS, The Brussels Institute for the encouragement of Scientific Research and Innovation.</p>
+      </div>
+    </body>
+    <back>
+      <div type="References">
+        <listBibl>
+          <bibl>1. <hi rend="bold">Arnstein, S. R.</hi> (1969), <hi rend="italic">A Ladder of Citizen Participation</hi>. In Journal of the American Planning Association 35 (4). 216–224. Routledge: New York.
+          </bibl>
+          <bibl>2. <hi rend="bold">Connor, D. M.</hi> (1988), <hi rend="italic">A New Ladder of Citizen Participation</hi>. In National Civic Review 77(3), 249-57. National Civic League: Jossey-Bass.
+          </bibl>
+          <bibl>3. <hi rend="bold">Dorcey, A. H. J.</hi> (1994), <hi rend="italic">British Columbia Round Table on the Environment and the Economy. Public involvement in government decision making: choosing the right model</hi>. The Round Table: Victoria, British Columbia.
+          </bibl>
+          <bibl>4. <hi rend="bold">Rocha, E.</hi> (1997), <hi rend="italic">A ladder of empowerment</hi>. Journal of Planning Education and Research, 17(1), pp.31–44. DOI:10.1177/0739456X9701700104
+          </bibl>
+          <bibl>5. <hi rend="bold">Senbel, M., Church, P. S.</hi> (2011), <hi rend="italic">Design Empowerment: The Limits of Accessible Visualization Media in Neighborhood Densification</hi>, in Journal of Planning Education and Research 31(4), 423–437.
+          </bibl>
+          <bibl>6. <hi rend="bold">Roche, S., Mericskay, B., Batita, W., Bach, M., Rondeau, M.</hi> (2012), <hi rend="italic">WikiGIS Basic Concepts: Web 2.0 for Geospatial Collaboration</hi>, in Future Internet 2012, 4, 265-284. Basel: MDPI Publishing.
+          </bibl>
+          <bibl>7. <hi rend="bold">Pak, B., Verbeke, J.</hi> (2012), <hi rend="italic">A Web-based Geographic Virtual Environment for the Analysis and Evaluation of Alternative Urban Development Projects Prepared for Brussels</hi>, ACADIA 2012 Annual International Conference Synthetic Digital Ecologies October 18-21,
+          </bibl>
+          <bibl>8. <hi rend="italic">Crowdsourcing.org</hi> (2013), Available from: <ref type="url" target="http://crowdsourcing.org/">crowdsourcing.org/</ref> Open Source Repository  (accessed 15 October 2013).
+          </bibl>
+          <bibl>9. <hi rend="bold">Bucher, T.</hi> (2012), <hi rend="italic">Want to be on the top? Algorithmic power and the threat of invisibility on Facebook</hi>, New Media &amp; Society November 2012 vol. 14 no. 7 pp. 1164-1180.
+          </bibl>
+          <bibl>10. <hi rend="bold">Habermas, J.</hi> (2006), <hi rend="italic">Political Communication in Media Society: Does Democracy Still Enjoy an Epistemic Dimension? The Impact of Normative Theory on Empirical Research</hi>, Communication Theory 16 (2006) pp. 411–426
+          </bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="paper">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Textbases and Databases: Integrating Library Catalogs
+                    with Digital Libraries</title>
+                <author>
+                    <name>
+                        <forename type="first">Perry</forename>
+                        <surname>Willet</surname>
+                        <affiliation>
+                            <name type="org">Indiana University</name>, USA <email/>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="2000">2000</date>
+                <publisher>
+                    <name>University of Glasgow</name>
+                </publisher>
+                <pubPlace>Glasgow</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ALLC/ACH 2000</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first">Jean</forename>
+                        <surname>Anderson</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Amal</forename>
+                        <surname>Chatterjee</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Christian</forename>
+                        <forename type="middle">J.</forename>
+                        <surname>Kay</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Margaret</forename>
+                        <surname>Scott</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item>Computational / Corpus Linguistics</item>
+                        <item> </item>
+                        <item> </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>Online Public Access Catalogs (OPACs) in libraries now include bibliographic records
+                for WWW sites. In most or all cases, these records contain direct links to the web
+                resources themselves, so that someone using a WWW-based catalog could go directly
+                from a bibliographic description of a website to the website itself, just by
+                clicking on the URL in the catalog record. OPACs also have records for individual
+                items within digital libraries, so that readers will be aware of the existence of a
+                particular text or digital object within larger collections.</p>
+            <p>However, once someone leaves the OPAC and enters a digital library on the WWW, the
+                advantages of careful bibliographic control may be lost. Most digital libraries are
+                based on SGML-encoded files, whether full-text TEI-encoded files, or Encoded
+                Archival Description (EAD) formatted finding aids (or some other markup language)
+                while library catalogs use records in the MAchine Readable Cataloging (MARC) format.
+                It will become increasingly important to find ways to get these SGML-based digital
+                libraries to interact with MARC-based library catalogs.</p>
+            <p>In cataloging an item, catalogers spend time determining bibliographic information
+                and forms of names and titles as a way of making sure the item is exactly described.
+                Also, subject headings for each item are determined. By not providing links to
+                online catalog records or including full information within the digital library
+                searching and browsing mechanisms, readers may be misdirected or misinformed. The
+                issue is more complex than reproducing or reformatting a MARC record within the TEI
+                or EAD Header. There are at least three reasons why digital libraries should be
+                linked dynamically to online library catalogs:<list>
+                    <item>1. The difficulties presented by names</item>
+                    <item>2. Accepted forms of names and subject headings change</item>
+                    <item>3. Digital libraries may combine both cataloged and uncataloged
+                        materials</item>
+                </list></p>
+            <p>Catalogers take great care in creating and maintaining Name Authority Files in an
+                attempt to keep straight all of the various authors that might share the same or
+                similar names, in addition to pseudonyms, variant spellings, and married or maiden
+                names. Names are a source of contention among scholars, almost as much as texts
+                themselves - the name by which any given author is known may change, and consistent
+                rules for establishing standard names are difficult to establish. Just to give a few
+                well-known examples, Charlotte Bronte published under the pseudonym "Currer Bell,"
+                yet is known by her real name; Marian Evans published under the pseudonym "George
+                Eliot," and is known by her pseudonym. Following U.S. Library of Congress rules,
+                works by Mark Twain were formerly filed under "Samuel Clemens." This changed a few
+                years ago, and now are under "Mark Twain." There are countless such cases, much more
+                vexed and complicated than these examples. The intent of a Name Authority File is to
+                group together an author's works, no matter under which name it was published, so
+                that they can be found by searching under any variant name or pseudonym. Of course,
+                Name Authority Files are neither comprehensive nor perfect, but in developing
+                digital libraries, it seems counterproductive to try to duplicate the effort already
+                expended in creating a Name Authority File.</p>
+            <p>Catalogers also expend a great deal of effort in maintaining the information
+                contained within library catalogs, and online catalogs are dynamic databases under
+                constant revision. Accepted forms of subject headings and authors' names change over
+                time, and libraries routinely perform global changes within library catalogs. If
+                subject headings are included within the header of an electronic text, it is
+                doubtful that the header will be updated should the accepted form be changed in the
+                OPAC. Over time, the information in digital libraries will grow out of synch with
+                the OPAC.</p>
+            <p>Catalogers also expend a great deal of effort in maintaining the information
+                contained within library catalogs, and online catalogs are dynamic databases under
+                constant revision. Accepted forms of subject headings and authors' names change over
+                time, and libraries routinely perform global changes within library catalogs. If
+                subject headings are included within the header of an electronic text, it is
+                doubtful that the header will be updated should the accepted form be changed in the
+                OPAC. Over time, the information in digital libraries will grow out of synch with
+                the OPAC.</p>
+            <p>Not everything in a library collection is cataloged, and this is especially true for
+                manuscript and archival collections. Catalogers and archivists have rules for what
+                gets cataloged and what does not. Letters, photographs, and other items within
+                manuscript collections generally are not cataloged separately with MARC records.
+                Instead, catalogers create collection-level MARC records for the online catalog, and
+                archivists then create finding aids that describe the contents of manuscript
+                collections in more detail. Some archival collections combine cataloged materials,
+                such as books, recordings, or films, with uncataloged items, such as photographs,
+                sheet music, or letters. Digital libraries created from such collections will need
+                to consider the various sources of bibliographic description available, which may
+                include both MARC records and finding aids. As digital libraries become larger and
+                more complex, it will become essential that they draw from and interact with online
+                library catalogs. Digital libraries will not want to duplicate the bibliographic
+                descriptions and subject headings available from online catalogs.</p>
+            <p>I will look at how two projects at Indiana University have begun to address this
+                problem by integrating information from the online library catalog with digital
+                library collections, and some of the problems and pitfalls encountered. The Hoagy
+                Carmichael Collection &gt;<ptr
+                    target="http://www.dlib.indiana.edu/collections/hoagy"/>&gt;, which has
+                digitized most of the Carmichael collection available at Indiana University,
+                combines three sources of information: an EAD finding aid for the music, lyrics,
+                photographs, correspondence and other materials; MARC records for the sound
+                recordings, extracted from the library catalog and converted to a MARC SGML format
+                developed by the U.S. Library of Congress; and finally, the TEI-encoded full-text
+                correspondence. At present, we are extracting MARC records and converting them to
+                SGML using batch processes, but are working on ways that this interaction can occur
+                in real time. I will focus here on the use of the MARC records as part of the
+                overall metadata for the project, and the process of conversion to SGML.</p>
+            <p>Second, the Victorian Women Writers Project (VWWP) &lt;<ptr
+                    target="http://www.indiana.edu/~letrs/vwwp"/>&gt; has begun a project to use the
+                Name Authority File (NAF) records from the online catalog to keep track of authors
+                and their variant names. The VWWP currently has works by only 42 authors, but even
+                this small sample presents some complex issues surrounding authors' names. I will
+                demonstrate the process by which Name Authority File records are integrated with the
+                VWWP collection, allowing for more complete information on authors' names.</p>
+        </body>
+    </text>
+</TEI>

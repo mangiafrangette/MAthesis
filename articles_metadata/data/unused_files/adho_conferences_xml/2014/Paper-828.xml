@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:x="http://www.w3.org/1999/xhtml" xmlns:exsl="http://exslt.org/common" xml:id="Paper-828">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Intellectual Property Rights vs. Freedom of Research: Tripping stones in international IPR law</title>
+				<author>
+					<name>
+						<surname>Scholger</surname>, <forename>Walter </forename>
+					</name>
+					<affiliation>Center for Information Modeling - Austrian Centre for Digital Humanities, University of Graz </affiliation>
+					<email>walter.scholger@uni-graz.at </email>
+				</author>
+			</titleStmt>
+			<publicationStmt>
+				<authority/>
+				<publisher>EPFL, Switzerland</publisher>
+				<distributor>
+					<name>EPFL Digital Humanities Laboratory</name>
+					<address>
+						<addrLine>GC D2 386</addrLine>
+						<addrLine>Station 18</addrLine>
+						<addrLine>CH-1015 Lausanne</addrLine>
+						<addrLine>frederic.kaplan@epfl.ch</addrLine>
+					</address>
+				</distributor>
+				<pubPlace>Lausanne, Switzerland</pubPlace>
+				<address>
+					<addrLine>EPFL</addrLine>
+					<addrLine>CH-1015 Lausanne</addrLine>
+				</address>
+				<availability>
+					<p></p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note type="abstract">The paper will address some of the most common and frequent needs and obstacles regarding legal issues in current digital scholarship (e.g. ownership of digital copies, electronic provision of source material) and demonstrate some of the consequent misconceptions, restrictions and legal traps which result from the lack of legal certainty due to the heterogeneous international legal situation regarding IPR and ancillary copyright. The Austrian example will be used to showcase some of the most obvious and momentous shortcomings of current IPR legislature, and will be compared with German and UK/US legal approaches. In conclusion, the paper will try to define a possible best practice which draws on the analysis of the common denominators found in (inter)national legal systems.</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>No source: created in electronic format.</p>
+				<p>
+				  <date when="20140709"/>
+				  <time when="09:00:00"/>
+				</p>
+				<p n="session">1</p>
+				<p n="room">315.1 - Amphipôle</p>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<keywords scheme="original" n="category">
+					<term>Paper</term>
+				</keywords>
+				<keywords scheme="original" n="subcategory">
+					<term>Long Paper</term>
+				</keywords>
+				<keywords scheme="original" n="keywords">
+					<term>IPR</term>
+					<term>copyright</term>
+					<term>orphaned works</term>
+					<term>electronic provision</term>
+					<term></term>
+				</keywords>
+				<keywords scheme="original" n="topic">
+					<term>copyright</term>
+					<term>licensing</term>
+					<term></term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text type="paper">
+		<front>
+			<div>
+				<p></p>
+			</div>
+		</front>
+		<body>
+			<div>
+				<p>The paper will address some of the most common and frequent needs and obstacles regarding legal issues in current digital scholarship (e.g. ownership of digital copies, electronic provision of source material) and demonstrate some of the consequent misconceptions, restrictions and legal traps which result from the lack of legal certainty due to the heterogeneous international legal situation regarding IPR and ancillary copyright. </p>
+				<p> While the free availability of sources has been a long-lasting demand and desire in all fields of research, open access to the results of scientific research has become a de facto obligation in recent years. This is reflected in the requirements of many national and international funding bodies demanding the public and free availability of research results and publications.</p>
+				<p> Generally speaking, humanities research focusses on products of the human mind – hence, the research object is usually subject to intellectual property rights. Largely based at universities, cultural heritage institutions or other public research institutions, that research is usually non-commercial and based on a public mandate for education, with little to no funding available for the acquisition of licenses and the proper remuneration of IPR holders. Open (and free) access to sources – especially those available only in cultural heritage institutions like archives and libraries – gains further importance because national funding agencies (e.g. the Austrian FWF) generally do not allow for the inclusion of license fees in their grants.</p>
+				<p>On the other hand, researchers themselves have a keen interest in defending their own intellectual property rights, in part due to economic concerns but also in terms of academic credit. This conflict of interest is evident even in the Universal Declaration on Human Rights, Art. 27, which sets the premise that “(everyone has) the right freely […] to share in scientific advancement and its benefits”, but goes on to say that “everyone has the right to protection of the moral and material interests resulting from any scientific, literary or artistic production of which he is the author”. </p>
+				<p> Several European Council Directives (2001/29/EC, 2003/98/EC, 2004/48/EC) have made a strong case for public access and free use of educational and scientific resources. This political agenda has been visible in the 7<hi rend="sup">th</hi> EU framework and is also evident in several UNESCO publications (e.g. “Recommendation concerning the Promotion and Use of Multilingualism and Universal Access to Cyberspace” and the “Charter on the Preservation of Digital Heritage”, both dating back to 2003). However, the national implementation of these ideals is lagging behind: The actual legal situation regarding the use of and access to digital resources in many member states of the European Union (and the UNESCO, respectively) poses a number of difficulties.</p>
+				<p>While Common Law legal systems – most prominently the US and the UK with their allowances for Fair Use and Fair Dealing – focus more on society’s interest in the access to and use of publications for education and self-improvement, the Civil Law systems found in continental European countries stress the rights of authors. Therefore, the usage, distribution and especially the electronic provision of resources require distinct free licenses, i.e. privileges for the educational sector. For non-digital material, a tried and trusted system of such privileges has been in place for decades. However, many countries – Austria among them – have so far failed to implement the necessary legal changes to extend these licenses to digital sources. </p>
+				<p> This ambiguity between the treatment of non-digital and digital resources poses another problem: Most humanists (or scholars in general, regardless of their respective domains) are unfamiliar with the legal implications of their work. Often drawing assumptions based on long-standing experiences and practices with non-digital material, few are familiar with the details of current legislature on digital sources. Also, though notable and admirable exceptions exist, there is generally also little to no support from universities’ legal offices. </p>
+				<p> Where source material is owned by universities or cultural heritage institutions, or has moved into the public domain due to the expiration of applicable protection periods (usually 70 years for printed materials), humanities scholars have little need to address such concerns. But more recent sources – especially when dealing with the current interest in Big Data – pose a number of legal challenges. Also, orphaned works (works without a known and retraceable author), while at first glance not subjected to the usual IPR restrictions, are dealt with very differently in the various European countries, but usually involve collecting societies.</p>
+				<p>Furthermore, cultural heritage institutions often insist that the ownership of physical resources automatically induces a right to their digital copies and demand fees based on that claim – which may, in fact, be unfounded, either because the digitization (which in itself is not subject to IPR but rather of ancillary copyright) was not done by the institution or other legal obligations (e.g. in national or regional archival laws) oblige them to freely provide material in the public domain.The increase of collaborative work across not only disciplinary but also national borders adds another dimension to the already puzzling situation: Which legal system applies to resources hosted in different countries and which legal framework must be used for electronic publications? </p>
+				<p> A number of these questions can be addressed by taking a look at international IPR treaties like the Berne Convention for the Protection of Literary and Artistic Works, the Trade Related Aspects of Intellectual Property Rights (TRIPS) or the World Intellectual Property Organization (WIPO) Copyright Treaty. </p>
+				<p>The paper will therefor demonstrate some of the most common legal obstacles that humanities scholars encounter in the course of digital research and teaching and try to provide an overview of the current legal situation, the differences and common denominators of Civil Law and Common Law systems regarding IPR (especially the electronic provision of material) and the international framework of Copyright treaties. Since an exhaustive juxtaposition of international legal differences is unfeasible due to scale, the Austrian example will be used to showcase some of the most obvious and momentous shortcomings of current IPR legislature, and will be compared with German law (which has addressed some of these issues while still keeping strong restrictions in place) and the Anglo-American concepts of Fair Use and Fair Dealing.</p>
+				<p>In conclusion, the paper will try to define a possible best practice which draws on the analysis of the common denominators found in international treaties, UK and US law and the EC Digital Agenda for Europe as expressed in recent EU directives.</p>
+			</div>
+		</body>
+		<back>
+			<div type="References">
+				<listBibl>
+					<bibl>Directive 2001/29/EC of the European Parliament and of the Council of 22 May 2001 on the harmonization of certain aspects of copyright and related rights in the information society.</bibl>
+					<bibl>Directive 2003/98/EC of the European Parliament and of the Council of 17 November 2003 on the re-use of public sector information (amended 2013).</bibl>
+					<bibl>Directive 2004/48/EC of the European Parliament and of the Council of 29 April 2004 on the enforcement of intellectual property rights.</bibl>
+					<bibl><hi rend="bold">Goldstein, P.</hi> (2010).<hi rend="italic"> International Copyright.</hi> Principles, Law, and Practice. New York: Oxford University Press. </bibl>
+					<bibl><hi rend="bold">Jahnel, D. </hi>(2012).<hi rend="italic"> IT-Recht</hi>. Vienna: Verlag Österreich.</bibl>
+					<bibl><hi rend="bold">Kuhlen, R.</hi> (2008). <hi rend="italic">Erfolgreiches Scheitern – eine Götterdämmerung des Urheberrechts?</hi> Boizenburg: VWH.</bibl>
+					<bibl><hi rend="bold">Schöwerling, H.</hi> (2007). <hi rend="italic">E-Learning und Urheberrecht an Universitäten in Österreich und Deutschland</hi>. Vienna-Munich: Verlag Medien und Recht.</bibl>
+					<bibl><hi rend="bold">Torremans, P.</hi> (2007). <hi rend="italic">Copyright Law. A Handbook of Contemporary Research</hi>. Cheltenham: Edward Elgar Publishing Ltd.</bibl>
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

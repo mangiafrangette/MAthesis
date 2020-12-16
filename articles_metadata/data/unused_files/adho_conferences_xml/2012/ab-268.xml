@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="../schema/xmod_web.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xmt="http://www.cch.kcl.ac.uk/xmod/tei/1.0" 
+     xml:id="ab-268">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Using the Google Ngram Corpus to Measure Cultural Complexity</title>
+                <author>
+                    <name>Juola, Patrick</name>
+                    <affiliation>Duquesne University, USA</affiliation>
+                    <email>juola@mathcs.duq.edu</email>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Jan Christoph Meister, Universität Hamburg</publisher>
+                <address>
+                   <addrLine>Von-Melle-Park 6, 20146 Hamburg, Tel. +4940 428 38 2972</addrLine>
+                   <addrLine>www.dh2012.uni-hamburg.de</addrLine>
+              </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>No source: created in electronic format.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2012-04-15</date>
+                <name>DH</name>
+                <desc>generate TEI-template with data from ConfTool-Export</desc>
+            </change>
+            <change>
+                <date>2012-04-13</date>
+                <name>LS</name>
+                <desc>provide metadata for publicationStmt</desc>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="paper">
+        <body>
+            <div>
+                <p>It is common to hear assertions that culture is complex, that language is
+                    complex, and that while the complexity of language is a universal constant, the
+                    complexity of culture is increasing as technology and the increased pace of
+                    modern life creates new complexities. These statements are usually based on
+                    subjective assessments, often tinged by nostalgia for the ‘good old days.’ Can
+                    questions of cultural complexity be addressed quantitatively?</p>
+                <p>Previous
+                    work (e.g. Juola 1997, 2008) has been able to use information theory to address
+                    this question. The basic idea is that a sample of language is ‘complex’ if it
+                    contains a lot of information, defined formally as the size of the computer
+                    program that would be necessary to (re)create the sample from scratch, a measure
+                    more formally known as Kolmogorov complexity. This can be approximated by
+                    compressing the text sample and looking at the size of the resulting file – the
+                    larger the resulting file, the more complex the original. Alternatively, one can
+                    compute complexity directly using Shannon’s (1948) famous formula for
+                    information entropy based on a concept of the underlying linguistic ‘events.’ In
+                    any case, linguistic complexity can be measured observing discourse-controlled
+                    samples of language, essentially by comparing several (linguistic) versions of
+                    the same text, such as translations of the Bible or of a specific novel, and
+                    observing whether one language yields systematically larger measurements than
+                    another. Previous work suggests that no such systematic pattern exists, and that
+                    all languages are indeed roughly equal in complexity.</p>
+                <p>Key to this
+                    approach is the idea of discourse control; we are measuring how difficult it is
+                    to express a specific fixed concept in a given language and comparing it to the
+                    same concept expressed in an another language. Culture, however, can be treated
+                    as the set of concepts that people choose to express. By eliminating the
+                    restriction of discourse control and instead investigating language chosen
+                    freely by the cultural participants, we may be able to tease apart the
+                    interaction between cultural and linguistic complexity. In particular, we can
+                    distinguish between linguistic and cultural complexity as follows: a language is
+                    complex if there is a lot of information contained in a topic-controlled
+                    discourse. A culture is complex if there is a large range of topics for
+                    discourse, or alternatively a lot of information contained in topical choice.
+                    Therefore, if we compare the complexity (however measured) of two language
+                    samples that are not topic-controlled, but instead are in some sense
+                    representative of the breadth of discourse present in a culture, we can
+                    calculate the differences attributable to discourse variation, and hence to
+                    cultural complexity.</p>
+                <p>As an illustrative example, we follow the approach
+                    of Spenser (1900; cited by Denton 2004), in that ‘complex’ means ‘containing
+                    many different interdependent parts.’ A complex political system has many
+                    parties and power groups, many different roles and offices, and many
+                    relationships among them. In a political discourse, many if not most of these
+                    parties and power groups would need to be explicitly named and distinguished
+                    from each other. By contrast, an autocratic monarchy is relatively simple: there
+                    is the monarch and then everyone else. A game is complex if it has many rules
+                    and strategies. A culture is complex if it contains many heterogeneous aspects
+                    such as technological specifications, social stratification, multilevel
+                    administrative hierarchies, or a large amount of object or object-types.
+                    Continuing this line of reasoning, a complex culture is one with lots of ‘stuff’
+                    and where people do lots of things to or with ‘stuff,’ where ‘stuff’ here refers
+                    not only to physical objects but also to people, groups, activities,
+                    abstractions, and so forth – anything that can be discussed among the group.</p>
+                <p>We therefore apply the previous methodology to a different sort of corpus; an
+                    uncontrolled corpus that represents the breadth of cultural experience. If the
+                    information contained in such a corpus is high, then we can say the culture is
+                    complex. Several corpora may be suitable for this purpose; we have chosen to
+                    study the Google Books Ngram Corpus (Michel et al. 2010). This contains all of
+                    the n-grams from the millions of books in the Google Books database, something
+                    like 20 million books, or approximately 4% of all books ever printed. While not
+                    strictly speaking representative (for example, ‘publishing was a relatively rare
+                    event in the 16th and 17th centuries,’ and ‘many more books are published in
+                    modern years’), and of course typically only the literate can write or publish
+                    books, this nevertheless gives us a time-stamped window into the scope of
+                    culture. Furthermore, by focusing on n-grams (and specifically on 2-grams, word
+                    pairs), we can observe not only the distribution of ‘stuff,’ but also some of
+                    the relationships between ‘stuff’ – for example, the number and range of word
+                    pairs beginning with ‘expensive’ will inform us about changing opinions
+                    regarding money and the types of goods considered luxurious and pricey.</p>
+                <p>We therefore used the Google Books American 2-Gram Corpus to measure changes
+                    in the complexity of American culture at ten-year intervals between 1900 and
+                    2000. This corpus simply contains a frequency list of all two word phrases used
+                    in American-published books in any given year. For example, the phrase
+                    ‘hamburgers with’ appeared only 8 times in print in 1940, compared to 45 in the
+                    year 2000. Focusing strictly on the US during the 20th century avoids many of
+                    the problems with mass culture, as publishing was a well-established industry
+                    and literacy was widespread. However, the number of books published in this time
+                    of course tended to increase. Our first observation, then, is that culture may
+                    be increasing simply from the number of different things to talk about. The
+                    number of different word pair types per year increased dramatically, nearly
+                    doubling from 1900 to 2000, as given in table 1.</p>
+                
+                <table>
+                    <head>Table 1</head>
+                    
+                    <row>
+                        <cell> Year </cell>
+                        <cell> # types </cell>
+                    </row>
+                    <row>
+                        <cell> 1900 </cell>
+                        <cell> 17,769,755 </cell>
+                    </row>
+                    <row>
+                        <cell> 1910 </cell>
+                        <cell> 22,834,741 </cell>
+                    </row>
+                    <row>
+                        <cell> 1920 </cell>
+                        <cell> 22,409,426 </cell>
+                    </row>
+                    <row>
+                        <cell> 1930 </cell>
+                        <cell> 19,745,549 </cell>
+                    </row>
+                    <row>
+                        <cell> 1940 </cell>
+                        <cell> 20,369,679 </cell>
+                    </row>
+                    <row>
+                        <cell> 1950 </cell>
+                        <cell> 23,632,749 </cell>
+                    </row>
+                    <row>
+                        <cell> 1960 </cell>
+                        <cell> 27,379,411 </cell>
+                    </row>
+                    <row>
+                        <cell> 1970 </cell>
+                        <cell> 34,218,686 </cell>
+                    </row>
+                    <row>
+                        <cell> 1980 </cell>
+                        <cell> 34,458,083 </cell>
+                    </row>
+                    <row>
+                        <cell> 1990 </cell>
+                        <cell> 37,796,626 </cell>
+                    </row>
+                    <row>
+                        <cell> 2000 </cell>
+                        <cell> 41,654,264 </cell>
+                    </row>
+                </table>
+                
+                <p>This alone indicates an increase in the complexity of written culture,
+                    although this process is not continuous and some years during the Depression
+                    show a loss. To confirm the overall upward trend, we have also calculated the
+                    Shannon-entropy of the 2-gram distributions, attached as table 2.</p>
+                
+                <table>
+                    <head>Table 2</head>
+                    
+                    <row>
+                        <cell> Year </cell>
+                        <cell> Entropy (bits) </cell>
+                    </row>
+                    <row>
+                        <cell> 1900 </cell>
+                        <cell> 17.942357 </cell>
+                    </row>
+                    <row>
+                        <cell> 1910 </cell>
+                        <cell> 18.072880 </cell>
+                    </row>
+                    <row>
+                        <cell> 1920 </cell>
+                        <cell> 18.072325 </cell>
+                    </row>
+                    <row>
+                        <cell> 1930 </cell>
+                        <cell> 18.133058 </cell>
+                    </row>
+                    <row>
+                        <cell> 1940 </cell>
+                        <cell> 18.241048 </cell>
+                    </row>
+                    <row>
+                        <cell> 1950 </cell>
+                        <cell> 18.336162 </cell>
+                    </row>
+                    <row>
+                        <cell> 1960 </cell>
+                        <cell> 18.391872 </cell>
+                    </row>
+                    <row>
+                        <cell> 1970 </cell>
+                        <cell> 18.473447 </cell>
+                    </row>
+                    <row>
+                        <cell> 1980 </cell>
+                        <cell> 18.692278 </cell>
+                    </row>
+                    <row>
+                        <cell> 1990 </cell>
+                        <cell> 18.729807 </cell>
+                    </row>
+                    <row>
+                        <cell> 2000 </cell>
+                        <cell> 18.742085 </cell>
+                    </row>
+                </table>
+                
+                <p>This further analysis illustrates that a more sophisticated measure of
+                    complexity shows a continuous process of increasing complexity, even in times
+                    when (for example due to economic downturn) the actual volume of words published
+                    decreases. Even when people are writing less, they still have more ‘stuff’ about
+                    which to write, showing the cumulative nature of culture (today’s current events
+                    are tomorrow’s history, but still suitable material for discussion and analysis
+                    – part of culture).</p>
+                <p>We acknowledge that this is a preliminary study
+                    only. Google Books offers cultural snapshots at much greater frequency than
+                    ten-year intervals. Google Books also offers corpora in other languages
+                    (including German, French, Spanish, Russian, and Hebrew) as well as another
+                    English-speaking culture. Use of a more balanced corpus (such as the Google
+                    Books English Million corpus, a corpus balanced at about 1 million words/year to
+                    offset increased publication), or the BYU Corpus of Historical American English
+                    might help clarify the effects of publication volume. Analysis of n-grams at
+                    sizes other than 2 would illustrate other types of complexity -- in particular,
+                    1-grams (words) would show changes in lexical but not syntactic complexity and
+                    hence an analysis of ‘stuff’ but not what people do with ‘stuff.’ Despite these
+                    weaknesses, we still feel this paper illustrates that culture-wide analysis of
+                    abstractions like ‘increasing complexity’ is both practical and fruitful.</p>
+               </div>
+            
+        </body>
+        <back>
+            <div>
+                <head>References</head>
+                   
+            <p><hi rend="bold">Denton, T.</hi> (2004). Cultural Complexity Revisited. <hi
+                    rend="italic">Cross-Cultural Research</hi> 38(1): 3-26.</p>
+                <p><hi rend="bold"
+                    >Juola, P.</hi> (1998). Measuring Linguistic Complexity : The Morphological
+                Tier. <hi rend="italic">Journal of Quantitative Linguistics</hi> 5(3): 206-213.</p>
+                <p><hi rend="bold">Juola, P..</hi> (2008). Assessing Linguistic Complexity. In M.
+                Miestamo, K. Sinnemaki, and F. Karlsson (eds.), <hi rend="italic">Language
+                    Complexity: Typology, Contact, Change</hi>. Amsterdam: John Benjamins.</p>
+                <p><hi rend="bold">Michel, Jean-Baptiste, Y. Kui Shen, A. Presser Aiden, A.
+                    Veres, M. K. Gray, W. Brockman, The Google Books Team, J. P. Pickett, D.
+                    Hoiberg, D. Clancy, P. Norvig, J. Orwant, St. Pinker, M. A. Nowak, and E.
+                    Lieberman Aiden</hi> (2010). Quantitative Analysis of Culture Using Millions of
+                Digitized Books. <hi rend="italic">Science</hi> (Published online ahead of print:
+                12/16/2010).</p>
+                <p><hi rend="bold">Spencer, H.</hi> (1900). <hi rend="italic">First principles</hi> (6th ed.). Akron, OH: Werner.</p>
+            </div>
+        </back>
+    </text>
+</TEI>

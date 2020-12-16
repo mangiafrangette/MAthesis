@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="../schema/xmod_web.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xmt="http://www.cch.kcl.ac.uk/xmod/tei/1.0" 
+     xml:id="ab-293">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>On the Internet, nobody knows you’re a historian: exploring resistance to
+                    crowdsourced resources among historians</title>
+                <author>
+                    <name>Ridge, Mia</name>
+                    <affiliation>Open University, UK</affiliation>
+                    <email>m.ridge@open.ac.uk</email>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Jan Christoph Meister, Universität Hamburg</publisher>
+                <address>
+                   <addrLine>Von-Melle-Park 6, 20146 Hamburg, Tel. +4940 428 38 2972</addrLine>
+                   <addrLine>www.dh2012.uni-hamburg.de</addrLine>
+              </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>No source: created in electronic format.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2012-04-15</date>
+                <name>DH</name>
+                <desc>generate TEI-template with data from ConfTool-Export</desc>
+            </change>
+            <change>
+                <date>2012-04-13</date>
+                <name>LS</name>
+                <desc>provide metadata for publicationStmt</desc>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="paper">
+        <body>
+            <p>Crowdsourcing, the act of taking work once performed within an organisation and
+                outsourcing it to the general public in an open call (Howe 2006), is increasingly
+                popular in memory institutions as a tool for digitising or computing vast amounts of
+                data, as projects such as Galaxy Zoo and Old Weather (Romeo &amp; Blaser 2011),
+                Transcribe Bentham (Terras 2010) and the Australian Newspapers Digitisation Program
+                (Holley 2010) have shown. However, the very openness that allows large numbers of
+                experts and amateurs to participate in the process of building crowdsourced
+                resources also raises issues of authority, reliability and trust in those resources.
+                Can we rely on content created by pseudonymous peers or members of the public? And
+                why do academics often feel that they can’t? This paper explores some of the causes
+                and forms of resistance to creating and using crowdsourced resources among
+                historians.</p>
+            <p>‘Participant digitisation’ is a specialised form of crowdsourcing in which the
+                digital records and knowledge generated when researchers access primary materials
+                are captured at the point of creation and potentially made available for future
+                re-use. Through interviews with academic and family/local historians, this paper
+                examines the following: the commonalities and differences in how these two groups
+                assess the provenance, reliability and probable accuracy of digital resources; how
+                crowdsourcing tools might support their working practices with historical materials;
+                the motivations of historians for sharing their transcriptions and images in a
+                public repository; the barriers that would prevent them from participating in a
+                project that required them to share their personally-digitised archives; and the
+                circumstances under which they would selectively restrict content sharing. From this
+                preliminary investigation, the paper will go on to consider implications for the
+                creation of digital humanities resources for academic and amateur users.</p>
+        </body>
+        <back>
+            <div>
+                
+                    <head>References</head>
+                <p><hi rend="bold">Holley, R.</hi> (2010). Crowdsourcing: How and Why Should
+                    Libraries Do It? <hi rend="italic">D-Lib Magazine</hi> 16(3/4).</p>
+                <p><hi rend="bold">Howe, J.</hi> (2006). The Rise of Crowdsourcing. <hi
+                        rend="italic">Wired</hi> 14.06. [Online] Available from: <ref
+                        target="http://www.wired.com/wired/archive/14.06/crowds.html" type="external">
+                    http://www.wired.com/wired/archive/14.06/crowds.html</ref></p>
+                <p><hi rend="bold">Romeo, F., and L. Blaser</hi> (2011). Bringing Citizen Scientists
+                    and Historians Together. In J. Trant and D. Bearman (eds), <hi rend="italic"
+                        >Museums and the Web 2011: Proceedings</hi>. Toronto: Archives &amp; Museum
+                    Informatics.</p>
+                <p><hi rend="bold">Terras, M.</hi> (2010). Digital curiosities: resource creation
+                    via amateur digitization. <hi rend="italic">Literary and Linguistic
+                        Computing</hi> 25(4), 425-438.</p>
+                
+            </div>
+        </back>
+    </text>
+</TEI>

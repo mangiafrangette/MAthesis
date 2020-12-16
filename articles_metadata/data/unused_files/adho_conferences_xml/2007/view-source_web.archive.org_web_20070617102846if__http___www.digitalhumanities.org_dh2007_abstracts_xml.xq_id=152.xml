@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI.2 id="paper_152_nowviskie"><teiHeader><fileDesc><titleStmt><title>Collex: Facets, Folksonomy, and Fashioning the Remixable Web</title><author><name reg="Nowviskie, Bethany">Bethany Nowviskie</name></author><respStmt><resp>Marked up by</resp><name reg="Field, Hana S.">Hana S. Field</name></respStmt></titleStmt><publicationStmt><p>Marked up to be included in the Digital Humanities 2007 Conference Abstracts
+                    book.</p></publicationStmt><sourceDesc><p>None</p></sourceDesc></fileDesc><profileDesc><textClass><classCode>paper</classCode><keywords><list type="simple"><item>semantic web</item><item>faceted browsing</item><item>open archives</item><item>folksonomy</item><item>social bookmarking</item></list></keywords></textClass></profileDesc><revisionDesc><list><item>HSF: Created from Bethany Nowviskie's rtf<date value="2007-04">April
+                    2007</date></item></list></revisionDesc></teiHeader><text><front><docTitle n="Collex: Facets, Folksonomy, and Fashioning the Remixable Web"><titlePart type="main">Collex: Facets, Folksonomy, and Fashioning the Remixable
+                web</titlePart></docTitle><docAuthor><name reg="Nowviskie, Bethany">Bethany Nowviskie</name><address><addrLine>bethany@virginia.edu</addrLine></address></docAuthor><titlePart type="affil">Applied Research in Patacriticism<lb/> University of
+            Virginia</titlePart></front><body><div0><p>C<emph>ollex</emph> is an online toolset designed to aid students and scholars
+                    working in networked archives and federated repositories of humanities
+                    materials: a sophisticated <emph>COLL</emph>ections and <emph>EX</emph>hibits
+                    mechanism for the semantic web. It allows users to search, browse, annotate, and
+                    tag electronic objects and to repurpose them in illustrated, interlinked essays
+                    or exhibits. By saving information about user activity (including the
+                    construction of annotated collections and exhibits) as "remixable" metadata, the
+                        <emph>Collex</emph> system writes current practice into the scholarly record
+                    and permits knowledge discovery based not only on predefined characteristics or
+                    "facets" of digital objects, but also on the contexts in which they are placed
+                    by a community of scholars. Collex builds on the same semantic web technologies
+                    that drive MIT's SIMILE project and social bookmarking systems like
+                        <emph>Connotea</emph> and <emph>Zotero</emph>, but it also brings folksonomy
+                    tagging to trusted, peer-reviewed scholarly archives and features an integrated
+                    publication system. This exhibits-builder is analogous to high-end digital
+                    "curation" tools currently affordable only to large institutions like the
+                    Smithsonian. <emph>Collex</emph> is free, generalizable, and open source and is
+                    presently being implemented in a large-scale pilot project under the auspices of
+                    NINES.</p><p><emph>Collex</emph> is constructed with pragmatic scholarly needs in mind, and
+                    under the assumption that "the general field of humanities education and
+                    scholarship will not take the use of digital technology seriously until one
+                    demonstrates how its tools improve the ways we explore and explain our cultural
+                    inheritance – until, that is, they expand our interpretational procedures"
+                    (McGann, Radiant <emph>Textuality</emph> xii; my emphasis). <emph>Collex</emph>
+                    facilitates primary interpretive gestures of exploration and explanation in a
+                    broad and socially-networked manner, and aims to form a locus for further
+                    expansion of interpretive methods in digital humanities.</p><p>The first formal iteration of <emph>Collex</emph> (released in February 2007)
+                    federates more than 60,000 digital objects of 19th-century literature, art,
+                    culture and criticism from the most prominent and acclaimed online journals,
+                    archives, and repositories in the field. This pilot project forms the core of
+                    NINES, the <emph>Networked Infrastructure for Nineteenth-century Electronic
+                        Scholarship</emph>, a trans-Atlantic federation of scholars and of
+                    peer-reviewed primary and secondary materials constituting a federated
+                    collective. Endorsed by the NINES steering committee and under development for
+                    the past year at ARP, the University of Virginia's <emph>Applied Research in
+                        Patacriticism</emph> lab, <emph>Collex</emph> is both the central
+                    clearing-house for NINES and the interpretive hub around which we hope a vital
+                    community of scholars and students will coalesce.</p><p>Humanists eager to develop new ways to integrate and explore digital works
+                    currently lack crucial institutional and technical resources. Even the best
+                    models that scholars of (for instance) nineteenth century literature and culture
+                    now follow and imitate — the <emph>Whitman Archive, Romantic Circles</emph>, the
+                        <emph>Rossetti Archive</emph>, the <emph>William Blake Archive</emph> — are
+                    stand-alone projects that can only be loosely integrated through web browsers,
+                    even when shared through OAI protocols. As a consequence, what you see now on
+                    the web is what you get: an agglomeration of sites and projects whose content is
+                    atomized and whose scholarly and educational value is indeterminate. While it is
+                    possible for tech-savvy scholars, using ad-hoc tools and methods, to produce and
+                    distribute annotated, re-organized, or selected versions of existing online
+                    resources, they presently lack coordination within a peer-reviewed digital
+                    publishing environment. Because of this, their productions — personal web pages
+                    and online course packets — are difficult to maintain, are not readily
+                    interoperable or standards-compliant, and are easily dismissed as heterogeneous
+                    grab-bags of links. NINES was founded to work against this debilitating
+                    situation.</p><p>The inherent complexity of available resources is a further obstacle to the
+                    penetration digital humanities into the disciplines. <emph>Collex</emph> is
+                    designed to aid humanities scholars doing research in complex digital
+                    collections like the <emph>Rossetti Archive</emph>(its initial test case) or
+                    within federated research environments like NINES. Such environments often
+                    stymie their users through the sheer quantity of information made available to
+                    them in top-level tables of contents, sitemaps, and idiosyncratic search
+                    engines. Our tool operates under the assumption that the best paths through a
+                    complex digital resource are those forged by use and interpretation. A
+                        <emph>Collex</emph> approach works to assist scholars in recording, sharing,
+                    and building on the interpretive purposes to which they put their online
+                    teaching and research environments.</p><p><emph>Collex</emph> uses semantic web principles and technologies to explore and
+                    develop the research potential of the digital scholarship aggregated in NINES.
+                    Two critical concepts embodied in a NINES environment shaped by the
+                    <emph>Collex</emph> application fall under the rubrics widely known as "faceted
+                    classification" and "folksonomy." Facets and folksonomies structure an approach
+                    to descriptive metadata. They generate an evolving interface between the
+                    fully-integrated peer-reviewed electronic resources that constitute NINES and
+                    the user communities that re-imagine NINES content through interpretation,
+                    contextualization, and critical and creative re-fashioning.</p><p>"Full integration" means that each of our NINES-participating resources has
+                    contributed a package of metadata representing all of the digital objects they
+                    wish to make browseable, collectible, and available to users for re-purposing
+                    within <emph>Collex</emph>. An important innovation of <emph>Collex</emph> lies
+                    in the way these objects are defined by their contributing editors.
+                    <emph>Collex</emph> uses a Dublin Core flavor of RDF, the "resource description
+                    framework" of the semantic web, to define collectible "objects" without limiting
+                    them to their expression as web pages. Where other social bookmarking tools are
+                    designed to allow collection and annotation of whole web pages,
+                    <emph>Collex</emph> allows contributors of resources to make finer-grained
+                    distinctions, and users of the system to build collections and exhibits more
+                    attuned to the patterns of attention in humanities scholarship.</p><p>A clear example of interpretive modeling through object definition is the
+                        <emph>Collex</emph>representation of a book of poetry in the Rossetti
+                    Archive. Using XSLT transformations, we have created RDF metadata for
+                    intellectual and material objects at differing levels in this book. One RDF
+                    object (typed as a secondary resource, with supplemental genre and date
+                    identifiers) expresses the editor's commentary on the book as a concept. Another
+                    object, also articulated in metadata, expresses one particular edition of the
+                    book. Within that high-level expression, each page of the book has been shared
+                    with <emph>Collex</emph>users as a collectible object, as has each poem on each
+                    page. Such fine disambiguation ensures that <emph>Collex</emph> users can
+                    locate, annotate, and exhibit objects specifically suited to the scholarship
+                    they wish to perform – whether their attention is focused on bibliographic,
+                    social, or textual matters. It also ensures that archive maintainers have the
+                    fullest control, in the <emph>Collex</emph> environment, over the use of their
+                    intellectual property and the artifacts they minister.</p><p>Because RDF objects share a common (and relatively simple) metadata scheme, they
+                    are discoverable through "facets" in the <emph>Collex</emph> search and
+                    faceted-browsing interface. Faceted classification is a non-hierarchical means
+                    of expressing ontological relationships. Any given object will share a number of
+                    facets with other objects – common dates, genres, authors, etc. Exposing these
+                    facets makes it possible not only for users to manually "drill down" into
+                    certain categories or explore lateral relationships, it also opens possibilities
+                    for algorithmic serendipity in research. In other words, <emph>Collex</emph> can
+                    exploit formally-expressed facets to offer more options and avenues to users
+                    interested in a particular object: "more like this" – more objects in the
+                    repository sharing one or more attributes with a researcher's subject of
+                    attention. Even more interesting is the ability of <emph>Collex</emph> to record
+                    and analyze user activity, and to translate the products of user interaction
+                    into RDF objects within the system itself. In this way, in addition to "more
+                    like this," <emph>Collex</emph> can suggest to recent collectors of a particular
+                    object that they view the published collections and exhibits into which other
+                    users have placed the object, or objects like it. Because this content can be
+                    expressed as subscription-based RSS feeds, a web service, or an API, it is
+                    possible for the maintainers of scholarly resources to patch into
+                    <emph>Collex</emph> directly from their individual web page or listserv
+                    interfaces, offering information about user annotations and re-mediations for
+                    any given object without requiring users to visit <emph>Collex</emph> at all.</p><p>All <emph>Collex</emph> activity takes place within the ordinary web-browsing
+                    environment that scholars presently use to access digital resources, and will
+                    require nothing in the way of plugins or downloads. The overhead (in terms of
+                    initial metadata production) for contributors of resources to the federated
+                    collections in which <emph>Collex</emph> can operate has also been kept
+                    purposely low, and is thoroughly compatible with Open Archives protocols. We
+                    predict that both of these factors – combined with the strong endorsement and
+                    example of NINES – will facilitate the adoption of <emph>Collex</emph> into
+                    day-to-day practices of humanities scholars in networked research and publishing
+                    environments.</p></div0><div0><head>Screenshots</head><figure rend="ImageLink"><head/><p><xref to="DITTO" from="ROOT" targOrder="U">paper_152_nowviskie_1.jpg</xref></p><figDesc>A Collex sidebar list view (user-collected objects in the "visual art" genre)
+                        with the same constraint in the faceted browser</figDesc></figure><figure rend="ImageLink"><head/><p><xref to="DITTO" from="ROOT" targOrder="U">paper_152_nowviskie_2.jpg</xref></p><figDesc>A different constraints set, and a detail view of one object (for tagging,
+                        annotation, and knowledge discovery) in the sidebar</figDesc></figure></div0></body><back><div type="Bibliography"><head>Bibliography</head><listBibl><biblStruct><analytic><title level="a">Access to the Literature: The Debate Continues</title></analytic><monogr><title level="j">Nature Web Focus</title><imprint><date value="2004">2004</date></imprint></monogr><note><xptr to="http://www.nature.com/nature/focus/accessdebate/" from="ROOT" targOrder="U"/></note></biblStruct><biblStruct><analytic><author><name reg="Broughton, V.">V. Broughton</name></author><title level="a">Faceted Classification as a Basis for Knowledge
+                                Organization in a Digital Environment; the Bliss Bibliographic
+                                Classification and the Creation of Multi-Dimensional Knowledge
+                                Structures</title></analytic><monogr><title level="j">New Review of Hypermedia and Multimedia </title><imprint><biblScope type="vol">7</biblScope><date value="2001">2001</date><biblScope type="pages">67-102</biblScope></imprint></monogr></biblStruct><biblStruct><analytic><author><name reg="Golder, Scott">Scott Golder</name></author><author><name reg="Huberman, Bernardo">Bernardo Huberman</name></author><title level="a">The Structure of Collaborative Tagging Systems</title></analytic><monogr><title level="j">Information Dynamics Lab, HP Labs</title><imprint><date value="2005">2005</date></imprint></monogr><note><xptr to="http://www.hpl.hp.com/research/idl/papers/tags/tags.pdf" from="ROOT" targOrder="U"/></note></biblStruct><biblStruct><analytic><author><name reg="Hammond, Tony">Tony Hammond</name></author><title level="a">Social Bookmarking Tools (I): A General
+                            Overview</title></analytic><monogr><title level="j">D-Lib Magazine</title><imprint><biblScope type="vol"/><date value="2005">April 2005</date></imprint></monogr><note><xptr crdate="" to="http://www.dlib.org/dlib/april05/hammond/04hammond.html" from="ROOT" targOrder="U"/></note></biblStruct><biblStruct><monogr><author><name reg="Lessig, Lawrence">Lawrence Lessig</name></author><title level="m">Free Culture</title><imprint/></monogr><note><xptr crdate="" to="http://www.free-culture.cc" from="ROOT" targOrder="U"/></note></biblStruct><biblStruct><analytic><author><name reg="Lynch, Clifford A..">Clifford A. Lynch</name></author><title level="a">Institutional Repositories: Essential Infrastructure
+                                for Scholarship in the Digital Age</title></analytic><monogr><title level="j">ARL Bimonthly Report</title><imprint><biblScope type="vol">226</biblScope><date value="2003">2003</date></imprint></monogr></biblStruct><biblStruct><analytic><author><name reg="Mathes, Adam">Adam Mathes</name></author><title level="a">Folksonomies - Cooperative Classification and
+                                Communication Through Shared Metadata</title></analytic><monogr><title level="u">Paper written for LIS590CMC Computer Mediated
+                                Communication, Graduate School of Library and Information Science at
+                                the University of Illinois at Urbana-Champaign, December 2004</title><imprint><date value="2004">2004</date></imprint></monogr><note><xptr to="http://www.adammathes.com/academic/computer-mediated-communication/folksonomies.html" from="ROOT" targOrder="U"/></note></biblStruct><biblStruct><monogr><author><name reg="McGann, Jerome">Jerome McGannl</name></author><title level="m">Radiant Textuality: Literature After the World Wide Web</title><imprint><publisher>Palgrave MacMillan</publisher><date value="2001">2001</date></imprint></monogr></biblStruct><biblStruct><analytic><author><name reg="McGann, Jerome">Jerome McGann</name></author><title level="a">Culture and Technology: The Way We Live Now, What is to
+                                Be Done?</title></analytic><monogr><title level="u">Paper presented at the University of Chicago, April 23,
+                                2004</title><imprint><date value="2004">2004</date></imprint></monogr><note><xptr crdate="" to="http://www.nines.org/about/bibliog/mcgann-chicago.pdf" from="ROOT" targOrder="U"/> from="ROOT" targOrder="U"/&gt;</note></biblStruct><biblStruct><analytic><author><name reg="MLA">MLA</name></author><title level="a">The Future of Scholarly Publishing: Report of the Ad
+                                Hoc Committee on the Future of Scholarly Publishing</title></analytic><monogr><title level="j">Profession 2002</title><imprint><pubPlace>New York</pubPlace><publisher>Modern Language Assocation of America</publisher><date value="2002">2002</date><biblScope type="pages">172-186</biblScope></imprint></monogr></biblStruct><biblStruct><monogr><author><name reg="Nowviskie, Bethany">Bethany Nowviskie</name></author><title level="m" type="WWW document">Collex: Semantic Collections and Exhibits for the remixable
+                                Web
+                            </title><imprint/></monogr><note><xptr to="http://www.patacriticism.org/collex/about" from="ROOT" targOrder="U"/></note></biblStruct><biblStruct><monogr><author><name reg="Nowviskie, Bethany">Bethany Nowviskie</name></author><author><name reg="McGann, Jerome">Jerome McGann</name></author><title level="m" type="WWW document">NINES: A Federated Model for
+                                Integrating Digital Scholarship
+                            </title><imprint/></monogr><note>White paper version available at
+                            <xptr to="http://www.nines.org/about/9swhitepaper.pdf" from="ROOT" targOrder="U"/></note></biblStruct><biblStruct><analytic><author><name reg="Unsworth, John">John Unsworth</name></author><title level="a">Not-so-Modest Proposals: What Do We Want Our System of
+                                Scholarly Communication to Look Like in 2010?</title></analytic><monogr><title level="u">Paper presented at the CIC Summit on Scholarly Communication, December 2,
+                                2003</title><imprint><date value="2003">2003</date></imprint></monogr><note><xptr to="http://www.iath.virginia.edu/~jmu2m/CICsummit.htm" from="ROOT" targOrder="U"/></note></biblStruct><biblStruct><analytic><author><name reg="Unsworth, John">John Unsworth</name></author><title level="a">Tool Time, or 'Haven't We Been Here Already?' Ten
+                                Years in Humanities Computing</title></analytic><monogr><title level="u">Paper presented at Transforming Disciplines: The Humanities and Computer
+                                Science, NINCH conference, Washington, DC, January 18, 2003</title><imprint><date value="2003">2003</date></imprint></monogr><note><xptr to="http://www.iath.virginia.edu/~jmu2m/carnegie-ninch.03.html" from="ROOT" targOrder="U"/></note></biblStruct><biblStruct><analytic><author><name reg="Van de Sompel, H et. al.">H. Van de Sompel et. al.</name></author><title level="m">Rethinking Scholarly Communication: Building the System
+                                that Scholars Deserve</title></analytic><monogr><title level="j">D-Lib Magazine</title><imprint><biblScope type="vol"/><date value="2004">September 2004</date></imprint></monogr></biblStruct></listBibl></div></back></text></TEI.2>

@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:x="http://www.w3.org/1999/xhtml" xmlns:exsl="http://exslt.org/common" xml:id="Paper-785">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Simulating the Cultural Evolution of Literary Genres</title>
+        <author>
+          <name>
+            <surname>Sack</surname>, <forename>Graham Alexander </forename>
+          </name>
+          <affiliation>Columbia University, United States of America </affiliation>
+          <email>gas2117@columbia.edu </email>
+        </author>
+        <author>
+          <name>
+            <surname>Wu</surname>, <forename>Daniel </forename>
+          </name>
+          <affiliation>Harvard University, United States of America </affiliation>
+          <email>danielwu@fas.harvard.edu</email>
+        </author>
+        <author>
+          <name>
+            <surname>Zusman</surname>, <forename>Benji </forename>
+          </name>
+          <affiliation>University of Florida, United States of America </affiliation>
+          <email>benji.zusman@gmail.com</email>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority/>
+        <publisher>EPFL, Switzerland</publisher>
+        <distributor>
+          <name>EPFL Digital Humanities Laboratory</name>
+          <address>
+            <addrLine>GC D2 386</addrLine>
+            <addrLine>Station 18</addrLine>
+            <addrLine>CH-1015 Lausanne</addrLine>
+            <addrLine>frederic.kaplan@epfl.ch</addrLine>
+          </address>
+        </distributor>
+        <pubPlace>Lausanne, Switzerland</pubPlace>
+        <address>
+          <addrLine>EPFL</addrLine>
+          <addrLine>CH-1015 Lausanne</addrLine>
+        </address>
+        <availability>
+          <p/>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note type="abstract">The purpose of this paper is to explore the evolutionary dynamics of literary genre: the development of the 19th Century British novel is used as a motivating case study. The author constructs an agent-based model in NetLogo consisting of two interacting levels: (1) a genetic algorithm in which cultural forms (e.g., works of literature, pieces of music, etc.) are represented as binary feature strings. Cultural forms evolve across generations via asexual and sexual reproduction. Genres are represented as hierarchical clusters of similar feature strings. (2) Cultural forms are subjected to the selection pressure of consumer preferences. Preferences are heterogeneous: each consumer's tastes are represented by an ideal point in feature space. Preferences are configured in landscapes that vary in their levels of structure, entropy, and diversity. Landscapes are dynamic and may change due to (i) exogenous demographic shifts (e.g., population growth, generational turnover) or (ii) endogenous feedback (e.g., conformity / anti-conformity effects).</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>No source: created in electronic format.</p>
+        <p>
+          <date when="20140711"/>
+          <time when="14:00:00"/>
+        </p>
+		<p n="session">8</p>
+		<p n="room">319 - Amphipôle</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="original" n="category">
+          <term>Paper</term>
+        </keywords>
+        <keywords scheme="original" n="subcategory">
+          <term>Long Paper</term>
+        </keywords>
+        <keywords scheme="original" n="keywords">
+          <term>Cultural Evolution</term>
+          <term>Genre</term>
+          <term></term>
+        </keywords>
+        <keywords scheme="original" n="topic">
+          <term>genre-specific studies: prose</term>
+          <term>poetry</term>
+          <term>drama</term>
+          <term></term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text type="paper">
+    <front>
+      
+      <div>
+        <p></p>
+        <p></p>
+        <p></p>
+      </div>
+    </front>
+    <body>
+      <div>
+        
+        <p>The evolution of literary form and style is an
+emerging area of academic research and offers a valuable case study in cultural
+evolution generally. Several notable papers have appeared recently.
+In particular, critic Franco Moretti has offered a number of provocative claims
+concerning the relationship between genre evolution and demographic changes in
+the 19<hi rend="sup">th</hi> Century reading public:</p>
+        <list type="unordered">
+          <item>1. Due to the
+growth of the reading public, the British novel underwent an abrupt change circa
+1820: novels became far more heterogeneous and generically differentiated,
+aimed at specialized niches rather than readers in general.</item>
+          <item>2. The average lifespan
+of genres is ~25-30 years, the same as a human generation. This historical
+rhythm results from generational turnover in readers.</item>
+          <item>3. Literary genre
+evolution is characterized by alternating cycles of divergence and convergence—that
+is, periods of increasing generic diversity and differentiation followed by
+periods of decreasing diversity.</item>
+        </list>
+        <p>Statistician Cosma Shalizi argues in a response, “Graphs,
+Trees, Materialism, Fishing,” that while Moretti identifies provocative
+historical patterns, he fails to fully articulate the <hi rend="italic">mechanisms</hi> underlying and driving literary genre evolution. </p>
+        <p>The objective of this paper is to take up Shalizi’s
+injunction by building a computational model of possible generative mechanisms
+driving genre evolution. We consider the following questions:</p>
+        <list type="unordered">
+          <item>How do the
+static characteristics and dynamic behavior of the ‘reading public’ affect
+literary genre evolution?</item>
+          <item>How is generic
+            diversity affected by reader diversity? Is there a <hi rend="italic">phase change</hi> as the reading public grows?</item>
+          <item>Under what
+circumstances will the life cycle of literary genres parallel the life cycle of
+generations?</item>
+        </list>
+        <p>We investigate these questions by constructing an
+agent-based model of two populations: (1) cultural forms (e.g., books); and (2)
+cultural consumers (e.g., readers). The key attribute of agents in each
+population is a bit string of user-specified length. For cultural forms, this
+bit-string represents the morphological features of the work: for instance, in
+the case of literature, bits represent attributes such as authorial style,
+length, plot, and theme.[1]
+For cultural consumers, the bit-string represents an individual’s ideal
+preference. Each consumer has a tolerance for variation from this ideal
+represented as an acceptable hamming distance.</p>
+        <p>Individual cultural consumers are in turn organized
+into larger preference landscapes, which vary in their levels of structure,
+entropy, and reader diversity (see diagram).</p>
+        
+        <figure>
+          <graphic url="DH2014_548_508-1"/>
+        </figure>
+        <p>Once the preference landscape has been constructed at
+set-up, a genetic algorithm is run on the cultural forms in order to simulate
+evolution. The fitness of each book is measured by the number of readers it
+receives in that time period.[1]
+High fitness books are more likely to survive and reproduce, increasing their
+influence on the content of the next generation of literary works. Three
+reproductive mechanisms are used:</p>
+        <list type="unordered">
+          <item>Survival: books
+carry over from generation T to T+1 with no change</item>
+          <item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Asexual:
+individual bit-strings from generation T are copied with a user-specified
+probability of mutation to create a new generation of books at T+1</item>
+          <item>Sexual: pairs of
+bit-strings from generation T are spliced in order to create a new generation
+of books at T+1</item>
+        </list>
+        <p>While the use of genetic and evolutionary paradigms to
+describe bibliographic change may at first seem suspect, each of these
+reproductive strategies has an intuitive interpretation in the context of literary
+production. Survival corresponds to the case in which market-successful books
+are simply reprinted. Asexual reproduction corresponds to the case in which
+successful books spawn similar works with slight variation: that is, authors
+copy and modify the template provided by recently successful works. Sexual
+reproduction corresponds to what we might call “genre-crossing”: authors take
+the features of two successful works and synthesize them in order to produce a
+new work. The current trend of “mash-up” literature provides a salient example.
+Best-sellers such as <hi rend="italic">Abraham Lincoln:
+  Vampire Hunter </hi>splice the features of already-successful genres (e.g.,
+historical biography and gothic). Lest we dismiss such works as gimmicks, it is
+worth recognizing that many high-prestige genres emerged through hybridization.
+Modernist works such as James Joyce's Ulysses
+self-consciously combined the features of the realist novel with those of the
+classical epic.  <hi rend="italic">Pastiche, bricolage</hi>, and
+the combination of high and low art were central to postmodern literature, epitomized
+by William Burrough's “cut-up” novels. Recombination is a widely-used mechanism
+in literary production. </p>
+        <p>The relative proportions of these reproductive
+strategies are parameterized variables, as is the mutation rate, which represents
+the probability that any feature of a work will be mutated during either
+reproduction process. The mutation rate also has an intuitive interpretation in
+the context of cultural production: it characterizes the average creative
+experimentalism of a particular cultural field, that is, how far authors are
+generally willing to depart from established models.</p>
+        <p>We run
+simulated experiments in order to determine the impact of various scenarios on literary
+genre evolution, including (i) variation in reader preference landscapes
+features, (ii) demographic changes such as population growth and generational
+turnover, and (iii) feedback between reader preferences and dominant cultural
+forms.</p>
+        <p>The results suggest a number of insights about
+plausible mechanisms driving the evolution of cultural forms generally and
+literary genre specifically. </p>
+        <p>
+First, generic diversity[1]
+cannot be explained solely in terms of the characteristics of the reading
+public: we also need to account for the characteristics of the creative
+process, in particular, the level of experimentation in the cultural market at
+a given historical moment, represented in this model by the mutation rate.</p>
+        <figure>
+          <graphic url="DH2014_548_581-2"/>
+        </figure>
+        <p>Second, contrary to Moretti’s claim, we show that
+growth in the reading public is not sufficient to guarantee an increase in
+either reader diversity or generic diversity. In fact, market growth may
+actually reduce diversity under certain conditions. To determine the effect
+that growth will have, we need to know whether the preference landscape was
+initially homogeneous vs. diverse and whether new readers have preferences that
+are similar to or different from the readers who already populate that market. </p>
+        <figure>
+          <graphic url="DH2014_548_583-3"/>
+        </figure>
+        <p>Third, the model predicts that dramatic changes in
+the preferences of cultural consumers—analogous to ecosystem disruption—lead to
+increases in creative experimentation (i.e., the cultural mutation rate).</p>
+        <p>Lastly, we find that the preferences of conformist
+consumers have a highly disproportionate effect on the level of generic
+diversity relative to the rest of the consumer population, producing ‘phase
+change’ dynamics. Genres and cultural product categories tend to form around
+the preferences of conformist consumers because they have more reliable and
+predictable tastes.  </p>
+        <p>Although the model above addresses a set of claims
+about literary genre, the implementation is intentionally general, relying on
+abstract feature and preference strings that can represent any cultural product
+that can be atomized into variable features. Our intention in future research
+is to calibrate the model against case studies from a variety of cultural
+markets (literature, film, plastic arts, etc.).</p>
+    
+  
+      </div>
+    </body>
+    <back>
+      <div type="References">
+        <listBibl>
+          <bibl><hi rend="bold">Daranyi, P. Wittek, L. Forro</hi> (2012). <hi rend="italic">Toward Sequencing
+            ‘Narrative DNA.’ </hi>Proceedings
+            Computational Models of Narrative. LREC. Istanbul.</bibl>
+          <bibl><hi rend="bold">Hughes, J., Foti, N., Krakauer, D., Rockmore, D </hi>(2012).
+            <hi rend="italic">Quantitative patterns of stylistic influence in the evolution of
+              literature.'</hi>PNAS, May 2012.</bibl>
+          <bibl><hi rend="bold">Moretti, Franco</hi> (2005). <hi rend="italic">Graphs, Maps, Trees</hi>. Verso: New York.</bibl>
+          <bibl><hi rend="bold">Rabkin, E. and Simon, C.</hi>  (2008) <hi rend="italic">Culture, Science
+            Fiction, and Complex Adaptive Systems.</hi>Biocomplexity
+            at the Cutting Edge of Physics, Systems Biology, and Humanities. Bologna:
+            Bononia University Press.</bibl>
+          <bibl><hi rend="bold">Shalizi, Cosma</hi> (2011). <hi rend="italic">Graphs, Trees, Materialism,
+            Fishing</hi>. Reading Graphs, Maps, Trees:
+            Responses to Franco Moretti. South Carolina: Parlor Press.</bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

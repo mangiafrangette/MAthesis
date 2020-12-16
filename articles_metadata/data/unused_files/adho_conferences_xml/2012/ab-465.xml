@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="../schema/xmod_web.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xmt="http://www.cch.kcl.ac.uk/xmod/tei/1.0" 
+     xml:id="ab-465">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Promise and Practice of Enhanced Publications to Complement Conventionally-Published Scholarly Monographs</title>
+                <author>
+                    <name>Tatum, Clifford</name>
+                    <affiliation>eHumanities Group, Royal Netherlands Academy of Arts and Sciences, The Netherlands</affiliation>
+                    <email>clifford@tatum.cc</email>
+                </author>
+                <author>
+                    <name>Jankowski, Nicholas</name>
+                    <affiliation>eHumanities Group, Royal Netherlands Academy of Arts and Sciences, The Netherlands</affiliation>
+                    <email>nickjan@xs4all.nl</email>
+                </author>
+                <author>
+                    <name>Scharnhorst, Andrea</name>
+                    <affiliation>eHumanities Group, Royal Netherlands Academy of Arts and Sciences, The Netherlands</affiliation>
+                    <email>andrea.scharnhorst@dans.knaw.nl</email>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Jan Christoph Meister, Universität Hamburg</publisher>
+                <address>
+                   <addrLine>Von-Melle-Park 6, 20146 Hamburg, Tel. +4940 428 38 2972</addrLine>
+                   <addrLine>www.dh2012.uni-hamburg.de</addrLine>
+              </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>No source: created in electronic format.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2012-04-15</date>
+                <name>DH</name>
+                <desc>generate TEI-template with data from ConfTool-Export</desc>
+            </change>
+            <change>
+                <date>2012-04-13</date>
+                <name>LS</name>
+                <desc>provide metadata for publicationStmt</desc>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="paper">
+        <body>
+            <div>
+            <p>The authors of this paper have been involved in preparing a series of enhanced
+                    publications as part of a national initiative to introduce ‘enhanced publishing’
+                    to scholars in the Netherlands. One of these publications is the scholarly
+                    monograph <hi rend="italic">Virtual Knowledge,</hi> in production at MIT Press.
+                    This paper reviews different approaches to enhanced publications. In particular,
+                    it reports the intentions, challenges, achievements and tensions in the actual
+                    workflows in preparation of the <hi rend="italic">Virtual Knowledge</hi>
+                    enhanced publication version of the manuscript. An enhanced publication can
+                    generally be described as scholarly text and related materials presented in a
+                    Web environment with interlinking of document ‘objects’ (Jankowski et al. 2011).
+                    These objects may include: research data, instrumentation, additional analyses,
+                    post-publication addendums, and exchanges between book authors and readers.
+                    These objects are often identified in a manner facilitating access and involving
+                    utilization of uniform standards of identification. Basic enhancements to this
+                    particular volume involve preparation of supplementary resources (e.g., links,
+                    blogs, appendices), chapter visualizations (e.g., animations, figures, tables),
+                    hyperlinks to materials in and external to the book, and opportunities for
+                    conducting searches within and external to the book. The enhancements also
+                    emphasize integration of informal scholarly communication (e.g., social media)
+                    with traditional academic publishing. The enhanced component also emphasizes
+                    integration of informal scholarly communication (e.g., social media) with
+                    traditional academic publishing, and the efforts to achieve this aspect are
+                    highlighted in the paper.</p>
+                <p>The overall design strategy for this project was oriented toward introducing book
+                    content on the web with two primary objectives in mind: 1) to facilitate
+                    compatibility with contemporary Web-based discursive practices, and 2) to
+                    facilitate content interoperability in both Web 2.0 and Semantic Web formats.
+                    Challenges involved with the first objective are related to varied work
+                    practices among participating authors. In addition to variation in skills,
+                    competencies, and preferences in working with the web medium, the benefits from
+                    the required additional work remain uncertain. The individual career benefit
+                    from publishing a book is in most cases largely the same with or without the
+                    Web-based enhancements. The second objective entails integration of two distinct
+                    content structures. The resulting design is a hybrid platform that leverages Web
+                    2.0 participatory modes of scholarly communication combined with formalized
+                    content structures imposed by Semantic Web formats. Differences in the
+                    affordances provided by these two content schemas brings into focus contemporary
+                    tensions related to scholarly communication in the digital era and raises
+                    interesting questions about the emerging role of digital media in scholarly
+                    communication.</p>
+            
+            <p>The expected contribution of this approach to enhanced publications pertains to
+                    consumption of the book content by both humans and machines. The platform
+                    facilitates situating a published book among related scholarship, institutional
+                    settings, and with regard to prior work from contributing authors. This is seen
+                    as particularly useful for interdisciplinary research, and especially within a
+                    still emerging field. This sort of contextualization is by itself envisioned as
+                    value added from the standpoint of consumers of book content and for those
+                    engaging in Web-based intertextual discourses. Another contribution is the ways
+                    in which the book content is structured in the Web environment. Facilitated
+                    through links, categories and tags, and the co-location of related materials,
+                    contextualization of content also creates object relationships, e.g. between an
+                    author and with regard to intertextual relationships, which are readable by
+                    search engines. Fundamental to achieving these objectives is an understanding of
+                    the Web as an environment that is dynamic and evolving, which is far removed
+                    from not only the printed book, but also from the environment of digital
+                    repositories.</p>
+            
+            </div></body>
+        <back>
+            <div>
+                
+                    <head>References</head>
+                
+            
+            <p><hi rend="bold">Jankowski, N. W., C. Tatum, Z. Tatum, and A. Scharnhorst</hi> (2011).
+                Enhancing scholarly publishing in the humanities and social sciences: Innovation
+                through hybrid forms of publication. <hi rend="italic">Paper, PKP conference</hi>. Available at: <ref
+                    target="http://pkp.sfu.ca/ocs/pkp/index.php/pkp2011/pkp2011/paper/view/326/185"
+                type="external">http://pkp.sfu.ca/ocs/pkp/index.php/pkp2011/pkp2011/paper/view/326/185</ref></p>
+        
+            </div>
+        </back>
+    </text>
+</TEI>

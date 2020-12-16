@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:x="http://www.w3.org/1999/xhtml" xmlns:exsl="http://exslt.org/common" xml:id="Paper-892">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Topotime: Representing historical temporality</title>
+				<author>
+					<name>
+						<surname>Grossner</surname>, <forename>Karl</forename>
+					</name>
+					<affiliation>Stanford University, United States of America</affiliation>
+					<email></email>
+				</author>
+				<author>
+					<name>
+						<surname>Meeks</surname>, <forename>Elijah</forename>
+					</name>
+					<affiliation>Stanford University, United States of America</affiliation>
+					<email></email>
+				</author>
+			</titleStmt>
+			<publicationStmt>
+				<authority/>
+				<publisher>EPFL, Switzerland</publisher>
+				<distributor>
+					<name>EPFL Digital Humanities Laboratory</name>
+					<address>
+						<addrLine>GC D2 386</addrLine>
+						<addrLine>Station 18</addrLine>
+						<addrLine>CH-1015 Lausanne</addrLine>
+						<addrLine>frederic.kaplan@epfl.ch</addrLine>
+					</address>
+				</distributor>
+				<pubPlace>Lausanne, Switzerland</pubPlace>
+				<address>
+					<addrLine>EPFL</addrLine>
+					<addrLine>CH-1015 Lausanne</addrLine>
+				</address>
+				<availability>
+					<p></p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note type="abstract">We present Topotime, an open-source software project which includes a specification for encoding the kinds of temporal entities typically found in historical texts and some relationships between them; a graphical timeline layout program for parsing and rendering data written in that format; and related software tools to facilitate the encoding process, and transforming data into “temporal geometries” for further calculations of distance, similarity, and topological relations.</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>No source: created in electronic format.</p>
+				<p>
+					<date when="20140710"/>
+					<time when="11:00:00"/>
+				</p>
+				<p n="session">5</p>
+				<p n="room">315.1 - Amphipôle</p>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<keywords scheme="original" n="category">
+					<term>Paper</term>
+				</keywords>
+				<keywords scheme="original" n="subcategory">
+					<term>Long Paper</term>
+				</keywords>
+				<keywords scheme="original" n="keywords">
+					<term>time</term>
+					<term>temporal modeling</term>
+					<term>timelines</term>
+					<term></term>
+				</keywords>
+				<keywords scheme="original" n="topic">
+					<term>visualisation</term>
+					<term>spatio-temporal modeling</term>
+					<term>analysis and visualisation</term>
+					<term></term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text type="paper">
+		<front>
+
+			<div>
+				<p></p>
+				<p></p>
+			</div>
+		</front>
+		<body>
+			<div>
+				<head>Topotime: Representing historical temporality</head>
+				<p>Historical analysis within any discipline depends in part upon establishing chronologies (Sewell 2005), but historical data are problematic. The spreadsheets and database systems used for representing and computing over digital chronologies do not handle vague or otherwise uncertain data well. How does one encode “for 6 months before the war,” “around 1832,” or “during harvest seasons in her youth?” And when dates for events lasting days or months are given only in years, how can we calculate contemporaneity? What if our data include both precise dates and vague date ranges with varying granularity?</p>
+				<p>To date, historical researchers and digital humanities application developers have managed temporal uncertainty in ad hoc fashion, normally with one or two date fields using the ISO-8061 standard (e.g. YYYY-MM-DD) for the Gregorian calendar—most would say with less than optimal results. Meanwhile, researchers in computer science, geographical information science, and other fields have done considerable work on some challenges in temporal representation, including uncertainty and qualitative temporal reasoning. (cf. Kauppinen et al 2010;  Holmen &amp; Ore 2009; Crescioli, D’Andrea Niccolucci 2000; Plewe 2002). Some of those results, which often demonstrated only in small exemplars, can be brought to bear on humanists’ requirements. However, we must make explicit our desiderata for temporal representation and computation in order to make headway towards fulfilling them.</p>
+				<p>In light of this, we have initiated the <hi rend="italic">Topotime project</hi>, with these initial goals: 1) a specification for computable digital representations of the kinds of temporal entities typically found in historical texts, and some relationships between them; 2) one or more graphical timeline layout programs to parse and render data written in that form; 3) software tools to facilitate the encoding process, and to transform data in two stages—converting spreadsheet exports to the flexible and human-readable data format, JSON-LD, then parsing and transforming those JSON data files into “temporal geometries” for calculations of distance, similarity, and topological relations. In this paper, we briefly outline the draft Topotime specification as it stands, and the software development progress we have made so far.</p>
+				<p>The goals as set out above are admittedly ambitious. Temporal entities found in historical texts and records include a wide range of scales and imprecision, and refer to many calendars and modes of temporal reasoning. We have begun what will be a long-term iterative process of enumerating examples  and fine-tuning a data model to handle them, written in JSON.</p>
+				<head>Two perspectives</head>
+				<p>We are approaching this work from two directions in parallel to meet requirements for both drawing timelines and for calculating temporal relations. These are not mutually exclusive and parsers for both cases have considerable overlap of functionality and comparable complexity; generalities in formal representation that are useful in both cases are emerging. For example, both parsers convert various date expressions to Julian dates for calculations. There are also distinct differences, for example between the data objects best suited for efficiently drawing time bands, dots, and arrows on a timeline, and the temporal geometries referred to earlier.</p>
+				<head>The basic elements of Topotime</head>
+				<p>A Topotime data file describes a <hi rend="italic">PeriodCollection</hi>. Each <hi rend="italic">Period</hi> is of a <hi rend="italic">class</hi> (either <hi rend="italic">Event</hi>, <hi rend="italic">HistoricalPeriod</hi>, or <hi rend="italic">Lifespan</hi>) and has temporal extents described by one or more typed timespans (<hi rend="italic">tSpan</hi>). PeriodCollections have Projection definitions which include atom (granularity, such as day or year), <hi rend="italic">origin</hi>(day zero on the reference calendar, in Gregorian date terms), and <hi rend="italic">scale</hi> (used for timeline rendering). Periods must have a unique id, a source attribution, and a label for graphical display. They can also have any number of optional properties (attributes), although Topotime software does not handle these directly. A PeriodCollection can also include a set of asserted <hi rend="italic">relations</hi>, both between periods and between periods and places. These are distinguished from those purely temporal relations between Period timespans, which can be calculated and may be incidental.</p>
+				<head><hi rend="italic">Timespans</hi></head>
+				<figure>
+					<graphic url="DH2014_548_temporal-geometry fig4"/>
+					<p>Fig. 1: Timespan with fuzzy interval bounds, as a probability function. This event likely ended by D (~0.7) and certainly by G.</p>
+				</figure>
+				<p>When describing the “when” of an occurrence we ordinarily mean that it took place either <hi rend="italic">throughout</hi> some timespan, or for <hi rend="italic">some time during</hi> it. Someone born in 1723 was not born for the entire year! In Topotime, a <hi rend="italic">tSpan</hi> describes temporal extents and <hi rend="italic">throughout</hi> is the default; <hi rend="italic">some time during</hi> is noted by adding a (“during”: True) statement, and a duration, e.g. (“d”: “1d”) for a duration of a birth day. In both cases (throughout and during), date ranges describe bounds with a required start (“s”) and optional latest-start (“ls”), earliest-end (“ee”), and end (“e”). This conforms to a pattern commonly seen in graphical representations, from Joseph Priestley’s 18<hi rend="sup">th</hi> century timelines to the popular Simile Timeline software[3], and the recent formalizations cited earlier. In this way, timespans can be represented as having either fixed or “fuzzy” bounds[4]. The result is a “temporal geometry” such as pictured in Figure 1. The shapes of the curves between s-ls and ee-e can be articulated more completely by adding “sls” and/or “eee” arrays, as shown, reflecting an author’s understanding of the probabilities over the course of those sub-spans. </p>
+				<p>Time values for s, ls, ee, and e can be either a day, a month, or a year, and can be qualified by operators for “before” (&lt;), “after” (&gt;), and “about” (~). They can also be pointers to other Period timespans or parts thereof. For example, “&gt;38.s” refers to “after the start of Period 38 in this collection.” Omission of a referent part (e.g. &gt;38 or &lt;38) is taken to mean either its end (“e”) in the first case or its “s” in the latter.</p>
+				<p>Topotime recognizes not only <hi rend="italic">date ranges</hi> with fixed or fuzzy bounds, but <hi rend="italic">durations</hi>, <hi rend="italic">cyclical timespans</hi> (regularly recurring ranges), and <hi rend="italic">multi-spans</hi> (arbitrary discontinuous spans) as well. Examples of notation for these are listed in Table 1.</p>
+				<p></p>
+				<p><hi rend="italic">Table 1 - Timespan notation in Topotime, partial listing</hi></p>
+				<table>
+					<row>
+						<cell role="data">fixed range (throughout)</cell>
+						<cell role="data">{"s": "1901-04-01", "e": "1963-01-12"}<lb/><hi rend="italic">A lifespan: born April 1, 1901; died Jan 12, 1963</hi></cell>
+					</row>
+					<row>
+						<cell role="data">fuzzy range (throughout)</cell>
+						<cell role="data">{"s": "1923-03-21", "ls": "1923-06-20", "e": "1930-10-01", "ee": "1930-12-31"}<lb/><hi rend="italic">Employed from spring of 1923 to late 1930.</hi></cell>
+					</row>
+					<row>
+						<cell role="data">fixed range (during)</cell>
+						<cell role="data">{“s”:”1934”, “during”: True, “d”: “4m”}<lb/><hi rend="italic">Traveled in Spain for 4 months in 1934</hi></cell>
+					</row>
+					<row>
+						<cell role="data">fuzzy range (during)</cell>
+						<cell role="data">{"s": "1923-03-21", "ls": "1923-06-20", "e": "1930-10-01", "ee": "1930-12-31", “during”: True, “d”: “~6m”}<lb/><hi rend="italic">Hospital stay for about 6 months during studies</hi></cell>
+					</row>
+					<row>
+						<cell role="data">cyclical</cell>
+						<cell role="data">{"s": "1951-05-01", "e": "1999-05-01", "cduration": "18m", "cstep": "4y"}<lb/><hi rend="italic">US Presidential campaign seasons in late 20<hi rend="sup">th</hi> century</hi></cell>
+					</row>
+					<row>
+						<cell role="data">multi-part</cell>
+						<cell role="data">[{"s": "1901-01-01", "ls": "1901-02-02", "ee": "1919-01-01", "e": "1920-05-05"}, {"s": "1931-01-01", "ls": "1935-02-02", "ee": "1961-01-01", "e": "&gt;12"}]<lb/><hi rend="italic">intermittently as specified, until after Period #12</hi></cell>
+					</row>
+					<row>
+						<cell role="data">duration</cell>
+						<cell role="data">{"s": "&gt;1", "duration": "2m"}<hi rend="italic">tSpan for Period beginning after Period 1, lasting 2 months</hi></cell>
+					</row>
+				</table>
+
+				<head>Period relations</head>
+				<p><hi rend="italic">Meronomic (parts)</hi></p>
+				<p>Purely temporal relationships between Periods (overlap, adjacency, containment) can be calculated from <hi rend="italic">tSpan</hi>s geometrically. But there are more relationships we routinely assert and represent, for example <hi rend="italic">part-of</hi>. We might say, “these 18 events occurring at these times, or in this order, were part-of that larger event”—e.g. a lifespan, war, or political campaign. Another scholar’s chronology for the same composite event might include an entirely different set of sub-events. We may wish to model The Bronze Age as an historical period having spatial-temporal parts such as “Late Bronze Age Southern Levant” and “Bronze Age – Malta.” A Topotime <hi rend="italic">relation</hi> consists of a subject, predicate and object (at minimum) in the following form:</p>
+				<p>{“subj”: 23, “pred”: “has-part”, “obj”: 14}</p>
+				<p>Among other things, Topotime part-of relations enable rendering sub-events within parent containers on timelines.</p>
+				<p><hi rend="italic">Time and place</hi></p>
+				<p>Events and other occurrences are wholly bound to places. Parenthetically, we would argue that places may be best characterized by what has occurred in them. Certainly historical periods are often defined geographically, or are relevant only in particular regions. Some are equally geographic and temporal constructs, e.g. “Pre-dynastic Egypt” (4500-2950 BC), or “The Neolithic Levant.” “Song Dynasty in the Third Imperial Period” is relevant in China and neighboring places, but not elsewhere.</p>
+				<p>Furthermore, simple and complex events all have spatial extension we often want to display on a map alongside a timeline. Period locations in Topotime can be specified with a single spatial location expressed in a standardized format (GeoJSON or WKT), and with an optional name in this form:</p>
+				<p>{“subj”: 23, “pred”: “has-location”, “obj”: {“name”: “Venice“, “geom”: “POINT (45.4375, 12.3358)”, “geomType”: “WKT” }</p>
+				<p>Standards for specifying Places in data objects like these for gazetteers are now emerging, thanks to the coordinating efforts of projects like Pelagios and national historical GIS  projects Great Britain Historical GIS and the China Historical GIS. </p>
+				<p><hi rend="italic">Participation</hi></p>
+				<p>Periods having “class”: “Lifespan” can be asserted to participate-in other kinds of periods, such as Event and HistoricalPeriod.</p>
+				<head>Looking ahead</head>
+				<p>Topotime is an open source software development project. We know that many further challenges exist for representing not simply time, but temporality in digital humanities works. Our goal has been to help initiate what will hopefully be an ongoing collaborative process with some concrete steps and functioning software. We are hopeful this work will contribute to the development of interoperable gazetteers of place and period, temporal extensions of the popular GeoJSON format, and improved capabilities for timeline visualizations.</p>
+			</div>
+		</body>
+		<back>
+			<div type="References">
+				<listBibl>
+					<bibl><hi rend="bold">Crescioli M., D’Andrea A., Niccolucci F. </hi>(2000). <hi rend="italic">A GIS-based analysis of the Etruscan cemetery of Pontecagnano using fuzzy logic, in G.R. Lock</hi> (ed.), Beyond the Map: Archaeology and Spatial Technologies, Amsterdam, lOS Press, 157-179.</bibl>
+					<bibl><hi rend="bold">Holmen, J., and Ore, C.</hi> (2009). <hi rend="italic">Deducing event chronology in a cultural heritage documentation system. </hi>In CAA 2009 Proceedings retrieved 29 Jul 2013 from <ref type="url" target="http://www.edd.uio.no/artiklar/arkeologi/holmen_ore_caa2009.pdf">www.edd.uio.no/artiklar/arkeologi/holmen_ore_caa2009.pdf</ref></bibl>
+					<bibl><hi rend="bold">Kauppinen,T. Mantegari,G., Paakkarinen, P., Kuittinen,  H., Hyvonen, E., Bandini, S.</hi> (2010). <hi rend="italic">Determining relevance of imprecise temporal intervals for cultural heritage information retrieval.</hi>International Journal of Human-Computer Studies 68 (2010) 549–560 </bibl>
+					<bibl><hi rend="bold">Plewe, B.</hi> (2002).<hi rend="italic"> The Nature of Uncertainty in Historical Geographic Information</hi>. Transactions in GIS, 6(4): 431-456.</bibl>
+					<bibl><hi rend="bold">Sewell, W.</hi> (2005)<hi rend="italic">. Logics of History</hi>. Chicago: University of Chicago Press</bibl>
+					<bibl><ref type="url" target="http://dh.stanford.edu/topotime/">dh.stanford.edu/topotime</ref>; <ref type="url" target="https://github.com/ComputingPlace/Topotime">github.com/ComputingPlace/Topotime</ref></bibl>
+					<bibl><hi rend="italic">JavaScript Object Notation for Linked Data </hi>(<ref type="url" target="http://json-ld.org/">json-ld.org</ref>).</bibl>
+					<bibl><ref type="url" target="http://www.simile-widgets.org/timeline/">www.simile-widgets.org/timeline</ref></bibl>
+					<bibl>Note that the term “fuzzy” means indeterminate and probabilistic here; this does not correspond with its meaning in fuzzy set theory, as percent membership in a set.</bibl>
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

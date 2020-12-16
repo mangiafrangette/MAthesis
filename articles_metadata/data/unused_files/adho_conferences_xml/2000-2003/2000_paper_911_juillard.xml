@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="paper">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">On Consensus between Tree-representations of Linguistic
+                    Data</title>
+                <author>
+                    <name>
+                        <forename type="first">Michel</forename>
+                        <surname>Juillard</surname>
+                        <affiliation>
+                            <name type="org">Université Nice-Sophia Antipolis</name>, France
+                            <email/>
+                        </affiliation>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename type="first">Xuan</forename>
+                        <surname>Luong</surname>
+                        <affiliation>
+                            <name type="org">Université Nice-Sophia Antipolis</name>, France
+                            <email/>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="2000">2000</date>
+                <publisher>
+                    <name>University of Glasgow</name>
+                </publisher>
+                <pubPlace>Glasgow</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ALLC/ACH 2000</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first">Jean</forename>
+                        <surname>Anderson</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Amal</forename>
+                        <surname>Chatterjee</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Christian</forename>
+                        <forename type="middle">J.</forename>
+                        <surname>Kay</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Margaret</forename>
+                        <surname>Scott</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item>Computational / Corpus Linguistics</item>
+                        <item> </item>
+                        <item> </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <div>
+                    <head>1. Introduction</head>
+                    <p>One of the aims of modern linguistics, particularly of the computational
+                        persuasion, is to infer from the ever-growing mass of actual data available,
+                        the implicit, virtual organization underlying the apparent disorder and
+                        diversity of surface phenomena.</p>
+                    <p>This ever-present crucial duality is also at work in computational
+                        linguistics where the chief question is how to reach, beyond the teeming,
+                        bristling surface of observed individual facts, for the latent abstract
+                        organisation, thus enabling the observer (i.e. the linguist) to gain access
+                        to knowledge that can be generalized.</p>
+                </div>
+                <div>
+                    <head>2. Trees</head>
+                    <p>Tree-representation is a powerful means of evincing the inherent structure of
+                        mutually dependent data.</p>
+                    <p>Scholars in the main fields of taxonomy regularly and successfully avail
+                        themselves of tree-structures, e.g. genealogies, pedigrees and
+                        phylogenies.</p>
+                    <p>Chomsky's syntagmatic trees have grown under every clime but they are far
+                        from being the sole way of imaging linguistic dependence or independence of
+                        the represented objects by means of a hierarchic tree where clearly outlined
+                        categories are paired and embedded.</p>
+                    <p>Frequently enough, modern linguists tend to be interested more in the
+                        relative closeness of objects than in their belonging to this or that closed
+                        class. Additive, as opposed to hierarchic, trees do away with watertight
+                        partitions between objects and lay the stress on notions such as proximity
+                        and opposition. Figure 1 illustrates this new way of representing textual
+                        data. The linguistic units under scrutiny here are modals and auxiliaries in
+                        a body of contemporary English poetry.</p>
+                    <p>The information contained in figure 1 is rich and clear. The organisation of
+                        the whole structure rests on the notions of proximity and opposition. The
+                        present auxiliaries <emph rend="bold">have</emph> and <emph rend="bold"
+                            >be</emph> are closely associated while their past form counterparts
+                            <emph rend="bold">had</emph>, and <emph rend="bold">was</emph> and <emph
+                            rend="bold">were</emph> form another distinct pair in the opposite part
+                        of the tree. More generally, the top of the tree can be seen as gathering
+                        the past forms whereas the present tense forms congregate in the bottom
+                        part. Deleting one of the edges of the structure breaks the tree down into
+                        two connex components. The case of <emph rend="bold">should</emph> and <emph
+                            rend="bold">would</emph> is interesting in that the two modals occupy an
+                        intermediate position between past and present which reflects their
+                        specificities in the actual texts.</p>
+                </div>
+                <div>
+                    <head>3. Going further with trees :</head>
+                    <p>The unrooted-tree representation (figure 5) makes conspicuous properties of
+                        coordinating conjunctions that were, of course, impossible to discern in the
+                        table of occurrences, let alone in the lines of the original text (Day
+                        Lewis, complete poetry).</p>
+                    <p>The figure opposes the very tightly-knit pair <emph rend="bold"
+                            >but-and</emph> to the rest of the data which, in turn, form three other
+                        groups of coordinators (respectively <emph rend="bold"
+                            >either-or-which</emph>, <emph rend="bold">neither-nor</emph>, <emph
+                            rend="bold">then-yet-than</emph>) that are similar in behaviour,
+                        although more independent of each other than the previous two (<emph
+                            rend="bold">and-but</emph>).</p>
+                    <p>Figure 6 illustrates the behaviour of the same grammatical units in a body of
+                        contemporary English novels.</p>
+                    <p>Without going into unnecessary detail, it is clear that this tree imposes
+                        unity or, at any rate, very close proximity on elements that evinced more
+                        independence in the previous tree (figure 5), <emph rend="bold"
+                            >neither-nor</emph> and <emph rend="bold">either-or</emph> now forming
+                        more conspicuous pairs, while <emph rend="bold">than</emph> becomes more
+                        closely associated to the structure as it teams up with <emph rend="bold"
+                            >but</emph>.</p>
+                    <div>
+                        <head>3.1. Fusion of the previous two trees :</head>
+                        <p>The question of course arises of the possibility of representing the two
+                            distinct sets of original data in one tree-figure, considering that they
+                            correspond to the same grammatical units at work in two provinces of
+                            literature (poetry and the novel) but in the same language and in the
+                            same period of time.</p>
+                        <p>Since these two original sets of data are technically disparate, it is
+                            impossible to start from the initial numbers as such - for instance, by
+                            adding them up.</p>
+                        <p>The only procedure available is to attempt to achieve a consensus by
+                            fusion of the original two trees by means of a new algorithm which we
+                            have just devised. Figure 7 is the product of this fusion algorithm. </p>
+                        <p>It is interesting to observe first of all that this representation does
+                            sum up the information of trees 5 and 6. Not only are the properties of
+                            each single separate tree preserved, which is indeed a prerequisite, but
+                            there also emerges a more legible picture of the actual syntagmatic
+                            roles and affinities of the function-words under scrutiny here. The
+                            correlative conjunctions <emph rend="bold">either-or</emph> and <emph
+                                rend="bold">neither-nor</emph> are more satisfactorily grouped
+                            together, <emph rend="bold">then</emph> enters into a close set with
+                                <emph rend="bold">but</emph> and <emph rend="bold">and</emph>, while
+                            the proximity of <emph rend="bold">than</emph> and <emph rend="bold"
+                                >then</emph> on the tree is evocative of their common etymology,
+                            although they do not form a set <emph rend="italics">stricto
+                                sensu</emph>.</p>
+                    </div>
+                    <div>
+                        <head>3.2 The fusion algorithm</head>
+                        <p>The fusion algorithm is derived from the topological properties of the
+                            tree.</p>
+                        <p>Consider two trees <emph rend="italics">A</emph> and <emph rend="italics"
+                                >B</emph> . Let V<emph rend="italics">A</emph> and V<emph
+                                rend="italics">B</emph> be the matrices of the corresponding
+                            neighbourhoods.</p>
+                        <p>One notes as V<emph rend="italics">AB</emph> the Cartesian product whose
+                            elements are (x,y) with x Î V<emph rend="italics">A</emph> and y Î
+                                V<emph rend="italics">B</emph> . We shall build on V<emph
+                                rend="italics">AB</emph> a preorder induced by the preorders of the
+                            neighbourhood levels of V<emph rend="italics">A</emph> and of V<emph
+                                rend="italics">B</emph> and define a neighbourhood relation on
+                                V<emph rend="italics">AB</emph> compatible with the topologies of
+                                <emph rend="italics">A</emph> and <emph rend="italics">B</emph>. The
+                            fusion of the two trees shall ensue.</p>
+                        <p><emph rend="underscore">Preorder</emph>:<lb/>Two elements (x,y) and (u,v)
+                            of V<emph rend="italics">AB</emph> are: <list>
+                                <item>- <emph rend="italics">ordered</emph> by the relation &lt; if
+                                    and only if x+y &lt; u+v</item>
+                                <item>- <emph rend="italics">equivalent</emph> by the relation @ if
+                                    and only if x+y = u+v </item>
+                            </list></p>
+                        <p><emph rend="underscore">Neighbours</emph>:<lb/>A set G of elements of X
+                            is made up of neighbours <emph rend="italics">if and only if</emph> all
+                            the pairs of distinct elements of G are: <list type="bulleted">
+                                <item>- minimal by the relation &lt; in V<emph rend="italics">AB</emph> and</item>
+                                <item>- equivalent by the relation @ in V<emph rend="italics">AB</emph> .</item>
+                            </list></p>
+                        <p><emph rend="underscore">Algorithm</emph><lb/> Calculate the matrices of
+                            the neighbourhoods of <emph rend="italics">A</emph> and of <emph
+                                rend="italics">B</emph>.<lb/> 
+                            Build <emph rend="italics">VA</emph>B.<lb/> 
+                            (<emph rend="italics">iter</emph>): Look for the
+                            minimal elements of V<emph rend="italics">AB</emph>. Use V<emph rend="italics">AB</emph> in order to determine the neighbours.<lb/>
+                            - Each set of neighbours G is represented by a single of its elements z.
+                            For each set G, of k elements, remove from X the k-1 elements other than
+                            z. Delete in V<emph rend="italics">AB</emph> the corresponding lines and columns.<lb/>
+                            <emph rend="italics">If</emph> the numbers of lines and columns are
+                            larger than 3, <emph rend="underscore">goto</emph> (<emph rend="italics"
+                                >iter</emph>) <emph rend="italics">else</emph> <emph rend="underscore">end</emph> of the algorithm.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI.2 id="paper_251_wulfman"><teiHeader><fileDesc><titleStmt><title>The Abbey Inside the Machine: The MonArch Project</title><author><name reg="Wulfman, Clifford Edward">Clifford Edward Wulfman</name></author><author><name reg="Mylonas, Elli">Elli Mylonas</name></author><author><name reg="Loyer, Anne">Anne Loyer</name></author><author><name reg="Bonde, Sheila">Sheila Bonde</name></author><author><name reg="Maines, Clark">Clark Maines</name></author><respStmt><resp>Marked up by</resp><name reg="Schmidt, Sara A.">Sara A. Schmidt</name></respStmt></titleStmt><publicationStmt><p>Marked up to be included in the Digital Humanities 2007 Conference Abstracts
+                    book.</p></publicationStmt><sourceDesc><p>None</p></sourceDesc></fileDesc><profileDesc><textClass><classCode>paper</classCode><keywords><list type="simple"><item>archaeology</item><item>rhetoric</item><item>modelling</item><item>xml</item></list></keywords></textClass></profileDesc><revisionDesc><list type="simple"><item>SAS: Created from Clifford Edward Wulfman's xml <date value="2007-04">April
+                        2007</date></item></list></revisionDesc></teiHeader><text><front><docTitle n="The Abbey Inside the Machine: The MonArch Project"><titlePart type="main">The Abbey Inside the Machine: The MonArch Project</titlePart></docTitle><docAuthor><name reg="Wulfman, Clifford Edward">Clifford Edward Wulfman</name><address><addrLine>Clifford_Wulfman@brown.edu</addrLine></address></docAuthor><titlePart type="affil">Brown University</titlePart><docAuthor><name reg="Mylonas, Elli">Elli Mylonas</name><address><addrLine>elli_mylonas@brown.edu</addrLine></address></docAuthor><titlePart type="affil">Brown University</titlePart><docAuthor><name reg="Loyer, Anne">Anne Loyer</name><address><addrLine/></address></docAuthor><titlePart type="affil">Wesleyan University</titlePart><docAuthor><name reg="Bonde, Sheila">Sheila Bonde</name><address><addrLine/></address></docAuthor><titlePart type="affil">Brown University</titlePart><docAuthor><name reg="Maines, Clark">Clark Maines</name><address><addrLine/></address></docAuthor><titlePart type="affil">Wesleyan University</titlePart></front><body><div0><head>Description of Project</head><p>MonArch (The Monastic Archaeology Project) is a collaborative project based on
+                    the excavations at the Abbey of Saint-Jean-des-Vignes in Soissons, France under
+                    the joint directorship of Sheila Bonde (Brown University) and Clark Maines
+                    (Wesleyan University). The monastery at St.-Jean-des-Vignes remains with us
+                    today in two media: in the physical remains of the abbey and in the textual
+                    remains left behind by its inhabitants. The most significant of the latter are
+                    the community's Customary, which describes the roles and activities of the
+                    abbey's inhabitants over the course of the religious year, and the Abbey's
+                    Obituary, which lists, by month and day of death, the members of the monastic
+                    community and laics who had provided service or gifts to the monastery, with a
+                    description of their donations.</p><p>Two websites have been developed as part of the MonArch Project. The first was
+                    implemented at Wesleyan (<xptr to="http://www.wesleyan.edu/monarch/" from="ROOT" targOrder="U"/>), and provides thorough documentation of the excavations,
+                    annual field reports, and inventories of finds. The second, which is the focus
+                    of this paper, is a research effort in its own right, one that explores the ways
+                    in which encoded representations of archaeological data may be used enhance
+                    their use. The often complex interrelationships among textual, architectural,
+                    and archaeological evidence are difficult to represent and explicate in
+                    traditional formats; the work described here attempts to use digital
+                    representations to create a new form of scholarly expression.</p></div0><div0><head>Research Questions</head><p>MonArch has always focused beyond a simple description of concrete artifacts to a
+                    thoroughgoing investigation and elaboration of a concept: from the outset, the
+                    project was conceived as a multi-disciplinary endeavor that took
+                        <emph>monasticism</emph> rather than the monastery as its object of
+                        study.<note n="1">Sheila Bonde and Clark Maines, <title level="m">
+                            Saint-Jean-des-Vignes in Soissons: Approaches to its Architecture,
+                            Archaeology and History</title>, <title level="s"> Biblioteca Victorina
+                            vol. XV</title> (Turnhout: Brepols Press, 2003).</note> Therefore, to
+                    the extent that its digital manifestation is to be a direct reflection of the
+                    project's aims, it too must take as its focus an abstraction and not a
+                    collection of materials.</p><p>Such a focus makes designing the digital reflection more challenging. It cannot
+                    be a simple linked, digital collection, because such an organization would put
+                    undue emphasis on the monastery and its artifacts. And because the site needs to
+                    be built around concepts and questions — about monasticism and the archaeology
+                    of monasticism — the digital project cannot be conceived or designed without
+                    considerable knowledge of those concepts or an understanding of medieval social,
+                    economic, architectural, and religious history and the role of archaeology in
+                    elucidating it all. It must, in other words, express the <emph>archaeological
+                        definition of monasticism</emph> Bonde and Maines are deriving from their
+                    work, a definition that is based on the following factors: <list type="unordered"><item>The monastic complex as the physical expression of spiritual, social,
+                            and economic motives;</item><item>The functions of the abbey's structures;</item><item>The <foreign rend="italic">communitas</foreign> who used these
+                            structures and the routine of their lives;</item><item>The economy of the surrounding region — the farms, mills, priories,
+                            parishes, and other holdings that constituted the abbey's domain;</item><item>The place of the abbey (defined as both buildings and community) in
+                            the local, regional, and inter-regional networks of power and influence;</item><item>The way these phenomena changed over time.</item></list></p><p>The relationship of the texts — both primary and secondary — to the
+                    archaeological data is complex, because the archaeological material supports and
+                    illustrates the texts at the same time that the texts contextualize the
+                    archaeology and architecture. These two kinds of remains — &#128;&#148; the textual and
+                    the physical — become two inter-referential and mutually reinforcing centers
+                    from which the concepts of monasticism emerge. The research focus of the current
+                    digital project is on designing an infrastructure and and an interactive
+                    interface that simultaneously represent the authors' arguments and allow users
+                    of the site to form their own interpretations.</p></div0><div0><head>Considering Use</head><p>We argue that it is most fruitful to conceive the digital manifestation of the
+                    MonArch project as a <emph>reading</emph>. Insofar as its goal is to provide a
+                    definition, the resource is fundamentally rhetorical: it has an argument, and it
+                    supports its claims with evidence drawn from a variety of evidential sources.
+                    That argument, generally stated, entails an archaeological definition of
+                    monasticism, whose refinement is the ongoing and iterative task of the MonArch
+                    project. The task of the digital resource, therefore, must be unusually subtle:
+                    it must express this archaeological definition through an intricate blend of
+                    textual and material evidence, and it must provide a way for readers to interact
+                    with and question the argument and its claims.</p><p>In fact, insofar as the digital resource is the manifestation of this argument,
+                    the mutually referential presence of both encoded texts and artefactual
+                    simulacra constitutes a claim in itself, a claim that a
+                    <soCalled>definition</soCalled> of monasticism can be manufactured through a
+                    reading of monastic text, monastic space, and monastic time, and perhaps only in
+                    this way. That is to say, the boundaries established by the site (and here the
+                    web site and the excavation site perhaps begin themselves to lose their
+                    boundaries) determine how monasticism is to be understood.</p></div0><div0><head>Research Goals</head><p> Our research, then, is focused on establishing a layered set of
+                    <emph>models</emph> that enable researchers to articulate their understanding of
+                    monasticism and allow scholars (students, readers, users) to interact with that
+                    understanding. Underlying the whole project is a fundamental data model that
+                    represents the characteristics of the texts, spaces, buildings and artifacts
+                    that form the object of study. Overlaying the data model is another model, that
+                    of the relationships that embody the intellectual connections that the
+                    researchers have made as they work over their materials and which embody their
+                    definition of monasticism. These connections are the evidence for their claims.
+                    At the topmost layer is a model of user interaction, one consisting of visual
+                    juxtapositions that illustrate the relationships among the historical evidence
+                    and that enable further questioning. </p><p>The problem of structuring information in order to enhance argument is part of a
+                    larger problem. One of the major powers promised by digital resources is the
+                    instantiation of the kind of textuality envisioned by postmodern theorists like
+                    Roland Barthes and Jacques Derrida, among others: the simultaneous availability
+                    of vast amounts of information in a form that makes the interconnections, both
+                    explicit and implicit, traversable. Yet benightedness is a clear danger: it is
+                    all too easy to become lost: in <soCalled>hyperspace,</soCalled> in the library,
+                    in the labyrinth, or in the wood of error. As digital resources grow in size and
+                    complexity, the need for prospects — lookouts, overviews of the textscape —
+                    becomes ever greater. Digital resources must therefore become responsive: when a
+                    reader examines an argument or claim in a digital publication, the resource
+                    should respond to her, helpfully putting on the virtual desk before her
+                    materials that are relevant to her evolving inquiry. Thus, in loftiest terms,
+                    our goal must be to assist, supplement, and augment a human agent&#128;&#153;'s
+                    investigation of accumulated cultural knowledge, a goal congruent with the aims
+                    of research over the past half-century in fields from information retrieval to
+                    artificial intelligence.</p></div0></body><back><div type="Bibliography"><head>Bibliography</head><listBibl><biblStruct><monogr><title level="u"><name reg="The Abbey of St.-Jean-des-Vignes">The Abbey of
+                                    St.-Jean-des-Vignes</name></title><imprint/></monogr><note><xptr to="http://dev.stg.brown.edu/projects/Monarch/" from="ROOT" targOrder="U"/></note></biblStruct><biblStruct><monogr><title level="u"><name reg="Monarch. Monastic Archaeology Project">Monarch. Monastic
+                                    Archaeology Project</name></title><imprint/></monogr><note><xptr to="http://www.wesleyan.edu/monarch/" from="ROOT" targOrder="U"/></note></biblStruct><biblStruct><analytic><author><name reg="Bernstein, Mark">Mark Bernstein</name></author><author><name reg="Bolter, J. David">J. David Bolter</name></author><author><name reg="Joyce, Michael">Michael Joyce</name></author><author><name reg="Mylonas, Elli">Elli Mylonas</name></author><title level="a">Architectures for Volatile Hypertexts</title></analytic><monogr><title level="m">Hypertext '91 Proceedings</title><imprint><pubPlace>San Antonio, TX</pubPlace><publisher>Association for Computing Machinery</publisher><date value="1991">1991</date></imprint></monogr></biblStruct><biblStruct><analytic><author><name reg="Bonde, Sheila">Sheila Bonde</name></author><author><name reg="Maines, Clark">Clark Maines</name></author><title level="a">The Archaeology of Monasticism, Ten Years of Work at
+                                the Augustinian Abbey of Saint-Jean-des-Vignes, Soissons</title></analytic><monogr><title level="m">Medieval Europe, 1992 (Pre-printed Papers of the
+                                Conference on Medieval Archaeology in Europe, York, 21-24.IX.1992)</title><imprint><pubPlace>York</pubPlace><biblScope type="vol">8</biblScope><date value="1992">1992</date><biblScope type="pages">83-88</biblScope></imprint></monogr></biblStruct><biblStruct><monogr><author><name reg="Bonde, Sheila">Sheila Bonde</name></author><author><name reg="Maines, Clark">Clark Maines</name></author><title level="m">Saint-Jean-des-Vignes: Approaches to its Architecture,
+                                Archaeology and History</title><title level="s">Biblioteca Victorina vol. XV</title><imprint><pubPlace>Turnhout</pubPlace><publisher>Brepols Press</publisher><date value=" 2003">2003</date></imprint></monogr></biblStruct><biblStruct><monogr><author><name reg=" McCarty, Willard"/></author><title level="m">Humanities Computing</title><imprint><pubPlace>Basingstoke</pubPlace><publisher>Palgrave McMillan</publisher><date value="2005">2005</date></imprint></monogr></biblStruct><biblStruct><analytic><author><name reg="Unsworth, John">John Unsworth</name></author><title level="a">What is Humanities Computing and What Is Not?</title></analytic><monogr><imprint/></monogr><note><xptr to="http://www.computerphilologie.uni-muenchen.de/jg02/unsworth.html" from="ROOT" targOrder="U"/></note></biblStruct><biblStruct><analytic><title level="a">The Rhetoric of Performative Markup</title><respStmt><resp>Organized by</resp><name reg="Flanders, Julia">Julia Flanders</name></respStmt><author><name reg="Wulfman, Clifford">Clifford Wulfman</name></author><title level="a">The Rhetoric of Digital Structure</title><author><name reg="Flanders, Julia">Julia Flanders</name></author><title level="a">The Rhetoric of Performative Markup</title><author><name reg="Mylonas, Elli">Elli Mylonas</name></author><title level="a">The Rhetoric of Performative Markup</title></analytic><monogr><title level="m">Digital Humanities 2006 Conference Abstracts</title><imprint><pubPlace>Paris</pubPlace><publisher>CATI, Université Paris-Sorbonne</publisher><date value="2006">2006</date><biblScope type="pages">248-251</biblScope></imprint></monogr></biblStruct></listBibl></div></back></text></TEI.2>

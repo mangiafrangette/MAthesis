@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:x="http://www.w3.org/1999/xhtml" xmlns:exsl="http://exslt.org/common" xml:id="Paper-737">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Modeling Linguistic Research Data for a Repository for Historical Corpora</title>
+        <author>
+          <name>
+            <surname>Odebrecht</surname>, <forename>Carolin</forename>
+          </name>
+          <affiliation>Humboldt-Universität zu Berlin</affiliation>
+          <email></email>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority/>
+        <publisher>EPFL, Switzerland</publisher>
+        <distributor>
+          <name>EPFL Digital Humanities Laboratory</name>
+          <address>
+            <addrLine>GC D2 386</addrLine>
+            <addrLine>Station 18</addrLine>
+            <addrLine>CH-1015 Lausanne</addrLine>
+            <addrLine>frederic.kaplan@epfl.ch</addrLine>
+          </address>
+        </distributor>
+        <pubPlace>Lausanne, Switzerland</pubPlace>
+        <address>
+          <addrLine>EPFL</addrLine>
+          <addrLine>CH-1015 Lausanne</addrLine>
+        </address>
+        <availability>
+          <p/>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note type="abstract">Existing historical linguistic corpora vary a with respect to formats, corpus architecture, annotation types, values and preparation steps. The LAUDATIO-Repository (www.laudatio-repository.org) provides an open access environment to facilitate the management of such heterogeneous research data with an extensive, uniform and structured documentation and a facetted and free-text search without constraints such as formats or annotations. To this purpose, we developed a meta-model which is expressive enough to represent a large variety of corpus formats. This meta-model, described as a TEI-ODD specification (Burnard &amp; Rahtz 2004), is also the basis for the technical implementation in the repository.</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>No source: created in electronic format.</p>
+        <p>
+          <date when="20140710"/>
+          <time when="11:00:00"/>
+        </p>
+		<p n="session">5</p>
+		<p n="room">315 - Amphipôle</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="original" n="category">
+          <term>Paper</term>
+        </keywords>
+        <keywords scheme="original" n="subcategory">
+          <term>Short Paper</term>
+        </keywords>
+        <keywords scheme="original" n="keywords">
+          <term>research data</term>
+          <term>modeling</term>
+          <term>metadata</term>
+          <term>historical corpora</term>
+          <term></term>
+        </keywords>
+        <keywords scheme="original" n="topic">
+          <term>corpora and corpus activities</term>
+          <term>metadata</term>
+          <term>data modeling and architecture including hypothesis-driven modeling</term>
+          <term>interdisciplinary collaboration</term>
+          <term>linguistics</term>
+          <term>copyright</term>
+          <term>licensing</term>
+          <term>and Open Access</term>
+          <term>history of Humanities Computing/Digital Humanities</term>
+          <term></term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text type="paper">
+    <front>
+      
+      <div>
+        <p></p>
+      </div>
+    </front>
+    <body>
+      <div>
+        
+        <p>Existing historical linguistic corpora vary a great deal with respect to formats, corpus
+architecture, annotation types and values and preparation steps. The LAUDATIO-Repository
+(www.laudatio-repository.org) provides an open access environment to facilitate the
+management of such heterogeneous research data with an extensive, uniform and structured
+documentation and faceted and free-text search without limitation with respect to formats or
+annotations. For this purpose, we have developed a meta-model which is expressive enough to
+represent a large variety of corpus formats. This meta-model, described as a TEI-ODD
+specification with automatically generated schemas (Burnard &amp; Rahtz 2004), is also the basis
+for the technical implementation in the repository.
+</p>
+        <p>Building and analyzing historical corpora often incorporates diplomatic transcriptions,
+normalizations of these transcriptions and research specific annotation layers which will be
+illustrated with the help of two corpora; the German Manchester Corpus (GerManC) and the
+RIDGES Herbology Corpus. GerManC<ref target="n1" rend="sup">1</ref> (Durrell, Ensslin &amp; Bennett 2007) contains for
+instance two formats (TEI XML and CoNLL) which represent different kinds of annotations
+and analyses. The TEI XML format contains a diplomatic transcription and a register specific
+mark-up. By contrast, the CoNLL format contains token annotations for normalization, part-
+of-speech (POS) and lemmatization (e.g. the STTS tag set, Schiller et al. 1999) as well as
+morphology and dependency annotation for syntactic relations between the tokens (e.g. Foth
+2006). Thus, this corpus uses two formats for encoding different kinds of annotations and
+analyses.<ref target="n2" rend="sup">2</ref> On the other hand, the second version of the RIDGES Herbology Corpus<ref target="n3" rend="sup">3</ref> contains
+all annotations in one format (EXMARaLDA, Schmidt &amp; Wörner 2009) which is then
+converted into the relANNIS format used by the ANNIS corpus system (Zeldes et al. 2009)
+for search and visualization capacities. The corpus architecture of RIDGES is specific in the
+following way: Via multiple segmentations, annotations can refer to different basic textual
+data in the corpus (Krause et al. 2012). To normalize separate spellings of complex verbs in
+historical German such as<hi rend="italic"> zusammen gesetzet </hi>to<hi rend="italic"> zusammengesetzt</hi> (RIDGES, Curioser
+Botanicus oder sonderbares Kräuterbuch, 1675), the tokens need to be merged in the
+normalized annotation whereas tokens need to be separated when normalizing <hi rend="italic">zuverstehen</hi> to
+<hi rend="italic">zu verstehen</hi> (RIDGES, Alchemistische Praktik 1603). Every further annotation — for
+instance the POS annotation may either refer to the diplomatic segmentation layer or to the
+normalized segmentation layer.
+</p>
+        <p>Having identified what exactly needs to be described by a meta-model, we then define the
+actual use-cases associated with this meta-model. With respect to range, specificity and user
+scenarios, distinct requirements could only be designed for concrete applications. For this
+study, the LAUDATIO-Repository (Krause et al. 2013) is taken as an example. In this case,
+the meta-model will enable a retrieval of, a structured search on and a holistic and extensive
+documentation of the heterogeneous historical corpora and their preparation (for further
+details see Odebrecht &amp; Krause 2013 and Odebrecht &amp; Zipser 2013). It should be possible to
+search for a distinct annotation type or content in several different corpora within the
+repository. Along with the content requirements the repository needs a structured, machine
+		
+	
+	
+		
+			
+				
+					readable metadata format which can be represented in a graphical interface for the display of
+information and in the repository system for the different ways to search through the data, e.g.
+faceted search and free-text search. The meta-model developed from these requirements
+results in a metadata TEI XML format for the LAUDATIO-Repository but is also designed
+for and may be applied to other use cases and applications.
+</p>
+        <p>The meta-model is designed as an analytic class diagram for which the Unified Modeling
+Language is used<ref target="n4" rend="sup">4</ref>. Such a diagram is useful to document the important issues or concepts in
+an abstract way. Therefore, the class concepts represent the concepts for the subject-specific
+application domain ‘historical corpora’.<ref target="n5" rend="sup">5</ref></p>
+        <p>Four main classes are defined: ‘corpus’, ‘document’, ‘annotationKey’ and ‘annotationValue’
+which refer not only to historical corpora but to textual corpora in general: </p>
+        <figure>
+          <graphic url="DH2014_2_737-1"/>
+          <p>Fig. 1: Meta-model of a corpus. For the sake of concision, the attributes of the classes are left out. </p>
+        </figure>
+        <p>As shown in figure 1, the meta-model<ref target="n6" rend="sup">6</ref> defines a corpus as the sum of all documents
+regardless of their structure and size. A document is defined as the sum of all annotations
+regardless of their structure, format and content. ‘Annotation’ is defined by the sum of all
+annotation keys and values. For the meta-model, it does not matter whether they have flat,
+hierarchical or semantic relations. Every concept carries its own attributes. A ‘corpus’ is a
+conceptual collection of digitized and not only linguistically processed (here historical) text. It
+carries among other things the attributes title, creator, creation date, revision history etc. The
+class ‘document’ represents the actual historical text – source text - with its own attributes
+such as author, date and publication history. The classes ‘annotationKey’ and
+‘annotationValue’ constitute a document because the sum of transcriptions, normalizations,
+including segmentations and further annotations build - technically speaking - a ‘document’.
+‘AnnotationKey’ in turn carries attributes similar to ‘corpus’ and ‘document’ such as date,
+author and revision history. For example, the attribute ‘author’ can refer either to the creator
+of a historical text or to the annotator of a certain annotation layer and may also refer to the
+same entity or person. This is important for corpus documentation. When re-using corpora,
+for instance further annotations on an existing corpus are made by third parties, a clear
+reference can be made to the copyrights. Attributes such as ‘date’ also refer to every class of
+the meta-model, meaning that ‘corpus’ as well as ‘annotation’ may have a date of creation
+like ‘document’ which genuinely has a publication date.
+</p>
+        <p>For the technical realization<ref target="n7" rend="sup">7</ref> we used a customization of TEI XML with an ODD
+specification. The meta-model was mapped to three TEI header structures, one for each 		
+concept: a header for ‘corpus’, ‘annotationKey’ and ‘annotationValue’, a header for each
+‘document’ in the corpus and a header for each preparation step of the corpus in general: </p>
+        <figure>
+          <graphic url="DH2014_2_737-2"/>
+          <p>Fig. 2: Technical mapping of the meta-model and the TEI xml header structure</p>
+        </figure>
+        <p>The attributes of each class are mapped into the corresponding TEI element sets. For example,
+the attributes date and author correspond to the TEI elements &lt;date&gt;, &lt;author&gt; and &lt;editor&gt;
+with a specifying attribute @role for “annotator” in the &lt;fileDesc&gt; element. The
+&lt;publicationStmt&gt; element contains the attributes revision and/or publication history for each
+class. The classes ‘annotationKey’ and ‘annotationValue’ are realized with the element set of
+&lt;elementSpec&gt;. With the help of the attribute @corresp, references between the list of
+annotation keys and values of the whole corpus to each document and to each preparation
+step, including information about formats and annotation relations such as segmentations of
+the annotations, are technically implemented. Each TEI header is customized with the help of
+ODD<ref target="n8" rend="sup">8</ref>. The TEI headers are the technical basis for the uniform display and search of every
+class and its attributes in the repository. For every corpus, e.g. RIDGES and GerManC, the
+values for &lt;author&gt; referring to either a distinct annotation layer or a distinct document can
+be uniformly searched via a faceted search or can be displayed in the corpus view.
+</p>
+        <p>The meta-model presented here provides a generic mechanism for the representation of
+multiply annotated corpora that probably goes beyond the scope of historical corpora alone.
+Our experience with dealing with a variety of available historical resources has shown how
+flexible and reliable the model can be in this domain, though work remains to be done in
+dealing with more relational annotation schemes describing disconnected sources such as
+annotation between documents in the same or in different corpora. </p>
+      
+        
+      </div>
+    </body>
+    <back>
+      <div type="References">
+        <listBibl>
+          <bibl>
+            1. GerManC is freely available at <ref type="url" target="http://hdl.handle.net/11022/0000-0000-1D32-8">hdl.handle.net/11022/0000-0000-1D32-8</ref>
+          </bibl>
+          <bibl>
+            2. GerManC is also available in the standoff format GATE which maps all annotations of the TEI XML and the CoNLL formats.
+          </bibl>
+          <bibl>
+            3. The RIDGES Herbology Corpus is freely available at <ref type="url" target="http://hdl.handle.net/11022/0000-0000-1CDB-B">hdl.handle.net/11022/0000-0000-1CDB-B</ref>
+          </bibl>
+          <bibl>
+            4. OMG (2009) OmG unied modeling languagetm (omg uml), infrastructure: <ref type="url" target="http://www.omg.org/spec/">www.omg.org/spec/</ref>
+          </bibl>
+          <bibl>
+            5. For the sake of brevity, the attributes of the classes are left out in figure 1.
+          </bibl>
+          <bibl>
+            6. All ODDs are freely available at <ref type="url" target="http://www.laudatio-repository.org/repository/documentation.">www.laudatio-repository.org/repository/documentation.</ref>
+          </bibl>
+          <bibl>
+            7. For the technical implementation of the header in the basis systems of LAUDATIO-Repository with the help of elastic search &amp; co see <ref type="url" target="http://www.laudatio-repository.org/repository/technical-documentation/">www.laudatio-repository.org/repository/technical-documentation/</ref>
+          </bibl>
+          <bibl>
+            8. Each ODD is freely available at <ref type="url" target="http://korpling.german.hu-berlin.de/schemata/laudatio/doc/S6/">korpling.german.hu-berlin.de/schemata/laudatio/doc/S6/</ref>
+          </bibl>
+        <bibl><hi rend="bold">Burnard, Lou, Rahtz, Sebastian</hi> (2004) <hi rend="italic">RelaxNG with Son of ODD</hi>. Extreme Markup
+          Languages Proceedings 2004. Montréal, Québec.
+        </bibl>
+          <bibl><hi rend="bold">Durrell, Martin, Ensslin, Astrid, Bennett, Paul</hi> (2207) <hi rend="italic">The GerManC project</hi> In Sprache und
+            Datenverarbeitung 31 (2007), pp. 71-80.
+          </bibl>
+          <bibl><hi rend="bold">Foth, Kilian A.</hi> (2006) <hi rend="italic">Eine umfassende Constraint-Dependenz-Grammatik des
+            Deutschen</hi>. Technischer Report. Universität Hamburg. Hamburg.
+          </bibl>
+          <bibl><hi rend="bold">Krause, Thomas, Odebrecht, Carolin, Zielke, Dennis</hi> (2013) <hi rend="italic">Wie kann der Zugriff, die
+            Wiederverwendung und langfristige Speicherung von linguistischen Korpora realisiert
+            werden?</hi> 35. Jahrestagung der Deutschen Gesellschaft für Sprachwissenschaft
+            (DGfS). 12.-15.03.2013. Potsdam Germany. </bibl>
+          <bibl><hi rend="bold">Krause, Thomas, Lüdeling, Anke, Odebrecht, Carolin, Zeldes, Amir</hi> (2012) <hi rend="italic">Multiple
+            Tokenization in a Diachronic Corpus</hi>. Exploring Ancient Languages through Corpora
+            Conference (EALC). 14.-16.06.2012. Oslo Norway.
+          </bibl>
+          <bibl><hi rend="bold">Odebrecht, Carolin, Zipser, Florian </hi>(2013) <hi rend="italic">LAUDATIO - Eine Infrastruktur zur linguistischen
+            Analyse historischer Korpora</hi>. DTA-/CLARIN-D Konferenz und -Workshops:
+            Historische Textkorpora für die Geistes- und Sozialwissenschaften. Fragestellungen
+            und Nutzungsperspektiven 18.-19.02.2013. Berlin Germany.
+          </bibl>
+          <bibl><hi rend="bold">Odebrecht, Carolin, Krause, Thomas</hi> (2013) <hi rend="italic">Metadata in an Infrastructure for Historical
+            Corpora. SFB 732 Incremental Specification in Context</hi> - Colloquium 20.06.2013.
+            Stuttgart Germany.
+            http://www.uni-stuttgart.de/linguistik/sfb732/files/abstract_odebrechtkrause.pdf
+          </bibl>
+          <bibl><hi rend="bold">Schmidt, Thomas, Wörner, Kai</hi> (2009) EXMARaLDA - Creating, analysing and sharing
+            spoken language corpora for pragmatic research. Pragmatics 19/4. pp.565-582.
+          </bibl>
+          <bibl><hi rend="bold">Schiller, Anne, Teufel, Simone, Stöckert, Christine, Thielen, Christine</hi> (1999) <hi rend="italic">Guidelines für
+            das Tagging deutscher Textkorpora mit STTS</hi>. Technischer Report. Universität
+            Stuttgart, Institut für maschinelle Sprachverarbeitung &amp; Universität Tübingen,
+            Seminar für Sprachwissenschaft.
+          </bibl>
+          <bibl><hi rend="bold">Zeldes, Amir, Ritz, Julia, Lüdeling, Anke &amp; Chiarcos, Christian</hi> (2009), "<hi rend="italic">ANNIS: A Search
+            Tool for Multi-Layer Annotated Corpora</hi>". In: Proceedings of Corpus Linguistics
+            2009, July 20-23, Liverpool, UK. </bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

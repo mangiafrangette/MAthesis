@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="../schema/xmod_web.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xmt="http://www.cch.kcl.ac.uk/xmod/tei/1.0" 
+     xml:id="ab-315">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Myopia: A Visualization Tool in Support of Close Reading</title>
+                <author>
+                    <name>Chaturvedi, Manish</name>
+                    <affiliation>Miami University, USA</affiliation>
+                    <email>chaturm@muohio.edu</email>
+                </author>
+                <author>
+                    <name>Gannod, Gerald</name>
+                    <affiliation>Miami University, USA</affiliation>
+                    <email>gannodg@muohio.edu</email>
+                </author>
+                <author>
+                    <name>Mandell, Laura</name>
+                    <affiliation>Texas A&amp;M University, USA</affiliation>
+                    <email>Mandell@tamu.edu</email>
+                </author>
+                <author>
+                    <name>Armstrong, Helen</name>
+                    <affiliation>Miami University, USA</affiliation>
+                    <email>armstrh@muohio.edu</email>
+                </author>
+                <author>
+                    <name>Hodgson, Eric</name>
+                    <affiliation>Miami University, USA</affiliation>
+                    <email>eric.hodgson@muohio.edu</email>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Jan Christoph Meister, Universität Hamburg</publisher>
+                <address>
+                   <addrLine>Von-Melle-Park 6, 20146 Hamburg, Tel. +4940 428 38 2972</addrLine>
+                   <addrLine>www.dh2012.uni-hamburg.de</addrLine>
+              </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>No source: created in electronic format.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2012-04-15</date>
+                <name>DH</name>
+                <desc>generate TEI-template with data from ConfTool-Export</desc>
+            </change>
+            <change>
+                <date>2012-04-13</date>
+                <name>LS</name>
+                <desc>provide metadata for publicationStmt</desc>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="paper">
+        <body>
+            <p>Although the term ‘myopia’ typically has negative connotations, focusing on what is
+                nearby is not always a bad idea. Literary critics value what they call ‘close
+                reading’, the process of carefully reading a poem or other literary work
+                word-by-word and line-by-line in order to analyze how different features of the text
+                – sound, syntax and rhythm work together to create meaning. Through close reading,
+                literary critics hope, the reader might eventually succeed in uncovering hidden
+                connotations. Typically, multiple readings are necessary to understand the structure
+                of a literary work and to unearth multiple meanings, especially in the case of
+                poetry. Only then can the reader perceive the poem’s prosody. A non-abstract,
+                enhanced visualization of the metrical, syntactical, and sonic structures of a poem
+                can greatly ease this laborious process.</p>
+            <p>There has been a recurrent effort to develop text visualization and visual
+                statistical tools to better understand the underlying structures of chosen textual
+                resources. Some of these tool suites provide opportunities for exploration and
+                collaboration in area of textual analysis [5,6,9,10]; others are more narrowly
+                focused on comparison of plain or encoded text, across versions [3, 7]. Despite
+                attempts to do so these digital tools have not resulted in significantly easing the
+                process of close reading [2]. The side-by-side method of highlighting differences is
+                not conducive to spot connotations and analyses, and thus does not help in fully
+                exploiting potential of digital tools in literature.</p>
+            <p>At Miami University, we are developing the Myopia Poetry Visualization tool to
+                facilitate display of a multidimensional representation of TEI [8] encoded poetry
+                and text. Presenting an interactive visual representation of differently encoded
+                versions of text, the Myopia tool seeks to amplify understanding and uncover new
+                knowledge in the context of close reading. The tool currently is used to visualize
+                text from The Poetess Archive currently moving to Texas A&amp;M University. The
+                Poetess Archive includes a database of electronic documents encoded using the TEI
+                (Text Encoding Initiative) schemas [8] extended with the Poetess Archive tag-set
+                that has been derived from widely used terms in literary analysis and criticism.
+                Even though one schema is used, a schema extended from the TEI schema, the elements
+                of a poem that are interesting to literary scholars have been formalized as tags and
+                attributes based on XML standards. But the tags relevant to any single poem must be
+                spread across multiple documents. XML by its very nature is hierarchical, and these
+                hierarchies cannot overlap within an XML document. The elements of prosodic
+                structures of poetry however do overlap: a metaphor might begin in the middle of one
+                poetic line and end in the middle of another. Different features thus need to be
+                encoded in separate XML files making a composite analysis difficult. Moreover, the
+                XML representation of literary texts is suitable for machine processing and
+                electronic exchange of information, but it is not intuitively comprehensible even by
+                those scholars who know about poetry and would be most likely to adopt an XML
+                encoding system. A tool which fuses TEI encodings spread over separate files into a
+                single visually integrated document could help overcome the limitations of encoding
+                literary texts in XML. We are developing a visualization tool that seeks to
+                integrate multiple encodings while allowing comparative analysis of multiple poems
+                encoded using the extended TEI tag-set. The proposed solution is an interactive
+                visual representation of differently encoded versions of text that can enhance
+                cognition, and aid in uncovering of new knowledge. This approach facilitates
+                identification of frequently changing hotspots in encoded text and aids in the
+                process of close reading. </p>
+            <p>Close reading means reading a poem word by word and then repeating the process line
+                by line in order to explore sound, syntax, tropological figures, and the meter or
+                underlying rhythm of the work. The reader might eventually succeed in uncovering
+                hidden connotations. Multiple iterations are necessary to understand the structure
+                and thus to unearth meanings from a poem. Only then is the reader in a position to
+                describe underlying prosodic elements in literary text. A non-abstract, enhanced
+                visualization of syntax and sound structures of a poem can greatly ease this
+                laborious process.</p>
+            <p>The brain’s capacity to rapidly process visual information, and discern visual
+                patterns forms the basis for any visualization. Pirolli and Card developed a theory
+                of information access to help designing interfaces to visual cognitive tools. People
+                follow a scent as they forage for information, making just-in-time decisions about
+                which path to follow [11]. An ideal cognitive loop between a computer and human
+                would require the computer providing exactly the information needed at any given
+                time. Thus only relevant information should be on screen, allowing users to forage
+                as they explore the interface. In the Myopia tool, the cost of visual queries is
+                reduced by the minimal layering of visual information, a layering that users can
+                control.</p>
+            <p>The effectiveness of a given visualization is directly related to the properties of
+                the mapping between the raw data and its rendering. In general any mapping should
+                allow the user to access the underlying data, so that he or she can be assured that
+                the visualization actually relates to the source data being rendered. In our
+                visualization tool the textual content of the encoded poetry being visualized is
+                always available to the user. The ability to revert to the source text at any stage
+                of the visualization from abstract graphical mappings is a conscious design choice
+                that we made in building our tool, and we believe that allowing users to see the
+                text enhances the tool’s effectiveness [12]. Myopia employs a direct representation
+                of textual content overlaid with graphical metaphors to aid in literary analysis of
+                poetry.</p>
+            <p>The User Interface of the <hi rend="italic">Myopia </hi>tool is split into three
+                distinct visual regions</p>
+            <xmt:uList>
+                <item>The Main Visualization Area that displays and allows users to interact with
+                    the rendered text.</item>
+                <item>A Key/Legend at bottom of the visualization panel that holds a tabbed display
+                    of keys associated with the loaded visualization.</item>
+                <item>GUI Panel at the right of the Visualization panel. This allows loading and
+                    manipulating source TEI documents and the resulting3D visual elements.</item>
+            </xmt:uList>
+            <p><figure><graphic url="img315-1.jpg" rend="left" height="256px" width="341px" mimeType="image/jpeg"/><head>Figure 1: Myopia Tool – Principal Characteristics and Layout</head></figure></p>
+            
+            <p>The <hi rend="italic">Myopia </hi>Poetry Visualization tool has been developed in
+                Python and utilizes open-source Python libraries for rendering multidimensional
+                graphics integrated with an intuitive user interface. The framework used for
+                multidimensional graphics is called Panda3D, which was developed at Carnegie Mellon
+                University [4]. It is useful to mix two-dimensional interface design elements with
+                higher dimension graphical design elements. Navigational controls should always be
+                visible and accessible to the user. In the Poetry Visualization tool the
+                two-dimensional Graphical User Interface (GUI) elements are created using the
+                wxPython framework.</p>
+            <p>We are conducting user studies to evaluate the effectiveness of our approach in
+                helping the process of close reading. To achieve this objective we utilize the
+                Pre-Experimental Design methodology known as Pretest-Posttest Experiment design ex-
+                plored by Campbell, Stanley et. al. [1]. The experiment seeks to measure the
+                effective- ness, adequacy and usability of the <hi rend="italic">Myopia </hi>Poetry
+                Visualization tool. The research questions of the study seek to determine the three
+                aspects of the tool: its effectiveness, its adequacy, and its usability.</p>
+            <p>Reading literature closely is a time-consuming activity. Often combining the results
+                of close reading can be difficult. By using Information Visualization, new knowledge
+                about text can be synthesized. We are presenting a method to support close reading
+                of literary texts using multi-dimensional composite visualizations. Offering an
+                interactive visual representation of a poem’s literary qualities, the Poetry
+                Visualization tool al lows for a multidimensional representation of TEI-encoded
+                poetry and text. Presenting an interactive visual representation of differently
+                encoded </p>
+            <p>versions of text, the tool seeks to amplify understanding and uncover new knowledge.
+                This tool will facilitate identifying hotspots in an encoded text and will visualize
+                the attendant changes in areas of interest across various TEI documents: a poem may
+                be most interesting metaphorically in one line, but metrically it may be more
+                interesting in another. The goal is to help scholars analyze the original documents
+                in new ways and explore information visualization as a rhetorical device in literary
+                criticism. The contributions of this research are in the areas of Information
+                Visualization and Digital Humanities. The purpose of the research is to support
+                reading literature closely using information visualization. This will facilitate
+                abstract analysis of literary texts by fusing multiple perspectives.</p>
+            <p><figure><graphic url="img315-2.jpg" rend="left" height="256px" width="341px" mimeType="image/jpeg"/><head>Figure 2: Myopia Tool – Multiple Perspectives</head></figure></p>
+            
+        </body>
+        <back>
+            <div>
+                
+                    <head>References</head>
+                <p>[1] <hi rend="bold">Campbell, D. T., and J. C. Stanley </hi>(1966). <hi
+                        rend="italic">Experimental and quasi-experimental designs for research</hi>.
+                    Boston: Houghton Mifflin.</p>
+                <p>[2] <hi rend="bold">Bulger, M., E. Lagresa, et al.</hi> (2008). Close reading
+                    re-visited. <ref
+                        target="http://english236-w2008.pbworks.com/Visualization-Project"
+                        type="external">http://english236-w2008.pbworks.com/Visualization-Project</ref>
+                        (accessed 11 March 2012).</p>
+                <p>[3] <hi rend="bold">Mittelbach, A.</hi> (2009). Tei-comparator in  my  element. <ref
+                        target="http://blogs.oucs.ox.ac.uk/jamesc/2009/09/04/tei-comparator"
+                        type="external"
+                        >http://blogs.oucs.ox.ac.uk/jamesc/2009/09/04/tei-comparator</ref>
+                    (accessed  12 March 2012).</p>
+                <p>[4] <hi rend="bold">Carnegie Mellon ETC </hi>(2010). Panda 3d - free 3d game
+                    engine. <ref target="http://www.panda3d.org/" type="external">http://www.panda3d.org/</ref> (accessed
+                    12 march 2012).</p>
+                <p>[5] <hi rend="bold">UC BerkeleyVisualization Lab </hi>(2010). Flare data
+                    visualization for the web. <ref target="http://flare.prefuse.org/"
+                        type="external">http://flare.prefuse.org/</ref> (accessed 12 march 2012). August 2010.</p>
+                <p>[6] <hi rend="bold">IBM</hi> (2011). Many eyes. <ref
+                        target="http://manyeyes.alphaworks.ibm.com/manyeyes/" type="external"
+                        >http://manyeyes.alphaworks.ibm.com/manyeyes/</ref> (ac- cessed 12 March
+                    2012).</p>
+                <p>[7] <hi rend="bold">Juxta</hi> (2011). Juxta collation software for scholars.
+                        <ref target="http://www.juxtasoftware.org/about.html" type="external"
+                        >http://www.juxtasoftware.org/about.html</ref> (accessed 12 March 2012).</p>
+                <p>[8] <hi rend="bold">TEI </hi>(2011). TEI: Text encoding initiative. <ref
+                        target="http://www.tei-c.org/index.xml" type="external"
+                        >http://www.tei-c.org/index.xml</ref> (accessed 12 March 2012).</p>
+                <p>[9] <hi rend="bold">University of  Nebraska </hi>(2011). Tokenx: a  text
+                     visualization,  analysis,  and      play tool. <ref
+                        target="http://jetson.unl.edu:8080/cocoon/tokenx/index.html?file=../xml/base.xml"
+                        type="external">http://jetson.unl.edu:8080/cocoon/tokenx/index.html?file=../xml/base.xml</ref>
+                    (accessed 12 March 2012).</p>
+                <p>[10] <hi rend="bold">Bradfford Paley, W.</hi> (2011). Textarc.org home. <ref
+                        target="http://textarc.org/" type="external">http://textarc.org/</ref>
+                    (accessed 12 March 2012).</p>
+                <p>[11] <hi rend="bold">Pirolli, P., S. K. Card, and M. M. van der Wege (</hi>2001).
+                    Visual information foraging in a focus + context visualization.  <hi
+                        rend="italic">Proceedings of the SIGCHI</hi></p>
+            </div>
+        </back>
+    </text>
+</TEI>

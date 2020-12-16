@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:x="http://www.w3.org/1999/xhtml" xmlns:exsl="http://exslt.org/common" xml:id="Paper-929">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Aplicación del análisis dinámico de redes científicas al estudio de la evolución de la investigación española relacionada con el descriptor “historia del arte” durante 1976-2012, según ISOC.</title>
+        <author>
+          <name>
+            <surname>Pino-Díaz</surname>, <forename>José</forename>
+          </name>
+          <affiliation>Dpto. Historia Arte. Universidad de Málaga, Spain</affiliation>
+          <email></email>
+        </author>
+        <author>
+          <name>
+            <surname>Cruces-Rodríguez</surname>, <forename>Antonio</forename>
+          </name>
+          <affiliation>Dpto. Historia Arte. Universidad de Málaga, Spain</affiliation>
+          <email>antonio.cruces@uma.es</email>
+        </author>
+        <author>
+          <name>
+            <surname>Rodríguez-Ortega</surname>, <forename>Nuria</forename>
+          </name>
+          <affiliation>Dpto. Historia Arte. Universidad de Málaga, Spain</affiliation>
+          <email>nro@uma.es</email>
+        </author>
+        <author>
+          <name>
+            <surname>Bailón-Moreno</surname>, <forename>Rafael</forename>
+          </name>
+          <affiliation>Dpto. Ingeniería Química. Universidad de Granada. Spain.</affiliation>
+          <email></email>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority/>
+        <publisher>EPFL, Switzerland</publisher>
+        <distributor>
+          <name>EPFL Digital Humanities Laboratory</name>
+          <address>
+            <addrLine>GC D2 386</addrLine>
+            <addrLine>Station 18</addrLine>
+            <addrLine>CH-1015 Lausanne</addrLine>
+            <addrLine>frederic.kaplan@epfl.ch</addrLine>
+          </address>
+        </distributor>
+        <pubPlace>Lausanne, Switzerland</pubPlace>
+        <address>
+          <addrLine>EPFL</addrLine>
+          <addrLine>CH-1015 Lausanne</addrLine>
+        </address>
+        <availability>
+          <p/>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note type="abstract">Una red científica está formada por el conjunto de actores de la red (investigadores, centros, revistas, temas de investigación, etc.) y por el conjunto de asociaciones establecidas entre ellos. Los actores independientemente de su naturaleza pueden definirse mediante palabras. Se ha realizado el análisis dinámico de la red científica relacionada con el descriptor “historia del arte” en el periodo 1976-2012. Se han empleado técnicas KDD (knowledge databases discovery), de text mining (coword analysis), para obtener las subredes de investigación más importantes y relevantes de cada subperiodo. Se ha obtenido el diagrama dinámico o de series temáticas que permite el análisis y la visualización de la evolución de los resultados de la investigación.</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>No source: created in electronic format.</p>
+        <p>
+          <date when="20140710"/>
+          <time when="11:00:00"/>
+        </p>
+		<p n="session">5</p>
+		<p n="room">315 - Amphipôle</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="original" n="category">
+          <term>Paper</term>
+        </keywords>
+        <keywords scheme="original" n="subcategory">
+          <term>Short Paper</term>
+        </keywords>
+        <keywords scheme="original" n="keywords">
+          <term>Historia del Arte</term>
+          <term>Redes científicas</term>
+          <term>Teoría Actor-Red</term>
+          <term>Análisis de redes</term>
+          <term>Ingeniería del conocimiento</term>
+          <term>Minería de textos</term>
+          <term>Análisis de palabras asociadas</term>
+          <term>Visualización de la información</term>
+          <term>Sistemas de Conocimiento</term>
+          <term>Historia del Arte Digital</term>
+        </keywords>
+        <keywords scheme="original" n="topic">
+          <term>art history</term>
+          <term>knowledge representation</term>
+          <term>spanish and spanish american studies</term>
+          <term>visualisation</term>
+          <term>networks</term>
+          <term>relationships</term>
+          <term>graphs</term>
+          <term></term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text type="paper">
+    <front>
+      <div>
+        <p></p>
+      </div>
+    </front>
+    <body>
+      <div>
+        <head>1. Objetivo</head>
+        <p>El objetivo de la presente comunicación ha sido detectar las dinámicas de la investigación española relacionadas con la historia del arte en un rango cronológico que se extiende desde 1976 hasta 2012. Para ello, se ha utilizado como estrategia el análisis dinámico de redes científicas, lo que nos ha permitido extraer de uno de los corpus más representativos de la investigación histórico-artística en España (ISOC) un conocimiento implícito sobre la evolución y desarrollo de las estrategias temáticas y líneas de investigación relacionadas con la historia del arte como descriptor.</p>
+        <p>La elección de este rango cronológico no es arbitraria, pues la segunda mitad de la década de los setenta se ha conceptualizado tradicionalmente como un punto de inflexión en los estudios histórico-artísticos en España, al incorporarse metodologías y modelos interpretativos foráneos una vez iniciado el periodo aperturista tras el fin de la Dictadura de Franco, la llegada de todo un conjunto de traducciones de obras que desarrollaban modelos interpretativos distintos a los anteriormente establecidos, y la consolidación de los estudios de Historia del Arte en España como campo académico autónomo.</p>
+    </div>
+    <div>
+        <head>2. Marco teórico-metodológic</head>
+        <p>Una red científica está formada según  (Latour, 1983) por el conjunto de actores de la red (investigadores, centros, revistas, temas de investigación, etc.) y por el conjunto de asociaciones establecidas entre ellos. Los actores independientemente de su naturaleza pueden definirse siempre mediante palabras. La red de palabras y de asociaciones establecidas entre ellas es manifestación del comportamiento de la Sociedad y de la estructura del Conocimiento. Los actores son, igualmente, entidades dinámicas que continuamente redefinen sus relaciones y, en consecuencia, la red socio-cognitiva que conforman. Con el devenir, los actores y las relaciones cambian y dan lugar a nuevas redes, y así se suceden unas a otras a lo largo del tiempo.</p>
+        <p>Latour define la Teoría Actor-Red, teoría sociológica sobre la generación de conocimiento científico, como “Sociología de las Relaciones”  (Latour, 2005). La teoría de la traducción (entendida esta como conversión, transformación, variación o cambio) estudia los cambios que se producen en las relaciones entre los actores de la red. Estos cambios en las relaciones entre los actores producen su aparición, fortalecimiento, equilibrio, debilitamiento o desaparición. La aparición de nuevos actores se produce por emergencia o por convergencia; el fortalecimiento se produce por convergencia o por evolución incremental; el equilibrio, por evolución estable; el debilitamiento, por evolución decremental o por divergencia; y la desaparición, por bifurcación o por exitus. A consecuencia de todos esos cambios, las redes tecnocientíficas de conocimiento se encuentran en continuo cambio  (Ruiz-Baños, 1999).</p>
+        <p>Las relaciones naturales de coocurrencia de palabras en los textos científicos y técnicos constituyen una red tecnocientífica que puede ser analizada y cartografiada. El análisis y la visualización de estas redes es posible por el desarrollo de sistemas expertos denominados sistemas de conocimiento.</p>
+    </div>
+    <div>
+        <head>3. Criterios y proceso de análisis </head>
+        <p>El corpus documental de análisis lo constituyen los artículos de ISOC, http://bddoc.csic.es:8080/isoc.html, obtenidos  mediante la búsqueda “historia del arte” en los campos título, resumen y descriptores, en el periodo 1976-2012. Este corpus está formado por 873 registros.</p>
+        <p>Se ha realizado el análisis dinámico de la red científica mediante el sistema de conocimiento Techné Coword; sistema de conocimiento que tiene su antecedente en Copalred  (Bailón-Moreno, 2003), que a su vez tiene como precursor Leximappe  (Law, Bauin, Courtial, &amp; Whittaker, 1988);  (Law &amp; Whittaker, 1992). Para realizar el análisis de palabras asociadas, se ha creado un único campo formado por los descriptores, autores y revista de cada registro. Se han fijado los siguientes parámetros de análisis: ocurrencia mínima, 2; coocurrencia mínima, 2; tamaño mínimo de la subred, 2; y tamaño máximo, 12. Los subperiodos de estudio han sido: 1976-1983; 1984-1989; 1990-1995; 1996-2001; 2002-2007; y, 2008-2013.</p>
+        <p>Se han empleado técnicas KDD (knowledge databases discovery) y  de text mining (coword analysis o análisis de palabras asociadas) para obtener las subredes de investigación más importantes y relevantes de cada subperiodo. El diagrama dinámico de subredes permite el análisis y la visualización de la evolución de los resultados de la investigación.</p>
+    </div>
+    <div>
+        <head>4. Resultados e interpretaciones</head>
+        <p>La gráfica de producción acumulada de documentos por año permite distinguir dos periodos de "inicio-expansión-agotamiento" sucesivos: uno de 1976 hasta 1986, y otro de 1987 hasta la actualidad (ver Figura 1) </p>
+        <figure>
+          <graphic url="DH2014_2_Figura_1"/>
+          <p>Fig. 1: Diagrama de producción anual acumulada de los documentos que
+incluyen “historia del arte”  en su título, resumen o palabras clave.</p>
+        </figure>
+        <p>Estos periodos son una constatación empírica de la Segunda Ley de Price o de Crecimiento Logístico de la Ciencia  (de Solla Price, 1963), así como del concepto de cambio de paradigma, según la obra de Thomas Kuhn La Estructura de las Revoluciones Científicas  (Kuhn, 1962).  Esto último se reafirma aun más si cabe por los profundos cambios conceptuales que ha sufrido la investigación relacionada con el descriptor “historia del arte” según el análisis de palabras asociadas que sido realizado para el presente estudio. Este análisis de palabras asociadas ha identificado los actores temáticos, temas o líneas de investigación en cada periodo, y las ha relacionado entre ellos dando lugar  a diferentes salidas gráficas muy significativas. Los temas de investigación se muestran como redes de palabras que los han definido conceptualmente (ver Figura 2).</p>
+        <figure>
+          <graphic url="DH2014_2_Figura_2"/>
+          <p>Fig. 2: Tema “historia del cine”, tema motor de investigación del último periodo, 2008-2013</p>
+        </figure>
+        <p>Los diagramas estratégicos han revelado las relaciones intertemáticas y su posición estratégica dentro del conjunto de la red (posición motora del campo científico, cuadrante superior derecho; posición transversal, cuadrante inferior izquierdo; posición  accesoria, cuadrante superior izquierdo; y posición naciente o en decadencia, cuadrante inferior izquierdo) (ver Figuras 3, 4, 5, 6, 7 y 8). En los diagramas estratégicos se representan los temas de investigación; estos aparecen nombrados por el descriptor central de la subred que conforman y situados según los parámetros de centralidad y densidad de la misma.</p>
+        <figure>
+          <graphic url="DH2014_2_Figura_3"/>
+          <p>Fig. 3: Diagrama estratégico del periodo 1, 1976-1983. </p>
+        </figure>
+        <figure>
+          <graphic url="DH2014_2_Figura_4"/>
+          <p>Fig. 4: Diagrama estratégico del periodo 2, 1984-1989.</p>
+        </figure>
+        <figure>
+          <graphic url="DH2014_2_Figura_5"/>
+          <p>Fig. 5: Diagrama estratégico del periodo 3, 1990-1995. </p>
+        </figure>
+        <figure>
+          <graphic url="DH2014_2_Figura_6"/>
+          <p>Fig. 6: Diagrama estratégico del periodo 4, 1996-2001.</p>
+        </figure>
+        <figure>
+          <graphic url="DH2014_2_Figura_7"/>
+          <p>Fig. 7: Diagrama estratégico del periodo 5, 2002-2007.</p>
+        </figure>
+        <figure>
+          <graphic url="DH2014_2_Figura_8"/>
+          <p>Fig. 8: Diagrama estratégico del periodo 6, 2008-2013.</p>
+        </figure>
+        <p>Igualmente, el diagrama dinámico de las series temáticas ha evidenciado la evolución o traducción a lo largo del tiempo (ver Figura 9)</p>
+        <figure>
+          <graphic url="DH2014_2_Figura_9"/>
+          <p>Fig. 9: Diagrama dinámico o de series temáticas. Los periodos son: 1, 1976-1983; 2, 1984-1989; 3, 1990-1995; 4, 1996-2001; 5, 2002-2007; y, 6, 2008-2013</p>
+        </figure>
+        <p>Varias razones de tipo socioeconómico explican la existencia de los periodos anteriormente identificados y los cambios conceptuales y estratégicos sufridos por los actores temáticos en ellos: el dirigismo institucional de la investigación española que está sometido a los vaivenes de la economía general del país en cada momento, la incorporación española a la Unión Europea y a sus planes de apoyo a la investigación, la adopción de un sistema de evaluación de la actividad de los investigadores que impulsa la producción de artículos de revistas, la redefinición de antiguas líneas de investigación y la emergencia de otras nuevas. </p>
+      </div>
+    </body>
+    <back>
+      <div type="References">
+        <listBibl>
+          <bibl><hi rend="bold">Bailón-Moreno, R.</hi> (2003). <hi rend="italic">Ingeniería del conocimiento y vigilancia tecnológica aplicada a la investigación en el campo de los tensioactivos. Desarrollo de un modelo ciencimétrico unificado.</hi> Granada: Tesis doctoral. Universidad de Granada.</bibl>
+          <bibl><hi rend="bold">de Solla Price, D. J.</hi> (1963). <hi rend="italic">Little Science, Big Science</hi>. New York: Columbia University Press.</bibl>
+          <bibl><hi rend="bold">Kuhn, T.</hi> (1962).<hi rend="italic"> The Structure of Scientific Revolutions</hi>. Chicago: University of Chicago Press.</bibl>
+          <bibl><hi rend="bold">Latour, B. </hi>(1983). <hi rend="italic">Give me a Laboratory and I Will Raise the World</hi>. En K. Knorr-Cetina, &amp; M. Mulkay, Science observed: Perspectives on the Social Study of Science. Londres: Sage.</bibl>
+          <bibl><hi rend="bold">Latour, B.</hi> (2005). <hi rend="italic">Reassembling the Social. An introduction to Actor-Network Theory.</hi> Oxford: Oxford University Press.</bibl>
+          <bibl><hi rend="bold">Law, J., &amp; Whittaker, J. </hi>(1992). <hi rend="italic">Mapping acidification research: a test of the co-word method</hi>. Scientometrics, 23(3), 417-461.</bibl>
+          <bibl><hi rend="bold">Law, J., Bauin, S., Courtial, J. P., &amp; Whittaker, J. </hi>(1988). <hi rend="italic">Policy and the mapping of scientific change: a co-word analysis of research into enviromental acidification</hi>. Scientometrics , 14(3-4), 251-264.</bibl>
+          <bibl><hi rend="bold">Pino-Díaz, J., Jiménez-Contreras, E., Ruíz-Baños, R., &amp; Bailón-Moreno, R.</hi> (Julio-Septiembre de 2011). <hi rend="italic">Evaluación de redes tecnocientíficas: la red española sobre Áreas Protegidas, según la Web of Science</hi>. Revista Española de Documentación Científi ca, 34(3), 301-333.</bibl>
+          <bibl><hi rend="bold">Pino-Díaz, J., Jiménez-Contreras, E., Ruíz-Baños, R., &amp; Bailón-Moreno, R.</hi> (April de 2012). <hi rend="italic">Strategic knowledge maps of the techno-scientific network (SK Maps)</hi>. Journal of the American Society for Information Science and Technology, 63(4), 796-804.</bibl>
+          <bibl><hi rend="bold">Ruiz-Baños, R.</hi> (1999). <hi rend="italic">Las traducciones dinámicas de las series temáticas, propuesta de una clasificación</hi>. La representación y la organización del conocimientoen sus distintas perspectivas: su influencia en la recuperación de la información. Actas del IV Congreso ISKO. Granada.</bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

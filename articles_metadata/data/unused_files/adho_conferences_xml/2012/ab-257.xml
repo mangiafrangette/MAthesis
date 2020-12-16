@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="../schema/xmod_web.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xmt="http://www.cch.kcl.ac.uk/xmod/tei/1.0" 
+     xml:id="ab-257">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Engaging the Museum Space: Mobilising Visitor Engagement with Digital Content Creation</title>
+                <author>
+                    <name>Ross, Claire Stephanie</name>
+                    <affiliation>University College London, UK</affiliation>
+                    <email>claire.ross@ucl.ac.uk</email>
+                </author>
+                <author>
+                    <name>Gray, Steven</name>
+                    <affiliation>University College London, UK</affiliation>
+                    <email>steven.gray@ucl.ac.uk</email>
+                </author>
+                <author>
+                    <name>Warwick, Claire</name>
+                    <affiliation>University College London, UK</affiliation>
+                    <email>c.warwick@ucl.ac.uk</email>
+                </author>
+                <author>
+                    <name>Hudson Smith, Andrew</name>
+                    <affiliation>University College London, UK</affiliation>
+                    <email>a.hudson-smith@ucl.ac.uk</email>
+                </author>
+                <author>
+                    <name>Terras, Melissa</name>
+                    <affiliation>University College London, UK</affiliation>
+                    <email>m.terras@ucl.ac.uk</email>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Jan Christoph Meister, Universität Hamburg</publisher>
+                <address>
+                   <addrLine>Von-Melle-Park 6, 20146 Hamburg, Tel. +4940 428 38 2972</addrLine>
+                   <addrLine>www.dh2012.uni-hamburg.de</addrLine>
+              </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>No source: created in electronic format.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2012-04-15</date>
+                <name>DH</name>
+                <desc>generate TEI-template with data from ConfTool-Export</desc>
+            </change>
+            <change>
+                <date>2012-04-13</date>
+                <name>LS</name>
+                <desc>provide metadata for publicationStmt</desc>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="paper">
+        <body>
+            <p>The following paper presents the results of the QRator research project which aims to
+                understand how digital technologies, such as interactive labels and smart phones,
+                create new ways for users to engage with museum objects; investigate the value and
+                constraints of digital sources and methods involving cultural content; and
+                demonstrate how crowdsourced digital interpretation may be utilised as a research
+                source. </p>
+            <p>Museum exhibitions have been transformed by the addition of digital technology to
+                enhance the visitor experience. Ubiquitous mobile technologies offer museum
+                professionals new ways of personally engaging visitors with content, creating new
+                relationships between museums and their users. Museums and other cultural
+                institutions have made significant investments in developing and disseminating
+                digital content in the physical museum space to reach and engage users, marking a
+                shift in how museums communicate publicly their role as custodians of cultural
+                content and their attitude towards cultural authority. Despite recent technical
+                advances in collections access and interpretation, a number of key issues still
+                remain. Does the rapidly changing technological environment provide a more engaging
+                and participatory visitor experience?</p>
+            <p>The QRator project explores how mobile devices and interactive digital labels can
+                create new models for public engagement, visitor meaning-making and the construction
+                of multiple interpretations inside museum spaces. This project is located within the
+                emerging technological and cultural phenomenon known as ‘The Internet of Things’;
+                the technical and social shift that is anticipated as society moves to a ubiquitous
+                form of computing in which every device is ‘on’, and connected to the Internet.
+                QRator is based on ‘Tales of things’ (<ref target="http://www.talesofthings.com"
+                type="external">http://www.talesofthings.com</ref>) which has developed a ‘method for cataloguing
+                physical objects online which could make museums and galleries a more interactive
+                experience’ (Giles 2010). QRator takes the technology a step further, allowing users
+                to take part in content creation on digital interactive labels- static iPads and
+                their own mobile phones: a sustainable model for two-way public interaction in
+                museum spaces. The QRator project uses iPads installed in the UCL Grant Museum of
+                Zoology to provide a fully interactive experience where visitors respond to
+                questions posed by the curators, contribute to discussions, and leave comments about
+                individual exhibits. Visitors’ comments are synchronised with the QRator website
+                (<ref target="http://www.qrator.org" type="external">http://www.qrator.org</ref>) to allow them to
+                contribute to the continuing discussion away from a museum setting. The application
+                provides each exhibit with a QR code, a matrix barcode that embeds information such
+                as text or an URL within a graphic that users can read using mobile devices, which
+                links the physical exhibit with the associated conversations. When scanned these
+                codes allow users to discover information about an object and join the conversation
+                from their own mobile device. The unpredictable, multiple forms of interpretation
+                produced by the use of mobile devices and interactive labels make us to reconsider
+                ways in which museums provide information about objects and collections and should
+                also allow museums to become more engaging for visitors.</p>
+            <div>
+                <head>Methodology</head>
+                <p>Data from the ten QRator iPads was collected by archiving contributions from
+                    March to July 2011; each individual visitor contribution is simultaneously
+                    uploaded to the master database on the Tales of Things website, followed by the
+                    QRator website pulling the data about each case label (current question) from
+                    the master database and integrates these comments within QRator online. These
+                    comments are then aggregated together based on the current questions originally
+                    asked by the museum. This resulted in a corpus of 1463 visitor contributions,
+                    totalling 13,308 words and 2,708 unique tokens, providing a rich dataset for the
+                    analysis of visitor experience.</p>
+                <p>Visitor contributions were categorized qualitatively using open coded content
+                    analysis where each comment was read and categorized. Contributions were divided
+                    into three basic categories; about the current question or topic, about the
+                    museum, or noise. Despite the apparently simplistic categorisation it is
+                    possible to discover patterns of use and begin to understand how visitors are
+                    relating to and interpreting the exhibitions, and making meaning from their
+                    experience. </p>
+                <p>For the purpose of this study, various quantitative measures were used such as
+                    analysing the frequency of comments according to date and time, comparing
+                    comment rate between the ten iPad’s and suitable text analysis tools were used
+                    to interrogate the corpus. One of these purpose built tools emulates the popular
+                    Wordle<note><ref target="http://www.wordle.net/" type="external">http://www.wordle.net/</ref></note> visualisation where the frequency of words
+                    within the whole corpus is sized in relation to the words font size. This tool
+                    provided more stylistic control over the visualisation than other web-based
+                    services like Wordle. In addition, the corpus was analysed using a Sentiment
+                    analysis tool, SentiStrength<note><ref target="http://sentistrength.wlv.ac.uk/"
+                    >http://sentistrength.wlv.ac.uk/</ref></note> developed by Thelwall et
+                    al, (forthcoming), in order to automatically measure emotion in the visitor
+                    comments, which provides an indication of a positive or negative museum
+                    experience. </p>
+                
+            </div>
+            <div>
+                <head>Findings</head>
+                
+                    <p>The largest proportion of the comments in the corpus fell into the category
+                        of topic (42%), triggered predominately by the QRator interface and
+                        questions posed by the museum curators, suggesting that visitors are
+                        inspired to share their own experiences, thus co-constructing a public
+                        multiple interpretation of museum objects. This is very pleasing, since this
+                        was exactly what the museum professionals had hoped might happen.</p>
+                    <p>The lack of spam and inappropriate commenting is surprising (22%). Many
+                        museums have been hesitant to open up commu­nication to greater
+                        participation by visitors. There is an ingrained fear in the museum
+                        profession that visitors will leave inappropriate comments when there is no
+                        moderation or intervention by the museum (Russo et al. 2008) despite
+                        research showing that museum visitors want to engage with complex,
+                        controversial topics by making comments or talking to staff and other
+                        visitors (Kelly 2006). The QRator project and the Grant Museum have,
+                        however, adopted the concept of ‘radical trust’ in the visitor
+                        community:</p>
+                    <p><hi rend="italic">‘Radical trust is about trusting the community. We know
+                            that abuse can happen, but we trust (radically) that the community and
+                            participation will work. In the real world, we know that vandalism
+                            happens but we still put art and sculpture up in our parks. As an online
+                            community we come up with safeguards or mechanisms that help keep open
+                            contribution and participation working</hi><hi rend="italic">’</hi>
+                        (Fichter 2006). </p>
+                    <p>Inherent in the term is the suggestion of a previous lack of trust shown by
+                        museums towards visitors, but also the admission that such trust is regarded
+                        as new and perhaps dangerous. Nevertheless, the QRator data suggests that
+                        ‘radical trust’ in visitors does indeed work: spamming and inappropriate
+                        commenting does not appear to have happened to a significant extent in the
+                        Grant Museum. </p>
+                    <p>Interestingly, many of the visitor comments focused on opinions of the museum
+                        as a whole (36%). This raises the question of whether a digital technology
+                        used in this way promotes of an opportunity for visitors to make meaning
+                        from their whole experience, rather than engage with the exhibit specific
+                        content and interpret the exhibitions themselves.  </p>
+                    <p>The length of comment may also be used as an indicator of engagement- if we
+                        assume that those who are interested in an issue or topic may wish to write
+                        at greater length. Indeed the average length of comment increased
+                        significantly between categories. The noise category had an average of
+                        4.071429 words, comments on the museum had 7.431599 words and visitor
+                        contributions on topic had an average of 15.36672 words. This is pleasing,
+                        since it suggests that visitors were inspired by the questions to engage
+                        with topics in a relatively complex fashion. Additionally when compared to
+                        the SentiStrength results, which classifies for positive and negative
+                        sentiment on a scale of 1 (no sentiment) to 5 (very strong positive/negative
+                        sentiment), highlights that the comments on the museum were in average more
+                        positive in sentiment (2.04 positive) whereas the comments on topic had an
+                        equal positive to negative response (1.52 positive; 1.55 negative).
+                        Suggesting more engaged texts often contain a mix of positive and negative
+                        sentiment, in contrast to less engagement which is more likely to produce a
+                        single sentiment result. </p></div>
+                
+                <div>
+                    <head>Conclusion</head>
+                    <p>Digital technologies are becoming more embedded, ubiquitous and
+                    networked, with enhanced capabilities for rich social interactions, context
+                    awareness and connectivity. This has led to unprecedented changes in the
+                    provision of digital museum resources, which are beginning to transform the
+                    experience of visiting museums. The QRator project represents a shift in how
+                    cultural organisations act as trusted and authoritarian institutions;
+                    communicate knowledge to the community; and integrate their role as keepers of
+                    cultural content with their responsibility to facilitate access to content. It
+                    also suggests that users are willing to take part in a dialogue, and express
+                    their views about their visit and individual object via digital technologies. It
+                    further suggests that in most cases they can be trusted to do so in a
+                    thoughtful, serious fashion. The challenges that digital technology and
+                    participatory media bring to museums demonstrate a change from a one to many
+                    transmission to a many to many interaction, in which museums use their own voice
+                    and au­thority to encourage participatory communication and content creation
+                    with visitors. The growing emphasis on the interactional and informal nature of
+                    learning in museums provides the perfect opportunity to showcase digital
+                    interactive technologies as important resources for engaging visitors in
+                    exhibits and more generally in museums as a whole (Thomas &amp; Mintz 1998;
+                    Marty &amp; Burton Jones 2007; Heath &amp; vom Lehm 2010). </p></div>
+                
+            <div>
+                <p><hi rend="bold">Acknowledgments</hi></p>
+                <p>The authors of this paper would like to acknowledge the other members of the
+                    QRator team: Jack Ashby and March Carnall (UCL Grant Museum of Zoology), Sally
+                    MacDonald (UCL Museums and Public Engagement), Sussanah Chan (UCL) and
+                    Emma-Louise Nicholls (UCL Grant Museum of Zoology). QRator was funded through
+                    Beacons for Public Engagement Innovation Seed funding and we would like to thank
+                    Hilary Jackson (UCL Public Engagement) for her support and advice throughout the
+                    project.</p>
+            </div>
+        </body>
+        <back>
+            <div>
+                
+                    <head>References</head>
+                <p><hi rend="bold">Fichter, D.</hi> (2006). Web 2.0, library 2.0 and radical trust:
+                    A first take. April 2. Accessed 27th October 2011 at <ref
+                        target="http://library2.usask.ca/~fichter/blog_on_the_side/2006/04/web-2.html" type="external"
+                    >http://library2.usask.ca/~fichter/blog_on_the_side/2006/04/web-2.html.</ref></p>
+                <p><hi rend="bold">Giles, J.</hi> (2010). Barcodes help objects tell their stories.
+                        <hi rend="italic">New Scientist</hi> (17th April, 2010).</p>
+                <p><hi rend="bold">Heath, C., and D. vom Lehn</hi> (2010). Interactivity and
+                    Collaboration: new forms of participation in museums, galleries and science
+                    centres. In R. Parry (ed.), <hi rend="italic">Museums in a Digital Age</hi>.
+                    Abingdon: Routledge, pp. 266-280.</p>
+                <p><hi rend="bold">Kelly, L.</hi> (2006). Museums as sources of information and
+                    learning: The decision-making process. <hi rend="italic">Open Museum
+                        Journal</hi> 8, accessed at <ref
+                        target="http://archive.amol.org.au/omj/volume8/volume8_index.asp" type="external"
+                    >http://archive.amol.org.au/omj/volume8/volume8_index.asp.</ref></p>
+                <p><hi rend="bold">Marty, P., and K. Burton Jones</hi> (2007). <hi rend="italic"
+                        >Museum Informatics: People, Information, and Technology in Museums</hi>.
+                    New York: Routledge.</p>
+                <p><hi rend="bold">Russo, A., J. Watkins,L. Kelly, and S. Chan</hi> (2008).
+                    Participatory communication with social media. <hi rend="italic">Curator</hi>
+                    51(1): 21-31.</p>
+                <p><hi rend="bold">Thelwall, M., K. Buckley, G. Paltoglou, D. Cai, and A.
+                        Kappas</hi> (forthcoming). Sentiment strength detection in short informal
+                    text. <hi rend="italic">Journal of the American Society for Information Science
+                        and Technology</hi>.</p>
+                <p><hi rend="bold">Thomas, S., and A. Mintz, eds</hi>. (1998). <hi rend="italic">The
+                        Virtual and the Real: Media in the Museum</hi>. Washington, DC: American
+                    Association of Museums.</p>
+            </div>
+        </back>
+    </text>
+</TEI>

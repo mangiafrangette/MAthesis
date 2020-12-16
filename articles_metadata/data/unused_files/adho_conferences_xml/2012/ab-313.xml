@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="../schema/xmod_web.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xmt="http://www.cch.kcl.ac.uk/xmod/tei/1.0" 
+     xml:id="ab-313">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>May Humanists Learn from Artists a New Way to Interact with Digital Technology?</title>
+                <author>
+                    <name>Franchi, Stefano</name>
+                    <affiliation>Texas A&amp;M University, USA</affiliation>
+                    <email>stefano@tamu.edu</email>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Jan Christoph Meister, Universität Hamburg</publisher>
+                <address>
+                   <addrLine>Von-Melle-Park 6, 20146 Hamburg, Tel. +4940 428 38 2972</addrLine>
+                   <addrLine>www.dh2012.uni-hamburg.de</addrLine>
+              </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>No source: created in electronic format.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2012-04-15</date>
+                <name>DH</name>
+                <desc>generate TEI-template with data from ConfTool-Export</desc>
+            </change>
+            <change>
+                <date>2012-04-13</date>
+                <name>LS</name>
+                <desc>provide metadata for publicationStmt</desc>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="paper">
+        <body>
+            <div>
+                <head>Takeovers</head>
+                <p>The two best-known interactions between computational technologies and
+                    traditional Humanist pursuits are represented by the Artificial
+                    Intelligence/Cognitive science movement and the roughly contemporary Digital
+                    Humanities approach (although the label became popular only recently). Classic
+                    Artificial Intelligence saw itself as ‘anti-philosophy’ (Dupuy 2000; Agre 2005;
+                    Franchi 2006): it was the discipline that could take over philosophy’s
+                    traditional questions about rationality, the mind/body problem, creative
+                    thinking, perception, and so on, and solve them with the help of a set of
+                    radically new synthetic, experimentally based techniques. The true meaning of
+                    the ‘computational turn in philosophy’ lies in its methodology, which allowed it
+                    to associate engineering techniques with age-old philosophical questions. This
+                    ‘imperialist’ tendency of cognitive science (Dupuy 2000) was present from the
+                    very beginning, even before the formalization of the field into well – defined
+                    theoretical approaches (McCulloch 1989 [1948]; Simon 1994). </p>
+                <p>The Digital Humanities represent the reverse modality of the encounter just
+                    described. The most common approach (Kirschenbau 2010) uses tools, techniques,
+                    and algorithms developed by computer scientists to address traditional questions
+                    about the meaning of texts, their accessibility and interpretation, and so on.
+                    Other approaches turn technology into the scholar’s preferred object of study
+                    (Svensson 2010). The recent approach pioneered by the ‘Philosophy of
+                    Information’ (Floridi 1999, 2011) follows this pattern. Its focus on the much
+                    broader category of ‘information’ substantially increases the scope of its
+                    inquiries, while firmly keeping it within philosophy’s standard reflective mode. </p>
+                <p>The common feature of these two classic encounters between the Humanities and
+                    computational theory and technology is their one-sidedness. In either case, one
+                    of the two partners took over some relevant aspects from the other participant
+                    and fit it within its own field of inquiry (mostly questions, in AI’s case;
+                    mostly tools, for the Digital Humanities). The appropriation, however, did not
+                    alter the theoretical features of either camp. For instance, AI and Cognitive
+                    Science researchers maintained that philosophy pre-scientific methodology had
+                    only produced mere speculation that made those problems unsolvable. Therefore,
+                    philosophy’s accumulated wealth of reflection about the mind, rationality,
+                    perception, memory, emotions, and so forth could not be used by the
+                    computational approach. In McCulloch’s famous phrase, the ‘den of the
+                    metaphysician is strewn with the bones of researchers past.’ In the Digital
+                    Humanities’ case, the takeover happens at the level of tools. In most cases,
+                    however, this appropriation does not become an opportunity for a critical
+                    reflection on the role of the canon on liberal education, or for a reappraisal
+                    of the role of the text and the social, political, and moral roles it plays in
+                    society at large. </p>
+                <p>
+                    <lb/>
+                    <lb/>
+                </p>
+            </div>
+            <div>
+                <head> Artistic Digital Practices</head>
+                
+                    <p>Meetings between artists and computational technology show the possibility of
+                        a different paradigm. In many cases, making music, painting, producing
+                        installations, and writing with a computer changes the concepts artists work
+                        with, and, at the same time, forces computer sciences to change theirs as
+                        well. There are many examples in the rich history of ‘digital art,’ broadly
+                        understood (OuLiPo 1973; <hi rend="italic">ALAMO (Atelier de Littérature
+                            Assistée par la Mathématique et les Ordinateurs)</hi>; Schaeffer 1952).
+                        I will illustrate their general features with reference to two more recent
+                        projects: the ‘microsound’ approach to musical composition (Roads 2004) and
+                        the T-Garden approach to agency (Sha 2002). </p>
+                    <p>‘Microsounds’ are sonic objects whose timescale lies between that of <hi
+                        rend="italic">notes </hi><hi rend="italic">–</hi><hi rend="italic"> </hi>the
+                    smallest traditional music objects, whose duration is measured in seconds or
+                    fractions thereof – and <hi rend="italic">samples </hi><hi rend="italic"
+                        >–</hi><hi rend="italic"> </hi>the smallest bit, measured in microseconds
+                        (10<hi rend="sup">-6</hi>). The manipulation of microsounds broadens substantially the composer’s
+                    palette, but it is impossible without the help of technological devices of
+                    various kinds, from granular synthesis software to high-level mixing interfaces.
+                    Composers wishing to ‘sculpt’ sounds at the microlevel face a double challenge
+                    that translates into a mutual collaboration between compositional and
+                    algorithmic techniques. On the one hand, they need to broaden the syntax an
+                    grammar of music’s language to allow the manipulation and aesthetic assessment
+                    of previously unheard of objects (Vaggione 2001). On the other hand, they need
+                    computer scientists and mathematicians to develop alternative analytic and
+                    synthetic models of sound (in addition to Fourier-transforms and similar
+                    methods) capable of capturing the features of sonic events lasting only a few
+                    milliseconds (Vaggione 1996). </p>
+                    <p>The T-Garden environment produced at the Topological Media Lab follows a
+                        structurally similar paradigm. It is a closed room within which people
+                        wearing wireless sensors on their chest and limbs can project images and
+                        sounds on the room’s walls and ceiling. As the participants move around,
+                        their gestures across the floor perturb the preexisting sonic and visual
+                        fields, thereby modifying it and introducing new aural and visual patterns.
+                        As Sha describes it: </p>
+                    <p><hi rend="italic">[The environment] was built to explore how people can
+                        improvise gestures out of dense, evolving fields of media. In ordinary
+                        informal conversation, you can spontaneously drag or pitch your speech to
+                        express irony, sympathy, and so forth. Similarly, in a T-Garden, by waving
+                        your arm you write video or leave a trace in sound, and by moving about the
+                        space, solo or in concert with other people, you construct a voice for
+                        yourself out of a sound field that is summed from all the instrumental
+                        voices in the room. […] as you play, your continuous motions create an aural
+                        and visual ‘voice’ for yourself out of the ambient perceptual field</hi>
+                    (Sha 2002: 441-442).  </p>
+                    <p>Whereas Roads explored a new sonic object lying between samples and notes,
+                        Sha investigated a segment of human agency that is neither fully free nor
+                        fully constrained. He took human gestures as a proxy for agency in general
+                        and conceived a project that demanded theoretical and technical work on two
+                        fronts. On the artistic side, it mandated the translation of a theoretical
+                        reflection upon the status of semiotic structures into a concrete
+                        installation. It required the construction of an event that forced the
+                        participants to reassess their conception of communication and ‘freedom of
+                        speech.’ On the technical sides, it forced the computer scientists to
+                        develop real-time systems capable of interpreting human gestures and
+                        translating them into sonic and visual equivalents the participants could
+                        reintegrate into their communicative actions. </p>
+                    <p>These two examples points to a pattern of cooperation between work in
+                        computational and non-computational disciplines that is deeply at odds with
+                        the AI/CogSci and DigHum patterns discussed above. Instead of a takeover,
+                        the artistic model produces a true encounter that changes both partners’
+                        technical and theoretical apparatus. </p></div>
+                
+                <div>
+                    <head>
+                    <hi rend="bold">Digital Theoretical <hi rend="italic">Poiesis</hi></hi>
+                </head>
+                <p>Could the interaction pattern most favored by artists be generalized to the
+                    Humanities? With the help of Aristotle’s classification of human activity as <hi
+                        rend="italic">poiesis</hi>, <hi rend="italic">praxis</hi>, and <hi
+                        rend="italic">theoria</hi> (Aristotle 1984, 1025b19-30, p. 1619), it could
+                    be objected that artistic practices are examples of <hi rend="italic"
+                        >poiesis</hi>. They produce objects on the basis of materials and
+                    manipulating tools. Anything (including digital tools) that provides new
+                    materials (material substrate) or new ways of organizing them will necessarily
+                    change artistic practices. And artists have always been extremely keen on
+                    expanding their material and formal palettes, long before the advent of digital
+                    techniques. The daily work of Humanists, it could be claimed, is essentially <hi
+                        rend="italic">theoretical</hi>, since their task is to critically reflect
+                    upon a previously produced reality. </p>
+                <p>Paradoxically, however, a serious critical engagement with contemporary reality
+                    shows that the Aristotelian tripartite distinction is untenable in the current
+                    landscape. How can Humanities’ traditional inquiries about human nature and
+                    human cultural production still be relevant in a landscape in which some of the
+                    communicating agents may not be human, partially or entirely? Can they go on in
+                    the same way? And <hi rend="italic">vice versa</hi>: are science and technology
+                    fully aware that the new digital artifacts they are shepherding into the world
+                    may change its landscape and transform worldly action at the pragmatic as well
+                    as at the theoretical level? Or are they still relying upon a pre-digital
+                    universe in which technological artifacts were always to be used as mere tools
+                    deployed by humans, an assumption that seems increasingly questionable? The
+                    genuine challenge Humanists face when confronting the ‘computational turn’
+                    demands a truly poietic effort. Humanists will have to engage in the
+                    constructions of new concepts in a close peer-to-peer interaction with the
+                    ‘sciences of the artificial’ (Cordeschi 2002) that may result in a form of
+                    ‘digital theoretical <hi rend="italic">poiesis</hi>’ much closer to artistic
+                    practice than to their traditional forms of inquiry. </p>
+                <p>This suggestion does not pretend to exhaust the theoretical options we have at
+                    our disposal when reflecting upon the computational turn. There are certainly
+                    other views that may legitimately claim to be seeking the same goal. My
+                    contention, however, is that artistic practices in all forms of ‘digital art’
+                    can serve as an inspiration to all of the Humanities disciplines. We can follow
+                    their path toward a new mode of digital encounter that does not fall into the
+                    well-worn path of hostile takeovers by either partner. </p>
+                </div>
+            
+        </body>
+        <back>
+            <div>
+                
+                    <head>References</head>
+                <p><hi rend="bold">Agre, P. E.</hi> (2005). The Soul Gained and Lost: Artificial
+                    Intelligence as Philosophical Project. In S. Franchi and G. Güzeldere (eds.),
+                        <hi rend="italic">Mechanical Bodies, Computational Minds</hi>. Cambridge,
+                    Mass.: MIT Press.</p>
+                <p><hi rend="bold">ALAMO (Atelier de Littérature Assistée par la Mathématique et les
+                        Ordinateurs).</hi>
+                    <ref target="http://alamo.mshparisnord.org/index.html" type="external"
+                        >http://alamo.mshparisnord.org/index.html</ref> (accessed 24 March
+                    2012).</p>
+                <p><hi rend="bold">Aristotle</hi> (1984). <hi rend="italic">The complete works of
+                        Aristotle</hi>. Ed. by J. Barnes. Princeton, NJ: Princeton UP. </p>
+                <p><hi rend="bold">Cordeschi, R.</hi> (2002). <hi rend="italic">Discovery of the
+                        Artificial: Behavior, Mind, and Machines Before and Beyond Cybernetics</hi>.
+                    Dordrecht: Kluwer. </p>
+                <p><hi rend="bold">Dupuy, J.-P.</hi> (2000). <hi rend="italic">The Mechanization of
+                        the Mind: On the Origins of Cognitive Science</hi>. Princeton, N.J.:
+                    Princeton UP. </p>
+                <p><hi rend="bold">Floridi, L.</hi> (1999). <hi rend="italic">Philosophy and
+                        Computing: An Introduction</hi>. London, New York: Routledge. </p>
+                <p><hi rend="bold">Floridi, L. </hi>(2011). <hi rend="italic">The Philosophy of
+                        Information</hi>. Oxford: Oxford UP.</p>
+                <p><hi rend="bold">Franchi, S.</hi> (2006). Herbert Simon, Anti-Philosopher. In L.
+                    Magnani (ed.), <hi rend="italic">Computing and Philosophy, </hi>Pavia:
+                    Associated International Academic Publishers, pp. 27-40. </p>
+                <p><hi rend="bold">Kirschenbau, M. G.</hi> (2010). What Is Digital humanities and
+                    What’s It Doing in English Departments? <hi rend="italic">ADE Bullettin</hi>
+                    150: 1-7. </p>
+                <p><hi rend="bold">McCulloch, W. S.</hi> (1989[1948]). Through the Den of the
+                    Metaphysician. In W. S.  McCulloch, <hi rend="italic">Embodiments of Mind</hi>.
+                    Cambridge, Mass.: MIT Press, pp. 142-156. </p>
+                <p><hi rend="bold">OuLiPo</hi> (1973). <hi rend="italic">La littérature
+                        potentielle</hi>. Paris: Gallimard. </p>
+                <p><hi rend="bold">Roads, C.</hi> (2004). <hi rend="italic">Microsound</hi>.
+                    Cambridge, Mass.: MIT Press. </p>
+                <p><hi rend="bold">Schaeffer, P.</hi> (1952). <hi rend="italic">À la recherche d’une
+                        musique concrète</hi>. Paris: Seuil. </p>
+                <p><hi rend="bold">Sha, X.</hi> (2002). Resistance Is Fertile: Gesture and Agency in
+                    the Field of Responsive Media. <hi rend="italic">Configurations</hi> 10(3):
+                    439-472. </p>
+                <p><hi rend="bold">Simon, H.</hi> (1994). Literary Criticism: a Cognitive Approach.
+                    In S. Franchi and G. Güzeldere (eds.), <hi rend="italic">Bridging the Gap,</hi>
+                    Vol. 4. 1. <hi rend="italic">Stanford Humanities Review</hi>, Special
+                    Supplement, pp. 1-26. </p>
+                <p><hi rend="bold">Svensson, P.</hi> (Summer 2010). The Landscape of Digital
+                    Humanities. <hi rend="italic">Digital Humanities Quarterly</hi> 4(1). </p>
+                <p><hi rend="bold">Vaggione, H.</hi> (1996). Articulating Microtime <hi
+                        rend="italic">Computer Music Journal</hi> 20(2): 33-38. </p>
+                <p><hi rend="bold">Vaggione, H.</hi> (2001). Some Ontological Remarks about Music
+                    Composition Processes. <hi rend="italic">Computer Music Journal</hi> 25(1):
+                    54-61.</p>
+            </div>
+        </back>
+    </text>
+</TEI>

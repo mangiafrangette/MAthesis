@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="../schema/xmod_web.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xmt="http://www.cch.kcl.ac.uk/xmod/tei/1.0" 
+     xml:id="ab-232">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Opportunity and accountability in the ‘eResearch push’</title>
+                <author>
+                    <name>Bellamy, Craig</name>
+                    <affiliation>Victorian eResearch Strategic Initiative (VeRSI), Australia</affiliation>
+                    <email>txt@craigbellamy.net</email>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Jan Christoph Meister, Universität Hamburg</publisher>
+                <address>
+                   <addrLine>Von-Melle-Park 6, 20146 Hamburg, Tel. +4940 428 38 2972</addrLine>
+                   <addrLine>www.dh2012.uni-hamburg.de</addrLine>
+              </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>No source: created in electronic format.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2012-04-15</date>
+                <name>DH</name>
+                <desc>generate TEI-template with data from ConfTool-Export</desc>
+            </change>
+            <change>
+                <date>2012-04-13</date>
+                <name>LS</name>
+                <desc>provide metadata for publicationStmt</desc>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="paper">
+        <body>
+            
+            <p>In this paper I will present an examination of the institutional and epistemological
+                tensions between particular national ‘eResearch’ infrastructure agendas (or
+                ‘eScience’, ‘cyber-infrastructure’) and particular aspects of the digital
+                humanities. Whilst much of the digital humanities positions itself within the
+                research ‘infrastructures’ of the humanities (journals, academic departments,
+                conferences, libraries, and sober ethics committees) – and is partly responsible for
+                building the ‘human capital’ to work in the humanities – eResearch has largely
+                emerged outside of the perspectives and training of the digital humanities,
+                primarily driven by a ‘big science’ agenda (ie. an emphasis on mass data storage and
+                infrastructures that largely support scientific methods and ways of collaborating).
+                This has created numerous complexities for the digital humanities, particularly in
+                the UK and Australia where it may, for better or worse, be emerging as a competing
+                set of discourses and practices to the digital humanities (Examples will be given in
+                the presentation).</p>
+            <p>Admittedly, the eResearch agenda <hi rend="italic">has</hi> created many
+                opportunities for research in the humanities, however, the way in which this agenda
+                has been institutionalised in a number of countries means that it doesn’t always
+                serve the needs of the humanities. This is because eResearch largely exists <hi
+                    rend="italic">outside</hi> of humanities research structures and is principally
+                measured and driven by different accountability metrics. Its technical development
+                also sits within rarefied institutional hierarchies between ‘service staff and
+                researcher’, and biases a mistaken industrial utility; neither of which seem
+                particularly useful for the contemporary challenges of digital humanities nor
+                humanities research. As Geoffrey Rockwell states:</p>
+            <p><hi rend="italic">[there are] dangers in general and especially the issue of the turn
+                    from research to research infrastructure [...] we need to be careful about
+                    defining the difference and avoid moving into the realm of infrastructure [...]
+                    those things we are still studying</hi> (Rockwell 2010: 5).</p>
+            <p>Through presenting key examples, in this presentation I will broadly explore the
+                institutionalisation of eResearch-infrastructures in the humanities over the past
+                decade, and in particular, reference the countries in which I have the most
+                experience, Australia and the UK. The landscape in Australia is particularly
+                problematic as unlike other countries, the eResearch agenda is still at its height
+                whilst the digital humanities is still developing its own institutional addenda.</p>
+            <p>The main tension appears to be a ‘two cultures’ one; it is the misunderstandings
+                between applied computing, largely focused upon meeting the many practical needs of
+                large-scale scientific endeavours, and the digital humanities that has its own
+                particular understandings of the efficacy of computing within its heterogeneous
+                research endeavours. Many infrastructure investors unavoidably claim a ‘research
+                enabling’ or even a research pedigree for their work, but the exact nature of this
+                research and how it helps us understand humans society and culture is, on occasions,
+                yet to be determined (and this is far from an easy task and is largely an
+                experimental practice; rarely a utilitarian one). Plus the institutional positioning
+                of eResearch infrastructure in university service divisions, remote national
+                services, and monolithic government and science-led programmes, means that the
+                tradition of critique, and synthesis of eResearch infrastructure within contemporary
+                digital humanities scholarship, is barely possible.</p>
+
+                <div>
+            <head>What can be done?</head>
+            <p>As a trained historian and long-time digital humanities advocate who has benefited
+                from investments in eResearch – and indeed, I am employed by a particularly flexible
+                strategic eResearch programme in the State of Victoria in Australia – I caution
+                against retreating too eagerly from the ‘infrastructure turn’ as there are still
+                healthy opportunities in many countries between the cracks of otherwise clumsy
+                agendas. However these opportunities need to be positioned within a research-led
+                digital humanities agenda and not a science led-agenda (and there is a perhaps a
+                dark side to the <hi rend="bold">#alt-ac</hi> movement in the United States if new
+                digital outputs are not well supported within a humanities research setting)
+                (Nowviskie 2011). </p>
+            <p>Perhaps a better approach for the humanities than cambering to a science led
+                ‘e-infrastructure’ funding model, along with its often abrasive tectonic plates of
+                incongruous collaborations, would be to lobby for the funding model to strengthen
+                digital humanities research. The digital humanities has a sophisticated
+                international network of centres, undergraduate and graduate degrees, associations,
+                conferences, journals, and research accountability structures that are largely <hi
+                    rend="italic">internal</hi> to the humanities and is thus much better equipped
+                to lead computing in the humanities than eResearch (and there are some positive
+                institutional developments in this direction). And if led by the digital humanities,
+                new research infrastructures such as data and text centres, virtual environments,
+                and digital libraries would be more relevant to humanities research, thus insuring
+                their long term sustainability. But this would require ‘e-infrastructure’ to be
+                institutionalised in a much more responsive way; in a way that isn’t unequally
+                coupled with the needs of science. Again Geoffrey Rockwell states:</p>
+            <p><hi rend="italic">Perhaps things like the Text Encoding Initiative Guidelines are the
+                        real infrastructure of humanities computing, and the consortia like the TEI
+                        are the future of light and shared infrastructure maintenance</hi> (Rockwell
+                    2010: 5).</p>
+            <p>I would like to think that this is because the TEI and derivatives such as EpiDoc
+                exist within a deeply scholarly and vibrant international research culture that is
+                both embedded within and accountable to humanities research; this is not always the
+                case with eResearch infrastructure. However, for the digital humanities to take a
+                greater lead in terms of guiding the implementation of eResearch infrastructure, in
+                its various institutional settings, would require the digital humanities to be
+                strengthened institutionally to rise to the challenge, especially in countries where
+                ‘eResearch’ is much stronger than the digital humanities. All infrastructure,
+                despite its veneer of utilitarian simplicity, is ‘among the complex and expensive
+                things that society creates’ (Hauser 2011). ‘e-Infrastructure’ for the humanities
+                may provide opportunities, but aspects of the present model in various countries
+                lacks a complex humanities research environment and is wedded to an empirical,
+                engineering, and industrial instrumentalism that is often at odds or even hostile to
+                the humanities. It is not that eResearch does not do some things very well, it is
+                the promise of research that it doesn’t do particularly well. The goals of eResearch
+                infrastructures are often so monumental; that they should perhaps be a set of
+                research questions in themselves rather than practical goals. Based on my experience
+                within eResearch and the digital humanities I will propose a number of alternative
+                directions in this presentation and seek insight from others in the audience from
+                various national and institutional contexts.</p>
+                </div> 
+               
+        </body>
+        <back>
+            <div>
+                
+                    <head>References</head>
+                
+                    
+                            <p><hi rend="bold">Barjak, F., J. Lane, M. Poschen, R. Proctor, S.
+                        Robinson, and G. Weigand </hi>(2010). e-Infrastructure adoption in the
+                    social sciences and humanities: cross-national evidence from the AVROSS survey.
+                        Info<hi rend="italic">rmation, Communication and Society</hi> 13(5):
+                    635-651.</p>
+                        
+                            <p><hi rend="bold">Capshew, J. H., and K. A. Rader </hi>(1992). Big
+                    science: price to the present. <hi rend="italic">Osiris</hi> 7: 2-25, <ref
+                        target="http://www.jstor.org/stable/301765" type="external"
+                        >http://www.jstor.org/stable/301765.</ref></p>
+                        
+                            <p><hi rend="bold">Edwards, P., S. Jackson, J. Bowker, and K.
+                        Knobel</hi> (January, 2007). Understanding infrastructure: dynamics,
+                    tension, design. <hi rend="italic">Report of a Workshop on History &amp; Theory
+                        of Infrastructure: Lessons for New Scientific Cyberinfrastructures, Rice
+                        University</hi>,<ref
+                        target="http://cohesion.rice.edu/Conferences/Hewlett/emplibrary/UI_Final_Report.pdf"
+                        type="external">
+                        http://cohesion.rice.edu/Conferences/Hewlett/emplibrary/UI_Final_Report.pdf.</ref></p>
+                       
+                            <p><hi rend="bold">Hauser, Th. </hi>(2011). Cyberinfrastructure and data
+                    management (presentation). Research Computing, University of Bolder, Colorado,
+                        <ref
+                        target="http://www.stonesoup.org/meetings/1106/work3.pres/2b-CI-DM-TH.htm"
+                        type="external"
+                        >http://www.stonesoup.org/meetings/1106/work3.pres/2b-CI-DM-TH.htm.</ref></p>
+                        
+                            <p><hi rend="bold">Katz, R. N. </hi>(2008). The tower and the cloud:
+                    higher education in the age of cloud computing educause, <ref
+                        target="http://net.educause.edu/ir/library/pdf/PUB7202.pdf" type="external"
+                        >http://net.educause.edu/ir/library/pdf/PUB7202.pdf.</ref></p>
+                        
+                            <p><hi rend="bold">Nowviskie, B. </hi>(2011). #alt-ac Alternative
+                    academic careers for humanities scholars, <ref
+                        target="http://nowviskie.org/2010/alt-ac/" type="external"
+                        >http://nowviskie.org/2010/alt-ac/ (accessed, 30 October, 2011).</ref></p>
+                        
+                            <p><hi rend="bold">Rockwell, G. </hi>(14 May 2010 <hi rend="bold"
+                    >)</hi>. As Transparent as Infrastructure: On the research of
+                    cyberinfrastructure in the humanities’. <hi rend="italic">Connexions</hi>, <ref
+                        target="http://cnx.org/content/m34315/1.2/" type="external"
+                        >http://cnx.org/content/m34315/1.2/</ref></p>
+                <p><ref target="http://www.acls.org/cyberinfrastructure/ourculturalcommonwealth.pdf" type="external">http://www.acls.org/cyberinfrastructure/ourculturalcommonwealth.pdf.</ref></p>
+                        
+                            <p><hi rend="bold">Svennsson, P.</hi> (2011). From optical fibre to
+                    conceptual cyberinfrastucture. <hi rend="italic">DHQ: Digital Humanities
+                        Quarterly</hi> 5(1), <ref
+                        target="http://digitalhumanities.org/dhq/vol/5/1/000090/000090.html"
+                        type="external"
+                        >http://digitalhumanities.org/dhq/vol/5/1/000090/000090.html.</ref></p>
+                        <p><hi rend="bold">Turner, G.</hi> (September, 2008), Report from the HASS
+                    capability workshop, Old Canberra House, Australian National University, 15
+                    August 2008 (unpublished report).</p><p><hi rend="bold">Turner, G.</hi> (2009). Towards and Australian Humanities Digital Archive. A
+                    report of a scoping study of the establishment of a national digital research
+                    resource for the humanities, Australian Academy of the Humanities, <ref
+                        target="http://www.humanities.org.au/Portals/0/documents/Policy/Research/Towards_An_Australian_Digital_Humanities_Archive.pdf"
+                        type="external"
+                        >http://www.humanities.org.au/Portals/0/documents/Policy/Research/Towards_An_Australian_Digital_Humanities_Archive.pdf</ref></p><p><hi rend="bold">Unsworth, J.,</hi> Chair (2006) ‘Our cultural commonwealth: The report of the
+                    American Council of Learned Societies Commission on Cyberinfrastructure for the
+                    Humanities and Social Sciences, American council of learned societies. </p>
+            </div>
+        </back>
+    </text>
+</TEI>

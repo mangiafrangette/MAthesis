@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="../schema/xmod_web.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xmt="http://www.cch.kcl.ac.uk/xmod/tei/1.0" 
+     xml:id="ab-300">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The VL3: A Project at the Crossroads between Linguistics and Computer Science</title>
+                <author>
+                    <name>Nuñez, Camelia Gianina</name>
+                    <affiliation>The CulturePlex Laboratory, The University of Western Ontario,
+                        Canada</affiliation>
+                    <email>cnunez3@uwo.ca</email>
+                </author>
+                <author>
+                    <name>Mavillard, Antonio Jiménez</name>
+                    <affiliation>The CulturePlex Laboratory, The University of Western Ontario, Canada</affiliation>
+                    <email>ajimene6@uwo.ca</email>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Jan Christoph Meister, Universität Hamburg</publisher>
+                <address>
+                   <addrLine>Von-Melle-Park 6, 20146 Hamburg, Tel. +4940 428 38 2972</addrLine>
+                   <addrLine>www.dh2012.uni-hamburg.de</addrLine>
+              </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>No source: created in electronic format.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2012-04-15</date>
+                <name>DH</name>
+                <desc>generate TEI-template with data from ConfTool-Export</desc>
+            </change>
+            <change>
+                <date>2012-04-13</date>
+                <name>LS</name>
+                <desc>provide metadata for publicationStmt</desc>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="paper">
+        <body>
+            <div>
+            <p>The current study will introduce the VL3 (Virtual Language Learning Lab) a
+                    multidisciplinary project that brings together a variety of disciplines: from
+                    Theoretical Linguistics, Second Language Acquisition and Second Language
+                    Pedagogy to Computer Science and Natural Language Processing (NLP). The VL3
+                    stands as a great example of how humanistic knowledge, when combined with the
+                    power of the technology, can lead to the creation of innovative tools,
+                    beneficial to society at large.</p>
+                <p>Specifically, the VL3 aims to provide a virtual environment where (Spanish)
+                    second language learners can work towards improving their communicative skills
+                    in the target language, by participating in a set of predefined conversation
+                    scenarios that closely mimic real life situations.</p>
+                <p>As mentioned earlier, the VL3 is heavily based on research within the fields of
+                    Linguistics, Second Language Acquisition and Second Language Pedagogy; as such
+                    an important part of this presentation will focus on introducing and explaining
+                    the theoretical context for the development of the current project. We will then
+                    proceed to show how this research has been applied in order to further develop
+                    and refine the existing spoken dialogue system technology used by our partner,
+                    Natural Language Inc.</p>
+                <p>Although the importance of linguistic theory (phonology, morphology, syntax) to
+                    the advances in the field of NLP has been pointed out by many (Matthews1993;
+                    Schultze &amp; Gupta 2010), it continues to be a relationship that needs to be
+                    explored in more detail. Without a doubt, greater attention paid to linguistic
+                    research would lead to even more significant developments for natural language
+                    processing technologies. Skeptics of such technologies claim that computer
+                    programs will never be able to account for the complexity of the human language
+                    (Salaberry 1996) and although it may well be the case that we will not be able
+                    to fully describe something as unpredictable as human language, it is only by
+                    maintaining a close relationship with linguistics, its discipline of study, that
+                    any real attempt can be made.</p>
+                <p>As such, in order to meet our objective of creating a highly developed technology
+                    capable of processing human language as a whole with the highest degree of
+                    accuracy possible, we will recur to recent theories of linguistics and second
+                    language acquisition.</p>
+                <p>Language technologies such as ones described above, are used in telephone
+                    conversations where a person needing information is speaking to a machine
+                    trained to understand human language (call centers, for example). Although these
+                    technologies have enjoyed great success, they are most often limiting, in sense
+                    that they are only trained to deal with highly specialized language. For example
+                    a NL software employed by an internet service provider will only ‘understand’
+                    language that is specific to this context. In fact, it is often the case that
+                    these technologies are trained to only pick up on certain key words (home
+                    internet, high speed, technical problems, billing, etc.) uttered by the person
+                    on the phone and from that on, infer the purpose of the call. Should the caller
+                    ask a question ‘outside’ this scenario, the machine will most likely not
+                    understand. As such, it can be said that most of these technologies have divided
+                    language into specific contexts and have focused on teaching computers to
+                    ‘understand’ scenario-specific language. That is, they are trained to deduce the
+                    meaning of an utterance by picking up on certain key words.</p>
+                <p>The VL3 thus proposes to adopt and further adapt these technologies to the field
+                    of foreign language learning and offer students much needed opportunities to
+                    practice their target language in one-on-one conversations that imitate real
+                    life situations. This of course implies the need of less restrictive NL
+                    technology that is able to understand human language as a whole rather than only
+                    context-specific language. Consequently, such a project demands a NL technology
+                    that is based on grammatical analysis strategy rather than keyword spotting. </p>
+                <p>The technology used by Natural Language Inc., our partner in this project, is
+                    already superior to other existing ones mainly because it employs grammatical
+                    strategies for understanding human language. Nonetheless, our research
+                    experience within the fields of Linguistics, Second Language Acquisition and
+                    Second Language Teaching, will allow us to further develop the existing
+                    technology of Natural Language Inc. in order to successfully use it as a second
+                    language-learning tool. Any speaker of a foreign language is well aware of the
+                    challenge that lays in the process of learning a language other that one’s own
+                    as well as the many different factors that come at play in the learning process.
+                    The field of Second Language Acquisition has shown us that one such factor is
+                    input in the foreign language. In fact, input has been described as ‘the single,
+                    most important concept of second language acquisition’ (Gass 1997). Input
+                    specifically refers to exposure to the target language (oral, written, formal,
+                    informal etc.) and no one would argue that a second language can be learned in
+                    isolation and with no exposure to it. </p>
+                <p>Furthermore, it has been suggested that aside from input, interaction with a
+                    native speaker also plays an important role in the process of second language
+                    development. (Long 1981, 1983, 1996). As such, producing the target language as
+                    part of the learning process (Swain 1985, 1993, 1995, 1998, 2005) has been
+                    suggested as beneficial to the learner. One of the benefits of interaction as
+                    part of the process of second language learning is what is known as ‘negative
+                    evidence’ That is, when the learner says something that their interlocutor does
+                    not understand, after some ‘negotiations for meaning’ take place, the
+                    interlocutor may model the correct language form. Consequently, this feedback
+                    received by the learner on their production will turn into more positive input.
+                    Interaction strategies between native and non-native speakers such as
+                    modifications, simplifications, paraphrasing etc. have been vastly studied as
+                    well and have clearly shown their benefits to the language learner. </p>
+                <p>Evidently, linguistic research can provide us with valuable information for the
+                    development of a project such as the VL3. Throughout this presentation you will
+                    have the opportunity to see how such research has been applied to the creation
+                    of an effective online tool that will significantly impact the field of second
+                    language pedagogy.</p>
+            </div>
+            
+            
+        </body>
+        <back>
+            <div>
+                <head>References</head>
+
+            <p><hi rend="bold">Gass, S</hi>. (1997). <hi rend="italic">Input, Interaction and the
+                    second language learner</hi>. Mahwah, NJ: Erlbaum.</p>
+            <p><hi rend="bold">Gupta P., and M. Schultze</hi> (2010). Human Language Technologies
+                (HLT). Module 3.5. In G. Davies (ed.), <hi rend="italic">Information and
+                    Communications Technology for Language Teachers (ICT4LT)</hi>, Slough, Thames
+                Valley University [Online]. Available from: <ref target="http://www.ict4lt.org/en/en_mod3-5.htm"
+                    type="external">http://www.ict4lt.org/en/en_mod3-5.htm</ref> [Accessed 10 December, 2010].</p>
+            <p><hi rend="bold">Long, M</hi>. (1981). Input, interaction and second language
+                acquisition. In H. Winitz (ed.), <hi rend="italic">Native Language and Foreign
+                    Language Acquisition. Annals of the New York Academy of Sciences</hi> 379:
+                259-278.</p>
+            <p><hi rend="bold">Long, M</hi>. (1983). Native speaker/non-native speaker conversation
+                and the negotiation of comprehensible input. <hi rend="italic">Applied Linguistics
+                </hi>4(2): 126-141. </p>
+            <p><hi rend="bold">Long, M</hi>. (1996). The Role of the Linguistic Envronment in Second
+                Language Acquisition. In W. R. Ritchie and T. J. Bhatia (eds.), <hi rend="italic"
+                    >Handbook of Second Language Acquisition</hi>. San Diego: Academic Press, pp.
+                413-468.</p>
+            <p><hi rend="bold">Matthews C.</hi> (1993), Grammar frameworks in Intelligent CALL. <hi
+                    rend="italic">CALICO Journal</hi> 11(1): 5-27.</p>
+            <p><hi rend="bold">Salaberry R.</hi> (1996). A Theoretical foundation for development of
+                pedagogical tasks in computer mediated communication. <hi rend="italic">CALICO
+                    Journal</hi> 14(1): 5-34.</p>
+            <p><hi rend="bold">Swain, M</hi>. (1985). Communicative Competence: Some roles of
+                comprehensible input and comprehensible output in its development. In S. Gass and C.
+                Madden (eds.), <hi rend="italic">Input in second language acquisition</hi>. Rowley,
+                MA: Newbury House, pp. 235-253.</p>
+            <p><hi rend="bold">Swain, M.</hi> (1993). The Output Hypothesis: just speaking and
+                writing aren’t enough. <hi rend="italic">The Canadian Modern Language Review
+                </hi>50: 158-164.</p>
+            <p><hi rend="bold">Swain, M.</hi> (1995). Three functions of output in second language
+                learning. In G. Cook and B. Seidlhofer (eds.), <hi rend="italic">Principles and
+                    Practice in the Study of Language</hi>. Oxford: Oxford UP.</p>
+            <p><hi rend="bold">Swain, M.</hi> (1998). Focus on form through conscious reflection. In
+                C. Daughty and J. Williams (eds.), <hi rend="italic">Focus on Form in Classroom
+                    Second Language Acquisition. </hi>New York: Cambridge UP.</p>
+            <p><hi rend="bold">Swain, M.</hi> (2005). The Output Hypothesis: Theory and Research. In
+                E. Hinkel (ed.), <hi rend="italic">Handbook of Research in Second Language Teaching
+                    and Learning</hi>. New Jersey: Lawrence Erlbaum, pp. 471-483.</p>
+            </div>
+        </back>
+    </text>
+</TEI>

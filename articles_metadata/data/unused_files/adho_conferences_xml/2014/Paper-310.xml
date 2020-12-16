@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:x="http://www.w3.org/1999/xhtml" xmlns:exsl="http://exslt.org/common" xml:id="Paper-310">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Exploring Usage of Digital Newspaper Archives through Web Log Analysis: A Case Study of Welsh Newspapers Online</title>
+        <author>
+          <name>
+            <surname>Gooding</surname>, <forename>Paul</forename>
+          </name>
+          <affiliation>University College London</affiliation>
+          <email>paul.gooding.10@ucl.ac.uk</email>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority/>
+        <publisher>EPFL, Switzerland</publisher>
+        <distributor>
+          <name>EPFL Digital Humanities Laboratory</name>
+          <address>
+            <addrLine>GC D2 386</addrLine>
+            <addrLine>Station 18</addrLine>
+            <addrLine>CH-1015 Lausanne</addrLine>
+            <addrLine>frederic.kaplan@epfl.ch</addrLine>
+          </address>
+        </distributor>
+        <pubPlace>Lausanne, Switzerland</pubPlace>
+        <address>
+          <addrLine>EPFL</addrLine>
+          <addrLine>CH-1015 Lausanne</addrLine>
+        </address>
+        <availability>
+          <p/>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note type="abstract">This paper presents the findings of a case study of Welsh Newspapers Online. It demonstrates, through detailed content web log analysis, that while users are deeply engaged with digital newspaper collections, they tend not to browse newspapers. This confirms suspicions that users interact with digital newspapers online differently to the physical objects.</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>No source: created in electronic format.</p>
+        <p>
+          <date when="20140709"/>
+          <time when="11:00:00"/>
+        </p>
+		<p n="session">2</p>
+		<p n="room">414 - Amphimax</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="original" n="category">
+          <term>Paper</term>
+        </keywords>
+        <keywords scheme="original" n="subcategory">
+          <term>Long Paper</term>
+        </keywords>
+        <keywords scheme="original" n="keywords">
+          <term></term>
+        </keywords>
+        <keywords scheme="original" n="topic">
+          <term></term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text type="paper">
+    <front>
+      
+      <div>
+        <p></p>
+      </div>
+    </front>
+    <body>
+      <div>
+        <head>1. Introduction</head>
+        <p>This paper will present the findings from a case study undertaken with the support of the National Library of Wales. It utilises web log analysis to discover more aboutt he use and users of Welsh Newpspaers Online (WNO),[1] 
+
+a digitised newspaper archive which currently contains around 420,000 digitised newspapers from, and relating to, Wales. Web log analysis has previously been undertaken to analyse online user behaviour, with utility for websites <ref target="n1" rend="sup">1</ref><ref target="n2" rend="sup">2</ref>, e-journals <ref target="n3" rend="sup">3</ref><ref target="n4" rend="sup">4</ref><ref target="n5" rend="sup">5</ref>, and digital resources <ref target="n6" rend="sup">6</ref><ref target="n7" rend="sup">7</ref>. To date, however, it has not been used to analyse the use of digitised newspaper archives. This paper presents the findings from a detailed analysis of content logs from a period of three months, starting from the launch of WNO in March 2014, and provides an important empirical study into how users are interacting with digitised newspapers. In doing so, it helps to illuminate some existing debates about the impact of digitisation upon reading and scholarship. </p>
+        <p>These debates have focused on how digitisation fo newspapers has changed the way users engage with these materials. Mussell, for instance, has noted that article-level representation foregrounds the partial textual transcript, even though the physical article is actually one textual component operating among many others. This means that users of a digitised newspaper may lose the original context of the material by approaching it in a different way online <ref target="n8" rend="sup">8</ref>. Brake additionally notes that "digital representations of nineteenth-century copy denaturalizes it and transforms the reader... into a <hi rend="italic">user  </hi>who sees the content inextricably embedded in the matrix of the newspaper pages" <ref target="n9" rend="sup">9</ref>. These issues have been expressed in concerns that this will have a sever impact on reading behaviour <ref target="n10" rend="sup">10</ref><ref target="n11" rend="sup">11</ref><ref target="n12" rend="sup">12</ref>. This paper demonstrates that, while user engagement remains extremely high, it is evident that the nature of this engagement has been unavoidably transformed by digitisation. </p>
+        <head>2. Methodology</head>
+        <p>In order to undertake this analysis, the National Library of Wales IT team supplied a complete set of content logs, collected for a period of three months from the launch of the collection in March 2013. These logs specifically recorded interactions with content discover and viewing mechanisms on the WNO website. As a result, they are not a complete log of the user's journey. Instead, the logs track a number of important basic behaviours: searchers undertaken by users on the website (search queries); occasions where users have
+browsed, filtered, or otherwise interacted with search results (search results
+queries); and instances where users have viewed newspaper pages (content
+queries). The weblogs record each interaction with the website as a single line
+of plain text, recorded automatically on the website servers. The following
+example demonstrates the format of a single content query:</p>
+        <p>2013-06-02T12:26:50+01:00
+51a5c97c3c8d3 llgc-id:3036868 llgc-id:3039814 llgc-id:3037695 Aberystwyth
+Observer 21 September 1872 [2] ART40</p>
+        <p>The elements are, in order: date and time of interaction;
+unique user ID; server IDS for website content; title of newspaper viewed; date
+of newspaper edition; page number viewed; article number on the page viewed.
+Additionally, search queries contain a field with the user’s search terms, and
+search results queries include a field which shows the nature of the user’s
+interaction. In total, there were over 300,000 weblogs, which therefore provide
+a rich source of information about user interactions with the content of WNO.</p>
+        <p>This data
+allows several metrics to be analysed: most viewed newspaper titles; most
+viewed years; most viewed page numbers; average number of pageviews per visit;
+and percentage of pageviews involving search, search results or content
+queries. To achieve this, the investigator heavily post-processed the data in
+Excel.         All non-relevant fields
+were stripped from the spreadsheet, then a column was added which automatically
+populated pageview numbers for each unique user ID, from 1 for the first page
+viewed by a user, to X for the last. Search, browser and content queries were
+also changed to numerical values of 1,2, and 3 respectively. This allowed the
+data to be processed into appropriate graphical representations. In particular,
+it allowed large-scale analysis of the complete dataset, in order to uncover
+overall patterns and trends in graphical form.</p>
+        <head>3. Findings </head>
+        
+        <p>The content logs have provided a wealth of fascinating data
+on the behaviour and interests of users of Welsh Newspapers Online. We will
+discuss some of the most important findings in more depth below.</p>
+        
+        <p>            The
+following chart shows the findings from the large-scale analysis of the content
+logs, demonstrating the percentage of queries by type at each pageview. From
+this chart we can see which broad categories of user behaviour were most common
+for any given pageview:</p>
+        <figure>
+          <graphic url="DH2014_251_index"/>
+          <p>Fig. 1: </p>
+        </figure>
+        
+        <p>The chart demonstrates that content queries remain an
+important part of user activity, regardless of how long visitors spend on the
+website. In fact, once visitors view over 100 pages, they seem to view
+increasingly large amounts of content. By contrast, the longer a user spends on
+the resource, the less likely they are to be engaged in search activities.
+Instead, we see that search result queries replace search queries in
+importance. </p>
+        
+        <p>This tells
+us that the importance of search as a discovery mechanism becomes less
+important with time spent on a particular visit: the majority of users begin by
+searching the collection, and then slowly but steadily move away from searching
+to view content or to browse search results. However, the data suggests that
+digital reproductions of newspapers do effect how users engage with them, in
+one particular way: while they browse the website, extensively, we can see that
+they do not browse through newspaper content. The following chart shows that
+users primarily tend to view the title page but, in general, the further into a
+newspaper the page is, </p>
+        <p>the fewer times it will be read. This data should be
+contextualised: the average number of pages per newspaper is around 6.3.
+However, the drop in views begins from the second page, which strongly suggests
+that users are unlikely to browse through pages:</p>
+        <figure>
+          <graphic url="DH2014_251_pageviews"/>
+          <p>Fig. 2: </p>
+        </figure>
+        <p>In this respect, the findings
+seem to confirm the fears that digitised texts interfere with the deep,
+ordered reading behaviour attributed to printed materials. While
+there are valid concerns about the way in which inline reading may distance
+users from the original context of newspaper material, we must also recognise
+that users certainly are deeply engaged with digitised newspaper archives: it
+is the type of engagement that has changed. This highlights two important
+conclusions: the side-lining of browsing makes serendipitous discoveries less
+likely, and means that search functionality, OCR quality, and website design
+are as important as the availability of content in ensuring that users are able
+to discover content; and that existing remediations of newspapers are some way
+from recreating the reading behaviour that has been attributed to the physical
+text <ref target="n13" rend="sup">13</ref><ref target="n14" rend="sup">14</ref>.</p>
+        <head>4. Conclusion</head>
+        <p>This case study demonstrates that content log analysis can
+greatly enrich studies of the impact of digitised collections. They provide
+empirical evidence of user behaviour, which allows a granular, nuanced
+understanding of how researchers interact with digitised content online. We can
+therefore learn a great deal more about this understudied area. The findings
+also confirm, though, a commonly recorded problem with content logs; they
+provide a strong statistical base for analysis, but they cannot provide an
+insight into why users behave how they do. As such, an analysis which relies
+solely on content logs is necessarily incomplete. This paper will finish by
+proposing that web log analysis can still play an important role in analysing
+and understanding usage of digital resources, but that it should not be used in
+isolation.</p>
+        <head>----------------------------------------------</head>
+        
+        <p>[1] http://papuraunewyddcymru.llgc.org.uk/en/home?</p>
+        
+        
+        
+      </div>
+    </body>
+    <back>
+      <div type="References">
+        <listBibl>
+          <bibl>1. <hi rend="bold">Nicholas, D. et al.</hi>, (2000). <hi rend="italic">Evaluating consumer website logs: a case study of The Times/The Sunday Times website</hi>. Journal of Information Science, 26(6), pp.399–411.
+          </bibl>
+          <bibl>2. <hi rend="bold">Almind, T.C. &amp; Ingwersen, P.</hi>, (1997). <hi rend="italic">Infometric Analyses on the World Wide Web: Methodological Approaches to ‘Webometrics’</hi>. Journal of Documentation, 53(4).
+          </bibl>
+          <bibl>3. <hi rend="bold">Institute for the Future</hi>, (2002). <hi rend="italic">E-Journal user study: report of web log data mining</hi>, Available at: <ref type="url" target="http://ejust.stanford.edu/logdata.html">ejust.stanford.edu/logdata.html</ref> [Accessed March 23, 2013].
+          </bibl>
+          <bibl>4. <hi rend="bold">Nicholas, D., Jamali, H.R. &amp; Huntington, P.</hi>, (2005). <hi rend="italic">The use and users of scholarly e-journals: a review of log analysis studies</hi>. Aslib Proceedings, 57(6), pp.554–571.
+          </bibl>
+          <bibl>5. <hi rend="bold">Yu, L. &amp; Apps, A.</hi>, (2000). <hi rend="italic">Studying e-journal user behaviour using log files: the experience of SuperJournal</hi>. Library and Information Science Research, 22(3), pp.311–338.
+          </bibl>
+          <bibl>6. <hi rend="bold">Warwick, C. et al.</hi>, (2008). <hi rend="italic">If You Build It Will They Come? The LAIRAH Study: Quantifying the Use of Online Resources in the Arts and Humanities</hi>. Literary and Linguistic Computing, 23(1), pp.85–102.
+          </bibl>
+          <bibl>7. <hi rend="bold">Meyer, E.T. et al.</hi>, (2009). <hi rend="italic">Usage and Impact Study of JISC-Funded Phase 1 Digitisation Projects &amp; the Toolkit for the Impact of Digitised Scholarly Resources (TIDSR)</hi>, Oxford: Oxford Internet Institute, University of Oxford. Available at: <ref type="url" target="http://microsites.oii.ox.ac.uk/tidsr/sites/microsites.oii.ox.ac.uk.tidsr/files/TIDSR_FinalReport_20July2009.pdf">microsites.oii.ox.ac.uk/tidsr/sites/microsites.oii.ox.ac.uk.tidsr/files/TIDSR_FinalReport_20July2009.pdf</ref> [Accessed May 9, 2013].
+          </bibl>
+          <bibl>8. <hi rend="bold">Mussell, J.</hi>, (2012). <hi rend="italic">The Nineteenth-Century Press in the Digital Age</hi>, Basingstoke: Palgrave MacMillan.
+          </bibl>
+          <bibl>9. <hi rend="bold">Brake, L.</hi></bibl>
+          <bibl>10. <hi rend="italic">Half Full and Half Empty</hi>. Journal of Victorian Culture, 17(2), pp.222–229.
+          </bibl>
+        
+          <bibl>11. <hi rend="bold">Birkets, S.</hi>, (1994). <hi rend="italic">The Gutenberg elegies: the fate of reading in an electronic age</hi>, New York: Ballentine Books.
+          </bibl>
+          <bibl>12. <hi rend="bold">Deegan, M. &amp; Sutherland, K.</hi>, (2009). <hi rend="italic">Transferred Illusions: Digital Technology and the Forms of Print</hi>, Ashgate Publishing. p.49.
+          </bibl>
+          <bibl>13. <hi rend="bold">Baker, N.</hi>, (2002). <hi rend="italic">Do we want to keep our newspapers?</hi> In Do we want to keep our newspapers? London: Office for Humanities Computing, pp. 19–34.
+          </bibl>
+          <bibl>14. <hi rend="bold">Birkerts, S.</hi> (1994). <hi rend="italic">The Gutenberg Elegies: The Fate of Reading in an Electronic Age</hi>. Boston: Faber and Faber.
+          </bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

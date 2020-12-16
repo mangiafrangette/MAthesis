@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:x="http://www.w3.org/1999/xhtml" xmlns:exsl="http://exslt.org/common" xml:id="Paper-676">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Circling around texts and language: towards ‘pragmatic modelling’ in Digital Humanities</title>
+				<author>
+					<name>
+						<surname>Marras</surname>, <forename>Cristina</forename>
+					</name>
+					<affiliation>Lessico Intellettuale Europeo e Storia delle Idee</affiliation>
+					<email>cristina.marras@cnr.it</email>
+				</author>
+				<author>
+					<name>
+						<surname>Ciula</surname>, <forename>Arianna</forename>
+					</name>
+					<affiliation>University of Roehampton, London, UK</affiliation>
+					<email>ariannaciula@gmail.com</email>
+				</author>
+			</titleStmt>
+			<publicationStmt>
+				<authority/>
+				<publisher>EPFL, Switzerland</publisher>
+				<distributor>
+					<name>EPFL Digital Humanities Laboratory</name>
+					<address>
+						<addrLine>GC D2 386</addrLine>
+						<addrLine>Station 18</addrLine>
+						<addrLine>CH-1015 Lausanne</addrLine>
+						<addrLine>frederic.kaplan@epfl.ch</addrLine>
+					</address>
+				</distributor>
+				<pubPlace>Lausanne, Switzerland</pubPlace>
+				<address>
+					<addrLine>EPFL</addrLine>
+					<addrLine>CH-1015 Lausanne</addrLine>
+				</address>
+				<availability>
+					<p/>
+					</availability>
+				</publicationStmt>
+				<notesStmt>
+					<note type="abstract">This paper reflects on the concepts of text and modelling to show how objects of analysis and strategy of analysis in Digital Humanities (thereafter DH) research (and teaching) have expanded our boundaries of what is knowledgeable, while at the same time creating other limitations. The authors identify such limitations both at the epistemological level - e.g. the adoption of formalisations that impose a rigid structure on slippery and rich objects of analysis - as well as the linguistic level - e.g. the uncritical adoption of terminology belonging to the domain of computer sciences. The idea of ‘pragmatic modelling’ is therefore proposed as a strategy for research and teaching in DH: the definition of a sort of middle-out approach (halfway between top down and bottom up) that combines formal and experimental modelling techniques with a constructive use of language. Reflections on metaphorical reasoning will be used to exemplify this approach in practice.</note>
+				</notesStmt>
+				<sourceDesc>
+					<p>No source: created in electronic format.</p>
+					<p>
+					  <date when="20140709"/>
+					  <time when="11:00:00"/>
+					</p>
+					<p n="session">2</p>
+					<p n="room">412 - Amphimax</p>
+				</sourceDesc>
+			</fileDesc>
+			<profileDesc>
+				<textClass>
+					<keywords scheme="original" n="category">
+						<term>Paper</term>
+					</keywords>
+					<keywords scheme="original" n="subcategory">
+						<term>Long Paper</term>
+					</keywords>
+					<keywords scheme="original" n="keywords">
+						<term>Text analysis</term>
+						<term>Language</term>
+						<term>Conceptual modelling</term>
+						<term>Pragmatic Modelling</term>
+						<term>Metaphors</term>
+						<term></term>
+					</keywords>
+					<keywords scheme="original" n="topic">
+						<term>digital humanities - nature and significance</term>
+						<term>text analysis</term>
+						<term>content analysis</term>
+						<term>interdisciplinary collaboration</term>
+						<term>history of Humanities Computing/Digital Humanities</term>
+						<term></term>
+					</keywords>
+				</textClass>
+			</profileDesc>
+		</teiHeader>
+		<text type="paper">
+			<front>
+				<div>
+					<p></p>
+				</div>
+			</front>
+			<body>
+				<div>
+					<head>1. Introduction (1)</head>
+					<p> Digital Humanities (hereafter DH) is surely a field in rapid evolution, where open questions (2) are numerous and self-reflexivity is not new. This paper aims to contribute to the discussion around general and somehow obvious questions -  debated globally, often daily, by scholars - by reformulating the issues at stake in the following terms: other scholarship in the humanities and techno-sciences (McCarty 2013b<ref target="n1" rend="sup">1</ref>) has passed/passes via the experimental and the formal; in what way is the experimental and the formal done in DH different and similar? To address this question the argument will circle around two interrelated concepts: </p>
+					<list type="unordered">
+						<item> that of ‘text’, intended in its processuality (Meister 2007<ref target="n2" rend="sup">2</ref>) and in a wide sense from linear to discontinuous narrative, from manuscripts to printed editions, encompassing hybrid modalities such as maps (Eide 2013a<ref target="n3" rend="sup">3</ref>) and ‘narrative drawings’ (Groensteen 2012<ref target="n4" rend="sup">4</ref>);</item>
+						<item>that of 'modelling', intended as DH-specific research and teaching activity (modelling rather than models; see McCarty 200<ref target="n5" rend="sup">5</ref>, Jannidis and Flanders 2013<ref target="n6" rend="sup">6</ref>), but also connected to multifaceted conceptualisations of modelling (in particular Kralemann and Lattmann 2013<ref target="n7" rend="sup">7</ref>) as used and seen by other disciplines and practices.</item>
+					</list>
+					<p>Firstly, ways in which new technologies and languages influence approaches to texts and the consequences for research will be discussed by recalling the results of some research projects (e.g. AGORA<ref target="n8" rend="sup">8</ref>, Marras and Lamarra 2013<ref target="n9" rend="sup">9</ref>, Marras 2013b<ref target="n10" rend="sup">10</ref>) and by referring to the literature that reflected at large on the influence the creation and use of, for example, standard markup languages have on the relation between scholars and texts (e.g. Buzzetti 2002<ref target="n11" rend="sup">11</ref>). </p>
+					<p>This has an important epistemological consequence that in the paper will connect directly the reflection on one of, or possibly the privileged object/s of humanities research - text – to the second focus of the argument: by modelling knowledge we somehow provide for an abstract way of looking at the world. Is DH research prone to privilege a symbolic analysis of texts in opposition to a pragmatic one?</p>
+					<p>Despite being informed by modelling as rooted in computing and therefore in mathematical reasoning, modelling in DH is directly interconnected to the work on texts, but is not only a way to see patterns of similarity across texts (e.g. Eide 2013b<ref target="n12" rend="sup">12</ref>). Beyond what is branded as DH research, other imaginative practices of assembling 'toolkits' to find patterns in human production exist (e.g. Hockney 2006<ref target="n13" rend="sup">13</ref>). Can we sustain the unicity of the lens of computing, of modelling through computing? While being a rather theoretical exercise, a comparative perspective on modelling would need to be experimental in its nature: is modelling in computing going to lift our way of seeing and therefore thinking to another level of analysis?</p>
+					<p>While keeping these questions in mind, we note that significant things are happening. DH or humanities computing in its former vest (Schreibman et al. 2004<ref target="n14" rend="sup">14</ref>) is being institutionalized and is an example of how cross-border fertilisation, namely interdisciplinarity, is possible (e.g. McCarty 2013a<ref target="n15" rend="sup">15</ref>, Marras 2012<ref target="n16" rend="sup">16</ref>, Ciula 2013<ref target="n17" rend="sup">17</ref>). We acknowledge that DH scholars and professionals are making use of a ‘blended’ style (intended as in McCarty 2009<ref target="n18" rend="sup">18</ref>) reflected both in their language, by adopting expressions to account for a new scenario, and in their research and teaching approaches, often integrating computational methods and terminologies with modes of <hi rend="italic">discourse</hi> associated to more established scholarship in the humanities (Marras 2013a<ref target="n19" rend="sup">19</ref>, Flanders 2009<ref target="n20" rend="sup">20</ref>).</p>
+					<p>DH opened the stage to doing and talking about research recurring to innovative and diverse knowledge as well as to an innovative and diverse way of organising and conceptualising it. Software has also been developed to explore and represent current networked knowledge configurations (e.g. Lima's 'Knowledge Atlas', Quagiotto’s ‘Knowledge Cartography’<ref target="n21" rend="sup">21</ref>).</p>
+					<p>However, a (cultural) change to inform the sharing of practices and results is possibly still lacking behind (Ciula 2013<ref target="n22" rend="sup">22</ref>). Specific modelling practices in DH could be lead to combine <hi rend="italic">theoria cum praxis</hi>, anchoring innovative approaches to a solid theoretical framework. </p>
+				</div>
+				<div>
+					<head>2. Pragmatic Modelling</head>
+					<p> In this paper we claim that language as mediation in designing and contextualising models is crucial. We do so by focusing on the concept of pragmatic modeling (4) intended as research strategy, framed within the complex cognitive, social, and cultural functioning of DH practices affected by cross-linguistic and interdisciplinary dimensions. Pragmatic modelling is understood as being anchored to theory and language, while at the same time claiming some freedom from both (e.g. in digital textual editing one might adopt the OHCO model while at the same time questioning it deeply). It operates within the relational and dynamic aspects of modeling.(5)</p>
+					<head>Middle out method and metaphoric reasoning/language</head>
+					<p>Metaphors as meta-models (Kralemann and Lattmann 2013<ref target="n23" rend="sup">23</ref>) and linguistic tools are called to explore the creative power of pragmatic modelling (Getachew 2006<ref target="n24" rend="sup">24</ref> and Mazzocchi-Fedeli 2013<ref target="n25" rend="sup">25</ref>) and to move forward the theoretical reflection as framed so far. With this respect, metaphorical reasoning exemplifies a specific strategy to guide modelling in DH: pragmatic modelling can be understood as facilitating a middle-out approach based on metaphorical language. In general terms, this translates into a move away from the dichotomy at interplay between bottom-up (models emerging from particulars or 'artifacts of study') and top-down (models imposed on particulars) approaches to what we propose to call a middle-out method; a method that acts at the crossing point of data and models adapting itself to specific “textual contexts”. Three interrelated properties (adapted from Verschueren, 1995) can be associated with this method:</p>
+					<list type="unordered">
+						<item>Variability - the range of choices in the use of language cannot be seen as static in any respect.</item>
+						<item>Negotiability - such choices are not made mechanically or according to strict rules or fixed form-function relationships, but on the basis of highly flexible principles and strategies, thus also implying the indeterminacy and unexclusiveness of the choices made.</item>
+						<item>Adaptability - such negotiable choices can be adapted based on specific needs and contexts according to the variable range of possibilities. </item>
+					</list>
+					<head>DH Practices</head>
+					<p>We will narrow down our approach with selected case studies that show how in DH (in comparison to other contexts) choices are not made mechanically or according to fixed theories, but on the basis of flexible principles and strategies potentially open to creative reasoning. Indeed, with respect to modelling theorised in computer sciences, the challenge in DH is to shift the lens of computing up the scale, to embrace the experimental nature of modelling at the lower level of the scale (e.g. in computing coding) and see indeed how it can scale up (e.g. to do critical scholarship with/via it).</p>
+					<p>The opportunities enabled by modelling (e.g. emergence of patterns of relation, behaviour, and shape) are rooted not only in a ‘demonstrative’ and ‘literal language’ but also in the metaphorical one (Marras 2013<ref target="n27" rend="sup">27</ref>, McCarty 2006<ref target="n28" rend="sup">28</ref>). Some modelling attempts in DH and cultural heritage formalisations more in general have embarked in dedicated efforts to problematise terminology (e.g. CIDOC-CRM<ref target="n29" rend="sup">29</ref>; Pundit<ref target="n30" rend="sup">30</ref>); some prominent DH scholarship is reflecting on the limits of adopting uncritically the language of computer sciences (e.g. Eide et al. 2013<ref target="n31" rend="sup">31</ref> on spatio-temporal concepts in humanities and arts; Simpson et al. 2013<ref target="n32" rend="sup">32</ref> on what a ‘person’ is in ontological models for the humanities; Renear 2013<ref target="n33" rend="sup">33</ref> on what ‘datasets’ are for libraries, publishing, data curation, and DH); some other DH scholarship has ventured in creative attempts at establishing neologisms (e.g. “factoid” as described in Short and Bradley 2005<ref target="n34" rend="sup">34</ref>): is there a trade-off in projecting historical lexicons in new contexts of use?</p>
+				</div>
+				<div>
+					<head>3. Conclusions</head>
+					<p>In conclusion, departing from open and interdisciplinary conceptualisations of objects of analysis – such as texts – and of certain explorative and epistemological strategies of analysis – such as modelling – the authors will show how the spectrum of research in DH is indeed expanding our boundaries of knowledge. However, modelling practices are more than often constrained by the language they are embedded in, either because terminology is not problematised enough or because language is not used imaginatively.</p>
+				</div>
+				<div>
+					<head>Notes</head>
+					<p>(1) This paper is the result of an intense discussion carried out between the two authors in the last years on the nature of DH research practices and strategies. This discussion took place in different contexts, in particular during the work on DH infrastructures carried out at ESF (Moulin et al. 2011<ref target="n35" rend="sup">35</ref>), but also as part of informal exchanges stemming from diverse teaching experiences and works within collaborative research projects in the broad area of DH. Recently a discussion focused on modelling within the forum of Humanist (see references<ref target="n36" rend="sup">36</ref>)
+triggered some further reflections partially formalised in this paper.</p>
+					<p>(2) “Is there such thing as DH? Is DH unique in its practice and research strategy?” See Gold 2012<ref target="n37" rend="sup">37</ref> for a rich overview on this discussion.</p>
+					<p>(4) We subscribe to a functional perspective on the study of language. By focusing on use, a pragmatic perspective is also integrative in that it aims at encompassing the full complexity of the cognitive, social, and cultural functioning of language (Verschueren 1995<ref target="n38" rend="sup">38</ref>).</p>
+					<p>(5) We mean both the interplay between the object of analysis and the model (usually referred as mapping; e.g. Kralemann and Lattmann 2013, 3417<ref target="n39" rend="sup">39</ref>), as well as across different levels of the interpretative process (e.g. close and distant reading, symbolic/sintagmatic and semantic/paradigmatic levels of text analysis).</p>
+				</div>
+			</body>
+			<back>
+				<div type="References">
+					<listBibl>
+						<bibl>1. <hi rend="bold">McCarty, W.</hi> (2013b). DH Conference 2013, Busa Award lecture 2013, Alliance of Digital Humanities Organizations: <ref type="url" target="http://www.youtube.com/watch?v=nTHa1rDR680">www.youtube.com/watch?v=nTHa1rDR680</ref> (accessed 3 March 2014)
+						</bibl>
+						<bibl>2. <hi rend="bold">Meister, J. Ch.</hi> (2007). <hi rend="italic">Events are Us, Amsterdam International Electronic Journal for Cultural Narratology</hi>, (AJCN) 4/Autumn 2007: <ref type="url" target="http://cf.hum.uva.nl/narratology/a07_meister.htm">cf.hum.uva.nl/narratology/a07_meister.htm</ref> (accessed 3 March 2014)
+						</bibl>
+						<bibl>3. <hi rend="bold">Eide, Ø.</hi> (2013a). <hi rend="italic">Why Maps Are Silent When Texts Can Speak</hi>. Detecting Media Differences through Conceptual Modelling. Buchroithner M. F. et al. (eds), Proceedings of the 26th International Cartographic Conference, Dresden 2013: <ref type="url" target="http://www.icc2013.org/_contxt/_medien/_upload/_proceeding/31_proceeding.pdf">www.icc2013.org/_contxt/_medien/_upload/_proceeding/31_proceeding.pdf</ref> (accessed 3 March 2014)
+						</bibl>
+						<bibl>4. <hi rend="bold">Groensteen, T.</hi> (2012). <hi rend="italic">Définitions</hi>. L’Art de la bande dessinée, Citadelles &amp; Mazenod: 17-75.
+						</bibl>
+						<bibl>5. <hi rend="bold">McCarty, W.</hi> (2005). <hi rend="italic">Humanities computing</hi>. Basingstoke: Palgrave Macmillan.
+						</bibl>
+						<bibl>6. <hi rend="bold">Jannidis, F. and Flanders, J.</hi> (2013). <hi rend="italic">A concept of data modelling for the humanities</hi>. DH Conference 2013: <ref type="url" target="http://dh2013.unl.edu/abstracts/author.html?q=author">dh2013.unl.edu/abstracts/author.html?q=author</ref>:%22jannidis%2C%20fotis%7C%7CJannidis%2C%20Fotis%22 (accessed 3 March 2014)
+						</bibl>
+						<bibl>7. <hi rend="bold">Kralemann, B. and Lattmann C.</hi> (2013). <hi rend="italic">Models as icons: modeling models in the semiotic framework of Peirce’s theory of signs</hi>, Synthese, November 2013, Volume 190, Issue 16: 3397-3420.
+						</bibl>
+						<bibl>8. <hi rend="bold">AGORA</hi>, <hi rend="italic">Scholarly Open Access Research in European Philosophy</hi>, CIP-Pilot Action (CIP-ICT-PSP-2010-4, n. 270904: <ref type="url" target="http://www.project-agora.org">www.project-agora.org</ref>
+						</bibl>
+						<bibl>9. <hi rend="bold">Marras, C. and Lamarra, A.</hi> (2013). <hi rend="italic">Scholarly Open Access Research in Philosophy: Limits and Horizons of a European Innovative Project</hi>. DH Conference 2013: <ref type="url" target="http://dh2013.unl.edu/abstracts/ab-316.html">dh2013.unl.edu/abstracts/ab-316.html</ref> (accessed 3 March 2014)
+						</bibl>
+						<bibl>10. <hi rend="bold">Marras, C.</hi> (2013b). <hi rend="italic">AGORA-Scholarly Open Access Research in Philosophy</hi>. An overview’. Beiträge zur Geschichte der Sprachwissenschaft, Projektberichte, 23.2: 295-301.
+						</bibl>
+						<bibl>11. <hi rend="bold">Buzzetti, D.</hi> (2002). <hi rend="italic">Digital Representation and the Text Model</hi>, New Literary History, 33, 1, Winter 2002: 61-88 | 10.1353/nlh.2002.0003
+						</bibl>
+						<bibl>12. <hi rend="bold">Eide, Ø. </hi>(2013b). Ontologies, data modelling, and TEI. TEI Conference 2013: <ref type="url" target="http://digilab2.let.uniroma1.it/teiconf2013/program/papers/abstracts-paper#C107">digilab2.let.uniroma1.it/teiconf2013/program/papers/abstracts-paper#C107</ref> (accessed 3 March 2014)
+						</bibl>
+						<bibl>13. <hi rend="bold">Hockney, D. </hi>(2006). <hi rend="italic">Secret knowledge: rediscovering the lost techniques of the old masters</hi>. London: Thames &amp; Hudson.
+						</bibl>
+						<bibl>14. <hi rend="bold">Schreibman, S.; Siemens, R.; Unsworth, J.</hi> (eds.) (2004). <hi rend="italic">Companion to Digital Humanities</hi>. Oxford: Blackwell, <ref type="url" target="http://www.digitalhumanities.org/companion">www.digitalhumanities.org/companion</ref> (accessed 3 March 2014)
+						</bibl>
+						<bibl>15. <hi rend="bold">McCarty, W.</hi> (2009). <hi rend="italic">Being reborn: the humanities, computing and styles of scientific reasoning</hi>. New Technology in Medieval and Renaissance Studies 1: 1-23. Invited paper originally delivered at the Renaissance Society of America conference, Clare College, Cambridge, 7 April 2005.
+						</bibl>
+						<bibl>16. <hi rend="bold">Marras, C.</hi> (2012). <hi rend="italic">Pragmatica e comunicazione: orizzonti interdisciplinari</hi>. Gensini, S. and Forgione L. (eds.) Filosofia della comunicazione. Roma: Carocci.
+						</bibl>
+						<bibl>17. <hi rend="bold">Ciula, A.</hi> (2013). <hi rend="italic">Which Changes are Currently Taking Place in our Research and Academic Culture?</hi>, International colloquium: Research Conditions and Digital Humanities: What are the Prospects for the Next Generation?, German Historical Institute in Paris, June 2013: <ref type="url" target="http://www.slideshare.net/arimare/presentation-ciulaparis2013">www.slideshare.net/arimare/presentation-ciulaparis2013</ref> (accessed 3 March 2014)
+						</bibl>
+						<bibl>18. <hi rend="bold">McCarty, W.</hi> (2009). <hi rend="italic">Being reborn: the humanities, computing and styles of scientific reasoning</hi>. New Technology in Medieval and Renaissance Studies 1: 1-23. Invited paper originally delivered at the Renaissance Society of America conference, Clare College, Cambridge, 7 April 2005.
+						</bibl>
+						<bibl>19. <hi rend="bold">Marras, C.</hi> (2013a). <hi rend="italic">Structuring multidisciplinary knowledge: Aquatic and terrestrial metaphors</hi>. Knowledge Organization, Mazzocchi, F. and Fedeli, G. (eds.), special issue, Fall 2013: 392-399.
+						</bibl>
+						<bibl>20. <hi rend="bold">Flanders, J. </hi>(2009). <hi rend="italic">The Productive Unease of 21st-century Digital Scholarship</hi>, Digital Humanities Quarterly, vol.3, 3, 2009: <ref type="url" target="http://www.digitalhumanities.org/dhq/vol/3/3/000055/000055.html">www.digitalhumanities.org/dhq/vol/3/3/000055/000055.html</ref> (accessed 3 March 2014)
+						</bibl>
+						<bibl>
+							21. Knowledge cartography: <ref type="url" target="http://www.knowledgecartography.org">www.knowledgecartography.org</ref> (accessed 3 March 2014)
+						</bibl>
+						<bibl>22. <hi rend="bold">Ciula, A.</hi> (2013). <hi rend="italic">Which Changes are Currently Taking Place in our Research and Academic Culture?</hi>, International colloquium: Research Conditions and Digital Humanities: What are the Prospects for the Next Generation?, German Historical Institute in Paris, June 2013: <ref type="url" target="http://www.slideshare.net/arimare/presentation-ciulaparis2013">www.slideshare.net/arimare/presentation-ciulaparis2013</ref> (accessed 3 March 2014)
+						</bibl>
+						<bibl>23. <hi rend="bold">Marras, C.</hi> (2013b). <hi rend="italic">AGORA-Scholarly Open Access Research in Philosophy</hi>. An overview’. Beiträge zur Geschichte der Sprachwissenschaft, Projektberichte, 23.2: 295-301.
+						</bibl>
+						<bibl>24. <hi rend="bold">Getachew, M-T.</hi> (2006).<hi rend="italic"> Metaphor</hi>. Continuum Encyclopedia of British Philosophy. Goulder, N., Grayling A.C., Pyle, A. (eds). London: Thoemmes Continuum.
+						</bibl>
+						<bibl>25. <hi rend="bold">Mazzocchi, F. and Fedeli, G.</hi> (eds.) (2013). <hi rend="italic">Special Issue: ‘Paradigms of Knowledge and its Organization: The Tree, the Net and Beyond’</hi>, Knowledge Organization, vol. 40, n.6.
+						</bibl>
+						<bibl>26. <hi rend="bold">Verschueren, J.</hi> (1995, revised 2012). <hi rend="italic">The pragmatic perspective. Handbook of Pragmatics</hi>, Östman J-O. &amp; Verschueren J. (eds.), John Benjamins: Amsterdam/Philadelphia.
+						</bibl>
+						<bibl>27. <hi rend="bold">Marras, C.</hi> (2013a). <hi rend="italic">Structuring multidisciplinary knowledge: Aquatic and terrestrial metaphors</hi>. Knowledge Organization, Mazzocchi, F. and Fedeli, G. (eds.), special issue, Fall 2013: 392-399
+						</bibl>
+						<bibl>28. <hi rend="bold">McCarty, W.</hi> (2006). <hi rend="italic">Tree, Turf, Centre, Archipelago or Wild Acre?</hi> Metaphors and Stories for Humanities Computing. Literary and Linguist Computing, April 2006, 21, 1: 1-13.
+						</bibl>
+						<bibl>
+							29. CIDOC-CRM, Conceptual Reference Model: <ref type="url" target="http://www.cidoc-crm.org">www.cidoc-crm.org</ref> (accessed 3 March 2014)
+						</bibl>
+						<bibl>
+							30. Pundit: <ref type="url" target="http://www.thepund.it">www.thepund.it</ref> (accessed 3 March 2014)
+						</bibl>
+						<bibl>31. <hi rend="bold">Eide, Ø; Grossner, K.; Berman, Merrick L.; Ore, C.-E. </hi>(2013). <hi rend="italic">Issues in Spatio -Temporal Technologies for the Humanities and Arts</hi>. Panel at DH Conference 2013: <ref type="url" target="http://dh2013.unl.edu/abstracts/ab-319.html">dh2013.unl.edu/abstracts/ab-319.html</ref> (accessed 3 March 2014)
+						</bibl>
+						<bibl>32. <hi rend="bold">Simpson, J.E.; Brown, S.; Goddard, L.</hi> (2013). <hi rend="italic">A Humanist Perspective on Building Ontologies in Theory and Practice</hi>, DH Conference 2013: <ref type="url" target="http://dh2013.unl.edu/abstracts/ab-413.html">dh2013.unl.edu/abstracts/ab-413.html</ref> (accessed 3 March 2014)
+						</bibl>
+						<bibl>33. <hi rend="bold">Reaner, A. </hi>(2013).<hi rend="italic"> Text encoding, ontologies, and the future</hi>. Keynote at TEI Conference 2013: <ref type="url" target="http://digilab2.let.uniroma1.it/teiconf2013/program/keynotes/">digilab2.let.uniroma1.it/teiconf2013/program/keynotes/</ref> (accessed 3 March 2014)
+						</bibl>
+						<bibl>34. <hi rend="bold">Short, H. and John B.</hi> (2005). <hi rend="italic">Texts into Databases: The Evolving Field of New-style Prosopography, Literary and Linguistic Computing</hi>, 2005, 19.5: 3-24
+						</bibl>
+						<bibl>35. <hi rend="bold">Moulin, C.; Nyhan, J.; Ciula, A; et al.</hi> (2011).<hi rend="italic"> Research Infrastructures for the Digital Humanities</hi>, ESF Science Policy Briefing 42, Sept. 2011: <ref type="url" target="http://www.esf.org/publications">www.esf.org/publications</ref> (accessed 3 March 2014)
+						</bibl>
+						<bibl>36. <hi rend="bold">Humanist Discussion Group</hi>, vol. 27, n. 471: 27.471 models of computation: <ref type="url" target="http://www.digitalhumanities.org/humanist">www.digitalhumanities.org/humanist</ref> (accessed 3 March 2014)
+						</bibl>
+						<bibl>37. <hi rend="bold">Gold, M.K.</hi>, ed. (2012). <hi rend="italic">Debates in Digital Humanities</hi>. University of Minnesota Press: <ref type="url" target="http://dhdebates.gc.cuny.edu/">dhdebates.gc.cuny.edu/</ref> (accessed 3 March 2014)
+						</bibl>
+						<bibl>38. <hi rend="bold">Verschueren, J.</hi> (1995, revised 2012). <hi rend="italic">The pragmatic perspective. Handbook of Pragmatics</hi>, Östman J-O. &amp; Verschueren J. (eds.), John Benjamins: Amsterdam/Philadelphia.
+						</bibl>
+						<bibl>39. <hi rend="bold">Kralemann, B. and Lattmann C.</hi> (2013). <hi rend="italic">Models as icons: modeling models in the semiotic framework of Peirce’s theory of signs</hi>, Synthese, November 2013, Volume 190, Issue 16: 3397-3420.
+						</bibl>
+					</listBibl>
+				</div>
+			</back>
+		</text>
+	</TEI>

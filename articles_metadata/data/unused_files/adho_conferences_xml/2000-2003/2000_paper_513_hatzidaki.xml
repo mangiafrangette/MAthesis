@@ -1,0 +1,805 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/remote/homed/saschmid/Desktop/teiConferenceAbstracts.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="paper">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Binomials and the Computer: a Study in Corpus-Based
+                    Phraseology</title>
+                <author>
+                    <name>
+                        <forename type="first">Ourania</forename>
+                        <surname>Hatzidaki</surname>
+                        <affiliation>
+                            <name type="org">University of Birmingham</name>, UK <email/>
+                        </affiliation>
+                    </name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <date when="2000">2000</date>
+                <publisher>
+                    <name>University of Glasgow</name>
+                </publisher>
+                <pubPlace>Glasgow</pubPlace>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="m">ALLC/ACH 2000</title>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>
+                        <forename type="first">Jean</forename>
+                        <surname>Anderson</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Amal</forename>
+                        <surname>Chatterjee</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Christian</forename>
+                        <forename type="middle">J.</forename>
+                        <surname>Kay</surname>
+                    </name>
+                    <name>
+                        <forename type="first">Margaret</forename>
+                        <surname>Scott</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoder</resp>
+                    <name>
+                        <forename type="first">Sara</forename>
+                        <forename type="middle">A.</forename>
+                        <surname>Schmidt</surname>
+                    </name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="http://hcmc.uvic.ca/teiJournal/topicKeywords/">
+                    <list>
+                        <item>Computational / Corpus Linguistics</item>
+                        <item> </item>
+                        <item> </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>This paper presents the results of a large-scale corpus-based study (Hatzidaki
+                    1999) of an important feature of English phraseology, namely binomial pairs
+                        (e.g.<emph rend="italics"> chalk and cheese</emph>, <emph rend="italics">up
+                        and down</emph>, <emph rend="italics">prim and proper</emph>, <emph
+                        rend="italics">through and through</emph>, <emph rend="italics">Laurel and
+                        Hardy</emph>). The purpose of the research was two-fold, firstly, to
+                    conduct, on the basis of a large and varied corpus of English textual data, a
+                    thorough and in-depth structural and functional analysis of a much-studied and
+                    yet not fully explored phraseological phenomenon; and secondly, to examine the
+                    hypothesis that the use of systematically collected samples of authentic
+                    language data results in more accurate and comprehensive descriptions of the
+                    form and function of linguistic phenomena than does the sole reliance on
+                    introspection. The analysis yielded an extensive and rigorous taxonomy of the
+                    various structural variations of binomials, as well as significant new
+                    information on their function in the communicative process.</p>
+                <p>Binomials, namely sequences of "two or more words or phrases belonging to the
+                    same grammatical category, having some semantic relationship and joined by some
+                    syntactic device such as 'and' or 'or'" (Bhatia 1994:143), have long been
+                    objects of interest for idiomatologists and stylisticians. The several existing
+                    studies of this phenomenon have mainly focussed on its marked occurrence in the
+                    works of certain literary authors such as Chaucer, Lydgate, Shakespeare, Swift,
+                    Shaw, etc. (see, respectively, Héraucourt 1939 and Potter 1972, Tilgner 1936,
+                    Nash 1958 and Gerritsen 1958, Milic 1967, and Ohmann 1962), as well as in
+                    English legal texts; the semantic and syntactic characteristics and
+                    idiosyncrasies of the various paired forms, especially the semantic relationship
+                    between the linked members of a binomial (synonymy, <emph rend="italics">able
+                        and talented</emph>; antonymy, <emph rend="italics">boys and girls</emph>;
+                    complementarity, <emph rend="italics">bow and arrow</emph>; Malkiel 1959), or
+                    the notion of <emph rend="italics">irreversibility</emph>, i.e. the tendency of
+                    binomials to occur in only one sequence, as in <emph rend="italics">here and
+                        there</emph> and not *<emph rend="italics">there and here</emph>, and the
+                    possible causes of this phenomenon (e.g. 'proximal before distal'; Cooper and
+                    Ross 1975); and the incidence of binomials in languages other than English (e.g.
+                    Fix 1985 for German; Abraham 1950 for French and Italian; Malkiel 1959 for
+                    Russian, Portuguese, Spanish, Ancient Greek and Latin; Gold 1991 for Yiddish;
+                    Koch 1983 for Arabic; Szpyra 1983 for Polish; etc.).</p>
+                <p>As opposed to literary studies, where binomials are treated as a flexible and
+                    interesting stylistic device which serves as a powerful means of expressing the
+                    authors' ideology and worldview, most studies of the occurrence of this feature
+                    in general language implicitly or explicitly regard binomials as a small and
+                    probably finite set of structurally and semantically idiosyncratic forms.
+                    Moreover, although many studies of the formal characteristics of binomials are
+                    available, there exists no comprehensive account of the full structural
+                    variability of the binomial pairs used by the average speaker, no detailed
+                    information on the distribution of the different patterns, and no organized
+                    taxonomy of forms. Finally, with the notable exception of studies of binomials
+                    as a distinctive feature of the language of the law which fulfils the
+                    requirements of legal draftsmanship for precision, clarity, unambiguity and
+                    all-inclusiveness (Mellinkoff 1963, Gustafsson 1984, Bhatia 1994), minimal
+                    attention has been given to the functions of binomials in non-literary
+                    language.</p>
+                <p>Crucially, with very few exceptions (notably Gustafsson 1975), previous treatises
+                    on binomials have been intuition-based. A glance at a general corpus, however,
+                    instantly reveals a number of new and interesting facts concerning this feature.
+                    Firstly, numerous paired forms emerge, which appear to have been modelled on an
+                    abstract dualistic structure of the <emph rend="underscore">A + <emph
+                            rend="italics">link</emph> + B type</emph>, very few of which, however,
+                    represent familiar, idiomatic locutions such as the oft-quoted <emph
+                        rend="italics">rough and ready</emph> and <emph rend="italics">out and
+                        out</emph>: the majority of the couplets appearing in corpus data constitute
+                    novel sequences such as <emph rend="italics">calm and united</emph>, <emph
+                        rend="italics">gently and effectively</emph>, <emph rend="italics">inflation
+                        and unemployment</emph>, etc., whose formation seems to be governed by the
+                    specific lexicogrammatical, discoursal and pragmatic rules pertaining to the
+                    production of the texts in which they are encountered. Secondly, although
+                    couplets are extremely varied in their structural details, they all seem to fall
+                    into a set of identifiable lexicogrammatical patterns. And thirdly, the
+                    occurrence of the various dualistic patterns in textual sources with different
+                    situational characteristics demonstrates substantial distributional
+                    fluctuations.</p>
+                <p>The above facts indicate that, in order to effectively account for the phenomenon
+                    of binomial pairing as it is observed in a corpus of texts, a new and more
+                    flexible data-driven framework needs to be devised. In the light of the data
+                    used in the present research, rather than a list of structurally and
+                    semantically peculiar couplets, binomials are analyzed as an abstract mechanism
+                    which speakers have at their disposal for the generation of a very wide range of
+                    paired types that serve a variety of important communicative purposes. As a
+                    theoretical model for the identification and extraction of binomials from the
+                    corpus and the classification of their various lexicogrammatical variants into a
+                    set of categories, we exploit the notion of phraseological <emph rend="italics"
+                        >frame</emph> or <emph rend="italics">formal idiom</emph>, as posited and
+                    developed by Moon (1998:154f) and Fillmore, Kay &amp; O'Connor (1988:505f).
+                    This, in very broad terms, represents an abstract structural formula which, as
+                    Fillmore et al. put it, 'serves as host' (ibid.:506) to institutionalized
+                    expressions as well as novel, spontaneously created forms.</p>
+                <p>Binomials emerge as a major frame which can be represented by means of the
+                    general formula <emph rend="italics">A link B</emph>. Our data analysis, which
+                    results in the construction of a detailed and comprehensive data-driven taxonomy
+                    of binomial patterns, involves, firstly, the identification and extraction of
+                    the various binomial forms from our corpus of textual data; secondly, the
+                    devising of a prototypical system of abstract representations to which each
+                    extant pair is assigned on the basis of its lexicogrammatical attributes;
+                    thirdly, the detailed recording of any interesting lexicosemantic preferences
+                    displayed by the patterns (for instance their semantic prosodies; Louw 1993 and
+                    Sinclair 1996); and, finally, the calculation of the frequency of occurrence of
+                    each pattern in the corpus. </p>
+                <p>We also discuss in detail the important but rarely addressed issue of the
+                    function of binomials in the communicative process. Specifically, we examine the
+                    incidence of the various binomial patterns in each of the six subcorpora
+                    comprising our corpus (a set of written publications in book form, both fiction
+                    and non-fiction; a broadcasting medium; a semi-specialized periodical
+                    publication; two daily newspapers, a broadsheet and a tabloid; and a set of
+                    spontaneous and semi-spontaneous spoken texts), and seek explanations for the
+                    very substantial distributional perturbations. The main purpose of this exercise
+                    is to establish the nature and extent of the correlation between the form and
+                    structure of binomial patterns on the one side, and the extralinguistic and
+                    situational factors pertaining to each subcorpus on the other, and, thus, to
+                    determine the precise functions served by each binomial pattern in
+                    communication.</p>
+                <p>Our data strongly suggest that binomials constitute a phraseological device which
+                    makes a highly significant contribution to the communicative process. Our
+                    analysis demonstrates that, depending on their structure as well as the type of
+                    text in which they are encountered, binomials serve a wide range of
+                    communicative functions. For instance, it is shown that the abundant use of
+                    informationally dense binomials (e.g. <emph rend="italics">government and
+                        parliament</emph>, <emph rend="italics">political and monetary</emph>, <emph
+                        rend="italics">commercial and investment banks</emph>) on the part of
+                    journalists serves most effectively the institutional requirements of the mass
+                    media for factuality, informativeness, precision, conciseness and stylistic
+                    uniformity (Crystal &amp; Davy 1969, Tuchman 1978, van Dijk 1988, and
+                    elsewhere), whilst simultaneously disguising the highly fragmented process of
+                    production of news texts (Bell 1991).</p>
+                <p>On the other hand, the frequent employment of repetitive, vague or
+                    informationally sparse pairs in conversation (<emph rend="italics">ages and
+                        ages</emph>, <emph rend="italics">here and there</emph>, <emph
+                        rend="italics">try and get</emph>) reflects the efforts of
+                    conversationalists in the face of the exigencies of real-time communication. In
+                    the context of unplanned talk, binomials act as a lexicalized and, therefore,
+                    elegant and well-integrated temporal space which speakers create automatically
+                    and with the minimum of cognitive effort whilst coping with delays in the
+                    formulation of thought and argument. Binomials in extemporaneous conversation
+                    act as a crucial discourse-cohesive device, which helps keep speech 'glued
+                    together' (Johnstone 1987), whilst minimizing the effect of fragmentation (Chafe
+                    1982) created by phenomena such as false starts, random repetition (Norrick
+                    1987), etc. At the same time, binomials may be used by speakers as a means of
+                    expressing emphasis and emotional involvement and of creating rhetorical
+                    presence (e.g. <emph rend="italics">faster and faster</emph>, <emph
+                        rend="italics">ringing and ringing</emph>).</p>
+                <p>On the whole, the corpus-based structural and situational analysis of binomials
+                    not only offers new and significant information on a well-known linguistic
+                    phenomenon, it also offers substantial empirical support for the hypothesis that
+                    phraseology plays a major part in the accomplishment of the communicative goals
+                    of speakers or writers (for a review of relevant studies, see Hatzidaki
+                    1999).</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>Bibliography</head>
+                <listBibl>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author><name><forename type="first">R.</forename>
+                                    <forename type="middle"
+                                    >D.</forename><surname>Abraham</surname></name></author>
+                            <title level="a">Fixed Order of Coordinates</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Modern Language Journal</title>
+                            <imprint>
+                                <biblScope type="vol">34</biblScope>
+                                <biblScope type="issue"/>
+                                <biblScope type="pp">276-287</biblScope>
+                                <date when="1950">1950</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">A.</forename>
+                                    <surname>Bell</surname>
+                                </name>
+                            </author>
+                            <title level="m">The Language of News Media</title>
+                            <imprint>
+                                <pubPlace>Oxford</pubPlace>
+                                <publisher>Blackwell</publisher>
+                                <date when="1996">1996</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="bookChapter">
+                        <analytic>
+                            <author><name><forename type="first">V.</forename>
+                                    <surname>Bhatia</surname></name></author>
+                            <title level="a">Cognitive structuring in legislative provisions</title>
+                        </analytic>
+                        <monogr>
+                            <editor>
+                                <name>
+                                    <forename type="first">J.</forename>
+                                    <surname>Gibbons</surname>
+                                </name>
+                            </editor>
+                            <title level="m">Language and the Law</title>
+                            <imprint>
+                                <pubPlace>London</pubPlace>
+                                <publisher>Longman</publisher>
+                                <date when="1994">1994</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="bookChapter">
+                        <analytic>
+                            <author><name><forename type="first">W.</forename>
+                                    <forename type="middle"
+                                    >L.</forename><surname>Chafe</surname></name></author>
+                            <title level="a">Integration and Involvement in Speaking, Writing, and
+                                Oral Literature</title>
+                        </analytic>
+                        <monogr>
+                            <editor>
+                                <name>
+                                    <forename type="first">D.</forename>
+                                    <surname>Tannen</surname>
+                                </name>
+                            </editor>
+                            <title level="m">Spoken and Written Language</title>
+                            <imprint>
+                                <pubPlace>New Jersey</pubPlace>
+                                <publisher>Ablex</publisher>
+                                <date when="1982">1982</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <analytic>
+                            <author><name><forename type="first">W.</forename>
+                                    <forename type="middle"
+                                    >E.</forename><surname>Cooper</surname></name></author>
+                            <author><name><forename type="first">J.</forename>
+                                    <forename type="middle"
+                                    >R.</forename><surname>Ross</surname></name></author>
+                            <title level="a">World Order</title>
+                        </analytic>
+                        <monogr>
+                            <editor>
+                                <name>
+                                    <forename type="first">R.</forename>
+                                    <forename type="middle">E.</forename>
+                                    <surname>Grossman</surname>
+                                </name>
+                            </editor>
+                            <editor>
+                                <name>
+                                    <forename type="first">J.</forename>
+                                    <forename type="middle">L.</forename>
+                                    <surname>San</surname>
+                                </name>
+                            </editor>
+                            <editor>
+                                <name>
+                                    <forename type="first">T.</forename>
+                                    <forename type="middle">J.</forename>
+                                    <surname>Vance</surname>
+                                </name>
+                            </editor>
+                            <title level="m">Papers from the Parasession on Functionalism</title>
+                            <imprint>
+                                <pubPlace>Chicago</pubPlace>
+                                <publisher>Chicago Linguistic Society</publisher>
+                                <date when="1975">1975</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">D.</forename>
+                                    <surname>Crystal</surname>
+                                </name>
+                            </author>
+                            <author>
+                                <name>
+                                    <forename type="first">D.</forename>
+                                    <surname>Davy</surname>
+                                </name>
+                            </author>
+                            <title level="m">Investigating English Style</title>
+                            <imprint>
+                                <pubPlace>London</pubPlace>
+                                <publisher>Longmans</publisher>
+                                <date when="1969">1969</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author><name><forename type="first">C.</forename>
+                                    <forename type="middle">J.</forename>
+                                    <surname>Fillmore</surname></name></author>
+                            <author><name><forename type="first">P.</forename>
+                                    <surname>Kay</surname></name></author>
+                            <author><name><forename type="first">M.</forename>
+                                    <forename type="middle">C.</forename>
+                                    <surname>O'Connor</surname></name></author>
+                            <title level="a">Regularity and Idiomaticity in Grammatical
+                                Constructions: The Case of Let Alone</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Language</title>
+                            <imprint>
+                                <biblScope type="vol">64</biblScope>
+                                <biblScope type="issue">3</biblScope>
+                                <biblScope type="pp">501-538</biblScope>
+                                <date when="1988">1988</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author><name><forename type="first">U.</forename>
+                                    <surname>Fix</surname></name></author>
+                            <title level="a">Wortpaare im heutigen Deutsch</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Sprachpflege</title>
+                            <imprint>
+                                <biblScope type="vol">34</biblScope>
+                                <biblScope type="issue">8</biblScope>
+                                <biblScope type="pp">112-113</biblScope>
+                                <date when="1985">1985</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author><name><forename type="first">J.</forename>
+                                    <surname>Gerritsen</surname></name></author>
+                            <title level="a">More Paired Words in Othello</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">English Studies</title>
+                            <imprint>
+                                <biblScope type="vol">39</biblScope>
+                                <biblScope type="issue"/>
+                                <biblScope type="pp">212-214</biblScope>
+                                <date when="1958">1958</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author><name><forename type="first">D.</forename>
+                                    <forename type="middle">L.</forename>
+                                    <surname>Gold</surname></name></author>
+                            <title level="a">Reversible Binomials in Afrikaans, English, Esperanto,
+                                French, German, Hebrew, Italian, Judesmo, Latin, Lithuanian, Polish,
+                                Portuguese, Rumanian, Spanish and Yiddish</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Orbis</title>
+                            <imprint>
+                                <biblScope type="vol">36</biblScope>
+                                <biblScope type="issue"/>
+                                <biblScope type="pp">104-118</biblScope>
+                                <date when="1991">1991</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">M.</forename>
+                                    <surname>Gustafsson</surname>
+                                </name>
+                            </author>
+                            <title level="m">Binomial Expressions in Present-day English</title>
+                            <imprint>
+                                <pubPlace>Turku</pubPlace>
+                                <publisher>Turun Yliopisto</publisher>
+                                <date when="1975">1975</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author><name><forename type="first">M.</forename>
+                                    <surname>Gustafsson</surname></name></author>
+                            <title level="a">The syntactic features of binomial expressions in legal
+                                English.</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Text</title>
+                            <imprint>
+                                <biblScope type="vol">4</biblScope>
+                                <biblScope type="issue">1-3</biblScope>
+                                <biblScope type="pp">123-141</biblScope>
+                                <date when="1984">1984</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <analytic>
+                            <author><name><forename type="first"
+                                        >O.</forename><surname>Hatzidaki</surname></name></author>
+                            <title level="a">Part and Parcel: A Linguistic Analysis of Binomials and
+                                its Application to the Internal Characterization of Corpora</title>
+                        </analytic>
+                        <monogr>
+                            <edition>Ph.D. Thesis</edition>
+                            <imprint>
+                                <publisher>University of Birmingham</publisher>
+                                <date when="1999">1999</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">W.</forename>
+                                    <surname>Héraucourt</surname>
+                                </name>
+                            </author>
+                            <title level="m">Die Wertwelt Chaucers</title>
+                            <imprint>
+                                <pubPlace>Heidelberg</pubPlace>
+                                <publisher>Carl Winters</publisher>
+                                <date when="1939">1939</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author><name><forename type="first">B.</forename>
+                                    <surname>Johnstone</surname></name></author>
+                            <title level="a">An Introduction</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Text</title>
+                            <imprint>
+                                <biblScope type="vol">7</biblScope>
+                                <biblScope type="issue">3</biblScope>
+                                <biblScope type="pp">205-214</biblScope>
+                                <date when="1987">1987</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author><name><forename type="first">B.</forename>
+                                    <forename type="middle"
+                                    >J.</forename><surname>Koch</surname></name></author>
+                            <title level="a">Arabic Lexical Couplets and the Evolution of
+                                Synonymy</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">General Linguistics</title>
+                            <imprint>
+                                <biblScope type="vol">23</biblScope>
+                                <biblScope type="issue">1</biblScope>
+                                <biblScope type="pp">51-61</biblScope>
+                                <date when="1984">1984</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="bookChapter">
+                        <analytic>
+                            <author><name><forename type="first">B.</forename>
+                                    <surname>Louw</surname></name></author>
+                            <title level="a">Irony in the Text or Insincerity in the Writer - The
+                                Diagnostic Potential of Semantic Prosodie</title>
+                        </analytic>
+                        <monogr>
+                            <editor>
+                                <name>
+                                    <forename type="first">M.</forename>
+                                    <surname>Baker</surname>
+                                </name>
+                            </editor>
+                            <editor>
+                                <name>
+                                    <forename type="first">G.</forename>
+                                    <surname>Francis</surname>
+                                </name>
+                            </editor>
+                            <editor>
+                                <name>
+                                    <forename type="first">E.</forename>
+                                    <surname>Tognini-Bonelli</surname>
+                                </name>
+                            </editor>
+                            <title level="m">Text and Technology</title>
+                            <imprint>
+                                <pubPlace>Amsterdam</pubPlace>
+                                <publisher>John Benjamins</publisher>
+                                <date when="1993">1993</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author><name><forename type="first">Y.</forename>
+                                    <surname>Malkiel</surname></name></author>
+                            <title level="a">Studies in Irreversible Binomials</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Lingua</title>
+                            <imprint>
+                                <biblScope type="vol">8</biblScope>
+                                <biblScope type="issue"/>
+                                <biblScope type="pp">113-160</biblScope>
+                                <date when="1959">1959</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">D.</forename>
+                                    <surname>Mellinkoff</surname>
+                                </name>
+                            </author>
+                            <title level="m">The Language of the Law</title>
+                            <imprint>
+                                <pubPlace>Boston</pubPlace>
+                                <publisher>Little, Brown &amp; Co, Boston</publisher>
+                                <date when="1963">1963</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">L.</forename>
+                                    <forename type="middle">T.</forename>
+                                    <surname>Milic</surname>
+                                </name>
+                            </author>
+                            <title level="m">A Quantitative Approach to the Style of Jonathan
+                                Swift</title>
+                            <imprint>
+                                <pubPlace>The Hague</pubPlace>
+                                <publisher>Mouton &amp; Co</publisher>
+                                <date when="1967">1967</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">R.</forename>
+                                    <surname>Moon</surname>
+                                </name>
+                            </author>
+                            <title level="m">Fixed Expressions and Idioms in English</title>
+                            <imprint>
+                                <pubPlace>Oxford</pubPlace>
+                                <publisher>Clarendon Press</publisher>
+                                <date when="1998">1998</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author><name><forename type="first">W.</forename>
+                                    <surname>Nash</surname></name></author>
+                            <title level="a">Paired Words in Othello: Shakespeare's Use of a
+                                Stylistic Device</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">English Studies</title>
+                            <imprint>
+                                <biblScope type="vol">39</biblScope>
+                                <biblScope type="issue"/>
+                                <biblScope type="pp">212-214</biblScope>
+                                <date when="1958">1958</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <analytic>
+                            <author><name><forename type="first">N.</forename>
+                                    <forename type="middle"
+                                    >R.</forename><surname>Norrick</surname></name></author>
+                            <title level="a">Semantic Relations and Motivation in Idioms</title>
+                        </analytic>
+                        <monogr>
+                            <editor>
+                                <name>
+                                    <forename type="first">E.</forename>
+                                    <surname>Wiegland</surname>
+                                </name>
+                            </editor>
+                            <editor>
+                                <name>
+                                    <forename type="first">G.</forename>
+                                    <surname>Tschauder</surname>
+                                </name>
+                            </editor>
+                            <title level="m">Perspektive: Textintern</title>
+                            <imprint>
+                                <biblScope type="vol">Vol. 1</biblScope>
+                                <pubPlace>Tübingen</pubPlace>
+                                <publisher>Niemeyer</publisher>
+                                <date when="1980">1980</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">R.</forename>
+                                    <forename type="middle">M.</forename>
+                                    <surname>Ohmann</surname>
+                                </name>
+                            </author>
+                            <title level="m">Shaw: The Style and the Man</title>
+                            <imprint>
+                                <pubPlace>Middletown</pubPlace>
+                                <publisher>Wesleyan University Press</publisher>
+                                <date when="1962">1962</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="bookChapter">
+                        <analytic>
+                            <author><name><forename type="first">S.</forename>
+                                    <surname>Potter</surname></name></author>
+                            <title level="a">Chaucer's Untransposable Binomials</title>
+                        </analytic>
+                        <monogr>
+                            <editor>
+                                <name>
+                                    <forename type="first">E.</forename>
+                                    <surname>Ohmann</surname>
+                                </name>
+                            </editor>
+                            <editor>
+                                <name>
+                                    <forename type="first">V.</forename>
+                                    <surname>Vaananen</surname>
+                                </name>
+                            </editor>
+                            <editor>
+                                <name>
+                                    <forename type="first">A.</forename>
+                                    <surname>Kurvinen</surname>
+                                </name>
+                            </editor>
+                            <title level="m">Studies Presented to Tauno F. Mustanoja on the occasion
+                                of his sixtieth birthday</title>
+                            <imprint>
+                                <pubPlace>Helsinki</pubPlace>
+                                <publisher>Modern Language Society</publisher>
+                                <date when="1972">1972</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="journalArticle">
+                        <analytic>
+                            <author><name><forename type="first">J.</forename>
+                                    <surname>Sinclair</surname></name></author>
+                            <title level="a">The Search for Units of Meaning</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Textus</title>
+                            <imprint>
+                                <biblScope type="vol">9</biblScope>
+                                <biblScope type="issue"/>
+                                <biblScope type="pp">75-106</biblScope>
+                                <date when="1996">1996</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">E.</forename>
+                                    <surname>Tilgner</surname>
+                                </name>
+                            </author>
+                            <title level="m">Die Aureate Terms als Stilelement bei Lydgate</title>
+                            <title level="s">Germanische Studien</title>
+                            <imprint>
+                                <biblScope type="vol">182</biblScope>
+                                <pubPlace/>
+                                <publisher/>
+                                <date when="1936">1936</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">G.</forename>
+                                    <surname>Tuchman</surname>
+                                </name>
+                            </author>
+                            <title level="m">Making News</title>
+                            <imprint>
+                                <pubPlace>New York</pubPlace>
+                                <publisher>The Free Press</publisher>
+                                <date when="1978">1978</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct type="book">
+                        <monogr>
+                            <author>
+                                <name>
+                                    <forename type="first">T.</forename>
+                                    <forename type="middle">A.</forename>
+                                    <surname>van Dijk</surname>
+                                </name>
+                            </author>
+                            <title level="m">News Analysis</title>
+                            <imprint>
+                                <pubPlace>New Jersey</pubPlace>
+                                <publisher>Lawrence Erlbaum Associates</publisher>
+                                <date when="1988">1988</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

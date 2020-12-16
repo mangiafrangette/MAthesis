@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:x="http://www.w3.org/1999/xhtml" xmlns:exsl="http://exslt.org/common" xml:id="Paper-875">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Modèles tridimensionnels pour la représentation de l’état des connaissances et propositions de visualisation pour l’analyse des corpus textuels.</title>
+        <author>
+          <name>
+            <surname>Leblanc</surname>, <forename>Jean-Marc</forename>
+          </name>
+          <affiliation>Université Paris Est Créteil (UPEC), France </affiliation>
+          <email>jean-marc.leblanc@u-pec.fr </email>
+        </author>
+        <author>
+          <name>
+            <surname>Pérès</surname>, <forename>Marie</forename>
+          </name>
+          <affiliation>Université Paris Est Créteil (UPEC), France </affiliation>
+          <email>m-peres@wanadoo.fr</email>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority/>
+        <publisher>EPFL, Switzerland</publisher>
+        <distributor>
+          <name>EPFL Digital Humanities Laboratory</name>
+          <address>
+            <addrLine>GC D2 386</addrLine>
+            <addrLine>Station 18</addrLine>
+            <addrLine>CH-1015 Lausanne</addrLine>
+            <addrLine>frederic.kaplan@epfl.ch</addrLine>
+          </address>
+        </distributor>
+        <pubPlace>Lausanne, Switzerland</pubPlace>
+        <address>
+          <addrLine>EPFL</addrLine>
+          <addrLine>CH-1015 Lausanne</addrLine>
+        </address>
+        <availability>
+          <p/>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note type="abstract">Alors que la réflexion sur la visualisation est au cœur de disciplines parfois émergentes, que la web véhicule un grand nombre de représentations souvent sophistiquées, introduisant de nouveaux modèles, souvent esthétiques mais qui nécessitent de nouveaux apprentissages pour la lecture et l’interprétation, de nombreuses disciplines s’appuient actuellement sur la visualisation pour communiquer leurs résultats ou créer des outils scientifiques. Cette contribution prend appui sur des champs disciplinaires différents pour proposer une réflexion sur la représentation des connaissances qui nous à conduit à développer un outil de visualisation des données textuelles.</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>No source: created in electronic format.</p>
+        <p>
+          <date when="20140709"/>
+          <time when="11:00:00"/>
+        </p>
+		<p n="session">2</p>
+		<p n="room">412 - Amphimax</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="original" n="category">
+          <term>Paper</term>
+        </keywords>
+        <keywords scheme="original" n="subcategory">
+          <term>Long Paper</term>
+        </keywords>
+        <keywords scheme="original" n="keywords">
+          <term></term>
+        </keywords>
+        <keywords scheme="original" n="topic">
+          <term>art history</term>
+          <term>corpora and corpus activities</term>
+          <term>interface and user experience design</term>
+          <term>text analysis</term>
+          <term>knowledge representation</term>
+          <term>interdisciplinary collaboration</term>
+          <term></term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text type="paper">
+    <front>
+      
+      <div>
+        <p></p>
+        <p></p>
+      </div>
+    </front>
+    <body>
+      <div>
+        <head>Résumé</head>
+        <p>Alors que la réflexion
+sur la visualisation est au cœur de disciplines parfois émergentes, que la web
+véhicule un grand nombre de représentations souvent sophistiquées, introduisant
+de nouveaux modèles, souvent esthétiques mais qui nécessitent de nouveaux
+apprentissages pour la lecture et l’interprétation, de nombreuses disciplines
+s’appuient actuellement sur la visualisation pour communiquer leurs résultats
+ou créer des outils scientifiques.</p>
+        <p>Cette contribution
+prend appui sur des champs disciplinaires différents pour proposer une
+réflexion sur la représentation des connaissances qui nous à conduit à
+développer un outil de visualisation des données textuelles.</p>
+        <p>Nous analyserons ici
+les méthodes et principes de restitution archéologiques depuis les envois de
+Rome jusqu’aux modèles informatiques tridimensionnels interrogeant leur forme,
+leur propos et le rôle de transformateur d’information que doit endosser tout
+créateur de restitution archéologique afin de créer un objet répondant aux
+contraintes de la médiatisation et la médiation de l’objet d’étude. Nous
+montrerons en quoi ces réflexions ont nourri la conception de l’outil
+TextObserver qui s’inscrit dans la lignée de la textométrie en y introduisant
+de nouveaux modèles.</p>
+        <p>Les outils
+informatiques utilisés dans le domaine de la textométrie ont longtemps
+fonctionné sur des modèles bien éprouvés mais reposant quasi-essentiellement
+sur des visuels statistiques offrant peu de possibilités de manipulation ou
+d’expérimentation, et parfois peu aboutis sur le plan de l’ergonomie. Face à ce
+constat, le logiciel développé dans le prolongement de cette réflexion,
+TextObserver, vise précisément à introduire de nouveaux modèles de
+représentation des données et des résultats pour l’analyse des corpus textuels
+et multimodaux. Il propose des fonctionnalités originales sur le plan de la
+visualisation, rendues explicites par l’interactivité, et le traitement
+dynamique des données et des résultats textométriques. Il rend possible
+l’intégration de données textuelles diversifiées dans un cadre multimédia et
+répond en temps réel aux questionnements expérimentaux comme les facteurs de la
+variation discursive.</p>
+        <p>La rencontre entre ces
+questionnements novateurs en lexicométrie et ceux développés avec la création
+du modèle archéologique tridimensionnel servent de fondement à la création de
+cet outil exploratoire. Nous proposons de présenter les étapes de cette
+réflexion puis d'exposer les fonctionnalités essentielles de TextObserver en
+explorant un corpus de discours politiques. </p>
+        <p>Dans un premier temps
+nous présenterons une réflexion sur la représentation en archéologie et
+médiation de l'objet d'étude. Nous reviendrons sur l'évolution des
+représentations, depuis la renaissance jusqu'aux envois de Rome en passant par
+les premières représentations scientifiques du 18ème siècle et les premiers
+graphiques, jusqu'à l'émergence de la notion d'infographie au vingtième siècle
+dans les années 70, puis les pratiques liées à la data science et data
+visualisation que nous connaissons aujourd'hui. </p>
+        <p>Après cet état de
+l'art nous en viendrons à la représentation archéologique en nous appuyant sur
+l'exemple de la modélisation tridimensionnelle du Circus Maximus, mettant au
+jour le fait que le créateur d'objet multimédia devient un transformateur
+d'information. </p>
+        <p>La seconde partie de
+la contribution sera consacrée à la présentation de l'outil TextObserver dont
+la conception est issue d'une réflexion sur l'ergonomisation et la
+représentation des données textuelles et qui réinvestit les acquis de la
+recherche évoquée en première partie. </p>
+        <p><hi rend="italic">TextObserver</hi>est à la fois un outil de recherche et de formation à la recherche et s'inscrit dans une démarche proche de la
+textométrie, ajoutant à celle-ci une dimension expérimentale, multimodale et
+multimédia.</p>
+        <p>C'est en effet à
+partir de l'expertise approfondie d'un dispositif composé de logiciels
+longitudinaux et contrastifs (lexico3, Hyperbase, TXM) ou structurants (comme
+Alceste, iramuteq ou Astartext) voire de catégoriseurs (Cordial, Treetager), ou
+d'analyseurs sémantiques (Tropes) que se fonde la conception de <hi rend="italic">TextObserver</hi>. Il ne s'agit pas
+d'implémenter des fonctionnalités qui existeraient déjà au sein de ces
+logiciels mais d'apporter une réponse en termes d'ergonomie, d'interactivité et
+de visualisation et de développer des fonctionnalités originales. <hi rend="italic">TextObserver</hi>a été conçu en outre pour répondre à des questions de recherche faisant
+intervenir la variation. </p>
+        <p>Ainsi <hi rend="italic">TextObserver</hi> permet de visualiser les
+textes sous un angle différent, mais aussi de mieux appréhender les mesures
+mobilisées en textométrie. L'interactivité est l’innovation essentielle de ce
+logiciel: elle permet de se saisir de visualisations complexes telle que
+l'analyse factorielle de correspondances. </p>
+        <p>Nous présenterons tout
+d'abord le principe de la démarche textométrique dans laquelle s'inscrit
+TextObserver, présenterons le corpus que nous prenons ici comme matériau
+d'expérimentation, puis montrerons au moyen d'expertises ciblées, en quoi
+TextObserver permet de mettre au jour des phénomènes de variation qui seraient
+difficilement appréhendables au moyen des outils logiciels classiques. Nous
+articulerons cette présentation autour de trois axes: les fonctionnalités de
+visualisation, les fonctionnalités de calcul, les fonctionnalités de
+navigation. </p>
+        <p>Enfin nous évoquerons
+les développements futurs de TextObserver et les premières analyses menées au
+moyen de cet outil sur des corpus multimodaux (donc non exclusivement textuels)
+qui permettent d'étendre la recherche à l'analyse du web (recueil, constitution
+et visualisation de corpus en temps réel,analyse automatisée de pagds web).
+C'est donc un élargissement de la textométrie vers une textométrie multimédia -
+nous justifierons cette terminologie - que nous nous proposons de présenter
+dans cette contribution. 
+</p>
+      
+        
+      </div>
+    </body>
+    <back>
+      <div type="References">
+        <listBibl>
+          <bibl><hi rend="bold">Barats, C.,
+            Fiala, P., Leblanc, JM </hi>(2013) <hi rend="italic">Approches textométriques du web : corpus et
+              outils.</hi> In Manuel d'analyse du Web (Dir
+            Christine Barats), Armand Colin, Paris, 100-124.</bibl>
+          <bibl><hi rend="bold">Benzécri J. P.</hi>
+            (1980) <hi rend="italic">Pratique de l’analyse des données</hi>,
+            Dunod, Paris.</bibl>
+          <bibl><hi rend="bold">Benzécri J. P.
+          </hi>(1982) <hi rend="italic">Histoire et préhistoire de
+            l’analyse des données</hi>, Dunod, Paris.</bibl>
+          <bibl><hi rend="bold">Bonin S. </hi>(1983). <hi rend="italic">Initiation à la
+            graphique : transcription visuelle des données statistiques et cartographiques</hi>,
+            Épi éditeurs</bibl>
+          <bibl><hi rend="bold">Bouroche J-M., G. Saporta,</hi> (1980) <hi rend="italic">L'analyse
+            des données</hi>, PUF, (coll. "Que sais-je", n°1854, Paris.</bibl>
+          <bibl><hi rend="bold">Cibois P.</hi>,
+            (2000) <hi rend="italic">l’analyse factorielle</hi>, Presses
+            Universitaires de France - PUF (Que sais-je ?), (5<hi rend="sup">e</hi> éd.),
+            Paris.</bibl>
+          <bibl><hi rend="bold">Daknou
+            A. </hi>(2011) <hi rend="italic">Architecture distribuée à base
+              d’agents pour optimiser la prise en charge des patients dans les services
+              d’urgence en milieu hospitalier</hi>, Thèse de doctorat, Ecole Centrale de
+            Lille.</bibl>
+          <bibl><hi rend="bold">Gambette, P., Nuria, G., Guénoche, A., Nasr, A.</hi>
+            (2012), <hi rend="italic">Longueur de branches et arbres de mots,</hi> inCorpus 11, 129-146.</bibl>
+          <bibl><hi rend="bold">Guilmeau-Shala
+            S.</hi> (2011). <hi rend="italic">En quête de la couleur : publication de dessins réalisés lors de
+              voyages d’études en Grèce</hi>, in Bibliothèques d’atelier. Édition et
+            enseignement de l’architecture, Paris 1785-1871, INHA (« Les catalogues
+            d'exposition de l'INHA »)</bibl>
+          <bibl><hi rend="bold">James R. Beniger et
+            Dorothy L. Robyn.</hi> (1978).
+            <hi rend="italic">Quantitative graphics in statistics: A brief history</hi>, The American Statistician, no 32, pp. 1-11</bibl>
+          <bibl><hi rend="bold">Lebart L., Morineau A., Piron M.</hi>, (2000)<hi rend="italic">
+            Statistique exploratoire multidimensionnelle,</hi> Dunod, Paris.</bibl>
+          <bibl><hi rend="bold">Lechleiter F.</hi>
+            (sous la direction de Foucart  B.) (2008). <hi rend="italic">Les envois de Rome des
+              pensionnaires peintres de l’Académie de France à Rome de 1863 à 1914</hi>, thèse de
+            doctorat, Université Paris IV.</bibl>
+          <bibl><hi rend="bold">LUONG X.,</hi> (1998) <hi rend="italic">Représenter les données textuelles
+            par les arbres</hi> in S. Mellet (éd.), JADT
+            98, Nice 1998 (avec J.P. Barthélémy).</bibl>
+          <bibl><hi rend="bold">Pérès M. </hi>(2006). <hi rend="italic">De la modélisation à l’image virtuelle : image et réel</hi>. Figure de l’art, vol.(11): 197-208.</bibl>
+          <bibl><hi rend="bold">Pérès M.</hi> (sous la direction de Golvin JC.) (2001). <hi rend="italic">Réflexion sur le modèle
+            informatique du Cicus Maximus</hi>. Thèse de doctorat, Université Michel de
+            Montaigne - Bordeaux 3.</bibl>
+          <bibl><hi rend="bold">Plantin JC,</hi> (2013)<hi rend="italic"> "D'une carte à
+            l'autre: le potentiel heuristique de la comparaison entre graphes du web et
+            cartes géographiques".</hi> Dans Barats C.,(dir.) in Analyser le web en Sciences Humaines et Sociales, Armand Colin.
+            Paris.</bibl>
+          <bibl><hi rend="bold">Roxin I.,
+            Hutschmitt B., Mercier D. and Leblanc J.M. </hi>(2007) <hi rend="italic">Web sémantique, navigation
+              dans de grands corpus textuels In </hi><hi rend="italic">CIDE 10</hi>, dixième colloque international
+            sur le document numérique, 2-4 juillet 2007, Nancy, INIST.</bibl>
+          <bibl><hi rend="bold">Viprey J.M. </hi>(2006) <hi rend="italic">Ergonomiser la
+            visualisation AFC dans un environnement d'exploration textuelle : une
+            projection « géodésique » </hi>in actes des
+            JADT 2006, 989-1000.</bibl>
+          <bibl><hi rend="bold">Weiss G. </hi>(2001) <hi rend="italic">Agent orientation in software
+            engineering</hi>, in The Knowledge Engineering
+            Review, vol. 16, no. 4, 349 - 373.</bibl>
+          <bibl><hi rend="bold">Wildbur P. et
+            Burke M.</hi> (2001). <hi rend="italic">Le graphisme
+              d'information, Cartes, diagrammes, interfaces et signalétiques</hi>, Thames
+            &amp; Hudson</bibl>
+          <bibl><hi rend="bold">Wooldridge M. and Jennings N.R.</hi> (1995)
+            <hi rend="italic">Intelligent agents: Theory and practice</hi>, The
+            Knowledge Engineering Review, 10(2):115-152.</bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:x="http://www.w3.org/1999/xhtml" xmlns:exsl="http://exslt.org/common" xml:id="Paper-739">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Digitizing Women’s Literary History: The Possibility Of Collaborative Empowerment?</title>
+        <author>
+          <name>
+            <surname>Suzan</surname>, <forename>van Dijk</forename>
+          </name>
+          <affiliation>Huygens ING - Royal Dutch Academy of Arts and Sciences, Netherlands</affiliation>
+          <email></email>
+        </author>
+        <author>
+          <name>
+            <surname>Dekker</surname>, <forename>Ronald</forename>
+          </name>
+          <affiliation>Huygens ING - Royal Dutch Academy of Arts and Sciences, Netherlands</affiliation>
+          <email></email>
+        </author>
+        <author>
+          <name>
+            <surname>Partzsch</surname>, <forename>Henriette</forename>
+          </name>
+          <affiliation>St. Andrews University, UK</affiliation>
+          <email></email>
+        </author>
+        <author>
+          <name>
+            <surname>Prats Lopez</surname>, <forename>Montserrat</forename>
+          </name>
+          <affiliation>Vrije Universiteit Amsterdam, Netherlands</affiliation>
+          <email></email>
+        </author>
+        <author>
+          <name>
+            <surname>Sanz</surname>, <forename>Amelia</forename>
+          </name>
+          <affiliation>Complutense University Madrid, Spain </affiliation>
+          <email></email>
+        </author>
+        <author>
+          <name>
+            <surname>Filarski</surname>, <forename>Gertjan</forename>
+          </name>
+          <affiliation>Huygens ING - Royal Dutch Academy of Arts and Sciences, Netherlands</affiliation>
+          <email></email>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority/>
+        <publisher>EPFL, Switzerland</publisher>
+        <distributor>
+          <name>EPFL Digital Humanities Laboratory</name>
+          <address>
+            <addrLine>GC D2 386</addrLine>
+            <addrLine>Station 18</addrLine>
+            <addrLine>CH-1015 Lausanne</addrLine>
+            <addrLine>frederic.kaplan@epfl.ch</addrLine>
+          </address>
+        </distributor>
+        <pubPlace>Lausanne, Switzerland</pubPlace>
+        <address>
+          <addrLine>EPFL</addrLine>
+          <addrLine>CH-1015 Lausanne</addrLine>
+        </address>
+        <availability>
+          <p/>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note type="abstract">For under-researched fields within the Humanities there is a clear need of combining different approaches (large-scale next to small-scale), connecting different kinds of tools (databases and text edition/analysis), linking different levels of data (data - metadata) and engaging into collaboration people differently concerned by the research (professionals and volunteers). European women's literary history (until the early 20th century) is considered as being such an under-researched field. In this contribution we will present two case studies illustrating the importance and potentialities of this kind of large, diversified approach. We will also highlight the practical problems they provide, which for the moment are still creating obstacles. We will discuss these obstacles, addressing in particular the gaps between the technological possibilities, the willingness of potential volunteers (in our case often women: those whom we want to empower by our research) and the academic system. We will also propose possible strategies.</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>No source: created in electronic format.</p>
+        <p>
+          <date when="20140711"/>
+          <time when="14:00:00"/>
+        </p>
+		<p n="session">8</p>
+		<p n="room">414 - Amphimax</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="original" n="category">
+          <term>Paper</term>
+        </keywords>
+        <keywords scheme="original" n="subcategory">
+          <term>Long Paper</term>
+        </keywords>
+        <keywords scheme="original" n="keywords">
+          <term>women's writing</term>
+          <term>reception</term>
+          <term></term>
+        </keywords>
+        <keywords scheme="original" n="topic">
+          <term>gender studies</term>
+          <term>digital humanities - institutional support</term>
+          <term>literary studies</term>
+          <term>multilingual / multicultural approaches</term>
+          <term>content analysis</term>
+          <term>crowdsourcing</term>
+          <term></term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text type="paper">
+    <front>
+
+      <div>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+      </div>
+    </front>
+    <body>
+      <div>
+        <head>
+          <hi rend="bold">Introduction</hi>
+        </head>
+        <p>For
+several years, we have taken initiatives in view of clarifying women’s realparticipation
+in the European literary field before the early 20<hi rend="sup">th</hi> century – as
+opposed to the relative absence of
+women in literary histories of the 20<hi rend="sup">th</hi> century. We have worked in
+this large field through a series of successive projects funded on a national
+as well as a European scale. At present, the HERA project Travelling TexTs 1790-1914. The
+Transnational Reception of Women’s Writing at the Fringes of Europe
+(2013-2016) and the CLARIN-NL project Connections Between Women and Writings Within European Borders (COBWWWEB,
+2013-2014) provide the context of our presentation. Roughly speaking: the HERA
+project is about the content, while in the CLARIN project developers are
+preparing a new structure, allowing the database WomenWriters to connect to other – either structured or editing –
+projects in the field of women’s literature: for the sake of testing, in the
+first instance, to the Swedish Selma
+Lagerlöf Archive, the Norwegian Female
+Robinsonades and the Serbian Knjizenstvo
+project; others will follow.  </p>
+        <p>The intended large-scale approach is
+meant as a complement to ongoing individual
+digitizing projects, such as the Huygens ING “Digitizing Isabelle de
+Charrière’s letters” using the eLaborate
+edition project. Admittedly, “literary women” are benefitting from the new
+drive to digitize, but we are not yet able to feel the full benefit of these
+digitized texts. As Jacqueline Wernimont (2013) states, “simply saving women’s
+work in digital form” is not enough. The women’s texts are often presented in
+isolation from their historical reception
+context – which makes it impossible to evaluate their historical importance.</p>
+      </div>
+      <div>
+        <head>The large-scale and the individual</head>
+        <p>Referring
+to Labrosse 1985, we propose to take this reception context as a starting point
+for a large-scale approach on female authorship from previous, older periods in
+time. It represents the other end of
+the communication process in which these women engaged, and it helps us to
+select authors and texts that should be studied in more detail. When using
+these reception documents as an “entry” to the texts themselves, the emphasis obviously
+is on what struck the contemporary reader,
+in a positive and negative sense: we
+are thus in the middle of a dialogue.</p>
+        <p>Putting this data – with the appropriate
+metadata – in our online database (discussed and tested during an earlier COST
+financed phase of the collaboration) allows us to roughly situate these authors
+and works before analyzing them.  Giving
+these women their own place in the virtual representation of the literary
+field, where communication, circulation and transmission can be made visible,
+provides context and promotes understanding on a larger scale.</p>
+      </div>
+      <div>
+        <head>Linking for understanding relevance</head>
+        <p>It
+is, indeed, not the sheer presence of these women’s texts on the Internet that
+advances scholarship. It is the possibility of understanding their relevance –
+which has often been systematically denied,
+without reference to empirical data by way of arguments. Understanding
+relevance cannot be reached by any unprepared
+reading of the writings. Approaching texts from a “prepared” perspective
+obviously requires time, but frees these texts from prejudices that are
+inherent in the late 19<hi rend="sup">th</hi> and 20<hi rend="sup">th</hi>-century literary
+historiography of women’s authorship and that – although denounced by Virginia
+Woolf in A Room of one’s own (1929) –
+inevitably influences even our post-feminist students.</p>
+        <p>On the practical level, the connection
+between the structured database content, on the one hand, and the online edited
+texts to be studied, on the other, can be made visible by using the same terminology for (1) distinguishing
+database categories, and (2) annotations in the digitized text in editing
+platforms such as eLaborate. Linking
+this data is particularly essential for research in women’s literary history because of the small amount of information
+available, and therefore the need to compare women authors, postulating that
+problems encountered by one author are experienced similarly by her colleagues.</p>
+      </div>
+      <div>
+        <head>
+          <hi rend="bold">Use
+cases </hi>
+        </head>
+        <p>The objective
+of this presentation is to highlight the importance of ICT tools used in
+connection and in complement with each other, for research in domains (not just
+the one of women’s history) which have fallen behind. We will illustrate this
+using two examples, representing the two ends of literary communication: 
+
+</p>
+        <list type="ordered">
+          <item>A female sender, the Dutch-Swiss author writing in French Belle van Zuylen/Isabelle de Charrière (1740-1805), <ref type="url" target="http://neww.huygens.knaw.nl/receptions?fromreceptionsearch=1&amp;sort=year&amp;page=1&amp;searchtoggle=on&amp;workauthor=charri%C3%A8re&amp;worktitle=&amp;receptionauthor=&amp;gender=&amp;receptiontitle=&amp;receptionyear=&amp;references=&amp;notes=&amp;per_page=20&amp;x=18&amp;y=16">and her international (male + female) reception</ref>: she has her place in the WomenWriters database, and her letters are being digitized within the eLaborate project;</item>
+          <item>A male receiver, the Dutch 19<hi rend="sup">th</hi>-century literary critic Conrad Busken Huet, who <ref type="url" target="http://neww.huygens.knaw.nl/receptions?fromreceptionsearch=1&amp;sort=upper%28authors_works.name%29&amp;page=1&amp;searchtoggle=on&amp;workauthor=&amp;worktitle=&amp;receptionauthor=&amp;gender=M&amp;receptiontitle=huet&amp;receptionyear=&amp;references=&amp;notes=&amp;per_page=20">commented upon important numbers of (Dutch and foreign) women authors</ref>: he is present in the WomenWriters database, and his critiques are presented (without the possibility of annotation) in the Digital Library of Dutch Literature DBNL. </item>
+        </list>
+        <p>Briefly
+describing these two cases we want to illustrate the way in which this
+collective and transnational research in women’s literary history not only
+relies on combining several types of
+ICT tools, connecting different kinds of data (empirical data, “capta”,
+(references to the) primary and secondary texts), but also requires the
+participation of different categories of collaborators:
+not only professional researchers and ICT specialists but also volunteers. </p>
+        <p>This “mixed” collaboration is needed at a
+time when computers are still unable to communicate through the use of
+different languages. As this project collates women authors from all over
+Europe different tags and categories (denominated in English) are needed to
+refer to texts and aspects of texts in different languages. This can currently
+only be done by judgment, by readers who understand which elements of the
+(narrative) texts are characteristic or a-typical.
+
+</p>
+        <p>Many of the volunteers obviously will be
+women: the potential readers of both our research output and of the works
+written by “our” early women authors. They represent, typically, a category of
+people who will be “empowered” by the access that is given to their foremothers
+and potential role models…. </p>
+        </div>
+      <div>
+        <head>
+          <hi rend="bold">Administrative
+obstacles</hi>
+        </head>
+        <p>This
+complicated interconnection of collaborators may prove to be difficult.
+However, scholarship in the academy can no longer be fulfilled exclusively by
+the work of the professoriate. Technological innovations are not just a matter
+of devices and tools. They concern social practices; they concern users and
+uses. We can no longer ignore that, next to professionals (researchers,
+information technologists, librarians, and even students), there are “end
+users”, who are in fact essential members of our interdisciplinary community;
+they justify our very activities. It is important – given the precarious
+position of women in present-day society and the small number of historical
+role models – to “spread the word” about these early writing activities and the
+women behind them.</p>
+        <p>This massive, complex collaboration is
+not, at present, recognized by institutions and
+stakeholders; consequently, young and senior researchers, as much as
+students, are often not ready to invest themselves in this kind of
+collaborative project. In our presentation, we will also denounce the gaps
+between digital technologies, the willingness of potential volunteers and the
+entire educational and academic system, and we will propose some possible
+strategies.</p>
+
+
+      </div>
+    </body>
+    <back>
+      <div type="References">
+        <listBibl>
+        <bibl><hi rend="bold"><hi rend="bold">Bergenmar, J., Olsson,
+        L.</hi>,</hi>
+        (2012). <hi rend="italic">Connecting European Women Writers</hi>. The Selma Lagerlöf Archive and Women
+        Writers Database, in Digital Humanities
+        2012: Conference Abstracts. Hamburg: Hamburg University Press, pp. 113-114. <ref type="url" target="http://www.dh2012.uni-hamburg.de/wp-content/uploads/2012/07/HamburgUP_dh2012_BoA.pdf">www.dh2012.uni-hamburg.de/wp-content/uploads/2012/07/HamburgUP_dh2012_BoA.pdf</ref></bibl>
+        <bibl><hi rend="bold"><hi rend="bold">Bergenmar,
+          J., Marzec, L., Sanz, A.</hi>,</hi> (2013). <hi rend="italic">Learning to hack the Literary History –
+            teaching Transnational Women’s Writing Digitally</hi>, contribution to final
+          conference of COST Action IS0901 “Women Writers In History”: Female authorship in Europe: Networks and
+          obstacles. The Hague, June 2013. <ref type="url" target="http://www.womenwriters.nl/index.php/Learning_to_hack_the_Literary_History">www.womenwriters.nl/index.php/Learning_to_hack_the_Literary_History</ref></bibl>
+        <bibl><hi rend="bold"><hi rend="bold">Jeay, J., Sinclair, S.</hi>,</hi> (2012). <hi rend="italic">En quête
+          d’amitié. Approches méthodologiques pour l’analyse automatisée d’un corpus
+          électronique</hi>,  contribution to
+          SATOR conference Topiques de l’amitié,
+          Victoria June 2012. <ref type="url" target="http://web.uvic.ca/~amitie/index%20resumes.html">web.uvic.ca/~amitie/index%20resumes.html</ref></bibl>
+        <bibl><hi rend="bold"><hi rend="bold">Labrosse, C</hi>.,</hi> (1985). <hi rend="italic">Fonctions
+          culturelles du périodique littéraire</hi>, in Claude Labrosse, Pierre Rétat, L’instrument périodique, La fonction de la
+          presse au XVIIIe siècle. Lyon: Presses Universitaires de Lyon, pp. 11-136.</bibl>
+        <bibl><hi rend="bold"><hi rend="bold">Van Dijk, S.,</hi></hi> (2012).  <hi rend="italic">La correspondance d’Isabelle de Charrière en
+          ligne</hi>, Cahiers de l’Association Internationale des Etudes Françaises,
+          64, pp. 29-40. <ref type="url" target="http://www.womenwriters.nl/images/8/81/2012_SvanDijk_01_lacorrespondance.pdf">www.womenwriters.nl/images/8/81/2012_SvanDijk_01_lacorrespondance.pdf</ref></bibl>
+        <bibl><hi rend="bold"><hi rend="bold">Van Dijk, S</hi>.,</hi> (2012). <hi rend="italic">Amitié,
+          solidarité et entraide féminines : Spécificités d’auteurs femmes ?</hi>,
+          contribution to SATOR conference Topiques
+          de l’amitié, Victoria June 2012. <ref type="url" target="http://web.uvic.ca/~amitie/index%20resumes.html">web.uvic.ca/~amitie/index%20resumes.html</ref></bibl>
+        <bibl><hi rend="bold"><hi rend="bold">Van Dijk, S.,
+          Hoogenboom, H., Sanz, A., Bergenmar, J., Olsson, L.</hi>,</hi> (2012). <hi rend="italic">Data sharing, virtual
+            collaboration, and textual analysis: Working on “Women Writers In History”</hi>, in Digital Humanities 2012: Conference
+          Abstracts. Hamburg: Hamburg University Press, pp. 527-529. <ref type="url" target="http://www.dh2012.uni-hamburg.de/wp-content/uploads/2012/07/HamburgUP_dh2012_BoA.pdf">www.dh2012.uni-hamburg.de/wp-content/uploads/2012/07/HamburgUP_dh2012_BoA.pdf</ref></bibl>
+        <bibl><hi rend="bold"><hi rend="bold">Van Dijk, S., Prats
+          Lopez, M.</hi></hi> (2013). “<hi rend="italic">Participation as a way of creating new
+            audiences ?</hi>”, contribution to final conference of COST Action IS0901
+          “Women Writers In History”: Female
+          authorship in Europe: Networks and obstacles. The Hague, June 2013. <ref type="url" target="http://www.womenwriters.nl/index.php/Participation_as_a_way_of_creating_new_audiences_%3F">www.womenwriters.nl/index.php/Participation_as_a_way_of_creating_new_audiences_%3F</ref></bibl>
+        <bibl><hi rend="bold">Wernimont, J.,</hi>
+          (2013). <hi rend="italic">Whence Feminism? Assessing
+            Feminist Interventions in Digital Literary Archives</hi>, in Digital Humanities Quarterly 7/1. <ref type="url" target="http://www.digitalhumanities.org/dhq/vol/7/1/000156/000156.html">www.digitalhumanities.org/dhq/vol/7/1/000156/000156.html</ref></bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

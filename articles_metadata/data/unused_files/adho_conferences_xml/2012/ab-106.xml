@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="../schema/xmod_web.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xmt="http://www.cch.kcl.ac.uk/xmod/tei/1.0" 
+     xml:id="ab-106">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Programming Historian 2: A Participatory Textbook</title>
+                <author>
+                    <name>Crymble, Adam H.</name>
+                    <affiliation>Network in Canadian History &amp; Environment, UK</affiliation>
+                    <email>acrymbl@uwo.ca</email>
+                </author>
+                <author>
+                    <name>MacEachern, Alan</name>
+                    <affiliation>Network in Canadian History &amp; Environment, UK</affiliation>
+                    <email>amaceach@uwo.ca</email>
+                </author>
+                <author>
+                    <name>Turkel, William J.</name>
+                    <affiliation>Network in Canadian History &amp; Environment, UK</affiliation>
+                    <email>wturkel@uwo.ca</email>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Jan Christoph Meister, Universität Hamburg</publisher>
+                <address>
+                   <addrLine>Von-Melle-Park 6, 20146 Hamburg, Tel. +4940 428 38 2972</addrLine>
+                   <addrLine>www.dh2012.uni-hamburg.de</addrLine>
+              </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>No source: created in electronic format.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2012-04-15</date>
+                <name>DH</name>
+                <desc>generate TEI-template with data from ConfTool-Export</desc>
+            </change>
+            <change>
+                <date>2012-04-13</date>
+                <name>LS</name>
+                <desc>provide metadata for publicationStmt</desc>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="paper">
+        <body>
+            <p>The second edition of <hi rend="italic">The Programming Historian (PH2)</hi> is an
+                open access and open source introductory text designed to teach the fundamentals of
+                programming to humanists. The first edition (Turkel &amp; MacEachern 2007), while
+                popular, is basically a traditional text presented online. It was limited to the
+                lessons that we provided and followed a single narrative arc. The second edition,
+                also online, has been restructured to invite ongoing community participation and
+                authorship.</p>
+            
+                
+                <p>The project is designed with a core sequence of lessons that get readers up to
+                    speed with basic programming concepts. These show how to programmatically
+                    download sources from the Internet, process them for keywords, and visualize
+                    some textual attributes. Contributors can introduce new lessons at any point by
+                    branching off from a previous lesson. They might, for example, introduce a
+                    related technique, or show how to implement something in another programming
+                    language, on another platform, or using different kinds of sources. The
+                    branching structure allows members of the digital humanities community to add
+                    lessons based on their own specialties, or to create new sequences for use in
+                    the classroom, while still guaranteeing that readers will have the background
+                    required to understand a particular branch if their study of <hi rend="italic"
+                        >PH2</hi> has taken them to that point. Each lesson is intended to take two
+                    hours or less to complete.</p>
+        
+                <p>For contributors, <hi rend="italic">PH2</hi> provides a peer-reviewed platform
+                    for methodology. Both literary and technical reviewers vet all submissions with
+                    quality emphasized over quantity. Lessons are presented in a custom WordPress
+                    installation and code snippets are stored in GitHub for easy maintenance and
+                    sharing. To make the site as easy as possible to use, code snippets are pulled
+                    directly into the WordPress posts making GitHub essentially invisible for both
+                    authors and readers not familiar with or interested in its features. Individual
+                    lessons are attributed to their authors, and reviewers and other contributors
+                    receive public credit for their labour. For learners, <hi rend="italic">PH2</hi>
+                    focuses on the use of programming to solve problems common to academic research,
+                    such as obtaining, analyzing, processing, and mashing up sources. While there
+                    are hundreds of programming books on the market, very few teach these kinds of
+                    hands-on tasks that are crucial to the practice of the digital humanities. </p>
+                
+                <p>With the first edition of the <hi rend="italic">Programming Historian</hi>, we
+                    showed that there is a great demand for programming introduction that focuses on
+                    the day-to-day work of digital humanists both historians and otherwise. We have
+                    commissioned a number of new lessons from guest authors for the second edition
+                    and hope to open our submission process to the wider community shortly. From our
+                    past experience we know that people well beyond our target audience of digital
+                    humanists can and will use the project as a way to delve into programming. When
+                        <hi rend="italic">PH2</hi> launches publicly, we believe that the digital
+                    humanities community will embrace and expand it and we look forward to working
+                    with them.</p>
+            <div><p><hi rend="bold">Funding</hi></p>
+            
+            
+        </div></body>
+        <back>
+            <div>
+                <p>This work was supported by <hi rend="italic">The Network in Canadian History
+                        &amp; Environment, </hi>and the <hi rend="italic">Roy Rosenzweig Center for
+                        History and New Media.</hi></p></div>
+                <div>
+                    <head>References</head>
+                    <p><hi rend="bold">Github</hi><hi rend="italic">.</hi><ref
+                        target="http://github.com" type="external">http://github.com (accessed 1
+                        March 2012).</ref>
+                </p>
+                    <p><hi rend="bold">Wordpress.</hi><ref target="http://wordpress.org"
+                        type="external">http://wordpress.org</ref> (accessed 1 March 2012).</p>
+                <p><hi rend="bold">Turkel, W. J. and A. MacEachern</hi> (2007). <hi rend="italic"
+                        >The Programming Historian 1st Edition. </hi><ref
+                        target="http://niche-canada.org/programming-historian" type="external"
+                        >http://niche-canada.org/programming-historian</ref> (accessed 1 March
+                        2012).</p>
+                <p><hi rend="bold">Turkel, W. J., A. Crymble, J. Boggs, M. Posner, et al., eds.</hi>
+                    (2012). <hi rend="italic">The Programming Historian 2. </hi><ref
+                        target="http://chnm.gmu.edu/press/programminghistorian/"
+                        >http://chnm.gmu.edu/press/programminghistorian/</ref> (accessed 1 March
+                        2012).</p>
+                
+            </div>
+        </back>
+    </text>
+</TEI>

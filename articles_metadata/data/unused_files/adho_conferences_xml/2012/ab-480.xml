@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="../schema/xmod_web.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xmt="http://www.cch.kcl.ac.uk/xmod/tei/1.0" 
+     xml:id="ab-480">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Words made Image. Towards a Language-Based Segmentation of Digitized Art Collections</title>
+                <author>
+                    <name>Armaselu, Florentina</name>
+                    <affiliation>ZoomImagine, Germany</affiliation>
+                    <email>armaselu@ymail.com</email>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Jan Christoph Meister, Universität Hamburg</publisher>
+                <address>
+                   <addrLine>Von-Melle-Park 6, 20146 Hamburg, Tel. +4940 428 38 2972</addrLine>
+                   <addrLine>www.dh2012.uni-hamburg.de</addrLine>
+              </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>No source: created in electronic format.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2012-04-15</date>
+                <name>DH</name>
+                <desc>generate TEI-template with data from ConfTool-Export</desc>
+            </change>
+            <change>
+                <date>2012-04-13</date>
+                <name>LS</name>
+                <desc>provide metadata for publicationStmt</desc>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="paper">
+        <body>
+            <div>
+            
+            <head>Introduction</head>
+            <p>Within the framework of computer vision, the field of image
+            segmentation is becoming increasingly important for a set of applications aiming to an
+            understanding of the visual content, like object recognition and content-based image
+            retrieval. The goal of the segmentation process is to identify contiguous regions of
+            interest in a digitized image and to assign labels to the pixels corresponding to each
+            identified area. While most of today’s searching capabilities are based on metadata
+            (keywords and caption) attached to the image as a whole, one can observe a tendency
+            towards more meaning-oriented approaches intending to split the analyzed image into
+            semantically annotated objects.</p>
+            <p>From this perspective, research efforts have been
+            dedicated, on one hand, to the task of automated image annotation (Barnard et al. 2003;
+            Johnson 2008; Leong &amp; Mihalcea 2009; Leong et al. 2010), and on the other hand, to
+            the construction of semi-automatically annotated datasets used for supervised image
+            processing (MSRC-v2; Russel, Torralba et al. 2008; CBCL StreetScenes; PASCAL VOC 2007;
+            Welinder et al. 2010). The visual data used for automated annotation may consist, for
+            instance, in images extracted from the Web and the surrounding text in the html pages
+            used as a source of candidate labels (Leong and Mihalcea; Leong et al.). The datasets
+            are mainly derived from digital photographs with the goal to allow recognition of
+            objects belonging to a number of classes like <hi rend="italic">person, animal, vehicle, indoor (Pascal
+            VOC), pedestrians, cars, buildings, road</hi> (CBCL StreetScenes), <hi rend="italic">birds species</hi> (Caltech-
+            UCSD Birds 200) or to categories interactively defined by users in a Web-based
+            annotation environment (LabelMe).</p>
+           
+           <p>Our proposal is related to the latter group of
+            applications, i.e. the construction of an interactively annotated dataset of art images
+            (to our knowledge a category less represented in the field), taking into account the
+            textual descriptions of the images intended for analysis. The set of images for
+            segmentation will include digitized icons on themes described in the <hi rend="italic">Painter’s Manual</hi> by
+            Dionysius of Fourna. The choice was not arbitrary, given the highly canonical nature of
+            the Byzantine and Orthodox iconography, almost unchanged for centuries, and the close
+            relationship between the text and the pictorial content of the associated icon. Another
+            reason concerns the potential for subsequent applications of learning algorithms to the
+            segmentation of new sets of icons depicting the same themes (and therefore relatively
+            similar content), starting from the initial annotated training set. The choice of a
+            largely circulated text like the <hi rend="italic">Painter’s Manual</hi>, translated in several languages, may
+            also serve as a basis for multilingual annotation of the dataset.</p>
+            </div>
+            <div>
+                <head>The Experiment</head>
+            <p>The project consists in the use of two types of software, one intended to the
+            segmentation of the visual content, the other to the processing of the textual fragments
+            in order to provide the user with candidate labels for the annotation of the segments.
+            The experiment described below makes use of two open source Java packages, <hi rend="italic">GemIdent</hi> – a
+            statistical image segmentation system, initially designed to identify cell phenotypes in
+            microscopic images (Holmes et al. 2009), and the <hi rend="italic">Stanford parser</hi>, a natural language
+            statistical parser for English, which can be adapted to work with other languages such
+            as German, French, Chinese and Arabic. Figure 1 presents the original image, <hi rend="italic">The Baptism
+                of Christ</hi> (Nes 2004: 66), and the corresponding text from the <hi rend="italic">Painter’s Manual</hi> book.</p>
+
+                <p><figure>
+                        <graphic url="img480-1.jpg" rend="left" height="256px" width="341px"
+                            mimeType="image/jpeg"/>
+                        <head>Figure 1 a: 'The Baptism of Christ'. b: <hi
+                                rend="italic">The Baptism of Christ</hi> (Dionysius of Fourna 1996:
+                            33). Greek variant. Cretan school. Egg tempera on pine. 78.5 x 120 cm
+                            (1989) (Nes 2004: 66)</head>
+                    </figure></p>
+
+            <p>The image processing involved two phases of <hi rend="italic">colour</hi> and <hi
+                        rend="italic">phenotype</hi> (class or category of objects to be
+                    distinguished) training and a phase of segmentation (classification) (see Fig.
+                    2). In the phase of colour training (a), the user can define a set of colours,
+                    according to their importance in the analyzed image, by selecting sample points
+                    on the image for each colour. We defined four colours: <hi rend="italic"
+                        >Amber</hi>, <hi rend="italic">Blue</hi>, <hi rend="italic">Brown</hi>, and
+                        <hi rend="italic">Yellow</hi>. The phenotype training (b) implied the choice
+                    of representative points for every object in the picture that should be
+                    identified by the program in the segmentation phase. From the processed text
+                    with the Stanford parser, we used the following nouns as objects labels: <hi
+                        rend="italic">angel</hi>, <hi rend="italic">bank</hi>, <hi rend="italic"
+                        >Christ</hi>, <hi rend="italic">fish</hi>, <hi rend="italic"
+                    >Forerunner</hi>, <hi rend="italic">Holy</hi>_<hi rend="italic">Spirit</hi>, <hi
+                        rend="italic">Jordan</hi>, <hi rend="italic">ray</hi>, and <hi rend="italic"
+                        >word</hi>. For each phenotype, a colour for the corresponding segment was
+                    also chosen (b, c). The program required as well the specification of a
+                    NON-phenotype, i.e. an area in the image which does not include any of the above
+                    defined objects, in our case the black background representing the sky in the
+                    picture.</p>
+            
+                <p><figure><graphic url="img480-2.jpg" rend="left" height="256px" width="341px" mimeType="image/jpeg"/><head>Figure 2: <hi rend="italic">GemIdent</hi>. a. Colour training; b. Phenotype training; c.
+                            Segmented image</head></figure></p>
+            
+            <p>One can observe that the result of the segmentation process (c) is not perfect. There
+                    are small regions belonging to a segment but included in another object: for
+                    instance, the light blue (<hi rend="italic">Forerunner</hi>) and red (<hi
+                        rend="italic">Christ</hi>) areas inside the angel objects. <hi rend="italic"
+                        >GemIdent</hi> allows error correction and re-segmentation in order to
+                    improve the segmentation process. Although more tests are needed, the results
+                    obtained so far seem to indicate a performance depending on the colour selection
+                    (tests with same theme pictures, using the trained colour set without colour
+                    training on the new pictures, showed less satisfactory results), and on the
+                    number and position of the sample points for the phenotype training (ranging
+                    from 20 points for small objects like <hi rend="italic">word</hi> to 150 for
+                    larger objects like <hi rend="italic">bank</hi>; selection of sample points from
+                    border areas adjacent to different objects seem also particularly
+                    important).</p>
+                
+                <p>On the other hand, the experiment supposed the use of the <hi rend="italic">Type
+                        dependency Viewer</hi> to visualize the grammatical relationships produced
+                    by the Stanford parser, according to the typed dependencies model (Marneffe
+                    &amp; Manning 2011). Figure 3 presents the parsing results on the Dionysius of
+                    Fourna’s text. The directed edges in the graphs show the dependencies between a
+                        <hi rend="italic">governor</hi> element (or <hi rend="italic">head</hi>) and
+                    a <hi rend="italic">dependent</hi>, both corresponding to words in the sentence.
+                    The edge labels express the grammatical relations between the two words. For
+                    example, <hi rend="italic">nsubj</hi> refers to a <hi rend="italic">nominal
+                        subject</hi> relation between a verb (<hi rend="italic">standing</hi>, <hi
+                        rend="italic">surround</hi>) and the syntactic subject of a clause (<hi
+                        rend="italic">Christ</hi>, <hi rend="italic">fish</hi>). Similarly, <hi
+                        rend="italic">pobj</hi>, <hi rend="italic">dobj</hi> connect a <hi
+                        rend="italic">preposition</hi> (<hi rend="italic">in</hi>, <hi rend="italic"
+                        >of</hi>, <hi rend="italic">to</hi>) with its <hi rend="italic">object</hi>
+                    - the head of a noun phrase following the preposition (<hi rend="italic"
+                        >midst</hi>, <hi rend="italic">Jordan</hi>, <hi rend="italic">head</hi>, <hi
+                        rend="italic">Christ</hi>) – or, respectively, a <hi rend="italic">verb
+                        (surround)</hi> and its <hi rend="italic">direct object (Christ)</hi>. Other
+                    relations may refer to adverbial, prepositional or relative clause modifiers
+                        (<hi rend="italic">advmod, prep, rcmod</hi>), determiners (<hi rend="italic"
+                        >det</hi>), coordination (<hi rend="italic">cc</hi>), conjunct (<hi
+                        rend="italic">conj</hi>), undetermined dependency (<hi rend="italic"
+                        >dep</hi>), etc.</p>
+                
+                <p><figure>
+                        <graphic url="img480-3.jpg" rend="left" height="256px" width="341px"
+                            mimeType="image/jpeg"/>
+                        <head>Figure 3: <hi rend="italic">Stanford parser</hi> results displayed
+                            using the <hi rend="italic">Typed dependency viewer</hi>. Excerpts. <hi
+                                rend="italic">The Baptism of Christ</hi> (Dionysius of Fourna 1996:
+                            33)</head>
+                    </figure></p>
+            
+            <p>A parallel between the pictorial and textual representation of <hi rend="italic">The
+                        Baptism of Christ</hi> may be further explored. The introductory sentence
+                    describing Christ, as a subject of the clause, standing in the midst of the
+                    Jordan, is actually pointing to the central figure of the painting.
+                    Prepositional or adverbial phrases (such as <hi rend="italic">to the right</hi>,
+                        <hi rend="italic">to the left</hi>, <hi rend="italic">above</hi>, <hi
+                        rend="italic">below</hi>) act as mediators positioning the other elements in
+                    the icon relatively to the central figure. Likewise, <hi rend="italic"
+                        >Christ</hi> occurrences in the text as direct or prepositional object (of
+                    verbs like <hi rend="italic">rest</hi>, <hi rend="italic">descend</hi>, <hi
+                        rend="italic">look back,</hi>
+                    <hi rend="italic">surround</hi>) are emphasising the ‘focal point’ projection
+                    towards which all the other agents’ actions in the pictorial composition seem to
+                    converge.</p>
+             </div>
+            
+            <div>
+                <head>Further development</head>
+                
+                <p>Since the project is a work in progress, further development will be required:</p>
+                 
+                 <xmt:uList>
+                    <item>more tests, involving new sets of images and
+            associated art-historical description or annotation in another language (if translated
+            variants of the text and an adapted parser for that language are available); tests using
+            similar tools, as the Fiji/ImageJ segmentation plugins, result analysis and comparison
+            with other approaches like, for example, the computer-assisted detection of legal
+            gestures in medieval manuscripts (Schlecht et al. 2011);</item>
+                     <item>extension of the segmentation process and encoding to include
+                        language-based information, i.e. not only objects labels (<hi rend="italic"
+                            >nouns</hi>) but also dependencies reflecting the objects relationships
+                        in the textual description (relative positioning, actions agents and
+                        objects, by means of <hi rend="italic">verbs</hi>, adjectival, adverbial,
+                        prepositional <hi rend="italic">modifiers</hi>), as they are captured by the
+                        pictorial content;</item>
+                     <item>implementation of a semi-automatic tool combining
+            segmentation and parsing capabilities as in the presented experiment; the tool and
+            images corpus will be available on line so that potential users (students, teachers,
+            researchers in art history or image analysis) can reproduce the results or use them in
+            their own applications.</item>
+                 </xmt:uList>
+                    
+             <p>The DH 2012 presentation will focus on the preliminary stage aspects of the project,
+                    e.g. general framework, goals and expectations, experiments and partial results,
+                    tools and data choices, model design, more than on an overall quantitative and
+                    qualitative results analysis.</p>
+            </div>
+        </body>
+        <back>
+            <div>
+             <head>References</head>
+                
+            <p><hi rend="bold">Barnard, K., et al.</hi> (2003). Matching Words with Pictures.<hi
+                        rend="italic"> Journal of Machine Learning Research</hi> 3.</p>
+            <p><hi rend="bold">CBCL StreetScenes</hi>. <ref
+                    target="http://cbcl.mit.edu/software-datasets/streetscenes"
+                type="external">http://cbcl.mit.edu/software-datasets/streetscenes</ref> (accessed 25 March 2012).</p>
+            <p><hi rend="bold">Typed Dependency Viewer</hi>. <ref
+                        target="http://tydevi.sourceforge.net/" type="external"
+                        >http://tydevi.sourceforge.net/</ref> (accessed 25 March 2012).</p>
+            <p><hi rend="bold">MSRC-v2 image database, 23 object classes</hi>. Microsoft Research
+                    Cambridge. <ref
+                        target="http://research.microsoft.com/en-us/projects/ObjectClassRecognition"
+                        type="external"
+                        >http://research.microsoft.com/en-us/projects/ObjectClassRecognition</ref>
+                    (accessed 25 March 2012).</p>
+            <p><hi rend="bold">Dionysius of Fourna</hi> (1996). <hi rend="italic">The Painter’s
+                        manual</hi>. 1989, 1996, Torrance, CA : Oakwood Publications.</p>
+            <p><hi rend="bold">Fiji</hi>, <ref target="http://fiji.sc/wiki/index.php/Fiji"
+                        type="external">http://fiji.sc/wiki/index.php/Fiji</ref> (accessed 25 March
+                    2012).</p>
+            <p><hi rend="bold">Holmes, S., A. Kapelner, and P. P. Lee</hi> (2009). An Interactive
+                Java Statistical Image Segmentation System: GemIdent. <hi rend="italic">Journal of
+                    Statistical Software</hi> 30(10).</p>
+            <p><hi rend="bold">Johnson, M. A.</hi> (2008). <hi rend="italic">Semantic Segmentation
+                    and Image Search</hi>. Ph.D. dissertation, University of Cambridge.</p>
+            <p><hi rend="bold">Leong, C. W., and R. Mihalcea</hi> (2009). Exploration in Automatic
+                Image Annotation using Textual Features. <hi rend="italic">Proceedings of the Third
+                    Linguistic Annotation Workshop</hi>, ACL-IJCNLP 2009, Singapore, pp. 56-59.</p>
+            <p><hi rend="bold">Leong, C. W., R. Mihalcea, and S. Hassan</hi> (2010). The Mining for
+                Automatic Image Tagging<hi rend="italic">. Coding 2010</hi>, Poster Volume, Beijing,
+                pp. 647-655.</p>
+            <p><hi rend="bold">De Marneffe, M.-C., and C. D. Manning</hi> (2011). <hi rend="italic"
+                    >Stanford typed dependencies manual. </hi><ref
+                    target="http://nlp.stanford.edu/software/dependencies_manual.pdf"
+                type="external">http://nlp.stanford.edu/software/dependencies_manual.pdf</ref> (accessed 25 March
+                2012).</p>
+            <p><hi rend="bold">Nes, S.</hi> (2009). <hi rend="italic">The Mystical Language of
+                    Icons.</hi> Michigan/Cambridge, UK: Eerdmans Publishing.</p>
+            <p><hi rend="bold">The PASCAL VOC</hi>. (2007). <ref
+                        target="http://pascallin.ecs.soton.ac.uk/challenges/VOC/voc2007"
+                        type="external"
+                        >http://pascallin.ecs.soton.ac.uk/challenges/VOC/voc2007</ref> (accessed 25
+                    March 2012).</p>
+            <p><hi rend="bold">The Stanford Parser</hi>. <ref
+                        target="http://nlp.stanford.edu/software/lex-parser.shtml" type="external"
+                        >http://nlp.stanford.edu/software/lex-parser.shtml</ref> (accessed 25 March
+                    2012).</p>
+            <p><hi rend="bold">Russell, B. C., A. Torralba, K. P. Murphy, and W. T. Freeman</hi>
+                (2008).  <hi rend="italic">LabelMe: a database and web-based tool for image
+                    annotation</hi>. International Journal of Computer Vision 77(1-3): 157-173.</p>
+            <p><hi rend="bold">Schlecht J., B. Carqué, and B. Ommer</hi> (2011). Detecting Gestures
+                in Medieval Images<hi rend="italic">. IEEE International Conference on Image
+                    Processing (ICIP 2011)</hi>, September 11-14, Brussels, Belgium. <ref
+                    target="http://hci.iwr.uni-heidelberg.de/COMPVIS/research/gestures/ICIP11.pdf"
+                type="external">http://hci.iwr.uni-heidelberg.de/COMPVIS/research/gestures/ICIP11.pdf</ref> (accessed 25
+                March 2012).</p>
+            <p><hi rend="bold">Welinder, P., et al. </hi>(2010). <hi rend="italic">Caltech-UCSD
+                        Birds 200,</hi> California Institute of Technology, CNS-TR-2010-001. <ref
+                        target="http://vision.caltech.edu/visipedia/CUB-200.html" type="external"
+                        >http://vision.caltech.edu/visipedia/CUB-200.html</ref> (accessed 25 March
+                    2012).</p>
+            </div>
+        </back>
+    </text>
+</TEI>

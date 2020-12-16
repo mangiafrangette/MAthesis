@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="../schema/xmod_web.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xmt="http://www.cch.kcl.ac.uk/xmod/tei/1.0" 
+     xml:id="ab-363">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>DeRiK: A German Reference Corpus of Computer-Mediated Communication</title>
+                <author>
+                    <name>Lemnitzer, Lothar</name>
+                    <affiliation>Berlin-Brandenburgische Akademie der Wissenschaften, Germany</affiliation>
+                    <email>lemnitzer@bbaw.de</email>
+                </author>
+                <author>
+                    <name>Beißwenger, Michael</name>
+                    <affiliation>Technische Universität Dortmund, Germany</affiliation>
+                    <email>michael.beisswenger@uni-dortmund.de</email>
+                </author>
+                <author>
+                    <name>Ermakova, Maria</name>
+                    <affiliation>Berlin-Brandenburgische Akademie der Wissenschaften, Germany</affiliation>
+                    <email>ermakovamd@googlemail.com</email>
+                </author>
+                <author>
+                    <name>Geyken, Alexander</name>
+                    <affiliation>Berlin-Brandenburgische Akademie der Wissenschaften, Germany</affiliation>
+                    <email>geyken@bbaw.de</email>
+                </author>
+                <author>
+                    <name>Storrer, Angelika</name>
+                    <affiliation>Technische Universität Dortmund, Germany</affiliation>
+                    <email>angelika.storrer@uni-dortmund.de</email>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Jan Christoph Meister, Universität Hamburg</publisher>
+                <address>
+                   <addrLine>Von-Melle-Park 6, 20146 Hamburg, Tel. +4940 428 38 2972</addrLine>
+                   <addrLine>www.dh2012.uni-hamburg.de</addrLine>
+              </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>No source: created in electronic format.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2012-04-15</date>
+                <name>DH</name>
+                <desc>generate TEI-template with data from ConfTool-Export</desc>
+            </change>
+            <change>
+                <date>2012-04-13</date>
+                <name>LS</name>
+                <desc>provide metadata for publicationStmt</desc>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="paper">
+        <body>
+            
+            <div>
+                <head>Project background and focus of the paper</head>
+                <p>In view of the increasing amount of reading and writing that
+                    people do on the Internet, corpus designers who set out to provide balanced
+                    corpora that include all relevant text types of contemporary language should
+                    also include samples of genres of computer-mediated communication (CMC) such as
+                    e-mail, weblogs, microblogging on Twitter, discussion boards and wiki
+                    discussions, chats and instant messaging conversations, and communication in
+                    social network sites. In our paper we present selected aspects of an ongoing
+                    project that aims at building a reference corpus of German CMC, called <hi
+                        rend="italic">DeRiK</hi> (‘Deutsches Referenzkorpus zur internetbasierten
+                    Kommunikation’).<note>Cf. <ref target="http://www.empirikom.net/bin/view/Themen/DeRiK" type="external">http://www.empirikom.net/bin/view/Themen/DeRiK</ref>. The project is embedded in the scientific network ‘Empirische Erforschung internetbasierter Kommunikation’ (<ref target="http://www.empirikom.net/" type="external">http://www.empirikom.net/</ref>), funded by the Deutsche Forschungsgemeinschaft (DFG).</note> DeRiK is a joint initiative of TU
+                    Dortmund University and the Berlin-Brandenburg Academy of Sciences and the
+                    Humanities (BBAW). The corpus will be integrated into the lexical information
+                    system provided by the BBAW project <hi rend="italic">Digitales Wörterbuch der
+                        deutschen Sprache</hi> (<hi rend="italic">DWDS</hi>, <ref target="www.dwds.de" type="external">www.dwds.de</ref>).<note>Another corpus of contemporary language which aims to include a CMC subcorpus is the Dutch SoNaR project (Reynaert et al. 2010).</note></p>
+                <p>In our paper we will focus on the role of the DeRiK component in the DWDS
+                    framework (section 2) and on CMC-specific issues of corpus annotation (section
+                    3).</p>
+            </div>
+            
+            <div>
+                <head>Integrating CMC discourse into a corpus of contemporary German: motivation and application fields</head>
+                <p>DWDS (<ref target="www.dwds.de" type="external">www.dwds.de</ref>) is a lexical information system developed by and hosted at the
+                    BBAW. The system offers one-click-access to three different types of resources
+                    (Geyken 2007):</p>
+                <p>a) <hi rend="italic">lexical resources:</hi> a common language
+                        dictionary,<note>This dictionary is based on a six-volume paper dictionary,
+                        the <hi rend="italic">Wörterbuch der deutschen Gegenwartssprache</hi> (WDG,
+                        en.: ‘Dictionary of Contemporay German’) published between 1962 and 1977 and
+                        compiled at the Deutsche Akademie der Wissenschaften (cf. [WDG]).</note> an
+                    etymological dictionary, and a the­saurus;</p>
+                <p>b) <hi rend="italic">corpus resources:</hi> a balanced reference corpus (called
+                    ‘DWDS core corpus’) of German ranging from 1900 up to now, a set of additional
+                    newspaper corpora, and specialized corpora;</p>
+                <p>c) <hi rend="italic">statistical resources</hi> for words and word
+                    combinations.</p>
+                <p>These resources are displayed alongside one another in separate panels (cf. Fig.
+                    1). The system offers the choice among several views, i.e. between several
+                    profiles with predefined panel combinations.</p>
+                <p><figure><graphic url="img363-1.jpg" rend="left" height="256px" width="341px" mimeType="image/jpeg"/><head>Figure 1: Web frontend of the DWDS system (<ref target="http://www.dwds.de" type="external"
+                    >http://www.dwds.de</ref>)</head></figure></p>
+                <p>The CMC component <hi rend="italic">DeRiK</hi> (‘Deutsches Referenzkorpus zur
+                    internetbasierten Kommunika­tion’) will be integrated into this framework both
+                    as an independent panel and as a subcorpus of the DWDS core corpus. The sampling
+                    of the CMC genres in DeRiK is guided by the findings of the
+                    ‘ARD/ZDF-Onlinestudie’, a German online usage survey conducted once per year
+                    (www.ard-zdf-onlinestudie.de). The findings of this survey allow us to derive a
+                    key for the composition of our corpus. However, for practical reasons the
+                    project will set out to acquire data of only those CMC applications on the
+                    Internet for which the users have explicitly granted permission for
+                    (re-)distributing and (re-)using their written utterances for non-commercial
+                    purposes/academic research.<note>This is typically communicated by assigning certain subtypes of the ‘Creative Commons’ License to CMC documents or to web applications which specify the terms of (re-)use and (re-)distribution of their content.</note> The first partial corpus
+                    of DeRiK will include discourse from <hi rend="italic">Wikipedia</hi> talk
+                    pages, a selection of forum and weblog discussions, chat conversations, and
+                    postings of selected <hi rend="italic">Twitter</hi> users who have licensed
+                    their tweets under Creative Commons. We hope that in the long term changes in
+                    IPR restrictions within the domain of discourse on the Internet will enable us
+                    to apply more principled methods of data sampling.</p>
+                <p>The integration of the CMC reference corpus into the DWDS system may be valuable
+                    for various research and application fields, for example:</p>
+                <p><hi rend="bold">a) Language variation, language change and stylistics:</hi> A
+                    general-language corpus that includes a CMC component will provide a broad
+                    empirical basis (a) for further, corpus-based investigations of the usage and
+                    dissemination of CMC-specific phenomena across linguistic varieties and digital
+                    genres, and (b) for comparative analyses of the features of CMC discourse and of
+                    “traditional” written genres (e.g. newspaper, fiction, scientific writing,
+                    nonliterary prose); it will thus facilitate to track and describe how new
+                    linguistic patterns and communicative genres emerge.<note>Overviews of the features of CMC discourse from a linguistic perspective can be found, e.g., in Herring (ed., 1996, 2010), Werry (1996), Runkehl et al. (1998), Beißwenger (2000), Crystal (2001, 2011), Beißwenger &amp; Storrer (2008), and Storrer (2012). The DeRiK corpus will include annotations of selected phenomena which are often described as being typical for language use on the Internet.</note></p>
+                <p><hi rend="bold">b) Lexicology and lexicography:</hi> Besides genre-specific
+                    discourse markers and netspeak jargon (like ‘lol’ <hi rend="italic">laughing out
+                        loud</hi> or ‘imho’ <hi rend="italic">in my humble opinion</hi>), new
+                    vocabulary is characteristic for CMC discourse, e.g. ‘funzen’ (an abbreviated
+                    variant of ‘funktionieren’ <hi rend="italic">to</hi><hi rend="italic"> </hi><hi
+                        rend="italic">function</hi>) or ‘gruscheln’ (a function of a German social
+                    network platform, most likely a blending of ‘grüßen’ <hi rend="italic"
+                        >greet</hi> and ‘kuscheln’ <hi rend="italic">cuddle</hi>). There are also
+                    CMC-specific processes of lexical-semantic changes, e.g. the broadening of the
+                    concept of ‘Freund’ (<hi rend="italic">friend</hi>). Up-to-date lexical
+                    resources should document and describe these tendencies by integrating CMC data
+                    into their data basis. Once the first partial corpora of the DeRiK corpus are
+                    made available in the DWDS system, it is intended to extend the DWDS dictionary
+                    component with entries describing new lexemes that have evolved from CMC
+                    discourse. In addition, the DWDS corpus system will then allow one to track how
+                    new vocabulary from CMC discourse (such as the examples mentioned above) spreads
+                    into ‘traditional’ genres (e.g. newspaper, fiction, nonliterary prose).</p>
+                <p><hi rend="bold">c) Language teaching:</hi> CMC has become an important part of
+                    everyday communication. Language- and culture-specific properties of CMC should
+                    thus also be regarded in communicative approaches to Second Language Teaching.
+                    In this context, the DeRiK corpus and the documentation of CMC vocabulary in the
+                    DWDS dictionary may be useful resources. In school teaching, students with
+                    German as a native language may use the DWDS system to compare written language
+                    with CMC and to explore how style varies across different genres.</p>
+                
+            </div>            
+            
+            <div>
+            <head>Annotation of CMC-specific phenomena</head>
+                <p>One advantage of integrating DeRiK into the DWDS system is that users can profit from the DWDS
+                    corpus annotation and querying facilities: The corpus resources which are
+                    currently available in the DWDS system are lemmatized with the <hi rend="italic"
+                        >TAGH</hi> morphology (cf. Geyken &amp; Hanneforth 2006) and tagged with the
+                    part-of-speech tagger <hi rend="italic">moot</hi> (cf. Jurish 2003). The corpus
+                    search engine <hi rend="italic">DDC</hi> (<hi rend="italic">Dialing DWDS
+                        Concordancer</hi>) supports linguistic queries on several annotation levels
+                    (word forms, lemmas, STTS part-of-speech categories), filtering (e.g. by text
+                    type) and sorting options.</p>
+                <p>Since all corpus resources in the DWDS system are encoded according the
+                    guidelines of the Text Encoding Initiative (TEI-P5), the project aims to use and
+                    customize TEI for the appropriate base-level annotation of the CMC sub-corpus.
+                    For this purpose, we have developed a TEI-compliant annotation schema that</p>
+                
+                <xmt:uList>
+                    <item>
+                        provides a macro-structure of CMC discourse which should cover as many
+                            genres as possible (see section 3.1);
+                    </item>
+                    <item>
+                        provides a suggestion for the description of CMC-specific phenomena which
+                            is oriented mainly on surface features (for instance, the annotation
+                            will cover interaction signs of various types; see section 3.2 for
+                            details).
+                    </item>
+                </xmt:uList>
+                
+                    <p>The TEI-related details of this schema are described in Beißwenger et
+                        al. (2012).<note> The RNG schema file, a TEI-compliant ODD documentation as well as encoding examples are available at <ref target="http://www.empirikom.net/bin/view/Themen/CmcTEI" type="external">http://www.empirikom.net/bin/view/Themen/CmcTEI</ref>.</note> The discussion in this paper will focus on
+                    two annotation issues: The representation of CMC-specific micro- and
+                    macrostructures (section 3.1) and the annotation of typical ‘netspeak’ elements
+                    (section 3.2).</p>
+                
+                <div>
+                <head>Annotation of CMC-specific micro- and macrostructures</head>
+                <p>We introduced the category <hi rend="italic">posting</hi> as a basic element to
+                    capture CMC micro- and macrostructures. A posting<hi rend="italic"> </hi>is
+                    defined as a content unit that is being sent to the server ‘en bloc’. Postings
+                    can usually be recognized by their formal structure, even if they have different
+                    forms and structures across CMC genres. This facilitates the automatic
+                    segmentation and annotation of CMC micro- and macrostructures.</p>
+                <p>We use the term <hi rend="italic">microstructure</hi> to refer to the internal
+                    structure of postings. There are cases in which a posting consists of exactly
+                    one portion of text. In other CMC genres, e.g. in discussion groups, postings
+                    may contain divisions and markup used by the author to structure their
+                    content.</p>
+                <p>We use the term <hi rend="italic">macrostructure</hi> to describe how the
+                    postings are sequenced. While microstructures are generated by an individual
+                    author, macrostructures do not emerge from the actions of just <hi rend="italic"
+                        >one</hi> user but from all posting activities of <hi rend="italic">all</hi>
+                    users involved in a CMC conversation plus server routines for ordering the
+                    incoming postings.</p>
+                <p>In our TEI schema, we represent structures on the microstructure level (which
+                    result from the planning and composition decisions of <hi rend="italic">one</hi>
+                    author) using the <hi rend="italic">&lt;p&gt;</hi> element (‘paragraph’) from
+                    the TEI standard. Structures on the macrostructure level, in contrast, are
+                    described using the <hi rend="italic">&lt;div&gt;</hi> element (‘division’). In
+                    addition, we differentiate between two major types of CMC macrostructures:</p>
+                
+                <xmt:uList>
+                    <item>
+                        <hi rend="italic">logfile</hi> structures, which arrange the postings in
+                            a linear chronological order based on when they reached the server.
+                    </item>
+                    <item>
+                        <hi rend="italic">thread</hi> structures, which arrange the postings in a
+                            sequence and use two dimensions with specific semantics: the <hi
+                                rend="italic">above/below</hi> dimension representing a temporal
+                            ‘before/after’ relation; the <hi rend="italic">left/right</hi> dimension
+                            (by indentation), which usually symbolizes the topical affiliation of
+                            one posting to a previous posting.
+                    </item>
+                </xmt:uList>
+                </div>
+                
+                <div>
+                
+                    <head>Annotation of interaction signs</head>
+                <p>The corpus-based investigation of ‘netspeak’ jargon is interesting in many
+                        research contexts (style variation and language change, discourse
+                        management, language teaching etc.). Our annotation schema copes for a set
+                        of ‘netspeak’ phenomena which we term ‘interaction signs’. The term builds
+                        on the category ‘interaktive Einheiten’ which has been introduced in the <hi
+                            rend="italic">Grammatik der deutschen Sprache</hi>, a three-volume
+                        scientific grammar of the German Language (cf. Zifonun et al. 1997), to
+                        classify <hi rend="italic">interjections</hi> (such as ‘hm’ or ‘oh my god’)
+                        and <hi rend="italic">responsives</hi> (such as ‘yes’ and ‘no’) in spoken
+                            discourse<note>In other grammars these units are described as <hi
+                                rend="italic">interjections</hi> (e.g., Greenbaum 1996; McArthur et
+                            al. 1998; Blake 2008) or <hi rend="italic">Interjektionen</hi>
+                            (DUDEN-4<hi rend="sup">7</hi>), <hi rend="italic">inserts</hi> (Biber et al. 1999, 2002),
+                                <hi rend="italic">discourse markers</hi> (Schiffrin 1986), <hi
+                                rend="italic">discourse particles</hi> or <hi rend="italic"
+                                >Gesprächspartikeln</hi> (DUDEN-4<hi rend="sup">5</hi>).</note>. In contrast to
+                        part-of-speech-categories, interaction signs are not syntactically
+                        integrated and do not contribute to the compositional structure of
+                        sentences. In spoken discourse, they serve as devices for conversation
+                        management, i.e. they can be used to express reactions to the partners’
+                        utterances or to display the speaker’s emotions. Our category ‘interaction
+                        sign’ includes interjections and responsives as well as four CMC-specific
+                        classes (cf. Fig. 2):</p>
+                    
+                    <p><figure><graphic url="img363-2.jpg" rend="left" height="256px" width="341px" mimeType="image/jpeg"/><head>Figure 2: Typology of interaction signs (with examples)</head></figure></p> 
+                
+                <xmt:oList rend="arabic">
+                    <item>
+                        <hi rend="italic">Emoticons </hi>are iconic units that have been created
+                            with the keyboard and which typically serve as emotion or irony markers
+                            or as responsives. Being of iconic origin, the use of emoticons is not
+                            restricted to a specific language. However, different styles of
+                            emoticons exist – e.g, Western style emoticons such as <hi rend="italic"
+                                >:-)</hi>, <hi rend="italic">:-(</hi>, <hi rend="italic">;-)</hi> or
+                            the <hi rend="italic">:)</hi>, or Japanese style emoticons such as <hi
+                                rend="italic">(^_^)</hi>, <hi rend="italic">\(^_^)/</hi>, <hi
+                                rend="italic">(*_*)</hi>.
+                    </item>
+                    <item>
+                        <hi rend="italic">Interaction words</hi> are symbolic linguistic units
+                            whose morphologic construction is based on a word or a phrase. They may
+                            describe gestures or facial expressions, e.g. <hi rend="italic">*g*</hi>
+                            (&lt; “grins”<hi rend="italic"> grin</hi>), <hi rend="italic">*fg*</hi>
+                            (&lt; <hi rend="italic">fat grin</hi>), <hi rend="italic">*s*</hi> (&lt;
+                                <hi rend="italic">smile</hi>), or they are used for the simulation
+                            of actions and events.
+                    </item>
+                    <item>
+                        <hi rend="italic">Interaction templates</hi> are units that the user does
+                            not generate with the keyboard but which are generated automatically
+                            from a file with a previously prepared text or graphical element after
+                            the user has activated a template. Due to their generation from
+                            predefined templates, we do not classify them as emoticons, even though
+                            some of them may have similar functions. Amongst others, this category
+                            includes <hi rend="italic">*.gif</hi> files. Many of them portray not
+                            just facial expressions but can depict almost everything; in the case of
+                            animated graphics they can even portray entire scenes as moving
+                            pictures.
+                    </item>
+                    <item>
+                        <hi rend="italic">Addressing terms</hi> are units which are used to
+                            address an utterance to a particular interlocutor. The most widely used
+                            form here is the one made out of the &lt;@&gt;-character together with a
+                            specification of the addressee’s name.
+                    </item>
+                </xmt:oList>
+                  
+                
+                </div>
+                </div>
+                
+                <div>
+                    <head>Conclusion and outlook</head>
+                    <p>Up to now, many
+                    assumptions about the Internet’s impact on language change have been based upon
+                    small datasets. As a new component within the DWDS system, the DeRiK corpus is
+                    meant to be a resource for the investigation of language usage in CMC genres on
+                    a broader empirical basis. The annotation schema sketched in section 3 is used
+                    and evaluated in the ongoing work of the DeRiK project. The categories proposed
+                    in this schema will have to be further discussed within the CMC community. We
+                    consider the development of this schema as a first step towards the development
+                    of an annotation standard that will facilitate cross-language, cross-genre, and
+                    micro-diachronic investigations of CMC phenomena on the basis of corpora. The
+                    schema focuses on linguistic aspects, but it is open for extensions motivated
+                    through other fields of research, i.e. cultural studies or sentiment
+                    analysis.</p> 
+                </div>
+        </body>
+        <back>
+            <div>
+                <head>References</head>
+
+            <p><hi rend="bold">Beißwenger, M. </hi>(2000). <hi rend="italic">Kommunikation in
+                        virtuellen Welten: Sprache, Text und Wirklichkeit</hi>. Stuttgart:
+                    Ibidem.</p>
+            <p><hi rend="bold">Beißwenger, M., and A. Storrer</hi> (2008). Corpora of
+                    Computer-Mediated Communication. In A. Lüdeling and M. Kytö (eds.), <hi
+                        rend="italic">Corpus Linguistics</hi>. <hi rend="italic">An International
+                        Handbook,</hi> vol. 1. Berlin: de Gruyter, pp. 292-308.</p>
+            <p><hi rend="bold">Beißwenger, M., M. Ermakova, A. Geyken, L. Lemnitzer, and A.
+                    Storrer</hi> (2012). A TEI schema for the Representation of the
+                Computer-mediated Communication. <hi rend="italic">TEI (Text Encoding Initiative)
+                    Journal</hi>. (submitted 2012).</p>
+            <p><hi rend="bold">Biber, D., et al.</hi> (1999). <hi rend="italic">Longman Grammar of
+                    Spoken and Written English</hi>. Edinburgh: Pearson.</p>
+            <p><hi rend="bold">Biber, D., et al.</hi> (2002). <hi rend="italic">Longman Student
+                    Grammar of Spoken and Written English</hi>. Edinburgh: Pearson.</p>
+            <p><hi rend="bold">Blake, B. J.</hi> (2008). <hi rend="italic">All About Language</hi>.
+                New York: Oxford UP.</p>
+            <p><hi rend="bold">Crystal, D.</hi> (2001). <hi rend="italic">Language and the
+                    Internet</hi>. Cambridge: Cambridge UP.</p>
+            <p><hi rend="bold">Crystal, D.</hi> (2011). <hi rend="italic">Internet Linguistics. A
+                    Student Guide.</hi> New York: Routledge.</p>
+            <p>[DUDEN-4<hi rend="sup">5</hi>] <hi rend="bold">DUDEN</hi> (1995). <hi rend="italic">Die Grammatik</hi>.
+                5th ed. Mannheim: Bibliographisches Institut.</p>
+            <p>[DUDEN-4<hi rend="sup">7</hi>] <hi rend="bold">DUDEN</hi> (2005). <hi rend="italic">Die Grammatik</hi>.
+                7th ed. Mannheim: Bibliographisches Institut.</p>
+            <p><hi rend="bold">Geyken, A. </hi>(2007). The DWDS corpus: A reference corpus for the
+                German language of the 20th century. In Ch. Fellbaum (ed.), <hi rend="italic"
+                    >Collocations and Idioms</hi>. London: Continuum, pp. 23-40.</p>
+            <p><hi rend="bold">Geyken, A., and Th. Hanneforth</hi> (2006). TAGH – A Complete
+                Morphology for German based on Weighted Finite State Automata. In: A. Yli-Jyrä, L. Karttunen, and J. Karhumäki (eds),<hi rend="italic"> Finite State Methods and Natural Language
+                    Processing – Proceedings of FSMNLP, 5th international workshop,</hi> Helsinki
+                2005, Heidelberg: Springer (= Lecture Notes in Artificial Ingelligence 4002), pp.
+                55-66.</p>
+            <p><hi rend="bold">Greenbaum, S.</hi> (1996). <hi rend="italic">The Oxford English
+                    Grammar</hi>. New York: Oxford UP.</p>
+            <p><hi rend="bold">Herring, S. C. </hi>(1996). Introduction. In: S. C. Herring (ed.),
+                    <hi rend="italic">Computer-Mediated Communication. Linguistic, Social and
+                    Cross-Cultural Perspectives</hi>. Amsterdam/Philadelphia: John Benjamins, pp.
+                1-10.</p>
+            <p><hi rend="bold">Herring, S. C., ed.</hi> (1996). <hi rend="italic">Computer-Mediated
+                    Communication. Linguistic, Social and Cross-Cultural Perspectives</hi>.
+                Amsterdam/Philadelphia: John Benjamins.</p>
+            <p><hi rend="bold">Herring, S. C., ed.</hi> (2010). Computer-Mediated Conversation, Part
+                I. <hi rend="italic">Special Issue of Language@Internet</hi> 7. 
+                <ref target="http://www.languageatinternet.org/articles/2010" type="external">http://www.languageatinternet.org/articles/2010</ref> (accessed 11 March 2012)</p>
+            <p><hi rend="bold">Jurish, B.</hi> (2003). A Hybrid Approach to Part-of-Speech Tagging,
+                Final report. <hi rend="italic">Project ‘Kollokationen im Wörterbuch’</hi>.
+                Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. <ref
+                    target="http://www.ling.uni-potsdam.de/~moocow/pubs/dwdst-report.pdf"
+                    type="external">http://www.ling.uni-potsdam.de/~moocow/pubs/dwdst-report.pdf</ref>  (accessed 11 March
+                2012)</p>
+            <p><hi rend="bold">McArthur, T., ed.</hi> (1998). <hi rend="italic">Concise Oxf</hi><hi
+                    rend="italic">ord Companion to the English Language</hi>. Oxford: Oxford UP.</p>
+            <p><hi rend="bold">Reynaert, N., O. Oostdijk, H. de Clercq, et al.</hi>
+                (2010). Balancing SoNaR: IPR versus Processing Issues in a 500-Million-Word Written
+                Dutch Reference Corpus. In <hi rend="italic">Proceedings of the Seventh conference
+                    on International Language Resources and Evaluation (LREC’10)</hi>. Paris,
+                2693-2698. Online:
+                <ref target="http://eprints.eemcs.utwente.nl/18001/01/LREC2010_549_Paper_SoNaR.pdf" type="external">http://eprints.eemcs.utwente.nl/18001/01/LREC2010_549_Paper_SoNaR.pdf</ref></p>
+            <p><hi rend="bold">Runkehl, K., T. Siever, and P. Schlobinski</hi> (1998). <hi
+                    rend="italic">Sprache und Kommunikation im Internet. Überblick und
+                    Analysen.</hi> Opladen: Westdeutscher Verlag.</p>
+            <p><hi rend="bold">Schiffrin, D.</hi> (1986). <hi rend="italic">Discourse markers</hi>.
+                Cambridge: Cambridge UP.</p>
+            <p><hi rend="bold">Storrer, A.</hi> (2012, in press). Sprachstil und Sprachvariation in
+                sozialen Netzwerken. In B. Frank-Job, A. Mehler, and T. Sutter (eds.), <hi
+                    rend="italic">Die Dynamik sozialer und sprachlicher Netzwerke. Konzepte,
+                    Methoden und empirische Untersuchungen an Beispielen des WWW.</hi> Wiesbaden: VS
+                Verlag für Sozialwissenschaften.</p>
+            <p>[TEI-P5] <hi rend="bold">TEI Consortium</hi> (eds., 2007). <hi rend="italic">TEI P5:
+                    Guidelines for Electronic Text Encoding and Interchange.</hi>
+                <ref target="http://www.tei-c.org/Guidelines/P5/"
+                type="external">http://www.tei-c.org/Guidelines/P5/</ref> (accessed 11 March 2012).</p>
+            <p>[WDG]: <hi rend="bold">Klappenbach, R., and W. Steinitz, eds.</hi> (1964-1977). <hi
+                    rend="italic">Wörterbuch der deutschen Gegenwartssprache (WDG).</hi> 6 Bände.
+                Berlin: Akademie-Verlag.</p>
+            <p><hi rend="bold">Werry, C. C.</hi> (1996). Linguistic and interactional features of
+                Internet Relay Chat. In S. C. Herring (ed.), <hi rend="italic">Computer-Mediated
+                    Communication. Linguistic, Social and Cross-Cultural Perspectives</hi>.
+                Amsterdam/Philadelphia: John Benjamins, pp. 47-63.</p>
+            <p><hi rend="bold">Zifonun, G., L. Hoffmann, B. Strecker, et al., eds.</hi> (1997). <hi
+                    rend="italic">Grammatik der deutschen Sprache.</hi> 3 Bände. Berlin, New York:
+                de Gruyter.</p>
+            </div>
+        </back>
+    </text>
+</TEI>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="../schema/xmod_web.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xmt="http://www.cch.kcl.ac.uk/xmod/tei/1.0" 
+     xml:id="ab-154">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Computing and Visualizing the 19th-Century Literary Genome</title>
+                <author>
+                    <name>Jockers, Matthew</name>
+                    <affiliation>Stanford University, USA</affiliation>
+                    <email>mjockers@stanford.edu</email>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Jan Christoph Meister, Universität Hamburg</publisher>
+                <address>
+                   <addrLine>Von-Melle-Park 6, 20146 Hamburg, Tel. +4940 428 38 2972</addrLine>
+                   <addrLine>www.dh2012.uni-hamburg.de</addrLine>
+              </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>No source: created in electronic format.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2012-04-15</date>
+                <name>DH</name>
+                <desc>generate TEI-template with data from ConfTool-Export</desc>
+            </change>
+            <change>
+                <date>2012-04-13</date>
+                <name>LS</name>
+                <desc>provide metadata for publicationStmt</desc>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="paper">
+        <body>
+            <div>
+                <head>Overview</head>
+                <p>In literary studies, we have no shortage of anecdotal wisdom regarding the role
+                    of influence on creativity. Consider just a few of the most prominent voices:  </p>
+                <xmt:oList rend="arabic">      
+                    <item> ‘Talents imitate, geniuses steal’ – Oscar Wilde (1854-1900?).<note>Routinely attributed to Wilde, but of uncertain origin, Wilde probably ‘borrowed’ this quip.</note></item>
+                    <item>‘All ideas are second hand, consciously and unconsciously drawn from a
+                        million outside sources’ – Mark Twain (1903).</item>
+                    <item>‘The historical sense compels a man to write not merely with his own
+                        generation in his bones, but with a feeling that the whole of the literature …
+                        has a simultaneous existence’ – T. S. Eliot (1920).</item>
+                    <item>‘The elements of which the artwork is created are external to the
+                        author and independent of him …’ – Osip Brik (1929).</item>
+                    <item><hi rend="italic">Anxiety of Influence </hi>– Harold Bloom (1973).</item>
+                </xmt:oList>
+                <p>Whether consciously influenced by a predecessor or not, it might be argued that
+                    every book is in some sense a necessary descendant of, or necessarily <hi
+                        rend="italic">‘</hi>connected to,<hi rend="italic"> ’</hi> those before it.
+                    Influence may be direct, as when a writer models his or her writing on another
+                        writer,<note>An extreme case may be Fielding’s <hi rend="italic"
+                            >Shamela</hi>, which attempts to satirize Richardson’s <hi rend="italic"
+                            >Pamela</hi>.</note> or influence may be indirect in the form of
+                    unconscious borrowing. Influence may even be <hi rend="italic"
+                        >‘</hi>oppositional<hi rend="italic">’</hi> as in the case of a writer who
+                    wishes to make his or her writing intentionally different from that of a
+                    predecessor. The aforementioned thinkers offer informed but anecdotal evidence
+                    in support of their claims of influence. My research brings a complementary
+                    quantitative and macroanalytic dimension to the discussion of influence. For
+                    this, I employ the tools and techniques of stylometry, corpus linguistics,
+                    machine learning, and network analysis to measure influence in a corpus of late
+                    18th- and 19th-century novels.</p>
+                </div>
+            <div>
+            
+                <head>Method</head>
+                <p>The 3,592 books in my corpus span from 1780 to 1900 and were written by authors
+                    from Britain, Ireland, and America; the corpus is almost even in terms of gender
+                    representation. From each of these books, I extracted stylistic information
+                    using techniques similar to those employed in authorship attribution analysis:
+                    the relative frequencies of every word and mark of punctuation are calculated
+                    and the resulting data winnowed so as to exclude features not meeting a preset
+                    relative frequency threshold.<note>Features with a corpus mean less than 0.10 were excluded.  This resulted in 92 features being retained. For more on feature selection practices see: Martindale and McKenzie (1995), Yang and Pedersen (1997), Hoover (2001), Zhao and Zobel (2005), Garcia and Martin (2007), Grieve (2007), Hoover (2008)</note> From each book I also
+                    extracted thematic (or <hi rend="italic">‘</hi>topical<hi rend="italic">’</hi>)
+                    information using Latent <hi rend="italic">Dirichlet</hi> Allocation (Blei, Ng
+                    et al. 2003; Blei, Griffiths et al. 2004; Chang, Boyd-Graber et al. 2009). The
+                    thematic data includes information about the percentages of each theme/topic
+                    found in each text.<note>For this research, the topic model was set to extract 500 latent topics.</note> I combine these two categories of
+                    data – stylistic and thematic – to create <hi rend="italic">‘</hi>book
+                        signals<hi rend="italic">’</hi> composed of 592 unique feature measurements.
+                    The <hi rend="italic">‘</hi>Euclidian” metric is then used to calculate every
+                    book’s distance from every other book in the corpus. The result is a distance
+                    matrix of dimension 3,592 x 3,592.<note>‘Distance’ here is a measure of stylistic and thematic similarity. Distances were calculated using the default settings of the ‘dist()’ function in the R statistics package.  See: Team (2011)</note></p>
+                <p>While measuring and tracking <hi rend="italic">‘</hi>actual<hi rend="italic"
+                        >’</hi> or <hi rend="italic">‘</hi>true<hi rend="italic">’</hi> influence –
+                    conscious or unconscious – is impossible, it is possible to use the
+                    stylistic-thematic distance/similarity measurements as a proxy for influence.<note>This is not simply a ‘proxy’ of convenience. It is, in fact, an ideal proxy, especially so when we consider that even plagiarism (the most obvious form of influence) can be accidental.</note> Network visualization software can then be used as a
+                    way to organize, visualize, and study the presence of influence among of books
+                    in my corpus.<note>I’m grateful to my colleague Elijah Meeks who sees the world through network analysis goggles and who aided me in visualizing and analyzing this data.</note> To prepare the data for use in a network
+                    environment, I converted the distance matrix into a long-form table with
+                    12,902,464 rows and three columns in which each row captures a distance
+                    relationship between two books. The first cell contains a <hi rend="italic"
+                        >‘</hi>source<hi rend="italic">’</hi> book, the second cell a <hi
+                        rend="italic">‘</hi>target<hi rend="italic">’</hi> book, and a third cell
+                    the measured distance between the two. After removing all of the records in
+                    which the target book was published before, or in the same year as, the source
+                    book,<note>Influence only works in one direction!</note> the data was reduced from 12,902,464 records
+                    to 6,447,640. This data and a separate table of metadata were then imported into
+                    the open source network analysis software package Gephi (2009) for analysis and
+                    visualization.</p></div>
+                <div>
+               <head>Analysis</head>
+                    <p>Networks are constructed out of nodes (books) and edges (distances). When plotted, nodes with less similarity (i.e. larger distances between them) will spread out further in the network. Figure 1 offers a simplified example of three imaginary books.</p><p><figure><graphic url="img154-1.jpg" rend="left" height="256px" width="341px" mimeType="image/jpeg"/><head>Figure 1: a sample network with edge numbers representing measured distances between nodes</head></figure></p>
+                    <p>While it is not possible to show the details of the entire network here, it is possible to display several of the most obvious macro-structures. Figure 2, for example, presents a zoomed out view of the network with book nodes colored according to dates of publication.<note>All network layouts employ Gephi’s built-in Force Atlas 2 algorithm.</note></p><p><figure><graphic url="img154-2.jpg" rend="left" height="256px" width="341px" mimeType="image/jpeg"/><head>Figure 2: The 19<hi rend="sup">th</hi>-century novel network colored according to publication date</head></figure></p>
+                    <p>The shading of nodes and edges according to publication date reveals the inherently chronological nature of stylistic and thematic change.  The progressive darkening of the nodes from east to west allows us to see, at the macro-scale, how style and theme are changing and evolving over time. <note>Remember that time is not a feature in the similarity calculations.  The arrangement of the nodes in a chronological fashion is a byproduct of the way in which the books signals change in a regular, chronological, manner.</note>Also seen in this image is a ‘satellite’ of books in the northwest.  This satellite represents a ‘community’ of novels that are highly self-similar but at the same time markedly different from the books in the main network cluster. <note>In the larger presentation of this work, I will offer an explanation for why the 499 books in this isolated cluster are split off from the main network. One unifying element is time; most are books from a similar time period, but the full explanation is more nuanced.</note>When the network is recolored according to gender (figure 3), a new axis can be seen splitting the network into northern and southern sectors along gender lines.</p><p><figure><graphic url="img154-3.jpg" rend="left" height="256px" width="341px" mimeType="image/jpeg"/><head>Figure 3: The 19<hi rend="sup">th</hi>-century novel network colored according to author-gender</head></figure></p>
+                    <p>This visualization (Figure 3) reveals that works by female authors (colored
+                    light gray) and male authors (black) are more stylistically and thematically
+                    homogeneous within their respective gender classes. As a result of this
+                    similarity in ‘signals,’ female-authored books cluster together on the south
+                    side of the main network, while male-authored books are drawn together in the
+                        north.<note>Even in the satellite community, sub clustering by gender is
+                        apparent.</note> These two ‘views’ of the network allow us to begin
+                    imagining the larger macro-history of thematic-stylistic change and influence in
+                    the 19th-century novel. What is not obvious in this macro-view, however, is that
+                    a great many of the individual books we have traditionally studied are in fact
+                    ‘mutations’ or outliers from the general trends. Harriet Beecher Stowe’s <hi
+                        rend="italic">Uncle Tom’s Cabin</hi>, for example, clusters closer to the
+                    works of male authors, and Maria Edgeworth’s <hi rend="italic">Belinda</hi> has
+                    a signal that does not become dominant for forty years after the date of
+                    Belinda’s publication. Also absent from the macro-view are the individual
+                    thematic-stylistic ‘legacies’. Using three measures of network significance
+                    (weighted in-degree, weighted out-degree and Page-Rank), <note>Weighted
+                        in-degree is a measure of influence coming into a node whereas weighted
+                        out-degree provides a measure of the influence a given node exerts on
+                        subsequent nodes. The Page-Rank algorithm can be used to gauge the
+                        significance/power/importance of a book in the overall network.</note>I will
+                    end my presentation with the argument that Jane Austen and Walter Scott are at
+                    once the least influenced (i.e. most original) of the early writers in the
+                    network and, at the same time, the most influential in terms of the longevity,
+                    or ‘fitness,’ of their thematic-stylistic signals. The signals introduced by
+                    Austen and Scott position them at the beginning of a stylistic-thematic
+                    genealogy; they are, in this sense, the literary equivalent of <hi rend="italic"
+                        >Homo erectus</hi> or, if you prefer, Adam and Eve. </p>
+            </div>
+            
+        </body>
+        <back>
+            <div>
+                    <head>References</head>
+                <p><hi rend="bold">Bastian, M., S. Heymann, et al.</hi> (2009). <hi rend="italic"
+                        >Gephi: An Open Source Software for Exploring and Manipulating
+                    Networks</hi>.</p><p><hi rend="bold">Blei, D. M., T. L. Griffiths, et al. </hi>(2004).<hi rend="italic"> Hierarchical
+                        topic models and the nested Chinese restaurant process</hi>. Cambridge, MA:
+                    MIT Press.</p><p><hi rend="bold">Blei, D. M., A. Y. Ng, et al.</hi> (2003). Latent Dirichlet Allocation. <hi
+                        rend="italic">Journal of Machine Learning Research</hi> 3: 993-1022. </p><p><hi rend="bold">Bloom, H</hi>. (1973).
+                            <hi rend="italic">The anxiety of influence; a theory of poetry</hi>. New
+                        York: Oxford UP.</p><p><hi rend="bold">Bloom, H</hi>. (2011). <hi rend="italic">The anatomy of influence: literature as
+                        a way of life</hi>. New Haven, Conn.: Yale UP.</p><p><hi rend="bold">Brik, O.
+                            M</hi>. (1929). Teaching Writers.</p><p><hi rend="bold">Chang, J., J. Boyd-Graber, et al.</hi> (2009). <hi rend="italic">Reading Tea
+                        Leaves: How Humans Interpret Topic Models</hi>Advances in Neural Information
+                    Processing Systems 22.</p><p><hi rend="bold">Eliot, T. S.</hi>
+                        (1920). <hi rend="italic">The sacred wood; essays on poetry and
+                            criticism</hi>. London: Methuen.</p><p><hi rend="bold">Garcia, M., and C. Martin</hi> (2007). Function Words in Authorship Attribution
+                    Studies. <hi rend="italic">Literary and Linguistic Computing: Journal of the
+                        Association for Literary and Linguistic Computing</hi>
+                    <hi rend="bold">2</hi>2(1): 49-66.</p><p><hi rend="bold">Grieve, J.</hi>
+                        (2007). Quantitative Authorship Attribution: An Evaluation of Techniques.
+                            <hi rend="italic">Literary and Linguistic Computing: Journal of the
+                            Association for Literary and Linguistic Computing</hi> 22(3):
+                        251-270.</p><p><hi rend="bold">Hoover, D. L.</hi> (2001). Statistical
+                        Stylistics and Authorship Attribution: An Empirical Investigation. <hi
+                            rend="italic">Literary and Linguistic Computing: Journal of the
+                            Association for Literary and Linguistic Computing</hi> 16(4):
+                        421-444.</p><p><hi rend="bold">Hoover, D. L.</hi> (2008). <hi rend="italic"
+                            >Quantitative Analysis and Literary Studies. A Companion to Digital
+                            Literary Studies</hi>. Oxford: Blackwell.</p><p><hi rend="bold">Martindale, C., and D. McKenzie</hi> (1995). On the Utility of Content Analysis
+                    in Author Attribution: The Federalist. <hi rend="italic">Computers and the
+                        Humanities</hi> 29(4): 259-270.</p><p><hi rend="bold">Team, R.
+                            D. C.</hi> (2011). <hi rend="italic">R: A Language and Environment for
+                            Statistical Computing</hi>. Vienna: Austria, R Foundation for
+                        Statistical Computing.</p><p><hi rend="bold">Twain, M., and A. B. Paine</hi> (1975). <hi rend="italic">Mark Twain’s
+                        letters</hi>. New York: AMS Press.</p><p><hi rend="bold">Yang, Y., and J. Pedersen</hi> (1997). <hi rend="italic">A comparative study on
+                        feature selection in text categorization</hi>. Proceedings of the 14th
+                    International Conference on Machine Learning (ICML ’97), Nashville,
+                    Tennessee.</p><p><hi rend="bold">Zhao, Y., and J. Zobel</hi> (2005). Effective and scalable authorship attribution
+                    using function words. <hi rend="italic">Lecture Notes in Computer Science</hi>.
+                    Berlin: Springer, pp.<hi rend="bold"> </hi>174-189.</p>
+            </div>
+        </back>
+    </text>
+</TEI>

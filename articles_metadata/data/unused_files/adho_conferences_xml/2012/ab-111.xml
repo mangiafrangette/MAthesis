@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="../schema/xmod_web.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xmt="http://www.cch.kcl.ac.uk/xmod/tei/1.0" 
+     xml:id="ab-111">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Translation Arrays: Exploring Cultural Heritage Texts Across Languages</title>
+                <author>
+                    <name>Cheesman, Tom</name>
+                    <affiliation>Swansea University, UK</affiliation>
+                    <email>t.cheesman@swansea.ac.uk</email>
+                </author>
+                <author>
+                    <name>Thiel, Stephan</name>
+                    <affiliation>Fachhochschule Potsdam, Germany</affiliation>
+                    <email>mail@stephanthiel.com</email>
+                </author>
+                <author>
+                    <name>Flanagan, Kevin</name>
+                    <affiliation>Swansea University, UK</affiliation>
+                    <email>K.FLANAGAN.667644@swansea.ac.uk</email>
+                </author>
+                <author>
+                    <name>Zhao, Geng</name>
+                    <affiliation>Swansea University, UK</affiliation>
+                    <email>cszg@swansea.ac.uk</email>
+                </author>
+                <author>
+                    <name>Ehrmann, Alison</name>
+                    <affiliation>Swansea University, UK</affiliation>
+                    <email>alison.ehrmann@t-online.de</email>
+                </author>
+                <author>
+                    <name>Laramee, Robert S.</name>
+                    <affiliation>Swansea University, UK</affiliation>
+                    <email>R.S.Laramee@swansea.ac.uk</email>
+                </author>
+                <author>
+                    <name>Hope, Jonathan</name>
+                    <affiliation>University of Strathclyde, UK</affiliation>
+                    <email>jonathan.r.hope@strath.ac.uk</email>
+                </author>
+                <author>
+                    <name>Berry, David M.</name>
+                    <affiliation>Swansea University, UK</affiliation>
+                    <email>d.m.berry@swansea.ac.uk</email>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Jan Christoph Meister, Universität Hamburg</publisher>
+                <address>
+                   <addrLine>Von-Melle-Park 6, 20146 Hamburg, Tel. +4940 428 38 2972</addrLine>
+                   <addrLine>www.dh2012.uni-hamburg.de</addrLine>
+              </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>No source: created in electronic format.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2012-04-15</date>
+                <name>DH</name>
+                <desc>generate TEI-template with data from ConfTool-Export</desc>
+            </change>
+            <change>
+                <date>2012-04-13</date>
+                <name>LS</name>
+                <desc>provide metadata for publicationStmt</desc>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="paper">
+        <body>
+            
+            <p>Astronomers use telescope arrays to create high-resolution images of distant objects.
+                In a Translation Array, by aligning multiple divergent translations (target texts)
+                we can produce new images of the historical and contemporary dynamics of translating
+                cultures, and also of the originals (source texts), by showing how these are
+                refracted through translators’ varying interpretations. </p>
+            <p>Text variation – multiple documentary and curatorial witnesses – is a familiar
+                challenge in digital edition-making (Price 2006; Schmidt &amp; Colomb 2009). But in
+                DH work so far, the ‘story’ which is told about a text or oeuvre is normally
+                confined to its original language. (An exception is Rybicki 2003, 2006; and cf.
+                Altintas et al. (2007) for a historical linguistics application of a ‘time
+                separated’ parallel translation corpus.) In fact, the stories of ‘cultural heritage
+                texts’ (Schmidt 2010) are normally multilingual and multicultural. Can we make it
+                practically possible (and preferably enjoyable as well as informative) to explore,
+                share, and debate the rich knowledge of texts and the world that is encoded in
+                multiple translations?</p>
+            <p>The fact that multiple translations have remained, until now, an unsuspected resource
+                for DH comes as no surprise from the perspective of Critical Translation Studies
+                (CTS). <hi rend="italic">The Scandals of Translation</hi> and <hi rend="italic">The
+                    Translator’s Invisibility</hi> are two titles by the doyen of the field, Venuti
+                (1995, 1998). Few outside it appreciate the scale of divergence, of multiple kinds,
+                caused by multiple factors, which is normal among multiple translations. The causes
+                of divergence include varying translator competence and individual creativity,
+                framed within target-context-specific norms: linguistic, cultural, political, legal,
+                and ideological constraints and compulsions, which all affect the acts and outputs
+                of translation or retranslation (Gürcaglar 2009). Multiple translations are
+                therefore a very rich resource for transcultural study. They are tailor-made for
+                digital approaches, because each one is implicitly aligned with each other one, and
+                with the original – at least partially. </p>
+            <p>A Translation Array is a database (a multiple translation text corpus with rich
+                metadata including rich segmental alignments to a source text) with a browser-based
+                interface. It exploits existing and custom-built visualization tools for multi-scale
+                viewing, exploration and creative interaction. Arrays will capture user generated
+                content – both data (texts, text corpora) and metadata: catalogue information,
+                annotations, commentaries, interpretations, algorithmic analyses, micro-alignments,
+                and interlingual re- or back-translations. Data and metadata can be read at various
+                scales. By supporting distant readings (à la Moretti 2005), algorithmic readings
+                (Ramsay 2007; Hope &amp; Witmore 2010), and close, critical and contextual readings,
+                Translation Arrays can be powerful instruments for humanities researchers in diverse
+                fields. </p>
+            <p>Multiply translated texts include the sacred scriptures of all religions, as well as
+                ancient and modern literature and philosophy, political and historical texts, and so
+                forth. Indeed, (re)translation corpora are coterminous with recorded cultural
+                history. Beyond research applications, therefore, Translation Arrays can become
+                valuable tools for presenting Digital Humanists’ work to wider audiences in
+                beguiling, interactive ways, and encouraging creative interaction with cultural
+                heritage, across global cultural and linguistic barriers. They will be welcome in
+                worldwide classrooms – especially multilingual and cross-culturally networked
+                classrooms. Game-like and creative engagement with cultural heritage material is a
+                key feature of translation itself. This will be facilitated by Array interfaces,
+                alongside more ‘serious’ modes of engagement. Artists and writers will find this
+                type of resource irresistible. In short, Translation Arrays may become a signature
+                Digital Humanities format, coupling screen-based exploration and interaction with
+                truly global, multilingual and multicultural content – content which has (by
+                definition) high international recognition value. </p>
+            <p>We will present at DH 2012 our work in progress towards building a prototype. We have
+                an experimental corpus of over 50 different German translations of Shakespeare’s <hi
+                    rend="italic">Othello</hi>, 1766-2006, plus samples from and metadata about
+                hundreds of other translations of the play, in (so far) over 40 languages,
+                crowd-sourced at <ref target="http://www.delightedbeauty.org/">www.delightedbeauty.org</ref>. This site demonstrates the existence of worldwide
+                communities interested in engaging with this type of work. As well as documenting
+                existing translations, some users are also creating their own, ad hoc translations.
+                The site also carries outputs of our project so far, such as: a survey of text
+                visualisation tools, and prototype corpus overview and comparison tools (Geng et al.
+                2011a, 2011b); discursive text sample analyses (Cheesman 2011, 2012); a Web Science
+                presentation (Wilson et al. 2011); and a paper on using stylometrics to sort
+                multiple translation segments by ‘distinctiveness’, thereby also enabling a source
+                text to be read in a new way, through its translations’ variability (Cheesman et al.
+                2012). </p>
+            <p>By summer 2012 we aim to demonstrate a working Array prototype, with an interface
+                designed by Stephan Thiel (see Thiel 2009 for related work). It will deploy
+                Shakespeare’s <hi rend="italic">Othello</hi> and c. 20 German translations, which
+                each reflect cultural-historical and idiosyncratic differences, and which
+                collectively re-interpret the original text in ways which, within the Array
+                interface, can even excite the interest of users who know no German. </p>
+            <p>The technical and conceptual challenges are fascinating. What is a translation? What
+                is a good or interesting translation? What makes some translations last? Why do
+                people keep retranslating the same texts? Are they in fact ‘the same’ texts? What do
+                terms in Translation Theory like ‘equivalence’, ‘adequacy’ or ‘appropriateness’ mean
+                in practice? How can machine- and user-generated ‘back-translation’ best be deployed
+                in an Array? </p>
+            <p>From a Critical Translation Studies perspective, our ‘source-text-centric’ approach
+                is questionable. The most interesting translations for CTS are often scarcely
+                source-focused (i.e. not very ‘faithful’, ‘literal’, ‘close’, even ‘equivalent’).
+                Often, this means that they cannot easily be aligned with the source. Where diverse
+                ‘translations’, ‘adaptations’, ‘versions’, and ‘rewritings’ shade into texts which
+                are more loosely ‘inspired by’ or ‘answer back to’ source texts and previous
+                reworkings of them, then our approach arguably reaches limits of vaildity. On the
+                other hand, by juxtaposing multiple translations, and by reviving the cultural
+                memory of obscure ones, a Translation Array creates a new and rich context in which
+                radically ‘unfaithful’ ‘un-translations’, too, can be read and interpreted in new
+                ways.</p> 
+            <div><p><hi rend="bold">Funding</hi></p>
+                
+                
+            </div>
+            <div>
+                <p>This work was supported in Feb-July 2011 by Swansea University, College of Arts and Humanities, Research Innovation Fund. 
+                The work is currently (Feb-Sept 2012) supported by the UK’s Arts and Humanities Research Council, Digital Transformations Research Development Fund [AH/J012483/1]. The AHRC-funded team consists of: Principal Investigator, Dr Tom Cheesman (Swansea U); Co-Investigators, Dr Robert S. Laramee (Swansea U) and Dr Jonathan Hope (U Strathclyde); Research Assistant, Kevin Flanagan (Swansea U); Design Consultant, Stephan Thiel (FH Potsdam / Studio Nand, Berlin).
+            </p> </div>
+        
+       </body>
+        <back>
+            <div>
+       
+            
+                
+                    
+                    <head>References</head>
+                <p><hi rend="bold">Altintas, K., et al.</hi> (2007). Language Change Quantification
+                    Using Time-separated Parallel Translations. <hi rend="italic">Literary and
+                        Linguistic Computing</hi> 22(4): 375-93.</p>
+                <p><hi rend="bold">Cheesman, T.</hi> (2011). Thirty Times More Fair Than Black:
+                    Shakespeare Retranslation as Political Restatement. <hi rend="italic"
+                        >Angermion</hi> 4: 1-51. </p>
+                <p><hi rend="bold">Cheesman, T.</hi> (2012; forthcoming).  "Far More Fair Than
+                    Black”: Mutations of a Difficult Couplet. In B. Smith and K. Rowe (eds), <hi
+                        rend="italic">Cambridge World Shakespeare Encyclopaedia</hi>, vol. 2: <hi
+                        rend="italic">The World’s Shakespeare</hi>. Cambridge: Cambridge UP.</p>
+                <p><hi rend="bold">Cheesman, T., and the Version Variation Visualization Team</hi>
+                    (2012; forthcoming). Translation Sorting: Eddy and Viv in Translation Arrays. In
+                    B. Wiggin (ed.), <hi rend="italic">Un/Translatables</hi>. Evanstone:
+                    Northwestern UP.</p>
+                <p><hi rend="bold">Geng, Z., T. Cheesman, D. M. Berry, A. Ehrmann, R. S. Laramee,
+                        and A. J. Rothwell</hi> (2011a). Visualizing Translation Variation of <hi
+                        rend="italic">Othello</hi>: A Survey of Text Visualization and Analysis
+                    Tools. <ref target="http://cs.swan.ac.uk/~cszg/text/textSurvey.pdf"
+                        type="external">http://cs.swan.ac.uk/~cszg/text/textSurvey.pdf</ref>
+                    (accessed February 29, 2012).</p>
+                <p><hi rend="bold">Geng, Z., T. Cheesman, D. M. Berry, A.Ehrmann, R. S. Laramee,
+                        and A. J. Rothwell, </hi>.  (2011b). Visualizing Translation Variation:
+                    Shakespeare’s Othello. In Bebis, G. et al. (eds.), <hi rend="italic">Advances in
+                        Visual Computing: 7th International Symposium, ISVC 2011, Part I, LNCS
+                        6938</hi>, pp. 657–667. <ref
+                        target="http://www.cs.swan.ac.uk/~cszg/text/isvc.pdf" type="external"
+                        >http://www.cs.swan.ac.uk/~cszg/text/isvc.pdf</ref> (accessed February 29,
+                    2012).</p>
+                <p><hi rend="bold">Gürcaglar, S. T</hi>. (2009). Retranslation. In  M. Baker and G.
+                    Saldanha (eds.), <hi rend="italic">Encyclopedia of Translation Studies</hi>.
+                    Abingdon and New York: Routledge, pp. 232-36.</p>
+                <p><hi rend="bold">Hope, J., and M. Witmore</hi> (2010). “The Hundredth Psalm to the
+                    Tune of ‘Green Sleeves”’: Digital Approaches to Shakespeare’s Language of Genre.
+                        <hi rend="italic">Shakespeare Quarterly</hi> 61(3): 357-90. </p>
+                <p><hi rend="bold">Moretti, F.</hi> (2005). <hi rend="italic">Graphs, Maps, Trees:
+                        Abstract Models for a Literary History</hi>. London: Verso.</p>
+                <p><hi rend="bold">Price, K. M.</hi> (2008). Electronic Scholarly Editions. In
+                    Schreibman, S. and Siemens, R. (eds.),  <hi rend="italic">A Companion to Digital
+                        Literary Studies</hi>. Oxford: Blackwell. <ref
+                        target="http://www.digitalhumanities.org/companionDLS/"
+                    type="external">www.digitalhumanities.org/companionDLS/</ref> (accessed February 29, 2012).</p>
+                <p><hi rend="bold">Ramsay, S.</hi> (2007). Algorithmic Criticism. In S. Schreibman,
+                    and R. Siemens (eds.), <hi rend="italic">A Companion to Digital Literary
+                        Studies</hi>. Oxford: Blackwell. <ref
+                        target="http://www.digitalhumanities.org/companionDLS/" type="external"
+                        >www.digitalhumanities.org/companionDLS/</ref> (accessed February 29,
+                    2012).</p>
+                <p><hi rend="bold">Rybicki, J.</hi> (2003). Original Characters. <ref
+                        target="http://www.cyf-kr.edu.pl/~strybick/original_characters.htm"
+                        type="external">http://www.cyf-kr.edu.pl/~strybick/original_characters.htm"</ref>
+                     (accessed February 29, 2012).</p>
+                <p><hi rend="bold">Rybicki, J.</hi>  (2006). Burrowing into Translation: Character
+                    Idiolects in Henryk Sienkiewicz’s Trilogy and its Two English Translations. <hi
+                        rend="italic">Literary and Linguistic Computing</hi> 21(1): 91-103.</p>
+                <p><hi rend="bold">Schmidt, D.</hi> (2010). The Inadequacy of Embedded Markup for
+                    Cultural Heritage Texts. <hi rend="italic">Literary and Linguist
+                    Computing</hi> 25(3): 337-56. </p>
+                <p><hi rend="bold">Schmidt, D., and R. Colomb</hi> (2009). A Data Structure for
+                    Representing Multi-version Texts Online. <ref
+                        target="http://www.sciencedirect.com/science/journal/10715819" type="external">http://www.sciencedirect.com/science/journal/10715819</ref> <hi
+                        rend="italic">International Journal of Human-Computer Studies</hi> 67/(6): 497-514.</p>
+                <p><hi rend="bold">Thiel, S.</hi> (2009). Understanding Shakespeare. <ref
+                        target="http://www.understanding-shakespeare.com" type="external"
+                    >www.understanding-shakespeare.com</ref> (accessed February 29, 2012).</p>
+                <p><hi rend="bold">Venuti, L.</hi> (1995). <hi rend="italic">The Translator’s
+                        Invisibility: A History of Translation</hi>. London: Routledge. </p>
+                <p><hi rend="bold">Venuti, L.</hi>  (1998), <hi rend="italic">The Scandals of
+                        Translation: Towards an Ethics of Difference</hi>. London: Routledge.</p>
+                <p><hi rend="bold">Wilson, M. L., Z. Geng, R. S. Laramee, T. Cheesman, A. J.
+                        Rothwell, D. M. Berry, and A. Ehrmann</hi> (2011). Studying Variations in
+                    Culture and Literature: Visualizing Translation Variations in Shakespeare’s <hi
+                        rend="italic">Othello</hi>. Poster paper at the ACM Web Science 2011
+                    Conference, Koblenz, Germany, 14-17 June 2011. Poster attached to <ref
+                        target="http://www.delightedbeauty.org" type="external"
+                        >www.delightedbeauty.org</ref> Outputs.</p>   
+            </div>
+        </back>
+    </text>
+</TEI>

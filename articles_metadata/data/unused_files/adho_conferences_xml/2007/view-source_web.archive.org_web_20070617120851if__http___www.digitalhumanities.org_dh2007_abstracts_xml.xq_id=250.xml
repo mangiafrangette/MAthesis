@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI.2 id="paper_250_porter"><teiHeader><fileDesc><titleStmt><title>Examples of Images in Text Editing</title><author><name reg="Porter, Dorothy Carr">Dorothy Carr Porter</name></author><respStmt><resp>Marked up by</resp><name reg="Schmidt, Sara A.">Sara A. Schmidt</name></respStmt></titleStmt><publicationStmt><p>Marked up to be included in the Digital Humanities 2007 Conference Abstracts</p></publicationStmt><sourceDesc><p>None</p></sourceDesc></fileDesc><profileDesc><textClass><classCode>paper</classCode><keywords><list type="simple"><item>images</item><item>TEI</item><item>text encoding</item><item>medieval manuscripts</item></list></keywords></textClass></profileDesc><revisionDesc><list type="simple"><item>SAS: Created from Dorothy Carr Porter's doc <date value="2007-04">April
+                    2007</date></item></list></revisionDesc></teiHeader><text><front><docTitle n="Examples of Images in Text Editing"><titlePart type="main">Examples of Images in Text Editing</titlePart></docTitle><docAuthor><name reg="Porter, Dorothy Carr">Dorothy Carr Porter</name><address><addrLine>dporter@uky.edu</addrLine></address></docAuthor><titlePart type="affil">University of Kentucky</titlePart></front><body><div0><p>In 2002, <title type="j">Computers and the Humanities</title> dedicated an issue
+                    to “Image-based Humanities Computing” at a time when “a majority of first
+                    generation image-based humanities computing projects have reached at least an
+                    initial plateau of completion.” (Kirschenbaum, p. 3) Since that time interest in
+                    incorporating primary source images into “text” editions has blossomed, as can
+                    be attested by recent threads on the TEI listserv and work on the TEI council to
+                    develop recommendations for specific methods for integrating image files – and
+                    pointers to areas of image files – into traditional text encoding projects. The
+                    number of image-based projects has multiplied in that time as well, although it
+                    takes some effort to find who is working on such projects. There is not (yet) a
+                    central listing of all image-based TEI projects under development.</p><p>Practical work has been done on tool development since 2002 as well. As of March
+                    1, 2007 there are no less than six tools of which I am aware that serve to edit
+                    or display images within the context of text editing. The majority of these
+                    tools are for linking text and image for digital display.<note n="1">Edition
+                        Production and Presentation Technology (EPPT), developed by Kevin Kiernan
+                        under the aegis of the <title level="m">Electronic Boethius </title>project,
+                            <xptr to="http://www.eppt.org/eppt-trial/EPPT-TrialProjects.htm" from="ROOT" targOrder="U"/><lb/>Image processing services,
+                        developed by Neel Smith and Christopher Blackwell through Harvard's Center
+                        for Hellenic Studies, at <title level="m">Digital incunabula: a CHS site
+                            devoted to the cultivation of digital arts and letters</title>, <xptr to="http://chs75.harvard.edu/projects/diginc/techpub/images" from="ROOT" targOrder="U"/><lb/>Juxta, developed through the NINES
+                        project (networked infrastructure for nineteenth-century electronic
+                        scholarship), <xptr to="http://www.nines.org/tools/juxta.html" from="ROOT" targOrder="U"/><lb/>Florian Thienel, “Konzept für einen editionsphilologischen
+                        EDV-Arbeitsplatz auf der Basis von XML und verwandten Standards”
+                        Diplomarbeit im Fach Informatik, Universität Würzburg</note> Add to these
+                    additional tools for the simple annotation of images<note n="2">UVic Image
+                        Markup Tool (1.3.0.3), <xptr to="http://www.tapor.uvic.ca/~mholmes/image_markup/" from="ROOT" targOrder="U"/></note> and tools for tagging multimedia.<note n="3">Doug
+                        Reside at the Maryland Institute of Technology in the Humanities (MITH) at
+                        the University of Maryland is developing still-unnamed tool to tag not only
+                        images, but video and audio files as well</note> Undoubtedly, the
+                    proliferation of tools focused on image editing and display reflects a growing
+                    interest in incorporating images into digital editions.</p><p>The number of tools available for working with text plus image in digital editing
+                    highlights a simple truth: projects and their sources are different, and
+                    technologies that will work for one project might be incompatible with another.
+                    On the other hand, technologies applicable in simple circumstances might be
+                    expanded and combined with other technologies to suit much more complex
+                    situations. In this presentation, I will describe the sources of two digital
+                    projects with reference to their requirements for becoming viable digital
+                    projects. One is quite simple and the other complex, but the same methods inform
+                    both projects.</p><p>MS Cambridge, Pembroke College MS 25, the subject of the <emph>Digital Edition of
+                        Cambridge, Pembroke College MS 25</emph> , (Pembroke 25 project) directed by
+                    Paul Szarmach, Director of the Medieval Academy of America, and Thomas N. Hall
+                    at the University of Notre Dame. Pembroke 25 is a collection of Anglo-Latin
+                    homilies, copied at the scriptorium at Bury St. Edmunds in the late eleventh or
+                    early twelfth century by a scribe – or perhaps two scribes – who used the round
+                    English Caroline minuscule common there rather than the more pointed Norman
+                    Caroline minuscule that came to prominence in England in the period immediately
+                    following the Norman Conquest. Following the disillusionment of Bury St. Edmunds
+                    in 1538, Pembroke 25 disappeared for a time, but it was given to Pembroke
+                    College, Cambridge, at the end of the sixteenth century, and it still lives in
+                    that library today. It has been well maintained, it is not damaged, and the
+                    script is clear and easy to decipher.</p><p>For an edition of this sort, a single text from a single manuscript, the encoding
+                    requirements are relatively simple. This manuscript is purely textual, not
+                    illustrated or illuminated in any way, but we are noting all abbreviations and
+                    distinctive paleographical aspects in the manuscript (including scribal
+                    emendations), as well as marginalia. The TEI Header contains some descriptive
+                    information, notably a descriptive list of all abbreviation types that are
+                    linked to the individual abbreviations throughout the project. We are using the
+                    EPPT for the text-image linking in this project, and I will give a brief
+                    demonstration of the project as it stands at the time of the conference.</p><p>The <emph>Electronic Aelfric</emph> , directed by Aaron Kleist at Biola
+                    University and developed by a large group of collaborators, seeks to edit eight
+                    Old English homilies by Ælfric of Eynsham, who was arguably the most educated
+                    and prolific writer of tenth century England. These homilies cover the period
+                    from Easter to Pentecost, and trace their development through six phases of
+                    authorial revision and then through nearly 200 years of transmission following
+                    Ælfric’s death: twenty-four sets of readings or strands of textual tradition
+                    found in twenty-eight manuscripts produced in at least five scriptoria between
+                    990 and 1200.</p><p>The contrast between the <emph>Electronic Aelfric</emph> and Pembroke 25 is
+                    great: while Pembroke 25 is one manuscript, the <emph>Electronic Aelfric</emph>
+                    draws from twenty-eight manuscripts. Although no single homily out of the eight
+                    occurs in more than ten of these manuscripts, it is still a great number of
+                    textual variants to deal with. In addition to the text, the project also needs
+                    to address the individual manuscripts – six of which are from the infamous
+                    Cotton Collection (now housed in the British Library), damaged by fire in 1731.
+                    Those manuscripts that are not damaged still have singularities, such as
+                    marginalia, that we also wish to encode and link to image. We are using the EPPT
+                    for this project, partnered with the TEI Apparatus tags, to bring together the
+                    text and images of several different manuscripts. I will show examples of
+                    corresponding manuscript pages, as well as sample code illustrating multiple
+                    variants partnered with image-text linking.</p></div0></body><back><div type="Bibliography"><head>Bibliography</head><listBibl><biblStruct><analytic><author><name reg="Carlquist, Jonas">Jonas Carlquist</name></author><title level="a">"Medieval Manuscripts, Hypertext and Reading. Visions
+                                of Digital Editions</title></analytic><monogr><title level="j">Literary &amp; Linguistic Computing</title><imprint><biblScope type="vol">19.1</biblScope><date value="2004">2004</date><biblScope type="pages">105-118</biblScope></imprint></monogr></biblStruct><biblStruct><monogr><author><name reg="Cross, James E.">James E. Cross</name></author><title level="m">Cambridge Pembroke College MS. 25: A Carolingian
+                                Sermonary Used by Anglo-Saxon Preachers</title><title level="s">King’s College London Medieval Studies, 1</title><imprint><pubPlace>London</pubPlace><publisher>King's College</publisher><date value="">1987</date></imprint></monogr></biblStruct><biblStruct><analytic><author><name reg="Dué, Casey">Casey Dué</name></author><author><name reg="Ebbott, Mary">Mary Ebbott </name></author><title level="a">As Many Homers As You Please: an On-line Multitext of
+                                Homer</title></analytic><monogr><title level="j">Classics @</title><imprint><date value="2004">2004</date></imprint></monogr><note><xptr to="http://classics.furman.edu/classicsAt2/due-ebbott_2004_all.html" from="ROOT" targOrder="U"/></note></biblStruct><biblStruct><monogr><author><name reg="Godden, Malcolm">Malcolm Godden</name></author><title level="m">Aelfric’s Catholic Homilies: Introduction, Commentary
+                                and Glossary</title><imprint><pubPlace>New York</pubPlace><publisher>Published for the Early English Text Society by the
+                                    Oxford University Press</publisher><date value="2000">2000</date></imprint></monogr></biblStruct><biblStruct><analytic><author><name reg="Kiernan, Kevin">Kevin Kiernan</name></author><author><name reg="Seales, W. Brent">W. Brent Seales</name></author><author><name reg="Griffioen, James">James Griffioen</name></author><title level="a">The Reappearances of St. Basil the Great in British
+                                Library MS Cotton Otho B. x</title></analytic><monogr><title level="j">Computers and the Humanities</title><imprint><biblScope type="vol">36.1</biblScope><date value="2002">2002</date><biblScope type="pages">7-26</biblScope></imprint></monogr></biblStruct><biblStruct><analytic><author><name reg="Kiernan, Kevin">Kevin Kiernan</name></author><title level="a">Digital Facsimiles in Editing: Some Guidelines for
+                                Editors of Image-based Scholarly Editions</title></analytic><monogr><title level="m">Electronic Textual Editing</title><editor role="editor"><name reg="Burnard, Lou">Lou Burnard</name></editor><editor role="editor"><name reg="O’Brien O’Keeffe, Katherine">, Katherine O’Brien O’Keeffe
+                                </name></editor><editor role="editor"><name reg="Unsworth, John">John Unsworth</name></editor><imprint><pubPlace>New York</pubPlace><publisher>Modern Language Association</publisher><date value="2005">2005</date></imprint></monogr><note>preprint at <xptr to="http://www.tei-c.org/Activities/ETE/Preview/kiernan.xml" from="ROOT" targOrder="U"/></note></biblStruct><biblStruct><analytic><author><name reg="Kiernan, Kevin">Kevin Kiernan</name></author><author><name reg="Jaromczyk, Jerzy W.">Jerzy W. Jaromczyk</name></author><author><name reg="Dekhtyar, Alex">Alex Dekhtyar</name></author><author><name reg="Porter, Dorothy Carr">Dorothy Carr Porter</name></author><respStmt><resp>with</resp><name reg="Hawley, Kenneth">Kenneth Hawley</name><name reg="Bodapati, Sandeep">Sandeep Bodapati</name><name reg="Iacob, Ionut Emil">and Ionut Emil Iacob</name></respStmt><title level="a">The ARCHway Project: Architecture for Research in
+                                Computing for Humanities through Research, Teaching, and
+                            Learning</title></analytic><monogr><title level="j">Literary &amp; Linguistic Computing</title><imprint><biblScope type="vol">20 (Suppl 1)</biblScope><date value="2005">2005</date><biblScope type="pages">69-88</biblScope></imprint></monogr><note>doi:10.1093/llc/fqi018</note></biblStruct><biblStruct><analytic><author><name reg="Kirschenbaum, Matthew G.">Matthew G. Kirschenbaum</name></author><title level="a">Editor's Introduction: Image-based Humanities Computing</title></analytic><monogr><title level="j">Computers and the Humanities</title><imprint><biblScope type="vol">36.1</biblScope><date value="2002">2002</date><biblScope type="pages">3-6</biblScope></imprint></monogr></biblStruct><biblStruct><analytic><author><name reg="Lecolinet, Eric">Eric Lecolinet</name></author><author><name reg="Robert, Laurent">Laurent Robert</name></author><author><name reg="Role, Francois">Francois Role</name></author><title level="a">Text-image Coupling for Editing Literary Sources</title></analytic><monogr><title level="j">Computers and the Humanities</title><imprint><biblScope type="vol">36.1</biblScope><date value="2002">2002</date><biblScope type="pages">. 49-73</biblScope></imprint></monogr></biblStruct></listBibl></div></back></text></TEI.2>

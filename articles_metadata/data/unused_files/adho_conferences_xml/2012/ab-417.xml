@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="../schema/xmod_web.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xmt="http://www.cch.kcl.ac.uk/xmod/tei/1.0" 
+     xml:id="ab-417">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bringing Modern Spell Checking Approaches to Ancient Texts – Automated
+                    Suggestions for Incomplete Words</title>
+                <author>
+                    <name>Büchler, Marco</name>
+                    <affiliation>Leipzig University, Germany</affiliation>
+                    <email>mbuechler@e-humanities.net</email>
+                </author>
+                <author>
+                    <name>Kruse, Sebastian</name>
+                    <affiliation>Leipzig University, Germany</affiliation>
+                    <email>skruse@eaqua.net</email>
+                </author>
+                <author>
+                    <name>Eckart, Thomas</name>
+                    <affiliation>Leipzig University, Germany</affiliation>
+                    <email>teckart@e-humanities.net</email>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Jan Christoph Meister, Universität Hamburg</publisher>
+                <address>
+                   <addrLine>Von-Melle-Park 6, 20146 Hamburg, Tel. +4940 428 38 2972</addrLine>
+                   <addrLine>www.dh2012.uni-hamburg.de</addrLine>
+              </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>No source: created in electronic format.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2012-04-15</date>
+                <name>DH</name>
+                <desc>generate TEI-template with data from ConfTool-Export</desc>
+            </change>
+            <change>
+                <date>2012-04-13</date>
+                <name>LS</name>
+                <desc>provide metadata for publicationStmt</desc>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="paper">
+        <body>
+            <p>One of the most challenging tasks for scholars working with ancient data is the
+                completion of texts that have only been partially preserved. In the current
+                situation, a great deal of scholarly experience and the use of dictionaries such as
+                    <hi rend="italic">Liddell Scott Jones</hi> or <hi rend="italic">Lewis &amp;
+                    Short </hi>are necessary to perform the task of text reconstruction manually.
+                Even though text search tools such as Diogenes or papyri.info exist, scholars still
+                have to work through the results manually and require a very good knowledge about
+                the text, its cultural background and its documentary form in order to be able to
+                decide about the correct reconstitution of the damaged text. Therefore, a ‘selective
+                and relatively small scope’ especially of younger scholars restricts the set of
+                potential candidates. </p>
+            <p>To overcome these barriers an unsupervised approach from the field of machine
+                learning is introduced to form a word prediction system based on several classes of
+                spell checking (Kukich 1992; Schierle et al. 2008) and text mining algorithms.</p>
+            <p>Both spell checking and text completion can be separated into two main tasks:
+                identification of incorrect or incomplete words and the generation of suggestions.
+                While the identification of misspelled words can be a very difficult task when
+                working with modern texts (such as with spell checking support provided by modern
+                word processing suites), existing sigla of the Leiden Conventions (Bodard et al.
+                2009) can be used when dealing with ancient texts. The second step of the process is
+                then to generate likely suggestions using methods such as:</p>
+            <xmt:uList>
+                <item>
+                    <p><hi rend="bold">Semantic approaches</hi>: <hi rend="italic">Sentence
+                            co-occurrences</hi> (Buechler 2008) and <hi rend="italic">document
+                            co-occurrences</hi> (Heyer et al. 2008) are used to identify candidates
+                        based on different contextual windows (Bordag 2008). The basic idea behind
+                        this type of classification is motivated by Firth’s famous statement about a
+                        word’s meaning: ‘<hi rend="italic">You shall know a word by the company it
+                            keeps’</hi> (Firth 1957). </p>
+                </item>
+                <item>
+                    <p><hi rend="bold">Syntactical approaches</hi>: <hi rend="italic">Word bi- and
+                            trigrams </hi>(Heyer et al. 2008): With this method, the immediate
+                        neighbourhood of a word is observed and likely candidates are identified
+                        based on a selected reference corpus. </p>
+                </item>
+                <item>
+                    <p><hi rend="bold">Morphological dependencies</hi>: Similar to the <hi
+                            rend="italic">Latin and Greek Treebank of Perseus </hi>(Crane et al.
+                        2009) morphological dependencies are used to suggest words by using an
+                        expected morphological code.</p>
+                </item>
+                <item>
+                    <p><hi rend="bold">String based approaches</hi>: The most common class of
+                        algorithms for modern texts compares words by their word similarity on
+                        letter level. Different approaches like the <hi rend="italic">Levenshtein
+                            distance</hi> (Ottmann &amp; Widmayer 1996) or faster approaches such as
+                            <hi rend="italic">FastSS</hi> (Bocek et al. 2007) are used to compare a
+                        fragmentary word with all candidates.</p>
+                </item>
+                <item>
+                    <p><hi rend="bold">Named Entity lists</hi>: With a focus on deletions of
+                        inscriptions, existing and extended named entity lists for person names,
+                        cities or demonyms like the <hi rend="italic">Lexicon of Greek Personal
+                            Names</hi> (Fraser et al. 1987-2008) or the <hi rend="italic"
+                            >Wörterlisten</hi> of Dieter Hagedorn are used to look for names of
+                        persons and places and give them a higher probability.</p>
+                </item>
+                <item>
+                    <p><hi rend="bold">Word properties</hi>: When focusing on Stoichedon texts, word
+                        length is a relevant property. For this reason the candidate list can be
+                        restricted by both <hi rend="italic">exact length</hi> as well as by <hi
+                            rend="italic">min-max thresholds</hi>. </p>
+                </item>
+            </xmt:uList>
+            <p>From a global perspective, every found word in a vocabulary is a
+                potential suggestion candidate. To reduce this list of anywhere from several hundred
+                thousand to several million words to a more reasonable size, the results of all
+                selected algorithms are combined to a normalised score between 0 and 1 (Kruse 2009).
+                In the last working step of this process, the candidates list (ordered by score in
+                descending order) is then provided to the user.</p>
+            <p>Based on the aforementioned approaches the full paper will explain three
+                different completion strategies:</p>
+            <xmt:oList rend="lower_case">
+                <item>Using only known information about a word (word length and some preserved
+                    characters),</item>
+                <item>using only contextual information such as word bigrams, co-occurrences, and
+                    classification data,</item>
+                <item>using all available information (combination of strategy a) and b)) of a
+                    word.</item>
+            </xmt:oList>
+            <p>The main objective of this step by step explanation is to highlight both strengths
+                and weaknesses of such a completely automatized system.</p>
+            <p>A video demonstration of the current implementation can be viewed at </p>
+            <p><ref target="http://www.e-humanities.net/lectures/SS2011/2011-DigClassSeminar/THATCamp_DevChallenge_BuechlerEckart_TextCompletion.ogv" type="external">http://www.e-humanities.net/lectures/SS2011/2011-DigClassSeminar/THATCamp_DevChallenge_BuechlerEckart_TextCompletion.ogv</ref></p>
+        </body>
+        <back>
+            <div>
+                
+                    <head>References</head>
+                <p><hi rend="bold">Bocek, T., E. Hunt, and B. Stiller</hi> (2007). <hi
+                            rend="italic">Fast Similarity Search in Large Dictionaries.</hi>
+                        Department of Informatics, University of Zurich.</p><p><hi rend="bold"
+                            >Bodard, G., et al.</hi> (2009). <hi rend="italic">EpiDoc</hi><hi
+                            rend="italic"> Cheat Sheet: Krummrey-Panciera sigla &amp; EpiDoc
+                            tags</hi>, 2006-2009. Version 1085, last accessed: Nov., 10th, 2009
+                        [date] URL:
+                        http://epidoc.svn.sourceforge.net/viewvc/epidoc/trunk/guidelines/msword/cheatsheet.doc.
+                            </p><p><hi rend="bold">Bordag, St.</hi> (2008). <hi rend="italic">A
+                            Comparison of Co-occurrence and Similarity Measures as Simulations of
+                            Context</hi>, 2008. In <hi rend="italic">CICLing</hi>, Vol. 4919.
+                        Berlin:  Springer (Lecture Notes in Computer Science).   </p><p><hi
+                            rend="bold">Büchler, M.</hi> (2008). <hi rend="italic">Medusa.
+                            Performante Textstatistiken auf großen Textmengen: Kookkurrenzanalyse in
+                            Theorie und Anwendung</hi>. Saarbrücken: Vdm Verlag Dr.
+                            Müller.</p><p><hi rend="bold">Crane, G., and D. Bamman</hi> (2009). <hi
+                            rend="italic">The Latin and Ancient Greek Dependency Treebanks</hi>,
+                        2009. URL: http://nlp.perseus.tufts.edu/syntax/treebank/ last accessed:
+                        Nov., 10th 2009.</p><p><hi rend="bold">Firth, J. R.</hi>, <hi rend="italic"
+                            >A Synopsis of Linguistic Theory</hi>. Oxford.</p><p><hi rend="bold"
+                            >Fraser, P. M. E. Matthews, and M. J. Osborne</hi> (1987-2008). <hi
+                            rend="italic">A Lexicon of Greek Personal Names.</hi> (In Greek and
+                        English), <hi rend="italic"> </hi>Vol. 1-5, Suppl. Oxford: Clarendon Press.
+                          </p><p><hi rend="bold">Heyer, G., U. Quasthoff, and T. Wittig</hi> (2008).
+                            <hi rend="italic">Text Mining: Wissensrohstoff Text – Konzepte,
+                            Algorithmen, Ergebnisse</hi>. 2nd edition. Herdecke: W3L-Verlag.
+                            </p><p><hi rend="bold">Kruse, S.</hi> (2009). <hi rend="italic"
+                            >Textvervollständigung auf antiken Texten</hi>. University of Leipzig,
+                        Bachelor Thesis. pp 48-49. URL http://www.eaqua.net/~skruse/bachelor, last
+                        accessed on Nov., 10th 2009.</p><p><hi rend="bold">Kukich, K.</hi> (1992).
+                        Technique for Automatically Correcting Words in Text. <hi rend="italic">ACM
+                            Computing Surveys</hi> 24(4).</p><p><hi rend="bold">Ottmann,T., and P.
+                            Widmayer</hi> (1996). <hi rend="italic">Algorithmen und
+                            Datenstrukturen.</hi> Heidelberg: Spektrum Verlag.</p><p><hi rend="bold"
+                            >Schierle, M., S. Schulz, and M. Ackermann</hi> (2008). From Spelling
+                        Correction to Text Cleaning – Using Context Information. In <hi
+                            rend="italic">Data Analysis, Machine Learning and Applications:
+                            Proceedings of the 31st Annual Conference of the Gesellschaft für
+                            Klassifikation e.V</hi>.</p>
+            </div>
+        </back>
+    </text>
+</TEI>

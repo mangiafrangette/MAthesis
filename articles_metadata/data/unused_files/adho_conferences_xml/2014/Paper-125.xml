@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:x="http://www.w3.org/1999/xhtml" xmlns:exsl="http://exslt.org/common" xml:id="Paper-125">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>The opportunistic librarian: A Leuven confession</title>
+        <author>
+          <name>
+            <surname>Verbeke</surname>, <forename>Demmy</forename>
+          </name>
+          <affiliation>KU Leuven</affiliation>
+          <email>demmy.verbeke@arts.kuleuven.be</email>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority/>
+        <publisher>EPFL, Switzerland</publisher>
+        <distributor>
+          <name>EPFL Digital Humanities Laboratory</name>
+          <address>
+            <addrLine>GC D2 386</addrLine>
+            <addrLine>Station 18</addrLine>
+            <addrLine>CH-1015 Lausanne</addrLine>
+            <addrLine>frederic.kaplan@epfl.ch</addrLine>
+          </address>
+        </distributor>
+        <pubPlace>Lausanne, Switzerland</pubPlace>
+        <address>
+          <addrLine>EPFL</addrLine>
+          <addrLine>CH-1015 Lausanne</addrLine>
+        </address>
+        <availability>
+          <p/>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note type="abstract">Discussion of the role of academic libraries in Digital Humanities projects, as well as a presentation of how this role is fulfilled by the University Library in general, and the Arts Faculty Library in particular, at KU Leuven (Belgium).</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>No source: created in electronic format.</p>
+        <p>
+          <date when="20140711"/>
+          <time when="14:00:00"/>
+        </p>
+		<p n="session">8</p>
+		<p n="room">315 - Amphipôle</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="original" n="category">
+          <term>Paper</term>
+        </keywords>
+        <keywords scheme="original" n="subcategory">
+          <term>Short Paper</term>
+        </keywords>
+        <keywords scheme="original" n="keywords">
+          <term></term>
+        </keywords>
+        <keywords scheme="original" n="topic">
+          <term></term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text type="paper">
+    <front>
+
+      <div>
+        <p></p>
+      </div>
+    </front>
+    <body>
+      <div>
+
+        <p>Quite a lot of ink has been spilled, or, at least, quite a lot of keys
+have been hammered on the definition and the history of Digital Humanities.
+This has also led to a, sometimes heated, debate on “who’s in” and “who’s out”. Regardless of
+whether all parties concerned are entitled to call themselves “digital
+humanists”, the consensus nevertheless seems to be that Digital Humanities are
+in essence a collaborative activity (see, e.g., Siemens
+2009 <ref target="n1" rend="sup">1</ref>
+and Spiro 2013 <ref target="n2" rend="sup">2</ref>), involving academic staff, students,
+computer programmers, librarians, project coordinators, administrative staff, and others. It is clear that academic librarians
+should get involved, not only because they are “as much a part of the (Digital
+Humanities) plan as faculty are” (Pannapacker
+2012 <ref target="n3" rend="sup">3</ref>),
+but also because they should take to heart the goals for practitioners of
+Digital Humanities as they were identified by Lisa Spiro (Spiro 2011 <ref target="n4" rend="sup">4</ref>;
+see
+also Vandegrift
+and Varner 2013 <ref target="n5" rend="sup">5</ref>), namely:
+to provide wide access to cultural information, to enhance teaching and
+learning, to transform scholarly communication, to enable the manipulation of
+data, and to make a public impact. Even in a minimal, unambitious definition of the mission of
+any research library, several of the named goals should form its core business, its heart and
+soul, and its reason for being. And although the ways in which research
+libraries have translated these goals into actual activities may have changed considerably during the
+past decades, the essence still remains the same: at the very least, these libraries aim to provide access to cultural and scholarly information and to enhance teaching and learning at universities and beyond; and
+are condemned to either continue to do so in the digital age or to become
+obsolete (Verbeke 2013 <ref target="n6" rend="sup">6</ref>). </p>
+        <p>Naturally, the exact nature and form of the contribution of the university library and its staff to Digital Humanities projects at a particular academic institution will differ, depending on who else is already involved, on the available staff and infrastructure, on the wishes and willingness of faculty and administration, and on the ambitions and priorities of the institution in question. Possibilities range anywhere from providing basic information about existing tools for Digital Humanities research and teaching as well as the organization of training sessions so that academic staff and students learn how to use these tools, to the creation of library-based skunkworks – or semi-independent, research-oriented software prototyping and makerspace labs (see, especially, Nowviskie 2013 <ref target="n7" rend="sup">7</ref>).
+Whatever the exact form, however, it seems natural for research libraries and their information professionals to focus on a contribution which is identical or very similar to the roles which are traditionally expected of them anyway, such as discovery and dissemination of data and knowledge, data management, digitization and preservation (Showers 2012 <ref target="n8" rend="sup">8</ref> and Vandegrift 2012 <ref target="n9" rend="sup">9</ref>).
+Of the latter, William Kretzschmar and William Gray Potter even stated – not
+without a sense for drama – that “collaboration with the university library is
+the only realistic option for long-term sustainability of digital humanities
+projects in the current environment. … If digital humanities projects stand
+still, they will indeed die, and the library is the only part of our
+institutional structure that can keep them moving enough to save them” (Kretzschmar
+and Gray Potter 2010 <ref target="n10" rend="sup">10</ref>). </p>
+        <p>
+
+This short paper not only evaluates the recent
+scholarship on the role of libraries and their staff in Digital Humanities
+projects, but also documents the efforts of the University Library at KU Leuven
+(Belgium) in general, and the Arts Faculty Library in particular, to maintain,
+in a Digital Humanities context, its role as an important partner in research.
+It discusses the various initiatives to transform the ways in which the
+libraries concerned have supported learning and teaching for decades, and
+presents various projects to which staff members of the library contribute. Examples include efforts to develop OCR applications for early printed Dutch and Latin texts, the
+creation of virtual research communities for international projects involving KU Leuven faculty, the
+building of an integrated reference database and collaborative platform
+for the study of Patristic, Medieval and Byzantine texts, and a strong
+involvement in <hi rend="italic">Europeana</hi> and Linked
+Data initiatives. Finally, this short paper also briefly presents the current state of the plans to found a Digital Humanities Library Lab @ Leuven (DH3L), offering a frank discussion of the common
+challenges (see, especially, Posner 2013 <ref target="n11" rend="sup">11</ref>) encountered over the past months and the ways in which faculty, administration
+and library staff at KU Leuven have tried to overcome them. </p>
+      </div>
+    </body>
+    <back>
+      <div type="References">
+        <listBibl>
+          <bibl>1. <hi rend="bold">Siemens, Lynne</hi>. (2009). <hi rend="italic">It’s a Team If You Use ‘Reply All’: An Exploration of Research Teams in Digital Humanities Environments.</hi> Literary and Linguistic Computing 24 (2): 225–233. doi:10.1093/llc/fqp009.
+          </bibl>
+          <bibl>2. <hi rend="bold">Spiro, Lisa</hi>. (2013). <hi rend="italic">Group and Method: Collaboration in the Digital Humanities.</hi> <ref type="url" target="http://digitalscholarship.wordpress.com/2013/04/10/group-and-method-collaboration-in-the-digital-humanities/.">digitalscholarship.wordpress.com/2013/04/10/group-and-method-collaboration-in-the-digital-humanities/.</ref>
+          </bibl>
+          <bibl>3. <hi rend="bold">Pannapacker, William</hi>. (2012). <hi rend="italic">No DH, No Interview.</hi> The Chronicle of Higher Education, July 22. <ref type="url" target="http://chronicle.com/article/No-DH-No-Interview/132959/.">chronicle.com/article/No-DH-No-Interview/132959/.</ref>
+          </bibl>
+          <bibl>4. <hi rend="bold">Spiro, Lisa</hi>. (2011). <hi rend="italic">Why the Digital Humanities?</hi> <ref type="url" target="http://digitalscholarship.files.wordpress.com/2011/10/dhglca-5.pdf.">digitalscholarship.files.wordpress.com/2011/10/dhglca-5.pdf.</ref>
+          </bibl>
+          <bibl>5. <hi rend="bold">Vandegrift, Micah, and Stewart Varner</hi>. (2013). <hi rend="italic">Evolving in Common: Creating Mutually Supportive Relationships Between Libraries and the Digital Humanities.</hi> Journal of Library Administration 53 (1): 67–78. doi:10.1080/01930826.2013.756699.
+          </bibl>
+          <bibl>6. <hi rend="bold">Verbeke, Demmy</hi>. (2013). <hi rend="italic">Digital Humanities En de Wetenschappelijke Bibliotheek van de Toekomst.</hi> Bladen Voor Documentatie / Cahiers de La Documentation 67 (1): 13–16.
+          </bibl>
+          <bibl>7. <hi rend="bold">Nowviskie, Bethany</hi>. (2013). <hi rend="italic">Skunks in the Library: A Path to Production for Scholarly R&amp;D.</hi> Journal of Library Administration 53 (1): 53–66. doi:10.1080/01930826.2013.756698.
+          </bibl>
+          <bibl>8. <hi rend="bold">Showers</hi>, Ben. (2012). <hi rend="italic">Does the Library Have a Role to Play in the Digital Humanities?</hi> <ref type="url" target="http://infteam.jiscinvolve.org/wp/2012/02/23/does-the-library-have-a-role-to-play-in-the-digital-humanities/.">infteam.jiscinvolve.org/wp/2012/02/23/does-the-library-have-a-role-to-play-in-the-digital-humanities/.</ref>
+          </bibl>
+          <bibl>9. <hi rend="bold">Vandegrift, Micah</hi>. (2012). <hi rend="italic">What Is Digital Humanities and What’s It Doing in the Library?</hi> In the Library with the Lead Pipe. <ref type="url" target="http://www.inthelibrarywiththeleadpipe.org/2012/dhandthelib/.">www.inthelibrarywiththeleadpipe.org/2012/dhandthelib/.</ref>
+          </bibl>
+          <bibl>10. <hi rend="bold">Kretzschmar, William A.</hi>, and William Gray Potter. 2010. “Library Collaboration with Large Digital Humanities Projects.” Literary and Linguistic Computing 25 (4): 439–445. doi:10.1093/llc/fqq022.
+          </bibl>
+          <bibl>11. <hi rend="bold">Posner, Miriam</hi>. 2013. “No Half Measures: Overcoming Common Challenges to Doing Digital Humanities in the Library.” Journal of Library Administration 53 (1): 43–52. doi:10.1080/01930826.2013.756694.
+          </bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

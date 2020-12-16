@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI.2 id="paper_266_odonnell"><teiHeader><fileDesc><titleStmt><title>The Visionary Cross: An Experiment in the Multimedia Edition</title><author><name reg="O'Donnell, Daniel Paul">Daniel Paul O'Donnell</name></author><author><name reg="Karkov, Catherine">Catherine Karkov</name></author><author><name reg="Graham, James">James Graham</name></author><author><name reg="Osborn, Wendy">Wendy Osborn</name></author><author><name reg="Turco, Roberto Rosselli Del ">Roberto Rosselli Del Turco</name></author><respStmt><resp>Marked up by</resp><name reg="Schmidt, Sara A.">Sara A. Schmidt</name></respStmt></titleStmt><publicationStmt><p>Marked up to be included in the Digital Humanities 2007 Conference Abstracts
+                    book.</p></publicationStmt><sourceDesc><p>None</p></sourceDesc></fileDesc><profileDesc><textClass><classCode>paper</classCode><keywords><list type="simple"><item>editing</item><item>medieval studies</item><item>encoding</item></list></keywords></textClass></profileDesc><revisionDesc><list type="simple"><item>SAS: Created from Daniel Paul O'Donnell's doc <date value="2007-04">April
+                    2007</date></item></list></revisionDesc></teiHeader><text><front><docTitle n="The Visionary Cross: An Experiment in the Multimedia Edition"><titlePart type="main">The Visionary Cross: An Experiment in the Multimedia
+                Edition</titlePart></docTitle><docAuthor><name reg="O'Donnell, Daniel Paul">Daniel Paul O'Donnell</name><address><addrLine>daniel.odonnell@uleth.ca</addrLine></address></docAuthor><titlePart type="affil">University of Lethbridge</titlePart><docAuthor><name reg="Karkov, Catherine">Catherine Karkov</name><address><addrLine/></address></docAuthor><titlePart type="affil">University of Leeds</titlePart><docAuthor><name reg="Graham, James">James Graham</name><address><addrLine/></address></docAuthor><titlePart type="affil">University of Lethbridge</titlePart><docAuthor><name reg="Osborn, Wendy">Wendy Osborn</name><address><addrLine/></address></docAuthor><titlePart type="affil">University of Lethbridge</titlePart><docAuthor><name reg="Rosselli Del Turco, Roberto">Roberto Rosselli Del Turco</name><address><addrLine/></address></docAuthor><titlePart type="affil">Università degli studi di Torino</titlePart></front><body><div0><ab><cit rend="block"><q><emph>A reservation I should wish to express is that customarily
+                                levelled at digital projects, which is that while the technology
+                                (brilliantly, beautifully, wonderfully) enables and indeed
+                                encourages the presentation of multiple points of view, so putting
+                                the burden of interpretation onto the individual reader, there is a
+                                concomitant loss of genuine decision-making by those claiming to be
+                                responsible for the work as a whole... Editors should edit: will
+                                they?</emph></q></cit></ab><p>Our epigraph comes from the report of an external assessor to the original
+                    funding application for our project. We cite it because it represents a common
+                    question asked of the Digital Humanities by traditional scholars: “Can it be as
+                    significant as it is pretty?”</p><p>For editors of text-based digital projects, the answer is increasingly clear. The
+                    last decade has seen the development of a relatively solid consensus as to basic
+                    technological and generic expectations (see O'Donnell 2004 for a summary). Best
+                    practice now expects that text-based digital projects will be encoded using XML,
+                    preferably TEI. It assumes they will contain an archive with transcriptions and
+                    full colour facsimiles of primary sources; that some means will be provided for
+                    comparing variant readings; and that users will be able to test editorial
+                    assumptions by comparing or constructing alternative editorial texts. While
+                    there is some debate as to whether text-based projects have yet lived up to
+                    their original promise (Robinson 2005), there can be little doubt they are
+                    beginning to be recognised as important works of scholarship in their own right.</p><p>For developers of projects that depend heavily on multimedia or collaborative
+                    technologies, however, the answer to this question is far less clear. While open
+                    standards exist for the encoding of image, moving pictures, and sound, there is
+                    little agreement as to how these are to be presented to the end user: unlike
+                    text-based projects, multi- and mixed media projects still commonly rely on
+                    proprietary software or specific operating systems (e.g. Foys 2002, Reed-Kline
+                    2000; British Library Board, n.d.). And while many digital projects propose
+                    using collaborative technology in their design, there is as yet no agreement on
+                    the fundamental issue of how such collaboration can function in a research
+                    culture based on peer review and the preservation of authorial integrity. A
+                    number of exemplary projects are beginning to show how such technologies can be
+                    applied in specific contexts or to solve specific research problems (e.g. Ó
+                    Croinin et al. [n.d.], Toth et al. [n.d.]). But we are still far from agreeing
+                    as to how they can be used more generally to support day-to-day research by
+                    working humanities scholars.</p><p>The Visionary Cross project addresses this problem by treating it as a research
+                    question. Our goal is to produce a mixed-media and extensible edition of a key
+                    group of Anglo-Saxon artefacts associated with the “Visionary Cross” tradition
+                    in Anglo-Saxon England: the eighth-century Ruthwell and Bewcastle standing stone
+                    crosses, the tenth-century Vercelli Book dream of the Rood poem, and the
+                    eleventh century Brussels Reliquary Cross (for this tradition, see Ó Carragáin
+                    2005).</p><p>These objects include some of the best known and most studied of the period. The
+                    Ruthwell Cross is a 17 foot high stone cross erected near a former Roman
+                    military site in Dumfriesshire Scotland. It is perhaps best known to
+                    Anglo-Saxonists for a runic inscription that may be the oldest known record of
+                    an Anglo-Saxon vernacular poem, versions of which can be found in the
+                    tenth-century Vercelli Book and eleventh-century Brussels Cross (see Ó Carragáin
+                    2005, 58-60; O'Donnell 1996, 287-288, for bibliography).</p><p>The Brussels Cross is a reliquary that once contained a fragment from the
+                    supposed True Cross. It is built on an oak core that was covered with precious
+                    metal and jewels and perhaps a crucifixion (stolen sometime before 1793; see Van
+                    Ypersele de Strihou 2000; Webster 1984; Ó Carragáin 2005). Gilt silver
+                    decoration on the cross’s back and side bands bearing a vernacular inscription
+                    have survived. On the centre of the back of the cross is a depiction of the
+                    Agnus Dei; symbols of the four evangelists are found at the terminals. An Old
+                    English inscription around the edge quotes from a version of the same poem found
+                    on the Ruthwell Cross and in the Vercelli Book. A second inscription explains
+                    that the cross was made by two brothers in memory of a third. On the back we are
+                    told the name of the artist responsible for its manufacture.</p><p>The Bewcastle Cross is a standing stone cross found, like the Ruthwell Cross, at
+                    a former Roman military site. Approximately the same size as Ruthwell and
+                    belonging perhaps to the same artistic school, the severely weathered Bewcastle
+                    Cross still stands in its original location (see Bailey and Cramp 1988). It has
+                    the remains of a sundial on its side and may have been painted and decorated
+                    with other metalwork or glass attachments. The west face is carved with three
+                    figural panels, of which two also appear on Ruthwell. The east side of the cross
+                    is decorated with a continuous vinescroll similar to Ruthwell; its north and
+                    south sides are carved with panels of interlace, geometric, and foliate
+                    ornament. The lowest panel on the west face shows a falconer wearing secular
+                    dress. This usually is understood to represent the deceased man commemorated in
+                    a now largely illegible runic inscription.</p><p>The Vercelli Book <emph>Dream of the Rood</emph> poem ties the members of this
+                    collection together (ed. Swanton 1996). The <emph>Dream</emph> poem describes an
+                    encounter with an object that is at once and alternately a tree, a beacon (a
+                    word used to describe the Cross on the Bewcastle Cross), a sign, and a cross
+                    sometimes covered with blood, and sometimes covered (as in Brussels) with gold
+                    and jewels. It ends with the Cross instructing the dreamer to tell what he or
+                    she has seen and with the dreamer reciting an expression of devotion and
+                    commemoration. The <emph>Dream</emph> is one of only about 25 poems and poetic
+                    fragments known to have survived the Anglo-Saxon period in more than one copy
+                    (O'Donnell 1996; see also Orton 2000). If the runic carving on Ruthwell is
+                    coeval with the rest of the monument, then the poem has a textual history that
+                    is longer and more geographically and linguistically diverse than almost any
+                    vernacular poem in the period. The citation of a couplet from the text on
+                    Brussels, moreover, suggests that it occupied a very significant place in the
+                    vernacular literary imagination: the only other known example of a similar verse
+                    citation in the period is from the translation of the Psalter.</p><p>Together, these objects form a cultural matrix whose members are associated along
+                    a number of textual, art historical, liturgical, and archaeological planes. The
+                    goal of this project is to use new technology to study these objects and their
+                    relationships in ways impossible in print—or even in person. Just as a textual
+                    edition improves upon witnesses by contributing an interpretive apparatus, so to
+                    our edition will improve on readers' knowledge of this matrix by placing it in a
+                    hypermedia apparatus that will assist in its interpretation.</p><p>The value of this approach is perhaps most obvious in the case of the crosses,
+                    which can be understood as multimedia objects in their own right. In all three
+                    cases, the monuments gain meaning from the interaction of text, image, and
+                    context. The stone crosses appear to have been “read” by walking around in a
+                    direction determined by their geographical orientation and the order of the
+                    Liturgy. The Brussels cross—depending on one's view of the object's original
+                    function—would likely have been seen by contemporary audiences either as an
+                    altar piece or carried in procession (On this spatial aspect see especially Ó
+                    Carragáin 2005).</p><p>The new technologies also allow us to ask new questions about the objects
+                    relationships with each other. Had an Anglo-Saxon observer been lucky enough to
+                    see all four in a single lifetime (an impossible proposition given their
+                    temporal and geographic distribution), he or she would have understood them both
+                    as individual works of art and as part of a larger web of cultural traditions
+                    and references extending along various textual, art historical, and generic
+                    planes. By taking advantage of hypermedia's strength in the representation of
+                    arbitrary connections, we as editors can now represent these connections to
+                    modern scholars in a way that translates and augments the original artefacts—in
+                    our edition, linking becomes a type of hypermedia collation. In our edition,
+                    scholars will be able to both to study the individual objects as objects in
+                    their own right and follow the connections among them. In doing so they will
+                    have access both to a collection unavailable to any single Anglo-Saxon observer
+                    and the benefit of immediate access to the best of recent criticism and
+                    centuries of secondary scholarship.</p><p>By using recent developments in collaborative technologies, finally, we hope this
+                    project—like the cultural knowledge it attempts to capture and represents—will
+                    be open to augmentation as our knowledge develops. By using standoff markup, we
+                    intend to allow developers and users to anticipate connections to other objects
+                    in the matrix or discover new connections among existing objects in much the
+                    same way contributors to the Wikipedia can predict the existence of articles
+                    that have yet to be written or contribute “stubs” for subsequent elaboration
+                    while retaining intellectual ownership of their contributions (see Ore 2004 for
+                    a discussion of collaborative editing; O'Donnell 2006 discusses some strengths
+                    and weaknesses of the model for scholars).</p><p>If multimedia projects are going to answer our reviewer's question, they must
+                    learn to do more than simply display—they must also learn to <emph>edit</emph>.
+                    This paper discusses the approaches we are and will be taking to this important
+                    problem in developing a complex multimedia “edition” of a cultural matrix.</p></div0></body><back><div type="Bibliography"><head>Bibliography</head><listBibl><biblStruct><monogr><author><name reg="British Library">British Library</name></author><title level="m">Turning the Pages</title><imprint><date value="n.d.">n.d.</date></imprint></monogr><note><xptr to="http://www.bl.uk/collections/treasures/digitisation4.html" from="ROOT" targOrder="U"/></note></biblStruct><biblStruct><monogr><title level="m">The Bayeux Tapestry</title><editor role="editor"><name reg="Foys, Martin K.">Martin K. Foys</name></editor><imprint><pubPlace>Leicester</pubPlace><publisher>Scholarly Digital Editions</publisher><date value="2003">2003</date></imprint></monogr></biblStruct><biblStruct><analytic><author><name reg="Ó Cróinín, Dáibhí, et al.">Dáibhí Ó Cróinín et al.</name></author><title level="a">Profilometry of Medieval Irish Stone Monuments</title></analytic><monogr><title level="m">Foundations of Irish culture AD 600-850</title><imprint><date value="n.d.">n.d.</date></imprint></monogr><note><xptr to="http://www.foundationsirishculture.ie/main.php?id=4" from="ROOT" targOrder="U"/></note></biblStruct><biblStruct><monogr><author><name reg="Ó Carragáin, Éamonn">Éamonn Ó Carragáin</name></author><title level="m">Ritual and the Rood: Liturgical Images and the Old
+                                English Poems of the Dream of the Rood Tradition</title><imprint><pubPlace>Toronto</pubPlace><publisher>University of Toronto Press</publisher><date value="2005">2005</date></imprint></monogr></biblStruct><biblStruct><analytic><author><name reg="O’Donnell, Daniel Paul">Daniel Paul O'Donnell</name></author><title level="a">Why Should I Write for your Wiki?</title></analytic><monogr><title level="s">Working Paper 1. Readex Community Academic Advisor
+                                Board</title><imprint><date value="2006">2006</date></imprint></monogr></biblStruct><biblStruct><analytic><author><name reg="O’Donnell, Daniel Paul">Daniel Paul O'Donnell</name></author><title level="a">O Captain! My Captain! Using Technology to Guide
+                                Readers through an Electronic Edition</title></analytic><monogr><title level="j">Heroic Age</title><imprint><biblScope type="vol">8</biblScope><date value="2005">2005b</date></imprint></monogr><note><xptr to="http://www.heroicage.org/issues/8/em.html" from="ROOT" targOrder="U"/></note></biblStruct><biblStruct><analytic><author><name reg="O’Donnell, Daniel Paul">Daniel Paul O'Donnell</name></author><title level="a">The Doomsday Machine, or, ‘If You Build it, Will They
+                                Still Come Ten Years from Now?’</title></analytic><monogr><title level="j">Heroic Age</title><imprint><biblScope type="vol">7</biblScope><date value="2004">2004</date></imprint></monogr><note><xptr to="http://www.heroicage.org/issues/7/ecolumn.html" from="ROOT" targOrder="U"/></note></biblStruct><biblStruct><analytic><author><name reg="O’Donnell, Daniel Paul">Daniel Paul O'Donnell</name></author><title level="a">Manuscript Variation in Multiple Recension Old English
+                                Poetic Texts: The Technical Problem and Poetical Art</title></analytic><monogr><edition>PhD Thesis</edition><imprint><publisher>Yale University</publisher><date value="1996">1996</date></imprint></monogr></biblStruct><biblStruct><analytic><author><name reg="Ore, Espen E.">Espen E. Ore</name></author><title level="a">Monkey Business - or What is an Edition?</title></analytic><monogr><title level="j">Literary &amp; Linguistic Computing</title><imprint><biblScope type="vol">19.1</biblScope><date value="2004">2004</date><biblScope>35-44</biblScope></imprint></monogr></biblStruct><biblStruct><monogr><title level="m">A Wheel of Memory: The Hereford Mappamundi</title><editor role="editor"><name reg="Reed Kline, Naomi">Naomi Reed Kline</name></editor><imprint><pubPlace>Ann Arbor, MI</pubPlace><publisher>University of Michigan Press</publisher><date value="2001">2001</date></imprint></monogr></biblStruct><biblStruct><analytic><author><name reg="Robinson, Peter">Peter Robinson</name></author><title level="a">Current Issues in Making Digital Editions of Medieval
+                                Texts—or, Do Electronic Scholarly Editions Have a Future?</title></analytic><monogr><title level="j">Digital Medievalist</title><imprint><biblScope type="vol">1.1</biblScope><date value="2005">2005</date></imprint></monogr><note><xptr to="http://www.digitalmedievalist.org/article.cfm?RecID=6" from="ROOT" targOrder="U"/></note></biblStruct><biblStruct><analytic><author><name reg="Swanton, Michael James">Michael James Swanton</name></author><title level="a">The Dream of the Rood</title></analytic><monogr><title level="m">Old and Middle English Texts</title><imprint><pubPlace>Exeter</pubPlace><publisher>University of Exeter</publisher><date value="1996">1996</date></imprint></monogr></biblStruct><biblStruct><monogr><author><name reg="Toth, Michael B., et al.">Michael B. Toth et al</name></author><title level="m">The Archimedes Palimpsest</title><imprint><date value="n.d.">n.d.</date></imprint></monogr><note><xptr to="http://www.archimedespalimpsest.org/" from="ROOT" targOrder="U"/></note></biblStruct><biblStruct><monogr><author><name reg="Van Ypersele de Strihou, Anne">Anne Van Ypersele de
+                                Strihou</name></author><title level="m">Le Trésor de la Cathédrale des Saints Michel et Gudule à Bruxelles</title><imprint><pubPlace>Brussels</pubPlace><publisher>Cathedral</publisher><date value="2000">2000</date></imprint></monogr></biblStruct><biblStruct><analytic><author><name reg="Webster, Leslie">Leslie Webster</name></author><title level="a">The Brussels Cross</title></analytic><monogr><title level="m">The Golden Age of Anglo-Saxon Art, 966-1066</title><editor role="editor"><name reg="Backhouse, Janet">Janet Backhouse</name></editor><editor role="editor"><name reg="Turner, D. H.">D. H. Turner</name></editor><editor role="editor"><name reg="Webster, Leslie">Leslie Webster</name></editor><imprint><pubPlace>London</pubPlace><publisher>British Museum</publisher><date value="1984">1984</date></imprint></monogr></biblStruct></listBibl></div></back></text></TEI.2>

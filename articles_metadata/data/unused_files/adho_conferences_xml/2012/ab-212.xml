@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="../schema/xmod_web.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xmt="http://www.cch.kcl.ac.uk/xmod/tei/1.0" 
+     xml:id="ab-212">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Social Network Analysis and Visualization in ‘The Papers of Thomas
+                    Jefferson’</title>
+                <author>
+                    <name>Klein, Lauren Frederica</name>
+                    <affiliation>Georgia Institute of Technology, USA</affiliation>
+                    <email>lauren.klein@lcc.gatech.edu</email>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Jan Christoph Meister, Universität Hamburg</publisher>
+                <address>
+                   <addrLine>Von-Melle-Park 6, 20146 Hamburg, Tel. +4940 428 38 2972</addrLine>
+                   <addrLine>www.dh2012.uni-hamburg.de</addrLine>
+              </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>No source: created in electronic format.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2012-04-15</date>
+                <name>DH</name>
+                <desc>generate TEI-template with data from ConfTool-Export</desc>
+            </change>
+            <change>
+                <date>2012-04-13</date>
+                <name>LS</name>
+                <desc>provide metadata for publicationStmt</desc>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="paper">
+        <body>
+            <p>The silences endemic to the archive of slavery have long presented a range of
+                challenges to the literary scholar: How does one account for absences in the
+                archival record, both those inscribed in the archive’s contents, and those
+                introduced at the time of the archive’s construction? How does one account for the
+                power dynamics at work in the relationships between the enslaved men and women who
+                committed their narratives to paper, and the group of (mostly white) reformers who
+                edited and published their works? How does one identify and extract meaning from the
+                unique set of documents that do remain – letters, inventories, ledger books, and
+                personal narratives – documents that, in the words of Susan Scott Parrish, the
+                literary critic, we must struggle to make ‘mean something more?’ (2010). And how
+                does one do so without reinforcing the damaging notion that African American voices
+                from before emancipation – not just in the archival record, but the voices
+                themselves, are silent, and irretrievably lost?   </p>
+            <p>This final, critical challenge is what has prompted scholars from across the
+                humanities, such as the literary critics Stephen Best (2009, 2011) and Saidiya
+                Hartman (2008), the sociologist Avery Gordon (2008), the archivist Jeanette Bastian
+                (2003), and the historian Jill Lepore (1998), to call for a shift away from what
+                Best has identified as ‘a logic and ethic of recovery,’ to a new focus, instead, on
+                animating the mysteries of the past (2011). However, each of these scholars proposes
+                traditional methods of analysis and criticism for animating such mysteries.     </p>
+            <p>This short paper will instead draw upon a set of tools and techniques associated with
+                social network analysis and visualization in order to propose a new method for
+                animating the mysteries of the past. While social network analysis and visualization
+                tools have been applied to literary texts (Drouin 2006-), historical datasets
+                (Wilder 2010-), and correspondence networks (Findlen et al. 2008-), these tools have
+                not yet been applied to historical archives with the aim of illuminating the
+                relationships among people mentioned in the archive’s content.    </p>
+            <p>For this task, I employed a named entity recognizer (NER) developed at Stanford, and
+                included in its suite of CoreNLP (Natural Language Processing) tools, in order to
+                identify the names of the people mentioned in the archive’s content (Manning et al.
+                2010). I then developed my own co-appearance script, in Python, in order to
+                determine which people were mentioned in the same document as each other, and how
+                many times those people appeared together. I then formatted the data to be displayed
+                using Protovis, a javascript-based visualization toolkit also developed at Stanford
+                (Bostock &amp; Heer 2010).</p>
+            <p><figure><graphic url="img212-1.jpg" rend="left" height="256px" width="341px" mimeType="image/jpeg"/><head>Figure 1</head></figure></p>
+            <p> My paper will focus on a subset of documents included in <hi rend="italic">The
+                    Papers of Thomas Jefferson</hi>, those that make reference to members of the
+                enslaved Hemings family (Figure 1). The descendants of Elizabeth Hemings, including
+                Sally Hemings, the woman with whom, whether consensually or not, Jefferson
+                maintained a lifelong relationship and bore six of his children; and James Hemings,
+                who trained as a <hi rend="italic">chef</hi> de cuisine in the high French style,
+                and then worked as the head cook at Jefferson’s Monticello plantation until his
+                emancipation, in 1796, function as an ideal test case both for assessing the limits
+                of the computing methodologies employed, and for determining how the analysis and
+                visualization of social networks can, in fact, animate the mysteries of the past –
+                those that Best, Hartman, and others, have sought to identify and amplify through
+                more traditional scholarly techniques.     </p>
+            <p>A significant limit of employing NER software on this particular dataset is that
+                enslaved men and women were most often referred to by first name alone. For
+                instance, not only are there many Jameses mentioned in <hi rend="italic">The Papers
+                    of Thomas Jefferson</hi>, but James Hemings was also called Jamie, Jimmy, and
+                even <hi rend="italic">Gimmé</hi> while in France. After running my co-appearance
+                script, I was required to go through the results by hand in order to determine which
+                names referred to the same individual, and in that event, combine the associated
+                data. Because of the eighteenth-century style of the Jefferson Papers, I was also
+                required to remain attentive to any NER errors, as well as to individuals clearly
+                alluded to in the Papers, but not referred to by name at all.     </p>
+            <p>The test case of the Hemings family also points to the limits of the ‘arc diagram’
+                model for visualizing complex relationships. While preferable to a force-directed
+                layout, which obscures the distinct relationships among individuals, its layout
+                implies a linearity that is not consistent with the web of relationships contained
+                within the dataset. My paper will thus also propose how hive plots and chord
+                diagrams might function as better models for visualizing such network data
+                (Krzywinski 2009, 2011). In this way, I will suggest how contemporary data
+                visualization research can have a direct impact on a range of literary and cultural
+                investigations.    </p>
+            <p>Furthermore, by demonstrating how a visualization of this particular social network
+                allows us to see the historical traces of the Hemings family as presences, not
+                absences, as scholars such as Best, Hartman, Gordon, Bastian, and Lepore, have each
+                argued for, I begin to address an issue of mounting concern within the community of
+                digital humanities scholars, as voiced by Johanna Drucker (2009) and Alan Liu
+                (2011), among others, about the need to reinscribe humanistic inquiry as the central
+                focus of digital humanities work. The presence of the Hemings family in <hi
+                    rend="italic">The Papers of Thomas Jefferson</hi>, as unearthed by the methods
+                described above, suggests not only how digital tools might be applied to a diverse
+                set of cultural and literary questions, but also how these methods might expose –
+                and animate – the diversity of experience embedded in significant records of early
+                American cultural life.  </p>
+        </body>
+        <back>
+            <div>
+                <head>References</head>
+                <p><hi rend="bold">Bastian, J.</hi> (2010). <hi rend="italic">Owning Memory, How A
+                        Caribbean Community Lost Its Archives and Found Its History. </hi>Westport,
+                    CT: Libraries Unlimited.   </p>
+                <p><hi rend="bold">Best, St.</hi> (2011). Neither Lost nor Found: Slavery and the
+                    Visual Archive. <hi rend="italic">Representations</hi> 113(1): 150-163.</p>
+                <p><hi rend="bold">Best, St., and M. Sharon</hi> (2009). Surface Reading: An
+                    Introduction. <hi rend="italic">Representations</hi> 108(1): 1-21.</p>
+                <p><hi rend="bold">Bostock, M., and J. Heer</hi> (2010). <hi rend="italic"
+                    >Protovis</hi>. <ref target="http://mbostock.github.com/ protovis/" type="external">http://mbostock.github.com/ protovis/</ref></p>
+                <p><hi rend="bold">Drouin, J.</hi> (2006-). <hi rend="italic">Ecclesiastical Proust
+                        Archive</hi>. http://www.proustarchive.org/</p>
+                <p><hi rend="bold">Drucker, J.</hi> (2009). <hi rend="italic">SpecLab: Digital
+                        Aesthetics and Projects in Speculative Computing</hi>. Chicago: U of Chicago
+                    P.</p>
+                <p><hi rend="bold">Findlen, P., et al.</hi> (2008-). <hi rend="italic">Mapping the
+                        Republic of Letters</hi>. https:// republicofletters.stanford.edu/</p>
+                <p><hi rend="bold">Gordon, A.</hi> (2008). <hi rend="italic">Ghostly Matters:
+                        Haunting and the Sociological Imagination</hi>. Minneapolis: U of Minnesota
+                    P.</p>
+            </div>
+        </back>
+    </text>
+</TEI>

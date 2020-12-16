@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="../schema/xmod_web.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xmt="http://www.cch.kcl.ac.uk/xmod/tei/1.0" 
+     xml:id="ab-431">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Texts in Motion – Rethinking Reader Annotations in Online Literary
+                    Texts</title>
+                <author>
+                    <name>Fendt, Kurt E.</name>
+                    <affiliation>Massachusetts Institute of Technology, USA</affiliation>
+                    <email>fendt@mit.edu</email>
+                </author>
+                <author>
+                    <name>Kelley, Wyn</name>
+                    <affiliation>Massachusetts Institute of Technology, USA</affiliation>
+                    <email>wkelley@mit.edu</email>
+                </author>
+                <author>
+                    <name>Zhang, Jia</name>
+                    <affiliation>Massachusetts Institute of Technology, USA</affiliation>
+                    <email>zhangjia@mit.edu</email>
+                </author>
+                <author>
+                    <name>Della Costa, Dave</name>
+                    <affiliation>Massachusetts Institute of Technology, USA</affiliation>
+                    <email>dfd@mit.edu</email>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Jan Christoph Meister, Universität Hamburg</publisher>
+                <address>
+                   <addrLine>Von-Melle-Park 6, 20146 Hamburg, Tel. +4940 428 38 2972</addrLine>
+                   <addrLine>www.dh2012.uni-hamburg.de</addrLine>
+              </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>No source: created in electronic format.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2012-04-15</date>
+                <name>DH</name>
+                <desc>generate TEI-template with data from ConfTool-Export</desc>
+            </change>
+            <change>
+                <date>2012-04-13</date>
+                <name>LS</name>
+                <desc>provide metadata for publicationStmt</desc>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="paper">
+        <body>
+            <p>
+               Taking Reader’s Response Theory as the basis, this short paper discusses
+                    approaches to enhancing reader interaction with literary texts through social
+                    annotation and visualization tools. The integration of multimedia repositories,
+                    collaborative annotation mechanisms, and advanced visualization techniques
+                    creates a digital environment for students and scholars alike and provides
+                    readers with rich tools for both interpreting literary texts and visualizing
+                    reader interactions with these texts. Examples will be drawn from Mary Shelley’s
+                        <hi rend="italic">Frankenstein</hi> and Herman Melville’s <hi rend="italic"
+                        >Moby-Dick</hi>.</p>
+                <p>Notes in margins of books fulfill several functions for the individual reader:
+                recording thoughts and associations while reading, marking important passages or
+                references to other parts within the same text, noting possible links to other texts
+                and documents, or simply creating a reference point to come back to in a subsequent
+                reading. From a cognitive point of view, marginalia offer insights into the
+                interaction of a reader with a given text and offer hints towards understanding the
+                process of reading and sense making. Reading a book that already contains notes by
+                another reader can be both enlightening or distracting, yet it allows us to
+                encounter another person’s reading experience, forming another layer of meaning that
+                might influence our own interpretation. It’s this interactive nature of the reading
+                experience, the constant interaction between the text itself and the reader’s
+                response to it that, according to Wolfgang Iser in the <hi rend="italic">Implied
+                    Reader</hi> (1974)<note> Iser, W. (1974). <hi rend="italic">The Implied
+                        Reader; Patterns of Communication in Prose Fiction from Bunyan to
+                        Beckett</hi>. Baltimore: John Hopkins UP.</note>, allows us to interpret a
+                literary text. The result is a ‘virtual text’ that is formed by a text and the
+                reader‘s interaction with it.</p>
+                <p>For centuries, marginalia have served as instantiations of a rich reader
+                    engagement with a text, often providing hints to interpretations from different
+                    times, languages, and cultures thus forming critical insights into texts that
+                    would otherwise be lost. With more and more texts being digitized or already
+                    born digital texts available online or on electronic readers, the notion of
+                    marginalia in a digital space poses a number of interesting questions. How can
+                    we preserve, enhance, and expand this critical interaction especially with
+                    literary texts, particularly when we consider the social dimension offered
+                    through digital media? How can we make use of large digital text, image, video,
+                    and audio repositories to help us represent a text as a ‘multi-dimensional
+                    space,’ as a ‘tissue of quotations drawn from innumerable centers of culture’
+                    (Roland Barthes)<note>Barthes, R. (1997). The Death of the Author. In <hi
+                        rend="italic">Image – Music–
+                      Text</hi>. New York: Hill &amp; Wang, pp. 142-148.</note>? What if we had digital tools that
+                    allowed us to even visualize how readers experience a text by following their
+                    interactions, for example by graphically representing their annotations across
+                    the whole text? How do readers discover connections within a text, across
+                    different texts, to source texts, to adaptations in other media, or derivative
+                    texts? What if we could finally visualize the ‘act of reading’ (Iser) and
+                    analyze a literary text from the perspective of both the author and the
+                    readers?</p>
+                <p>A multidisciplinary research team at HyperStudio, the Massachusetts Institute of
+                    Technology’s Digital Humanities Lab within Comparative Media Studies, has been
+                    exploring these questions, developing digital tools that allow readers to create
+                    multimedia annotations to literary texts, and testing them in the literature
+                    classroom. HyperStudio has created specific visualization tools that allow for a
+                    visual representation of the structural features of a text and, more
+                    importantly, offer graphs that show the reader interactions with a given text
+                    both on page and whole book levels. At the same time, these visualizations also
+                    serve as navigational mechanisms through the texts and annotations, both
+                    fine-grained and on a whole-text basis.</p>
+                <p>Pedagogically this work is informed by a wide range of theoretical and practical
+                    approaches: concepts of media literacy, work on interactive and collaborative
+                    text editing, a pedagogy of close reading and critical writing devised to place
+                    literary texts in relation to their multimedia sources and adaptations; and new
+                    Digital Humanities tools for visualization, data mining, and social
+                    networking.</p>
+                <p>At the heart of these different approaches lie theories and technologies for
+                    understanding the mix as a central feature of new media ‘literacies’ or
+                    ‘competencies,’ in Henry Jenkins’ terminology<note>Jenkins, J., et al. (2006). <hi rend="italic"
+                        >Confronting the Challenges of Participatory Culture: Media Education
+                        for the 21st Century</hi>. Chicago: The John D. and Catherine T.
+                        MacArthur Foundation. <ref
+                            target="http://digitallearning.macfound.org/atf/cf/%7B7E45C7E0-A3E0-4B89-AC9C-E807E1B0AE4E%7D/JENKINS_WHITE_PAPER.PDF"
+                            type="external">http://digitallearning.macfound.org/atf/cf/%7B7E45C7E0-A3E0-4B89-AC9C-E807E1B0AE4E%7D/JENKINS_WHITE_PAPER.PDF
+                        </ref>accessed 25 March 2012.</note>. The
+                    notion of remix borrowed from popular musical forms has come to define new modes
+                    of artistic production and consumption that inspire active creators. Similarly
+                    in academic scholarship and pedagogy, an appreciation for how artists borrow and
+                    rework cultural materials has energized the study of creative processes. In a
+                    literature classroom, traditional methods of close reading, source study, and
+                    literary analysis can merge with newer interpretive models to view texts in
+                    creative flux: as fluid vessels for recombining older forms of inspiration and
+                    engendering new ones in different media adaptations. Reading literary works as
+                    textual remixes reinforces strong close reading and critical skills while
+                    rejuvenating source study. We see text annotation at the center of this notion
+                    of remix.  </p>
+                <p>The visualization approaches have been informed by a range of current online
+                tools for visualizing texts but also by artistic representations of text corpora
+                such as David Small’s work<note>Small, D. (1999). <hi rend="italic">Talmud
+                        Project</hi>. <ref
+                        target="http://www.davidsmall.com/portfolio/talmud-project/" type="external"
+                        >http://www.davidsmall.com/portfolio/talmud-project/</ref> accessed 25 March
+                    2012</note>, timeline tools such as HyperStudio’s <hi rend="italic"
+                    >Chronos</hi><note>MIT HyperStudio (2011). <hi rend="italic">Chronos
+                        Timeline</hi>. <ref
+                        target="http://hyperstudio.mit.edu/software/chronos-timeline/"
+                        type="external">http://hyperstudio.mit.edu/software/chronos-timeline/</ref>
+                    accessed 25 March 2012.</note>, and playful approaches such as the ones by John
+                        Maeda<note><ref target="http://www.maedastudio.com/index.php"
+                        type="external"> http://www.maedastudio.com/index.php accessed 25 March
+                        2012.</ref></note>. Existing visualization concepts such as word clouds,
+                word trees, phrase nets are only a few of the online visual tools that help us graph
+                occurrences of single words or the relationship between words within texts. Popular
+                visualization tools such as the ones available for experimentation at IBM‘s Many Eyes<note>
+                    <ref target="http://www-958.ibm.com/software/data/cognos/manyeyes/"
+                        type="external">http://www-958.ibm.com/software/data/cognos/manyeyes/</ref>
+                    accessed 25 March 2012.</note> or scholarly tools such as Voyeur<note>
+                    <ref target="http://hermeneuti.ca/voyeur/" type="external"
+                        >http://hermeneuti.ca/voyeur/</ref> accessed 25 March 2012.</note> help us
+                quickly discover word frequencies and usage patterns. Google’s Ngram
+                        Viewer<note><ref target="http://books.google.com/ngrams" type="external"
+                        >http://books.google.com/ngrams</ref> accessed 25 March 2012.</note> makes
+                the leap beyond the single text and searches across ‘millions’ of books and displays
+                occurrences of single or multiple words as line graphs along a timeline that spans
+                decades or even centuries. While these tools help us greatly analyze a range of
+                linguistic aspects of the work of an author, they tell us little about how readers
+                interact with literary texts. The tools that HyperStudio is developing allow us to
+                visualize how readers interact with a text, how they discover connections within a
+                text, across texts, to source texts, to adaptations in other media, or derivative
+                texts. In the end, they aim at visualizing the ‘act of reading’ (Iser) and helping
+                to analyze a literary text from the perspective of both the author and the readers. </p>
+                <p>From a software development point of view, we are using principles of agile
+                    development and co-design, involving students, faculty, designers, and
+                    assessment specialists from the outset. Building on HyperStudio’s
+                    Ruby-on-Rails-based platform Repertoire, the text annotation tools feature
+                    shareable text repositories, easy role and group management, filtering of
+                    annotations via tags and search, and display of overlapping annotations from
+                    different users/groups. The visualization tools will allow a seamless transition
+                    from fine-grained display of annotations to a global view of annotations within
+                    a whole literary text.</p>
+                <p>We recognize that there are a number of text annotation tools available, both
+                    open source and commercial, that include some of the features we are describing
+                    here.  However, the approach to annotating texts with multimedia materials,
+                    annotation across texts, a deep integration of visualization tools for both
+                    textual features and reader interaction, combined with a strong educational
+                    focus, is unique in the field.   </p>
+                <p>Early feedback from students using a prototype of the annotation tools in two
+                    literature classes at MIT has shown a deeper engagement by students not only in
+                    processes of close reading and creating references to external sources but also
+                    in students’ requests for private workspaces where they could upload their
+                    selection of literary texts and annotate them in the same way for their own
+                    research, not even related to any class assignments. In addition, the
+                    HyperStudio team has also received a number of feature requests from students.
+                    One feature in particular was in great demand (on our schedule for later
+                    implementation): the flexible comparison and joint annotation of two texts
+                    side-by-side. Each text can be independently defined as source, version, base,
+                    or adaptation, allowing for the display of referenced annotations even when the
+                    related text is not present. Additional features such as annotation of
+                    non-contiguous portions of text and the creation of multimedia essays based on
+                    reader annotations will be implemented in a next phase.  By the time of DH2012,
+                    HyperStudio will have tested the annotation tools and visualizations in half a
+                    dozen courses and conducted extensive assessment.</p>
+                
+               
+           
+            <p><hi rend="bold">Funding</hi></p>
+            <p>This work was supported by the MIT Class Fund and the MIT SHASS Teaching and Learning
+                Fund.</p>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="../schema/xmod_web.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xmt="http://www.cch.kcl.ac.uk/xmod/tei/1.0" 
+     xml:id="ab-459">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>DiaView: Visualise Cultural Change in Diachronic Corpora</title>
+                <author>
+                    <name>Beavan, David</name>
+                    <affiliation>University College London, UK</affiliation>
+                    <email>d.beavan@ucl.ac.uk</email>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Jan Christoph Meister, Universität Hamburg</publisher>
+                <address>
+                   <addrLine>Von-Melle-Park 6, 20146 Hamburg, Tel. +4940 428 38 2972</addrLine>
+                   <addrLine>www.dh2012.uni-hamburg.de</addrLine>
+              </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>No source: created in electronic format.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>2012-04-15</date>
+                <name>DH</name>
+                <desc>generate TEI-template with data from ConfTool-Export</desc>
+            </change>
+            <change>
+                <date>2012-04-13</date>
+                <name>LS</name>
+                <desc>provide metadata for publicationStmt</desc>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="paper">
+        <body>
+            <div>
+                <head>Introduction</head>
+                <p>This paper will introduce and demonstrate <hi rend="italic"
+                            >DiaView</hi>,<note><ref
+                            target="http://www.scottishcorpus.ac.uk/corpus/diaview/" type="external"
+                            >http://www.scottishcorpus.ac.uk/corpus/diaview/</ref></note> a new tool
+                    to investigate and visualise word usage in diachronic corpora. DiaView
+                    highlights cultural change over time by exposing salient lexical items from each
+                    decade or year, and providing them to the user in an effortless visualisation. 
+                    This is made possible by examining large quantities of diachronic textual data,
+                    in this case the Google Books corpus (Michel et al. 2010) of one million English
+                    books. This paper will introduce the methods and technologies at its core,
+                    perform a demonstration of the tool and discuss further possibilities.</p>
+            </div>
+            <div>
+                <head>Applicable Corpora</head>
+                <p> Key to the success of any large-scale cultural inspection is a large corpus of
+                    writing, both in terms of chronological span, and also depth of sampling from
+                    each year. Two corpora stand out as candidates for this approach: The Corpus of
+                    Historical American English (COHA) (Davies 2010) and the Google Books corpus.
+                    The COHA dataset, while being 400 million words and having been more rigorously
+                    compiled, is restricted in terms of its availability. Google Books, on the other
+                    hand, is 155 billion words, spanning from the sixteenth century to the present,
+                    although the precise corpus make-up is less lucid. Google have provided n-gram
+                    frequency lists for download, and consequently this visualisation has been based
+                    upon the Google Books English One Million data set. It should be stressed that
+                    the techniques DiaView are applicable to many other data sets, from very focused
+                    specialised corpora to large-scale newspaper archives. The choice of corpus used
+                    for this demonstration is mainly driven by two factors: public availability and
+                    re-use in addition to the need for general content leading to a wider public
+                    appreciation of the results this tool provides. </p></div>
+                <div>
+                    <head>Established Query Methods</head>
+                    <p>
+                    The standard tools available to current corpus users revolve around two
+                        methods: word searches or the comparison of frequencies (either over time or
+                        between two focussed points). These tools are in widespread use, and while
+                        well understood and used, they do not present the whole linguistic picture
+                        to their users.</p><p>The <hi rend="italic">Google Books n-gram
+                            Viewer</hi>,<note><ref target="http://books.google.com/ngrams" type="external">http://books.google.com/ngrams</ref></note> for instance is very capable at allowing users to chart
+                        the usage of lexical items over time. While illuminating, it implies that
+                        users already know what they are looking for (the lexical item) and also
+                        that frequency (the number of times that word is used) provides enough data
+                        to make assertions. Choosing the term of interest at the outset means this
+                        resource delivers a powerful search function, but it fails at browsing or
+                        exploration. In other terms you only find what you look for.</p><p>The
+                        alternative method, based upon comparing frequencies over time, is best
+                        exemplified (using the same corpus) by the <hi rend="italic">Top Words
+                            1570-2008</hi>.<note><ref target="http://pages.cs.wisc.edu/~gleicher/Hacks/tops.html" type="external">http://pages.cs.wisc.edu/~gleicher/Hacks/tops.html</ref></note> This tool meticulously visualises the most frequent
+                        words in the Google Books corpus and charts their rise and fall across every
+                        decade the corpus covers. Word frequency alone does not tell us enough. Just
+                        because a lexical item is frequently occurring in a particular time span, it
+                        may not be of interest, particularly if you find it frequently elsewhere.
+                        That word soon downgrades from important to common and suddenly becomes much
+                        less interesting.</p><p>DiaView takes a different approach, one that
+                        promotes browsing (not searching) and transcends basic word frequency
+                        methods (it strives to deliver salience).</p>
+                </div>
+            <div>
+                <head>DiaView Concept</head>
+                <p>
+                    DiaView is designed to operate at a more opportunistic conceptual level than
+                        the examples above; in this case summarising and browsing data takes
+                        precedence over specific focussed searches. DiaView aims to complement other
+                        approaches, and as such will operate as a gateway to other methods,
+                        particularly lexical searches.</p>
+                    <p>The tool divides its corpus into a number of chronological divisions, i.e.
+                        years or decades. In each, statistical measures are used to extract those
+                        lexical elements that are salient or focussed on that time-span. This does
+                        not necessarily imply frequently used words, but, rather, words which are
+                        found predominantly in that time, a possible key into the cultural issues
+                        experienced or explored at that moment in time.</p>
+                
+            </div>
+            <div>
+                <head>DiaView Method</head>
+                <p>
+                    A relational database has been used to realise DiaView, however other
+                        technologies are equally applicable to producing similar results. Equally,
+                        any number of statistical measures or comparators can be used to ascertain
+                        the salient words for each year, <hi rend="italic">mutual information
+                        </hi>or <hi rend="italic">log-likelihood</hi> are good candidates for
+                        use.</p><p>For this demonstration DiaView requires word frequency lists
+                        for each year. In this case the corpus was trimmed to 1900-1950.
+                        Fundamentally this is a tabulated list of lexical items, followed by the
+                        number of occurrences in each year.</p><p>DiaView then creates an
+                        aggregated view of these frequency lists, gathering each <hi rend="italic"
+                            >type</hi> (individual word) and the total number of occurrences across
+                        the entire corpus (summing the data above). A further optional stage is to
+                        cull this list; either by disposing of the least frequently used types (e.g.
+                        remove words not used more than ten times each year) or by concentrating on
+                        the most frequently used types (e.g. keep the 100,000 most often used
+                        words).</p><p>Extracting salient terms from each year is now performed.
+                        Taking each type (identified previously) in turn, its frequency in each year
+                        is inspected and compared to its global frequency. Here the statistical
+                        measure is used to gauge its connection to each particular year. This
+                        removes the dependence of raw frequencies: a word may occur few times or a
+                        great number, what is of prime importance is if its distribution is skewed
+                        or focussed on a particular chronological range. For each year a ranked list
+                        of salient types are created. </p><p>The visualisation is created by
+                        extracting the salient types from each year and displaying the top 25 in
+                        descending order. Each type in each year can be used to hyperlink other
+                        resources, such as the Google Book n-gram Viewer.
+                </p>
+            </div>
+            <div>
+                <head>Future possibilities</head>
+                <p>While DiaView offers new ways to view large data sets, it is open to further
+                    enhancements. Access to corpora divided by genre would add valuable benefits to
+                    the visualisation, allowing users to narrow down the corpus to include material
+                    only of their choice. Linguistic stemming could also be used to gather words
+                    around their root form, e.g. to cluster run, running, runs, ran etc.</p>
+            </div>
+        </body>
+        <back>
+            <div>
+           
+                    <head>References</head>
+                <p><hi rend="bold">Davies, M.</hi> (2010). <hi rend="italic">The Corpus of
+                        Historical American English: 400 million words, 1810-2009</hi>. Available
+                    online at <ref target="http://corpus.byu.edu/coha/" type="external"
+                        >http://corpus.byu.edu/coha/</ref>.</p>
+                <p><hi rend="bold">Michel, J., Y. Shen, A. Aiden, A. Veres, M. Gray, W. Brockman,
+                        The Google Books Team, J. Pickett, D. Hoiberg, D. Clancy, P. Norvig, J.
+                        Orwant, S. Pinker, M. Nowak, and E. Aiden </hi>(2010). Quantitative Analysis
+                    of Culture Using Millions of Digitized Books<hi rend="italic">. Science</hi>
+                    (Published online ahead of print: 12/16/2010)</p>
+                
+            </div>
+        </back>
+    </text>
+</TEI>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI.2 id="paper_191_ledezma"><teiHeader><fileDesc><titleStmt><title>Exploring New Worlds in Old Texts: Text Encoding Projects for the Undergraduate Study of Spanish American Colonial Literature</title><author><name reg="Ledezma, Domingo">Domingo Ledezma</name></author><author><name reg="Stinson, Phoebe">Phoebe Stinson</name></author><author><name reg="Hamlin, Scott">Scott Hamlin</name></author><respStmt><resp>Marked up by</resp><name reg="Field, Hana S.">Hana S. Field</name></respStmt></titleStmt><publicationStmt><p>Marked up to be included in the Digital Humanities 2007 Conference Abstracts
+                    book.</p></publicationStmt><sourceDesc><p>None</p></sourceDesc></fileDesc><profileDesc><textClass><classCode>paper</classCode><keywords><list type="simple"><item>Spanish American colonial literature</item><item>pedagogy</item><item>encoding</item><item>humanities computing</item></list></keywords></textClass></profileDesc><revisionDesc><list><item>HSF: Created from Domingo Ledezma's doc<date value="2007-04">April
+                    2007</date></item><item>SAS: Revised <date value="2007-05">May 2007</date></item></list></revisionDesc></teiHeader><text><front><docTitle n="Exploring New Worlds in Old Texts: Text Encoding Projects for the Undergraduate Study of Spanish American Colonial Literature"><titlePart type="main">Exploring New Worlds in Old Texts: Text Encoding Projects for
+                    the Undergraduate Study of Spanish American Colonial Literature</titlePart></docTitle><docAuthor><name reg="Ledezma, Domingo">Domingo Ledezma</name><address><addrLine>dledezma@wheatoncollege.edu</addrLine></address></docAuthor><titlePart type="affil">Wheaton College</titlePart><docAuthor><name reg="Stinson, Phoebe">Phoebe Stinson</name><address><addrLine>stinson_phoebe@wheatoncollege.edu</addrLine></address></docAuthor><titlePart type="affil">Wheaton College</titlePart><docAuthor><name reg="Hamlin, Scott">Scott Hamlin</name><address><addrLine>hamlin_scotte@wheatonma.edu</addrLine></address></docAuthor><titlePart type="affil">Wheaton College</titlePart></front><body><div0><p>Teaching Spanish colonial literature to undergraduate students is a difficult
+                    pedagogical task, because students in that level don’t have an extensive
+                    knowledge of the language of the times or the books’ historical context. Indeed,
+                    graduate classes and even scholars writing in the field rarely grapple with the
+                    early modern editions themselves, because of their accessibility and because
+                    they can be so difficult to penetrate. A scholarly collection of essays by Danny
+                    Anderson and Jill S. Kuhnheim, that discusses strategies for teaching this
+                    material, encourages an approach to these texts based on cultural theory and
+                    literary criticism rather than on a close examination of the texts themselves.
+                    At Wheaton College (Norton, MA), on the contrary, we have spent the last two
+                    years experimenting with a different approach: students’ direct involvement with
+                    a digital portion of a colonial text (supported by digital cartographic evidence
+                    from the period, and mediated by the faculty’s suggestions) enhances their
+                    comprehension and interest for the actual original book.</p><p>In three literature classes undergraduate students have contributed to the
+                    creation of a digital critical edition of a 16th century Spanish rare book:
+                        <title level="m">Libro de los Infortunios y Naufragios (Book of the
+                        Misfortunes and Shipwrecks)</title> by Gonzalo Fernández de Oviedo, partially
+                    published in Seville in 1535, as part of the <title level="m">La Historia
+                        General de las Indias (General History of the West Indies).</title> To date
+                    Fernandez de Oviedo’s shipwreck narrative has received only scant scholarly
+                    attention by literary critics because of the rarity of the book and
+                    accessibility to the XVI century printed edition (Kohut).</p><p>The class goal is to produce a digital edition of Fernandez de Oviedo’s book. The
+                    process comprises a variety of steps, aimed to direct students’ attention to the
+                    texts themselves, their structure, the meaning of words and phrases, and even of
+                    individual letters. Students first learn to use accurate transcription
+                    techniques and electronic textual editing practices, and then move on to the
+                    text encoding based on an XML encoding scheme developed by the Text Encoding
+                    Initiative (TEI). We have found that using the TEI encoding is an effective
+                    pedagogical tool because, as Allen Renear notes in a article, the standard can
+                        “<emph>improve</emph> our ability to describe textual
+                    features…. The TEI Guidelines represent an elucidation of current practices,
+                    methods, and concepts that open the way to new methods of analysis, new
+                    understandings, and new possibilities for representation and communication”
+                    (235).</p><p>The TEI encoding project functions as a pedagogical tool to study an Early Modern
+                    Spanish text; it helps students become more knowledgeable regarding the primary
+                    text and the context in which it was written. By using TEI students focus their
+                    attention on three main levels: linguistic, geographical and historical. While
+                    working directly with a text with the purpose of encoding one of its portions,
+                    students have a chance to learn across multiple disciplines, e.g. learning about
+                    the ancient Spanish denomination of a place, and creating a link to its location
+                    on a map of the times.</p><p>The encoding projects are divided into several stages. First, students use text
+                    editing software to create a transcription from digital images of original print
+                    editions – a process that involves deciphering difficult 16th century typography
+                    and finding codes to represent the many characters that are no longer used in
+                    contemporary Spanish. After completing the transcription, the students employ a
+                    rigorous, descriptive “tagging” process, using the TEI XML encoding scheme. They
+                    begin by marking the structural parts of the text – where each chapter begins
+                    and ends, each section heading, each paragraph, and so on. They then use TEI
+                    encoding to tag historical people names, places, and unfamiliar or archaic
+                    vocabulary in the text. And as a final stage of the project, the students
+                    perform appropriate research about their texts, and using TEI, define all of the
+                    tagged people, places, and vocabulary – essentially providing electronic
+                    footnotes to the digital editions of the text. During this stage of the project,
+                    students also work with scans of original maps from the period – locating on the
+                    maps many places they have tagged, and linking segments of text in their
+                    documents to the scans.</p><p>This process presents many pedagogical advantages. Students are extremely
+                    motivated by projects like this: they work so closely with the text and end up
+                    creating their own annotated edition, thus feeling a sense of ownership of the
+                    documents. Many students are excited that this project reaches beyond typical
+                    Humanities class work and that they see the results of their hard work very
+                    quickly published on the World Wide Web. The students' digital editions of the
+                    texts also help preserve and eventually widen the distribution of out of print
+                    texts. And finally, this project introduces an academic rigor in studying this
+                    literature, which shows in the accuracy taken to encode and validate the text
+                    encoding. Within the last few years, Wheaton has been instituting a new
+                    curriculum that emphasizes that students should gain a breadth and depth of
+                    knowledge through their course work. The process of creating a digital edition
+                    of texts like these ensures that students have an in depth experience with a
+                    text unlike most other experiences they have had in the humanities. This
+                    approach to a text encourages them to apply a systematic, almost scientific
+                    approach to humanities scholarship. This work, therefore, is well in line with
+                    the goals of many of digital humanities scholarship. A goal, which Susan Hockey
+                    expressed in a comprehensive article about the history of the Digital
+                    Humanities: “to bring the rigor and systematic unambiguous procedural
+                    methodologies characteristic of the sciences to address problems within the
+                    humanities that had hitherto been most often treated in a serendipitous fashion”
+                    (3).</p><p>Our experience teaching with TEI at Wheaton has been very positive: students
+                    learn to understand and appreciate the original rare book, only once they have
+                    had their experience with creating the digitally enhanced version of it. At that
+                    point they’re ready to visit a prestigious library like the John Carter Brown
+                    Library at Brown University, and look at the book and at the maps of the period.
+                    Undergraduates benefit from the text encoding experience in many ways: better
+                    understanding of the topic of study, better understanding of the foreign
+                    language, and interest, or at least curiosity, for the rare book itself.
+                    Assessment on student learning has been very positive: students retain a lot
+                    more than with traditional teaching, and can sometimes also spot irregularities
+                    and even fake news in the texts they study. The load on the faculty member and
+                    on the library liaison is very high, but it pays off with the students’
+                    satisfaction.</p></div0></body><back><div type="Bibliography"><head>Bibliography</head><listBibl><biblStruct><monogr><author><name reg="Anderson, Danny J.">Danny J. Anderson</name></author><author><name reg="Kuhnheim, Jill S.">Jill S. Kuhnheim</name></author><title level="m">Cultural Studies in the Curriculum: Teaching Latin
+                                America</title><imprint><pubPlace>New York</pubPlace><publisher>Modern Language Association of America</publisher><date value="2003">2003</date></imprint></monogr></biblStruct><biblStruct><monogr><title level="m" type="WWW document">TEI P5:Guidelines for Electronic Text
+                            Encoding and Interchange</title><editor role="editor"><name reg="Burnard, Lou">Lou
+                            Burnard</name></editor><editor role="editor"><name reg="Bauman, Syd">Syd Bauman</name></editor><imprint><publisher>TEI Consortium</publisher><date value="2006">2006</date></imprint></monogr><note><xptr crdate="" to="http://www.tei-c.org/release/doc/tei-p5-doc/html/" from="ROOT" targOrder="U"/></note></biblStruct><biblStruct><monogr><title level="m">Electronic Textual Editing</title><editor role="editor"><name reg="Burnard, Lou">Lou Burnard</name></editor><editor role="editor"><name reg="O'Brian O'Keeffe, Katherine"> Katherine O'Brien
+                                O'Keeffe</name></editor><editor role="editor"><name reg="Unsworth, John">John Unsworth</name></editor><imprint><pubPlace>New York</pubPlace><publisher>Modern Language Association of America</publisher><date value="2006">2006</date></imprint></monogr></biblStruct><biblStruct><monogr><title level="m">The Literary Text in the Digital Age</title><editor role="editor"><name reg="Finneran, Richard J.">J. Richard Finneran</name></editor><imprint><pubPlace>Ann Arbor, MI</pubPlace><publisher>University of Michigan Press</publisher><date value="1996">1996</date></imprint></monogr></biblStruct><biblStruct><monogr><author><name reg="Cohen, Daniel J.">Daniel J.Cohen</name></author><author><name reg="Rosenzweig, Roy">Roy Rosenzweig</name></author><title level="m">Digital History : A Guide to Gathering, Preserving, and
+                            Presenting the Past on the Web</title><imprint><pubPlace>Philadlephia, PA</pubPlace><publisher>University of Pennsylvania Press</publisher><date>2006</date></imprint></monogr></biblStruct><biblStruct><monogr><editor role="editor"><name reg="Finneran, Richard J.">J. Richard Finneran</name></editor><title level="m">The Literary Text in the Digital Age</title><imprint><publisher>University of Michigan Press</publisher><pubPlace>Ann Arbor, MI</pubPlace><date value="1996">1996</date></imprint></monogr></biblStruct><biblStruct><analytic><author><name reg="Hockey, Susan">Susan Hockey</name></author><title level="a">The History of Humanities Computing</title></analytic><monogr><title level="m">A Companion to Digital Humanities</title><editor role="editor"><name reg="Schreibman, Susan">Susan Schreibman</name></editor><editor role="editor"><name reg="Siemens, Ray">Ray Siemens</name></editor><editor role="editor"><name reg="Unsworth, John">John Unsworth</name></editor><imprint><pubPlace>Malden, MA</pubPlace><publisher>Blackwell Publishing Ltd</publisher><date value="2004">2004</date><biblScope type="pages">3-19</biblScope></imprint></monogr></biblStruct><biblStruct><analytic><author><name reg="Kohut, Karl.">Karl Kohut</name></author><title level="a">Fernández De Oviedo: Historiografía e Ideología</title></analytic><monogr><title level="j">Boletin de la Real Academia Española</title><imprint><biblScope type="vol">73.259</biblScope><date value="1993">1993</date><biblScope type="pages">367-82</biblScope></imprint></monogr></biblStruct><biblStruct><analytic><author><name reg="Renear, Allen H.">Allen H. Renear</name></author><title level="a">Text Encoding</title></analytic><monogr><title level="m">A Companion to Digital Humanities</title><editor role="editor"><name reg="Schreibman, Susan">Susan Schreibman</name></editor><editor role="editor"><name reg="Siemens, Ray">Ray Siemens</name></editor><editor role="editor"><name reg="Unsworth, John">John Unsworth</name></editor><imprint><pubPlace>Malden, MA</pubPlace><publisher>Blackwell Publishing</publisher><date value="2004">2004</date><biblScope type="pages">218-239</biblScope></imprint></monogr></biblStruct><biblStruct><monogr><title level="m">P4: Guidelines for Electronic Text Encoding and Interchange</title><editor role="editor"><name reg="Sperberg-McQueen, C. M.">C. M. Sperberg-McQueen</name></editor><editor role="editor"><name reg="Burnard, Lou">Lou Burnard</name></editor><imprint><pubPlace>Oxford, UK</pubPlace><pubPlace>Providence, RI</pubPlace><pubPlace>Charlottesville, VA</pubPlace><pubPlace>Bergen, NO</pubPlace><publisher>TEI Consortium</publisher><date value="2002">2002</date></imprint></monogr></biblStruct><biblStruct><monogr><author><name reg="The Electronic Text Center, University of Virginia">The Electronic Text Center, University of Virginia</name></author><title level="m" type="The Etext Center Introduction to TEI and Guide to Document Preparation">The Etext Center Introduction to TEI and Guide to Document Preparation</title><imprint/></monogr><note><xptr crdate="" to="http://etext.lib.virginia.edu/standards/tei/uvatei.html" from="ROOT" targOrder="U"/></note></biblStruct><biblStruct><monogr><author><name reg="Women's Writer's Project">Women's Writer's Project</name></author><title level="m" type="WWP Training Materials">WWP Training Materials</title><imprint/></monogr><note><xptr crdate="" to="http://www.wwp.brown.edu/encoding/training/index.html" from="ROOT" targOrder="U"/></note></biblStruct></listBibl></div></back></text></TEI.2>
