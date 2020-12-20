@@ -20,5 +20,5 @@ def rencode(folder_path):
                     json.dump(loaded, fd, ensure_ascii=False)
 
 # call function
-folder_path = "../data/adho_conferences/one_folder_metadata"
+folder_path = "../data/adho_conferences/complete_dataset"
 rencode(folder_path)

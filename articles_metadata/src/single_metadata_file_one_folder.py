@@ -36,7 +36,7 @@ def create_abstract_txt(folder_path, folder_final_path):
                         #print(article["identifier"]["string_id"])
                         json.dump(article, g, ensure_ascii=False)
 
-folder_path = "../data/adho_conferences/complete_dataset"
-folder_final_path = "../data/adho_conferences/one_folder_metadata"
+folder_path = "../data/research_papers/complete_dataset"
+folder_final_path = "../data/research_papers/one_folder_metadata"
 
 create_abstract_txt(folder_path, folder_final_path)

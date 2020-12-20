@@ -32,7 +32,7 @@ def create_abstract_txt(folder_path, folder_final_path):
                         #print(article["identifier"]["string_id"])
                         g.write(article["abstract"])
 
-folder_path = "../data/adho_conferences/complete_dataset"
-folder_final_path = "../data/adho_conferences/one_folder_abstracts"
+folder_path = "../data/research_papers/complete_dataset"
+folder_final_path = "../data/research_papers/one_folder_abstracts"
 
 create_abstract_txt(folder_path, folder_final_path)
