@@ -28,37 +28,62 @@
 16. Images/visuals in DH
 
 to derive topics i used top relevant words + close reading of the 5 most significant documents for a topic. 
-## Topic 1: Linguistic analysis
+## Topic 1: corpus linguistics
 ### top 30 most relevant words
-syntact, align, english, text, phrase, sentenc, linguist, vowel, translat, lexic, languag, measur, greek, system, parser, nomin, featur, corpus, similar, pars, reorder, kurdish, intertextu, word, lucan, map, phonolog, varieti, use, modul
+text word translat corpus analysi literari author concept markup use mean work frequenc differ semant term write first result also textual form english model method delta novel languag test cluster
 ### interpretation
-1. create a tool to align and compare french homeric translations. field: translation studies, Classical Receptions studies that try to analyse the influence and adaptation of classical texts in modern and contemporary literature, theatre, cinema, and many other artistic fields
-2. Development and Testing of a Small-Size Olfactometer for the Perception of Food and Beverages in Humans ??? lol
-3. misurare variazione sintattica in testi tedeschi. correlazione, relazione... 
-4. identify lexically-similar passages in large collections of text using sequence alignment algorithms
-
-## Topic 2: Interactive games for CH
+1. Beyond Pragmatics: Disciplinary Profits of Interdisciplinary Approaches [...] develop a ‘digital heuristic’: a discovery tool that supports literary scholars in analysing narrative texts
+2. Migration and Biopolitics in Cultural Memory: Conceptual Modelling and Text Mining with Neural Word Embedding 
+3. The Stylometry of Collaborative Translation
+   
+## Topic 2: talks about a model/tool (can be developed or described)
 ### top 30 most relevant words
-comput, human, digit, game, system, develop, interact, museum, learn, project, disciplin, cultural heritage, experi, use, media, student, model, research, articl, provid, field, knowledg, design, social, applic, cultur, technolog, approach, player, need
+data research project model edit visual work develop digit human scholar design document user process technolog code softwar time tool also present collabor use cultur base imag object product interact
 ### interpretation
-1. Mapping by Observation: Building a User-Tailored Conducting System From Spontaneous Movements ... Interface metaphors, Digital Musical Instruments (DMIs) is the conductor-orchestra metaphor, usability
-2. Keeping the Game Alive: Evaluating Strategies for the Preservation of Console Video Games
-3. This paper analyzes the design space for crafting systems within games. A crafting system is the collection of game mechanics which enable a player to create virtual objects within a game ... 
-4. A system for embodied social active listening to sound and music content. This article introduces a model and a system for embodied social active listening to sound and music content ... interactive dance and music performance ... From the perspective of valorization of cultural heritage, this research provides engaging paradigms of interaction with prerecorded music content, enabling a large number of nonexpert users to rediscover the musical heritage. 
+1. OVAL: A Virtual Ecosystem for Immersive Scholarship and Teaching
+2. From Mapping the Republic of Letters to Humanities +Design Research Lab: Creating Visualization Tools for Humanistic Inquiry
+3. Unwrapping Codework: Towards an Ethnography of Coding in the Humanities
 
-## Topic 3: NLP - directed towards a very specific language segment or variation
+## Topic 3: digital philology/ history? 
 ### top 30 most relevant words
-dialect, distanc, imag, differ, use, linguist, variat, techniqu, word, studi, find, pronunci, putin, scribe, surnam, correl, multispectr, dialectolog, intellig, result, dialectometr, nudg, panorama, regress, analysi, nato, compar, work, charact, headlin
+manuscript place histor histori map text imag edit visual modern mediev project digit citi earli archiv collect librari newton geograph centuri book spatial align public use http data sourc london
 ### interpretation
-1. To What Extent are Surnames Words? Comparing Geographic Patterns of Surname and Dialect Variation in the Netherlands
-2. Linguistic Determinants of the Intelligibility of Swedish Words among Danes
-3. Deaf sentences over Ukraine: Mysticism versus ethics ... verbal code of President Putin and NATO Secretary-General Rasmussen during the Ukrainian crisis
-4. Use of the Chi-Squared Test to Examine Vocabulary Differences in English Language Corpora Representing Seven Different Countries ... vocabulary differences which reveal linguistic preferences in the various countries in which English is spoken
-5. #Halal Culture on Instagram
+1. Invisible Cities In Literature And History: Interfaces To Scalable Readings Of Textual And Visual Representations Of The Imaginary
+2. The TEI as Luminol: Forensic Philology in a Digital Age
+3. Using METS to Document Metadata for Image-Based Electronic Editions
 
-## Topic 4: literary analysis
+## Topic 4: xxx
 ### top 30 most relevant words
-sens, romanc, argument, model, gallo, storyset, faculti, sindhi, word, claus, disambigu, literatur, colloc, cohes, use, critic, urban, teach, ambigu, method, context, human, studi, mooc, test, analysi, modal, ital, occup, articl
+digit
+research
+preserv
+digital humanities
+archiv
+scholarship
+team
+faculti
+institut
+picasso
+roleplay
+project
+librari
+develop
+univers
+human
+scholar
+staff
+technolog
+communiti
+data
+cluster_
+work
+workshop
+skill
+flood
+collabor
+fund
+center
+support
 ### interpretation
 1. This article investigates the collocational behavior of English modal auxiliaries such as may and might with the aim of finding corpus-based measures that distinguish between different modal expressions and that allow insights into why speakers may choose one over another in a given context ... vector space. 
 2. This paper examines the patterns of Etruscan urbanism by the innovative use of newly available rural data, employing rank size, and indices of centralization.
