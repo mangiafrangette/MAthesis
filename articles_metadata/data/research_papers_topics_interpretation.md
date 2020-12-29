@@ -188,7 +188,7 @@ hypertext, syllabl, model, coptic, charact, digit, urban, vers, organolog, densi
 6. merging hypertext and film theory ... software for breaking a film down and examining its composition, montage, transitions, subliminal messages, and motifs - a process that may then be applied to hypertext
 7. Network Narration in John Dos Passos’s U.S.A. Trilogy
 
-## Topic 16: Images/visuals in DH
+## Topic 16: Images/visuals in DH | Multimedia x - Non textual
 ### top 30 most relevant words
 imag, document, histor, use, inform, studi, topic, inpaint, result, virtual, method, automat, font, visual, camera, realiti, propos, reconstruct, fragment, guqin, extract, damag, approach, color, base, heritag, time, articl, present, translat
 ### interpretation

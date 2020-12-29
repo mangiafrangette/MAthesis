@@ -13,6 +13,7 @@ import data_extraction
 import numpy as np
 import plotly.graph_objs as go
 import plotly
+import plotly.offline as offline
 
 
 def new_plot(world_df, columns_to_plot, slider_column):
@@ -25,16 +26,15 @@ def new_plot(world_df, columns_to_plot, slider_column):
 
     data_slider = []
     for year in world_df['year'].unique():
-        df_segmented = world_df[(world_df['years'] == year)]
+        df_segmented = world_df[(world_df['year'] == year)]
 
         for col in df_segmented.columns:
             df_segmented[col] = df_segmented[col].astype(str)
 
         data_each_yr = dict(
             type='choropleth',
-            locations=df_segmented['state'],
+            locations=world_df.index,
             z=df_segmented['sightings'].astype(float),
-            locationmode='USA-states',
             colorscale=scl,
             colorbar={'title': '# Sightings'})
 
@@ -50,9 +50,10 @@ def new_plot(world_df, columns_to_plot, slider_column):
 
     sliders = [dict(active=0, pad={"t": 1}, steps=steps)]
 
-    layout = dict(title='UFO Sightings by State Since 1998', geo=dict(scope='usa',
-                                                                      projection={'type': 'albers usa'}),
-                  sliders=sliders)
+    # layout = dict(title='UFO Sightings by State Since 1998', geo=dict(scope='usa',
+    #                                                                   projection={'type': 'albers usa'}),
+    #               sliders=sliders)
+    layout = dict(title='UFO Sightings by State Since 1998', geo=world_df.geometry, sliders=sliders)
 
     fig = dict(data=data_slider, layout=layout)
     # periscope.plotly(fig)
@@ -110,7 +111,8 @@ def geo_plot_slider(world_df, topic_to_plot, slider_column):
                         color=topic_to_plot,  # lifeExp is a column of gapminder
                         # hover_name="country", # column to add to hover information
                         color_continuous_scale=px.colors.sequential.Plasma)
-    fig.show()
+    # fig.show()
+    offline.plot(fig)
 
 
 def custom_geo_plot(world_df, columns_to_plot, slider_column):
@@ -189,15 +191,17 @@ def random_tests():
 
     df_articles, df_affiliations = df_manipulation.new_create_articles_dfs(path_of_files)
     df_topics = df_manipulation.create_topics_df(path_of_topics_csv)
-    productivity = data_extraction.productivity_country_per_topic(df_affiliations, df_topics)
+    productivity = data_extraction.productivity_country_per_topic(df_affiliations, df_topics, normalization='global')
     productivity = productivity.reset_index().set_index('iso_a3')
     world_df = df_manipulation.load_world_df()
     world_df = df_manipulation.add_data_to_world_df(world_df, productivity).sort_values(by=['year'])
     # print("oooooo"+productivity.query('year == "2008"').iloc[0, 0]+"oooo")
     # print(world_df['year'])
     # custom_geo_plot(world_df, ['2', '3'], 'year')
-    geo_plot_slider(world_df, '5', 'year')
+    geo_plot_slider(world_df, '2', 'year')
     # ble()
+    # new_plot(world_df,  ['2', '3'], 'year')
+
 
 if __name__ == '__main__':
     # main()

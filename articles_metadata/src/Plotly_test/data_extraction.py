@@ -38,21 +38,48 @@ def mean_abstract_length(articles_df):
     return pd.DataFrame({'iso_a3': mean_countries_dict.keys(), 'mean number of character per abstract': mean_countries_dict.values()}).set_index('iso_a3')
 
 
-def productivity_country_per_topic(df_affiliations, df_topics):
+# def productivity_country_per_topic(df_affiliations, df_topics, normalization="itra_country"):
+#     # precomputation:
+#     num_affs_series = df_affiliations.reset_index().groupby('article').size()#['affiliation']
+#     df_affs_topics = pd.DataFrame({'article': num_affs_series.index, 'num affs': num_affs_series.values}).set_index('article').merge(df_topics, on='article').merge(df_affiliations['year'], on='article')
+#
+#     df_articles_topics_distributed = df_affs_topics[df_affs_topics.columns.difference(['num affs', 'year'])].div(df_affs_topics.iloc[:, 0], axis='rows')
+#     df_affs_topics_distributed = df_affiliations.reset_index().set_index('article').merge(df_articles_topics_distributed, on='article')
+#     df_country_topics_absolut_productivity = df_affs_topics_distributed.groupby(['iso_a3', 'year']).sum()
+#     if normalization == "intra_country":
+#         df_country_topics_relative_productivity = df_country_topics_absolut_productivity.div(
+#             df_country_topics_absolut_productivity.sum(axis='columns'), axis='rows')
+#     elif normalization == "global":
+#         df_country_topics_relative_productivity = df_country_topics_absolut_productivity.div(
+#             df_country_topics_absolut_productivity.groupby('year').sum(), axis='rows')
+#     else:
+#         raise ValueError("normalization can be set only to 'intra_country' or 'global'")
+#     return df_country_topics_relative_productivity
+
+
+def productivity_country_per_topic(df_affiliations, df_topics, normalization='local'):
     # precomputation:
     num_affs_series = df_affiliations.reset_index().groupby('article').size()#['affiliation']
-    # print(pd.DataFrame({'article': num_affs_series.index, 'num affs': num_affs_series.values}).set_index('article').merge(df_affiliations['year'], on='article'))
     df_affs_topics = pd.DataFrame({'article': num_affs_series.index, 'num affs': num_affs_series.values}).set_index('article').merge(df_topics, on='article').merge(df_affiliations['year'], on='article')
-    # print(df_affs_topics)#.set_index(['year', 'iso_a3']))
-    # test = df_affs_topics.iloc[:, 1::].div(df_affs_topics.iloc[:, 0], axis='rows')
-    # test = df_affs_topics.loc[:, (df_topics.columns != 'num affs') & (df_topics.columns != 'year')].div(df_affs_topics.iloc[:, 0], axis='rows')
-    test = df_affs_topics[df_affs_topics.columns.difference(['num affs', 'year'])].div(df_affs_topics.iloc[:, 0], axis='rows')
-    test2 = df_affiliations.reset_index().set_index('article').merge(test, on='article')
-    test3 = test2.groupby(['iso_a3', 'year']).sum()
-    test4 = test3.div(test3.sum(axis=1), axis=0)
-    # print(test4.query('country=="Italy"').idxmax(axis="columns"))
-    # print(test4['1'].max())
-    return test4
+
+    df_articles_topics_distributed = df_affs_topics[df_affs_topics.columns.difference(['num affs', 'year'])].div(df_affs_topics.iloc[:, 0], axis='rows')
+    df_affs_topics_distributed = df_affiliations.reset_index().set_index('article').merge(df_articles_topics_distributed, on='article')
+    df_country_topics_absolut_productivity = df_affs_topics_distributed.groupby(['iso_a3', 'year']).sum()
+    if normalization == 'local':
+        df_country_topics_relative_productivity = df_country_topics_absolut_productivity.div(
+            df_country_topics_absolut_productivity.sum(axis='columns'), axis='rows')
+        df_country_topics_relative_productivity['normalization'] = normalization
+    elif normalization == 'global':
+        df_country_topics_relative_productivity = df_country_topics_absolut_productivity.div(
+            df_country_topics_absolut_productivity.groupby('year').sum(), axis='rows')
+        df_country_topics_relative_productivity['normalization'] = normalization
+    elif normalization == 'both':
+        df_productivity_global = productivity_country_per_topic(df_affiliations, df_topics, normalization='global')
+        df_productivity_local = productivity_country_per_topic(df_affiliations, df_topics, normalization='local')
+        df_country_topics_relative_productivity = pd.concat([df_productivity_global, df_productivity_local])
+    else:
+        raise ValueError("normalization can be set only to 'local', 'global' or 'both'")
+    return df_country_topics_relative_productivity
 
 
 def random_tests():
@@ -76,9 +103,14 @@ def random_tests():
     # print("\n\n\n")
     # print(df3)
 
-    df_prod = productivity_country_per_topic(df_aff, df_topics)
+    # df_prod_glob = productivity_country_per_topic(df_aff, df_topics, normalization='global')
+    # df_prod_loc = productivity_country_per_topic(df_aff, df_topics, normalization='local')
     # df_prod.to_csv("df_prod.csv", index=True, header=True)
-    print(df_prod)
+    # df_tot = pd.concat([df_prod_glob, df_prod_loc])#, keys=['global', 'local'])
+    # print(df_tot)
+    # print(df_prod_glob.merge(df_prod_loc, on='normalization'))
+    df_tot = productivity_country_per_topic(df_aff, df_topics, normalization='both')
+    print(df_tot.query("iso_a3 == 'USA'"))
 
 
 
