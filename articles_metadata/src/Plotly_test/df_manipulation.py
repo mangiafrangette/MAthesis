@@ -162,22 +162,25 @@ def main():
     path_of_csv_for_DataStudio_research_papers = "research_wolrd_df_DataStudio_bubble.csv"
     path_of_csv_for_DataStudio_conference_papers = "conference_wolrd_df_DataStudio_bubble.csv"
     hypertopics_aggregation_dict_research = {
-        "NLP": ["1", "3", "6", "9", "10"],
-        "Computational literary analysis": ["4", "11", "12", "15"],
-        "Digital scholarly editing": ["5"],
-        "Data preservation": ["7", "8", "14"],
+        "Text analysis/mining": ["1", "3", "4", "9", "11", "12"],
+        "Digital heritage and multimedia": ["2", "16"],
+        "Textual scholarship": ["5"],
+        "Data preservation and  digital curation": ["7", "8", "14"],
         "DH discipline": ["13"],
-        "Games and interactivity in CH": ["2"],
-        "Visual DH": ["16"]
+        "NLP": ["10"],
+        "Other": ["6"],
+        "Other/Hypertext": ["15"]
     }
     hypertopics_aggregation_dict_conference = {
         "Text analysis and mining": ["8"],
         "Literary text analysis": ["1", "6"],
-        "Textual editing": ["7", "9"],
+        "Textual scholarship": ["7", "9"],
         "Data preservation and curation": ["4"],
         "DH discipline": ["2", "11"],
         "Digital history": ["3"],
-        "Digital libraries": ["10"]
+        "Digital libraries": ["10"],
+        "Other/Measuring": ["5"],
+        "Other": ["12"]
     }
 
     # OUTPUT: IT WRITES THE CSV TO UPLOAD IN DATASTUDIO
