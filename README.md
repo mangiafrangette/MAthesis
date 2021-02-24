@@ -24,6 +24,6 @@ In ```articles-metadata/src``` there are all the scripts I used to get, clean, a
 
 ```topic_models``` directory contains input and output data used within MITAO, a tool for mashing up automatic text analysis tools, and creating a completely customizable visual workflow (https://github.com/catarsi/mitao) [2]. The topic modeling results are divided in two folders, one for each of the datasets. 
 
-# References
+## References
 [1] Francesca Mangialardo, & Peroni Silvio. (2021). Methodology data of "Twenty years of research in Digital Humanities: a topic modeling study" (Version Version 1) [Data set]. Zenodo. http://doi.org/10.5281/zenodo.4552436
 [2] Ferri, P., Heibi, I., Pareschi, L., & Peroni, S. (2020). MITAO: A User Friendly and Modular Software for Topic Modelling [JD]. PuntOorg International Journal, 5(2), 135–149. https://doi.org/10.19245/25.05.pij.5.2.3
