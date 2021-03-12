@@ -60,7 +60,7 @@
                 {
                    "original_name":"Independent Artist, Germany",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Germany",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -714,7 +714,7 @@
                 {
                    "original_name":"Le Mans Université",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"France",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -866,7 +866,7 @@
                 {
                    "original_name":"EPFL, Switzerland",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Switzerland",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -881,7 +881,7 @@
                 {
                    "original_name":"EPFL, Switzerland",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Switzerland",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -896,7 +896,7 @@
                 {
                    "original_name":"EPFL, Switzerland",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Switzerland",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -911,7 +911,7 @@
                 {
                    "original_name":"EPFL, Switzerland",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Switzerland",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -1115,7 +1115,7 @@
                 {
                    "original_name":"Université Polytechnique Hauts-de-France",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"France",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -1130,7 +1130,7 @@
                 {
                    "original_name":"UCLA",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"United States",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -1175,7 +1175,7 @@
                 {
                    "original_name":"KNAW Humanities Cluster",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Netherlands",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -1517,14 +1517,23 @@
              "family":"Benardou",
              "affiliation":[
                 {
-                   "original_name":"University of Glasgow / ATHENA R.C.",
+                   "original_name":"University of Glasgow",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"United Kingdom",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
                    }
-                }
+                },
+                {
+                  "original_name":"ATHENA R.C.",
+                  "normalized_name":null,
+                  "country":"Greece",
+                  "identifiers":{
+                     "ror":null,
+                     "GRID":null
+                  }
+               }
              ]
           },
           {
@@ -1594,14 +1603,23 @@
              "family":"Benardou",
              "affiliation":[
                 {
-                   "original_name":"University of Glasgow / ATHENA R.C., Greece",
+                   "original_name":"University of Glasgow",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"United Kingdom",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
                    }
-                }
+                },
+                {
+                  "original_name":"ATHENA R.C., Greece",
+                  "normalized_name":null,
+                  "country":"Greece",
+                  "identifiers":{
+                     "ror":null,
+                     "GRID":null
+                  }
+               }
              ]
           }
        ],
@@ -1768,7 +1786,7 @@
                 {
                    "original_name":"Coverwallet, Spain",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Spain",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -1891,7 +1909,7 @@
                 {
                    "original_name":"University of Maryland, United States of America",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"United States",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -2001,7 +2019,7 @@
                 {
                    "original_name":"University of Applied Sciences Potsdam, Potsdam, Germany",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Germany",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -2016,7 +2034,7 @@
                 {
                    "original_name":"University of Applied Sciences Potsdam, Potsdam, Germany",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Germany",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -2031,7 +2049,7 @@
                 {
                    "original_name":"University of Applied Sciences Potsdam, Potsdam, Germany",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Germany",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -2204,7 +2222,7 @@
                 {
                    "original_name":"IRHT (CNRS), France",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"France",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -2219,7 +2237,7 @@
                 {
                    "original_name":"IRHT (CNRS), France",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"France",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -2234,7 +2252,7 @@
                 {
                    "original_name":"IJP (PAN), Poland",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Poland",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -2249,7 +2267,7 @@
                 {
                    "original_name":"IRHT (CNRS), France",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"France",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -2294,7 +2312,7 @@
                 {
                    "original_name":"Laboratoire Langues, Textes, Traitements informatique, Cognition (Lattice, CNRS, ENS & Université Paris 3)",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"France",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -2309,7 +2327,7 @@
                 {
                    "original_name":"Laboratoire Langues, Textes, Traitements informatique, Cognition (Lattice, CNRS, ENS & Université Paris 3)",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"France",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -2324,7 +2342,7 @@
                 {
                    "original_name":"Laboratoire Langues, Textes, Traitements informatique, Cognition (Lattice, CNRS, ENS & Université Paris 3)",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"France",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -2564,7 +2582,7 @@
                 {
                    "original_name":"SADiLaR, South Africa",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"South Africa",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -2579,7 +2597,7 @@
                 {
                    "original_name":"SADiLaR, South Africa",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"South Africa",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -3004,7 +3022,7 @@
                 {
                    "original_name":"BBC, United Kingdom",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"United Kingdom",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -3019,7 +3037,7 @@
                 {
                    "original_name":"BBC, United Kingdom",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"United Kingdom",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -3034,7 +3052,7 @@
                 {
                    "original_name":"BBC, United Kingdom",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"United Kingdom",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -3049,7 +3067,7 @@
                 {
                    "original_name":"BBC, United Kingdom",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"United Kingdom",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -3223,7 +3241,7 @@
                 {
                    "original_name":"William & Mary, United States of America",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"United States",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -3704,7 +3722,7 @@
                 {
                    "original_name":"DHLAB-EPFL, Switzerland",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Switzerland",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -3749,7 +3767,7 @@
                 {
                    "original_name":"DHLAB-EPFL, Switzerland",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Switzerland",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -3905,7 +3923,7 @@
                 {
                    "original_name":"Huma-Num (CNRS) - OPERAS, France",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"France",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -4029,7 +4047,7 @@
                 {
                    "original_name":"Universität Würzburg, Germany",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Germany",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -4162,7 +4180,7 @@
                 {
                    "original_name":"DANS, KNAW, Netherlands",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Netherlands",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -4614,7 +4632,7 @@
                 {
                    "original_name":"Austrian Centre for Digital Humanities at the Austrian Academy of Sciences",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Austria",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -4629,7 +4647,7 @@
                 {
                    "original_name":"Göttingen State and University Library",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Germany",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -4766,7 +4784,7 @@
                 {
                    "original_name":"Leiden University Centre for Linguistics; Leiden Centre of Data Science Research; Leiden University Centre for Digital Humanities",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Netherlands",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -4878,7 +4896,7 @@
                 {
                    "original_name":"Université de Tours, France",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"France",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -5043,7 +5061,7 @@
                 {
                    "original_name":"Le Mans Université",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"France",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -5088,7 +5106,7 @@
                 {
                    "original_name":"U. Sorbonne Nouvelle, France",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"France",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -5443,7 +5461,7 @@
                 {
                    "original_name":"Aalborg University TANTLab, Denmark",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Denmark",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -5848,7 +5866,7 @@
                 {
                    "original_name":"National Institute of Information, Japan,",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Japan",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -5909,7 +5927,7 @@
                 {
                    "original_name":"ENS de Lyon, France",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"France",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -6181,7 +6199,7 @@
                 {
                    "original_name":"Basel University Switzerland, Switzerland",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Switzerland",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -6241,7 +6259,7 @@
                 {
                    "original_name":"Basel University Switzerland, Switzerland",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Switzerland",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -6348,7 +6366,7 @@
                 {
                    "original_name":"Stanford, United States of America",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"United States",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -6363,7 +6381,7 @@
                 {
                    "original_name":"Stanford, United States of America",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"United States",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -6629,7 +6647,7 @@
                 {
                    "original_name":"Institute of Philosophy of the Czech Academy of Sciences ; National Institute of Informatics",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Czechia",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -6825,7 +6843,7 @@
                 {
                    "original_name":"U St. Gallen, Switzerland",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Switzerland",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -6840,7 +6858,7 @@
                 {
                    "original_name":"U of Passau, Germany",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Germany",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -6855,7 +6873,7 @@
                 {
                    "original_name":"U St. Gallen, Switzerland",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Switzerland",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -6870,7 +6888,7 @@
                 {
                    "original_name":"U of Passau, Germany",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Germany",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -6885,7 +6903,7 @@
                 {
                    "original_name":"U of Passau, Germany",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Germany",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -6900,7 +6918,7 @@
                 {
                    "original_name":"U of Passau, Germany",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Germany",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -7421,7 +7439,7 @@
                 {
                    "original_name":"ATHENA R.C., Greece",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Greece",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -7878,7 +7896,7 @@
                 {
                    "original_name":"University of Applied Sciences Potsdam, Germany",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Germany",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -7893,7 +7911,7 @@
                 {
                    "original_name":"University of Applied Sciences Potsdam, Germany",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Germany",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -7938,7 +7956,7 @@
                 {
                    "original_name":"University of Applied Sciences Potsdam, Germany",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Germany",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -8282,7 +8300,7 @@
                 {
                    "original_name":"Inria ALMAnaCH, Paris; Centre Marc Bloch, Berlin; Paris Diderot University, Paris",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"France",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -8847,7 +8865,7 @@
                 {
                    "original_name":"Adam Mickiewicz University, Poland",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Poland",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -9091,7 +9109,7 @@
                 {
                    "original_name":"Heidelberg Collaboratory for Image Processing, Germany",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Germany",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -9106,7 +9124,7 @@
                 {
                    "original_name":"Heidelberg Collaboratory for Image Processing, Germany",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Germany",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -9121,7 +9139,7 @@
                 {
                    "original_name":"Heidelberg Collaboratory for Image Processing, Germany",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Germany",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -9363,7 +9381,7 @@
                 {
                    "original_name":"Le Mans Université",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"France",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -9985,7 +10003,7 @@
                 {
                    "original_name":"University of Amsterdam/Huygens ING",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Netherlands",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -10218,7 +10236,7 @@
                 {
                    "original_name":"Texas A&M University, United States of America",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"United States",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -10233,7 +10251,7 @@
                 {
                    "original_name":"Texas A&M University, United States of America",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"United States",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -10293,7 +10311,7 @@
                 {
                    "original_name":"University of Notthingham, United Kingdom",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"United Kingdom",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -10582,7 +10600,7 @@
                 {
                    "original_name":"University of North Carolina",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"United States",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -10802,7 +10820,7 @@
                 {
                    "original_name":"Canada Research Chair in digital textualities, Canada",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Canada",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -10817,7 +10835,7 @@
                 {
                    "original_name":"Canada Research Chair in digital textualities, Canada",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Canada",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -10832,7 +10850,7 @@
                 {
                    "original_name":"CRIHN : Centre de Recherche Interuniversitaire sur les Humanités Numériques",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Canada",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -10862,7 +10880,7 @@
                 {
                    "original_name":"Canada Research Chair in digital textualities, Canada",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Canada",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -10954,7 +10972,7 @@
                 {
                    "original_name":"Center for the Study of Digital Libraries, Texas A&M University",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"United States",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -11332,7 +11350,7 @@
                 {
                    "original_name":"The University of Edinburg, United Kingdom",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"United Kingdom",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -12200,7 +12218,7 @@
                 {
                    "original_name":"Department of History, Masaryk University in Brno, Czech Republic",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Czechia",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -12428,7 +12446,7 @@
                 {
                    "original_name":"ISTI-CNR",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Italy",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -12443,7 +12461,7 @@
                 {
                    "original_name":"ISTI-CNR",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Italy",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -12458,7 +12476,7 @@
                 {
                    "original_name":"ISTI-CNR",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Italy",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -13176,7 +13194,7 @@
                 {
                    "original_name":"Texas A&M University",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"United States",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -13191,7 +13209,7 @@
                 {
                    "original_name":"Instituto de Investigaciones Bibliográficas at the Universidad Nacional Autónoma de México",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Mexico",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -13266,7 +13284,7 @@
                 {
                    "original_name":"National Library of Norway",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Norway",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -13312,7 +13330,7 @@
                 {
                    "original_name":"Perm State National Research University, Russian Federation",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Russia",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -13362,7 +13380,7 @@
                 {
                    "original_name":"LARHRA (CNRS), France",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"France",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -13377,7 +13395,7 @@
                 {
                    "original_name":"LARHRA (CNRS), France",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"France",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -13552,7 +13570,7 @@
                 {
                    "original_name":"New York University Abu Dhabi, Abu Dhabi, United Arab Emirates",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"United Arab Emirates",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -13567,7 +13585,7 @@
                 {
                    "original_name":"New York University Abu Dhabi, Abu Dhabi, United Arab Emirates",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"United Arab Emirates",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -13724,7 +13742,7 @@
                 {
                    "original_name":"CITERES-LAT CNRS/Université de Tours, France; consortium MASA (TGIR Huma-Num)",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"France",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -13739,7 +13757,7 @@
                 {
                    "original_name":"CITERES-LAT CNRS/Université de Tours, France; consortium MASA (TGIR Huma-Num)",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"France",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -14095,7 +14113,7 @@
                 {
                    "original_name":"University of Wuerzburg, Germany",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Germany",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -14125,7 +14143,7 @@
                 {
                    "original_name":"University of Wuerzburg, Germany",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Germany",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -14338,7 +14356,7 @@
                 {
                    "original_name":"Texas A&M University, United States of America",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"United States",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -14765,7 +14783,7 @@
                 {
                    "original_name":"CWI, Amsterdam",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Netherlands",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -14810,7 +14828,7 @@
                 {
                    "original_name":"CWI, Amsterdam",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Netherlands",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -14825,7 +14843,7 @@
                 {
                    "original_name":"CWI, Amsterdam",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Netherlands",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -15258,7 +15276,7 @@
                 {
                    "original_name":"Black Mesa Technologies LLC, United States of America",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"United States",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -15693,7 +15711,7 @@
                 {
                    "original_name":"CIRMMT, McGilll University, Canada",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Canada",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -15708,7 +15726,7 @@
                 {
                    "original_name":"CIRMMT, McGilll University, Canada",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Canada",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -15723,7 +15741,7 @@
                 {
                    "original_name":"CIRMMT, McGilll University, Canada",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Canada",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -16001,7 +16019,7 @@
                 {
                    "original_name":"Insight Centre for Data Analytics, Galway",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Ireland",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -16458,7 +16476,7 @@
                 {
                    "original_name":"Institute of Czech Literature of the Czech Academy of Sciences, Czech Republic",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Czechia",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -16473,7 +16491,7 @@
                 {
                    "original_name":"Institute of Literary Research of the Polish Academy of Sciences, Poland",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Poland",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -16488,7 +16506,7 @@
                 {
                    "original_name":"Institute of Literary Research of the Polish Academy of Sciences, Poland",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Poland",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -16623,7 +16641,7 @@
                 {
                    "original_name":"Trevor Day School, United States of America",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"United States",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -16807,7 +16825,7 @@
                 {
                    "original_name":"Radboud University, the Netherlands",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Netherlands",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -16822,7 +16840,7 @@
                 {
                    "original_name":"LMU, Munich, Germany",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Germany",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -16897,7 +16915,7 @@
                 {
                    "original_name":"Erasmus Studio, University of Rotterdam, the Netherlands",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Netherlands",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -17018,7 +17036,7 @@
                 {
                    "original_name":"NIOD Institute for War, Holocaust, and Genocide Studies, Netherlands, The",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Netherlands",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -17079,7 +17097,7 @@
                 {
                    "original_name":"Digitale Akademie der Akademie der Wissenschaften und der Literatur Mainz",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Germany",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -17109,7 +17127,7 @@
                 {
                    "original_name":"Digitale Akademie der Akademie der Wissenschaften und der Literatur Mainz",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Germany",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -17325,7 +17343,7 @@
                 {
                    "original_name":"Universität Graz, Austria",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Austria",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -17798,7 +17816,7 @@
                 {
                    "original_name":"KNAW Humanities Cluster, The Netherlands",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Netherlands",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -18055,14 +18073,23 @@
              "family":"Erdmann",
              "affiliation":[
                 {
-                   "original_name":"Computational Approaches to Modeling Language Lab, New York University Abu Dhabi, United Arab Emirates; Department of Linguistics, Ohio State University, Ohio, USA",
+                   "original_name":"Computational Approaches to Modeling Language Lab, New York University Abu Dhabi, United Arab Emirates",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"United Arab Emirates",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
                    }
-                }
+                },
+                {
+                  "original_name":"Department of Linguistics, Ohio State University, Ohio, USA",
+                  "normalized_name":null,
+                  "country":"United States",
+                  "identifiers":{
+                     "ror":null,
+                     "GRID":null
+                  }
+               }
              ]
           },
           {
@@ -18072,7 +18099,7 @@
                 {
                    "original_name":"Digital Humanities, New York University Abu Dhabi, United Arab Emirates",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"United Arab Emirates",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -18133,7 +18160,7 @@
                 {
                    "original_name":"University of Applied Sciences Potsdam, Germany",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Germany",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -18148,7 +18175,7 @@
                 {
                    "original_name":"University of Applied Sciences Potsdam, Germany",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Germany",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -18163,7 +18190,7 @@
                 {
                    "original_name":"University of Applied Sciences Potsdam, Germany",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Germany",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -18208,7 +18235,7 @@
                 {
                    "original_name":"NIOD Institute for War, Holocaust and Genocide Studies",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Netherlands",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
@@ -18311,7 +18338,7 @@
                 {
                    "original_name":"Luxembourg Centre for Contemporary and Digital History (C²DH), Luxembourg",
                    "normalized_name":null,
-                   "country":null,
+                   "country":"Luxembourg",
                    "identifiers":{
                       "ror":null,
                       "GRID":null
